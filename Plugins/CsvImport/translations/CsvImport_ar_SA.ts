@@ -4,24 +4,23 @@
 <context>
     <name>CsvImport</name>
     <message>
-        <location filename="../csvimport.cpp" line="31"/>
+        <location filename="../csvimport.cpp" line="32"/>
         <source>Cannot read file %1</source>
         <translation type="unfinished">Cannot read file %1</translation>
     </message>
     <message>
-        <location filename="../csvimport.cpp" line="63"/>
+        <location filename="../csvimport.cpp" line="64"/>
         <source>Could not find any data in the file %1.</source>
         <translation type="unfinished">Could not find any data in the file %1.</translation>
     </message>
     <message>
-        <location filename="../csvimport.cpp" line="169"/>
+        <location filename="../csvimport.cpp" line="170"/>
         <source>Enter the custom separator character.</source>
         <translation type="unfinished">Enter the custom separator character.</translation>
     </message>
     <message>
-        <location filename="../csvimport.cpp" line="192"/>
         <source>CSV files (*.csv);;Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">CSV files (*.csv);;Text files (*.txt);;All files (*)</translation>
+        <translation type="obsolete">CSV files (*.csv);;Text files (*.txt);;All files (*)</translation>
     </message>
 </context>
 <context>
