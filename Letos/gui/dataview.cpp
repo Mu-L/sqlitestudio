@@ -122,6 +122,7 @@ void DataView::initFilter()
     filterEdit->setExpanding(true);
     filterEdit->setClearButtonEnabled(true);
     filterEdit->setPlaceholderText(tr("Filter data", "data view"));
+    filterEdit->setToolTip(tr("Filter by value in any column", "data view"));
     connect(filterEdit, SIGNAL(valueErased()), this, SLOT(resetFilter()));
     connect(filterEdit, SIGNAL(returnPressed()), this, SLOT(applyFilter()));
 }
@@ -706,19 +707,20 @@ void DataView::resizeFilter(int section, int oldSize, int newSize)
 
 void DataView::togglePerColumnFiltering()
 {
-    bool enable = actionMap[FILTER_PER_COLUMN]->isChecked();
-    CFG_UI.General.ShowPerColumnFilters.set(enable);
+    bool perColumnEnable = actionMap[FILTER_PER_COLUMN]->isChecked();
+    CFG_UI.General.ShowPerColumnFilters.set(perColumnEnable);
 
-    bool needsReload = enable && !filterEdit->text().isEmpty();
+    bool needsReload = perColumnEnable && !filterEdit->text().isEmpty();
     if (needsReload)
         filterEdit->clear();
 
-    filterEdit->setEnabled(!enable);
+    actionMap[FILTER_VALUE]->setVisible(!perColumnEnable);
+    filterEdit->setEnabled(!perColumnEnable);
     if (actionMap[FILTER_SQL]->isChecked())
         actionMap[FILTER_STRING]->setChecked(true);
 
-    actionMap[FILTER_SQL]->setEnabled(!enable);
-    perColumnAreaParent->setVisible(enable);
+    actionMap[FILTER_SQL]->setEnabled(!perColumnEnable);
+    perColumnAreaParent->setVisible(perColumnEnable);
 
     recreateFilterInputs();
     if (needsReload)

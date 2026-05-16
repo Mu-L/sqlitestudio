@@ -1874,12 +1874,14 @@ void TableWindow::updateFont()
 
 void TableWindow::dbChanged()
 {
-    disconnect(db, SIGNAL(dbObjectDeleted(QString,QString,DbObjectType)), this, SLOT(checkIfTableDeleted(QString,QString,DbObjectType)));
+    if (db)
+        disconnect(db, SIGNAL(dbObjectDeleted(QString,QString,DbObjectType)), this, SLOT(checkIfTableDeleted(QString,QString,DbObjectType)));
 
     db = ui->dbCombo->currentDb();
     dataModel->setDb(db);
 
-    connect(db, SIGNAL(dbObjectDeleted(QString,QString,DbObjectType)), this, SLOT(checkIfTableDeleted(QString,QString,DbObjectType)));
+    if (db)
+        connect(db, SIGNAL(dbObjectDeleted(QString,QString,DbObjectType)), this, SLOT(checkIfTableDeleted(QString,QString,DbObjectType)));
 }
 
 void TableWindow::handlePossibleIdxOrTrgRename(Db* db, const QString& database, const QString& oldObject, const QString& newObject)
