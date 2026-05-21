@@ -114,7 +114,6 @@ jobs:
                   qt6-declarative:p
                   qt6-imageformats:p
                   qt6-svg:p
-                  wineditline:p
                   zlib:p
                   7zip:p
                   cc:p
@@ -150,6 +149,13 @@ jobs:
               uses: actions/checkout@v6
               with:
                 ref: ${{ env.BRANCH_NAME }}
+
+            - name: Determine Letos version
+              shell: msys2 {0}
+              run: |
+                LETOS_VERSION=$(scripts/version_from_source.sh)
+                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
+                echo "PACKAGE_VERSION=${LETOS_VERSION}-windows-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
 
             - name: "[Prerequisites] Prepare ccache"
               if: inputs.use_ccache || false
@@ -194,17 +200,6 @@ jobs:
                 cp Letos/gui/img/letos.ico "$ABSOLUTE_PORTABLE_DIR"/appicon.ico
                 cp Letos/gui/img/letos.svg "$ABSOLUTE_PORTABLE_DIR"/appicon.svg
 
-            - name: "[Assembling] Determine Letos version"
-              shell: msys2 {0}
-              run: |
-                set -x
-                cd $ABSOLUTE_PORTABLE_DIR
-                ./letoscli.exe --version
-                LETOS_VERSION=$(./letoscli.exe --version | cut -f 2 -d ' ')
-                [ -n "$LETOS_VERSION" ] || exit 1
-                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
-                echo "PACKAGE_VERSION=${LETOS_VERSION}-windows-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
-                
             - name: "[Assembling] Assemble portable package"
               shell: msys2 {0}
               run: |

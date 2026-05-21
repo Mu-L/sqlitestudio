@@ -131,13 +131,6 @@ ntldd -R letos.exe | \
  xargs -I {} cygpath -u {} | \
  xargs -I {} cp -u {} .
 
-# Copy dependencies of letoscli.exe
-ntldd letoscli.exe | \
- sed 's/.*=> \(.*\) (0x.*/\1/' | \
- sed 's/\\/\//g' | grep ${MINGW_PREFIX} | \
- xargs -I {} cygpath -u {} | \
- xargs -I {} cp -u {} .
-
 # Copy dependencies of plugins
 ntldd -R plugins/*.dll | \
   sed -n 's/.*=> \(.*\) (0x.*/\1/p' | \

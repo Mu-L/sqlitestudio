@@ -22,9 +22,18 @@ fi
 
 echo "Verbosity level: $quiet"
 
+ORIGINAL_DIR=$(pwd)
+SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+
 PYTHON_VERSION="${PYTHON_VERSION:-3.9}"
 BACKGROUND_IMG=""  # TODO
 BACKGROUND_RGB="56 168 243"
+
+cleanup() {
+    cd "$ORIGINAL_DIR"
+}
+
+trap cleanup EXIT INT TERM
 
 abort() { echo "ERROR: $@"; exit 1; }
 debug() { [ "$quiet" -gt 2 ] && echo "DEBUG: $@"; }
@@ -139,7 +148,6 @@ debug "lib:" "$(ls -l "$libdir")"
 
 rm -rf Letos.app/Contents/Frameworks
 rm -rf Letos.app/Contents/PlugIns
-rm -f Letos.app/Contents/MacOS/letoscli
 rm -f Letos.app/Contents/Resources/qt.conf
 
 mkdir Letos.app/Contents/Frameworks
@@ -155,18 +163,10 @@ cp -RP lib/lib*Letos*.dylib Letos.app/Contents/Frameworks
 # Determine our version before any patching, while we have a presumably working binary
 export DYLD_FRAMEWORK_PATH=$QT_ROOT_DIR/lib
 export DYLD_LIBRARY_PATH=lib:$QT_ROOT_DIR/lib:$libdir
-VERSION="$(./letoscli -v | awk '{print $2}')"
+VERSION="$($SCRIPT_DIR/../version_from_source.sh)"
 [ -n "$VERSION" ] || abort "could not determine Letos version"
 
 BUILD_ARCHS="$(lipo -archs Letos.app/Contents/MacOS/Letos)"
-
-# CLI paths
-qtcore_path=`otool -L letoscli | awk '/QtCore/ {print $1;}'`
-new_qtcore_path="@rpath/QtCore.framework/Versions/A/QtCore"
-
-cp -P letoscli Letos.app/Contents/MacOS
-install_name_tool -change libcoreLetos.1.dylib "@rpath/libcoreLetos.1.dylib" Letos.app/Contents/MacOS/letoscli
-install_name_tool -change "$qtcore_path" "$new_qtcore_path" Letos.app/Contents/MacOS/letoscli
 
 # Letos binary paths
 install_name_tool -change libcoreLetos.1.dylib "@rpath/libcoreLetos.1.dylib" Letos.app/Contents/MacOS/Letos
@@ -249,7 +249,6 @@ elif [ "$3" = "dist" ]; then
     deploy_qt Letos.app -executable=Letos.app/Contents/MacOS/Letos
 
     # Fix executable's RPATH
-    run install_name_tool -add_rpath @executable_path/../Frameworks Letos.app/Contents/MacOS/letoscli
     run install_name_tool -add_rpath @executable_path/../Frameworks Letos.app/Contents/MacOS/Letos
 
     # Fix sqlite3 file in the image
@@ -273,7 +272,6 @@ elif [ "$3" = "dist" ]; then
 
     assert_no_dylib_problems Letos.app
 
-    VERSION=`Letos.app/Contents/MacOS/letoscli -v | awk '{print $2}'`
     [ -n "$VERSION" ] || abort "could not determine Letos version"
 
     ls -l

@@ -212,6 +212,12 @@ jobs:
                 ref: main
                 path: gh-scripts
 
+            - name: Determine Letos version
+              run: |
+                LETOS_VERSION=$(scripts/version_from_source.sh)
+                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
+                echo "PACKAGE_VERSION=${LETOS_VERSION}-linux-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
+
             - name: Setup GH scripts path
               shell: bash
               run: |
@@ -338,9 +344,9 @@ jobs:
 
             - name: Build packages
               run: |
-                chmod +x Letos/create_macosx_bundle.sh
+                chmod +x scripts/macos/create_macosx_bundle.sh
                 export DEP_LIB_DIR="$(cd ../lib && pwd)"
-                DEBUG_LEVEL=3 Letos/create_macosx_bundle.sh output $QT_ROOT_DIR dist
+                DEBUG_LEVEL=3 scripts/macos/create_macosx_bundle.sh output $QT_ROOT_DIR dist
 
             - name: Determine Letos version
               working-directory: output/Letos
@@ -354,13 +360,8 @@ jobs:
                     lipo -archs "$FILE"
                 done
 
-                echo "Arch for: Letos.app/Contents/MacOS/letoscli"
-                lipo -archs Letos.app/Contents/MacOS/letoscli
-
-                LETOS_VERSION=$(Letos.app/Contents/MacOS/letoscli -v | awk '{print $2}')
-                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
-                echo "PACKAGE_VERSION=${LETOS_VERSION}-macos-universal" >> $GITHUB_ENV
-                echo "INSTALLER_BIN_PREFIX=/Volumes/Letos-${LETOS_VERSION}" >> $GITHUB_ENV
+                echo "Arch for: Letos.app/Contents/MacOS/letos"
+                lipo -archs Letos.app/Contents/MacOS/letos
 
             - name: Rename portable package
               working-directory: output/Letos

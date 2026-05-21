@@ -34,7 +34,7 @@ jobs:
 
                 dirs=()
 
-                for p in core gui letos letoscli
+                for p in core gui letos
                 do
                     dirs+=("Letos/$p")
                 done

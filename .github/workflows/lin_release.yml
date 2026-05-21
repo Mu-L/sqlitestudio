@@ -149,6 +149,12 @@ jobs:
               with:
                 ref: ${{ env.BRANCH_NAME }}
 
+            - name: Determine Letos version
+              run: |
+                LETOS_VERSION=$(scripts/version_from_source.sh)
+                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
+                echo "PACKAGE_VERSION=${LETOS_VERSION}-linux-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
+
             - name: Pre-download SQLite vanilla sourcecode
               shell: bash
               run: |
@@ -347,7 +353,6 @@ jobs:
                 patchelf --set-rpath '$ORIGIN'          lib/libicu*.*.*
                 patchelf --set-rpath '$ORIGIN'          lib/libcoreLetos.so lib/libguiLetos.so 2>&1 >/dev/null
                 patchelf --set-rpath '$ORIGIN/lib'      letos 2>&1 >/dev/null
-                patchelf --set-rpath '$ORIGIN/lib'      letoscli 2>&1 >/dev/null
                 # CMake may consider manually installed SQLite as "IMPORTED", therefore linking it with a full path. We need to fix it.
                 patchelf --replace-needed /usr/local/lib/libsqlite3.so libsqlite3.so lib/libcoreLetos.so
 
@@ -360,19 +365,9 @@ jobs:
             - name: Final preparations for packaging
               working-directory: ${{ env.PORTABLE_DIR }}
               run: |
-                cp `ldd letoscli | grep readline | awk '{print $3}'` lib/
-                cp `ldd lib/libreadline* | grep tinfo | awk '{print $3}'` lib/
-                strip lib/*.so letos letoscli platforms/*.so imageformats/*.so iconengines/*.so printsupport/*.so platformthemes/*.so plugins/*.so tls/*.so
+                strip lib/*.so letos platforms/*.so imageformats/*.so iconengines/*.so printsupport/*.so platformthemes/*.so plugins/*.so tls/*.so
                 patchelf --set-rpath '$ORIGIN' \
-                  lib/libQt6Core.so.*.*.* \
-                  lib/libreadline*
-
-            - name: Determine Letos version
-              working-directory: ${{ env.PORTABLE_DIR }}
-              run: |
-                LETOS_VERSION=$(./letoscli --version | cut -f 2 -d ' ')
-                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
-                echo "PACKAGE_VERSION=${LETOS_VERSION}-linux-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
+                  lib/libQt6Core.so.*.*.*
 
             - name: Assemble portable package
               shell: bash

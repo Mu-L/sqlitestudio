@@ -17,7 +17,6 @@ if(WIN32 OR APPLE)
     set(WITH_PORTABLE_DEFAULT ON)
 endif()
 
-option(WITH_CLI "Build CLI application" ON)
 option(WITH_GUI "Build GUI application" ON)
 
 option(WITH_PORTABLE "Create portable bundle" ${WITH_PORTABLE_DEFAULT})
@@ -38,9 +37,6 @@ endif()
 set(SYS_PLUGINS_DIR "${SYS_PLUGINS_DIR_DEFAULT}" CACHE PATH "Path to system plugins directory")
 
 add_subdirectory(core)
-if(WITH_CLI)
-    add_subdirectory(letoscli)
-endif()
 if(WITH_GUI)
     add_subdirectory(gui)
     add_subdirectory(letos)
