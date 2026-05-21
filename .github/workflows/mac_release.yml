@@ -212,12 +212,6 @@ jobs:
                 ref: main
                 path: gh-scripts
 
-            - name: Determine Letos version
-              run: |
-                LETOS_VERSION=$(scripts/version_from_source.sh)
-                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
-                echo "PACKAGE_VERSION=${LETOS_VERSION}-linux-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
-
             - name: Setup GH scripts path
               shell: bash
               run: |
@@ -231,6 +225,12 @@ jobs:
               uses: actions/checkout@v6
               with:
                 ref: ${{ env.BRANCH_NAME }}
+
+            - name: Determine Letos version
+              run: |
+                LETOS_VERSION=$(scripts/version_from_source.sh)
+                echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
+                echo "PACKAGE_VERSION=${LETOS_VERSION}-linux-${{ matrix.OUTPUT_FILE_ARCH }}" >> $GITHUB_ENV
 
             - name: Prepare ccache
               if: inputs.use_ccache || false
