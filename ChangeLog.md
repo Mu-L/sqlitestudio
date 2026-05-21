@@ -94,6 +94,7 @@
 - CHANGE: #5612 With hotkeys being reset to defaults in version 4.0.0, the relevant notification message is now printed upon the reset.
 - CHANGE: #5634 Execute SQL From File dialog no whas a database selector and the action appears in all database list context menus + in the Tools menu of main menubar.
 - CHANGE: Windows x86 (32-bit) binaries will no longer by provided in official builds.
+- CHANGE: #5657 The command line application (letoscli) was deprecated and removed from the current code branch. Please use official SQLite3 CLI as a command line app, as it improved a lot in recent versions.
 - BUGFIX: #3079 Enterprise Formatter now handles comments much better than before.
 - BUGFIX: #4986 Unique indexes are allowed for expressions, as they should be.
 - BUGFIX: #5498 Empty/null cells resulting from LEFT JOINs are not editable anymore.
