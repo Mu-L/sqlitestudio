@@ -99,7 +99,7 @@ jobs:
         runs-on: ${{ matrix.OS }}
 
         steps:
-            - uses: actions/setup-python@v4
+            - uses: actions/setup-python@v6
               with:
                 python-version: ${{ env.PYTHON_VERSION }}
                 architecture: ${{ matrix.PYTHON_ARCH }}

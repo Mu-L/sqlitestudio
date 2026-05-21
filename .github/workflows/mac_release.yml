@@ -113,7 +113,7 @@ jobs:
                 echo "lipo archs:"
                 lipo -archs $TCL_ROOT_DIR/lib/libtcl*.dylib
 
-            - uses: actions/setup-python@v4
+            - uses: actions/setup-python@v6
               with:
                 python-version: ${{ env.PYTHON_VERSION }}
                 architecture: 'arm64'
