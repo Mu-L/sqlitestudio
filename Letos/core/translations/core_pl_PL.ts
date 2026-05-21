@@ -1097,12 +1097,12 @@ Widok pozostanie nienaruszony.</translation>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Function-based</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Extension-based</translation>
     </message>
 </context>
 <context>

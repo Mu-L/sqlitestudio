@@ -294,19 +294,19 @@
         <translation>實現程式碼：</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="203"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the collation is applied. It receives two arguments, &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first&lt;/span&gt; and &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;second&lt;/span&gt; (named according to the scripting language conventions), representing the values to compare. The code should compare these values and return an integer indicating the result: negative if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;lt; second&lt;/span&gt;, zero if equal, and positive if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;gt; second&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the collation is applied. It receives two arguments, &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first&lt;/span&gt; and &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;second&lt;/span&gt; (named according to the scripting language conventions), representing the values to compare. The code should compare these values and return an integer indicating the result: negative if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;lt; second&lt;/span&gt;, zero if equal, and positive if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;gt; second&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../windows/collationseditor.ui" line="232"/>
+        <location filename="../windows/collationseditor.ui" line="229"/>
         <source>Collation name:</source>
         <translation>字元序名稱：</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="242"/>
+        <location filename="../windows/collationseditor.ui" line="239"/>
         <source>Collation type:</source>
         <translation type="unfinished">Collation type:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditor.ui" line="248"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="251"/>
@@ -315,11 +315,16 @@
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="258"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditor.ui" line="261"/>
         <source>Extension-based</source>
         <translation type="unfinished">Extension-based</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="267"/>
+        <location filename="../windows/collationseditor.ui" line="270"/>
         <source>Implementation language:</source>
         <translation>實現語言：</translation>
     </message>
@@ -364,39 +369,67 @@
         <translation>手動編輯字元序</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="323"/>
+        <location filename="../windows/collationseditor.cpp" line="322"/>
         <source>Enter a non-empty, unique name of the collation.</source>
         <translation>請為字元序輸入一個非空且唯一的名稱。</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="333"/>
+        <location filename="../windows/collationseditor.cpp" line="332"/>
         <source>Pick the implementation language.</source>
         <translation>選擇實現語言。</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="338"/>
+        <location filename="../windows/collationseditor.cpp" line="337"/>
         <source>Registration code</source>
         <translation type="unfinished">Registration code</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="339"/>
+        <location filename="../windows/collationseditor.cpp" line="338"/>
         <source>Enter a non-empty registration code.</source>
         <translation type="unfinished">Enter a non-empty registration code.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="343"/>
+        <location filename="../windows/collationseditor.cpp" line="346"/>
         <source>Implementation code</source>
         <translation type="unfinished">Implementation code</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="344"/>
+        <location filename="../windows/collationseditor.cpp" line="347"/>
         <source>Enter a non-empty implementation code.</source>
         <translation>請輸入非空的實現程式碼。</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="496"/>
+        <location filename="../windows/collationseditor.cpp" line="506"/>
         <source>Collations editor window has uncommitted modifications.</source>
         <translation>字元序編輯器有未提交的修改。</translation>
+    </message>
+</context>
+<context>
+    <name>CollationsEditorModel</name>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="219"/>
+        <source>all databases</source>
+        <translation type="unfinished">all databases</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="224"/>
+        <source>Collation:</source>
+        <translation type="unfinished">Collation:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="225"/>
+        <source>Type:</source>
+        <translation type="unfinished">Type:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="226"/>
+        <source>Language:</source>
+        <translation type="unfinished">Language:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="227"/>
+        <source>Registered in:</source>
+        <translation type="unfinished">Registered in:</translation>
     </message>
 </context>
 <context>
@@ -2626,7 +2659,7 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>資料庫</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2518"/>
+        <location filename="../dbtree/dbtree.cpp" line="2523"/>
         <source>Filter by name</source>
         <translation>按名稱過濾</translation>
     </message>
@@ -2877,7 +2910,7 @@ Browsing other pages will be possible after the row counting is done.</source>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1900"/>
+        <location filename="../dbtree/dbtree.cpp" line="1905"/>
         <source>Erase table data</source>
         <translation>擦除表資料</translation>
     </message>
@@ -2978,95 +3011,95 @@ All objects from these groups will be moved to respective parent groups.</transl
         <translation>移除資料庫</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1526"/>
-        <location filename="../dbtree/dbtree.cpp" line="1731"/>
+        <location filename="../dbtree/dbtree.cpp" line="1531"/>
+        <location filename="../dbtree/dbtree.cpp" line="1736"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>無法匯入，沒有載入匯入外掛。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1546"/>
-        <location filename="../dbtree/dbtree.cpp" line="1706"/>
-        <location filename="../dbtree/dbtree.cpp" line="1775"/>
+        <location filename="../dbtree/dbtree.cpp" line="1551"/>
+        <location filename="../dbtree/dbtree.cpp" line="1711"/>
+        <location filename="../dbtree/dbtree.cpp" line="1780"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>無法匯出，沒有載入匯出外掛。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1821"/>
+        <location filename="../dbtree/dbtree.cpp" line="1826"/>
         <source>Vacuum (%1)</source>
         <translation>釋放空閒佔用 (VACUUM) (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1835"/>
+        <location filename="../dbtree/dbtree.cpp" line="1840"/>
         <source>Integrity check (%1)</source>
         <translation>完整性檢查 (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1871"/>
+        <location filename="../dbtree/dbtree.cpp" line="1876"/>
         <source>Reset autoincrement</source>
         <translation>重置自動遞增</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1871"/>
+        <location filename="../dbtree/dbtree.cpp" line="1876"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation>您確定要重置表“%1”的自動遞增值嗎？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1878"/>
+        <location filename="../dbtree/dbtree.cpp" line="1883"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation>重置表“%1”的自動遞增值時出錯：%2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1880"/>
+        <location filename="../dbtree/dbtree.cpp" line="1885"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation>成功重置表“%1”的自動遞增值。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1900"/>
+        <location filename="../dbtree/dbtree.cpp" line="1905"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation>您確定要刪除表 %1 的所有資料嗎？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1912"/>
+        <location filename="../dbtree/dbtree.cpp" line="1917"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation>刪除表“%1”中的資料時出錯：%2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <location filename="../dbtree/dbtree.cpp" line="1921"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation>表“%1”中的全部資料已被刪除。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2055"/>
+        <location filename="../dbtree/dbtree.cpp" line="2060"/>
         <source>Following objects will be deleted: %1.</source>
         <translation>下列物件將被刪除：%1。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2058"/>
+        <location filename="../dbtree/dbtree.cpp" line="2063"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation>下列資料庫將從清單中移除：%1。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2061"/>
+        <location filename="../dbtree/dbtree.cpp" line="2066"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation>已刪除分組中的剩餘物件將被移開。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2063"/>
+        <location filename="../dbtree/dbtree.cpp" line="2068"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation>%1&lt;br&gt;&lt;br&gt;確定繼續？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2065"/>
+        <location filename="../dbtree/dbtree.cpp" line="2070"/>
         <source>Delete objects</source>
         <translation>刪除物件</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2544"/>
+        <location filename="../dbtree/dbtree.cpp" line="2549"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2552"/>
+        <location filename="../dbtree/dbtree.cpp" line="2557"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -3360,142 +3393,142 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>執行語句</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="426"/>
+        <location filename="../windows/editorwindow.cpp" line="428"/>
         <source>Explain query</source>
         <translation>解釋查詢</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="443"/>
+        <location filename="../windows/editorwindow.cpp" line="466"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>清除執行歷史</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="455"/>
+        <location filename="../windows/editorwindow.cpp" line="478"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>匯出結果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="437"/>
+        <location filename="../windows/editorwindow.cpp" line="460"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>從查詢建立檢視</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="439"/>
+        <location filename="../windows/editorwindow.cpp" line="462"/>
         <source>Previous database</source>
         <translation>前一個數據庫</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="440"/>
+        <location filename="../windows/editorwindow.cpp" line="463"/>
         <source>Next database</source>
         <translation>後一個數據庫</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="444"/>
+        <location filename="../windows/editorwindow.cpp" line="467"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export execution history</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="447"/>
+        <location filename="../windows/editorwindow.cpp" line="470"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>顯示下一個標籤</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="448"/>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>顯示上一個標籤</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="449"/>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Focus results below</source>
         <comment>sql editor</comment>
         <translation>切換焦點到下方的結果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="450"/>
+        <location filename="../windows/editorwindow.cpp" line="473"/>
         <source>Focus SQL editor above</source>
         <comment>sql editor</comment>
         <translation>切換焦點到上方的 SQL 編輯器</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="451"/>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export selected SQL history entries</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="452"/>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>刪除選中的 SQL 歷史記錄項</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="453"/>
+        <location filename="../windows/editorwindow.cpp" line="476"/>
         <source>Execute single query under cursor</source>
         <translation type="unfinished">Execute single query under cursor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="454"/>
+        <location filename="../windows/editorwindow.cpp" line="477"/>
         <source>Execute all queries in editor</source>
         <translation type="unfinished">Execute all queries in editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="509"/>
+        <location filename="../windows/editorwindow.cpp" line="532"/>
         <source>Active database (%1/%2)</source>
         <translation>活動資料庫 (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="616"/>
+        <location filename="../windows/editorwindow.cpp" line="653"/>
         <source>Save to file</source>
         <translation>儲存到檔案</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="627"/>
+        <location filename="../windows/editorwindow.cpp" line="664"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>無法以寫模式開啟檔案 %1：%2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="647"/>
+        <location filename="../windows/editorwindow.cpp" line="684"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>儲存 SQL 內容至檔案：%1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="670"/>
+        <location filename="../windows/editorwindow.cpp" line="707"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>查詢用時 %1 秒。影響行數：%2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="674"/>
+        <location filename="../windows/editorwindow.cpp" line="711"/>
         <source>Query finished in %1 second(s).</source>
         <translation>查詢用時 %1 秒。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="803"/>
+        <location filename="../windows/editorwindow.cpp" line="840"/>
         <source>Clear execution history</source>
         <translation>清除執行歷史</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="803"/>
+        <location filename="../windows/editorwindow.cpp" line="840"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>確定要刪除全部的 SQL 執行歷史嗎？刪除後不能恢復。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <location filename="../windows/editorwindow.cpp" line="878"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>無法匯出，沒有載入匯出外掛。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="862"/>
+        <location filename="../windows/editorwindow.cpp" line="899"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>沒有在 SQL 編輯器中選中資料庫。無法為未知的資料庫建立檢視。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="912"/>
+        <location filename="../windows/editorwindow.cpp" line="949"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>編輯器視窗“%1”內有未提交的資料。</translation>
     </message>
@@ -4123,100 +4156,100 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="61"/>
+        <location filename="../windows/functionseditor.cpp" line="62"/>
         <source>SQL functions editor</source>
         <translation type="unfinished">SQL functions editor</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="66"/>
+        <location filename="../windows/functionseditor.cpp" line="67"/>
         <source>Commit all function changes</source>
         <translation>提交所有對函式的更改</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="67"/>
+        <location filename="../windows/functionseditor.cpp" line="68"/>
         <source>Rollback all function changes</source>
         <translation>回滾所有對函式的更改</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="69"/>
+        <location filename="../windows/functionseditor.cpp" line="70"/>
         <source>Create new function</source>
         <translation>新建函式</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="70"/>
+        <location filename="../windows/functionseditor.cpp" line="71"/>
         <source>Delete selected function</source>
         <translation>刪除已選函式</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="72"/>
+        <location filename="../windows/functionseditor.cpp" line="73"/>
         <source>Import functions from file</source>
         <translation type="unfinished">Import functions from file</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="73"/>
+        <location filename="../windows/functionseditor.cpp" line="74"/>
         <source>Export functions to file</source>
         <translation type="unfinished">Export functions to file</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="74"/>
+        <location filename="../windows/functionseditor.cpp" line="75"/>
         <source>Custom SQL functions manual</source>
         <translation>自訂 SQL 函式手冊</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="77"/>
+        <location filename="../windows/functionseditor.cpp" line="78"/>
         <source>Add function argument</source>
         <translation>新增函式引數</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="78"/>
+        <location filename="../windows/functionseditor.cpp" line="79"/>
         <source>Rename function argument</source>
         <translation>重新命名函式引數</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="79"/>
+        <location filename="../windows/functionseditor.cpp" line="80"/>
         <source>Delete function argument</source>
         <translation>刪除函式引數</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="81"/>
+        <location filename="../windows/functionseditor.cpp" line="82"/>
         <source>Move function argument up</source>
         <translation>上移函式引數</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="82"/>
+        <location filename="../windows/functionseditor.cpp" line="83"/>
         <source>Move function argument down</source>
         <translation>下移函式引數</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="535"/>
+        <location filename="../windows/functionseditor.cpp" line="540"/>
         <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
         <translation type="unfinished">Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="546"/>
+        <location filename="../windows/functionseditor.cpp" line="551"/>
         <source>Pick the implementation language.</source>
         <translation>選擇實現語言。</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="564"/>
-        <location filename="../windows/functionseditor.cpp" line="574"/>
-        <location filename="../windows/functionseditor.cpp" line="575"/>
+        <location filename="../windows/functionseditor.cpp" line="569"/>
+        <location filename="../windows/functionseditor.cpp" line="579"/>
+        <location filename="../windows/functionseditor.cpp" line="580"/>
         <source>Enter a non-empty implementation code.</source>
         <translation>請輸入非空的實現程式碼。</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="624"/>
+        <location filename="../windows/functionseditor.cpp" line="629"/>
         <source>argument</source>
         <comment>new function argument name in function editor window</comment>
         <translation>引數</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="728"/>
+        <location filename="../windows/functionseditor.cpp" line="733"/>
         <source>Function argument cannot be empty and it cannot have duplicated name.</source>
         <translation type="unfinished">Function argument cannot be empty and it cannot have duplicated name.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="795"/>
+        <location filename="../windows/functionseditor.cpp" line="800"/>
         <source>Functions editor window has uncommitted modifications.</source>
         <translation>函式編輯器視窗有未提交的更改。</translation>
     </message>
@@ -4224,42 +4257,42 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>FunctionsEditorModel</name>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="401"/>
+        <location filename="../windows/functionseditormodel.cpp" line="261"/>
         <source>all databases</source>
         <translation type="unfinished">all databases</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="406"/>
+        <location filename="../windows/functionseditormodel.cpp" line="266"/>
         <source>Function:</source>
         <translation type="unfinished">Function:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="407"/>
+        <location filename="../windows/functionseditormodel.cpp" line="267"/>
         <source>Type:</source>
         <translation type="unfinished">Type:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="408"/>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Deterministic:</source>
         <translation type="unfinished">Deterministic:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="408"/>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Yes</source>
         <translation type="unfinished">Yes</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="408"/>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>No</source>
         <translation type="unfinished">No</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="409"/>
+        <location filename="../windows/functionseditormodel.cpp" line="269"/>
         <source>Language:</source>
         <translation type="unfinished">Language:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="410"/>
+        <location filename="../windows/functionseditormodel.cpp" line="270"/>
         <source>Registered in:</source>
         <translation type="unfinished">Registered in:</translation>
     </message>
@@ -6020,7 +6053,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>降低字型大小</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="618"/>
+        <location filename="../windows/editorwindow.cpp" line="655"/>
         <source>All files</source>
         <translation>所有檔案</translation>
     </message>
@@ -6035,7 +6068,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">Select new database file</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="617"/>
+        <location filename="../windows/editorwindow.cpp" line="654"/>
         <source>SQL files</source>
         <translation type="unfinished">SQL files</translation>
     </message>
@@ -7299,34 +7332,62 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>無法載入擴充套件：%1</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="399"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
         <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
         <translation>初始化函式名無效。函式名只能包含字母數字字元和下劃線。</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="468"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
         <source>Dynamic link libraries (*.dll);;All files (*)</source>
         <translation>動態連結庫 (*.dll);;所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="470"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
         <source>Shared objects (*.so);;All files (*)</source>
         <translation>共享庫 (*.so);;All files (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
         <source>Dynamic libraries (*.dylib);;All files (*)</source>
         <translation>動態庫 (*.dylib);;所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
         <source>All files (*)</source>
         <translation>所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
         <source>Open file</source>
         <translation>開啟檔案</translation>
+    </message>
+</context>
+<context>
+    <name>SqliteExtensionEditorModel</name>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
+        <source>all databases</source>
+        <translation type="unfinished">all databases</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
+        <source>Extension:</source>
+        <translation type="unfinished">Extension:</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
+        <source>File:</source>
+        <translation type="unfinished">File:</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
+        <source>Init function:</source>
+        <translation type="unfinished">Init function:</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
+        <source>Registered in:</source>
+        <translation type="unfinished">Registered in:</translation>
     </message>
 </context>
 <context>

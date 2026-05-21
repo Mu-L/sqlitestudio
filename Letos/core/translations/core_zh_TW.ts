@@ -1094,6 +1094,16 @@ view 將保留原始內容</translation>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
         <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
     </message>
+    <message>
+        <location filename="../services/collationmanager.h" line="48"/>
+        <source>Function-based</source>
+        <translation type="unfinished">Function-based</translation>
+    </message>
+    <message>
+        <location filename="../services/collationmanager.h" line="50"/>
+        <source>Extension-based</source>
+        <translation type="unfinished">Extension-based</translation>
+    </message>
 </context>
 <context>
     <name>QueryExecutor</name>

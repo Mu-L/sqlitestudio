@@ -294,19 +294,19 @@
         <translation>Código de implementação:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="203"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the collation is applied. It receives two arguments, &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first&lt;/span&gt; and &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;second&lt;/span&gt; (named according to the scripting language conventions), representing the values to compare. The code should compare these values and return an integer indicating the result: negative if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;lt; second&lt;/span&gt;, zero if equal, and positive if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;gt; second&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the collation is applied. It receives two arguments, &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first&lt;/span&gt; and &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;second&lt;/span&gt; (named according to the scripting language conventions), representing the values to compare. The code should compare these values and return an integer indicating the result: negative if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;lt; second&lt;/span&gt;, zero if equal, and positive if &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;first &amp;gt; second&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../windows/collationseditor.ui" line="232"/>
+        <location filename="../windows/collationseditor.ui" line="229"/>
         <source>Collation name:</source>
         <translation>Nome do agrupamento:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="242"/>
+        <location filename="../windows/collationseditor.ui" line="239"/>
         <source>Collation type:</source>
         <translation type="unfinished">Collation type:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditor.ui" line="248"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="251"/>
@@ -315,11 +315,16 @@
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="258"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditor.ui" line="261"/>
         <source>Extension-based</source>
         <translation type="unfinished">Extension-based</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="267"/>
+        <location filename="../windows/collationseditor.ui" line="270"/>
         <source>Implementation language:</source>
         <translation>Idioma de implementação:</translation>
     </message>
@@ -364,39 +369,67 @@
         <translation>Editar ordenamento manual</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="323"/>
+        <location filename="../windows/collationseditor.cpp" line="322"/>
         <source>Enter a non-empty, unique name of the collation.</source>
         <translation>Insira um nome único e vazio para a coleção.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="333"/>
+        <location filename="../windows/collationseditor.cpp" line="332"/>
         <source>Pick the implementation language.</source>
         <translation>Escolha a linguagem de implementação.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="338"/>
+        <location filename="../windows/collationseditor.cpp" line="337"/>
         <source>Registration code</source>
         <translation type="unfinished">Registration code</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="339"/>
+        <location filename="../windows/collationseditor.cpp" line="338"/>
         <source>Enter a non-empty registration code.</source>
         <translation type="unfinished">Enter a non-empty registration code.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="343"/>
+        <location filename="../windows/collationseditor.cpp" line="346"/>
         <source>Implementation code</source>
         <translation type="unfinished">Implementation code</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="344"/>
+        <location filename="../windows/collationseditor.cpp" line="347"/>
         <source>Enter a non-empty implementation code.</source>
         <translation>Digite um código de implementação não vazio.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="496"/>
+        <location filename="../windows/collationseditor.cpp" line="506"/>
         <source>Collations editor window has uncommitted modifications.</source>
         <translation>A janela do editor de colagens possui modificações não autorizadas.</translation>
+    </message>
+</context>
+<context>
+    <name>CollationsEditorModel</name>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="219"/>
+        <source>all databases</source>
+        <translation type="unfinished">all databases</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="224"/>
+        <source>Collation:</source>
+        <translation type="unfinished">Collation:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="225"/>
+        <source>Type:</source>
+        <translation type="unfinished">Type:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="226"/>
+        <source>Language:</source>
+        <translation type="unfinished">Language:</translation>
+    </message>
+    <message>
+        <location filename="../windows/collationseditormodel.cpp" line="227"/>
+        <source>Registered in:</source>
+        <translation type="unfinished">Registered in:</translation>
     </message>
 </context>
 <context>
@@ -2627,7 +2660,7 @@ Navegar por outras páginas será possível após a contagem de linhas ser final
         <translation>Banco de dados</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2518"/>
+        <location filename="../dbtree/dbtree.cpp" line="2523"/>
         <source>Filter by name</source>
         <translation>Filtrar por nome</translation>
     </message>
@@ -2878,7 +2911,7 @@ Navegar por outras páginas será possível após a contagem de linhas ser final
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1900"/>
+        <location filename="../dbtree/dbtree.cpp" line="1905"/>
         <source>Erase table data</source>
         <translation>Apagar dados da tabela</translation>
     </message>
@@ -2979,95 +3012,95 @@ All objects from these groups will be moved to respective parent groups.</transl
         <translation>Apagar banco de dados</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1526"/>
-        <location filename="../dbtree/dbtree.cpp" line="1731"/>
+        <location filename="../dbtree/dbtree.cpp" line="1531"/>
+        <location filename="../dbtree/dbtree.cpp" line="1736"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Não é possível importar porque nenhum plugin de importação está carregado.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1546"/>
-        <location filename="../dbtree/dbtree.cpp" line="1706"/>
-        <location filename="../dbtree/dbtree.cpp" line="1775"/>
+        <location filename="../dbtree/dbtree.cpp" line="1551"/>
+        <location filename="../dbtree/dbtree.cpp" line="1711"/>
+        <location filename="../dbtree/dbtree.cpp" line="1780"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Não é possível exportar, porque nenhum plugin de exportação está carregado.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1821"/>
+        <location filename="../dbtree/dbtree.cpp" line="1826"/>
         <source>Vacuum (%1)</source>
         <translation type="unfinished">Vacuum (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1835"/>
+        <location filename="../dbtree/dbtree.cpp" line="1840"/>
         <source>Integrity check (%1)</source>
         <translation>Verificação de integridade (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1871"/>
+        <location filename="../dbtree/dbtree.cpp" line="1876"/>
         <source>Reset autoincrement</source>
         <translation>Redefinir auto-incremento</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1871"/>
+        <location filename="../dbtree/dbtree.cpp" line="1876"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation>Tem certeza de que deseja redefinir o valor de auto-incremento para a tabela?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1878"/>
+        <location filename="../dbtree/dbtree.cpp" line="1883"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation>Ocorreu um erro ao tentar redefinir o valor de auto-incremento da tabela: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1880"/>
+        <location filename="../dbtree/dbtree.cpp" line="1885"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation>O valor do auto-incremento para a tabela foi redefinido com sucesso.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1900"/>
+        <location filename="../dbtree/dbtree.cpp" line="1905"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation>Tem certeza que deseja excluir todos os dados da tabela: %1?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1912"/>
+        <location filename="../dbtree/dbtree.cpp" line="1917"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation>Ocorreu um erro ao tentar excluir os dados da tabela: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <location filename="../dbtree/dbtree.cpp" line="1921"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation>Todos os dados da tabela %1 foram apagados.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2055"/>
+        <location filename="../dbtree/dbtree.cpp" line="2060"/>
         <source>Following objects will be deleted: %1.</source>
         <translation>Os seguintes objetos serão deletados: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2058"/>
+        <location filename="../dbtree/dbtree.cpp" line="2063"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation>Os seguintes bancos de dados serão removidos da lista: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2061"/>
+        <location filename="../dbtree/dbtree.cpp" line="2066"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation>Os objetos restantes do grupo excluído serão movidos no lugar onde o grupo costumava estar.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2063"/>
+        <location filename="../dbtree/dbtree.cpp" line="2068"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation>%1&lt;br&gt;&lt;br&gt;Você tem certeza que quer continuar?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2065"/>
+        <location filename="../dbtree/dbtree.cpp" line="2070"/>
         <source>Delete objects</source>
         <translation>Excluir objetos</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2544"/>
+        <location filename="../dbtree/dbtree.cpp" line="2549"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2552"/>
+        <location filename="../dbtree/dbtree.cpp" line="2557"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -3361,142 +3394,142 @@ Digite um nome novo, único ou pressione &apos;%1&apos; para abortar a operaçã
         <translation>Executar consulta</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="426"/>
+        <location filename="../windows/editorwindow.cpp" line="428"/>
         <source>Explain query</source>
         <translation>Expandir consulta</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="443"/>
+        <location filename="../windows/editorwindow.cpp" line="466"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Limpar histórico de execução</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="455"/>
+        <location filename="../windows/editorwindow.cpp" line="478"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Exportar resultados</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="437"/>
+        <location filename="../windows/editorwindow.cpp" line="460"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Criar visualização a partir da consulta</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="439"/>
+        <location filename="../windows/editorwindow.cpp" line="462"/>
         <source>Previous database</source>
         <translation>Banco de dados anterior</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="440"/>
+        <location filename="../windows/editorwindow.cpp" line="463"/>
         <source>Next database</source>
         <translation>Próximo banco de dados</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="444"/>
+        <location filename="../windows/editorwindow.cpp" line="467"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export execution history</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="447"/>
+        <location filename="../windows/editorwindow.cpp" line="470"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Mostrar próxima aba</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="448"/>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Mostrar aba anterior</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="449"/>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Focus results below</source>
         <comment>sql editor</comment>
         <translation>Focar resultados abaixo</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="450"/>
+        <location filename="../windows/editorwindow.cpp" line="473"/>
         <source>Focus SQL editor above</source>
         <comment>sql editor</comment>
         <translation>Focar resultados acima</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="451"/>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export selected SQL history entries</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="452"/>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Excluir as entradas do histórico SQL selecionadas</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="453"/>
+        <location filename="../windows/editorwindow.cpp" line="476"/>
         <source>Execute single query under cursor</source>
         <translation>Executar a consulta em que o cursor está posicionado</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="454"/>
+        <location filename="../windows/editorwindow.cpp" line="477"/>
         <source>Execute all queries in editor</source>
         <translation>Executar todas as consultas no editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="509"/>
+        <location filename="../windows/editorwindow.cpp" line="532"/>
         <source>Active database (%1/%2)</source>
         <translation>Banco de dados ativo (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="616"/>
+        <location filename="../windows/editorwindow.cpp" line="653"/>
         <source>Save to file</source>
         <translation>Salvar para arquivo</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="627"/>
+        <location filename="../windows/editorwindow.cpp" line="664"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Não foi possível abrir o arquivo &apos;%1&apos; para escrever: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="647"/>
+        <location filename="../windows/editorwindow.cpp" line="684"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>Conteúdo SQL salvo no arquivo: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="670"/>
+        <location filename="../windows/editorwindow.cpp" line="707"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Consulta finalizada em %1 segundo(s). Linhas afetadas: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="674"/>
+        <location filename="../windows/editorwindow.cpp" line="711"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Consulta finalizada em %1 segundo(s).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="803"/>
+        <location filename="../windows/editorwindow.cpp" line="840"/>
         <source>Clear execution history</source>
         <translation>Limpar histórico de execução</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="803"/>
+        <location filename="../windows/editorwindow.cpp" line="840"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Tem certeza que deseja apagar todo o histórico de execução de SQL? Isso não pode ser desfeito.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <location filename="../windows/editorwindow.cpp" line="878"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Não é possível exportar, porque nenhum plugin de exportação está carregado.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="862"/>
+        <location filename="../windows/editorwindow.cpp" line="899"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>Nenhum banco de dados selecionado no editor SQL. Não é possível criar uma view para um banco de dados desconhecido.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="912"/>
+        <location filename="../windows/editorwindow.cpp" line="949"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>Janela do editor &quot;%1&quot; possui dados não confirmados.</translation>
     </message>
@@ -4124,100 +4157,100 @@ Digite um nome novo, único ou pressione &apos;%1&apos; para abortar a operaçã
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="61"/>
+        <location filename="../windows/functionseditor.cpp" line="62"/>
         <source>SQL functions editor</source>
         <translation>Editor de funções SQL</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="66"/>
+        <location filename="../windows/functionseditor.cpp" line="67"/>
         <source>Commit all function changes</source>
         <translation>Enviar todas as mudanças de função</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="67"/>
+        <location filename="../windows/functionseditor.cpp" line="68"/>
         <source>Rollback all function changes</source>
         <translation>Restaurar todas as alterações de função</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="69"/>
+        <location filename="../windows/functionseditor.cpp" line="70"/>
         <source>Create new function</source>
         <translation>Criar nova função</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="70"/>
+        <location filename="../windows/functionseditor.cpp" line="71"/>
         <source>Delete selected function</source>
         <translation>Excluir função selecionada</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="72"/>
+        <location filename="../windows/functionseditor.cpp" line="73"/>
         <source>Import functions from file</source>
         <translation type="unfinished">Import functions from file</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="73"/>
+        <location filename="../windows/functionseditor.cpp" line="74"/>
         <source>Export functions to file</source>
         <translation type="unfinished">Export functions to file</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="74"/>
+        <location filename="../windows/functionseditor.cpp" line="75"/>
         <source>Custom SQL functions manual</source>
         <translation>Personalizar funções SQL manualmente</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="77"/>
+        <location filename="../windows/functionseditor.cpp" line="78"/>
         <source>Add function argument</source>
         <translation>Adicionar argumento da função</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="78"/>
+        <location filename="../windows/functionseditor.cpp" line="79"/>
         <source>Rename function argument</source>
         <translation>Renomear argumento da função</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="79"/>
+        <location filename="../windows/functionseditor.cpp" line="80"/>
         <source>Delete function argument</source>
         <translation>Excluir argumento da função</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="81"/>
+        <location filename="../windows/functionseditor.cpp" line="82"/>
         <source>Move function argument up</source>
         <translation>Move o argumento da função para cima</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="82"/>
+        <location filename="../windows/functionseditor.cpp" line="83"/>
         <source>Move function argument down</source>
         <translation>Move o argumento da função para baixo</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="535"/>
+        <location filename="../windows/functionseditor.cpp" line="540"/>
         <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
         <translation type="unfinished">Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="546"/>
+        <location filename="../windows/functionseditor.cpp" line="551"/>
         <source>Pick the implementation language.</source>
         <translation>Escolha a linguagem de implementação.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="564"/>
-        <location filename="../windows/functionseditor.cpp" line="574"/>
-        <location filename="../windows/functionseditor.cpp" line="575"/>
+        <location filename="../windows/functionseditor.cpp" line="569"/>
+        <location filename="../windows/functionseditor.cpp" line="579"/>
+        <location filename="../windows/functionseditor.cpp" line="580"/>
         <source>Enter a non-empty implementation code.</source>
         <translation>Digite um código de implementação não vazio.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="624"/>
+        <location filename="../windows/functionseditor.cpp" line="629"/>
         <source>argument</source>
         <comment>new function argument name in function editor window</comment>
         <translation>argumento</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="728"/>
+        <location filename="../windows/functionseditor.cpp" line="733"/>
         <source>Function argument cannot be empty and it cannot have duplicated name.</source>
         <translation type="unfinished">Function argument cannot be empty and it cannot have duplicated name.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="795"/>
+        <location filename="../windows/functionseditor.cpp" line="800"/>
         <source>Functions editor window has uncommitted modifications.</source>
         <translation>Janela do editor de funções tem modificações não autorizadas.</translation>
     </message>
@@ -4225,42 +4258,42 @@ Digite um nome novo, único ou pressione &apos;%1&apos; para abortar a operaçã
 <context>
     <name>FunctionsEditorModel</name>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="401"/>
+        <location filename="../windows/functionseditormodel.cpp" line="261"/>
         <source>all databases</source>
         <translation type="unfinished">all databases</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="406"/>
+        <location filename="../windows/functionseditormodel.cpp" line="266"/>
         <source>Function:</source>
         <translation type="unfinished">Function:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="407"/>
+        <location filename="../windows/functionseditormodel.cpp" line="267"/>
         <source>Type:</source>
         <translation type="unfinished">Type:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="408"/>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Deterministic:</source>
         <translation type="unfinished">Deterministic:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="408"/>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Yes</source>
         <translation type="unfinished">Yes</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="408"/>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>No</source>
         <translation type="unfinished">No</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="409"/>
+        <location filename="../windows/functionseditormodel.cpp" line="269"/>
         <source>Language:</source>
         <translation type="unfinished">Language:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="410"/>
+        <location filename="../windows/functionseditormodel.cpp" line="270"/>
         <source>Registered in:</source>
         <translation type="unfinished">Registered in:</translation>
     </message>
@@ -6022,7 +6055,7 @@ Digite um nome novo, único ou pressione &apos;%1&apos; para abortar a operaçã
         <translation>Diminuir o tamanho da fonte</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="618"/>
+        <location filename="../windows/editorwindow.cpp" line="655"/>
         <source>All files</source>
         <translation>Todos os arquivos</translation>
     </message>
@@ -6037,7 +6070,7 @@ Digite um nome novo, único ou pressione &apos;%1&apos; para abortar a operaçã
         <translation type="unfinished">Select new database file</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="617"/>
+        <location filename="../windows/editorwindow.cpp" line="654"/>
         <source>SQL files</source>
         <translation type="unfinished">SQL files</translation>
     </message>
@@ -7302,34 +7335,62 @@ Essa exclusão será permanente. Tem certeza que deseja excluí-la?</translation
         <translation>Não foi possível carregar a extensão: %1</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="399"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
         <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
         <translation>Nome de função de inicialização inválido. Nome de função só pode conter caracteres alfa-numéricos e sublinhado.</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="468"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
         <source>Dynamic link libraries (*.dll);;All files (*)</source>
         <translation>Bibliotecas dinâmicas de links (*.dll);;Todos os arquivos (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="470"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
         <source>Shared objects (*.so);;All files (*)</source>
         <translation>Objetos compartilhados (*.so);;Todos os arquivos (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
         <source>Dynamic libraries (*.dylib);;All files (*)</source>
         <translation>Bibliotecas dinâmicas (*.dylib);;Todos os arquivos (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
         <source>All files (*)</source>
         <translation>Todos os arquivos (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
         <source>Open file</source>
         <translation>Abrir arquivo</translation>
+    </message>
+</context>
+<context>
+    <name>SqliteExtensionEditorModel</name>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
+        <source>all databases</source>
+        <translation type="unfinished">all databases</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
+        <source>Extension:</source>
+        <translation type="unfinished">Extension:</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
+        <source>File:</source>
+        <translation type="unfinished">File:</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
+        <source>Init function:</source>
+        <translation type="unfinished">Init function:</translation>
+    </message>
+    <message>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
+        <source>Registered in:</source>
+        <translation type="unfinished">Registered in:</translation>
     </message>
 </context>
 <context>
