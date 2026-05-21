@@ -286,6 +286,6 @@
         <file>img/functions_import.svg</file>
         <file>img/letos_16.png</file>
         <file>img/letos.svg</file>
-        <file>img/explain_query_plan.svg</file>
+        <file>img/sql_editor_settings.svg</file>
     </qresource>
 </RCC>

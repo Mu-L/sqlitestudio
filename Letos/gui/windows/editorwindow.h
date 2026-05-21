@@ -8,6 +8,8 @@
 #include <QModelIndexList>
 #include <QWidget>
 
+
+class QToolButton;
 namespace Ui {
     class EditorWindow;
 }
@@ -73,7 +75,8 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
             EXPORT_RESULTS,
             CREATE_VIEW_FROM_QUERY,
             DELETE_SELECTED_HISTORY_SQL,
-            EXPORT_SELECTED_HISTORY_SQL
+            EXPORT_SELECTED_HISTORY_SQL,
+            SETTINGS
         };
         Q_ENUM(Action)
 
@@ -128,11 +131,9 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         QString getTitleForMdiWindow();
 
     private:
-        static void createStaticActions();
-        static void loadTabsMode();
-
         void init();
         void createActions();
+        QToolButton* createSettingsDropdown();
         void createDbCombo();
         void setupDefShortcuts();
         void selectCurrentQuery(bool fallBackToPreviousIfNecessary = false);
@@ -147,26 +148,25 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         static const int histDatetimeColumn = 2;
         static const int histSqlColumn = 5;
 
-        static ResultsDisplayMode resultsDisplayMode;
-        static QHash<Action,QAction*> staticActions;
-        static QHash<ActionGroup,QActionGroup*> staticActionGroups;
-
         Ui::EditorWindow *ui = nullptr;
         SqlQueryModel* resultsModel = nullptr;
         QHash<ActionGroup,QActionGroup*> actionGroups;
         DbComboBox* dbCombo = nullptr;
         int sqlEditorNum = 1;
         qint64 lastQueryHistoryId = 0;
+        qint64 pendingQueryChanges = 0;
         QString lastSuccessfulQuery;
         QMenu* sqlHistoryMenu = nullptr;
         bool settingSqlContents = false;
+        ResultsDisplayMode resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
 
     private slots:
         void execQuery(int explain = -1, EditorWindow::QueryExecMode querySelectionMode = EditorWindow::DEFAULT);
         void execOneQuery();
         void execAllQueries();
         void explainQuery();
-        void setExplainMode();
+        void changeExplainMode();
+        void changeResultsLayout();
         void dbChanged();
         void executionSuccessful();
         void executionFailed(const QString& errorText);

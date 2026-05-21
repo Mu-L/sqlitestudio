@@ -170,6 +170,7 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
         void recreateFilterInputs();
         void createFilteringActions();
         void setActionIcon(QAction *action, const QIcon &icon, QToolBar *toolbar);
+        void filterModeSelected(QAction *action);
 
         static TabsPosition tabsPosition;
         static QHash<Action,QAction*> staticActions;

@@ -28,11 +28,9 @@
 #include <QMessageBox>
 #include <QFileDialog>
 #include <qlocale.h>
+#include <QToolButton>
 
 CFG_KEYS_DEFINE(EditorWindow)
-EditorWindow::ResultsDisplayMode EditorWindow::resultsDisplayMode;
-QHash<EditorWindow::Action,QAction*> EditorWindow::staticActions;
-QHash<EditorWindow::ActionGroup,QActionGroup*> EditorWindow::staticActionGroups;
 
 EditorWindow::EditorWindow(QWidget *parent) :
     MdiChild(parent),
@@ -61,9 +59,6 @@ EditorWindow::~EditorWindow()
 void EditorWindow::staticInit()
 {
     qRegisterMetaType<EditorWindow>("EditorWindow");
-    resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
-    loadTabsMode();
-    createStaticActions();
 }
 
 void EditorWindow::insertAction(ExtActionPrototype* action, EditorWindow::ToolBar toolbar)
@@ -155,43 +150,6 @@ void EditorWindow::init()
     updateState();
 }
 
-void EditorWindow::loadTabsMode()
-{
-    QString tabsString = CFG_UI.General.SqlEditorTabs.get();
-    if (tabsString == "SEPARATE_TAB")
-        resultsDisplayMode = ResultsDisplayMode::SEPARATE_TAB;
-    else if (tabsString == "BELOW_QUERY")
-        resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
-}
-
-void EditorWindow::createStaticActions()
-{
-    staticActions[RESULTS_IN_TAB] = new QAction(ICONS.RESULTS_IN_TAB, tr("Results in the separate tab"), MainWindow::getInstance());
-    staticActions[RESULTS_BELOW] = new QAction(ICONS.RESULTS_BELOW, tr("Results below the query"), MainWindow::getInstance());
-
-    staticActionGroups[ActionGroup::RESULTS_POSITIONING] = new QActionGroup(MainWindow::getInstance());
-    staticActionGroups[ActionGroup::RESULTS_POSITIONING]->addAction(staticActions[RESULTS_IN_TAB]);
-    staticActionGroups[ActionGroup::RESULTS_POSITIONING]->addAction(staticActions[RESULTS_BELOW]);
-
-    connect(staticActions[RESULTS_BELOW], &QAction::triggered, [=]()
-    {
-        resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
-        CFG_UI.General.SqlEditorTabs.set("BELOW_QUERY");
-    });
-    connect(staticActions[RESULTS_IN_TAB], &QAction::triggered, [=]()
-    {
-        resultsDisplayMode = ResultsDisplayMode::SEPARATE_TAB;
-        CFG_UI.General.SqlEditorTabs.set("SEPARATE_TAB");
-    });
-
-    staticActions[RESULTS_BELOW]->setCheckable(true);
-    staticActions[RESULTS_IN_TAB]->setCheckable(true);
-    if (resultsDisplayMode == ResultsDisplayMode::BELOW_QUERY)
-        staticActions[RESULTS_BELOW]->setChecked(true);
-    else
-        staticActions[RESULTS_IN_TAB]->setChecked(true);
-}
-
 Icon* EditorWindow::getIconNameForMdiWindow()
 {
     return ICONS.OPEN_SQL_EDITOR;
@@ -218,20 +176,6 @@ QSize EditorWindow::sizeHint() const
 
 QAction* EditorWindow::getAction(EditorWindow::Action action)
 {
-    switch (action)
-    {
-        case RESULTS_BELOW:
-        case RESULTS_IN_TAB:
-        {
-            if (!staticActions.contains(action))
-                return nullptr;
-
-            return staticActions.value(action);
-        }
-        default:
-            break;
-    }
-
     return ExtActionContainer::getAction(action);
 }
 
@@ -423,28 +367,7 @@ void EditorWindow::createActions()
     actionMap[CURRENT_DB] = ui->toolBar->addWidget(dbCombo);
     ui->toolBar->addSeparator();
     createAction(EXEC_QUERY, ICONS.EXEC_QUERY, tr("Execute query"), this, SLOT(execQuery()), ui->toolBar, ui->sqlEdit);
-
-    // Explain query & submenu
-    createAction(EXPLAIN_QUERY, tr("Explain query"), this, SLOT(explainQuery()), ui->toolBar, ui->sqlEdit);
-    createAction(EXPLAIN_MODE_EXPLAIN, ICONS.EXPLAIN_QUERY, "EXPLAIN", this, SLOT(setExplainMode()), this);
-    createAction(EXPLAIN_MODE_QUERY_PLAN, ICONS.EXPLAIN_QUERY_PLAN, "EXPLAIN QUERY PLAN", this, SLOT(setExplainMode()), this);
-    QActionGroup* explainModeGroup = new QActionGroup(ui->toolBar);
-    for (Action act : {EXPLAIN_MODE_EXPLAIN, EXPLAIN_MODE_QUERY_PLAN})
-    {
-        explainModeGroup->addAction(actionMap[act]);
-        actionMap[act]->setCheckable(true);
-        attachActionInMenu(EXPLAIN_QUERY, actionMap[act], ui->toolBar);
-    }
-    if (CFG_UI.General.SqlEditorExplainMode.get() == Cfg::QUERY_PLAN)
-    {
-        actionMap[EXPLAIN_MODE_QUERY_PLAN]->setChecked(true);
-        actionMap[EXPLAIN_QUERY]->setIcon(ICONS.EXPLAIN_QUERY_PLAN);
-    }
-    else
-    {
-        actionMap[EXPLAIN_MODE_EXPLAIN]->setChecked(true);
-        actionMap[EXPLAIN_QUERY]->setIcon(ICONS.EXPLAIN_QUERY);
-    }
+    createAction(EXPLAIN_QUERY, ICONS.EXPLAIN_QUERY, tr("Explain query"), this, SLOT(explainQuery()), ui->toolBar, ui->sqlEdit);
 
     // Rest of SQL editor toolbar
     ui->toolBar->addSeparator();
@@ -454,8 +377,7 @@ void EditorWindow::createActions()
     attachActionInMenu(ui->sqlEdit->getAction(SqlEditor::SAVE_SQL_FILE), ui->sqlEdit->getAction(SqlEditor::SAVE_AS_SQL_FILE), ui->toolBar);
     ui->toolBar->addAction(ui->sqlEdit->getAction(SqlEditor::OPEN_SQL_FILE));
     ui->toolBar->addSeparator();
-    ui->toolBar->addAction(staticActions[RESULTS_IN_TAB]);
-    ui->toolBar->addAction(staticActions[RESULTS_BELOW]);
+    actionMap[SETTINGS] = ui->toolBar->addWidget(createSettingsDropdown());
     ui->toolBar->addSeparator();
     createAction(CREATE_VIEW_FROM_QUERY, ICONS.VIEW_ADD, tr("Create view from query", "sql editor"), this, SLOT(createViewFromQuery()), ui->toolBar);
 
@@ -480,10 +402,64 @@ void EditorWindow::createActions()
     QAction* before = ui->dataView->getAction(DataView::GRID_TOTAL_ROWS);
     ui->dataView->getToolBar(DataView::TOOLBAR_GRID)->insertAction(before, actionMap[EXPORT_RESULTS]);
     ui->dataView->getToolBar(DataView::TOOLBAR_GRID)->insertSeparator(before);
+}
 
-    // Static action triggers
-    connect(staticActions[RESULTS_IN_TAB], SIGNAL(triggered()), this, SLOT(updateResultsDisplayMode()));
-    connect(staticActions[RESULTS_BELOW], SIGNAL(triggered()), this, SLOT(updateResultsDisplayMode()));
+QToolButton* EditorWindow::createSettingsDropdown()
+{
+    QMenu* settingsMenu = new QMenu(this);
+    settingsMenu->setStyleSheet("QMenu::separator {height: 6px; padding-top: 4px; padding-bottom: 1px;}");
+
+    // Results layout
+    createAction(RESULTS_IN_TAB, ICONS.RESULTS_IN_TAB, tr("Results in the separate tab"), this, SLOT(changeResultsLayout()), this);
+    createAction(RESULTS_BELOW, ICONS.RESULTS_BELOW, tr("Results below the query"), this, SLOT(changeResultsLayout()), this);
+
+    QActionGroup* resultsLayoutGroup = new QActionGroup(ui->toolBar);
+    resultsLayoutGroup->setExclusive(true);
+    for (QAction* a : {actionMap[RESULTS_IN_TAB], actionMap[RESULTS_BELOW]})
+    {
+        a->setCheckable(true);
+        resultsLayoutGroup->addAction(a);
+        settingsMenu->addAction(a);
+    }
+
+    QString tabsString = CFG_UI.General.SqlEditorTabs.get();
+    if (tabsString == "SEPARATE_TAB")
+        actionMap[RESULTS_IN_TAB]->setChecked(true);
+    else if (tabsString == "BELOW_QUERY")
+        actionMap[RESULTS_BELOW]->setChecked(true);
+
+    // Separator
+    settingsMenu->addSeparator();
+
+    // EXPLAIN mode
+    createAction(EXPLAIN_MODE_EXPLAIN, ICONS.EXPLAIN_QUERY, tr("Explain mode: %1", "sql editor").arg("EXPLAIN"), this, SLOT(changeExplainMode()), this);
+    createAction(EXPLAIN_MODE_QUERY_PLAN, ICONS.EXPLAIN_QUERY, tr("Explain mode: %1", "sql editor").arg("EXPLAIN QUERY PLAN"), this, SLOT(changeExplainMode()), this);
+
+    QActionGroup* explainModeGroup = new QActionGroup(ui->toolBar);
+    explainModeGroup->setExclusive(true);
+    for (Action act : {EXPLAIN_MODE_EXPLAIN, EXPLAIN_MODE_QUERY_PLAN})
+    {
+        actionMap[act]->setCheckable(true);
+        explainModeGroup->addAction(actionMap[act]);
+        settingsMenu->addAction(actionMap[act]);
+    }
+
+    if (CFG_UI.General.SqlEditorExplainMode.get() == Cfg::QUERY_PLAN)
+        actionMap[EXPLAIN_MODE_QUERY_PLAN]->setChecked(true);
+    else
+        actionMap[EXPLAIN_MODE_EXPLAIN]->setChecked(true);
+
+    // Separator
+    settingsMenu->addSeparator();
+
+    // Toolbar button
+    QToolButton* settingsButton = new QToolButton();
+    settingsButton->setPopupMode(QToolButton::InstantPopup);
+    settingsButton->setIcon(ICONS.SQL_EDITOR_SETTINGS);
+    settingsButton->setMenu(settingsMenu);
+    settingsButton->setStyleSheet("QToolButton {padding-right: 12px;}");
+    settingsButton->setToolTip(tr("Editor window settings", "sql editor"));
+    return settingsButton;
 }
 
 void EditorWindow::createDbCombo()
@@ -574,7 +550,7 @@ void EditorWindow::explainQuery()
     execQuery(CFG_UI.General.SqlEditorExplainMode.get());
 }
 
-void EditorWindow::setExplainMode()
+void EditorWindow::changeExplainMode()
 {
     if (actionMap[EXPLAIN_MODE_QUERY_PLAN]->isChecked())
     {
@@ -586,6 +562,21 @@ void EditorWindow::setExplainMode()
         CFG_UI.General.SqlEditorExplainMode.set(Cfg::EXPLAIN);
         actionMap[EXPLAIN_QUERY]->setIcon(actionMap[EXPLAIN_MODE_EXPLAIN]->icon());
     }
+}
+
+void EditorWindow::changeResultsLayout()
+{
+    if (actionMap[RESULTS_IN_TAB]->isChecked())
+    {
+        CFG_UI.General.SqlEditorTabs.set("SEPARATE_TAB");
+        resultsDisplayMode = ResultsDisplayMode::SEPARATE_TAB;
+    }
+    else if (actionMap[RESULTS_BELOW]->isChecked())
+    {
+        CFG_UI.General.SqlEditorTabs.set("BELOW_QUERY");
+        resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
+    }
+    updateResultsDisplayMode();
 }
 
 bool EditorWindow::processBindParams(QString& sql, QHash<QString, QVariant>& queryParams)

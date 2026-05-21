@@ -249,6 +249,9 @@ Db* SqlEditor::getDb() const
 
 void SqlEditor::setDb(Db* value)
 {
+    if (db == value)
+        return;
+
     db = value;
     refreshValidObjects();
     scheduleQueryParser(true, true);

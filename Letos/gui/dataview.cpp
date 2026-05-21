@@ -574,6 +574,12 @@ void DataView::setActionIcon(QAction *action, const QIcon &icon, QToolBar *toolb
     Q_UNUSED(toolbar);
 }
 
+void DataView::filterModeSelected(QAction* action)
+{
+    filterMode = static_cast<FilterMode>(action->property(DATA_VIEW_FILTER_PROP).toInt());
+    setActionIcon(actionMap[FILTER], action->icon(), gridToolBar);
+}
+
 QVariant DataView::getSessionValue() const
 {
     QHash<QString, QVariant> sessionValue;
@@ -608,8 +614,7 @@ void DataView::restoreFromSession(const QVariant& sessionValue)
 void DataView::filterModeSelected()
 {
     QAction* modeAction = dynamic_cast<QAction*>(sender());
-    filterMode = static_cast<FilterMode>(modeAction->property(DATA_VIEW_FILTER_PROP).toInt());
-    setActionIcon(actionMap[FILTER], modeAction->icon(), gridToolBar);
+    filterModeSelected(modeAction);
 }
 
 void DataView::coverForGridCommit(int total)
@@ -717,7 +722,10 @@ void DataView::togglePerColumnFiltering()
     actionMap[FILTER_VALUE]->setVisible(!perColumnEnable);
     filterEdit->setEnabled(!perColumnEnable);
     if (actionMap[FILTER_SQL]->isChecked())
+    {
         actionMap[FILTER_STRING]->setChecked(true);
+        filterModeSelected(actionMap[FILTER_STRING]);
+    }
 
     actionMap[FILTER_SQL]->setEnabled(!perColumnEnable);
     perColumnAreaParent->setVisible(perColumnEnable);

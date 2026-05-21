@@ -138,17 +138,26 @@ void DbListModel::dbConnected(Db* db)
 {
     QString current;
     if (comboBox)
+    {
         current = comboBox->currentText();
+        if (!current.isNull())
+            comboBox->blockSignals(true);
+    }
 
     beginResetModel();
     unsortedList += db;
     sort();
     endResetModel();
 
-    if (!current.isNull())
-        comboBox->setCurrentText(current);
-    else
-        comboBox->setCurrentText(dbList.first()->getName());
+    if (comboBox)
+    {
+        if (!current.isNull())
+            comboBox->setCurrentText(current);
+        else
+            comboBox->setCurrentText(dbList.first()->getName());
+
+        comboBox->blockSignals(false);
+    }
 }
 
 void DbListModel::dbDisconnected(Db* db)
@@ -161,6 +170,9 @@ void DbListModel::dbDisconnected(Db* db)
             newIdx = 0;
         else
             current = comboBox->currentText();
+
+        if (dbList.size() == 1 && dbList[0]->getName() == db->getName())
+            comboBox->blockSignals(true);
     }
 
     beginResetModel();
@@ -168,10 +180,17 @@ void DbListModel::dbDisconnected(Db* db)
     unsortedList.removeAll(db);
     endResetModel();
 
-    if (!current.isNull())
-        comboBox->setCurrentText(current);
-    else if (newIdx > -1)
-        comboBox->setCurrentIndex(newIdx);
+    if (comboBox)
+    {
+        if (!dbList.isEmpty())
+        {
+            if (!current.isNull())
+                comboBox->setCurrentText(current);
+            else if (newIdx > -1)
+                comboBox->setCurrentIndex(newIdx);
+        }
+        comboBox->blockSignals(false);
+    }
 
     if (dbList.isEmpty())
         emit listCleared();

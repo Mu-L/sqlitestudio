@@ -43,7 +43,6 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
 
         QString getQuery() const;
         void setQuery(const QString &value);
-        void setExplainMode(int explainMode);
         void setParams(const QHash<QString, QVariant>& params);
         Db* getDb() const;
         void setDb(Db* value);
@@ -68,6 +67,7 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         void detachDependencyTables();
         void rememberFocusedCell();
         void forgetFocusedCell();
+        void setExplainMode(int explainMode);
 
         /**
          * @brief Disables or re-enables async query execution
