@@ -2256,7 +2256,7 @@
         <location filename="../dataview.cpp" line="125"/>
         <source>Filter by value in any column</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by value in any column</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="134"/>
@@ -3487,13 +3487,13 @@ Bitte geben Sie einen neuen, eindeutigen Namen an oder drücken Sie %1, um den V
         <location filename="../windows/editorwindow.cpp" line="436"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Explain mode: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="461"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Editor window settings</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="508"/>
