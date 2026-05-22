@@ -241,12 +241,12 @@
         <translation>代码片段</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.ui" line="31"/>
+        <location filename="../codesnippetspanel.ui" line="43"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;将代码片段拖到 SQL 编辑器中即可使用。&lt;/p&gt;&lt;p&gt;在此处放置任何代码（或文本）即可添加新的代码片段。&lt;/p&gt;&lt;p&gt;双击即可编辑代码片段。&lt;/p&gt;&lt;p&gt;代码片段也可在代码助手中使用。调用两次代码助手即可显示代码片段。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.ui" line="57"/>
+        <location filename="../codesnippetspanel.ui" line="69"/>
         <source>Preview</source>
         <translation>预览</translation>
     </message>
@@ -2253,110 +2253,116 @@
         <translation>筛选数据</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="133"/>
+        <location filename="../dataview.cpp" line="125"/>
+        <source>Filter by value in any column</source>
+        <comment>data view</comment>
+        <translation type="unfinished">Filter by value in any column</translation>
+    </message>
+    <message>
+        <location filename="../dataview.cpp" line="134"/>
         <source>Grid view</source>
         <translation>网格视图</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="134"/>
+        <location filename="../dataview.cpp" line="135"/>
         <source>Form view</source>
         <translation>表单视图</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="240"/>
+        <location filename="../dataview.cpp" line="241"/>
         <source>Find in data</source>
         <comment>data view</comment>
         <translation>在数据中查找</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="241"/>
+        <location filename="../dataview.cpp" line="242"/>
         <source>Refresh table data</source>
         <comment>data view</comment>
         <translation>刷新表数据</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="258"/>
+        <location filename="../dataview.cpp" line="259"/>
         <source>First page</source>
         <comment>data view</comment>
         <translation>第一页</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="259"/>
+        <location filename="../dataview.cpp" line="260"/>
         <source>Previous page</source>
         <comment>data view</comment>
         <translation>上一页</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="261"/>
+        <location filename="../dataview.cpp" line="262"/>
         <source>Next page</source>
         <comment>data view</comment>
         <translation>下一页</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="262"/>
+        <location filename="../dataview.cpp" line="263"/>
         <source>Last page</source>
         <comment>data view</comment>
         <translation>最后一页</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="274"/>
+        <location filename="../dataview.cpp" line="275"/>
         <source>Commit changes for selected cells</source>
         <comment>data view</comment>
         <translation>提交选中单元格的更改</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="275"/>
+        <location filename="../dataview.cpp" line="276"/>
         <source>Rollback changes for selected cells</source>
         <comment>data view</comment>
         <translation>回滚选中单元格的修改</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="276"/>
+        <location filename="../dataview.cpp" line="277"/>
         <source>Show grid view of results</source>
         <comment>data view</comment>
         <translation>显示结果的网格视图</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="277"/>
+        <location filename="../dataview.cpp" line="278"/>
         <source>Show form view of results</source>
         <comment>data view</comment>
         <translation>显示结果的表格视图</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="527"/>
+        <location filename="../dataview.cpp" line="528"/>
         <source>Rows available on current page: %1 - %2</source>
         <comment>data view</comment>
         <translation>当前页码可用行数：%1 - %2</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="804"/>
+        <location filename="../dataview.cpp" line="814"/>
         <source>Sum: %1</source>
         <translation>总计：%1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="956"/>
+        <location filename="../dataview.cpp" line="966"/>
         <source>Total pages available: %1</source>
         <translation>总计可用页数：%1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="966"/>
+        <location filename="../dataview.cpp" line="976"/>
         <source>Total rows loaded: %1</source>
         <translation>已加载行数：%1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1327"/>
+        <location filename="../dataview.cpp" line="1337"/>
         <source>Filter by text (if contains)</source>
         <comment>data view</comment>
         <translation>按文本筛选（如果包含）</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1328"/>
+        <location filename="../dataview.cpp" line="1338"/>
         <source>Filter strictly by text (if equals)</source>
         <comment>data view</comment>
         <translation>严格按文本筛选（如果相等）</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="385"/>
+        <location filename="../dataview.cpp" line="386"/>
         <source>Tabs on top</source>
         <comment>data view</comment>
         <translation>顶部标签</translation>
@@ -2373,66 +2379,66 @@
         <translation>行：</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="386"/>
+        <location filename="../dataview.cpp" line="387"/>
         <source>Tabs at bottom</source>
         <comment>data view</comment>
         <translation>底部标签</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="411"/>
+        <location filename="../dataview.cpp" line="412"/>
         <source>Place new rows above selected row</source>
         <comment>data view</comment>
         <translation>放置新行于选中行之上</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="412"/>
+        <location filename="../dataview.cpp" line="413"/>
         <source>Place new rows below selected row</source>
         <comment>data view</comment>
         <translation>放置新行于选中行之下</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="413"/>
+        <location filename="../dataview.cpp" line="414"/>
         <source>Place new rows at the end of the data view</source>
         <comment>data view</comment>
         <translation>放置新行于数据视图末尾</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="979"/>
+        <location filename="../dataview.cpp" line="989"/>
         <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
         <translation>正在统计总行数。
 请在此操作完成后再浏览其他页面。</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1294"/>
+        <location filename="../dataview.cpp" line="1304"/>
         <source>Filter</source>
         <translation>筛选</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1297"/>
+        <location filename="../dataview.cpp" line="1307"/>
         <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
         <translation>按回车键或点击工具栏上的“应用筛选”按钮来应用新值。</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1329"/>
+        <location filename="../dataview.cpp" line="1339"/>
         <source>Filter by the Regular Expression</source>
         <comment>data view</comment>
         <translation>以正则表达式筛选</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1330"/>
+        <location filename="../dataview.cpp" line="1340"/>
         <source>Filter by SQL expression</source>
         <comment>data view</comment>
         <translation>以 SQL 表达式筛选</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1349"/>
+        <location filename="../dataview.cpp" line="1359"/>
         <source>Show filter inputs per column</source>
         <comment>data view</comment>
         <translation>在每个列上展示筛选器输入框</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1353"/>
+        <location filename="../dataview.cpp" line="1363"/>
         <source>Apply filter</source>
         <comment>data view</comment>
         <translation>应用筛选器</translation>
@@ -3366,169 +3372,182 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>历史</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="169"/>
+        <location filename="../windows/editorwindow.cpp" line="413"/>
         <source>Results in the separate tab</source>
         <translation>在新选项卡中显示结果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="170"/>
+        <location filename="../windows/editorwindow.cpp" line="414"/>
         <source>Results below the query</source>
         <translation>在查询下方显示结果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="207"/>
-        <location filename="../windows/editorwindow.cpp" line="209"/>
+        <location filename="../windows/editorwindow.cpp" line="165"/>
+        <location filename="../windows/editorwindow.cpp" line="167"/>
         <source>SQL editor %1</source>
         <translation>SQL 编辑器 %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="95"/>
-        <location filename="../windows/editorwindow.cpp" line="390"/>
+        <location filename="../windows/editorwindow.cpp" line="334"/>
         <source>Results</source>
         <translation>结果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="425"/>
+        <location filename="../windows/editorwindow.cpp" line="369"/>
         <source>Execute query</source>
         <translation>执行语句</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="428"/>
+        <location filename="../windows/editorwindow.cpp" line="370"/>
         <source>Explain query</source>
         <translation>解释查询</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="466"/>
+        <location filename="../windows/editorwindow.cpp" line="388"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>清除执行历史</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="478"/>
+        <location filename="../windows/editorwindow.cpp" line="400"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>导出结果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="460"/>
+        <location filename="../windows/editorwindow.cpp" line="382"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>从查询创建视图</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="462"/>
+        <location filename="../windows/editorwindow.cpp" line="384"/>
         <source>Previous database</source>
         <translation>前一个数据库</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="463"/>
+        <location filename="../windows/editorwindow.cpp" line="385"/>
         <source>Next database</source>
         <translation>后一个数据库</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="467"/>
+        <location filename="../windows/editorwindow.cpp" line="389"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation>导出执行历史记录</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="470"/>
+        <location filename="../windows/editorwindow.cpp" line="392"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>显示下一个标签</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <location filename="../windows/editorwindow.cpp" line="393"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>显示上一个标签</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <location filename="../windows/editorwindow.cpp" line="394"/>
         <source>Focus results below</source>
         <comment>sql editor</comment>
         <translation>切换焦点到下方的结果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="473"/>
+        <location filename="../windows/editorwindow.cpp" line="395"/>
         <source>Focus SQL editor above</source>
         <comment>sql editor</comment>
         <translation>切换焦点到上方的 SQL 编辑器</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="474"/>
+        <location filename="../windows/editorwindow.cpp" line="396"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>导出所选的 SQL 历史记录条目</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="475"/>
+        <location filename="../windows/editorwindow.cpp" line="397"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>删除选中的 SQL 历史记录项</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="476"/>
+        <location filename="../windows/editorwindow.cpp" line="398"/>
         <source>Execute single query under cursor</source>
         <translation>执行光标位置的单个查询</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="477"/>
+        <location filename="../windows/editorwindow.cpp" line="399"/>
         <source>Execute all queries in editor</source>
         <translation>在编辑器中执行所有查询</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="532"/>
+        <location filename="../windows/editorwindow.cpp" line="435"/>
+        <location filename="../windows/editorwindow.cpp" line="436"/>
+        <source>Explain mode: %1</source>
+        <comment>sql editor</comment>
+        <translation type="unfinished">Explain mode: %1</translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="461"/>
+        <source>Editor window settings</source>
+        <comment>sql editor</comment>
+        <translation type="unfinished">Editor window settings</translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="508"/>
         <source>Active database (%1/%2)</source>
         <translation>活动数据库 (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="653"/>
+        <location filename="../windows/editorwindow.cpp" line="644"/>
         <source>Save to file</source>
         <translation>保存到文件</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="664"/>
+        <location filename="../windows/editorwindow.cpp" line="655"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>无法以写模式打开文件 %1：%2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="684"/>
+        <location filename="../windows/editorwindow.cpp" line="675"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>保存 SQL 内容至文件：%1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="707"/>
+        <location filename="../windows/editorwindow.cpp" line="698"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>查询用时 %1 秒。影响行数：%2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="711"/>
+        <location filename="../windows/editorwindow.cpp" line="702"/>
         <source>Query finished in %1 second(s).</source>
         <translation>查询用时 %1 秒。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="840"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Clear execution history</source>
         <translation>清除执行历史</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="840"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>确定要删除全部的 SQL 执行历史吗？删除后不能恢复。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="878"/>
+        <location filename="../windows/editorwindow.cpp" line="869"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>无法导出，没有加载导出插件。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="899"/>
+        <location filename="../windows/editorwindow.cpp" line="890"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>没有在 SQL 编辑器中选中数据库。无法为未知的数据库创建视图。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="949"/>
+        <location filename="../windows/editorwindow.cpp" line="940"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>编辑器窗口“%1”内有未提交的数据。</translation>
     </message>
@@ -6053,7 +6072,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>减小字号</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="655"/>
+        <location filename="../windows/editorwindow.cpp" line="646"/>
         <source>All files</source>
         <translation>所有文件</translation>
     </message>
@@ -6068,7 +6087,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>选择新的数据库文件</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="654"/>
+        <location filename="../windows/editorwindow.cpp" line="645"/>
         <source>SQL files</source>
         <translation>SQL 文件</translation>
     </message>
@@ -6094,67 +6113,67 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>文件类型</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="28"/>
+        <location filename="../windows/editorwindow.h" line="30"/>
         <source>SQL editor window</source>
         <translation>SQL 编辑器窗口</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="29"/>
+        <location filename="../windows/editorwindow.h" line="31"/>
         <source>Execute query</source>
         <translation>执行语句</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="30"/>
+        <location filename="../windows/editorwindow.h" line="32"/>
         <source>Execute single query under cursor</source>
         <translation>执行光标位置的单个查询</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="31"/>
+        <location filename="../windows/editorwindow.h" line="33"/>
         <source>Execute all queries in editor</source>
         <translation>在编辑器中执行所有查询</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="32"/>
+        <location filename="../windows/editorwindow.h" line="34"/>
         <source>Execute EXPLAIN query</source>
         <translation>执行 EXPLAIN 查询</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="33"/>
+        <location filename="../windows/editorwindow.h" line="35"/>
         <source>Export query results</source>
         <translation>导出查询结果</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="34"/>
+        <location filename="../windows/editorwindow.h" line="36"/>
         <source>Switch current working database to previous on the list</source>
         <translation>切换当前工作数据库到列表中的上一个</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="35"/>
+        <location filename="../windows/editorwindow.h" line="37"/>
         <source>Switch current working database to next on the list</source>
         <translation>切换当前工作数据库到列表中的下一个</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="36"/>
+        <location filename="../windows/editorwindow.h" line="38"/>
         <source>Go to next editor tab</source>
         <translation>前往下一编辑器选项卡</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="37"/>
+        <location filename="../windows/editorwindow.h" line="39"/>
         <source>Go to previous editor tab</source>
         <translation>前往上一编辑器选项卡</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="38"/>
+        <location filename="../windows/editorwindow.h" line="40"/>
         <source>Move keyboard input focus to the results view below</source>
         <translation>将键盘输入焦点移动到下面的结果视图</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="39"/>
+        <location filename="../windows/editorwindow.h" line="41"/>
         <source>Move keyboard input focus to the SQL editor above</source>
         <translation>将键盘输入焦点移到上面的 SQL 编辑器</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="40"/>
+        <location filename="../windows/editorwindow.h" line="42"/>
         <source>Delete selected SQL history entries</source>
         <translation>删除选中的 SQL 历史记录</translation>
     </message>
@@ -6735,58 +6754,58 @@ find next</source>
         <translation>减小字号</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="309"/>
+        <location filename="../sqleditor.cpp" line="312"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>无法以写模式打开文件 %1：%2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="318"/>
+        <location filename="../sqleditor.cpp" line="321"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>保存 SQL 内容至文件：%1</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="574"/>
+        <location filename="../sqleditor.cpp" line="577"/>
         <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
         <translation>SQL 编辑器的语法补全功能仅当存在有效数据库时可用。</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1195"/>
+        <location filename="../sqleditor.cpp" line="1198"/>
         <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
         <translation>SQL 编辑器有大量内容，因此错误检测和现有对象的高亮显示功能被暂时禁用。</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1224"/>
+        <location filename="../sqleditor.cpp" line="1227"/>
         <source>Save to file</source>
         <translation>保存到文件</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1239"/>
+        <location filename="../sqleditor.cpp" line="1242"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
         <translation>SQL文件 (*.sql);;所有文件 (*)</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1240"/>
-        <location filename="../sqleditor.cpp" line="1271"/>
+        <location filename="../sqleditor.cpp" line="1243"/>
+        <location filename="../sqleditor.cpp" line="1274"/>
         <source>Open file</source>
         <translation>打开文件</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1272"/>
+        <location filename="../sqleditor.cpp" line="1275"/>
         <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
         <translation>此文件非常大（超过 %1 MB）。您确定要将其加载到 SQL 查询编辑器中吗？</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1286"/>
+        <location filename="../sqleditor.cpp" line="1289"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
         <translation>无法以读模式打开文件 %1：%2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1480"/>
+        <location filename="../sqleditor.cpp" line="1483"/>
         <source>Reached the end of document. Hit the find again to restart the search.</source>
         <translation>已到文档底部。再次点击查找将从头开始搜索。</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1745"/>
+        <location filename="../sqleditor.cpp" line="1748"/>
         <source>Ctrl+click to open this table or view</source>
         <translation>按住 Ctrl 键并单击以打开此表格或视图</translation>
     </message>
