@@ -241,12 +241,12 @@
         <translation type="unfinished">Code Snippets</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.ui" line="31"/>
+        <location filename="../codesnippetspanel.ui" line="43"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.ui" line="57"/>
+        <location filename="../codesnippetspanel.ui" line="69"/>
         <source>Preview</source>
         <translation>Предпросмотр</translation>
     </message>
@@ -2253,110 +2253,116 @@
         <translation>Отфильтровать данные</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="133"/>
+        <location filename="../dataview.cpp" line="125"/>
+        <source>Filter by value in any column</source>
+        <comment>data view</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dataview.cpp" line="134"/>
         <source>Grid view</source>
         <translation>Табличный вид</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="134"/>
+        <location filename="../dataview.cpp" line="135"/>
         <source>Form view</source>
         <translation>Форма</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="240"/>
+        <location filename="../dataview.cpp" line="241"/>
         <source>Find in data</source>
         <comment>data view</comment>
         <translation type="unfinished">Find in data</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="241"/>
+        <location filename="../dataview.cpp" line="242"/>
         <source>Refresh table data</source>
         <comment>data view</comment>
         <translation>Обновить данные таблицы</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="258"/>
+        <location filename="../dataview.cpp" line="259"/>
         <source>First page</source>
         <comment>data view</comment>
         <translation>Первая страница</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="259"/>
+        <location filename="../dataview.cpp" line="260"/>
         <source>Previous page</source>
         <comment>data view</comment>
         <translation>Предыдущая страница</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="261"/>
+        <location filename="../dataview.cpp" line="262"/>
         <source>Next page</source>
         <comment>data view</comment>
         <translation>Следующая страница</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="262"/>
+        <location filename="../dataview.cpp" line="263"/>
         <source>Last page</source>
         <comment>data view</comment>
         <translation>Последняя страница</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="274"/>
+        <location filename="../dataview.cpp" line="275"/>
         <source>Commit changes for selected cells</source>
         <comment>data view</comment>
         <translation>Подтвердить изменения для выбранных ячеек</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="275"/>
+        <location filename="../dataview.cpp" line="276"/>
         <source>Rollback changes for selected cells</source>
         <comment>data view</comment>
         <translation>Откатить изменения для выбранных ячеек</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="276"/>
+        <location filename="../dataview.cpp" line="277"/>
         <source>Show grid view of results</source>
         <comment>data view</comment>
         <translation>Показать результаты в виде таблицы</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="277"/>
+        <location filename="../dataview.cpp" line="278"/>
         <source>Show form view of results</source>
         <comment>data view</comment>
         <translation>Показать результаты в виде формы</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="527"/>
+        <location filename="../dataview.cpp" line="528"/>
         <source>Rows available on current page: %1 - %2</source>
         <comment>data view</comment>
         <translation type="unfinished">Rows available on current page: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="804"/>
+        <location filename="../dataview.cpp" line="814"/>
         <source>Sum: %1</source>
         <translation type="unfinished">Sum: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="956"/>
+        <location filename="../dataview.cpp" line="966"/>
         <source>Total pages available: %1</source>
         <translation>Всего доступно страниц: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="966"/>
+        <location filename="../dataview.cpp" line="976"/>
         <source>Total rows loaded: %1</source>
         <translation>Всего загружено строк: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1327"/>
+        <location filename="../dataview.cpp" line="1337"/>
         <source>Filter by text (if contains)</source>
         <comment>data view</comment>
         <translation>Текстовый фильтр (если содержит)</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1328"/>
+        <location filename="../dataview.cpp" line="1338"/>
         <source>Filter strictly by text (if equals)</source>
         <comment>data view</comment>
         <translation>Строгий текстовый фильтр (если равно)</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="385"/>
+        <location filename="../dataview.cpp" line="386"/>
         <source>Tabs on top</source>
         <comment>data view</comment>
         <translation>Вкладки сверху</translation>
@@ -2373,66 +2379,66 @@
         <translation type="unfinished">Row:</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="386"/>
+        <location filename="../dataview.cpp" line="387"/>
         <source>Tabs at bottom</source>
         <comment>data view</comment>
         <translation>Вкладки снизу</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="411"/>
+        <location filename="../dataview.cpp" line="412"/>
         <source>Place new rows above selected row</source>
         <comment>data view</comment>
         <translation>Поместить новые строки перед выделенной строкой</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="412"/>
+        <location filename="../dataview.cpp" line="413"/>
         <source>Place new rows below selected row</source>
         <comment>data view</comment>
         <translation>Поместить новые строки после выделенной строки</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="413"/>
+        <location filename="../dataview.cpp" line="414"/>
         <source>Place new rows at the end of the data view</source>
         <comment>data view</comment>
         <translation>Поместить новые строки в конец области просмотра данных</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="979"/>
+        <location filename="../dataview.cpp" line="989"/>
         <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
         <translation>Идёт подсчёт общего числа строк.
 Переключение на другие страницы станет возможным после окончания подсчёта.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1294"/>
+        <location filename="../dataview.cpp" line="1304"/>
         <source>Filter</source>
         <translation>Фильтр</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1297"/>
+        <location filename="../dataview.cpp" line="1307"/>
         <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
         <translation>Нажмите Enter или кнопку &quot;Применить фильтр&quot; на панели инструментов чтобы применить новое значение.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1329"/>
+        <location filename="../dataview.cpp" line="1339"/>
         <source>Filter by the Regular Expression</source>
         <comment>data view</comment>
         <translation>Фильтр по регулярному выражению</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1330"/>
+        <location filename="../dataview.cpp" line="1340"/>
         <source>Filter by SQL expression</source>
         <comment>data view</comment>
         <translation>Фильтр по выражению SQL</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1349"/>
+        <location filename="../dataview.cpp" line="1359"/>
         <source>Show filter inputs per column</source>
         <comment>data view</comment>
         <translation>Показывать поле ввода для фильтра в каждом столбце</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1353"/>
+        <location filename="../dataview.cpp" line="1363"/>
         <source>Apply filter</source>
         <comment>data view</comment>
         <translation>Применить фильтр</translation>
@@ -3365,169 +3371,182 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>История</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="169"/>
+        <location filename="../windows/editorwindow.cpp" line="413"/>
         <source>Results in the separate tab</source>
         <translation>Результаты в отдельной вкладке</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="170"/>
+        <location filename="../windows/editorwindow.cpp" line="414"/>
         <source>Results below the query</source>
         <translation>Результаты под запросом</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="207"/>
-        <location filename="../windows/editorwindow.cpp" line="209"/>
+        <location filename="../windows/editorwindow.cpp" line="165"/>
+        <location filename="../windows/editorwindow.cpp" line="167"/>
         <source>SQL editor %1</source>
         <translation>Редактор SQL %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="95"/>
-        <location filename="../windows/editorwindow.cpp" line="390"/>
+        <location filename="../windows/editorwindow.cpp" line="334"/>
         <source>Results</source>
         <translation>Результаты</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="425"/>
+        <location filename="../windows/editorwindow.cpp" line="369"/>
         <source>Execute query</source>
         <translation>Выполнить запрос</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="428"/>
+        <location filename="../windows/editorwindow.cpp" line="370"/>
         <source>Explain query</source>
         <translation>План запроса</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="466"/>
+        <location filename="../windows/editorwindow.cpp" line="388"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Очистить историю запросов</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="478"/>
+        <location filename="../windows/editorwindow.cpp" line="400"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Экспортировать результаты</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="460"/>
+        <location filename="../windows/editorwindow.cpp" line="382"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Создать представление из запроса</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="462"/>
+        <location filename="../windows/editorwindow.cpp" line="384"/>
         <source>Previous database</source>
         <translation>Предыдущая база данных</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="463"/>
+        <location filename="../windows/editorwindow.cpp" line="385"/>
         <source>Next database</source>
         <translation>Следующая база данных</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="467"/>
+        <location filename="../windows/editorwindow.cpp" line="389"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export execution history</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="470"/>
+        <location filename="../windows/editorwindow.cpp" line="392"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Открыть следующую вкладку</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <location filename="../windows/editorwindow.cpp" line="393"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Открыть предыдущую вкладку</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <location filename="../windows/editorwindow.cpp" line="394"/>
         <source>Focus results below</source>
         <comment>sql editor</comment>
         <translation>Фокус на результатах внизу</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="473"/>
+        <location filename="../windows/editorwindow.cpp" line="395"/>
         <source>Focus SQL editor above</source>
         <comment>sql editor</comment>
         <translation>Фокус на редакторе SQL сверху</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="474"/>
+        <location filename="../windows/editorwindow.cpp" line="396"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export selected SQL history entries</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="475"/>
+        <location filename="../windows/editorwindow.cpp" line="397"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Удалить выбранные записи из истории SQL-запросов</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="476"/>
+        <location filename="../windows/editorwindow.cpp" line="398"/>
         <source>Execute single query under cursor</source>
         <translation>Выполнить одиночный запрос под курсором</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="477"/>
+        <location filename="../windows/editorwindow.cpp" line="399"/>
         <source>Execute all queries in editor</source>
         <translation>Выполнить все запросы в редакторе</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="532"/>
+        <location filename="../windows/editorwindow.cpp" line="435"/>
+        <location filename="../windows/editorwindow.cpp" line="436"/>
+        <source>Explain mode: %1</source>
+        <comment>sql editor</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="461"/>
+        <source>Editor window settings</source>
+        <comment>sql editor</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="508"/>
         <source>Active database (%1/%2)</source>
         <translation>Текущая база данных (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="653"/>
+        <location filename="../windows/editorwindow.cpp" line="644"/>
         <source>Save to file</source>
         <translation>Сохранить в файл</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="664"/>
+        <location filename="../windows/editorwindow.cpp" line="655"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Невозможно открыть файл &apos;%1&apos; для записи: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="684"/>
+        <location filename="../windows/editorwindow.cpp" line="675"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>SQL-код сохранён в файле %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="707"/>
+        <location filename="../windows/editorwindow.cpp" line="698"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Запрос выполнен за %1 секунд. Затронуто строк: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="711"/>
+        <location filename="../windows/editorwindow.cpp" line="702"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Запрос выполнен за %1 секунд.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="840"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Clear execution history</source>
         <translation>Очистка истории запросов</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="840"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Вы действительно хотите удалить всю историю выполнения SQL запросов? Операцию невозможно отменить.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="878"/>
+        <location filename="../windows/editorwindow.cpp" line="869"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Невозможно произвести экспорт, т. к. не загружено ни одного модуля экспорта.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="899"/>
+        <location filename="../windows/editorwindow.cpp" line="890"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>В редакторе SQL не выбрана база данных. Невозможно создать представление в неизвестной базе данных.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="949"/>
+        <location filename="../windows/editorwindow.cpp" line="940"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>В окне редактора &quot;%1&quot; имеются неподтверждённые данные.</translation>
     </message>
@@ -6053,7 +6072,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>Уменьшить размер шрифта</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="655"/>
+        <location filename="../windows/editorwindow.cpp" line="646"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
@@ -6068,7 +6087,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">Select new database file</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="654"/>
+        <location filename="../windows/editorwindow.cpp" line="645"/>
         <source>SQL files</source>
         <translation type="unfinished">SQL files</translation>
     </message>
@@ -6094,67 +6113,67 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>Тип файла</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="28"/>
+        <location filename="../windows/editorwindow.h" line="30"/>
         <source>SQL editor window</source>
         <translation>Окно редактора SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="29"/>
+        <location filename="../windows/editorwindow.h" line="31"/>
         <source>Execute query</source>
         <translation>Выполнить запрос</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="30"/>
+        <location filename="../windows/editorwindow.h" line="32"/>
         <source>Execute single query under cursor</source>
         <translation>Выполнить одиночный запрос под курсором</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="31"/>
+        <location filename="../windows/editorwindow.h" line="33"/>
         <source>Execute all queries in editor</source>
         <translation>Выполнить все запросы в редакторе</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="32"/>
+        <location filename="../windows/editorwindow.h" line="34"/>
         <source>Execute EXPLAIN query</source>
         <translation type="unfinished">Execute EXPLAIN query</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="33"/>
+        <location filename="../windows/editorwindow.h" line="35"/>
         <source>Export query results</source>
         <translation type="unfinished">Export query results</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="34"/>
+        <location filename="../windows/editorwindow.h" line="36"/>
         <source>Switch current working database to previous on the list</source>
         <translation>Переключить текущую базу данных на предыдущую в списке</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="35"/>
+        <location filename="../windows/editorwindow.h" line="37"/>
         <source>Switch current working database to next on the list</source>
         <translation>Переключить текущую базу данных на следующую в списке</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="36"/>
+        <location filename="../windows/editorwindow.h" line="38"/>
         <source>Go to next editor tab</source>
         <translation>Перейти на следующую вкладку редактора</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="37"/>
+        <location filename="../windows/editorwindow.h" line="39"/>
         <source>Go to previous editor tab</source>
         <translation>Перейти на предыдущую вкладку редактора</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="38"/>
+        <location filename="../windows/editorwindow.h" line="40"/>
         <source>Move keyboard input focus to the results view below</source>
         <translation>Переместить фокус ввода в окно результатов внизу</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="39"/>
+        <location filename="../windows/editorwindow.h" line="41"/>
         <source>Move keyboard input focus to the SQL editor above</source>
         <translation>Переместить фокус ввода в окно редактора SQL вверху</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="40"/>
+        <location filename="../windows/editorwindow.h" line="42"/>
         <source>Delete selected SQL history entries</source>
         <translation>Удалить выбранные записи из истории SQL-запросов</translation>
     </message>
@@ -6735,58 +6754,58 @@ find next</source>
         <translation>Уменьшить размер шрифта</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="309"/>
+        <location filename="../sqleditor.cpp" line="312"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Невозможно открыть файл &apos;%1&apos; для записи: %2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="318"/>
+        <location filename="../sqleditor.cpp" line="321"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>SQL-код сохранён в файле %1</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="574"/>
+        <location filename="../sqleditor.cpp" line="577"/>
         <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
         <translation>Дополнение синтаксиса может быть использовано только после назначения корректной базы данных редактору SQL.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1195"/>
+        <location filename="../sqleditor.cpp" line="1198"/>
         <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
         <translation>Размер содержимого редактора SQL слишком велико, поэтому обнаружение ошибок и подсветка существующих объектов временно отключена.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1224"/>
+        <location filename="../sqleditor.cpp" line="1227"/>
         <source>Save to file</source>
         <translation>Сохранить в файл</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1239"/>
+        <location filename="../sqleditor.cpp" line="1242"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
         <translation>Скрипты SQL (*.sql);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1240"/>
-        <location filename="../sqleditor.cpp" line="1271"/>
+        <location filename="../sqleditor.cpp" line="1243"/>
+        <location filename="../sqleditor.cpp" line="1274"/>
         <source>Open file</source>
         <translation>Открыть файл</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1272"/>
+        <location filename="../sqleditor.cpp" line="1275"/>
         <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
         <translation>Это огромный файл (более %1 MB). Вы уверены, что хотите загрузить его в редактор запросов SQL?</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1286"/>
+        <location filename="../sqleditor.cpp" line="1289"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
         <translation>Невозможно открыть файл &apos;%1&apos; для чтения: %2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1480"/>
+        <location filename="../sqleditor.cpp" line="1483"/>
         <source>Reached the end of document. Hit the find again to restart the search.</source>
         <translation>Достигнут конец документа. Нажмите Найти снова для перезапуска поиска.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1745"/>
+        <location filename="../sqleditor.cpp" line="1748"/>
         <source>Ctrl+click to open this table or view</source>
         <translation type="unfinished">Ctrl+click to open this table or view</translation>
     </message>
