@@ -44,53 +44,54 @@ class API_EXPORT AbstractDb : public Db
 
         virtual ~AbstractDb();
 
-        bool isOpen();
-        QString getName() const;
-        QString getPath() const;
-        quint8 getVersion() const;
-        QString getEncoding();
-        QHash<QString,QVariant>& getConnectionOptions();
-        void setName(const QString& value);
-        void setPath(const QString& value);
-        void setConnectionOptions(const QHash<QString,QVariant>& value);
-        SqlQueryPtr exec(const QString& query, const QList<QVariant> &args, Flags flags = Flag::NONE);
-        SqlQueryPtr exec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE);
-        SqlQueryPtr exec(const QString &query, Db::Flags flags = Flag::NONE);
-        SqlQueryPtr exec(const QString &query, const QVariant &arg);
-        SqlQueryPtr exec(const QString &query, std::initializer_list<QVariant> argList);
-        SqlQueryPtr exec(const QString &query, std::initializer_list<std::pair<QString,QVariant>> argMap);
-        void asyncExec(const QString& query, const QList<QVariant>& args, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE);
-        void asyncExec(const QString& query, const QHash<QString, QVariant>& args, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE);
-        void asyncExec(const QString& query, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE);
-        quint32 asyncExec(const QString& query, const QList<QVariant>& args, Flags flags = Flag::NONE);
-        quint32 asyncExec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE);
-        quint32 asyncExec(const QString& query, Flags flags = Flag::NONE);
-        bool begin(bool noLock = false);
-        bool commit(bool noLock = false);
-        bool rollback(bool noLock = false);
-        bool begin(const QString& txName, bool noLock = false);
-        bool commit(const QString& txName, bool noLock = false);
-        bool rollback(const QString& txName, bool noLock = false);
-        QString beginNamed(bool noLock = false);
-        void interrupt();
-        void asyncInterrupt();
-        bool isReadable();
-        bool isWritable();
-        AttachGuard guardedAttach(Db* otherDb, bool silent = false);
-        QString attach(Db* otherDb, bool silent = false);
-        void detach(Db* otherDb);
-        void detachAll();
-        const QHash<Db*,QString>& getAttachedDatabases();
-        QSet<QString> getAllAttaches();
-        QString getUniqueNewObjectName(const QString& attachedDbName = QString());
-        QString getErrorText();
-        int getErrorCode();
-        bool initAfterCreated();
-        void setTimeout(int secs);
-        int getTimeout() const;
-        bool isValid() const;
+        bool isOpen() override;
+        QString getName() const override;
+        QString getPath() const override;
+        quint8 getVersion() const override;
+        QString getEncoding() override;
+        QHash<QString,QVariant>& getConnectionOptions() override;
+        void setName(const QString& value) override;
+        void setPath(const QString& value) override;
+        void setConnectionOptions(const QHash<QString,QVariant>& value) override;
+        SqlQueryPtr exec(const QString& query, const QList<QVariant> &args, Flags flags = Flag::NONE) override;
+        SqlQueryPtr exec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE) override;
+        SqlQueryPtr exec(const QString &query, Db::Flags flags = Flag::NONE) override;
+        SqlQueryPtr exec(const QString &query, const QVariant &arg) override;
+        SqlQueryPtr exec(const QString &query, std::initializer_list<QVariant> argList) override;
+        SqlQueryPtr exec(const QString &query, std::initializer_list<std::pair<QString,QVariant>> argMap) override;
+        void asyncExec(const QString& query, const QList<QVariant>& args, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE) override;
+        void asyncExec(const QString& query, const QHash<QString, QVariant>& args, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE) override;
+        void asyncExec(const QString& query, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE) override;
+        quint32 asyncExec(const QString& query, const QList<QVariant>& args, Flags flags = Flag::NONE) override;
+        quint32 asyncExec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE) override;
+        quint32 asyncExec(const QString& query, Flags flags = Flag::NONE) override;
+        bool begin(bool noLock = false) override;
+        bool commit(bool noLock = false) override;
+        bool rollback(bool noLock = false) override;
+        bool begin(const QString& txName, bool noLock = false) override;
+        bool commit(const QString& txName, bool noLock = false) override;
+        bool rollback(const QString& txName, bool noLock = false) override;
+        QString beginNamed(bool noLock = false) override;
+        void interrupt() override;
+        void asyncInterrupt() override;
+        bool isReadable() override;
+        bool isWritable() override;
+        AttachGuard guardedAttach(Db* otherDb, bool silent = false) override;
+        QString attach(Db* otherDb, bool silent = false) override;
+        void detach(Db* otherDb) override;
+        void detachAll() override;
+        const QHash<Db*,QString>& getAttachedDatabases() override;
+        QSet<QString> getAllAttaches() override;
+        QString getUniqueNewObjectName(const QString& attachedDbName = QString()) override;
+        QString getErrorText() override;
+        int getErrorCode() override;
+        bool initAfterCreated() override;
+        void setTimeout(int secs) override;
+        int getTimeout() const override;
+        bool isValid() const override;
         void loadExtensions();
-        QList<LoadedExtension> getManuallyLoadedExtensions() const;
+        QList<LoadedExtension> getManuallyLoadedExtensions() const override;
+        void copyStateFrom(Db* otherDb) override;
 
     protected:
         struct FunctionUserData
@@ -210,8 +211,8 @@ class API_EXPORT AbstractDb : public Db
         virtual void initAfterOpen();
 
         void checkForDroppedObject(const QString& query);
-        bool registerCollation(const QString& name);
-        bool deregisterCollation(const QString& name);
+        bool registerCollation(const QString& name) override;
+        bool deregisterCollation(const QString& name) override;
         bool isCollationRegistered(const QString& name);
         bool beginNoLock();
         bool commitNoLock();
@@ -459,7 +460,7 @@ class API_EXPORT AbstractDb : public Db
          * It is called from implementation of load_extension() (which replaces SQLite's original one).
          * Internally it calls Db::loadExtension().
          */
-        bool loadExtensionManually(const QString& filePath, const QString& initFunc = QString());
+        bool loadExtensionManually(const QString& filePath, const QString& initFunc = QString()) override;
 
         /**
          * @brief Connection state lock.
@@ -514,13 +515,13 @@ class API_EXPORT AbstractDb : public Db
         void appIsAboutToQuit();
 
     public slots:
-        bool open();
-        bool close();
-        bool openQuiet();
-        bool closeQuiet();
-        bool openForProbing();
-        void registerUserFunctions();
-        void registerUserCollations();
+        bool open() override;
+        bool close() override;
+        bool openQuiet() override;
+        bool closeQuiet() override;
+        bool openForProbing() override;
+        void registerUserFunctions() override;
+        void registerUserCollations() override;
         void reloadExtensions();
 };
 

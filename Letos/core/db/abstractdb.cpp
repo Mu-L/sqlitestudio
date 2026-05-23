@@ -173,6 +173,37 @@ void AbstractDb::loadExtensions()
     connect(SQLITE_EXTENSIONS, SIGNAL(extensionListChanged()), this, SLOT(reloadExtensions()));
 }
 
+void AbstractDb::copyStateFrom(Db* otherDb)
+{
+    if (!otherDb->isOpen())
+        return;
+
+    auto result = otherDb->exec("PRAGMA database_list");
+    for (auto& row : result->getAll())
+    {
+        QString name = row->value("name").toString();
+        if (name == "main" || name == "temp")
+            continue;
+
+        QString path = row->value("file").toString();
+        auto res = exec("ATTACH ? AS ?", {path, name});
+        if (res->isError())
+        {
+            qWarning() << "Failed to attach" << path << "database while copying state from database" << otherDb->getName()
+                       << "to" << getName() << "database. Error was:" << res->getErrorText();
+        }
+    }
+
+    for (Db::LoadedExtension& ext : otherDb->getManuallyLoadedExtensions())
+    {
+        if (!loadExtension(ext.path, ext.init))
+        {
+            qWarning() << "Failed to load extension" << ext.path << "while copying state from database" << otherDb->getName()
+                       << "to" << getName() << "database";
+        }
+    }
+}
+
 void AbstractDb::reloadExtensions()
 {
     if (!isOpen())

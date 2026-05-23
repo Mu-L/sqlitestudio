@@ -400,6 +400,10 @@ bool InvalidDb::isTransactionActive() const
     return false;
 }
 
+void InvalidDb::copyStateFrom(Db*)
+{
+}
+
 QList<Db::LoadedExtension> InvalidDb::getManuallyLoadedExtensions() const
 {
     return {};

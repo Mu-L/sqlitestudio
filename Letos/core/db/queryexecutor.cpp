@@ -364,14 +364,7 @@ bool QueryExecutor::countResults()
                     .arg("Failed to establish dedicated connection for results counting."));
         return false;
     }
-
-    // Apply all transparent attaches to the counting DB
-    if (!attachDbsForCountingResults())
-        return false;
-
-    // Load all manually loaded extensions to counting DB
-    if (!loadManualExtensionsForCountingResults())
-        return false;
+    countingDb->copyStateFrom(db);
 
     if (asyncMode)
     {
@@ -388,80 +381,6 @@ bool QueryExecutor::countResults()
     }
     return true;
 }
-
-bool QueryExecutor::attachDbsForCountingResults()
-{
-    countingAttaches.clear();
-
-    QHash<QString, QString> attachNameToPath;
-
-    auto it = context->dbNameToAttach.iterator();
-    while (it.hasNext())
-    {
-        auto entry = it.next();
-        Db* dbToAttach = DBLIST->getByName(entry.key());
-        attachNameToPath[entry.value()] = dbToAttach->getPath();
-    }
-
-    it = context->nativeDbPathToAttachName.iterator();
-    while (it.hasNext())
-    {
-        auto entry = it.next();
-        attachNameToPath[entry.value()] = it.key();
-    }
-
-    bool success = true;
-    it = QHashIterator<QString,QString>(attachNameToPath);
-    while (it.hasNext())
-    {
-        auto entry = it.next();
-        SqlQueryPtr attachRes = countingDb->exec(QString("ATTACH '%1' AS %2").arg(entry.value(), entry.key()));
-        if (attachRes->isError())
-        {
-            notifyError(tr("An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1")
-                            .arg("Failed to attach necessary databases for counting."));
-
-            qDebug() << "Error while attaching db for counting:" << attachRes->getErrorText();
-            success = false;
-            break;
-        }
-        countingAttaches << entry.key();
-    }
-
-    if (!success)
-        detachAllDbsForCountingResults();
-
-    return success;
-}
-
-bool QueryExecutor::loadManualExtensionsForCountingResults()
-{
-    for (Db::LoadedExtension& ext : db->getManuallyLoadedExtensions())
-    {
-        if (!countingDb->loadExtension(ext.path, ext.init))
-            return false;
-    }
-
-    return true;
-}
-
-void QueryExecutor::detachAllDbsForCountingResults()
-{
-    for (QString& attName : countingAttaches)
-    {
-        SqlQueryPtr detachRes = countingDb->exec(QString("DETACH %1").arg(attName));
-        if (detachRes->isError())
-            qDebug() << "Error while detaching db in results counting:" << detachRes->getErrorText();
-    }
-    countingAttaches.clear();
-}
-
-void QueryExecutor::clearManualExtensionsForCountingResults()
-{
-    if (!db->getManuallyLoadedExtensions().isEmpty())
-        countingDb->closeQuiet();
-}
-
 
 qint64 QueryExecutor::getLastExecutionTime() const
 {
@@ -678,6 +597,8 @@ void QueryExecutor::cleanup()
 
 bool QueryExecutor::handleRowCountingResults(SqlQueryPtr results)
 {
+    auto cleanup = qScopeGuard([this] {countingDb->closeQuiet();});
+
     if (isExecutionInProgress()) // shouldn't be true, but just in case
         return false;
 
@@ -692,7 +613,6 @@ bool QueryExecutor::handleRowCountingResults(SqlQueryPtr results)
                     .arg(results->getErrorText()));
     }
 
-    detachAllDbsForCountingResults();
     return true;
 }
 

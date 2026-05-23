@@ -3,6 +3,7 @@
 #include "parser/keywords.h"
 #include "sqlfileexecutor.h"
 #include "common/collections.h"
+#include "parser/lexer.h"
 #include <QSignalSpy>
 #include <QTest>
 

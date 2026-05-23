@@ -941,6 +941,15 @@ class API_EXPORT Db : public QObject, public Interruptable
          * This slot is called from openAndsetup() and then every time user modifies custom collations and commits changes to them.
          */
         virtual void registerUserCollations() = 0;
+
+        /**
+         * @brief Copies connection state in terms of attaches and extensions.
+         * @param otherDb Other database to copy state from.
+         *
+         * This is used when we want to open another database with the same state as already opened database.
+         * We want to open another connection with the same path but separate transactions.
+         */
+        virtual void copyStateFrom(Db* otherDb) = 0;
 };
 
 API_EXPORT QDataStream &operator<<(QDataStream &out, const Db* myObj);

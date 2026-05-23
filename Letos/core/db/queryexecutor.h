@@ -789,28 +789,6 @@ class API_EXPORT QueryExecutor : public QObject, public QRunnable
         bool countResults();
 
         /**
-         * @brief Handles all db attaching to reflect primary connection state in counting connection.
-         * @return false if something failed (in which case all partial attachments are revoked).
-         */
-        bool attachDbsForCountingResults();
-
-        /**
-         * @brief Handles all manually loaded SQLite exteions to reflect primary connection state in counting connection.
-         * @return false if something failed (in which case counting db connections is closed to clear anything that was loaded).
-         */
-        bool loadManualExtensionsForCountingResults();
-
-        /**
-         * @brief Cleans up attached databases made for results counting.
-         */
-        void detachAllDbsForCountingResults();
-
-        /**
-         * @brief If any manuallu loaded extensions were loaded to counting db, its connection will be closed by this function to clean up.
-         */
-        void clearManualExtensionsForCountingResults();
-
-        /**
          * @brief Gets time of how long it took to execute query.
          * @return Execution time in nenoseconds.
          *
@@ -1529,13 +1507,6 @@ class API_EXPORT QueryExecutor : public QObject, public QRunnable
          * #5135 Counting rows in enormous tables (which can take very long time) no longer blocks the application.
          */
         Db* countingDb = nullptr;
-
-        /**
-         * @brief Attaches created in the countingDb
-         *
-         * This is to track attaches and have them in sync with the db's attaches.
-         */
-        QStringList countingAttaches;
 
     signals:
         /**

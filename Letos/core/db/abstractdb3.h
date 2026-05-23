@@ -2,7 +2,6 @@
 #define ABSTRACTDB3_H
 
 #include "db/abstractdb.h"
-#include "parser/lexer.h"
 #include "common/utils_sql.h"
 #include "services/collationmanager.h"
 #include "services/notifymanager.h"
@@ -42,30 +41,30 @@ class AbstractDb3 : public AbstractDb
          * All values from this constructor are just passed to AbstractDb constructor.
          */
         AbstractDb3(const QString& name, const QString& path, const QHash<QString, QVariant>& connOptions);
-        ~AbstractDb3();
+        ~AbstractDb3() override;
 
-        bool loadExtension(const QString& filePath, const QString& initFunc = QString());
-        bool isComplete(const QString& sql) const;
-        QList<AliasedColumn> columnsForQuery(const QString& query);
+        bool loadExtension(const QString& filePath, const QString& initFunc = QString()) override;
+        bool isComplete(const QString& sql) const override;
+        QList<AliasedColumn> columnsForQuery(const QString& query) override;
 
     protected:
-        bool isOpenInternal();
-        void interruptExecution();
-        QString getErrorTextInternal();
-        int getErrorCodeInternal();
-        bool openInternal();
-        bool closeInternal();
-        bool initAfterCreated();
-        void initAfterOpen();
-        SqlQueryPtr prepare(const QString& query);
-        QString getTypeLabel() const;
-        bool deregisterFunction(const QString& name, int argCount);
-        bool registerScalarFunction(const QString& name, int argCount, bool deterministic);
-        bool registerAggregateFunction(const QString& name, int argCount, bool deterministic);
-        bool registerAggregateWindowFunction(const QString& name, int argCount, bool deterministic);
-        bool registerCollationInternal(const QString& name);
-        bool deregisterCollationInternal(const QString& name);
-        bool isTransactionActive() const;
+        bool isOpenInternal() override;
+        void interruptExecution() override;
+        QString getErrorTextInternal() override;
+        int getErrorCodeInternal() override;
+        bool openInternal() override;
+        bool closeInternal() override;
+        bool initAfterCreated() override;
+        void initAfterOpen() override;
+        SqlQueryPtr prepare(const QString& query) override;
+        QString getTypeLabel() const override;
+        bool deregisterFunction(const QString& name, int argCount) override;
+        bool registerScalarFunction(const QString& name, int argCount, bool deterministic) override;
+        bool registerAggregateFunction(const QString& name, int argCount, bool deterministic) override;
+        bool registerAggregateWindowFunction(const QString& name, int argCount, bool deterministic) override;
+        bool registerCollationInternal(const QString& name) override;
+        bool deregisterCollationInternal(const QString& name) override;
+        bool isTransactionActive() const override;
 
     private:
         class Query : public SqlQuery
@@ -81,20 +80,20 @@ class AbstractDb3 : public AbstractDb
                 };
 
                 Query(AbstractDb3<T>* db, const QString& query);
-                ~Query();
+                ~Query() override;
 
-                QString getErrorText();
-                int getErrorCode();
-                QStringList getColumnNames();
-                int columnCount();
-                qint64 rowsAffected();
+                QString getErrorText() override;
+                int getErrorCode() override;
+                QStringList getColumnNames() override;
+                int columnCount() override;
+                qint64 rowsAffected() override;
                 void finalize();
 
             protected:
-                SqlResultsRowPtr nextInternal();
-                bool hasNextInternal();
-                bool execInternal(const QList<QVariant>& args);
-                bool execInternal(const QHash<QString, QVariant>& args);
+                SqlResultsRowPtr nextInternal() override;
+                bool hasNextInternal() override;
+                bool execInternal(const QList<QVariant>& args) override;
+                bool execInternal(const QHash<QString, QVariant>& args) override;
 
             private:
                 int prepareStmt();
