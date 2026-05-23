@@ -161,6 +161,8 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(int,                     StatusFieldMsgFadingMode,    Cfg::StatusFieldFadingMode::GRAY_OUT)
         CFG_ENTRY(Cfg::DataEditorsOrder,   DataEditorsOrder,            Cfg::DataEditorsOrder())
         CFG_ENTRY(Cfg::DataRenderers,      DataRenderers,               Cfg::DataRenderers())
+        CFG_ENTRY(bool,                    DataEditAutoAdvanceOnEnter,  false)
+        CFG_ENTRY(bool,                    DataEditAutoAdvanceEdit,     false,          CFG_DEP(DataEditAutoAdvanceOnEnter))
         CFG_ENTRY(QString,                 FileDialogLastPath,          QString())
         CFG_ENTRY(int,                     MaxInitialColumnWith,        600)
         CFG_ENTRY(bool,                    EnlargeColumnForValue,       true)

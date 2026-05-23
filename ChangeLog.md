@@ -49,6 +49,7 @@
 - ADDED: #4225 Foreign Key constraint configuration dialogs now warns about using foreign column that is neither PRIMARY KEY nor UNIQUE.
 - ADDED: #5085 Added 'Cut' entry to context menu of data Grid View.
 - ADDED: #4709 Added option in configuration to sort data by single-click on a header. Ehnanced data header tooltips to include this information there.
+- ADDED: #3566 Added option in configuration to make the Enter key move to the next row, if it was used to finish data editing in Grid View. The option is also available from the Grid's context menu.
 - CHANGE: #5441 Project has been renamed to Letos. Together with the name, also domain/homepage has changed to letos.org.
 - CHANGE: #4553 Application has moved to Qt 6 (dropping Qt 5 support). This solves several technical issues (for example accented characters on MacOS, better UI scaling for high DPI displays, better dark theme support and more).
 - CHANGE: #5102 All raster icons are replaced with vector icons (SVG). This makes them scalable and work well with high DPI displays.

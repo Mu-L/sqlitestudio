@@ -76,7 +76,8 @@ class GUI_API_EXPORT SqlQueryView : public QTableView, public ExtActionContainer
             INVERT_SELECTION,
             ADJUST_ROWS_SIZE,
             INCR_FONT_SIZE,
-            DECR_FONT_SIZE
+            DECR_FONT_SIZE,
+            NEXT_ROW_ON_ENTER
         };
         Q_ENUM(Action)
 
@@ -152,6 +153,7 @@ class GUI_API_EXPORT SqlQueryView : public QTableView, public ExtActionContainer
         void headerMiddleClicked(int colIdx);
         void requestColumnSorting(int colIdx);
         void setItemDelegateForColumn(int column, QAbstractItemDelegate *delegate);
+        void moveToNextRowAndEdit();
 
         constexpr static const char* mimeDataId = "application/x-letos-data-view-data";
         constexpr static const int minHeaderWidth = 15;
@@ -193,6 +195,7 @@ class GUI_API_EXPORT SqlQueryView : public QTableView, public ExtActionContainer
         void generateDelete();
         void editCurrent();
         void toggleRowsHeightAdjustment(bool enabled);
+        void toggleNextRowOnEnter(bool enabled);
         void adjustRowToContents(int section);
         void fontSizeChangeRequested(int delta);
         void incrFontSize();
@@ -201,6 +204,9 @@ class GUI_API_EXPORT SqlQueryView : public QTableView, public ExtActionContainer
         void syncPinnedSectionHeight(int logicalIndex, int oldSize, int newSize);
         void updatePinnedViewColumns();
         void updatePinnedViewRowSizes();
+
+    protected slots:
+        void closeEditor(QWidget* editor, QAbstractItemDelegate::EndEditHint hint) override;
 
     public slots:
         void syncPinnedSectionWidth(int logicalIndex, int oldSize, int newSize);

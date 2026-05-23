@@ -171,6 +171,9 @@ void SqlQueryView::createActions()
     createAction(ADJUST_ROWS_SIZE, tr("Adjust height of rows"), this, SLOT(toggleRowsHeightAdjustment(bool)), this);
     actionMap[ADJUST_ROWS_SIZE]->setCheckable(true);
     actionMap[ADJUST_ROWS_SIZE]->setChecked(false);
+    createAction(NEXT_ROW_ON_ENTER, tr("Next row on Enter"), this, SLOT(toggleNextRowOnEnter(bool)), this);
+    actionMap[NEXT_ROW_ON_ENTER]->setCheckable(true);
+    actionMap[NEXT_ROW_ON_ENTER]->setChecked(CFG_UI.General.DataEditAutoAdvanceOnEnter.get());
     actionMap[RESET_SORTING]->setEnabled(false);
     createAction(INCR_FONT_SIZE, tr("Increase font size", "data view"), this, SLOT(incrFontSize()), this);
     createAction(DECR_FONT_SIZE, tr("Decrease font size", "data view"), this, SLOT(decrFontSize()), this);
@@ -289,6 +292,7 @@ void SqlQueryView::setupActionsForMenu(SqlQueryItem* currentItem, const QList<Sq
     contextMenu->addSeparator();
     contextMenu->addAction(actionMap[INVERT_SELECTION]);
     contextMenu->addAction(actionMap[ADJUST_ROWS_SIZE]);
+    contextMenu->addAction(actionMap[NEXT_ROW_ON_ENTER]);
     if (additionalActions.size() > 0)
     {
         contextMenu->addSeparator();
@@ -470,6 +474,11 @@ void SqlQueryView::toggleRowsHeightAdjustment(bool enabled)
         for (int row = 0; row < rows; row++)
             hdr->resizeSection(row, height);
     }
+}
+
+void SqlQueryView::toggleNextRowOnEnter(bool enabled)
+{
+    CFG_UI.General.DataEditAutoAdvanceOnEnter.set(enabled);
 }
 
 void SqlQueryView::adjustRowToContents(int section)
@@ -862,6 +871,22 @@ void SqlQueryView::setItemDelegateForColumn(int column, QAbstractItemDelegate* d
     pinnedView->setItemDelegateForColumn(column, delegate);
 }
 
+void SqlQueryView::moveToNextRowAndEdit()
+{
+    if (!CFG_UI.General.DataEditAutoAdvanceOnEnter.get())
+        return;
+
+    QModelIndex current = currentIndex();
+    QModelIndex next = model()->index(current.row() + 1, current.column());
+    if (!next.isValid())
+        return;
+
+    setCurrentIndex(next);
+
+    if (CFG_UI.General.DataEditAutoAdvanceEdit.get())
+        edit(next);
+}
+
 void SqlQueryView::updatePinnedViewGeometry()
 {
     QHeaderView* header = horizontalHeader();
@@ -1113,6 +1138,13 @@ QModelIndex SqlQueryView::moveCursor(CursorAction cursorAction, Qt::KeyboardModi
         horizontalScrollBar()->setValue(newValue);
     }
     return current;
+}
+
+void SqlQueryView::closeEditor(QWidget* editor, QAbstractItemDelegate::EndEditHint hint)
+{
+    QTableView::closeEditor(editor, hint);
+    if (itemDelegate->getLastCommitReason() == SqlQueryItemDelegate::CommitReason::EnterKey)
+        moveToNextRowAndEdit();
 }
 
 void SqlQueryView::scrollTo(const QModelIndex& index, ScrollHint hint)

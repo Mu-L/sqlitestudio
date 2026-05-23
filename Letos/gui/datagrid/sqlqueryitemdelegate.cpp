@@ -4,9 +4,7 @@
 #include "services/notifymanager.h"
 #include "sqlqueryview.h"
 #include "uiconfig.h"
-#include "common/utils_sql.h"
 #include "fkcombobox.h"
-#include "schemaresolver.h"
 #include "sqlqueryitemlineedit.h"
 #include "datagrid/cellrendererplugin.h"
 #include "iconmanager.h"
@@ -85,10 +83,13 @@ QWidget* SqlQueryItemDelegate::createEditor(QWidget* parent, const QStyleOptionV
     }
 
     bool skipInitSelection = item->shoulSkipInitialFocusSelection();
-    if (!item->getColumn()->getFkConstraints().isEmpty())
-        return getFkEditor(item, skipInitSelection, parent, model);
+    lastCommitReason = CommitReason::Other;
+    QWidget* editor = (!item->getColumn()->getFkConstraints().isEmpty()) ?
+        getFkEditor(item, skipInitSelection, parent, model) :
+        getEditor(item, item->getValue().userType(), skipInitSelection, parent);
 
-    return getEditor(item, item->getValue().userType(), skipInitSelection, parent);
+    editor->installEventFilter(const_cast<SqlQueryItemDelegate*>(this));
+    return editor;
 }
 
 void SqlQueryItemDelegate::destroyEditor(QWidget* editor, const QModelIndex& index) const
@@ -158,6 +159,26 @@ void SqlQueryItemDelegate::setModelData(QWidget* editor, QAbstractItemModel* mod
     queryModel->notifyItemEditionEnded(index);
 }
 
+bool SqlQueryItemDelegate::eventFilter(QObject* editor, QEvent* event)
+{
+    if (event->type() == QEvent::KeyPress)
+    {
+        auto* keyEvent = static_cast<QKeyEvent*>(event);
+        switch (keyEvent->key())
+        {
+            case Qt::Key_Return:
+            case Qt::Key_Enter:
+            {
+                lastCommitReason = CommitReason::EnterKey;
+                emit commitData(qobject_cast<QWidget*>(editor));
+                emit closeEditor(qobject_cast<QWidget*>(editor), QAbstractItemDelegate::NoHint);
+                return true;
+            }
+        }
+    }
+    return QStyledItemDelegate::eventFilter(editor, event);
+}
+
 void SqlQueryItemDelegate::setModelDataForFk(FkComboBox* cb, QAbstractItemModel* model, const QModelIndex& index) const
 {
     bool manualValue = false;
@@ -215,6 +236,11 @@ void SqlQueryItemDelegate::setModelDataForLineEdit(QLineEdit* editor, QAbstractI
         }
     }
     model->setData(index, value, Qt::EditRole);
+}
+
+SqlQueryItemDelegate::CommitReason SqlQueryItemDelegate::getLastCommitReason() const
+{
+    return lastCommitReason;
 }
 
 void SqlQueryItemDelegate::setEditorDataForLineEdit(QLineEdit* le, const QModelIndex& index) const

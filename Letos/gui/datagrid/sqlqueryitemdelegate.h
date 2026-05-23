@@ -2,7 +2,6 @@
 #define SQLQUERYITEMDELEGATE_H
 
 #include "gui_global.h"
-#include "db/sqlquery.h"
 #include "sqlqueryitem.h"
 #include <QStyledItemDelegate>
 #include <QSet>
@@ -18,31 +17,28 @@ class GUI_API_EXPORT SqlQueryItemDelegate : public QStyledItemDelegate
 {
         Q_OBJECT
     public:
+        enum class CommitReason
+        {
+            EnterKey,
+            Other
+        };
+
         explicit SqlQueryItemDelegate(QObject *parent = 0);
 
-        void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const;
-        QWidget* createEditor(QWidget* parent, const QStyleOptionViewItem& option, const QModelIndex& index) const;
-        void destroyEditor(QWidget *editor, const QModelIndex &index) const;
-        QString	displayText(const QVariant & value, const QLocale & locale) const;
-        void setEditorData(QWidget * editor, const QModelIndex & index) const;
-        void setModelData(QWidget * editor, QAbstractItemModel * model, const QModelIndex & index) const;
+        void paint(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index) const override;
+        QWidget* createEditor(QWidget* parent, const QStyleOptionViewItem& option, const QModelIndex& index) const override;
+        void destroyEditor(QWidget *editor, const QModelIndex &index) const override;
+        QString	displayText(const QVariant & value, const QLocale & locale) const override;
+        void setEditorData(QWidget * editor, const QModelIndex & index) const override;
+        void setModelData(QWidget * editor, QAbstractItemModel * model, const QModelIndex & index) const override;
         void mouseLeftIndex(const QModelIndex& index);
+        bool eventFilter(QObject* editor, QEvent* event) override;
+        CommitReason getLastCommitReason() const;
 
         static void handleUncommitedPainting(QPainter* painter, const QStyleOptionViewItem& option, const QModelIndex& index);
         static SqlQueryItem* getItem(const QModelIndex &index);
 
     private:
-        class GUI_API_EXPORT FkComboShowFilter : public QObject
-        {
-            public:
-                explicit FkComboShowFilter(const SqlQueryItemDelegate* delegate, SqlQueryView* comboView, QObject* parent = 0);
-                bool eventFilter(QObject *obj, QEvent *event);
-
-            private:
-                const SqlQueryItemDelegate* delegate = nullptr;
-                SqlQueryView* comboView = nullptr;
-        };
-
         QWidget* getEditor(SqlQueryItem* item, int type, bool shouldSkipInitialSelection, QWidget* parent) const;
         QWidget* getFkEditor(SqlQueryItem* item, bool shouldSkipInitialSelection, QWidget* parent, const SqlQueryModel *model) const;
         void setEditorDataForLineEdit(QLineEdit* le, const QModelIndex& index) const;
@@ -53,6 +49,7 @@ class GUI_API_EXPORT SqlQueryItemDelegate : public QStyledItemDelegate
         int getFkViewHeaderWidth(SqlQueryView* fkView, bool includeScrollBar) const;
 
         QAction* resetValueAction = nullptr;
+        mutable CommitReason lastCommitReason = CommitReason::Other;
 
         static bool warnedAboutHugeContents;
         static const int HUGE_CONTENTS_WARNING_LIMIT = 32767; // pow(2, 16) / 2 - 1
