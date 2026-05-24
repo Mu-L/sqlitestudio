@@ -1670,17 +1670,17 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="556"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="559"/>
         <source>After editing, Enter moves to the next row</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">After editing, Enter moves to the next row</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="562"/>
         <source>General.DataEditAutoAdvanceOnEnter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">General.DataEditAutoAdvanceOnEnter</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="605"/>
@@ -1690,17 +1690,17 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="631"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="634"/>
         <source>Start editing after moving to the next row</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Start editing after moving to the next row</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="637"/>
         <source>General.DataEditAutoAdvanceEdit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">General.DataEditAutoAdvanceEdit</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="717"/>
@@ -2286,7 +2286,7 @@
         <location filename="../dataview.cpp" line="125"/>
         <source>Filter by value in any column</source>
         <comment>data view</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Filter by value in any column</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="134"/>
@@ -3517,13 +3517,13 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/editorwindow.cpp" line="436"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Explain mode: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="461"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Editor window settings</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="508"/>
@@ -7160,7 +7160,7 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
         <source>Next row on Enter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Next row on Enter</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
