@@ -67,7 +67,8 @@ bool AbstractDb::closeQuiet()
     interruptExecution();
 
     QWriteLocker locker(&dbOperLock);
-    bool res = closeInternal();
+    bool callWalCheckpoint = !isClone();
+    bool res = closeInternal(callWalCheckpoint);
     clearAttaches();
     registeredFunctions.clear();
     registeredCollations.clear();
@@ -202,6 +203,18 @@ void AbstractDb::copyStateFrom(Db* otherDb)
                        << "to" << getName() << "database";
         }
     }
+}
+
+Db* AbstractDb::clone() const
+{
+    AbstractDb* theClone = createCloneInstance();
+    theClone->cloned = true;
+    return theClone;
+}
+
+bool AbstractDb::isClone() const
+{
+    return cloned;
 }
 
 void AbstractDb::reloadExtensions()

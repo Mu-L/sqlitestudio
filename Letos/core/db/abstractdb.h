@@ -92,6 +92,8 @@ class API_EXPORT AbstractDb : public Db
         void loadExtensions();
         QList<LoadedExtension> getManuallyLoadedExtensions() const override;
         void copyStateFrom(Db* otherDb) override;
+        Db* clone() const override;
+        bool isClone() const override;
 
     protected:
         struct FunctionUserData
@@ -101,6 +103,7 @@ class API_EXPORT AbstractDb : public Db
             Db* db = nullptr;
         };
 
+        virtual AbstractDb* createCloneInstance() const = 0;
         virtual QString getAttachSql(Db* otherDb, const QString& generatedAttachName);
 
         /**
@@ -203,10 +206,11 @@ class API_EXPORT AbstractDb : public Db
 
         /**
          * @brief Closes database connection.
+         * @param walCheckpoint To call or not to call the WAL checkpoint.
          *
          * Closes database. Called by open() and openQuiet().
          */
-        virtual bool closeInternal() = 0;
+        virtual bool closeInternal(bool walCheckpoint = true) = 0;
 
         virtual void initAfterOpen();
 
@@ -480,7 +484,7 @@ class API_EXPORT AbstractDb : public Db
          *
          * See Db::setTimeout() for details.
          */
-        int timeout = 60;
+        int timeout = 5;
 
         /**
          * @brief List of all functions currently registered in this database.
@@ -500,6 +504,7 @@ class API_EXPORT AbstractDb : public Db
         QList<LoadedExtension> manuallyLoadedExtensions;
 
         int loadedExtensionCount = 0;
+        bool cloned = false;
 
     private slots:
         /**

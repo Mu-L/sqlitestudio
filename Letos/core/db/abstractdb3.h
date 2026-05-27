@@ -46,6 +46,7 @@ class AbstractDb3 : public AbstractDb
         bool loadExtension(const QString& filePath, const QString& initFunc = QString()) override;
         bool isComplete(const QString& sql) const override;
         QList<AliasedColumn> columnsForQuery(const QString& query) override;
+        TransactionState getTransactionState() const override;
 
     protected:
         bool isOpenInternal() override;
@@ -53,7 +54,7 @@ class AbstractDb3 : public AbstractDb
         QString getErrorTextInternal() override;
         int getErrorCodeInternal() override;
         bool openInternal() override;
-        bool closeInternal() override;
+        bool closeInternal(bool walCheckpoint = true) override;
         bool initAfterCreated() override;
         void initAfterOpen() override;
         SqlQueryPtr prepare(const QString& query) override;
@@ -123,7 +124,7 @@ class AbstractDb3 : public AbstractDb
 
         QString extractLastError();
         QString extractLastError(typename T::handle* handle);
-        void cleanUp();
+        void cleanUp(bool walCheckpoint);
         void resetError();
         void checkForNewerVersionModifications();
 
@@ -357,7 +358,7 @@ template <class T>
 AbstractDb3<T>::~AbstractDb3()
 {
     if (isOpenInternal())
-        closeInternal();
+        closeInternal(false);
 }
 
 template<class T>
@@ -420,6 +421,26 @@ QList<AliasedColumn> AbstractDb3<T>::columnsForQuery(const QString& query)
     return result;
 }
 
+template<class T>
+inline Db::TransactionState AbstractDb3<T>::getTransactionState() const
+{
+    if (!dbHandle)
+        return TransactionState::NONE;
+
+    int res = T::txn_state(dbHandle, nullptr);
+    if (res == T::TXN_WRITE)
+        return TransactionState::WRITE;
+    else if (res == T::TXN_READ)
+        return TransactionState::READ;
+    else if (res == T::TXN_NONE)
+        return TransactionState::NONE;
+    else
+    {
+        qWarning() << "Error getting transaction state";
+        return TransactionState::NONE;
+    }
+}
+
 template <class T>
 bool AbstractDb3<T>::isOpenInternal()
 {
@@ -468,13 +489,13 @@ bool AbstractDb3<T>::openInternal()
 }
 
 template <class T>
-bool AbstractDb3<T>::closeInternal()
+bool AbstractDb3<T>::closeInternal(bool walCheckpoint)
 {
     resetError();
     if (!dbHandle)
         return false;
 
-    cleanUp();
+    cleanUp(walCheckpoint);
 
     int res = T::close(dbHandle);
     if (res != T::OK)
@@ -501,6 +522,7 @@ void AbstractDb3<T>::initAfterOpen()
     registerDefaultCollationRequestHandler();
     exec("PRAGMA foreign_keys = 1;", Flag::NO_LOCK);
     exec("PRAGMA recursive_triggers = 1;", Flag::NO_LOCK);
+    exec(QString("PRAGMA busy_timeout = %1;").arg(getTimeout() * 1000), Flag::NO_LOCK);
     checkForNewerVersionModifications();
 }
 
@@ -645,9 +667,10 @@ QString AbstractDb3<T>::extractLastError(typename T::handle* handle)
 }
 
 template <class T>
-void AbstractDb3<T>::cleanUp()
+void AbstractDb3<T>::cleanUp(bool walCheckpoint)
 {
-    T::wal_checkpoint_v2(dbHandle, nullptr, T::CHECKPOINT_RESTART, nullptr, nullptr);
+    if (walCheckpoint)
+        T::wal_checkpoint_v2(dbHandle, nullptr, T::CHECKPOINT_RESTART, nullptr, nullptr);
 
     for (Query* q : queries)
         q->finalize();
@@ -1362,16 +1385,7 @@ int AbstractDb3<T>::Query::fetchNext()
     }
 
     rowAvailable = false;
-    int res;
-    int secondsSpent = 0;
-    bool zeroTimeout = flags.testFlag(Db::Flag::ZERO_TIMEOUT);
-    while ((res = T::step(stmt)) == T::BUSY && !zeroTimeout && secondsSpent < db->getTimeout() && !T::is_interrupted(db->dbHandle))
-    {
-        QThread::sleep(1);
-        if (db->getTimeout() >= 0)
-            secondsSpent++;
-    }
-
+    int res = T::step(stmt);
     switch (res)
     {
         case T::ROW:

@@ -179,6 +179,9 @@ set(PROJECT_HEADERS
     dialogs/settingsexportdialog.h
     dialogs/settingsimportdialog.h
     codesnippetspanel.h
+    completer/completersnippetdelegate.h
+    dialogs/manualcommitwalmodedialog.h
+    dialogs/manualcommitpendingtxdialog.h
 )
 
 set(PROJECT_SOURCES
@@ -353,6 +356,9 @@ set(PROJECT_SOURCES
     dialogs/settingsexportdialog.cpp
     dialogs/settingsimportdialog.cpp
     codesnippetspanel.cpp
+    completer/completersnippetdelegate.cpp
+    dialogs/manualcommitwalmodedialog.cpp
+    dialogs/manualcommitpendingtxdialog.cpp
 )
 qt_add_resources(PROJECT_SOURCES
     gui.qrc
@@ -417,10 +423,11 @@ qt_wrap_ui(PROJECT_SOURCES
     dialogs/settingsexportdialog.ui
     dialogs/settingsimportdialog.ui
     codesnippetspanel.ui
+    dialogs/manualcommitwalmodedialog.ui
+    dialogs/manualcommitpendingtxdialog.ui
 )
 
-add_library(guiLetos SHARED ${PROJECT_HEADERS} ${PROJECT_SOURCES}
-    completer/completersnippetdelegate.h completer/completersnippetdelegate.cpp)
+add_library(guiLetos SHARED ${PROJECT_HEADERS} ${PROJECT_SOURCES})
 letos_set_output_properties(guiLetos)
 set_target_properties(guiLetos PROPERTIES
     VERSION 1.0.0

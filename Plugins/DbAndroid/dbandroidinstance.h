@@ -30,8 +30,9 @@ class DbAndroidInstance : public AbstractDb
         bool initAfterCreated();
         bool loadExtension(const QString& filePath, const QString& initFunc);
         bool isComplete(const QString& sql) const;
-        Db* clone() const;
+        AbstractDb* createCloneInstance() const;
         bool isTransactionActive() const;
+        TransactionState getTransactionState() const;
 
     protected:
         bool isOpenInternal();
@@ -39,7 +40,7 @@ class DbAndroidInstance : public AbstractDb
         QString getErrorTextInternal();
         int getErrorCodeInternal();
         bool openInternal();
-        bool closeInternal();
+        bool closeInternal(bool walCheckpoint = true);
         bool registerCollationInternal(const QString& name);
         bool deregisterCollationInternal(const QString& name);
 

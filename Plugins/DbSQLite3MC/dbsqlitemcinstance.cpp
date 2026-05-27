@@ -6,7 +6,7 @@ DbSqliteMcInstance::DbSqliteMcInstance(const QString& name, const QString& path,
 {
 }
 
-Db* DbSqliteMcInstance::clone() const
+AbstractDb* DbSqliteMcInstance::createCloneInstance() const
 {
     return new DbSqliteMcInstance(name, path, connOptions);
 }

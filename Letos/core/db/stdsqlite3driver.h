@@ -28,6 +28,9 @@
         static const int CHECKPOINT_RESTART = UppercasePrefix##SQLITE_CHECKPOINT_RESTART; \
         static const int CHECKPOINT_TRUNCATE = UppercasePrefix##SQLITE_CHECKPOINT_TRUNCATE; \
         static const int DBCONFIG_ENABLE_LOAD_EXTENSION = UppercasePrefix##SQLITE_DBCONFIG_ENABLE_LOAD_EXTENSION; \
+        static const int TXN_NONE = UppercasePrefix##SQLITE_TXN_NONE; \
+        static const int TXN_READ = UppercasePrefix##SQLITE_TXN_READ; \
+        static const int TXN_WRITE = UppercasePrefix##SQLITE_TXN_WRITE; \
         \
         typedef Prefix##sqlite3 handle; \
         typedef Prefix##sqlite3_stmt stmt; \
@@ -108,6 +111,7 @@
         static int create_collation_v2(handle* a1, const char *a2, int a3, void *a4, int(*a5)(void*,int,const void*,int,const void*), void(*a6)(void*)) \
             {return Prefix##sqlite3_create_collation_v2(a1, a2, a3, a4, a5, a6);} \
         static int complete(const char* arg) {return Prefix##sqlite3_complete(arg);} \
+        static int txn_state(handle* a1, const char *a2) {return Prefix##sqlite3_txn_state(a1, a2);} \
     };
 
 #endif // STDSQLITE3DRIVER_H

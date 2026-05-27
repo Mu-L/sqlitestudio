@@ -79,11 +79,11 @@ void DataView::initSlots()
     connect(model, SIGNAL(executionSuccessful()), this, SLOT(executionSuccessful()));
     connect(model, SIGNAL(loadingEnded(bool)), this, SLOT(dataLoadingEnded(bool)));
     connect(model, SIGNAL(commitStatusChanged(bool)), this, SLOT(updateCommitRollbackActions(bool)));
-    connect(gridView->selectionModel(), SIGNAL(selectionChanged(QItemSelection,QItemSelection)),
-            model, SLOT(updateSelectiveCommitRollbackActions(QItemSelection,QItemSelection)));
+    // connect(gridView->selectionModel(), SIGNAL(selectionChanged(QItemSelection,QItemSelection)),
+    //         model, SLOT(updateSelectiveCommitRollbackActions(QItemSelection,QItemSelection)));
     connect(gridView->selectionModel(), SIGNAL(selectionChanged(QItemSelection,QItemSelection)),
             this, SLOT(updateSelectionSum()));
-    connect(model, SIGNAL(selectiveCommitStatusChanged(bool)), this, SLOT(updateSelectiveCommitRollbackActions(bool)));
+    // connect(model, SIGNAL(selectiveCommitStatusChanged(bool)), this, SLOT(updateSelectiveCommitRollbackActions(bool)));
     connect(model, SIGNAL(executionStarted()), gridView, SLOT(executionStarted()));
     connect(model, SIGNAL(loadingEnded(bool)), gridView, SLOT(executionEnded()));
     connect(model, SIGNAL(totalRowsAndPagesAvailable()), this, SLOT(totalRowsAndPagesAvailable()));
@@ -272,8 +272,8 @@ void DataView::createActions()
 
     noConfigShortcutActions << GRID_TOTAL_ROWS << FILTER_VALUE;
 
-    createAction(SELECTIVE_COMMIT, ICONS.COMMIT, tr("Commit changes for selected cells", "data view"), this, SLOT(selectiveCommitGrid()), this);
-    createAction(SELECTIVE_ROLLBACK, ICONS.ROLLBACK, tr("Rollback changes for selected cells", "data view"), this, SLOT(selectiveRollbackGrid()), this);
+    // createAction(SELECTIVE_COMMIT, ICONS.COMMIT, tr("Commit changes for selected cells", "data view"), this, SLOT(selectiveCommitGrid()), this);
+    // createAction(SELECTIVE_ROLLBACK, ICONS.ROLLBACK, tr("Rollback changes for selected cells", "data view"), this, SLOT(selectiveRollbackGrid()), this);
     createAction(SHOW_GRID_VIEW, tr("Show grid view of results", "data view"), this, SLOT(showGridView()), this);
     createAction(SHOW_FORM_VIEW, tr("Show form view of results", "data view"), this, SLOT(showFormView()), this);
 
@@ -924,11 +924,11 @@ void DataView::updateCommitRollbackActions(bool enabled)
     uncommittedGrid = enabled;
 }
 
-void DataView::updateSelectiveCommitRollbackActions(bool enabled)
-{
-    actionMap[SELECTIVE_COMMIT]->setEnabled(enabled);
-    actionMap[SELECTIVE_ROLLBACK]->setEnabled(enabled);
-}
+// void DataView::updateSelectiveCommitRollbackActions(bool enabled)
+// {
+//     actionMap[SELECTIVE_COMMIT]->setEnabled(enabled);
+//     actionMap[SELECTIVE_ROLLBACK]->setEnabled(enabled);
+// }
 
 void DataView::goToPage(const QString& pageStr)
 {
@@ -1059,6 +1059,24 @@ void DataView::resetSorting()
     model->setSortOrder(QueryExecutor::SortList());
 }
 
+void DataView::commit()
+{
+    if (uncommittedForm)
+        commitForm();
+
+    if (uncommittedGrid)
+        commitGrid();
+}
+
+void DataView::rollback()
+{
+    if (uncommittedForm)
+        rollbackForm();
+
+    if (uncommittedGrid)
+        rollbackGrid();
+}
+
 void DataView::insertRow()
 {
     if (!model->features().testFlag(SqlQueryModel::INSERT_ROW))
@@ -1103,17 +1121,17 @@ void DataView::rollbackGrid()
     model->rollback();
 }
 
-void DataView::selectiveCommitGrid()
-{
-    QList<SqlQueryItem*> selectedItems = gridView->getSelectedItems();
-    model->commit(selectedItems);
-}
+// void DataView::selectiveCommitGrid()
+// {
+//     QList<SqlQueryItem*> selectedItems = gridView->getSelectedItems();
+//     model->commit(selectedItems);
+// }
 
-void DataView::selectiveRollbackGrid()
-{
-    QList<SqlQueryItem*> selectedItems = gridView->getSelectedItems();
-    model->rollback(selectedItems);
-}
+// void DataView::selectiveRollbackGrid()
+// {
+//     QList<SqlQueryItem*> selectedItems = gridView->getSelectedItems();
+//     model->rollback(selectedItems);
+// }
 
 void DataView::firstPage()
 {
@@ -1223,7 +1241,7 @@ void DataView::commitForm()
 {
     formView->copyDataToGrid();
     gridView->selectRow(formView->getCurrentRow());
-    selectiveCommitGrid();
+    gridView->selectiveCommit();
     formView->updateFromGrid();
     formViewFocusFirstEditor();
 }
@@ -1232,7 +1250,7 @@ void DataView::rollbackForm()
 {
     formView->copyDataToGrid();
     gridView->selectRow(formView->getCurrentRow());
-    selectiveRollbackGrid();
+    gridView->selectiveRollback();
     formView->updateFromGrid();
     updateCurrentFormViewRow();
     formViewFocusFirstEditor();

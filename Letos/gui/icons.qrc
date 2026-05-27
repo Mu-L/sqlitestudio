@@ -287,5 +287,9 @@
         <file>img/letos_16.png</file>
         <file>img/letos.svg</file>
         <file>img/sql_editor_settings.svg</file>
+        <file>img/ok.svg</file>
+        <file>img/cancel.svg</file>
+        <file>img/tx_apply.svg</file>
+        <file>img/tx_discard.svg</file>
     </qresource>
 </RCC>

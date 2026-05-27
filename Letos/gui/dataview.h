@@ -71,8 +71,8 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
             GRID_TOTAL_ROWS,
             GRID_SELECTED_SUM_SEP,
             GRID_SELECTED_SUM,
-            SELECTIVE_COMMIT,
-            SELECTIVE_ROLLBACK,
+            // SELECTIVE_COMMIT,
+            // SELECTIVE_ROLLBACK,
             INSERT_ROW_BEFORE,
             INSERT_ROW_AFTER,
             INSERT_ROW_AT_END,
@@ -215,6 +215,8 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
     public slots:
         void refreshData(bool keepFocus = true);
         void resetSorting();
+        void commit();
+        void rollback();
 
     private slots:
         void dataLoadingEnded(bool successful);
@@ -225,8 +227,8 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
         void deleteRow();
         void commitGrid();
         void rollbackGrid();
-        void selectiveCommitGrid();
-        void selectiveRollbackGrid();
+        // void selectiveCommitGrid();
+        // void selectiveRollbackGrid();
         void firstPage();
         void prevPage();
         void nextPage();
@@ -246,7 +248,7 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
         void updateFormNavigationState();
         void updateFormCommitRollbackActions();
         void updateCommitRollbackActions(bool enabled);
-        void updateSelectiveCommitRollbackActions(bool enabled);
+        // void updateSelectiveCommitRollbackActions(bool enabled);
         void showGridView();
         void showFormView();
         void updateTabsMode();

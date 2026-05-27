@@ -96,6 +96,10 @@ class GUI_API_EXPORT ExtActionContainer
         virtual ~ExtActionContainer();
 
         QAction* getAction(int action);
+        void saveActionText(int action);
+        void restoreSavedText(int action);
+        void refreshShortcuts();
+        void refreshShortcut(int action);
         virtual const QMetaObject* metaObject() const = 0;
 
         static void refreshShortcutTranslations();
@@ -116,6 +120,7 @@ class GUI_API_EXPORT ExtActionContainer
         QHash<int,QAction*> actionMap;
         QHash<int,CfgStringEntry*> shortcuts;
         QSet<int> noConfigShortcutActions;
+        QHash<int,QString> savedText;
 
         virtual void createActions() = 0;
         virtual void setupDefShortcuts() = 0;
@@ -197,8 +202,6 @@ class GUI_API_EXPORT ExtActionContainer
                 QObject* installedIn = nullptr;
         };
 
-        void refreshShortcuts();
-        void refreshShortcut(int action);
         void deleteActions();
         void createAction(int action, QAction* qAction, const QObject* receiver, const char* slot, QWidget* container, QWidget* owner);
         void handleExtraActions();

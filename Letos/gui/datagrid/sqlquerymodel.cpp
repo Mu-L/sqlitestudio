@@ -174,6 +174,36 @@ void SqlQueryModel::restoreFocusedCell()
     }
 }
 
+bool SqlQueryModel::beginTx()
+{
+    if (db->isTransactionActive())
+    {
+        manualTxName = db->beginNamed();
+        return !manualTxName.isEmpty();
+    }
+    else
+    {
+        manualTxName = QString();
+        return db->begin();
+    }
+}
+
+bool SqlQueryModel::commitTx()
+{
+    if (manualTxName.isEmpty())
+        return db->commit();
+    else
+        return db->commit(manualTxName);
+}
+
+bool SqlQueryModel::rollbackTx()
+{
+    if (manualTxName.isEmpty())
+        return db->rollback();
+    else
+        return db->rollback(manualTxName);
+}
+
 void SqlQueryModel::internalExecutionStopped()
 {
     reloading = false;
@@ -566,12 +596,6 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
 
     attachDependencyTables();
 
-    if (!db->begin())
-    {
-        notifyError(tr("Could not begin transaction on the database. Details: %1").arg(db->getErrorText()));
-        return;
-    }
-
     // Getting number of rows to be added and deleted, so we can update totalPages at the end
     int numberOfItemsAdded = groupItemsByRows(findItems(SqlQueryItem::DataRole::NEW_ROW, true)).size();
     int numberOfItemsDeleted = groupItemsByRows(findItems(SqlQueryItem::DataRole::DELETED, true)).size();
@@ -583,6 +607,13 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
     // Grouping by row and committing
     QList<QList<SqlQueryItem*>> groupedItems = groupItemsByRows(items);
     emit aboutToCommit(groupedItems.size());
+
+    qDebug() << "initial tx state" << (int)db->getTransactionState();
+    if (!beginTx())
+    {
+        notifyError(tr("Could not begin transaction on the database. Details: %1").arg(db->getErrorText()));
+        return;
+    }
 
     int step = 1;
     rowsDeletedSuccessfullyInTheCommit.clear();
@@ -607,16 +638,19 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
             it.remove();
     }
 
+    qDebug() << "step 1 tx state" << (int)db->getTransactionState();
     // Committing to the database
     if (ok)
     {
-        if (!db->commit())
+        qDebug() << "step 2 tx state" << (int)db->getTransactionState();
+        if (!commitTx())
         {
             ok = false;
             notifyError(tr("An error occurred while committing the transaction: %1").arg(db->getErrorText()));
         }
         else
         {
+            qDebug() << "step 3 tx state" << (int)db->getTransactionState();
             // Call all successfull commit handler to refresh cell metadata, etc.
             for (CommitSuccessfulHandler& handler : successfulCommitHandlers)
                 handler();
@@ -638,18 +672,23 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
                 removeRow(row - removeOffset++); // deleting row decrements all rows below
 
             emit commitStatusChanged(getUncommittedItems().size() > 0);
+
+            qDebug() << "step 4 tx state" << (int)db->getTransactionState();
         }
     }
     rowsDeletedSuccessfullyInTheCommit.clear();
 
     if (!ok)
     {
-        if (!db->rollback())
+        qDebug() << "step 5 tx state" << (int)db->getTransactionState();
+        if (!rollbackTx())
         {
             notifyError(tr("An error occurred while rolling back the transaction: %1").arg(db->getErrorText()));
             // Nothing else we can do about it, but it should not happen.
         }
     }
+
+    qDebug() << "final tx state" << (int)db->getTransactionState();
 
     detachDependencyTables();
 

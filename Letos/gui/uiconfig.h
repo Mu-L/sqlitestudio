@@ -145,6 +145,7 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(bool,                    SqlEditorSnippetsIfEmpty,    true)
         CFG_ENTRY(bool,                    DisableBlinkingCursor,       false)
         CFG_ENTRY(bool,                    ExecuteCurrentQueryOnly,     true)
+        CFG_ENTRY(bool,                    SqlEditorAutoCommit,         true)
         CFG_ENTRY(int,                     NumberOfRowsPerPage,         1000)
         CFG_ENTRY(bool,                    LimitRowsForManyColumns,     true)
         CFG_ENTRY(QString,                 Style,                       &Cfg::getStyleDefaultValue)

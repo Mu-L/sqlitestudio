@@ -127,7 +127,7 @@ bool DbAndroidInstance::isComplete(const QString& sql) const
     return DbSqlite3::complete(sql);
 }
 
-Db* DbAndroidInstance::clone() const
+AbstractDb* DbAndroidInstance::createCloneInstance() const
 {
     return new DbAndroidInstance(plugin, name, path, connOptions);
 }
@@ -141,6 +141,13 @@ bool DbAndroidInstance::isTransactionActive() const
     // Current consiequence of negleting this is that if user uses import() function enclosed with BEGIN & END,
     // the query will fail due to already active transaction. In that case user needs to skip the BEGIN & END.
     return false;
+}
+
+Db::TransactionState DbAndroidInstance::getTransactionState() const
+{
+    // FIXME: Since there is no way to detect active transaction by PRAGMA or SQL function,
+    // this plugin cannot just test this state.
+    return TransactionState::NONE;
 }
 
 bool DbAndroidInstance::isOpenInternal()
@@ -179,12 +186,15 @@ bool DbAndroidInstance::openInternal()
     return res;
 }
 
-bool DbAndroidInstance::closeInternal()
+bool DbAndroidInstance::closeInternal(bool walCheckpoint)
 {
     if (!connection)
         return false;
 
     disconnect(connection, SIGNAL(disconnected()), this, SLOT(handleDisconnected()));
+    if (walCheckpoint)
+        exec("PRAGMA wal_checkpoint(FULL)", Flag::NO_LOCK);
+
     connection->disconnectFromAndroid();
     safe_delete(connection);
     return true;

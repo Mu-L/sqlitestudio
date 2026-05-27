@@ -208,6 +208,9 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         void setCellDataLengthLimit(int value);
         int getCellDataLengthLimit();
 
+        bool getAutoCommit() const;
+        void setAutoCommit(bool newAutoCommit);
+
     protected:
         class GUI_API_EXPORT CommitUpdateQueryBuilder : public RowIdConditionBuilder
         {
@@ -404,6 +407,9 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         void notifyItemEditionEnded(const QModelIndex& idx);
         bool isEmptyQuery() const;
         void restoreFocusedCell();
+        bool beginTx();
+        bool commitTx();
+        bool rollbackTx();
 
         QString query;
         QHash<QString, QVariant> queryParams;
@@ -513,8 +519,8 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         QList<int> rowsDeletedSuccessfullyInTheCommit;
 
         bool allDataLoaded = false;
-
         bool structureOutOfDate = false;
+        QString manualTxName;
 
         /**
          * @brief Set of existing model objects, updated for each construction and destruction.

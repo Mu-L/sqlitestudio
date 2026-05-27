@@ -31,7 +31,7 @@ class API_EXPORT DbSqlite3 : public AbstractDb3<Sqlite3>
         static bool complete(const QString& sql);
         static bool isDbFile(const QString& path);
 
-        Db* clone() const;
+        AbstractDb* createCloneInstance() const;
         QString getTypeClassName() const;
 };
 

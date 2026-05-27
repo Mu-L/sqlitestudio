@@ -22,7 +22,7 @@ class DbSqliteMcInstance : public AbstractDb3<SQLite3MC>
     public:
         DbSqliteMcInstance(const QString &name, const QString &path, const QHash<QString, QVariant> &connOptions);
 
-        Db* clone() const;
+        AbstractDb* createCloneInstance() const;
         QString getTypeClassName() const;
         QString getTypeLabel() const;
 

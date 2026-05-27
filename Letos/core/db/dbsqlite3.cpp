@@ -30,7 +30,7 @@ bool DbSqlite3::isDbFile(const QString &path)
     return data == QByteArrayLiteral("SQLite format 3\000");
 }
 
-Db* DbSqlite3::clone() const
+AbstractDb* DbSqlite3::createCloneInstance() const
 {
     return new DbSqlite3(name, path, connOptions);
 }

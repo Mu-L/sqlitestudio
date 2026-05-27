@@ -128,12 +128,11 @@ class GUI_API_EXPORT SqlEditor : public QPlainTextEdit, public ExtActionContaine
         QPixmap getDbItemDragLinkIcon(const QList<DbTreeItem*>& items) const;
         bool getErrorsCheckingEnabled() const;
         void setErrorsCheckingEnabled(bool enabled);
+        bool getAlwaysEnforceErrorsChecking() const;
+        void setAlwaysEnforceErrorsChecking(bool newAlwaysEnforceErrorsChecking);
 
         static QHash<Action, QAction*> staticActions;
         static bool wrapWords;
-
-        bool getAlwaysEnforceErrorsChecking() const;
-        void setAlwaysEnforceErrorsChecking(bool newAlwaysEnforceErrorsChecking);
 
         static constexpr int HUGE_QUERY_LENGTH = 10 * 1024 * 1024; // 10MB of SQL
 

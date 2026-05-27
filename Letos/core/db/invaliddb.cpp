@@ -395,6 +395,11 @@ Db* InvalidDb::clone() const
     return new InvalidDb(name, path, connOptions);
 }
 
+bool InvalidDb::isClone() const
+{
+    return false;
+}
+
 bool InvalidDb::isTransactionActive() const
 {
     return false;
@@ -402,6 +407,11 @@ bool InvalidDb::isTransactionActive() const
 
 void InvalidDb::copyStateFrom(Db*)
 {
+}
+
+Db::TransactionState InvalidDb::getTransactionState() const
+{
+    return TransactionState::NONE;
 }
 
 QList<Db::LoadedExtension> InvalidDb::getManuallyLoadedExtensions() const

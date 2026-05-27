@@ -166,6 +166,16 @@ class API_EXPORT Db : public QObject, public Interruptable
         };
 
         /**
+         * @brief Values as SQLITE_TXN_* constants returned by SQLite, but without dependency on sqlite3.h
+         */
+        enum class TransactionState
+        {
+            NONE,
+            READ,
+            WRITE
+        };
+
+        /**
          * @brief Function to handle SQL query results.
          *
          * The function has to accept single results object and return nothing.
@@ -798,6 +808,12 @@ class API_EXPORT Db : public QObject, public Interruptable
         virtual Db* clone() const = 0;
 
         /**
+         * @brief Tells if this database is a clone of another database, created with clone() method.
+         * @return true if this database is a clone, or false otherwise.
+         */
+        virtual bool isClone() const = 0;
+
+        /**
          * @brief Checkes if there is an ongoing transaction at the moment.
          * @return true if there is an active transaction at the moment, or false otherwise.
          */
@@ -807,6 +823,12 @@ class API_EXPORT Db : public QObject, public Interruptable
          * @brief Provides list of extensions loaded with load_extension() SQL function in this database.
          */
         virtual QList<LoadedExtension> getManuallyLoadedExtensions() const = 0;
+
+        /**
+         * @brief Gets current transaction state of the database.
+         * @return Current transaction state.
+         */
+        virtual TransactionState getTransactionState() const = 0;
 
 
     signals:

@@ -144,6 +144,22 @@ void ExtActionContainer::updateShortcutTips()
 {
 }
 
+void ExtActionContainer::saveActionText(int action)
+{
+     if (!actionMap.contains(action))
+         return;
+
+     savedText[action] = actionMap[action]->text();
+}
+
+void ExtActionContainer::restoreSavedText(int action)
+{
+    if (!actionMap.contains(action) || !savedText.contains(action))
+        return;
+
+    actionMap[action]->setText(savedText[action]);
+}
+
 void ExtActionContainer::deleteActions()
 {
     for (QAction* action : actionMap.values())
@@ -155,20 +171,18 @@ void ExtActionContainer::deleteActions()
 void ExtActionContainer::refreshShortcuts()
 {
     for (int action : actionMap.keys())
-    {
-        if (!shortcuts.contains(action))
-            continue;
-
-        if (noConfigShortcutActions.contains(action))
-            continue;
-
         refreshShortcut(action);
-    }
 }
 
 void ExtActionContainer::refreshShortcut(int action)
 {
     static_qstring(tooltipTpl, "%1 (%2)");
+
+    if (!shortcuts.contains(action))
+        return;
+
+    if (noConfigShortcutActions.contains(action))
+        return;
 
     QSet<int> toActions = inheritShortcutFromTo[action];
 

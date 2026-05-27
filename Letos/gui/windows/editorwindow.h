@@ -76,7 +76,11 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
             CREATE_VIEW_FROM_QUERY,
             DELETE_SELECTED_HISTORY_SQL,
             EXPORT_SELECTED_HISTORY_SQL,
-            SETTINGS
+            SETTINGS,
+            AUTO_COMMIT,
+            QUERIES_TX_SEP,
+            COMMIT_MANUAL_TX,
+            ROLLBACK_MANUAL_TX
         };
         Q_ENUM(Action)
 
@@ -122,6 +126,11 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         QString getQuitUncommittedConfirmMessage() const;
         Db* getCurrentDb();
         QPair<Db*, QString> getSoftDbObjectAssociation() const;
+        bool getAutoCommit() const;
+        bool setAutoCommit(bool newAutoCommit);
+        bool hasPendingManualTx() const;
+        bool isManualCommitMode() const;
+        void clearReadOnlyManualTx();
 
     protected:
         void changeEvent(QEvent *e);
@@ -141,6 +150,8 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         void setupSqlHistoryMenu();
         bool processBindParams(QString& sql, QHash<QString, QVariant>& queryParams);
         void exportHistory(const QModelIndexList& idxList);
+        bool initManualCommitForCurrentDb();
+        bool cleanUpManualCommitForCurrentDb();
 
         static const int queryLimitForSmartExecution = 100;
 
@@ -159,6 +170,8 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         QMenu* sqlHistoryMenu = nullptr;
         bool settingSqlContents = false;
         ResultsDisplayMode resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
+        Db* txDb = nullptr;
+        bool autoCommit = true;
 
     private slots:
         void execQuery(int explain = -1, EditorWindow::QueryExecMode querySelectionMode = EditorWindow::DEFAULT);
@@ -191,6 +204,12 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         void queryHighlightingConfigChanged(const QVariant& enabled);
         void renameForFile(const QString fileName);
         void exportResults();
+        void toggleAutoCommit();
+        void reEnableAutoCommit();
+        void updateManualCommitStatus();
+        void openManualTxForDataCommit(int dataRows);
+        void commitManualTx();
+        void rollbackManualTx();
 
     public slots:
         void openFile(const QString& fileName);
