@@ -57,7 +57,7 @@ QList<AliasedColumn> DbAndroidInstance::columnsForQuery(const QString& query)
     return columns;
 }
 
-SqlQueryPtr DbAndroidInstance::prepare(const QString& query)
+SqlQueryPtr DbAndroidInstance::prepare(const QString& query) const
 {
     return SqlQueryPtr(new SqlQueryAndroid(this, connection, query));
 }
@@ -134,23 +134,23 @@ AbstractDb* DbAndroidInstance::createCloneInstance() const
 
 bool DbAndroidInstance::isTransactionActive() const
 {
-    // FIXME: Since there is no way to detect active transaction by PRAGMA or SQL function,
-    // this plugin cannot just test this state. It could potentially be implemented by tracking BEGIN/END keywords
-    // as first keywords in executed queries, but it will require more work and testing.
-    //
-    // Current consiequence of negleting this is that if user uses import() function enclosed with BEGIN & END,
-    // the query will fail due to already active transaction. In that case user needs to skip the BEGIN & END.
+    SqlQueryPtr res = exec("BEGIN");
+    if (res->isError())
+        return true; // cannot begin top-level tx? Then we're in a tx already
+
+    exec("ROLLBACK"); // there was no transaction, we need to roll back the one we started
     return false;
 }
 
 Db::TransactionState DbAndroidInstance::getTransactionState() const
 {
-    // FIXME: Since there is no way to detect active transaction by PRAGMA or SQL function,
-    // this plugin cannot just test this state.
-    return TransactionState::NONE;
+    // Since there is no way to detect transaction state by PRAGMA or SQL function,
+    // this plugin just assumes any active transation to be at WRITE level.
+    // It's not ideal, but it's the best we can do.
+    return isTransactionActive() ? TransactionState::WRITE : TransactionState::NONE;
 }
 
-bool DbAndroidInstance::isOpenInternal()
+bool DbAndroidInstance::isOpenInternal() const
 {
     return (connection && connection->isConnected());
 }

@@ -49,7 +49,7 @@ class AbstractDb3 : public AbstractDb
         TransactionState getTransactionState() const override;
 
     protected:
-        bool isOpenInternal() override;
+        bool isOpenInternal() const override;
         void interruptExecution() override;
         QString getErrorTextInternal() override;
         int getErrorCodeInternal() override;
@@ -57,7 +57,7 @@ class AbstractDb3 : public AbstractDb
         bool closeInternal(bool walCheckpoint = true) override;
         bool initAfterCreated() override;
         void initAfterOpen() override;
-        SqlQueryPtr prepare(const QString& query) override;
+        SqlQueryPtr prepare(const QString& query) const override;
         QString getTypeLabel() const override;
         bool deregisterFunction(const QString& name, int argCount) override;
         bool registerScalarFunction(const QString& name, int argCount, bool deterministic) override;
@@ -442,7 +442,7 @@ inline Db::TransactionState AbstractDb3<T>::getTransactionState() const
 }
 
 template <class T>
-bool AbstractDb3<T>::isOpenInternal()
+bool AbstractDb3<T>::isOpenInternal() const
 {
     return dbHandle != nullptr;
 }
@@ -527,7 +527,7 @@ void AbstractDb3<T>::initAfterOpen()
 }
 
 template <class T>
-SqlQueryPtr AbstractDb3<T>::prepare(const QString& query)
+SqlQueryPtr AbstractDb3<T>::prepare(const QString& query) const
 {
     return SqlQueryPtr(new Query(this, query));
 }

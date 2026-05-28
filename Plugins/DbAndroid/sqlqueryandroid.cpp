@@ -3,12 +3,11 @@
 #include "sqlresultrowandroid.h"
 #include "parser/lexer.h"
 #include "db/sqlerrorcodes.h"
-#include "common/utils_sql.h"
 #include "log.h"
 #include "dbandroidinstance.h"
 #include <QDebug>
 
-SqlQueryAndroid::SqlQueryAndroid(DbAndroidInstance* db, DbAndroidConnection* connection, const QString& query) :
+SqlQueryAndroid::SqlQueryAndroid(const DbAndroidInstance* db, DbAndroidConnection* connection, const QString& query) :
     db(db), connection(connection), queryString(query)
 {
     tokenizedQuery = Lexer::tokenize(query);

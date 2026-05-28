@@ -284,7 +284,8 @@ class API_EXPORT Db : public QObject, public Interruptable
          * When the database is locked by another application, then the Letos will wait given number
          * of seconds for the database to be released, before the execution error is reported.
          *
-         * Set it to negative value to set infinite timeout.
+         * It's passed (multiplied by 1000) to the busy_timeout pragma right after establishing connection to the database.
+         * Set it to negative value to set no timeout.
          *
          * This doesn't involve locking done by Letos internally (see Db::Flag::NO_LOCK), which doesn't time out.
          */
@@ -336,7 +337,7 @@ class API_EXPORT Db : public QObject, public Interruptable
          *                                      {45, 76, "test", 3.56});
          * @endcode
          */
-        virtual SqlQueryPtr exec(const QString& query, const QList<QVariant> &args, Flags flags = Flag::NONE) = 0;
+        virtual SqlQueryPtr exec(const QString& query, const QList<QVariant> &args, Flags flags = Flag::NONE) const = 0;
 
         /**
          * @brief Executes SQL query using named parameters.
@@ -356,31 +357,31 @@ class API_EXPORT Db : public QObject, public Interruptable
          *
          * @overload
          */
-        virtual SqlQueryPtr exec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE) = 0;
+        virtual SqlQueryPtr exec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE) const = 0;
 
         /**
          * @brief Executes SQL query.
          * @overload
          */
-        virtual SqlQueryPtr exec(const QString &query, Db::Flags flags = Flag::NONE) = 0;
+        virtual SqlQueryPtr exec(const QString &query, Db::Flags flags = Flag::NONE) const = 0;
 
         /**
          * @brief Executes SQL query.
          * @overload
          */
-        virtual SqlQueryPtr exec(const QString &query, const QVariant &arg) = 0;
+        virtual SqlQueryPtr exec(const QString &query, const QVariant &arg) const = 0;
 
         /**
          * @brief Executes SQL query.
          * @overload
          */
-        virtual SqlQueryPtr exec(const QString &query, std::initializer_list<QVariant> argList) = 0;
+        virtual SqlQueryPtr exec(const QString &query, std::initializer_list<QVariant> argList) const = 0;
 
         /**
          * @brief Executes SQL query.
          * @overload
          */
-        virtual SqlQueryPtr exec(const QString &query, std::initializer_list<std::pair<QString,QVariant>> argMap) = 0;
+        virtual SqlQueryPtr exec(const QString &query, std::initializer_list<std::pair<QString,QVariant>> argMap) const = 0;
 
         /**
          * @brief Executes SQL query asynchronously using list of parameters.
@@ -466,7 +467,7 @@ class API_EXPORT Db : public QObject, public Interruptable
          */
         virtual quint32 asyncExec(const QString& query, Flags flags = Flag::NONE) = 0;
 
-        virtual SqlQueryPtr prepare(const QString& query) = 0;
+        virtual SqlQueryPtr prepare(const QString& query) const = 0;
 
         /**
          * @brief Begins SQL transaction.

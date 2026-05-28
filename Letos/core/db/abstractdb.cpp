@@ -360,22 +360,22 @@ void AbstractDb::setConnectionOptions(const QHash<QString, QVariant>& value)
     connOptions = value;
 }
 
-SqlQueryPtr AbstractDb::exec(const QString& query, AbstractDb::Flags flags)
+SqlQueryPtr AbstractDb::exec(const QString& query, AbstractDb::Flags flags) const
 {
     return exec(query, QList<QVariant>(), flags);
 }
 
-SqlQueryPtr AbstractDb::exec(const QString& query, const QVariant& arg)
+SqlQueryPtr AbstractDb::exec(const QString& query, const QVariant& arg) const
 {
     return exec(query, {arg});
 }
 
-SqlQueryPtr AbstractDb::exec(const QString& query, std::initializer_list<QVariant> argList)
+SqlQueryPtr AbstractDb::exec(const QString& query, std::initializer_list<QVariant> argList) const
 {
     return exec(query, QList<QVariant>(argList));
 }
 
-SqlQueryPtr AbstractDb::exec(const QString &query, std::initializer_list<std::pair<QString, QVariant> > argMap)
+SqlQueryPtr AbstractDb::exec(const QString &query, std::initializer_list<std::pair<QString, QVariant> > argMap) const
 {
     return exec(query, QHash<QString,QVariant>(argMap));
 }
@@ -398,17 +398,17 @@ void AbstractDb::asyncExec(const QString &query, AbstractDb::QueryResultsHandler
     resultHandlers[asyncId] = resultsHandler;
 }
 
-SqlQueryPtr AbstractDb::exec(const QString &query, const QList<QVariant>& args, Flags flags)
+SqlQueryPtr AbstractDb::exec(const QString &query, const QList<QVariant>& args, Flags flags) const
 {
     return execListArg(query, args, flags);
 }
 
-SqlQueryPtr AbstractDb::exec(const QString& query, const QHash<QString, QVariant>& args, AbstractDb::Flags flags)
+SqlQueryPtr AbstractDb::exec(const QString& query, const QHash<QString, QVariant>& args, AbstractDb::Flags flags) const
 {
     return execHashArg(query, args, flags);
 }
 
-SqlQueryPtr AbstractDb::execHashArg(const QString& query, const QHash<QString,QVariant>& args, Flags flags)
+SqlQueryPtr AbstractDb::execHashArg(const QString& query, const QHash<QString,QVariant>& args, Flags flags) const
 {
     if (!isOpenInternal())
         return SqlQueryPtr(new SqlErrorResults(SqlErrorCode::DB_NOT_OPEN, tr("Cannot execute query on closed database.")));
@@ -425,7 +425,7 @@ SqlQueryPtr AbstractDb::execHashArg(const QString& query, const QHash<QString,QV
     return queryStmt;
 }
 
-SqlQueryPtr AbstractDb::execListArg(const QString& query, const QList<QVariant>& args, Flags flags)
+SqlQueryPtr AbstractDb::execListArg(const QString& query, const QList<QVariant>& args, Flags flags) const
 {
     if (!isOpenInternal())
         return SqlQueryPtr(new SqlErrorResults(SqlErrorCode::DB_NOT_OPEN, tr("Cannot execute query on closed database.")));

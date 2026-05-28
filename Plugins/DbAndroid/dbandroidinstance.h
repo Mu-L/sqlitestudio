@@ -20,7 +20,7 @@ class DbAndroidInstance : public AbstractDb
         ~DbAndroidInstance();
 
         QList<AliasedColumn> columnsForQuery(const QString& query);
-        SqlQueryPtr prepare(const QString& query);
+        SqlQueryPtr prepare(const QString& query) const;
         QString getTypeLabel() const;
         QString getTypeClassName() const;
         bool deregisterFunction(const QString& name, int argCount);
@@ -35,7 +35,7 @@ class DbAndroidInstance : public AbstractDb
         TransactionState getTransactionState() const;
 
     protected:
-        bool isOpenInternal();
+        bool isOpenInternal() const;
         void interruptExecution();
         QString getErrorTextInternal();
         int getErrorCodeInternal();

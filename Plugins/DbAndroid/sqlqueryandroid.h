@@ -11,7 +11,7 @@ class DbAndroidInstance;
 class SqlQueryAndroid : public SqlQuery
 {
     public:
-        SqlQueryAndroid(DbAndroidInstance* db, DbAndroidConnection* connection, const QString& query);
+        SqlQueryAndroid(const DbAndroidInstance* db, DbAndroidConnection* connection, const QString& query);
         ~SqlQueryAndroid();
 
         QString getErrorText();
@@ -32,7 +32,7 @@ class SqlQueryAndroid : public SqlQuery
 
         static QString convertArg(const QVariant& value);
 
-        DbAndroidInstance* db = nullptr;
+        const DbAndroidInstance* db = nullptr;
         DbAndroidConnection* connection = nullptr;
         QString queryString;
         TokenList tokenizedQuery;

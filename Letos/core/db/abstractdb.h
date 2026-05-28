@@ -53,12 +53,12 @@ class API_EXPORT AbstractDb : public Db
         void setName(const QString& value) override;
         void setPath(const QString& value) override;
         void setConnectionOptions(const QHash<QString,QVariant>& value) override;
-        SqlQueryPtr exec(const QString& query, const QList<QVariant> &args, Flags flags = Flag::NONE) override;
-        SqlQueryPtr exec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE) override;
-        SqlQueryPtr exec(const QString &query, Db::Flags flags = Flag::NONE) override;
-        SqlQueryPtr exec(const QString &query, const QVariant &arg) override;
-        SqlQueryPtr exec(const QString &query, std::initializer_list<QVariant> argList) override;
-        SqlQueryPtr exec(const QString &query, std::initializer_list<std::pair<QString,QVariant>> argMap) override;
+        SqlQueryPtr exec(const QString& query, const QList<QVariant> &args, Flags flags = Flag::NONE) const override;
+        SqlQueryPtr exec(const QString& query, const QHash<QString, QVariant>& args, Flags flags = Flag::NONE) const override;
+        SqlQueryPtr exec(const QString &query, Db::Flags flags = Flag::NONE) const override;
+        SqlQueryPtr exec(const QString &query, const QVariant &arg) const override;
+        SqlQueryPtr exec(const QString &query, std::initializer_list<QVariant> argList) const override;
+        SqlQueryPtr exec(const QString &query, std::initializer_list<std::pair<QString,QVariant>> argMap) const override;
         void asyncExec(const QString& query, const QList<QVariant>& args, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE) override;
         void asyncExec(const QString& query, const QHash<QString, QVariant>& args, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE) override;
         void asyncExec(const QString& query, QueryResultsHandler resultsHandler, Flags flags = Flag::NONE) override;
@@ -170,7 +170,7 @@ class API_EXPORT AbstractDb : public Db
          * This is called from isOpen(). Implementation should test and return information if the database
          * connection is open. A lock on connectionStateLock is already set by the isOpen() method.
          */
-        virtual bool isOpenInternal() = 0;
+        virtual bool isOpenInternal() const = 0;
 
         /**
          * @brief Interrupts execution of any queries.
@@ -385,12 +385,12 @@ class API_EXPORT AbstractDb : public Db
          * This is called from both exec() and execNoLock() and is a final step before calling execInternal()
          * (the plugin-provided execution). This is where \p flags are interpreted and applied.
          */
-        SqlQueryPtr execHashArg(const QString& query, const QHash<QString, QVariant>& args, Flags flags);
+        SqlQueryPtr execHashArg(const QString& query, const QHash<QString, QVariant>& args, Flags flags) const;
 
         /**
          * @overload
          */
-        SqlQueryPtr execListArg(const QString& query, const QList<QVariant>& args, Flags flags);
+        SqlQueryPtr execListArg(const QString& query, const QList<QVariant>& args, Flags flags) const;
 
         /**
          * @brief Generates unique database name.
@@ -484,7 +484,7 @@ class API_EXPORT AbstractDb : public Db
          *
          * See Db::setTimeout() for details.
          */
-        int timeout = 5;
+        int timeout = 1;
 
         /**
          * @brief List of all functions currently registered in this database.

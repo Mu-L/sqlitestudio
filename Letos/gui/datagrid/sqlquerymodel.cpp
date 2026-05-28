@@ -608,7 +608,6 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
     QList<QList<SqlQueryItem*>> groupedItems = groupItemsByRows(items);
     emit aboutToCommit(groupedItems.size());
 
-    qDebug() << "initial tx state" << (int)db->getTransactionState();
     if (!beginTx())
     {
         notifyError(tr("Could not begin transaction on the database. Details: %1").arg(db->getErrorText()));
@@ -638,11 +637,9 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
             it.remove();
     }
 
-    qDebug() << "step 1 tx state" << (int)db->getTransactionState();
     // Committing to the database
     if (ok)
     {
-        qDebug() << "step 2 tx state" << (int)db->getTransactionState();
         if (!commitTx())
         {
             ok = false;
@@ -650,7 +647,6 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
         }
         else
         {
-            qDebug() << "step 3 tx state" << (int)db->getTransactionState();
             // Call all successfull commit handler to refresh cell metadata, etc.
             for (CommitSuccessfulHandler& handler : successfulCommitHandlers)
                 handler();
@@ -672,23 +668,18 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
                 removeRow(row - removeOffset++); // deleting row decrements all rows below
 
             emit commitStatusChanged(getUncommittedItems().size() > 0);
-
-            qDebug() << "step 4 tx state" << (int)db->getTransactionState();
         }
     }
     rowsDeletedSuccessfullyInTheCommit.clear();
 
     if (!ok)
     {
-        qDebug() << "step 5 tx state" << (int)db->getTransactionState();
         if (!rollbackTx())
         {
             notifyError(tr("An error occurred while rolling back the transaction: %1").arg(db->getErrorText()));
             // Nothing else we can do about it, but it should not happen.
         }
     }
-
-    qDebug() << "final tx state" << (int)db->getTransactionState();
 
     detachDependencyTables();
 
