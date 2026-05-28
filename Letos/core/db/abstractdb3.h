@@ -81,6 +81,7 @@ class AbstractDb3 : public AbstractDb
                 };
 
                 Query(AbstractDb3<T>* db, const QString& query);
+                Query(const AbstractDb3<T>* db, const QString& query);
                 ~Query() override;
 
                 QString getErrorText() override;
@@ -1056,6 +1057,12 @@ AbstractDb3<T>::Query::Query(AbstractDb3<T>* db, const QString& query) :
 {
     this->query = query;
     db->queries << this;
+}
+
+template<class T>
+AbstractDb3<T>::Query::Query(const AbstractDb3<T>* db, const QString& query) :
+    Query(const_cast<AbstractDb3<T>*>(db), query)
+{
 }
 
 template <class T>

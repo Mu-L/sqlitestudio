@@ -67,7 +67,7 @@ QList<AliasedColumn> InvalidDb::columnsForQuery(const QString& query)
     return QList<AliasedColumn>();
 }
 
-SqlQueryPtr InvalidDb::exec(const QString& query, const QList<QVariant>& args, Db::Flags flags)
+SqlQueryPtr InvalidDb::exec(const QString& query, const QList<QVariant>& args, Db::Flags flags) const
 {
     Q_UNUSED(query);
     Q_UNUSED(args);
@@ -75,7 +75,7 @@ SqlQueryPtr InvalidDb::exec(const QString& query, const QList<QVariant>& args, D
     return SqlQueryPtr();
 }
 
-SqlQueryPtr InvalidDb::exec(const QString& query, const QHash<QString, QVariant>& args, Db::Flags flags)
+SqlQueryPtr InvalidDb::exec(const QString& query, const QHash<QString, QVariant>& args, Db::Flags flags) const
 {
     Q_UNUSED(query);
     Q_UNUSED(args);
@@ -83,28 +83,28 @@ SqlQueryPtr InvalidDb::exec(const QString& query, const QHash<QString, QVariant>
     return SqlQueryPtr();
 }
 
-SqlQueryPtr InvalidDb::exec(const QString& query, Db::Flags flags)
+SqlQueryPtr InvalidDb::exec(const QString& query, Db::Flags flags) const
 {
     Q_UNUSED(query);
     Q_UNUSED(flags);
     return SqlQueryPtr();
 }
 
-SqlQueryPtr InvalidDb::exec(const QString& query, const QVariant& arg)
+SqlQueryPtr InvalidDb::exec(const QString& query, const QVariant& arg) const
 {
     Q_UNUSED(query);
     Q_UNUSED(arg);
     return SqlQueryPtr();
 }
 
-SqlQueryPtr InvalidDb::exec(const QString& query, std::initializer_list<QVariant> argList)
+SqlQueryPtr InvalidDb::exec(const QString& query, std::initializer_list<QVariant> argList) const
 {
     Q_UNUSED(query);
     Q_UNUSED(argList);
     return SqlQueryPtr();
 }
 
-SqlQueryPtr InvalidDb::exec(const QString& query, std::initializer_list<std::pair<QString, QVariant> > argMap)
+SqlQueryPtr InvalidDb::exec(const QString& query, std::initializer_list<std::pair<QString, QVariant> > argMap) const
 {
     Q_UNUSED(query);
     Q_UNUSED(argMap);
@@ -157,7 +157,7 @@ quint32 InvalidDb::asyncExec(const QString& query, Db::Flags flags)
     return 0;
 }
 
-SqlQueryPtr InvalidDb::prepare(const QString& query)
+SqlQueryPtr InvalidDb::prepare(const QString& query) const
 {
     Q_UNUSED(query);
     return SqlQueryPtr();
