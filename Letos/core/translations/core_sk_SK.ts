@@ -4,13 +4,13 @@
 <context>
     <name>AbstractDb</name>
     <message>
-        <location filename="../db/abstractdb.cpp" line="370"/>
-        <location filename="../db/abstractdb.cpp" line="387"/>
+        <location filename="../db/abstractdb.cpp" line="414"/>
+        <location filename="../db/abstractdb.cpp" line="431"/>
         <source>Cannot execute query on closed database.</source>
         <translation>Nemôžem spustiť dotaz na uzatvorenej databáze.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb.cpp" line="794"/>
+        <location filename="../db/abstractdb.cpp" line="838"/>
         <source>Error attaching database %1: %2</source>
         <translation>Chyba pri pripájaní databázy %1: %2</translation>
     </message>
@@ -887,12 +887,12 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="459"/>
+        <location filename="../db/abstractdb3.h" line="479"/>
         <source>Could not open database: %1</source>
         <translation type="unfinished">Could not open database: %1</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1361"/>
+        <location filename="../db/abstractdb3.h" line="1383"/>
         <source>Result set expired or no row available.</source>
         <translation type="unfinished">Result set expired or no row available.</translation>
     </message>
@@ -903,7 +903,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <translation type="unfinished">Could not load extension %1: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="483"/>
+        <location filename="../db/abstractdb3.h" line="503"/>
         <source>Could not close database: %1</source>
         <translation type="unfinished">Could not close database: %1</translation>
     </message>
@@ -1124,13 +1124,12 @@ The view will remain as it is.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
-        <location filename="../db/queryexecutor.cpp" line="421"/>
-        <location filename="../db/queryexecutor.cpp" line="691"/>
+        <location filename="../db/queryexecutor.cpp" line="612"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
         <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="610"/>
+        <location filename="../db/queryexecutor.cpp" line="529"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
         <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
     </message>
@@ -1230,12 +1229,12 @@ The view will remain as it is.</translation>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="693"/>
+        <location filename="../db/abstractdb3.h" line="715"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="992"/>
+        <location filename="../db/abstractdb3.h" line="1014"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
     </message>
