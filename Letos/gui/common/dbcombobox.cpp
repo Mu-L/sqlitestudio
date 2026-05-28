@@ -2,6 +2,8 @@
 #include "dblistmodel.h"
 #include "db/db.h"
 
+#include <QScopedValueRollback>
+
 DbComboBox::DbComboBox(QWidget* parent) : QComboBox(parent)
 {
     dbComboModel = new DbListModel(this);
@@ -9,6 +11,8 @@ DbComboBox::DbComboBox(QWidget* parent) : QComboBox(parent)
     setModel(dbComboModel);
     setEditable(false);
     connect(dbComboModel, SIGNAL(listCleared()), this, SLOT(handleListCleared()));
+    connect(this, &QComboBox::currentTextChanged, this, &DbComboBox::validateTextChanged);
+    prevIdx = currentIndex();
 }
 
 DbListModel* DbComboBox::getModel() const
@@ -26,7 +30,43 @@ Db* DbComboBox::currentDb() const
     return dbComboModel->getDb(currentIndex());
 }
 
+DbComboBox::ChoiceValidator DbComboBox::getChoiceValidator() const
+{
+    return choiceValidator;
+}
+
+void DbComboBox::setChoiceValidator(const ChoiceValidator& newChoiceValidator)
+{
+    choiceValidator = newChoiceValidator;
+}
+
 void DbComboBox::handleListCleared()
 {
     emit currentTextChanged(QString());
+}
+
+void DbComboBox::validateIndexChanged(int idx)
+{
+    if (internalChange)
+        return;
+
+    if (choiceValidator)
+    {
+        if (!choiceValidator(currentDb()))
+        {
+            internalChange = true;
+            setCurrentIndex(prevIdx);
+            internalChange = false;
+            return;
+        }
+    }
+
+    prevIdx = idx;
+    emit verifiedDbChanged();
+}
+
+void DbComboBox::validateTextChanged(const QString& text)
+{
+    int idx = currentIndex();
+    validateIndexChanged(idx);
 }

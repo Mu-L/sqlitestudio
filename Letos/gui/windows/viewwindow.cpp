@@ -292,7 +292,7 @@ void ViewWindow::createDbCombo()
 {
     ui->dbCombo->setFixedWidth(100);
     ui->dbCombo->setToolTip(tr("Database"));
-    connect(ui->dbCombo, SIGNAL(currentIndexChanged(int)), this, SLOT(dbChanged()));
+    connect(ui->dbCombo, SIGNAL(verifiedDbChanged()), this, SLOT(dbChanged()));
 }
 
 void ViewWindow::newView()

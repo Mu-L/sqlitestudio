@@ -43,7 +43,7 @@
       <string>Keep current journal mode</string>
      </property>
      <property name="description">
-      <string>and switch to auto-commits</string>
+      <string>and use auto-commits</string>
      </property>
     </widget>
    </item>

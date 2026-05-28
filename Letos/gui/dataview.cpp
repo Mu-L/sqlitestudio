@@ -542,6 +542,7 @@ void DataView::updateFormCommitRollbackActions()
     formView->getAction(FormView::COMMIT)->setEnabled(enabled);
     formView->getAction(FormView::ROLLBACK)->setEnabled(enabled);
     uncommittedForm = enabled;
+    emit commitStatusChanged(isUncommitted());
 }
 
 void DataView::showGridView()
@@ -922,6 +923,7 @@ void DataView::updateCommitRollbackActions(bool enabled)
     gridView->getAction(SqlQueryView::COMMIT)->setEnabled(enabled);
     gridView->getAction(SqlQueryView::ROLLBACK)->setEnabled(enabled);
     uncommittedGrid = enabled;
+    emit commitStatusChanged(isUncommitted());
 }
 
 // void DataView::updateSelectiveCommitRollbackActions(bool enabled)

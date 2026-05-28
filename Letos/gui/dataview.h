@@ -211,6 +211,7 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
         int initialDefaultRowHeight = -1;
 
     signals:
+        void commitStatusChanged(bool uncommitted);
 
     public slots:
         void refreshData(bool keepFocus = true);

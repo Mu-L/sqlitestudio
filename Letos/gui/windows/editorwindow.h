@@ -127,8 +127,8 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         Db* getCurrentDb();
         QPair<Db*, QString> getSoftDbObjectAssociation() const;
         bool getAutoCommit() const;
-        bool setAutoCommit(bool newAutoCommit);
-        bool hasPendingManualTx() const;
+        bool setAutoCommit(bool newAutoCommit, bool askForWal);
+        bool hasPendingManualTx(bool includeDataViewChanges = true) const;
         bool isManualCommitMode() const;
         void clearReadOnlyManualTx();
 
@@ -150,8 +150,13 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         void setupSqlHistoryMenu();
         bool processBindParams(QString& sql, QHash<QString, QVariant>& queryParams);
         void exportHistory(const QModelIndexList& idxList);
-        bool initManualCommitForCurrentDb();
+        bool initManualCommitForCurrentDb(bool askForWal);
         bool cleanUpManualCommitForCurrentDb();
+        void updateManualCommitIconsAndLabels(bool manualCommit);
+        bool validateDbChange(Db* db);
+        void rollbackManualTx(bool allowReloadIfFeasible);
+        bool confirmPendingManualTx(const QString& dbName);
+        void useAutoCommitForCurrentDb();
 
         static const int queryLimitForSmartExecution = 100;
 
@@ -171,7 +176,7 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         bool settingSqlContents = false;
         ResultsDisplayMode resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
         Db* txDb = nullptr;
-        bool autoCommit = true;
+        bool currentlyAutoCommit = true;
 
     private slots:
         void execQuery(int explain = -1, EditorWindow::QueryExecMode querySelectionMode = EditorWindow::DEFAULT);
@@ -205,11 +210,11 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         void renameForFile(const QString fileName);
         void exportResults();
         void toggleAutoCommit();
-        void reEnableAutoCommit();
         void updateManualCommitStatus();
         void openManualTxForDataCommit(int dataRows);
         void commitManualTx();
         void rollbackManualTx();
+        void handleDbAboutToDisconnect(Db* db, bool& deny);
 
     public slots:
         void openFile(const QString& fileName);

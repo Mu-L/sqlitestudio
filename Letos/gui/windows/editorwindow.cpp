@@ -24,13 +24,14 @@
 #include "dialogs/bindparamsdialog.h"
 #include "common/bindparam.h"
 #include "common/dbcombobox.h"
+#include "services/dbmanager.h"
 #include <QComboBox>
 #include <QDebug>
 #include <QStringListModel>
 #include <QActionGroup>
 #include <QMessageBox>
 #include <QFileDialog>
-#include <qlocale.h>
+#include <QLocale>
 #include <QToolButton>
 
 CFG_KEYS_DEFINE(EditorWindow)
@@ -56,6 +57,13 @@ EditorWindow::EditorWindow(const EditorWindow& editor) :
 
 EditorWindow::~EditorWindow()
 {
+    if (txDb)
+    {
+        // Closed despite uncommitted transaction (confirmed in dialog by user) - rolling back transaction to avoid leaving the database in inconsistent state
+        txDb->closeQuiet();
+        delete txDb;
+    }
+
     delete ui;
 }
 
@@ -151,10 +159,13 @@ void EditorWindow::init()
     connect(ui->historyList, &QWidget::customContextMenuRequested, this, &EditorWindow::sqlHistoryContextMenuRequested);
 
     // Manual/Auto commit
-    setAutoCommit(CFG_UI.General.SqlEditorAutoCommit.get());
+    setAutoCommit(CFG_UI.General.SqlEditorAutoCommit.get(), false);
     connect(resultsModel, &SqlQueryModel::aboutToCommit, this, &EditorWindow::openManualTxForDataCommit);
+    connect(DBLIST, &DbManager::dbAboutToBeDisconnected, this, &EditorWindow::handleDbAboutToDisconnect);
+    connect(ui->dataView, &DataView::commitStatusChanged, this, &EditorWindow::updateManualCommitStatus);
 
     updateState();
+    updateManualCommitIconsAndLabels(!currentlyAutoCommit);
     updateManualCommitStatus();
 }
 
@@ -491,7 +502,8 @@ void EditorWindow::createDbCombo()
     dbCombo = new DbComboBox(this);
     dbCombo->setEditable(false);
     dbCombo->setFixedWidth(100);
-    connect(dbCombo, SIGNAL(currentTextChanged(QString)), this, SLOT(dbChanged()));
+    dbCombo->setChoiceValidator([this](Db* db) {return validateDbChange(db);});
+    connect(dbCombo, SIGNAL(verifiedDbChanged()), this, SLOT(dbChanged()));
 }
 
 void EditorWindow::setupDefShortcuts()
@@ -710,22 +722,22 @@ void EditorWindow::exportHistory(const QModelIndexList &idxList)
     notifyInfo(tr("Saved SQL contents to file: %1").arg(fName));
 }
 
-bool EditorWindow::initManualCommitForCurrentDb()
+bool EditorWindow::initManualCommitForCurrentDb(bool askForWal)
 {
-    if (autoCommit)
+    if (currentlyAutoCommit)
         return true;
 
     Db* currentDb = getCurrentDb();
     QString journalMode = currentDb->exec("PRAGMA journal_mode")->getSingleCell().toString().toUpper();
     if (journalMode != "WAL")
     {
+        if (!askForWal)
+            return false;
+
         ManualCommitWalModeDialog walDialog(currentDb->getName(), this);
         walDialog.exec();
         if (walDialog.result() == QDialog::Rejected)
-        {
-            reEnableAutoCommit();
             return false;
-        }
 
         auto modeChangeRes = currentDb->exec("PRAGMA journal_mode = WAL");
         if (modeChangeRes->isError())
@@ -758,31 +770,14 @@ bool EditorWindow::initManualCommitForCurrentDb()
 
 bool EditorWindow::cleanUpManualCommitForCurrentDb()
 {
-    if (autoCommit || !txDb)
+    if (currentlyAutoCommit || !txDb)
         return true;
 
     if (txDb->isOpen())
     {
-        if (txDb->isTransactionActive())
-        {
-            ManualCommitPendingTxDialog pendingTxDialog(txDb->getName(), this);
-            pendingTxDialog.exec();
-            if (pendingTxDialog.result() == QDialog::Rejected)
-                return false;
+        if (txDb->isTransactionActive() && !confirmPendingManualTx(txDb->getName()))
+            return false;
 
-            switch (static_cast<ManualCommitPendingTxDialog::Action>(pendingTxDialog.result()))
-            {
-                case ManualCommitPendingTxDialog::COMMIT:
-                    txDb->commit();
-                    break;
-                case ManualCommitPendingTxDialog::ROLLBACK:
-                    txDb->rollback();
-                    break;
-                default:
-                    qCritical() << "Invalid result code from ManualCommitPendingTxDialog:" << pendingTxDialog.result();
-                    return false;
-            }
-        }
         txDb->closeQuiet();
     }
     delete txDb;
@@ -793,12 +788,12 @@ bool EditorWindow::cleanUpManualCommitForCurrentDb()
 
 bool EditorWindow::getAutoCommit() const
 {
-    return autoCommit;
+    return currentlyAutoCommit;
 }
 
-bool EditorWindow::setAutoCommit(bool enabled)
+bool EditorWindow::setAutoCommit(bool enabled, bool askForWal)
 {
-    if (enabled == autoCommit)
+    if (enabled == currentlyAutoCommit)
         return true;
 
     // Cleanup before switching to auto-commit, init after switching to manual commit.
@@ -810,36 +805,37 @@ bool EditorWindow::setAutoCommit(bool enabled)
     if (enabled)
         result &= cleanUpManualCommitForCurrentDb();
 
-    autoCommit = enabled;
+    currentlyAutoCommit = enabled;
 
     if (!enabled)
-        result &= initManualCommitForCurrentDb();
+        result &= initManualCommitForCurrentDb(askForWal);
 
     if (!result)
     {
-        autoCommit = !enabled;
+        currentlyAutoCommit = !enabled;
+        actionMap[AUTO_COMMIT]->setChecked(currentlyAutoCommit);
         return false;
     }
 
     return true;
 }
 
-bool EditorWindow::hasPendingManualTx() const
+bool EditorWindow::hasPendingManualTx(bool includeDataViewChanges) const
 {
-    if (autoCommit || !txDb || !txDb->isValid())
+    if (currentlyAutoCommit || !txDb || !txDb->isValid())
         return false;
 
-    return txDb->isTransactionActive();
+    return txDb->isTransactionActive() || (includeDataViewChanges && ui->dataView->isUncommitted());
 }
 
 bool EditorWindow::isManualCommitMode() const
 {
-    return !autoCommit && txDb && txDb->isValid();
+    return !currentlyAutoCommit && txDb && txDb->isValid();
 }
 
 void EditorWindow::clearReadOnlyManualTx()
 {
-    if (isManualCommitMode() && txDb->getTransactionState() == Db::TransactionState::READ)
+    if (isManualCommitMode() && txDb->isTransactionActive() && txDb->getTransactionState() != Db::TransactionState::WRITE)
     {
         // No need to keep read-only tx
         txDb->rollback();
@@ -856,9 +852,14 @@ void EditorWindow::dbChanged()
     }
 
     ui->sqlEdit->setDb(getCurrentDb());
-    if (!initManualCommitForCurrentDb())
-        reEnableAutoCommit();
 
+    currentlyAutoCommit = CFG_UI.General.SqlEditorAutoCommit.get();
+    actionMap[AUTO_COMMIT]->setChecked(currentlyAutoCommit);
+
+    if (!initManualCommitForCurrentDb(false))
+        useAutoCommitForCurrentDb();
+
+    updateManualCommitStatus();
     DBTREE->updateMdiAreaLink();
 }
 
@@ -1068,7 +1069,7 @@ void EditorWindow::exportResults()
 void EditorWindow::toggleAutoCommit()
 {
     bool enabled = actionMap[AUTO_COMMIT]->isChecked();
-    if (!setAutoCommit(enabled))
+    if (!setAutoCommit(enabled, true))
     {
         actionMap[AUTO_COMMIT]->setChecked(!enabled);
         return;
@@ -1081,18 +1082,35 @@ void EditorWindow::toggleAutoCommit()
         notifyInfo(tr("Query auto-commit is now disabled."));
 }
 
-void EditorWindow::reEnableAutoCommit()
+void EditorWindow::useAutoCommitForCurrentDb()
 {
-    if (!autoCommit)
-    {
-        actionMap[AUTO_COMMIT]->setChecked(true);
-        toggleAutoCommit();
-    }
+    currentlyAutoCommit = true;
+    actionMap[AUTO_COMMIT]->setChecked(currentlyAutoCommit);
+    updateManualCommitStatus();
+    qDebug() << "Manual commit mode is unavailable for the selected database. Auto-commit will be used instead.";
 }
 
 void EditorWindow::updateManualCommitStatus()
 {
-    bool manualCommit = !autoCommit;
+    bool manualCommit = !currentlyAutoCommit;
+    bool executionInProgress = resultsModel->isExecutionInProgress();
+
+    if (actionMap[QUERIES_TX_SEP]->isVisible() == actionMap[AUTO_COMMIT]->isChecked()) // manual tx action visibility equal to enabled autocommit? requires update
+        updateManualCommitIconsAndLabels(manualCommit);
+
+    if (manualCommit)
+    {
+        bool pendingTx = hasPendingManualTx();
+        actionMap[COMMIT_MANUAL_TX]->setEnabled(pendingTx);
+        actionMap[ROLLBACK_MANUAL_TX]->setEnabled(pendingTx);
+        actionMap[CURRENT_DB]->setEnabled(!pendingTx && !executionInProgress);
+    }
+    else
+        actionMap[CURRENT_DB]->setEnabled(!executionInProgress);
+}
+
+void EditorWindow::updateManualCommitIconsAndLabels(bool manualCommit)
+{
     actionMap[QUERIES_TX_SEP]->setVisible(manualCommit);
     actionMap[COMMIT_MANUAL_TX]->setVisible(manualCommit);
     actionMap[ROLLBACK_MANUAL_TX]->setVisible(manualCommit);
@@ -1101,10 +1119,6 @@ void EditorWindow::updateManualCommitStatus()
     auto formView = ui->dataView->getFormView();
     if (manualCommit)
     {
-        bool pendingTx = hasPendingManualTx();
-        actionMap[COMMIT_MANUAL_TX]->setEnabled(pendingTx);
-        actionMap[ROLLBACK_MANUAL_TX]->setEnabled(pendingTx);
-
         gridView->getAction(SqlQueryView::COMMIT)->setText(tr("Apply changes to the transaction"));
         gridView->getAction(SqlQueryView::ROLLBACK)->setText(tr("Discard changes in data view"));
         gridView->getAction(SqlQueryView::SELECTIVE_COMMIT)->setText(tr("Apply selected changes to the transaction"));
@@ -1136,7 +1150,7 @@ void EditorWindow::updateManualCommitStatus()
         formView->getAction(FormView::ROLLBACK)->setIcon(ICONS.ROLLBACK);
     }
 
-    // Refresh icon texts after updating action text
+    // Refresh icon texts that include hotkeys, after updating action text
     gridView->refreshShortcut(SqlQueryView::COMMIT);
     gridView->refreshShortcut(SqlQueryView::ROLLBACK);
     gridView->refreshShortcut(SqlQueryView::SELECTIVE_COMMIT);
@@ -1145,12 +1159,23 @@ void EditorWindow::updateManualCommitStatus()
     formView->refreshShortcut(FormView::ROLLBACK);
 }
 
+bool EditorWindow::validateDbChange(Db* db)
+{
+    if (hasPendingManualTx())
+    {
+        notifyError(tr("Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database."));
+        return false;
+    }
+
+    return true;
+}
+
 void EditorWindow::openManualTxForDataCommit(int dataRows)
 {
     if (dataRows <= 0)
         return;
 
-    if (isManualCommitMode() && !hasPendingManualTx())
+    if (isManualCommitMode() && !hasPendingManualTx(false))
     {
         txDb->begin();
         updateManualCommitStatus();
@@ -1159,9 +1184,9 @@ void EditorWindow::openManualTxForDataCommit(int dataRows)
 
 void EditorWindow::commitManualTx()
 {
-    if (autoCommit || !txDb)
+    if (currentlyAutoCommit || !txDb)
     {
-        qCritical() << "Manual commit requested while auto-commit is enabled or txDb is not initialized. This should never happen." << autoCommit << txDb;
+        qCritical() << "Manual commit requested while auto-commit is enabled or txDb is not initialized. This should never happen." << currentlyAutoCommit << txDb;
         return;
     }
 
@@ -1175,15 +1200,25 @@ void EditorWindow::commitManualTx()
     txDb->exec("PRAGMA wal_checkpoint(FULL)");
 
     updateManualCommitStatus();
+    updateState();
+
+    notifyInfo(tr("Manual transaction committed successfully."));
 }
 
 void EditorWindow::rollbackManualTx()
 {
-    if (autoCommit || !txDb)
+    rollbackManualTx(true);
+}
+
+void EditorWindow::rollbackManualTx(bool allowReloadIfFeasible)
+{
+    if (currentlyAutoCommit || !txDb)
     {
-        qCritical() << "Manual rollback requested while auto-commit is enabled or txDb is not initialized. This should never happen." << autoCommit << txDb;
+        qCritical() << "Manual rollback requested while auto-commit is enabled or txDb is not initialized. This should never happen." << currentlyAutoCommit << txDb;
         return;
     }
+
+    bool shouldReload = !resultsModel->wasDataModifyingQuery();
 
     if (ui->dataView->isUncommitted())
         ui->dataView->rollback();
@@ -1191,7 +1226,48 @@ void EditorWindow::rollbackManualTx()
     txDb->rollback();
 
     updateManualCommitStatus();
-    ui->dataView->refreshData();
+    updateState();
+
+    if (shouldReload)
+        ui->dataView->refreshData();
+
+    notifyInfo(tr("Manual transaction rolled back."));
+}
+
+bool EditorWindow::confirmPendingManualTx(const QString& dbName)
+{
+    ManualCommitPendingTxDialog pendingTxDialog(dbName, this);
+    pendingTxDialog.exec();
+    if (pendingTxDialog.result() == QDialog::Rejected)
+        return false;
+
+    switch (static_cast<ManualCommitPendingTxDialog::Action>(pendingTxDialog.result()))
+    {
+        case ManualCommitPendingTxDialog::COMMIT:
+            commitManualTx();
+            break;
+        case ManualCommitPendingTxDialog::ROLLBACK:
+            rollbackManualTx();
+            break;
+        default:
+            qCritical() << "Invalid result code from ManualCommitPendingTxDialog:" << pendingTxDialog.result();
+            return false;
+    }
+
+    return true;
+}
+
+void EditorWindow::handleDbAboutToDisconnect(Db* db, bool& deny)
+{
+    Db* currentDb = getCurrentDb();
+    if (!currentDb || db != currentDb)
+        return;
+
+    if (!hasPendingManualTx())
+        return;
+
+    if (!confirmPendingManualTx(db->getName()))
+        deny = true;
 }
 
 void EditorWindow::createViewFromQuery()
@@ -1243,7 +1319,7 @@ size_t qHash(EditorWindow::ActionGroup actionGroup)
 
 bool EditorWindow::isUncommitted() const
 {
-    return ui->dataView->isUncommitted();
+    return currentlyAutoCommit ? ui->dataView->isUncommitted() : hasPendingManualTx();
 }
 
 QString EditorWindow::getQuitUncommittedConfirmMessage() const
