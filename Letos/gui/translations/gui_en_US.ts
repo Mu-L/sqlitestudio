@@ -2335,6 +2335,16 @@
         <translation type="unfinished">Last page</translation>
     </message>
     <message>
+        <source>Commit changes for selected cells</source>
+        <comment>data view</comment>
+        <translation type="obsolete">Commit changes for selected cells</translation>
+    </message>
+    <message>
+        <source>Rollback changes for selected cells</source>
+        <comment>data view</comment>
+        <translation type="obsolete">Rollback changes for selected cells</translation>
+    </message>
+    <message>
         <location filename="../dataview.cpp" line="277"/>
         <source>Show grid view of results</source>
         <comment>data view</comment>
@@ -3522,7 +3532,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Auto-commit queries</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="485"/>
@@ -3553,17 +3563,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.cpp" line="733"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-        <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="744"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-        <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="747"/>
         <source>The joirnal_mode will be switched back to %1.</source>
-        <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="878"/>
@@ -3593,34 +3603,34 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.cpp" line="1079"/>
         <source>Query auto-commit is now enabled.</source>
-        <translation type="unfinished">Query auto-commit is now enabled.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1081"/>
         <source>Query auto-commit is now disabled.</source>
-        <translation type="unfinished">Query auto-commit is now disabled.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1108"/>
         <location filename="../windows/editorwindow.cpp" line="1112"/>
         <source>Apply changes to the transaction</source>
-        <translation type="unfinished">Apply changes to the transaction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1109"/>
         <location filename="../windows/editorwindow.cpp" line="1113"/>
         <source>Discard changes in data view</source>
-        <translation type="unfinished">Discard changes in data view</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1110"/>
         <source>Apply selected changes to the transaction</source>
-        <translation type="unfinished">Apply selected changes to the transaction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1111"/>
         <source>Discard changes in selected cells</source>
-        <translation type="unfinished">Discard changes in selected cells</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1201"/>
@@ -5107,27 +5117,27 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Dialog</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
         <source>Roll Back Transaction</source>
-        <translation type="unfinished">Roll Back Transaction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
         <source>Discard changes made within the transaction and proceed</source>
-        <translation type="unfinished">Discard changes made within the transaction and proceed</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
         <source>Commit Transaction</source>
-        <translation type="unfinished">Commit Transaction</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
         <source>Save transaction changes and proceed</source>
-        <translation type="unfinished">Save transaction changes and proceed</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
@@ -5137,17 +5147,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
         <source>Keep the transaction open and stay with the current database</source>
-        <translation type="unfinished">Keep the transaction open and stay with the current database</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5155,37 +5165,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
         <source>WAL mode for manual commits</source>
-        <translation type="unfinished">WAL mode for manual commits</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
         <source>Keep current journal mode</source>
-        <translation type="unfinished">Keep current journal mode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
         <source>and switch to auto-commits</source>
-        <translation type="unfinished">and switch to auto-commits</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
         <source>Enable WAL mode</source>
-        <translation type="unfinished">Enable WAL mode</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
         <source>and use manual commits</source>
-        <translation type="unfinished">and use manual commits</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
