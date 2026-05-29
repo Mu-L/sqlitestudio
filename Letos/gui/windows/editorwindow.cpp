@@ -833,9 +833,13 @@ bool EditorWindow::isManualCommitMode() const
     return !currentlyAutoCommit && txDb && txDb->isValid();
 }
 
-void EditorWindow::clearReadOnlyManualTx()
+void EditorWindow::clearReadOnlyManualTx(bool respectSavepoint)
 {
-    if (isManualCommitMode() && txDb->isTransactionActive() && txDb->getTransactionState() != Db::TransactionState::WRITE)
+    bool savepointSatisfied = !respectSavepoint ||
+            resultsModel->getExplainMode() >= 0 ||
+            !hasExplicitSavepoint(resultsModel->getQuery());
+
+    if (isManualCommitMode() && txDb->isTransactionActive() && txDb->getTransactionState() != Db::TransactionState::WRITE && savepointSatisfied)
     {
         // No need to keep read-only tx
         txDb->rollback();
@@ -897,7 +901,7 @@ void EditorWindow::executionSuccessful()
 
     STATUSFIELD->releaseFadeOutFor(this);
     updateState();
-    clearReadOnlyManualTx();
+    clearReadOnlyManualTx(true);
 }
 
 void EditorWindow::executionFailed(const QString &errorText)
@@ -905,7 +909,7 @@ void EditorWindow::executionFailed(const QString &errorText)
     notifyError(errorText);
     STATUSFIELD->releaseFadeOutFor(this);
     updateState();
-    clearReadOnlyManualTx();
+    clearReadOnlyManualTx(false);
 }
 
 void EditorWindow::storeExecutionInHistory()
@@ -1090,6 +1094,17 @@ void EditorWindow::useAutoCommitForCurrentDb()
     qDebug() << "Manual commit mode is unavailable for the selected database. Auto-commit will be used instead.";
 }
 
+bool EditorWindow::hasExplicitSavepoint(const QString& query) const
+{
+    QStringList queries = splitQueries(query, false, true);
+    for (const QString& q : queries)
+    {
+        if (q.trimmed().toUpper().startsWith("SAVEPOINT"))
+            return true;
+    }
+    return false;
+}
+
 void EditorWindow::updateManualCommitStatus()
 {
     bool manualCommit = !currentlyAutoCommit;
@@ -1247,7 +1262,7 @@ bool EditorWindow::confirmPendingManualTx(const QString& dbName)
             commitManualTx();
             break;
         case ManualCommitPendingTxDialog::ROLLBACK:
-            rollbackManualTx();
+            rollbackManualTx(false);
             break;
         default:
             qCritical() << "Invalid result code from ManualCommitPendingTxDialog:" << pendingTxDialog.result();

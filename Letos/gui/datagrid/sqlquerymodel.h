@@ -68,6 +68,7 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         void rememberFocusedCell();
         void forgetFocusedCell();
         void setExplainMode(int explainMode);
+        int getExplainMode() const;
 
         /**
          * @brief Disables or re-enables async query execution

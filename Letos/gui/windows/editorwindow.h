@@ -130,7 +130,7 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         bool setAutoCommit(bool newAutoCommit, bool askForWal);
         bool hasPendingManualTx(bool includeDataViewChanges = true) const;
         bool isManualCommitMode() const;
-        void clearReadOnlyManualTx();
+        void clearReadOnlyManualTx(bool respectSavepoint);
 
     protected:
         void changeEvent(QEvent *e);
@@ -157,6 +157,7 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         void rollbackManualTx(bool allowReloadIfFeasible);
         bool confirmPendingManualTx(const QString& dbName);
         void useAutoCommitForCurrentDb();
+        bool hasExplicitSavepoint(const QString& query) const;
 
         static const int queryLimitForSmartExecution = 100;
 
