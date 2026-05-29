@@ -2364,28 +2364,28 @@
         <translation type="unfinished">Rows available on current page: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="814"/>
+        <location filename="../dataview.cpp" line="815"/>
         <source>Sum: %1</source>
         <translation type="unfinished">Sum: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="966"/>
+        <location filename="../dataview.cpp" line="968"/>
         <source>Total pages available: %1</source>
         <translation>Nombre de pages disponibles : %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="976"/>
+        <location filename="../dataview.cpp" line="978"/>
         <source>Total rows loaded: %1</source>
         <translation>Nombre de lignes chargées : %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1355"/>
+        <location filename="../dataview.cpp" line="1357"/>
         <source>Filter by text (if contains)</source>
         <comment>data view</comment>
         <translation>Filtrer par texte (si contenu)</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1356"/>
+        <location filename="../dataview.cpp" line="1358"/>
         <source>Filter strictly by text (if equals)</source>
         <comment>data view</comment>
         <translation>Filtrer strictement par texte (si égal)</translation>
@@ -2432,41 +2432,41 @@
         <translation>Placer les nouvelles lignes à la fin de la vue des données</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="989"/>
+        <location filename="../dataview.cpp" line="991"/>
         <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
         <translation>Le total des lignes en cours de comptage. La navigation d’autres pages à la fin du comptage.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1322"/>
+        <location filename="../dataview.cpp" line="1324"/>
         <source>Filter</source>
         <translation>Filtre</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1325"/>
+        <location filename="../dataview.cpp" line="1327"/>
         <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
         <translation>Appuyez sur la touche Entrée ou appuyez sur &quot;Appliquer le filtre&quot; dans la barre d&apos;outils pour appliquer une nouvelle valeur.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1357"/>
+        <location filename="../dataview.cpp" line="1359"/>
         <source>Filter by the Regular Expression</source>
         <comment>data view</comment>
         <translation>Filtrer par une expression standard</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1358"/>
+        <location filename="../dataview.cpp" line="1360"/>
         <source>Filter by SQL expression</source>
         <comment>data view</comment>
         <translation>Filtrer par une expression SQL</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1377"/>
+        <location filename="../dataview.cpp" line="1379"/>
         <source>Show filter inputs per column</source>
         <comment>data view</comment>
         <translation>Afficher les entrées de filtre par colonne</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1381"/>
+        <location filename="../dataview.cpp" line="1383"/>
         <source>Apply filter</source>
         <comment>data view</comment>
         <translation>Appliquer le filtre</translation>
@@ -3400,245 +3400,260 @@ Entrez SVP un nouveau nom, unique, ou cliquez « %1 » pour d’interrompre l’
         <translation>Historique</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="431"/>
+        <location filename="../windows/editorwindow.cpp" line="442"/>
         <source>Results in the separate tab</source>
         <translation>Résultats dans un onglet séparé</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="432"/>
+        <location filename="../windows/editorwindow.cpp" line="443"/>
         <source>Results below the query</source>
         <translation>Résultats après la requête</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="173"/>
-        <location filename="../windows/editorwindow.cpp" line="175"/>
+        <location filename="../windows/editorwindow.cpp" line="184"/>
+        <location filename="../windows/editorwindow.cpp" line="186"/>
         <source>SQL editor %1</source>
         <translation>Éditeur SQL %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="95"/>
-        <location filename="../windows/editorwindow.cpp" line="342"/>
+        <location filename="../windows/editorwindow.cpp" line="353"/>
         <source>Results</source>
         <translation>Résultats</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="377"/>
+        <location filename="../windows/editorwindow.cpp" line="388"/>
         <source>Execute query</source>
         <translation>Exécuter la requête</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="378"/>
+        <location filename="../windows/editorwindow.cpp" line="389"/>
         <source>Explain query</source>
         <translation>Explication de la requête</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="399"/>
+        <location filename="../windows/editorwindow.cpp" line="410"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Vider l’historique d’exécution</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="411"/>
+        <location filename="../windows/editorwindow.cpp" line="422"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Exporter résultats</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="393"/>
+        <location filename="../windows/editorwindow.cpp" line="404"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Créer une vue à partir d’une requête</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="380"/>
+        <location filename="../windows/editorwindow.cpp" line="391"/>
         <source>Commit</source>
         <translation type="unfinished">Valider</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="381"/>
+        <location filename="../windows/editorwindow.cpp" line="392"/>
         <source>Rollback</source>
         <translation type="unfinished">Annuler</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="395"/>
+        <location filename="../windows/editorwindow.cpp" line="406"/>
         <source>Previous database</source>
         <translation>Base de données précédente</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="396"/>
+        <location filename="../windows/editorwindow.cpp" line="407"/>
         <source>Next database</source>
         <translation>Base de données suivante</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="400"/>
+        <location filename="../windows/editorwindow.cpp" line="411"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export execution history</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="403"/>
+        <location filename="../windows/editorwindow.cpp" line="414"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Afficher l’onglet suivant</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="404"/>
+        <location filename="../windows/editorwindow.cpp" line="415"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Afficher l’onget précédent</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="405"/>
+        <location filename="../windows/editorwindow.cpp" line="416"/>
         <source>Focus results below</source>
         <comment>sql editor</comment>
         <translation>Focus sur les résultats ci-dessous</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="406"/>
+        <location filename="../windows/editorwindow.cpp" line="417"/>
         <source>Focus SQL editor above</source>
         <comment>sql editor</comment>
         <translation>Focus sur l’éditeur SQL ci-dessus</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="407"/>
+        <location filename="../windows/editorwindow.cpp" line="418"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Export selected SQL history entries</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="408"/>
+        <location filename="../windows/editorwindow.cpp" line="419"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Supprimer les entrées de l&apos;historique SQL sélectionnées</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="409"/>
+        <location filename="../windows/editorwindow.cpp" line="420"/>
         <source>Execute single query under cursor</source>
         <translation>Exécute la requête sous le curseur</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="410"/>
+        <location filename="../windows/editorwindow.cpp" line="421"/>
         <source>Execute all queries in editor</source>
         <translation>Exécuter toutes les requêtes dans l&apos;éditeur</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="453"/>
-        <location filename="../windows/editorwindow.cpp" line="454"/>
+        <location filename="../windows/editorwindow.cpp" line="464"/>
+        <location filename="../windows/editorwindow.cpp" line="465"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Explain mode: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="474"/>
+        <location filename="../windows/editorwindow.cpp" line="485"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="485"/>
+        <location filename="../windows/editorwindow.cpp" line="496"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Editor window settings</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="532"/>
+        <location filename="../windows/editorwindow.cpp" line="544"/>
         <source>Active database (%1/%2)</source>
         <translation>Base de données active (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="679"/>
+        <location filename="../windows/editorwindow.cpp" line="691"/>
         <source>Save to file</source>
         <translation>Sauvegarder</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="690"/>
+        <location filename="../windows/editorwindow.cpp" line="702"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Impossible d’ouvrir en écriture le fichier « %1 » : %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="710"/>
+        <location filename="../windows/editorwindow.cpp" line="722"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>Contenu SQL sauvegardé dans le fichier : %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="733"/>
+        <location filename="../windows/editorwindow.cpp" line="745"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="744"/>
+        <location filename="../windows/editorwindow.cpp" line="756"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="747"/>
+        <location filename="../windows/editorwindow.cpp" line="759"/>
         <source>The joirnal_mode will be switched back to %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="878"/>
+        <location filename="../windows/editorwindow.cpp" line="879"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Requête terminée en %1 secondes. Nombre de lignes : %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="882"/>
+        <location filename="../windows/editorwindow.cpp" line="883"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Requête terminée en %1 seconde(s).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1013"/>
+        <location filename="../windows/editorwindow.cpp" line="1014"/>
         <source>Clear execution history</source>
         <translation>Supprimer l’historique d’exécution</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1013"/>
+        <location filename="../windows/editorwindow.cpp" line="1014"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Êtes vous certain de vouloir supprimer la totalité de l’historique d’exécution SQL ? Aucun retour possible.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1051"/>
+        <location filename="../windows/editorwindow.cpp" line="1052"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Impossible d’exporter, car aucun plugin d’expertation n’est chargés.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1079"/>
+        <location filename="../windows/editorwindow.cpp" line="1080"/>
         <source>Query auto-commit is now enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1081"/>
+        <location filename="../windows/editorwindow.cpp" line="1082"/>
         <source>Query auto-commit is now disabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1108"/>
-        <location filename="../windows/editorwindow.cpp" line="1112"/>
+        <location filename="../windows/editorwindow.cpp" line="1122"/>
+        <location filename="../windows/editorwindow.cpp" line="1126"/>
         <source>Apply changes to the transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1109"/>
-        <location filename="../windows/editorwindow.cpp" line="1113"/>
+        <location filename="../windows/editorwindow.cpp" line="1123"/>
+        <location filename="../windows/editorwindow.cpp" line="1127"/>
         <source>Discard changes in data view</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1110"/>
+        <location filename="../windows/editorwindow.cpp" line="1124"/>
         <source>Apply selected changes to the transaction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1111"/>
+        <location filename="../windows/editorwindow.cpp" line="1125"/>
         <source>Discard changes in selected cells</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1201"/>
+        <location filename="../windows/editorwindow.cpp" line="1166"/>
+        <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="1205"/>
+        <source>Manual transaction committed successfully.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <source>Manual transaction rolled back.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../windows/editorwindow.cpp" line="1277"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>Aucune base de données den sélectionnée dans l’éditeur SQL. Impossible de créer une vue sur une base de données inconnue.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1251"/>
+        <location filename="../windows/editorwindow.cpp" line="1327"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>La fenêtre de l&apos;éditeur &quot;%1&quot; a des données invalidées.</translation>
     </message>
@@ -5179,7 +5194,7 @@ Entrez SVP un nouveau nom, unique, ou cliquez « %1 » pour d’interrompre l’
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
-        <source>and switch to auto-commits</source>
+        <source>and use auto-commits</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6250,7 +6265,7 @@ Entrez SVP un nouveau nom, unique, ou cliquez « %1 » pour d’interrompre l’
         <translation>Réduire la taille de la police de caractère</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="681"/>
+        <location filename="../windows/editorwindow.cpp" line="693"/>
         <source>All files</source>
         <translation>Tous les fichiers</translation>
     </message>
@@ -6265,7 +6280,7 @@ Entrez SVP un nouveau nom, unique, ou cliquez « %1 » pour d’interrompre l’
         <translation type="unfinished">Select new database file</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="680"/>
+        <location filename="../windows/editorwindow.cpp" line="692"/>
         <source>SQL files</source>
         <translation type="unfinished">SQL files</translation>
     </message>
@@ -7079,7 +7094,7 @@ recherche suivant</translation>
     <name>SqlQueryModel</name>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="88"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="727"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="718"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Uniquement une seule requête peut être exécutée à la fois.</translation>
     </message>
@@ -7109,91 +7124,91 @@ recherche suivant</translation>
         <translation>Impossible de valider les données pour une cellule qui fait référence à une base de données déjà fermée.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="614"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="613"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>Impossible de lancer la transaction sur la base de données. Détails : %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="649"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="646"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>Une erreur s&apos;est produite lors de la validation de la transaction : %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="686"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="679"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>Une erreur est survenuelors de l’annulation de la transaction : %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="900"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="891"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>Tentative de validation d&apos;une cellule qui n&apos;est pas modifiable (encore modifiée et en attente de validation) ! Ceci est un bug. Merci de le signaler.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="926"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="917"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>Une erreur s&apos;est produite lors de la validation des données : %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1060"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1051"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>Le nombre de lignes par page a été réduit à %1 en raison du nombre de colonnes (%2) dans la vue des données.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1469"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1485"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1534"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1460"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1476"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1525"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>Erreur pendant l’exécution de la requête sur la base de données « %1 » : %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1522"/>
         <source>Error while loading query results: %1</source>
         <translation>Erreur lors du chargement des résultats de la requête : %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1698"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1689"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>Il y a moins de colonnes dans la nouvelle requête, l&apos;ordre tri a été réinitialisé.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2027"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
         <source>Insert multiple rows</source>
         <translation>Insérer plusieurs lignes</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2027"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
         <source>Number of rows to insert:</source>
         <translation>Nombre de lignes à inserer :</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2073"/>
         <source>Delete rows</source>
         <translation>Supprimer les lignes</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2083"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2074"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Vous vous apprêtez à supprimer des lignes nouvellement insérées qui ne sont pas encore validées. Numéros de ligne : %1
 Cette suppression sera permanente. Êtes-vous sûr de vouloir les supprimer ?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2201"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2212"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2203"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Middle-click resets sorting.</source>
         <translation type="unfinished">Middle-click resets sorting.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2218"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>More options are available in the context menu.</source>
         <translation type="unfinished">More options are available in the context menu.</translation>
     </message>

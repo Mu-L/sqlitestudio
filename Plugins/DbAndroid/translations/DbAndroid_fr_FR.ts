@@ -347,7 +347,7 @@ L&apos;appareil Android a refusé la suppression ou c&apos;était impossible.</t
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../sqlqueryandroid.cpp" line="101"/>
+        <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
         <translation>Impossible de lier l&apos;argument &apos;%1&apos; de la requête, car la valeur est manquante.</translation>
     </message>

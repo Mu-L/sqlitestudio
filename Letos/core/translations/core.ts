@@ -886,23 +886,23 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="479"/>
+        <location filename="../db/abstractdb3.h" line="480"/>
         <source>Could not open database: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1383"/>
+        <location filename="../db/abstractdb3.h" line="1390"/>
         <source>Result set expired or no row available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="371"/>
-        <location filename="../db/abstractdb3.h" line="375"/>
+        <location filename="../db/abstractdb3.h" line="372"/>
+        <location filename="../db/abstractdb3.h" line="376"/>
         <source>Could not load extension %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="503"/>
+        <location filename="../db/abstractdb3.h" line="504"/>
         <source>Could not close database: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1227,12 +1227,12 @@ The view will remain as it is.</source>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="715"/>
+        <location filename="../db/abstractdb3.h" line="716"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1014"/>
+        <location filename="../db/abstractdb3.h" line="1015"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation type="unfinished"></translation>
     </message>

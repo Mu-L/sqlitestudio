@@ -347,7 +347,7 @@ Il dispositivo Android ha rifiutato la cancellazione, o era impossibile.</transl
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../sqlqueryandroid.cpp" line="101"/>
+        <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
         <translation>Impossibile legare l&apos;argomento &apos;%1&apos; della query, perché manca il suo valore.</translation>
     </message>

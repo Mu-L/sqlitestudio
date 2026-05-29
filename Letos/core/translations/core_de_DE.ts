@@ -887,23 +887,23 @@ Tabellen, Indizes, Trigger und Views die in Datenbank %3 kopiert wurden, werden 
         <translation>Die Datei &apos;%1&apos; kann nicht für Lesezugriffe geöffnet werden: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="479"/>
+        <location filename="../db/abstractdb3.h" line="480"/>
         <source>Could not open database: %1</source>
         <translation>Die Datenbank %1 kann nicht geöffnet werden.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1383"/>
+        <location filename="../db/abstractdb3.h" line="1390"/>
         <source>Result set expired or no row available.</source>
         <translation>Das Abfrageergebniss ist ungültig oder es ist keine Datenzeile verfügbar.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="371"/>
-        <location filename="../db/abstractdb3.h" line="375"/>
+        <location filename="../db/abstractdb3.h" line="372"/>
+        <location filename="../db/abstractdb3.h" line="376"/>
         <source>Could not load extension %1: %2</source>
         <translation>Konnte die Erweiterung %1 nicht laden: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="503"/>
+        <location filename="../db/abstractdb3.h" line="504"/>
         <source>Could not close database: %1</source>
         <translation>Die Datenbank %1 kann nicht geschlossen werden.</translation>
     </message>
@@ -1228,12 +1228,12 @@ The view will remain as it is.</source>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="715"/>
+        <location filename="../db/abstractdb3.h" line="716"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation>Die Datenbankdatei &apos;%1&apos; wurde von einer neueren SQLite-Version modifiziert (Format %2), während die aktuelle Anwendung nur Formate bis %3 unterstützt. Einige Funktionen sind möglicherweise fehlerhaft.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1014"/>
+        <location filename="../db/abstractdb3.h" line="1015"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation>Registrierte Standardsortierfolge bei Bedarf, unter dem Namen: %1</translation>
     </message>
