@@ -1261,6 +1261,8 @@ class API_EXPORT QueryExecutor : public QObject, public QRunnable
          */
         QList<QueryExecutorStep*> createSteps(StepPosition position);
 
+        void setExecutionInProgress(bool value);
+
         /**
          * @brief Query executor context object.
          *

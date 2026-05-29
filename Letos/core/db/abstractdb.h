@@ -214,6 +214,8 @@ class API_EXPORT AbstractDb : public Db
 
         virtual void initAfterOpen();
 
+        void applyBusyTimeout() const;
+        void removeBusyTimeout() const;
         void checkForDroppedObject(const QString& query);
         bool registerCollation(const QString& name) override;
         bool deregisterCollation(const QString& name) override;

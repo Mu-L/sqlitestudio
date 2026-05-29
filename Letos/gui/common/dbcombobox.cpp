@@ -23,6 +23,11 @@ DbListModel* DbComboBox::getModel() const
 void DbComboBox::setCurrentDb(Db* db)
 {
     setCurrentIndex(dbComboModel->getIndexForDb(db));
+
+    // NOTE: The verifiedDbChanged() signal is not emitted from here, because setCurrentDb()
+    // is (and always should be) programatically used to set initial state of the owning widget
+    // and the verifiedDbChanged() notifies about changes by user interaction to prevent
+    // the change if user want's to do something forbidden, or reverts the decision.
 }
 
 Db* DbComboBox::currentDb() const

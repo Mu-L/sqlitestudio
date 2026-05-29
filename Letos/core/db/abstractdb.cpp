@@ -88,6 +88,7 @@ bool AbstractDb::openForProbing()
 
     // Implementation specific initialization
     initAfterOpen();
+
     return res;
 }
 
@@ -430,6 +431,9 @@ SqlQueryPtr AbstractDb::execListArg(const QString& query, const QList<QVariant>&
     if (!isOpenInternal())
         return SqlQueryPtr(new SqlErrorResults(SqlErrorCode::DB_NOT_OPEN, tr("Cannot execute query on closed database.")));
 
+    if (flags.testFlag(Flag::ZERO_TIMEOUT))
+        removeBusyTimeout();
+
     QString newQuery = query;
     SqlQueryPtr queryStmt = prepare(newQuery);
     queryStmt->setArgs(args);
@@ -438,6 +442,9 @@ SqlQueryPtr AbstractDb::execListArg(const QString& query, const QList<QVariant>&
 
     if (flags.testFlag(Flag::PRELOAD))
         queryStmt->preload();
+
+    if (flags.testFlag(Flag::ZERO_TIMEOUT))
+        applyBusyTimeout();
 
     return queryStmt;
 }
@@ -475,6 +482,19 @@ bool AbstractDb::openAndSetup()
 
 void AbstractDb::initAfterOpen()
 {
+    exec("PRAGMA foreign_keys = 1;", Flag::NO_LOCK);
+    exec("PRAGMA recursive_triggers = 1;", Flag::NO_LOCK);
+    applyBusyTimeout();
+}
+
+void AbstractDb::applyBusyTimeout() const
+{
+    exec(QString("PRAGMA busy_timeout = %1;").arg(getTimeout() * 1000), Flag::NO_LOCK);
+}
+
+void AbstractDb::removeBusyTimeout() const
+{
+    exec("PRAGMA busy_timeout = 0;", Flag::NO_LOCK);
 }
 
 void AbstractDb::checkForDroppedObject(const QString& query)

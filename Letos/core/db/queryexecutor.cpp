@@ -26,12 +26,13 @@
 #include "schemaresolver.h"
 #include "parser/lexer.h"
 #include "common/table.h"
+#include "dbattacher.h"
 #include <QMutexLocker>
 #include <QDateTime>
 #include <QThreadPool>
 #include <QDebug>
 #include <QtMath>
-#include <dbattacher.h>
+#include <sqlite3.h>
 
 // TODO modify all executor steps to use rebuildTokensFromContents() method, instead of replacing tokens manually.
 
@@ -182,10 +183,7 @@ void QueryExecutor::executeChain()
     // We're done.
     clearChain();
 
-    executionMutex.lock();
-    executionInProgress = false;
-    executionMutex.unlock();
-
+    setExecutionInProgress(false);
     emit executionFinished(context->executionResults);
 }
 
@@ -196,19 +194,21 @@ void QueryExecutor::stepFailed(QueryExecutorStep* currentStep)
 
     clearChain();
 
-    if (isInterrupted())
-    {
-        executionMutex.lock();
-        executionInProgress = false;
-        executionMutex.unlock();
-        emit executionFailed(SqlErrorCode::INTERRUPTED, tr("Execution interrupted."));
-        return;
-    }
-
     // Clear anything meaningful set up for smart execution - it's not valid anymore and misleads results for simple method
     context->rowIdColumns.clear();
 
-    executeSimpleMethod();
+    if (isInterrupted())
+    {
+        setExecutionInProgress(false);
+        emit executionFailed(SqlErrorCode::INTERRUPTED, tr("Execution interrupted."));
+    }
+    else if (db->getErrorCode() == SQLITE_BUSY)
+    {
+        setExecutionInProgress(false);
+        emit executionFailed(db->getErrorCode(), db->getErrorText());
+    }
+    else
+        executeSimpleMethod();
 }
 
 void QueryExecutor::cleanupAfterExecFailed(int code, QString errorMessage)
@@ -246,16 +246,16 @@ void QueryExecutor::exec(Db::QueryResultsHandler resultsHandler)
         return;
     }
 
-    // Get exclusive flow for execution on this query executor
-    executionMutex.lock();
-    if (executionInProgress)
+    // Get exclusive lock for execution flow on this query executor
     {
-        error(SqlErrorCode::QUERY_EXECUTOR_ERROR, tr("Only one query can be executed simultaneously."));
-        executionMutex.unlock();
-        return;
+        QMutexLocker executionLock(&executionMutex);
+        if (executionInProgress)
+        {
+            error(SqlErrorCode::QUERY_EXECUTOR_ERROR, tr("Only one query can be executed simultaneously."));
+            return;
+        }
+        executionInProgress = true;
     }
-    executionInProgress = true;
-    executionMutex.unlock();
 
     if (countingDb && countingDb->isOpen())
         countingDb->interrupt();
@@ -489,9 +489,7 @@ void QueryExecutor::simpleExecutionFinished(SqlQueryPtr results)
 {
     if (results.isNull() || results->isError() || !simpleExecutor->getSuccessfulExecution())
     {
-        executionMutex.lock();
-        executionInProgress = false;
-        executionMutex.unlock();
+        setExecutionInProgress(false);
         handleErrorsFromSmartAndSimpleMethods(results);
         return;
     }
@@ -516,9 +514,7 @@ void QueryExecutor::simpleExecutionFinished(SqlQueryPtr results)
     context->executionResults = results;
     requiredDbAttaches = context->dbNameToAttach.leftValues();
 
-    executionMutex.lock();
-    executionInProgress = false;
-    executionMutex.unlock();
+    setExecutionInProgress(false);
     if (context->resultsHandler)
     {
         context->resultsHandler(results);
@@ -678,6 +674,12 @@ QList<QueryExecutorStep*> QueryExecutor::createSteps(QueryExecutor::StepPosition
         steps << factory->produceQueryExecutorStep();
 
     return steps;
+}
+
+void QueryExecutor::setExecutionInProgress(bool value)
+{
+    QMutexLocker executionLock(&executionMutex);
+    executionInProgress = false;
 }
 
 int QueryExecutor::getQueryCountLimitForSmartMode() const

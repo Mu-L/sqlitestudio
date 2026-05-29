@@ -520,10 +520,8 @@ bool AbstractDb3<T>::initAfterCreated()
 template <class T>
 void AbstractDb3<T>::initAfterOpen()
 {
+    AbstractDb::initAfterOpen();
     registerDefaultCollationRequestHandler();
-    exec("PRAGMA foreign_keys = 1;", Flag::NO_LOCK);
-    exec("PRAGMA recursive_triggers = 1;", Flag::NO_LOCK);
-    exec(QString("PRAGMA busy_timeout = %1;").arg(getTimeout() * 1000), Flag::NO_LOCK);
     checkForNewerVersionModifications();
 }
 
