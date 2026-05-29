@@ -5154,7 +5154,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
         <source>WAL mode for manual commits</source>
-        <translation>手动提交的 WA 模式</translation>
+        <translation>手动提交的 WAL 模式</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
@@ -5174,7 +5174,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
         <source>Enable WAL mode</source>
-        <translation>启用 WA 模式</translation>
+        <translation>启用 WAL 模式</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
