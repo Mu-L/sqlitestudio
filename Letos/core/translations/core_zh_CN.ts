@@ -4,13 +4,13 @@
 <context>
     <name>AbstractDb</name>
     <message>
-        <location filename="../db/abstractdb.cpp" line="370"/>
-        <location filename="../db/abstractdb.cpp" line="387"/>
+        <location filename="../db/abstractdb.cpp" line="414"/>
+        <location filename="../db/abstractdb.cpp" line="431"/>
         <source>Cannot execute query on closed database.</source>
         <translation>无法在关闭的数据库上执行查询。</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb.cpp" line="794"/>
+        <location filename="../db/abstractdb.cpp" line="838"/>
         <source>Error attaching database %1: %2</source>
         <translation>附加数据库 %1 时发生错误：%2</translation>
     </message>
@@ -887,23 +887,23 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
         <translation>无法以读模式打开文件 &apos;%1&apos;：%2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="459"/>
+        <location filename="../db/abstractdb3.h" line="480"/>
         <source>Could not open database: %1</source>
         <translation>无法打开数据库：%1</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1361"/>
+        <location filename="../db/abstractdb3.h" line="1390"/>
         <source>Result set expired or no row available.</source>
         <translation>结果集过期或者无可用的行。</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="371"/>
-        <location filename="../db/abstractdb3.h" line="375"/>
+        <location filename="../db/abstractdb3.h" line="372"/>
+        <location filename="../db/abstractdb3.h" line="376"/>
         <source>Could not load extension %1: %2</source>
         <translation>无法加载扩展 %1：%2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="483"/>
+        <location filename="../db/abstractdb3.h" line="504"/>
         <source>Could not close database: %1</source>
         <translation>无法关闭数据库：%1</translation>
     </message>
@@ -1124,13 +1124,12 @@ The view will remain as it is.</source>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
-        <location filename="../db/queryexecutor.cpp" line="421"/>
-        <location filename="../db/queryexecutor.cpp" line="691"/>
+        <location filename="../db/queryexecutor.cpp" line="612"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
         <translation>执行 count(*) 查询时发生错误，因此数据分页将被禁用。来自数据库的错误详细信息：%1</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="610"/>
+        <location filename="../db/queryexecutor.cpp" line="529"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
         <translation>Letos 无法从查询中提取元数据。结果将无法编辑。</translation>
     </message>
@@ -1230,12 +1229,12 @@ The view will remain as it is.</source>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="693"/>
+        <location filename="../db/abstractdb3.h" line="716"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation>数据库文件“%1”已被新版本的 SQLite（格式 %2）修改，而当前应用程序最高支持格式 %3。某些功能可能无法正常工作。</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="992"/>
+        <location filename="../db/abstractdb3.h" line="1015"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation>已根据需要注册默认排序规则，名称为：%1</translation>
     </message>

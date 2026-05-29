@@ -82,7 +82,7 @@
         <translation>Android SQLite 驱动程序不支持可加载的扩展。</translation>
     </message>
     <message>
-        <location filename="../dbandroidinstance.cpp" line="219"/>
+        <location filename="../dbandroidinstance.cpp" line="229"/>
         <source>Connection with Android database &apos;%1&apos; lost.</source>
         <translation>与 Android 数据库 &apos;%1&apos; 的连接丢失。</translation>
     </message>
@@ -347,7 +347,7 @@ Android 设备拒绝或无法完成删除。</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../sqlqueryandroid.cpp" line="101"/>
+        <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
         <translation>无法在此查询中绑定参数 &apos;%1&apos;，因为缺少它的值。</translation>
     </message>
