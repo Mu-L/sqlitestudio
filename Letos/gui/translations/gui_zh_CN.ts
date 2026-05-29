@@ -3442,12 +3442,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.cpp" line="380"/>
         <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+        <translation>提交</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="381"/>
         <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+        <translation>回滚</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="395"/>
@@ -3522,7 +3522,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Auto-commit queries</translation>
+        <translation>自动提交查询</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="485"/>
@@ -3553,17 +3553,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.cpp" line="733"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-        <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
+        <translation>无法将日志模式切换为 WAL。手动提交模式不可用。错误：%1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="744"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-        <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
+        <translation>无法打开新的数据库连接。手动提交模式将不会启用。错误：%1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="747"/>
         <source>The joirnal_mode will be switched back to %1.</source>
-        <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
+        <translation>joirnal_mode 将切换回 %1。</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="878"/>
@@ -3593,34 +3593,34 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.cpp" line="1079"/>
         <source>Query auto-commit is now enabled.</source>
-        <translation type="unfinished">Query auto-commit is now enabled.</translation>
+        <translation>查询自动提交功能已启用。</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1081"/>
         <source>Query auto-commit is now disabled.</source>
-        <translation type="unfinished">Query auto-commit is now disabled.</translation>
+        <translation>查询自动提交功能现已禁用。</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1108"/>
         <location filename="../windows/editorwindow.cpp" line="1112"/>
         <source>Apply changes to the transaction</source>
-        <translation type="unfinished">Apply changes to the transaction</translation>
+        <translation>对交易进行更改</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1109"/>
         <location filename="../windows/editorwindow.cpp" line="1113"/>
         <source>Discard changes in data view</source>
-        <translation type="unfinished">Discard changes in data view</translation>
+        <translation>放弃数据视图中的更改</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1110"/>
         <source>Apply selected changes to the transaction</source>
-        <translation type="unfinished">Apply selected changes to the transaction</translation>
+        <translation>将选定的更改应用于交易</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1111"/>
         <source>Discard changes in selected cells</source>
-        <translation type="unfinished">Discard changes in selected cells</translation>
+        <translation>放弃对所选单元格的更改</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1201"/>
@@ -5106,47 +5106,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation type="unfinished">Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
         <source>Roll Back Transaction</source>
-        <translation type="unfinished">Roll Back Transaction</translation>
+        <translation>回滚交易</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
         <source>Discard changes made within the transaction and proceed</source>
-        <translation type="unfinished">Discard changes made within the transaction and proceed</translation>
+        <translation>放弃交易过程中所做的更改并继续</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
         <source>Commit Transaction</source>
-        <translation type="unfinished">Commit Transaction</translation>
+        <translation>提交交易</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
         <source>Save transaction changes and proceed</source>
-        <translation type="unfinished">Save transaction changes and proceed</translation>
+        <translation>保存交易更改并继续</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
         <source>Keep the transaction open and stay with the current database</source>
-        <translation type="unfinished">Keep the transaction open and stay with the current database</translation>
+        <translation>保持事务打开状态，并继续使用当前数据库</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;您想如何处理这笔交易？&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) 有一个活动的手动事务，其中包含尚未提交的待处理更改。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -5154,37 +5154,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
         <source>WAL mode for manual commits</source>
-        <translation type="unfinished">WAL mode for manual commits</translation>
+        <translation>手动提交的 WA 模式</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) 当前未使用 WAL（预写式日志）日志模式。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;手动提交模式需要启用 WAL 模式。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL 模式允许其他连接和应用程序的其他部分在写入事务打开时继续读取数据库。如果没有 WAL 模式，打开的事务可能会阻塞模式刷新、数据浏览和其他数据库操作。&lt;/p&gt;&lt;p&gt;请注意：&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL 模式会影响数据库文件本身，并且所有将来连接到此数据库的连接都将使用此模式，直到再次使用 PRAGMA journal_mode 进行更改。&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;即使在 WAL 模式下，SQLite 仍然一次只允许一个活动的写入事务。&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;阅读更多关于 WAL 的信息，请访问 &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
         <source>Keep current journal mode</source>
-        <translation type="unfinished">Keep current journal mode</translation>
+        <translation>保持当前日志模式</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
         <source>and switch to auto-commits</source>
-        <translation type="unfinished">and switch to auto-commits</translation>
+        <translation>并切换到自动提交</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
         <source>Enable WAL mode</source>
-        <translation type="unfinished">Enable WAL mode</translation>
+        <translation>启用 WA 模式</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
         <source>and use manual commits</source>
-        <translation type="unfinished">and use manual commits</translation>
+        <translation>并使用手动提交</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;是否启用 WAL 模式并继续？&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
