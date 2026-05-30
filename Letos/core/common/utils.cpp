@@ -584,7 +584,7 @@ QString formatFileSize(quint64 size)
         words << QString("%1KB").arg(kb);
     }
 
-    if (bytes > 0)
+    if (bytes > 0 || words.isEmpty())
         words << QString("%1B").arg(bytes);
 
     return words.join(" ");
