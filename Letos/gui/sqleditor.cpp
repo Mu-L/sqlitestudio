@@ -214,7 +214,7 @@ void SqlEditor::createActions()
 void SqlEditor::setupDefShortcuts()
 {
     setShortcutContext({CUT, COPY, PASTE, DELETE, SELECT_ALL, UNDO, REDO, COMPLETE, FORMAT_SQL, SAVE_SQL_FILE, OPEN_SQL_FILE,
-                        DELETE_LINE, INCR_FONT_SIZE, DECR_FONT_SIZE}, Qt::WidgetWithChildrenShortcut);
+                        DELETE_LINE, INCR_FONT_SIZE, DECR_FONT_SIZE, FIND}, Qt::WidgetWithChildrenShortcut);
 
     BIND_SHORTCUTS(SqlEditor, Action);
 }

@@ -325,7 +325,7 @@ void DataView::createActions()
 void DataView::setupDefShortcuts()
 {
     // Widget context
-    setShortcutContext({REFRESH_DATA, SHOW_GRID_VIEW, SHOW_FORM_VIEW}, Qt::WidgetWithChildrenShortcut);
+    setShortcutContext({REFRESH_DATA, SHOW_GRID_VIEW, SHOW_FORM_VIEW, FIND_IN_DATA}, Qt::WidgetWithChildrenShortcut);
 
     BIND_SHORTCUTS(DataView, Action);
 }
