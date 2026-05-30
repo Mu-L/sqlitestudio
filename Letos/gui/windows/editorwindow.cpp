@@ -1216,6 +1216,7 @@ void EditorWindow::commitManualTx()
 
     updateManualCommitStatus();
     updateState();
+    DBTREE->refreshSchema(getCurrentDb());
 
     notifyInfo(tr("Manual transaction committed successfully."));
 }
