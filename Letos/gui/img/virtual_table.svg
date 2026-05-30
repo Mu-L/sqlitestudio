@@ -2,14 +2,6 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg1"
    sodipodi:docname="virtual_table.svg"
    viewBox="0 0 60 60"
@@ -17,9 +9,29 @@
    version="1.0"
    y="0"
    x="0"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs15">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient952">
+      <stop
+         style="stop-color:#92329d;stop-opacity:1;"
+         offset="0"
+         id="stop948" />
+      <stop
+         style="stop-color:#b541c2;stop-opacity:1;"
+         offset="1"
+         id="stop950" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient933">
@@ -117,6 +129,16 @@
        r="11.001537"
        gradientTransform="matrix(1,0,0,0.95399361,0,1.8677098)"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient952"
+       id="linearGradient954"
+       x1="25.177181"
+       y1="29.316198"
+       x2="52.987194"
+       y2="53.781651"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.93042572,0,0,0.93042572,2.7574508,3.0300585)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -124,18 +146,21 @@
      inkscape:pageshadow="2"
      inkscape:window-width="3440"
      pagecolor="#ffffff"
-     inkscape:zoom="6.9465337"
+     inkscape:zoom="1.2279853"
      inkscape:window-x="-8"
      borderopacity="1.0"
-     inkscape:cx="58.103941"
-     inkscape:cy="14.706293"
+     inkscape:cx="19.951379"
+     inkscape:cy="61.482822"
      inkscape:window-y="-8"
      inkscape:window-height="1377"
      inkscape:pageopacity="0.0"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
+     inkscape:current-layer="svg1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -227,16 +252,26 @@
      style="fill:none;stroke:#6e70ff;stroke-width:2.88994;stroke-opacity:1"
      d="M 38.580393,5.7752888 V 54.398607"
      sodipodi:stroke-cmyk="(0.0000000 0.0000000 0.0000000 0.50000000)" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:39.4286px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:0.778226;stroke:none;stroke-width:0.985927;stroke-miterlimit:4;stroke-dasharray:none"
-     x="26.598593"
-     y="55.045174"
-     id="text865"
-     transform="scale(0.99060402,1.0094851)"><tspan
-       sodipodi:role="line"
-       id="tspan863"
-       x="26.598593"
-       y="55.045174"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#000000;fill-opacity:0.778226;stroke-width:0.985927;stroke-miterlimit:4;stroke-dasharray:none">V</tspan></text>
+  <g
+     id="g1114"
+     transform="matrix(0.94002351,0,0,0.94002351,3.5317479,3.5466247)">
+    <circle
+       style="fill:url(#linearGradient954);fill-opacity:1;stroke:#8b2374;stroke-width:4.05862;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path923"
+       cx="39.760338"
+       cy="40.008381"
+       r="17.095896" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:31.5356px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:0.682511;stroke:none;stroke-width:0.788563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="27.714088"
+       y="54.783493"
+       id="text865"
+       transform="scale(1.0485923,0.9536595)"><tspan
+         sodipodi:role="line"
+         id="tspan863"
+         x="27.714088"
+         y="54.783493"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;fill-opacity:0.682511;stroke:none;stroke-width:0.788563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">V</tspan></text>
+  </g>
 </svg>
