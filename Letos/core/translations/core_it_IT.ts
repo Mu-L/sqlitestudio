@@ -4,13 +4,13 @@
 <context>
     <name>AbstractDb</name>
     <message>
-        <location filename="../db/abstractdb.cpp" line="414"/>
-        <location filename="../db/abstractdb.cpp" line="431"/>
+        <location filename="../db/abstractdb.cpp" line="415"/>
+        <location filename="../db/abstractdb.cpp" line="432"/>
         <source>Cannot execute query on closed database.</source>
         <translation>Impossibile eseguire la query su un database chiuso.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb.cpp" line="838"/>
+        <location filename="../db/abstractdb.cpp" line="858"/>
         <source>Error attaching database %1: %2</source>
         <translation>Errore nell&apos;allegare il database %1: %2</translation>
     </message>
@@ -892,7 +892,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
         <translation>Impossibile aprire il database: %1</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1390"/>
+        <location filename="../db/abstractdb3.h" line="1388"/>
         <source>Result set expired or no row available.</source>
         <translation>Risultato impostato scaduto o nessuna riga disponibile.</translation>
     </message>
@@ -1108,7 +1108,7 @@ La vista rimarrà così com&apos;è.</translation>
 <context>
     <name>QueryExecutor</name>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="204"/>
+        <location filename="../db/queryexecutor.cpp" line="203"/>
         <source>Execution interrupted.</source>
         <translation>Esecuzione interrotta.</translation>
     </message>
@@ -1118,18 +1118,18 @@ La vista rimarrà così com&apos;è.</translation>
         <translation>Il database non è aperto.</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="253"/>
+        <location filename="../db/queryexecutor.cpp" line="254"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Solo una query può essere eseguita contemporaneamente.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
-        <location filename="../db/queryexecutor.cpp" line="612"/>
+        <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
         <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="529"/>
+        <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
         <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
     </message>
@@ -1229,12 +1229,12 @@ La vista rimarrà così com&apos;è.</translation>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="716"/>
+        <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1015"/>
+        <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
     </message>

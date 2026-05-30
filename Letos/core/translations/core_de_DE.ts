@@ -4,13 +4,13 @@
 <context>
     <name>AbstractDb</name>
     <message>
-        <location filename="../db/abstractdb.cpp" line="414"/>
-        <location filename="../db/abstractdb.cpp" line="431"/>
+        <location filename="../db/abstractdb.cpp" line="415"/>
+        <location filename="../db/abstractdb.cpp" line="432"/>
         <source>Cannot execute query on closed database.</source>
         <translation>Die Abfrage kann nicht auf einer ungeöffneten Datenbank ausgeführt werden.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb.cpp" line="838"/>
+        <location filename="../db/abstractdb.cpp" line="858"/>
         <source>Error attaching database %1: %2</source>
         <translation>Fehler beim Anhängen der Datenbank %1: %2</translation>
     </message>
@@ -892,7 +892,7 @@ Tabellen, Indizes, Trigger und Views die in Datenbank %3 kopiert wurden, werden 
         <translation>Die Datenbank %1 kann nicht geöffnet werden.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1390"/>
+        <location filename="../db/abstractdb3.h" line="1388"/>
         <source>Result set expired or no row available.</source>
         <translation>Das Abfrageergebniss ist ungültig oder es ist keine Datenzeile verfügbar.</translation>
     </message>
@@ -1107,7 +1107,7 @@ The view will remain as it is.</source>
 <context>
     <name>QueryExecutor</name>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="204"/>
+        <location filename="../db/queryexecutor.cpp" line="203"/>
         <source>Execution interrupted.</source>
         <translation>Ausführung abgebrochen.</translation>
     </message>
@@ -1117,18 +1117,18 @@ The view will remain as it is.</source>
         <translation>Die Datenbank ist nicht geöffnet.</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="253"/>
+        <location filename="../db/queryexecutor.cpp" line="254"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Es kann nur eine Abfrage gleichzeitig ausgeführt werden.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
-        <location filename="../db/queryexecutor.cpp" line="612"/>
+        <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
         <translation>Beim Ausführen der Count(*)-Anfrage ist ein Fehler aufgetreten, wodurch die Datenausgabe deaktiviert wird. Fehlerdetails der Datenbank: %1</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="529"/>
+        <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
         <translation>Letos konnte keine Metadaten aus der Abfrage extrahieren. Die Ergebnisse können nicht bearbeitet werden.</translation>
     </message>
@@ -1228,12 +1228,12 @@ The view will remain as it is.</source>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="716"/>
+        <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation>Die Datenbankdatei &apos;%1&apos; wurde von einer neueren SQLite-Version modifiziert (Format %2), während die aktuelle Anwendung nur Formate bis %3 unterstützt. Einige Funktionen sind möglicherweise fehlerhaft.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1015"/>
+        <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation>Registrierte Standardsortierfolge bei Bedarf, unter dem Namen: %1</translation>
     </message>

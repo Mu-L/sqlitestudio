@@ -3565,84 +3565,84 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="879"/>
+        <location filename="../windows/editorwindow.cpp" line="883"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Запрос выполнен за %1 секунд. Затронуто строк: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="883"/>
+        <location filename="../windows/editorwindow.cpp" line="887"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Запрос выполнен за %1 секунд.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1014"/>
+        <location filename="../windows/editorwindow.cpp" line="1018"/>
         <source>Clear execution history</source>
         <translation>Очистка истории запросов</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1014"/>
+        <location filename="../windows/editorwindow.cpp" line="1018"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Вы действительно хотите удалить всю историю выполнения SQL запросов? Операцию невозможно отменить.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1052"/>
+        <location filename="../windows/editorwindow.cpp" line="1056"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Невозможно произвести экспорт, т. к. не загружено ни одного модуля экспорта.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1080"/>
+        <location filename="../windows/editorwindow.cpp" line="1084"/>
         <source>Query auto-commit is now enabled.</source>
         <translation type="unfinished">Query auto-commit is now enabled.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1082"/>
+        <location filename="../windows/editorwindow.cpp" line="1086"/>
         <source>Query auto-commit is now disabled.</source>
         <translation type="unfinished">Query auto-commit is now disabled.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1122"/>
-        <location filename="../windows/editorwindow.cpp" line="1126"/>
+        <location filename="../windows/editorwindow.cpp" line="1137"/>
+        <location filename="../windows/editorwindow.cpp" line="1141"/>
         <source>Apply changes to the transaction</source>
         <translation type="unfinished">Apply changes to the transaction</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1123"/>
-        <location filename="../windows/editorwindow.cpp" line="1127"/>
+        <location filename="../windows/editorwindow.cpp" line="1138"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Discard changes in data view</source>
         <translation type="unfinished">Discard changes in data view</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1124"/>
+        <location filename="../windows/editorwindow.cpp" line="1139"/>
         <source>Apply selected changes to the transaction</source>
         <translation type="unfinished">Apply selected changes to the transaction</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1125"/>
+        <location filename="../windows/editorwindow.cpp" line="1140"/>
         <source>Discard changes in selected cells</source>
         <translation type="unfinished">Discard changes in selected cells</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1166"/>
+        <location filename="../windows/editorwindow.cpp" line="1181"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1205"/>
+        <location filename="../windows/editorwindow.cpp" line="1220"/>
         <source>Manual transaction committed successfully.</source>
         <translation type="unfinished">Manual transaction committed successfully.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1249"/>
         <source>Manual transaction rolled back.</source>
         <translation type="unfinished">Manual transaction rolled back.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1277"/>
+        <location filename="../windows/editorwindow.cpp" line="1292"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>В редакторе SQL не выбрана база данных. Невозможно создать представление в неизвестной базе данных.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1327"/>
+        <location filename="../windows/editorwindow.cpp" line="1342"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>В окне редактора &quot;%1&quot; имеются неподтверждённые данные.</translation>
     </message>
@@ -7081,122 +7081,122 @@ find next</source>
 <context>
     <name>SqlQueryModel</name>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="88"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="718"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Одновременно может быть выполнен только один запрос.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="105"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation>Невозможно выполнить запрос к неопознанной или некорректной базе данных.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="112"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
         <source>Cannot execute empty query.</source>
         <translation>Невозможно выполнить пустой запрос.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="120"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
         <source>Uncommitted data</source>
         <translation>Неподтверждённые данные</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="121"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>Имеются неподтверждённые изменения данных. Вы действительно хотите продолжить? Все неподтверждённые изменения будут утеряны.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="593"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation>Невозможно подтвердить данные для ячейки, которая ссылается на уже закрытую базу данных.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="613"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>Невозможно начать транзакцию в базе данных. Подробности: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="646"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>При завершении транзакции возникла ошибка: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="679"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>При отмене транзакции возникла ошибка: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="891"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>Попытка подтверждения данных для нередактируемой ячейки (которая тем не менее была изменена и ожидает подтверждения). Это программная ошибка. Пожалуйста, отправьте о ней отчёт.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="917"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>При подтверждении данных произошла ошибка: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1051"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>Количество строк на странице было уменьшено до %1 из-за большого количества столбцов (%2) в окне данных.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1460"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1476"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1525"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>Ошибка при выполнении SQL запроса к базе данных &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1522"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
         <source>Error while loading query results: %1</source>
         <translation>Ошибка при загрузке результатов запроса: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1689"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>В новом запросе меньшее количество столбцов. Сортировка была сброшена.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Insert multiple rows</source>
         <translation>Вставить несколько строк</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Number of rows to insert:</source>
         <translation>Количество вставляемых строк:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2073"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2078"/>
         <source>Delete rows</source>
         <translation>Удалить строки</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2074"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Вы собираетесь удалить недавно вставленные строки, которые ещё не были подтверждены. Номера строк: %1
 Такое удаление необратимо. Вы действительно хотите удалить их?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2201"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2206"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2203"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2213"/>
         <source>Middle-click resets sorting.</source>
         <translation type="unfinished">Middle-click resets sorting.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>More options are available in the context menu.</source>
         <translation type="unfinished">More options are available in the context menu.</translation>
     </message>
