@@ -3627,22 +3627,22 @@ Bitte geben Sie einen neuen, eindeutigen Namen an oder drücken Sie %1, um den V
         <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1220"/>
+        <location filename="../windows/editorwindow.cpp" line="1221"/>
         <source>Manual transaction committed successfully.</source>
         <translation type="unfinished">Manual transaction committed successfully.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1249"/>
+        <location filename="../windows/editorwindow.cpp" line="1250"/>
         <source>Manual transaction rolled back.</source>
         <translation type="unfinished">Manual transaction rolled back.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1292"/>
+        <location filename="../windows/editorwindow.cpp" line="1293"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>Es ist keine Datenbank im SQL Editor selektiert. Für eine unbekannte Datenbank kann kein View erzeugt werden.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>Editor-Fenster &quot;%1&quot; hat nicht übertragene Daten.</translation>
     </message>

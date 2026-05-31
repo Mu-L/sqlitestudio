@@ -3620,22 +3620,22 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1220"/>
+        <location filename="../windows/editorwindow.cpp" line="1221"/>
         <source>Manual transaction committed successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1249"/>
+        <location filename="../windows/editorwindow.cpp" line="1250"/>
         <source>Manual transaction rolled back.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1292"/>
+        <location filename="../windows/editorwindow.cpp" line="1293"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation type="unfinished"></translation>
     </message>
