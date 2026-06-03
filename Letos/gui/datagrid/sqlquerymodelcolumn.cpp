@@ -115,7 +115,13 @@ bool SqlQueryModelColumn::isNull()
 
 bool SqlQueryModelColumn::canEdit()
 {
-    return editionForbiddenReason.size() == 0;
+    if (editionForbiddenReason.isEmpty())
+        return true;
+
+    if (hasInsteadOfTrigger && editionForbiddenReason.size() == 1 && editionForbiddenReason.contains(EditionForbiddenReason::EXPRESSION))
+        return true;
+
+    return false;
 }
 
 QString SqlQueryModelColumn::getEditionForbiddenReason()

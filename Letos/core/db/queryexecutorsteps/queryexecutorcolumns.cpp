@@ -111,6 +111,7 @@ QueryExecutor::ResultColumnPtr QueryExecutorColumns::getResultColumn(const Selec
             resultColumn->editionForbiddenReasons << QueryExecutor::ColumnEditionForbiddenReason::COMM_TAB_EXPR;
 
         if (resolvedColumn.flags & SelectResolver::FROM_VIEW)
+            // We cannot leverage INSTEAD OF triggers for arbitrary queries, because it's not possible to identify ROWID
             resultColumn->editionForbiddenReasons << QueryExecutor::ColumnEditionForbiddenReason::VIEW_NOT_EXPANDED;
 
         if (resolvedColumn.flags & SelectResolver::FROM_RES_COL_SUBSELECT)

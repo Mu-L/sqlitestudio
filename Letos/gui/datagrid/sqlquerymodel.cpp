@@ -632,10 +632,10 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
     }
 
     // Getting current uncommitted list (after rows deletion it may be different)
-    QList<SqlQueryItem*> itemsLeft = findItems(SqlQueryItem::DataRole::UNCOMMITTED, true);
+    QList<SqlQueryItem*> updatedOrInsertedItems = findItems(SqlQueryItem::DataRole::UNCOMMITTED, true);
 
     // Getting common elements of initial and current item list, because of a possibility of the selective commit
-    QMutableListIterator<SqlQueryItem*> it(itemsLeft);
+    QMutableListIterator<SqlQueryItem*> it(updatedOrInsertedItems);
     while (it.hasNext())
     {
         if (!items.contains(it.next()))
@@ -657,10 +657,10 @@ void SqlQueryModel::commitInternal(const QList<SqlQueryItem*>& items)
                 handler();
 
             // Refresh generated columns of altered rows
-            refreshGeneratedColumns(itemsLeft);
+            refreshGeneratedColumns(updatedOrInsertedItems);
 
             // Committed successfully
-            for (SqlQueryItem* item : itemsLeft)
+            for (SqlQueryItem* item : updatedOrInsertedItems)
             {
                 item->setUncommitted(false);
                 item->setNewRow(false);
@@ -2255,11 +2255,23 @@ void SqlQueryModel::CommitUpdateQueryBuilder::addColumn(const QString& column)
     columns << column;
 }
 
+void SqlQueryModel::CommitUpdateQueryBuilder::addReturning()
+{
+    this->returning = true;
+}
+
+void SqlQueryModel::CommitUpdateQueryBuilder::addReturningConst()
+{
+    this->returningConst = true;
+}
+
 QString SqlQueryModel::CommitUpdateQueryBuilder::build()
 {
-    static_qstring(updateTpl, "UPDATE %1 SET %2 WHERE %3;");
+    static_qstring(updateTpl, "UPDATE %1 SET %2 WHERE %3%4;");
     static_qstring(bindParamTpl, ":value_%1");
     static_qstring(assignTpl, "%1 = %2");
+    static_qstring(returningTpl, " RETURNING *");
+    static_qstring(returningConstTpl, " RETURNING 1");
 
     QString conditionsString = RowIdConditionBuilder::build();
 
@@ -2279,7 +2291,8 @@ QString SqlQueryModel::CommitUpdateQueryBuilder::build()
         assignments << assignTpl.arg(col, arg);
     }
 
-    return updateTpl.arg(dbAndTable, assignments.join(", "), conditionsString);
+    QString returningStmt = returning ? returningTpl : (returningConst ? returningConstTpl : "");
+    return updateTpl.arg(dbAndTable, assignments.join(", "), conditionsString, returningStmt);
 }
 
 QStringList SqlQueryModel::CommitUpdateQueryBuilder::getAssignmentArgs() const

@@ -671,6 +671,22 @@ StrHash< SqliteCreateTriggerPtr> SchemaResolver::getAllParsedTriggers(const QStr
     return getAllParsedObjectsForType<SqliteCreateTrigger>(database, "trigger");
 }
 
+StrHash<SqliteCreateTriggerPtr> SchemaResolver::getAllParsedViewTriggers()
+{
+    return getAllParsedViewTriggers("main");
+}
+
+StrHash<SqliteCreateTriggerPtr> SchemaResolver::getAllParsedViewTriggers(const QString& database)
+{
+    StrHash<SqliteCreateTriggerPtr> triggers = getAllParsedObjectsForType<SqliteCreateTrigger>(database, "trigger", "upper(sql) like '%INSTEAD%OF%'");
+    for (const QString& name : triggers.keys())
+    {
+        if (triggers[name]->eventTime != SqliteCreateTrigger::Time::INSTEAD_OF)
+            triggers.remove(name);
+    }
+    return triggers;
+}
+
 StrHash< SqliteCreateViewPtr> SchemaResolver::getAllParsedViews()
 {
     return getAllParsedViews("main");

@@ -134,6 +134,9 @@ class API_EXPORT SchemaResolver
 
         QList<SqliteCreateIndexPtr> getParsedIndexesForTable(const QString& database, const QString& table);
         QList<SqliteCreateIndexPtr> getParsedIndexesForTable(const QString& table);
+        /**
+         * @param includeContentReferences Whether result should include triggers that refer table/view in its implementation code, not just in the "ON" clause
+         */
         QList<SqliteCreateTriggerPtr> getParsedTriggersForTable(const QString& database, const QString& table, bool includeContentReferences = false);
         QList<SqliteCreateTriggerPtr> getParsedTriggersForTable(const QString& table, bool includeContentReferences = false);
         QList<SqliteCreateTriggerPtr> getParsedTriggersForView(const QString& database, const QString& view, bool includeContentReferences = false);
@@ -223,6 +226,8 @@ class API_EXPORT SchemaResolver
         StrHash<SqliteCreateIndexPtr> getAllParsedIndexes(const QString& database);
         StrHash<SqliteCreateTriggerPtr> getAllParsedTriggers();
         StrHash<SqliteCreateTriggerPtr> getAllParsedTriggers(const QString& database);
+        StrHash<SqliteCreateTriggerPtr> getAllParsedViewTriggers();
+        StrHash<SqliteCreateTriggerPtr> getAllParsedViewTriggers(const QString& database);
         StrHash<SqliteCreateViewPtr> getAllParsedViews();
         StrHash<SqliteCreateViewPtr> getAllParsedViews(const QString& database);
         QStringList getTablePrimaryKeyColumns(const QString& table);
@@ -268,7 +273,7 @@ class API_EXPORT SchemaResolver
         Parser* getParser();
 
         template <class T>
-        StrHash<QSharedPointer<T>> getAllParsedObjectsForType(const QString& database, const QString& type);
+        StrHash<QSharedPointer<T>> getAllParsedObjectsForType(const QString& database, const QString& type, const QString& extraPredicate = QString());
 
         Db* db = nullptr;
         Parser* parser = nullptr;
@@ -283,38 +288,41 @@ size_t qHash(const SchemaResolver::ObjectCacheKey& key);
 int operator==(const SchemaResolver::ObjectCacheKey& k1, const SchemaResolver::ObjectCacheKey& k2);
 
 template <class T>
-StrHash<QSharedPointer<T>> SchemaResolver::getAllParsedObjectsForType(const QString& database, const QString& type)
+StrHash<QSharedPointer<T>> SchemaResolver::getAllParsedObjectsForType(const QString& database, const QString& type, const QString& extraPredicate)
 {
-     StrHash< QSharedPointer<T>> parsedObjects;
+    static_qstring(queryTpl, "SELECT name, type, sql FROM %1.sqlite_master%2;");
+    static_qstring(typeTpl, "type = '%1'");
+    static_qstring(whereTpl, " WHERE %1");
 
-     QString dbName = getPrefixDb(database);
+    QString dbName = getPrefixDb(database);
 
-     SqlQueryPtr results;
+    QStringList predicates;
+    if (!type.isNull())
+        predicates << typeTpl.arg(type);
 
-     if (type.isNull())
-         results = db->exec(QString("SELECT name, type, sql FROM %1.sqlite_master;").arg(dbName));
-     else
-         results = db->exec(QString("SELECT name, type, sql FROM %1.sqlite_master WHERE type = '%2';").arg(dbName, type));
+    if (!extraPredicate.isNull())
+        predicates << extraPredicate;
 
-     QString name;
-     SqliteQueryPtr parsedObject;
-     QSharedPointer<T> castedObject;
-     for (SqlResultsRowPtr& row : results->getAll())
-     {
-         name = row->value("name").toString();
-         parsedObject = getParsedDdl(row->value("sql").toString());
-         if (!parsedObject)
-             continue;
+    QString conditions = predicates.isEmpty() ? "" : whereTpl.arg(predicates.join(" AND "));
+    SqlQueryPtr results = db->exec(queryTpl.arg(dbName, conditions));
 
-         if (isFilteredOut(name, row->value("type").toString()))
-             continue;
+    StrHash<QSharedPointer<T>> parsedObjects;
+    for (SqlResultsRowPtr& row : results->getAll())
+    {
+        QString name = row->value("name").toString();
+        SqliteQueryPtr parsedObject = getParsedDdl(row->value("sql").toString());
+        if (!parsedObject)
+            continue;
 
-         castedObject = parsedObject.dynamicCast<T>();
-         if (castedObject)
-             parsedObjects[name] = castedObject;
-     }
+        if (isFilteredOut(name, row->value("type").toString()))
+            continue;
 
-     return parsedObjects;
+        QSharedPointer<T> castedObject = parsedObject.dynamicCast<T>();
+        if (castedObject)
+            parsedObjects[name] = castedObject;
+    }
+
+    return parsedObjects;
 }
 
 #endif // SCHEMARESOLVER_H

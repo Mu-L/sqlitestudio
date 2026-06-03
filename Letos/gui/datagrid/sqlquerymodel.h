@@ -222,6 +222,8 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
                 void setTable(const QString& table);
                 void setColumn(const QString& column);
                 void addColumn(const QString& column);
+                void addReturning();
+                void addReturningConst();
 
                 QString build();
                 QStringList getAssignmentArgs() const;
@@ -231,6 +233,8 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
                 QString table;
                 QStringList columns;
                 QStringList assignmentArgs;
+                bool returning = false;
+                bool returningConst = false;
         };
 
         class GUI_API_EXPORT SelectCellsQueryBuilder : public RowIdConditionBuilder
@@ -336,6 +340,7 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         QStringList toOrderedColumnNames(const QList<SqlQueryItem*>& items);
         void refreshGeneratedColumns(const QList<SqlQueryItem*>& items);
         void refreshGeneratedColumns(const QList<SqlQueryItem*>& items, QHash<SqlQueryItem*, QVariant>& values, const RowId& insertedRowId);
+        QString getDatabaseForCommit(const QString& database);
 
         QueryExecutor* queryExecutor = nullptr;
         Db* db = nullptr;
@@ -402,7 +407,6 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         void addNewRowInternal(int rowIdx);
         Icon& getIconForIdx(int idx, bool desc) const;
         void detachDatabases();
-        QString getDatabaseForCommit(const QString& database);
         void recalculateRowsAndPages(int rowsDelta);
         int getInsertRowIndex();
         void notifyItemEditionEnded(const QModelIndex& idx);

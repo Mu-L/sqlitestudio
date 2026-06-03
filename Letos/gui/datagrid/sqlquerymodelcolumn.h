@@ -196,6 +196,12 @@ class GUI_API_EXPORT SqlQueryModelColumn
         QSet<EditionForbiddenReason> editionForbiddenReason;
         QString queryExecutorAlias;
 
+        // If the column is displayed in View Window, this will be set to true for columns that are covered
+        // with INSTEAD OF trigger (both UPDATE and UPDATE OF). It tells model and delegate
+        // to allow editing despite having EditionForbiddenReason::EXPRESSION (and only this one),
+        // because the trigger will take care of the update.
+        bool hasInsteadOfTrigger = false;
+
     private:
         template <class T>
         QList<T> getTypedConstraints() const;
