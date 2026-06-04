@@ -28,6 +28,11 @@ QString SqlViewModel::getDataSource()
     return getDatabasePrefix() + wrapObjIfNeeded(view);
 }
 
+QString SqlViewModel::getTableOrView()
+{
+    return view;
+}
+
 bool SqlViewModel::commitEditedRow(const QList<SqlQueryItem*>& itemsInRow, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
 {
     if (itemsInRow.size() == 0)
@@ -57,27 +62,51 @@ bool SqlViewModel::commitEditedRow(const QList<SqlQueryItem*>& itemsInRow, QList
     }
 
     if (allColumnsByTrigger)
-        return commitEditedRowAllColumnsByTrigger(itemsInRow);
+    {
+        scheduleInsteadOfTriggerInfoMsg(successfulCommitHandlers);
+        return commitEditedRowAllColumnsByTrigger(itemsInRow, successfulCommitHandlers);
+    }
 
     QList<SqlQueryItem*> itemsLeft;
-    bool trigRes = commitEditedRowByTrigger(itemsInRow, columnsCoveredByTriggers, itemsLeft);
+    bool trigRes = commitEditedRowByTrigger(itemsInRow, columnsCoveredByTriggers, itemsLeft, successfulCommitHandlers);
+    if (itemsLeft.size() != itemsInRow.size())
+        scheduleInsteadOfTriggerInfoMsg(successfulCommitHandlers);
+
     return trigRes && (itemsLeft.isEmpty() || SqlDataSourceQueryModel::commitEditedRow(itemsLeft, successfulCommitHandlers));
 }
 
-bool SqlViewModel::commitEditedRowAllColumnsByTrigger(const QList<SqlQueryItem*>& items)
+bool SqlViewModel::commitAddedRow(const QList<SqlQueryItem*>& itemsInRow, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
+{
+    if (!cachedFeatures.testFlag(INSERT_ROW))
+    {
+        qWarning() << "Tried to commit added row in SqlViewModel, but INSERT_ROW feature is not supported by the model.";
+        return false;
+    }
+
+    return SqlDataSourceQueryModel::commitAddedRow(itemsInRow, successfulCommitHandlers);
+}
+
+bool SqlViewModel::commitDeletedRow(const QList<SqlQueryItem*>& itemsInRow, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
+{
+    if (!cachedFeatures.testFlag(DELETE_ROW))
+    {
+        qWarning() << "Tried to commit deleted row in SqlViewModel, but DELETE_ROW feature is not supported by the model.";
+        return false;
+    }
+
+    return SqlDataSourceQueryModel::commitDeletedRow(itemsInRow, successfulCommitHandlers);
+}
+
+bool SqlViewModel::commitEditedRowAllColumnsByTrigger(const QList<SqlQueryItem*>& items, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
 {
     CommitUpdateQueryBuilder queryBuilder;
     queryBuilder.addReturningConst(); // to quickly return number of affected rows
     queryBuilder.setDatabase(getDatabaseForCommit(database));
-    queryBuilder.setTable(wrapObjName(view));
+    queryBuilder.setTableOrView(wrapObjName(view));
 
     // RowId used for update using trigger
-    int rowIdx = items.first()->index().row();
-    QList<SqlQueryItem*> rowAllItems = getRow(rowIdx);
-    RowId trigRowId;
-    for (SqlQueryItem* item : rowAllItems)
-        trigRowId[item->getColumn()->displayName] = item->isUncommitted() ? item->getOldValue() : item->getValue();
-
+    int rowIdx = items.first()->row();
+    RowId trigRowId = getRowIdForRow(items);
     queryBuilder.setRowId(trigRowId);
 
     // Columns & bind params
@@ -106,8 +135,13 @@ bool SqlViewModel::commitEditedRowAllColumnsByTrigger(const QList<SqlQueryItem*>
     // Check if the trigger modified more than 1 row and warn about it
     int updateCount = results->getAll().size();
     if (updateCount > 1)
-        notifyWarn(tr("Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.")
-                   .arg(QString::number(rowIdx + 1), QString::number(updateCount)));
+    {
+        successfulCommitHandlers << [rowIdx, updateCount]()
+        {
+            notifyWarn(tr("Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.")
+                       .arg(QString::number(rowIdx + 1), QString::number(updateCount)));
+        };
+    }
 
     // Actual ROWID (or basically any values in the committed row) may be changed by the trigger, but it's practically impossible to find out
     // which columns were changed and in what way. For now the approach is to have the user refresh data if he's aware of such triggers
@@ -119,7 +153,7 @@ bool SqlViewModel::commitEditedRowAllColumnsByTrigger(const QList<SqlQueryItem*>
     return true;
 }
 
-bool SqlViewModel::commitEditedRowByTrigger(const QList<SqlQueryItem*>& items, const QStringList& trigColumns, QList<SqlQueryItem*>& itemsLeft)
+bool SqlViewModel::commitEditedRowByTrigger(const QList<SqlQueryItem*>& items, const QStringList& trigColumns, QList<SqlQueryItem*>& itemsLeft, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
 {
     QList<SqlQueryItem*> itemsToCommit;
     for (SqlQueryItem* item : items)
@@ -129,11 +163,61 @@ bool SqlViewModel::commitEditedRowByTrigger(const QList<SqlQueryItem*>& items, c
         else
            itemsLeft << item;
     }
-    return commitEditedRowAllColumnsByTrigger(itemsToCommit);
+    return commitEditedRowAllColumnsByTrigger(itemsToCommit, successfulCommitHandlers);
+}
+
+bool SqlViewModel::commitAddedRowPostprocess(const QList<SqlQueryItem*>& itemsInRow, const QList<QVariant>& rowValues, const RowId& insertRowId, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
+{
+    Q_UNUSED(itemsInRow);
+    Q_UNUSED(rowValues);
+    Q_UNUSED(insertRowId);
+    Q_UNUSED(successfulCommitHandlers);
+    return true;
+}
+
+bool SqlViewModel::commitDeletedRowPostprocess(const QList<SqlQueryItem*>& itemsInRow, int deletedRowCount, QList<CommitSuccessfulHandler>& successfulCommitHandlers)
+{
+    Q_UNUSED(itemsInRow);
+    Q_UNUSED(successfulCommitHandlers);
+
+    if (deletedRowCount > 1)
+    {
+        int rowIdx = itemsInRow.first()->row();
+        successfulCommitHandlers << [rowIdx, deletedRowCount]()
+        {
+            notifyWarn(tr("Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.")
+                       .arg(QString::number(rowIdx + 1), QString::number(deletedRowCount)));
+        };
+    }
+    return true;
+}
+
+RowId SqlViewModel::getRowIdForRow(const QList<SqlQueryItem*>& itemsInRow)
+{
+    QList<SqlQueryItem*> rowAllItems = getRow(itemsInRow.first()->row());
+    RowId rowId;
+    for (SqlQueryItem* item : rowAllItems)
+        rowId[item->getColumn()->displayName] = item->isUncommitted() ? item->getOldValue() : item->getValue();
+
+    return rowId;
+}
+
+void SqlViewModel::scheduleInsteadOfTriggerInfoMsg(QList<CommitSuccessfulHandler>& successfulCommitHandlers)
+{
+    printInsteadOfTriggerInfo = true;
+    successfulCommitHandlers << [this]()
+    {
+        if (!printInsteadOfTriggerInfo)
+            return;
+
+        notifyInfo(tr("The view has INSTEAD OF trigger(s) that handle editing. It's recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way."));
+        printInsteadOfTriggerInfo = false;
+    };
 }
 
 void SqlViewModel::reviewEditingByTrigger(bool executionSuccessful)
 {
+    cachedFeatures = FILTERING;
     if (!executionSuccessful)
         return;
 
@@ -142,28 +226,43 @@ void SqlViewModel::reviewEditingByTrigger(bool executionSuccessful)
     if (triggers.isEmpty())
         return;
 
-    bool hasInsteadOfTrigger = false;
     for (const SqliteCreateTriggerPtr& trigger : triggers)
     {
         if (trigger->eventTime != SqliteCreateTrigger::Time::INSTEAD_OF || !trigger->event)
             continue;
 
-        if (trigger->event->type == SqliteCreateTrigger::Event::UPDATE)
+        switch (trigger->event->type)
         {
-            for (SqlQueryModelColumnPtr& col : columns)
-                col->hasInsteadOfTrigger = true;
-
-            return;
-        }
-
-        if (trigger->event->type == SqliteCreateTrigger::Event::UPDATE_OF)
-        {
-            for (SqlQueryModelColumnPtr& col : columns)
+            case SqliteCreateTrigger::Event::UPDATE:
             {
-                if (trigger->event->columnNames.contains(col->column, Qt::CaseInsensitive))
+                for (SqlQueryModelColumnPtr& col : columns)
                     col->hasInsteadOfTrigger = true;
+
+                break;
             }
+            case SqliteCreateTrigger::Event::UPDATE_OF:
+            {
+                for (SqlQueryModelColumnPtr& col : columns)
+                {
+                    if (trigger->event->columnNames.contains(col->column, Qt::CaseInsensitive))
+                        col->hasInsteadOfTrigger = true;
+                }
+                break;
+            }
+            case SqliteCreateTrigger::Event::DELETE:
+                cachedFeatures |= DELETE_ROW;
+                break;
+            case SqliteCreateTrigger::Event::INSERT:
+                cachedFeatures |= INSERT_ROW;
+                break;
+            case SqliteCreateTrigger::Event::null:
+                break;
         }
     }
-
 }
+
+SqlQueryModel::Features SqlViewModel::features() const
+{
+    return cachedFeatures;
+}
+

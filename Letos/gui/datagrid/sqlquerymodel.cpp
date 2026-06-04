@@ -509,7 +509,7 @@ void SqlQueryModel::refreshGeneratedColumns(const QList<SqlQueryItem*>& items, Q
             continue;
 
         builder.setDatabase(wrapObjIfNeeded(table.getDatabase()));
-        builder.setTable(wrapObjIfNeeded(table.getTable()));
+        builder.setTableOrView(wrapObjIfNeeded(table.getTable()));
 
         QHash<RowId, QSet<SqlQueryItem*>> itemsPerRowId;
         for (SqlQueryItem* item : itemsIt.value())
@@ -538,7 +538,7 @@ QHash<SqlQueryItem*, QVariant> SqlQueryModel::readCellValues(SelectCellsQueryBui
     // Handling error
     if (results->isError())
     {
-        qCritical() << "Could not load cell values for table" << queryBuilder.getTable() << ", so defaulting them with NULL. Error from database was:"
+        qCritical() << "Could not load cell values for table" << queryBuilder.getTableOrView() << ", so defaulting them with NULL. Error from database was:"
                     << results->getErrorText();
 
         for (SqlQueryItem* item : concatSet(itemsPerRowId.values()))
@@ -549,7 +549,7 @@ QHash<SqlQueryItem*, QVariant> SqlQueryModel::readCellValues(SelectCellsQueryBui
 
     if (!results->hasNext())
     {
-        qCritical() << "Could not load cell values for table" << queryBuilder.getTable() << ", so defaulting them with NULL. There were no result rows.";
+        qCritical() << "Could not load cell values for table" << queryBuilder.getTableOrView() << ", so defaulting them with NULL. There were no result rows.";
 
         for (SqlQueryItem* item : concatSet(itemsPerRowId.values()))
             values[item] = QVariant();
@@ -563,7 +563,7 @@ QHash<SqlQueryItem*, QVariant> SqlQueryModel::readCellValues(SelectCellsQueryBui
         SqlResultsRowPtr row = results->next();
         if (row->valueList().size() != queryBuilder.getColumnCount())
         {
-            qCritical() << "Could not load cell values for table" << queryBuilder.getTable() << ", so defaulting them with NULL. Number of columns from results was invalid:"
+            qCritical() << "Could not load cell values for table" << queryBuilder.getTableOrView() << ", so defaulting them with NULL. Number of columns from results was invalid:"
                         << row->valueList().size() << ", while expected:" << queryBuilder.getColumnCount();
 
             for (SqlQueryItem* item : concatSet(itemsPerRowId.values()))
@@ -880,7 +880,7 @@ bool SqlQueryModel::commitEditedRow(const QList<SqlQueryItem*>& itemsInRow, QLis
         queryBuilder.setRowId(rowId);
 
         // Database and table
-        queryBuilder.setTable(wrapObjIfNeeded(table.getTable()));
+        queryBuilder.setTableOrView(wrapObjIfNeeded(table.getTable()));
         if (!table.getDatabase().isNull())
         {
             QString tableDb = getDatabaseForCommit(table.getDatabase());
@@ -2228,7 +2228,7 @@ bool SqlQueryModel::isExecutionInProgress() const
 void SqlQueryModel::CommitUpdateQueryBuilder::clear()
 {
     database.clear();
-    table.clear();
+    tableOrView.clear();
     columns.clear();
     queryArgs.clear();
     conditions.clear();
@@ -2240,9 +2240,9 @@ void SqlQueryModel::CommitUpdateQueryBuilder::setDatabase(const QString& databas
     this->database = database;
 }
 
-void SqlQueryModel::CommitUpdateQueryBuilder::setTable(const QString& table)
+void SqlQueryModel::CommitUpdateQueryBuilder::setTableOrView(const QString& tableOrView)
 {
-    this->table = table;
+    this->tableOrView = tableOrView;
 }
 
 void SqlQueryModel::CommitUpdateQueryBuilder::setColumn(const QString& column)
@@ -2279,7 +2279,7 @@ QString SqlQueryModel::CommitUpdateQueryBuilder::build()
     if (!database.isNull())
         dbAndTable += database + ".";
 
-    dbAndTable += table;
+    dbAndTable += tableOrView;
 
     int argIndex = 0;
     QString arg;
@@ -2337,7 +2337,7 @@ QString SqlQueryModel::SelectCellsQueryBuilder::build()
     if (!database.isNull())
         dbAndTable += database + ".";
 
-    dbAndTable += table;
+    dbAndTable += tableOrView;
 
     QStringList selectColumns;
     for (const QString& col : columns)
@@ -2364,7 +2364,7 @@ QString SqlQueryModel::SelectCellsQueryBuilder::build()
 void SqlQueryModel::SelectCellsQueryBuilder::clear()
 {
     database = QString();
-    table = QString();
+    tableOrView = QString();
     rowIdColumns.clear();
     columns.clear();
     conditions.clear();
@@ -2378,9 +2378,9 @@ void SqlQueryModel::SelectCellsQueryBuilder::setDatabase(const QString& database
     this->database = database;
 }
 
-void SqlQueryModel::SelectCellsQueryBuilder::setTable(const QString& table)
+void SqlQueryModel::SelectCellsQueryBuilder::setTableOrView(const QString& tableOrView)
 {
-    this->table = table;
+    this->tableOrView = tableOrView;
 }
 
 void SqlQueryModel::SelectCellsQueryBuilder::addColumn(const QString& column)
@@ -2402,9 +2402,9 @@ int SqlQueryModel::SelectCellsQueryBuilder::getColumnCount() const
     return columns.size();
 }
 
-QString SqlQueryModel::SelectCellsQueryBuilder::getTable() const
+QString SqlQueryModel::SelectCellsQueryBuilder::getTableOrView() const
 {
-    return table;
+    return tableOrView;
 }
 
 QString SqlQueryModel::SelectCellsQueryBuilder::getDatabase() const

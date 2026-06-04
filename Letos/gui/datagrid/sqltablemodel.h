@@ -21,29 +21,16 @@ class GUI_API_EXPORT SqlTableModel : public SqlDataSourceQueryModel
         bool supportsModifyingQueriesInMenu() const;
 
     protected:
-        bool commitAddedRow(const QList<SqlQueryItem*>& itemsInRow, QList<CommitSuccessfulHandler>& successfulCommitHandlers);
-        bool commitDeletedRow(const QList<SqlQueryItem*>& itemsInRow, QList<CommitSuccessfulHandler>& successfulCommitHandlers);
+        bool commitAddedRowPostprocess(const QList<SqlQueryItem*>& itemsInRow, const QList<QVariant>& rowValues, const RowId& insertRowId,
+                                       QList<SqlQueryModel::CommitSuccessfulHandler>& successfulCommitHandlers);
+        bool commitDeletedRowPostprocess(const QList<SqlQueryItem*>& itemsInRow, int deletedRowCount,
+                                         QList<CommitSuccessfulHandler>& successfulCommitHandlers);
+        RowId getRowIdForRow(const QList<SqlQueryItem*>& itemsInRow);
 
         QString getDataSource();
+        QString getTableOrView();
 
     private:
-        class CommitDeleteQueryBuilder : public CommitUpdateQueryBuilder
-        {
-            public:
-                QString build();
-        };
-
-        class SelectColumnsQueryBuilder : public CommitUpdateQueryBuilder
-        {
-            public:
-                QString build();
-                void addColumn(const QString& col);
-        };
-
-        void prepareColumnsAndBindParams(const QList<SqlQueryItem*>& itemsInRow,
-                                    QStringList& colNameList, QStringList& sqlValues, QList<QVariant>& args);
-        QString getInsertSql(QStringList& colNameList, QStringList& sqlValues);
-
         QString table;
         bool isWithOutRowIdTable = false;
 };

@@ -60,6 +60,7 @@ void DataView::init(SqlQueryModel* model)
     initActions();
     initUpdates();
     initSlots();
+    updateInsertDeleteActionsVisibility();
     updateSelectionSum();
     updateTabsMode();
     updatePageEdit();
@@ -234,24 +235,20 @@ void DataView::initWidgetCover()
 
 void DataView::createActions()
 {
-    bool rowInserting = model->features().testFlag(SqlQueryModel::INSERT_ROW);
-    bool rowDeleting = model->features().testFlag(SqlQueryModel::DELETE_ROW);
-
     // Grid actions
     createAction(FIND_IN_DATA, ICONS.SEARCH, tr("Find in data", "data view"), this, SLOT(findInData()), gridView);
     createAction(REFRESH_DATA, ICONS.RELOAD, tr("Refresh table data", "data view"), this, SLOT(refreshData()), gridToolBar, gridView);
     gridToolBar->addSeparator();
-    if (rowInserting)
-    {
-        gridToolBar->addAction(gridView->getAction(SqlQueryView::INSERT_ROW));
-        attachActionInMenu(gridView->getAction(SqlQueryView::INSERT_ROW), gridView->getAction(SqlQueryView::INSERT_MULTIPLE_ROWS), gridToolBar);
-        addSeparatorInMenu(gridView->getAction(SqlQueryView::INSERT_ROW), gridToolBar);
-        for (Action act : {INSERT_ROW_BEFORE, INSERT_ROW_AFTER, INSERT_ROW_AT_END})
-            attachActionInMenu(gridView->getAction(SqlQueryView::INSERT_ROW), staticActions[act], gridToolBar);
-    }
 
-    if (rowDeleting)
-        gridToolBar->addAction(gridView->getAction(SqlQueryView::DELETE_ROW));
+    gridToolBar->addAction(gridView->getAction(SqlQueryView::INSERT_ROW));
+    gridInsertActions << gridView->getAction(SqlQueryView::INSERT_ROW);
+    attachActionInMenu(gridView->getAction(SqlQueryView::INSERT_ROW), gridView->getAction(SqlQueryView::INSERT_MULTIPLE_ROWS), gridToolBar);
+    addSeparatorInMenu(gridView->getAction(SqlQueryView::INSERT_ROW), gridToolBar);
+    for (Action act : {INSERT_ROW_BEFORE, INSERT_ROW_AFTER, INSERT_ROW_AT_END})
+        attachActionInMenu(gridView->getAction(SqlQueryView::INSERT_ROW), staticActions[act], gridToolBar);
+
+    gridToolBar->addAction(gridView->getAction(SqlQueryView::DELETE_ROW));
+    gridDeleteActions << gridView->getAction(SqlQueryView::DELETE_ROW);
 
     gridToolBar->addAction(gridView->getAction(SqlQueryView::COMMIT));
     gridToolBar->addAction(gridView->getAction(SqlQueryView::ROLLBACK));
@@ -282,14 +279,13 @@ void DataView::createActions()
     connect(gridView, SIGNAL(requestForRowDelete()), this, SLOT(deleteRow()));
 
     // Form view actions
-    if (rowInserting)
-        formToolBar->addAction(formView->getAction(FormView::INSERT_ROW));
+    formToolBar->addAction(formView->getAction(FormView::INSERT_ROW));
+    formInsertActions << formView->getAction(FormView::INSERT_ROW);
 
-    if (rowDeleting)
-        formToolBar->addAction(formView->getAction(FormView::DELETE_ROW));
+    formToolBar->addAction(formView->getAction(FormView::DELETE_ROW));
+    formDeleteActions << formView->getAction(FormView::DELETE_ROW);
 
-    if (rowInserting || rowDeleting)
-        formToolBar->addSeparator();
+    formInsertDeleteSepAction = formToolBar->addSeparator();
 
     formToolBar->addAction(formView->getAction(FormView::COMMIT));
     formToolBar->addAction(formView->getAction(FormView::ROLLBACK));
@@ -1021,6 +1017,7 @@ void DataView::dataLoadingEnded(bool successful)
 {
     if (successful)
     {
+        updateInsertDeleteActionsVisibility();
         updatePageEdit();
         gridView->refreshColumnDelegates();
         resizeColumnsInitiallyToContents();
@@ -1028,6 +1025,7 @@ void DataView::dataLoadingEnded(bool successful)
         recreateFilterInputs();
     }
 
+    updateInsertDeleteActionsVisibility();
     setNavigationState(true);
 }
 
@@ -1077,6 +1075,20 @@ void DataView::rollback()
 
     if (uncommittedGrid)
         rollbackGrid();
+}
+
+void DataView::updateInsertDeleteActionsVisibility()
+{
+    bool rowInserting = model->features().testFlag(SqlQueryModel::INSERT_ROW);
+    bool rowDeleting = model->features().testFlag(SqlQueryModel::DELETE_ROW);
+
+    for (QAction* action : (gridInsertActions + formInsertActions))
+        action->setVisible(rowInserting);
+
+    for (QAction* action : (gridDeleteActions + formDeleteActions))
+        action->setVisible(rowDeleting);
+
+    formInsertDeleteSepAction->setVisible(rowInserting || rowDeleting);
 }
 
 void DataView::insertRow()

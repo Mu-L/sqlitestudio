@@ -171,6 +171,7 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
         void createFilteringActions();
         void setActionIcon(QAction *action, const QIcon &icon, QToolBar *toolbar);
         void filterModeSelected(QAction *action);
+        void updateInsertDeleteActionsVisibility();
 
         static TabsPosition tabsPosition;
         static QHash<Action,QAction*> staticActions;
@@ -209,6 +210,11 @@ class GUI_API_EXPORT DataView : public QTabWidget, public ExtActionContainer
         QWidget* filterLeftSpacer = nullptr;
         QWidget* filterRightSpacer = nullptr;
         int initialDefaultRowHeight = -1;
+        QList<QAction*> gridInsertActions;
+        QList<QAction*> gridDeleteActions;
+        QList<QAction*> formInsertActions;
+        QList<QAction*> formDeleteActions;
+        QAction* formInsertDeleteSepAction = nullptr;
 
     signals:
         void commitStatusChanged(bool uncommitted);

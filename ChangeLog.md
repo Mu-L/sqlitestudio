@@ -47,6 +47,7 @@
 - ADDED: #5290 Execute From File Dialog now supports 3 execution modes, allowing SQLite CLI dot commands in the executed file.
 - ADDED: #4873 Execute From File Dialog remembers its settings for another use.
 - ADDED: #4225 Foreign Key constraint configuration dialogs now warns about using foreign column that is neither PRIMARY KEY nor UNIQUE.
+- ADDED: #3035 The INSTEAD OF triggers on Views are now honored when present. Add/Delete row in the View Window now appears if respective INSTEAD OF trigger is present for the View.
 - ADDED: #5085 Added 'Cut' entry to context menu of data Grid View.
 - ADDED: #4709 Added option in configuration to sort data by single-click on a header. Ehnanced data header tooltips to include this information there.
 - ADDED: #3566 Added option in configuration to make the Enter key move to the next row, if it was used to finish data editing in Grid View. The option is also available from the Grid's context menu.

@@ -219,7 +219,7 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
                 void clear();
 
                 void setDatabase(const QString& database);
-                void setTable(const QString& table);
+                void setTableOrView(const QString& tableOrView);
                 void setColumn(const QString& column);
                 void addColumn(const QString& column);
                 void addReturning();
@@ -230,7 +230,7 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
 
             protected:
                 QString database;
-                QString table;
+                QString tableOrView;
                 QStringList columns;
                 QStringList assignmentArgs;
                 bool returning = false;
@@ -244,9 +244,9 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
                 QString build();
                 void clear();
                 void setDatabase(const QString& database);
-                void setTable(const QString& table);
+                void setTableOrView(const QString& tableOrView);
                 QString getDatabase() const;
-                QString getTable() const;
+                QString getTableOrView() const;
                 void addColumn(const QString& column);
                 RowId readRowId(SqlResultsRowPtr row) const;
                 int getColumnCount() const;
@@ -254,7 +254,7 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
             protected:
                 QSet<QString> rowIdColumns;
                 QString database;
-                QString table;
+                QString tableOrView;
                 QSet<QString> columns;
                 QSet<RowId> includedRowIds;
                 int argSquence = 0;
