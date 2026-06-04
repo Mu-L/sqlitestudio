@@ -5735,34 +5735,34 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="461"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="505"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="523"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="559"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
         <source>on conflict: %1</source>
         <comment>data view tooltip</comment>
         <translation>Pri konflikte: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="487"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
         <source>references table %1</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">references table %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="489"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
         <source>references table %1, column %2</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">references table %1, column %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="556"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
         <source>condition: %1</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">condition: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="576"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
         <source>collation name: %1</source>
         <comment>data view tooltip</comment>
         <translation>Názov porovnánavania: %1</translation>
@@ -7445,6 +7445,19 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
         <location filename="../datagrid/sqltablemodel.cpp" line="142"/>
         <source>Error while deleting row from table %1: %2</source>
         <translation>Vyskytla sa chyba počas mazania riadka z tabuľky %1: %2</translation>
+    </message>
+</context>
+<context>
+    <name>SqlViewModel</name>
+    <message>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="98"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+    </message>
+    <message>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="109"/>
+        <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
