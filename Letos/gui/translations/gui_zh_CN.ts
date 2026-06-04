@@ -3566,84 +3566,84 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>joirnal_mode 将切换回 %1。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="879"/>
+        <location filename="../windows/editorwindow.cpp" line="883"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>查询用时 %1 秒。影响行数：%2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="883"/>
+        <location filename="../windows/editorwindow.cpp" line="887"/>
         <source>Query finished in %1 second(s).</source>
         <translation>查询用时 %1 秒。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1014"/>
+        <location filename="../windows/editorwindow.cpp" line="1018"/>
         <source>Clear execution history</source>
         <translation>清除执行历史</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1014"/>
+        <location filename="../windows/editorwindow.cpp" line="1018"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>确定要删除全部的 SQL 执行历史吗？删除后不能恢复。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1052"/>
+        <location filename="../windows/editorwindow.cpp" line="1056"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>无法导出，没有加载导出插件。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1080"/>
+        <location filename="../windows/editorwindow.cpp" line="1084"/>
         <source>Query auto-commit is now enabled.</source>
         <translation>查询自动提交功能已启用。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1082"/>
+        <location filename="../windows/editorwindow.cpp" line="1086"/>
         <source>Query auto-commit is now disabled.</source>
         <translation>查询自动提交功能现已禁用。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1122"/>
-        <location filename="../windows/editorwindow.cpp" line="1126"/>
+        <location filename="../windows/editorwindow.cpp" line="1137"/>
+        <location filename="../windows/editorwindow.cpp" line="1141"/>
         <source>Apply changes to the transaction</source>
         <translation>对交易进行更改</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1123"/>
-        <location filename="../windows/editorwindow.cpp" line="1127"/>
+        <location filename="../windows/editorwindow.cpp" line="1138"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Discard changes in data view</source>
         <translation>放弃数据视图中的更改</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1124"/>
+        <location filename="../windows/editorwindow.cpp" line="1139"/>
         <source>Apply selected changes to the transaction</source>
         <translation>将选定的更改应用于交易</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1125"/>
+        <location filename="../windows/editorwindow.cpp" line="1140"/>
         <source>Discard changes in selected cells</source>
         <translation>放弃对所选单元格的更改</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1166"/>
+        <location filename="../windows/editorwindow.cpp" line="1181"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-        <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
+        <translation>在等待手动交易时无法更改数据库。请在更改数据库之前提交或回滚交易。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1205"/>
+        <location filename="../windows/editorwindow.cpp" line="1221"/>
         <source>Manual transaction committed successfully.</source>
-        <translation type="unfinished">Manual transaction committed successfully.</translation>
+        <translation>手动提交交易成功。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1250"/>
         <source>Manual transaction rolled back.</source>
-        <translation type="unfinished">Manual transaction rolled back.</translation>
+        <translation>手动回滚交易。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1277"/>
+        <location filename="../windows/editorwindow.cpp" line="1293"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>没有在 SQL 编辑器中选中数据库。无法为未知的数据库创建视图。</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1327"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>编辑器窗口“%1”内有未提交的数据。</translation>
     </message>
@@ -5184,7 +5184,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
         <source>and use auto-commits</source>
-        <translation type="unfinished">and use auto-commits</translation>
+        <translation>并使用自动提交</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
@@ -7081,122 +7081,122 @@ find next</source>
 <context>
     <name>SqlQueryModel</name>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="88"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="718"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>只允许同时执行一条查询。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="105"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation>无法执行语句，因为数据库无效或未定义。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="112"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
         <source>Cannot execute empty query.</source>
         <translation>无法执行空的查询。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="120"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
         <source>Uncommitted data</source>
         <translation>未提交的数据</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="121"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>存在未提交的数据更改。是否仍要继续？所有未提交的更改都将丢失。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="593"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation>无法从单元格中加载数据，因为它引用了已经被关闭的数据库。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="613"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>无法在此数据库上开始事务。详细信息：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="646"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>在提交事务时发生错误：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="679"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>在回滚事务时发生错误：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="891"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>尝试提交不可编辑的单元格！（本应该无法编辑）这是一个错误，请报告。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="917"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>在提交数据时发生错误：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1051"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>数据视图中，已因列数（%2）将每页行数减小（%1）。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1460"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1476"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1525"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>在数据库“%1”执行 SQL 查询时发生错误：%2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1522"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
         <source>Error while loading query results: %1</source>
         <translation>在加载查询结果时出错：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1689"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>新查询中的列较少，排序顺序已重置。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Insert multiple rows</source>
         <translation>插入多行</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Number of rows to insert:</source>
         <translation>要插入的行数：</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2073"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2078"/>
         <source>Delete rows</source>
         <translation>删除行</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2074"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>您即将删除未提交的新插入的行。行数：%1
 删除不能撤销，确定删除吗？</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2201"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2206"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>单击按列排序。&lt;br&gt;按住 Alt 键并单击选择列中的数据。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2203"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>单击选中该列中的数据。&lt;br&gt;双击按该列排序。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2213"/>
         <source>Middle-click resets sorting.</source>
         <translation>单击鼠标中键可重置排序。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>More options are available in the context menu.</source>
         <translation>上下文菜单中提供了更多选项。</translation>
     </message>
