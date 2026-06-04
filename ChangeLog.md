@@ -49,6 +49,7 @@
 - ADDED: #4225 Foreign Key constraint configuration dialogs now warns about using foreign column that is neither PRIMARY KEY nor UNIQUE.
 - ADDED: #3035 The INSTEAD OF triggers on Views are now honored when present. Add/Delete row in the View Window now appears if respective INSTEAD OF trigger is present for the View.
 - ADDED: #5085 Added 'Cut' entry to context menu of data Grid View.
+- ADDED: #5684 Added debug(msg) SQL function to print messages to Status Field, for example from TRIGGER body.
 - ADDED: #4709 Added option in configuration to sort data by single-click on a header. Ehnanced data header tooltips to include this information there.
 - ADDED: #3566 Added option in configuration to make the Enter key move to the next row, if it was used to finish data editing in Grid View. The option is also available from the Grid's context menu.
 - CHANGE: #5441 Project has been renamed to Letos. Together with the name, also domain/homepage has changed to letos.org.

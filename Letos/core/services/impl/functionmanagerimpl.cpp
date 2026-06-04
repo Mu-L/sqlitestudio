@@ -294,6 +294,7 @@ void FunctionManagerImpl::init()
 
 void FunctionManagerImpl::initNativeFunctions()
 {
+    registerNativeFunction("debug", {"msg"}, FunctionManagerImpl::nativeDebug);
     registerNativeFunction("regexp", {"pattern", "arg"}, FunctionManagerImpl::nativeRegExp);
     registerNativeFunction("sqlfile", {"file"}, FunctionManagerImpl::nativeSqlFile);
     registerNativeFunction("readfile", {"file"}, FunctionManagerImpl::nativeReadFile);
@@ -406,6 +407,19 @@ QString FunctionManagerImpl::langUnsupportedError(const QString& name, int argCo
     QStringList argMarkers = getArgMarkers(argCount);
     return tr("Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.")
             .arg(name, argMarkers.join(","), lang);
+}
+
+QVariant FunctionManagerImpl::nativeDebug(const QList<QVariant>& args, Db* db, bool& ok)
+{
+    Q_UNUSED(db);
+    Q_UNUSED(ok);
+
+    QStringList parts = {"DEBUG:"};
+    for (const QVariant& arg : args)
+        parts << arg.toString();
+
+    notifyInfo(parts.join(" "));
+    return QVariant();
 }
 
 QVariant FunctionManagerImpl::nativeRegExp(const QList<QVariant>& args, Db* db, bool& ok)

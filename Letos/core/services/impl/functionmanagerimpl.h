@@ -74,6 +74,7 @@ class API_EXPORT FunctionManagerImpl : public FunctionManager
                                               QHash<QString, QVariant>& aggregateStorage, bool doReleaseContext);
 
         static QStringList getArgMarkers(int argCount);
+        static QVariant nativeDebug(const QList<QVariant>& args, Db* db, bool& ok);
         static QVariant nativeRegExp(const QList<QVariant>& args, Db* db, bool& ok);
         static QVariant nativeSqlFile(const QList<QVariant>& args, Db* db, bool& ok);
         static QVariant nativeReadFile(const QList<QVariant>& args, Db* db, bool& ok);
