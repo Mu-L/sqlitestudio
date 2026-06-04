@@ -29,6 +29,7 @@ class GUI_API_EXPORT ImportDialog : public QWizard
         void setDbAndTable(Db* db, const QString& table);
         void setDb(Db* db);
         void setFilePath(const QString& path);
+        void setPreferTableOverFileName(bool preferTable);
 
     protected:
         void showEvent(QShowEvent* e);
@@ -54,6 +55,7 @@ class GUI_API_EXPORT ImportDialog : public QWizard
         ImportPlugin* currentPlugin = nullptr;
         QHash<CfgEntry*,bool> pluginConfigOk;
         WidgetCover* widgetCover = nullptr;
+        bool preferTable = false;
 
     private slots:
         void handleValidationResultFromPlugin(bool valid, CfgEntry* key, const QString& errorMsg);

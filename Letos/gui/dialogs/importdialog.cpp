@@ -67,6 +67,11 @@ void ImportDialog::setFilePath(const QString& path)
     ui->inputFileEdit->setText(path);
 }
 
+void ImportDialog::setPreferTableOverFileName(bool preferTable)
+{
+    this->preferTable = preferTable;
+}
+
 bool ImportDialog::isPluginConfigValid() const
 {
     return pluginConfigOk.size() == 0;
@@ -304,6 +309,9 @@ void ImportDialog::updatePluginOptions(int& rows)
 
 void ImportDialog::updateTableByDataSource()
 {
+    if (preferTable)
+        return;
+
     QFileInfo fi(ui->inputFileEdit->text());
     QString table = fi.baseName();
     if (!table.isNull())

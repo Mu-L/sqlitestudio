@@ -1399,6 +1399,7 @@ void TableWindow::importTable()
 
     ImportDialog dialog(this);
     dialog.setDbAndTable(db, table);
+    dialog.setPreferTableOverFileName(true);
     if (dialog.exec() == QDialog::Accepted && dataLoaded)
         ui->dataView->refreshData(false);
 }
