@@ -239,8 +239,10 @@ void TableWindow::createStructureActions()
     createAction(MOVE_COLUMN_UP, ICONS.MOVE_UP, tr("Move column up", "table window"), this, SLOT(moveColumnUp()), ui->structureToolBar, ui->structureView);
     createAction(MOVE_COLUMN_DOWN, ICONS.MOVE_DOWN, tr("Move column down", "table window"), this, SLOT(moveColumnDown()), ui->structureToolBar, ui->structureView);
     separatorAfterAction[MOVE_COLUMN_DOWN] = ui->structureToolBar->addSeparator();
+    createAction(IMPORT, ICONS.TABLE_IMPORT, tr("Import data to the table", "table window"), this, SLOT(importTable()), ui->structureToolBar, ui->structureView);
     createAction(EXPORT, ICONS.TABLE_EXPORT, tr("Export table", "table window"), this, SLOT(exportTable()), ui->structureToolBar, ui->structureView);
-    separatorAfterAction[IMPORT] = ui->structureToolBar->addSeparator();
+    createAction(POPULATE, ICONS.TABLE_POPULATE, tr("Populate table", "table window"), this, SLOT(populateTable()), ui->structureToolBar, ui->structureView);
+    separatorAfterAction[POPULATE] = ui->structureToolBar->addSeparator();
     createAction(CREATE_SIMILAR, ICONS.TABLE_CREATE_SIMILAR, tr("Create similar table", "table window"), this, SLOT(createSimilarTable()), ui->structureToolBar);
     createAction(RESET_AUTOINCREMENT, ICONS.RESET_AUTOINCREMENT, tr("Reset autoincrement value", "table window"), this, SLOT(resetAutoincrement()), ui->structureToolBar);
 
@@ -259,9 +261,6 @@ void TableWindow::createStructureActions()
 
 void TableWindow::createDataGridActions()
 {
-    createAction(IMPORT, ICONS.TABLE_IMPORT, tr("Import data to the table", "table window"), this, SLOT(importTable()), this);
-    createAction(POPULATE, ICONS.TABLE_POPULATE, tr("Populate table", "table window"), this, SLOT(populateTable()), this);
-
     QAction* before = ui->dataView->getAction(DataView::FILTER_VALUE);
     ui->dataView->getToolBar(DataView::TOOLBAR_GRID)->insertAction(before, actionMap[IMPORT]);
     ui->dataView->getToolBar(DataView::TOOLBAR_GRID)->insertAction(before, actionMap[EXPORT]);
