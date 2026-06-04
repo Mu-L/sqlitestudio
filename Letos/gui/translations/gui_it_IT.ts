@@ -7452,12 +7452,12 @@ Tale cancellazione sarà permanente. Sei sicuro di volerle cancellare?</translat
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="98"/>
         <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">Si è verificato un errore durante il commit dei dati: %1</translation>
+        <translation>Si è verificato un errore durante il commit dei dati: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="109"/>
         <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
     </message>
 </context>
 <context>

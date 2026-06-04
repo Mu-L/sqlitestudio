@@ -7450,12 +7450,12 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="98"/>
         <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">При подтверждении данных произошла ошибка: %1</translation>
+        <translation>При подтверждении данных произошла ошибка: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="109"/>
         <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
     </message>
 </context>
 <context>

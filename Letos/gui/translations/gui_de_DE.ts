@@ -7455,7 +7455,7 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="109"/>
         <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
     </message>
 </context>
 <context>

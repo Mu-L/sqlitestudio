@@ -3566,84 +3566,84 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="879"/>
+        <location filename="../windows/editorwindow.cpp" line="883"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Consulta finalizada en %1 segundo(s). Filas afectadas: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="883"/>
+        <location filename="../windows/editorwindow.cpp" line="887"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Consulta finalizada en %1 segundo(s).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1014"/>
+        <location filename="../windows/editorwindow.cpp" line="1018"/>
         <source>Clear execution history</source>
         <translation>Limpiar historial de ejecución</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1014"/>
+        <location filename="../windows/editorwindow.cpp" line="1018"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>¿Estás seguro de que quieres borrar todo el historial de ejecución SQL? Esto no se puede deshacer.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1052"/>
+        <location filename="../windows/editorwindow.cpp" line="1056"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1080"/>
+        <location filename="../windows/editorwindow.cpp" line="1084"/>
         <source>Query auto-commit is now enabled.</source>
         <translation type="unfinished">Query auto-commit is now enabled.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1082"/>
+        <location filename="../windows/editorwindow.cpp" line="1086"/>
         <source>Query auto-commit is now disabled.</source>
         <translation type="unfinished">Query auto-commit is now disabled.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1122"/>
-        <location filename="../windows/editorwindow.cpp" line="1126"/>
+        <location filename="../windows/editorwindow.cpp" line="1137"/>
+        <location filename="../windows/editorwindow.cpp" line="1141"/>
         <source>Apply changes to the transaction</source>
         <translation type="unfinished">Apply changes to the transaction</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1123"/>
-        <location filename="../windows/editorwindow.cpp" line="1127"/>
+        <location filename="../windows/editorwindow.cpp" line="1138"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Discard changes in data view</source>
         <translation type="unfinished">Discard changes in data view</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1124"/>
+        <location filename="../windows/editorwindow.cpp" line="1139"/>
         <source>Apply selected changes to the transaction</source>
         <translation type="unfinished">Apply selected changes to the transaction</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1125"/>
+        <location filename="../windows/editorwindow.cpp" line="1140"/>
         <source>Discard changes in selected cells</source>
         <translation type="unfinished">Discard changes in selected cells</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1166"/>
+        <location filename="../windows/editorwindow.cpp" line="1181"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1205"/>
+        <location filename="../windows/editorwindow.cpp" line="1221"/>
         <source>Manual transaction committed successfully.</source>
         <translation type="unfinished">Manual transaction committed successfully.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1250"/>
         <source>Manual transaction rolled back.</source>
         <translation type="unfinished">Manual transaction rolled back.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1277"/>
+        <location filename="../windows/editorwindow.cpp" line="1293"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation type="unfinished">No database selected in the SQL editor. Cannot create a view for unknown database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1327"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation type="unfinished">Editor window &quot;%1&quot; has uncommitted data.</translation>
     </message>
@@ -5735,34 +5735,34 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="461"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="505"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="523"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="559"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
         <source>on conflict: %1</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">on conflict: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="487"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
         <source>references table %1</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">references table %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="489"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
         <source>references table %1, column %2</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">references table %1, column %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="556"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
         <source>condition: %1</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">condition: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="576"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
         <source>collation name: %1</source>
         <comment>data view tooltip</comment>
         <translation type="unfinished">collation name: %1</translation>
@@ -7083,122 +7083,122 @@ find next</translation>
 <context>
     <name>SqlQueryModel</name>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="88"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="718"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation type="unfinished">Only one query can be executed simultaneously.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="105"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation type="unfinished">Cannot execute query on undefined or invalid database.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="112"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
         <source>Cannot execute empty query.</source>
         <translation type="unfinished">Cannot execute empty query.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="120"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
         <source>Uncommitted data</source>
         <translation type="unfinished">Uncommitted data</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="121"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>Hay cambios de datos no confirmados. ¿Quieres continuar aun así? Todos los cambios sin confirmar se perderán.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="593"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation type="unfinished">Cannot commit the data for a cell that refers to the already closed database.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="613"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation type="unfinished">Could not begin transaction on the database. Details: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="646"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation type="unfinished">An error occurred while committing the transaction: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="679"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation type="unfinished">An error occurred while rolling back the transaction: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="891"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>¡Intentó confirmar una celda que no es editable (¡ya modificada y esperando la confirmación)! Esto es un bug. Por favor, repórtelo.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="917"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
         <source>An error occurred while committing the data: %1</source>
         <translation type="unfinished">An error occurred while committing the data: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1051"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation type="unfinished">Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1460"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1476"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1525"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation type="unfinished">Error while executing SQL query on database &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1522"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
         <source>Error while loading query results: %1</source>
         <translation type="unfinished">Error while loading query results: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1689"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation type="unfinished">There are less columns in the new query, sort order has been reset.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Insert multiple rows</source>
         <translation>Insertar varias filas</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2018"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Number of rows to insert:</source>
         <translation>Número de filas a insertar:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2073"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2078"/>
         <source>Delete rows</source>
         <translation>Borrar filas</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2074"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation type="unfinished">You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2201"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2206"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2203"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2213"/>
         <source>Middle-click resets sorting.</source>
         <translation type="unfinished">Middle-click resets sorting.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>More options are available in the context menu.</source>
         <translation type="unfinished">More options are available in the context menu.</translation>
     </message>
@@ -7445,6 +7445,19 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
         <location filename="../datagrid/sqltablemodel.cpp" line="142"/>
         <source>Error while deleting row from table %1: %2</source>
         <translation type="unfinished">Error while deleting row from table %1: %2</translation>
+    </message>
+</context>
+<context>
+    <name>SqlViewModel</name>
+    <message>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="98"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+    </message>
+    <message>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="109"/>
+        <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
     </message>
 </context>
 <context>

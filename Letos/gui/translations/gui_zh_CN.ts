@@ -5734,34 +5734,34 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>无法编辑此列，因为它是在另一个多级视图上执行查询的视图结果（即查询另一个视图的视图）。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="461"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="505"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="523"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="559"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
         <source>on conflict: %1</source>
         <comment>data view tooltip</comment>
         <translation>当冲突时：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="487"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
         <source>references table %1</source>
         <comment>data view tooltip</comment>
         <translation>引用表 %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="489"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
         <source>references table %1, column %2</source>
         <comment>data view tooltip</comment>
         <translation>引用表 %1，列 %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="556"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
         <source>condition: %1</source>
         <comment>data view tooltip</comment>
         <translation>字符序：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="576"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
         <source>collation name: %1</source>
         <comment>data view tooltip</comment>
         <translation>字符序名称：%1</translation>
@@ -7443,6 +7443,19 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <location filename="../datagrid/sqltablemodel.cpp" line="142"/>
         <source>Error while deleting row from table %1: %2</source>
         <translation>从表 %1 中删除行时发生错误：%2</translation>
+    </message>
+</context>
+<context>
+    <name>SqlViewModel</name>
+    <message>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="98"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+    </message>
+    <message>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="109"/>
+        <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
     </message>
 </context>
 <context>
