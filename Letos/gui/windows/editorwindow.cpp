@@ -562,6 +562,12 @@ QToolButton* EditorWindow::createSettingsDropdown()
     actionMap[AUTO_COMMIT]->setChecked(CFG_UI.General.SqlEditorAutoCommit.get());
     settingsMenu->addAction(actionMap[AUTO_COMMIT]);
 
+    // Separator
+    settingsMenu->addSeparator();
+
+    // Other options
+    settingsMenu->addAction(ui->sqlEdit->getAction(SqlEditor::WORD_WRAP));
+
     // Toolbar button
     QToolButton* settingsButton = new QToolButton();
     settingsButton->setPopupMode(QToolButton::InstantPopup);

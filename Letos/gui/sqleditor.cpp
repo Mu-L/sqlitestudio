@@ -50,27 +50,8 @@ CFG_KEYS_DEFINE(SqlEditor)
     QPlainTextEdit::dropEvent(e); \
     setReadOnly(false);
 
-QHash<SqlEditor::Action, QAction*> SqlEditor::staticActions;
-bool SqlEditor::wrapWords = false;
-
-void SqlEditor::createStaticActions()
-{
-    staticActions[WORD_WRAP] = new QAction(tr("Wrap words", "sql editor"), MainWindow::getInstance());
-
-    staticActions[WORD_WRAP]->setCheckable(true);
-    staticActions[WORD_WRAP]->setChecked(wrapWords);
-    connect(staticActions[WORD_WRAP], &QAction::toggled, [=](bool value)
-    {
-        wrapWords = value;
-        CFG_UI.General.SqlEditorWrapWords.set(value);
-    });
-}
-
 void SqlEditor::staticInit()
 {
-    wrapWords = CFG_UI.General.SqlEditorWrapWords.get();
-    createStaticActions();
-
     int originalFlashTime = QApplication::cursorFlashTime();
     if (CFG_UI.General.DisableBlinkingCursor.get())
         QApplication::setCursorFlashTime(0);
@@ -106,6 +87,7 @@ void SqlEditor::init()
     initActions();
     setupMenu();
     setMouseTracking(true);
+    wrapWords = CFG_UI.General.SqlEditorWrapWords.get();
 
     objectsInNamedDbWatcher = new QFutureWatcher<AsyncObjectsRefreshResults>(this);
     connect(objectsInNamedDbWatcher, SIGNAL(finished()), this, SLOT(scheduleQueryParserForSchemaRefresh()));
@@ -148,6 +130,7 @@ void SqlEditor::init()
     connect(CFG_UI.Fonts.SqlEditor, SIGNAL(changed(QVariant)), this, SLOT(changeFont(QVariant)));
     connect(CFG, SIGNAL(massSaveCommitted()), this, SLOT(configModified()));
     connect(STYLE, SIGNAL(paletteChanged()), this, SLOT(colorsConfigChanged()));
+    connect(CFG_UI.General.SqlEditorWrapWords, SIGNAL(changed(QVariant)), this, SLOT(wordWrappingChanged(QVariant)));
 }
 
 void SqlEditor::removeErrorMarkers()
@@ -208,7 +191,9 @@ void SqlEditor::createActions()
     connect(this, &QPlainTextEdit::redoAvailable, this, &SqlEditor::updateRedoAction);
     connect(this, &QPlainTextEdit::copyAvailable, this, &SqlEditor::updateCopyAction);
 
-    connect(CFG_UI.General.SqlEditorWrapWords, SIGNAL(changed(QVariant)), this, SLOT(wordWrappingChanged(QVariant)));
+    createAction(WORD_WRAP, tr("Wrap words", "sql editor"), this, SLOT(wordWrappingChanged(bool)), this);
+    actionMap[WORD_WRAP]->setCheckable(true);
+    actionMap[WORD_WRAP]->setChecked(wrapWords);
 }
 
 void SqlEditor::setupDefShortcuts()
@@ -223,7 +208,7 @@ void SqlEditor::setupMenu()
 {
     contextMenu = new QMenu(this);
     contextMenu->addAction(actionMap[FORMAT_SQL]);
-    contextMenu->addAction(staticActions[WORD_WRAP]);
+    contextMenu->addAction(actionMap[WORD_WRAP]);
     contextMenu->addSeparator();
     contextMenu->addAction(actionMap[SAVE_SQL_FILE]);
     contextMenu->addAction(actionMap[OPEN_SQL_FILE]);
@@ -1580,9 +1565,16 @@ void SqlEditor::toggleComment()
     setTextCursor(cur);
 }
 
+void SqlEditor::wordWrappingChanged(bool value)
+{
+    wrapWords = value;
+    actionMap[WORD_WRAP]->setChecked(value);
+    setLineWrapMode(value ? QPlainTextEdit::WidgetWidth : QPlainTextEdit::NoWrap);
+}
+
 void SqlEditor::wordWrappingChanged(const QVariant& value)
 {
-    setLineWrapMode(value.toBool() ? QPlainTextEdit::WidgetWidth : QPlainTextEdit::NoWrap);
+    wordWrappingChanged(value.toBool());
 }
 
 void SqlEditor::currentCursorContextDelayedHighlight()

@@ -95,7 +95,6 @@ class GUI_API_EXPORT SqlEditor : public QPlainTextEdit, public ExtActionContaine
         {
         };
 
-        static void createStaticActions();
         static void staticInit();
         static bool confirmBigFileLoading(const QString& fileName);
 
@@ -130,9 +129,6 @@ class GUI_API_EXPORT SqlEditor : public QPlainTextEdit, public ExtActionContaine
         void setErrorsCheckingEnabled(bool enabled);
         bool getAlwaysEnforceErrorsChecking() const;
         void setAlwaysEnforceErrorsChecking(bool newAlwaysEnforceErrorsChecking);
-
-        static QHash<Action, QAction*> staticActions;
-        static bool wrapWords;
 
         static constexpr int HUGE_QUERY_LENGTH = 10 * 1024 * 1024; // 10MB of SQL
 
@@ -270,6 +266,7 @@ class GUI_API_EXPORT SqlEditor : public QPlainTextEdit, public ExtActionContaine
         bool openSaveActionsEnabled = true;
         QList<QAction*> contextMenuExtraActions;
         QAction* extraActionsSeparator = nullptr;
+        bool wrapWords = false;
 
         /**
          * @brief virtualSqlExpression
@@ -338,6 +335,7 @@ class GUI_API_EXPORT SqlEditor : public QPlainTextEdit, public ExtActionContaine
         void changeFont(const QVariant& font);
         void configModified();
         void toggleComment();
+        void wordWrappingChanged(bool value);
         void wordWrappingChanged(const QVariant& value);
         void currentCursorContextDelayedHighlight();
         void fontSizeChangeRequested(int delta);
