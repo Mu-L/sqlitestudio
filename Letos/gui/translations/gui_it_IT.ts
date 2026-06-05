@@ -3390,14 +3390,6 @@ Inserisci un nuovo nome univoco o premi &apos;%1&apos; per interrompere l&apos;o
         <translation>Cronologia</translation>
     </message>
     <message>
-        <source>Results in the separate tab</source>
-        <translation type="vanished">Risultati nella scheda separata</translation>
-    </message>
-    <message>
-        <source>Results below the query</source>
-        <translation type="vanished">Risultati sotto la query</translation>
-    </message>
-    <message>
         <location filename="../windows/editorwindow.cpp" line="200"/>
         <location filename="../windows/editorwindow.cpp" line="202"/>
         <source>SQL editor %1</source>
@@ -3429,13 +3421,13 @@ Inserisci un nuovo nome univoco o premi &apos;%1&apos; per interrompere l&apos;o
         <location filename="../windows/editorwindow.cpp" line="496"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Focus results on the same tab</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Focus SQL editor on the same tab</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="502"/>
@@ -3488,16 +3480,6 @@ Inserisci un nuovo nome univoco o premi &apos;%1&apos; per interrompere l&apos;o
         <translation>Mostra scheda precedente</translation>
     </message>
     <message>
-        <source>Focus results below</source>
-        <comment>sql editor</comment>
-        <translation type="vanished">Focus risultati sotto</translation>
-    </message>
-    <message>
-        <source>Focus SQL editor above</source>
-        <comment>sql editor</comment>
-        <translation type="vanished">Focus editor SQL sopra</translation>
-    </message>
-    <message>
         <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
@@ -3523,19 +3505,19 @@ Inserisci un nuovo nome univoco o premi &apos;%1&apos; per interrompere l&apos;o
         <location filename="../windows/editorwindow.cpp" line="522"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Results layout: Separate tab</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="523"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Results layout: Below editor</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="524"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Results layout: Right of editor</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="539"/>
@@ -3620,21 +3602,13 @@ Inserisci un nuovo nome univoco o premi &apos;%1&apos; per interrompere l&apos;o
         <location filename="../windows/editorwindow.cpp" line="1163"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Query auto-commit is now enabled in: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1165"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Query auto-commit is now enabled.</source>
-        <translation type="obsolete">Query auto-commit is now enabled.</translation>
-    </message>
-    <message>
-        <source>Query auto-commit is now disabled.</source>
-        <translation type="obsolete">Query auto-commit is now disabled.</translation>
+        <translation type="unfinished">Query auto-commit is now disabled in: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1223"/>
@@ -6826,12 +6800,12 @@ trova il prossimo</translation>
     <message>
         <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
         <source>Error while committing new row: %1</source>
-        <translation type="unfinished">Errore durante il commit della nuova riga: %1</translation>
+        <translation>Errore durante il commit della nuova riga: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
         <source>Error while deleting row from %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Error while deleting row from %1: %2</translation>
     </message>
 </context>
 <context>
@@ -7484,17 +7458,6 @@ Tale cancellazione sarà permanente. Sei sicuro di volerle cancellare?</translat
     </message>
 </context>
 <context>
-    <name>SqlTableModel</name>
-    <message>
-        <source>Error while committing new row: %1</source>
-        <translation type="vanished">Errore durante il commit della nuova riga: %1</translation>
-    </message>
-    <message>
-        <source>Error while deleting row from table %1: %2</source>
-        <translation type="vanished">Errore durante l&apos;eliminazione della riga dalla tabella %1: %2</translation>
-    </message>
-</context>
-<context>
     <name>SqlViewModel</name>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
@@ -7509,12 +7472,12 @@ Tale cancellazione sarà permanente. Sei sicuro di volerle cancellare?</translat
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</translation>
     </message>
 </context>
 <context>
