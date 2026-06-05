@@ -22,7 +22,7 @@
 #include <QSettings>
 #include <QtWidgets/QFileDialog>
 
-const int LETOS_CONFIG_VERSION = 15;
+const int LETOS_CONFIG_VERSION = 16;
 
 static_qstring(DB_FILE_NAME, "settings");
 static_qstring(CONFIG_DIR_SETTING, "LetosConfigDir");
@@ -1379,6 +1379,12 @@ void ConfigImpl::updateConfigDb()
 
                 CFG_CORE.Internal.CodeSnippets.set(snippets);
             }
+            [[fallthrough]];
+        }
+        case 15:
+        {
+            // 15->16
+            db->exec("DELETE FROM settings WHERE [group] = 'Console'");
         }
         // Add cases here for next versions,
         // without a "break" instruction,
