@@ -451,38 +451,38 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
         <translation>Неверное количество аргументов для функции &apos;%1&apos;. Ожидаемое количество: %2, передано: %3.</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="401"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
         <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="407"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
         <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
         <translation>Функция %1(%2) зарегистрирована для языка %3, однако модуль поддержки этого языка на данный момент не загружен.</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="425"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
         <source>Invalid regular expression pattern: %1</source>
         <translation>Неверный шаблон регулярного выражения: %1</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="444"/>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="477"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="491"/>
         <source>Could not open file %1 for reading: %2</source>
         <translation>Невозможно открыть файл %1 для чтения: %2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="499"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="513"/>
         <source>Could not open file %1 for writting: %2</source>
         <translation>Невозможно открыть файл %1 для записи: %2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="519"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="533"/>
         <source>Error while writting to file %1: %2</source>
         <translation>Ошибка при записи в файл %1: %2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="537"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
         <source>Unsupported scripting language: %1</source>
         <translation>Неподдерживаемый скриптовый язык: %1</translation>
     </message>
