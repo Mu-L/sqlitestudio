@@ -46,6 +46,7 @@
 - ADDED: #4539 Added the Open In Editor button to DDL preview dialog.
 - ADDED: #5290 Execute From File Dialog now supports 3 execution modes, allowing SQLite CLI dot commands in the executed file.
 - ADDED: #4873 Execute From File Dialog remembers its settings for another use.
+- ADDED: #5611 Query results in SQL Editor can be arranged on the right side of the query, apart from the options available so far (below query or on separate tab). The layout is saved in the session and restored upon next start.
 - ADDED: #4225 Foreign Key constraint configuration dialogs now warns about using foreign column that is neither PRIMARY KEY nor UNIQUE.
 - ADDED: #3035 The INSTEAD OF triggers on Views are now honored when present. Add/Delete row in the View Window now appears if respective INSTEAD OF trigger is present for the View.
 - ADDED: #5085 Added 'Cut' entry to context menu of data Grid View.

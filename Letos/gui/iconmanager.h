@@ -200,6 +200,7 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICO3(RESTORE_DEFAULT,                   ACT_UNDO)
             DEF_ICON(RESULTS_BELOW,                     "results_below")
             DEF_ICON(RESULTS_IN_TAB,                    "results_in_tab")
+            DEF_ICON(RESULTS_ON_RIGHT,                  "results_on_right")
             DEF_ICON(ROLLBACK,                          "rollback")
             DEF_ICON(SAVE_FILE,                         "save_file")
             DEF_ICO3(SAVE_SQL_FILE,                     SAVE_FILE)

@@ -105,7 +105,6 @@ void EditorWindow::removeAction(ExtActionPrototype* action)
 void EditorWindow::init()
 {
     setFocusProxy(ui->sqlEdit);
-    updateResultsDisplayMode();
 
     THEME_TUNER->manageCompactLayout({
                                          ui->query,
@@ -146,8 +145,25 @@ void EditorWindow::init()
     connect(resultsModel, SIGNAL(executionFailed(QString)), this, SLOT(executionFailed(QString)));
     connect(resultsModel, SIGNAL(storeExecutionInHistory()), this, SLOT(storeExecutionInHistory()));
 
+    connect(ui->bottomResultsSplitter, &QSplitter::splitterMoved, MAINWINDOW, &MainWindow::scheduleSessionSave);
+    connect(ui->rightResultsSplitter, &QSplitter::splitterMoved, MAINWINDOW, &MainWindow::scheduleSessionSave);
+
     for (QAction* extraAct : getNonToolbarExtraActions())
         ui->sqlEdit->addContextMenuExtraAction(extraAct);
+
+    // Results layout
+    QString tabsString = CFG_UI.General.SqlEditorTabs.get();
+    if (tabsString == "SEPARATE_TAB")
+        resultsDisplayMode = ResultsDisplayMode::SEPARATE_TAB;
+    else if (tabsString == "BELOW_QUERY")
+        resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
+    else if (tabsString == "RIGHT_SIDE")
+        resultsDisplayMode = ResultsDisplayMode::RIGHT_SIDE;
+
+    ui->tabWidget->removeTab(1);
+    ui->bottomResultsContainer->hide();
+    ui->rightResultsContainer->hide();
+    updateResultsDisplayMode(true);
 
     // SQL history list
     ui->historyList->setModel(CFG->getSqlHistoryModel());
@@ -274,6 +290,14 @@ QVariant EditorWindow::saveSession()
     if (!loadedFile.isEmpty())
         sessionValue["loadedFile"] = loadedFile;
 
+    sessionValue["resultsDisplayMode"] = static_cast<int>(resultsDisplayMode);
+
+    if (resultsDisplayMode == ResultsDisplayMode::BELOW_QUERY)
+        sessionValue["resBelowSplitter"] = ui->bottomResultsSplitter->saveState();
+
+    if (resultsDisplayMode == ResultsDisplayMode::RIGHT_SIDE)
+        sessionValue["resRightSplitter"] = ui->rightResultsSplitter->saveState();
+
     return sessionValue;
 }
 
@@ -314,6 +338,15 @@ bool EditorWindow::restoreSession(const QVariant& sessionValue)
         ui->dataView->restoreFromSession(dataViewSession);
     }
 
+    if (value.contains("resultsDisplayMode"))
+        setNewResultsDisplayMode(static_cast<ResultsDisplayMode>(value["resultsDisplayMode"].toInt()));
+
+    if (resultsDisplayMode == ResultsDisplayMode::BELOW_QUERY && value.contains("resBelowSplitter"))
+        ui->bottomResultsSplitter->restoreState(value["resBelowSplitter"].toByteArray());
+
+    if (resultsDisplayMode == ResultsDisplayMode::RIGHT_SIDE && value.contains("resRightSplitter"))
+        ui->rightResultsSplitter->restoreState(value["resRightSplitter"].toByteArray());
+
     return true;
 }
 
@@ -339,44 +372,91 @@ QPair<Db*, QString> EditorWindow::getSoftDbObjectAssociation() const
     return {dbCombo->currentDb(), QString()};
 }
 
-void EditorWindow::updateResultsDisplayMode()
+void EditorWindow::updateResultsDisplayMode(bool enforce)
 {
+    if (!enforce && resultsPrevDisplayMode == resultsDisplayMode)
+        return;
+
+    int currIdx = ui->tabWidget->currentIndex();
     switch (resultsDisplayMode)
     {
-        case EditorWindow::ResultsDisplayMode::SEPARATE_TAB:
-        {
-            // Remove old view
-            ui->resultsContainer->hide();
-            ui->resultsContainer->layout()->removeWidget(ui->resultsFrame);
+        case ResultsDisplayMode::SEPARATE_TAB:
+            actionMap[RESULTS_IN_TAB]->setChecked(true);
+            break;
+        case ResultsDisplayMode::BELOW_QUERY:
+            actionMap[RESULTS_BELOW]->setChecked(true);
+            break;
+        case ResultsDisplayMode::RIGHT_SIDE:
+            actionMap[RESULTS_ON_RIGHT]->setChecked(true);
+            break;
+    }
 
-            // Add new view
+    // Remove old view
+    switch (resultsPrevDisplayMode)
+    {
+        case ResultsDisplayMode::SEPARATE_TAB:
+            ui->tabWidget->removeTab(1);
+            ui->results->layout()->removeWidget(ui->resultsFrame);
+            break;
+        case ResultsDisplayMode::BELOW_QUERY:
+            ui->bottomResultsContainer->hide();
+            ui->bottomResultsContainer->layout()->removeWidget(ui->resultsFrame);
+            break;
+        case ResultsDisplayMode::RIGHT_SIDE:
+            ui->rightResultsContainer->hide();
+            ui->rightResultsContainer->layout()->removeWidget(ui->resultsFrame);
+            break;
+    }
+
+    // Add new view
+    bool resultsOnFirstTab = false;
+    switch (resultsDisplayMode)
+    {
+        case ResultsDisplayMode::SEPARATE_TAB:
+        {
             ui->tabWidget->insertTab(1, ui->results, tr("Results"));
             ui->resultsFrame->setParent(ui->results);
             ui->results->layout()->addWidget(ui->resultsFrame);
             break;
         }
-        case EditorWindow::ResultsDisplayMode::BELOW_QUERY:
+        case ResultsDisplayMode::BELOW_QUERY:
         {
-            int currIdx = ui->tabWidget->currentIndex();
+            ui->bottomResultsContainer->show();
+            ui->resultsFrame->setParent(ui->bottomResultsContainer);
+            ui->bottomResultsContainer->layout()->addWidget(ui->resultsFrame);
+            resultsOnFirstTab = true;
 
-            // Remove old view
-            ui->tabWidget->removeTab(1);
-            ui->results->layout()->removeWidget(ui->resultsFrame);
+            // Minimum size check
+            qApp->processEvents(QEventLoop::ExcludeUserInputEvents);
+            auto sizes = ui->bottomResultsSplitter->sizes();
+            if (sizes.first() > 0 && sizes.last() <= 0)
+                ui->bottomResultsSplitter->setSizes({1, 1});
 
-            // Add new view
-            ui->resultsContainer->show();
-            ui->resultsFrame->setParent(ui->resultsContainer);
-            ui->resultsContainer->layout()->addWidget(ui->resultsFrame);
-
-            // If results tab was selected before, switch to first tab
-            if (currIdx == 1)
-            {
-                ui->tabWidget->setCurrentIndex(0);
-                ui->dataView->setCurrentIndex(0);
-                ui->dataView->getGridView()->setFocus();
-            }
             break;
         }
+        case ResultsDisplayMode::RIGHT_SIDE:
+        {
+            ui->rightResultsContainer->show();
+            ui->resultsFrame->setParent(ui->rightResultsContainer);
+            ui->rightResultsContainer->layout()->addWidget(ui->resultsFrame);
+            resultsOnFirstTab = true;
+
+            // Minimum size check
+            qApp->processEvents(QEventLoop::ExcludeUserInputEvents);
+            auto sizes = ui->rightResultsSplitter->sizes();
+            if (sizes.first() > 0 && sizes.last() <= 0)
+                ui->rightResultsSplitter->setSizes({1, 1});
+
+            break;
+        }
+    }
+
+    // If results tab was selected before and now it's on the query tab, switch to first tab
+    if (currIdx == 1 && resultsOnFirstTab)
+    {
+        ui->tabWidget->setCurrentIndex(0);
+        ui->dataView->setCurrentIndex(0);
+        ui->dataView->getGridView()->setFocus();
     }
 }
 
@@ -413,8 +493,8 @@ void EditorWindow::createActions()
     // Other actions
     createAction(SHOW_NEXT_TAB, tr("Show next tab", "sql editor"), this, SLOT(showNextTab()), this);
     createAction(SHOW_PREV_TAB, tr("Show previous tab", "sql editor"), this, SLOT(showPrevTab()), this);
-    createAction(FOCUS_RESULTS_BELOW, tr("Focus results below", "sql editor"), this, SLOT(focusResultsBelow()), this);
-    createAction(FOCUS_EDITOR_ABOVE, tr("Focus SQL editor above", "sql editor"), this, SLOT(focusEditorAbove()), this);
+    createAction(FOCUS_RESULTS_BELOW, tr("Focus results on the same tab", "sql editor"), this, SLOT(focusResultsBelowOrOnSide()), this);
+    createAction(FOCUS_EDITOR_ABOVE, tr("Focus SQL editor on the same tab", "sql editor"), this, SLOT(focusEditorAboveOrOnSide()), this);
     createAction(EXPORT_SELECTED_HISTORY_SQL, tr("Export selected SQL history entries", "sql editor"), this, SLOT(exportSelectedSqlHistory()), ui->historyList);
     createAction(DELETE_SELECTED_HISTORY_SQL, tr("Delete selected SQL history entries", "sql editor"), this, SLOT(deleteSelectedSqlHistory()), ui->historyList);
     createAction(EXEC_ONE_QUERY, ICONS.EXEC_QUERY, tr("Execute single query under cursor"), this, SLOT(execOneQuery()), this);
@@ -439,23 +519,18 @@ QToolButton* EditorWindow::createSettingsDropdown()
     settingsMenu->setStyleSheet("QMenu::separator {height: 6px; padding-top: 4px; padding-bottom: 1px;}");
 
     // Results layout
-    createAction(RESULTS_IN_TAB, ICONS.RESULTS_IN_TAB, tr("Results in the separate tab"), this, SLOT(changeResultsLayout()), this);
-    createAction(RESULTS_BELOW, ICONS.RESULTS_BELOW, tr("Results below the query"), this, SLOT(changeResultsLayout()), this);
+    createAction(RESULTS_IN_TAB, ICONS.RESULTS_IN_TAB, tr("Results layout: Separate tab", "sql editor"), this, SLOT(changeResultsLayout()), this);
+    createAction(RESULTS_BELOW, ICONS.RESULTS_BELOW, tr("Results layout: Below editor", "sql editor"), this, SLOT(changeResultsLayout()), this);
+    createAction(RESULTS_ON_RIGHT, ICONS.RESULTS_ON_RIGHT, tr("Results layout: Right of editor", "sql editor"), this, SLOT(changeResultsLayout()), this);
 
     QActionGroup* resultsLayoutGroup = new QActionGroup(ui->toolBar);
     resultsLayoutGroup->setExclusive(true);
-    for (QAction* a : {actionMap[RESULTS_IN_TAB], actionMap[RESULTS_BELOW]})
+    for (QAction* a : {actionMap[RESULTS_IN_TAB], actionMap[RESULTS_BELOW], actionMap[RESULTS_ON_RIGHT]})
     {
         a->setCheckable(true);
         resultsLayoutGroup->addAction(a);
         settingsMenu->addAction(a);
     }
-
-    QString tabsString = CFG_UI.General.SqlEditorTabs.get();
-    if (tabsString == "SEPARATE_TAB")
-        actionMap[RESULTS_IN_TAB]->setChecked(true);
-    else if (tabsString == "BELOW_QUERY")
-        actionMap[RESULTS_BELOW]->setChecked(true);
 
     // Separator
     settingsMenu->addSeparator();
@@ -616,14 +691,18 @@ void EditorWindow::changeResultsLayout()
     if (actionMap[RESULTS_IN_TAB]->isChecked())
     {
         CFG_UI.General.SqlEditorTabs.set("SEPARATE_TAB");
-        resultsDisplayMode = ResultsDisplayMode::SEPARATE_TAB;
+        setNewResultsDisplayMode(ResultsDisplayMode::SEPARATE_TAB);
     }
     else if (actionMap[RESULTS_BELOW]->isChecked())
     {
         CFG_UI.General.SqlEditorTabs.set("BELOW_QUERY");
-        resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
+        setNewResultsDisplayMode(ResultsDisplayMode::BELOW_QUERY);
     }
-    updateResultsDisplayMode();
+    else if (actionMap[RESULTS_ON_RIGHT]->isChecked())
+    {
+        CFG_UI.General.SqlEditorTabs.set("RIGHT_SIDE");
+        setNewResultsDisplayMode(ResultsDisplayMode::RIGHT_SIDE);
+    }
 }
 
 bool EditorWindow::processBindParams(QString& sql, QHash<QString, QVariant>& queryParams)
@@ -957,18 +1036,18 @@ void EditorWindow::showPrevTab()
     ui->tabWidget->setCurrentIndex(tabIdx);
 }
 
-void EditorWindow::focusResultsBelow()
+void EditorWindow::focusResultsBelowOrOnSide()
 {
-    if (resultsDisplayMode != ResultsDisplayMode::BELOW_QUERY)
+    if (resultsDisplayMode == ResultsDisplayMode::SEPARATE_TAB)
         return;
 
     ui->dataView->setCurrentIndex(0);
     ui->dataView->getGridView()->setFocus();
 }
 
-void EditorWindow::focusEditorAbove()
+void EditorWindow::focusEditorAboveOrOnSide()
 {
-    if (resultsDisplayMode != ResultsDisplayMode::BELOW_QUERY)
+    if (resultsDisplayMode == ResultsDisplayMode::SEPARATE_TAB)
         return;
 
     ui->sqlEdit->setFocus();
@@ -1081,9 +1160,9 @@ void EditorWindow::toggleAutoCommit()
     CFG_UI.General.SqlEditorAutoCommit.set(enabled);
     updateManualCommitStatus();
     if (enabled)
-        notifyInfo(tr("Query auto-commit is now enabled."));
+        notifyInfo(tr("Query auto-commit is now enabled in: %1", "sql editor").arg(getMdiWindow()->windowTitle()));
     else
-        notifyInfo(tr("Query auto-commit is now disabled."));
+        notifyInfo(tr("Query auto-commit is now disabled in: %1", "sql editor").arg(getMdiWindow()->windowTitle()));
 }
 
 void EditorWindow::useAutoCommitForCurrentDb()
@@ -1103,6 +1182,13 @@ bool EditorWindow::hasExplicitSavepoint(const QString& query) const
             return true;
     }
     return false;
+}
+
+void EditorWindow::setNewResultsDisplayMode(ResultsDisplayMode mode)
+{
+    resultsPrevDisplayMode = resultsDisplayMode;
+    resultsDisplayMode = mode;
+    updateResultsDisplayMode();
 }
 
 void EditorWindow::updateManualCommitStatus()

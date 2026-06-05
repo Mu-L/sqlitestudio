@@ -291,5 +291,6 @@
         <file>img/cancel.svg</file>
         <file>img/tx_apply.svg</file>
         <file>img/tx_discard.svg</file>
+        <file>img/results_on_right.svg</file>
     </qresource>
 </RCC>

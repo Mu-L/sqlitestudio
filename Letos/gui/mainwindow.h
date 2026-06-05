@@ -302,6 +302,7 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         void reportHistory();
         void donate();
         void updateToolbarStyle();
+        void scheduleSessionSave();
 
     private slots:
         void notifyAboutLanguageChange();
@@ -339,7 +340,6 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         void updateMultipleSessionsSetting();
         void updateMultipleSessionsSetting(const QVariant& newValue);
         void saveSession();
-        void scheduleSessionSave();
         void toolbarSizeChangeRequested(int steps);
         void refreshSyntaxColors();
         void exportConfig();

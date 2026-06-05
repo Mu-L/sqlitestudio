@@ -50,7 +50,8 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         enum class ResultsDisplayMode
         {
             SEPARATE_TAB = 0,
-            BELOW_QUERY = 1
+            BELOW_QUERY = 1,
+            RIGHT_SIDE = 2
         };
 
         enum Action
@@ -63,6 +64,7 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
             EXPLAIN_MODE_QUERY_PLAN,
             RESULTS_IN_TAB,
             RESULTS_BELOW,
+            RESULTS_ON_RIGHT,
             CURRENT_DB,
             NEXT_DB,
             PREV_DB,
@@ -158,6 +160,7 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         bool confirmPendingManualTx(const QString& dbName);
         void useAutoCommitForCurrentDb();
         bool hasExplicitSavepoint(const QString& query) const;
+        void setNewResultsDisplayMode(ResultsDisplayMode mode);
 
         static const int queryLimitForSmartExecution = 100;
 
@@ -175,6 +178,7 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         QString lastSuccessfulQuery;
         QMenu* sqlHistoryMenu = nullptr;
         bool settingSqlContents = false;
+        ResultsDisplayMode resultsPrevDisplayMode = ResultsDisplayMode::BELOW_QUERY;
         ResultsDisplayMode resultsDisplayMode = ResultsDisplayMode::BELOW_QUERY;
         Db* txDb = nullptr;
         bool currentlyAutoCommit = true;
@@ -190,13 +194,13 @@ class GUI_API_EXPORT EditorWindow : public MdiChild
         void executionSuccessful();
         void executionFailed(const QString& errorText);
         void storeExecutionInHistory();
-        void updateResultsDisplayMode();
+        void updateResultsDisplayMode(bool enforce = false);
         void prevDb();
         void nextDb();
         void showNextTab();
         void showPrevTab();
-        void focusResultsBelow();
-        void focusEditorAbove();
+        void focusResultsBelowOrOnSide();
+        void focusEditorAboveOrOnSide();
         void historyEntrySelected(const QModelIndex& current, const QModelIndex& previous);
         void historyEntryActivated(const QModelIndex& current);
         void deleteSelectedSqlHistory();
