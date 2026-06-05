@@ -56,7 +56,7 @@ namespace Cfg
         AFTER_CURRENT = 1,
         AT_THE_END = 2
     };
-    enum GUI_API_EXPORT StatusFieldFadingMode
+    enum StatusFieldFadingMode
     {
         NO_FADE = 0,
         GRAY_OUT = 1,

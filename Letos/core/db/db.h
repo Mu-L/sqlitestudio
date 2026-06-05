@@ -978,7 +978,7 @@ class API_EXPORT Db : public QObject, public Interruptable
 API_EXPORT QDataStream &operator<<(QDataStream &out, const Db* myObj);
 API_EXPORT QDataStream &operator>>(QDataStream &in, Db*& myObj);
 
-QDebug operator<<(QDebug dbg, const Db* db);
+API_EXPORT QDebug operator<<(QDebug dbg, const Db* db);
 
 Q_DECLARE_METATYPE(Db*)
 Q_DECLARE_OPERATORS_FOR_FLAGS(Db::Flags)

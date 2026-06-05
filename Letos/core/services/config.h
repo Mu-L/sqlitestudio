@@ -13,7 +13,7 @@
 
 namespace Cfg
 {
-    enum API_EXPORT ExplainQueryMode
+    enum ExplainQueryMode
     {
         EXPLAIN = 0,
         QUERY_PLAN = 1

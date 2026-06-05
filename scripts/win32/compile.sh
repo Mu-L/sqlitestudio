@@ -2,6 +2,7 @@
 
 # This script is intended for compilation from MSYS2 bash shell (dedicated for clang64, clangarm64 or mingw64).
 
+set -Eeuo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 pushd "$SCRIPT_DIR/../.." > /dev/null || exit 1
 TOP_DIR="$(pwd)"
