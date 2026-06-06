@@ -1433,9 +1433,8 @@
         <translation>Как минимум уместить полное имя столбца в ширину</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1292"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Если опция включена, строки длиннее ширины окна редактора будут перенесены и горизонтальная прокрутка не потребуется.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Если опция включена, строки длиннее ширины окна редактора будут перенесены и горизонтальная прокрутка не потребуется.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1295"/>
@@ -1785,6 +1784,11 @@
         <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>General.SqlEditorExecTimePrecision</source>
         <translation type="unfinished">General.SqlEditorExecTimePrecision</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1292"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1305"/>
@@ -3532,127 +3536,127 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">Auto-commit queries</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="571"/>
+        <location filename="../windows/editorwindow.cpp" line="577"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Editor window settings</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="619"/>
+        <location filename="../windows/editorwindow.cpp" line="625"/>
         <source>Active database (%1/%2)</source>
         <translation>Текущая база данных (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="770"/>
+        <location filename="../windows/editorwindow.cpp" line="776"/>
         <source>Save to file</source>
         <translation>Сохранить в файл</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="781"/>
+        <location filename="../windows/editorwindow.cpp" line="787"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Невозможно открыть файл &apos;%1&apos; для записи: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="801"/>
+        <location filename="../windows/editorwindow.cpp" line="807"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>SQL-код сохранён в файле %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="824"/>
+        <location filename="../windows/editorwindow.cpp" line="830"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
         <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="835"/>
+        <location filename="../windows/editorwindow.cpp" line="841"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
         <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="838"/>
+        <location filename="../windows/editorwindow.cpp" line="844"/>
         <source>The joirnal_mode will be switched back to %1.</source>
         <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="962"/>
+        <location filename="../windows/editorwindow.cpp" line="968"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Запрос выполнен за %1 секунд. Затронуто строк: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="966"/>
+        <location filename="../windows/editorwindow.cpp" line="972"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Запрос выполнен за %1 секунд.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1097"/>
+        <location filename="../windows/editorwindow.cpp" line="1103"/>
         <source>Clear execution history</source>
         <translation>Очистка истории запросов</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1097"/>
+        <location filename="../windows/editorwindow.cpp" line="1103"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Вы действительно хотите удалить всю историю выполнения SQL запросов? Операцию невозможно отменить.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1135"/>
+        <location filename="../windows/editorwindow.cpp" line="1141"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Невозможно произвести экспорт, т. к. не загружено ни одного модуля экспорта.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1163"/>
+        <location filename="../windows/editorwindow.cpp" line="1169"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Query auto-commit is now enabled in: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1165"/>
+        <location filename="../windows/editorwindow.cpp" line="1171"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
         <translation type="unfinished">Query auto-commit is now disabled in: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1223"/>
-        <location filename="../windows/editorwindow.cpp" line="1227"/>
+        <location filename="../windows/editorwindow.cpp" line="1229"/>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Apply changes to the transaction</source>
         <translation type="unfinished">Apply changes to the transaction</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1224"/>
-        <location filename="../windows/editorwindow.cpp" line="1228"/>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Discard changes in data view</source>
         <translation type="unfinished">Discard changes in data view</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1225"/>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
         <source>Apply selected changes to the transaction</source>
         <translation type="unfinished">Apply selected changes to the transaction</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1226"/>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Discard changes in selected cells</source>
         <translation type="unfinished">Discard changes in selected cells</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1267"/>
+        <location filename="../windows/editorwindow.cpp" line="1273"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1307"/>
+        <location filename="../windows/editorwindow.cpp" line="1313"/>
         <source>Manual transaction committed successfully.</source>
         <translation type="unfinished">Manual transaction committed successfully.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1336"/>
+        <location filename="../windows/editorwindow.cpp" line="1342"/>
         <source>Manual transaction rolled back.</source>
         <translation type="unfinished">Manual transaction rolled back.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1379"/>
+        <location filename="../windows/editorwindow.cpp" line="1385"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>В редакторе SQL не выбрана база данных. Невозможно создать представление в неизвестной базе данных.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1429"/>
+        <location filename="../windows/editorwindow.cpp" line="1435"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>В окне редактора &quot;%1&quot; имеются неподтверждённые данные.</translation>
     </message>
@@ -6264,7 +6268,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>Уменьшить размер шрифта</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="772"/>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
@@ -6279,7 +6283,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished">Select new database file</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="771"/>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>SQL files</source>
         <translation type="unfinished">SQL files</translation>
     </message>
@@ -6809,208 +6813,208 @@ find next</source>
 <context>
     <name>SqlEditor</name>
     <message>
-        <location filename="../sqleditor.cpp" line="58"/>
+        <location filename="../sqleditor.cpp" line="194"/>
         <source>Wrap words</source>
         <comment>sql editor</comment>
         <translation>Перенос по словам</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="175"/>
+        <location filename="../sqleditor.cpp" line="158"/>
         <source>Cut</source>
         <comment>sql editor</comment>
         <translation>Вырезать</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="176"/>
+        <location filename="../sqleditor.cpp" line="159"/>
         <source>Copy</source>
         <comment>sql editor</comment>
         <translation>Копировать</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="177"/>
+        <location filename="../sqleditor.cpp" line="160"/>
         <source>Paste</source>
         <comment>sql editor</comment>
         <translation>Вставить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="178"/>
+        <location filename="../sqleditor.cpp" line="161"/>
         <source>Delete</source>
         <comment>sql editor</comment>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="179"/>
+        <location filename="../sqleditor.cpp" line="162"/>
         <source>Select all</source>
         <comment>sql editor</comment>
         <translation>Выделить всё</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="180"/>
+        <location filename="../sqleditor.cpp" line="163"/>
         <source>Undo</source>
         <comment>sql editor</comment>
         <translation>Отменить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="181"/>
+        <location filename="../sqleditor.cpp" line="164"/>
         <source>Redo</source>
         <comment>sql editor</comment>
         <translation>Повторить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="183"/>
+        <location filename="../sqleditor.cpp" line="166"/>
         <source>Complete</source>
         <comment>sql editor</comment>
         <translation>Завершить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="184"/>
+        <location filename="../sqleditor.cpp" line="167"/>
         <source>Format SQL</source>
         <comment>sql editor</comment>
         <translation>Форматировать SQL</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="185"/>
+        <location filename="../sqleditor.cpp" line="168"/>
         <source>Save SQL to file</source>
         <comment>sql editor</comment>
         <translation>Сохранить SQL в файл</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="186"/>
+        <location filename="../sqleditor.cpp" line="169"/>
         <source>Select file to save SQL</source>
         <comment>sql editor</comment>
         <translation>Выбрать файл для сохранения SQL</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="187"/>
+        <location filename="../sqleditor.cpp" line="170"/>
         <source>Load SQL from file</source>
         <comment>sql editor</comment>
         <translation>Загрузить SQL из файла</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="188"/>
+        <location filename="../sqleditor.cpp" line="171"/>
         <source>Delete line</source>
         <comment>sql editor</comment>
         <translation>Удалить строчку</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="189"/>
+        <location filename="../sqleditor.cpp" line="172"/>
         <source>Move block down</source>
         <comment>sql editor</comment>
         <translation>Переместить блок вниз</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="190"/>
+        <location filename="../sqleditor.cpp" line="173"/>
         <source>Move block up</source>
         <comment>sql editor</comment>
         <translation>Переместить блок вверх</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="191"/>
+        <location filename="../sqleditor.cpp" line="174"/>
         <source>Copy block down</source>
         <comment>sql editor</comment>
         <translation>Копировать блок вниз</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="192"/>
+        <location filename="../sqleditor.cpp" line="175"/>
         <source>Copy up down</source>
         <comment>sql editor</comment>
         <translation>Копировать блок вверх</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="193"/>
+        <location filename="../sqleditor.cpp" line="176"/>
         <source>Find or replace</source>
         <comment>sql editor</comment>
         <translation>Найти и заменить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="194"/>
+        <location filename="../sqleditor.cpp" line="177"/>
         <source>Find next</source>
         <comment>sql editor</comment>
         <translation>Найти далее</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="195"/>
+        <location filename="../sqleditor.cpp" line="178"/>
         <source>Find previous</source>
         <comment>sql editor</comment>
         <translation>Найти предыдущее</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="196"/>
+        <location filename="../sqleditor.cpp" line="179"/>
         <source>Replace</source>
         <comment>sql editor</comment>
         <translation>Заменить</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="197"/>
+        <location filename="../sqleditor.cpp" line="180"/>
         <source>Toggle comment</source>
         <comment>sql editor</comment>
         <translation>Комментировать/раскомментировать</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="198"/>
+        <location filename="../sqleditor.cpp" line="181"/>
         <source>Increase font size</source>
         <comment>sql editor</comment>
         <translation>Увеличить размер шрифта</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="199"/>
+        <location filename="../sqleditor.cpp" line="182"/>
         <source>Decrease font size</source>
         <comment>sql editor</comment>
         <translation>Уменьшить размер шрифта</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="312"/>
+        <location filename="../sqleditor.cpp" line="297"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Невозможно открыть файл &apos;%1&apos; для записи: %2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="321"/>
+        <location filename="../sqleditor.cpp" line="306"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>SQL-код сохранён в файле %1</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="577"/>
+        <location filename="../sqleditor.cpp" line="562"/>
         <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
         <translation>Дополнение синтаксиса может быть использовано только после назначения корректной базы данных редактору SQL.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1198"/>
+        <location filename="../sqleditor.cpp" line="1183"/>
         <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
         <translation>Размер содержимого редактора SQL слишком велико, поэтому обнаружение ошибок и подсветка существующих объектов временно отключена.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1227"/>
+        <location filename="../sqleditor.cpp" line="1212"/>
         <source>Save to file</source>
         <translation>Сохранить в файл</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1242"/>
+        <location filename="../sqleditor.cpp" line="1227"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
         <translation>Скрипты SQL (*.sql);;Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1243"/>
-        <location filename="../sqleditor.cpp" line="1274"/>
+        <location filename="../sqleditor.cpp" line="1228"/>
+        <location filename="../sqleditor.cpp" line="1259"/>
         <source>Open file</source>
         <translation>Открыть файл</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1275"/>
+        <location filename="../sqleditor.cpp" line="1260"/>
         <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
         <translation>Это огромный файл (более %1 MB). Вы уверены, что хотите загрузить его в редактор запросов SQL?</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1289"/>
+        <location filename="../sqleditor.cpp" line="1274"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
         <translation>Невозможно открыть файл &apos;%1&apos; для чтения: %2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1483"/>
+        <location filename="../sqleditor.cpp" line="1468"/>
         <source>Reached the end of document. Hit the find again to restart the search.</source>
         <translation>Достигнут конец документа. Нажмите Найти снова для перезапуска поиска.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1748"/>
+        <location filename="../sqleditor.cpp" line="1740"/>
         <source>Ctrl+click to open this table or view</source>
         <translation type="unfinished">Ctrl+click to open this table or view</translation>
     </message>
