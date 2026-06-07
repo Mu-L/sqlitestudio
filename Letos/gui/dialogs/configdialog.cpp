@@ -133,6 +133,78 @@ void ConfigDialog::configureDataEditors(const QString& dataTypeString)
     addEditorDataType(dataTypeString.toUpper());
 }
 
+void ConfigDialog::openAtSettingWidget(const QString& categoryKey, const QString& widgetName)
+{
+    QWidget* categWidget = openAtSettingCategory(categoryKey);
+    if (widgetName.isEmpty() || !categWidget)
+        return;
+
+    QWidget* targetWidget = categWidget->findChild<QWidget*>(widgetName);
+
+    // Make sure widget is visible through potential tab widgets
+    QWidget* widgetOnPath = targetWidget;
+    while (widgetOnPath && widgetOnPath != categWidget)
+    {
+        QStackedWidget* parentStack = qobject_cast<QStackedWidget*>(widgetOnPath->parentWidget());
+        if (parentStack)
+        {
+            // If the stack is part of tabs widget, the change should be done on tabs
+            // to properly change visible tab and not only the page.
+            QTabWidget* parentTabs = qobject_cast<QTabWidget*>(parentStack->parentWidget());
+            if (parentTabs)
+            {
+                parentTabs->setCurrentWidget(widgetOnPath);
+                widgetOnPath = widgetOnPath->parentWidget();
+            }
+            else
+                parentStack->setCurrentWidget(widgetOnPath);
+        }
+
+        widgetOnPath = widgetOnPath->parentWidget();
+    }
+
+    if (!targetWidget)
+        qWarning() << "Intended widget to open config dialog was not found:" << widgetName;
+
+    targetWidgetOnOpen = targetWidget;
+    markTargetWidget(true);
+}
+
+QWidget* ConfigDialog::openAtSettingCategory(const QString& categoryKey)
+{
+    if (categoryKey.isEmpty())
+        return nullptr;
+
+    QWidget* categoryWidget = ui->stackedWidget->findChild<QWidget*>(categoryKey);
+    ui->stackedWidget->setCurrentWidget(categoryWidget);
+
+    QList<QTreeWidgetItem*> allCategItems = ui->categoriesTree->findItems("", Qt::MatchContains|Qt::MatchRecursive);
+    QTreeWidgetItem* matchedCategItem = nullptr;
+    for (QTreeWidgetItem* item : allCategItems)
+    {
+        if (item->statusTip(0) == categoryKey)
+            matchedCategItem = item;
+    }
+
+    if (!matchedCategItem)
+    {
+        qWarning() << "Could not match category by its key:" << categoryKey;
+        return categoryWidget;
+    }
+
+    ui->categoriesTree->setCurrentItem(matchedCategItem);
+    return categoryWidget;
+}
+
+void ConfigDialog::openAtSettingHotkey(const QString& categoryKey, const QString& hotkeyName)
+{
+    openAtSettingCategory(categoryKey);
+    if (hotkeyName.isEmpty())
+        return;
+
+    ui->shortcutsFilterEdit->setText(hotkeyName);
+}
+
 QString ConfigDialog::getFilterString(QWidget *widget)
 {
     // Common code for widgets with single method call
@@ -240,6 +312,10 @@ void ConfigDialog::init()
 
     setStyleSheet(
                 "*[matched=\"true\"] {"
+                "   border: 2px solid red;"
+                "   border-radius: 5px;"
+                "}"
+                "*[targetMatch=\"true\"] {"
                 "   border: 2px solid red;"
                 "   border-radius: 5px;"
                 "}"
@@ -517,6 +593,7 @@ QList<MultiEditorWidgetPlugin*> ConfigDialog::getDefaultEditorsForType(DataType:
 
 void ConfigDialog::pageSwitched()
 {
+    markTargetWidget(false);
     if (ui->stackedWidget->currentWidget() == ui->dataEditorsPage)
     {
         updateDataTypeEditors();
@@ -735,7 +812,7 @@ void ConfigDialog::connectMapperSignals(ConfigMapper* mapper)
     connect(mapper, SIGNAL(notifyEnabledWidgetModified(QWidget*,CfgEntry*,QVariant)), this, SLOT(notifyPluginsAboutModification(QWidget*,CfgEntry*,QVariant)));
 }
 
-QList<CfgMain*> ConfigDialog::getShortcutsCfgMains() const
+QList<CfgMain*> ConfigDialog::getShortcutsCfgMains()
 {
     static const QString metaName = CFG_SHORTCUTS_METANAME;
     QList<CfgMain*> mains;
@@ -1240,6 +1317,17 @@ void ConfigDialog::resetShortcut(CfgEntry* entry, QKeySequenceEdit* seqEdit)
 {
     entry->reset();
     seqEdit->setKeySequence(QKeySequence::fromString(entry->get().toString()));
+}
+
+void ConfigDialog::markTargetWidget(bool marked)
+{
+    if (!targetWidgetOnOpen)
+        return;
+
+    targetWidgetOnOpen->setProperty("targetMatch", marked);
+    targetWidgetOnOpen->style()->unpolish(targetWidgetOnOpen);
+    targetWidgetOnOpen->style()->polish(targetWidgetOnOpen);
+    targetWidgetOnOpen->update();
 }
 
 void ConfigDialog::colorChanged()

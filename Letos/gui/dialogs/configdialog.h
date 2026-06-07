@@ -51,7 +51,12 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         explicit ConfigDialog(QWidget *parent = 0);
         ~ConfigDialog();
 
+        static QList<CfgMain*> getShortcutsCfgMains();
+
         void configureDataEditors(const QString& dataTypeString);
+        void openAtSettingWidget(const QString& categoryKey, const QString& widgetName);
+        QWidget* openAtSettingCategory(const QString& categoryKey);
+        void openAtSettingHotkey(const QString& categoryKey, const QString& hotkeyName);
 
         static QString getFilterString(QWidget* widget);
         static QString getFilterString(QComboBox* widget);
@@ -114,7 +119,6 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         void commitPluginConfigs();
         void commitColorsConfig();
         void connectMapperSignals(ConfigMapper* mapper);
-        QList<CfgMain*> getShortcutsCfgMains() const;
         QList<CfgCategory*> getShortcutsCfgCategories() const;
         void refreshColorsInSyntaxHighlighters();
         void colorChanged();
@@ -127,8 +131,10 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         void rememberLastUsedPage();
         void restoreLastUsedPage();
         void resetShortcut(CfgEntry* entry, QKeySequenceEdit* seqEdit);
+        void markTargetWidget(bool marked);
 
         Ui::ConfigDialog *ui = nullptr;
+        QWidget* targetWidgetOnOpen = nullptr;
         QStyle* previewStyle = nullptr;
         QHash<QString,QWidget*> nameToPage;
         BiHash<QTreeWidgetItem*,QString> pluginListItemToPluginNameMap;

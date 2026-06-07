@@ -1,17 +1,18 @@
 #include "extactioncontainer.h"
 #include "iconmanager.h"
 #include "common/global.h"
+#include "commandpalette/commandpalette.h"
 #include <QSignalMapper>
 #include <QToolButton>
 #include <QToolBar>
 #include <QMenu>
 #include <QDebug>
-#include <QEvent>
 #if QT_VERSION >= QT_VERSION_CHECK(6, 5, 0)
 #include <QtSystemDetection>
 #else
 #include <qsystemdetection.h>
 #endif
+#include <QEvent>
 
 ExtActionContainer::ClassNameToToolBarAndAction ExtActionContainer::extraActions;
 QList<ExtActionContainer*> ExtActionContainer::instances;
@@ -204,6 +205,11 @@ void ExtActionContainer::refreshShortcut(int action)
     }
 }
 
+QList<int> ExtActionContainer::getActionsForCommandPalette() const
+{
+    return {};
+}
+
 QAction* ExtActionContainer::getAction(int action)
 {
     if (!actionMap.contains(action))
@@ -324,6 +330,17 @@ QList<QAction*> ExtActionContainer::getNonToolbarExtraActions() const
             actions << toolbarAndProtoToAction[toolbarAndProto];
     }
     return actions;
+}
+
+void ExtActionContainer::setCommandPalleteContext(int action, const QStringList& context)
+{
+    actionMap[action]->setProperty(CommandPalette::SEARCH_CONTEXT, context);
+}
+
+void ExtActionContainer::setCommandPalleteContext(QList<int> actions, const QStringList& context)
+{
+    for (int act : actions)
+        setCommandPalleteContext(act, context);
 }
 
 void ExtActionContainer::handleExtraActions()

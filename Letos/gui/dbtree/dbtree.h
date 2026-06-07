@@ -139,28 +139,31 @@ class GUI_API_EXPORT DbTree : public QDockWidget, public ExtActionContainer
         void hideRefreshWidgetCover();
         void setSelectedItem(DbTreeItem* item);
         bool isMimeDataValidForItem(const QMimeData* mimeData, const DbTreeItem* item, bool forPasting = false);
-        QToolBar* getToolBar(int toolbar) const;
+        QToolBar* getToolBar(int toolbar) const override;
         Db* getSelectedDb();
         Db* getSelectedOpenDb();
         QSet<Db*> getSelectedDatabases();
         QList<DbTreeItem*> getSelectedItems(DbTreeItem::Type itemType);
         QList<DbTreeItem*> getSelectedItems(ItemFilterFunc filterFunc = nullptr);
+        TableWindow* openTable(Db* db, const QString& database, const QString& table);
+        ViewWindow* openView(Db* db, const QString& database, const QString& view);
+        void editIndex(Db* db, const QString& database, const QString& index);
+        void editTrigger(Db* db, const QString& database, const QString& trigger);
+        QList<int> getActionsForCommandPalette() const override;
 
         static bool isItemDraggable(const DbTreeItem* item);
         static bool isAcceptedDropItem(const DbTreeItem* item);
 
     protected:
-        void createActions();
-        void setupDefShortcuts();
+        void createActions() override;
+        void setupDefShortcuts() override;
 
     private:
         void initSmallToolbarActions();
         void setActionEnabled(int action, bool enabled);
         TableWindow* openTable(DbTreeItem* item);
-        TableWindow* openTable(Db* db, const QString& database, const QString& table);
         TableWindow* newTable(Db* db);
         ViewWindow* openView(DbTreeItem* item);
-        ViewWindow* openView(Db* db, const QString& database, const QString& view);
         ViewWindow* newView(Db* db);
         void editIndex(DbTreeItem* item);
         void editTrigger(DbTreeItem* item);

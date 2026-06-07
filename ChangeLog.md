@@ -11,6 +11,7 @@
 - ADDED: #3930 Added support for defining user-defined Aggregate Window Functions in the Functions Editor.
 - ADDED: #4269 Double-clicking on a cell that clearly contains a value to be edited in the Value Editor dialog will immediately open it in the editor dialog.
 - ADDED: #4271 Value Editor dialog (and Form View editor) allow now loading/saving value from/into a file by dedicated buttons.
+- ADDED: #4599 Added Command Palette (Ctrl+Shift+P by default) for quick search & execution of common actions, searching configuration options, etc.
 - ADDED: #5165 Database List can be now synced/linked with active MDI window using the toggle button on top of the database list.
 - ADDED: #5212 Objects on Database List (databases, tables, columns, indexes, triggers, views) can be now renamed quickly inline.
 - ADDED: #5212 Dragging table/view/columns from Database List to SQL Editor will now generate SELECT/UPDATE/INSERT depending on the keyboard modifier during the drop.

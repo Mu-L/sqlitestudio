@@ -55,6 +55,8 @@ class CodeSnippetsPanel;
 
 
 class MouseShortcut;
+
+class CommandPalette;
 CFG_KEY_LIST(MainWindow, QObject::tr("Main window"),
     CFG_KEY_ENTRY(OPEN_SQL_EDITOR,        Qt::CTRL | Qt::Key_T,             QObject::tr("Open SQL editor"))
     CFG_KEY_ENTRY(RESTORE_WINDOW,         Qt::CTRL | Qt::SHIFT | Qt::Key_T, QObject::tr("Restore recently closed window"))
@@ -74,6 +76,7 @@ CFG_KEY_LIST(MainWindow, QObject::tr("Main window"),
     CFG_KEY_ENTRY(OPEN_CONFIG,            Qt::CTRL | Qt::Key_Comma,         QObject::tr("Open configuration dialog"))
     CFG_KEY_ENTRY(OPEN_DEBUG_CONSOLE,     Qt::Key_F12,                      QObject::tr("Open Debug Console"))
     CFG_KEY_ENTRY(OPEN_CSS_CONSOLE,       Qt::Key_F11,                      QObject::tr("Open CSS Console"))
+    CFG_KEY_ENTRY(COMMAND_PALETTE,        Qt::CTRL | Qt::SHIFT | Qt::Key_P, QObject::tr("Open Command Palette"))
     CFG_KEY_ENTRY(ABOUT,                  Qt::SHIFT | Qt::Key_F1,           QObject::tr("Open the About dialog"))
     CFG_KEY_ENTRY(QUIT,                   QKeySequence::Quit,               QObject::tr("Quit the application"))
 )
@@ -132,10 +135,9 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
             BUG_REPORT_HISTORY,
             CHECK_FOR_UPDATES,
             QUIT,
-            NEW_DB,
-            OPEN_FILE,
             EXPORT_SETTINGS,
             IMPORT_SETTINGS,
+            COMMAND_PALETTE,
         };
         Q_ENUM(Action)
 
@@ -205,6 +207,8 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         void installToolbarSizeWheelHandler(QToolBar* toolbar);
         QMenu* createPopupMenu() override;
         void handleDroppedFile(const QString& filePath);
+        CommandPalette* getCommandPalette() const;
+        QList<int> getActionsForCommandPalette() const override;
 
         template <class T, typename... Args>
         T* openMdiWindow(Args&&... args);
@@ -248,6 +252,7 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         void initToolbarSizeActionList();
         void handlePostRestoreConfigUpdates();
         void initDropOverlay();
+        void initCommandPalette();
         void handleExternalDragEnter(const QStringList& filePaths);
         void handleExternalDragLeave();
         QString dropDescriptionByFileType(const DropFileContext& ctx);
@@ -282,6 +287,9 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         QLabel* dropDetails = nullptr;
         static QMimeDatabase mimeDb;
 
+        WidgetCover* commandPaletteOverlay = nullptr;
+        CommandPalette* commandPalette = nullptr;
+
         QTimer* saveSessionTimer = nullptr;
 
         QList<Action> toolbarSizeActionList;
@@ -303,6 +311,7 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         void donate();
         void updateToolbarStyle();
         void scheduleSessionSave();
+        void openCommandPalette();
 
     private slots:
         void notifyAboutLanguageChange();

@@ -19,6 +19,7 @@ class GUI_API_EXPORT FormManager : public QObject
         virtual ~FormManager();
 
         QWidget* createWidget(const QString& name);
+        QString getFullPathForWidget(const QString& name);
         bool hasWidget(const QString& name);
         QStringList getAvailableForms() const;
         QStringList getFormDirs() const;

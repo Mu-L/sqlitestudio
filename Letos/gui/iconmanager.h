@@ -54,6 +54,7 @@ class GUI_API_EXPORT IconManager : public QObject
             DEF_ICON(COLUMN_CONSTRAINT_DEL,             "column_constraint_del")
             DEF_ICON(COLUMN_CONSTRAINT_EDIT,            "column_constraint_edit")
             DEF_ICON(COLUMNS,                           "columns")
+            DEF_ICON(COMMAND_PALETTE,                   "command_palette")
             DEF_ICON(COMMIT,                            "commit")
             DEF_ICON(COMPLETE,                          "complete")
             DEF_ICON(COMPLETER_BLOB,                    "completer_blob")

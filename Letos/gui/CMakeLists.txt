@@ -1,4 +1,5 @@
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Svg UiTools Widgets Xml)
+find_package(Qt6 REQUIRED COMPONENTS Core)
 
 set(PROJECT_HEADERS
     actionentry.h
@@ -182,6 +183,12 @@ set(PROJECT_HEADERS
     completer/completersnippetdelegate.h
     dialogs/manualcommitwalmodedialog.h
     dialogs/manualcommitpendingtxdialog.h
+    commandpalette/commandpalette.h
+    commandpalette/cpconfigdialogprovider.h
+    commandpalette/cpdbobjectsprovider.h
+    commandpalette/cpmdiwindowsprovider.h
+    commandpalette/cpglobalactionsprovider.h
+    common/htmlbutton.h
 )
 
 set(PROJECT_SOURCES
@@ -359,6 +366,12 @@ set(PROJECT_SOURCES
     completer/completersnippetdelegate.cpp
     dialogs/manualcommitwalmodedialog.cpp
     dialogs/manualcommitpendingtxdialog.cpp
+    commandpalette/commandpalette.cpp
+    commandpalette/cpconfigdialogprovider.cpp
+    commandpalette/cpdbobjectsprovider.cpp
+    commandpalette/cpmdiwindowsprovider.cpp
+    commandpalette/cpglobalactionsprovider.cpp
+    common/htmlbutton.cpp
 )
 qt_add_resources(PROJECT_SOURCES
     gui.qrc
@@ -445,6 +458,7 @@ target_link_libraries(guiLetos PRIVATE
     Qt::Xml
     coreLetos
 )
+target_link_libraries(guiLetos PRIVATE Qt6::Core)
 
 install(
     TARGETS guiLetos

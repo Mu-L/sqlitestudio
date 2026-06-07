@@ -23,6 +23,20 @@ class API_EXPORT PluginType
         QList<Plugin*> getLoadedPlugins() const;
         QStringList getAllPluginNames() const;
 
+        template <class T>
+        QList<T*> getLoadedPlugins() const
+        {
+            QList<T*> typedPlugins;
+            for (Plugin* plugin : getLoadedPlugins())
+            {
+                T* casted = dynamic_cast<T*>(plugin);
+                if (casted)
+                    typedPlugins << casted;
+            }
+
+            return typedPlugins;
+        }
+
         virtual bool test(Plugin* plugin) = 0;
 
         template <class T>

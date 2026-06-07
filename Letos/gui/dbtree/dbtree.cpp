@@ -1007,11 +1007,9 @@ TableWindow* DbTree::openTable(Db* db, const QString& database, const QString& t
 
 void DbTree::editIndex(DbTreeItem* item)
 {
-    //QString database = QString(); // TODO implement this when named databases (attached) are handled by dbtree.
     Db* db = item->getDb();
-
-    DbObjectDialogs dialogs(db);
-    dialogs.editIndex(item->text());
+    QString database = QString(); // TODO implement this when named databases (attached) are handled by dbtree.
+    editIndex(db, database, item->text());
 }
 
 ViewWindow* DbTree::openView(DbTreeItem* item)
@@ -1025,6 +1023,36 @@ ViewWindow* DbTree::openView(Db* db, const QString& database, const QString& vie
 {
     DbObjectDialogs dialogs(db);
     return dialogs.editView(database, view);
+}
+
+void DbTree::editIndex(Db* db, const QString& database, const QString& index)
+{
+    Q_UNUSED(database); // TODO implement this when named databases (attached) are handled by dbtree.
+    DbObjectDialogs dialogs(db);
+    dialogs.editIndex(index);
+}
+
+void DbTree::editTrigger(Db* db, const QString& database, const QString& trigger)
+{
+    Q_UNUSED(database); // TODO implement this when named databases (attached) are handled by dbtree.
+    DbObjectDialogs dialogs(db);
+    dialogs.editTrigger(trigger);
+}
+
+QList<int> DbTree::getActionsForCommandPalette() const
+{
+    return {
+        ADD_DB,
+        NEW_DB,
+        OPEN_DB,
+        OPEN_FILE,
+        ADD_TABLE,
+        ADD_VIEW,
+        REFRESH_SCHEMAS,
+        EXEC_SQL_FROM_FILE,
+        INCR_FONT_SIZE,
+        DECR_FONT_SIZE
+    };
 }
 
 TableWindow* DbTree::newTable(Db* db)
@@ -1041,11 +1069,9 @@ ViewWindow* DbTree::newView(Db* db)
 
 void DbTree::editTrigger(DbTreeItem* item)
 {
-    //QString database = QString(); // TODO implement this when named databases (attached) are handled by dbtree.
+    QString database = QString(); // TODO implement this when named databases (attached) are handled by dbtree.
     Db* db = item->getDb();
-
-    DbObjectDialogs dialogs(db);
-    dialogs.editTrigger(item->text());
+    editTrigger(db, database, item->text());
 }
 
 //void DbTree::delSelectedObject()

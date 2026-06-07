@@ -292,5 +292,6 @@
         <file>img/tx_apply.svg</file>
         <file>img/tx_discard.svg</file>
         <file>img/results_on_right.svg</file>
+        <file>img/command_palette.svg</file>
     </qresource>
 </RCC>

@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "commandpalette/commandpalette.h"
 #include "dbtree/dbtree.h"
 #include "dbtree/dbtreemodel.h"
 #include "dialogs/settingsexportdialog.h"
@@ -185,6 +186,7 @@ void MainWindow::init()
     connect(STYLE, SIGNAL(paletteChanged()), this, SLOT(refreshSyntaxColors()));
 
     initDropOverlay();
+    initCommandPalette();
 
     // It looks like for some time now it is not beneficial to register this crash handler,
     // because if it happens during restoring previous session and some MDI window crashes,
@@ -340,6 +342,7 @@ void MainWindow::createActions()
     createAction(RESTORE_WINDOW, ICONS.WIN_RESTORE, tr("Re&store recently closed window"), this, SLOT(restoreLastClosedWindow()), this);
     createAction(RENAME_WINDOW, ICONS.WIN_RENAME, tr("Re&name selected window"), this, SLOT(renameWindow()), this);
 
+    createAction(COMMAND_PALETTE, ICONS.COMMAND_PALETTE, tr("Open Command Palette"), this, SLOT(openCommandPalette()), this);
     createAction(OPEN_DEBUG_CONSOLE, tr("Open Debug Console"), this, SLOT(openDebugConsole()), this);
     createAction(OPEN_CSS_CONSOLE, tr("Open CSS Console"), this, SLOT(openCssConsole()), this);
     createAction(REPORT_BUG, ICONS.BUG, tr("Report a &bug"), this, SLOT(reportBug()), this);
@@ -372,6 +375,12 @@ void MainWindow::createActions()
     ui->structureToolbar->addAction(dbTree->getAction(DbTree::ADD_VIEW));
 
     ui->taskBar->initContextMenu(this);
+
+    // Extra info for CommandPalette
+    setCommandPalleteContext(
+                {MDI_TILE, MDI_TILE_HORIZONTAL, MDI_TILE_VERTICAL, MDI_CASCADE},
+                {tr("arrange", "command palette entry")}
+                );
 }
 
 void MainWindow::initMenuBar()
@@ -471,6 +480,7 @@ void MainWindow::initMenuBar()
     toolsMenu->addAction(dbTree->getAction(DbTree::EXEC_SQL_FROM_FILE));
     toolsMenu->addAction(actionMap[IMPORT]);
     toolsMenu->addAction(actionMap[EXPORT]);
+    toolsMenu->addAction(actionMap[COMMAND_PALETTE]);
     toolsMenu->addSeparator();
     toolsMenu->addAction(actionMap[IMPORT_SETTINGS]);
     toolsMenu->addAction(actionMap[EXPORT_SETTINGS]);
@@ -1283,6 +1293,41 @@ void MainWindow::initDropOverlay()
     dropLayout->addWidget(dropDetails, 1, 0);
 }
 
+void MainWindow::initCommandPalette()
+{
+    commandPaletteOverlay = new WidgetCover(this);
+    commandPaletteOverlay->setTransparency(192);
+    QGridLayout* overlayLayout = commandPaletteOverlay->getContainerLayout();
+    overlayLayout->setContentsMargins(0, 0, 0, 0);
+    overlayLayout->setSizeConstraint(QLayout::SetDefaultConstraint);
+    overlayLayout->setAlignment(Qt::AlignTop|Qt::AlignHCenter);
+    overlayLayout->setRowStretch(0, 0);
+    overlayLayout->setRowStretch(1, 1);
+    overlayLayout->setColumnStretch(0, 1);
+
+    commandPalette = new CommandPalette(commandPaletteOverlay);
+    commandPalette->setStyleSheet("#commandPalette {"
+                                  "    border-radius: 5px;"
+                                  "    background-color: palette(window);"
+                                  "}");
+    commandPalette->setAutoFillBackground(true);
+    overlayLayout->addWidget(commandPalette, 0, 0, Qt::AlignTop|Qt::AlignHCenter);
+    commandPalette->hide();
+
+    connect(commandPalette, SIGNAL(hidden()), commandPaletteOverlay, SLOT(hide()));
+    connect(commandPalette, &CommandPalette::hidden, this, [this]()
+    {
+        removeEventFilter(commandPalette);
+    });
+}
+
+void MainWindow::openCommandPalette()
+{
+    commandPaletteOverlay->show();
+    commandPalette->show();
+    installEventFilter(commandPalette);
+}
+
 void MainWindow::handleExternalDragEnter(const QStringList& filePaths)
 {
     // qDebug() << "enter" << filePaths;
@@ -1380,6 +1425,55 @@ bool MainWindow::confirmQuit(const QList<Committable*>& instances)
         return true;
 
     return false;
+}
+
+CommandPalette* MainWindow::getCommandPalette() const
+{
+    return commandPalette;
+}
+
+QList<int> MainWindow::getActionsForCommandPalette() const
+{
+    return {
+        MDI_TILE,
+        MDI_CASCADE,
+        MDI_TILE_HORIZONTAL,
+        MDI_TILE_VERTICAL,
+        TOOLBAR_ICON_SIZE_50,
+        TOOLBAR_ICON_SIZE_75,
+        TOOLBAR_ICON_SIZE_100,
+        TOOLBAR_ICON_SIZE_125,
+        TOOLBAR_ICON_SIZE_150,
+        TOOLBAR_ICON_SIZE_175,
+        TOOLBAR_ICON_SIZE_200,
+        TOOLBAR_ICON_SIZE_250,
+        TOOLBAR_ICON_SIZE_300,
+        OPEN_SQL_EDITOR,
+        OPEN_CONFIG,
+        OPEN_DDL_HISTORY,
+        OPEN_SNIPPETS_EDITOR,
+        OPEN_FUNCTION_EDITOR,
+        OPEN_COLLATION_EDITOR,
+        OPEN_EXTENSION_MANAGER,
+        EXPORT,
+        IMPORT,
+        RESTORE_WINDOW,
+        OPEN_DEBUG_CONSOLE,
+        OPEN_CSS_CONSOLE,
+        LICENSES,
+        HOMEPAGE,
+        USER_MANUAL,
+        SQLITE_DOCS,
+        REPORT_BUG,
+        FEATURE_REQUEST,
+        ABOUT,
+        DONATE,
+        BUG_REPORT_HISTORY,
+        CHECK_FOR_UPDATES,
+        QUIT,
+        EXPORT_SETTINGS,
+        IMPORT_SETTINGS
+    };
 }
 
 bool MainWindow::isClosingApp() const

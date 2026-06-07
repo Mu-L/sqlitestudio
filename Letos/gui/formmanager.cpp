@@ -26,13 +26,22 @@ FormManager::~FormManager()
 
 QWidget* FormManager::createWidget(const QString& name)
 {
+    QString path = getFullPathForWidget(name);
+    if (path.isNull())
+        return nullptr;
+
+    return createWidgetByFullPath(path);
+}
+
+QString FormManager::getFullPathForWidget(const QString& name)
+{
     if (!widgetNameToFullPath.contains(name))
     {
         qCritical() << "Asked for widget name which isn't managed by FormManager:" << name << ", while available widgets are:"
                     << widgetNameToFullPath.keys();
-        return nullptr;
+        return QString();
     }
-    return createWidgetByFullPath(widgetNameToFullPath[name]);
+    return widgetNameToFullPath[name];
 }
 
 bool FormManager::hasWidget(const QString& name)

@@ -101,6 +101,7 @@ class GUI_API_EXPORT ExtActionContainer
         void refreshShortcuts();
         void refreshShortcut(int action);
         virtual const QMetaObject* metaObject() const = 0;
+        virtual QList<int> getActionsForCommandPalette() const;
 
         static void refreshShortcutTranslations();
 
@@ -191,6 +192,8 @@ class GUI_API_EXPORT ExtActionContainer
         void handleActionInsert(int toolbarIdx, ActionDetails* details);
         void handleActionRemoval(int toolbarIdx, ActionDetails* details);
         QList<QAction*> getNonToolbarExtraActions() const;
+        void setCommandPalleteContext(int action, const QStringList& context);
+        void setCommandPalleteContext(QList<int> actions, const QStringList& context);
 
     private:
         typedef QPair<int,ActionDetails*> ToolbarAndProto;
