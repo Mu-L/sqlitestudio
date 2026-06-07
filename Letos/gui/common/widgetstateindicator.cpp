@@ -371,6 +371,10 @@ bool WidgetStateIndicator::eventFilterFromWidget(QEvent* ev)
     {
         case QEvent::Move:
         case QEvent::Resize:
+        case QEvent::LayoutRequest:
+        case QEvent::Polish:
+        case QEvent::PolishRequest:
+        case QEvent::ContentsRectChange:
         case QEvent::Scroll:
             updatePosition();
             break;
@@ -397,6 +401,16 @@ bool WidgetStateIndicator::eventFilterFromParentWidget(QEvent* ev)
     {
         case QEvent::ParentChange:
             detectWindowParent();
+            break;
+        case QEvent::Move:
+        case QEvent::Resize:
+        case QEvent::LayoutRequest:
+        case QEvent::Show:
+        case QEvent::Polish:
+        case QEvent::PolishRequest:
+        case QEvent::ContentsRectChange:
+        case QEvent::Scroll:
+            updatePosition();
             break;
         default:
             break;
