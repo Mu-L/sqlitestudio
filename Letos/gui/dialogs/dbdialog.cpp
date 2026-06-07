@@ -141,6 +141,7 @@ void DbDialog::showEvent(QShowEvent *e)
         testConnectionClicked();
 
     QDialog::showEvent(e);
+    ui->fileEdit->setFocus();
 }
 
 void DbDialog::init()
