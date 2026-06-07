@@ -10,6 +10,7 @@
 #include <QFile>
 #include <QCoreApplication>
 #include <QThreadPool>
+#include <QTextDocument>
 
 /*
  * TODO Providers to implement:
