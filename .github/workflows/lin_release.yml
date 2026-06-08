@@ -65,7 +65,7 @@ jobs:
                 MATRIX_ARM64='{
                     "OS": "ubuntu-22.04-arm",
                     "TARGET_ARCH": "aarch64",
-                    "QT_VERSION": "6.11.1",
+                    "QT_VERSION": "6.10.3",
                     "QT_ARCH": "linux_gcc_arm64",
                     "QT_HOST": "linux_arm64",
                     "LIBSSL_DIR_URL": "http://ports.ubuntu.com/pool/main/o/openssl/",
