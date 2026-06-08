@@ -2017,18 +2017,20 @@ void SqlQueryModel::addNewRow()
     emit commitStatusChanged(true);
 }
 
-void SqlQueryModel::addMultipleRows()
+int SqlQueryModel::addMultipleRows()
 {
     bool ok;
     int rows = QInputDialog::getInt(view, tr("Insert multiple rows"), tr("Number of rows to insert:"), 1, 1, 10000, 1, &ok);
     if (!ok)
-        return;
+        return -1;
 
-    int row = getInsertRowIndex();
+    int initialRow = getInsertRowIndex();
+    int row = initialRow;
     for (int i = 0; i < rows; i++)
         addNewRowInternal(row++);
 
     emit commitStatusChanged(true);
+    return initialRow;
 }
 
 void SqlQueryModel::deleteSelectedRows()

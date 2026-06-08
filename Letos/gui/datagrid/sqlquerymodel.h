@@ -559,7 +559,11 @@ class GUI_API_EXPORT SqlQueryModel : public QStandardItemModel
         void reload();
         void updateSelectiveCommitRollbackActions(const QItemSelection& selected, const QItemSelection& deselected);
         void addNewRow();
-        void addMultipleRows();
+
+        /**
+         * @return row index of first inserted row
+         */
+        int addMultipleRows();
         void deleteSelectedRows();
         void handlePossibleTableModification(Db* modDb, const QString& database, const QString& objName);
         void handlePossibleTableRename(Db* modDb, const QString& database, const QString& oldName, const QString& newName);

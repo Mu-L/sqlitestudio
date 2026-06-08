@@ -1149,7 +1149,7 @@ void SqlQueryView::closeEditor(QWidget* editor, QAbstractItemDelegate::EndEditHi
 
 void SqlQueryView::scrollTo(const QModelIndex& index, ScrollHint hint)
 {
-    if (index.column() > 0)
+    if (index.column() >= 0)
         QTableView::scrollTo(index, hint);
 }
 

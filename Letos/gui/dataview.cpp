@@ -1108,7 +1108,8 @@ void DataView::insertMultipleRows()
     if (!model->features().testFlag(SqlQueryModel::INSERT_ROW))
         return;
 
-    model->addMultipleRows();
+    int firstInsertedRow = model->addMultipleRows();
+    gridView->setCurrentRow(firstInsertedRow);
     formView->updateFromGrid();
     updateCurrentFormViewRow();
     formViewFocusFirstEditor();
