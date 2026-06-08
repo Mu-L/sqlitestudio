@@ -425,8 +425,8 @@ bool WidgetStateIndicator::eventFilterFromIndicatorLabel(QEvent* ev)
         case QEvent::Enter:
         {
             highlightingEffect->setEnabled(true);
-            QEnterEvent* e = dynamic_cast<QEnterEvent*>(ev);
-            QToolTip::showText(e->globalPosition().toPoint(), message);
+            QPoint pos = label->mapToGlobal(QPoint(label->width() + 4, label->height() / 2));
+            QToolTip::showText(pos, message, label, label->rect());
             break;
         }
         case QEvent::Leave:
