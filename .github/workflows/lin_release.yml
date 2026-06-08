@@ -52,7 +52,7 @@ jobs:
                 MATRIX_X64='{
                     "OS": "ubuntu-22.04",
                     "TARGET_ARCH": "x86_64",
-                    "QT_VERSION": "6.8.3",
+                    "QT_VERSION": "6.11.1",
                     "QT_ARCH": "linux_gcc_64",
                     "QT_HOST": "linux",
                     "LIBSSL_DIR_URL": "http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/",
