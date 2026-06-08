@@ -62,10 +62,11 @@ jobs:
                     "SQLITE_ARCH": "x64",
                     "OUTPUT_FILE_ARCH": "x64"
                 }'
+                # Qt 6.7 for Linux on ARM, as newer versions of Qt for ARM require Ubuntu 24 (and its newer glibc)
                 MATRIX_ARM64='{
                     "OS": "ubuntu-22.04-arm",
                     "TARGET_ARCH": "aarch64",
-                    "QT_VERSION": "6.10.3",
+                    "QT_VERSION": "6.7.3",
                     "QT_ARCH": "linux_gcc_arm64",
                     "QT_HOST": "linux_arm64",
                     "LIBSSL_DIR_URL": "http://ports.ubuntu.com/pool/main/o/openssl/",
