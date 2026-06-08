@@ -161,13 +161,26 @@ CpConfigDialogProvider::Navigator CpConfigDialogProvider::readConfigDialogUiXml(
 
     QString xml = QString::fromUtf8(uiFile.readAll());
 
+    bool success;
+    QString errorMsg;
+    int errorLine;
+    int errorColumn;
+
+#if QT_VERSION >= QT_VERSION_CHECK(6, 5, 0)
     QDomDocument::ParseResult parseResult = doc.setContent(xml);
-    if (!parseResult)
+    errorMsg = parseResult.errorMessage;
+    errorLine = parseResult.errorLine;
+    errorColumn = parseResult.errorColumn;
+    success = !!parseResult;
+#else
+    success = doc.setContent(xml, &errorMsg, &errorLine, &errorColumn);
+#endif
+    if (!success)
     {
         qWarning() << "Failed to parse:" << uiFile.fileName();
-        qWarning() << "XML parse error:" << parseResult.errorMessage
-                    << "line:" << parseResult.errorLine
-                    << "column:" << parseResult.errorColumn;
+        qWarning() << "XML parse error:" << errorMsg
+                    << "line:" << errorLine
+                    << "column:" << errorColumn;
         return Navigator();
     }
 
