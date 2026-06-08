@@ -64,7 +64,7 @@ jobs:
                         "PYTHON_VERSION": "3.12"
                     },
                     "6.10": {
-                        "QT_VERSION": "6.10.2",
+                        "QT_VERSION": "6.11.1",
                         "PYTHON_VERSION": "3.12"
                     }
                 }'

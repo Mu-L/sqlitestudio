@@ -314,13 +314,13 @@ jobs:
               run: |
                 mkdir platforms imageformats iconengines printsupport platformthemes platforminputcontexts wayland-decoration-client wayland-graphics-integration-client wayland-shell-integration tls
                 cp -P ${{ env.QT_ROOT_DIR }}/plugins/platforms/libqxcb.so platforms/libqxcb.so
-                cp -P ${{ env.QT_ROOT_DIR }}/plugins/platforms/libqwayland-*.so platforms/
+                cp -P ${{ env.QT_ROOT_DIR }}/plugins/platforms/libqwayland*.so platforms/
                 for f in qgif qicns qico qjpeg qsvg qtga qtiff qwbmp qwebp; do
                     cp -P ${{ env.QT_ROOT_DIR }}/plugins/imageformats/lib$f.so imageformats/lib$f.so
                 done
                 cp -P ${{ env.QT_ROOT_DIR }}/plugins/iconengines/libqsvgicon.so iconengines/libqsvgicon.so
                 cp -P ${{ env.QT_ROOT_DIR }}/plugins/printsupport/libcupsprintersupport.so printsupport/libcupsprintersupport.so
-                cp -P ${{ env.QT_ROOT_DIR }}/plugins/platformthemes/libqgtk3.so platformthemes/libqgtk3.so
+                cp -P ${{ env.QT_ROOT_DIR }}/plugins/platformthemes/* platformthemes/
                 cp -P ${{ env.QT_ROOT_DIR }}/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so platforminputcontexts/libcomposeplatforminputcontextplugin.so
                 cp -P ${{ env.QT_ROOT_DIR }}/plugins/wayland-decoration-client/*.so wayland-decoration-client/
                 cp -P ${{ env.QT_ROOT_DIR }}/plugins/wayland-graphics-integration-client/*.so wayland-graphics-integration-client/
