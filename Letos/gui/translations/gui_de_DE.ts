@@ -957,7 +957,7 @@
     <message>
         <location filename="../commandpalette/commandpalette.cpp" line="53"/>
         <source>Search anything...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Search anything...</translation>
     </message>
 </context>
 <context>
@@ -2279,20 +2279,20 @@
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
         <source>Configure hotkey: %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Configure hotkey: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
         <source>Open configuration on the &quot;%1&quot; page</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Open configuration on the &quot;%1&quot; page</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
         <source>Configure: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Configure: %1</translation>
     </message>
 </context>
 <context>
@@ -5023,7 +5023,7 @@ Bitte geben Sie einen neuen, eindeutigen Namen an oder drücken Sie %1, um den V
     <message>
         <location filename="../mainwindow.cpp" line="345"/>
         <source>Open Command Palette</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Open Command Palette</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="362"/>
@@ -5039,7 +5039,7 @@ Bitte geben Sie einen neuen, eindeutigen Namen an oder drücken Sie %1, um den V
         <location filename="../mainwindow.cpp" line="382"/>
         <source>arrange</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">arrange</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="471"/>
@@ -6169,7 +6169,7 @@ Bitte geben Sie einen neuen, eindeutigen Namen an oder drücken Sie %1, um den V
     <message>
         <location filename="../mainwindow.h" line="79"/>
         <source>Open Command Palette</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Open Command Palette</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="80"/>
@@ -6599,37 +6599,37 @@ Bitte geben Sie einen neuen, eindeutigen Namen an oder drücken Sie %1, um den V
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
         <source>Edit database properties</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Edit database properties</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
         <source>Open table</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Open table</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
         <source>Edit index</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Index bearbeiten</translation>
+        <translation>Index bearbeiten</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
         <source>Edit trigger</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Trigger bearbeiten</translation>
+        <translation>Trigger bearbeiten</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
         <source>Open view</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Open view</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
         <source>Bring the window to front</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bring the window to front</translation>
     </message>
 </context>
 <context>
