@@ -141,11 +141,6 @@ void DbDialog::showEvent(QShowEvent *e)
         testConnectionClicked();
 
     QDialog::showEvent(e);
-
-    // On Linux+Wayland this dialog does not seem to get focus properly, causing issues with the WidgetIndicator tooltips
-    raise();
-    activateWindow();
-    ui->fileEdit->setFocus();
 }
 
 void DbDialog::init()
