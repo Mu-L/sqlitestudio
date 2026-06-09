@@ -2398,13 +2398,13 @@
         <translation>Nombre de lignes chargées : %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1369"/>
+        <location filename="../dataview.cpp" line="1370"/>
         <source>Filter by text (if contains)</source>
         <comment>data view</comment>
         <translation>Filtrer par texte (si contenu)</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1370"/>
+        <location filename="../dataview.cpp" line="1371"/>
         <source>Filter strictly by text (if equals)</source>
         <comment>data view</comment>
         <translation>Filtrer strictement par texte (si égal)</translation>
@@ -2457,35 +2457,35 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>Le total des lignes en cours de comptage. La navigation d’autres pages à la fin du comptage.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1336"/>
+        <location filename="../dataview.cpp" line="1337"/>
         <source>Filter</source>
         <translation>Filtre</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1339"/>
+        <location filename="../dataview.cpp" line="1340"/>
         <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
         <translation>Appuyez sur la touche Entrée ou appuyez sur &quot;Appliquer le filtre&quot; dans la barre d&apos;outils pour appliquer une nouvelle valeur.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1371"/>
+        <location filename="../dataview.cpp" line="1372"/>
         <source>Filter by the Regular Expression</source>
         <comment>data view</comment>
         <translation>Filtrer par une expression standard</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1372"/>
+        <location filename="../dataview.cpp" line="1373"/>
         <source>Filter by SQL expression</source>
         <comment>data view</comment>
         <translation>Filtrer par une expression SQL</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1391"/>
+        <location filename="../dataview.cpp" line="1392"/>
         <source>Show filter inputs per column</source>
         <comment>data view</comment>
         <translation>Afficher les entrées de filtre par colonne</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1395"/>
+        <location filename="../dataview.cpp" line="1396"/>
         <source>Apply filter</source>
         <comment>data view</comment>
         <translation>Appliquer le filtre</translation>
@@ -2510,7 +2510,7 @@ Browsing other pages will be possible after the row counting is done.</source>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="45"/>
-        <location filename="../dialogs/dbdialog.cpp" line="195"/>
+        <location filename="../dialogs/dbdialog.cpp" line="194"/>
         <source>File</source>
         <translation>Fichier</translation>
     </message>
@@ -2556,79 +2556,79 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>Tester la connexion</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="356"/>
+        <location filename="../dialogs/dbdialog.cpp" line="355"/>
         <source>Browse</source>
         <translation>Navigateur</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="529"/>
+        <location filename="../dialogs/dbdialog.cpp" line="528"/>
         <source>Database type not selected.</source>
         <translation>Type de base de données non sélectionné.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="536"/>
+        <location filename="../dialogs/dbdialog.cpp" line="535"/>
         <source>Database path not specified.</source>
         <translation>Chemin de la base de données non spécifié.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="569"/>
+        <location filename="../dialogs/dbdialog.cpp" line="568"/>
         <source>Enter an unique database name.</source>
         <translation>Entrez un nom de base de données unique.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="579"/>
+        <location filename="../dialogs/dbdialog.cpp" line="578"/>
         <source>This name is already in use. Please enter unique name.</source>
         <translation>Ce nom est déjà utilisé. Veuillez entrer un nom unique.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="586"/>
+        <location filename="../dialogs/dbdialog.cpp" line="585"/>
         <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
         <translation>&lt;p&gt;La génération automatique de noms a été désactivée, car le nom a été modifié manuellement. Pour restaurer la génération automatique, veuillez effacer le nom dans le champ correspondant.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="595"/>
+        <location filename="../dialogs/dbdialog.cpp" line="594"/>
         <source>Enter a database file path.</source>
         <translation>Entrez le chemin du fichier de la base de données.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="601"/>
+        <location filename="../dialogs/dbdialog.cpp" line="600"/>
         <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
         <translation type="unfinished">You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="611"/>
+        <location filename="../dialogs/dbdialog.cpp" line="610"/>
         <source>This database is already on the list under name: %1</source>
         <translation>Cette base de données est déjà dans la liste sous le nom de : %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="633"/>
+        <location filename="../dialogs/dbdialog.cpp" line="632"/>
         <source>Select a database type.</source>
         <translation>Sélectionnez un type de base de données.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="658"/>
+        <location filename="../dialogs/dbdialog.cpp" line="657"/>
         <source>Automatic</source>
         <comment>database name</comment>
         <translation type="unfinished">Automatic</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="659"/>
+        <location filename="../dialogs/dbdialog.cpp" line="658"/>
         <source>Change</source>
         <comment>database name</comment>
         <translation type="unfinished">Change</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="668"/>
+        <location filename="../dialogs/dbdialog.cpp" line="667"/>
         <source>(empty)</source>
         <translation type="unfinished">(empty)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="838"/>
+        <location filename="../dialogs/dbdialog.cpp" line="837"/>
         <source>Choose a location for the new database file</source>
         <translation>Choisissez un emplacement pour le nouveau fichier de base de données</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="839"/>
+        <location filename="../dialogs/dbdialog.cpp" line="838"/>
         <source>Browse for existing database file on local computer</source>
         <translation>Chercher un fichier de base de données sur l&apos;ordinateur local</translation>
     </message>
@@ -7275,34 +7275,34 @@ recherche suivant</translation>
         <translation>Nombre de lignes à inserer :</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2078"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>Delete rows</source>
         <translation>Supprimer les lignes</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Vous vous apprêtez à supprimer des lignes nouvellement insérées qui ne sont pas encore validées. Numéros de ligne : %1
 Cette suppression sera permanente. Êtes-vous sûr de vouloir les supprimer ?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2206"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2213"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>Middle-click resets sorting.</source>
         <translation type="unfinished">Middle-click resets sorting.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>More options are available in the context menu.</source>
         <translation type="unfinished">More options are available in the context menu.</translation>
     </message>
