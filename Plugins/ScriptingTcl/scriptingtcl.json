@@ -3,5 +3,5 @@
     "title":        "Tcl scripting",
     "description":  "Provides Tcl scripting language support for SQLiteStudio.",
     "version":      10003,
-    "author":       "SalSoft"
+    "author":       "letos.org"
 }

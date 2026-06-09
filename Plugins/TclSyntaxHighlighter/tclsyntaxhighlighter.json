@@ -3,5 +3,5 @@
     "title":       "Tcl syntax highlighting",
     "description": "Provides Tcl syntax highlighting support.",
     "version":     10000,
-    "author":      "SalSoft"
+    "author":      "letos.org"
 }

@@ -3,7 +3,7 @@
     "title":         "Android SQLite",
     "description":   "Provides support for remote SQLite databases on Android devices.",
     "version":       10202,
-    "author":        "SalSoft",
+    "author":        "letos.org",
     "minAppVersion": 30300,
     "gui":           true,
     "loadByDefault": false

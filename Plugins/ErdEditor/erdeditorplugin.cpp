@@ -35,7 +35,7 @@ void ErdEditorPlugin::deinit()
     for (ErdWindow* win : windows)
         win->getMdiWindow()->close();
 
-    MAINWINDOW->getToolBar(MainWindow::TOOLBAR_MAIN)->removeAction(openErdEditorAction);
+    // Action is child of this object, so it will be deleted and thus removed from all action containers
     ErdWindow::staticCleanup();
     SQLS_CLEANUP_RESOURCE(erdeditor);
 }

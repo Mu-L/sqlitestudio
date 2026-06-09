@@ -3,7 +3,7 @@
     "title":        "Printing",
     "description":  "Provides printing support.",
     "version":      10003,
-    "author":       "SalSoft",
+    "author":       "letos.org",
     "gui":          true,
     "dependencies": "PdfExport"
 }
