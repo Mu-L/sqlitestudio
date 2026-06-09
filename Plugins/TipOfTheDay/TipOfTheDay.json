@@ -1,0 +1,10 @@
+{
+    "type":          "GeneralPurposePlugin",
+    "title":         "Tip Of The Day",
+    "description":   "Provides useful tips and hints for this app after startup and on demand.",
+    "version":       10000,
+    "author":        "letos.org",
+    "minAppVersion": 40000,
+    "gui":           true,
+    "loadByDefault": true
+}

@@ -1,0 +1,12 @@
+#ifndef TIPOFTHEDAY_GLOBAL_H
+#define TIPOFTHEDAY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(TIPOFTHEDAY_LIBRARY)
+#  define TIPOFTHEDAY_EXPORT Q_DECL_EXPORT
+#else
+#  define TIPOFTHEDAY_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // TIPOFTHEDAY_GLOBAL_H

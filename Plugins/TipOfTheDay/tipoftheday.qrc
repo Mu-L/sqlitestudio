@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>tipoftheday.svg</file>
+    </qresource>
+    <qresource prefix="/forms">
+        <file>tipofthedayconfig.ui</file>
+    </qresource>
+    <qresource prefix="/totd">
+        <file>OfflineTips.md</file>
+    </qresource>
+</RCC>

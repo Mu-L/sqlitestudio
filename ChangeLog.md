@@ -18,12 +18,12 @@
 - ADDED: #4662 ScriptingPython plugin now allow selecting Python installed in your system and it's compatible with all recent (and not so recent) Python versions. Big thanks to @tuffnatty for this!
 - ADDED: #4117 Syntax highlighting now supports bold/italic settings.
 - ADDED: #3365 Added Tcl syntax highlighter plugin.
+- ADDED: #3283 Added Tip of the Day plugin.
 - ADDED: #5449 User can now change size of icons on toolbars.
 - ADDED: #5493 Password input (for example in database dialog for encrypted files) has now icon to show/hide the password.
 - ADDED: #4677 Search function for Form View text fields (with Ctrl+f/Cmd+f hotkey).
 - ADDED: #4598 Ctrl+f/Cmd+f hotkey in Grid View now moves focus to filter input.
 - ADDED: #5212 F2 hotkey in SQL editor opens database object being currently at the cursor position (if any).
-- ADDED: #5468 Updates checking option for CLI app (--cu or --check-updates).
 - ADDED: #5150 Added the Disable Blinkinig Cursor (for SQL Editor) option in the configuration dialog.
 - ADDED: #4232 Application will warn in status field if the open database was recently edited by a higher version of SQLite and that it may potentially cause some issues.
 - ADDED: #5552 Support for new syntax variants of ALTER TABLE.
