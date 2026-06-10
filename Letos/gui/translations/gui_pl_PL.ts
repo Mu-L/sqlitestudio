@@ -41,12 +41,12 @@
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="14"/>
         <source>About Letos and licenses</source>
-        <translation type="unfinished">About Letos and licenses</translation>
+        <translation>O Letosie i licencje</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="30"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://salsoft.com.pl&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://salsoft.com.pl&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://salsoft.com.pl&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://salsoft.com.pl&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Darmowy, otwartoźródłowy, międzyplatformowy menedżer bazy danych SQLite&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Autor i aktywny opiekun:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://salsoft.com.pl&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://salsoft.com.pl&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="75"/>
@@ -192,12 +192,12 @@
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="85"/>
         <source>Import snippets from file</source>
-        <translation type="unfinished">Import snippets from file</translation>
+        <translation>Importuj fragmenty z pliku</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="86"/>
         <source>Export snippets to file</source>
-        <translation type="unfinished">Export snippets to file</translation>
+        <translation>Eksportuj fragmenty do pliku</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="87"/>
@@ -225,12 +225,12 @@
     <message>
         <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
         <source>Name:</source>
-        <translation type="unfinished">Name:</translation>
+        <translation>Nazwa:</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
         <source>Hotkey:</source>
-        <translation type="unfinished">Hotkey:</translation>
+        <translation>Klawisz skrótu:</translation>
     </message>
 </context>
 <context>
@@ -238,12 +238,12 @@
     <message>
         <location filename="../codesnippetspanel.ui" line="17"/>
         <source>Code Snippets</source>
-        <translation type="unfinished">Code Snippets</translation>
+        <translation>Fragmenty Kodu</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.ui" line="43"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Przeciągnij do edytora SQL, aby użyć fragmentu.&lt;/p&gt;&lt;p&gt;Upuść tutaj dowolny kod (lub tekst), aby dodać nowy fragment kodu.&lt;/p&gt;&lt;p&gt;Dwukrotnie kliknij, aby edytować fragment.&lt;/p&gt;&lt;p&gt;Fragmenty kodu są również dostępne w Asystencie Kodowania. Użyj go dwukrotnie, aby wyświetlić fragmenty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.ui" line="69"/>
@@ -253,12 +253,12 @@
     <message>
         <location filename="../codesnippetspanel.cpp" line="69"/>
         <source>Add code snippet</source>
-        <translation type="unfinished">Add code snippet</translation>
+        <translation>Dodaj fragment kodu</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="69"/>
         <source>Enter a name for the new code snippet:</source>
-        <translation type="unfinished">Enter a name for the new code snippet:</translation>
+        <translation>Wprowadź nazwę nowego fragmentu kodu:</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="97"/>
@@ -306,7 +306,7 @@
     <message>
         <location filename="../windows/collationseditor.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wykonuje logikę sekwencji porządkowania bezpośrednio w Letos używając języka skryptowego. Wybierz ten typ, aby utworzyć w pełni niestandardowe reguły sortowania i porównywania bez konieczności zewnętrznych rozszerzeń SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="251"/>
@@ -316,7 +316,7 @@
     <message>
         <location filename="../windows/collationseditor.ui" line="258"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Używa sekwencji porządkowania zaimplementowanej przez rozszerzenie SQLite lub zewnętrzną bibliotekę. Wybierz ten typ, gdy logika porównania już istnieje poza Letos, na przykład w ICU lub innym rozszerzeniu SQLit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="261"/>
@@ -356,12 +356,12 @@
     <message>
         <location filename="../windows/collationseditor.cpp" line="67"/>
         <source>Import collations from file</source>
-        <translation type="unfinished">Import collations from file</translation>
+        <translation>Importuj sekwencje porządkowania z pliku</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="68"/>
         <source>Export collations to file</source>
-        <translation type="unfinished">Export collations to file</translation>
+        <translation>Eksportuj sekwencje porządkowania do pliku</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="69"/>
@@ -409,27 +409,27 @@
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="219"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>wszystkie bazy danych</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="224"/>
         <source>Collation:</source>
-        <translation type="unfinished">Collation:</translation>
+        <translation>Sekwencja porządkowania:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="225"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Typ:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="226"/>
         <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+        <translation>Język:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="227"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Zarejestrowana w:</translation>
     </message>
 </context>
 <context>
@@ -450,17 +450,17 @@
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="65"/>
         <source>Custom colors</source>
-        <translation type="unfinished">Custom colors</translation>
+        <translation>Kolory użytkownika</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="73"/>
         <source>Add custom color</source>
-        <translation type="unfinished">Add custom color</translation>
+        <translation>Dodaj kolor</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="219"/>
         <source>Select color</source>
-        <translation type="unfinished">Select color</translation>
+        <translation>Wybierz kolor</translation>
     </message>
 </context>
 <context>
@@ -564,17 +564,17 @@
     <message>
         <location filename="../dialogs/columndialog.ui" line="138"/>
         <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Ta kolumna jest częścią złożonego klucza głównego. Klucze złożone są konfigurowane w dolnej części zakładki Struktura.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="141"/>
         <source>Composite Primary Key</source>
-        <translation type="unfinished">Composite Primary Key</translation>
+        <translation>Złożony Klucz Główny</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="161"/>
         <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Ta kolumna jest częścią złożonego klucza obcego. Klucze złożone są konfigurowane w dolnej części zakładki Struktura.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="164"/>
@@ -1603,12 +1603,12 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="992"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
-        <translation type="unfinished">Preview of editors for this data type (drag to reorder):</translation>
+        <translation>Podgląd edytorów dla tego typu danych (przeciągnij, aby zmienić kolejność):</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1016"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Możesz określić, które renderery komórek są używane dla określonych typów danych deklarowanych w kolumnach tabeli (wielkość liter jest różna). Jeśli nie zdefiniowano żadnego renderera dla danego typu, używany jest domyślny renderer&lt;/p&gt;&lt;p&gt;Opcjonalne wtyczki mogą dostarczyć dodatkowe renderery i ustawić ich własne domyślne renderery dla typów danych, które wciąż możesz tutaj nadpisać.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1045"/>
@@ -1618,17 +1618,17 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1050"/>
         <source>Renderer</source>
-        <translation type="unfinished">Renderer</translation>
+        <translation>Renderer</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gdy jest wiele zapytań, wykonuje tylko zapytanie spod aktualnej pozycja edycji.&lt;br/&gt;Gdy wyłączone, wszystkie zapytania są wykonywane.&lt;br/&gt;Możesz również wykonać wybrane zapytania lub użyć skrótów (%1 dla jednej, %2 dla wszystkich).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Podkreśla zapytanie spod aktualnej pozycja edycji - to samo zapytanie, które będzie wykonywane przy użyciu &lt;span style=&quot; font-style:italic;&quot;&gt;Wykonaj zapytanie&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="524"/>
@@ -1713,43 +1713,43 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1227"/>
         <source>Remove older messages</source>
-        <translation type="unfinished">Remove older messages</translation>
+        <translation>Usuń starsze wiadomości</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1269"/>
         <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Określa maksymalną liczbę miejsc po przecinku wyświetlanych dla czasu wykonania zapytania. Można skonfigurować do 9 cyfr (nanosekundy). Zera na końcu są automatycznie przycięte.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1272"/>
         <source>Execution time precision (decimal places)</source>
-        <translation type="unfinished">Execution time precision (decimal places)</translation>
+        <translation>Dokładność czasu wykonania (miejsca dziesiętne)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Jeśli włączone, linie dłuższe niż szerokość edytora będą zawijane, więc przewijanie poziome nie będzie potrzebne.&lt;/p&gt;&lt;p&gt;Ta opcja definiuje wartość domyślną globalną, podczas gdy poszczególne okna edytora SQL mogą zastąpić ją lokalnie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Disable blinking text cursor</source>
-        <translation type="unfinished">Disable blinking text cursor</translation>
+        <translation>Wyłącz miganie kursora tekstu</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Trigger assistant after typing a dot</source>
-        <translation type="unfinished">Trigger assistant after typing a dot</translation>
+        <translation>Uruchom asystenta po wpisaniu kropki</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
-        <translation type="unfinished">When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</translation>
+        <translation>Gdy włączone, wywołanie uzupełnienia kodu w pustym edytorze pokazuje najpierw fragmenty kodu zamiast sugestii składni. Ponowne wywołanie uzupełnienia kodu przełącza się na sugestie składni (i odwrotnie).</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Prefer snippets in empty editor</source>
-        <translation type="unfinished">Prefer snippets in empty editor</translation>
+        <translation>Preferuj fragmenty w pustym edytorze</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1385"/>
@@ -1759,13 +1759,13 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1394"/>
         <source>Query history size:</source>
-        <translation type="unfinished">Query history size:</translation>
+        <translation>Rozmiar historii zapytań:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1420"/>
         <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Maksymalna liczba parametrów zapytania (:param, @param, $param, ?) trzymanych w historii. Kiedy ponownie użyjesz parametru o tej samej nazwie/pozycji, Letos wstępnie uzupełni go używając ostatniej zapamiętanej wartości (nadal będzie można ją zmienić). Wartość 1000 powinna być wystarczająca.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1764"/>
@@ -1847,18 +1847,18 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Toolbars</source>
-        <translation type="unfinished">Toolbars</translation>
+        <translation>Paski narzędzi</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2700"/>
         <location filename="../dialogs/configdialog.ui" line="2710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wyrażony w procentach domyślnego rozmiaru.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
-        <translation type="unfinished">Icon size</translation>
+        <translation>Rozmiar ikon</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2828"/>
@@ -1893,7 +1893,7 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="3147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Wskazówka:&lt;/span&gt; Oprócz ustawień dostępnych tutaj, rozmiary czcionek można również regulować dynamicznie w większości elementów interfejsu, przytrzymując &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; i używając kółka myszy &lt;span style=&quot; font-weight:700;&quot;&gt;&lt;/span&gt; nad elementem, którego rozmiar czcionki chcesz zmienić.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3166"/>
@@ -1971,7 +1971,7 @@
         <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>File:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">File:</translation>
+        <translation>Plik:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1132"/>
@@ -2180,20 +2180,20 @@
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
         <source>Configure hotkey: %1 (%2)</source>
-        <translation type="unfinished">Configure hotkey: %1 (%2)</translation>
+        <translation>Skonfiguruj klawisz skrótu: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
         <source>Open configuration on the &quot;%1&quot; page</source>
-        <translation type="unfinished">Open configuration on the &quot;%1&quot; page</translation>
+        <translation>Otwórz konfigurację na stronie &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
         <source>Configure: %1</source>
-        <translation type="unfinished">Configure: %1</translation>
+        <translation>Konfiguruj: %1</translation>
     </message>
 </context>
 <context>
@@ -2201,7 +2201,7 @@
     <message>
         <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
         <source>Letos CSS console</source>
-        <translation type="unfinished">Letos CSS console</translation>
+        <translation>Konsola CSS Letosa</translation>
     </message>
 </context>
 <context>

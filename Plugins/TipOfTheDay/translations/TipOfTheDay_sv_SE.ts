@@ -6,7 +6,7 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tips &amp;amp; Tricks are kept up to date on the Letos&apos;s wiki page and this option makes Letos get them from there.&lt;/p&gt;&lt;p&gt;You can disable it, so Letos will not attempt to make network connection. In that case it will use internal list, that was updated manually during this version release and may become outdated.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tips &amp; Tricks are kept up to date on the Letos&apos;s wiki page and this option makes Letos get them from there.&lt;/p&gt;&lt;p&gt;You can disable it, so Letos will not attempt to make network connection. In that case it will use internal list, that was updated manually during this version release and may become outdated.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tips &amp; Tricks are kept up to date on the Letos&apos;s wiki page and this option makes Letos get them from there.&lt;/p&gt;&lt;p&gt;You can disable it, so Letos will not attempt to make network connection. In that case it will use internal list, that was updated manually during this version release and may become outdated.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="23"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="36"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/Tips_&amp;amp;_Tricks&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;Open the Tips Wiki page in your browser&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/Tips_&amp;_Tricks&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;Open the Tips Wiki page in your browser&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/Tips_&amp;_Tricks&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;Open the Tips Wiki page in your browser&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="49"/>
@@ -39,7 +39,7 @@
     <message>
         <location filename="../tipofthedaydialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/Tips_&amp;amp;_Tricks&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;Full list online&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/Tips_&amp;_Tricks&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;Full list online&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/Tips_&amp;_Tricks&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;Full list online&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="24"/>
