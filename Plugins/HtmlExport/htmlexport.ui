@@ -25,9 +25,6 @@
         <property name="text">
          <string>No custom header</string>
         </property>
-        <property name="shortcut">
-         <string>Ctrl+S</string>
-        </property>
         <property name="cfg" stdset="0">
          <string notr="true">HtmlExport.CustomHeaderMode</string>
         </property>
@@ -199,9 +196,6 @@
        <widget class="ConfigRadioButton" name="noCustomFtrRadio">
         <property name="text">
          <string>No custom footer</string>
-        </property>
-        <property name="shortcut">
-         <string>Ctrl+S</string>
         </property>
         <property name="cfg" stdset="0">
          <string notr="true">HtmlExport.CustomFooterMode</string>
