@@ -85,7 +85,7 @@
       <item row="2" column="0" colspan="2">
        <widget class="QGroupBox" name="execModeGroup">
         <property name="title">
-         <string>Exection mode</string>
+         <string>Execution mode</string>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_2">
          <item>
