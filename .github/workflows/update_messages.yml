@@ -32,6 +32,8 @@ jobs:
                 set -euo pipefail
                 echo "Using lupdate: $(which lupdate) ($(lupdate -version))"
 
+                reference_ts_dir="Letos/gui/translations"
+
                 dirs=()
 
                 for p in core gui letos
@@ -48,6 +50,25 @@ jobs:
                 for d in "${dirs[@]}"
                 do
                     [ -d "$d"/translations ] || continue
+
+                    # If this is a plugin with an empty translations directory,
+                    # create .ts files for the same languages as Letos/letos/translations.
+                    if [[ "$d" == Plugins/* ]] && ! find "$d/translations" -name "*.ts" -print -quit | grep -q .
+                    then
+                        plugin_name="$(basename "$d")"
+
+                        for ref_ts in "$reference_ts_dir"/*.ts
+                        do
+                            [ -f "$ref_ts" ] || continue
+
+                            ref_base="$(basename "$ref_ts")"
+                            lang="${ref_base#gui_}"
+                            target_ts="$d/translations/${plugin_name}_${lang}"
+
+                            touch "$target_ts"
+                        done
+                    fi
+
                     lupdate "$d" -ts "$d"/translations/*.ts
 
                     find "$d"/translations -name "*.ts" | while read f; do
