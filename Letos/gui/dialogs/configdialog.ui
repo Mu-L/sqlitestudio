@@ -172,7 +172,7 @@
               <string>SQL Editor</string>
              </property>
              <property name="statusTip">
-              <string>sqlEditorPage</string>
+              <string notr="true">sqlEditorPage</string>
              </property>
              <property name="icon">
               <iconset resource="../icons.qrc">
@@ -487,8 +487,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>679</width>
-                <height>900</height>
+                <width>439</width>
+                <height>882</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_34">
@@ -2586,8 +2586,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>711</width>
-                <height>538</height>
+                <width>389</width>
+                <height>363</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_31">
@@ -3136,8 +3136,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>695</width>
-                <height>522</height>
+                <width>235</width>
+                <height>493</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -3279,14 +3279,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
  </widget>
  <customwidgets>
   <customwidget>
-   <class>ColorButton</class>
-   <extends>QPushButton</extends>
-   <header>common/colorbutton.h</header>
-  </customwidget>
-  <customwidget>
    <class>ConfigRadioButton</class>
    <extends>QRadioButton</extends>
    <header>common/configradiobutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ColorButton</class>
+   <extends>QPushButton</extends>
+   <header>common/colorbutton.h</header>
   </customwidget>
   <customwidget>
    <class>FontEdit</class>
