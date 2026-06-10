@@ -651,7 +651,6 @@ PyObject* ScriptingPython::variantToPythonObj(const QVariant& value)
             {
                 PyObject* subObj = variantToPythonObj(item);
                 PyList_SetItem(obj, pos++, subObj);
-                Py_DECREF(subObj);
             }
 
             break;
@@ -666,7 +665,6 @@ PyObject* ScriptingPython::variantToPythonObj(const QVariant& value)
             {
                 PyObject* subObj = stringToPythonObj(item);
                 PyList_SetItem(obj, pos++, subObj);
-                Py_DECREF(subObj);
             }
 
             break;
