@@ -51,8 +51,9 @@ jobs:
                 do
                     [ -d "$d"/translations ] || continue
 
-                    # If this is a plugin with an empty translations directory,
+                    # If this is a plugin with (almost) empty translations directory,
                     # create .ts files for the same languages as Letos/letos/translations.
+                    # Just create single empty file in the translations directory - PluginName/translations/PluginName.ts
                     if [[ "$d" == Plugins/* ]] && ! find "$d/translations" -name "*.ts" -print -quit | grep -q .
                     then
                         plugin_name="$(basename "$d")"
