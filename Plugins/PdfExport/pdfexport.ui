@@ -296,7 +296,7 @@
          <string>No custom header</string>
         </property>
         <property name="shortcut">
-         <string>Ctrl+S</string>
+         <string notr="true">Ctrl+S</string>
         </property>
         <property name="cfg" stdset="0">
          <string notr="true">PdfExport.CustomHeaderMode</string>
