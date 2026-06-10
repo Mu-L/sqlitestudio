@@ -312,7 +312,7 @@ int MultiEditorJsonPlugin::getPriority(const QVariant& value, const DataType& da
 
 QString MultiEditorJsonPlugin::getTabLabel()
 {
-    return tr("JSON");
+    return "JSON";
 }
 
 bool MultiEditorJsonPlugin::init()
