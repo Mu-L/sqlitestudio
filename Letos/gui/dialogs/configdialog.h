@@ -64,6 +64,8 @@ class GUI_API_EXPORT ConfigDialog : public QDialog
         static QString getFilterString(QListWidget* widget);
         static QString getFilterString(QTableWidget* widget);
 
+        static ConfigDialog* openModal();
+
     protected:
         void showEvent(QShowEvent* event);
 

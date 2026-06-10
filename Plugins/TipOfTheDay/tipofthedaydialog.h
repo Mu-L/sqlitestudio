@@ -33,6 +33,8 @@ class TipOfTheDayDialog : public QDialog
         int currentIdx = 0;
         QPushButton* prevBtn = nullptr;
         QPushButton* nextBtn = nullptr;
+        QPushButton* configBtn = nullptr;
+        QLabel* counterLabel = nullptr;
         QTimer* readMarkerTimer = nullptr;
 
     private slots:
@@ -40,6 +42,7 @@ class TipOfTheDayDialog : public QDialog
         void nextTip();
         void updateState();
         void markCurrentAsRead();
+        void configure();
 
     signals:
         void markAsRead(const QString& summary);

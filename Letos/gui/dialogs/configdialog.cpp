@@ -276,6 +276,15 @@ QString ConfigDialog::getFilterString(QTableWidget *widget)
     return strList.join(" ");
 }
 
+ConfigDialog* ConfigDialog::openModal()
+{
+    ConfigDialog* dialog = new ConfigDialog();
+    dialog->setAttribute(Qt::WA_DeleteOnClose, true);
+    dialog->setModal(true);
+    dialog->show();
+    return dialog;
+}
+
 void ConfigDialog::showEvent(QShowEvent* event)
 {
     Q_UNUSED(event);

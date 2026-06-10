@@ -1,5 +1,6 @@
 #include "tipofthedaydialog.h"
 #include "ui_tipofthedaydialog.h"
+#include "dialogs/configdialog.h"
 #include <QPushButton>
 #include <QStyle>
 #include <QTimer>
@@ -18,20 +19,23 @@ TipOfTheDayDialog::TipOfTheDayDialog(QWidget *parent) :
     f.setPointSizeF(f.pointSizeF() * 1.2);
     ui->contentEdit->document()->setDefaultFont(f);
 
-    ui->counterLabel->setText("");
+    counterLabel = new QLabel();
 
+    configBtn = ui->buttonBox->addButton(tr("Configure", "tip of the day dialog"), QDialogButtonBox::ActionRole);
     prevBtn = ui->buttonBox->addButton(tr("« Previous", "tip of the day dialog"), QDialogButtonBox::ActionRole);
     nextBtn = ui->buttonBox->addButton(tr("Next »", "tip of the day dialog"), QDialogButtonBox::ActionRole);
+    QPushButton* closeBtn = ui->buttonBox->button(QDialogButtonBox::Close);
 
-    if (auto* layout = qobject_cast<QBoxLayout*>(ui->buttonBox->layout()))
-    {
-        int idx = layout->indexOf(nextBtn);
-        if (idx >= 0)
-            layout->insertSpacing(idx + 1, 30);
-    }
+    auto* layout = qobject_cast<QBoxLayout*>(ui->buttonBox->layout());
+    int idx = layout->indexOf(closeBtn);
+    layout->insertSpacing(idx, 10);
+    layout->insertWidget(idx, counterLabel);
+    idx = layout->indexOf(prevBtn);
+    layout->insertSpacing(idx, 30);
 
     connect(prevBtn, SIGNAL(clicked(bool)), this, SLOT(prevTip()));
     connect(nextBtn, SIGNAL(clicked(bool)), this, SLOT(nextTip()));
+    connect(configBtn, SIGNAL(clicked(bool)), this, SLOT(configure()));
 
     readMarkerTimer = new QTimer(this);
     readMarkerTimer->setSingleShot(true);
@@ -73,7 +77,7 @@ void TipOfTheDayDialog::loadCurrentTip()
     if (currentIdx >= 0 && currentIdx < tips.size())
     {
         ui->contentEdit->setMarkdown(tips[currentIdx].content);
-        ui->counterLabel->setText(QString("[%1/%2]").arg(currentIdx+1).arg(tips.size()));
+        counterLabel->setText(QString("[%1/%2]").arg(currentIdx+1).arg(tips.size()));
         readMarkerTimer->start();
     }
 }
@@ -115,4 +119,10 @@ void TipOfTheDayDialog::markCurrentAsRead()
 {
     if (currentIdx >= 0 && currentIdx < tips.size())
         emit markAsRead(tips[currentIdx].summary);
+}
+
+void TipOfTheDayDialog::configure()
+{
+    ConfigDialog* dialog = ConfigDialog::openModal();
+    dialog->openAtSettingCategory("TipOfTheDayPlugin");
 }
