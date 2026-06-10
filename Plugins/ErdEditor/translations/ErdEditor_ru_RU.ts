@@ -63,9 +63,8 @@
         <translation>Установка слишком большого значения может привести к замедлению работы приложения или подвисанию при открытии редактора ERD.</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="49"/>
         <source>Erd.MaxTableLimit</source>
-        <translation>Erd.MaxTableLimit</translation>
+        <translation type="vanished">Erd.MaxTableLimit</translation>
     </message>
     <message>
         <location filename="../erdconfig.ui" line="56"/>
@@ -78,17 +77,15 @@
         <translation>Прокручивать вид одним пробелом</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="62"/>
         <source>Erd.DragBySpace</source>
-        <translation>Erd.DragBySpace</translation>
+        <translation type="vanished">Erd.DragBySpace</translation>
     </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="14"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="vanished">Форма</translation>
     </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>

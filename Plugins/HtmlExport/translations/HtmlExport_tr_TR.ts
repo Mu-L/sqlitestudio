@@ -134,27 +134,27 @@
 <context>
     <name>HtmlExportConfig</name>
     <message>
-        <location filename="../htmlexport.ui" line="139"/>
+        <location filename="../htmlexport.ui" line="136"/>
         <source>Maximum number of characters per cell:</source>
         <translation>Hücre başına maksimum karakter sayısı:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="185"/>
+        <location filename="../htmlexport.ui" line="182"/>
         <source>Include data types in first row</source>
         <translation>İlk satırda veri tiplerini içer</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="146"/>
+        <location filename="../htmlexport.ui" line="143"/>
         <source>Column names as first row</source>
         <translation>İlk satıda kolon isimleri</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="129"/>
+        <location filename="../htmlexport.ui" line="126"/>
         <source>Row numbers as first column</source>
         <translation>İlk kolon satır sayıları</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="94"/>
+        <location filename="../htmlexport.ui" line="91"/>
         <source>Output format</source>
         <translation>Çıktı formatı</translation>
     </message>
@@ -169,80 +169,78 @@
         <translation type="unfinished">No custom header</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="29"/>
-        <location filename="../htmlexport.ui" line="204"/>
         <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
+        <translation type="obsolete">Ctrl+S</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="42"/>
+        <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
         <translation type="unfinished">Define custom header content</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="55"/>
-        <location filename="../htmlexport.ui" line="230"/>
+        <location filename="../htmlexport.ui" line="52"/>
+        <location filename="../htmlexport.ui" line="224"/>
         <source>HTML content</source>
         <translation type="unfinished">HTML content</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="65"/>
+        <location filename="../htmlexport.ui" line="62"/>
         <source>Define custom header file</source>
         <translation type="unfinished">Define custom header file</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="81"/>
+        <location filename="../htmlexport.ui" line="78"/>
         <source>Choose file for the header</source>
         <translation type="unfinished">Choose file for the header</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="84"/>
-        <location filename="../htmlexport.ui" line="259"/>
+        <location filename="../htmlexport.ui" line="81"/>
+        <location filename="../htmlexport.ui" line="253"/>
         <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
         <translation type="unfinished">HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="100"/>
+        <location filename="../htmlexport.ui" line="97"/>
         <source>Format document (new lines, indentation)</source>
         <translation>Döküman biçimi (yeni satırlar, girintiler)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="113"/>
+        <location filename="../htmlexport.ui" line="110"/>
         <source>Compress (everything in one line)</source>
         <translation>Sıkıştır (her şeyi bir satırda)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="156"/>
+        <location filename="../htmlexport.ui" line="153"/>
         <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Aktif olduğunda, &amp;lt;, &amp;gt; ve &amp; gibi HTML karakterleri çıkartılan dosyalarda kaçış karakteri olarak değerlendirilmez. Bu size hyper-link içeren dökümanları çıkarmayı sağlar, fakat düzgün olmayan HTLM dökümanına da sebep olabilir (eşleşmeyen &amp;lt; ve &amp;gt; karakterleri gibi). Dikkat edin.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="159"/>
+        <location filename="../htmlexport.ui" line="156"/>
         <source>Don&apos;t escape HTML characters</source>
         <translation>HTML karakterlerini ayırma</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="195"/>
+        <location filename="../htmlexport.ui" line="192"/>
         <source>Custom footer</source>
         <translation type="unfinished">Custom footer</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="201"/>
+        <location filename="../htmlexport.ui" line="198"/>
         <source>No custom footer</source>
         <translation type="unfinished">No custom footer</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="217"/>
+        <location filename="../htmlexport.ui" line="211"/>
         <source>Define custom footer content</source>
         <translation type="unfinished">Define custom footer content</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="240"/>
+        <location filename="../htmlexport.ui" line="234"/>
         <source>Define custom footer file</source>
         <translation type="unfinished">Define custom footer file</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="256"/>
+        <location filename="../htmlexport.ui" line="250"/>
         <source>Choose file for the footer</source>
         <translation type="unfinished">Choose file for the footer</translation>
     </message>

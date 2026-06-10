@@ -1129,9 +1129,8 @@
         <translation>Редактор SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="175"/>
         <source>sqlEditorPage</source>
-        <translation type="unfinished">sqlEditorPage</translation>
+        <translation type="obsolete">sqlEditorPage</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="207"/>
@@ -1245,9 +1244,8 @@
         <translation>Преобразовать разделители строк Unicode в LF (\n) в редакторе режима формы</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="517"/>
         <source>General.UseLfForMultilineEditors</source>
-        <translation type="unfinished">General.UseLfForMultilineEditors</translation>
+        <translation type="obsolete">General.UseLfForMultilineEditors</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="527"/>
@@ -1571,9 +1569,8 @@
         <translation type="unfinished">Prefer sqlite_master over sqlite_schema table name</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="299"/>
         <source>General.PreferMasterOverSchema</source>
-        <translation type="unfinished">General.PreferMasterOverSchema</translation>
+        <translation type="obsolete">General.PreferMasterOverSchema</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="322"/>
@@ -1581,9 +1578,8 @@
         <translation type="unfinished">Expand columns, indexes and triggers together with the table</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="325"/>
         <source>DbList.ExpandSubNodes</source>
-        <translation type="unfinished">DbList.ExpandSubNodes</translation>
+        <translation type="obsolete">DbList.ExpandSubNodes</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="363"/>
@@ -1596,9 +1592,8 @@
         <translation type="unfinished">Display column data types</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="369"/>
         <source>DbList.ShowColumnTypeLabels</source>
-        <translation type="unfinished">DbList.ShowColumnTypeLabels</translation>
+        <translation type="obsolete">DbList.ShowColumnTypeLabels</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="376"/>
@@ -1611,9 +1606,8 @@
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="411"/>
         <source>DbList.ShowSystemObjects</source>
-        <translation type="unfinished">DbList.ShowSystemObjects</translation>
+        <translation type="obsolete">DbList.ShowSystemObjects</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="450"/>
@@ -1641,9 +1635,8 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вы можете задать, какие визуализаторы ячеек используются для конкретных типов данных, объявленных в столбцах таблиц (без учета регистра). Если для данного типа не задан визуализатор, используется визуализатор по умолчанию.&lt;/p&gt;&lt;p&gt;Некоторые плагины могут предоставлять дополнительные визуализаторы и устанавливать их собственные сопоставления по умолчанию для типов данных, которые вы по-прежнему можете переопределить здесь.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1038"/>
         <source>General.DataRenderers</source>
-        <translation type="unfinished">General.DataRenderers</translation>
+        <translation type="obsolete">General.DataRenderers</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1045"/>
@@ -1681,9 +1674,8 @@
         <translation type="unfinished">After editing, Enter moves to the next row</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="562"/>
         <source>General.DataEditAutoAdvanceOnEnter</source>
-        <translation type="unfinished">General.DataEditAutoAdvanceOnEnter</translation>
+        <translation type="obsolete">General.DataEditAutoAdvanceOnEnter</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="605"/>
@@ -1701,9 +1693,8 @@
         <translation type="unfinished">Start editing after moving to the next row</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="637"/>
         <source>General.DataEditAutoAdvanceEdit</source>
-        <translation type="unfinished">General.DataEditAutoAdvanceEdit</translation>
+        <translation type="obsolete">General.DataEditAutoAdvanceEdit</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="717"/>
@@ -1716,10 +1707,8 @@
         <translation type="unfinished">Single-click selects column data; double-click sorts by column</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="726"/>
-        <location filename="../dialogs/configdialog.ui" line="739"/>
         <source>General.SingleColumnClickSort</source>
-        <translation type="unfinished">General.SingleColumnClickSort</translation>
+        <translation type="obsolete">General.SingleColumnClickSort</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="736"/>
@@ -1747,11 +1736,8 @@
         <translation type="unfinished">Keep messages</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1198"/>
-        <location filename="../dialogs/configdialog.ui" line="1214"/>
-        <location filename="../dialogs/configdialog.ui" line="1230"/>
         <source>General.StatusFieldMsgFadingMode</source>
-        <translation type="unfinished">General.StatusFieldMsgFadingMode</translation>
+        <translation type="obsolete">General.StatusFieldMsgFadingMode</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1208"/>
@@ -1785,9 +1771,8 @@
         <translation type="unfinished">Execution time precision (decimal places)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1291"/>
         <source>General.SqlEditorExecTimePrecision</source>
-        <translation type="unfinished">General.SqlEditorExecTimePrecision</translation>
+        <translation type="obsolete">General.SqlEditorExecTimePrecision</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1298"/>
@@ -1815,9 +1800,8 @@
         <translation type="unfinished">Prefer snippets in empty editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1375"/>
         <source>General.SqlEditorSnippetsIfEmpty</source>
-        <translation type="unfinished">General.SqlEditorSnippetsIfEmpty</translation>
+        <translation type="obsolete">General.SqlEditorSnippetsIfEmpty</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1385"/>
@@ -1836,30 +1820,12 @@
         <translation type="unfinished">&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1540"/>
-        <location filename="../dialogs/configdialog.ui" line="1630"/>
-        <location filename="../dialogs/configdialog.ui" line="1720"/>
-        <location filename="../dialogs/configdialog.ui" line="1810"/>
-        <location filename="../dialogs/configdialog.ui" line="1900"/>
-        <location filename="../dialogs/configdialog.ui" line="1990"/>
-        <location filename="../dialogs/configdialog.ui" line="2080"/>
-        <location filename="../dialogs/configdialog.ui" line="2170"/>
-        <location filename="../dialogs/configdialog.ui" line="2380"/>
         <source>B</source>
-        <translation type="unfinished">B</translation>
+        <translation type="obsolete">B</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1568"/>
-        <location filename="../dialogs/configdialog.ui" line="1658"/>
-        <location filename="../dialogs/configdialog.ui" line="1748"/>
-        <location filename="../dialogs/configdialog.ui" line="1838"/>
-        <location filename="../dialogs/configdialog.ui" line="1928"/>
-        <location filename="../dialogs/configdialog.ui" line="2018"/>
-        <location filename="../dialogs/configdialog.ui" line="2108"/>
-        <location filename="../dialogs/configdialog.ui" line="2198"/>
-        <location filename="../dialogs/configdialog.ui" line="2408"/>
         <source>I</source>
-        <translation type="unfinished">I</translation>
+        <translation type="obsolete">I</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1764"/>
@@ -1955,9 +1921,8 @@
         <translation>Размер значка</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2713"/>
         <source>General.ToolBarIconSize</source>
-        <translation type="unfinished">General.ToolBarIconSize</translation>
+        <translation type="obsolete">General.ToolBarIconSize</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2828"/>
@@ -2025,109 +1990,109 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Если эта опция включена, окно автодополнения будет вызываться в случае, когда пользователь например набирает &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; чтобы предложить вставить имя столбца. Если опция отключена, пользователь должен нажать комбинацию клавиш для вызова автодополнения.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1110"/>
+        <location filename="../dialogs/configdialog.cpp" line="1119"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Описание:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1111"/>
+        <location filename="../dialogs/configdialog.cpp" line="1120"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Категория:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1112"/>
+        <location filename="../dialogs/configdialog.cpp" line="1121"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Версия:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1113"/>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Автор:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1115"/>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Внутреннее имя:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1116"/>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Зависимости:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1117"/>
+        <location filename="../dialogs/configdialog.cpp" line="1126"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Конфликты:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1118"/>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation type="unfinished">File:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1123"/>
+        <location filename="../dialogs/configdialog.cpp" line="1132"/>
         <source>Plugin details</source>
         <translation>Сведения о модуле</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1744"/>
+        <location filename="../dialogs/configdialog.cpp" line="1753"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Модули загружаются и выгружаются сразу после активации/деактивации, однако изменения в списке загружаемых при старте модулей не будут сохранены пока вы не примените изменения в окне конфигурации.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1802"/>
+        <location filename="../dialogs/configdialog.cpp" line="1811"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (встроенный)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1844"/>
+        <location filename="../dialogs/configdialog.cpp" line="1853"/>
         <source>Details</source>
         <translation>Сведения</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1858"/>
+        <location filename="../dialogs/configdialog.cpp" line="1867"/>
         <source>No plugins in this category.</source>
         <translation>В этой категории модулей нет.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1958"/>
-        <location filename="../dialogs/configdialog.cpp" line="1987"/>
+        <location filename="../dialogs/configdialog.cpp" line="1967"/>
+        <location filename="../dialogs/configdialog.cpp" line="1996"/>
         <source>Add new data type</source>
         <translation>Добавить новый тип данных</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1962"/>
-        <location filename="../dialogs/configdialog.cpp" line="1991"/>
+        <location filename="../dialogs/configdialog.cpp" line="1971"/>
+        <location filename="../dialogs/configdialog.cpp" line="2000"/>
         <source>Rename selected data type</source>
         <translation>Переименовать выбранный тип данных</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1966"/>
-        <location filename="../dialogs/configdialog.cpp" line="1995"/>
+        <location filename="../dialogs/configdialog.cpp" line="1975"/>
+        <location filename="../dialogs/configdialog.cpp" line="2004"/>
         <source>Delete selected data type</source>
         <translation>Удалить выбранный тип данных</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2079"/>
+        <location filename="../dialogs/configdialog.cpp" line="2088"/>
         <source>Clear hotkey for this action</source>
         <translation>Удалить сочетание клавиш для данного действия</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2091"/>
+        <location filename="../dialogs/configdialog.cpp" line="2100"/>
         <source>Restore original hotkey for this action</source>
         <translation>Восстановить сочетание клавиш по умолчанию для данного действия</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2133"/>
+        <location filename="../dialogs/configdialog.cpp" line="2142"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Здесь вы можете настроить цвета для подсветки синтаксиса кода. Они едины для разных языков – не только для SQL, но и для JavaScript и других. По умолчанию используется цвет, установленный в теме. Для задания произвольного цвета установите флажок редактирования рядом с нужным цветом.</translation>
     </message>
@@ -2712,7 +2677,7 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>Базы данных</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2549"/>
+        <location filename="../dbtree/dbtree.cpp" line="2556"/>
         <source>Filter by name</source>
         <translation>Фильтр по имени</translation>
     </message>
@@ -2963,7 +2928,7 @@ Browsing other pages will be possible after the row counting is done.</source>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1931"/>
+        <location filename="../dbtree/dbtree.cpp" line="1938"/>
         <source>Erase table data</source>
         <translation>Удалить данные из таблицы</translation>
     </message>
@@ -3019,139 +2984,139 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation type="unfinished">Generate query for view</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1323"/>
         <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1329"/>
         <source>Create group</source>
         <translation>Создать группу</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1323"/>
+        <location filename="../dbtree/dbtree.cpp" line="1326"/>
         <source>Group name</source>
         <translation>Имя группы</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1329"/>
         <source>Entry with name %1 already exists in group %2.</source>
         <translation>Элемент с именем %1 уже входит в группу %2.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1363"/>
+        <location filename="../dbtree/dbtree.cpp" line="1366"/>
         <source>Delete group</source>
         <translation>Удалить группу</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1364"/>
+        <location filename="../dbtree/dbtree.cpp" line="1367"/>
         <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
         <translation type="unfinished">Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1492"/>
+        <location filename="../dbtree/dbtree.cpp" line="1499"/>
         <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
         <translation>Вы действительно хотите удалить базу данных &apos;%1&apos; из списка?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1500"/>
+        <location filename="../dbtree/dbtree.cpp" line="1507"/>
         <source>Are you sure you want to remove following databases from the list:
 %1</source>
         <translation>Вы действительно хотите удалить следующие базы данных из списка: %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1502"/>
+        <location filename="../dbtree/dbtree.cpp" line="1509"/>
         <source>Remove database</source>
         <translation>Удалить базу данных</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1557"/>
-        <location filename="../dbtree/dbtree.cpp" line="1762"/>
+        <location filename="../dbtree/dbtree.cpp" line="1564"/>
+        <location filename="../dbtree/dbtree.cpp" line="1769"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Невозможно произвести импорт, т. к. не загружено ни одного модуля импорта.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1577"/>
-        <location filename="../dbtree/dbtree.cpp" line="1737"/>
-        <location filename="../dbtree/dbtree.cpp" line="1806"/>
+        <location filename="../dbtree/dbtree.cpp" line="1584"/>
+        <location filename="../dbtree/dbtree.cpp" line="1744"/>
+        <location filename="../dbtree/dbtree.cpp" line="1813"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Невозможно произвести экспорт, т.к. не загружено ни одного модуля экспорта.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1852"/>
+        <location filename="../dbtree/dbtree.cpp" line="1859"/>
         <source>Vacuum (%1)</source>
         <translation>Операция VACUUM (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1866"/>
+        <location filename="../dbtree/dbtree.cpp" line="1873"/>
         <source>Integrity check (%1)</source>
         <translation>Проверка целостности (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1902"/>
+        <location filename="../dbtree/dbtree.cpp" line="1909"/>
         <source>Reset autoincrement</source>
         <translation>Сброс счётчика автоинкремента</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1902"/>
+        <location filename="../dbtree/dbtree.cpp" line="1909"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation>Вы действительно хотите сбросить счётчик автоинкремента у таблицы &apos;%1&apos;?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1916"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation>При попытке сброса счётчика автоинкремента у таблицы &apos;%1&apos; произошла ошибка: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1911"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation>Сброс счётчика автоинкремента у таблицы &apos;%1&apos; успешно выполнен.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1931"/>
+        <location filename="../dbtree/dbtree.cpp" line="1938"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation>Вы действительно хотите удалить все данные из таблицы (таблиц): %1?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1943"/>
+        <location filename="../dbtree/dbtree.cpp" line="1950"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation>При попытке удаления данных из таблицы &apos;%1&apos; произошла ошибка: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1947"/>
+        <location filename="../dbtree/dbtree.cpp" line="1954"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation>Из таблицы &apos;%1&apos; были удалены все данные.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2086"/>
+        <location filename="../dbtree/dbtree.cpp" line="2093"/>
         <source>Following objects will be deleted: %1.</source>
         <translation>Будут удалены следующие объекты: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2089"/>
+        <location filename="../dbtree/dbtree.cpp" line="2096"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation>Из списка будут удалены следующие базы данных: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2092"/>
+        <location filename="../dbtree/dbtree.cpp" line="2099"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation>Оставшиеся после удаления группы объекты будут перемещены туда, где ранее располагалась группа.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2094"/>
+        <location filename="../dbtree/dbtree.cpp" line="2101"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation>%1&lt;br&gt;&lt;br&gt;Вы действительно хотите продолжить?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2096"/>
+        <location filename="../dbtree/dbtree.cpp" line="2103"/>
         <source>Delete objects</source>
         <translation>Удалить объекты</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2575"/>
+        <location filename="../dbtree/dbtree.cpp" line="2582"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2583"/>
+        <location filename="../dbtree/dbtree.cpp" line="2590"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -3747,9 +3712,8 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>Пропуск неудавшихся SQL-запросов</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
         <source>Exection mode</source>
-        <translation type="unfinished">Exection mode</translation>
+        <translation type="obsolete">Exection mode</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
@@ -3770,6 +3734,11 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
         <source>Strict (only SQL content allowed)</source>
         <translation type="unfinished">Strict (only SQL content allowed)</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
+        <source>Execution mode</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
@@ -5701,9 +5670,8 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>PrimaryKeyPanel</name>
     <message>
-        <location filename="../constraints/tableprimarykeypanel.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>

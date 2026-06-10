@@ -63,9 +63,8 @@
         <translation type="unfinished">Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="49"/>
         <source>Erd.MaxTableLimit</source>
-        <translation type="unfinished">Erd.MaxTableLimit</translation>
+        <translation type="obsolete">Erd.MaxTableLimit</translation>
     </message>
     <message>
         <location filename="../erdconfig.ui" line="56"/>
@@ -78,17 +77,15 @@
         <translation type="unfinished">Pan view with Space only</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="62"/>
         <source>Erd.DragBySpace</source>
-        <translation type="unfinished">Erd.DragBySpace</translation>
+        <translation type="obsolete">Erd.DragBySpace</translation>
     </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>

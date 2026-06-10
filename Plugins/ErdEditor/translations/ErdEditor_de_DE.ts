@@ -63,9 +63,8 @@
         <translation>Wird dieser Wert zu hoch eingestellt, kann dies dazu führen, dass die Anwendung beim Öffnen des ERD-Editors langsamer wird oder nicht mehr reagiert.</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="49"/>
         <source>Erd.MaxTableLimit</source>
-        <translation type="unfinished">Erd.MaxTableLimit</translation>
+        <translation type="obsolete">Erd.MaxTableLimit</translation>
     </message>
     <message>
         <location filename="../erdconfig.ui" line="56"/>
@@ -78,17 +77,15 @@
         <translation>Ansicht nur mit Leertaste</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="62"/>
         <source>Erd.DragBySpace</source>
-        <translation type="unfinished">Erd.DragBySpace</translation>
+        <translation type="obsolete">Erd.DragBySpace</translation>
     </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="14"/>
         <source>Form</source>
-        <translation>Formular</translation>
+        <translation type="vanished">Formular</translation>
     </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>

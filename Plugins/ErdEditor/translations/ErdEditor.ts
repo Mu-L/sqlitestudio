@@ -63,11 +63,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="49"/>
-        <source>Erd.MaxTableLimit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../erdconfig.ui" line="56"/>
         <source>Starts panning as soon as the Space key is pressed, without requiring a mouse button press.</source>
         <translation type="unfinished"></translation>
@@ -77,19 +72,9 @@
         <source>Pan view with Space only</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../erdconfig.ui" line="62"/>
-        <source>Erd.DragBySpace</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
-    <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>
         <source>Foreign key properties</source>
