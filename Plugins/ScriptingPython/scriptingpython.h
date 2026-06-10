@@ -22,8 +22,8 @@ class QMutex;
 #include <QLibrary>
 #include <QVersionNumber>
 
-CFG_CATEGORIES(ScriptingPythonConfig,
-     CFG_CATEGORY(ScriptingPython,
+CFG_CATEGORIES_EX(ScriptingPythonConfig, SCRIPTINGPYTHONSHARED_EXPORT,
+     CFG_CATEGORY_EX(ScriptingPython, SCRIPTINGPYTHONSHARED_EXPORT,
          CFG_ENTRY(QString,     LibraryPath,         QString())
          CFG_ENTRY(QStringList, DiscoveredLibraries, QStringList(), false)
      )

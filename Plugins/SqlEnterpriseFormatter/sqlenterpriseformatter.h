@@ -15,8 +15,8 @@ namespace Cfg
     QStringList getNameWrapperStrings();
 }
 
-CFG_CATEGORIES(SqlEnterpriseFormatterConfig,
-    CFG_CATEGORY(SqlEnterpriseFormatter,
+CFG_CATEGORIES_EX(SqlEnterpriseFormatterConfig, SQLENTERPRISEFORMATTERSHARED_EXPORT,
+    CFG_CATEGORY_EX(SqlEnterpriseFormatter, SQLENTERPRISEFORMATTERSHARED_EXPORT,
         CFG_ENTRY(int,         TabSize,                   4)
         CFG_ENTRY(bool,        LineUpKeywords,            true)
         CFG_ENTRY(bool,        IndentParenthesisBlock,    true)

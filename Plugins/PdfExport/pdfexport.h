@@ -19,8 +19,8 @@ namespace Cfg
     PDFEXPORTSHARED_EXPORT QStringList getPdfPageSizes();
 }
 
-CFG_CATEGORIES(PdfExportConfig,
-    CFG_CATEGORY(PdfExport,
+CFG_CATEGORIES_EX(PdfExportConfig, PDFEXPORTSHARED_EXPORT,
+    CFG_CATEGORY_EX(PdfExport, PDFEXPORTSHARED_EXPORT,
         CFG_ENTRY(QString,     PageSize,         "A4")
         CFG_ENTRY(QStringList, PageSizes,        Cfg::getPdfPageSizes())
         CFG_ENTRY(int,         Padding,          1)

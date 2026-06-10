@@ -8,8 +8,8 @@
 #include "plugins/uiconfiguredplugin.h"
 #include <QObject>
 
-CFG_CATEGORIES(SqlFormatterSimpleConfig,
-     CFG_CATEGORY(SqlFormatterSimple,
+CFG_CATEGORIES_EX(SqlFormatterSimpleConfig, SQLFORMATTERSIMPLESHARED_EXPORT,
+     CFG_CATEGORY_EX(SqlFormatterSimple, SQLFORMATTERSIMPLESHARED_EXPORT,
          CFG_ENTRY(bool, UpperCaseKeywords, true)
          CFG_ENTRY(bool, TrimLongSpaces,    true)
      )

@@ -11,8 +11,8 @@
 class QAction;
 
 class QNetworkAccessManager;
-CFG_CATEGORIES(TipOfTheDayConfig,
-    CFG_CATEGORY(Totd,
+CFG_CATEGORIES_EX(TipOfTheDayConfig, TIPOFTHEDAY_EXPORT,
+    CFG_CATEGORY_EX(Totd, TIPOFTHEDAY_EXPORT,
         CFG_ENTRY(bool,               ShowOnStartup,   true)
         CFG_ENTRY(bool,               GetTipsOnline,   false) // false by default to avoid security concerns
         CFG_ENTRY(QStringList,        RecentlyShown,   QStringList())

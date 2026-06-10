@@ -9,10 +9,8 @@
 #include <QColor>
 #include <QTextCharFormat>
 
-#define CFG_UI_CATEGORIES(Type,Body) _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",QString(),GUI_API_EXPORT)
-
-#define CFG_UI_CATEGORY(Name,Body) \
-    _CFG_CATEGORY_WITH_TITLE(Name,Body,QString(),GUI_API_EXPORT)
+#define CFG_UI_CATEGORIES(Type,Body) CFG_CATEGORIES_EX(Type,GUI_API_EXPORT,Body)
+#define CFG_UI_CATEGORY(Name,Body) CFG_CATEGORY_EX(Name,GUI_API_EXPORT,Body)
 
 class QSplitter;
 namespace Cfg

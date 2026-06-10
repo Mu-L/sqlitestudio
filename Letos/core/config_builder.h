@@ -11,6 +11,12 @@
 #define CFG_CATEGORY(Name,Body) \
     _CFG_CATEGORY_WITH_TITLE(Name,Body,QString(),API_EXPORT)
 
+// *_EX macros are for cases when you need to specify export type - for example when defining them in plugins,
+// so that API exports/imports on Windows behave correctly
+#define CFG_CATEGORIES_EX(Type,ExportType,Body) _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",QString(),ExportType)
+#define CFG_CATEGORY_EX(Name,ExportType,Body) \
+    _CFG_CATEGORY_WITH_TITLE(Name,Body,QString(),ExportType)
+
 #define CFG_ENTRY(Type, Name, ...) CfgTypedEntry<Type> Name = CfgTypedEntry<Type>(#Name, ##__VA_ARGS__);
 #define CFG_DEP(Key, ...) new CfgEntry::CfgDependency(#Key, ##__VA_ARGS__)
 
