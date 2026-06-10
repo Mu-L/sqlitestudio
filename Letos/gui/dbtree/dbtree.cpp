@@ -859,6 +859,9 @@ DbTreeView* DbTree::getView() const
 
 bool DbTree::isMimeDataValidForItem(const QMimeData* mimeData, const DbTreeItem* item, bool forPasting)
 {
+    if (!mimeData)
+        return false;
+
     if (mimeData->formats().contains(DbTreeModel::MIMETYPE))
         return areDbTreeItemsValidForItem(getModel()->getDragItems(mimeData), item, forPasting);
     else if (mimeData->hasUrls())
