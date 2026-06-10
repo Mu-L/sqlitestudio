@@ -5,8 +5,8 @@
 #include "plugins/genericexportplugin.h"
 #include "config_builder.h"
 
-CFG_CATEGORIES(HtmlExportConfig,
-    CFG_CATEGORY(HtmlExport,
+CFG_CATEGORIES_EX(HtmlExportConfig, HTMLEXPORTSHARED_EXPORT,
+    CFG_CATEGORY_EX(HtmlExport, HTMLEXPORTSHARED_EXPORT,
         CFG_ENTRY(QString, Format,           "compress")
         CFG_ENTRY(bool,    PrintRowNum,      true)
         CFG_ENTRY(bool,    PrintHeader,      true)

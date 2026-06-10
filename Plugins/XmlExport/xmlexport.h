@@ -5,8 +5,8 @@
 #include "plugins/genericexportplugin.h"
 #include "config_builder.h"
 
-CFG_CATEGORIES(XmlExportConfig,
-     CFG_CATEGORY(XmlExport,
+CFG_CATEGORIES_EX(XmlExportConfig, XMLEXPORTSHARED_EXPORT,
+     CFG_CATEGORY_EX(XmlExport, XMLEXPORTSHARED_EXPORT,
          CFG_ENTRY(QString, Format,       "format")
          CFG_ENTRY(bool,    UseNamespace, false)
          CFG_ENTRY(QString, Namespace,    QString())

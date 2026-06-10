@@ -5,8 +5,8 @@
 #include "sqlexport_global.h"
 #include "config_builder.h"
 
-CFG_CATEGORIES(SqlExportConfig,
-     CFG_CATEGORY(SqlExport,
+CFG_CATEGORIES_EX(SqlExportConfig, SQLEXPORTSHARED_EXPORT,
+     CFG_CATEGORY_EX(SqlExport, SQLEXPORTSHARED_EXPORT,
          CFG_ENTRY(QString, QueryTable,             QString())
          CFG_ENTRY(bool,    GenerateCreateTable,    false)
          CFG_ENTRY(bool,    IncludeQueryInComments, true)

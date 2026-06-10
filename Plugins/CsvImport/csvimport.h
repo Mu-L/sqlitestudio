@@ -7,8 +7,8 @@
 #include "config_builder.h"
 #include "csvserializer.h"
 
-CFG_CATEGORIES(CsvImportConfig,
-     CFG_CATEGORY(CsvImport,
+CFG_CATEGORIES_EX(CsvImportConfig, CSVIMPORTSHARED_EXPORT,
+     CFG_CATEGORY_EX(CsvImport, CSVIMPORTSHARED_EXPORT,
          CFG_ENTRY(bool,    FirstRowAsColumns, false)
          CFG_ENTRY(int,     Separator,         0)
          CFG_ENTRY(QString, CustomSeparator,   QString())

@@ -10,8 +10,8 @@ class QRegularExpression;
 class QFile;
 class QTextStream;
 
-CFG_CATEGORIES(RegExpImportConfig,
-     CFG_CATEGORY(RegExpImport,
+CFG_CATEGORIES_EX(RegExpImportConfig, REGEXPIMPORTSHARED_EXPORT,
+     CFG_CATEGORY_EX(RegExpImport, REGEXPIMPORTSHARED_EXPORT,
          CFG_ENTRY(QString, Pattern,           QString())
          CFG_ENTRY(QString, GroupsMode,        "all") // all / custom
          CFG_ENTRY(QString, CustomGroupList,   QString())

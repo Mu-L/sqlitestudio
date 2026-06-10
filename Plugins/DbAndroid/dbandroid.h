@@ -10,8 +10,8 @@ class AdbManager;
 class DbAndroidConnectionFactory;
 class QAction;
 
-CFG_CATEGORIES(DbAndroidConfig,
-    CFG_CATEGORY(DbAndroid,
+CFG_CATEGORIES_EX(DbAndroidConfig, DBANDROIDSHARED_EXPORT,
+    CFG_CATEGORY_EX(DbAndroid, DBANDROIDSHARED_EXPORT,
         CFG_ENTRY(QString, AdbPath, QString())
         CFG_ENTRY(bool,    JarDownloadNotified, false)
     )

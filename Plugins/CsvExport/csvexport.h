@@ -6,8 +6,8 @@
 #include "config_builder.h"
 #include "csvformat.h"
 
-CFG_CATEGORIES(CsvExportConfig,
-     CFG_CATEGORY(CsvExport,
+CFG_CATEGORIES_EX(CsvExportConfig, CSVEXPORTSHARED_EXPORT,
+     CFG_CATEGORY_EX(CsvExport, CSVEXPORTSHARED_EXPORT,
          CFG_ENTRY(bool,    ColumnsInFirstRow, false)
          CFG_ENTRY(int,     Separator,         0)
          CFG_ENTRY(QString, CustomSeparator,   QString())

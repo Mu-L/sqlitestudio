@@ -6,8 +6,8 @@
 #include "config_builder.h"
 #include <QStack>
 
-CFG_CATEGORIES(JsonExportConfig,
-     CFG_CATEGORY(JsonExport,
+CFG_CATEGORIES_EX(JsonExportConfig, JSONEXPORTSHARED_EXPORT,
+     CFG_CATEGORY_EX(JsonExport, JSONEXPORTSHARED_EXPORT,
          CFG_ENTRY(QString, Format,       "format")
      )
 )
