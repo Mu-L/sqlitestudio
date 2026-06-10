@@ -1439,17 +1439,21 @@ void DbTree::openFile()
 
 void DbTree::openDb(const QString& path)
 {
-    bool result = getModel()->quickAddDroppedDb(path);
-    if (!CFG_UI.DbList.BypassDbDialogWhenPossible.get() || !result)
+    bool result = true;
+    if (CFG_UI.DbList.BypassDbDialogWhenPossible.get())
     {
-        DbDialog dialog(DbDialog::ADD, this);
-        dialog.setCreateMode(false);
-        dialog.setPath(path);
-        if (!result)
-            dialog.setDoAutoTest(true);
-
-        dialog.exec();
+        result = getModel()->quickAddDroppedDb(path);
+        if (result)
+            return;
     }
+
+    DbDialog dialog(DbDialog::ADD, this);
+    dialog.setCreateMode(false);
+    dialog.setPath(path);
+    if (!result)
+        dialog.setDoAutoTest(true);
+
+    dialog.exec();
 }
 
 void DbTree::editDb(Db* db)
