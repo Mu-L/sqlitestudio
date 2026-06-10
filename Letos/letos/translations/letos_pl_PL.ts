@@ -6,17 +6,17 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>Interfejs graficzny dla Letosa, menadżera SQLite.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation type="unfinished">Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</translation>
+        <translation>Uruchamia aplikację w trybie bezpiecznym bez przywracania poprzedniej sesji. Użyj tego, aby ominąć problemy spowodowane uszkodzoną sesją.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>Nie ładuj żadnych wtyczek. Może być używany równolegle z bezpiecznym trybem do dalszej izolacji potencjalnych problemów.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
@@ -66,17 +66,17 @@
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>settings file</source>
-        <translation type="unfinished">settings file</translation>
+        <translation>plik ustawień</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Włącza debugowanie wykonywanych zapytań w Letosie.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Wypisuje listę zainstalowanych w Letosie wtyczek i wychodzi.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
