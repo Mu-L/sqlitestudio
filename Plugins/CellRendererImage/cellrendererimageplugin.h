@@ -7,8 +7,8 @@
 #include "plugins/uiconfiguredplugin.h"
 #include "config_builder.h"
 
-CFG_CATEGORIES(CellRendererImageConfig,
-    CFG_CATEGORY(CellRendererImage,
+CFG_CATEGORIES_EX(CellRendererImageConfig, CELLRENDERERIMAGE_EXPORT,
+    CFG_CATEGORY_EX(CellRendererImage, CELLRENDERERIMAGE_EXPORT,
         CFG_ENTRY(int, PreferredMinHeight, 80)
         CFG_ENTRY(int, PreferredMinWidth,  120)
     )
