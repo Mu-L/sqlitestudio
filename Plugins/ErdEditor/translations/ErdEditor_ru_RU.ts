@@ -63,10 +63,6 @@
         <translation>Установка слишком большого значения может привести к замедлению работы приложения или подвисанию при открытии редактора ERD.</translation>
     </message>
     <message>
-        <source>Erd.MaxTableLimit</source>
-        <translation type="vanished">Erd.MaxTableLimit</translation>
-    </message>
-    <message>
         <location filename="../erdconfig.ui" line="56"/>
         <source>Starts panning as soon as the Space key is pressed, without requiring a mouse button press.</source>
         <translation>Запуск прокрутки как только нажата клавиша Пробел, без требования нажатия кнопки мыши.</translation>
@@ -76,17 +72,9 @@
         <source>Pan view with Space only</source>
         <translation>Прокручивать вид одним пробелом</translation>
     </message>
-    <message>
-        <source>Erd.DragBySpace</source>
-        <translation type="vanished">Erd.DragBySpace</translation>
-    </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
-    <message>
-        <source>Form</source>
-        <translation type="vanished">Форма</translation>
-    </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>
         <source>Foreign key properties</source>

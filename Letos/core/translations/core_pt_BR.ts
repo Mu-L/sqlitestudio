@@ -4,13 +4,13 @@
 <context>
     <name>AbstractDb</name>
     <message>
-        <location filename="../db/abstractdb.cpp" line="370"/>
-        <location filename="../db/abstractdb.cpp" line="387"/>
+        <location filename="../db/abstractdb.cpp" line="415"/>
+        <location filename="../db/abstractdb.cpp" line="432"/>
         <source>Cannot execute query on closed database.</source>
         <translation>Não é possível executar a consulta com o banco de dados fechado.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb.cpp" line="794"/>
+        <location filename="../db/abstractdb.cpp" line="858"/>
         <source>Error attaching database %1: %2</source>
         <translation>Erro ao anexar banco de dados %1: %2</translation>
     </message>
@@ -451,38 +451,38 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
         <translation>Número inválido de argumentos para a função &apos;%1&apos;. Esperado %2, mas tem %3.</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="401"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
         <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="407"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
         <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
         <translation>A função %1(%2) foi registrada no idioma %3, mas o plugin que suporta essa linguagem não está atualmente carregado.</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="425"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
         <source>Invalid regular expression pattern: %1</source>
         <translation>Expressão regular inválida: %1</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="444"/>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="477"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="491"/>
         <source>Could not open file %1 for reading: %2</source>
         <translation>Não foi possível abrir o arquivo %1 para leitura: %2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="499"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="513"/>
         <source>Could not open file %1 for writting: %2</source>
         <translation>Não foi possível abrir o arquivo %1 para escrita: %2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="519"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="533"/>
         <source>Error while writting to file %1: %2</source>
         <translation>Erro ao gravar o arquivo %1: %2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="537"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
         <source>Unsupported scripting language: %1</source>
         <translation>Idioma do script não suportado: %1</translation>
     </message>
@@ -887,23 +887,23 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
         <translation>Não foi possível abrir o arquivo &apos;%1&apos; para leitura: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="459"/>
+        <location filename="../db/abstractdb3.h" line="480"/>
         <source>Could not open database: %1</source>
         <translation>Não foi possível abrir o banco de dados: %1</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1361"/>
+        <location filename="../db/abstractdb3.h" line="1388"/>
         <source>Result set expired or no row available.</source>
         <translation>Conjunto de resultados expirado ou nenhuma linha disponível.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="371"/>
-        <location filename="../db/abstractdb3.h" line="375"/>
+        <location filename="../db/abstractdb3.h" line="372"/>
+        <location filename="../db/abstractdb3.h" line="376"/>
         <source>Could not load extension %1: %2</source>
         <translation>Não foi possível carregar a extensão %1: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="483"/>
+        <location filename="../db/abstractdb3.h" line="504"/>
         <source>Could not close database: %1</source>
         <translation>Não foi possível fechar o banco de dados: %1</translation>
     </message>
@@ -1108,7 +1108,7 @@ A visualização permanecerá como é.</translation>
 <context>
     <name>QueryExecutor</name>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="204"/>
+        <location filename="../db/queryexecutor.cpp" line="203"/>
         <source>Execution interrupted.</source>
         <translation>Execução interrompida.</translation>
     </message>
@@ -1118,19 +1118,18 @@ A visualização permanecerá como é.</translation>
         <translation>Banco de dados não está aberto.</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="253"/>
+        <location filename="../db/queryexecutor.cpp" line="254"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Apenas uma consulta pode ser executada simultaneamente.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
-        <location filename="../db/queryexecutor.cpp" line="421"/>
-        <location filename="../db/queryexecutor.cpp" line="691"/>
+        <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
         <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="610"/>
+        <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
         <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
     </message>
@@ -1230,12 +1229,12 @@ A visualização permanecerá como é.</translation>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="693"/>
+        <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="992"/>
+        <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
     </message>

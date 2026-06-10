@@ -63,10 +63,6 @@
         <translation>Wird dieser Wert zu hoch eingestellt, kann dies dazu führen, dass die Anwendung beim Öffnen des ERD-Editors langsamer wird oder nicht mehr reagiert.</translation>
     </message>
     <message>
-        <source>Erd.MaxTableLimit</source>
-        <translation type="obsolete">Erd.MaxTableLimit</translation>
-    </message>
-    <message>
         <location filename="../erdconfig.ui" line="56"/>
         <source>Starts panning as soon as the Space key is pressed, without requiring a mouse button press.</source>
         <translation>Die Schwenkbewegung beginnt, sobald die Leertaste gedrückt wird, ohne dass ein Mausklick erforderlich ist.</translation>
@@ -76,17 +72,9 @@
         <source>Pan view with Space only</source>
         <translation>Ansicht nur mit Leertaste</translation>
     </message>
-    <message>
-        <source>Erd.DragBySpace</source>
-        <translation type="obsolete">Erd.DragBySpace</translation>
-    </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
-    <message>
-        <source>Form</source>
-        <translation type="vanished">Formular</translation>
-    </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>
         <source>Foreign key properties</source>

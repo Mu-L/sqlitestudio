@@ -169,10 +169,6 @@
         <translation>Kein benutzerdefinierter Header</translation>
     </message>
     <message>
-        <source>Ctrl+S</source>
-        <translation type="vanished">Strg+S</translation>
-    </message>
-    <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
         <translation>Eigenen Header-Inhalt definieren</translation>

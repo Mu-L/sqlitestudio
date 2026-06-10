@@ -169,10 +169,6 @@
         <translation type="unfinished">No custom header</translation>
     </message>
     <message>
-        <source>Ctrl+S</source>
-        <translation type="obsolete">Ctrl+S</translation>
-    </message>
-    <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
         <translation type="unfinished">Define custom header content</translation>

@@ -82,7 +82,7 @@
         <translation type="unfinished">Android SQLite driver does not support loadable extensions.</translation>
     </message>
     <message>
-        <location filename="../dbandroidinstance.cpp" line="219"/>
+        <location filename="../dbandroidinstance.cpp" line="229"/>
         <source>Connection with Android database &apos;%1&apos; lost.</source>
         <translation type="unfinished">Connection with Android database &apos;%1&apos; lost.</translation>
     </message>
@@ -347,7 +347,7 @@ Android device refused deletion, or it was impossible.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../sqlqueryandroid.cpp" line="101"/>
+        <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
         <translation type="unfinished">Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</translation>
     </message>

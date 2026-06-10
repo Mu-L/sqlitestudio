@@ -1129,10 +1129,6 @@
         <translation>Редактор SQL</translation>
     </message>
     <message>
-        <source>sqlEditorPage</source>
-        <translation type="obsolete">sqlEditorPage</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="207"/>
         <source>Data editors</source>
         <translation>Редакторы данных</translation>
@@ -1242,10 +1238,6 @@
         <location filename="../dialogs/configdialog.ui" line="514"/>
         <source>Convert Unicode line separators to LF (\n) in form view editors</source>
         <translation>Преобразовать разделители строк Unicode в LF (\n) в редакторе режима формы</translation>
-    </message>
-    <message>
-        <source>General.UseLfForMultilineEditors</source>
-        <translation type="obsolete">General.UseLfForMultilineEditors</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="527"/>
@@ -1569,17 +1561,9 @@
         <translation type="unfinished">Prefer sqlite_master over sqlite_schema table name</translation>
     </message>
     <message>
-        <source>General.PreferMasterOverSchema</source>
-        <translation type="obsolete">General.PreferMasterOverSchema</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="322"/>
         <source>Expand columns, indexes and triggers together with the table</source>
         <translation type="unfinished">Expand columns, indexes and triggers together with the table</translation>
-    </message>
-    <message>
-        <source>DbList.ExpandSubNodes</source>
-        <translation type="obsolete">DbList.ExpandSubNodes</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="363"/>
@@ -1592,10 +1576,6 @@
         <translation type="unfinished">Display column data types</translation>
     </message>
     <message>
-        <source>DbList.ShowColumnTypeLabels</source>
-        <translation type="obsolete">DbList.ShowColumnTypeLabels</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="376"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -1604,10 +1584,6 @@
         <location filename="../dialogs/configdialog.ui" line="405"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>DbList.ShowSystemObjects</source>
-        <translation type="obsolete">DbList.ShowSystemObjects</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="450"/>
@@ -1633,10 +1609,6 @@
         <location filename="../dialogs/configdialog.ui" line="1016"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Вы можете задать, какие визуализаторы ячеек используются для конкретных типов данных, объявленных в столбцах таблиц (без учета регистра). Если для данного типа не задан визуализатор, используется визуализатор по умолчанию.&lt;/p&gt;&lt;p&gt;Некоторые плагины могут предоставлять дополнительные визуализаторы и устанавливать их собственные сопоставления по умолчанию для типов данных, которые вы по-прежнему можете переопределить здесь.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>General.DataRenderers</source>
-        <translation type="obsolete">General.DataRenderers</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1045"/>
@@ -1674,10 +1646,6 @@
         <translation type="unfinished">After editing, Enter moves to the next row</translation>
     </message>
     <message>
-        <source>General.DataEditAutoAdvanceOnEnter</source>
-        <translation type="obsolete">General.DataEditAutoAdvanceOnEnter</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="605"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -1693,10 +1661,6 @@
         <translation type="unfinished">Start editing after moving to the next row</translation>
     </message>
     <message>
-        <source>General.DataEditAutoAdvanceEdit</source>
-        <translation type="obsolete">General.DataEditAutoAdvanceEdit</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="717"/>
         <source>Column header actions</source>
         <translation type="unfinished">Column header actions</translation>
@@ -1705,10 +1669,6 @@
         <location filename="../dialogs/configdialog.ui" line="723"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation type="unfinished">Single-click selects column data; double-click sorts by column</translation>
-    </message>
-    <message>
-        <source>General.SingleColumnClickSort</source>
-        <translation type="obsolete">General.SingleColumnClickSort</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="736"/>
@@ -1734,10 +1694,6 @@
         <location filename="../dialogs/configdialog.ui" line="1195"/>
         <source>Keep messages</source>
         <translation type="unfinished">Keep messages</translation>
-    </message>
-    <message>
-        <source>General.StatusFieldMsgFadingMode</source>
-        <translation type="obsolete">General.StatusFieldMsgFadingMode</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1208"/>
@@ -1771,10 +1727,6 @@
         <translation type="unfinished">Execution time precision (decimal places)</translation>
     </message>
     <message>
-        <source>General.SqlEditorExecTimePrecision</source>
-        <translation type="obsolete">General.SqlEditorExecTimePrecision</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -1800,10 +1752,6 @@
         <translation type="unfinished">Prefer snippets in empty editor</translation>
     </message>
     <message>
-        <source>General.SqlEditorSnippetsIfEmpty</source>
-        <translation type="obsolete">General.SqlEditorSnippetsIfEmpty</translation>
-    </message>
-    <message>
         <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>History</source>
         <translation>История</translation>
@@ -1818,14 +1766,6 @@
         <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation type="unfinished">&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>B</source>
-        <translation type="obsolete">B</translation>
-    </message>
-    <message>
-        <source>I</source>
-        <translation type="obsolete">I</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1764"/>
@@ -1919,10 +1859,6 @@
         <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
         <translation>Размер значка</translation>
-    </message>
-    <message>
-        <source>General.ToolBarIconSize</source>
-        <translation type="obsolete">General.ToolBarIconSize</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2828"/>
@@ -3712,10 +3648,6 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>Пропуск неудавшихся SQL-запросов</translation>
     </message>
     <message>
-        <source>Exection mode</source>
-        <translation type="obsolete">Exection mode</translation>
-    </message>
-    <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -3738,7 +3670,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
         <source>Execution mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Execution mode</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
@@ -5669,10 +5601,6 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 </context>
 <context>
     <name>PrimaryKeyPanel</name>
-    <message>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
-    </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
         <source>Column</source>

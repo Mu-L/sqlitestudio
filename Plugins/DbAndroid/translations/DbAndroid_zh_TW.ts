@@ -82,7 +82,7 @@
         <translation>Android SQLite 驅動程式不支援可載入的擴充套件。</translation>
     </message>
     <message>
-        <location filename="../dbandroidinstance.cpp" line="219"/>
+        <location filename="../dbandroidinstance.cpp" line="229"/>
         <source>Connection with Android database &apos;%1&apos; lost.</source>
         <translation>與 Android 資料庫 &apos;%1&apos; 的連線丟失。</translation>
     </message>
@@ -347,7 +347,7 @@ Android 裝置拒絕或無法完成刪除。</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../sqlqueryandroid.cpp" line="101"/>
+        <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
         <translation>無法在此查詢中繫結引數 &apos;%1&apos;，因為缺少它的值。</translation>
     </message>

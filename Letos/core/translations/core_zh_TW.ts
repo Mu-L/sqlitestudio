@@ -4,13 +4,13 @@
 <context>
     <name>AbstractDb</name>
     <message>
-        <location filename="../db/abstractdb.cpp" line="370"/>
-        <location filename="../db/abstractdb.cpp" line="387"/>
+        <location filename="../db/abstractdb.cpp" line="415"/>
+        <location filename="../db/abstractdb.cpp" line="432"/>
         <source>Cannot execute query on closed database.</source>
         <translation>在已關閉的資料庫中, 無法執行查詢</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb.cpp" line="794"/>
+        <location filename="../db/abstractdb.cpp" line="858"/>
         <source>Error attaching database %1: %2</source>
         <translation>無法附加資料庫 %1: %2</translation>
     </message>
@@ -451,38 +451,38 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <translation type="unfinished">Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="401"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
         <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="407"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
         <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
         <translation type="unfinished">Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="425"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
         <source>Invalid regular expression pattern: %1</source>
         <translation>無效的正規表示式：%1</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="444"/>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="477"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="491"/>
         <source>Could not open file %1 for reading: %2</source>
         <translation>無法開啟檔案 %1 以讀取：%2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="499"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="513"/>
         <source>Could not open file %1 for writting: %2</source>
         <translation>無法開啟檔案 %1 以寫入：%2</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="519"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="533"/>
         <source>Error while writting to file %1: %2</source>
         <translation>當寫入檔案 %1:%2時發生錯誤。</translation>
     </message>
     <message>
-        <location filename="../services/impl/functionmanagerimpl.cpp" line="537"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
         <source>Unsupported scripting language: %1</source>
         <translation>不支援的scripting language: %1</translation>
     </message>
@@ -887,23 +887,23 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <translation>無法開啟檔案 &apos;%1&apos; 為了讀取: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="459"/>
+        <location filename="../db/abstractdb3.h" line="480"/>
         <source>Could not open database: %1</source>
         <translation>無法開啟資料庫 %1。</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="1361"/>
+        <location filename="../db/abstractdb3.h" line="1388"/>
         <source>Result set expired or no row available.</source>
         <translation>結果集已過期或是無有效的資料</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="371"/>
-        <location filename="../db/abstractdb3.h" line="375"/>
+        <location filename="../db/abstractdb3.h" line="372"/>
+        <location filename="../db/abstractdb3.h" line="376"/>
         <source>Could not load extension %1: %2</source>
         <translation>無法載入extension %1: %2</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="483"/>
+        <location filename="../db/abstractdb3.h" line="504"/>
         <source>Could not close database: %1</source>
         <translation>無法關閉資料庫 %1</translation>
     </message>
@@ -1108,7 +1108,7 @@ view 將保留原始內容</translation>
 <context>
     <name>QueryExecutor</name>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="204"/>
+        <location filename="../db/queryexecutor.cpp" line="203"/>
         <source>Execution interrupted.</source>
         <translation>執行中斷</translation>
     </message>
@@ -1118,19 +1118,18 @@ view 將保留原始內容</translation>
         <translation>資料庫未開啟</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="253"/>
+        <location filename="../db/queryexecutor.cpp" line="254"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>儘有單一查詢可被冋時執行</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
-        <location filename="../db/queryexecutor.cpp" line="421"/>
-        <location filename="../db/queryexecutor.cpp" line="691"/>
+        <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
         <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
     </message>
     <message>
-        <location filename="../db/queryexecutor.cpp" line="610"/>
+        <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
         <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
     </message>
@@ -1230,12 +1229,12 @@ view 將保留原始內容</translation>
 <context>
     <name>T</name>
     <message>
-        <location filename="../db/abstractdb3.h" line="693"/>
+        <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
         <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
     </message>
     <message>
-        <location filename="../db/abstractdb3.h" line="992"/>
+        <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
         <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
     </message>

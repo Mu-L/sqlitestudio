@@ -82,7 +82,7 @@
         <translation>O driver Android SQLite não suporta extensões carregáveis.</translation>
     </message>
     <message>
-        <location filename="../dbandroidinstance.cpp" line="219"/>
+        <location filename="../dbandroidinstance.cpp" line="229"/>
         <source>Connection with Android database &apos;%1&apos; lost.</source>
         <translation>Conexão com banco de dados Android &apos;%1&apos; perdida.</translation>
     </message>
@@ -347,7 +347,7 @@ O dispositivo Android recusou a exclusão ou era impossível.</translation>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../sqlqueryandroid.cpp" line="101"/>
+        <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
         <translation>Não é possível vincular o argumento &apos;%1&apos; da consulta, porque o valor está faltando.</translation>
     </message>

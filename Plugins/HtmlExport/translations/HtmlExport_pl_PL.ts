@@ -169,10 +169,6 @@
         <translation>Brak własnego nagłówka</translation>
     </message>
     <message>
-        <source>Ctrl+S</source>
-        <translation type="obsolete">Ctrl+S</translation>
-    </message>
-    <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
         <translation>Podaj zawartość własnego nagłówka</translation>

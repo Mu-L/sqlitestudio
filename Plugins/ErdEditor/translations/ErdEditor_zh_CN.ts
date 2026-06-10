@@ -63,11 +63,6 @@
         <translation>将此值设置得过高可能会导致应用程序在打开 ERD 编辑器时运行缓慢或无响应。</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="49"/>
-        <source>Erd.MaxTableLimit</source>
-        <translation>Erd.MaxTableLimit</translation>
-    </message>
-    <message>
         <location filename="../erdconfig.ui" line="56"/>
         <source>Starts panning as soon as the Space key is pressed, without requiring a mouse button press.</source>
         <translation>按下空格键即可开始平移，无需按鼠标按钮。</translation>
@@ -77,19 +72,9 @@
         <source>Pan view with Space only</source>
         <translation>仅使用空格键的平移视图</translation>
     </message>
-    <message>
-        <location filename="../erdconfig.ui" line="62"/>
-        <source>Erd.DragBySpace</source>
-        <translation>Erd.DragBySpace</translation>
-    </message>
 </context>
 <context>
     <name>ErdConnectionPanel</name>
-    <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="14"/>
-        <source>Form</source>
-        <translation>表单</translation>
-    </message>
     <message>
         <location filename="../panel/erdconnectionpanel.ui" line="59"/>
         <source>Foreign key properties</source>
