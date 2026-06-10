@@ -22,7 +22,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
@@ -48,7 +48,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Eksportowany widok: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
@@ -162,7 +162,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>Dokument wygenerowany przez Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
@@ -260,12 +260,12 @@
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Własny nagłówek</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Brak własnego nagłówka</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="299"/>
@@ -276,54 +276,54 @@
     <message>
         <location filename="../pdfexport.ui" line="312"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Podaj zawartość własnego nagłówka</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="325"/>
         <location filename="../pdfexport.ui" line="399"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>Zwykły tekst</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="335"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Podaj plik własnego nagłówka</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>Wybierz plik dla nagłówka</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="354"/>
         <location filename="../pdfexport.ui" line="428"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Pliki tekstowe (*.txt);;Wszystkie pliki (*)</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="364"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Własna stopka</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="370"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Brak własnej stopki</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="386"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Podaj zawartość własnej stopki</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="409"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Podaj plik własnej stopki</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="425"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Wybierz plik dla stopki</translation>
     </message>
 </context>
 </TS>
