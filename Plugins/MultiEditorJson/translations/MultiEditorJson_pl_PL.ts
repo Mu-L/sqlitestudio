@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="pl_PL" sourcelanguage="en">
-<context>
+  <context>
     <name>MultiEditorJson</name>
     <message>
-        <location filename="../multieditorjson.cpp" line="27"/>
-        <source>Prettify</source>
-        <translation type="unfinished">Prettify</translation>
+      <location filename="../multieditorjson.cpp" line="27"/>
+      <source>Prettify</source>
+      <translation>Formatuj</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="28"/>
-        <source>Format JSON with indentation</source>
-        <translation type="unfinished">Format JSON with indentation</translation>
+      <location filename="../multieditorjson.cpp" line="28"/>
+      <source>Format JSON with indentation</source>
+      <translation>Formatuj z użyciem wcięć</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="30"/>
-        <source>Condense</source>
-        <translation type="unfinished">Condense</translation>
+      <location filename="../multieditorjson.cpp" line="30"/>
+      <source>Condense</source>
+      <translation>Kompaktuj</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="31"/>
-        <source>Remove whitespace and format on single line</source>
-        <translation type="unfinished">Remove whitespace and format on single line</translation>
+      <location filename="../multieditorjson.cpp" line="31"/>
+      <source>Remove whitespace and format on single line</source>
+      <translation>Usuń spacje i sformatuj w jednym wierszu</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="35"/>
-        <source>Validate</source>
-        <translation type="unfinished">Validate</translation>
+      <location filename="../multieditorjson.cpp" line="35"/>
+      <source>Validate</source>
+      <translation>Weryfikuj</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="36"/>
-        <source>Validate JSON syntax</source>
-        <translation type="unfinished">Validate JSON syntax</translation>
+      <location filename="../multieditorjson.cpp" line="36"/>
+      <source>Validate JSON syntax</source>
+      <translation>Sprawdź poprawność składni JSON</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="39"/>
-        <source>Find or replace (%1)</source>
-        <translation type="unfinished">Find or replace (%1)</translation>
+      <location filename="../multieditorjson.cpp" line="39"/>
+      <source>Find or replace (%1)</source>
+      <translation>Znajdź lub zastąp (%1)</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="169"/>
-        <source>✓ Valid JSON</source>
-        <translation type="unfinished">✓ Valid JSON</translation>
+      <location filename="../multieditorjson.cpp" line="169"/>
+      <source>✓ Valid JSON</source>
+      <translation>✓ Poprawny JSON</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="174"/>
-        <source>✗ Invalid: %1</source>
-        <translation type="unfinished">✗ Invalid: %1</translation>
+      <location filename="../multieditorjson.cpp" line="174"/>
+      <source>✗ Invalid: %1</source>
+      <translation>✗ Niepoprawny: %1</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="214"/>
-        <source>JSON is valid!</source>
-        <translation type="unfinished">JSON is valid!</translation>
+      <location filename="../multieditorjson.cpp" line="214"/>
+      <source>JSON is valid!</source>
+      <translation>JSON jest poprawny!</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="218"/>
-        <source>JSON validation failed: %1</source>
-        <translation type="unfinished">JSON validation failed: %1</translation>
+      <location filename="../multieditorjson.cpp" line="218"/>
+      <source>JSON validation failed: %1</source>
+      <translation>Weryfikacja JSON się nie powiodła: %1</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="113"/>
-        <source>JSON files (*.json, *.txt)</source>
-        <translation type="unfinished">JSON files (*.json, *.txt)</translation>
+      <location filename="../multieditorjson.cpp" line="113"/>
+      <source>JSON files (*.json, *.txt)</source>
+      <translation>Pliki JSON (*.json, *.txt)</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorJsonPlugin</name>
     <message>
-        <location filename="../multieditorjson.cpp" line="315"/>
-        <source>JSON</source>
-        <translation type="unfinished">JSON</translation>
+      <location filename="../multieditorjson.cpp" line="315"/>
+      <source>JSON</source>
+      <translation>JSON</translation>
     </message>
-</context>
+  </context>
 </TS>
