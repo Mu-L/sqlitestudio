@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string notr="true">Form</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -32,7 +32,7 @@
          <number>10</number>
         </property>
         <property name="cfg" stdset="0">
-         <string>CellRendererImage.PreferredMinHeight</string>
+         <string notr="true">CellRendererImage.PreferredMinHeight</string>
         </property>
        </widget>
       </item>
@@ -62,7 +62,7 @@
          <number>10</number>
         </property>
         <property name="cfg" stdset="0">
-         <string>CellRendererImage.PreferredMinWidth</string>
+         <string notr="true">CellRendererImage.PreferredMinWidth</string>
         </property>
        </widget>
       </item>

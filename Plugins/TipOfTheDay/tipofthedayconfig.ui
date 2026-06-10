@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string notr="true">Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="1" column="0">
@@ -23,7 +23,7 @@
       <string>Get up-to-date tips online</string>
      </property>
      <property name="cfg" stdset="0">
-      <string>Totd.GetTipsOnline</string>
+      <string notr="true">Totd.GetTipsOnline</string>
      </property>
     </widget>
    </item>
@@ -52,7 +52,7 @@
       <string>Show Tip of the Day on startup</string>
      </property>
      <property name="cfg" stdset="0">
-      <string>Totd.ShowOnStartup</string>
+      <string notr="true">Totd.ShowOnStartup</string>
      </property>
     </widget>
    </item>
