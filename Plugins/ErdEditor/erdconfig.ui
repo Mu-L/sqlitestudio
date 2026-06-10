@@ -46,7 +46,7 @@
       <number>99999</number>
      </property>
      <property name="cfg" stdset="0">
-      <string>Erd.MaxTableLimit</string>
+      <string notr="true">Erd.MaxTableLimit</string>
      </property>
     </widget>
    </item>
@@ -59,7 +59,7 @@
       <string>Pan view with Space only</string>
      </property>
      <property name="cfg" stdset="0">
-      <string>Erd.DragBySpace</string>
+      <string notr="true">Erd.DragBySpace</string>
      </property>
     </widget>
    </item>

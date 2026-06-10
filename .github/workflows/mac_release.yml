@@ -54,7 +54,7 @@ jobs:
 
             - name: Cache Tcl
               id: cache-tcl
-              uses: actions/cache@v4
+              uses: actions/cache@v5
               with:
                 path: ${{ env.TCL_ROOT_DIR }}
                 key: tcl-${{ env.TCL_VERSION }}-macos-universal-cache-id-4
@@ -134,7 +134,7 @@ jobs:
 
             - name: Cache ICU
               id: cache-icu
-              uses: actions/cache@v4
+              uses: actions/cache@v5
               with:
                 path: ${{ env.ICU_ROOT_DIR }}
                 key: icu-macos-${{ env.ICU_VERSION }}-universal-cache-id-3
