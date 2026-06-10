@@ -11,6 +11,8 @@
 
 #define CFG_UI_CATEGORIES(Type,Body) _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",QString(),GUI_API_EXPORT)
 
+#define CFG_UI_CATEGORY(Name,Body) \
+    _CFG_CATEGORY_WITH_TITLE(Name,Body,QString(),GUI_API_EXPORT)
 
 class QSplitter;
 namespace Cfg
@@ -65,7 +67,7 @@ namespace Cfg
 }
 
 CFG_UI_CATEGORIES(Ui,
-    CFG_CATEGORY(Fonts,
+    CFG_UI_CATEGORY(Fonts,
         CFG_ENTRY(QFont,        SqlEditor,               &Cfg::getDefaultTextEditorFont)
         CFG_ENTRY(QFont,        DataView,                &Cfg::getDefaultItemViewFont)
         CFG_ENTRY(QFont,        DbTree,                  &Cfg::getDefaultItemViewFont)
@@ -73,7 +75,7 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(QFont,        StatusField,             &Cfg::getDefaultItemViewFont)
     )
 
-    CFG_CATEGORY(Colors,
+    CFG_UI_CATEGORY(Colors,
         CFG_ENTRY(bool,   SyntaxParenthesisBgCustom,  false)
         CFG_ENTRY(QColor, SyntaxParenthesisBg,        &Cfg::getDefaultSyntaxParenthesisBg,  CFG_DEP(SyntaxParenthesisBgCustom))
         CFG_ENTRY(bool,   SyntaxParenthesisFgCustom,  false)
@@ -118,7 +120,7 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(bool,   SyntaxNumberFgItalic,       false,                                CFG_DEP(SyntaxNumberFgCustom))
     )
 
-    CFG_CATEGORY(DbList,
+    CFG_UI_CATEGORY(DbList,
         CFG_ENTRY(bool,                    ExpandTables,                true)
         CFG_ENTRY(bool,                    ExpandViews,                 true)
         CFG_ENTRY(bool,                    ExpandSubNodes,              true)
@@ -134,7 +136,7 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(bool,                    LinkWithMdiArea,             true)
     )
 
-    CFG_CATEGORY(General,
+    CFG_UI_CATEGORY(General,
         CFG_ENTRY(QString,                 DataViewTabs,                QString())
         CFG_ENTRY(QString,                 SqlEditorTabs,               QString())
         CFG_ENTRY(int,                     SqlEditorExplainMode,        Cfg::EXPLAIN)

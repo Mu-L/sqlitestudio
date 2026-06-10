@@ -23,8 +23,9 @@ class Icon;
 
 #define CFG_KEY_LIST(Type, Title, Entries) \
     _CFG_CATEGORIES_WITH_METANAME(Shortcuts##Type, \
-        _CFG_CATEGORY_WITH_TITLE(ShortcutsCategory##Type, Entries, Title), \
-        CFG_SHORTCUTS_METANAME\
+        _CFG_CATEGORY_WITH_TITLE(ShortcutsCategory##Type, Entries, Title, GUI_API_EXPORT), \
+        CFG_SHORTCUTS_METANAME, \
+        GUI_API_EXPORT \
     )
 
 #define CFG_KEY_ENTRY(Name, KeyStr, Title) CFG_ENTRY(QString, Name, QKeySequence(KeyStr).toString(), Title)

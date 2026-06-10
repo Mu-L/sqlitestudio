@@ -6,18 +6,10 @@
 #include "config_builder/cfgentry.h"
 #include "config_builder/cfglazyinitializer.h"
 
-#if defined(CORE_LIBRARY)
-#define CFG_EXPORT Q_DECL_EXPORT
-#elif defined(GUI_LIBRARY)
-#define CFG_EXPORT Q_DECL_EXPORT
-#else
-#define CFG_EXPORT
-#endif
-
-#define CFG_CATEGORIES(Type,Body) _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",QString(),CFG_EXPORT)
+#define CFG_CATEGORIES(Type,Body) _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",QString(),API_EXPORT)
 
 #define CFG_CATEGORY(Name,Body) \
-    _CFG_CATEGORY_WITH_TITLE(Name,Body,QString())
+    _CFG_CATEGORY_WITH_TITLE(Name,Body,QString(),API_EXPORT)
 
 #define CFG_ENTRY(Type, Name, ...) CfgTypedEntry<Type> Name = CfgTypedEntry<Type>(#Name, ##__VA_ARGS__);
 #define CFG_DEP(Key, ...) new CfgEntry::CfgDependency(#Key, ##__VA_ARGS__)
@@ -52,11 +44,11 @@
 // Macros below are kind of private. You should not need to use them explicitly.
 // They are called from macros above.
 
-#define _CFG_CATEGORIES_WITH_METANAME(Type,Body,MetaName) \
-    _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,MetaName,QString(),CFG_EXPORT)
+#define _CFG_CATEGORIES_WITH_METANAME(Type,Body,MetaName,ExportType) \
+    _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,MetaName,QString(),ExportType)
 
-#define _CFG_CATEGORIES_WITH_TITLE(Type,Body,Title) \
-    _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",Title,CFG_EXPORT)
+#define _CFG_CATEGORIES_WITH_TITLE(Type,Body,Title,ExportType) \
+    _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,"",Title,ExportType)
 
 #define _CFG_CATEGORIES_WITH_METANAME_AND_TITLE(Type,Body,MetaName,Title,ExportType) \
     namespace Cfg\
@@ -79,13 +71,15 @@
         }\
     }
 
-#define _CFG_CATEGORY_WITH_TITLE(Name,Body,Title) \
-    struct CFG_EXPORT _##Name##Type : public CfgCategory\
+#define _CFG_CATEGORY_WITH_TITLE(Name,Body,Title,ExportType) \
+    struct ExportType _##Name##Type : public CfgCategory\
     {\
         _##Name##Type() : CfgCategory(#Name, Title) {}\
         Body\
     };\
     _##Name##Type Name;
 
+#define _CFG_CATEGORY(Name,Body,ExportType) \
+    _CFG_CATEGORY_WITH_TITLE(Name, Body, QString(), ExportType)
 
 #endif // CFGINTERNALS_H
