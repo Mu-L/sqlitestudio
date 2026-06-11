@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="nl" sourcelanguage="en">
-<context>
+  <context>
     <name>CsvExport</name>
     <message>
-        <location filename="../CsvExport.ui" line="20"/>
-        <source>Column names in first row</source>
-        <translation>Kolomnamen in eerste rij</translation>
+      <location filename="../CsvExport.ui" line="20"/>
+      <source>Column names in first row</source>
+      <translation>Kolomnamen in eerste rij</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="30"/>
-        <source>Column separator:</source>
-        <translation>Kolomscheidingsteken:</translation>
+      <location filename="../CsvExport.ui" line="30"/>
+      <source>Column separator:</source>
+      <translation>Kolomscheidingsteken:</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="41"/>
-        <source>, (comma)</source>
-        <translation>, (komma)</translation>
+      <location filename="../CsvExport.ui" line="41"/>
+      <source>, (comma)</source>
+      <translation>, (komma)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="46"/>
-        <source>; (semicolon)</source>
-        <translation>; (puntkomma)</translation>
+      <location filename="../CsvExport.ui" line="46"/>
+      <source>; (semicolon)</source>
+      <translation>; (puntkomma)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="51"/>
-        <source>\t (tab)</source>
-        <translation>\t (tab)</translation>
+      <location filename="../CsvExport.ui" line="51"/>
+      <source>\t (tab)</source>
+      <translation>\t (tab)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="56"/>
-        <source>  (whitespace)</source>
-        <translation>  (witruimte)</translation>
+      <location filename="../CsvExport.ui" line="56"/>
+      <source>  (whitespace)</source>
+      <translation>  (witruimte)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="61"/>
-        <source>Custom:</source>
-        <translation>Aangepast:</translation>
+      <location filename="../CsvExport.ui" line="61"/>
+      <source>Custom:</source>
+      <translation>Aangepast:</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="82"/>
-        <source>Export NULL values as:</source>
-        <translation>NULL-waarden exporteren als:</translation>
+      <location filename="../CsvExport.ui" line="82"/>
+      <source>Export NULL values as:</source>
+      <translation>NULL-waarden exporteren als:</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="89"/>
-        <source>Empty string</source>
-        <translation>Lege tekenreeks</translation>
+      <location filename="../CsvExport.ui" line="89"/>
+      <source>Empty string</source>
+      <translation>Lege tekenreeks</translation>
     </message>
     <message>
-        <location filename="../csvexport.cpp" line="41"/>
-        <source>Enter the custom separator character.</source>
-        <translation>Voer het aangepaste scheidingsteken in.</translation>
+      <location filename="../csvexport.cpp" line="41"/>
+      <source>Enter the custom separator character.</source>
+      <translation>Voer het aangepaste scheidingsteken in.</translation>
     </message>
-</context>
+  </context>
 </TS>
