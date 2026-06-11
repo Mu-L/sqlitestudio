@@ -32,8 +32,6 @@ jobs:
                 set -euo pipefail
                 echo "Using lupdate: $(which lupdate) ($(lupdate -version))"
 
-                reference_ts_dir="Letos/gui/translations"
-
                 dirs=()
 
                 for p in core gui letos
@@ -56,26 +54,22 @@ jobs:
 
                     [ -d "$d/translations" ] || continue
 
-                    if [[ "$d" == Plugins/* ]] && ! find "$d/translations" -name "*.ts" -print -quit | grep -q .
+                    source_ts_files=()
+
+                    while IFS= read -r f
+                    do
+                        source_ts_files+=("$f")
+                    done < <(find "$d/translations" -maxdepth 1 -name "*.ts" ! -name "*_*.ts" | sort)
+
+                    if [[ "$d" == Plugins/* ]] && [ ${#source_ts_files[@]} -eq 0 ]
                     then
                         plugin_name="$(basename "$d")"
-                        lupdate "$d" -ts "$d"/translations/${plugin_name}.ts
-
-                        for ref_ts in "$reference_ts_dir"/*_*.ts
-                        do
-                            [ -f "$ref_ts" ] || continue
-
-                            ref_base="$(basename "$ref_ts")"
-                            lang="${ref_base#gui_}"
-                            target_ts="$d/translations/${plugin_name}_${lang}"
-
-                            lupdate "$d" -ts $target_ts
-                        done
-                    else
-                        lupdate "$d" -ts "$d"/translations/*.ts
+                        source_ts_files+=("$d/translations/${plugin_name}.ts")
                     fi
 
-                    find "$d"/translations -name "*.ts" | while read f; do
+                    for f in "${source_ts_files[@]}"
+                    do
+                        lupdate "$d" -ts "$f"
                         lconvert -sort-contexts -o "$f.tmp" "$f"
                         mv "$f.tmp" "$f"
                     done
