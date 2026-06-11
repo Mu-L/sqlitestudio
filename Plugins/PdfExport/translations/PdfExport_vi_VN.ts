@@ -1,328 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="vi" sourcelanguage="en">
-<context>
+  <context>
     <name>PdfExport</name>
     <message>
-        <location filename="../pdfexport.cpp" line="66"/>
-        <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+      <location filename="../pdfexport.cpp" line="66"/>
+      <source>SQL query results</source>
+      <translation>Kết quả truy vấn SQL</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="205"/>
-        <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+      <location filename="../pdfexport.cpp" line="205"/>
+      <source>Exported table: %1</source>
+      <translation>Bảng đã xuất: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="101"/>
-        <location filename="../pdfexport.cpp" line="153"/>
-        <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+      <location filename="../pdfexport.cpp" line="101"/>
+      <location filename="../pdfexport.cpp" line="153"/>
+      <source>Table: %1</source>
+      <translation>Bảng: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="33"/>
-        <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+      <location filename="../pdfexport.cpp" line="33"/>
+      <source>Letos v%1</source>
+      <translation>Letos phiên bản %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="104"/>
-        <location filename="../pdfexport.cpp" line="266"/>
-        <source>Column</source>
-        <translation type="unfinished">Column</translation>
+      <location filename="../pdfexport.cpp" line="104"/>
+      <location filename="../pdfexport.cpp" line="266"/>
+      <source>Column</source>
+      <translation>Cột</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="104"/>
-        <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+      <location filename="../pdfexport.cpp" line="104"/>
+      <source>Data type</source>
+      <translation>Kiểu dữ liệu</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="104"/>
-        <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+      <location filename="../pdfexport.cpp" line="104"/>
+      <source>Constraints</source>
+      <translation>Ràng buộc</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="135"/>
-        <source>Global table constraints</source>
-        <translation type="unfinished">Global table constraints</translation>
+      <location filename="../pdfexport.cpp" line="135"/>
+      <source>Global table constraints</source>
+      <translation>Ràng buộc bảng toàn cục</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="216"/>
-        <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+      <location filename="../pdfexport.cpp" line="216"/>
+      <source>Exported view: %1</source>
+      <translation>Khung nhìn đã xuất: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="250"/>
-        <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+      <location filename="../pdfexport.cpp" line="250"/>
+      <source>Exported database: %1</source>
+      <translation>Cơ sở dữ liệu đã xuất: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="258"/>
-        <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+      <location filename="../pdfexport.cpp" line="258"/>
+      <source>Index: %1</source>
+      <translation>Chỉ mục: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="260"/>
-        <source>Property</source>
-        <comment>index header</comment>
-        <translation type="unfinished">Property</translation>
+      <location filename="../pdfexport.cpp" line="260"/>
+      <source>Property</source>
+      <comment>index header</comment>
+      <translation>Thuộc tính</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="260"/>
-        <source>Value</source>
-        <comment>index header</comment>
-        <translation type="unfinished">Value</translation>
+      <location filename="../pdfexport.cpp" line="260"/>
+      <source>Value</source>
+      <comment>index header</comment>
+      <translation>Giá trị</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="263"/>
-        <source>Indexed table</source>
-        <translation type="unfinished">Indexed table</translation>
+      <location filename="../pdfexport.cpp" line="263"/>
+      <source>Indexed table</source>
+      <translation>Bảng được lập chỉ mục</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="264"/>
-        <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+      <location filename="../pdfexport.cpp" line="264"/>
+      <source>Unique index</source>
+      <translation>Chỉ mục duy nhất</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="264"/>
-        <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+      <location filename="../pdfexport.cpp" line="264"/>
+      <source>Yes</source>
+      <translation>Có</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="264"/>
-        <source>No</source>
-        <translation type="unfinished">No</translation>
+      <location filename="../pdfexport.cpp" line="264"/>
+      <source>No</source>
+      <translation>Không</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="266"/>
-        <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+      <location filename="../pdfexport.cpp" line="266"/>
+      <source>Collation</source>
+      <translation>Quy tắc đối chiếu</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="266"/>
-        <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+      <location filename="../pdfexport.cpp" line="266"/>
+      <source>Sort order</source>
+      <translation>Thứ tự sắp xếp</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="282"/>
-        <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+      <location filename="../pdfexport.cpp" line="282"/>
+      <source>Partial index condition</source>
+      <translation>Điều kiện chỉ mục một phần</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="296"/>
-        <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+      <location filename="../pdfexport.cpp" line="296"/>
+      <source>Trigger: %1</source>
+      <translation>Trình kích hoạt: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="298"/>
-        <source>Property</source>
-        <comment>trigger header</comment>
-        <translation type="unfinished">Property</translation>
+      <location filename="../pdfexport.cpp" line="298"/>
+      <source>Property</source>
+      <comment>trigger header</comment>
+      <translation>Thuộc tính</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="298"/>
-        <source>Value</source>
-        <comment>trigger header</comment>
-        <translation type="unfinished">Value</translation>
+      <location filename="../pdfexport.cpp" line="298"/>
+      <source>Value</source>
+      <comment>trigger header</comment>
+      <translation>Giá trị</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="300"/>
-        <source>Activation time</source>
-        <translation type="unfinished">Activation time</translation>
+      <location filename="../pdfexport.cpp" line="300"/>
+      <source>Activation time</source>
+      <translation>Thời điểm kích hoạt</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="303"/>
-        <source>For action</source>
-        <translation type="unfinished">For action</translation>
+      <location filename="../pdfexport.cpp" line="303"/>
+      <source>For action</source>
+      <translation>Cho hành động</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="307"/>
-        <source>On view</source>
-        <translation type="unfinished">On view</translation>
+      <location filename="../pdfexport.cpp" line="307"/>
+      <source>On view</source>
+      <translation>Trên khung nhìn</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="309"/>
-        <source>On table</source>
-        <translation type="unfinished">On table</translation>
+      <location filename="../pdfexport.cpp" line="309"/>
+      <source>On table</source>
+      <translation>Trên bảng</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="314"/>
-        <source>Activation condition</source>
-        <translation type="unfinished">Activation condition</translation>
+      <location filename="../pdfexport.cpp" line="314"/>
+      <source>Activation condition</source>
+      <translation>Điều kiện kích hoạt</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="320"/>
-        <source>Code executed</source>
-        <translation type="unfinished">Code executed</translation>
+      <location filename="../pdfexport.cpp" line="320"/>
+      <source>Code executed</source>
+      <translation>Mã được thực thi</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="333"/>
-        <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+      <location filename="../pdfexport.cpp" line="333"/>
+      <source>View: %1</source>
+      <translation>Khung nhìn: %1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="710"/>
-        <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+      <location filename="../pdfexport.cpp" line="710"/>
+      <source>Document generated with Letos v%1</source>
+      <translation>Tài liệu được tạo bằng Letos v%1</translation>
     </message>
     <message>
-        <location filename="../pdfexport.cpp" line="69"/>
-        <location filename="../pdfexport.cpp" line="335"/>
-        <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+      <location filename="../pdfexport.cpp" line="69"/>
+      <location filename="../pdfexport.cpp" line="335"/>
+      <source>Query:</source>
+      <translation>Truy vấn:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>PdfExportConfig</name>
     <message>
-        <location filename="../pdfexport.ui" line="20"/>
-        <source>Size and layout</source>
-        <translation type="unfinished">Size and layout</translation>
+      <location filename="../pdfexport.ui" line="20"/>
+      <source>Size and layout</source>
+      <translation>Kích thước và bố cục</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="36"/>
-        <source>Page size:</source>
-        <translation type="unfinished">Page size:</translation>
+      <location filename="../pdfexport.ui" line="36"/>
+      <source>Page size:</source>
+      <translation>Kích thước trang:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="63"/>
-        <source>Right margin:</source>
-        <translation type="unfinished">Right margin:</translation>
+      <location filename="../pdfexport.ui" line="63"/>
+      <source>Right margin:</source>
+      <translation>Lề phải:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="70"/>
-        <source>Left margin:</source>
-        <translation type="unfinished">Left margin:</translation>
+      <location filename="../pdfexport.ui" line="70"/>
+      <source>Left margin:</source>
+      <translation>Lề trái:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="77"/>
-        <source>Cell padding:</source>
-        <translation type="unfinished">Cell padding:</translation>
+      <location filename="../pdfexport.ui" line="77"/>
+      <source>Cell padding:</source>
+      <translation>Khoảng đệm ô:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="84"/>
-        <source>Limit characters in single cell:</source>
-        <translation type="unfinished">Limit characters in single cell:</translation>
+      <location filename="../pdfexport.ui" line="84"/>
+      <source>Limit characters in single cell:</source>
+      <translation>Giới hạn số ký tự trong một ô:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="91"/>
-        <location filename="../pdfexport.ui" line="108"/>
-        <location filename="../pdfexport.ui" line="115"/>
-        <location filename="../pdfexport.ui" line="132"/>
-        <location filename="../pdfexport.ui" line="156"/>
-        <source>mm</source>
-        <translation type="unfinished">mm</translation>
+      <location filename="../pdfexport.ui" line="91"/>
+      <location filename="../pdfexport.ui" line="108"/>
+      <location filename="../pdfexport.ui" line="115"/>
+      <location filename="../pdfexport.ui" line="132"/>
+      <location filename="../pdfexport.ui" line="156"/>
+      <source>mm</source>
+      <translation>mm</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="139"/>
-        <source>Bottom margin:</source>
-        <translation type="unfinished">Bottom margin:</translation>
+      <location filename="../pdfexport.ui" line="139"/>
+      <source>Bottom margin:</source>
+      <translation>Lề dưới:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="163"/>
-        <source>Top margin:</source>
-        <translation type="unfinished">Top margin:</translation>
+      <location filename="../pdfexport.ui" line="163"/>
+      <source>Top margin:</source>
+      <translation>Lề trên:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="183"/>
-        <source>Font</source>
-        <translation type="unfinished">Font</translation>
+      <location filename="../pdfexport.ui" line="183"/>
+      <source>Font</source>
+      <translation>Phông chữ</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="206"/>
-        <source>Colors</source>
-        <translation type="unfinished">Colors</translation>
+      <location filename="../pdfexport.ui" line="206"/>
+      <source>Colors</source>
+      <translation>Màu sắc</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="212"/>
-        <source>Headers background:</source>
-        <translation type="unfinished">Headers background:</translation>
+      <location filename="../pdfexport.ui" line="212"/>
+      <source>Headers background:</source>
+      <translation>Nền tiêu đề:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="235"/>
-        <source>NULL value color:</source>
-        <translation type="unfinished">NULL value color:</translation>
+      <location filename="../pdfexport.ui" line="235"/>
+      <source>NULL value color:</source>
+      <translation>Màu giá trị NULL:</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="261"/>
-        <source>Other settings</source>
-        <translation type="unfinished">Other settings</translation>
+      <location filename="../pdfexport.ui" line="261"/>
+      <source>Other settings</source>
+      <translation>Cài đặt khác</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="267"/>
-        <source>Print row numbers for data</source>
-        <translation type="unfinished">Print row numbers for data</translation>
+      <location filename="../pdfexport.ui" line="267"/>
+      <source>Print row numbers for data</source>
+      <translation>In số thứ tự hàng cho dữ liệu</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="277"/>
-        <source>Print page numbers</source>
-        <translation type="unfinished">Print page numbers</translation>
+      <location filename="../pdfexport.ui" line="277"/>
+      <source>Print page numbers</source>
+      <translation>In số trang</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="290"/>
-        <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+      <location filename="../pdfexport.ui" line="290"/>
+      <source>Custom header</source>
+      <translation>Đầu trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="296"/>
-        <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+      <location filename="../pdfexport.ui" line="296"/>
+      <source>No custom header</source>
+      <translation>Không có đầu trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
+      <location filename="../pdfexport.ui" line="309"/>
+      <source>Define custom header content</source>
+      <translation>Xác định nội dung đầu trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="312"/>
-        <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+      <location filename="../pdfexport.ui" line="322"/>
+      <location filename="../pdfexport.ui" line="393"/>
+      <source>Plain text content</source>
+      <translation>Nội dung văn bản thuần</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
-        <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+      <location filename="../pdfexport.ui" line="332"/>
+      <source>Define custom header file</source>
+      <translation>Xác định tệp đầu trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
-        <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+      <location filename="../pdfexport.ui" line="348"/>
+      <source>Choose file for the header</source>
+      <translation>Chọn tệp cho đầu trang</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+      <location filename="../pdfexport.ui" line="351"/>
+      <location filename="../pdfexport.ui" line="422"/>
+      <source>Text files (*.txt);;All files (*)</source>
+      <translation>Tệp văn bản (*.txt);;Tất cả tệp (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
-        <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+      <location filename="../pdfexport.ui" line="361"/>
+      <source>Custom footer</source>
+      <translation>Chân trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
-        <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+      <location filename="../pdfexport.ui" line="367"/>
+      <source>No custom footer</source>
+      <translation>Không có chân trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
-        <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+      <location filename="../pdfexport.ui" line="380"/>
+      <source>Define custom footer content</source>
+      <translation>Xác định nội dung chân trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
-        <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+      <location filename="../pdfexport.ui" line="403"/>
+      <source>Define custom footer file</source>
+      <translation>Xác định tệp chân trang tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
-        <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+      <location filename="../pdfexport.ui" line="419"/>
+      <source>Choose file for the footer</source>
+      <translation>Chọn tệp cho chân trang</translation>
     </message>
-    <message>
-        <location filename="../pdfexport.ui" line="425"/>
-        <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
-    </message>
-</context>
+  </context>
 </TS>
