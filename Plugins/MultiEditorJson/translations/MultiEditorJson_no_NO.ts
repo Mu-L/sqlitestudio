@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="no_NO" sourcelanguage="en">
-<context>
+  <context>
     <name>MultiEditorJson</name>
     <message>
-        <location filename="../multieditorjson.cpp" line="27"/>
-        <source>Prettify</source>
-        <translation>Gjør penere</translation>
+      <location filename="../multieditorjson.cpp" line="27"/>
+      <source>Prettify</source>
+      <translation>Gjør penere</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="28"/>
-        <source>Format JSON with indentation</source>
-        <translation>Formater JSON med innrykk</translation>
+      <location filename="../multieditorjson.cpp" line="28"/>
+      <source>Format JSON with indentation</source>
+      <translation>Formater JSON med innrykk</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="30"/>
-        <source>Condense</source>
-        <translation>Kondenser</translation>
+      <location filename="../multieditorjson.cpp" line="30"/>
+      <source>Condense</source>
+      <translation>Kondenser</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="31"/>
-        <source>Remove whitespace and format on single line</source>
-        <translation>Fjern mellomrom og formater på én linje</translation>
+      <location filename="../multieditorjson.cpp" line="31"/>
+      <source>Remove whitespace and format on single line</source>
+      <translation>Fjern mellomrom og formater på én linje</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="35"/>
-        <source>Validate</source>
-        <translation>Valider</translation>
+      <location filename="../multieditorjson.cpp" line="35"/>
+      <source>Validate</source>
+      <translation>Valider</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="36"/>
-        <source>Validate JSON syntax</source>
-        <translation>Valider JSON-syntaks</translation>
+      <location filename="../multieditorjson.cpp" line="36"/>
+      <source>Validate JSON syntax</source>
+      <translation>Valider JSON-syntaks</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="39"/>
-        <source>Find or replace (%1)</source>
-        <translation>Finn eller erstatt (%1)</translation>
+      <location filename="../multieditorjson.cpp" line="39"/>
+      <source>Find or replace (%1)</source>
+      <translation>Finn eller erstatt (%1)</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="169"/>
-        <source>✓ Valid JSON</source>
-        <translation>✓ Gyldig JSON</translation>
+      <location filename="../multieditorjson.cpp" line="169"/>
+      <source>✓ Valid JSON</source>
+      <translation>✓ Gyldig JSON</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="174"/>
-        <source>✗ Invalid: %1</source>
-        <translation>✗ Ugyldig: %1</translation>
+      <location filename="../multieditorjson.cpp" line="174"/>
+      <source>✗ Invalid: %1</source>
+      <translation>✗ Ugyldig: %1</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="214"/>
-        <source>JSON is valid!</source>
-        <translation>JSON er gyldig!</translation>
+      <location filename="../multieditorjson.cpp" line="214"/>
+      <source>JSON is valid!</source>
+      <translation>JSON er gyldig!</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="218"/>
-        <source>JSON validation failed: %1</source>
-        <translation>JSON-validering mislyktes: %1</translation>
+      <location filename="../multieditorjson.cpp" line="218"/>
+      <source>JSON validation failed: %1</source>
+      <translation>JSON-validering mislyktes: %1</translation>
     </message>
     <message>
-        <location filename="../multieditorjson.cpp" line="113"/>
-        <source>JSON files (*.json, *.txt)</source>
-        <translation>JSON-filer (*.json, *.txt)</translation>
+      <location filename="../multieditorjson.cpp" line="113"/>
+      <source>JSON files (*.json, *.txt)</source>
+      <translation>JSON-filer (*.json, *.txt)</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorJsonPlugin</name>
     <message>
-        <source>JSON</source>
-        <translation>JSON</translation>
+      <source>JSON</source>
+      <translation>JSON</translation>
     </message>
-</context>
+  </context>
 </TS>
