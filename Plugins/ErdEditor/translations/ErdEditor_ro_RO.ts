@@ -1,504 +1,504 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ro" sourcelanguage="en">
-<context>
+  <context>
     <name>ErdChangeRegistryDialog</name>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="14"/>
-        <source>Pending changes registry</source>
-        <translation>Registru de modificări în așteptare</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="14"/>
+      <source>Pending changes registry</source>
+      <translation>Registru de modificări în așteptare</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="65"/>
-        <source>Pending changes</source>
-        <translation>Modificări în așteptare</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="65"/>
+      <source>Pending changes</source>
+      <translation>Modificări în așteptare</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="105"/>
-        <source>DDL preview</source>
-        <translation>Previzualizare DDL</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="105"/>
+      <source>DDL preview</source>
+      <translation>Previzualizare DDL</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="143"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows the changes as they will be committed. Redundant or mutually cancelling steps are merged or removed from the list.&lt;br/&gt;When disabled, all individual undo and redo steps are shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afișează modificările așa cum vor fi validate. Pașii redundanți sau care se anulează reciproc sunt îmbinați sau eliminați din listă.&lt;br/&gt;Când opțiunea este dezactivată, sunt afișați toți pașii individuali de anulare și refacere.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="143"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows the changes as they will be committed. Redundant or mutually cancelling steps are merged or removed from the list.&lt;br/&gt;When disabled, all individual undo and redo steps are shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afișează modificările așa cum vor fi validate. Pașii redundanți sau care se anulează reciproc sunt îmbinați sau eliminați din listă.&lt;br/&gt;Când opțiunea este dezactivată, sunt afișați toți pașii individuali de anulare și refacere.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="146"/>
-        <source>Show effective changes only</source>
-        <translation>Afișează doar modificările efective</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="146"/>
+      <source>Show effective changes only</source>
+      <translation>Afișează doar modificările efective</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="153"/>
-        <source>&lt;html&gt;&lt;body&gt;Shows changes that do not modify the database schema, but only affect the diagram (for example, table position changes). &lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;body&gt;Afișează modificările care nu modifică schema bazei de date, ci afectează doar diagrama (de exemplu, modificări ale poziției tabelelor). &lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="153"/>
+      <source>&lt;html&gt;&lt;body&gt;Shows changes that do not modify the database schema, but only affect the diagram (for example, table position changes). &lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;body&gt;Afișează modificările care nu modifică schema bazei de date, ci afectează doar diagrama (de exemplu, modificări ale poziției tabelelor). &lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.ui" line="156"/>
-        <source>Show non-schema changes</source>
-        <translation>Afișează modificările care nu țin de schemă</translation>
+      <location filename="../changes/erdchangeregistrydialog.ui" line="156"/>
+      <source>Show non-schema changes</source>
+      <translation>Afișează modificările care nu țin de schemă</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangeregistrydialog.cpp" line="58"/>
-        <source>-- This is a change applied only to the diagram. It has no database schema efects.</source>
-        <comment>ERD editor</comment>
-        <translation>-- Aceasta este o modificare aplicată doar diagramei. Nu are efecte asupra schemei bazei de date.</translation>
+      <location filename="../changes/erdchangeregistrydialog.cpp" line="58"/>
+      <source>-- This is a change applied only to the diagram. It has no database schema efects.</source>
+      <comment>ERD editor</comment>
+      <translation>-- Aceasta este o modificare aplicată doar diagramei. Nu are efecte asupra schemei bazei de date.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdConfig</name>
     <message>
-        <location filename="../erdconfig.ui" line="33"/>
-        <source>Maximum number of tables for ERD editor</source>
-        <translation>Numărul maxim de tabele pentru editorul ERD</translation>
+      <location filename="../erdconfig.ui" line="33"/>
+      <source>Maximum number of tables for ERD editor</source>
+      <translation>Numărul maxim de tabele pentru editorul ERD</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="40"/>
-        <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
-        <translation>Setarea acestei valori prea sus poate provoca încetinirea aplicației sau lipsa de răspuns la deschiderea editorului ERD.</translation>
+      <location filename="../erdconfig.ui" line="40"/>
+      <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
+      <translation>Setarea acestei valori prea sus poate provoca încetinirea aplicației sau lipsa de răspuns la deschiderea editorului ERD.</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="56"/>
-        <source>Starts panning as soon as the Space key is pressed, without requiring a mouse button press.</source>
-        <translation>Începe panoramarea imediat ce este apăsată tasta Spațiu, fără a necesita apăsarea unui buton al mouse-ului.</translation>
+      <location filename="../erdconfig.ui" line="56"/>
+      <source>Starts panning as soon as the Space key is pressed, without requiring a mouse button press.</source>
+      <translation>Începe panoramarea imediat ce este apăsată tasta Spațiu, fără a necesita apăsarea unui buton al mouse-ului.</translation>
     </message>
     <message>
-        <location filename="../erdconfig.ui" line="59"/>
-        <source>Pan view with Space only</source>
-        <translation>Panoramează vizualizarea doar cu Spațiu</translation>
+      <location filename="../erdconfig.ui" line="59"/>
+      <source>Pan view with Space only</source>
+      <translation>Panoramează vizualizarea doar cu Spațiu</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdConnectionPanel</name>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="59"/>
-        <source>Foreign key properties</source>
-        <translation>Proprietăți cheie străină</translation>
+      <location filename="../panel/erdconnectionpanel.ui" line="59"/>
+      <source>Foreign key properties</source>
+      <translation>Proprietăți cheie străină</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="83"/>
-        <source>Composite relation (multiple columns)</source>
-        <translation>Relație compusă (mai multe coloane)</translation>
+      <location filename="../panel/erdconnectionpanel.ui" line="83"/>
+      <source>Composite relation (multiple columns)</source>
+      <translation>Relație compusă (mai multe coloane)</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="137"/>
-        <source>Referencing (child) table:</source>
-        <translation>Tabel referențiator (copil):</translation>
+      <location filename="../panel/erdconnectionpanel.ui" line="137"/>
+      <source>Referencing (child) table:</source>
+      <translation>Tabel referențiator (copil):</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.ui" line="156"/>
-        <source>Referencing (child) column:</source>
-        <translation>Coloană referențiatoare (copil):</translation>
+      <location filename="../panel/erdconnectionpanel.ui" line="156"/>
+      <source>Referencing (child) column:</source>
+      <translation>Coloană referențiatoare (copil):</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.cpp" line="51"/>
-        <source>ERD side panel for relation between tables &quot;%1&quot; and &quot;%2&quot; has uncommitted modifications.</source>
-        <translation>Panoul lateral ERD pentru relația dintre tabelele &quot;%1&quot; și &quot;%2&quot; are modificări nevalidate.</translation>
+      <location filename="../panel/erdconnectionpanel.cpp" line="51"/>
+      <source>ERD side panel for relation between tables &quot;%1&quot; and &quot;%2&quot; has uncommitted modifications.</source>
+      <translation>Panoul lateral ERD pentru relația dintre tabelele &quot;%1&quot; și &quot;%2&quot; are modificări nevalidate.</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.cpp" line="57"/>
-        <source>Apply changes to diagram</source>
-        <comment>ERD editor</comment>
-        <translation>Aplică modificările la diagramă</translation>
+      <location filename="../panel/erdconnectionpanel.cpp" line="57"/>
+      <source>Apply changes to diagram</source>
+      <comment>ERD editor</comment>
+      <translation>Aplică modificările la diagramă</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.cpp" line="58"/>
-        <source>Abort changes</source>
-        <comment>ERD editor</comment>
-        <translation>Anulează modificările</translation>
+      <location filename="../panel/erdconnectionpanel.cpp" line="58"/>
+      <source>Abort changes</source>
+      <comment>ERD editor</comment>
+      <translation>Anulează modificările</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.cpp" line="240"/>
-        <source>Modify relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
-        <translation>Modifică relația dintre &quot;%1&quot; și &quot;%2&quot;.</translation>
+      <location filename="../panel/erdconnectionpanel.cpp" line="240"/>
+      <source>Modify relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
+      <translation>Modifică relația dintre &quot;%1&quot; și &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.cpp" line="242"/>
-        <source>Modify relationship between &quot;%1&quot; and &quot;%2&quot; - change target to &quot;%3&quot;.</source>
-        <translation>Modifică relația dintre &quot;%1&quot; și &quot;%2&quot; - schimbă ținta la &quot;%3&quot;.</translation>
+      <location filename="../panel/erdconnectionpanel.cpp" line="242"/>
+      <source>Modify relationship between &quot;%1&quot; and &quot;%2&quot; - change target to &quot;%3&quot;.</source>
+      <translation>Modifică relația dintre &quot;%1&quot; și &quot;%2&quot; - schimbă ținta la &quot;%3&quot;.</translation>
     </message>
     <message>
-        <location filename="../panel/erdconnectionpanel.cpp" line="252"/>
-        <source>Failed to execute DDL required for relation modification. Details: %1</source>
-        <translation>Nu s-a reușit executarea DDL necesară pentru modificarea relației. Detalii: %1</translation>
+      <location filename="../panel/erdconnectionpanel.cpp" line="252"/>
+      <source>Failed to execute DDL required for relation modification. Details: %1</source>
+      <translation>Nu s-a reușit executarea DDL necesară pentru modificarea relației. Detalii: %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdEditorPlugin</name>
     <message>
-        <location filename="../erdeditorplugin.cpp" line="20"/>
-        <source>Open ERD editor</source>
-        <translation>Deschide editorul ERD</translation>
+      <location filename="../erdeditorplugin.cpp" line="20"/>
+      <source>Open ERD editor</source>
+      <translation>Deschide editorul ERD</translation>
     </message>
     <message>
-        <location filename="../erdeditorplugin.cpp" line="74"/>
-        <source>ERD editor cannot open because the database contains %1 tables, exceeding the configured limit of %2 tables. You can increase this limit in the settings, but higher values may slow down or freeze the application.</source>
-        <translation>Editorul ERD nu se poate deschide deoarece baza de date conține %1 tabele, depășind limita configurată de %2 tabele. Puteți mări această limită în setări, dar valorile mai mari pot încetini sau bloca aplicația.</translation>
+      <location filename="../erdeditorplugin.cpp" line="74"/>
+      <source>ERD editor cannot open because the database contains %1 tables, exceeding the configured limit of %2 tables. You can increase this limit in the settings, but higher values may slow down or freeze the application.</source>
+      <translation>Editorul ERD nu se poate deschide deoarece baza de date conține %1 tabele, depășind limita configurată de %2 tabele. Puteți mări această limită în setări, dar valorile mai mari pot încetini sau bloca aplicația.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdScene</name>
     <message>
-        <location filename="../scene/erdscene.cpp" line="530"/>
-        <source>Delete multiple diagram elements.</source>
-        <comment>ERD editor</comment>
-        <translation>Șterge mai multe elemente ale diagramei.</translation>
+      <location filename="../scene/erdscene.cpp" line="530"/>
+      <source>Delete multiple diagram elements.</source>
+      <comment>ERD editor</comment>
+      <translation>Șterge mai multe elemente ale diagramei.</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="547"/>
-        <source>Failed to execute the undo DDL. Details: %1</source>
-        <comment>ERD editor</comment>
-        <translation>Nu s-a reușit executarea DDL de anulare. Detalii: %1</translation>
+      <location filename="../scene/erdscene.cpp" line="547"/>
+      <source>Failed to execute the undo DDL. Details: %1</source>
+      <comment>ERD editor</comment>
+      <translation>Nu s-a reușit executarea DDL de anulare. Detalii: %1</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="569"/>
-        <source>Failed to execute the redo DDL. Details: %1</source>
-        <comment>ERD editor</comment>
-        <translation>Nu s-a reușit executarea DDL de refacere. Detalii: %1</translation>
+      <location filename="../scene/erdscene.cpp" line="569"/>
+      <source>Failed to execute the redo DDL. Details: %1</source>
+      <comment>ERD editor</comment>
+      <translation>Nu s-a reușit executarea DDL de refacere. Detalii: %1</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="596"/>
-        <source>Failed to execute DDL required for table deletion. Details: %1</source>
-        <comment>ERD editor</comment>
-        <translation>Nu s-a reușit executarea DDL necesară pentru ștergerea tabelului. Detalii: %1</translation>
+      <location filename="../scene/erdscene.cpp" line="596"/>
+      <source>Failed to execute DDL required for table deletion. Details: %1</source>
+      <comment>ERD editor</comment>
+      <translation>Nu s-a reușit executarea DDL necesară pentru ștergerea tabelului. Detalii: %1</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="607"/>
-        <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
-        <translation>Șterge cheia străină dintre &quot;%1&quot; și &quot;%2&quot;.</translation>
+      <location filename="../scene/erdscene.cpp" line="607"/>
+      <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
+      <translation>Șterge cheia străină dintre &quot;%1&quot; și &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="616"/>
-        <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
-        <translation>Nu s-a reușit executarea DDL necesară pentru ștergerea cheii străine. Detalii: %1</translation>
+      <location filename="../scene/erdscene.cpp" line="616"/>
+      <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
+      <translation>Nu s-a reușit executarea DDL necesară pentru ștergerea cheii străine. Detalii: %1</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="824"/>
-        <source>Arrange entities</source>
-        <translation>Aranjează entitățile</translation>
+      <location filename="../scene/erdscene.cpp" line="824"/>
+      <source>Arrange entities</source>
+      <translation>Aranjează entitățile</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="825"/>
-        <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
-        <translation>Sigur doriți să aranjați automat entitățile pe diagramă? Această acțiune va suprascrie aranjarea curentă, iar orice ajustări manuale se vor pierde.</translation>
+      <location filename="../scene/erdscene.cpp" line="825"/>
+      <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
+      <translation>Sigur doriți să aranjați automat entitățile pe diagramă? Această acțiune va suprascrie aranjarea curentă, iar orice ajustări manuale se vor pierde.</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="845"/>
-        <source>Change color of table &quot;%1&quot; to %2.</source>
-        <translation>Schimbă culoarea tabelului &quot;%1&quot; la %2.</translation>
+      <location filename="../scene/erdscene.cpp" line="845"/>
+      <source>Change color of table &quot;%1&quot; to %2.</source>
+      <translation>Schimbă culoarea tabelului &quot;%1&quot; la %2.</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="851"/>
-        <source>Change color of multiple tables.</source>
-        <translation>Schimbă culoarea mai multor tabele.</translation>
+      <location filename="../scene/erdscene.cpp" line="851"/>
+      <source>Change color of multiple tables.</source>
+      <translation>Schimbă culoarea mai multor tabele.</translation>
     </message>
     <message>
-        <location filename="../scene/erdscene.cpp" line="696"/>
-        <source>Apply diagram layout</source>
-        <translation>Aplică aranjarea diagramei</translation>
+      <location filename="../scene/erdscene.cpp" line="696"/>
+      <source>Apply diagram layout</source>
+      <translation>Aplică aranjarea diagramei</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdTableWindow</name>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="29"/>
-        <source>Apply changes to diagram</source>
-        <comment>ERD editor</comment>
-        <translation>Aplică modificările la diagramă</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="29"/>
+      <source>Apply changes to diagram</source>
+      <comment>ERD editor</comment>
+      <translation>Aplică modificările la diagramă</translation>
     </message>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="30"/>
-        <source>Abort changes</source>
-        <comment>ERD editor</comment>
-        <translation>Anulează modificările</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="30"/>
+      <source>Abort changes</source>
+      <comment>ERD editor</comment>
+      <translation>Anulează modificările</translation>
     </message>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="49"/>
-        <source>ERD side panel for table &quot;%1&quot; has uncommitted modifications.</source>
-        <translation>Panoul lateral ERD pentru tabelul &quot;%1&quot; are modificări nevalidate.</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="49"/>
+      <source>ERD side panel for table &quot;%1&quot; has uncommitted modifications.</source>
+      <translation>Panoul lateral ERD pentru tabelul &quot;%1&quot; are modificări nevalidate.</translation>
     </message>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="106"/>
-        <source>Invalid table changes</source>
-        <comment>ERD editor</comment>
-        <translation>Modificări nevalide ale tabelului</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="106"/>
+      <source>Invalid table changes</source>
+      <comment>ERD editor</comment>
+      <translation>Modificări nevalide ale tabelului</translation>
     </message>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="108"/>
-        <source>&lt;b&gt;The table contains invalid changes&lt;/b&gt;</source>
-        <comment>ERD editor</comment>
-        <translation>&lt;b&gt;Tabelul conține modificări nevalide&lt;/b&gt;</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="108"/>
+      <source>&lt;b&gt;The table contains invalid changes&lt;/b&gt;</source>
+      <comment>ERD editor</comment>
+      <translation>&lt;b&gt;Tabelul conține modificări nevalide&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="109"/>
-        <source>Some of the changes you made cannot be applied because they contain errors.&lt;br&gt;&lt;br&gt;&lt;b&gt;Errors:&lt;/b&gt;&lt;br&gt;&lt;code&gt;%1&lt;/code&gt;&lt;br&gt;&lt;br&gt;You can &lt;b&gt;return to editing&lt;/b&gt; and fix the problems, or &lt;b&gt;discard your changes&lt;/b&gt; and restore the previous state of the table.</source>
-        <comment>ERD editor</comment>
-        <translation>Unele dintre modificările pe care le-ați făcut nu pot fi aplicate deoarece conțin erori.&lt;br&gt;&lt;br&gt;&lt;b&gt;Erori:&lt;/b&gt;&lt;br&gt;&lt;code&gt;%1&lt;/code&gt;&lt;br&gt;&lt;br&gt;Puteți &lt;b&gt;reveni la editare&lt;/b&gt; și remedia problemele sau &lt;b&gt;renunța la modificări&lt;/b&gt; și restaura starea anterioară a tabelului.</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="109"/>
+      <source>Some of the changes you made cannot be applied because they contain errors.&lt;br&gt;&lt;br&gt;&lt;b&gt;Errors:&lt;/b&gt;&lt;br&gt;&lt;code&gt;%1&lt;/code&gt;&lt;br&gt;&lt;br&gt;You can &lt;b&gt;return to editing&lt;/b&gt; and fix the problems, or &lt;b&gt;discard your changes&lt;/b&gt; and restore the previous state of the table.</source>
+      <comment>ERD editor</comment>
+      <translation>Unele dintre modificările pe care le-ați făcut nu pot fi aplicate deoarece conțin erori.&lt;br&gt;&lt;br&gt;&lt;b&gt;Erori:&lt;/b&gt;&lt;br&gt;&lt;code&gt;%1&lt;/code&gt;&lt;br&gt;&lt;br&gt;Puteți &lt;b&gt;reveni la editare&lt;/b&gt; și remedia problemele sau &lt;b&gt;renunța la modificări&lt;/b&gt; și restaura starea anterioară a tabelului.</translation>
     </message>
     <message>
-        <location filename="../panel/erdtablewindow.cpp" line="118"/>
-        <source>Fix errors</source>
-        <comment>ERD editor</comment>
-        <translation>Remediază erorile</translation>
+      <location filename="../panel/erdtablewindow.cpp" line="118"/>
+      <source>Fix errors</source>
+      <comment>ERD editor</comment>
+      <translation>Remediază erorile</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdView</name>
     <message>
-        <location filename="../scene/erdview.cpp" line="323"/>
-        <source>Cannot edit compound foreign keys this way. Such connections have to be edited through the side panel.</source>
-        <comment>ERD editor</comment>
-        <translation>Nu se pot edita cheile străine compuse în acest mod. Astfel de conexiuni trebuie editate prin panoul lateral.</translation>
+      <location filename="../scene/erdview.cpp" line="323"/>
+      <source>Cannot edit compound foreign keys this way. Such connections have to be edited through the side panel.</source>
+      <comment>ERD editor</comment>
+      <translation>Nu se pot edita cheile străine compuse în acest mod. Astfel de conexiuni trebuie editate prin panoul lateral.</translation>
     </message>
     <message>
-        <location filename="../scene/erdview.cpp" line="633"/>
-        <source>Move table &quot;%1&quot;</source>
-        <translation>Mută tabelul &quot;%1&quot;</translation>
+      <location filename="../scene/erdview.cpp" line="633"/>
+      <source>Move table &quot;%1&quot;</source>
+      <translation>Mută tabelul &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../scene/erdview.cpp" line="639"/>
-        <source>Move tables: %1</source>
-        <translation>Mută tabelele: %1</translation>
+      <location filename="../scene/erdview.cpp" line="639"/>
+      <source>Move tables: %1</source>
+      <translation>Mută tabelele: %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErdWindow</name>
     <message>
-        <location filename="../erdwindow.ui" line="86"/>
-        <source>Select an item to edit its properties</source>
-        <translation>Selectați un element pentru a-i edita proprietățile</translation>
+      <location filename="../erdwindow.ui" line="86"/>
+      <source>Select an item to edit its properties</source>
+      <translation>Selectați un element pentru a-i edita proprietățile</translation>
     </message>
     <message>
-        <location filename="../erdwindow.ui" line="114"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Hold the Spacebar and drag with the mouse to pan the diagram freely without selecting any items.&lt;/p&gt;&lt;p&gt;- Use the mouse wheel to zoom in and out.&lt;/p&gt;&lt;p&gt;- Deselect the table (or click Commit in the side panel toolbar) to apply the side panel changes to the diagram.&lt;/p&gt;&lt;p&gt;- Press Esc (or click Rollback in the side panel toolbar) to discard the side panel changes.&lt;/p&gt;&lt;p&gt;- Double-Click on a table name or column to edit the name inline.&lt;/p&gt;&lt;p&gt;- Shift-Double-Click on a column to edit column details (datatype, constraints).&lt;/p&gt;&lt;p&gt;- To create a foreign key between table, click the middle mouse button on the table columns you want to connect.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;All diagram changes remain pending until you explicitly commit or roll them back&lt;/span&gt; using the toolbar buttons in the top-left corner of the diagram.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Learn more (click to open online help page)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Țineți apăsată tasta Spațiu și trageți cu mouse-ul pentru a panorama liber diagrama fără a selecta niciun element.&lt;/p&gt;&lt;p&gt;- Folosiți rotița mouse-ului pentru a mări și micșora.&lt;/p&gt;&lt;p&gt;- Deselectați tabelul (sau faceți clic pe Validează în bara de instrumente a panoului lateral) pentru a aplica modificările panoului lateral la diagramă.&lt;/p&gt;&lt;p&gt;- Apăsați Esc (sau faceți clic pe Revenire în bara de instrumente a panoului lateral) pentru a renunța la modificările panoului lateral.&lt;/p&gt;&lt;p&gt;- Faceți dublu clic pe un nume de tabel sau pe o coloană pentru a edita numele direct în linie.&lt;/p&gt;&lt;p&gt;- Faceți Shift-dublu clic pe o coloană pentru a edita detaliile coloanei (tip de date, constrângeri).&lt;/p&gt;&lt;p&gt;- Pentru a crea o cheie străină între tabele, faceți clic cu butonul din mijloc al mouse-ului pe coloanele tabelului pe care doriți să le conectați.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Toate modificările diagramei rămân în așteptare până când le validați explicit sau reveniți asupra lor&lt;/span&gt; folosind butoanele din bara de instrumente din colțul din stânga sus al diagramei.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Aflați mai multe (faceți clic pentru a deschide pagina de ajutor online)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../erdwindow.ui" line="114"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Hold the Spacebar and drag with the mouse to pan the diagram freely without selecting any items.&lt;/p&gt;&lt;p&gt;- Use the mouse wheel to zoom in and out.&lt;/p&gt;&lt;p&gt;- Deselect the table (or click Commit in the side panel toolbar) to apply the side panel changes to the diagram.&lt;/p&gt;&lt;p&gt;- Press Esc (or click Rollback in the side panel toolbar) to discard the side panel changes.&lt;/p&gt;&lt;p&gt;- Double-Click on a table name or column to edit the name inline.&lt;/p&gt;&lt;p&gt;- Shift-Double-Click on a column to edit column details (datatype, constraints).&lt;/p&gt;&lt;p&gt;- To create a foreign key between table, click the middle mouse button on the table columns you want to connect.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;All diagram changes remain pending until you explicitly commit or roll them back&lt;/span&gt; using the toolbar buttons in the top-left corner of the diagram.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Learn more (click to open online help page)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Țineți apăsată tasta Spațiu și trageți cu mouse-ul pentru a panorama liber diagrama fără a selecta niciun element.&lt;/p&gt;&lt;p&gt;- Folosiți rotița mouse-ului pentru a mări și micșora.&lt;/p&gt;&lt;p&gt;- Deselectați tabelul (sau faceți clic pe Validează în bara de instrumente a panoului lateral) pentru a aplica modificările panoului lateral la diagramă.&lt;/p&gt;&lt;p&gt;- Apăsați Esc (sau faceți clic pe Revenire în bara de instrumente a panoului lateral) pentru a renunța la modificările panoului lateral.&lt;/p&gt;&lt;p&gt;- Faceți dublu clic pe un nume de tabel sau pe o coloană pentru a edita numele direct în linie.&lt;/p&gt;&lt;p&gt;- Faceți Shift-dublu clic pe o coloană pentru a edita detaliile coloanei (tip de date, constrângeri).&lt;/p&gt;&lt;p&gt;- Pentru a crea o cheie străină între tabele, faceți clic cu butonul din mijloc al mouse-ului pe coloanele tabelului pe care doriți să le conectați.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Toate modificările diagramei rămân în așteptare până când le validați explicit sau reveniți asupra lor&lt;/span&gt; folosind butoanele din bara de instrumente din colțul din stânga sus al diagramei.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Aflați mai multe (faceți clic pentru a deschide pagina de ajutor online)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="165"/>
-        <source>Cancels ongoing action</source>
-        <comment>ERD editor</comment>
-        <translation>Anulează acțiunea în curs</translation>
+      <location filename="../erdwindow.cpp" line="165"/>
+      <source>Cancels ongoing action</source>
+      <comment>ERD editor</comment>
+      <translation>Anulează acțiunea în curs</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="166"/>
-        <source>Create a table</source>
-        <comment>ERD editor</comment>
-        <translation>Creează un tabel</translation>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <source>Create a table</source>
+      <comment>ERD editor</comment>
+      <translation>Creează un tabel</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="168"/>
-        <location filename="../erdwindow.cpp" line="649"/>
-        <source>Reload schema</source>
-        <comment>ERD editor</comment>
-        <translation>Reîncarcă schema</translation>
+      <location filename="../erdwindow.cpp" line="168"/>
+      <location filename="../erdwindow.cpp" line="649"/>
+      <source>Reload schema</source>
+      <comment>ERD editor</comment>
+      <translation>Reîncarcă schema</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="169"/>
-        <source>Commit all pending changes</source>
-        <comment>ERD editor</comment>
-        <translation>Validează toate modificările în așteptare</translation>
+      <location filename="../erdwindow.cpp" line="169"/>
+      <source>Commit all pending changes</source>
+      <comment>ERD editor</comment>
+      <translation>Validează toate modificările în așteptare</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="170"/>
-        <source>Revert diagram to initial state</source>
-        <comment>ERD editor</comment>
-        <translation>Readuce diagrama la starea inițială</translation>
+      <location filename="../erdwindow.cpp" line="170"/>
+      <source>Revert diagram to initial state</source>
+      <comment>ERD editor</comment>
+      <translation>Readuce diagrama la starea inițială</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="172"/>
-        <source>Undo</source>
-        <comment>ERD editor</comment>
-        <translation>Anulează</translation>
+      <location filename="../erdwindow.cpp" line="172"/>
+      <source>Undo</source>
+      <comment>ERD editor</comment>
+      <translation>Anulează</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="173"/>
-        <source>Redo</source>
-        <comment>ERD editor</comment>
-        <translation>Refă</translation>
+      <location filename="../erdwindow.cpp" line="173"/>
+      <source>Redo</source>
+      <comment>ERD editor</comment>
+      <translation>Refă</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="189"/>
-        <source>Create a table</source>
-        <translation>Creează un tabel</translation>
+      <location filename="../erdwindow.cpp" line="189"/>
+      <source>Create a table</source>
+      <translation>Creează un tabel</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="202"/>
-        <source>Select all</source>
-        <translation>Selectează tot</translation>
+      <location filename="../erdwindow.cpp" line="202"/>
+      <source>Select all</source>
+      <translation>Selectează tot</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="311"/>
-        <source>Filter items</source>
-        <comment>ERD editor</comment>
-        <translation>Filtrează elementele</translation>
+      <location filename="../erdwindow.cpp" line="311"/>
+      <source>Filter items</source>
+      <comment>ERD editor</comment>
+      <translation>Filtrează elementele</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="312"/>
-        <source>Items that don’t match the filter will be dimmed.</source>
-        <comment>ERD editor</comment>
-        <translation>Elementele care nu corespund filtrului vor fi estompate.</translation>
+      <location filename="../erdwindow.cpp" line="312"/>
+      <source>Items that don’t match the filter will be dimmed.</source>
+      <comment>ERD editor</comment>
+      <translation>Elementele care nu corespund filtrului vor fi estompate.</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="448"/>
-        <source>table name</source>
-        <comment>ERD editor</comment>
-        <translation>numele tabelului</translation>
+      <location filename="../erdwindow.cpp" line="448"/>
+      <source>table name</source>
+      <comment>ERD editor</comment>
+      <translation>numele tabelului</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="450"/>
-        <source>column name</source>
-        <comment>ERD editor</comment>
-        <translation>numele coloanei</translation>
+      <location filename="../erdwindow.cpp" line="450"/>
+      <source>column name</source>
+      <comment>ERD editor</comment>
+      <translation>numele coloanei</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="570"/>
-        <source>All changes have been successfully applied to the database.</source>
-        <comment>ERD editor</comment>
-        <translation>Toate modificările au fost aplicate cu succes la baza de date.</translation>
+      <location filename="../erdwindow.cpp" line="570"/>
+      <source>All changes have been successfully applied to the database.</source>
+      <comment>ERD editor</comment>
+      <translation>Toate modificările au fost aplicate cu succes la baza de date.</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="578"/>
-        <source>The changes were successfully committed. No modifications to the database schema were required.</source>
-        <comment>ERD editor</comment>
-        <translation>Modificările au fost validate cu succes. Nu au fost necesare modificări ale schemei bazei de date.</translation>
+      <location filename="../erdwindow.cpp" line="578"/>
+      <source>The changes were successfully committed. No modifications to the database schema were required.</source>
+      <comment>ERD editor</comment>
+      <translation>Modificările au fost validate cu succes. Nu au fost necesare modificări ale schemei bazei de date.</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="586"/>
-        <source>Failed to apply changes to the database. Details: %1</source>
-        <comment>ERD editor</comment>
-        <translation>Nu s-a reușit aplicarea modificărilor la baza de date. Detalii: %1</translation>
+      <location filename="../erdwindow.cpp" line="586"/>
+      <source>Failed to apply changes to the database. Details: %1</source>
+      <comment>ERD editor</comment>
+      <translation>Nu s-a reușit aplicarea modificărilor la baza de date. Detalii: %1</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="650"/>
-        <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
-        <translation>Această acțiune va renunța la toate modificările în așteptare și va reîncărca diagrama din schema curentă a bazei de date. Istoricul de anulare/refacere va fi șters. Doriți să continuați?</translation>
+      <location filename="../erdwindow.cpp" line="650"/>
+      <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
+      <translation>Această acțiune va renunța la toate modificările în așteptare și va reîncărca diagrama din schema curentă a bazei de date. Istoricul de anulare/refacere va fi șters. Doriți să continuați?</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="833"/>
-        <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
-        <translation>Fereastra ERD &quot;%1&quot; are modificări nevalidate.</translation>
+      <location filename="../erdwindow.cpp" line="833"/>
+      <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
+      <translation>Fereastra ERD &quot;%1&quot; are modificări nevalidate.</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="1145"/>
-        <source>ERD editor (%1)</source>
-        <translation>Editor ERD (%1)</translation>
+      <location filename="../erdwindow.cpp" line="1145"/>
+      <source>ERD editor (%1)</source>
+      <translation>Editor ERD (%1)</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="1147"/>
-        <source>ERD editor</source>
-        <translation>Editor ERD</translation>
+      <location filename="../erdwindow.cpp" line="1147"/>
+      <source>ERD editor</source>
+      <translation>Editor ERD</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="181"/>
-        <source>The number of changes pending for commit. Click to see details.</source>
-        <comment>ERD editor</comment>
-        <translation>Numărul de modificări în așteptare pentru validare. Faceți clic pentru detalii.</translation>
+      <location filename="../erdwindow.cpp" line="181"/>
+      <source>The number of changes pending for commit. Click to see details.</source>
+      <comment>ERD editor</comment>
+      <translation>Numărul de modificări în așteptare pentru validare. Faceți clic pentru detalii.</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="190"/>
-        <source>Add a foreign key</source>
-        <comment>ERD editor</comment>
-        <translation>Adaugă o cheie străină</translation>
+      <location filename="../erdwindow.cpp" line="190"/>
+      <source>Add a foreign key</source>
+      <comment>ERD editor</comment>
+      <translation>Adaugă o cheie străină</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="192"/>
-        <source>Delete selected items</source>
-        <comment>ERD editor</comment>
-        <translation>Șterge elementele selectate</translation>
+      <location filename="../erdwindow.cpp" line="192"/>
+      <source>Delete selected items</source>
+      <comment>ERD editor</comment>
+      <translation>Șterge elementele selectate</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="198"/>
-        <source>Auto-arrange (local forces)</source>
-        <comment>ERD editor</comment>
-        <translation>Aranjare automată (forțe locale)</translation>
+      <location filename="../erdwindow.cpp" line="198"/>
+      <source>Auto-arrange (local forces)</source>
+      <comment>ERD editor</comment>
+      <translation>Aranjare automată (forțe locale)</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="199"/>
-        <source>Auto-arrange (global balance)</source>
-        <comment>ERD editor</comment>
-        <translation>Aranjare automată (echilibru global)</translation>
+      <location filename="../erdwindow.cpp" line="199"/>
+      <source>Auto-arrange (global balance)</source>
+      <comment>ERD editor</comment>
+      <translation>Aranjare automată (echilibru global)</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="213"/>
-        <source>Set table color</source>
-        <comment>ERD editor</comment>
-        <translation>Setează culoarea tabelului</translation>
+      <location filename="../erdwindow.cpp" line="213"/>
+      <source>Set table color</source>
+      <comment>ERD editor</comment>
+      <translation>Setează culoarea tabelului</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="241"/>
-        <source>Use straight line</source>
-        <comment>ERD editor</comment>
-        <translation>Folosește linie dreaptă</translation>
+      <location filename="../erdwindow.cpp" line="241"/>
+      <source>Use straight line</source>
+      <comment>ERD editor</comment>
+      <translation>Folosește linie dreaptă</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="242"/>
-        <source>Use curvy line</source>
-        <comment>ERD editor</comment>
-        <translation>Folosește linie curbată</translation>
+      <location filename="../erdwindow.cpp" line="242"/>
+      <source>Use curvy line</source>
+      <comment>ERD editor</comment>
+      <translation>Folosește linie curbată</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="243"/>
-        <source>Use square line</source>
-        <comment>ERD editor</comment>
-        <translation>Folosește linie în unghi drept</translation>
+      <location filename="../erdwindow.cpp" line="243"/>
+      <source>Use square line</source>
+      <comment>ERD editor</comment>
+      <translation>Folosește linie în unghi drept</translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="254"/>
-        <source>Choose line type</source>
-        <comment>ERD editor</comment>
-        <translation>Alege tipul liniei</translation>
+      <location filename="../erdwindow.cpp" line="254"/>
+      <source>Choose line type</source>
+      <comment>ERD editor</comment>
+      <translation>Alege tipul liniei</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>QObject</name>
     <message>
-        <location filename="../changes/erdchangedeleteentity.cpp" line="48"/>
-        <source>Drop table &quot;%1&quot;.</source>
-        <comment>ERD editor</comment>
-        <translation>Șterge tabelul &quot;%1&quot;.</translation>
+      <location filename="../changes/erdchangedeleteentity.cpp" line="48"/>
+      <source>Drop table &quot;%1&quot;.</source>
+      <comment>ERD editor</comment>
+      <translation>Șterge tabelul &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangemodifyentity.cpp" line="61"/>
-        <source>Modify table &quot;%1&quot;.</source>
-        <comment>ERD editor</comment>
-        <translation>Modifică tabelul &quot;%1&quot;.</translation>
+      <location filename="../changes/erdchangemodifyentity.cpp" line="61"/>
+      <source>Modify table &quot;%1&quot;.</source>
+      <comment>ERD editor</comment>
+      <translation>Modifică tabelul &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangenewentity.cpp" line="54"/>
-        <source>Create table &quot;%1&quot;.</source>
-        <comment>ERD editor</comment>
-        <translation>Creează tabelul &quot;%1&quot;.</translation>
+      <location filename="../changes/erdchangenewentity.cpp" line="54"/>
+      <source>Create table &quot;%1&quot;.</source>
+      <comment>ERD editor</comment>
+      <translation>Creează tabelul &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../changes/erdeffectivechangemerger.cpp" line="31"/>
-        <source>Failed to create in-memory databases required for change compacting.</source>
-        <translation>Nu s-au putut crea bazele de date în memorie necesare pentru compactarea modificărilor.</translation>
+      <location filename="../changes/erdeffectivechangemerger.cpp" line="31"/>
+      <source>Failed to create in-memory databases required for change compacting.</source>
+      <translation>Nu s-au putut crea bazele de date în memorie necesare pentru compactarea modificărilor.</translation>
     </message>
     <message>
-        <location filename="../changes/erdeffectivechangemerger.cpp" line="399"/>
-        <source>Drop tables: %1</source>
-        <comment>ERD editor</comment>
-        <translation>Șterge tabelele: %1</translation>
+      <location filename="../changes/erdeffectivechangemerger.cpp" line="399"/>
+      <source>Drop tables: %1</source>
+      <comment>ERD editor</comment>
+      <translation>Șterge tabelele: %1</translation>
     </message>
     <message>
-        <location filename="../scene/erdconnection.cpp" line="149"/>
-        <source>Could not commit changes for finalized ERD connection.</source>
-        <translation>Nu s-au putut valida modificările pentru conexiunea ERD finalizată.</translation>
+      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <source>Could not commit changes for finalized ERD connection.</source>
+      <translation>Nu s-au putut valida modificările pentru conexiunea ERD finalizată.</translation>
     </message>
     <message>
-        <location filename="../scene/erdconnection.cpp" line="155"/>
-        <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
-        <translation>Actualizează relația de la &quot;%1&quot;-&quot;%2&quot; la &quot;%1&quot;-&quot;%3&quot;.</translation>
+      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
+      <translation>Actualizează relația de la &quot;%1&quot;-&quot;%2&quot; la &quot;%1&quot;-&quot;%3&quot;.</translation>
     </message>
     <message>
-        <location filename="../scene/erdconnection.cpp" line="157"/>
-        <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
-        <translation>Creează relația dintre &quot;%1&quot; și &quot;%2&quot;.</translation>
+      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
+      <translation>Creează relația dintre &quot;%1&quot; și &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../changes/erdchangemoveentity.cpp" line="28"/>
-        <source>Move table &quot;%1&quot;</source>
-        <translation>Mută tabelul &quot;%1&quot;</translation>
+      <location filename="../changes/erdchangemoveentity.cpp" line="28"/>
+      <source>Move table &quot;%1&quot;</source>
+      <translation>Mută tabelul &quot;%1&quot;</translation>
     </message>
-</context>
+  </context>
 </TS>
