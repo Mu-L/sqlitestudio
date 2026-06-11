@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ro" sourcelanguage="en">
-<context>
+  <context>
     <name>CsvExport</name>
     <message>
-        <location filename="../CsvExport.ui" line="20"/>
-        <source>Column names in first row</source>
-        <translation>Numele coloanelor în primul rând</translation>
+      <location filename="../CsvExport.ui" line="20"/>
+      <source>Column names in first row</source>
+      <translation>Numele coloanelor în primul rând</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="30"/>
-        <source>Column separator:</source>
-        <translation>Separator de coloane:</translation>
+      <location filename="../CsvExport.ui" line="30"/>
+      <source>Column separator:</source>
+      <translation>Separator de coloane:</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="41"/>
-        <source>, (comma)</source>
-        <translation>, (virgulă)</translation>
+      <location filename="../CsvExport.ui" line="41"/>
+      <source>, (comma)</source>
+      <translation>, (virgulă)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="46"/>
-        <source>; (semicolon)</source>
-        <translation>; (punct și virgulă)</translation>
+      <location filename="../CsvExport.ui" line="46"/>
+      <source>; (semicolon)</source>
+      <translation>; (punct și virgulă)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="51"/>
-        <source>\t (tab)</source>
-        <translation>\t (tabulator)</translation>
+      <location filename="../CsvExport.ui" line="51"/>
+      <source>\t (tab)</source>
+      <translation>\t (tabulator)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="56"/>
-        <source>  (whitespace)</source>
-        <translation>  (spațiu alb)</translation>
+      <location filename="../CsvExport.ui" line="56"/>
+      <source>  (whitespace)</source>
+      <translation>  (spațiu alb)</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="61"/>
-        <source>Custom:</source>
-        <translation>Personalizat:</translation>
+      <location filename="../CsvExport.ui" line="61"/>
+      <source>Custom:</source>
+      <translation>Personalizat:</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="82"/>
-        <source>Export NULL values as:</source>
-        <translation>Exportă valorile NULL ca:</translation>
+      <location filename="../CsvExport.ui" line="82"/>
+      <source>Export NULL values as:</source>
+      <translation>Exportă valorile NULL ca:</translation>
     </message>
     <message>
-        <location filename="../CsvExport.ui" line="89"/>
-        <source>Empty string</source>
-        <translation>Șir gol</translation>
+      <location filename="../CsvExport.ui" line="89"/>
+      <source>Empty string</source>
+      <translation>Șir gol</translation>
     </message>
     <message>
-        <location filename="../csvexport.cpp" line="41"/>
-        <source>Enter the custom separator character.</source>
-        <translation>Introduceți caracterul separator personalizat.</translation>
+      <location filename="../csvexport.cpp" line="41"/>
+      <source>Enter the custom separator character.</source>
+      <translation>Introduceți caracterul separator personalizat.</translation>
     </message>
-</context>
+  </context>
 </TS>
