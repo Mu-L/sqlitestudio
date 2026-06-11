@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="sv-SE" sourcelanguage="en">
-<context>
+  <context>
     <name>JsonExportConfig</name>
     <message>
-        <location filename="../jsonexport.ui" line="20"/>
-        <source>Output format</source>
-        <translation>Utdataformat</translation>
+      <location filename="../jsonexport.ui" line="20"/>
+      <source>Output format</source>
+      <translation>Utdataformat</translation>
     </message>
     <message>
-        <location filename="../jsonexport.ui" line="26"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>Formatera dokument (nya rader, indrag)</translation>
+      <location filename="../jsonexport.ui" line="26"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>Formatera dokument (nya rader, indrag)</translation>
     </message>
     <message>
-        <location filename="../jsonexport.ui" line="42"/>
-        <source>Compress (everything in one line)</source>
-        <translation>Komprimera (allt på en rad)</translation>
+      <location filename="../jsonexport.ui" line="42"/>
+      <source>Compress (everything in one line)</source>
+      <translation>Komprimera (allt på en rad)</translation>
     </message>
-</context>
+  </context>
 </TS>
