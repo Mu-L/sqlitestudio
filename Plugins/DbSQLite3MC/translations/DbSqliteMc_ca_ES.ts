@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ca" sourcelanguage="en">
-<context>
+  <context>
     <name>DbSqliteMc</name>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="42"/>
-        <source>Password (key)</source>
-        <translation type="unfinished">Password (key)</translation>
+      <location filename="../dbsqlitemc.cpp" line="42"/>
+      <source>Password (key)</source>
+      <translation>Contrasenya (clau)</translation>
     </message>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="43"/>
-        <source>Leave empty to create or connect to decrypted database.</source>
-        <translation type="unfinished">Leave empty to create or connect to decrypted database.</translation>
+      <location filename="../dbsqlitemc.cpp" line="43"/>
+      <source>Leave empty to create or connect to decrypted database.</source>
+      <translation>Deixeu-ho buit per crear o connectar-vos a una base de dades desxifrada.</translation>
     </message>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="44"/>
-        <source>Encryption password</source>
-        <translation type="unfinished">Encryption password</translation>
+      <location filename="../dbsqlitemc.cpp" line="44"/>
+      <source>Encryption password</source>
+      <translation>Contrasenya de xifratge</translation>
     </message>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="50"/>
-        <source>Cipher</source>
-        <translation type="unfinished">Cipher</translation>
+      <location filename="../dbsqlitemc.cpp" line="50"/>
+      <source>Cipher</source>
+      <translation>Xifratge</translation>
     </message>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="51"/>
-        <source>Cipher determines encryption algorithm used to encrypt the database.</source>
-        <translation type="unfinished">Cipher determines encryption algorithm used to encrypt the database.</translation>
+      <location filename="../dbsqlitemc.cpp" line="51"/>
+      <source>Cipher determines encryption algorithm used to encrypt the database.</source>
+      <translation>El xifratge determina l'algorisme de xifratge utilitzat per xifrar la base de dades.</translation>
     </message>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="61"/>
-        <source>Cipher configuration (optional)</source>
-        <translation type="unfinished">Cipher configuration (optional)</translation>
+      <location filename="../dbsqlitemc.cpp" line="61"/>
+      <source>Cipher configuration (optional)</source>
+      <translation>Configuració del xifratge (opcional)</translation>
     </message>
     <message>
-        <location filename="../dbsqlitemc.cpp" line="62"/>
-        <source>PRAGMA statements to customize SQLite3 Multiple Ciphers configuration, such as KDF iterations, legacy mode, etc.
+      <location filename="../dbsqlitemc.cpp" line="62"/>
+      <source>PRAGMA statements to customize SQLite3 Multiple Ciphers configuration, such as KDF iterations, legacy mode, etc.
 They will be executed upon each opening of the database.
 See documentation for SQLite3 Multiple Ciphers for details.</source>
-        <translation type="unfinished">PRAGMA statements to customize SQLite3 Multiple Ciphers configuration, such as KDF iterations, legacy mode, etc.
-They will be executed upon each opening of the database.
-See documentation for SQLite3 Multiple Ciphers for details.</translation>
+      <translation>Instruccions PRAGMA per personalitzar la configuració de SQLite3 Multiple Ciphers, com ara les iteracions KDF, el mode heretat, etc.
+S'executaran cada vegada que s'obri la base de dades.
+Consulteu la documentació de SQLite3 Multiple Ciphers per obtenir-ne més detalls.</translation>
     </message>
-</context>
+  </context>
 </TS>
