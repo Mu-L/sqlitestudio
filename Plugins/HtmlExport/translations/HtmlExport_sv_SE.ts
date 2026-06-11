@@ -1,244 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="sv-SE" sourcelanguage="en">
-  <context>
+<context>
     <name>HtmlExport</name>
     <message>
-      <location filename="../htmlexport.cpp" line="45"/>
-      <source>SQL query results</source>
-      <translation>Resultat av SQL-fråga</translation>
+        <location filename="../htmlexport.cpp" line="45"/>
+        <source>SQL query results</source>
+        <translation>Resultat av SQL-fråga</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="54"/>
-      <source>Query:</source>
-      <translation>Fråga:</translation>
+        <location filename="../htmlexport.cpp" line="54"/>
+        <source>Query:</source>
+        <translation>Fråga:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="94"/>
-      <location filename="../htmlexport.cpp" line="188"/>
-      <source>no type</source>
-      <translation>ingen typ</translation>
+        <location filename="../htmlexport.cpp" line="94"/>
+        <location filename="../htmlexport.cpp" line="188"/>
+        <source>no type</source>
+        <translation>ingen typ</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="125"/>
-      <source>Exported table: %1</source>
-      <translation>Exporterad tabell: %1</translation>
+        <location filename="../htmlexport.cpp" line="125"/>
+        <source>Exported table: %1</source>
+        <translation>Exporterad tabell: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="136"/>
-      <source>Exported view: %1</source>
-      <translation>Exporterad vy: %1</translation>
+        <location filename="../htmlexport.cpp" line="136"/>
+        <source>Exported view: %1</source>
+        <translation>Exporterad vy: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="157"/>
-      <location filename="../htmlexport.cpp" line="280"/>
-      <source>Table: %1</source>
-      <translation>Tabell: %1</translation>
+        <location filename="../htmlexport.cpp" line="157"/>
+        <location filename="../htmlexport.cpp" line="280"/>
+        <source>Table: %1</source>
+        <translation>Tabell: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="283"/>
-      <source>virtual</source>
-      <translation>virtuell</translation>
+        <location filename="../htmlexport.cpp" line="283"/>
+        <source>virtual</source>
+        <translation>virtuell</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="335"/>
-      <source>Exported database: %1</source>
-      <translation>Exporterad databas: %1</translation>
+        <location filename="../htmlexport.cpp" line="335"/>
+        <source>Exported database: %1</source>
+        <translation>Exporterad databas: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="351"/>
-      <source>Index: %1</source>
-      <translation>Index: %1</translation>
+        <location filename="../htmlexport.cpp" line="351"/>
+        <source>Index: %1</source>
+        <translation>Index: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="357"/>
-      <source>For table:</source>
-      <translation>För tabell:</translation>
+        <location filename="../htmlexport.cpp" line="357"/>
+        <source>For table:</source>
+        <translation>För tabell:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="364"/>
-      <source>Unique:</source>
-      <translation>Unik:</translation>
+        <location filename="../htmlexport.cpp" line="364"/>
+        <source>Unique:</source>
+        <translation>Unik:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="365"/>
-      <source>Yes</source>
-      <translation>Ja</translation>
+        <location filename="../htmlexport.cpp" line="365"/>
+        <source>Yes</source>
+        <translation>Ja</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="365"/>
-      <source>No</source>
-      <translation>Nej</translation>
+        <location filename="../htmlexport.cpp" line="365"/>
+        <source>No</source>
+        <translation>Nej</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="371"/>
-      <source>Column</source>
-      <translation>Kolumn</translation>
+        <location filename="../htmlexport.cpp" line="371"/>
+        <source>Column</source>
+        <translation>Kolumn</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="372"/>
-      <source>Collating</source>
-      <translation>Kollationering</translation>
+        <location filename="../htmlexport.cpp" line="372"/>
+        <source>Collating</source>
+        <translation>Kollationering</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="373"/>
-      <source>Sort order</source>
-      <translation>Sorteringsordning</translation>
+        <location filename="../htmlexport.cpp" line="373"/>
+        <source>Sort order</source>
+        <translation>Sorteringsordning</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="407"/>
-      <source>Trigger: %1</source>
-      <translation>Utlösare: %1</translation>
+        <location filename="../htmlexport.cpp" line="407"/>
+        <source>Trigger: %1</source>
+        <translation>Utlösare: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="413"/>
-      <source>Activated:</source>
-      <translation>Aktiverad:</translation>
+        <location filename="../htmlexport.cpp" line="413"/>
+        <source>Activated:</source>
+        <translation>Aktiverad:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="421"/>
-      <source>Action:</source>
-      <translation>Åtgärd:</translation>
+        <location filename="../htmlexport.cpp" line="421"/>
+        <source>Action:</source>
+        <translation>Åtgärd:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="428"/>
-      <source>On view:</source>
-      <translation>På vy:</translation>
+        <location filename="../htmlexport.cpp" line="428"/>
+        <source>On view:</source>
+        <translation>På vy:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="430"/>
-      <source>On table:</source>
-      <translation>På tabell:</translation>
+        <location filename="../htmlexport.cpp" line="430"/>
+        <source>On table:</source>
+        <translation>På tabell:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="441"/>
-      <source>Activate condition:</source>
-      <translation>Aktiveringsvillkor:</translation>
+        <location filename="../htmlexport.cpp" line="441"/>
+        <source>Activate condition:</source>
+        <translation>Aktiveringsvillkor:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="448"/>
-      <source>Code executed:</source>
-      <translation>Kod som körs:</translation>
+        <location filename="../htmlexport.cpp" line="448"/>
+        <source>Code executed:</source>
+        <translation>Kod som körs:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="486"/>
-      <source>View: %1</source>
-      <translation>Vy: %1</translation>
+        <location filename="../htmlexport.cpp" line="486"/>
+        <source>View: %1</source>
+        <translation>Vy: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="565"/>
-      <source>Document generated by Letos v%1 on %2</source>
-      <translation>Dokument genererat av Letos v%1 den %2</translation>
+        <location filename="../htmlexport.cpp" line="565"/>
+        <source>Document generated by Letos v%1 on %2</source>
+        <translation>Dokument genererat av Letos v%1 den %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>HtmlExportConfig</name>
     <message>
-      <location filename="../htmlexport.ui" line="136"/>
-      <source>Maximum number of characters per cell:</source>
-      <translation>Maximalt antal tecken per cell:</translation>
+        <location filename="../htmlexport.ui" line="136"/>
+        <source>Maximum number of characters per cell:</source>
+        <translation>Maximalt antal tecken per cell:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="182"/>
-      <source>Include data types in first row</source>
-      <translation>Inkludera datatyper i första raden</translation>
+        <location filename="../htmlexport.ui" line="182"/>
+        <source>Include data types in first row</source>
+        <translation>Inkludera datatyper i första raden</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="143"/>
-      <source>Column names as first row</source>
-      <translation>Kolumnnamn som första rad</translation>
+        <location filename="../htmlexport.ui" line="143"/>
+        <source>Column names as first row</source>
+        <translation>Kolumnnamn som första rad</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="126"/>
-      <source>Row numbers as first column</source>
-      <translation>Radnummer som första kolumn</translation>
+        <location filename="../htmlexport.ui" line="126"/>
+        <source>Row numbers as first column</source>
+        <translation>Radnummer som första kolumn</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="91"/>
-      <source>Output format</source>
-      <translation>Utdataformat</translation>
+        <location filename="../htmlexport.ui" line="91"/>
+        <source>Output format</source>
+        <translation>Utdataformat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="20"/>
-      <source>Custom header</source>
-      <translation>Anpassat sidhuvud</translation>
+        <location filename="../htmlexport.ui" line="20"/>
+        <source>Custom header</source>
+        <translation>Anpassat sidhuvud</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="26"/>
-      <source>No custom header</source>
-      <translation>Inget anpassat sidhuvud</translation>
+        <location filename="../htmlexport.ui" line="26"/>
+        <source>No custom header</source>
+        <translation>Inget anpassat sidhuvud</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="39"/>
-      <source>Define custom header content</source>
-      <translation>Definiera innehåll för anpassat sidhuvud</translation>
+        <location filename="../htmlexport.ui" line="39"/>
+        <source>Define custom header content</source>
+        <translation>Definiera innehåll för anpassat sidhuvud</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="52"/>
-      <location filename="../htmlexport.ui" line="224"/>
-      <source>HTML content</source>
-      <translation>HTML-innehåll</translation>
+        <location filename="../htmlexport.ui" line="52"/>
+        <location filename="../htmlexport.ui" line="224"/>
+        <source>HTML content</source>
+        <translation>HTML-innehåll</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="62"/>
-      <source>Define custom header file</source>
-      <translation>Definiera fil för anpassat sidhuvud</translation>
+        <location filename="../htmlexport.ui" line="62"/>
+        <source>Define custom header file</source>
+        <translation>Definiera fil för anpassat sidhuvud</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="78"/>
-      <source>Choose file for the header</source>
-      <translation>Välj fil för sidhuvudet</translation>
+        <location filename="../htmlexport.ui" line="78"/>
+        <source>Choose file for the header</source>
+        <translation>Välj fil för sidhuvudet</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="81"/>
-      <location filename="../htmlexport.ui" line="253"/>
-      <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-      <translation>HTML-filer (*.htm, *.html);;Textfiler (*.txt);;Alla filer (*)</translation>
+        <location filename="../htmlexport.ui" line="81"/>
+        <location filename="../htmlexport.ui" line="253"/>
+        <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
+        <translation>HTML-filer (*.htm, *.html);;Textfiler (*.txt);;Alla filer (*)</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="97"/>
-      <source>Format document (new lines, indentation)</source>
-      <translation>Formatera dokument (nya rader, indrag)</translation>
+        <location filename="../htmlexport.ui" line="97"/>
+        <source>Format document (new lines, indentation)</source>
+        <translation>Formatera dokument (nya rader, indrag)</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="110"/>
-      <source>Compress (everything in one line)</source>
-      <translation>Komprimera (allt på en rad)</translation>
+        <location filename="../htmlexport.ui" line="110"/>
+        <source>Compress (everything in one line)</source>
+        <translation>Komprimera (allt på en rad)</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="153"/>
-      <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
+        <location filename="../htmlexport.ui" line="153"/>
+        <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="156"/>
-      <source>Don&apos;t escape HTML characters</source>
-      <translation>Escapa inte HTML-tecken</translation>
+        <location filename="../htmlexport.ui" line="156"/>
+        <source>Don&apos;t escape HTML characters</source>
+        <translation>Escapa inte HTML-tecken</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="192"/>
-      <source>Custom footer</source>
-      <translation>Anpassad sidfot</translation>
+        <location filename="../htmlexport.ui" line="192"/>
+        <source>Custom footer</source>
+        <translation>Anpassad sidfot</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="198"/>
-      <source>No custom footer</source>
-      <translation>Ingen anpassad sidfot</translation>
+        <location filename="../htmlexport.ui" line="198"/>
+        <source>No custom footer</source>
+        <translation>Ingen anpassad sidfot</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="211"/>
-      <source>Define custom footer content</source>
-      <translation>Definiera innehåll för anpassad sidfot</translation>
+        <location filename="../htmlexport.ui" line="211"/>
+        <source>Define custom footer content</source>
+        <translation>Definiera innehåll för anpassad sidfot</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="234"/>
-      <source>Define custom footer file</source>
-      <translation>Definiera fil för anpassad sidfot</translation>
+        <location filename="../htmlexport.ui" line="234"/>
+        <source>Define custom footer file</source>
+        <translation>Definiera fil för anpassad sidfot</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="250"/>
-      <source>Choose file for the footer</source>
-      <translation>Välj fil för sidfoten</translation>
+        <location filename="../htmlexport.ui" line="250"/>
+        <source>Choose file for the footer</source>
+        <translation>Välj fil för sidfoten</translation>
     </message>
-  </context>
+</context>
 </TS>
