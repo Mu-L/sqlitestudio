@@ -1,244 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="be" sourcelanguage="en">
-<context>
+  <context>
     <name>HtmlExport</name>
     <message>
-        <location filename="../htmlexport.cpp" line="45"/>
-        <source>SQL query results</source>
-        <translation>Вынікі SQL-запыту</translation>
+      <location filename="../htmlexport.cpp" line="45"/>
+      <source>SQL query results</source>
+      <translation>Вынікі SQL-запыту</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="54"/>
-        <source>Query:</source>
-        <translation>Запыт:</translation>
+      <location filename="../htmlexport.cpp" line="54"/>
+      <source>Query:</source>
+      <translation>Запыт:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="94"/>
-        <location filename="../htmlexport.cpp" line="188"/>
-        <source>no type</source>
-        <translation>няма тыпу</translation>
+      <location filename="../htmlexport.cpp" line="94"/>
+      <location filename="../htmlexport.cpp" line="188"/>
+      <source>no type</source>
+      <translation>няма тыпу</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="125"/>
-        <source>Exported table: %1</source>
-        <translation>Экспартаваная табліца: %1</translation>
+      <location filename="../htmlexport.cpp" line="125"/>
+      <source>Exported table: %1</source>
+      <translation>Экспартаваная табліца: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="136"/>
-        <source>Exported view: %1</source>
-        <translation>Экспартаванае прадстаўленне: %1</translation>
+      <location filename="../htmlexport.cpp" line="136"/>
+      <source>Exported view: %1</source>
+      <translation>Экспартаванае прадстаўленне: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="157"/>
-        <location filename="../htmlexport.cpp" line="280"/>
-        <source>Table: %1</source>
-        <translation>Табліца: %1</translation>
+      <location filename="../htmlexport.cpp" line="157"/>
+      <location filename="../htmlexport.cpp" line="280"/>
+      <source>Table: %1</source>
+      <translation>Табліца: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="283"/>
-        <source>virtual</source>
-        <translation>віртуальная</translation>
+      <location filename="../htmlexport.cpp" line="283"/>
+      <source>virtual</source>
+      <translation>віртуальная</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="335"/>
-        <source>Exported database: %1</source>
-        <translation>Экспартаваная база даных: %1</translation>
+      <location filename="../htmlexport.cpp" line="335"/>
+      <source>Exported database: %1</source>
+      <translation>Экспартаваная база даных: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="351"/>
-        <source>Index: %1</source>
-        <translation>Індэкс: %1</translation>
+      <location filename="../htmlexport.cpp" line="351"/>
+      <source>Index: %1</source>
+      <translation>Індэкс: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="357"/>
-        <source>For table:</source>
-        <translation>Для табліцы:</translation>
+      <location filename="../htmlexport.cpp" line="357"/>
+      <source>For table:</source>
+      <translation>Для табліцы:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="364"/>
-        <source>Unique:</source>
-        <translation>Унікальны:</translation>
+      <location filename="../htmlexport.cpp" line="364"/>
+      <source>Unique:</source>
+      <translation>Унікальны:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>Yes</source>
-        <translation>Так</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>Yes</source>
+      <translation>Так</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>No</source>
-        <translation>Не</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>No</source>
+      <translation>Не</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="371"/>
-        <source>Column</source>
-        <translation>Калонка</translation>
+      <location filename="../htmlexport.cpp" line="371"/>
+      <source>Column</source>
+      <translation>Калонка</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="372"/>
-        <source>Collating</source>
-        <translation>Супастаўленне</translation>
+      <location filename="../htmlexport.cpp" line="372"/>
+      <source>Collating</source>
+      <translation>Супастаўленне</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="373"/>
-        <source>Sort order</source>
-        <translation>Парадак сартавання</translation>
+      <location filename="../htmlexport.cpp" line="373"/>
+      <source>Sort order</source>
+      <translation>Парадак сартавання</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="407"/>
-        <source>Trigger: %1</source>
-        <translation>Трыгер: %1</translation>
+      <location filename="../htmlexport.cpp" line="407"/>
+      <source>Trigger: %1</source>
+      <translation>Трыгер: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="413"/>
-        <source>Activated:</source>
-        <translation>Актываваны:</translation>
+      <location filename="../htmlexport.cpp" line="413"/>
+      <source>Activated:</source>
+      <translation>Актываваны:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="421"/>
-        <source>Action:</source>
-        <translation>Дзеянне:</translation>
+      <location filename="../htmlexport.cpp" line="421"/>
+      <source>Action:</source>
+      <translation>Дзеянне:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="428"/>
-        <source>On view:</source>
-        <translation>На прадстаўленні:</translation>
+      <location filename="../htmlexport.cpp" line="428"/>
+      <source>On view:</source>
+      <translation>На прадстаўленні:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="430"/>
-        <source>On table:</source>
-        <translation>На табліцы:</translation>
+      <location filename="../htmlexport.cpp" line="430"/>
+      <source>On table:</source>
+      <translation>На табліцы:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="441"/>
-        <source>Activate condition:</source>
-        <translation>Умова актывацыі:</translation>
+      <location filename="../htmlexport.cpp" line="441"/>
+      <source>Activate condition:</source>
+      <translation>Умова актывацыі:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="448"/>
-        <source>Code executed:</source>
-        <translation>Код, які выконваецца:</translation>
+      <location filename="../htmlexport.cpp" line="448"/>
+      <source>Code executed:</source>
+      <translation>Код, які выконваецца:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="486"/>
-        <source>View: %1</source>
-        <translation>Прадстаўленне: %1</translation>
+      <location filename="../htmlexport.cpp" line="486"/>
+      <source>View: %1</source>
+      <translation>Прадстаўленне: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="565"/>
-        <source>Document generated by Letos v%1 on %2</source>
-        <translation>Дакумент згенераваны праграмай Letos v%1 %2</translation>
+      <location filename="../htmlexport.cpp" line="565"/>
+      <source>Document generated by Letos v%1 on %2</source>
+      <translation>Дакумент згенераваны праграмай Letos v%1 %2</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>HtmlExportConfig</name>
     <message>
-        <location filename="../htmlexport.ui" line="136"/>
-        <source>Maximum number of characters per cell:</source>
-        <translation>Максімальная колькасць сімвалаў на ячэйку:</translation>
+      <location filename="../htmlexport.ui" line="136"/>
+      <source>Maximum number of characters per cell:</source>
+      <translation>Максімальная колькасць сімвалаў на ячэйку:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="182"/>
-        <source>Include data types in first row</source>
-        <translation>Уключыць тыпы даных у першы радок</translation>
+      <location filename="../htmlexport.ui" line="182"/>
+      <source>Include data types in first row</source>
+      <translation>Уключыць тыпы даных у першы радок</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="143"/>
-        <source>Column names as first row</source>
-        <translation>Назвы калонак як першы радок</translation>
+      <location filename="../htmlexport.ui" line="143"/>
+      <source>Column names as first row</source>
+      <translation>Назвы калонак як першы радок</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="126"/>
-        <source>Row numbers as first column</source>
-        <translation>Нумары радкоў як першая калонка</translation>
+      <location filename="../htmlexport.ui" line="126"/>
+      <source>Row numbers as first column</source>
+      <translation>Нумары радкоў як першая калонка</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="91"/>
-        <source>Output format</source>
-        <translation>Фармат вываду</translation>
+      <location filename="../htmlexport.ui" line="91"/>
+      <source>Output format</source>
+      <translation>Фармат вываду</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="20"/>
-        <source>Custom header</source>
-        <translation>Уласны загаловак</translation>
+      <location filename="../htmlexport.ui" line="20"/>
+      <source>Custom header</source>
+      <translation>Уласны загаловак</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="26"/>
-        <source>No custom header</source>
-        <translation>Без уласнага загалоўка</translation>
+      <location filename="../htmlexport.ui" line="26"/>
+      <source>No custom header</source>
+      <translation>Без уласнага загалоўка</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="39"/>
-        <source>Define custom header content</source>
-        <translation>Вызначыць змесціва ўласнага загалоўка</translation>
+      <location filename="../htmlexport.ui" line="39"/>
+      <source>Define custom header content</source>
+      <translation>Вызначыць змесціва ўласнага загалоўка</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="52"/>
-        <location filename="../htmlexport.ui" line="224"/>
-        <source>HTML content</source>
-        <translation>Змесціва HTML</translation>
+      <location filename="../htmlexport.ui" line="52"/>
+      <location filename="../htmlexport.ui" line="224"/>
+      <source>HTML content</source>
+      <translation>Змесціва HTML</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="62"/>
-        <source>Define custom header file</source>
-        <translation>Вызначыць файл уласнага загалоўка</translation>
+      <location filename="../htmlexport.ui" line="62"/>
+      <source>Define custom header file</source>
+      <translation>Вызначыць файл уласнага загалоўка</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="78"/>
-        <source>Choose file for the header</source>
-        <translation>Выберыце файл для загалоўка</translation>
+      <location filename="../htmlexport.ui" line="78"/>
+      <source>Choose file for the header</source>
+      <translation>Выберыце файл для загалоўка</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="81"/>
-        <location filename="../htmlexport.ui" line="253"/>
-        <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation>Файлы HTML (*.htm, *.html);;Тэкставыя файлы (*.txt);;Усе файлы (*)</translation>
+      <location filename="../htmlexport.ui" line="81"/>
+      <location filename="../htmlexport.ui" line="253"/>
+      <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
+      <translation>Файлы HTML (*.htm, *.html);;Тэкставыя файлы (*.txt);;Усе файлы (*)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="97"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>Фарматаваць дакумент (новыя радкі, водступы)</translation>
+      <location filename="../htmlexport.ui" line="97"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>Фарматаваць дакумент (новыя радкі, водступы)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="110"/>
-        <source>Compress (everything in one line)</source>
-        <translation>Сціснуць (усё ў адзін радок)</translation>
+      <location filename="../htmlexport.ui" line="110"/>
+      <source>Compress (everything in one line)</source>
+      <translation>Сціснуць (усё ў адзін радок)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="153"/>
-        <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
+      <location filename="../htmlexport.ui" line="153"/>
+      <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="156"/>
-        <source>Don&apos;t escape HTML characters</source>
-        <translation>Не экраніраваць сімвалы HTML</translation>
+      <location filename="../htmlexport.ui" line="156"/>
+      <source>Don&apos;t escape HTML characters</source>
+      <translation>Не экраніраваць сімвалы HTML</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="192"/>
-        <source>Custom footer</source>
-        <translation>Уласны ніжні калантытул</translation>
+      <location filename="../htmlexport.ui" line="192"/>
+      <source>Custom footer</source>
+      <translation>Уласны ніжні калантытул</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="198"/>
-        <source>No custom footer</source>
-        <translation>Без уласнага ніжняга калантытула</translation>
+      <location filename="../htmlexport.ui" line="198"/>
+      <source>No custom footer</source>
+      <translation>Без уласнага ніжняга калантытула</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="211"/>
-        <source>Define custom footer content</source>
-        <translation>Вызначыць змесціва ўласнага ніжняга калантытула</translation>
+      <location filename="../htmlexport.ui" line="211"/>
+      <source>Define custom footer content</source>
+      <translation>Вызначыць змесціва ўласнага ніжняга калантытула</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="234"/>
-        <source>Define custom footer file</source>
-        <translation>Вызначыць файл уласнага ніжняга калантытула</translation>
+      <location filename="../htmlexport.ui" line="234"/>
+      <source>Define custom footer file</source>
+      <translation>Вызначыць файл уласнага ніжняга калантытула</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="250"/>
-        <source>Choose file for the footer</source>
-        <translation>Выберыце файл для ніжняга калантытула</translation>
+      <location filename="../htmlexport.ui" line="250"/>
+      <source>Choose file for the footer</source>
+      <translation>Выберыце файл для ніжняга калантытула</translation>
     </message>
-</context>
+  </context>
 </TS>
