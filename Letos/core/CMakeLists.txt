@@ -1,6 +1,18 @@
 find_package(Qt6 REQUIRED COMPONENTS Core Network Qml Widgets)
 if(NOT CUSTOM_SQLITE3)
-	find_package(SQLite3)
+    find_package(SQLite3)
+
+    if(NOT TARGET Letos::SQLite3)
+        add_library(Letos::SQLite3 INTERFACE IMPORTED)
+
+        if(TARGET SQLite3::SQLite3)
+            target_link_libraries(Letos::SQLite3 INTERFACE SQLite3::SQLite3)
+        elseif(TARGET SQLite::SQLite3)
+            target_link_libraries(Letos::SQLite3 INTERFACE SQLite::SQLite3)
+        else()
+            message(FATAL_ERROR "SQLite3 found, but no known SQLite CMake target exists")
+        endif()
+    endif()
 endif()
 
 set(PROJECT_HEADERS
@@ -422,7 +434,7 @@ target_compile_definitions(coreLetos PRIVATE
     CORE_LIBRARY
 )
 target_link_libraries(coreLetos PUBLIC
-    SQLite::SQLite3
+    Letos::SQLite3
 )
 target_link_libraries(coreLetos PRIVATE
     Qt::Core

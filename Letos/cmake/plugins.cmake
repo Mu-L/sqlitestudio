@@ -36,7 +36,7 @@ function(letos_set_plugin_properties target)
         endif()
     endif()
 
-    target_link_libraries(${target} PRIVATE SQLite::Headers)
+    target_link_libraries(${target} PRIVATE Letos::SQLite3)
 
     install(
         TARGETS ${target}

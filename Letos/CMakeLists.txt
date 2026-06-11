@@ -27,9 +27,9 @@ if(NOT WITH_CLI AND NOT WITH_GUI)
     message(FATAL_ERROR "At least one of WITH_CLI or WITH_GUI must be enabled")
 endif()
 
+include(letos_sqlite3)
 include(CTest)
 include(common)
-include(custom_sqlite3)
 
 if(NOT WITH_PORTABLE)
     set(SYS_PLUGINS_DIR_DEFAULT "${LETOS_INSTALL_PLUGINDIR}")
