@@ -17,7 +17,7 @@ on:
         - 'Plugins/**/*.hpp'
         - 'Plugins/**/*.ui'
         - 'Plugins/**/*.qrc'
-        - '.github/workflows/update-messages.yml'
+        - '.github/workflows/update_messages.yml'
     schedule:
       - cron: '30 5 * * *' # run at 5:30 AM UTC every day
 
