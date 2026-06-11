@@ -48,10 +48,6 @@
 <context>
     <name>ErdConfig</name>
     <message>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
-    </message>
-    <message>
         <location filename="../erdconfig.ui" line="33"/>
         <source>Maximum number of tables for ERD editor</source>
         <translation type="unfinished">Maximum number of tables for ERD editor</translation>
@@ -267,10 +263,6 @@
 </context>
 <context>
     <name>ErdWindow</name>
-    <message>
-        <source>Form</source>
-        <translation type="obsolete">Form</translation>
-    </message>
     <message>
         <location filename="../erdwindow.ui" line="86"/>
         <source>Select an item to edit its properties</source>

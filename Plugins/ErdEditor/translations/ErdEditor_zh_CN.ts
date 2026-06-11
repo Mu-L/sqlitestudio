@@ -48,11 +48,6 @@
 <context>
     <name>ErdConfig</name>
     <message>
-        <location filename="../erdconfig.ui" line="14"/>
-        <source>Form</source>
-        <translation>表单</translation>
-    </message>
-    <message>
         <location filename="../erdconfig.ui" line="33"/>
         <source>Maximum number of tables for ERD editor</source>
         <translation>ERD 编辑器的最大表格数量</translation>
@@ -268,11 +263,6 @@
 </context>
 <context>
     <name>ErdWindow</name>
-    <message>
-        <location filename="../erdwindow.ui" line="14"/>
-        <source>Form</source>
-        <translation>表单</translation>
-    </message>
     <message>
         <location filename="../erdwindow.ui" line="86"/>
         <source>Select an item to edit its properties</source>
