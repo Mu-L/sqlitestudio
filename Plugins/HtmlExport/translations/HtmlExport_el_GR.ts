@@ -1,244 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="el" sourcelanguage="en">
-<context>
+  <context>
     <name>HtmlExport</name>
     <message>
-        <location filename="../htmlexport.cpp" line="45"/>
-        <source>SQL query results</source>
-        <translation>Αποτελέσματα ερωτήματος SQL</translation>
+      <location filename="../htmlexport.cpp" line="45"/>
+      <source>SQL query results</source>
+      <translation>Αποτελέσματα ερωτήματος SQL</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="54"/>
-        <source>Query:</source>
-        <translation>Ερώτημα:</translation>
+      <location filename="../htmlexport.cpp" line="54"/>
+      <source>Query:</source>
+      <translation>Ερώτημα:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="94"/>
-        <location filename="../htmlexport.cpp" line="188"/>
-        <source>no type</source>
-        <translation>χωρίς τύπο</translation>
+      <location filename="../htmlexport.cpp" line="94"/>
+      <location filename="../htmlexport.cpp" line="188"/>
+      <source>no type</source>
+      <translation>χωρίς τύπο</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="125"/>
-        <source>Exported table: %1</source>
-        <translation>Εξαγόμενος πίνακας: %1</translation>
+      <location filename="../htmlexport.cpp" line="125"/>
+      <source>Exported table: %1</source>
+      <translation>Εξαγόμενος πίνακας: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="136"/>
-        <source>Exported view: %1</source>
-        <translation>Εξαγόμενη προβολή: %1</translation>
+      <location filename="../htmlexport.cpp" line="136"/>
+      <source>Exported view: %1</source>
+      <translation>Εξαγόμενη προβολή: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="157"/>
-        <location filename="../htmlexport.cpp" line="280"/>
-        <source>Table: %1</source>
-        <translation>Πίνακας: %1</translation>
+      <location filename="../htmlexport.cpp" line="157"/>
+      <location filename="../htmlexport.cpp" line="280"/>
+      <source>Table: %1</source>
+      <translation>Πίνακας: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="283"/>
-        <source>virtual</source>
-        <translation>εικονικός</translation>
+      <location filename="../htmlexport.cpp" line="283"/>
+      <source>virtual</source>
+      <translation>εικονικός</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="335"/>
-        <source>Exported database: %1</source>
-        <translation>Εξαγόμενη βάση δεδομένων: %1</translation>
+      <location filename="../htmlexport.cpp" line="335"/>
+      <source>Exported database: %1</source>
+      <translation>Εξαγόμενη βάση δεδομένων: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="351"/>
-        <source>Index: %1</source>
-        <translation>Ευρετήριο: %1</translation>
+      <location filename="../htmlexport.cpp" line="351"/>
+      <source>Index: %1</source>
+      <translation>Ευρετήριο: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="357"/>
-        <source>For table:</source>
-        <translation>Για τον πίνακα:</translation>
+      <location filename="../htmlexport.cpp" line="357"/>
+      <source>For table:</source>
+      <translation>Για τον πίνακα:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="364"/>
-        <source>Unique:</source>
-        <translation>Μοναδικό:</translation>
+      <location filename="../htmlexport.cpp" line="364"/>
+      <source>Unique:</source>
+      <translation>Μοναδικό:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>Yes</source>
-        <translation>Ναι</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>Yes</source>
+      <translation>Ναι</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>No</source>
-        <translation>Όχι</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>No</source>
+      <translation>Όχι</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="371"/>
-        <source>Column</source>
-        <translation>Στήλη</translation>
+      <location filename="../htmlexport.cpp" line="371"/>
+      <source>Column</source>
+      <translation>Στήλη</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="372"/>
-        <source>Collating</source>
-        <translation>Σειρά σύγκρισης</translation>
+      <location filename="../htmlexport.cpp" line="372"/>
+      <source>Collating</source>
+      <translation>Σειρά σύγκρισης</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="373"/>
-        <source>Sort order</source>
-        <translation>Σειρά ταξινόμησης</translation>
+      <location filename="../htmlexport.cpp" line="373"/>
+      <source>Sort order</source>
+      <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="407"/>
-        <source>Trigger: %1</source>
-        <translation>Εναύσμα: %1</translation>
+      <location filename="../htmlexport.cpp" line="407"/>
+      <source>Trigger: %1</source>
+      <translation>Εναύσμα: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="413"/>
-        <source>Activated:</source>
-        <translation>Ενεργοποιείται:</translation>
+      <location filename="../htmlexport.cpp" line="413"/>
+      <source>Activated:</source>
+      <translation>Ενεργοποιείται:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="421"/>
-        <source>Action:</source>
-        <translation>Ενέργεια:</translation>
+      <location filename="../htmlexport.cpp" line="421"/>
+      <source>Action:</source>
+      <translation>Ενέργεια:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="428"/>
-        <source>On view:</source>
-        <translation>Στην προβολή:</translation>
+      <location filename="../htmlexport.cpp" line="428"/>
+      <source>On view:</source>
+      <translation>Στην προβολή:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="430"/>
-        <source>On table:</source>
-        <translation>Στον πίνακα:</translation>
+      <location filename="../htmlexport.cpp" line="430"/>
+      <source>On table:</source>
+      <translation>Στον πίνακα:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="441"/>
-        <source>Activate condition:</source>
-        <translation>Συνθήκη ενεργοποίησης:</translation>
+      <location filename="../htmlexport.cpp" line="441"/>
+      <source>Activate condition:</source>
+      <translation>Συνθήκη ενεργοποίησης:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="448"/>
-        <source>Code executed:</source>
-        <translation>Κώδικας που εκτελείται:</translation>
+      <location filename="../htmlexport.cpp" line="448"/>
+      <source>Code executed:</source>
+      <translation>Κώδικας που εκτελείται:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="486"/>
-        <source>View: %1</source>
-        <translation>Προβολή: %1</translation>
+      <location filename="../htmlexport.cpp" line="486"/>
+      <source>View: %1</source>
+      <translation>Προβολή: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="565"/>
-        <source>Document generated by Letos v%1 on %2</source>
-        <translation>Το έγγραφο δημιουργήθηκε από το Letos v%1 στις %2</translation>
+      <location filename="../htmlexport.cpp" line="565"/>
+      <source>Document generated by Letos v%1 on %2</source>
+      <translation>Το έγγραφο δημιουργήθηκε από το Letos v%1 στις %2</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>HtmlExportConfig</name>
     <message>
-        <location filename="../htmlexport.ui" line="136"/>
-        <source>Maximum number of characters per cell:</source>
-        <translation>Μέγιστος αριθμός χαρακτήρων ανά κελί:</translation>
+      <location filename="../htmlexport.ui" line="136"/>
+      <source>Maximum number of characters per cell:</source>
+      <translation>Μέγιστος αριθμός χαρακτήρων ανά κελί:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="182"/>
-        <source>Include data types in first row</source>
-        <translation>Συμπερίληψη τύπων δεδομένων στην πρώτη γραμμή</translation>
+      <location filename="../htmlexport.ui" line="182"/>
+      <source>Include data types in first row</source>
+      <translation>Συμπερίληψη τύπων δεδομένων στην πρώτη γραμμή</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="143"/>
-        <source>Column names as first row</source>
-        <translation>Ονόματα στηλών ως πρώτη γραμμή</translation>
+      <location filename="../htmlexport.ui" line="143"/>
+      <source>Column names as first row</source>
+      <translation>Ονόματα στηλών ως πρώτη γραμμή</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="126"/>
-        <source>Row numbers as first column</source>
-        <translation>Αριθμοί γραμμών ως πρώτη στήλη</translation>
+      <location filename="../htmlexport.ui" line="126"/>
+      <source>Row numbers as first column</source>
+      <translation>Αριθμοί γραμμών ως πρώτη στήλη</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="91"/>
-        <source>Output format</source>
-        <translation>Μορφή εξόδου</translation>
+      <location filename="../htmlexport.ui" line="91"/>
+      <source>Output format</source>
+      <translation>Μορφή εξόδου</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="20"/>
-        <source>Custom header</source>
-        <translation>Προσαρμοσμένη κεφαλίδα</translation>
+      <location filename="../htmlexport.ui" line="20"/>
+      <source>Custom header</source>
+      <translation>Προσαρμοσμένη κεφαλίδα</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="26"/>
-        <source>No custom header</source>
-        <translation>Χωρίς προσαρμοσμένη κεφαλίδα</translation>
+      <location filename="../htmlexport.ui" line="26"/>
+      <source>No custom header</source>
+      <translation>Χωρίς προσαρμοσμένη κεφαλίδα</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="39"/>
-        <source>Define custom header content</source>
-        <translation>Ορισμός περιεχομένου προσαρμοσμένης κεφαλίδας</translation>
+      <location filename="../htmlexport.ui" line="39"/>
+      <source>Define custom header content</source>
+      <translation>Ορισμός περιεχομένου προσαρμοσμένης κεφαλίδας</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="52"/>
-        <location filename="../htmlexport.ui" line="224"/>
-        <source>HTML content</source>
-        <translation>Περιεχόμενο HTML</translation>
+      <location filename="../htmlexport.ui" line="52"/>
+      <location filename="../htmlexport.ui" line="224"/>
+      <source>HTML content</source>
+      <translation>Περιεχόμενο HTML</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="62"/>
-        <source>Define custom header file</source>
-        <translation>Ορισμός αρχείου προσαρμοσμένης κεφαλίδας</translation>
+      <location filename="../htmlexport.ui" line="62"/>
+      <source>Define custom header file</source>
+      <translation>Ορισμός αρχείου προσαρμοσμένης κεφαλίδας</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="78"/>
-        <source>Choose file for the header</source>
-        <translation>Επιλέξτε αρχείο για την κεφαλίδα</translation>
+      <location filename="../htmlexport.ui" line="78"/>
+      <source>Choose file for the header</source>
+      <translation>Επιλέξτε αρχείο για την κεφαλίδα</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="81"/>
-        <location filename="../htmlexport.ui" line="253"/>
-        <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation>Αρχεία HTML (*.htm, *.html);;Αρχεία κειμένου (*.txt);;Όλα τα αρχεία (*)</translation>
+      <location filename="../htmlexport.ui" line="81"/>
+      <location filename="../htmlexport.ui" line="253"/>
+      <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
+      <translation>Αρχεία HTML (*.htm, *.html);;Αρχεία κειμένου (*.txt);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="97"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>Μορφοποίηση εγγράφου (νέες γραμμές, εσοχές)</translation>
+      <location filename="../htmlexport.ui" line="97"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>Μορφοποίηση εγγράφου (νέες γραμμές, εσοχές)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="110"/>
-        <source>Compress (everything in one line)</source>
-        <translation>Συμπίεση (όλα σε μία γραμμή)</translation>
+      <location filename="../htmlexport.ui" line="110"/>
+      <source>Compress (everything in one line)</source>
+      <translation>Συμπίεση (όλα σε μία γραμμή)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="153"/>
-        <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
+      <location filename="../htmlexport.ui" line="153"/>
+      <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="156"/>
-        <source>Don&apos;t escape HTML characters</source>
-        <translation>Να μη γίνεται διαφυγή χαρακτήρων HTML</translation>
+      <location filename="../htmlexport.ui" line="156"/>
+      <source>Don&apos;t escape HTML characters</source>
+      <translation>Να μη γίνεται διαφυγή χαρακτήρων HTML</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="192"/>
-        <source>Custom footer</source>
-        <translation>Προσαρμοσμένο υποσέλιδο</translation>
+      <location filename="../htmlexport.ui" line="192"/>
+      <source>Custom footer</source>
+      <translation>Προσαρμοσμένο υποσέλιδο</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="198"/>
-        <source>No custom footer</source>
-        <translation>Χωρίς προσαρμοσμένο υποσέλιδο</translation>
+      <location filename="../htmlexport.ui" line="198"/>
+      <source>No custom footer</source>
+      <translation>Χωρίς προσαρμοσμένο υποσέλιδο</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="211"/>
-        <source>Define custom footer content</source>
-        <translation>Ορισμός περιεχομένου προσαρμοσμένου υποσέλιδου</translation>
+      <location filename="../htmlexport.ui" line="211"/>
+      <source>Define custom footer content</source>
+      <translation>Ορισμός περιεχομένου προσαρμοσμένου υποσέλιδου</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="234"/>
-        <source>Define custom footer file</source>
-        <translation>Ορισμός αρχείου προσαρμοσμένου υποσέλιδου</translation>
+      <location filename="../htmlexport.ui" line="234"/>
+      <source>Define custom footer file</source>
+      <translation>Ορισμός αρχείου προσαρμοσμένου υποσέλιδου</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="250"/>
-        <source>Choose file for the footer</source>
-        <translation>Επιλέξτε αρχείο για το υποσέλιδο</translation>
+      <location filename="../htmlexport.ui" line="250"/>
+      <source>Choose file for the footer</source>
+      <translation>Επιλέξτε αρχείο για το υποσέλιδο</translation>
     </message>
-</context>
+  </context>
 </TS>
