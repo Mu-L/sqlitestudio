@@ -1,244 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="hu" sourcelanguage="en">
-<context>
+  <context>
     <name>HtmlExport</name>
     <message>
-        <location filename="../htmlexport.cpp" line="45"/>
-        <source>SQL query results</source>
-        <translation>SQL-lekérdezés eredményei</translation>
+      <location filename="../htmlexport.cpp" line="45"/>
+      <source>SQL query results</source>
+      <translation>SQL-lekérdezés eredményei</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="54"/>
-        <source>Query:</source>
-        <translation>Lekérdezés:</translation>
+      <location filename="../htmlexport.cpp" line="54"/>
+      <source>Query:</source>
+      <translation>Lekérdezés:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="94"/>
-        <location filename="../htmlexport.cpp" line="188"/>
-        <source>no type</source>
-        <translation>nincs típus</translation>
+      <location filename="../htmlexport.cpp" line="94"/>
+      <location filename="../htmlexport.cpp" line="188"/>
+      <source>no type</source>
+      <translation>nincs típus</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="125"/>
-        <source>Exported table: %1</source>
-        <translation>Exportált tábla: %1</translation>
+      <location filename="../htmlexport.cpp" line="125"/>
+      <source>Exported table: %1</source>
+      <translation>Exportált tábla: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="136"/>
-        <source>Exported view: %1</source>
-        <translation>Exportált nézet: %1</translation>
+      <location filename="../htmlexport.cpp" line="136"/>
+      <source>Exported view: %1</source>
+      <translation>Exportált nézet: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="157"/>
-        <location filename="../htmlexport.cpp" line="280"/>
-        <source>Table: %1</source>
-        <translation>Tábla: %1</translation>
+      <location filename="../htmlexport.cpp" line="157"/>
+      <location filename="../htmlexport.cpp" line="280"/>
+      <source>Table: %1</source>
+      <translation>Tábla: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="283"/>
-        <source>virtual</source>
-        <translation>virtuális</translation>
+      <location filename="../htmlexport.cpp" line="283"/>
+      <source>virtual</source>
+      <translation>virtuális</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="335"/>
-        <source>Exported database: %1</source>
-        <translation>Exportált adatbázis: %1</translation>
+      <location filename="../htmlexport.cpp" line="335"/>
+      <source>Exported database: %1</source>
+      <translation>Exportált adatbázis: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="351"/>
-        <source>Index: %1</source>
-        <translation>Index: %1</translation>
+      <location filename="../htmlexport.cpp" line="351"/>
+      <source>Index: %1</source>
+      <translation>Index: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="357"/>
-        <source>For table:</source>
-        <translation>Táblához:</translation>
+      <location filename="../htmlexport.cpp" line="357"/>
+      <source>For table:</source>
+      <translation>Táblához:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="364"/>
-        <source>Unique:</source>
-        <translation>Egyedi:</translation>
+      <location filename="../htmlexport.cpp" line="364"/>
+      <source>Unique:</source>
+      <translation>Egyedi:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>Yes</source>
-        <translation>Igen</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>Yes</source>
+      <translation>Igen</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>No</source>
-        <translation>Nem</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>No</source>
+      <translation>Nem</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="371"/>
-        <source>Column</source>
-        <translation>Oszlop</translation>
+      <location filename="../htmlexport.cpp" line="371"/>
+      <source>Column</source>
+      <translation>Oszlop</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="372"/>
-        <source>Collating</source>
-        <translation>Kolláció</translation>
+      <location filename="../htmlexport.cpp" line="372"/>
+      <source>Collating</source>
+      <translation>Kolláció</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="373"/>
-        <source>Sort order</source>
-        <translation>Rendezési sorrend</translation>
+      <location filename="../htmlexport.cpp" line="373"/>
+      <source>Sort order</source>
+      <translation>Rendezési sorrend</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="407"/>
-        <source>Trigger: %1</source>
-        <translation>Eseményindító: %1</translation>
+      <location filename="../htmlexport.cpp" line="407"/>
+      <source>Trigger: %1</source>
+      <translation>Eseményindító: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="413"/>
-        <source>Activated:</source>
-        <translation>Aktiválva:</translation>
+      <location filename="../htmlexport.cpp" line="413"/>
+      <source>Activated:</source>
+      <translation>Aktiválva:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="421"/>
-        <source>Action:</source>
-        <translation>Művelet:</translation>
+      <location filename="../htmlexport.cpp" line="421"/>
+      <source>Action:</source>
+      <translation>Művelet:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="428"/>
-        <source>On view:</source>
-        <translation>Nézeten:</translation>
+      <location filename="../htmlexport.cpp" line="428"/>
+      <source>On view:</source>
+      <translation>Nézeten:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="430"/>
-        <source>On table:</source>
-        <translation>Táblán:</translation>
+      <location filename="../htmlexport.cpp" line="430"/>
+      <source>On table:</source>
+      <translation>Táblán:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="441"/>
-        <source>Activate condition:</source>
-        <translation>Aktiválási feltétel:</translation>
+      <location filename="../htmlexport.cpp" line="441"/>
+      <source>Activate condition:</source>
+      <translation>Aktiválási feltétel:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="448"/>
-        <source>Code executed:</source>
-        <translation>Végrehajtott kód:</translation>
+      <location filename="../htmlexport.cpp" line="448"/>
+      <source>Code executed:</source>
+      <translation>Végrehajtott kód:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="486"/>
-        <source>View: %1</source>
-        <translation>Nézet: %1</translation>
+      <location filename="../htmlexport.cpp" line="486"/>
+      <source>View: %1</source>
+      <translation>Nézet: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="565"/>
-        <source>Document generated by Letos v%1 on %2</source>
-        <translation>A dokumentumot a Letos v%1 generálta ekkor: %2</translation>
+      <location filename="../htmlexport.cpp" line="565"/>
+      <source>Document generated by Letos v%1 on %2</source>
+      <translation>A dokumentumot a Letos v%1 generálta ekkor: %2</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>HtmlExportConfig</name>
     <message>
-        <location filename="../htmlexport.ui" line="136"/>
-        <source>Maximum number of characters per cell:</source>
-        <translation>Cellánkénti karakterek maximális száma:</translation>
+      <location filename="../htmlexport.ui" line="136"/>
+      <source>Maximum number of characters per cell:</source>
+      <translation>Cellánkénti karakterek maximális száma:</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="182"/>
-        <source>Include data types in first row</source>
-        <translation>Adattípusok szerepeltetése az első sorban</translation>
+      <location filename="../htmlexport.ui" line="182"/>
+      <source>Include data types in first row</source>
+      <translation>Adattípusok szerepeltetése az első sorban</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="143"/>
-        <source>Column names as first row</source>
-        <translation>Oszlopnevek első sorként</translation>
+      <location filename="../htmlexport.ui" line="143"/>
+      <source>Column names as first row</source>
+      <translation>Oszlopnevek első sorként</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="126"/>
-        <source>Row numbers as first column</source>
-        <translation>Sorszámok első oszlopként</translation>
+      <location filename="../htmlexport.ui" line="126"/>
+      <source>Row numbers as first column</source>
+      <translation>Sorszámok első oszlopként</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="91"/>
-        <source>Output format</source>
-        <translation>Kimeneti formátum</translation>
+      <location filename="../htmlexport.ui" line="91"/>
+      <source>Output format</source>
+      <translation>Kimeneti formátum</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="20"/>
-        <source>Custom header</source>
-        <translation>Egyéni fejléc</translation>
+      <location filename="../htmlexport.ui" line="20"/>
+      <source>Custom header</source>
+      <translation>Egyéni fejléc</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="26"/>
-        <source>No custom header</source>
-        <translation>Nincs egyéni fejléc</translation>
+      <location filename="../htmlexport.ui" line="26"/>
+      <source>No custom header</source>
+      <translation>Nincs egyéni fejléc</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="39"/>
-        <source>Define custom header content</source>
-        <translation>Egyéni fejléc tartalmának megadása</translation>
+      <location filename="../htmlexport.ui" line="39"/>
+      <source>Define custom header content</source>
+      <translation>Egyéni fejléc tartalmának megadása</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="52"/>
-        <location filename="../htmlexport.ui" line="224"/>
-        <source>HTML content</source>
-        <translation>HTML-tartalom</translation>
+      <location filename="../htmlexport.ui" line="52"/>
+      <location filename="../htmlexport.ui" line="224"/>
+      <source>HTML content</source>
+      <translation>HTML-tartalom</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="62"/>
-        <source>Define custom header file</source>
-        <translation>Egyéni fejlécfájl megadása</translation>
+      <location filename="../htmlexport.ui" line="62"/>
+      <source>Define custom header file</source>
+      <translation>Egyéni fejlécfájl megadása</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="78"/>
-        <source>Choose file for the header</source>
-        <translation>Fájl kiválasztása a fejléchez</translation>
+      <location filename="../htmlexport.ui" line="78"/>
+      <source>Choose file for the header</source>
+      <translation>Fájl kiválasztása a fejléchez</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="81"/>
-        <location filename="../htmlexport.ui" line="253"/>
-        <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation>HTML-fájlok (*.htm, *.html);;Szövegfájlok (*.txt);;Minden fájl (*)</translation>
+      <location filename="../htmlexport.ui" line="81"/>
+      <location filename="../htmlexport.ui" line="253"/>
+      <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
+      <translation>HTML-fájlok (*.htm, *.html);;Szövegfájlok (*.txt);;Minden fájl (*)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="97"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>Dokumentum formázása (új sorok, behúzások)</translation>
+      <location filename="../htmlexport.ui" line="97"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>Dokumentum formázása (új sorok, behúzások)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="110"/>
-        <source>Compress (everything in one line)</source>
-        <translation>Tömörítés (minden egy sorban)</translation>
+      <location filename="../htmlexport.ui" line="110"/>
+      <source>Compress (everything in one line)</source>
+      <translation>Tömörítés (minden egy sorban)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="153"/>
-        <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
+      <location filename="../htmlexport.ui" line="153"/>
+      <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="156"/>
-        <source>Don&apos;t escape HTML characters</source>
-        <translation>Ne helyettesítse a HTML-karaktereket</translation>
+      <location filename="../htmlexport.ui" line="156"/>
+      <source>Don&apos;t escape HTML characters</source>
+      <translation>Ne helyettesítse a HTML-karaktereket</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="192"/>
-        <source>Custom footer</source>
-        <translation>Egyéni lábléc</translation>
+      <location filename="../htmlexport.ui" line="192"/>
+      <source>Custom footer</source>
+      <translation>Egyéni lábléc</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="198"/>
-        <source>No custom footer</source>
-        <translation>Nincs egyéni lábléc</translation>
+      <location filename="../htmlexport.ui" line="198"/>
+      <source>No custom footer</source>
+      <translation>Nincs egyéni lábléc</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="211"/>
-        <source>Define custom footer content</source>
-        <translation>Egyéni lábléc tartalmának megadása</translation>
+      <location filename="../htmlexport.ui" line="211"/>
+      <source>Define custom footer content</source>
+      <translation>Egyéni lábléc tartalmának megadása</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="234"/>
-        <source>Define custom footer file</source>
-        <translation>Egyéni láblécfájl megadása</translation>
+      <location filename="../htmlexport.ui" line="234"/>
+      <source>Define custom footer file</source>
+      <translation>Egyéni láblécfájl megadása</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="250"/>
-        <source>Choose file for the footer</source>
-        <translation>Fájl kiválasztása a lábléchez</translation>
+      <location filename="../htmlexport.ui" line="250"/>
+      <source>Choose file for the footer</source>
+      <translation>Fájl kiválasztása a lábléchez</translation>
     </message>
-</context>
+  </context>
 </TS>
