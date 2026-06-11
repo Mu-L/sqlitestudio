@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ja" sourcelanguage="en">
-<context>
+  <context>
     <name>Printing</name>
     <message>
-        <location filename="../printing.cpp" line="35"/>
-        <source>Print data</source>
-        <translation type="unfinished">Print data</translation>
+      <location filename="../printing.cpp" line="35"/>
+      <source>Print data</source>
+      <translation>データを印刷</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="37"/>
-        <source>Print query</source>
-        <translation type="unfinished">Print query</translation>
+      <location filename="../printing.cpp" line="37"/>
+      <source>Print query</source>
+      <translation>クエリを印刷</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="74"/>
-        <source>No data to print.</source>
-        <translation type="unfinished">No data to print.</translation>
+      <location filename="../printing.cpp" line="74"/>
+      <source>No data to print.</source>
+      <translation>印刷するデータがありません。</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="82"/>
-        <source>Printing data.</source>
-        <translation type="unfinished">Printing data.</translation>
+      <location filename="../printing.cpp" line="82"/>
+      <source>Printing data.</source>
+      <translation>データを印刷しています。</translation>
     </message>
     <message>
-        <location filename="../printing.cpp" line="108"/>
-        <source>Printing query.</source>
-        <translation type="unfinished">Printing query.</translation>
+      <location filename="../printing.cpp" line="108"/>
+      <source>Printing query.</source>
+      <translation>クエリを印刷しています。</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>PrintingExport</name>
     <message>
-        <location filename="../printingexport.cpp" line="27"/>
-        <source>Printing</source>
-        <translation type="unfinished">Printing</translation>
+      <location filename="../printingexport.cpp" line="27"/>
+      <source>Printing</source>
+      <translation>印刷</translation>
     </message>
-</context>
+  </context>
 </TS>
