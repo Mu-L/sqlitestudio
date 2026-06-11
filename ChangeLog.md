@@ -54,8 +54,7 @@
 - ADDED: #5684 Added debug(msg) SQL function to print messages to Status Field, for example from TRIGGER body.
 - ADDED: #4709 Added option in configuration to sort data by single-click on a header. Ehnanced data header tooltips to include this information there.
 - ADDED: #3566 Added option in configuration to make the Enter key move to the next row, if it was used to finish data editing in Grid View. The option is also available from the Grid's context menu.
-- ADDED: #5574 Application was fully translated with AI LLM to new languages: Afrikaans, Arabic, Czech, Danish, Dutch, Greek, Hugarian, Japanese, Korean, Norwegian, Portuguese, Romanian, Slovak, Swedish, Turkish.
-- ADDED: #5574 Application translations were updated with missing translations using AI LLM for languages: Chinese Simplified, Chinese Traditional, French, Italian, Polish, Portuguese, Slovak, Spanish
+- ADDED: #5574 Application was fully translated with AI LLM to new languages: Afrikaans, Arabic, Belarusian, Catalan, Czech, Danish, Dutch, Greek, Hugarian, Japanese, Korean, Norwegian, Portuguese (both European and Brazilian), Romanian, Serbian, Slovak, Swedish, Turkish.
 - CHANGE: #5441 Project has been renamed to Letos. Together with the name, also domain/homepage has changed to letos.org.
 - CHANGE: #4553 Application has moved to Qt 6 (dropping Qt 5 support). This solves several technical issues (for example accented characters on MacOS, better UI scaling for high DPI displays, better dark theme support and more).
 - CHANGE: #5102 All raster icons are replaced with vector icons (SVG). This makes them scalable and work well with high DPI displays.
@@ -102,6 +101,8 @@
 - CHANGE: #5634 Execute SQL From File dialog no whas a database selector and the action appears in all database list context menus + in the Tools menu of main menubar.
 - CHANGE: Windows x86 (32-bit) binaries will no longer by provided in official builds.
 - CHANGE: #5657 The command line application (letoscli) was deprecated and removed from the current code branch. Please use official SQLite3 CLI as a command line app, as it improved a lot in recent versions.
+- CHANGE: #5574 Application translations were updated with missing translations using AI LLM for languages: Chinese (Simplified and Traditional), French, Italian, Slovak, Spanish
+- CHANGE: #5574 Application translations were updated with missing translations for lanuages: Polish
 - BUGFIX: #3079 Enterprise Formatter now handles comments much better than before.
 - BUGFIX: #4986 Unique indexes are allowed for expressions, as they should be.
 - BUGFIX: #5498 Empty/null cells resulting from LEFT JOINs are not editable anymore.
