@@ -1,8815 +1,8815 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ca" sourcelanguage="en">
-  <context>
+<context>
     <name>AboutDialog</name>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="24"/>
-      <source>About</source>
-      <translation>Quant a</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="24"/>
+        <source>About</source>
+        <translation>Quant a</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="41"/>
-      <source>Licenses</source>
-      <translation>Llicències</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="41"/>
+        <source>Licenses</source>
+        <translation>Llicències</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="55"/>
-      <source>Environment</source>
-      <translation>Entorn</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="55"/>
+        <source>Environment</source>
+        <translation>Entorn</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="102"/>
-      <source>Icon directories</source>
-      <translation>Directoris d&apos;icones</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="102"/>
+        <source>Icon directories</source>
+        <translation>Directoris d&apos;icones</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="170"/>
-      <source>Form directories</source>
-      <translation>Directoris de formularis</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="170"/>
+        <source>Form directories</source>
+        <translation>Directoris de formularis</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="187"/>
-      <source>SQLite extension directories</source>
-      <translation>Directoris d&apos;extensions SQLite</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="187"/>
+        <source>SQLite extension directories</source>
+        <translation>Directoris d&apos;extensions SQLite</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="140"/>
-      <source>Plugin directories</source>
-      <translation>Directoris de connectors</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="140"/>
+        <source>Plugin directories</source>
+        <translation>Directoris de connectors</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="14"/>
-      <source>About Letos and licenses</source>
-      <translation>Quant a Letos i llicències</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="14"/>
+        <source>About Letos and licenses</source>
+        <translation>Quant a Letos i llicències</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="30"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Gestor de bases de dades SQLite lliure, de codi obert i multiplataforma.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Autor i mantenidor actiu:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="30"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Gestor de bases de dades SQLite lliure, de codi obert i multiplataforma.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Autor i mantenidor actiu:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="75"/>
-      <source>Configuration directory</source>
-      <translation>Directori de configuració</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="75"/>
+        <source>Configuration directory</source>
+        <translation>Directori de configuració</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="150"/>
-      <source>Application directory</source>
-      <translation>Directori de l&apos;aplicació</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="150"/>
+        <source>Application directory</source>
+        <translation>Directori de l&apos;aplicació</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="85"/>
-      <source>Qt version:</source>
-      <translation>Versió de Qt:</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="85"/>
+        <source>Qt version:</source>
+        <translation>Versió de Qt:</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="160"/>
-      <source>SQLite 3 version:</source>
-      <translation>Versió de SQLite 3:</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="160"/>
+        <source>SQLite 3 version:</source>
+        <translation>Versió de SQLite 3:</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="42"/>
-      <source>Portable distribution.</source>
-      <translation>Distribució portable.</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="42"/>
+        <source>Portable distribution.</source>
+        <translation>Distribució portable.</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="45"/>
-      <source>MacOS X application bundle distribution.</source>
-      <translation>Distribució en paquet d&apos;aplicació MacOS X.</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="45"/>
+        <source>MacOS X application bundle distribution.</source>
+        <translation>Distribució en paquet d&apos;aplicació MacOS X.</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="48"/>
-      <source>Operating system managed distribution.</source>
-      <translation>Distribució gestionada pel sistema operatiu.</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="48"/>
+        <source>Operating system managed distribution.</source>
+        <translation>Distribució gestionada pel sistema operatiu.</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="98"/>
-      <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
-      <translation>&lt;h3&gt;Taula de continguts:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="98"/>
+        <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
+        <translation>&lt;h3&gt;Taula de continguts:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>BindParamsDialog</name>
     <message>
-      <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
-      <source>Query parameters</source>
-      <translation>Paràmetres de la consulta</translation>
+        <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
+        <source>Query parameters</source>
+        <translation>Paràmetres de la consulta</translation>
     </message>
     <message>
-      <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
-      <source>Please provide values for query parameters</source>
-      <translation>Proporcioneu valors per als paràmetres de la consulta</translation>
+        <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
+        <source>Please provide values for query parameters</source>
+        <translation>Proporcioneu valors per als paràmetres de la consulta</translation>
     </message>
     <message>
-      <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
-      <source>Advanced mode</source>
-      <translation>Mode avançat</translation>
+        <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
+        <source>Advanced mode</source>
+        <translation>Mode avançat</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CellRendererTable</name>
     <message>
-      <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
-      <source>Default</source>
-      <translation>Predeterminat</translation>
+        <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
+        <source>Default</source>
+        <translation>Predeterminat</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CodeSnippetEditor</name>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="84"/>
-      <source>Filter snippets</source>
-      <translation>Filtra fragments</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="84"/>
+        <source>Filter snippets</source>
+        <translation>Filtra fragments</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="183"/>
-      <location filename="../windows/codesnippeteditor.ui" line="221"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drecera opcional que només funcionarà en el context de la finestra activa de l&apos;assistent de codi. Permet a l&apos;usuari utilitzar combinacions de tecles que, altrament, entrarien en conflicte amb altres dreceres. Tenir la finestra de l&apos;assistent de codi com a context requerit fa que la tria de tecles sigui més versàtil.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="183"/>
+        <location filename="../windows/codesnippeteditor.ui" line="221"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drecera opcional que només funcionarà en el context de la finestra activa de l&apos;assistent de codi. Permet a l&apos;usuari utilitzar combinacions de tecles que, altrament, entrarien en conflicte amb altres dreceres. Tenir la finestra de l&apos;assistent de codi com a context requerit fa que la tria de tecles sigui més versàtil.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="204"/>
-      <location filename="../windows/codesnippeteditor.ui" line="214"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;El nom del fragment es mostrarà a l&apos;assistent de codi. Per accedir a la llista de fragments, l&apos;usuari ha de prémer dues vegades la drecera de l&apos;assistent de codi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="204"/>
+        <location filename="../windows/codesnippeteditor.ui" line="214"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;El nom del fragment es mostrarà a l&apos;assistent de codi. Per accedir a la llista de fragments, l&apos;usuari ha de prémer dues vegades la drecera de l&apos;assistent de codi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="207"/>
-      <source>Snippet name</source>
-      <translation>Nom del fragment</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="207"/>
+        <source>Snippet name</source>
+        <translation>Nom del fragment</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="224"/>
-      <source>Code assistant shortcut</source>
-      <translation>Drecera de l&apos;assistent de codi</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="224"/>
+        <source>Code assistant shortcut</source>
+        <translation>Drecera de l&apos;assistent de codi</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="240"/>
-      <source>Snippet code</source>
-      <translation>Codi del fragment</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="240"/>
+        <source>Snippet code</source>
+        <translation>Codi del fragment</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="50"/>
-      <source>Code Snippets editor window has uncommitted modifications.</source>
-      <translation>La finestra de l&apos;editor de fragments de codi té modificacions sense confirmar.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="50"/>
+        <source>Code Snippets editor window has uncommitted modifications.</source>
+        <translation>La finestra de l&apos;editor de fragments de codi té modificacions sense confirmar.</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="71"/>
-      <source>Code Snippets editor</source>
-      <translation>Editor de fragments de codi</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="71"/>
+        <source>Code Snippets editor</source>
+        <translation>Editor de fragments de codi</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="76"/>
-      <source>Commit all snippet changes</source>
-      <translation>Confirma tots els canvis dels fragments</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="76"/>
+        <source>Commit all snippet changes</source>
+        <translation>Confirma tots els canvis dels fragments</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="77"/>
-      <source>Rollback all snippet changes</source>
-      <translation>Reverteix tots els canvis dels fragments</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="77"/>
+        <source>Rollback all snippet changes</source>
+        <translation>Reverteix tots els canvis dels fragments</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="79"/>
-      <source>Create new snippet</source>
-      <translation>Crea un fragment nou</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="79"/>
+        <source>Create new snippet</source>
+        <translation>Crea un fragment nou</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="80"/>
-      <source>Delete selected snippet</source>
-      <translation>Suprimeix el fragment seleccionat</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="80"/>
+        <source>Delete selected snippet</source>
+        <translation>Suprimeix el fragment seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="82"/>
-      <source>Move the snippet up</source>
-      <translation>Mou el fragment amunt</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="82"/>
+        <source>Move the snippet up</source>
+        <translation>Mou el fragment amunt</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="83"/>
-      <source>Move the snippet down</source>
-      <translation>Mou el fragment avall</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="83"/>
+        <source>Move the snippet down</source>
+        <translation>Mou el fragment avall</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="85"/>
-      <source>Import snippets from file</source>
-      <translation>Importa fragments des d&apos;un fitxer</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="85"/>
+        <source>Import snippets from file</source>
+        <translation>Importa fragments des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="86"/>
-      <source>Export snippets to file</source>
-      <translation>Exporta fragments a un fitxer</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="86"/>
+        <source>Export snippets to file</source>
+        <translation>Exporta fragments a un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="87"/>
-      <source>Code snippets manual</source>
-      <translation>Manual dels fragments de codi</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="87"/>
+        <source>Code snippets manual</source>
+        <translation>Manual dels fragments de codi</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="325"/>
-      <source>Enter a non-empty, unique name of the snippet.</source>
-      <translation>Introduïu un nom de fragment no buit i únic.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="325"/>
+        <source>Enter a non-empty, unique name of the snippet.</source>
+        <translation>Introduïu un nom de fragment no buit i únic.</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="328"/>
-      <source>Enter a non-empty snippet content.</source>
-      <translation>Introduïu contingut de fragment no buit.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="328"/>
+        <source>Enter a non-empty snippet content.</source>
+        <translation>Introduïu contingut de fragment no buit.</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="332"/>
-      <source>This hotkey is not unique in context of a code assistant.</source>
-      <translation>Aquesta tecla d&apos;accés ràpid no és única en el context d&apos;un assistent de codi.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="332"/>
+        <source>This hotkey is not unique in context of a code assistant.</source>
+        <translation>Aquesta tecla d&apos;accés ràpid no és única en el context d&apos;un assistent de codi.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CodeSnippetEditorModel</name>
     <message>
-      <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
-      <source>Name:</source>
-      <translation>Nom:</translation>
+        <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
+        <source>Name:</source>
+        <translation>Nom:</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
-      <source>Hotkey:</source>
-      <translation>Tecla d&apos;accés ràpid:</translation>
+        <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
+        <source>Hotkey:</source>
+        <translation>Tecla d&apos;accés ràpid:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CodeSnippetsPanel</name>
     <message>
-      <location filename="../codesnippetspanel.ui" line="17"/>
-      <source>Code Snippets</source>
-      <translation>Fragments de codi</translation>
+        <location filename="../codesnippetspanel.ui" line="17"/>
+        <source>Code Snippets</source>
+        <translation>Fragments de codi</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.ui" line="43"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Arrossegueu-lo a l&apos;editor SQL per utilitzar el fragment.&lt;/p&gt;&lt;p&gt;Deixeu anar qualsevol codi (o text) aquí per afegir un fragment de codi nou.&lt;/p&gt;&lt;p&gt;Feu doble clic per editar el fragment.&lt;/p&gt;&lt;p&gt;Els fragments de codi també estan disponibles a l&apos;assistent de codi. Invoqueu-lo dues vegades per mostrar els fragments.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../codesnippetspanel.ui" line="43"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Arrossegueu-lo a l&apos;editor SQL per utilitzar el fragment.&lt;/p&gt;&lt;p&gt;Deixeu anar qualsevol codi (o text) aquí per afegir un fragment de codi nou.&lt;/p&gt;&lt;p&gt;Feu doble clic per editar el fragment.&lt;/p&gt;&lt;p&gt;Els fragments de codi també estan disponibles a l&apos;assistent de codi. Invoqueu-lo dues vegades per mostrar els fragments.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.ui" line="69"/>
-      <source>Preview</source>
-      <translation>Previsualització</translation>
+        <location filename="../codesnippetspanel.ui" line="69"/>
+        <source>Preview</source>
+        <translation>Previsualització</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.cpp" line="69"/>
-      <source>Add code snippet</source>
-      <translation>Afegeix un fragment de codi</translation>
+        <location filename="../codesnippetspanel.cpp" line="69"/>
+        <source>Add code snippet</source>
+        <translation>Afegeix un fragment de codi</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.cpp" line="69"/>
-      <source>Enter a name for the new code snippet:</source>
-      <translation>Introduïu un nom per al fragment de codi nou:</translation>
+        <location filename="../codesnippetspanel.cpp" line="69"/>
+        <source>Enter a name for the new code snippet:</source>
+        <translation>Introduïu un nom per al fragment de codi nou:</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.cpp" line="97"/>
-      <source>Filter by name</source>
-      <translation>Filtra per nom</translation>
+        <location filename="../codesnippetspanel.cpp" line="97"/>
+        <source>Filter by name</source>
+        <translation>Filtra per nom</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CollationsEditor</name>
     <message>
-      <location filename="../windows/collationseditor.ui" line="84"/>
-      <source>Filter collations</source>
-      <translation>Filtra intercalacions</translation>
+        <location filename="../windows/collationseditor.ui" line="84"/>
+        <source>Filter collations</source>
+        <translation>Filtra intercalacions</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="163"/>
-      <source>Databases</source>
-      <translation>Bases de dades</translation>
+        <location filename="../windows/collationseditor.ui" line="163"/>
+        <source>Databases</source>
+        <translation>Bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="169"/>
-      <source>Register in all databases</source>
-      <translation>Registra a totes les bases de dades</translation>
+        <location filename="../windows/collationseditor.ui" line="169"/>
+        <source>Register in all databases</source>
+        <translation>Registra a totes les bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="176"/>
-      <source>Register in following databases:</source>
-      <translation>Registra a les bases de dades següents:</translation>
+        <location filename="../windows/collationseditor.ui" line="176"/>
+        <source>Register in following databases:</source>
+        <translation>Registra a les bases de dades següents:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="197"/>
-      <source>Implementation code:</source>
-      <translation>Codi d&apos;implementació:</translation>
+        <location filename="../windows/collationseditor.ui" line="197"/>
+        <source>Implementation code:</source>
+        <translation>Codi d&apos;implementació:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="229"/>
-      <source>Collation name:</source>
-      <translation>Nom de la intercalació:</translation>
+        <location filename="../windows/collationseditor.ui" line="229"/>
+        <source>Collation name:</source>
+        <translation>Nom de la intercalació:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="239"/>
-      <source>Collation type:</source>
-      <translation>Tipus d&apos;intercalació:</translation>
+        <location filename="../windows/collationseditor.ui" line="239"/>
+        <source>Collation type:</source>
+        <translation>Tipus d&apos;intercalació:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="248"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implementa la lògica de comparació directament a Letos mitjançant un llenguatge de scripting. Trieu aquest tipus per crear regles d&apos;ordenació i comparació totalment personalitzades sense requerir extensions SQLite externes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/collationseditor.ui" line="248"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implementa la lògica de comparació directament a Letos mitjançant un llenguatge de scripting. Trieu aquest tipus per crear regles d&apos;ordenació i comparació totalment personalitzades sense requerir extensions SQLite externes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="251"/>
-      <source>Function-based</source>
-      <translation>Basada en funció</translation>
+        <location filename="../windows/collationseditor.ui" line="251"/>
+        <source>Function-based</source>
+        <translation>Basada en funció</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="258"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilitza una intercalació implementada per una extensió SQLite o una biblioteca externa. Trieu aquest tipus quan la lògica de comparació ja existeixi fora de Letos, per exemple a ICU o en una altra extensió SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/collationseditor.ui" line="258"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilitza una intercalació implementada per una extensió SQLite o una biblioteca externa. Trieu aquest tipus quan la lògica de comparació ja existeixi fora de Letos, per exemple a ICU o en una altra extensió SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="261"/>
-      <source>Extension-based</source>
-      <translation>Basada en extensió</translation>
+        <location filename="../windows/collationseditor.ui" line="261"/>
+        <source>Extension-based</source>
+        <translation>Basada en extensió</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="270"/>
-      <source>Implementation language:</source>
-      <translation>Llenguatge d&apos;implementació:</translation>
+        <location filename="../windows/collationseditor.ui" line="270"/>
+        <source>Implementation language:</source>
+        <translation>Llenguatge d&apos;implementació:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="56"/>
-      <source>Collations editor</source>
-      <translation>Editor d&apos;intercalacions</translation>
+        <location filename="../windows/collationseditor.cpp" line="56"/>
+        <source>Collations editor</source>
+        <translation>Editor d&apos;intercalacions</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="61"/>
-      <source>Commit all collation changes</source>
-      <translation>Confirma tots els canvis d&apos;intercalació</translation>
+        <location filename="../windows/collationseditor.cpp" line="61"/>
+        <source>Commit all collation changes</source>
+        <translation>Confirma tots els canvis d&apos;intercalació</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="62"/>
-      <source>Rollback all collation changes</source>
-      <translation>Reverteix tots els canvis d&apos;intercalació</translation>
+        <location filename="../windows/collationseditor.cpp" line="62"/>
+        <source>Rollback all collation changes</source>
+        <translation>Reverteix tots els canvis d&apos;intercalació</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="64"/>
-      <source>Create new collation</source>
-      <translation>Crea una intercalació nova</translation>
+        <location filename="../windows/collationseditor.cpp" line="64"/>
+        <source>Create new collation</source>
+        <translation>Crea una intercalació nova</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="65"/>
-      <source>Delete selected collation</source>
-      <translation>Suprimeix la intercalació seleccionada</translation>
+        <location filename="../windows/collationseditor.cpp" line="65"/>
+        <source>Delete selected collation</source>
+        <translation>Suprimeix la intercalació seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="67"/>
-      <source>Import collations from file</source>
-      <translation>Importa intercalacions des d&apos;un fitxer</translation>
+        <location filename="../windows/collationseditor.cpp" line="67"/>
+        <source>Import collations from file</source>
+        <translation>Importa intercalacions des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="68"/>
-      <source>Export collations to file</source>
-      <translation>Exporta intercalacions a un fitxer</translation>
+        <location filename="../windows/collationseditor.cpp" line="68"/>
+        <source>Export collations to file</source>
+        <translation>Exporta intercalacions a un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="69"/>
-      <source>Editing collations manual</source>
-      <translation>Manual d&apos;edició d&apos;intercalacions</translation>
+        <location filename="../windows/collationseditor.cpp" line="69"/>
+        <source>Editing collations manual</source>
+        <translation>Manual d&apos;edició d&apos;intercalacions</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="322"/>
-      <source>Enter a non-empty, unique name of the collation.</source>
-      <translation>Introduïu un nom d&apos;intercalació no buit i únic.</translation>
+        <location filename="../windows/collationseditor.cpp" line="322"/>
+        <source>Enter a non-empty, unique name of the collation.</source>
+        <translation>Introduïu un nom d&apos;intercalació no buit i únic.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="332"/>
-      <source>Pick the implementation language.</source>
-      <translation>Trieu el llenguatge d&apos;implementació.</translation>
+        <location filename="../windows/collationseditor.cpp" line="332"/>
+        <source>Pick the implementation language.</source>
+        <translation>Trieu el llenguatge d&apos;implementació.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="337"/>
-      <source>Registration code</source>
-      <translation>Codi de registre</translation>
+        <location filename="../windows/collationseditor.cpp" line="337"/>
+        <source>Registration code</source>
+        <translation>Codi de registre</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="338"/>
-      <source>Enter a non-empty registration code.</source>
-      <translation>Introduïu un codi de registre no buit.</translation>
+        <location filename="../windows/collationseditor.cpp" line="338"/>
+        <source>Enter a non-empty registration code.</source>
+        <translation>Introduïu un codi de registre no buit.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="346"/>
-      <source>Implementation code</source>
-      <translation>Codi d&apos;implementació</translation>
+        <location filename="../windows/collationseditor.cpp" line="346"/>
+        <source>Implementation code</source>
+        <translation>Codi d&apos;implementació</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="347"/>
-      <source>Enter a non-empty implementation code.</source>
-      <translation>Introduïu un codi d&apos;implementació no buit.</translation>
+        <location filename="../windows/collationseditor.cpp" line="347"/>
+        <source>Enter a non-empty implementation code.</source>
+        <translation>Introduïu un codi d&apos;implementació no buit.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="506"/>
-      <source>Collations editor window has uncommitted modifications.</source>
-      <translation>La finestra de l&apos;editor d&apos;intercalacions té modificacions sense confirmar.</translation>
+        <location filename="../windows/collationseditor.cpp" line="506"/>
+        <source>Collations editor window has uncommitted modifications.</source>
+        <translation>La finestra de l&apos;editor d&apos;intercalacions té modificacions sense confirmar.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CollationsEditorModel</name>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="219"/>
-      <source>all databases</source>
-      <translation>totes les bases de dades</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="219"/>
+        <source>all databases</source>
+        <translation>totes les bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="224"/>
-      <source>Collation:</source>
-      <translation>Intercalació:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="224"/>
+        <source>Collation:</source>
+        <translation>Intercalació:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="225"/>
-      <source>Type:</source>
-      <translation>Tipus:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="225"/>
+        <source>Type:</source>
+        <translation>Tipus:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="226"/>
-      <source>Language:</source>
-      <translation>Llenguatge:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="226"/>
+        <source>Language:</source>
+        <translation>Llenguatge:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="227"/>
-      <source>Registered in:</source>
-      <translation>Registrat a:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="227"/>
+        <source>Registered in:</source>
+        <translation>Registrat a:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColorButton</name>
     <message>
-      <location filename="../common/colorbutton.cpp" line="29"/>
-      <source>Pick a color</source>
-      <translation>Tria un color</translation>
+        <location filename="../common/colorbutton.cpp" line="29"/>
+        <source>Pick a color</source>
+        <translation>Tria un color</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColorPickerPopup</name>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="58"/>
-      <source>Clear</source>
-      <translation>Neteja</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="58"/>
+        <source>Clear</source>
+        <translation>Neteja</translation>
     </message>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="65"/>
-      <source>Custom colors</source>
-      <translation>Colors personalitzats</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="65"/>
+        <source>Custom colors</source>
+        <translation>Colors personalitzats</translation>
     </message>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="73"/>
-      <source>Add custom color</source>
-      <translation>Afegeix un color personalitzat</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="73"/>
+        <source>Add custom color</source>
+        <translation>Afegeix un color personalitzat</translation>
     </message>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="219"/>
-      <source>Select color</source>
-      <translation>Selecciona un color</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="219"/>
+        <source>Select color</source>
+        <translation>Selecciona un color</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnCollatePanel</name>
     <message>
-      <location filename="../constraints/columncollatepanel.ui" line="41"/>
-      <source>Collation name:</source>
-      <translation>Nom de la intercalació:</translation>
+        <location filename="../constraints/columncollatepanel.ui" line="41"/>
+        <source>Collation name:</source>
+        <translation>Nom de la intercalació:</translation>
     </message>
     <message>
-      <location filename="../constraints/columncollatepanel.ui" line="73"/>
-      <source>Named constraint:</source>
-      <translation>Restricció amb nom:</translation>
+        <location filename="../constraints/columncollatepanel.ui" line="73"/>
+        <source>Named constraint:</source>
+        <translation>Restricció amb nom:</translation>
     </message>
     <message>
-      <location filename="../constraints/columncollatepanel.cpp" line="80"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/columncollatepanel.cpp" line="80"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
     <message>
-      <location filename="../constraints/columncollatepanel.cpp" line="81"/>
-      <source>Enter a collation name.</source>
-      <translation>Introduïu un nom d&apos;intercalació.</translation>
+        <location filename="../constraints/columncollatepanel.cpp" line="81"/>
+        <source>Enter a collation name.</source>
+        <translation>Introduïu un nom d&apos;intercalació.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnDefaultPanel</name>
     <message>
-      <location filename="../constraints/columndefaultpanel.ui" line="20"/>
-      <source>Default value:</source>
-      <translation>Valor predeterminat:</translation>
+        <location filename="../constraints/columndefaultpanel.ui" line="20"/>
+        <source>Default value:</source>
+        <translation>Valor predeterminat:</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.ui" line="35"/>
-      <source>Named constraint:</source>
-      <translation>Restricció amb nom:</translation>
+        <location filename="../constraints/columndefaultpanel.ui" line="35"/>
+        <source>Named constraint:</source>
+        <translation>Restricció amb nom:</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
-      <source>Enter a default value expression.</source>
-      <translation>Introduïu una expressió de valor predeterminat.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
+        <source>Enter a default value expression.</source>
+        <translation>Introduïu una expressió de valor predeterminat.</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
-      <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
-      <translation>Expressió de valor predeterminat no vàlida: %1. Si voleu utilitzar una cadena simple com a valor, recordeu envoltar-la amb caràcters de cometes.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
+        <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
+        <translation>Expressió de valor predeterminat no vàlida: %1. Si voleu utilitzar una cadena simple com a valor, recordeu envoltar-la amb caràcters de cometes.</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
-      <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
-      <translation>Expressió de valor predeterminat no vàlida. Si voleu utilitzar una cadena simple com a valor, recordeu envoltar-la amb caràcters de cometes.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
+        <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
+        <translation>Expressió de valor predeterminat no vàlida. Si voleu utilitzar una cadena simple com a valor, recordeu envoltar-la amb caràcters de cometes.</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnDialog</name>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="20"/>
-      <source>Column</source>
-      <translation>Columna</translation>
+        <location filename="../dialogs/columndialog.ui" line="20"/>
+        <source>Column</source>
+        <translation>Columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="29"/>
-      <source>Name and type</source>
-      <translation>Nom i tipus</translation>
+        <location filename="../dialogs/columndialog.ui" line="29"/>
+        <source>Name and type</source>
+        <translation>Nom i tipus</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="41"/>
-      <source>Scale</source>
-      <translation>Escala</translation>
+        <location filename="../dialogs/columndialog.ui" line="41"/>
+        <source>Scale</source>
+        <translation>Escala</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="61"/>
-      <source>Precision</source>
-      <translation>Precisió</translation>
+        <location filename="../dialogs/columndialog.ui" line="61"/>
+        <source>Precision</source>
+        <translation>Precisió</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="68"/>
-      <source>Data type:</source>
-      <translation>Tipus de dades:</translation>
+        <location filename="../dialogs/columndialog.ui" line="68"/>
+        <source>Data type:</source>
+        <translation>Tipus de dades:</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="75"/>
-      <source>Column name:</source>
-      <translation>Nom de la columna:</translation>
+        <location filename="../dialogs/columndialog.ui" line="75"/>
+        <source>Column name:</source>
+        <translation>Nom de la columna:</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="85"/>
-      <source>Size:</source>
-      <translation>Mida:</translation>
+        <location filename="../dialogs/columndialog.ui" line="85"/>
+        <source>Size:</source>
+        <translation>Mida:</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="108"/>
-      <source>Constraints</source>
-      <translation>Restriccions</translation>
+        <location filename="../dialogs/columndialog.ui" line="108"/>
+        <source>Constraints</source>
+        <translation>Restriccions</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="138"/>
-      <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
-      <translation>Aquesta columna forma part d&apos;una clau primària composta. Les restriccions compostes es configuren a la part inferior de la pestanya Estructura.</translation>
+        <location filename="../dialogs/columndialog.ui" line="138"/>
+        <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
+        <translation>Aquesta columna forma part d&apos;una clau primària composta. Les restriccions compostes es configuren a la part inferior de la pestanya Estructura.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="141"/>
-      <source>Composite Primary Key</source>
-      <translation>Clau primària composta</translation>
+        <location filename="../dialogs/columndialog.ui" line="141"/>
+        <source>Composite Primary Key</source>
+        <translation>Clau primària composta</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="161"/>
-      <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
-      <translation>Aquesta columna forma part d&apos;una clau forana composta. Les restriccions compostes es configuren a la part inferior de la pestanya Estructura.</translation>
+        <location filename="../dialogs/columndialog.ui" line="161"/>
+        <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
+        <translation>Aquesta columna forma part d&apos;una clau forana composta. Les restriccions compostes es configuren a la part inferior de la pestanya Estructura.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="164"/>
-      <source>Composite Foreign Key</source>
-      <translation>Clau forana composta</translation>
+        <location filename="../dialogs/columndialog.ui" line="164"/>
+        <source>Composite Foreign Key</source>
+        <translation>Clau forana composta</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="209"/>
-      <source>Generated value</source>
-      <translation>Valor generat</translation>
+        <location filename="../dialogs/columndialog.ui" line="209"/>
+        <source>Generated value</source>
+        <translation>Valor generat</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="223"/>
-      <source>Unique</source>
-      <translation>Únic</translation>
+        <location filename="../dialogs/columndialog.ui" line="223"/>
+        <source>Unique</source>
+        <translation>Únic</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="121"/>
-      <location filename="../dialogs/columndialog.ui" line="151"/>
-      <location filename="../dialogs/columndialog.ui" line="181"/>
-      <location filename="../dialogs/columndialog.ui" line="195"/>
-      <location filename="../dialogs/columndialog.ui" line="202"/>
-      <location filename="../dialogs/columndialog.ui" line="216"/>
-      <location filename="../dialogs/columndialog.ui" line="244"/>
-      <location filename="../dialogs/columndialog.ui" line="251"/>
-      <source>Configure</source>
-      <translation>Configura</translation>
+        <location filename="../dialogs/columndialog.ui" line="121"/>
+        <location filename="../dialogs/columndialog.ui" line="151"/>
+        <location filename="../dialogs/columndialog.ui" line="181"/>
+        <location filename="../dialogs/columndialog.ui" line="195"/>
+        <location filename="../dialogs/columndialog.ui" line="202"/>
+        <location filename="../dialogs/columndialog.ui" line="216"/>
+        <location filename="../dialogs/columndialog.ui" line="244"/>
+        <location filename="../dialogs/columndialog.ui" line="251"/>
+        <source>Configure</source>
+        <translation>Configura</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="258"/>
-      <source>Foreign Key</source>
-      <translation>Clau forana</translation>
+        <location filename="../dialogs/columndialog.ui" line="258"/>
+        <source>Foreign Key</source>
+        <translation>Clau forana</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="237"/>
-      <source>Collate</source>
-      <translation>Intercala</translation>
+        <location filename="../dialogs/columndialog.ui" line="237"/>
+        <source>Collate</source>
+        <translation>Intercala</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="265"/>
-      <source>Not NULL</source>
-      <translation>No NULL</translation>
+        <location filename="../dialogs/columndialog.ui" line="265"/>
+        <source>Not NULL</source>
+        <translation>No NULL</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="128"/>
-      <source>Check condition</source>
-      <translation>Condició de comprovació</translation>
+        <location filename="../dialogs/columndialog.ui" line="128"/>
+        <source>Check condition</source>
+        <translation>Condició de comprovació</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="230"/>
-      <source>Primary Key</source>
-      <translation>Clau primària</translation>
+        <location filename="../dialogs/columndialog.ui" line="230"/>
+        <source>Primary Key</source>
+        <translation>Clau primària</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="174"/>
-      <source>Default</source>
-      <translation>Predeterminat</translation>
+        <location filename="../dialogs/columndialog.ui" line="174"/>
+        <source>Default</source>
+        <translation>Predeterminat</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="188"/>
-      <source>Autoincrement</source>
-      <translation>Autoincrementació</translation>
+        <location filename="../dialogs/columndialog.ui" line="188"/>
+        <source>Autoincrement</source>
+        <translation>Autoincrementació</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="275"/>
-      <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
-      <translation>Aquesta columna forma part d&apos;una restricció única composta. Les restriccions compostes es configuren a la part inferior de la pestanya Estructura.</translation>
+        <location filename="../dialogs/columndialog.ui" line="275"/>
+        <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
+        <translation>Aquesta columna forma part d&apos;una restricció única composta. Les restriccions compostes es configuren a la part inferior de la pestanya Estructura.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="278"/>
-      <source>Composite Unique</source>
-      <translation>Únic compost</translation>
+        <location filename="../dialogs/columndialog.ui" line="278"/>
+        <source>Composite Unique</source>
+        <translation>Únic compost</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="345"/>
-      <source>Advanced mode</source>
-      <translation>Mode avançat</translation>
+        <location filename="../dialogs/columndialog.ui" line="345"/>
+        <source>Advanced mode</source>
+        <translation>Mode avançat</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="85"/>
-      <source>Add constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció</translation>
+        <location filename="../dialogs/columndialog.cpp" line="85"/>
+        <source>Add constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="86"/>
-      <source>Edit constraint</source>
-      <comment>column dialog</comment>
-      <translation>Edita la restricció</translation>
+        <location filename="../dialogs/columndialog.cpp" line="86"/>
+        <source>Edit constraint</source>
+        <comment>column dialog</comment>
+        <translation>Edita la restricció</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="87"/>
-      <location filename="../dialogs/columndialog.cpp" line="252"/>
-      <source>Delete constraint</source>
-      <comment>column dialog</comment>
-      <translation>Suprimeix la restricció</translation>
+        <location filename="../dialogs/columndialog.cpp" line="87"/>
+        <location filename="../dialogs/columndialog.cpp" line="252"/>
+        <source>Delete constraint</source>
+        <comment>column dialog</comment>
+        <translation>Suprimeix la restricció</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="88"/>
-      <source>Move constraint up</source>
-      <comment>column dialog</comment>
-      <translation>Mou la restricció amunt</translation>
+        <location filename="../dialogs/columndialog.cpp" line="88"/>
+        <source>Move constraint up</source>
+        <comment>column dialog</comment>
+        <translation>Mou la restricció amunt</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="89"/>
-      <source>Move constraint down</source>
-      <comment>column dialog</comment>
-      <translation>Mou la restricció avall</translation>
+        <location filename="../dialogs/columndialog.cpp" line="89"/>
+        <source>Move constraint down</source>
+        <comment>column dialog</comment>
+        <translation>Mou la restricció avall</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="91"/>
-      <source>Add a primary key</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una clau primària</translation>
+        <location filename="../dialogs/columndialog.cpp" line="91"/>
+        <source>Add a primary key</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una clau primària</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="92"/>
-      <source>Add a foreign key</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una clau forana</translation>
+        <location filename="../dialogs/columndialog.cpp" line="92"/>
+        <source>Add a foreign key</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una clau forana</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="93"/>
-      <source>Add an unique constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció única</translation>
+        <location filename="../dialogs/columndialog.cpp" line="93"/>
+        <source>Add an unique constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció única</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="94"/>
-      <source>Add a check constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció de comprovació</translation>
+        <location filename="../dialogs/columndialog.cpp" line="94"/>
+        <source>Add a check constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció de comprovació</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="95"/>
-      <source>Add a not null constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció no nul·la</translation>
+        <location filename="../dialogs/columndialog.cpp" line="95"/>
+        <source>Add a not null constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció no nul·la</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="96"/>
-      <source>Add a collate constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció d&apos;intercalació</translation>
+        <location filename="../dialogs/columndialog.cpp" line="96"/>
+        <source>Add a collate constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció d&apos;intercalació</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="97"/>
-      <source>Add a generated value constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció de valor generat</translation>
+        <location filename="../dialogs/columndialog.cpp" line="97"/>
+        <source>Add a generated value constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció de valor generat</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="98"/>
-      <source>Add a default constraint</source>
-      <comment>column dialog</comment>
-      <translation>Afegeix una restricció de valor predeterminat</translation>
+        <location filename="../dialogs/columndialog.cpp" line="98"/>
+        <source>Add a default constraint</source>
+        <comment>column dialog</comment>
+        <translation>Afegeix una restricció de valor predeterminat</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="251"/>
-      <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
-      <comment>column dialog</comment>
-      <translation>Segur que voleu suprimir la restricció &apos;%1&apos;?</translation>
+        <location filename="../dialogs/columndialog.cpp" line="251"/>
+        <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
+        <comment>column dialog</comment>
+        <translation>Segur que voleu suprimir la restricció &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="316"/>
-      <source>Correct the constraint&apos;s configuration.</source>
-      <translation>Corregiu la configuració d&apos;aquesta restricció.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="316"/>
+        <source>Correct the constraint&apos;s configuration.</source>
+        <translation>Corregiu la configuració d&apos;aquesta restricció.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="386"/>
-      <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
-      <translation>L&apos;escala no està permesa per a columnes INTEGER PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="386"/>
+        <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
+        <translation>L&apos;escala no està permesa per a columnes INTEGER PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="387"/>
-      <source>Precision cannot be defined without the scale.</source>
-      <translation>La precisió no es pot definir sense l&apos;escala.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="387"/>
+        <source>Precision cannot be defined without the scale.</source>
+        <translation>La precisió no es pot definir sense l&apos;escala.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="388"/>
-      <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
-      <translation>No es pot utilitzar un tipus diferent d&apos;INTEGER si AUTOINCREMENT està habilitat a PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="388"/>
+        <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
+        <translation>No es pot utilitzar un tipus diferent d&apos;INTEGER si AUTOINCREMENT està habilitat a PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="389"/>
-      <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
-      <translation>S&apos;ha forçat el tipus INTEGER perquè AUTOINCREMENT està habilitat a PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="389"/>
+        <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
+        <translation>S&apos;ha forçat el tipus INTEGER perquè AUTOINCREMENT està habilitat a PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="411"/>
-      <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
-      <translation>La precisió no està permesa per a columnes INTEGER PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="411"/>
+        <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
+        <translation>La precisió no està permesa per a columnes INTEGER PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="459"/>
-      <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
-      <translation>El tipus de la columna referenciada (%1) és diferent del tipus declarat en aquesta columna. Pot causar problemes en inserir o actualitzar dades.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="459"/>
+        <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
+        <translation>El tipus de la columna referenciada (%1) és diferent del tipus declarat en aquesta columna. Pot causar problemes en inserir o actualitzar dades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="771"/>
-      <source>Could not match valid STRICT table datatype from declared type: %1.</source>
-      <translation>No s&apos;ha pogut trobar cap tipus de dades de taula STRICT vàlid a partir del tipus declarat: %1.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="771"/>
+        <source>Could not match valid STRICT table datatype from declared type: %1.</source>
+        <translation>No s&apos;ha pogut trobar cap tipus de dades de taula STRICT vàlid a partir del tipus declarat: %1.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnDialogConstraintsModel</name>
     <message>
-      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
-      <source>Type</source>
-      <comment>column dialog constraints</comment>
-      <translation>Tipus</translation>
+        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
+        <source>Type</source>
+        <comment>column dialog constraints</comment>
+        <translation>Tipus</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
-      <source>Name</source>
-      <comment>column dialog constraints</comment>
-      <translation>Nom</translation>
+        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
+        <source>Name</source>
+        <comment>column dialog constraints</comment>
+        <translation>Nom</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
-      <source>Details</source>
-      <comment>column dialog constraints</comment>
-      <translation>Detalls</translation>
+        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
+        <source>Details</source>
+        <comment>column dialog constraints</comment>
+        <translation>Detalls</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnForeignKeyPanel</name>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
-      <source>Referenced table:</source>
-      <translation>Taula referenciada:</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
+        <source>Referenced table:</source>
+        <translation>Taula referenciada:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
-      <source>Referenced column:</source>
-      <translation>Columna referenciada:</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
+        <source>Referenced column:</source>
+        <translation>Columna referenciada:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
-      <source>Reactions</source>
-      <translation>Reaccions</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
+        <source>Reactions</source>
+        <translation>Reaccions</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
-      <source>Deferred foreign key</source>
-      <translation>Clau forana diferida</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
+        <source>Deferred foreign key</source>
+        <translation>Clau forana diferida</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
-      <source>Named constraint</source>
-      <translation>Restricció amb nom</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
+        <source>Named constraint</source>
+        <translation>Restricció amb nom</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
-      <source>Constraint name</source>
-      <translation>Nom de la restricció</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
+        <source>Constraint name</source>
+        <translation>Nom de la restricció</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
-      <source>Pick the foreign table.</source>
-      <translation>Trieu la taula forana.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
+        <source>Pick the foreign table.</source>
+        <translation>Trieu la taula forana.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
-      <source>Pick the foreign column.</source>
-      <translation>Trieu la columna forana.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
+        <source>Pick the foreign column.</source>
+        <translation>Trieu la columna forana.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
-      <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
-      <translation>La columna referenciada hauria de ser una PRIMARY KEY o UNIQUE.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
+        <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
+        <translation>La columna referenciada hauria de ser una PRIMARY KEY o UNIQUE.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
-      <source>Column with the same name</source>
-      <translation>Columna amb el mateix nom</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
+        <source>Column with the same name</source>
+        <translation>Columna amb el mateix nom</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnGeneratedPanel</name>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
-      <source>Generating code:</source>
-      <translation>Codi generador:</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
+        <source>Generating code:</source>
+        <translation>Codi generador:</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
-      <source>Explicit type:</source>
-      <translation>Tipus explícit:</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
+        <source>Explicit type:</source>
+        <translation>Tipus explícit:</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
-      <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
-      <translation>Utilitza les paraules clau &quot;GENERATED ALWAYS&quot;</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
+        <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
+        <translation>Utilitza les paraules clau &quot;GENERATED ALWAYS&quot;</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
-      <source>Named constraint:</source>
-      <translation>Restricció amb nom:</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
+        <source>Named constraint:</source>
+        <translation>Restricció amb nom:</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
-      <source>Enter the column value generating expression.</source>
-      <translation>Introduïu l&apos;expressió que genera el valor de la columna.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
+        <source>Enter the column value generating expression.</source>
+        <translation>Introduïu l&apos;expressió que genera el valor de la columna.</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
-      <source>Invalid value generating expression: %1.</source>
-      <translation>Expressió de generació de valor no vàlida: %1.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
+        <source>Invalid value generating expression: %1.</source>
+        <translation>Expressió de generació de valor no vàlida: %1.</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
-      <source>Invalid value generating expression.</source>
-      <translation>Expressió de generació de valor no vàlida.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
+        <source>Invalid value generating expression.</source>
+        <translation>Expressió de generació de valor no vàlida.</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnPrimaryKeyPanel</name>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
-      <source>Autoincrement</source>
-      <translation>Autoincrementació</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
+        <source>Autoincrement</source>
+        <translation>Autoincrementació</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
-      <source>Sort order:</source>
-      <translation>Ordre d&apos;ordenació:</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
+        <source>Sort order:</source>
+        <translation>Ordre d&apos;ordenació:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
-      <source>Named constraint:</source>
-      <translation>Restricció amb nom:</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
+        <source>Named constraint:</source>
+        <translation>Restricció amb nom:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
-      <source>On conflict:</source>
-      <translation>En cas de conflicte:</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
+        <source>On conflict:</source>
+        <translation>En cas de conflicte:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
-      <source>Descending order is not allowed with AUTOINCREMENT.</source>
-      <translation>L&apos;ordre descendent no està permès amb AUTOINCREMENT.</translation>
+        <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
+        <source>Descending order is not allowed with AUTOINCREMENT.</source>
+        <translation>L&apos;ordre descendent no està permès amb AUTOINCREMENT.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnUniqueAndNotNullPanel</name>
     <message>
-      <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
-      <source>Named constraint:</source>
-      <translation>Restricció amb nom:</translation>
+        <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
+        <source>Named constraint:</source>
+        <translation>Restricció amb nom:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
-      <source>On conflict:</source>
-      <translation>En cas de conflicte:</translation>
+        <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
+        <source>On conflict:</source>
+        <translation>En cas de conflicte:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CommandPalette</name>
     <message>
-      <location filename="../commandpalette/commandpalette.cpp" line="53"/>
-      <source>Search anything...</source>
-      <translation>Cerca qualsevol cosa...</translation>
+        <location filename="../commandpalette/commandpalette.cpp" line="53"/>
+        <source>Search anything...</source>
+        <translation>Cerca qualsevol cosa...</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CompleterWindow</name>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="95"/>
-      <source>Press / to filter snippets</source>
-      <translation>Premeu / per filtrar fragments</translation>
+        <location filename="../completer/completerwindow.cpp" line="95"/>
+        <source>Press / to filter snippets</source>
+        <translation>Premeu / per filtrar fragments</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="95"/>
-      <source>Press / to use hotkeys</source>
-      <translation>Premeu / per utilitzar tecles d&apos;accés ràpid</translation>
+        <location filename="../completer/completerwindow.cpp" line="95"/>
+        <source>Press / to use hotkeys</source>
+        <translation>Premeu / per utilitzar tecles d&apos;accés ràpid</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="310"/>
-      <source>Column: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Columna: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="310"/>
+        <source>Column: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Columna: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="312"/>
-      <source>Table: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Taula: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="312"/>
+        <source>Table: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Taula: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="314"/>
-      <source>Index: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Índex: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="314"/>
+        <source>Index: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Índex: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="316"/>
-      <source>Trigger: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Disparador: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="316"/>
+        <source>Trigger: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Disparador: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="318"/>
-      <source>View: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Vista: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="318"/>
+        <source>View: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Vista: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="320"/>
-      <source>Database: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Base de dades: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="320"/>
+        <source>Database: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Base de dades: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="332"/>
-      <source>Keyword: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Paraula clau: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="332"/>
+        <source>Keyword: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Paraula clau: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="334"/>
-      <source>Function: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Funció: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="334"/>
+        <source>Function: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Funció: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="336"/>
-      <source>Operator: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Operador: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="336"/>
+        <source>Operator: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Operador: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="338"/>
-      <source>String</source>
-      <comment>completer statusbar</comment>
-      <translation>Cadena</translation>
+        <location filename="../completer/completerwindow.cpp" line="338"/>
+        <source>String</source>
+        <comment>completer statusbar</comment>
+        <translation>Cadena</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="340"/>
-      <source>Number</source>
-      <comment>completer statusbar</comment>
-      <translation>Nombre</translation>
+        <location filename="../completer/completerwindow.cpp" line="340"/>
+        <source>Number</source>
+        <comment>completer statusbar</comment>
+        <translation>Nombre</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="342"/>
-      <source>Binary data</source>
-      <comment>completer statusbar</comment>
-      <translation>Dades binàries</translation>
+        <location filename="../completer/completerwindow.cpp" line="342"/>
+        <source>Binary data</source>
+        <comment>completer statusbar</comment>
+        <translation>Dades binàries</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="344"/>
-      <source>Collation: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Intercalació: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="344"/>
+        <source>Collation: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Intercalació: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="346"/>
-      <source>Pragma function: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Funció pragma: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="346"/>
+        <source>Pragma function: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Funció pragma: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="348"/>
-      <source>Join condition: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Condició d&apos;unió: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="348"/>
+        <source>Join condition: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Condició d&apos;unió: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConfigDialog</name>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="14"/>
-      <location filename="../dialogs/configdialog.ui" line="3114"/>
-      <source>Configuration</source>
-      <translation>Configuració</translation>
+        <location filename="../dialogs/configdialog.ui" line="14"/>
+        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <source>Configuration</source>
+        <translation>Configuració</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="63"/>
-      <source>Search</source>
-      <translation>Cerca</translation>
+        <location filename="../dialogs/configdialog.ui" line="63"/>
+        <source>Search</source>
+        <translation>Cerca</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="100"/>
-      <source>General</source>
-      <translation>Opcions generals</translation>
+        <location filename="../dialogs/configdialog.ui" line="100"/>
+        <source>General</source>
+        <translation>Opcions generals</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="112"/>
-      <source>Keyboard shortcuts</source>
-      <translation>Dreceres de teclat</translation>
+        <location filename="../dialogs/configdialog.ui" line="112"/>
+        <source>Keyboard shortcuts</source>
+        <translation>Dreceres de teclat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="124"/>
-      <source>Look &amp; feel</source>
-      <translation>Aspecte i comportament</translation>
+        <location filename="../dialogs/configdialog.ui" line="124"/>
+        <source>Look &amp; feel</source>
+        <translation>Aspecte i comportament</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="135"/>
-      <source>Style</source>
-      <translation>Estil</translation>
+        <location filename="../dialogs/configdialog.ui" line="135"/>
+        <source>Style</source>
+        <translation>Estil</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="147"/>
-      <source>Fonts</source>
-      <translation>Tipus de lletra</translation>
+        <location filename="../dialogs/configdialog.ui" line="147"/>
+        <source>Fonts</source>
+        <translation>Tipus de lletra</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="159"/>
-      <source>Code colors</source>
-      <translation>Colors del codi</translation>
+        <location filename="../dialogs/configdialog.ui" line="159"/>
+        <source>Code colors</source>
+        <translation>Colors del codi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="184"/>
-      <location filename="../dialogs/configdialog.ui" line="277"/>
-      <source>Database list</source>
-      <translation>Llista de bases de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="184"/>
+        <location filename="../dialogs/configdialog.ui" line="277"/>
+        <source>Database list</source>
+        <translation>Llista de bases de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1350"/>
-      <source>Code assistant</source>
-      <translation>Assistent de codi</translation>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <source>Code assistant</source>
+        <translation>Assistent de codi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="196"/>
-      <source>Data browsing</source>
-      <translation>Navegació de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="196"/>
+        <source>Data browsing</source>
+        <translation>Navegació de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="172"/>
-      <location filename="../dialogs/configdialog.ui" line="1263"/>
-      <source>SQL Editor</source>
-      <translation>Editor SQL</translation>
+        <location filename="../dialogs/configdialog.ui" line="172"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <source>SQL Editor</source>
+        <translation>Editor SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="207"/>
-      <source>Data editors</source>
-      <translation>Editors de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="207"/>
+        <source>Data editors</source>
+        <translation>Editors de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="232"/>
-      <source>Plugins</source>
-      <translation>Connectors</translation>
+        <location filename="../dialogs/configdialog.ui" line="232"/>
+        <source>Plugins</source>
+        <translation>Connectors</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="243"/>
-      <source>Code formatters</source>
-      <translation>Formatadors de codi</translation>
+        <location filename="../dialogs/configdialog.ui" line="243"/>
+        <source>Code formatters</source>
+        <translation>Formatadors de codi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="251"/>
-      <source>Scripting languages</source>
-      <translation>Llenguatges de script</translation>
+        <location filename="../dialogs/configdialog.ui" line="251"/>
+        <source>Scripting languages</source>
+        <translation>Llenguatges de script</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="306"/>
-      <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
-      <translation>Si està desactivat, les columnes s&apos;ordenaran en l&apos;ordre en què s&apos;han escrit a la sentència CREATE TABLE.</translation>
+        <location filename="../dialogs/configdialog.ui" line="306"/>
+        <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
+        <translation>Si està desactivat, les columnes s&apos;ordenaran en l&apos;ordre en què s&apos;han escrit a la sentència CREATE TABLE.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="309"/>
-      <source>Sort table columns alphabetically</source>
-      <translation>Ordena alfabèticament les columnes de les taules</translation>
+        <location filename="../dialogs/configdialog.ui" line="309"/>
+        <source>Sort table columns alphabetically</source>
+        <translation>Ordena alfabèticament les columnes de les taules</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="345"/>
-      <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
-      <translation>&lt;p&gt;Les etiquetes addicionals són les que es mostren al costat dels noms a la llista de bases de dades (són blaves, tret que es configuri altrament). Habilitar aquesta opció generarà etiquetes per a bases de dades, bases de dades no vàlides i nodes agregats (grup de columnes, grup d&apos;índexs, grup de disparadors). Per a més etiquetes, vegeu les opcions següents.&lt;p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="345"/>
+        <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
+        <translation>&lt;p&gt;Les etiquetes addicionals són les que es mostren al costat dels noms a la llista de bases de dades (són blaves, tret que es configuri altrament). Habilitar aquesta opció generarà etiquetes per a bases de dades, bases de dades no vàlides i nodes agregats (grup de columnes, grup d&apos;índexs, grup de disparadors). Per a més etiquetes, vegeu les opcions següents.&lt;p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="348"/>
-      <source>Display additional labels on the list</source>
-      <translation>Mostra etiquetes addicionals a la llista</translation>
+        <location filename="../dialogs/configdialog.ui" line="348"/>
+        <source>Display additional labels on the list</source>
+        <translation>Mostra etiquetes addicionals a la llista</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="379"/>
-      <source>Display labels for regular tables</source>
-      <translation>Mostra etiquetes per a taules normals</translation>
+        <location filename="../dialogs/configdialog.ui" line="379"/>
+        <source>Display labels for regular tables</source>
+        <translation>Mostra etiquetes per a taules normals</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="389"/>
-      <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
-      <translation>Les taules virtuals es marcaran amb una etiqueta &apos;virtual&apos;.</translation>
+        <location filename="../dialogs/configdialog.ui" line="389"/>
+        <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
+        <translation>Les taules virtuals es marcaran amb una etiqueta &apos;virtual&apos;.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="392"/>
-      <source>Display labels for virtual tables</source>
-      <translation>Mostra etiquetes per a taules virtuals</translation>
+        <location filename="../dialogs/configdialog.ui" line="392"/>
+        <source>Display labels for virtual tables</source>
+        <translation>Mostra etiquetes per a taules virtuals</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="332"/>
-      <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
-      <translation>Si aquesta opció està desactivada, els objectes s&apos;ordenaran en l&apos;ordre en què apareixen a la taula sqlite_master (que és l&apos;ordre en què es van crear)</translation>
+        <location filename="../dialogs/configdialog.ui" line="332"/>
+        <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
+        <translation>Si aquesta opció està desactivada, els objectes s&apos;ordenaran en l&apos;ordre en què apareixen a la taula sqlite_master (que és l&apos;ordre en què es van crear)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="335"/>
-      <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
-      <translation>Ordena alfabèticament els objectes (taules, índexs, disparadors i vistes)</translation>
+        <location filename="../dialogs/configdialog.ui" line="335"/>
+        <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
+        <translation>Ordena alfabèticament els objectes (taules, índexs, disparadors i vistes)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="408"/>
-      <source>Display system tables and indexes on the list</source>
-      <translation>Mostra taules i índexs del sistema a la llista</translation>
+        <location filename="../dialogs/configdialog.ui" line="408"/>
+        <source>Display system tables and indexes on the list</source>
+        <translation>Mostra taules i índexs del sistema a la llista</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="431"/>
-      <source>Database dialog window</source>
-      <translation>Finestra de diàleg de base de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="431"/>
+        <source>Database dialog window</source>
+        <translation>Finestra de diàleg de base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="437"/>
-      <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;En afegir una base de dades nova, per defecte es marca com a &quot;permanent&quot; (emmagatzemada a la configuració). Marcar aquesta opció fa que cap base de dades nova NO sigui &quot;permanent&quot; per defecte.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="437"/>
+        <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;En afegir una base de dades nova, per defecte es marca com a &quot;permanent&quot; (emmagatzemada a la configuració). Marcar aquesta opció fa que cap base de dades nova NO sigui &quot;permanent&quot; per defecte.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="440"/>
-      <source>Do not mark database to be &quot;permanent&quot; by default</source>
-      <translation>No marquis la base de dades com a &quot;permanent&quot; per defecte</translation>
+        <location filename="../dialogs/configdialog.ui" line="440"/>
+        <source>Do not mark database to be &quot;permanent&quot; by default</source>
+        <translation>No marquis la base de dades com a &quot;permanent&quot; per defecte</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="498"/>
-      <source>Data browsing and editing</source>
-      <translation>Navegació i edició de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="498"/>
+        <source>Data browsing and editing</source>
+        <translation>Navegació i edició de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="582"/>
-      <location filename="../dialogs/configdialog.ui" line="592"/>
-      <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Nombre màxim de configuracions del diàleg Omple la taula emmagatzemades a la configuració. Un valor de 100 hauria de ser suficient.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="582"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Nombre màxim de configuracions del diàleg Omple la taula emmagatzemades a la configuració. Un valor de 100 hauria de ser suficient.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="585"/>
-      <source>Number of memorized table populating configurations</source>
-      <translation>Nombre de configuracions d&apos;ompliment de taula memoritzades</translation>
+        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <source>Number of memorized table populating configurations</source>
+        <translation>Nombre de configuracions d&apos;ompliment de taula memoritzades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="511"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converteix els separadors de línia Unicode (U+2028, U+2029) al caràcter LF estàndard (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) en editar text a l&apos;editor de vista de formulari.&lt;/p&gt;&lt;p&gt;Desactiveu-ho per conservar els caràcters originals.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="511"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converteix els separadors de línia Unicode (U+2028, U+2029) al caràcter LF estàndard (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) en editar text a l&apos;editor de vista de formulari.&lt;/p&gt;&lt;p&gt;Desactiveu-ho per conservar els caràcters originals.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="514"/>
-      <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-      <translation>Converteix els separadors de línia Unicode a LF (\n) als editors de vista de formulari</translation>
+        <location filename="../dialogs/configdialog.ui" line="514"/>
+        <source>Convert Unicode line separators to LF (\n) in form view editors</source>
+        <translation>Converteix els separadors de línia Unicode a LF (\n) als editors de vista de formulari</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="527"/>
-      <source>Use scientific notation for very small real numbers in the grid view</source>
-      <translation>Utilitza notació científica per a nombres reals molt petits a la vista de graella</translation>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <source>Use scientific notation for very small real numbers in the grid view</source>
+        <translation>Utilitza notació científica per a nombres reals molt petits a la vista de graella</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="647"/>
-      <source>Data column width</source>
-      <translation>Amplada de columna de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="647"/>
+        <source>Data column width</source>
+        <translation>Amplada de columna de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="653"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan l&apos;usuari introdueix un valor nou en una columna i el valor és més gran que l&apos;amplada actual de la columna, l&apos;aplicació ampliarà la columna perquè s&apos;ajusti al valor nou, però no més enllà del límit definit a l&apos;opció anterior.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="653"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan l&apos;usuari introdueix un valor nou en una columna i el valor és més gran que l&apos;amplada actual de la columna, l&apos;aplicació ampliarà la columna perquè s&apos;ajusti al valor nou, però no més enllà del límit definit a l&apos;opció anterior.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="656"/>
-      <source>Enlarge column when entering value longer than current width</source>
-      <translation>Amplia la columna en introduir un valor més llarg que l&apos;amplada actual</translation>
+        <location filename="../dialogs/configdialog.ui" line="656"/>
+        <source>Enlarge column when entering value longer than current width</source>
+        <translation>Amplia la columna en introduir un valor més llarg que l&apos;amplada actual</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="672"/>
-      <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Quan les dades es llegeixen a la vista de graella, l&apos;amplada de les columnes s&apos;ajusta automàticament. Aquest valor limita l&apos;amplada inicial per a l&apos;ajust, però l&apos;usuari encara pot redimensionar la columna manualment més enllà d&apos;aquest límit.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="672"/>
+        <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Quan les dades es llegeixen a la vista de graella, l&apos;amplada de les columnes s&apos;ajusta automàticament. Aquest valor limita l&apos;amplada inicial per a l&apos;ajust, però l&apos;usuari encara pot redimensionar la columna manualment més enllà d&apos;aquest límit.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="504"/>
-      <source>Number of data rows per page:</source>
-      <translation>Nombre de files de dades per pàgina:</translation>
+        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <source>Number of data rows per page:</source>
+        <translation>Nombre de files de dades per pàgina:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="569"/>
-      <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Quan això està habilitat i l&apos;usuari manté el punter del ratolí sobre una cel·la en qualsevol vista de dades (resultats de consulta, dades d&apos;una taula, dades d&apos;una vista), apareixerà un consell emergent amb detalls sobre la cel·la: inclou detalls com ara el tipus de dades de la columna, restriccions, ROWID i altres.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="569"/>
+        <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Quan això està habilitat i l&apos;usuari manté el punter del ratolí sobre una cel·la en qualsevol vista de dades (resultats de consulta, dades d&apos;una taula, dades d&apos;una vista), apareixerà un consell emergent amb detalls sobre la cel·la: inclou detalls com ara el tipus de dades de la columna, restriccions, ROWID i altres.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="572"/>
-      <source>Show column and row details tooltip in data view</source>
-      <translation>Mostra un consell emergent amb detalls de columna i fila a la vista de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <source>Show column and row details tooltip in data view</source>
+        <translation>Mostra un consell emergent amb detalls de columna i fila a la vista de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="618"/>
-      <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
-      <translation>&lt;p&gt;En editar una cel·la que tenia valor NULL i introduir una cadena buida com a valor nou, aquesta opció determina si el valor nou ha de continuar sent NULL (amb aquesta opció habilitada) o si s&apos;ha de sobreescriure amb un valor de cadena buida (amb aquesta opció desactivada).&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
+        <translation>&lt;p&gt;En editar una cel·la que tenia valor NULL i introduir una cadena buida com a valor nou, aquesta opció determina si el valor nou ha de continuar sent NULL (amb aquesta opció habilitada) o si s&apos;ha de sobreescriure amb un valor de cadena buida (amb aquesta opció desactivada).&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="621"/>
-      <source>Keep NULL value when entering empty value</source>
-      <translation>Mantén el valor NULL en introduir un valor buit</translation>
+        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <source>Keep NULL value when entering empty value</source>
+        <translation>Mantén el valor NULL en introduir un valor buit</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="608"/>
-      <source>Limit number of rows for in case of dozens of columns</source>
-      <translation>Limita el nombre de files en cas de desenes de columnes</translation>
+        <location filename="../dialogs/configdialog.ui" line="608"/>
+        <source>Limit number of rows for in case of dozens of columns</source>
+        <translation>Limita el nombre de files en cas de desenes de columnes</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="752"/>
-      <source>Inserting new row in data grid</source>
-      <translation>Inserció d&apos;una fila nova a la graella de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="752"/>
+        <source>Inserting new row in data grid</source>
+        <translation>Inserció d&apos;una fila nova a la graella de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="758"/>
-      <source>Before currently selected row</source>
-      <translation>Abans de la fila seleccionada actualment</translation>
+        <location filename="../dialogs/configdialog.ui" line="758"/>
+        <source>Before currently selected row</source>
+        <translation>Abans de la fila seleccionada actualment</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="774"/>
-      <source>After currently selected row</source>
-      <translation>Després de la fila seleccionada actualment</translation>
+        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <source>After currently selected row</source>
+        <translation>Després de la fila seleccionada actualment</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="787"/>
-      <source>At the end of data view</source>
-      <translation>Al final de la vista de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="787"/>
+        <source>At the end of data view</source>
+        <translation>Al final de la vista de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="803"/>
-      <source>Table windows</source>
-      <translation>Finestres de taules</translation>
+        <location filename="../dialogs/configdialog.ui" line="803"/>
+        <source>Table windows</source>
+        <translation>Finestres de taules</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="809"/>
-      <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Quan està habilitat, les finestres de taules es mostraran amb la pestanya de dades, en lloc de la pestanya d&apos;estructura.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Quan està habilitat, les finestres de taules es mostraran amb la pestanya de dades, en lloc de la pestanya d&apos;estructura.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="812"/>
-      <source>Open Table Windows with the data tab for start</source>
-      <translation>Obre les finestres de taules inicialment amb la pestanya de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <source>Open Table Windows with the data tab for start</source>
+        <translation>Obre les finestres de taules inicialment amb la pestanya de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="822"/>
-      <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Quan està habilitat, la pestanya &quot;Dades&quot; es col·locarà com a primera pestanya a cada finestra de taula, en lloc d&apos;estar en segon lloc.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="822"/>
+        <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Quan està habilitat, la pestanya &quot;Dades&quot; es col·locarà com a primera pestanya a cada finestra de taula, en lloc d&apos;estar en segon lloc.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="825"/>
-      <source>Place data tab as first tab in a Table Window</source>
-      <translation>Col·loca la pestanya de dades com a primera pestanya en una finestra de taula</translation>
+        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <source>Place data tab as first tab in a Table Window</source>
+        <translation>Col·loca la pestanya de dades com a primera pestanya en una finestra de taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="838"/>
-      <source>View windows</source>
-      <translation>Finestres de vistes</translation>
+        <location filename="../dialogs/configdialog.ui" line="838"/>
+        <source>View windows</source>
+        <translation>Finestres de vistes</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="844"/>
-      <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Quan està habilitat, les finestres de vistes es mostraran amb la pestanya de dades, en lloc de la pestanya d&apos;estructura.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Quan està habilitat, les finestres de vistes es mostraran amb la pestanya de dades, en lloc de la pestanya d&apos;estructura.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="847"/>
-      <source>Open View Windows with the data tab for start</source>
-      <translation>Obre les finestres de vistes inicialment amb la pestanya de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <source>Open View Windows with the data tab for start</source>
+        <translation>Obre les finestres de vistes inicialment amb la pestanya de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="857"/>
-      <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Quan està habilitat, la pestanya &quot;Dades&quot; es col·locarà com a primera pestanya a cada finestra de vista, en lloc d&apos;estar en segon lloc.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="857"/>
+        <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Quan està habilitat, la pestanya &quot;Dades&quot; es col·locarà com a primera pestanya a cada finestra de vista, en lloc d&apos;estar en segon lloc.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="860"/>
-      <source>Place data tab as first tab in a View Window</source>
-      <translation>Col·loca la pestanya de dades com a primera pestanya en una finestra de vista</translation>
+        <location filename="../dialogs/configdialog.ui" line="860"/>
+        <source>Place data tab as first tab in a View Window</source>
+        <translation>Col·loca la pestanya de dades com a primera pestanya en una finestra de vista</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="904"/>
-      <source>Data types</source>
-      <translation>Tipus de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="904"/>
+        <source>Data types</source>
+        <translation>Tipus de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="957"/>
-      <source>Available editors:</source>
-      <translation>Editors disponibles:</translation>
+        <location filename="../dialogs/configdialog.ui" line="957"/>
+        <source>Available editors:</source>
+        <translation>Editors disponibles:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1074"/>
-      <source>Schema editing</source>
-      <translation>Edició d&apos;esquema</translation>
+        <location filename="../dialogs/configdialog.ui" line="1074"/>
+        <source>Schema editing</source>
+        <translation>Edició d&apos;esquema</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1086"/>
-      <source>Number of DDL changes kept in history.</source>
-      <translation>Nombre de canvis DDL conservats a l&apos;historial.</translation>
+        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <source>Number of DDL changes kept in history.</source>
+        <translation>Nombre de canvis DDL conservats a l&apos;historial.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1099"/>
-      <source>DDL history size:</source>
-      <translation>Mida de l&apos;historial DDL:</translation>
+        <location filename="../dialogs/configdialog.ui" line="1099"/>
+        <source>DDL history size:</source>
+        <translation>Mida de l&apos;historial DDL:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1106"/>
-      <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
-      <translation>No mostreu el diàleg de previsualització DDL en confirmar canvis d&apos;esquema</translation>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
+        <translation>No mostreu el diàleg de previsualització DDL en confirmar canvis d&apos;esquema</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1391"/>
-      <location filename="../dialogs/configdialog.ui" line="1407"/>
-      <source>Number of queries kept in the history.</source>
-      <translation>Nombre de consultes conservades a l&apos;historial.</translation>
+        <location filename="../dialogs/configdialog.ui" line="1391"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <source>Number of queries kept in the history.</source>
+        <translation>Nombre de consultes conservades a l&apos;historial.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1337"/>
-      <source>Execute only the query under the cursor</source>
-      <translation>Executa només la consulta sota el cursor</translation>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <source>Execute only the query under the cursor</source>
+        <translation>Executa només la consulta sota el cursor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1423"/>
-      <source>Number of memorized query parameters</source>
-      <translation>Nombre de paràmetres de consulta memoritzats</translation>
+        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <source>Number of memorized query parameters</source>
+        <translation>Nombre de paràmetres de consulta memoritzats</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="691"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan les dades es llegeixen a la vista de graella, l&apos;amplada de les columnes s&apos;ajusta automàticament. Aquest valor limita l&apos;amplada inicial per a l&apos;ajust, però l&apos;usuari encara pot redimensionar la columna manualment més enllà d&apos;aquest límit. Aquest valor també s&apos;utilitza en ampliar la columna quan l&apos;usuari introdueix un valor nou i més llarg (vegeu l&apos;opció següent).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan les dades es llegeixen a la vista de graella, l&apos;amplada de les columnes s&apos;ajusta automàticament. Aquest valor limita l&apos;amplada inicial per a l&apos;ajust, però l&apos;usuari encara pot redimensionar la columna manualment més enllà d&apos;aquest límit. Aquest valor també s&apos;utilitza en ampliar la columna quan l&apos;usuari introdueix un valor nou i més llarg (vegeu l&apos;opció següent).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="694"/>
-      <source>Limit automatic data column width to (in pixels):</source>
-      <translation>Limita l&apos;amplada automàtica de columna de dades a (en píxels):</translation>
+        <location filename="../dialogs/configdialog.ui" line="694"/>
+        <source>Limit automatic data column width to (in pixels):</source>
+        <translation>Limita l&apos;amplada automàtica de columna de dades a (en píxels):</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="701"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;L&apos;amplada inicial de les columnes de dades s&apos;establirà perquè, com a mínim, mostri el nom complet de la columna a la capçalera. Això encara es pot sobreescriure amb el límit inicial d&apos;amplada de columna especificat en píxels (la configuració anterior).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="701"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;L&apos;amplada inicial de les columnes de dades s&apos;establirà perquè, com a mínim, mostri el nom complet de la columna a la capçalera. Això encara es pot sobreescriure amb el límit inicial d&apos;amplada de columna especificat en píxels (la configuració anterior).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="704"/>
-      <source>Keep at least the width to show complete column name</source>
-      <translation>Mantén com a mínim l&apos;amplada per mostrar el nom complet de la columna</translation>
+        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <source>Keep at least the width to show complete column name</source>
+        <translation>Mantén com a mínim l&apos;amplada per mostrar el nom complet de la columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1301"/>
-      <source>Wrap lines in SQL editor</source>
-      <translation>Ajusta les línies a l&apos;editor SQL</translation>
+        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <source>Wrap lines in SQL editor</source>
+        <translation>Ajusta les línies a l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1324"/>
-      <source>Highlight current query</source>
-      <translation>Ressalta la consulta actual</translation>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <source>Highlight current query</source>
+        <translation>Ressalta la consulta actual</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1119"/>
-      <source>Updates</source>
-      <translation>Actualitzacions</translation>
+        <location filename="../dialogs/configdialog.ui" line="1119"/>
+        <source>Updates</source>
+        <translation>Actualitzacions</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1125"/>
-      <source>Automatically check for updates at startup</source>
-      <translation>Comprova automàticament si hi ha actualitzacions en iniciar</translation>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <source>Automatically check for updates at startup</source>
+        <translation>Comprova automàticament si hi ha actualitzacions en iniciar</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1138"/>
-      <source>Session</source>
-      <translation>Sessió</translation>
+        <location filename="../dialogs/configdialog.ui" line="1138"/>
+        <source>Session</source>
+        <translation>Sessió</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1144"/>
-      <source>Restore last session (active MDI windows) after startup</source>
-      <translation>Restaura l&apos;última sessió (finestres MDI actives) després d&apos;iniciar</translation>
+        <location filename="../dialogs/configdialog.ui" line="1144"/>
+        <source>Restore last session (active MDI windows) after startup</source>
+        <translation>Restaura l&apos;última sessió (finestres MDI actives) després d&apos;iniciar</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1154"/>
-      <source>Allow multiple instances of the application at the same time</source>
-      <translation>Permet diverses instàncies de l&apos;aplicació alhora</translation>
+        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <source>Allow multiple instances of the application at the same time</source>
+        <translation>Permet diverses instàncies de l&apos;aplicació alhora</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1167"/>
-      <source>Status Field</source>
-      <translation>Camp d&apos;estat</translation>
+        <location filename="../dialogs/configdialog.ui" line="1167"/>
+        <source>Status Field</source>
+        <translation>Camp d&apos;estat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1176"/>
-      <source>Always open Status panel when new message is printed</source>
-      <translation>Obre sempre el tauler d&apos;estat quan s&apos;imprimeixi un missatge nou</translation>
+        <location filename="../dialogs/configdialog.ui" line="1176"/>
+        <source>Always open Status panel when new message is printed</source>
+        <translation>Obre sempre el tauler d&apos;estat quan s&apos;imprimeixi un missatge nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1488"/>
-      <source>Code syntax colors</source>
-      <translation>Colors de sintaxi del codi</translation>
+        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <source>Code syntax colors</source>
+        <translation>Colors de sintaxi del codi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1674"/>
-      <source>Keyword foreground</source>
-      <translation>Primer pla de paraula clau</translation>
+        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <source>Keyword foreground</source>
+        <translation>Primer pla de paraula clau</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1494"/>
-      <source>Regular foreground</source>
-      <translation>Primer pla normal</translation>
+        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <source>Regular foreground</source>
+        <translation>Primer pla normal</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1584"/>
-      <source>String foreground</source>
-      <translation>Primer pla de cadena</translation>
+        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <source>String foreground</source>
+        <translation>Primer pla de cadena</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1854"/>
-      <source>Comment foreground</source>
-      <translation>Primer pla de comentari</translation>
+        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <source>Comment foreground</source>
+        <translation>Primer pla de comentari</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1944"/>
-      <source>Valid objects foreground</source>
-      <translation>Primer pla d&apos;objectes vàlids</translation>
+        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <source>Valid objects foreground</source>
+        <translation>Primer pla d&apos;objectes vàlids</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2255"/>
-      <source>Current query background</source>
-      <translation>Fons de la consulta actual</translation>
+        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <source>Current query background</source>
+        <translation>Fons de la consulta actual</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2124"/>
-      <source>Bind parameter foreground</source>
-      <translation>Primer pla de paràmetre vinculat</translation>
+        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <source>Bind parameter foreground</source>
+        <translation>Primer pla de paràmetre vinculat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2214"/>
-      <source>Current line background</source>
-      <translation>Fons de la línia actual</translation>
+        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <source>Current line background</source>
+        <translation>Fons de la línia actual</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2299"/>
-      <source>Matched parenthesis background</source>
-      <translation>Fons de parèntesi coincident</translation>
+        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <source>Matched parenthesis background</source>
+        <translation>Fons de parèntesi coincident</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2283"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Podeu desactivar completament el ressaltat de la consulta actual a la pàgina de configuració general.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Podeu desactivar completament el ressaltat de la consulta actual a la pàgina de configuració general.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="219"/>
-      <source>Data renderers</source>
-      <translation>Renderitzadors de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="219"/>
+        <source>Data renderers</source>
+        <translation>Renderitzadors de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="283"/>
-      <source>Expand tables when connected to a database</source>
-      <translation>Expandeix les taules en connectar-se a una base de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="283"/>
+        <source>Expand tables when connected to a database</source>
+        <translation>Expandeix les taules en connectar-se a una base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="418"/>
-      <source>Expand views when connected to a database</source>
-      <translation>Expandeix les vistes en connectar-se a una base de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="418"/>
+        <source>Expand views when connected to a database</source>
+        <translation>Expandeix les vistes en connectar-se a una base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="319"/>
-      <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
-      <translation>Expandir una taula o vista també expandeix els nodes Columnes, Índexs i Disparadors per mostrar-ne el contingut.</translation>
+        <location filename="../dialogs/configdialog.ui" line="319"/>
+        <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
+        <translation>Expandir una taula o vista també expandeix els nodes Columnes, Índexs i Disparadors per mostrar-ne el contingut.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="293"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Per defecte, s&apos;accedeix a l&apos;esquema de la base de dades utilitzant el nom de taula &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Les versions antigues de SQLite utilitzaven el nom &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, que encara s&apos;admet com a àlies.&lt;br/&gt;Aquí podeu canviar per utilitzar el nom heretat en lloc d&apos;aquest.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="293"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Per defecte, s&apos;accedeix a l&apos;esquema de la base de dades utilitzant el nom de taula &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Les versions antigues de SQLite utilitzaven el nom &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, que encara s&apos;admet com a àlies.&lt;br/&gt;Aquí podeu canviar per utilitzar el nom heretat en lloc d&apos;aquest.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="296"/>
-      <source>Prefer sqlite_master over sqlite_schema table name</source>
-      <translation>Prefereix el nom de taula sqlite_master per sobre de sqlite_schema</translation>
+        <location filename="../dialogs/configdialog.ui" line="296"/>
+        <source>Prefer sqlite_master over sqlite_schema table name</source>
+        <translation>Prefereix el nom de taula sqlite_master per sobre de sqlite_schema</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="322"/>
-      <source>Expand columns, indexes and triggers together with the table</source>
-      <translation>Expandeix columnes, índexs i disparadors juntament amb la taula</translation>
+        <location filename="../dialogs/configdialog.ui" line="322"/>
+        <source>Expand columns, indexes and triggers together with the table</source>
+        <translation>Expandeix columnes, índexs i disparadors juntament amb la taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="363"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mostra el tipus de dades al costat de la columna quan el node Columnes està expandit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="363"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mostra el tipus de dades al costat de la columna quan el node Columnes està expandit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="366"/>
-      <source>Display column data types</source>
-      <translation>Mostra els tipus de dades de les columnes</translation>
+        <location filename="../dialogs/configdialog.ui" line="366"/>
+        <source>Display column data types</source>
+        <translation>Mostra els tipus de dades de les columnes</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="376"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mostra el nombre de columnes, índexs i disparadors al costat del nom de cada taula.&lt;/p&gt;&lt;p&gt;Requereix carregar l&apos;esquema complet de totes les taules. Per a bases de dades amb centenars o milers de taules, això pot afectar significativament el rendiment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="376"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mostra el nombre de columnes, índexs i disparadors al costat del nom de cada taula.&lt;/p&gt;&lt;p&gt;Requereix carregar l&apos;esquema complet de totes les taules. Per a bases de dades amb centenars o milers de taules, això pot afectar significativament el rendiment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="405"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Per defecte, les taules i els índexs del sistema s&apos;amaguen de la llista.&lt;br/&gt;Habiliteu aquesta opció per mostrar objectes interns de SQLite, com ara &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; i índexs generats automàticament.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="405"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Per defecte, les taules i els índexs del sistema s&apos;amaguen de la llista.&lt;br/&gt;Habiliteu aquesta opció per mostrar objectes interns de SQLite, com ara &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; i índexs generats automàticament.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="450"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan està habilitat, els fitxers de base de dades s&apos;afegiran sense mostrar el diàleg estàndard de base de dades. Si l&apos;obertura de la base de dades amb les opcions predeterminades falla (p. ex., base de dades xifrada o es requereix un controlador diferent), es mostrarà el diàleg perquè es puguin ajustar les opcions. Quan està desactivat, el diàleg es mostrarà sempre.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="450"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan està habilitat, els fitxers de base de dades s&apos;afegiran sense mostrar el diàleg estàndard de base de dades. Si l&apos;obertura de la base de dades amb les opcions predeterminades falla (p. ex., base de dades xifrada o es requereix un controlador diferent), es mostrarà el diàleg perquè es puguin ajustar les opcions. Quan està desactivat, el diàleg es mostrarà sempre.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="453"/>
-      <source>Skip the dialog when possible</source>
-      <translation>Omet el diàleg quan sigui possible</translation>
+        <location filename="../dialogs/configdialog.ui" line="453"/>
+        <source>Skip the dialog when possible</source>
+        <translation>Omet el diàleg quan sigui possible</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="973"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Definiu quins editors de dades estan disponibles per a tipus de columna específics a la &lt;span style=&quot; font-weight:700;&quot;&gt;vista de formulari&lt;/span&gt; i al &lt;span style=&quot; font-weight:700;&quot;&gt;diàleg d&apos;editor emergent&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="973"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Definiu quins editors de dades estan disponibles per a tipus de columna específics a la &lt;span style=&quot; font-weight:700;&quot;&gt;vista de formulari&lt;/span&gt; i al &lt;span style=&quot; font-weight:700;&quot;&gt;diàleg d&apos;editor emergent&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="992"/>
-      <source>Preview of editors for this data type (drag to reorder):</source>
-      <translation>Previsualització dels editors per a aquest tipus de dades (arrossegueu per reordenar):</translation>
+        <location filename="../dialogs/configdialog.ui" line="992"/>
+        <source>Preview of editors for this data type (drag to reorder):</source>
+        <translation>Previsualització dels editors per a aquest tipus de dades (arrossegueu per reordenar):</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1016"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Podeu definir quins renderitzadors de cel·les s&apos;utilitzen per a tipus de dades específics declarats a les columnes de taula (sense distingir majúscules i minúscules). Si no es defineix cap renderitzador per a un tipus determinat, s&apos;utilitza el renderitzador predeterminat.&lt;/p&gt;&lt;p&gt;Els connectors opcionals poden proporcionar renderitzadors addicionals i establir les seves pròpies assignacions predeterminades per als tipus de dades, que encara podeu sobreescriure aquí.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1016"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Podeu definir quins renderitzadors de cel·les s&apos;utilitzen per a tipus de dades específics declarats a les columnes de taula (sense distingir majúscules i minúscules). Si no es defineix cap renderitzador per a un tipus determinat, s&apos;utilitza el renderitzador predeterminat.&lt;/p&gt;&lt;p&gt;Els connectors opcionals poden proporcionar renderitzadors addicionals i establir les seves pròpies assignacions predeterminades per als tipus de dades, que encara podeu sobreescriure aquí.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1045"/>
-      <source>Data type</source>
-      <translation>Tipus de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="1045"/>
+        <source>Data type</source>
+        <translation>Tipus de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1050"/>
-      <source>Renderer</source>
-      <translation>Renderitzador</translation>
+        <location filename="../dialogs/configdialog.ui" line="1050"/>
+        <source>Renderer</source>
+        <translation>Renderitzador</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1334"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan hi ha diverses consultes, executa només la consulta sota el cursor.&lt;br/&gt;Quan està desactivat, s&apos;executen totes les consultes.&lt;br/&gt;També podeu executar consultes seleccionades o utilitzar dreceres (%1 per a una, %2 per a totes).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan hi ha diverses consultes, executa només la consulta sota el cursor.&lt;br/&gt;Quan està desactivat, s&apos;executen totes les consultes.&lt;br/&gt;També podeu executar consultes seleccionades o utilitzar dreceres (%1 per a una, %2 per a totes).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1321"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ressalta la consulta sota el cursor: la mateixa consulta que s&apos;executarà en utilitzar &lt;span style=&quot; font-style:italic;&quot;&gt;Executa la consulta&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ressalta la consulta sota el cursor: la mateixa consulta que s&apos;executarà en utilitzar &lt;span style=&quot; font-style:italic;&quot;&gt;Executa la consulta&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="524"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan està habilitat, Letos canvia automàticament a notació científica per a nombres reals molt petits (p. ex., &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;La notació decimal s&apos;utilitza per als valors la magnitud dels quals permet una representació decimal llegible.&lt;/p&gt;&lt;p&gt;Quan està desactivat, els nombres reals sempre es mostren utilitzant notació decimal, encara que això produeixi parts fraccionàries molt llargues.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="524"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan està habilitat, Letos canvia automàticament a notació científica per a nombres reals molt petits (p. ex., &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;La notació decimal s&apos;utilitza per als valors la magnitud dels quals permet una representació decimal llegible.&lt;/p&gt;&lt;p&gt;Quan està desactivat, els nombres reals sempre es mostren utilitzant notació decimal, encara que això produeixi parts fraccionàries molt llargues.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="556"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan s&apos;edita una cel·la, prémer Retorn accepta el valor i es mou a la mateixa columna de la fila següent.&lt;br/&gt;Si està desactivat, la selecció roman a la cel·la actual.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="556"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan s&apos;edita una cel·la, prémer Retorn accepta el valor i es mou a la mateixa columna de la fila següent.&lt;br/&gt;Si està desactivat, la selecció roman a la cel·la actual.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="559"/>
-      <source>After editing, Enter moves to the next row</source>
-      <translation>Després d&apos;editar, Retorn mou a la fila següent</translation>
+        <location filename="../dialogs/configdialog.ui" line="559"/>
+        <source>After editing, Enter moves to the next row</source>
+        <translation>Després d&apos;editar, Retorn mou a la fila següent</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="605"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si els resultats de la consulta contenen desenes (o centenars) de columnes, és més probable que esgoti la memòria lliure del vostre ordinador en carregar diversos gigabytes de dades alhora. Letos pot intentar limitar el nombre de resultats mostrats en una pàgina en aquests casos per protegir el vostre ordinador. Si sabeu que no treballeu amb valors d&apos;una mida gran a la base de dades, podeu desactivar aquest límit i sempre veureu tantes files com s’hagin definit per pàgina.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="605"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si els resultats de la consulta contenen desenes (o centenars) de columnes, és més probable que esgoti la memòria lliure del vostre ordinador en carregar diversos gigabytes de dades alhora. Letos pot intentar limitar el nombre de resultats mostrats en una pàgina en aquests casos per protegir el vostre ordinador. Si sabeu que no treballeu amb valors d&apos;una mida gran a la base de dades, podeu desactivar aquest límit i sempre veureu tantes files com s’hagin definit per pàgina.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="631"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Inicia automàticament l&apos;edició de la cel·la de la fila següent després de moure-s&apos;hi amb Retorn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="631"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Inicia automàticament l&apos;edició de la cel·la de la fila següent després de moure-s&apos;hi amb Retorn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="634"/>
-      <source>Start editing after moving to the next row</source>
-      <translation>Comença a editar després de moure a la fila següent</translation>
+        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <source>Start editing after moving to the next row</source>
+        <translation>Comença a editar després de moure a la fila següent</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="717"/>
-      <source>Column header actions</source>
-      <translation>Accions de la capçalera de columna</translation>
+        <location filename="../dialogs/configdialog.ui" line="717"/>
+        <source>Column header actions</source>
+        <translation>Accions de la capçalera de columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="723"/>
-      <source>Single-click selects column data; double-click sorts by column</source>
-      <translation>Un sol clic selecciona les dades de la columna; doble clic ordena per columna</translation>
+        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <source>Single-click selects column data; double-click sorts by column</source>
+        <translation>Un sol clic selecciona les dades de la columna; doble clic ordena per columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="736"/>
-      <source>Single-click sorts by column; Alt+click selects column data</source>
-      <translation>Un sol clic ordena per columna; Alt+clic selecciona les dades de la columna</translation>
+        <location filename="../dialogs/configdialog.ui" line="736"/>
+        <source>Single-click sorts by column; Alt+click selects column data</source>
+        <translation>Un sol clic ordena per columna; Alt+clic selecciona les dades de la columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1173"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan un usuari tanca manualment el tauler d&apos;estat, aquesta opció assegura que, si es mostra qualsevol missatge nou al tauler d’estat, es tornarà a obrir. Si està desactivada, l’usuari només pot obrir manualment el tauler d’estat des del menú &amp;quot;Vista&amp;quot;.&lt;/p&gt;&lt;p&gt;Sempre podeu amagar el tauler d’estat amb la tecla Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan un usuari tanca manualment el tauler d&apos;estat, aquesta opció assegura que, si es mostra qualsevol missatge nou al tauler d’estat, es tornarà a obrir. Si està desactivada, l’usuari només pot obrir manualment el tauler d’estat des del menú &amp;quot;Vista&amp;quot;.&lt;/p&gt;&lt;p&gt;Sempre podeu amagar el tauler d’estat amb la tecla Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1186"/>
-      <source>Older status messages</source>
-      <translation>Missatges d&apos;estat més antics</translation>
+        <location filename="../dialogs/configdialog.ui" line="1186"/>
+        <source>Older status messages</source>
+        <translation>Missatges d&apos;estat més antics</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1192"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Els missatges d&apos;estat més antics es mantenen sense canvis.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1192"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Els missatges d&apos;estat més antics es mantenen sense canvis.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1195"/>
-      <source>Keep messages</source>
-      <translation>Mantén els missatges</translation>
+        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <source>Keep messages</source>
+        <translation>Mantén els missatges</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1208"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Els missatges d&apos;estat més antics continuen visibles, però s&apos;atenuen visualment perquè els missatges recents destaquin.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1208"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Els missatges d&apos;estat més antics continuen visibles, però s&apos;atenuen visualment perquè els missatges recents destaquin.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1211"/>
-      <source>Dim older messages</source>
-      <translation>Atenua els missatges més antics</translation>
+        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <source>Dim older messages</source>
+        <translation>Atenua els missatges més antics</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1224"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Els missatges d&apos;estat més antics s&apos;eliminen automàticament del camp d&apos;estat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1224"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Els missatges d&apos;estat més antics s&apos;eliminen automàticament del camp d&apos;estat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1227"/>
-      <source>Remove older messages</source>
-      <translation>Elimina els missatges més antics</translation>
+        <location filename="../dialogs/configdialog.ui" line="1227"/>
+        <source>Remove older messages</source>
+        <translation>Elimina els missatges més antics</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1269"/>
-      <location filename="../dialogs/configdialog.ui" line="1285"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Especifica el nombre màxim de decimals mostrats per al temps d&apos;execució de la consulta. Es poden configurar fins a 9 dígits (nanosegons). Els zeros finals es retallen automàticament.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1269"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Especifica el nombre màxim de decimals mostrats per al temps d&apos;execució de la consulta. Es poden configurar fins a 9 dígits (nanosegons). Els zeros finals es retallen automàticament.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1272"/>
-      <source>Execution time precision (decimal places)</source>
-      <translation>Precisió del temps d&apos;execució (decimals)</translation>
+        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <source>Execution time precision (decimal places)</source>
+        <translation>Precisió del temps d&apos;execució (decimals)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1298"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si està activat, les línies més llargues que l&apos;amplada de l&apos;editor s&apos;ajustaran, de manera que no caldrà el desplaçament horitzontal.&lt;/p&gt;&lt;p&gt;Aquesta opció defineix el valor per defecte global, mentre que les finestres individuals de l&apos;editor SQL el poden sobreescriure localment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si està activat, les línies més llargues que l&apos;amplada de l&apos;editor s&apos;ajustaran, de manera que no caldrà el desplaçament horitzontal.&lt;/p&gt;&lt;p&gt;Aquesta opció defineix el valor per defecte global, mentre que les finestres individuals de l&apos;editor SQL el poden sobreescriure localment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1311"/>
-      <source>Disable blinking text cursor</source>
-      <translation>Desactiva el cursor de text intermitent</translation>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <source>Disable blinking text cursor</source>
+        <translation>Desactiva el cursor de text intermitent</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1359"/>
-      <source>Trigger assistant after typing a dot</source>
-      <translation>Activa l&apos;assistent després d&apos;escriure un punt</translation>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <source>Trigger assistant after typing a dot</source>
+        <translation>Activa l&apos;assistent després d&apos;escriure un punt</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1369"/>
-      <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
-      <translation>Quan està activat, invocar la compleció de codi en un editor buit mostra primer els fragments de codi en lloc dels suggeriments de sintaxi. Tornar a invocar la compleció de codi canvia als suggeriments de sintaxi (i viceversa).</translation>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
+        <translation>Quan està activat, invocar la compleció de codi en un editor buit mostra primer els fragments de codi en lloc dels suggeriments de sintaxi. Tornar a invocar la compleció de codi canvia als suggeriments de sintaxi (i viceversa).</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1372"/>
-      <source>Prefer snippets in empty editor</source>
-      <translation>Preferir fragments en un editor buit</translation>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <source>Prefer snippets in empty editor</source>
+        <translation>Preferir fragments en un editor buit</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1385"/>
-      <source>History</source>
-      <translation>Historial</translation>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <source>History</source>
+        <translation>Historial</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1394"/>
-      <source>Query history size:</source>
-      <translation>Mida de l&apos;historial de consultes:</translation>
+        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <source>Query history size:</source>
+        <translation>Mida de l&apos;historial de consultes:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1420"/>
-      <location filename="../dialogs/configdialog.ui" line="1430"/>
-      <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Nombre màxim de paràmetres de consulta (:param, @param, $param, ?) emmagatzemats a l&apos;historial. Quan reutilitzeu un paràmetre amb el mateix nom/posició, Letos el preinicialitzarà amb el valor memoritzat més recent (encara el podreu canviar). Un valor de 1000 hauria de ser suficient.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Nombre màxim de paràmetres de consulta (:param, @param, $param, ?) emmagatzemats a l&apos;historial. Quan reutilitzeu un paràmetre amb el mateix nom/posició, Letos el preinicialitzarà amb el valor memoritzat més recent (encara el podreu canviar). Un valor de 1000 hauria de ser suficient.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1764"/>
-      <source>Number foreground</source>
-      <translation>Primer pla de nombres</translation>
+        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <source>Number foreground</source>
+        <translation>Primer pla de nombres</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2034"/>
-      <source>BLOB value foreground</source>
-      <translation>Primer pla de valors BLOB</translation>
+        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <source>BLOB value foreground</source>
+        <translation>Primer pla de valors BLOB</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2340"/>
-      <source>Matched parenthesis foreground</source>
-      <translation>Primer pla de parèntesis coincidents</translation>
+        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <source>Matched parenthesis foreground</source>
+        <translation>Primer pla de parèntesis coincidents</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2448"/>
-      <location filename="../dialogs/configdialog.ui" line="2556"/>
-      <source>Reset to defaults</source>
-      <translation>Restableix els valors predeterminats</translation>
+        <location filename="../dialogs/configdialog.ui" line="2448"/>
+        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <source>Reset to defaults</source>
+        <translation>Restableix els valors predeterminats</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2474"/>
-      <source>Filter shortcuts by name or key combination</source>
-      <translation>Filtra dreceres per nom o combinació de tecles</translation>
+        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <source>Filter shortcuts by name or key combination</source>
+        <translation>Filtra dreceres per nom o combinació de tecles</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2518"/>
-      <source>Action</source>
-      <translation>Acció</translation>
+        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <source>Action</source>
+        <translation>Acció</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2523"/>
-      <source>Key combination</source>
-      <translation>Combinació de tecles</translation>
+        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <source>Key combination</source>
+        <translation>Combinació de tecles</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2597"/>
-      <location filename="../dialogs/configdialog.ui" line="3104"/>
-      <source>Language</source>
-      <translation>Idioma</translation>
+        <location filename="../dialogs/configdialog.ui" line="2597"/>
+        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <source>Language</source>
+        <translation>Idioma</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2603"/>
-      <source>Changing language requires application restart to take effect.</source>
-      <translation>Cal reiniciar l&apos;aplicació perquè el canvi d&apos;idioma tingui efecte.</translation>
+        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <source>Changing language requires application restart to take effect.</source>
+        <translation>Cal reiniciar l&apos;aplicació perquè el canvi d&apos;idioma tingui efecte.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2623"/>
-      <source>Compact layout</source>
-      <translation>Disposició compacta</translation>
+        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <source>Compact layout</source>
+        <translation>Disposició compacta</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2629"/>
-      <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;La disposició compacta redueix al mínim tots els marges i espais de la interfície, fent lloc per mostrar més dades. Fa que la interfície sigui una mica menys estètica, però permet mostrar més dades alhora.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;La disposició compacta redueix al mínim tots els marges i espais de la interfície, fent lloc per mostrar més dades. Fa que la interfície sigui una mica menys estètica, però permet mostrar més dades alhora.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2632"/>
-      <source>Use compact layout</source>
-      <translation>Usa la disposició compacta</translation>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <source>Use compact layout</source>
+        <translation>Usa la disposició compacta</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2648"/>
-      <source>Main window dock areas</source>
-      <translation>Àrees d&apos;acoblament de la finestra principal</translation>
+        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <source>Main window dock areas</source>
+        <translation>Àrees d&apos;acoblament de la finestra principal</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2654"/>
-      <source>Left and right areas occupy corners</source>
-      <translation>Les àrees esquerra i dreta ocupen les cantonades</translation>
+        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <source>Left and right areas occupy corners</source>
+        <translation>Les àrees esquerra i dreta ocupen les cantonades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2674"/>
-      <source>Top and bottom areas occupy corners</source>
-      <translation>Les àrees superior i inferior ocupen les cantonades</translation>
+        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <source>Top and bottom areas occupy corners</source>
+        <translation>Les àrees superior i inferior ocupen les cantonades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2694"/>
-      <source>Toolbars</source>
-      <translation>Barres d&apos;eines</translation>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <source>Toolbars</source>
+        <translation>Barres d&apos;eines</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2700"/>
-      <location filename="../dialogs/configdialog.ui" line="2710"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressat en percentatge de la mida predeterminada.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="2700"/>
+        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressat en percentatge de la mida predeterminada.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2703"/>
-      <source>Icon size</source>
-      <translation>Mida de la icona</translation>
+        <location filename="../dialogs/configdialog.ui" line="2703"/>
+        <source>Icon size</source>
+        <translation>Mida de la icona</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2828"/>
-      <source>Hide built-in plugins</source>
-      <translation>Amaga els connectors integrats</translation>
+        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <source>Hide built-in plugins</source>
+        <translation>Amaga els connectors integrats</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2857"/>
-      <source>Current style:</source>
-      <translation>Estil actual:</translation>
+        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <source>Current style:</source>
+        <translation>Estil actual:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2874"/>
-      <source>Preview</source>
-      <translation>Vista prèvia</translation>
+        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <source>Preview</source>
+        <translation>Vista prèvia</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2884"/>
-      <source>Enabled</source>
-      <translation>Activat</translation>
+        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <source>Enabled</source>
+        <translation>Activat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3060"/>
-      <source>Disabled</source>
-      <translation>Desactivat</translation>
+        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <source>Disabled</source>
+        <translation>Desactivat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3109"/>
-      <source>Active formatter plugin</source>
-      <translation>Connector formatador actiu</translation>
+        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <source>Active formatter plugin</source>
+        <translation>Connector formatador actiu</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3147"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Consell:&lt;/span&gt; A més de la configuració disponible aquí, les mides de lletra també es poden ajustar dinàmicament en la majoria d&apos;elements de la interfície mantenint premuda la tecla &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; i desplaçant la &lt;span style=&quot; font-weight:700;&quot;&gt;roda del ratolí&lt;/span&gt; sobre l&apos;element del qual voleu canviar la mida de lletra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Consell:&lt;/span&gt; A més de la configuració disponible aquí, les mides de lletra també es poden ajustar dinàmicament en la majoria d&apos;elements de la interfície mantenint premuda la tecla &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; i desplaçant la &lt;span style=&quot; font-weight:700;&quot;&gt;roda del ratolí&lt;/span&gt; sobre l&apos;element del qual voleu canviar la mida de lletra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3166"/>
-      <source>SQL editor font</source>
-      <translation>Tipus de lletra de l&apos;editor SQL</translation>
+        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <source>SQL editor font</source>
+        <translation>Tipus de lletra de l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3182"/>
-      <source>Database list font</source>
-      <translation>Tipus de lletra de la llista de bases de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <source>Database list font</source>
+        <translation>Tipus de lletra de la llista de bases de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3198"/>
-      <source>Database list additional label font</source>
-      <translation>Tipus de lletra de l&apos;etiqueta addicional de la llista de bases de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <source>Database list additional label font</source>
+        <translation>Tipus de lletra de l&apos;etiqueta addicional de la llista de bases de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3214"/>
-      <source>Data view font</source>
-      <translation>Tipus de lletra de la vista de dades</translation>
+        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <source>Data view font</source>
+        <translation>Tipus de lletra de la vista de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3230"/>
-      <source>Status field font</source>
-      <translation>Tipus de lletra del camp d&apos;estat</translation>
+        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <source>Status field font</source>
+        <translation>Tipus de lletra del camp d&apos;estat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1356"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si aquesta opció està activada, l&apos;assistent de codi s&apos;activarà en casos en què l&apos;usuari escrigui, per exemple, &lt;span style=&quot; font-weight:700;&quot;&gt;nomTaula.&lt;/span&gt; per proposar columnes de la taula. Si l&apos;opció està desactivada, l&apos;usuari haurà de prémer explícitament la tecla d&apos;accés ràpid de l&apos;assistent.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si aquesta opció està activada, l&apos;assistent de codi s&apos;activarà en casos en què l&apos;usuari escrigui, per exemple, &lt;span style=&quot; font-weight:700;&quot;&gt;nomTaula.&lt;/span&gt; per proposar columnes de la taula. Si l&apos;opció està desactivada, l&apos;usuari haurà de prémer explícitament la tecla d&apos;accés ràpid de l&apos;assistent.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1119"/>
-      <source>Description:</source>
-      <comment>plugin details</comment>
-      <translation>Descripció:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1119"/>
+        <source>Description:</source>
+        <comment>plugin details</comment>
+        <translation>Descripció:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1120"/>
-      <source>Category:</source>
-      <comment>plugin details</comment>
-      <translation>Categoria:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1120"/>
+        <source>Category:</source>
+        <comment>plugin details</comment>
+        <translation>Categoria:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1121"/>
-      <source>Version:</source>
-      <comment>plugin details</comment>
-      <translation>Versió:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1121"/>
+        <source>Version:</source>
+        <comment>plugin details</comment>
+        <translation>Versió:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1122"/>
-      <source>Author:</source>
-      <comment>plugin details</comment>
-      <translation>Autor:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <source>Author:</source>
+        <comment>plugin details</comment>
+        <translation>Autor:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1124"/>
-      <source>Internal name:</source>
-      <comment>plugin details</comment>
-      <translation>Nom intern:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <source>Internal name:</source>
+        <comment>plugin details</comment>
+        <translation>Nom intern:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1125"/>
-      <source>Dependencies:</source>
-      <comment>plugin details</comment>
-      <translation>Dependències:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <source>Dependencies:</source>
+        <comment>plugin details</comment>
+        <translation>Dependències:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1126"/>
-      <source>Conflicts:</source>
-      <comment>plugin details</comment>
-      <translation>Conflictes:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1126"/>
+        <source>Conflicts:</source>
+        <comment>plugin details</comment>
+        <translation>Conflictes:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1127"/>
-      <source>File:</source>
-      <comment>plugin details</comment>
-      <translation>Fitxer:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <source>File:</source>
+        <comment>plugin details</comment>
+        <translation>Fitxer:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1132"/>
-      <source>Plugin details</source>
-      <translation>Detalls del connector</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1132"/>
+        <source>Plugin details</source>
+        <translation>Detalls del connector</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1753"/>
-      <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
-      <translation>Els connectors es carreguen/descarreguen immediatament quan es marquen/desmarquen, però la llista modificada de connectors que s&apos;han de carregar a l&apos;inici no es desa fins que confirmeu tot el diàleg de configuració.</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1753"/>
+        <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
+        <translation>Els connectors es carreguen/descarreguen immediatament quan es marquen/desmarquen, però la llista modificada de connectors que s&apos;han de carregar a l&apos;inici no es desa fins que confirmeu tot el diàleg de configuració.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1811"/>
-      <source>%1 (built-in)</source>
-      <comment>plugins manager in configuration dialog</comment>
-      <translation>%1 (integrat)</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1811"/>
+        <source>%1 (built-in)</source>
+        <comment>plugins manager in configuration dialog</comment>
+        <translation>%1 (integrat)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1853"/>
-      <source>Details</source>
-      <translation>Detalls</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1853"/>
+        <source>Details</source>
+        <translation>Detalls</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1867"/>
-      <source>No plugins in this category.</source>
-      <translation>No hi ha connectors en aquesta categoria.</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1867"/>
+        <source>No plugins in this category.</source>
+        <translation>No hi ha connectors en aquesta categoria.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1967"/>
-      <location filename="../dialogs/configdialog.cpp" line="1996"/>
-      <source>Add new data type</source>
-      <translation>Afegeix un tipus de dades nou</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1967"/>
+        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <source>Add new data type</source>
+        <translation>Afegeix un tipus de dades nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1971"/>
-      <location filename="../dialogs/configdialog.cpp" line="2000"/>
-      <source>Rename selected data type</source>
-      <translation>Canvia el nom del tipus de dades seleccionat</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1971"/>
+        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <source>Rename selected data type</source>
+        <translation>Canvia el nom del tipus de dades seleccionat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1975"/>
-      <location filename="../dialogs/configdialog.cpp" line="2004"/>
-      <source>Delete selected data type</source>
-      <translation>Suprimeix el tipus de dades seleccionat</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1975"/>
+        <location filename="../dialogs/configdialog.cpp" line="2004"/>
+        <source>Delete selected data type</source>
+        <translation>Suprimeix el tipus de dades seleccionat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2088"/>
-      <source>Clear hotkey for this action</source>
-      <translation>Esborra la tecla d&apos;accés ràpid per a aquesta acció</translation>
+        <location filename="../dialogs/configdialog.cpp" line="2088"/>
+        <source>Clear hotkey for this action</source>
+        <translation>Esborra la tecla d&apos;accés ràpid per a aquesta acció</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2100"/>
-      <source>Restore original hotkey for this action</source>
-      <translation>Restaura la tecla d&apos;accés ràpid original per a aquesta acció</translation>
+        <location filename="../dialogs/configdialog.cpp" line="2100"/>
+        <source>Restore original hotkey for this action</source>
+        <translation>Restaura la tecla d&apos;accés ràpid original per a aquesta acció</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2142"/>
-      <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
-      <translation>Aquí podeu configurar els colors per al ressaltat de sintaxi del codi. Es comparteixen entre diferents llenguatges: no només per a SQL, sinó també JavaScript i altres. Per defecte s&apos;utilitza un color basat en el tema. Per definir el vostre propi color, activeu un color personalitzat seleccionant una casella al costat d&apos;un color concret.</translation>
+        <location filename="../dialogs/configdialog.cpp" line="2142"/>
+        <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
+        <translation>Aquí podeu configurar els colors per al ressaltat de sintaxi del codi. Es comparteixen entre diferents llenguatges: no només per a SQL, sinó també JavaScript i altres. Per defecte s&apos;utilitza un color basat en el tema. Per definir el vostre propi color, activeu un color personalitzat seleccionant una casella al costat d&apos;un color concret.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConstraintCheckPanel</name>
     <message>
-      <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
-      <source>The condition</source>
-      <translation>La condició</translation>
+        <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
+        <source>The condition</source>
+        <translation>La condició</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
-      <source>Named constraint:</source>
-      <translation>Restricció amb nom:</translation>
+        <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
+        <source>Named constraint:</source>
+        <translation>Restricció amb nom:</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
-      <source>On conflict</source>
-      <translation>En cas de conflicte</translation>
+        <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
+        <source>On conflict</source>
+        <translation>En cas de conflicte</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
-      <source>Enter a valid condition.</source>
-      <translation>Introduïu una condició vàlida.</translation>
+        <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
+        <source>Enter a valid condition.</source>
+        <translation>Introduïu una condició vàlida.</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConstraintDialog</name>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="62"/>
-      <source>New constraint</source>
-      <comment>constraint dialog</comment>
-      <translation>Restricció nova</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="62"/>
+        <source>New constraint</source>
+        <comment>constraint dialog</comment>
+        <translation>Restricció nova</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="63"/>
-      <source>Create</source>
-      <comment>constraint dialog</comment>
-      <translation>Crea</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="63"/>
+        <source>Create</source>
+        <comment>constraint dialog</comment>
+        <translation>Crea</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="66"/>
-      <source>Edit constraint</source>
-      <comment>dialog window</comment>
-      <translation>Edita la restricció</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="66"/>
+        <source>Edit constraint</source>
+        <comment>dialog window</comment>
+        <translation>Edita la restricció</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="67"/>
-      <source>Apply</source>
-      <comment>constraint dialog</comment>
-      <translation>Aplica</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="67"/>
+        <source>Apply</source>
+        <comment>constraint dialog</comment>
+        <translation>Aplica</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="174"/>
-      <source>Primary key</source>
-      <comment>table constraints</comment>
-      <translation>Clau primària</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="174"/>
+        <source>Primary key</source>
+        <comment>table constraints</comment>
+        <translation>Clau primària</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="178"/>
-      <source>Foreign key</source>
-      <comment>table constraints</comment>
-      <translation>Clau forana</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="178"/>
+        <source>Foreign key</source>
+        <comment>table constraints</comment>
+        <translation>Clau forana</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="182"/>
-      <source>Unique</source>
-      <comment>table constraints</comment>
-      <translation>Únic</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="182"/>
+        <source>Unique</source>
+        <comment>table constraints</comment>
+        <translation>Únic</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="186"/>
-      <source>Not NULL</source>
-      <comment>table constraints</comment>
-      <translation>No NULL</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="186"/>
+        <source>Not NULL</source>
+        <comment>table constraints</comment>
+        <translation>No NULL</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="190"/>
-      <source>Check</source>
-      <comment>table constraints</comment>
-      <translation>Comprovació</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="190"/>
+        <source>Check</source>
+        <comment>table constraints</comment>
+        <translation>Comprovació</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="194"/>
-      <source>Generated</source>
-      <comment>table constraints</comment>
-      <translation>Generat</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="194"/>
+        <source>Generated</source>
+        <comment>table constraints</comment>
+        <translation>Generat</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="198"/>
-      <source>Collate</source>
-      <comment>table constraints</comment>
-      <translation>Intercalació</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="198"/>
+        <source>Collate</source>
+        <comment>table constraints</comment>
+        <translation>Intercalació</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="202"/>
-      <source>Default</source>
-      <comment>table constraints</comment>
-      <translation>Predeterminat</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="202"/>
+        <source>Default</source>
+        <comment>table constraints</comment>
+        <translation>Predeterminat</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConstraintTabModel</name>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="67"/>
-      <source>Table</source>
-      <comment>table constraints</comment>
-      <translation>Taula</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="67"/>
+        <source>Table</source>
+        <comment>table constraints</comment>
+        <translation>Taula</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="108"/>
-      <source>Column (%1)</source>
-      <comment>table constraints</comment>
-      <translation>Columna (%1)</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="108"/>
+        <source>Column (%1)</source>
+        <comment>table constraints</comment>
+        <translation>Columna (%1)</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="152"/>
-      <source>Scope</source>
-      <comment>table constraints</comment>
-      <translation>Àmbit</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="152"/>
+        <source>Scope</source>
+        <comment>table constraints</comment>
+        <translation>Àmbit</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="154"/>
-      <source>Type</source>
-      <comment>table constraints</comment>
-      <translation>Tipus</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="154"/>
+        <source>Type</source>
+        <comment>table constraints</comment>
+        <translation>Tipus</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="156"/>
-      <source>Details</source>
-      <comment>table constraints</comment>
-      <translation>Detalls</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="156"/>
+        <source>Details</source>
+        <comment>table constraints</comment>
+        <translation>Detalls</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="158"/>
-      <source>Name</source>
-      <comment>table constraints</comment>
-      <translation>Nom</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="158"/>
+        <source>Name</source>
+        <comment>table constraints</comment>
+        <translation>Nom</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CpConfigDialogProvider</name>
     <message>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
-      <source>Configure hotkey: %1 (%2)</source>
-      <translation>Configura la drecera: %1 (%2)</translation>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
+        <source>Configure hotkey: %1 (%2)</source>
+        <translation>Configura la drecera: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
-      <source>Open configuration on the &quot;%1&quot; page</source>
-      <translation>Obre la configuració a la pàgina &quot;%1&quot;</translation>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
+        <source>Open configuration on the &quot;%1&quot; page</source>
+        <translation>Obre la configuració a la pàgina &quot;%1&quot;</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
-      <source>Configure: %1</source>
-      <translation>Configura: %1</translation>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
+        <source>Configure: %1</source>
+        <translation>Configura: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CssDebugDialog</name>
     <message>
-      <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
-      <source>Letos CSS console</source>
-      <translation>Consola CSS del Letos</translation>
+        <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
+        <source>Letos CSS console</source>
+        <translation>Consola CSS del Letos</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DataView</name>
     <message>
-      <location filename="../dataview.cpp" line="125"/>
-      <source>Filter data</source>
-      <comment>data view</comment>
-      <translation>Filtra dades</translation>
+        <location filename="../dataview.cpp" line="125"/>
+        <source>Filter data</source>
+        <comment>data view</comment>
+        <translation>Filtra dades</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="126"/>
-      <source>Filter by value in any column</source>
-      <comment>data view</comment>
-      <translation>Filtra per valor en qualsevol columna</translation>
+        <location filename="../dataview.cpp" line="126"/>
+        <source>Filter by value in any column</source>
+        <comment>data view</comment>
+        <translation>Filtra per valor en qualsevol columna</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="135"/>
-      <source>Grid view</source>
-      <translation>Vista de graella</translation>
+        <location filename="../dataview.cpp" line="135"/>
+        <source>Grid view</source>
+        <translation>Vista de graella</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="136"/>
-      <source>Form view</source>
-      <translation>Vista de formulari</translation>
+        <location filename="../dataview.cpp" line="136"/>
+        <source>Form view</source>
+        <translation>Vista de formulari</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="239"/>
-      <source>Find in data</source>
-      <comment>data view</comment>
-      <translation>Cerca a les dades</translation>
+        <location filename="../dataview.cpp" line="239"/>
+        <source>Find in data</source>
+        <comment>data view</comment>
+        <translation>Cerca a les dades</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="240"/>
-      <source>Refresh table data</source>
-      <comment>data view</comment>
-      <translation>Actualitza les dades de la taula</translation>
+        <location filename="../dataview.cpp" line="240"/>
+        <source>Refresh table data</source>
+        <comment>data view</comment>
+        <translation>Actualitza les dades de la taula</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="256"/>
-      <source>First page</source>
-      <comment>data view</comment>
-      <translation>Primera pàgina</translation>
+        <location filename="../dataview.cpp" line="256"/>
+        <source>First page</source>
+        <comment>data view</comment>
+        <translation>Primera pàgina</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="257"/>
-      <source>Previous page</source>
-      <comment>data view</comment>
-      <translation>Pàgina anterior</translation>
+        <location filename="../dataview.cpp" line="257"/>
+        <source>Previous page</source>
+        <comment>data view</comment>
+        <translation>Pàgina anterior</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="259"/>
-      <source>Next page</source>
-      <comment>data view</comment>
-      <translation>Pàgina següent</translation>
+        <location filename="../dataview.cpp" line="259"/>
+        <source>Next page</source>
+        <comment>data view</comment>
+        <translation>Pàgina següent</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="260"/>
-      <source>Last page</source>
-      <comment>data view</comment>
-      <translation>Última pàgina</translation>
+        <location filename="../dataview.cpp" line="260"/>
+        <source>Last page</source>
+        <comment>data view</comment>
+        <translation>Última pàgina</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="274"/>
-      <source>Show grid view of results</source>
-      <comment>data view</comment>
-      <translation>Mostra la vista de graella dels resultats</translation>
+        <location filename="../dataview.cpp" line="274"/>
+        <source>Show grid view of results</source>
+        <comment>data view</comment>
+        <translation>Mostra la vista de graella dels resultats</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="275"/>
-      <source>Show form view of results</source>
-      <comment>data view</comment>
-      <translation>Mostra la vista de formulari dels resultats</translation>
+        <location filename="../dataview.cpp" line="275"/>
+        <source>Show form view of results</source>
+        <comment>data view</comment>
+        <translation>Mostra la vista de formulari dels resultats</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="524"/>
-      <source>Rows available on current page: %1 - %2</source>
-      <comment>data view</comment>
-      <translation>Files disponibles a la pàgina actual: %1 - %2</translation>
+        <location filename="../dataview.cpp" line="524"/>
+        <source>Rows available on current page: %1 - %2</source>
+        <comment>data view</comment>
+        <translation>Files disponibles a la pàgina actual: %1 - %2</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="811"/>
-      <source>Sum: %1</source>
-      <translation>Suma: %1</translation>
+        <location filename="../dataview.cpp" line="811"/>
+        <source>Sum: %1</source>
+        <translation>Suma: %1</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="964"/>
-      <source>Total pages available: %1</source>
-      <translation>Total de pàgines disponibles: %1</translation>
+        <location filename="../dataview.cpp" line="964"/>
+        <source>Total pages available: %1</source>
+        <translation>Total de pàgines disponibles: %1</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="974"/>
-      <source>Total rows loaded: %1</source>
-      <translation>Total de files carregades: %1</translation>
+        <location filename="../dataview.cpp" line="974"/>
+        <source>Total rows loaded: %1</source>
+        <translation>Total de files carregades: %1</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1370"/>
-      <source>Filter by text (if contains)</source>
-      <comment>data view</comment>
-      <translation>Filtra per text (si conté)</translation>
+        <location filename="../dataview.cpp" line="1370"/>
+        <source>Filter by text (if contains)</source>
+        <comment>data view</comment>
+        <translation>Filtra per text (si conté)</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1371"/>
-      <source>Filter strictly by text (if equals)</source>
-      <comment>data view</comment>
-      <translation>Filtra estrictament per text (si és igual)</translation>
+        <location filename="../dataview.cpp" line="1371"/>
+        <source>Filter strictly by text (if equals)</source>
+        <comment>data view</comment>
+        <translation>Filtra estrictament per text (si és igual)</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="382"/>
-      <source>Tabs on top</source>
-      <comment>data view</comment>
-      <translation>Pestanyes a dalt</translation>
+        <location filename="../dataview.cpp" line="382"/>
+        <source>Tabs on top</source>
+        <comment>data view</comment>
+        <translation>Pestanyes a dalt</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="54"/>
-      <source>Sum of values in selected cells</source>
-      <comment>data view</comment>
-      <translation>Suma dels valors de les cel·les seleccionades</translation>
+        <location filename="../dataview.cpp" line="54"/>
+        <source>Sum of values in selected cells</source>
+        <comment>data view</comment>
+        <translation>Suma dels valors de les cel·les seleccionades</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="105"/>
-      <source>Row:</source>
-      <translation>Fila:</translation>
+        <location filename="../dataview.cpp" line="105"/>
+        <source>Row:</source>
+        <translation>Fila:</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="383"/>
-      <source>Tabs at bottom</source>
-      <comment>data view</comment>
-      <translation>Pestanyes a baix</translation>
+        <location filename="../dataview.cpp" line="383"/>
+        <source>Tabs at bottom</source>
+        <comment>data view</comment>
+        <translation>Pestanyes a baix</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="408"/>
-      <source>Place new rows above selected row</source>
-      <comment>data view</comment>
-      <translation>Col·loca les files noves damunt de la fila seleccionada</translation>
+        <location filename="../dataview.cpp" line="408"/>
+        <source>Place new rows above selected row</source>
+        <comment>data view</comment>
+        <translation>Col·loca les files noves damunt de la fila seleccionada</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="409"/>
-      <source>Place new rows below selected row</source>
-      <comment>data view</comment>
-      <translation>Col·loca les files noves sota la fila seleccionada</translation>
+        <location filename="../dataview.cpp" line="409"/>
+        <source>Place new rows below selected row</source>
+        <comment>data view</comment>
+        <translation>Col·loca les files noves sota la fila seleccionada</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="410"/>
-      <source>Place new rows at the end of the data view</source>
-      <comment>data view</comment>
-      <translation>Col·loca les files noves al final de la vista de dades</translation>
+        <location filename="../dataview.cpp" line="410"/>
+        <source>Place new rows at the end of the data view</source>
+        <comment>data view</comment>
+        <translation>Col·loca les files noves al final de la vista de dades</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="987"/>
-      <source>Total number of rows is being counted.
+        <location filename="../dataview.cpp" line="987"/>
+        <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
-      <translation>S&apos;està comptant el nombre total de files.
+        <translation>S&apos;està comptant el nombre total de files.
 Es podran explorar altres pàgines quan s&apos;hagi acabat el recompte de files.</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1337"/>
-      <source>Filter</source>
-      <translation>Filtre</translation>
+        <location filename="../dataview.cpp" line="1337"/>
+        <source>Filter</source>
+        <translation>Filtre</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1340"/>
-      <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
-      <translation>Premeu la tecla Retorn o el botó &quot;Aplica el filtre&quot; de la barra d&apos;eines per aplicar el valor nou.</translation>
+        <location filename="../dataview.cpp" line="1340"/>
+        <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
+        <translation>Premeu la tecla Retorn o el botó &quot;Aplica el filtre&quot; de la barra d&apos;eines per aplicar el valor nou.</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1372"/>
-      <source>Filter by the Regular Expression</source>
-      <comment>data view</comment>
-      <translation>Filtra per expressió regular</translation>
+        <location filename="../dataview.cpp" line="1372"/>
+        <source>Filter by the Regular Expression</source>
+        <comment>data view</comment>
+        <translation>Filtra per expressió regular</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1373"/>
-      <source>Filter by SQL expression</source>
-      <comment>data view</comment>
-      <translation>Filtra per expressió SQL</translation>
+        <location filename="../dataview.cpp" line="1373"/>
+        <source>Filter by SQL expression</source>
+        <comment>data view</comment>
+        <translation>Filtra per expressió SQL</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1392"/>
-      <source>Show filter inputs per column</source>
-      <comment>data view</comment>
-      <translation>Mostra entrades de filtre per columna</translation>
+        <location filename="../dataview.cpp" line="1392"/>
+        <source>Show filter inputs per column</source>
+        <comment>data view</comment>
+        <translation>Mostra entrades de filtre per columna</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1396"/>
-      <source>Apply filter</source>
-      <comment>data view</comment>
-      <translation>Aplica el filtre</translation>
+        <location filename="../dataview.cpp" line="1396"/>
+        <source>Apply filter</source>
+        <comment>data view</comment>
+        <translation>Aplica el filtre</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbDialog</name>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="23"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../dialogs/dbdialog.ui" line="23"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="29"/>
-      <source>Database type</source>
-      <translation>Tipus de base de dades</translation>
+        <location filename="../dialogs/dbdialog.ui" line="29"/>
+        <source>Database type</source>
+        <translation>Tipus de base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="35"/>
-      <source>Database driver</source>
-      <translation>Controlador de base de dades</translation>
+        <location filename="../dialogs/dbdialog.ui" line="35"/>
+        <source>Database driver</source>
+        <translation>Controlador de base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="45"/>
-      <location filename="../dialogs/dbdialog.cpp" line="194"/>
-      <source>File</source>
-      <translation>Fitxer</translation>
+        <location filename="../dialogs/dbdialog.ui" line="45"/>
+        <location filename="../dialogs/dbdialog.cpp" line="194"/>
+        <source>File</source>
+        <translation>Fitxer</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="51"/>
-      <source>Select an existing database file</source>
-      <translation>Seleccioneu un fitxer de base de dades existent</translation>
+        <location filename="../dialogs/dbdialog.ui" line="51"/>
+        <source>Select an existing database file</source>
+        <translation>Seleccioneu un fitxer de base de dades existent</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="61"/>
-      <source>Create a new database file</source>
-      <translation>Crea un fitxer de base de dades nou</translation>
+        <location filename="../dialogs/dbdialog.ui" line="61"/>
+        <source>Create a new database file</source>
+        <translation>Crea un fitxer de base de dades nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="89"/>
-      <source>Name (on the list)</source>
-      <translation>Nom (a la llista)</translation>
+        <location filename="../dialogs/dbdialog.ui" line="89"/>
+        <source>Name (on the list)</source>
+        <translation>Nom (a la llista)</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="117"/>
-      <source>Change</source>
-      <translation>Canvia</translation>
+        <location filename="../dialogs/dbdialog.ui" line="117"/>
+        <source>Change</source>
+        <translation>Canvia</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="127"/>
-      <source>Options</source>
-      <translation>Opcions</translation>
+        <location filename="../dialogs/dbdialog.ui" line="127"/>
+        <source>Options</source>
+        <translation>Opcions</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="133"/>
-      <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
-      <extracomment>aasfd</extracomment>
-      <translation>&lt;p&gt;Activeu-ho si voleu que la base de dades s&apos;emmagatzemi al fitxer de configuració i es restauri cada vegada que s&apos;iniciï Letos.&lt;/p&gt;</translation>
+        <location filename="../dialogs/dbdialog.ui" line="133"/>
+        <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
+        <extracomment>aasfd</extracomment>
+        <translation>&lt;p&gt;Activeu-ho si voleu que la base de dades s&apos;emmagatzemi al fitxer de configuració i es restauri cada vegada que s&apos;iniciï Letos.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="136"/>
-      <source>Permanent (keep it in configuration)</source>
-      <translation>Permanent (mantén-la a la configuració)</translation>
+        <location filename="../dialogs/dbdialog.ui" line="136"/>
+        <source>Permanent (keep it in configuration)</source>
+        <translation>Permanent (mantén-la a la configuració)</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="180"/>
-      <source>Test connection</source>
-      <translation>Prova la connexió</translation>
+        <location filename="../dialogs/dbdialog.ui" line="180"/>
+        <source>Test connection</source>
+        <translation>Prova la connexió</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="355"/>
-      <source>Browse</source>
-      <translation>Navega</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="355"/>
+        <source>Browse</source>
+        <translation>Navega</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="528"/>
-      <source>Database type not selected.</source>
-      <translation>No s&apos;ha seleccionat el tipus de base de dades.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="528"/>
+        <source>Database type not selected.</source>
+        <translation>No s&apos;ha seleccionat el tipus de base de dades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="535"/>
-      <source>Database path not specified.</source>
-      <translation>No s&apos;ha especificat el camí de la base de dades.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="535"/>
+        <source>Database path not specified.</source>
+        <translation>No s&apos;ha especificat el camí de la base de dades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="568"/>
-      <source>Enter an unique database name.</source>
-      <translation>Introduïu un nom de base de dades únic.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="568"/>
+        <source>Enter an unique database name.</source>
+        <translation>Introduïu un nom de base de dades únic.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="578"/>
-      <source>This name is already in use. Please enter unique name.</source>
-      <translation>Aquest nom ja s&apos;està utilitzant. Introduïu un nom únic.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="578"/>
+        <source>This name is already in use. Please enter unique name.</source>
+        <translation>Aquest nom ja s&apos;està utilitzant. Introduïu un nom únic.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="585"/>
-      <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;La generació automàtica del nom s&apos;ha desactivat perquè el nom s&apos;ha editat manualment. Per restaurar la generació automàtica, esborreu el contingut del camp de nom.&lt;/p&gt;</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="585"/>
+        <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;La generació automàtica del nom s&apos;ha desactivat perquè el nom s&apos;ha editat manualment. Per restaurar la generació automàtica, esborreu el contingut del camp de nom.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="594"/>
-      <source>Enter a database file path.</source>
-      <translation>Introduïu un camí al fitxer de base de dades.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="594"/>
+        <source>Enter a database file path.</source>
+        <translation>Introduïu un camí al fitxer de base de dades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="600"/>
-      <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
-      <translation>Esteu utilitzant una ruta d&apos;accés relativa al fitxer, que es resoldrà com a &quot;%1&quot; segons el directori de treball de l&apos;aplicació. Sempre és millor utilitzar una ruta d&apos;accés absoluta al fitxer per evitar una ubicació inesperada de la base de dades.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="600"/>
+        <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
+        <translation>Esteu utilitzant una ruta d&apos;accés relativa al fitxer, que es resoldrà com a &quot;%1&quot; segons el directori de treball de l&apos;aplicació. Sempre és millor utilitzar una ruta d&apos;accés absoluta al fitxer per evitar una ubicació inesperada de la base de dades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="610"/>
-      <source>This database is already on the list under name: %1</source>
-      <translation>Aquesta base de dades ja és a la llista amb el nom: %1</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="610"/>
+        <source>This database is already on the list under name: %1</source>
+        <translation>Aquesta base de dades ja és a la llista amb el nom: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="632"/>
-      <source>Select a database type.</source>
-      <translation>Seleccioneu un tipus de base de dades.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="632"/>
+        <source>Select a database type.</source>
+        <translation>Seleccioneu un tipus de base de dades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="657"/>
-      <source>Automatic</source>
-      <comment>database name</comment>
-      <translation>Automàtic</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="657"/>
+        <source>Automatic</source>
+        <comment>database name</comment>
+        <translation>Automàtic</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="658"/>
-      <source>Change</source>
-      <comment>database name</comment>
-      <translation>Canvia</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="658"/>
+        <source>Change</source>
+        <comment>database name</comment>
+        <translation>Canvia</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="667"/>
-      <source>(empty)</source>
-      <translation>(buit)</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="667"/>
+        <source>(empty)</source>
+        <translation>(buit)</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="837"/>
-      <source>Choose a location for the new database file</source>
-      <translation>Trieu una ubicació per al fitxer de base de dades nou</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="837"/>
+        <source>Choose a location for the new database file</source>
+        <translation>Trieu una ubicació per al fitxer de base de dades nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="838"/>
-      <source>Browse for existing database file on local computer</source>
-      <translation>Navega per cercar un fitxer de base de dades existent a l&apos;ordinador local</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="838"/>
+        <source>Browse for existing database file on local computer</source>
+        <translation>Navega per cercar un fitxer de base de dades existent a l&apos;ordinador local</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbObjectDialogs</name>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="176"/>
-      <source>Delete table</source>
-      <translation>Suprimeix la taula</translation>
+        <location filename="../dbobjectdialogs.cpp" line="176"/>
+        <source>Delete table</source>
+        <translation>Suprimeix la taula</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="177"/>
-      <source>Are you sure you want to delete table %1?</source>
-      <translation>Segur que voleu suprimir la taula %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="177"/>
+        <source>Are you sure you want to delete table %1?</source>
+        <translation>Segur que voleu suprimir la taula %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="181"/>
-      <source>Delete index</source>
-      <translation>Suprimeix l&apos;índex</translation>
+        <location filename="../dbobjectdialogs.cpp" line="181"/>
+        <source>Delete index</source>
+        <translation>Suprimeix l&apos;índex</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="182"/>
-      <source>Are you sure you want to delete index %1?</source>
-      <translation>Segur que voleu suprimir l&apos;índex %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="182"/>
+        <source>Are you sure you want to delete index %1?</source>
+        <translation>Segur que voleu suprimir l&apos;índex %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="186"/>
-      <source>Delete trigger</source>
-      <translation>Suprimeix el disparador</translation>
+        <location filename="../dbobjectdialogs.cpp" line="186"/>
+        <source>Delete trigger</source>
+        <translation>Suprimeix el disparador</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="187"/>
-      <source>Are you sure you want to delete trigger %1?</source>
-      <translation>Segur que voleu suprimir el disparador %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="187"/>
+        <source>Are you sure you want to delete trigger %1?</source>
+        <translation>Segur que voleu suprimir el disparador %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="191"/>
-      <source>Delete view</source>
-      <translation>Suprimeix la vista</translation>
+        <location filename="../dbobjectdialogs.cpp" line="191"/>
+        <source>Delete view</source>
+        <translation>Suprimeix la vista</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="192"/>
-      <source>Are you sure you want to delete view %1?</source>
-      <translation>Segur que voleu suprimir la vista %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="192"/>
+        <source>Are you sure you want to delete view %1?</source>
+        <translation>Segur que voleu suprimir la vista %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="214"/>
-      <location filename="../dbobjectdialogs.cpp" line="346"/>
-      <source>Error while dropping %1: %2</source>
-      <translation>Error en eliminar %1: %2</translation>
+        <location filename="../dbobjectdialogs.cpp" line="214"/>
+        <location filename="../dbobjectdialogs.cpp" line="346"/>
+        <source>Error while dropping %1: %2</source>
+        <translation>Error en eliminar %1: %2</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="322"/>
-      <source>Delete objects</source>
-      <translation>Suprimeix objectes</translation>
+        <location filename="../dbobjectdialogs.cpp" line="322"/>
+        <source>Delete objects</source>
+        <translation>Suprimeix objectes</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="323"/>
-      <source>Are you sure you want to delete following objects:
+        <location filename="../dbobjectdialogs.cpp" line="323"/>
+        <source>Are you sure you want to delete following objects:
 %1</source>
-      <translation>Segur que voleu suprimir els objectes següents:
+        <translation>Segur que voleu suprimir els objectes següents:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="330"/>
-      <source>Cannot start transaction. Details: %1</source>
-      <translation>No es pot iniciar la transacció. Detalls: %1</translation>
+        <location filename="../dbobjectdialogs.cpp" line="330"/>
+        <source>Cannot start transaction. Details: %1</source>
+        <translation>No es pot iniciar la transacció. Detalls: %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="357"/>
-      <source>Cannot commit transaction. Details: %1</source>
-      <translation>No es pot confirmar la transacció. Detalls: %1</translation>
+        <location filename="../dbobjectdialogs.cpp" line="357"/>
+        <source>Cannot commit transaction. Details: %1</source>
+        <translation>No es pot confirmar la transacció. Detalls: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbTree</name>
     <message>
-      <location filename="../dbtree/dbtree.ui" line="20"/>
-      <source>Databases</source>
-      <translation>Bases de dades</translation>
+        <location filename="../dbtree/dbtree.ui" line="20"/>
+        <source>Databases</source>
+        <translation>Bases de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2556"/>
-      <source>Filter by name</source>
-      <translation>Filtra per nom</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2556"/>
+        <source>Filter by name</source>
+        <translation>Filtra per nom</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="142"/>
-      <source>Copy</source>
-      <translation>Copia</translation>
+        <location filename="../dbtree/dbtree.cpp" line="142"/>
+        <source>Copy</source>
+        <translation>Copia</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="143"/>
-      <source>Paste</source>
-      <translation>Enganxa</translation>
+        <location filename="../dbtree/dbtree.cpp" line="143"/>
+        <source>Paste</source>
+        <translation>Enganxa</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="144"/>
-      <source>Select all</source>
-      <translation>Selecciona-ho tot</translation>
+        <location filename="../dbtree/dbtree.cpp" line="144"/>
+        <source>Select all</source>
+        <translation>Selecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="145"/>
-      <source>Create a group</source>
-      <translation>Crea un grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="145"/>
+        <source>Create a group</source>
+        <translation>Crea un grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="146"/>
-      <source>Delete the group</source>
-      <translation>Suprimeix el grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="146"/>
+        <source>Delete the group</source>
+        <translation>Suprimeix el grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="147"/>
-      <source>Rename the group</source>
-      <translation>Canvia el nom del grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="147"/>
+        <source>Rename the group</source>
+        <translation>Canvia el nom del grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="152"/>
-      <source>&amp;Edit the database</source>
-      <translation>&amp;Edita la base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="152"/>
+        <source>&amp;Edit the database</source>
+        <translation>&amp;Edita la base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="154"/>
-      <source>&amp;Remove the database</source>
-      <translation>&amp;Elimina la base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="154"/>
+        <source>&amp;Remove the database</source>
+        <translation>&amp;Elimina la base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="155"/>
-      <source>&amp;Connect to the database</source>
-      <translation>&amp;Connecta a la base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="155"/>
+        <source>&amp;Connect to the database</source>
+        <translation>&amp;Connecta a la base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="156"/>
-      <source>&amp;Disconnect from the database</source>
-      <translation>&amp;Desconnecta de la base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="156"/>
+        <source>&amp;Disconnect from the database</source>
+        <translation>&amp;Desconnecta de la base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="159"/>
-      <source>Vac&amp;uum</source>
-      <translation>B&amp;uida</translation>
+        <location filename="../dbtree/dbtree.cpp" line="159"/>
+        <source>Vac&amp;uum</source>
+        <translation>B&amp;uida</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="160"/>
-      <source>&amp;Integrity check</source>
-      <translation>Comprovació d&apos;&amp;integritat</translation>
+        <location filename="../dbtree/dbtree.cpp" line="160"/>
+        <source>&amp;Integrity check</source>
+        <translation>Comprovació d&apos;&amp;integritat</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="161"/>
-      <source>Create a &amp;table</source>
-      <translation>Crea una &amp;taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="161"/>
+        <source>Create a &amp;table</source>
+        <translation>Crea una &amp;taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="162"/>
-      <source>Edit the t&amp;able</source>
-      <translation>Edita la t&amp;aula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="162"/>
+        <source>Edit the t&amp;able</source>
+        <translation>Edita la t&amp;aula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="164"/>
-      <source>Delete the ta&amp;ble</source>
-      <translation>Suprimeix la tau&amp;la</translation>
+        <location filename="../dbtree/dbtree.cpp" line="164"/>
+        <source>Delete the ta&amp;ble</source>
+        <translation>Suprimeix la tau&amp;la</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="165"/>
-      <source>Export the table</source>
-      <translation>Exporta la taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="165"/>
+        <source>Export the table</source>
+        <translation>Exporta la taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="166"/>
-      <source>Import into the table</source>
-      <translation>Importa a la taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="166"/>
+        <source>Import into the table</source>
+        <translation>Importa a la taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="168"/>
-      <source>Populate table</source>
-      <translation>Omple la taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="168"/>
+        <source>Populate table</source>
+        <translation>Omple la taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="169"/>
-      <source>Create similar table</source>
-      <translation>Crea una taula similar</translation>
+        <location filename="../dbtree/dbtree.cpp" line="169"/>
+        <source>Create similar table</source>
+        <translation>Crea una taula similar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="170"/>
-      <source>Reset autoincrement sequence</source>
-      <translation>Restableix la seqüència d&apos;autoincrement</translation>
+        <location filename="../dbtree/dbtree.cpp" line="170"/>
+        <source>Reset autoincrement sequence</source>
+        <translation>Restableix la seqüència d&apos;autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="171"/>
-      <source>Create an &amp;index</source>
-      <translation>Crea un &amp;índex</translation>
+        <location filename="../dbtree/dbtree.cpp" line="171"/>
+        <source>Create an &amp;index</source>
+        <translation>Crea un &amp;índex</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="172"/>
-      <source>Edit the i&amp;ndex</source>
-      <translation>Edita l&apos;í&amp;ndex</translation>
+        <location filename="../dbtree/dbtree.cpp" line="172"/>
+        <source>Edit the i&amp;ndex</source>
+        <translation>Edita l&apos;í&amp;ndex</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="174"/>
-      <source>Delete the in&amp;dex</source>
-      <translation>Suprimeix l&apos;ín&amp;dex</translation>
+        <location filename="../dbtree/dbtree.cpp" line="174"/>
+        <source>Delete the in&amp;dex</source>
+        <translation>Suprimeix l&apos;ín&amp;dex</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="175"/>
-      <source>Create a trig&amp;ger</source>
-      <translation>Crea un dis&amp;parador</translation>
+        <location filename="../dbtree/dbtree.cpp" line="175"/>
+        <source>Create a trig&amp;ger</source>
+        <translation>Crea un dis&amp;parador</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="176"/>
-      <source>Edit the trigg&amp;er</source>
-      <translation>Edita el dispa&amp;rador</translation>
+        <location filename="../dbtree/dbtree.cpp" line="176"/>
+        <source>Edit the trigg&amp;er</source>
+        <translation>Edita el dispa&amp;rador</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="178"/>
-      <source>Delete the trigge&amp;r</source>
-      <translation>Suprimeix el disparado&amp;r</translation>
+        <location filename="../dbtree/dbtree.cpp" line="178"/>
+        <source>Delete the trigge&amp;r</source>
+        <translation>Suprimeix el disparado&amp;r</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="179"/>
-      <source>Create a &amp;view</source>
-      <translation>Crea una &amp;vista</translation>
+        <location filename="../dbtree/dbtree.cpp" line="179"/>
+        <source>Create a &amp;view</source>
+        <translation>Crea una &amp;vista</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="180"/>
-      <source>Edit the v&amp;iew</source>
-      <translation>Edita la v&amp;ista</translation>
+        <location filename="../dbtree/dbtree.cpp" line="180"/>
+        <source>Edit the v&amp;iew</source>
+        <translation>Edita la v&amp;ista</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="182"/>
-      <source>Delete the vi&amp;ew</source>
-      <translation>Suprimeix la vi&amp;sta</translation>
+        <location filename="../dbtree/dbtree.cpp" line="182"/>
+        <source>Delete the vi&amp;ew</source>
+        <translation>Suprimeix la vi&amp;sta</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="183"/>
-      <source>Add a column</source>
-      <translation>Afegeix una columna</translation>
+        <location filename="../dbtree/dbtree.cpp" line="183"/>
+        <source>Add a column</source>
+        <translation>Afegeix una columna</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="184"/>
-      <source>Edit the column</source>
-      <translation>Edita la columna</translation>
+        <location filename="../dbtree/dbtree.cpp" line="184"/>
+        <source>Edit the column</source>
+        <translation>Edita la columna</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="186"/>
-      <source>Delete the column</source>
-      <translation>Suprimeix la columna</translation>
+        <location filename="../dbtree/dbtree.cpp" line="186"/>
+        <source>Delete the column</source>
+        <translation>Suprimeix la columna</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="187"/>
-      <source>Delete selected items</source>
-      <translation>Suprimeix els elements seleccionats</translation>
+        <location filename="../dbtree/dbtree.cpp" line="187"/>
+        <source>Delete selected items</source>
+        <translation>Suprimeix els elements seleccionats</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="207"/>
-      <source>Clear filter</source>
-      <translation>Esborra el filtre</translation>
+        <location filename="../dbtree/dbtree.cpp" line="207"/>
+        <source>Clear filter</source>
+        <translation>Esborra el filtre</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="188"/>
-      <source>&amp;Refresh all database schemas</source>
-      <translation>&amp;Actualitza tots els esquemes de bases de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="188"/>
+        <source>&amp;Refresh all database schemas</source>
+        <translation>&amp;Actualitza tots els esquemes de bases de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="148"/>
-      <source>&amp;Create new database</source>
-      <translation>&amp;Crea una base de dades nova</translation>
+        <location filename="../dbtree/dbtree.cpp" line="148"/>
+        <source>&amp;Create new database</source>
+        <translation>&amp;Crea una base de dades nova</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="149"/>
-      <source>&amp;Open existing database</source>
-      <translation>&amp;Obre una base de dades existent</translation>
+        <location filename="../dbtree/dbtree.cpp" line="149"/>
+        <source>&amp;Open existing database</source>
+        <translation>&amp;Obre una base de dades existent</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="150"/>
-      <source>&amp;Open existing database or SQL file</source>
-      <translation>&amp;Obre una base de dades o un fitxer SQL existent</translation>
+        <location filename="../dbtree/dbtree.cpp" line="150"/>
+        <source>&amp;Open existing database or SQL file</source>
+        <translation>&amp;Obre una base de dades o un fitxer SQL existent</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="151"/>
-      <source>Add a database</source>
-      <translation>Afegeix una base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="151"/>
+        <source>Add a database</source>
+        <translation>Afegeix una base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="153"/>
-      <source>Rename the database</source>
-      <translation>Canvia el nom de la base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="153"/>
+        <source>Rename the database</source>
+        <translation>Canvia el nom de la base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="157"/>
-      <source>&amp;Import</source>
-      <translation>&amp;Importa</translation>
+        <location filename="../dbtree/dbtree.cpp" line="157"/>
+        <source>&amp;Import</source>
+        <translation>&amp;Importa</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="158"/>
-      <source>&amp;Export</source>
-      <translation>&amp;Exporta</translation>
+        <location filename="../dbtree/dbtree.cpp" line="158"/>
+        <source>&amp;Export</source>
+        <translation>&amp;Exporta</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="163"/>
-      <source>Rename the table</source>
-      <translation>Canvia el nom de la taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="163"/>
+        <source>Rename the table</source>
+        <translation>Canvia el nom de la taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="167"/>
-      <source>Export the view</source>
-      <translation>Exporta la vista</translation>
+        <location filename="../dbtree/dbtree.cpp" line="167"/>
+        <source>Export the view</source>
+        <translation>Exporta la vista</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="173"/>
-      <source>Rename the index</source>
-      <translation>Canvia el nom de l&apos;índex</translation>
+        <location filename="../dbtree/dbtree.cpp" line="173"/>
+        <source>Rename the index</source>
+        <translation>Canvia el nom de l&apos;índex</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="177"/>
-      <source>Rename the trigger</source>
-      <translation>Canvia el nom del disparador</translation>
+        <location filename="../dbtree/dbtree.cpp" line="177"/>
+        <source>Rename the trigger</source>
+        <translation>Canvia el nom del disparador</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="181"/>
-      <source>Rename the view</source>
-      <translation>Canvia el nom de la vista</translation>
+        <location filename="../dbtree/dbtree.cpp" line="181"/>
+        <source>Rename the view</source>
+        <translation>Canvia el nom de la vista</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="185"/>
-      <source>Rename the column</source>
-      <translation>Canvia el nom de la columna</translation>
+        <location filename="../dbtree/dbtree.cpp" line="185"/>
+        <source>Rename the column</source>
+        <translation>Canvia el nom de la columna</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="189"/>
-      <source>Re&amp;fresh selected database schema</source>
-      <translation>&amp;Actualitza l&apos;esquema de la base de dades seleccionada</translation>
+        <location filename="../dbtree/dbtree.cpp" line="189"/>
+        <source>Re&amp;fresh selected database schema</source>
+        <translation>&amp;Actualitza l&apos;esquema de la base de dades seleccionada</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="190"/>
-      <location filename="../dbtree/dbtree.cpp" line="1938"/>
-      <source>Erase table data</source>
-      <translation>Esborra les dades de la taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="190"/>
+        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <source>Erase table data</source>
+        <translation>Esborra les dades de la taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="192"/>
-      <location filename="../dbtree/dbtree.cpp" line="195"/>
-      <location filename="../dbtree/dbtree.cpp" line="198"/>
-      <source>Drag</source>
-      <comment>dbtree table action shortcut</comment>
-      <translation>Arrossega</translation>
+        <location filename="../dbtree/dbtree.cpp" line="192"/>
+        <location filename="../dbtree/dbtree.cpp" line="195"/>
+        <location filename="../dbtree/dbtree.cpp" line="198"/>
+        <source>Drag</source>
+        <comment>dbtree table action shortcut</comment>
+        <translation>Arrossega</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="201"/>
-      <source>Open file&apos;s directory</source>
-      <translation>Obre el directori d&apos;aquest fitxer</translation>
+        <location filename="../dbtree/dbtree.cpp" line="201"/>
+        <source>Open file&apos;s directory</source>
+        <translation>Obre el directori d&apos;aquest fitxer</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="202"/>
-      <source>Execute SQL from file</source>
-      <translation>Executa SQL des d&apos;un fitxer</translation>
+        <location filename="../dbtree/dbtree.cpp" line="202"/>
+        <source>Execute SQL from file</source>
+        <translation>Executa SQL des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="203"/>
-      <source>Increase font size</source>
-      <comment>database list</comment>
-      <translation>Augmenta la mida de la lletra</translation>
+        <location filename="../dbtree/dbtree.cpp" line="203"/>
+        <source>Increase font size</source>
+        <comment>database list</comment>
+        <translation>Augmenta la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="204"/>
-      <source>Decrease font size</source>
-      <comment>database list</comment>
-      <translation>Redueix la mida de la lletra</translation>
+        <location filename="../dbtree/dbtree.cpp" line="204"/>
+        <source>Decrease font size</source>
+        <comment>database list</comment>
+        <translation>Redueix la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="417"/>
-      <location filename="../dbtree/dbtree.cpp" line="424"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="417"/>
+        <location filename="../dbtree/dbtree.cpp" line="424"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="436"/>
-      <source>Grouping</source>
-      <translation>Agrupació</translation>
+        <location filename="../dbtree/dbtree.cpp" line="436"/>
+        <source>Grouping</source>
+        <translation>Agrupació</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="441"/>
-      <source>Generate query for table</source>
-      <translation>Genera una consulta per a la taula</translation>
+        <location filename="../dbtree/dbtree.cpp" line="441"/>
+        <source>Generate query for table</source>
+        <translation>Genera una consulta per a la taula</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="447"/>
-      <source>Generate query for view</source>
-      <translation>Genera una consulta per a la vista</translation>
+        <location filename="../dbtree/dbtree.cpp" line="447"/>
+        <source>Generate query for view</source>
+        <translation>Genera una consulta per a la vista</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1326"/>
-      <location filename="../dbtree/dbtree.cpp" line="1329"/>
-      <source>Create group</source>
-      <translation>Crea un grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <source>Create group</source>
+        <translation>Crea un grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1326"/>
-      <source>Group name</source>
-      <translation>Nom del grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <source>Group name</source>
+        <translation>Nom del grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1329"/>
-      <source>Entry with name %1 already exists in group %2.</source>
-      <translation>Ja existeix una entrada amb el nom %1 al grup %2.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <source>Entry with name %1 already exists in group %2.</source>
+        <translation>Ja existeix una entrada amb el nom %1 al grup %2.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1366"/>
-      <source>Delete group</source>
-      <translation>Suprimeix el grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1366"/>
+        <source>Delete group</source>
+        <translation>Suprimeix el grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1367"/>
-      <source>Are you sure you want to delete groups: %1?
+        <location filename="../dbtree/dbtree.cpp" line="1367"/>
+        <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
-      <translation>Segur que voleu suprimir els grups: %1?
+        <translation>Segur que voleu suprimir els grups: %1?
 Tots els objectes d&apos;aquests grups es mouran als grups pare respectius.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1499"/>
-      <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
-      <translation>Segur que voleu eliminar la base de dades &apos;%1&apos; de la llista?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1499"/>
+        <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
+        <translation>Segur que voleu eliminar la base de dades &apos;%1&apos; de la llista?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1507"/>
-      <source>Are you sure you want to remove following databases from the list:
+        <location filename="../dbtree/dbtree.cpp" line="1507"/>
+        <source>Are you sure you want to remove following databases from the list:
 %1</source>
-      <translation>Segur que voleu eliminar les bases de dades següents de la llista:
+        <translation>Segur que voleu eliminar les bases de dades següents de la llista:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1509"/>
-      <source>Remove database</source>
-      <translation>Elimina la base de dades</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1509"/>
+        <source>Remove database</source>
+        <translation>Elimina la base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1564"/>
-      <location filename="../dbtree/dbtree.cpp" line="1769"/>
-      <source>Cannot import, because no import plugin is loaded.</source>
-      <translation>No es pot importar perquè no hi ha cap connector d&apos;importació carregat.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1564"/>
+        <location filename="../dbtree/dbtree.cpp" line="1769"/>
+        <source>Cannot import, because no import plugin is loaded.</source>
+        <translation>No es pot importar perquè no hi ha cap connector d&apos;importació carregat.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1584"/>
-      <location filename="../dbtree/dbtree.cpp" line="1744"/>
-      <location filename="../dbtree/dbtree.cpp" line="1813"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>No es pot exportar perquè no hi ha cap connector d&apos;exportació carregat.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1584"/>
+        <location filename="../dbtree/dbtree.cpp" line="1744"/>
+        <location filename="../dbtree/dbtree.cpp" line="1813"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>No es pot exportar perquè no hi ha cap connector d&apos;exportació carregat.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1859"/>
-      <source>Vacuum (%1)</source>
-      <translation>Buida (%1)</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1859"/>
+        <source>Vacuum (%1)</source>
+        <translation>Buida (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1873"/>
-      <source>Integrity check (%1)</source>
-      <translation>Comprovació d&apos;integritat (%1)</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1873"/>
+        <source>Integrity check (%1)</source>
+        <translation>Comprovació d&apos;integritat (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1909"/>
-      <source>Reset autoincrement</source>
-      <translation>Restableix l&apos;autoincrement</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <source>Reset autoincrement</source>
+        <translation>Restableix l&apos;autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1909"/>
-      <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-      <translation>Segur que voleu restablir el valor d&apos;autoincrement de la taula &apos;%1&apos;?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
+        <translation>Segur que voleu restablir el valor d&apos;autoincrement de la taula &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1916"/>
-      <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-      <translation>S&apos;ha produït un error en intentar restablir el valor d&apos;autoincrement de la taula &apos;%1&apos;: %2</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
+        <translation>S&apos;ha produït un error en intentar restablir el valor d&apos;autoincrement de la taula &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
-      <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-      <translation>El valor d&apos;autoincrement de la taula &apos;%1&apos; s&apos;ha restablert correctament.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
+        <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
+        <translation>El valor d&apos;autoincrement de la taula &apos;%1&apos; s&apos;ha restablert correctament.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1938"/>
-      <source>Are you sure you want to delete all data from table(s): %1?</source>
-      <translation>Segur que voleu suprimir totes les dades de la taula(es): %1?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <source>Are you sure you want to delete all data from table(s): %1?</source>
+        <translation>Segur que voleu suprimir totes les dades de la taula(es): %1?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1950"/>
-      <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
-      <translation>S&apos;ha produït un error en intentar suprimir les dades de la taula &apos;%1&apos;: %2</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1950"/>
+        <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
+        <translation>S&apos;ha produït un error en intentar suprimir les dades de la taula &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1954"/>
-      <source>All data has been deleted for table &apos;%1&apos;.</source>
-      <translation>S&apos;han suprimit totes les dades de la taula &apos;%1&apos;.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1954"/>
+        <source>All data has been deleted for table &apos;%1&apos;.</source>
+        <translation>S&apos;han suprimit totes les dades de la taula &apos;%1&apos;.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2093"/>
-      <source>Following objects will be deleted: %1.</source>
-      <translation>Se suprimiran els objectes següents: %1.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2093"/>
+        <source>Following objects will be deleted: %1.</source>
+        <translation>Se suprimiran els objectes següents: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2096"/>
-      <source>Following databases will be removed from list: %1.</source>
-      <translation>Les bases de dades següents s&apos;eliminaran de la llista: %1.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2096"/>
+        <source>Following databases will be removed from list: %1.</source>
+        <translation>Les bases de dades següents s&apos;eliminaran de la llista: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2099"/>
-      <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
-      <translation>Els objectes restants del grup suprimit es mouran al lloc on era el grup.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2099"/>
+        <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
+        <translation>Els objectes restants del grup suprimit es mouran al lloc on era el grup.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2101"/>
-      <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
-      <translation>%1&lt;br&gt;&lt;br&gt;Segur que voleu continuar?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2101"/>
+        <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
+        <translation>%1&lt;br&gt;&lt;br&gt;Segur que voleu continuar?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2103"/>
-      <source>Delete objects</source>
-      <translation>Suprimeix objectes</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2103"/>
+        <source>Delete objects</source>
+        <translation>Suprimeix objectes</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2582"/>
-      <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connectat.&lt;/p&gt;&lt;p&gt;Feu clic aquí per desconnectar, o feu clic amb el botó central a la base de dades.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2582"/>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connectat.&lt;/p&gt;&lt;p&gt;Feu clic aquí per desconnectar, o feu clic amb el botó central a la base de dades.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2590"/>
-      <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Desconnectat.&lt;/p&gt;&lt;p&gt;Feu clic aquí per connectar, o feu doble clic a la base de dades.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2590"/>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Desconnectat.&lt;/p&gt;&lt;p&gt;Feu clic aquí per connectar, o feu doble clic a la base de dades.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbTreeItemDelegate</name>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
-      <source>error</source>
-      <comment>dbtree labels</comment>
-      <translation>errada</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
+        <source>error</source>
+        <comment>dbtree labels</comment>
+        <translation>errada</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
-      <source>(system table)</source>
-      <comment>database tree label</comment>
-      <translation>(taula del sistema)</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
+        <source>(system table)</source>
+        <comment>database tree label</comment>
+        <translation>(taula del sistema)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
-      <source>(virtual)</source>
-      <comment>virtual table label</comment>
-      <translation>(taula virtual)</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
+        <source>(virtual)</source>
+        <comment>virtual table label</comment>
+        <translation>(taula virtual)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
-      <source>(system index)</source>
-      <comment>database tree label</comment>
-      <translation>(índex del sistema)</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
+        <source>(system index)</source>
+        <comment>database tree label</comment>
+        <translation>(índex del sistema)</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbTreeModel</name>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
-      <source>Database: %1</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Base de dades: %1</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
+        <source>Database: %1</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Base de dades: %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
-      <source>URI:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>URI:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
+        <source>URI:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>URI:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
-      <source>Format:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Format:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
+        <source>Format:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Format:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
-      <source>File size:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Mida del fitxer:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
+        <source>File size:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Mida del fitxer:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
-      <source>Encoding:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Codificació:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
+        <source>Encoding:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Codificació:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
-      <source>Error:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Errada:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
+        <source>Error:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Errada:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
-      <source>Double-click to edit this database</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Feu doble clic per editar aquesta base de dades</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
+        <source>Double-click to edit this database</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Feu doble clic per editar aquesta base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
-      <source>Double-click to connect to this database</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Feu doble clic per connectar a aquesta base de dades</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
+        <source>Double-click to connect to this database</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Feu doble clic per connectar a aquesta base de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
-      <source>Table : %1</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Taula: %1</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
+        <source>Table : %1</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Taula: %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
-      <source>Columns (%1):</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Columnes (%1):</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
+        <source>Columns (%1):</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Columnes (%1):</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
-      <source>Indexes (%1):</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Índexs (%1):</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
+        <source>Indexes (%1):</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Índexs (%1):</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
-      <source>Triggers (%1):</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Disparadors (%1):</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
+        <source>Triggers (%1):</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Disparadors (%1):</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
-      <source>Copy</source>
-      <translation>Copia</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
+        <source>Copy</source>
+        <translation>Copia</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
-      <source>Move</source>
-      <translation>Mou</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
+        <source>Move</source>
+        <translation>Mou</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
-      <source>Include data</source>
-      <translation>Inclou dades</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
+        <source>Include data</source>
+        <translation>Inclou dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
-      <source>Include indexes</source>
-      <translation>Inclou índexs</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
+        <source>Include indexes</source>
+        <translation>Inclou índexs</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
-      <source>Include triggers</source>
-      <translation>Inclou disparadors</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
+        <source>Include triggers</source>
+        <translation>Inclou disparadors</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
-      <source>Abort</source>
-      <translation>Interromp</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
+        <source>Abort</source>
+        <translation>Interromp</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
-      <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
-      <translation>No s&apos;ha pogut afegir automàticament el fitxer de base de dades deixat anar &apos;%1&apos;. Cal una configuració manual.</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
+        <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
+        <translation>No s&apos;ha pogut afegir automàticament el fitxer de base de dades deixat anar &apos;%1&apos;. Cal una configuració manual.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
-      <source>Referenced tables</source>
-      <translation>Taules referenciades</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
+        <source>Referenced tables</source>
+        <translation>Taules referenciades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
-      <source>Do you want to include following referenced tables as well:
+        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
+        <source>Do you want to include following referenced tables as well:
 %1</source>
-      <translation>Voleu incloure també les taules referenciades següents:
+        <translation>Voleu incloure també les taules referenciades següents:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
-      <source>Name conflict</source>
-      <translation>Conflicte de nom</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
+        <source>Name conflict</source>
+        <translation>Conflicte de nom</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
-      <source>Following object already exists in the target database.
+        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
+        <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
-      <translation>L&apos;objecte següent ja existeix a la base de dades de destinació.
+        <translation>L&apos;objecte següent ja existeix a la base de dades de destinació.
 Introduïu un nom nou i únic, o premeu &apos;%1&apos; per interrompre l&apos;operació:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
-      <source>SQL statements conversion</source>
-      <translation>Conversió de sentències SQL</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
+        <source>SQL statements conversion</source>
+        <translation>Conversió de sentències SQL</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
-      <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
-      <translation>S&apos;ha produït l&apos;error següent en convertir les sentències SQL a la versió SQLite de destinació:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
+        <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
+        <translation>S&apos;ha produït l&apos;error següent en convertir les sentències SQL a la versió SQLite de destinació:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
-      <source>Would you like to ignore those errors and proceed?</source>
-      <translation>Voleu ignorar aquests errors i continuar?</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
+        <source>Would you like to ignore those errors and proceed?</source>
+        <translation>Voleu ignorar aquests errors i continuar?</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DdlHistoryWindow</name>
     <message>
-      <location filename="../windows/ddlhistorywindow.ui" line="35"/>
-      <source>Filter by database:</source>
-      <translation>Filtra per base de dades:</translation>
+        <location filename="../windows/ddlhistorywindow.ui" line="35"/>
+        <source>Filter by database:</source>
+        <translation>Filtra per base de dades:</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.ui" line="55"/>
-      <source>Clear entire history</source>
-      <translation>Esborra tot l&apos;historial</translation>
+        <location filename="../windows/ddlhistorywindow.ui" line="55"/>
+        <source>Clear entire history</source>
+        <translation>Esborra tot l&apos;historial</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
-      <source>-- Queries executed on database %1 (%2)
+        <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
+        <source>-- Queries executed on database %1 (%2)
 -- Date and time of execution: %3
 %4</source>
-      <translation>-- Consultes executades a la base de dades %1 (%2)
+        <translation>-- Consultes executades a la base de dades %1 (%2)
 -- Data i hora d&apos;execució: %3
 %4</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
-      <source>Clear history</source>
-      <translation>Esborra l&apos;historial</translation>
+        <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
+        <source>Clear history</source>
+        <translation>Esborra l&apos;historial</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
-      <source>Are you sure you want to erase entire DDL history?</source>
-      <translation>Segur que voleu esborrar tot l&apos;historial DDL?</translation>
+        <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
+        <source>Are you sure you want to erase entire DDL history?</source>
+        <translation>Segur que voleu esborrar tot l&apos;historial DDL?</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
-      <source>DDL history</source>
-      <translation>Historial DDL</translation>
+        <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
+        <source>DDL history</source>
+        <translation>Historial DDL</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DdlPreviewDialog</name>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
-      <source>Queries to be executed</source>
-      <translation>Consultes que s&apos;executaran</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
+        <source>Queries to be executed</source>
+        <translation>Consultes que s&apos;executaran</translation>
     </message>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
-      <source>Don&apos;t show again</source>
-      <translation>No ho torneu a mostrar d&apos;ara endavant</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
+        <source>Don&apos;t show again</source>
+        <translation>No ho torneu a mostrar d&apos;ara endavant</translation>
     </message>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
-      <source>Opens the DDL in the SQL Editor without executing it.</source>
-      <translation>Obre el DDL a l&apos;editor SQL sense executar-lo.</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
+        <source>Opens the DDL in the SQL Editor without executing it.</source>
+        <translation>Obre el DDL a l&apos;editor SQL sense executar-lo.</translation>
     </message>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
-      <source>Open in editor</source>
-      <translation>Obre a l&apos;editor</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
+        <source>Open in editor</source>
+        <translation>Obre a l&apos;editor</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DebugConsole</name>
     <message>
-      <location filename="../debugconsole.ui" line="14"/>
-      <source>Letos Debug Console</source>
-      <translation>Consola de depuració del Letos</translation>
+        <location filename="../debugconsole.ui" line="14"/>
+        <source>Letos Debug Console</source>
+        <translation>Consola de depuració del Letos</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>EditorWindow</name>
     <message>
-      <location filename="../windows/editorwindow.ui" line="14"/>
-      <source>SQL editor</source>
-      <translation>Editor SQL</translation>
+        <location filename="../windows/editorwindow.ui" line="14"/>
+        <source>SQL editor</source>
+        <translation>Editor SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.ui" line="43"/>
-      <source>Query</source>
-      <translation>Consulta</translation>
+        <location filename="../windows/editorwindow.ui" line="43"/>
+        <source>Query</source>
+        <translation>Consulta</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.ui" line="134"/>
-      <source>History</source>
-      <translation>Historial</translation>
+        <location filename="../windows/editorwindow.ui" line="134"/>
+        <source>History</source>
+        <translation>Historial</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="200"/>
-      <location filename="../windows/editorwindow.cpp" line="202"/>
-      <source>SQL editor %1</source>
-      <translation>Editor SQL %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="200"/>
+        <location filename="../windows/editorwindow.cpp" line="202"/>
+        <source>SQL editor %1</source>
+        <translation>Editor SQL %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.ui" line="99"/>
-      <location filename="../windows/editorwindow.cpp" line="417"/>
-      <source>Results</source>
-      <translation>Resultats</translation>
+        <location filename="../windows/editorwindow.ui" line="99"/>
+        <location filename="../windows/editorwindow.cpp" line="417"/>
+        <source>Results</source>
+        <translation>Resultats</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="468"/>
-      <source>Execute query</source>
-      <translation>Executa la consulta</translation>
+        <location filename="../windows/editorwindow.cpp" line="468"/>
+        <source>Execute query</source>
+        <translation>Executa la consulta</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="469"/>
-      <source>Explain query</source>
-      <translation>Explica la consulta</translation>
+        <location filename="../windows/editorwindow.cpp" line="469"/>
+        <source>Explain query</source>
+        <translation>Explica la consulta</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="490"/>
-      <source>Clear execution history</source>
-      <comment>sql editor</comment>
-      <translation>Esborra l&apos;historial d&apos;execució</translation>
+        <location filename="../windows/editorwindow.cpp" line="490"/>
+        <source>Clear execution history</source>
+        <comment>sql editor</comment>
+        <translation>Esborra l&apos;historial d&apos;execució</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="496"/>
-      <source>Focus results on the same tab</source>
-      <comment>sql editor</comment>
-      <translation>Enfoca els resultats a la mateixa pestanya</translation>
+        <location filename="../windows/editorwindow.cpp" line="496"/>
+        <source>Focus results on the same tab</source>
+        <comment>sql editor</comment>
+        <translation>Enfoca els resultats a la mateixa pestanya</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="497"/>
-      <source>Focus SQL editor on the same tab</source>
-      <comment>sql editor</comment>
-      <translation>Enfoca l&apos;editor SQL a la mateixa pestanya</translation>
+        <location filename="../windows/editorwindow.cpp" line="497"/>
+        <source>Focus SQL editor on the same tab</source>
+        <comment>sql editor</comment>
+        <translation>Enfoca l&apos;editor SQL a la mateixa pestanya</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="502"/>
-      <source>Export results</source>
-      <comment>sql editor</comment>
-      <translation>Exporta els resultats</translation>
+        <location filename="../windows/editorwindow.cpp" line="502"/>
+        <source>Export results</source>
+        <comment>sql editor</comment>
+        <translation>Exporta els resultats</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="484"/>
-      <source>Create view from query</source>
-      <comment>sql editor</comment>
-      <translation>Crea una vista a partir de la consulta</translation>
+        <location filename="../windows/editorwindow.cpp" line="484"/>
+        <source>Create view from query</source>
+        <comment>sql editor</comment>
+        <translation>Crea una vista a partir de la consulta</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="471"/>
-      <source>Commit</source>
-      <translation>Confirma</translation>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <source>Commit</source>
+        <translation>Confirma</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="472"/>
-      <source>Rollback</source>
-      <translation>Reverteix</translation>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <source>Rollback</source>
+        <translation>Reverteix</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="486"/>
-      <source>Previous database</source>
-      <translation>Base de dades anterior</translation>
+        <location filename="../windows/editorwindow.cpp" line="486"/>
+        <source>Previous database</source>
+        <translation>Base de dades anterior</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="487"/>
-      <source>Next database</source>
-      <translation>Base de dades següent</translation>
+        <location filename="../windows/editorwindow.cpp" line="487"/>
+        <source>Next database</source>
+        <translation>Base de dades següent</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="491"/>
-      <source>Export execution history</source>
-      <comment>sql editor</comment>
-      <translation>Exporta l&apos;historial d&apos;execució</translation>
+        <location filename="../windows/editorwindow.cpp" line="491"/>
+        <source>Export execution history</source>
+        <comment>sql editor</comment>
+        <translation>Exporta l&apos;historial d&apos;execució</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="494"/>
-      <source>Show next tab</source>
-      <comment>sql editor</comment>
-      <translation>Mostra la pestanya següent</translation>
+        <location filename="../windows/editorwindow.cpp" line="494"/>
+        <source>Show next tab</source>
+        <comment>sql editor</comment>
+        <translation>Mostra la pestanya següent</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="495"/>
-      <source>Show previous tab</source>
-      <comment>sql editor</comment>
-      <translation>Mostra la pestanya anterior</translation>
+        <location filename="../windows/editorwindow.cpp" line="495"/>
+        <source>Show previous tab</source>
+        <comment>sql editor</comment>
+        <translation>Mostra la pestanya anterior</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="498"/>
-      <source>Export selected SQL history entries</source>
-      <comment>sql editor</comment>
-      <translation>Exporta les entrades seleccionades de l&apos;historial SQL</translation>
+        <location filename="../windows/editorwindow.cpp" line="498"/>
+        <source>Export selected SQL history entries</source>
+        <comment>sql editor</comment>
+        <translation>Exporta les entrades seleccionades de l&apos;historial SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="499"/>
-      <source>Delete selected SQL history entries</source>
-      <comment>sql editor</comment>
-      <translation>Suprimeix les entrades seleccionades de l&apos;historial SQL</translation>
+        <location filename="../windows/editorwindow.cpp" line="499"/>
+        <source>Delete selected SQL history entries</source>
+        <comment>sql editor</comment>
+        <translation>Suprimeix les entrades seleccionades de l&apos;historial SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="500"/>
-      <source>Execute single query under cursor</source>
-      <translation>Executa la consulta individual sota el cursor</translation>
+        <location filename="../windows/editorwindow.cpp" line="500"/>
+        <source>Execute single query under cursor</source>
+        <translation>Executa la consulta individual sota el cursor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="501"/>
-      <source>Execute all queries in editor</source>
-      <translation>Executa totes les consultes de l&apos;editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="501"/>
+        <source>Execute all queries in editor</source>
+        <translation>Executa totes les consultes de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="522"/>
-      <source>Results layout: Separate tab</source>
-      <comment>sql editor</comment>
-      <translation>Disposició dels resultats: pestanya separada</translation>
+        <location filename="../windows/editorwindow.cpp" line="522"/>
+        <source>Results layout: Separate tab</source>
+        <comment>sql editor</comment>
+        <translation>Disposició dels resultats: pestanya separada</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="523"/>
-      <source>Results layout: Below editor</source>
-      <comment>sql editor</comment>
-      <translation>Disposició dels resultats: sota l&apos;editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="523"/>
+        <source>Results layout: Below editor</source>
+        <comment>sql editor</comment>
+        <translation>Disposició dels resultats: sota l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="524"/>
-      <source>Results layout: Right of editor</source>
-      <comment>sql editor</comment>
-      <translation>Disposició dels resultats: a la dreta de l&apos;editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="524"/>
+        <source>Results layout: Right of editor</source>
+        <comment>sql editor</comment>
+        <translation>Disposició dels resultats: a la dreta de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="539"/>
-      <location filename="../windows/editorwindow.cpp" line="540"/>
-      <source>Explain mode: %1</source>
-      <comment>sql editor</comment>
-      <translation>Mode Explain: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="539"/>
+        <location filename="../windows/editorwindow.cpp" line="540"/>
+        <source>Explain mode: %1</source>
+        <comment>sql editor</comment>
+        <translation>Mode Explain: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="560"/>
-      <source>Auto-commit queries</source>
-      <comment>sql editor</comment>
-      <translation>Confirma automàticament les consultes</translation>
+        <location filename="../windows/editorwindow.cpp" line="560"/>
+        <source>Auto-commit queries</source>
+        <comment>sql editor</comment>
+        <translation>Confirma automàticament les consultes</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="577"/>
-      <source>Editor window settings</source>
-      <comment>sql editor</comment>
-      <translation>Configuració de la finestra de l&apos;editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="577"/>
+        <source>Editor window settings</source>
+        <comment>sql editor</comment>
+        <translation>Configuració de la finestra de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="625"/>
-      <source>Active database (%1/%2)</source>
-      <translation>Base de dades activa (%1/%2)</translation>
+        <location filename="../windows/editorwindow.cpp" line="625"/>
+        <source>Active database (%1/%2)</source>
+        <translation>Base de dades activa (%1/%2)</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="776"/>
-      <source>Save to file</source>
-      <translation>Desa a un fitxer</translation>
+        <location filename="../windows/editorwindow.cpp" line="776"/>
+        <source>Save to file</source>
+        <translation>Desa a un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="787"/>
-      <source>Could not open file &apos;%1&apos; for writing: %2</source>
-      <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per escriure-hi: %2</translation>
+        <location filename="../windows/editorwindow.cpp" line="787"/>
+        <source>Could not open file &apos;%1&apos; for writing: %2</source>
+        <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per escriure-hi: %2</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="807"/>
-      <source>Saved SQL contents to file: %1</source>
-      <translation>S&apos;ha desat el contingut SQL al fitxer: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="807"/>
+        <source>Saved SQL contents to file: %1</source>
+        <translation>S&apos;ha desat el contingut SQL al fitxer: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="830"/>
-      <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-      <translation>No s&apos;ha pogut canviar journal_mode a WAL. El mode de confirmació manual no està disponible. Error: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="830"/>
+        <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
+        <translation>No s&apos;ha pogut canviar journal_mode a WAL. El mode de confirmació manual no està disponible. Error: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="841"/>
-      <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-      <translation>No s&apos;ha pogut obrir una connexió nova a la base de dades. No s&apos;activarà el mode de confirmació manual. Error: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
+        <translation>No s&apos;ha pogut obrir una connexió nova a la base de dades. No s&apos;activarà el mode de confirmació manual. Error: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="844"/>
-      <source>The joirnal_mode will be switched back to %1.</source>
-      <translation>El journal_mode es tornarà a canviar a %1.</translation>
+        <location filename="../windows/editorwindow.cpp" line="844"/>
+        <source>The joirnal_mode will be switched back to %1.</source>
+        <translation>El journal_mode es tornarà a canviar a %1.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="968"/>
-      <source>Query finished in %1 second(s). Rows affected: %2</source>
-      <translation>Consulta acabada en %1 segon(s). Files afectades: %2</translation>
+        <location filename="../windows/editorwindow.cpp" line="968"/>
+        <source>Query finished in %1 second(s). Rows affected: %2</source>
+        <translation>Consulta acabada en %1 segon(s). Files afectades: %2</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="972"/>
-      <source>Query finished in %1 second(s).</source>
-      <translation>Consulta acabada en %1 segon(s).</translation>
+        <location filename="../windows/editorwindow.cpp" line="972"/>
+        <source>Query finished in %1 second(s).</source>
+        <translation>Consulta acabada en %1 segon(s).</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1103"/>
-      <source>Clear execution history</source>
-      <translation>Esborra l&apos;historial d&apos;execució</translation>
+        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <source>Clear execution history</source>
+        <translation>Esborra l&apos;historial d&apos;execució</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1103"/>
-      <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
-      <translation>Segur que voleu esborrar tot l&apos;historial d&apos;execució SQL? Això no es pot desfer.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
+        <translation>Segur que voleu esborrar tot l&apos;historial d&apos;execució SQL? Això no es pot desfer.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1141"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>No es pot exportar perquè no hi ha cap connector d&apos;exportació carregat.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1141"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>No es pot exportar perquè no hi ha cap connector d&apos;exportació carregat.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1169"/>
-      <source>Query auto-commit is now enabled in: %1</source>
-      <comment>sql editor</comment>
-      <translation>La confirmació automàtica de consultes ara està activada a: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="1169"/>
+        <source>Query auto-commit is now enabled in: %1</source>
+        <comment>sql editor</comment>
+        <translation>La confirmació automàtica de consultes ara està activada a: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1171"/>
-      <source>Query auto-commit is now disabled in: %1</source>
-      <comment>sql editor</comment>
-      <translation>La confirmació automàtica de consultes ara està desactivada a: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="1171"/>
+        <source>Query auto-commit is now disabled in: %1</source>
+        <comment>sql editor</comment>
+        <translation>La confirmació automàtica de consultes ara està desactivada a: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1229"/>
-      <location filename="../windows/editorwindow.cpp" line="1233"/>
-      <source>Apply changes to the transaction</source>
-      <translation>Aplica els canvis a la transacció</translation>
+        <location filename="../windows/editorwindow.cpp" line="1229"/>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
+        <source>Apply changes to the transaction</source>
+        <translation>Aplica els canvis a la transacció</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1230"/>
-      <location filename="../windows/editorwindow.cpp" line="1234"/>
-      <source>Discard changes in data view</source>
-      <translation>Descarta els canvis de la vista de dades</translation>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <source>Discard changes in data view</source>
+        <translation>Descarta els canvis de la vista de dades</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1231"/>
-      <source>Apply selected changes to the transaction</source>
-      <translation>Aplica els canvis seleccionats a la transacció</translation>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <source>Apply selected changes to the transaction</source>
+        <translation>Aplica els canvis seleccionats a la transacció</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1232"/>
-      <source>Discard changes in selected cells</source>
-      <translation>Descarta els canvis a les cel·les seleccionades</translation>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
+        <source>Discard changes in selected cells</source>
+        <translation>Descarta els canvis a les cel·les seleccionades</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1273"/>
-      <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-      <translation>No es pot canviar de base de dades mentre hi ha una transacció manual pendent. Confirmeu o revertiu la transacció abans de canviar de base de dades.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1273"/>
+        <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
+        <translation>No es pot canviar de base de dades mentre hi ha una transacció manual pendent. Confirmeu o revertiu la transacció abans de canviar de base de dades.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1313"/>
-      <source>Manual transaction committed successfully.</source>
-      <translation>La transacció manual s&apos;ha confirmat correctament.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1313"/>
+        <source>Manual transaction committed successfully.</source>
+        <translation>La transacció manual s&apos;ha confirmat correctament.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1342"/>
-      <source>Manual transaction rolled back.</source>
-      <translation>La transacció manual s&apos;ha revertit.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <source>Manual transaction rolled back.</source>
+        <translation>La transacció manual s&apos;ha revertit.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1385"/>
-      <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
-      <translation>No hi ha cap base de dades seleccionada a l&apos;editor SQL. No es pot crear una vista per a una base de dades desconeguda.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1385"/>
+        <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
+        <translation>No hi ha cap base de dades seleccionada a l&apos;editor SQL. No es pot crear una vista per a una base de dades desconeguda.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1435"/>
-      <source>Editor window &quot;%1&quot; has uncommitted data.</source>
-      <translation>La finestra de l&apos;editor &quot;%1&quot; té dades no confirmades.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1435"/>
+        <source>Editor window &quot;%1&quot; has uncommitted data.</source>
+        <translation>La finestra de l&apos;editor &quot;%1&quot; té dades no confirmades.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ErrorsConfirmDialog</name>
     <message>
-      <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
-      <source>Errors</source>
-      <translation>Errades</translation>
+        <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
+        <source>Errors</source>
+        <translation>Errades</translation>
     </message>
     <message>
-      <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
-      <source>Following errors occurred:</source>
-      <translation>S&apos;han produït els errors següents:</translation>
+        <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
+        <source>Following errors occurred:</source>
+        <translation>S&apos;han produït els errors següents:</translation>
     </message>
     <message>
-      <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
-      <source>Would you like to proceed?</source>
-      <translation>Voleu continuar?</translation>
+        <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
+        <source>Would you like to proceed?</source>
+        <translation>Voleu continuar?</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ExecFromFileDialog</name>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
-      <source>Execute SQL from file</source>
-      <translation>Executa SQL des d&apos;un fitxer</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
+        <source>Execute SQL from file</source>
+        <translation>Executa SQL des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
-      <source>Input file</source>
-      <translation>Fitxer d&apos;entrada</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
+        <source>Input file</source>
+        <translation>Fitxer d&apos;entrada</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
-      <source>Path to file</source>
-      <translation>Camí al fitxer</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
+        <source>Path to file</source>
+        <translation>Camí al fitxer</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
-      <source>Browse for file</source>
-      <translation>Navega per cercar un fitxer</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
+        <source>Browse for file</source>
+        <translation>Navega per cercar un fitxer</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
-      <source>Options</source>
-      <translation>Opcions</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
+        <source>Options</source>
+        <translation>Opcions</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
-      <source>File encoding</source>
-      <translation>Codificació del fitxer</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
+        <source>File encoding</source>
+        <translation>Codificació del fitxer</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
-      <source>Skip failing SQL statements</source>
-      <translation>Omet les sentències SQL que fallin</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
+        <source>Skip failing SQL statements</source>
+        <translation>Omet les sentències SQL que fallin</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Qualsevol contingut que no sigui SQL vàlid farà que una sentència falli.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Qualsevol contingut que no sigui SQL vàlid farà que una sentència falli.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permet ordres amb punt (utilitzades per l&apos;aplicació CLI oficial de SQLite) al fitxer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permet ordres amb punt (utilitzades per l&apos;aplicació CLI oficial de SQLite) al fitxer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permet ordres amb punt (utilitzades per l&apos;aplicació CLI oficial de SQLite) al fitxer i fins i tot n&apos;executa algunes (p. ex. .print i .read). Totes les altres ordres amb punt s&apos;ignoren.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permet ordres amb punt (utilitzades per l&apos;aplicació CLI oficial de SQLite) al fitxer i fins i tot n&apos;executa algunes (p. ex. .print i .read). Totes les altres ordres amb punt s&apos;ignoren.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
-      <source>Strict (only SQL content allowed)</source>
-      <translation>Estricte (només es permet contingut SQL)</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
+        <source>Strict (only SQL content allowed)</source>
+        <translation>Estricte (només es permet contingut SQL)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
-      <source>Execution mode</source>
-      <translation>Mode d&apos;execució</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
+        <source>Execution mode</source>
+        <translation>Mode d&apos;execució</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
-      <source>Permissive (dot commands ignored)</source>
-      <translation>Permissiu (s&apos;ignoren les ordres amb punt)</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
+        <source>Permissive (dot commands ignored)</source>
+        <translation>Permissiu (s&apos;ignoren les ordres amb punt)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
-      <source>Extended (dot commands executed)</source>
-      <translation>Ampliat (s&apos;executen les ordres amb punt)</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
+        <source>Extended (dot commands executed)</source>
+        <translation>Ampliat (s&apos;executen les ordres amb punt)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
-      <source>SQL scripts (*.sql);;All files (*)</source>
-      <translation>Scripts SQL (*.sql);;Tots els fitxers (*)</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
+        <source>SQL scripts (*.sql);;All files (*)</source>
+        <translation>Scripts SQL (*.sql);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
-      <source>Execute SQL file</source>
-      <translation>Executa un fitxer SQL</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
+        <source>Execute SQL file</source>
+        <translation>Executa un fitxer SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
-      <source>Please provide file to be executed.</source>
-      <translation>Proporcioneu el fitxer que s&apos;ha d&apos;executar.</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
+        <source>Please provide file to be executed.</source>
+        <translation>Proporcioneu el fitxer que s&apos;ha d&apos;executar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
-      <source>Provided file does not exist or cannot be read.</source>
-      <translation>El fitxer proporcionat no existeix o no es pot llegir.</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
+        <source>Provided file does not exist or cannot be read.</source>
+        <translation>El fitxer proporcionat no existeix o no es pot llegir.</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
-      <source>Select a database to execute the SQL file on.</source>
-      <translation>Seleccioneu una base de dades on executar el fitxer SQL.</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
+        <source>Select a database to execute the SQL file on.</source>
+        <translation>Seleccioneu una base de dades on executar el fitxer SQL.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ExportDialog</name>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="14"/>
-      <source>Export</source>
-      <translation>Exporta</translation>
+        <location filename="../dialogs/exportdialog.ui" line="14"/>
+        <source>Export</source>
+        <translation>Exporta</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="24"/>
-      <source>What do you want to export?</source>
-      <translation>Què voleu exportar?</translation>
+        <location filename="../dialogs/exportdialog.ui" line="24"/>
+        <source>What do you want to export?</source>
+        <translation>Què voleu exportar?</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="39"/>
-      <source>A database</source>
-      <translation>Una base de dades</translation>
+        <location filename="../dialogs/exportdialog.ui" line="39"/>
+        <source>A database</source>
+        <translation>Una base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="49"/>
-      <source>A single table</source>
-      <translation>Una sola taula</translation>
+        <location filename="../dialogs/exportdialog.ui" line="49"/>
+        <source>A single table</source>
+        <translation>Una sola taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="56"/>
-      <source>A single view</source>
-      <translation>Una sola vista</translation>
+        <location filename="../dialogs/exportdialog.ui" line="56"/>
+        <source>A single view</source>
+        <translation>Una sola vista</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="63"/>
-      <source>Query results</source>
-      <translation>Resultats de la consulta</translation>
+        <location filename="../dialogs/exportdialog.ui" line="63"/>
+        <source>Query results</source>
+        <translation>Resultats de la consulta</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="75"/>
-      <source>Table to export</source>
-      <translation>Taula a exportar</translation>
+        <location filename="../dialogs/exportdialog.ui" line="75"/>
+        <source>Table to export</source>
+        <translation>Taula a exportar</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="110"/>
-      <location filename="../dialogs/exportdialog.ui" line="234"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../dialogs/exportdialog.ui" line="110"/>
+        <location filename="../dialogs/exportdialog.ui" line="234"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="117"/>
-      <source>Table</source>
-      <translation>Taula</translation>
+        <location filename="../dialogs/exportdialog.ui" line="117"/>
+        <source>Table</source>
+        <translation>Taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="134"/>
-      <location filename="../dialogs/exportdialog.ui" line="258"/>
-      <source>Options</source>
-      <translation>Opcions</translation>
+        <location filename="../dialogs/exportdialog.ui" line="134"/>
+        <location filename="../dialogs/exportdialog.ui" line="258"/>
+        <source>Options</source>
+        <translation>Opcions</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="140"/>
-      <location filename="../dialogs/exportdialog.ui" line="264"/>
-      <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
-      <translation>Quan aquesta opció no està marcada, només s&apos;exporta el DDL de la taula (sentència CREATE TABLE).</translation>
+        <location filename="../dialogs/exportdialog.ui" line="140"/>
+        <location filename="../dialogs/exportdialog.ui" line="264"/>
+        <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
+        <translation>Quan aquesta opció no està marcada, només s&apos;exporta el DDL de la taula (sentència CREATE TABLE).</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="143"/>
-      <source>Export table data</source>
-      <translation>Exporta les dades de la taula</translation>
+        <location filename="../dialogs/exportdialog.ui" line="143"/>
+        <source>Export table data</source>
+        <translation>Exporta les dades de la taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="153"/>
-      <source>Export table indexes</source>
-      <translation>Exporta els índexs de la taula</translation>
+        <location filename="../dialogs/exportdialog.ui" line="153"/>
+        <source>Export table indexes</source>
+        <translation>Exporta els índexs de la taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="163"/>
-      <source>Export table triggers</source>
-      <translation>Exporta els disparadors de la taula</translation>
+        <location filename="../dialogs/exportdialog.ui" line="163"/>
+        <source>Export table triggers</source>
+        <translation>Exporta els disparadors de la taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="185"/>
-      <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
-      <translation>Tingueu en compte que l&apos;exportació d&apos;índexs i disparadors de taules pot no estar admesa per alguns formats de sortida.</translation>
+        <location filename="../dialogs/exportdialog.ui" line="185"/>
+        <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
+        <translation>Tingueu en compte que l&apos;exportació d&apos;índexs i disparadors de taules pot no estar admesa per alguns formats de sortida.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="199"/>
-      <source>View to export</source>
-      <translation>Vista a exportar</translation>
+        <location filename="../dialogs/exportdialog.ui" line="199"/>
+        <source>View to export</source>
+        <translation>Vista a exportar</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="241"/>
-      <source>View</source>
-      <translation>Vista</translation>
+        <location filename="../dialogs/exportdialog.ui" line="241"/>
+        <source>View</source>
+        <translation>Vista</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="267"/>
-      <source>Export view data</source>
-      <translation>Exporta les dades de la vista</translation>
+        <location filename="../dialogs/exportdialog.ui" line="267"/>
+        <source>Export view data</source>
+        <translation>Exporta les dades de la vista</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="277"/>
-      <source>Export view triggers</source>
-      <translation>Exporta els disparadors de la vista</translation>
+        <location filename="../dialogs/exportdialog.ui" line="277"/>
+        <source>Export view triggers</source>
+        <translation>Exporta els disparadors de la vista</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="299"/>
-      <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
-      <translation>Tingueu en compte que l&apos;exportació de disparadors de vistes pot no estar admesa per alguns formats de sortida.</translation>
+        <location filename="../dialogs/exportdialog.ui" line="299"/>
+        <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
+        <translation>Tingueu en compte que l&apos;exportació de disparadors de vistes pot no estar admesa per alguns formats de sortida.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="313"/>
-      <source>Select database objects to export</source>
-      <translation>Seleccioneu els objectes de base de dades que voleu exportar</translation>
+        <location filename="../dialogs/exportdialog.ui" line="313"/>
+        <source>Select database objects to export</source>
+        <translation>Seleccioneu els objectes de base de dades que voleu exportar</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="319"/>
-      <source>Export indexes (tables only)</source>
-      <translation>Exporta índexs (només taules)</translation>
+        <location filename="../dialogs/exportdialog.ui" line="319"/>
+        <source>Export indexes (tables only)</source>
+        <translation>Exporta índexs (només taules)</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="333"/>
-      <source>Export data from tables</source>
-      <translation>Exporta dades de taules</translation>
+        <location filename="../dialogs/exportdialog.ui" line="333"/>
+        <source>Export data from tables</source>
+        <translation>Exporta dades de taules</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="343"/>
-      <source>Select all</source>
-      <translation>Selecciona-ho tot</translation>
+        <location filename="../dialogs/exportdialog.ui" line="343"/>
+        <source>Select all</source>
+        <translation>Selecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="374"/>
-      <source>Export data from views</source>
-      <translation>Exporta dades de vistes</translation>
+        <location filename="../dialogs/exportdialog.ui" line="374"/>
+        <source>Export data from views</source>
+        <translation>Exporta dades de vistes</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="326"/>
-      <source>Deselect all</source>
-      <translation>Desselecciona-ho tot</translation>
+        <location filename="../dialogs/exportdialog.ui" line="326"/>
+        <source>Deselect all</source>
+        <translation>Desselecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="350"/>
-      <source>Export triggers (tables and views)</source>
-      <translation>Exporta disparadors (taules i vistes)</translation>
+        <location filename="../dialogs/exportdialog.ui" line="350"/>
+        <source>Export triggers (tables and views)</source>
+        <translation>Exporta disparadors (taules i vistes)</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="360"/>
-      <location filename="../dialogs/exportdialog.ui" line="394"/>
-      <source>Database:</source>
-      <translation>Base de dades:</translation>
+        <location filename="../dialogs/exportdialog.ui" line="360"/>
+        <location filename="../dialogs/exportdialog.ui" line="394"/>
+        <source>Database:</source>
+        <translation>Base de dades:</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="382"/>
-      <source>Query to export results for</source>
-      <translation>Consulta per a la qual exportar els resultats</translation>
+        <location filename="../dialogs/exportdialog.ui" line="382"/>
+        <source>Query to export results for</source>
+        <translation>Consulta per a la qual exportar els resultats</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="401"/>
-      <source>Query to be executed for results:</source>
-      <translation>Consulta que s&apos;executarà per obtenir els resultats:</translation>
+        <location filename="../dialogs/exportdialog.ui" line="401"/>
+        <source>Query to be executed for results:</source>
+        <translation>Consulta que s&apos;executarà per obtenir els resultats:</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="409"/>
-      <source>Export format and options</source>
-      <translation>Format d&apos;exportació i opcions</translation>
+        <location filename="../dialogs/exportdialog.ui" line="409"/>
+        <source>Export format and options</source>
+        <translation>Format d&apos;exportació i opcions</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="463"/>
-      <source>Export format</source>
-      <translation>Format d&apos;exportació</translation>
+        <location filename="../dialogs/exportdialog.ui" line="463"/>
+        <source>Export format</source>
+        <translation>Format d&apos;exportació</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="475"/>
-      <source>Output</source>
-      <translation>Sortida</translation>
+        <location filename="../dialogs/exportdialog.ui" line="475"/>
+        <source>Output</source>
+        <translation>Sortida</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="481"/>
-      <source>Exported file path</source>
-      <translation>Camí del fitxer exportat</translation>
+        <location filename="../dialogs/exportdialog.ui" line="481"/>
+        <source>Exported file path</source>
+        <translation>Camí del fitxer exportat</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="488"/>
-      <source>Clipboard</source>
-      <translation>Porta-retalls</translation>
+        <location filename="../dialogs/exportdialog.ui" line="488"/>
+        <source>Clipboard</source>
+        <translation>Porta-retalls</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="502"/>
-      <source>File</source>
-      <translation>Fitxer</translation>
+        <location filename="../dialogs/exportdialog.ui" line="502"/>
+        <source>File</source>
+        <translation>Fitxer</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="527"/>
-      <source>Exported text encoding:</source>
-      <translation>Codificació del text exportat:</translation>
+        <location filename="../dialogs/exportdialog.ui" line="527"/>
+        <source>Exported text encoding:</source>
+        <translation>Codificació del text exportat:</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="543"/>
-      <source>Export format options</source>
-      <translation>Opcions del format d&apos;exportació</translation>
+        <location filename="../dialogs/exportdialog.ui" line="543"/>
+        <source>Export format options</source>
+        <translation>Opcions del format d&apos;exportació</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="69"/>
-      <source>Cancel</source>
-      <translation>Cancel·la</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="69"/>
+        <source>Cancel</source>
+        <translation>Cancel·la</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="197"/>
-      <location filename="../dialogs/exportdialog.cpp" line="221"/>
-      <location filename="../dialogs/exportdialog.cpp" line="246"/>
-      <location filename="../dialogs/exportdialog.cpp" line="271"/>
-      <source>Select database to export.</source>
-      <translation>Seleccioneu la base de dades a exportar.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="197"/>
+        <location filename="../dialogs/exportdialog.cpp" line="221"/>
+        <location filename="../dialogs/exportdialog.cpp" line="246"/>
+        <location filename="../dialogs/exportdialog.cpp" line="271"/>
+        <source>Select database to export.</source>
+        <translation>Seleccioneu la base de dades a exportar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="198"/>
-      <source>Select table to export.</source>
-      <translation>Seleccioneu la taula a exportar.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <source>Select table to export.</source>
+        <translation>Seleccioneu la taula a exportar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="222"/>
-      <source>Select view to export.</source>
-      <translation>Seleccioneu la vista a exportar.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <source>Select view to export.</source>
+        <translation>Seleccioneu la vista a exportar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="247"/>
-      <source>Enter valid query to export.</source>
-      <translation>Introduïu una consulta vàlida per exportar.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <source>Enter valid query to export.</source>
+        <translation>Introduïu una consulta vàlida per exportar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="272"/>
-      <source>Select at least one object to export.</source>
-      <translation>Seleccioneu almenys un objecte per exportar.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="272"/>
+        <source>Select at least one object to export.</source>
+        <translation>Seleccioneu almenys un objecte per exportar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="295"/>
-      <source>You must provide a file name to export to.</source>
-      <translation>Heu de proporcionar un nom de fitxer al qual exportar.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="295"/>
+        <source>You must provide a file name to export to.</source>
+        <translation>Heu de proporcionar un nom de fitxer al qual exportar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="302"/>
-      <source>Path you provided is an existing directory. You cannot overwrite it.</source>
-      <translation>El camí que heu proporcionat és un directori existent. No el podeu sobreescriure.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="302"/>
+        <source>Path you provided is an existing directory. You cannot overwrite it.</source>
+        <translation>El camí que heu proporcionat és un directori existent. No el podeu sobreescriure.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="308"/>
-      <source>The directory &apos;%1&apos; does not exist.</source>
-      <translation>El directori &apos;%1&apos; no existeix.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="308"/>
+        <source>The directory &apos;%1&apos; does not exist.</source>
+        <translation>El directori &apos;%1&apos; no existeix.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="314"/>
-      <source>The file &apos;%1&apos; exists and will be overwritten.</source>
-      <translation>El fitxer &apos;%1&apos; existeix i se sobreescriurà.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="314"/>
+        <source>The file &apos;%1&apos; exists and will be overwritten.</source>
+        <translation>El fitxer &apos;%1&apos; existeix i se sobreescriurà.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="555"/>
-      <source>All files (*)</source>
-      <translation>Tots els fitxers (*)</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="555"/>
+        <source>All files (*)</source>
+        <translation>Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="558"/>
-      <source>Pick file to export to</source>
-      <translation>Trieu el fitxer on exportar</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="558"/>
+        <source>Pick file to export to</source>
+        <translation>Trieu el fitxer on exportar</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="985"/>
-      <source>Internal error during export. This is a bug. Please report it.</source>
-      <translation>Error intern durant l&apos;exportació. Això és un error del programa. Informeu-ne, si us plau.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="985"/>
+        <source>Internal error during export. This is a bug. Please report it.</source>
+        <translation>Error intern durant l&apos;exportació. Això és un error del programa. Informeu-ne, si us plau.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FileExecErrorsDialog</name>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
-      <source>Execution errors</source>
-      <translation>Errors d&apos;execució</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
+        <source>Execution errors</source>
+        <translation>Errors d&apos;execució</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
-      <source>Following errors were encountered during execution of SQL statements from the file:</source>
-      <translation>S&apos;han trobat els errors següents durant l&apos;execució de sentències SQL des del fitxer:</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
+        <source>Following errors were encountered during execution of SQL statements from the file:</source>
+        <translation>S&apos;han trobat els errors següents durant l&apos;execució de sentències SQL des del fitxer:</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
-      <source>SQL</source>
-      <translation>SQL</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
+        <source>SQL</source>
+        <translation>SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
-      <source>Error</source>
-      <translation>Errada</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
+        <source>Error</source>
+        <translation>Errada</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
-      <source>Statements that were executed successfully were commited.</source>
-      <translation>Les sentències que s&apos;han executat correctament s&apos;han confirmat.</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
+        <source>Statements that were executed successfully were commited.</source>
+        <translation>Les sentències que s&apos;han executat correctament s&apos;han confirmat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
-      <source>Statements that were executed successfully were rolled back.</source>
-      <translation>Les sentències que s&apos;han executat correctament s&apos;han revertit.</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
+        <source>Statements that were executed successfully were rolled back.</source>
+        <translation>Les sentències que s&apos;han executat correctament s&apos;han revertit.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FkComboBox</name>
     <message>
-      <location filename="../datagrid/fkcombobox.cpp" line="375"/>
-      <source>Cannot edit this cell. Details: %1</source>
-      <translation>No es pot editar aquesta cel·la. Detalls: %1</translation>
+        <location filename="../datagrid/fkcombobox.cpp" line="375"/>
+        <source>Cannot edit this cell. Details: %1</source>
+        <translation>No es pot editar aquesta cel·la. Detalls: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FontEdit</name>
     <message>
-      <location filename="../common/fontedit.cpp" line="61"/>
-      <source>Choose font</source>
-      <comment>font configuration</comment>
-      <translation>Tria el tipus de lletra</translation>
+        <location filename="../common/fontedit.cpp" line="61"/>
+        <source>Choose font</source>
+        <comment>font configuration</comment>
+        <translation>Tria el tipus de lletra</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>Form</name>
     <message>
-      <location filename="../forms/sqlformatterplugin.ui" line="20"/>
-      <source>Active SQL formatter plugin</source>
-      <translation>Connector formatador SQL actiu</translation>
+        <location filename="../forms/sqlformatterplugin.ui" line="20"/>
+        <source>Active SQL formatter plugin</source>
+        <translation>Connector formatador SQL actiu</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FormView</name>
     <message>
-      <location filename="../formview.cpp" line="287"/>
-      <source>Commit row</source>
-      <comment>form view</comment>
-      <translation>Confirma la fila</translation>
+        <location filename="../formview.cpp" line="287"/>
+        <source>Commit row</source>
+        <comment>form view</comment>
+        <translation>Confirma la fila</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="288"/>
-      <source>Rollback row</source>
-      <comment>form view</comment>
-      <translation>Reverteix la fila</translation>
+        <location filename="../formview.cpp" line="288"/>
+        <source>Rollback row</source>
+        <comment>form view</comment>
+        <translation>Reverteix la fila</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="289"/>
-      <source>First row</source>
-      <comment>form view</comment>
-      <translation>Primera fila</translation>
+        <location filename="../formview.cpp" line="289"/>
+        <source>First row</source>
+        <comment>form view</comment>
+        <translation>Primera fila</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="290"/>
-      <source>Previous row</source>
-      <comment>form view</comment>
-      <translation>Fila anterior</translation>
+        <location filename="../formview.cpp" line="290"/>
+        <source>Previous row</source>
+        <comment>form view</comment>
+        <translation>Fila anterior</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="291"/>
-      <source>Next row</source>
-      <comment>form view</comment>
-      <translation>Fila següent</translation>
+        <location filename="../formview.cpp" line="291"/>
+        <source>Next row</source>
+        <comment>form view</comment>
+        <translation>Fila següent</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="292"/>
-      <source>Last row</source>
-      <comment>form view</comment>
-      <translation>Última fila</translation>
+        <location filename="../formview.cpp" line="292"/>
+        <source>Last row</source>
+        <comment>form view</comment>
+        <translation>Última fila</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="293"/>
-      <source>Insert new row</source>
-      <comment>form view</comment>
-      <translation>Insereix una fila nova</translation>
+        <location filename="../formview.cpp" line="293"/>
+        <source>Insert new row</source>
+        <comment>form view</comment>
+        <translation>Insereix una fila nova</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="294"/>
-      <source>Delete current row</source>
-      <comment>form view</comment>
-      <translation>Suprimeix la fila actual</translation>
+        <location filename="../formview.cpp" line="294"/>
+        <source>Delete current row</source>
+        <comment>form view</comment>
+        <translation>Suprimeix la fila actual</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FunctionsEditor</name>
     <message>
-      <location filename="../windows/functionseditor.ui" line="84"/>
-      <source>Filter functions</source>
-      <translation>Filtra funcions</translation>
+        <location filename="../windows/functionseditor.ui" line="84"/>
+        <source>Filter functions</source>
+        <translation>Filtra funcions</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="172"/>
-      <source>Input arguments</source>
-      <translation>Arguments d&apos;entrada</translation>
+        <location filename="../windows/functionseditor.ui" line="172"/>
+        <source>Input arguments</source>
+        <translation>Arguments d&apos;entrada</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="178"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aquí podeu definir els paràmetres de la funció. Els noms especificats estan disponibles com a variables al codi d&apos;implementació i contenen els valors passats a la funció. Els arguments també són accessibles mitjançant el contenidor d&apos;arguments estàndard del llenguatge (p. ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; en Tcl o &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; en JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="178"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aquí podeu definir els paràmetres de la funció. Els noms especificats estan disponibles com a variables al codi d&apos;implementació i contenen els valors passats a la funció. Els arguments també són accessibles mitjançant el contenidor d&apos;arguments estàndard del llenguatge (p. ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; en Tcl o &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; en JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="207"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indica que la funció accepta un nombre variable d&apos;arguments. En aquest mode, els arguments només estan disponibles mitjançant el mecanisme específic del llenguatge (p. ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; en Tcl o &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; en JavaScript).&lt;br/&gt;Si es desactiva, els arguments es defineixen a sota i els seus noms també estan disponibles com a variables al codi d&apos;implementació, tot i que continuen sent accessibles mitjançant el contenidor d&apos;arguments estàndard del llenguatge.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="207"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indica que la funció accepta un nombre variable d&apos;arguments. En aquest mode, els arguments només estan disponibles mitjançant el mecanisme específic del llenguatge (p. ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; en Tcl o &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; en JavaScript).&lt;br/&gt;Si es desactiva, els arguments es defineixen a sota i els seus noms també estan disponibles com a variables al codi d&apos;implementació, tot i que continuen sent accessibles mitjançant el contenidor d&apos;arguments estàndard del llenguatge.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="210"/>
-      <source>Undefined</source>
-      <translation>No definit</translation>
+        <location filename="../windows/functionseditor.ui" line="210"/>
+        <source>Undefined</source>
+        <translation>No definit</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="226"/>
-      <source>Databases</source>
-      <translation>Bases de dades</translation>
+        <location filename="../windows/functionseditor.ui" line="226"/>
+        <source>Databases</source>
+        <translation>Bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="232"/>
-      <source>Register in all databases</source>
-      <translation>Registra a totes les bases de dades</translation>
+        <location filename="../windows/functionseditor.ui" line="232"/>
+        <source>Register in all databases</source>
+        <translation>Registra a totes les bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="239"/>
-      <source>Register in following databases:</source>
-      <translation>Registra a les bases de dades següents:</translation>
+        <location filename="../windows/functionseditor.ui" line="239"/>
+        <source>Register in following databases:</source>
+        <translation>Registra a les bases de dades següents:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="274"/>
-      <source>Type:</source>
-      <translation>Tipus:</translation>
+        <location filename="../windows/functionseditor.ui" line="274"/>
+        <source>Type:</source>
+        <translation>Tipus:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="281"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecciona el llenguatge utilitzat per implementar la funció. El llenguatge triat determina com s&apos;interpreta el codi de la funció i quina sintaxi, variables i entorn d&apos;execució estan disponibles als blocs d&apos;implementació.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="281"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecciona el llenguatge utilitzat per implementar la funció. El llenguatge triat determina com s&apos;interpreta el codi de la funció i quina sintaxi, variables i entorn d&apos;execució estan disponibles als blocs d&apos;implementació.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="288"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecciona el tipus de funció que s&apos;implementa. El tipus seleccionat determina com SQLite invoca la funció i quins blocs d&apos;implementació s&apos;han de proporcionar: un únic bloc de codi per a funcions escalars, processament basat en passos per a funcions d&apos;agregació, o gestió addicional del marc de finestra (inclòs el pas invers) per a funcions d&apos;agregació de finestra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="288"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecciona el tipus de funció que s&apos;implementa. El tipus seleccionat determina com SQLite invoca la funció i quins blocs d&apos;implementació s&apos;han de proporcionar: un únic bloc de codi per a funcions escalars, processament basat en passos per a funcions d&apos;agregació, o gestió addicional del marc de finestra (inclòs el pas invers) per a funcions d&apos;agregació de finestra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="295"/>
-      <source>Function name:</source>
-      <translation>Nom de la funció:</translation>
+        <location filename="../windows/functionseditor.ui" line="295"/>
+        <source>Function name:</source>
+        <translation>Nom de la funció:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="305"/>
-      <source>Implementation language:</source>
-      <translation>Llenguatge d&apos;implementació:</translation>
+        <location filename="../windows/functionseditor.ui" line="305"/>
+        <source>Implementation language:</source>
+        <translation>Llenguatge d&apos;implementació:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="312"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indica que la funció sempre retorna el mateix resultat per als mateixos arguments d&apos;entrada. És necessari per usar-la en algunes expressions d&apos;esquema (p. ex. restriccions CHECK, índexs parcials, índexs d&apos;expressió, columnes generades) i pot permetre que SQLite apliqui optimitzacions addicionals.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="312"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indica que la funció sempre retorna el mateix resultat per als mateixos arguments d&apos;entrada. És necessari per usar-la en algunes expressions d&apos;esquema (p. ex. restriccions CHECK, índexs parcials, índexs d&apos;expressió, columnes generades) i pot permetre que SQLite apliqui optimitzacions addicionals.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="315"/>
-      <source>Deterministic</source>
-      <translation>Determinista</translation>
+        <location filename="../windows/functionseditor.ui" line="315"/>
+        <source>Deterministic</source>
+        <translation>Determinista</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="336"/>
-      <source>Function code</source>
-      <translation>Codi de la funció</translation>
+        <location filename="../windows/functionseditor.ui" line="336"/>
+        <source>Function code</source>
+        <translation>Codi de la funció</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="342"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat quan es crida la funció. Rep els arguments de la funció i ha de calcular i retornar el resultat. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="342"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat quan es crida la funció. Rep els arguments de la funció i ha de calcular i retornar el resultat. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="353"/>
-      <source>Initialization</source>
-      <translation>Inicialització</translation>
+        <location filename="../windows/functionseditor.ui" line="353"/>
+        <source>Initialization</source>
+        <translation>Inicialització</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="359"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat una vegada abans del primer pas d&apos;agregació. Useu-lo per inicialitzar les variables que emmagatzemen l&apos;estat de l&apos;agregació. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="359"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat una vegada abans del primer pas d&apos;agregació. Useu-lo per inicialitzar les variables que emmagatzemen l&apos;estat de l&apos;agregació. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="370"/>
-      <source>Step</source>
-      <translation>Pas</translation>
+        <location filename="../windows/functionseditor.ui" line="370"/>
+        <source>Step</source>
+        <translation>Pas</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="376"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat per a cada fila d&apos;entrada. Ha d&apos;actualitzar l&apos;estat de l&apos;agregació usant els arguments actuals. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="376"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat per a cada fila d&apos;entrada. Ha d&apos;actualitzar l&apos;estat de l&apos;agregació usant els arguments actuals. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="387"/>
-      <source>Inverse</source>
-      <translation>Invers</translation>
+        <location filename="../windows/functionseditor.ui" line="387"/>
+        <source>Inverse</source>
+        <translation>Invers</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="393"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat quan una fila surt del marc de finestra. Els valors dels paràmetres corresponen a la fila que s&apos;elimina de la finestra i s&apos;han d&apos;usar per restar-ne la contribució de l&apos;estat de l&apos;agregació. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="393"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi executat quan una fila surt del marc de finestra. Els valors dels paràmetres corresponen a la fila que s&apos;elimina de la finestra i s&apos;han d&apos;usar per restar-ne la contribució de l&apos;estat de l&apos;agregació. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="404"/>
-      <source>Aggregated value</source>
-      <translation>Valor agregat</translation>
+        <location filename="../windows/functionseditor.ui" line="404"/>
+        <source>Aggregated value</source>
+        <translation>Valor agregat</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="410"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi que calcula i retorna el resultat agregat basant-se en l&apos;estat actual de l&apos;agregació. En les funcions de finestra es pot executar diverses vegades per retornar el valor actual de la finestra. En les funcions d&apos;agregació normals es crida una vegada com a funció final. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="410"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Codi que calcula i retorna el resultat agregat basant-se en l&apos;estat actual de l&apos;agregació. En les funcions de finestra es pot executar diverses vegades per retornar el valor actual de la finestra. En les funcions d&apos;agregació normals es crida una vegada com a funció final. Els valors dels paràmetres estan disponibles com a variables amb el mateix nom que els paràmetres declarats de la funció.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="62"/>
-      <source>SQL functions editor</source>
-      <translation>Editor de funcions SQL</translation>
+        <location filename="../windows/functionseditor.cpp" line="62"/>
+        <source>SQL functions editor</source>
+        <translation>Editor de funcions SQL</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="67"/>
-      <source>Commit all function changes</source>
-      <translation>Confirma tots els canvis de funcions</translation>
+        <location filename="../windows/functionseditor.cpp" line="67"/>
+        <source>Commit all function changes</source>
+        <translation>Confirma tots els canvis de funcions</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="68"/>
-      <source>Rollback all function changes</source>
-      <translation>Reverteix tots els canvis de funcions</translation>
+        <location filename="../windows/functionseditor.cpp" line="68"/>
+        <source>Rollback all function changes</source>
+        <translation>Reverteix tots els canvis de funcions</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="70"/>
-      <source>Create new function</source>
-      <translation>Crea una funció nova</translation>
+        <location filename="../windows/functionseditor.cpp" line="70"/>
+        <source>Create new function</source>
+        <translation>Crea una funció nova</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="71"/>
-      <source>Delete selected function</source>
-      <translation>Suprimeix la funció seleccionada</translation>
+        <location filename="../windows/functionseditor.cpp" line="71"/>
+        <source>Delete selected function</source>
+        <translation>Suprimeix la funció seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="73"/>
-      <source>Import functions from file</source>
-      <translation>Importa funcions des d&apos;un fitxer</translation>
+        <location filename="../windows/functionseditor.cpp" line="73"/>
+        <source>Import functions from file</source>
+        <translation>Importa funcions des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="74"/>
-      <source>Export functions to file</source>
-      <translation>Exporta funcions a un fitxer</translation>
+        <location filename="../windows/functionseditor.cpp" line="74"/>
+        <source>Export functions to file</source>
+        <translation>Exporta funcions a un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="75"/>
-      <source>Custom SQL functions manual</source>
-      <translation>Manual de funcions SQL personalitzades</translation>
+        <location filename="../windows/functionseditor.cpp" line="75"/>
+        <source>Custom SQL functions manual</source>
+        <translation>Manual de funcions SQL personalitzades</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="78"/>
-      <source>Add function argument</source>
-      <translation>Afegeix un argument de funció</translation>
+        <location filename="../windows/functionseditor.cpp" line="78"/>
+        <source>Add function argument</source>
+        <translation>Afegeix un argument de funció</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="79"/>
-      <source>Rename function argument</source>
-      <translation>Canvia el nom de l&apos;argument de funció</translation>
+        <location filename="../windows/functionseditor.cpp" line="79"/>
+        <source>Rename function argument</source>
+        <translation>Canvia el nom de l&apos;argument de funció</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="80"/>
-      <source>Delete function argument</source>
-      <translation>Suprimeix l&apos;argument de funció</translation>
+        <location filename="../windows/functionseditor.cpp" line="80"/>
+        <source>Delete function argument</source>
+        <translation>Suprimeix l&apos;argument de funció</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="82"/>
-      <source>Move function argument up</source>
-      <translation>Mou l&apos;argument de funció amunt</translation>
+        <location filename="../windows/functionseditor.cpp" line="82"/>
+        <source>Move function argument up</source>
+        <translation>Mou l&apos;argument de funció amunt</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="83"/>
-      <source>Move function argument down</source>
-      <translation>Mou l&apos;argument de funció avall</translation>
+        <location filename="../windows/functionseditor.cpp" line="83"/>
+        <source>Move function argument down</source>
+        <translation>Mou l&apos;argument de funció avall</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="540"/>
-      <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
-      <translation>Introduïu un nom de funció únic i no buit. Es permeten noms duplicats si el nombre de paràmetres d&apos;entrada és diferent.</translation>
+        <location filename="../windows/functionseditor.cpp" line="540"/>
+        <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
+        <translation>Introduïu un nom de funció únic i no buit. Es permeten noms duplicats si el nombre de paràmetres d&apos;entrada és diferent.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="551"/>
-      <source>Pick the implementation language.</source>
-      <translation>Trieu el llenguatge d&apos;implementació.</translation>
+        <location filename="../windows/functionseditor.cpp" line="551"/>
+        <source>Pick the implementation language.</source>
+        <translation>Trieu el llenguatge d&apos;implementació.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="569"/>
-      <location filename="../windows/functionseditor.cpp" line="579"/>
-      <location filename="../windows/functionseditor.cpp" line="580"/>
-      <source>Enter a non-empty implementation code.</source>
-      <translation>Introduïu un codi d&apos;implementació no buit.</translation>
+        <location filename="../windows/functionseditor.cpp" line="569"/>
+        <location filename="../windows/functionseditor.cpp" line="579"/>
+        <location filename="../windows/functionseditor.cpp" line="580"/>
+        <source>Enter a non-empty implementation code.</source>
+        <translation>Introduïu un codi d&apos;implementació no buit.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="629"/>
-      <source>argument</source>
-      <comment>new function argument name in function editor window</comment>
-      <translation>paràmetre</translation>
+        <location filename="../windows/functionseditor.cpp" line="629"/>
+        <source>argument</source>
+        <comment>new function argument name in function editor window</comment>
+        <translation>paràmetre</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="733"/>
-      <source>Function argument cannot be empty and it cannot have duplicated name.</source>
-      <translation>L&apos;argument de la funció no pot estar buit i no pot tenir un nom duplicat.</translation>
+        <location filename="../windows/functionseditor.cpp" line="733"/>
+        <source>Function argument cannot be empty and it cannot have duplicated name.</source>
+        <translation>L&apos;argument de la funció no pot estar buit i no pot tenir un nom duplicat.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="800"/>
-      <source>Functions editor window has uncommitted modifications.</source>
-      <translation>La finestra de l&apos;editor de funcions té modificacions no confirmades.</translation>
+        <location filename="../windows/functionseditor.cpp" line="800"/>
+        <source>Functions editor window has uncommitted modifications.</source>
+        <translation>La finestra de l&apos;editor de funcions té modificacions no confirmades.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FunctionsEditorModel</name>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="261"/>
-      <source>all databases</source>
-      <translation>totes les bases de dades</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="261"/>
+        <source>all databases</source>
+        <translation>totes les bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="266"/>
-      <source>Function:</source>
-      <translation>Funció:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="266"/>
+        <source>Function:</source>
+        <translation>Funció:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="267"/>
-      <source>Type:</source>
-      <translation>Tipus:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="267"/>
+        <source>Type:</source>
+        <translation>Tipus:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="268"/>
-      <source>Deterministic:</source>
-      <translation>Determinista:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
+        <source>Deterministic:</source>
+        <translation>Determinista:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="268"/>
-      <source>Yes</source>
-      <translation>Sí</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
+        <source>Yes</source>
+        <translation>Sí</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="268"/>
-      <source>No</source>
-      <translation>No</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
+        <source>No</source>
+        <translation>No</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="269"/>
-      <source>Language:</source>
-      <translation>Llenguatge:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="269"/>
+        <source>Language:</source>
+        <translation>Llenguatge:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="270"/>
-      <source>Registered in:</source>
-      <translation>Registrada a:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="270"/>
+        <source>Registered in:</source>
+        <translation>Registrada a:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ImportDialog</name>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="14"/>
-      <source>Import data</source>
-      <translation>Importa dades</translation>
+        <location filename="../dialogs/importdialog.ui" line="14"/>
+        <source>Import data</source>
+        <translation>Importa dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="171"/>
-      <source>Table to import to</source>
-      <translation>Taula on importar</translation>
+        <location filename="../dialogs/importdialog.ui" line="171"/>
+        <source>Table to import to</source>
+        <translation>Taula on importar</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="186"/>
-      <source>Table</source>
-      <translation>Taula</translation>
+        <location filename="../dialogs/importdialog.ui" line="186"/>
+        <source>Table</source>
+        <translation>Taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="193"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../dialogs/importdialog.ui" line="193"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="24"/>
-      <source>Data source to import from</source>
-      <translation>Font de dades des d&apos;on importar</translation>
+        <location filename="../dialogs/importdialog.ui" line="24"/>
+        <source>Data source to import from</source>
+        <translation>Font de dades des d&apos;on importar</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="69"/>
-      <source>Data source type</source>
-      <translation>Tipus de font de dades</translation>
+        <location filename="../dialogs/importdialog.ui" line="69"/>
+        <source>Data source type</source>
+        <translation>Tipus de font de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="81"/>
-      <source>Options</source>
-      <translation>Opcions</translation>
+        <location filename="../dialogs/importdialog.ui" line="81"/>
+        <source>Options</source>
+        <translation>Opcions</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="115"/>
-      <source>Text encoding:</source>
-      <translation>Codificació del text:</translation>
+        <location filename="../dialogs/importdialog.ui" line="115"/>
+        <source>Text encoding:</source>
+        <translation>Codificació del text:</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="122"/>
-      <source>Input file:</source>
-      <translation>Fitxer d&apos;entrada:</translation>
+        <location filename="../dialogs/importdialog.ui" line="122"/>
+        <source>Input file:</source>
+        <translation>Fitxer d&apos;entrada:</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="132"/>
-      <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Si està activat, s&apos;ignorarà qualsevol infracció de restricció, format de dades no vàlid (nombre de columnes incorrecte) o qualsevol altre problema trobat durant la importació, i la importació continuarà.&lt;/p&gt;</translation>
+        <location filename="../dialogs/importdialog.ui" line="132"/>
+        <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Si està activat, s&apos;ignorarà qualsevol infracció de restricció, format de dades no vàlid (nombre de columnes incorrecte) o qualsevol altre problema trobat durant la importació, i la importació continuarà.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="135"/>
-      <source>Ignore errors</source>
-      <translation>Ignora els errors</translation>
+        <location filename="../dialogs/importdialog.ui" line="135"/>
+        <source>Ignore errors</source>
+        <translation>Ignora els errors</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="145"/>
-      <source>Data source options</source>
-      <translation>Opcions de la font de dades</translation>
+        <location filename="../dialogs/importdialog.ui" line="145"/>
+        <source>Data source options</source>
+        <translation>Opcions de la font de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="131"/>
-      <source>Cancel</source>
-      <translation>Cancel·la</translation>
+        <location filename="../dialogs/importdialog.cpp" line="131"/>
+        <source>Cancel</source>
+        <translation>Cancel·la</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="162"/>
-      <source>If you type table name that doesn&apos;t exist, it will be created.</source>
-      <translation>Si escriviu el nom d&apos;una taula que no existeix, es crearà.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <source>If you type table name that doesn&apos;t exist, it will be created.</source>
+        <translation>Si escriviu el nom d&apos;una taula que no existeix, es crearà.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="162"/>
-      <source>Enter the table name</source>
-      <translation>Introduïu el nom de la taula</translation>
+        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <source>Enter the table name</source>
+        <translation>Introduïu el nom de la taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="180"/>
-      <source>Select import plugin.</source>
-      <translation>Seleccioneu el connector d&apos;importació.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="180"/>
+        <source>Select import plugin.</source>
+        <translation>Seleccioneu el connector d&apos;importació.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="189"/>
-      <source>You must provide a file to import from.</source>
-      <translation>Heu de proporcionar un fitxer des d&apos;on importar.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="189"/>
+        <source>You must provide a file to import from.</source>
+        <translation>Heu de proporcionar un fitxer des d&apos;on importar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="196"/>
-      <source>The file &apos;%1&apos; does not exist.</source>
-      <translation>El fitxer &apos;%1&apos; no existeix.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="196"/>
+        <source>The file &apos;%1&apos; does not exist.</source>
+        <translation>El fitxer &apos;%1&apos; no existeix.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="202"/>
-      <source>Path you provided is a directory. A regular file is required.</source>
-      <translation>El camí proporcionat és un directori. Cal un fitxer normal.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="202"/>
+        <source>Path you provided is a directory. A regular file is required.</source>
+        <translation>El camí proporcionat és un directori. Cal un fitxer normal.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="395"/>
-      <source>Pick file to import from</source>
-      <translation>Trieu el fitxer des d&apos;on importar</translation>
+        <location filename="../dialogs/importdialog.cpp" line="395"/>
+        <source>Pick file to import from</source>
+        <translation>Trieu el fitxer des d&apos;on importar</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>IndexDialog</name>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="20"/>
-      <location filename="../dialogs/indexdialog.ui" line="30"/>
-      <source>Index</source>
-      <translation>Índex</translation>
+        <location filename="../dialogs/indexdialog.ui" line="20"/>
+        <location filename="../dialogs/indexdialog.ui" line="30"/>
+        <source>Index</source>
+        <translation>Índex</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="70"/>
-      <source>Column</source>
-      <translation>Columna</translation>
+        <location filename="../dialogs/indexdialog.ui" line="70"/>
+        <source>Column</source>
+        <translation>Columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="75"/>
-      <source>Sort</source>
-      <translation>Ordenació</translation>
+        <location filename="../dialogs/indexdialog.ui" line="75"/>
+        <source>Sort</source>
+        <translation>Ordenació</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="80"/>
-      <source>Collation</source>
-      <translation>Intercalació</translation>
+        <location filename="../dialogs/indexdialog.ui" line="80"/>
+        <source>Collation</source>
+        <translation>Intercalació</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="88"/>
-      <source>On table:</source>
-      <translation>A la taula:</translation>
+        <location filename="../dialogs/indexdialog.ui" line="88"/>
+        <source>On table:</source>
+        <translation>A la taula:</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="98"/>
-      <source>Delete selected indexed expression</source>
-      <translation>Suprimeix l&apos;expressió indexada seleccionada</translation>
+        <location filename="../dialogs/indexdialog.ui" line="98"/>
+        <source>Delete selected indexed expression</source>
+        <translation>Suprimeix l&apos;expressió indexada seleccionada</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="108"/>
-      <source>Moves selected index column up in the order, making it more significant in the index.</source>
-      <translation>Mou la columna d&apos;índex seleccionada amunt en l&apos;ordre, fent-la més significativa en l&apos;índex.</translation>
+        <location filename="../dialogs/indexdialog.ui" line="108"/>
+        <source>Moves selected index column up in the order, making it more significant in the index.</source>
+        <translation>Mou la columna d&apos;índex seleccionada amunt en l&apos;ordre, fent-la més significativa en l&apos;índex.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="118"/>
-      <source>Moves selected index column down in the order, making it less significant in the index.</source>
-      <translation>Mou la columna d&apos;índex seleccionada avall en l&apos;ordre, fent-la menys significativa en l&apos;índex.</translation>
+        <location filename="../dialogs/indexdialog.ui" line="118"/>
+        <source>Moves selected index column down in the order, making it less significant in the index.</source>
+        <translation>Mou la columna d&apos;índex seleccionada avall en l&apos;ordre, fent-la menys significativa en l&apos;índex.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="128"/>
-      <source>Partial index condition</source>
-      <translation>Condició d&apos;índex parcial</translation>
+        <location filename="../dialogs/indexdialog.ui" line="128"/>
+        <source>Partial index condition</source>
+        <translation>Condició d&apos;índex parcial</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="135"/>
-      <source>Unique index</source>
-      <translation>Índex únic</translation>
+        <location filename="../dialogs/indexdialog.ui" line="135"/>
+        <source>Unique index</source>
+        <translation>Índex únic</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="142"/>
-      <source>Index name:</source>
-      <translation>Nom de l&apos;índex:</translation>
+        <location filename="../dialogs/indexdialog.ui" line="142"/>
+        <source>Index name:</source>
+        <translation>Nom de l&apos;índex:</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="149"/>
-      <source>Edit selected indexed expression</source>
-      <translation>Edita l&apos;expressió indexada seleccionada</translation>
+        <location filename="../dialogs/indexdialog.ui" line="149"/>
+        <source>Edit selected indexed expression</source>
+        <translation>Edita l&apos;expressió indexada seleccionada</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="169"/>
-      <source>Add indexed expression</source>
-      <translation>Afegeix una expressió indexada</translation>
+        <location filename="../dialogs/indexdialog.ui" line="169"/>
+        <source>Add indexed expression</source>
+        <translation>Afegeix una expressió indexada</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="180"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../dialogs/indexdialog.ui" line="180"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="73"/>
-      <source>Tried to open index dialog for closed or inexisting database.</source>
-      <translation>S&apos;ha intentat obrir el diàleg d&apos;índex per a una base de dades tancada o inexistent.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="73"/>
+        <source>Tried to open index dialog for closed or inexisting database.</source>
+        <translation>S&apos;ha intentat obrir el diàleg d&apos;índex per a una base de dades tancada o inexistent.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="143"/>
-      <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
-      <translation>No s&apos;ha pogut processar correctament l&apos;índex %1. No es pot obrir un diàleg d&apos;índex.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="143"/>
+        <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
+        <translation>No s&apos;ha pogut processar correctament l&apos;índex %1. No es pot obrir un diàleg d&apos;índex.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="196"/>
-      <source>Pick the table for the index.</source>
-      <translation>Trieu la taula per a l&apos;índex.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="196"/>
+        <source>Pick the table for the index.</source>
+        <translation>Trieu la taula per a l&apos;índex.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="197"/>
-      <source>Select at least one column.</source>
-      <translation>Seleccioneu almenys una columna.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="197"/>
+        <source>Select at least one column.</source>
+        <translation>Seleccioneu almenys una columna.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="198"/>
-      <source>Enter a valid condition.</source>
-      <translation>Introduïu una condició vàlida.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="198"/>
+        <source>Enter a valid condition.</source>
+        <translation>Introduïu una condició vàlida.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="270"/>
-      <source>default</source>
-      <comment>index dialog</comment>
-      <translation>per defecte</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="270"/>
+        <source>default</source>
+        <comment>index dialog</comment>
+        <translation>per defecte</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="274"/>
-      <source>Sort order</source>
-      <comment>table constraints</comment>
-      <translation>Ordre d&apos;ordenació</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="274"/>
+        <source>Sort order</source>
+        <comment>table constraints</comment>
+        <translation>Ordre d&apos;ordenació</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="768"/>
-      <location filename="../dialogs/indexdialog.cpp" line="781"/>
-      <source>Error</source>
-      <comment>index dialog</comment>
-      <translation>Errada</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="768"/>
+        <location filename="../dialogs/indexdialog.cpp" line="781"/>
+        <source>Error</source>
+        <comment>index dialog</comment>
+        <translation>Errada</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="769"/>
-      <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
-      <translation>No es pot crear un índex únic perquè els valors de les columnes seleccionades no són únics. Voleu executar una consulta SELECT per veure els valors problemàtics?</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="769"/>
+        <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
+        <translation>No es pot crear un índex únic perquè els valors de les columnes seleccionades no són únics. Voleu executar una consulta SELECT per veure els valors problemàtics?</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="781"/>
-      <source>An error occurred while executing SQL statements:
+        <location filename="../dialogs/indexdialog.cpp" line="781"/>
+        <source>An error occurred while executing SQL statements:
 %1</source>
-      <translation>S&apos;ha produït un error en executar les sentències SQL:
+        <translation>S&apos;ha produït un error en executar les sentències SQL:
 %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>IndexExprColumnDialog</name>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
-      <source>Indexed expression</source>
-      <translation>Expressió indexada</translation>
+        <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
+        <source>Indexed expression</source>
+        <translation>Expressió indexada</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
-      <source>Expression to index</source>
-      <translation>Expressió a indexar</translation>
+        <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
+        <source>Expression to index</source>
+        <translation>Expressió a indexar</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
-      <source>This expression is already indexed by the index.</source>
-      <translation>Aquesta expressió ja està indexada per l&apos;índex.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
+        <source>This expression is already indexed by the index.</source>
+        <translation>Aquesta expressió ja està indexada per l&apos;índex.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
-      <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
-      <translation>La columna s&apos;hauria d&apos;indexar directament, no mitjançant una expressió. Amplieu aquesta expressió perquè contingui alguna cosa més que només el nom de la columna, o cancel·leu i seleccioneu aquesta columna directament al diàleg d&apos;índex.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
+        <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
+        <translation>La columna s&apos;hauria d&apos;indexar directament, no mitjançant una expressió. Amplieu aquesta expressió perquè contingui alguna cosa més que només el nom de la columna, o cancel·leu i seleccioneu aquesta columna directament al diàleg d&apos;índex.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
-      <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
-      <translation>La columna &apos;%1&apos; no pertany a la taula coberta per aquest índex. Les expressions indexades només poden fer referència a columnes de la taula indexada.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
+        <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
+        <translation>La columna &apos;%1&apos; no pertany a la taula coberta per aquest índex. Les expressions indexades només poden fer referència a columnes de la taula indexada.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
-      <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
-      <translation>No s&apos;hi permet usar sentències &apos;SELECT&apos; en expressions indexades.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
+        <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
+        <translation>No s&apos;hi permet usar sentències &apos;SELECT&apos; en expressions indexades.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
-      <source>Enter an indexed expression.</source>
-      <translation>Introduïu una expressió indexada.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
+        <source>Enter an indexed expression.</source>
+        <translation>Introduïu una expressió indexada.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
-      <source>Invalid expression.</source>
-      <translation>Expressió no vàlida.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
+        <source>Invalid expression.</source>
+        <translation>Expressió no vàlida.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>LanguageDialog</name>
     <message>
-      <location filename="../dialogs/languagedialog.ui" line="14"/>
-      <source>Language</source>
-      <translation>Llengua</translation>
+        <location filename="../dialogs/languagedialog.ui" line="14"/>
+        <source>Language</source>
+        <translation>Llengua</translation>
     </message>
     <message>
-      <location filename="../dialogs/languagedialog.ui" line="20"/>
-      <source>Please choose language:</source>
-      <translation>Si us plau, trieu la llengua:</translation>
+        <location filename="../dialogs/languagedialog.ui" line="20"/>
+        <source>Please choose language:</source>
+        <translation>Si us plau, trieu la llengua:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
-      <location filename="../mainwindow.ui" line="81"/>
-      <source>Database toolbar</source>
-      <translation>Barra d&apos;eines de bases de dades</translation>
+        <location filename="../mainwindow.ui" line="81"/>
+        <source>Database toolbar</source>
+        <translation>Barra d&apos;eines de bases de dades</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="92"/>
-      <source>Structure toolbar</source>
-      <translation>Barra d&apos;eines d&apos;estructura</translation>
+        <location filename="../mainwindow.ui" line="92"/>
+        <source>Structure toolbar</source>
+        <translation>Barra d&apos;eines d&apos;estructura</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="103"/>
-      <source>Tools</source>
-      <translation>Eines</translation>
+        <location filename="../mainwindow.ui" line="103"/>
+        <source>Tools</source>
+        <translation>Eines</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="120"/>
-      <source>Window list</source>
-      <translation>Llista de finestres</translation>
+        <location filename="../mainwindow.ui" line="120"/>
+        <source>Window list</source>
+        <translation>Llista de finestres</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="134"/>
-      <source>View toolbar</source>
-      <translation>Barra d&apos;eines de visualització</translation>
+        <location filename="../mainwindow.ui" line="134"/>
+        <source>View toolbar</source>
+        <translation>Barra d&apos;eines de visualització</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="145"/>
-      <source>Configuration widgets</source>
-      <translation>Ginys de configuració</translation>
+        <location filename="../mainwindow.cpp" line="145"/>
+        <source>Configuration widgets</source>
+        <translation>Ginys de configuració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="146"/>
-      <source>Syntax highlighting engines</source>
-      <translation>Motors de ressaltat de sintaxi</translation>
+        <location filename="../mainwindow.cpp" line="146"/>
+        <source>Syntax highlighting engines</source>
+        <translation>Motors de ressaltat de sintaxi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="147"/>
-      <source>Data editors</source>
-      <translation>Editors de dades</translation>
+        <location filename="../mainwindow.cpp" line="147"/>
+        <source>Data editors</source>
+        <translation>Editors de dades</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="160"/>
-      <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
-      <translation>S&apos;està executant en mode de depuració. Premeu %1 o useu l&apos;entrada de menú &apos;Ajuda / Obre la consola de depuració&apos; per obrir la consola de depuració.</translation>
+        <location filename="../mainwindow.cpp" line="160"/>
+        <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
+        <translation>S&apos;està executant en mode de depuració. Premeu %1 o useu l&apos;entrada de menú &apos;Ajuda / Obre la consola de depuració&apos; per obrir la consola de depuració.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="162"/>
-      <source>Running in debug mode. Debug messages are printed to the standard output.</source>
-      <translation>S&apos;està executant en mode de depuració. Els missatges de depuració s&apos;imprimeixen a la sortida estàndard.</translation>
+        <location filename="../mainwindow.cpp" line="162"/>
+        <source>Running in debug mode. Debug messages are printed to the standard output.</source>
+        <translation>S&apos;està executant en mode de depuració. Els missatges de depuració s&apos;imprimeixen a la sortida estàndard.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="272"/>
-      <source>You need to restart application to make the language change take effect.</source>
-      <translation>Cal reiniciar l&apos;aplicació perquè el canvi de llengua tingui efecte.</translation>
+        <location filename="../mainwindow.cpp" line="272"/>
+        <source>You need to restart application to make the language change take effect.</source>
+        <translation>Cal reiniciar l&apos;aplicació perquè el canvi de llengua tingui efecte.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="317"/>
-      <source>Open SQL &amp;editor</source>
-      <translation>Obre l&apos;&amp;editor SQL</translation>
+        <location filename="../mainwindow.cpp" line="317"/>
+        <source>Open SQL &amp;editor</source>
+        <translation>Obre l&apos;&amp;editor SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="361"/>
-      <source>Open DDL &amp;history</source>
-      <translation>Obre l&apos;&amp;historial DDL</translation>
+        <location filename="../mainwindow.cpp" line="361"/>
+        <source>Open DDL &amp;history</source>
+        <translation>Obre l&apos;&amp;historial DDL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="318"/>
-      <source>Open SQL &amp;functions editor</source>
-      <translation>Obre l&apos;editor de &amp;funcions SQL</translation>
+        <location filename="../mainwindow.cpp" line="318"/>
+        <source>Open SQL &amp;functions editor</source>
+        <translation>Obre l&apos;editor de &amp;funcions SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="319"/>
-      <source>Open code &amp;snippets editor</source>
-      <translation>Obre l&apos;editor de &amp;fragments de codi</translation>
+        <location filename="../mainwindow.cpp" line="319"/>
+        <source>Open code &amp;snippets editor</source>
+        <translation>Obre l&apos;editor de &amp;fragments de codi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="320"/>
-      <source>Open &amp;collations editor</source>
-      <translation>Obre l&apos;editor d&apos;inter&amp;calacions</translation>
+        <location filename="../mainwindow.cpp" line="320"/>
+        <source>Open &amp;collations editor</source>
+        <translation>Obre l&apos;editor d&apos;inter&amp;calacions</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="321"/>
-      <source>Open ex&amp;tension manager</source>
-      <translation>Obre el gestor d&apos;ex&amp;tensions</translation>
+        <location filename="../mainwindow.cpp" line="321"/>
+        <source>Open ex&amp;tension manager</source>
+        <translation>Obre el gestor d&apos;ex&amp;tensions</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="323"/>
-      <source>&amp;Import</source>
-      <translation>&amp;Importa</translation>
+        <location filename="../mainwindow.cpp" line="323"/>
+        <source>&amp;Import</source>
+        <translation>&amp;Importa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="324"/>
-      <source>E&amp;xport</source>
-      <translation>E&amp;xporta</translation>
+        <location filename="../mainwindow.cpp" line="324"/>
+        <source>E&amp;xport</source>
+        <translation>E&amp;xporta</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="325"/>
-      <source>Open confi&amp;guration dialog</source>
-      <translation>Obre el diàleg de confi&amp;guració</translation>
+        <location filename="../mainwindow.cpp" line="325"/>
+        <source>Open confi&amp;guration dialog</source>
+        <translation>Obre el diàleg de confi&amp;guració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="327"/>
-      <source>&amp;Tile windows</source>
-      <translation>Organitza les finestres en &amp;mosaic</translation>
+        <location filename="../mainwindow.cpp" line="327"/>
+        <source>&amp;Tile windows</source>
+        <translation>Organitza les finestres en &amp;mosaic</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="328"/>
-      <source>Tile windows &amp;horizontally</source>
-      <translation>Organitza les finestres &amp;horitzontalment</translation>
+        <location filename="../mainwindow.cpp" line="328"/>
+        <source>Tile windows &amp;horizontally</source>
+        <translation>Organitza les finestres &amp;horitzontalment</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="329"/>
-      <source>Tile windows &amp;vertically</source>
-      <translation>Organitza les finestres &amp;verticalment</translation>
+        <location filename="../mainwindow.cpp" line="329"/>
+        <source>Tile windows &amp;vertically</source>
+        <translation>Organitza les finestres &amp;verticalment</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="330"/>
-      <source>&amp;Cascade windows</source>
-      <translation>Organitza les finestres en &amp;cascada</translation>
+        <location filename="../mainwindow.cpp" line="330"/>
+        <source>&amp;Cascade windows</source>
+        <translation>Organitza les finestres en &amp;cascada</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="332"/>
-      <source>Next window</source>
-      <translation>Finestra següent</translation>
+        <location filename="../mainwindow.cpp" line="332"/>
+        <source>Next window</source>
+        <translation>Finestra següent</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="331"/>
-      <source>Previous window</source>
-      <translation>Finestra anterior</translation>
+        <location filename="../mainwindow.cpp" line="331"/>
+        <source>Previous window</source>
+        <translation>Finestra anterior</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="335"/>
-      <source>Hide status field</source>
-      <translation>Amaga el camp d&apos;estat</translation>
+        <location filename="../mainwindow.cpp" line="335"/>
+        <source>Hide status field</source>
+        <translation>Amaga el camp d&apos;estat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="339"/>
-      <source>Close &amp;all windows</source>
-      <translation>Tanca &amp;totes les finestres</translation>
+        <location filename="../mainwindow.cpp" line="339"/>
+        <source>Close &amp;all windows</source>
+        <translation>Tanca &amp;totes les finestres</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="342"/>
-      <source>Re&amp;store recently closed window</source>
-      <translation>Re&amp;staura la finestra tancada recentment</translation>
+        <location filename="../mainwindow.cpp" line="342"/>
+        <source>Re&amp;store recently closed window</source>
+        <translation>Re&amp;staura la finestra tancada recentment</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="337"/>
-      <source>Close current &amp;window</source>
-      <translation>Tanca la finestra &amp;actual</translation>
+        <location filename="../mainwindow.cpp" line="337"/>
+        <source>Close current &amp;window</source>
+        <translation>Tanca la finestra &amp;actual</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="148"/>
-      <source>Data renderers</source>
-      <translation>Renderitzadors de dades</translation>
+        <location filename="../mainwindow.cpp" line="148"/>
+        <source>Data renderers</source>
+        <translation>Renderitzadors de dades</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="338"/>
-      <source>Close &amp;other windows</source>
-      <translation>Tanca les &amp;altres finestres</translation>
+        <location filename="../mainwindow.cpp" line="338"/>
+        <source>Close &amp;other windows</source>
+        <translation>Tanca les &amp;altres finestres</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="340"/>
-      <source>Close windows on the &amp;left</source>
-      <translation>Tanca les finestres de l&apos;&amp;esquerra</translation>
+        <location filename="../mainwindow.cpp" line="340"/>
+        <source>Close windows on the &amp;left</source>
+        <translation>Tanca les finestres de l&apos;&amp;esquerra</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="341"/>
-      <source>Close windows on the &amp;right</source>
-      <translation>Tanca les finestres de la &amp;dreta</translation>
+        <location filename="../mainwindow.cpp" line="341"/>
+        <source>Close windows on the &amp;right</source>
+        <translation>Tanca les finestres de la &amp;dreta</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="343"/>
-      <source>Re&amp;name selected window</source>
-      <translation>Ca&amp;nvia el nom de la finestra seleccionada</translation>
+        <location filename="../mainwindow.cpp" line="343"/>
+        <source>Re&amp;name selected window</source>
+        <translation>Ca&amp;nvia el nom de la finestra seleccionada</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="346"/>
-      <source>Open Debug Console</source>
-      <translation>Obre la consola de depuració</translation>
+        <location filename="../mainwindow.cpp" line="346"/>
+        <source>Open Debug Console</source>
+        <translation>Obre la consola de depuració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="347"/>
-      <source>Open CSS Console</source>
-      <translation>Obre la consola CSS</translation>
+        <location filename="../mainwindow.cpp" line="347"/>
+        <source>Open CSS Console</source>
+        <translation>Obre la consola CSS</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="348"/>
-      <source>Report a &amp;bug</source>
-      <translation>Informa d&apos;un &amp;error</translation>
+        <location filename="../mainwindow.cpp" line="348"/>
+        <source>Report a &amp;bug</source>
+        <translation>Informa d&apos;un &amp;error</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="349"/>
-      <source>D&amp;onate</source>
-      <translation>Fes una d&amp;onació</translation>
+        <location filename="../mainwindow.cpp" line="349"/>
+        <source>D&amp;onate</source>
+        <translation>Fes una d&amp;onació</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="350"/>
-      <source>Propose a new &amp;feature</source>
-      <translation>Proposa una &amp;funcionalitat nova</translation>
+        <location filename="../mainwindow.cpp" line="350"/>
+        <source>Propose a new &amp;feature</source>
+        <translation>Proposa una &amp;funcionalitat nova</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="351"/>
-      <source>&amp;About</source>
-      <translation>&amp;Quant a</translation>
+        <location filename="../mainwindow.cpp" line="351"/>
+        <source>&amp;About</source>
+        <translation>&amp;Quant a</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="352"/>
-      <source>&amp;Licenses</source>
-      <translation>&amp;Llicències</translation>
+        <location filename="../mainwindow.cpp" line="352"/>
+        <source>&amp;Licenses</source>
+        <translation>&amp;Llicències</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="353"/>
-      <source>Open home &amp;page</source>
-      <translation>Obre la &amp;pàgina d&apos;inici</translation>
+        <location filename="../mainwindow.cpp" line="353"/>
+        <source>Open home &amp;page</source>
+        <translation>Obre la &amp;pàgina d&apos;inici</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="354"/>
-      <source>User &amp;Manual</source>
-      <translation>&amp;Manual d&apos;usuari</translation>
+        <location filename="../mainwindow.cpp" line="354"/>
+        <source>User &amp;Manual</source>
+        <translation>&amp;Manual d&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="355"/>
-      <source>SQLite &amp;documentation</source>
-      <translation>&amp;Documentació de SQLite</translation>
+        <location filename="../mainwindow.cpp" line="355"/>
+        <source>SQLite &amp;documentation</source>
+        <translation>&amp;Documentació de SQLite</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="356"/>
-      <source>Bugs and feature &amp;requests</source>
-      <translation>Errors i sol·licituds de &amp;funcionalitats</translation>
+        <location filename="../mainwindow.cpp" line="356"/>
+        <source>Bugs and feature &amp;requests</source>
+        <translation>Errors i sol·licituds de &amp;funcionalitats</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="357"/>
-      <source>Quit</source>
-      <translation>Surt</translation>
+        <location filename="../mainwindow.cpp" line="357"/>
+        <source>Quit</source>
+        <translation>Surt</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="359"/>
-      <source>Check for &amp;updates</source>
-      <translation>Comprova les act&amp;ualitzacions</translation>
+        <location filename="../mainwindow.cpp" line="359"/>
+        <source>Check for &amp;updates</source>
+        <translation>Comprova les act&amp;ualitzacions</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="390"/>
-      <source>&amp;Database</source>
-      <comment>menubar</comment>
-      <translation>Base de &amp;dades</translation>
+        <location filename="../mainwindow.cpp" line="390"/>
+        <source>&amp;Database</source>
+        <comment>menubar</comment>
+        <translation>Base de &amp;dades</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="415"/>
-      <source>&amp;Structure</source>
-      <comment>menubar</comment>
-      <translation>&amp;Estructura</translation>
+        <location filename="../mainwindow.cpp" line="415"/>
+        <source>&amp;Structure</source>
+        <comment>menubar</comment>
+        <translation>&amp;Estructura</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="759"/>
-      <source>&amp;View</source>
-      <comment>menubar</comment>
-      <translation>&amp;Visualitza</translation>
+        <location filename="../mainwindow.cpp" line="759"/>
+        <source>&amp;View</source>
+        <comment>menubar</comment>
+        <translation>&amp;Visualitza</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1379"/>
-      <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
-      <translation>El fitxer arrossegat sembla ser una base de dades SQLite 2, que no és compatible amb aquesta versió de Letos. L&apos;última versió compatible amb SQLite 2 va ser la 3.2.1.</translation>
+        <location filename="../mainwindow.cpp" line="1379"/>
+        <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
+        <translation>El fitxer arrossegat sembla ser una base de dades SQLite 2, que no és compatible amb aquesta versió de Letos. L&apos;última versió compatible amb SQLite 2 va ser la 3.2.1.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="441"/>
-      <source>Window list</source>
-      <comment>menubar view menu</comment>
-      <translation>Llista de finestres</translation>
+        <location filename="../mainwindow.cpp" line="441"/>
+        <source>Window list</source>
+        <comment>menubar view menu</comment>
+        <translation>Llista de finestres</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="333"/>
-      <source>Move window earlier</source>
-      <translation>Mou la finestra abans</translation>
+        <location filename="../mainwindow.cpp" line="333"/>
+        <source>Move window earlier</source>
+        <translation>Mou la finestra abans</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="334"/>
-      <source>Move window later</source>
-      <translation>Mou la finestra després</translation>
+        <location filename="../mainwindow.cpp" line="334"/>
+        <source>Move window later</source>
+        <translation>Mou la finestra després</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="345"/>
-      <source>Open Command Palette</source>
-      <translation>Obre la paleta d&apos;ordres</translation>
+        <location filename="../mainwindow.cpp" line="345"/>
+        <source>Open Command Palette</source>
+        <translation>Obre la paleta d&apos;ordres</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="362"/>
-      <source>Export configuration</source>
-      <translation>Exporta la configuració</translation>
+        <location filename="../mainwindow.cpp" line="362"/>
+        <source>Export configuration</source>
+        <translation>Exporta la configuració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="363"/>
-      <source>Import configuration</source>
-      <translation>Importa la configuració</translation>
+        <location filename="../mainwindow.cpp" line="363"/>
+        <source>Import configuration</source>
+        <translation>Importa la configuració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="382"/>
-      <source>arrange</source>
-      <comment>command palette entry</comment>
-      <translation>organitza</translation>
+        <location filename="../mainwindow.cpp" line="382"/>
+        <source>arrange</source>
+        <comment>command palette entry</comment>
+        <translation>organitza</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="471"/>
-      <source>&amp;Tools</source>
-      <comment>menubar</comment>
-      <translation>&amp;Eines</translation>
+        <location filename="../mainwindow.cpp" line="471"/>
+        <source>&amp;Tools</source>
+        <comment>menubar</comment>
+        <translation>&amp;Eines</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="491"/>
-      <source>&amp;Help</source>
-      <translation>&amp;Ajuda</translation>
+        <location filename="../mainwindow.cpp" line="491"/>
+        <source>&amp;Help</source>
+        <translation>&amp;Ajuda</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="696"/>
-      <source>Could not set style: %1</source>
-      <comment>main window</comment>
-      <translation>No s&apos;ha pogut establir l&apos;estil: %1</translation>
+        <location filename="../mainwindow.cpp" line="696"/>
+        <source>Could not set style: %1</source>
+        <comment>main window</comment>
+        <translation>No s&apos;ha pogut establir l&apos;estil: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="933"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
+        <location filename="../mainwindow.cpp" line="933"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="950"/>
-      <source>Cannot import, because no import plugin is loaded.</source>
-      <translation>No es pot importar perquè no s&apos;ha carregat cap connector d&apos;importació.</translation>
+        <location filename="../mainwindow.cpp" line="950"/>
+        <source>Cannot import, because no import plugin is loaded.</source>
+        <translation>No es pot importar perquè no s&apos;ha carregat cap connector d&apos;importació.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="993"/>
-      <source>Rename window</source>
-      <translation>Canvia el nom de la finestra</translation>
+        <location filename="../mainwindow.cpp" line="993"/>
+        <source>Rename window</source>
+        <translation>Canvia el nom de la finestra</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="993"/>
-      <source>Enter new name for the window:</source>
-      <translation>Introduïu un nom nou per a la finestra:</translation>
+        <location filename="../mainwindow.cpp" line="993"/>
+        <source>Enter new name for the window:</source>
+        <translation>Introduïu un nom nou per a la finestra:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1095"/>
-      <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
-      <translation>Hi ha actualitzacions noves disponibles. &lt;a href=&quot;%1&quot;&gt;Feu clic aquí per als detalls&lt;/a&gt;.</translation>
+        <location filename="../mainwindow.cpp" line="1095"/>
+        <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
+        <translation>Hi ha actualitzacions noves disponibles. &lt;a href=&quot;%1&quot;&gt;Feu clic aquí per als detalls&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1101"/>
-      <source>You&apos;re running the most recent version. No updates are available.</source>
-      <translation>Teniu instal·lada l&apos;última versió. No hi ha actualitzacions disponibles.</translation>
+        <location filename="../mainwindow.cpp" line="1101"/>
+        <source>You&apos;re running the most recent version. No updates are available.</source>
+        <translation>Teniu instal·lada l&apos;última versió. No hi ha actualitzacions disponibles.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1185"/>
-      <source>Toolbar &amp;icons</source>
-      <comment>menubar</comment>
-      <translation>&amp;Icones de la barra d&apos;eines</translation>
+        <location filename="../mainwindow.cpp" line="1185"/>
+        <source>Toolbar &amp;icons</source>
+        <comment>menubar</comment>
+        <translation>&amp;Icones de la barra d&apos;eines</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1192"/>
-      <source>Size: %1%</source>
-      <comment>toolbar icons</comment>
-      <translation>Mida: %1%</translation>
+        <location filename="../mainwindow.cpp" line="1192"/>
+        <source>Size: %1%</source>
+        <comment>toolbar icons</comment>
+        <translation>Mida: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1280"/>
-      <source>Drop files to open them</source>
-      <translation>Deixeu anar fitxers per obrir-los</translation>
+        <location filename="../mainwindow.cpp" line="1280"/>
+        <source>Drop files to open them</source>
+        <translation>Deixeu anar fitxers per obrir-los</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1382"/>
-      <source>The dropped file type is unsupported: %1 (%2)</source>
-      <translation>El tipus de fitxer arrossegat no és compatible: %1 (%2)</translation>
+        <location filename="../mainwindow.cpp" line="1382"/>
+        <source>The dropped file type is unsupported: %1 (%2)</source>
+        <translation>El tipus de fitxer arrossegat no és compatible: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1392"/>
-      <source>SQLite 3 database - add to database list and open</source>
-      <translation>Base de dades SQLite 3: afegeix a la llista de bases de dades i obre</translation>
+        <location filename="../mainwindow.cpp" line="1392"/>
+        <source>SQLite 3 database - add to database list and open</source>
+        <translation>Base de dades SQLite 3: afegeix a la llista de bases de dades i obre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1394"/>
-      <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
-      <translation>Pot ser una base de dades SQLite 3 xifrada. Podeu provar d&apos;obrir-la.</translation>
+        <location filename="../mainwindow.cpp" line="1394"/>
+        <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
+        <translation>Pot ser una base de dades SQLite 3 xifrada. Podeu provar d&apos;obrir-la.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1396"/>
-      <source>Empty file, but also empty SQLite 3 database - open as database</source>
-      <translation>Fitxer buit, però també base de dades SQLite 3 buida: obre com a base de dades</translation>
+        <location filename="../mainwindow.cpp" line="1396"/>
+        <source>Empty file, but also empty SQLite 3 database - open as database</source>
+        <translation>Fitxer buit, però també base de dades SQLite 3 buida: obre com a base de dades</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1398"/>
-      <source>SQL file - open in SQL Editor</source>
-      <translation>Fitxer SQL: obre a l&apos;editor SQL</translation>
+        <location filename="../mainwindow.cpp" line="1398"/>
+        <source>SQL file - open in SQL Editor</source>
+        <translation>Fitxer SQL: obre a l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1400"/>
-      <source>Text file - open in SQL Editor</source>
-      <translation>Fitxer de text: obre a l&apos;editor SQL</translation>
+        <location filename="../mainwindow.cpp" line="1400"/>
+        <source>Text file - open in SQL Editor</source>
+        <translation>Fitxer de text: obre a l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1402"/>
-      <source>CSV file - import using Import Dialog</source>
-      <translation>Fitxer CSV: importa usant el diàleg d&apos;importació</translation>
+        <location filename="../mainwindow.cpp" line="1402"/>
+        <source>CSV file - import using Import Dialog</source>
+        <translation>Fitxer CSV: importa usant el diàleg d&apos;importació</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1404"/>
-      <source>SQLite 2 database - not supported anymore</source>
-      <translation>Base de dades SQLite 2: ja no és compatible</translation>
+        <location filename="../mainwindow.cpp" line="1404"/>
+        <source>SQLite 2 database - not supported anymore</source>
+        <translation>Base de dades SQLite 2: ja no és compatible</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1406"/>
-      <source>Unsupported file type</source>
-      <translation>Tipus de fitxer no compatible</translation>
+        <location filename="../mainwindow.cpp" line="1406"/>
+        <source>Unsupported file type</source>
+        <translation>Tipus de fitxer no compatible</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1505"/>
-      <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
-      <translation>La base de dades passada en els paràmetres de la línia d&apos;ordres (%1) ja era a la llista amb el nom: %2</translation>
+        <location filename="../mainwindow.cpp" line="1505"/>
+        <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
+        <translation>La base de dades passada en els paràmetres de la línia d&apos;ordres (%1) ja era a la llista amb el nom: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1512"/>
-      <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
-      <translation>La base de dades passada en els paràmetres de la línia d&apos;ordres (%1) s&apos;ha afegit temporalment a la llista amb el nom: %2</translation>
+        <location filename="../mainwindow.cpp" line="1512"/>
+        <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
+        <translation>La base de dades passada en els paràmetres de la línia d&apos;ordres (%1) s&apos;ha afegit temporalment a la llista amb el nom: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1517"/>
-      <source>Could not add database %1 to list.</source>
-      <translation>No s&apos;ha pogut afegir la base de dades %1 a la llista.</translation>
+        <location filename="../mainwindow.cpp" line="1517"/>
+        <source>Could not add database %1 to list.</source>
+        <translation>No s&apos;ha pogut afegir la base de dades %1 a la llista.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ManualCommitPendingTxDialog</name>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
-      <source>Pending transaction</source>
-      <translation>Transacció pendent</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
+        <source>Pending transaction</source>
+        <translation>Transacció pendent</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
-      <source>Roll Back Transaction</source>
-      <translation>Revertir transacció</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
+        <source>Roll Back Transaction</source>
+        <translation>Revertir transacció</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
-      <source>Discard changes made within the transaction and proceed</source>
-      <translation>Descarta els canvis fets dins de la transacció i continua</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
+        <source>Discard changes made within the transaction and proceed</source>
+        <translation>Descarta els canvis fets dins de la transacció i continua</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
-      <source>Commit Transaction</source>
-      <translation>Confirmar transacció</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
+        <source>Commit Transaction</source>
+        <translation>Confirmar transacció</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
-      <source>Save transaction changes and proceed</source>
-      <translation>Desa els canvis de la transacció i continua</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
+        <source>Save transaction changes and proceed</source>
+        <translation>Desa els canvis de la transacció i continua</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
-      <source>Cancel</source>
-      <translation>Cancel·la</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
+        <source>Cancel</source>
+        <translation>Cancel·la</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
-      <source>Keep the transaction open and stay with the current database</source>
-      <translation>Mantén la transacció oberta i continua amb la base de dades actual</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
+        <source>Keep the transaction open and stay with the current database</source>
+        <translation>Mantén la transacció oberta i continua amb la base de dades actual</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Què voleu fer amb aquesta transacció?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Què voleu fer amb aquesta transacció?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;La connexió actual a la base de dades (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) té una transacció manual activa amb canvis pendents que encara no s&apos;han confirmat.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;La connexió actual a la base de dades (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) té una transacció manual activa amb canvis pendents que encara no s&apos;han confirmat.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ManualCommitWalModeDialog</name>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
-      <source>WAL mode for manual commits</source>
-      <translation>Mode WAL per a confirmacions manuals</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
+        <source>WAL mode for manual commits</source>
+        <translation>Mode WAL per a confirmacions manuals</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Aquesta base de dades (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) no utilitza actualment el mode de diari WAL (Write-Ahead Logging).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;El mode de confirmació manual requereix que el mode WAL estigui activat.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;El mode WAL permet que altres connexions i parts de l&apos;aplicació continuïn llegint la base de dades mentre hi ha una transacció d&apos;escriptura oberta. Sense el mode WAL, una transacció oberta podria bloquejar l&apos;actualització de l&apos;esquema, la navegació per les dades i altres operacions de base de dades.&lt;/p&gt;&lt;p&gt;Tingueu en compte:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;El mode WAL afecta el fitxer de base de dades mateix i serà utilitzat per totes les connexions futures a aquesta base de dades fins que es torni a canviar amb &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite continua permetent només una transacció d&apos;escriptura activa alhora, fins i tot en mode WAL.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Llegiu més sobre WAL a &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Aquesta base de dades (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) no utilitza actualment el mode de diari WAL (Write-Ahead Logging).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;El mode de confirmació manual requereix que el mode WAL estigui activat.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;El mode WAL permet que altres connexions i parts de l&apos;aplicació continuïn llegint la base de dades mentre hi ha una transacció d&apos;escriptura oberta. Sense el mode WAL, una transacció oberta podria bloquejar l&apos;actualització de l&apos;esquema, la navegació per les dades i altres operacions de base de dades.&lt;/p&gt;&lt;p&gt;Tingueu en compte:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;El mode WAL afecta el fitxer de base de dades mateix i serà utilitzat per totes les connexions futures a aquesta base de dades fins que es torni a canviar amb &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite continua permetent només una transacció d&apos;escriptura activa alhora, fins i tot en mode WAL.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Llegiu més sobre WAL a &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
-      <source>Keep current journal mode</source>
-      <translation>Mantén el mode de diari actual</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
+        <source>Keep current journal mode</source>
+        <translation>Mantén el mode de diari actual</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
-      <source>and use auto-commits</source>
-      <translation>i utilitza confirmacions automàtiques</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
+        <source>and use auto-commits</source>
+        <translation>i utilitza confirmacions automàtiques</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
-      <source>Enable WAL mode</source>
-      <translation>Activa el mode WAL</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
+        <source>Enable WAL mode</source>
+        <translation>Activa el mode WAL</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
-      <source>and use manual commits</source>
-      <translation>i utilitza confirmacions manuals</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
+        <source>and use manual commits</source>
+        <translation>i utilitza confirmacions manuals</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Voleu activar el mode WAL i continuar?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Voleu activar el mode WAL i continuar?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MdiWindow</name>
     <message>
-      <location filename="../mdiwindow.cpp" line="204"/>
-      <source>Uncommitted changes</source>
-      <translation>Canvis no confirmats</translation>
+        <location filename="../mdiwindow.cpp" line="204"/>
+        <source>Uncommitted changes</source>
+        <translation>Canvis no confirmats</translation>
     </message>
     <message>
-      <location filename="../mdiwindow.cpp" line="209"/>
-      <source>Close anyway</source>
-      <translation>Tanca igualment</translation>
+        <location filename="../mdiwindow.cpp" line="209"/>
+        <source>Close anyway</source>
+        <translation>Tanca igualment</translation>
     </message>
     <message>
-      <location filename="../mdiwindow.cpp" line="211"/>
-      <source>Don&apos;t close</source>
-      <translation>No tanqueu l&apos;element</translation>
+        <location filename="../mdiwindow.cpp" line="211"/>
+        <source>Don&apos;t close</source>
+        <translation>No tanqueu l&apos;element</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditor</name>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="70"/>
-      <location filename="../multieditor/multieditor.cpp" line="590"/>
-      <source>Null value</source>
-      <comment>multieditor</comment>
-      <translation>Valor nul</translation>
+        <location filename="../multieditor/multieditor.cpp" line="70"/>
+        <location filename="../multieditor/multieditor.cpp" line="590"/>
+        <source>Null value</source>
+        <comment>multieditor</comment>
+        <translation>Valor nul</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="80"/>
-      <source>Save this value to a file</source>
-      <translation>Desa aquest valor en un fitxer</translation>
+        <location filename="../multieditor/multieditor.cpp" line="80"/>
+        <source>Save this value to a file</source>
+        <translation>Desa aquest valor en un fitxer</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="83"/>
-      <source>Load this value from a file</source>
-      <translation>Carrega aquest valor des d&apos;un fitxer</translation>
+        <location filename="../multieditor/multieditor.cpp" line="83"/>
+        <source>Load this value from a file</source>
+        <translation>Carrega aquest valor des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="94"/>
-      <source>Configure editors for this data type</source>
-      <translation>Configura els editors per a aquest tipus de dades</translation>
+        <location filename="../multieditor/multieditor.cpp" line="94"/>
+        <source>Configure editors for this data type</source>
+        <translation>Configura els editors per a aquest tipus de dades</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="102"/>
-      <source>Open another tab</source>
-      <translation>Obre una altra pestanya</translation>
+        <location filename="../multieditor/multieditor.cpp" line="102"/>
+        <source>Open another tab</source>
+        <translation>Obre una altra pestanya</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="118"/>
-      <source>Reset value</source>
-      <translation>Restableix el valor</translation>
+        <location filename="../multieditor/multieditor.cpp" line="118"/>
+        <source>Reset value</source>
+        <translation>Restableix el valor</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="376"/>
-      <source>Foreign Key</source>
-      <translation>Clau externa</translation>
+        <location filename="../multieditor/multieditor.cpp" line="376"/>
+        <source>Foreign Key</source>
+        <translation>Clau externa</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="434"/>
-      <source>All files (*)</source>
-      <translation>Tots els fitxers (*)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="434"/>
+        <source>All files (*)</source>
+        <translation>Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="436"/>
-      <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
-      <translation>Fitxers de text (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="436"/>
+        <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
+        <translation>Fitxers de text (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="438"/>
-      <source>SQL files (*.sql)</source>
-      <translation>Fitxers SQL (*.sql)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="438"/>
+        <source>SQL files (*.sql)</source>
+        <translation>Fitxers SQL (*.sql)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="440"/>
-      <source>Binary data (*.bin *.dat *.raw)</source>
-      <translation>Dades binàries (*.bin *.dat *.raw)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="440"/>
+        <source>Binary data (*.bin *.dat *.raw)</source>
+        <translation>Dades binàries (*.bin *.dat *.raw)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="442"/>
-      <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
-      <translation>Imatges (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="442"/>
+        <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
+        <translation>Imatges (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="444"/>
-      <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
-      <translation>Arxius (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="444"/>
+        <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
+        <translation>Arxius (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="446"/>
-      <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
-      <translation>Fitxers de document (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="446"/>
+        <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
+        <translation>Fitxers de document (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="448"/>
-      <source>Executables (*.exe *.dll *.so *.dylib)</source>
-      <translation>Fitxers executables (*.exe *.dll *.so *.dylib)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="448"/>
+        <source>Executables (*.exe *.dll *.so *.dylib)</source>
+        <translation>Fitxers executables (*.exe *.dll *.so *.dylib)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="472"/>
-      <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
-      <translation>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%1&apos; data type. {1&apos;?} {2&apos;?} {1&apos; or 2&apos;?}</translation>
+        <location filename="../multieditor/multieditor.cpp" line="472"/>
+        <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
+        <translation>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%1&apos; data type. {1&apos;?} {2&apos;?} {1&apos; or 2&apos;?}</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="578"/>
-      <source>Deleted</source>
-      <comment>multieditor</comment>
-      <translation>Suprimit</translation>
+        <location filename="../multieditor/multieditor.cpp" line="578"/>
+        <source>Deleted</source>
+        <comment>multieditor</comment>
+        <translation>Suprimit</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="580"/>
-      <source>Read only</source>
-      <comment>multieditor</comment>
-      <translation>Només lectura</translation>
+        <location filename="../multieditor/multieditor.cpp" line="580"/>
+        <source>Read only</source>
+        <comment>multieditor</comment>
+        <translation>Només lectura</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="694"/>
-      <source>Open</source>
-      <translation>Obre</translation>
+        <location filename="../multieditor/multieditor.cpp" line="694"/>
+        <source>Open</source>
+        <translation>Obre</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="703"/>
-      <source>Could not open file %1 for reading.</source>
-      <translation>No s&apos;ha pogut obrir el fitxer %1 per a lectura.</translation>
+        <location filename="../multieditor/multieditor.cpp" line="703"/>
+        <source>Could not open file %1 for reading.</source>
+        <translation>No s&apos;ha pogut obrir el fitxer %1 per a lectura.</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="719"/>
-      <source>Save</source>
-      <translation>Desa</translation>
+        <location filename="../multieditor/multieditor.cpp" line="719"/>
+        <source>Save</source>
+        <translation>Desa</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="728"/>
-      <source>Could not open file %1 for writting.</source>
-      <translation>No s&apos;ha pogut obrir el fitxer %1 per a escriptura.</translation>
+        <location filename="../multieditor/multieditor.cpp" line="728"/>
+        <source>Could not open file %1 for writting.</source>
+        <translation>No s&apos;ha pogut obrir el fitxer %1 per a escriptura.</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="778"/>
-      <source>Could not write data into the file %1</source>
-      <translation>No s&apos;han pogut escriure les dades al fitxer %1</translation>
+        <location filename="../multieditor/multieditor.cpp" line="778"/>
+        <source>Could not write data into the file %1</source>
+        <translation>No s&apos;han pogut escriure les dades al fitxer %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorBoolPlugin</name>
     <message>
-      <location filename="../multieditor/multieditorbool.cpp" line="227"/>
-      <source>Boolean</source>
-      <translation>Booleà</translation>
+        <location filename="../multieditor/multieditorbool.cpp" line="227"/>
+        <source>Boolean</source>
+        <translation>Booleà</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorDatePlugin</name>
     <message>
-      <location filename="../multieditor/multieditordate.cpp" line="89"/>
-      <source>Date</source>
-      <translation>Data</translation>
+        <location filename="../multieditor/multieditordate.cpp" line="89"/>
+        <source>Date</source>
+        <translation>Data</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorDateTimePlugin</name>
     <message>
-      <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
-      <source>Date &amp; time</source>
-      <translation>Data i hora</translation>
+        <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
+        <source>Date &amp; time</source>
+        <translation>Data i hora</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorFk</name>
     <message>
-      <location filename="../multieditor/multieditorfk.cpp" line="25"/>
-      <source>Selected value preview</source>
-      <translation>Vista prèvia del valor seleccionat</translation>
+        <location filename="../multieditor/multieditorfk.cpp" line="25"/>
+        <source>Selected value preview</source>
+        <translation>Vista prèvia del valor seleccionat</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorHexPlugin</name>
     <message>
-      <location filename="../multieditor/multieditorhex.cpp" line="102"/>
-      <source>Hex</source>
-      <translation>Hexadecimal</translation>
+        <location filename="../multieditor/multieditorhex.cpp" line="102"/>
+        <source>Hex</source>
+        <translation>Hexadecimal</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorNumericPlugin</name>
     <message>
-      <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
-      <source>Number</source>
-      <comment>numeric multi editor tab name</comment>
-      <translation>Nombre</translation>
+        <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
+        <source>Number</source>
+        <comment>numeric multi editor tab name</comment>
+        <translation>Nombre</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorText</name>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="119"/>
-      <source>Tab changes focus</source>
-      <translation>Tab canvia el focus</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="119"/>
+        <source>Tab changes focus</source>
+        <translation>Tab canvia el focus</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="120"/>
-      <source>Cut</source>
-      <translation>Retalla</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="120"/>
+        <source>Cut</source>
+        <translation>Retalla</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="121"/>
-      <source>Copy</source>
-      <translation>Copia</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="121"/>
+        <source>Copy</source>
+        <translation>Copia</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="122"/>
-      <source>Paste</source>
-      <translation>Enganxa</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="122"/>
+        <source>Paste</source>
+        <translation>Enganxa</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="123"/>
-      <source>Delete</source>
-      <translation>Suprimeix</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="123"/>
+        <source>Delete</source>
+        <translation>Suprimeix</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="124"/>
-      <source>Undo</source>
-      <translation>Desfés</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="124"/>
+        <source>Undo</source>
+        <translation>Desfés</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="125"/>
-      <source>Redo</source>
-      <translation>Refés</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="125"/>
+        <source>Redo</source>
+        <translation>Refés</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorTextPlugin</name>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="203"/>
-      <source>Text</source>
-      <translation>Text</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="203"/>
+        <source>Text</source>
+        <translation>Text</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorTimePlugin</name>
     <message>
-      <location filename="../multieditor/multieditortime.cpp" line="92"/>
-      <source>Time</source>
-      <translation>Hora</translation>
+        <location filename="../multieditor/multieditortime.cpp" line="92"/>
+        <source>Time</source>
+        <translation>Hora</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>NewConstraintDialog</name>
     <message>
-      <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
-      <source>New constraint</source>
-      <translation>Restricció nova</translation>
+        <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
+        <source>New constraint</source>
+        <translation>Restricció nova</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
-      <source>Primary Key</source>
-      <comment>new constraint dialog</comment>
-      <translation>Clau primària</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
+        <source>Primary Key</source>
+        <comment>new constraint dialog</comment>
+        <translation>Clau primària</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
-      <source>Foreign Key</source>
-      <comment>new constraint dialog</comment>
-      <translation>Clau externa</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
+        <source>Foreign Key</source>
+        <comment>new constraint dialog</comment>
+        <translation>Clau externa</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
-      <source>Unique</source>
-      <comment>new constraint dialog</comment>
-      <translation>Únic</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
+        <source>Unique</source>
+        <comment>new constraint dialog</comment>
+        <translation>Únic</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
-      <source>Check</source>
-      <comment>new constraint dialog</comment>
-      <translation>Comprovació</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
+        <source>Check</source>
+        <comment>new constraint dialog</comment>
+        <translation>Comprovació</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
-      <source>Not NULL</source>
-      <comment>new constraint dialog</comment>
-      <translation>No NULL</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
+        <source>Not NULL</source>
+        <comment>new constraint dialog</comment>
+        <translation>No NULL</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
-      <source>Collate</source>
-      <comment>new constraint dialog</comment>
-      <translation>Intercalació</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
+        <source>Collate</source>
+        <comment>new constraint dialog</comment>
+        <translation>Intercalació</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
-      <source>Generated</source>
-      <comment>new constraint dialog</comment>
-      <translation>Generat</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
+        <source>Generated</source>
+        <comment>new constraint dialog</comment>
+        <translation>Generat</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
-      <source>Default</source>
-      <comment>new constraint dialog</comment>
-      <translation>Per defecte</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
+        <source>Default</source>
+        <comment>new constraint dialog</comment>
+        <translation>Per defecte</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>NewVersionDialog</name>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="14"/>
-      <source>Letos updates</source>
-      <translation>Actualitzacions de Letos</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="14"/>
+        <source>Letos updates</source>
+        <translation>Actualitzacions de Letos</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="25"/>
-      <source>New version is available!</source>
-      <translation>Hi ha una versió nova disponible!</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="25"/>
+        <source>New version is available!</source>
+        <translation>Hi ha una versió nova disponible!</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="51"/>
-      <source>Download new version!</source>
-      <translation>Baixa la versió nova!</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="51"/>
+        <source>Download new version!</source>
+        <translation>Baixa la versió nova!</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="64"/>
-      <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
-      <translation>El paquet d&apos;actualització de la nova versió es baixarà. Podreu instal·lar-lo quan estigueu a punt.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="64"/>
+        <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
+        <translation>El paquet d&apos;actualització de la nova versió es baixarà. Podreu instal·lar-lo quan estigueu a punt.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="71"/>
-      <source>Open Letos home page.</source>
-      <translation>Obre la pàgina d&apos;inici de Letos.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="71"/>
+        <source>Open Letos home page.</source>
+        <translation>Obre la pàgina d&apos;inici de Letos.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="84"/>
-      <source>Read release notes &amp;&amp; download package yourself.</source>
-      <translation>Llegiu les notes de la versió &amp;&amp; baixeu el paquet pel vostre compte.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="84"/>
+        <source>Read release notes &amp;&amp; download package yourself.</source>
+        <translation>Llegiu les notes de la versió &amp;&amp; baixeu el paquet pel vostre compte.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="104"/>
-      <source>Just close this window.</source>
-      <translation>Simplement tanca aquesta finestra.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="104"/>
+        <source>Just close this window.</source>
+        <translation>Simplement tanca aquesta finestra.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="114"/>
-      <source>Check for updates on startup</source>
-      <translation>Comprova les actualitzacions en iniciar</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="114"/>
+        <source>Check for updates on startup</source>
+        <translation>Comprova les actualitzacions en iniciar</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="91"/>
-      <source>Not now.</source>
-      <translation>Ara no.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="91"/>
+        <source>Not now.</source>
+        <translation>Ara no.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PasswordToggleHelper</name>
     <message>
-      <location filename="../common/passwordtogglehelper.cpp" line="11"/>
-      <source>Show / hide password</source>
-      <translation>Mostra / amaga la contrasenya</translation>
+        <location filename="../common/passwordtogglehelper.cpp" line="11"/>
+        <source>Show / hide password</source>
+        <translation>Mostra / amaga la contrasenya</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateConfigDialog</name>
     <message>
-      <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
-      <source>Populating configuration</source>
-      <translation>Configuració de poblament</translation>
+        <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
+        <source>Populating configuration</source>
+        <translation>Configuració de poblament</translation>
     </message>
     <message>
-      <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
-      <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
-      <translation>S&apos;està configurant &lt;b&gt;%1&lt;/b&gt; per a la columna &lt;b&gt;%2&lt;/b&gt;</translation>
+        <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
+        <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
+        <translation>S&apos;està configurant &lt;b&gt;%1&lt;/b&gt; per a la columna &lt;b&gt;%2&lt;/b&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateDialog</name>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="14"/>
-      <source>Populate table</source>
-      <translation>Pobla la taula</translation>
+        <location filename="../dialogs/populatedialog.ui" line="14"/>
+        <source>Populate table</source>
+        <translation>Pobla la taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="84"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../dialogs/populatedialog.ui" line="84"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="102"/>
-      <source>Table</source>
-      <translation>Taula</translation>
+        <location filename="../dialogs/populatedialog.ui" line="102"/>
+        <source>Table</source>
+        <translation>Taula</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="139"/>
-      <source>Select All</source>
-      <translation>Selecciona-ho tot</translation>
+        <location filename="../dialogs/populatedialog.ui" line="139"/>
+        <source>Select All</source>
+        <translation>Selecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="152"/>
-      <source>Deselect All</source>
-      <translation>Desselecciona-ho tot</translation>
+        <location filename="../dialogs/populatedialog.ui" line="152"/>
+        <source>Deselect All</source>
+        <translation>Desselecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="48"/>
-      <source>Columns</source>
-      <translation>Columnes</translation>
+        <location filename="../dialogs/populatedialog.ui" line="48"/>
+        <source>Columns</source>
+        <translation>Columnes</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="20"/>
-      <source>Number of rows to populate:</source>
-      <translation>Nombre de files a poblar:</translation>
+        <location filename="../dialogs/populatedialog.ui" line="20"/>
+        <source>Number of rows to populate:</source>
+        <translation>Nombre de files a poblar:</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="52"/>
-      <source>Populate</source>
-      <comment>populate dialog button</comment>
-      <translation>Pobla</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="52"/>
+        <source>Populate</source>
+        <comment>populate dialog button</comment>
+        <translation>Pobla</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="67"/>
-      <source>Abort</source>
-      <translation>Avorta</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="67"/>
+        <source>Abort</source>
+        <translation>Avorta</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="204"/>
-      <source>Configure</source>
-      <translation>Configura</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="204"/>
+        <source>Configure</source>
+        <translation>Configura</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="311"/>
-      <source>Populating configuration for this column is invalid or incomplete.</source>
-      <translation>La configuració de poblament per a aquesta columna no és vàlida o és incompleta.</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="311"/>
+        <source>Populating configuration for this column is invalid or incomplete.</source>
+        <translation>La configuració de poblament per a aquesta columna no és vàlida o és incompleta.</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="342"/>
-      <source>Select database with table to populate</source>
-      <translation>Seleccioneu la base de dades amb la taula a poblar</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="342"/>
+        <source>Select database with table to populate</source>
+        <translation>Seleccioneu la base de dades amb la taula a poblar</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="343"/>
-      <source>Select table to populate</source>
-      <translation>Seleccioneu la taula a poblar</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="343"/>
+        <source>Select table to populate</source>
+        <translation>Seleccioneu la taula a poblar</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="344"/>
-      <source>You have to select at least one column.</source>
-      <translation>Heu de seleccionar almenys una columna.</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="344"/>
+        <source>You have to select at least one column.</source>
+        <translation>Heu de seleccionar almenys una columna.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PrimaryKeyPanel</name>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
-      <source>Column</source>
-      <translation>Columna</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
+        <source>Column</source>
+        <translation>Columna</translation>
     </message>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
-      <source>Autoincrement</source>
-      <translation>Autoincrementació</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
+        <source>Autoincrement</source>
+        <translation>Autoincrementació</translation>
     </message>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
-      <source>Named constraint</source>
-      <translation>Restricció amb nom</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
+        <source>Named constraint</source>
+        <translation>Restricció amb nom</translation>
     </message>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
-      <source>On conflict</source>
-      <translation>En cas de conflicte</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
+        <source>On conflict</source>
+        <translation>En cas de conflicte</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QObject</name>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
-      <source>Cannot edit columns that are result of an inline subquery.</source>
-      <translation>No es poden editar columnes que són resultat d&apos;una subconsulta en línia.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
+        <source>Cannot edit columns that are result of an inline subquery.</source>
+        <translation>No es poden editar columnes que són resultat d&apos;una subconsulta en línia.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
-      <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
-      <translation>No es poden editar columnes que són resultat de sentències %1 compostes (una que inclou les paraules clau %2, %3 o %4).</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
+        <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
+        <translation>No es poden editar columnes que són resultat de sentències %1 compostes (una que inclou les paraules clau %2, %3 o %4).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
-      <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
-      <translation>El mecanisme d&apos;execució de consultes ha tingut problemes per extreure correctament els ROWID. Això pot ser una errada de l’aplicació. Potser voleu informar-ne.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
+        <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
+        <translation>El mecanisme d&apos;execució de consultes ha tingut problemes per extreure correctament els ROWID. Això pot ser una errada de l’aplicació. Potser voleu informar-ne.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
-      <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
-      <translation>La columna sol·licitada és resultat d&apos;una expressió SQL, en comptes d&apos;una selecció simple de columna. Aquestes columnes no es poden editar.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
+        <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
+        <translation>La columna sol·licitada és resultat d&apos;una expressió SQL, en comptes d&apos;una selecció simple de columna. Aquestes columnes no es poden editar.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
-      <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
-      <translation>La columna sol·licitada pertany a una taula SQLite restringida. Aquestes taules no es poden editar directament.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
+        <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
+        <translation>La columna sol·licitada pertany a una taula SQLite restringida. Aquestes taules no es poden editar directament.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
-      <source>Cannot edit results of query other than %1.</source>
-      <translation>No es poden editar resultats d&apos;una consulta que no sigui %1.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
+        <source>Cannot edit results of query other than %1.</source>
+        <translation>No es poden editar resultats d&apos;una consulta que no sigui %1.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
-      <source>Cannot edit columns that are result of aggregated %1 statements.</source>
-      <translation>No es poden editar columnes que són resultat de sentències %1 agregades.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
+        <source>Cannot edit columns that are result of aggregated %1 statements.</source>
+        <translation>No es poden editar columnes que són resultat de sentències %1 agregades.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
-      <source>Cannot edit columns that are result of %1 statement.</source>
-      <translation>No es poden editar columnes que són resultat d&apos;una sentència %1.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
+        <source>Cannot edit columns that are result of %1 statement.</source>
+        <translation>No es poden editar columnes que són resultat d&apos;una sentència %1.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
-      <source>Cannot edit columns that are result of common table expression statement (%1).</source>
-      <translation>No es poden editar columnes que són resultat d&apos;una sentència d&apos;expressió de taula comuna (%1).</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
+        <source>Cannot edit columns that are result of common table expression statement (%1).</source>
+        <translation>No es poden editar columnes que són resultat d&apos;una sentència d&apos;expressió de taula comuna (%1).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
-      <source>Cannot edit table generated columns.</source>
-      <translation>No es poden editar columnes generades de la taula.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
+        <source>Cannot edit table generated columns.</source>
+        <translation>No es poden editar columnes generades de la taula.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
-      <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
-      <translation>No es poden editar columnes que són resultat d&apos;una vista si la consulta executada llegeix de qualsevol vista multinivell (és a dir, una vista que consulta una altra vista).</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
+        <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
+        <translation>No es poden editar columnes que són resultat d&apos;una vista si la consulta executada llegeix de qualsevol vista multinivell (és a dir, una vista que consulta una altra vista).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
-      <source>on conflict: %1</source>
-      <comment>data view tooltip</comment>
-      <translation>en cas de conflicte: %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
+        <source>on conflict: %1</source>
+        <comment>data view tooltip</comment>
+        <translation>en cas de conflicte: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
-      <source>references table %1</source>
-      <comment>data view tooltip</comment>
-      <translation>fa referència a la taula %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
+        <source>references table %1</source>
+        <comment>data view tooltip</comment>
+        <translation>fa referència a la taula %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
-      <source>references table %1, column %2</source>
-      <comment>data view tooltip</comment>
-      <translation>fa referència a la taula %1, columna %2</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
+        <source>references table %1, column %2</source>
+        <comment>data view tooltip</comment>
+        <translation>fa referència a la taula %1, columna %2</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
-      <source>condition: %1</source>
-      <comment>data view tooltip</comment>
-      <translation>condició: %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
+        <source>condition: %1</source>
+        <comment>data view tooltip</comment>
+        <translation>condició: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
-      <source>collation name: %1</source>
-      <comment>data view tooltip</comment>
-      <translation>nom d&apos;intercalació: %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
+        <source>collation name: %1</source>
+        <comment>data view tooltip</comment>
+        <translation>nom d&apos;intercalació: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="25"/>
-      <source>Data grid view</source>
-      <translation>Vista de quadrícula de dades</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="25"/>
+        <source>Data grid view</source>
+        <translation>Vista de quadrícula de dades</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="26"/>
-      <source>Edit current cell inline</source>
-      <translation>Edita la cel·la actual en línia</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="26"/>
+        <source>Edit current cell inline</source>
+        <translation>Edita la cel·la actual en línia</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="27"/>
-      <source>Cut cell(s) contents to clipboard</source>
-      <translation>Retalla el contingut de cel·la(es) al porta-retalls</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="27"/>
+        <source>Cut cell(s) contents to clipboard</source>
+        <translation>Retalla el contingut de cel·la(es) al porta-retalls</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="28"/>
-      <source>Copy cell(s) contents to clipboard</source>
-      <translation>Copia el contingut de cel·la(es) al porta-retalls</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="28"/>
+        <source>Copy cell(s) contents to clipboard</source>
+        <translation>Copia el contingut de cel·la(es) al porta-retalls</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="29"/>
-      <source>Copy cell(s) contents together with header to clipboard</source>
-      <translation>Copia el contingut de cel·la(es) juntament amb la capçalera al porta-retalls</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="29"/>
+        <source>Copy cell(s) contents together with header to clipboard</source>
+        <translation>Copia el contingut de cel·la(es) juntament amb la capçalera al porta-retalls</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="31"/>
-      <source>Paste cell(s) contents from clipboard</source>
-      <translation>Enganxa el contingut de cel·la(es) des del porta-retalls</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="31"/>
+        <source>Paste cell(s) contents from clipboard</source>
+        <translation>Enganxa el contingut de cel·la(es) des del porta-retalls</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="33"/>
-      <source>Set empty value to selected cell(s)</source>
-      <translation>Estableix un valor buit a cel·la(es) seleccionada(es)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="33"/>
+        <source>Set empty value to selected cell(s)</source>
+        <translation>Estableix un valor buit a cel·la(es) seleccionada(es)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="34"/>
-      <source>Set NULL value to selected cell(s)</source>
-      <translation>Estableix el valor NULL a cel·la(es) seleccionada(es)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="34"/>
+        <source>Set NULL value to selected cell(s)</source>
+        <translation>Estableix el valor NULL a cel·la(es) seleccionada(es)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="35"/>
-      <source>Commit changes to cell(s) contents</source>
-      <translation>Confirma els canvis al contingut de cel·la(es)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="35"/>
+        <source>Commit changes to cell(s) contents</source>
+        <translation>Confirma els canvis al contingut de cel·la(es)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="36"/>
-      <source>Rollback changes to cell(s) contents</source>
-      <translation>Reverteix els canvis al contingut de cel·la(es)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="36"/>
+        <source>Rollback changes to cell(s) contents</source>
+        <translation>Reverteix els canvis al contingut de cel·la(es)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="37"/>
-      <source>Delete selected data row</source>
-      <translation>Suprimeix la fila de dades seleccionada</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="37"/>
+        <source>Delete selected data row</source>
+        <translation>Suprimeix la fila de dades seleccionada</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="38"/>
-      <source>Insert new data row</source>
-      <translation>Insereix una fila de dades nova</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="38"/>
+        <source>Insert new data row</source>
+        <translation>Insereix una fila de dades nova</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="39"/>
-      <source>Open contents of selected cell in a separate editor</source>
-      <translation>Obre el contingut de la cel·la seleccionada en un editor separat</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="39"/>
+        <source>Open contents of selected cell in a separate editor</source>
+        <translation>Obre el contingut de la cel·la seleccionada en un editor separat</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="40"/>
-      <source>Toggle the height adjustment of rows</source>
-      <translation>Commuta l&apos;ajust d&apos;alçada de les files</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="40"/>
+        <source>Toggle the height adjustment of rows</source>
+        <translation>Commuta l&apos;ajust d&apos;alçada de les files</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="41"/>
-      <source>Increase font size</source>
-      <comment>data view</comment>
-      <translation>Augmenta la mida de la lletra</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="41"/>
+        <source>Increase font size</source>
+        <comment>data view</comment>
+        <translation>Augmenta la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="42"/>
-      <source>Decrease font size</source>
-      <comment>data view</comment>
-      <translation>Disminueix la mida de la lletra</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="42"/>
+        <source>Decrease font size</source>
+        <comment>data view</comment>
+        <translation>Disminueix la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="32"/>
-      <source>Data view (both grid and form)</source>
-      <translation>Vista de dades (tant quadrícula com formulari)</translation>
+        <location filename="../dataview.h" line="32"/>
+        <source>Data view (both grid and form)</source>
+        <translation>Vista de dades (tant quadrícula com formulari)</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="33"/>
-      <source>Refresh data</source>
-      <translation>Actualitza les dades</translation>
+        <location filename="../dataview.h" line="33"/>
+        <source>Refresh data</source>
+        <translation>Actualitza les dades</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="34"/>
-      <source>Find in data</source>
-      <translation>Cerca a les dades</translation>
+        <location filename="../dataview.h" line="34"/>
+        <source>Find in data</source>
+        <translation>Cerca a les dades</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="35"/>
-      <source>Switch to grid view of the data</source>
-      <translation>Canvia a la vista de quadrícula de les dades</translation>
+        <location filename="../dataview.h" line="35"/>
+        <source>Switch to grid view of the data</source>
+        <translation>Canvia a la vista de quadrícula de les dades</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="36"/>
-      <source>Switch to form view of the data</source>
-      <translation>Canvia a la vista de formulari de les dades</translation>
+        <location filename="../dataview.h" line="36"/>
+        <source>Switch to form view of the data</source>
+        <translation>Canvia a la vista de formulari de les dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="31"/>
-      <source>Database list</source>
-      <translation>Llista de bases de dades</translation>
+        <location filename="../dbtree/dbtree.h" line="31"/>
+        <source>Database list</source>
+        <translation>Llista de bases de dades</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="32"/>
-      <source>Delete selected item</source>
-      <translation>Suprimeix l&apos;element seleccionat</translation>
+        <location filename="../dbtree/dbtree.h" line="32"/>
+        <source>Delete selected item</source>
+        <translation>Suprimeix l&apos;element seleccionat</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="33"/>
-      <source>Clear filter contents</source>
-      <translation>Neteja el contingut del filtre</translation>
+        <location filename="../dbtree/dbtree.h" line="33"/>
+        <source>Clear filter contents</source>
+        <translation>Neteja el contingut del filtre</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="34"/>
-      <source>Refresh schema</source>
-      <translation>Actualitza l&apos;esquema</translation>
+        <location filename="../dbtree/dbtree.h" line="34"/>
+        <source>Refresh schema</source>
+        <translation>Actualitza l&apos;esquema</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="35"/>
-      <source>Refresh all schemas</source>
-      <translation>Actualitza tots els esquemes</translation>
+        <location filename="../dbtree/dbtree.h" line="35"/>
+        <source>Refresh all schemas</source>
+        <translation>Actualitza tots els esquemes</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="36"/>
-      <source>Create new database</source>
-      <translation>Crea una base de dades nova</translation>
+        <location filename="../dbtree/dbtree.h" line="36"/>
+        <source>Create new database</source>
+        <translation>Crea una base de dades nova</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="37"/>
-      <source>Open existing database or SQL file</source>
-      <translation>Obre una base de dades existent o un fitxer SQL</translation>
+        <location filename="../dbtree/dbtree.h" line="37"/>
+        <source>Open existing database or SQL file</source>
+        <translation>Obre una base de dades existent o un fitxer SQL</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="38"/>
-      <source>Edit selected database</source>
-      <translation>Edita la base de dades seleccionada</translation>
+        <location filename="../dbtree/dbtree.h" line="38"/>
+        <source>Edit selected database</source>
+        <translation>Edita la base de dades seleccionada</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="39"/>
-      <source>Rename selected database</source>
-      <translation>Canvia el nom de la base de dades seleccionada</translation>
+        <location filename="../dbtree/dbtree.h" line="39"/>
+        <source>Rename selected database</source>
+        <translation>Canvia el nom de la base de dades seleccionada</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="40"/>
-      <source>Select all items</source>
-      <translation>Selecciona tots els elements</translation>
+        <location filename="../dbtree/dbtree.h" line="40"/>
+        <source>Select all items</source>
+        <translation>Selecciona tots els elements</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="41"/>
-      <source>Copy selected item(s)</source>
-      <translation>Copia element(s) seleccionat(s)</translation>
+        <location filename="../dbtree/dbtree.h" line="41"/>
+        <source>Copy selected item(s)</source>
+        <translation>Copia element(s) seleccionat(s)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="42"/>
-      <location filename="../multieditor/multieditortext.h" line="15"/>
-      <location filename="../sqleditor.h" line="35"/>
-      <source>Paste from clipboard</source>
-      <translation>Enganxa des del porta-retalls</translation>
+        <location filename="../dbtree/dbtree.h" line="42"/>
+        <location filename="../multieditor/multieditortext.h" line="15"/>
+        <location filename="../sqleditor.h" line="35"/>
+        <source>Paste from clipboard</source>
+        <translation>Enganxa des del porta-retalls</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="43"/>
-      <source>Increase font size</source>
-      <comment>database list</comment>
-      <translation>Augmenta la mida de la lletra</translation>
+        <location filename="../dbtree/dbtree.h" line="43"/>
+        <source>Increase font size</source>
+        <comment>database list</comment>
+        <translation>Augmenta la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="44"/>
-      <source>Decrease font size</source>
-      <comment>database list</comment>
-      <translation>Disminueix la mida de la lletra</translation>
+        <location filename="../dbtree/dbtree.h" line="44"/>
+        <source>Decrease font size</source>
+        <comment>database list</comment>
+        <translation>Disminueix la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
-      <source>Tables</source>
-      <translation>Taules</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
+        <source>Tables</source>
+        <translation>Taules</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
-      <source>Indexes</source>
-      <translation>Índexs</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
+        <source>Indexes</source>
+        <translation>Índexs</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
-      <source>Triggers</source>
-      <translation>Disparadors</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
+        <source>Triggers</source>
+        <translation>Disparadors</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
-      <source>Views</source>
-      <translation>Vistes</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
+        <source>Views</source>
+        <translation>Vistes</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
-      <source>Columns</source>
-      <translation>Columnes</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
+        <source>Columns</source>
+        <translation>Columnes</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="15"/>
-      <source>Data form view</source>
-      <translation>Vista de formulari de dades</translation>
+        <location filename="../formview.h" line="15"/>
+        <source>Data form view</source>
+        <translation>Vista de formulari de dades</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="16"/>
-      <source>Commit changes for current row</source>
-      <translation>Confirma els canvis de la fila actual</translation>
+        <location filename="../formview.h" line="16"/>
+        <source>Commit changes for current row</source>
+        <translation>Confirma els canvis de la fila actual</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="17"/>
-      <source>Rollback changes for current row</source>
-      <translation>Reverteix els canvis de la fila actual</translation>
+        <location filename="../formview.h" line="17"/>
+        <source>Rollback changes for current row</source>
+        <translation>Reverteix els canvis de la fila actual</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="37"/>
-      <location filename="../formview.h" line="18"/>
-      <source>Go to first row on current page</source>
-      <translation>Ves a la primera fila de la pàgina actual</translation>
+        <location filename="../dataview.h" line="37"/>
+        <location filename="../formview.h" line="18"/>
+        <source>Go to first row on current page</source>
+        <translation>Ves a la primera fila de la pàgina actual</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="39"/>
-      <location filename="../formview.h" line="19"/>
-      <source>Go to next row</source>
-      <translation>Ves a la fila següent</translation>
+        <location filename="../dataview.h" line="39"/>
+        <location filename="../formview.h" line="19"/>
+        <source>Go to next row</source>
+        <translation>Ves a la fila següent</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="38"/>
-      <location filename="../formview.h" line="20"/>
-      <source>Go to previous row</source>
-      <translation>Ves a la fila anterior</translation>
+        <location filename="../dataview.h" line="38"/>
+        <location filename="../formview.h" line="20"/>
+        <source>Go to previous row</source>
+        <translation>Ves a la fila anterior</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="40"/>
-      <location filename="../formview.h" line="21"/>
-      <source>Go to last row on current page</source>
-      <translation>Ves a l&apos;última fila de la pàgina actual</translation>
+        <location filename="../dataview.h" line="40"/>
+        <location filename="../formview.h" line="21"/>
+        <source>Go to last row on current page</source>
+        <translation>Ves a l&apos;última fila de la pàgina actual</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="22"/>
-      <source>Insert new row</source>
-      <translation>Insereix una fila nova</translation>
+        <location filename="../formview.h" line="22"/>
+        <source>Insert new row</source>
+        <translation>Insereix una fila nova</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="23"/>
-      <source>Delete current row</source>
-      <translation>Suprimeix la fila actual</translation>
+        <location filename="../formview.h" line="23"/>
+        <source>Delete current row</source>
+        <translation>Suprimeix la fila actual</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="60"/>
-      <source>Main window</source>
-      <translation>Finestra principal</translation>
+        <location filename="../mainwindow.h" line="60"/>
+        <source>Main window</source>
+        <translation>Finestra principal</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="61"/>
-      <source>Open SQL editor</source>
-      <translation>Obre l&apos;editor SQL</translation>
+        <location filename="../mainwindow.h" line="61"/>
+        <source>Open SQL editor</source>
+        <translation>Obre l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="65"/>
-      <source>Open DDL history window</source>
-      <translation>Obre la finestra de l&apos;historial DDL</translation>
+        <location filename="../mainwindow.h" line="65"/>
+        <source>Open DDL history window</source>
+        <translation>Obre la finestra de l&apos;historial DDL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="67"/>
-      <source>Open snippets editor window</source>
-      <translation>Obre la finestra de l&apos;editor de fragments</translation>
+        <location filename="../mainwindow.h" line="67"/>
+        <source>Open snippets editor window</source>
+        <translation>Obre la finestra de l&apos;editor de fragments</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="66"/>
-      <source>Open function editor window</source>
-      <translation>Obre la finestra de l&apos;editor de funcions</translation>
+        <location filename="../mainwindow.h" line="66"/>
+        <source>Open function editor window</source>
+        <translation>Obre la finestra de l&apos;editor de funcions</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="62"/>
-      <source>Restore recently closed window</source>
-      <translation>Restaura la finestra tancada recentment</translation>
+        <location filename="../mainwindow.h" line="62"/>
+        <source>Restore recently closed window</source>
+        <translation>Restaura la finestra tancada recentment</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="63"/>
-      <source>Open Export Dialog</source>
-      <translation>Obre el diàleg d&apos;exportació</translation>
+        <location filename="../mainwindow.h" line="63"/>
+        <source>Open Export Dialog</source>
+        <translation>Obre el diàleg d&apos;exportació</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="64"/>
-      <source>Open Import Dialog</source>
-      <translation>Obre el diàleg d&apos;importació</translation>
+        <location filename="../mainwindow.h" line="64"/>
+        <source>Open Import Dialog</source>
+        <translation>Obre el diàleg d&apos;importació</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="68"/>
-      <source>Open collation editor window</source>
-      <translation>Obre la finestra de l&apos;editor d&apos;intercalacions</translation>
+        <location filename="../mainwindow.h" line="68"/>
+        <source>Open collation editor window</source>
+        <translation>Obre la finestra de l&apos;editor d&apos;intercalacions</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="69"/>
-      <source>Open extension manager window</source>
-      <translation>Obre la finestra del gestor d&apos;extensions</translation>
+        <location filename="../mainwindow.h" line="69"/>
+        <source>Open extension manager window</source>
+        <translation>Obre la finestra del gestor d&apos;extensions</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="70"/>
-      <source>Previous window</source>
-      <translation>Finestra anterior</translation>
+        <location filename="../mainwindow.h" line="70"/>
+        <source>Previous window</source>
+        <translation>Finestra anterior</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="71"/>
-      <source>Next window</source>
-      <translation>Finestra següent</translation>
+        <location filename="../mainwindow.h" line="71"/>
+        <source>Next window</source>
+        <translation>Finestra següent</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="72"/>
-      <source>Move window earlier</source>
-      <translation>Mou la finestra abans</translation>
+        <location filename="../mainwindow.h" line="72"/>
+        <source>Move window earlier</source>
+        <translation>Mou la finestra abans</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="73"/>
-      <source>Move window later</source>
-      <translation>Mou la finestra després</translation>
+        <location filename="../mainwindow.h" line="73"/>
+        <source>Move window later</source>
+        <translation>Mou la finestra després</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="74"/>
-      <source>Hide status area</source>
-      <translation>Amaga l&apos;àrea d&apos;estat</translation>
+        <location filename="../mainwindow.h" line="74"/>
+        <source>Hide status area</source>
+        <translation>Amaga l&apos;àrea d&apos;estat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="75"/>
-      <source>Open user manual</source>
-      <translation>Obre el manual d&apos;usuari</translation>
+        <location filename="../mainwindow.h" line="75"/>
+        <source>Open user manual</source>
+        <translation>Obre el manual d&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="76"/>
-      <source>Open configuration dialog</source>
-      <translation>Obre el diàleg de configuració</translation>
+        <location filename="../mainwindow.h" line="76"/>
+        <source>Open configuration dialog</source>
+        <translation>Obre el diàleg de configuració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="77"/>
-      <source>Open Debug Console</source>
-      <translation>Obre la consola de depuració</translation>
+        <location filename="../mainwindow.h" line="77"/>
+        <source>Open Debug Console</source>
+        <translation>Obre la consola de depuració</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="78"/>
-      <source>Open CSS Console</source>
-      <translation>Obre la consola CSS</translation>
+        <location filename="../mainwindow.h" line="78"/>
+        <source>Open CSS Console</source>
+        <translation>Obre la consola CSS</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="79"/>
-      <source>Open Command Palette</source>
-      <translation>Obre la paleta d&apos;ordres</translation>
+        <location filename="../mainwindow.h" line="79"/>
+        <source>Open Command Palette</source>
+        <translation>Obre la paleta d&apos;ordres</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="80"/>
-      <source>Open the About dialog</source>
-      <translation>Obre el diàleg Quant a</translation>
+        <location filename="../mainwindow.h" line="80"/>
+        <source>Open the About dialog</source>
+        <translation>Obre el diàleg Quant a</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="81"/>
-      <source>Quit the application</source>
-      <translation>Surt de l&apos;aplicació</translation>
+        <location filename="../mainwindow.h" line="81"/>
+        <source>Quit the application</source>
+        <translation>Surt de l&apos;aplicació</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="12"/>
-      <source>Cell text value editor</source>
-      <translation>Editor de valor de text de cel·la</translation>
+        <location filename="../multieditor/multieditortext.h" line="12"/>
+        <source>Cell text value editor</source>
+        <translation>Editor de valor de text de cel·la</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="13"/>
-      <location filename="../sqleditor.h" line="33"/>
-      <source>Cut selected text</source>
-      <translation>Retalla el text seleccionat</translation>
+        <location filename="../multieditor/multieditortext.h" line="13"/>
+        <location filename="../sqleditor.h" line="33"/>
+        <source>Cut selected text</source>
+        <translation>Retalla el text seleccionat</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="14"/>
-      <location filename="../sqleditor.h" line="34"/>
-      <source>Copy selected text</source>
-      <translation>Copia el text seleccionat</translation>
+        <location filename="../multieditor/multieditortext.h" line="14"/>
+        <location filename="../sqleditor.h" line="34"/>
+        <source>Copy selected text</source>
+        <translation>Copia el text seleccionat</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="16"/>
-      <location filename="../sqleditor.h" line="36"/>
-      <source>Delete selected text</source>
-      <translation>Suprimeix el text seleccionat</translation>
+        <location filename="../multieditor/multieditortext.h" line="16"/>
+        <location filename="../sqleditor.h" line="36"/>
+        <source>Delete selected text</source>
+        <translation>Suprimeix el text seleccionat</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="17"/>
-      <location filename="../sqleditor.h" line="38"/>
-      <source>Undo</source>
-      <translation>Desfés</translation>
+        <location filename="../multieditor/multieditortext.h" line="17"/>
+        <location filename="../sqleditor.h" line="38"/>
+        <source>Undo</source>
+        <translation>Desfés</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="18"/>
-      <location filename="../sqleditor.h" line="39"/>
-      <source>Redo</source>
-      <translation>Refés</translation>
+        <location filename="../multieditor/multieditortext.h" line="18"/>
+        <location filename="../sqleditor.h" line="39"/>
+        <source>Redo</source>
+        <translation>Refés</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="32"/>
-      <source>SQL editor input field</source>
-      <translation>Camp d&apos;entrada de l&apos;editor SQL</translation>
+        <location filename="../sqleditor.h" line="32"/>
+        <source>SQL editor input field</source>
+        <translation>Camp d&apos;entrada de l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="37"/>
-      <source>Select whole editor contents</source>
-      <translation>Selecciona tot el contingut de l&apos;editor</translation>
+        <location filename="../sqleditor.h" line="37"/>
+        <source>Select whole editor contents</source>
+        <translation>Selecciona tot el contingut de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="40"/>
-      <source>Save contents into a file</source>
-      <translation>Desa el contingut en un fitxer</translation>
+        <location filename="../sqleditor.h" line="40"/>
+        <source>Save contents into a file</source>
+        <translation>Desa el contingut en un fitxer</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="41"/>
-      <source>Find in text</source>
-      <translation>Cerca al text</translation>
+        <location filename="../sqleditor.h" line="41"/>
+        <source>Find in text</source>
+        <translation>Cerca al text</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="42"/>
-      <source>Find next</source>
-      <translation>Cerca el següent</translation>
+        <location filename="../sqleditor.h" line="42"/>
+        <source>Find next</source>
+        <translation>Cerca el següent</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="43"/>
-      <source>Find previous</source>
-      <translation>Cerca l&apos;anterior</translation>
+        <location filename="../sqleditor.h" line="43"/>
+        <source>Find previous</source>
+        <translation>Cerca l&apos;anterior</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="44"/>
-      <source>Replace in text</source>
-      <translation>Substitueix al text</translation>
+        <location filename="../sqleditor.h" line="44"/>
+        <source>Replace in text</source>
+        <translation>Substitueix al text</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="45"/>
-      <source>Delete current line</source>
-      <translation>Suprimeix la línia actual</translation>
+        <location filename="../sqleditor.h" line="45"/>
+        <source>Delete current line</source>
+        <translation>Suprimeix la línia actual</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="46"/>
-      <source>Request code assistant</source>
-      <translation>Sol·licita l&apos;assistent de codi</translation>
+        <location filename="../sqleditor.h" line="46"/>
+        <source>Request code assistant</source>
+        <translation>Sol·licita l&apos;assistent de codi</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="47"/>
-      <source>Format contents</source>
-      <translation>Formata el contingut</translation>
+        <location filename="../sqleditor.h" line="47"/>
+        <source>Format contents</source>
+        <translation>Formata el contingut</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="48"/>
-      <source>Open the object at current position</source>
-      <translation>Obre l&apos;objecte a la posició actual</translation>
+        <location filename="../sqleditor.h" line="48"/>
+        <source>Open the object at current position</source>
+        <translation>Obre l&apos;objecte a la posició actual</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="49"/>
-      <source>Move selected block of text one line down</source>
-      <translation>Mou el bloc de text seleccionat una línia avall</translation>
+        <location filename="../sqleditor.h" line="49"/>
+        <source>Move selected block of text one line down</source>
+        <translation>Mou el bloc de text seleccionat una línia avall</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="50"/>
-      <source>Move selected block of text one line up</source>
-      <translation>Mou el bloc de text seleccionat una línia amunt</translation>
+        <location filename="../sqleditor.h" line="50"/>
+        <source>Move selected block of text one line up</source>
+        <translation>Mou el bloc de text seleccionat una línia amunt</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="51"/>
-      <source>Copy selected block of text and paste it a line below</source>
-      <translation>Copia el bloc de text seleccionat i enganxa&apos;l una línia a sota</translation>
+        <location filename="../sqleditor.h" line="51"/>
+        <source>Copy selected block of text and paste it a line below</source>
+        <translation>Copia el bloc de text seleccionat i enganxa&apos;l una línia a sota</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="52"/>
-      <source>Copy selected block of text and paste it a line above</source>
-      <translation>Copia el bloc de text seleccionat i enganxa&apos;l una línia a sobre</translation>
+        <location filename="../sqleditor.h" line="52"/>
+        <source>Copy selected block of text and paste it a line above</source>
+        <translation>Copia el bloc de text seleccionat i enganxa&apos;l una línia a sobre</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="53"/>
-      <source>Toggle comment</source>
-      <translation>Commuta el comentari</translation>
+        <location filename="../sqleditor.h" line="53"/>
+        <source>Toggle comment</source>
+        <translation>Commuta el comentari</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="54"/>
-      <source>Increase font size</source>
-      <comment>sql editor</comment>
-      <translation>Augmenta la mida de la lletra</translation>
+        <location filename="../sqleditor.h" line="54"/>
+        <source>Increase font size</source>
+        <comment>sql editor</comment>
+        <translation>Augmenta la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="55"/>
-      <source>Decrease font size</source>
-      <comment>sql editor</comment>
-      <translation>Disminueix la mida de la lletra</translation>
+        <location filename="../sqleditor.h" line="55"/>
+        <source>Decrease font size</source>
+        <comment>sql editor</comment>
+        <translation>Disminueix la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="778"/>
-      <source>All files</source>
-      <translation>Tots els fitxers</translation>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
+        <source>All files</source>
+        <translation>Tots els fitxers</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="72"/>
-      <source>Select database file</source>
-      <translation>Seleccioneu el fitxer de base de dades</translation>
+        <location filename="../uiutils.cpp" line="72"/>
+        <source>Select database file</source>
+        <translation>Seleccioneu el fitxer de base de dades</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="72"/>
-      <source>Select new database file</source>
-      <translation>Seleccioneu el fitxer de base de dades nou</translation>
+        <location filename="../uiutils.cpp" line="72"/>
+        <source>Select new database file</source>
+        <translation>Seleccioneu el fitxer de base de dades nou</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="777"/>
-      <source>SQL files</source>
-      <translation>Fitxers SQL</translation>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
+        <source>SQL files</source>
+        <translation>Fitxers SQL</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="83"/>
-      <location filename="../uiutils.cpp" line="96"/>
-      <source>Select a file to open</source>
-      <translation>Seleccioneu un fitxer per obrir</translation>
+        <location filename="../uiutils.cpp" line="83"/>
+        <location filename="../uiutils.cpp" line="96"/>
+        <source>Select a file to open</source>
+        <translation>Seleccioneu un fitxer per obrir</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="267"/>
-      <source>Format SQL</source>
-      <translation>Formata SQL</translation>
+        <location filename="../uiutils.cpp" line="267"/>
+        <source>Format SQL</source>
+        <translation>Formata SQL</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="56"/>
-      <source>Select</source>
-      <translation>Selecciona</translation>
+        <location filename="../uiutils.cpp" line="56"/>
+        <source>Select</source>
+        <translation>Selecciona</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="57"/>
-      <source>File type</source>
-      <translation>Tipus de fitxer</translation>
+        <location filename="../uiutils.cpp" line="57"/>
+        <source>File type</source>
+        <translation>Tipus de fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="30"/>
-      <source>SQL editor window</source>
-      <translation>Finestra de l&apos;editor SQL</translation>
+        <location filename="../windows/editorwindow.h" line="30"/>
+        <source>SQL editor window</source>
+        <translation>Finestra de l&apos;editor SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="31"/>
-      <source>Execute query</source>
-      <translation>Executa la consulta</translation>
+        <location filename="../windows/editorwindow.h" line="31"/>
+        <source>Execute query</source>
+        <translation>Executa la consulta</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="32"/>
-      <source>Execute single query under cursor</source>
-      <translation>Executa la consulta única sota el cursor</translation>
+        <location filename="../windows/editorwindow.h" line="32"/>
+        <source>Execute single query under cursor</source>
+        <translation>Executa la consulta única sota el cursor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="33"/>
-      <source>Execute all queries in editor</source>
-      <translation>Executa totes les consultes de l&apos;editor</translation>
+        <location filename="../windows/editorwindow.h" line="33"/>
+        <source>Execute all queries in editor</source>
+        <translation>Executa totes les consultes de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="34"/>
-      <source>Execute EXPLAIN query</source>
-      <translation>Executa la consulta EXPLAIN</translation>
+        <location filename="../windows/editorwindow.h" line="34"/>
+        <source>Execute EXPLAIN query</source>
+        <translation>Executa la consulta EXPLAIN</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="35"/>
-      <source>Export query results</source>
-      <translation>Exporta els resultats de la consulta</translation>
+        <location filename="../windows/editorwindow.h" line="35"/>
+        <source>Export query results</source>
+        <translation>Exporta els resultats de la consulta</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="36"/>
-      <source>Switch current working database to previous on the list</source>
-      <translation>Canvia la base de dades de treball actual a l&apos;anterior de la llista</translation>
+        <location filename="../windows/editorwindow.h" line="36"/>
+        <source>Switch current working database to previous on the list</source>
+        <translation>Canvia la base de dades de treball actual a l&apos;anterior de la llista</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="37"/>
-      <source>Switch current working database to next on the list</source>
-      <translation>Canvia la base de dades de treball actual a la següent de la llista</translation>
+        <location filename="../windows/editorwindow.h" line="37"/>
+        <source>Switch current working database to next on the list</source>
+        <translation>Canvia la base de dades de treball actual a la següent de la llista</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="38"/>
-      <source>Go to next editor tab</source>
-      <translation>Ves a la pestanya següent de l&apos;editor</translation>
+        <location filename="../windows/editorwindow.h" line="38"/>
+        <source>Go to next editor tab</source>
+        <translation>Ves a la pestanya següent de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="39"/>
-      <source>Go to previous editor tab</source>
-      <translation>Ves a la pestanya anterior de l&apos;editor</translation>
+        <location filename="../windows/editorwindow.h" line="39"/>
+        <source>Go to previous editor tab</source>
+        <translation>Ves a la pestanya anterior de l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="40"/>
-      <source>Move keyboard input focus to the results view below</source>
-      <translation>Mou el focus d&apos;entrada del teclat a la vista de resultats de sota</translation>
+        <location filename="../windows/editorwindow.h" line="40"/>
+        <source>Move keyboard input focus to the results view below</source>
+        <translation>Mou el focus d&apos;entrada del teclat a la vista de resultats de sota</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="41"/>
-      <source>Move keyboard input focus to the SQL editor above</source>
-      <translation>Mou el focus d&apos;entrada del teclat a l&apos;editor SQL de sobre</translation>
+        <location filename="../windows/editorwindow.h" line="41"/>
+        <source>Move keyboard input focus to the SQL editor above</source>
+        <translation>Mou el focus d&apos;entrada del teclat a l&apos;editor SQL de sobre</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="42"/>
-      <source>Delete selected SQL history entries</source>
-      <translation>Suprimeix les entrades seleccionades de l&apos;historial SQL</translation>
+        <location filename="../windows/editorwindow.h" line="42"/>
+        <source>Delete selected SQL history entries</source>
+        <translation>Suprimeix les entrades seleccionades de l&apos;historial SQL</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="32"/>
-      <source>Table window</source>
-      <translation>Finestra de taula</translation>
+        <location filename="../windows/tablewindow.h" line="32"/>
+        <source>Table window</source>
+        <translation>Finestra de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="33"/>
-      <source>Commit the table structure</source>
-      <translation>Confirma l&apos;estructura de la taula</translation>
+        <location filename="../windows/tablewindow.h" line="33"/>
+        <source>Commit the table structure</source>
+        <translation>Confirma l&apos;estructura de la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="34"/>
-      <source>Rollback pending changes in the table structure</source>
-      <translation>Reverteix els canvis pendents en l&apos;estructura de la taula</translation>
+        <location filename="../windows/tablewindow.h" line="34"/>
+        <source>Rollback pending changes in the table structure</source>
+        <translation>Reverteix els canvis pendents en l&apos;estructura de la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="35"/>
-      <source>Refresh table structure</source>
-      <translation>Actualitza l&apos;estructura de la taula</translation>
+        <location filename="../windows/tablewindow.h" line="35"/>
+        <source>Refresh table structure</source>
+        <translation>Actualitza l&apos;estructura de la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="36"/>
-      <source>Add new column</source>
-      <translation>Afegeix una columna nova</translation>
+        <location filename="../windows/tablewindow.h" line="36"/>
+        <source>Add new column</source>
+        <translation>Afegeix una columna nova</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="37"/>
-      <source>Edit selected column</source>
-      <translation>Edita la columna seleccionada</translation>
+        <location filename="../windows/tablewindow.h" line="37"/>
+        <source>Edit selected column</source>
+        <translation>Edita la columna seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="38"/>
-      <source>Delete selected column</source>
-      <translation>Suprimeix la columna seleccionada</translation>
+        <location filename="../windows/tablewindow.h" line="38"/>
+        <source>Delete selected column</source>
+        <translation>Suprimeix la columna seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="39"/>
-      <source>Export table data</source>
-      <translation>Exporta les dades de la taula</translation>
+        <location filename="../windows/tablewindow.h" line="39"/>
+        <source>Export table data</source>
+        <translation>Exporta les dades de la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="40"/>
-      <source>Import data to the table</source>
-      <translation>Importa dades a la taula</translation>
+        <location filename="../windows/tablewindow.h" line="40"/>
+        <source>Import data to the table</source>
+        <translation>Importa dades a la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="41"/>
-      <source>Add new table constraint</source>
-      <translation>Afegeix una restricció de taula nova</translation>
+        <location filename="../windows/tablewindow.h" line="41"/>
+        <source>Add new table constraint</source>
+        <translation>Afegeix una restricció de taula nova</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="42"/>
-      <source>Edit selected table constraint</source>
-      <translation>Edita la restricció de taula seleccionada</translation>
+        <location filename="../windows/tablewindow.h" line="42"/>
+        <source>Edit selected table constraint</source>
+        <translation>Edita la restricció de taula seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="43"/>
-      <source>Delete selected table constraint</source>
-      <translation>Suprimeix la restricció de taula seleccionada</translation>
+        <location filename="../windows/tablewindow.h" line="43"/>
+        <source>Delete selected table constraint</source>
+        <translation>Suprimeix la restricció de taula seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="44"/>
-      <source>Refresh table index list</source>
-      <translation>Actualitza la llista d&apos;índexs de la taula</translation>
+        <location filename="../windows/tablewindow.h" line="44"/>
+        <source>Refresh table index list</source>
+        <translation>Actualitza la llista d&apos;índexs de la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="45"/>
-      <source>Add new index</source>
-      <translation>Afegeix un índex nou</translation>
+        <location filename="../windows/tablewindow.h" line="45"/>
+        <source>Add new index</source>
+        <translation>Afegeix un índex nou</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="46"/>
-      <source>Edit selected index</source>
-      <translation>Edita l&apos;índex seleccionat</translation>
+        <location filename="../windows/tablewindow.h" line="46"/>
+        <source>Edit selected index</source>
+        <translation>Edita l&apos;índex seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="47"/>
-      <source>Delete selected index</source>
-      <translation>Suprimeix l&apos;índex seleccionat</translation>
+        <location filename="../windows/tablewindow.h" line="47"/>
+        <source>Delete selected index</source>
+        <translation>Suprimeix l&apos;índex seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="48"/>
-      <source>Refresh table trigger list</source>
-      <translation>Actualitza la llista de disparadors de la taula</translation>
+        <location filename="../windows/tablewindow.h" line="48"/>
+        <source>Refresh table trigger list</source>
+        <translation>Actualitza la llista de disparadors de la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="49"/>
-      <location filename="../windows/viewwindow.h" line="29"/>
-      <source>Add new trigger</source>
-      <translation>Afegeix un disparador nou</translation>
+        <location filename="../windows/tablewindow.h" line="49"/>
+        <location filename="../windows/viewwindow.h" line="29"/>
+        <source>Add new trigger</source>
+        <translation>Afegeix un disparador nou</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="50"/>
-      <location filename="../windows/viewwindow.h" line="30"/>
-      <source>Edit selected trigger</source>
-      <translation>Edita el disparador seleccionat</translation>
+        <location filename="../windows/tablewindow.h" line="50"/>
+        <location filename="../windows/viewwindow.h" line="30"/>
+        <source>Edit selected trigger</source>
+        <translation>Edita el disparador seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="51"/>
-      <location filename="../windows/viewwindow.h" line="31"/>
-      <source>Delete selected trigger</source>
-      <translation>Suprimeix el disparador seleccionat</translation>
+        <location filename="../windows/tablewindow.h" line="51"/>
+        <location filename="../windows/viewwindow.h" line="31"/>
+        <source>Delete selected trigger</source>
+        <translation>Suprimeix el disparador seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="52"/>
-      <location filename="../windows/viewwindow.h" line="32"/>
-      <source>Go to next tab</source>
-      <translation>Ves a la pestanya següent</translation>
+        <location filename="../windows/tablewindow.h" line="52"/>
+        <location filename="../windows/viewwindow.h" line="32"/>
+        <source>Go to next tab</source>
+        <translation>Ves a la pestanya següent</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="53"/>
-      <location filename="../windows/viewwindow.h" line="33"/>
-      <source>Go to previous tab</source>
-      <translation>Ves a la pestanya anterior</translation>
+        <location filename="../windows/tablewindow.h" line="53"/>
+        <location filename="../windows/viewwindow.h" line="33"/>
+        <source>Go to previous tab</source>
+        <translation>Ves a la pestanya anterior</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="23"/>
-      <source>A view window</source>
-      <translation>Una finestra de vista</translation>
+        <location filename="../windows/viewwindow.h" line="23"/>
+        <source>A view window</source>
+        <translation>Una finestra de vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="24"/>
-      <source>Commit the view&apos;s query</source>
-      <translation>Confirma la consulta d&apos;aquesta vista</translation>
+        <location filename="../windows/viewwindow.h" line="24"/>
+        <source>Commit the view&apos;s query</source>
+        <translation>Confirma la consulta d&apos;aquesta vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="25"/>
-      <source>Rollback pending changes in the view&apos;s query</source>
-      <translation>Reverteix els canvis pendents en la consulta d&apos;aquesta vista</translation>
+        <location filename="../windows/viewwindow.h" line="25"/>
+        <source>Rollback pending changes in the view&apos;s query</source>
+        <translation>Reverteix els canvis pendents en la consulta d&apos;aquesta vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="26"/>
-      <source>Refresh view trigger list</source>
-      <translation>Actualitza la llista de disparadors de la vista</translation>
+        <location filename="../windows/viewwindow.h" line="26"/>
+        <source>Refresh view trigger list</source>
+        <translation>Actualitza la llista de disparadors de la vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="27"/>
-      <source>Execute the view&apos;s query</source>
-      <translation>Executa la consulta d&apos;aquesta vista</translation>
+        <location filename="../windows/viewwindow.h" line="27"/>
+        <source>Execute the view&apos;s query</source>
+        <translation>Executa la consulta d&apos;aquesta vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="28"/>
-      <source>Export view data</source>
-      <translation>Exporta les dades de la vista</translation>
+        <location filename="../windows/viewwindow.h" line="28"/>
+        <source>Export view data</source>
+        <translation>Exporta les dades de la vista</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.h" line="17"/>
-      <source>A code snippets editor window</source>
-      <translation>Una finestra de l&apos;editor de fragments de codi</translation>
+        <location filename="../windows/codesnippeteditor.h" line="17"/>
+        <source>A code snippets editor window</source>
+        <translation>Una finestra de l&apos;editor de fragments de codi</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.h" line="18"/>
-      <location filename="../windows/collationseditor.h" line="22"/>
-      <location filename="../windows/functionseditor.h" line="25"/>
-      <location filename="../windows/sqliteextensioneditor.h" line="22"/>
-      <source>Commit the pending changes</source>
-      <translation>Confirma els canvis pendents</translation>
+        <location filename="../windows/codesnippeteditor.h" line="18"/>
+        <location filename="../windows/collationseditor.h" line="22"/>
+        <location filename="../windows/functionseditor.h" line="25"/>
+        <location filename="../windows/sqliteextensioneditor.h" line="22"/>
+        <source>Commit the pending changes</source>
+        <translation>Confirma els canvis pendents</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.h" line="19"/>
-      <location filename="../windows/collationseditor.h" line="23"/>
-      <location filename="../windows/functionseditor.h" line="26"/>
-      <location filename="../windows/sqliteextensioneditor.h" line="23"/>
-      <source>Rollback the pending changes</source>
-      <translation>Reverteix els canvis pendents</translation>
+        <location filename="../windows/codesnippeteditor.h" line="19"/>
+        <location filename="../windows/collationseditor.h" line="23"/>
+        <location filename="../windows/functionseditor.h" line="26"/>
+        <location filename="../windows/sqliteextensioneditor.h" line="23"/>
+        <source>Rollback the pending changes</source>
+        <translation>Reverteix els canvis pendents</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.h" line="21"/>
-      <source>A collation editor window</source>
-      <translation>Una finestra de l&apos;editor d&apos;intercalacions</translation>
+        <location filename="../windows/collationseditor.h" line="21"/>
+        <source>A collation editor window</source>
+        <translation>Una finestra de l&apos;editor d&apos;intercalacions</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.h" line="24"/>
-      <source>A function editor window</source>
-      <translation>Una finestra de l&apos;editor de funcions</translation>
+        <location filename="../windows/functionseditor.h" line="24"/>
+        <source>A function editor window</source>
+        <translation>Una finestra de l&apos;editor de funcions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.h" line="21"/>
-      <source>A SQLite extension editor window</source>
-      <translation>Una finestra de l&apos;editor d&apos;extensions SQLite</translation>
+        <location filename="../windows/sqliteextensioneditor.h" line="21"/>
+        <source>A SQLite extension editor window</source>
+        <translation>Una finestra de l&apos;editor d&apos;extensions SQLite</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
-      <source>Edit database properties</source>
-      <comment>command palette entry</comment>
-      <translation>Edita les propietats de la base de dades</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
+        <source>Edit database properties</source>
+        <comment>command palette entry</comment>
+        <translation>Edita les propietats de la base de dades</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
-      <source>Open table</source>
-      <comment>command palette entry</comment>
-      <translation>Obre la taula</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
+        <source>Open table</source>
+        <comment>command palette entry</comment>
+        <translation>Obre la taula</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
-      <source>Edit index</source>
-      <comment>command palette entry</comment>
-      <translation>Edita l&apos;índex</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
+        <source>Edit index</source>
+        <comment>command palette entry</comment>
+        <translation>Edita l&apos;índex</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
-      <source>Edit trigger</source>
-      <comment>command palette entry</comment>
-      <translation>Edita el disparador</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
+        <source>Edit trigger</source>
+        <comment>command palette entry</comment>
+        <translation>Edita el disparador</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
-      <source>Open view</source>
-      <comment>command palette entry</comment>
-      <translation>Obre la vista</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
+        <source>Open view</source>
+        <comment>command palette entry</comment>
+        <translation>Obre la vista</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
-      <source>Bring the window to front</source>
-      <comment>command palette entry</comment>
-      <translation>Porta la finestra al davant</translation>
+        <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
+        <source>Bring the window to front</source>
+        <comment>command palette entry</comment>
+        <translation>Porta la finestra al davant</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QuitConfirmDialog</name>
     <message>
-      <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
-      <source>Uncommitted changes</source>
-      <translation>Canvis no confirmats</translation>
+        <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
+        <source>Uncommitted changes</source>
+        <translation>Canvis no confirmats</translation>
     </message>
     <message>
-      <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Segur que voleu sortir de l&apos;aplicació?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Els elements següents estan pendents:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Segur que voleu sortir de l&apos;aplicació?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Els elements següents estan pendents:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SearchTextDialog</name>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="14"/>
-      <source>Find or replace</source>
-      <translation>Cerca o substitueix</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="14"/>
+        <source>Find or replace</source>
+        <translation>Cerca o substitueix</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="88"/>
-      <source>Find:</source>
-      <translation>Cerca:</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="88"/>
+        <source>Find:</source>
+        <translation>Cerca:</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="31"/>
-      <source>Case sensitive</source>
-      <translation>Distingeix majúscules i minúscules</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="31"/>
+        <source>Case sensitive</source>
+        <translation>Distingeix majúscules i minúscules</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="38"/>
-      <source>Search backwards</source>
-      <translation>Cerca cap enrere</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="38"/>
+        <source>Search backwards</source>
+        <translation>Cerca cap enrere</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="45"/>
-      <source>Regular expression matching</source>
-      <translation>Coincidència amb expressió regular</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="45"/>
+        <source>Regular expression matching</source>
+        <translation>Coincidència amb expressió regular</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="113"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;S&apos;ha arribat al final del document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="113"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;S&apos;ha arribat al final del document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="20"/>
-      <source>Replace &amp;&amp;
+        <location filename="../dialogs/searchtextdialog.ui" line="20"/>
+        <source>Replace &amp;&amp;
 find next</source>
-      <translation>Substitueix &amp;&amp;
+        <translation>Substitueix &amp;&amp;
 cerca el següent</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="65"/>
-      <source>Replace with:</source>
-      <translation>Substitueix per:</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="65"/>
+        <source>Replace with:</source>
+        <translation>Substitueix per:</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="55"/>
-      <source>Replace all</source>
-      <translation>Substitueix-ho tot</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="55"/>
+        <source>Replace all</source>
+        <translation>Substitueix-ho tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="75"/>
-      <source>Find</source>
-      <translation>Cerca</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="75"/>
+        <source>Find</source>
+        <translation>Cerca</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SettingsExportDialog</name>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
-      <source>Export configuration</source>
-      <translation>Exporta la configuració</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
+        <source>Export configuration</source>
+        <translation>Exporta la configuració</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
-      <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
-      <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
-      <source>Output JSON file</source>
-      <translation>Fitxer JSON de sortida</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
+        <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
+        <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
+        <source>Output JSON file</source>
+        <translation>Fitxer JSON de sortida</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
-      <source>JSON file (*.json);;All files (*)</source>
-      <translation>Fitxer JSON (*.json);;Tots els fitxers (*)</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
+        <source>JSON file (*.json);;All files (*)</source>
+        <translation>Fitxer JSON (*.json);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
-      <source>What to export?</source>
-      <translation>Què voleu exportar?</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
+        <source>What to export?</source>
+        <translation>Què voleu exportar?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
-      <source>User-defined SQL functions</source>
-      <translation>Funcions SQL definides per l&apos;usuari</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
+        <source>User-defined SQL functions</source>
+        <translation>Funcions SQL definides per l&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
-      <source>User-defined collation sequences</source>
-      <translation>Seqüències d&apos;intercalació definides per l&apos;usuari</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
+        <source>User-defined collation sequences</source>
+        <translation>Seqüències d&apos;intercalació definides per l&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
-      <source>User-defined code snippets</source>
-      <translation>Fragments de codi definits per l&apos;usuari</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
+        <source>User-defined code snippets</source>
+        <translation>Fragments de codi definits per l&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
-      <source>Configured SQLite extensions</source>
-      <translation>Extensions SQLite configurades</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
+        <source>Configured SQLite extensions</source>
+        <translation>Extensions SQLite configurades</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SettingsImportDialog</name>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
-      <source>Import configuration</source>
-      <translation>Importa la configuració</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
+        <source>Import configuration</source>
+        <translation>Importa la configuració</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
-      <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
-      <source>Input JSON file</source>
-      <translation>Fitxer JSON d&apos;entrada</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
+        <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
+        <source>Input JSON file</source>
+        <translation>Fitxer JSON d&apos;entrada</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
-      <source>JSON file (*.json);;All files (*)</source>
-      <translation>Fitxer JSON (*.json);;Tots els fitxers (*)</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
+        <source>JSON file (*.json);;All files (*)</source>
+        <translation>Fitxer JSON (*.json);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
-      <source>What to import?</source>
-      <translation>Què voleu importar?</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
+        <source>What to import?</source>
+        <translation>Què voleu importar?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
-      <source>User-defined SQL functions</source>
-      <translation>Funcions SQL definides per l&apos;usuari</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
+        <source>User-defined SQL functions</source>
+        <translation>Funcions SQL definides per l&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
-      <source>User-defined collation sequences</source>
-      <translation>Seqüències d&apos;intercalació definides per l&apos;usuari</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
+        <source>User-defined collation sequences</source>
+        <translation>Seqüències d&apos;intercalació definides per l&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
-      <source>User-defined code snippets</source>
-      <translation>Fragments de codi definits per l&apos;usuari</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
+        <source>User-defined code snippets</source>
+        <translation>Fragments de codi definits per l&apos;usuari</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
-      <source>Configured SQLite extensions</source>
-      <translation>Extensions SQLite configurades</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
+        <source>Configured SQLite extensions</source>
+        <translation>Extensions SQLite configurades</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
-      <source>Import mode</source>
-      <translation>Mode d&apos;importació</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
+        <source>Import mode</source>
+        <translation>Mode d&apos;importació</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
-      <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
-      <translation>Importa els elements seleccionats sense modificar ni eliminar els que ja existeixen a la configuració actual.</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
+        <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
+        <translation>Importa els elements seleccionats sense modificar ni eliminar els que ja existeixen a la configuració actual.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
-      <source>Add to existing items</source>
-      <translation>Afegeix als elements existents</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
+        <source>Add to existing items</source>
+        <translation>Afegeix als elements existents</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
-      <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
-      <translation>Elimina tots els elements existents de les categories seleccionades i després importa els nous des del fitxer. Aquesta acció no es pot desfer!</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
+        <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
+        <translation>Elimina tots els elements existents de les categories seleccionades i després importa els nous des del fitxer. Aquesta acció no es pot desfer!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
-      <source>Replace existing items</source>
-      <translation>Substitueix els elements existents</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
+        <source>Replace existing items</source>
+        <translation>Substitueix els elements existents</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
-      <source>Invalid input file to import: %1</source>
-      <translation>Fitxer d&apos;entrada no vàlid per importar: %1</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
+        <source>Invalid input file to import: %1</source>
+        <translation>Fitxer d&apos;entrada no vàlid per importar: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
-      <source>Selected file does not contain functions to import.</source>
-      <translation>El fitxer seleccionat no conté funcions per importar.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
+        <source>Selected file does not contain functions to import.</source>
+        <translation>El fitxer seleccionat no conté funcions per importar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
-      <source>Selected file does not contain collation sequences to import.</source>
-      <translation>El fitxer seleccionat no conté seqüències d&apos;ordenació per importar.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
+        <source>Selected file does not contain collation sequences to import.</source>
+        <translation>El fitxer seleccionat no conté seqüències d&apos;ordenació per importar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
-      <source>Selected file does not contain code snippets to import.</source>
-      <translation>El fitxer seleccionat no conté fragments de codi per importar.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
+        <source>Selected file does not contain code snippets to import.</source>
+        <translation>El fitxer seleccionat no conté fragments de codi per importar.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
-      <source>Selected file does not contain SQLite extensions to import.</source>
-      <translation>El fitxer seleccionat no conté extensions SQLite per importar.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
+        <source>Selected file does not contain SQLite extensions to import.</source>
+        <translation>El fitxer seleccionat no conté extensions SQLite per importar.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SortDialog</name>
     <message>
-      <location filename="../dialogs/sortdialog.ui" line="14"/>
-      <source>Sort by columns</source>
-      <translation>Ordena per columnes</translation>
+        <location filename="../dialogs/sortdialog.ui" line="14"/>
+        <source>Sort by columns</source>
+        <translation>Ordena per columnes</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.ui" line="45"/>
-      <location filename="../dialogs/sortdialog.cpp" line="47"/>
-      <source>Column</source>
-      <translation>Columna</translation>
+        <location filename="../dialogs/sortdialog.ui" line="45"/>
+        <location filename="../dialogs/sortdialog.cpp" line="47"/>
+        <source>Column</source>
+        <translation>Columna</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.ui" line="50"/>
-      <location filename="../dialogs/sortdialog.cpp" line="47"/>
-      <source>Order</source>
-      <translation>Ordre</translation>
+        <location filename="../dialogs/sortdialog.ui" line="50"/>
+        <location filename="../dialogs/sortdialog.cpp" line="47"/>
+        <source>Order</source>
+        <translation>Ordre</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.cpp" line="177"/>
-      <source>Sort by: %1</source>
-      <translation>Ordena per: %1</translation>
+        <location filename="../dialogs/sortdialog.cpp" line="177"/>
+        <source>Sort by: %1</source>
+        <translation>Ordena per: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.cpp" line="241"/>
-      <source>Move column up</source>
-      <translation>Mou la columna amunt</translation>
+        <location filename="../dialogs/sortdialog.cpp" line="241"/>
+        <source>Move column up</source>
+        <translation>Mou la columna amunt</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.cpp" line="242"/>
-      <source>Move column down</source>
-      <translation>Mou la columna avall</translation>
+        <location filename="../dialogs/sortdialog.cpp" line="242"/>
+        <source>Move column down</source>
+        <translation>Mou la columna avall</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
-      <source>Error while committing new row: %1</source>
-      <translation>Error en confirmar la fila nova: %1</translation>
+        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+        <source>Error while committing new row: %1</source>
+        <translation>Error en confirmar la fila nova: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
-      <source>Error while deleting row from %1: %2</source>
-      <translation>Error en suprimir la fila de %1: %2</translation>
+        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+        <source>Error while deleting row from %1: %2</source>
+        <translation>Error en suprimir la fila de %1: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlEditor</name>
     <message>
-      <location filename="../sqleditor.cpp" line="194"/>
-      <source>Wrap words</source>
-      <comment>sql editor</comment>
-      <translation>Ajusta les paraules</translation>
+        <location filename="../sqleditor.cpp" line="194"/>
+        <source>Wrap words</source>
+        <comment>sql editor</comment>
+        <translation>Ajusta les paraules</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="158"/>
-      <source>Cut</source>
-      <comment>sql editor</comment>
-      <translation>Retalla</translation>
+        <location filename="../sqleditor.cpp" line="158"/>
+        <source>Cut</source>
+        <comment>sql editor</comment>
+        <translation>Retalla</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="159"/>
-      <source>Copy</source>
-      <comment>sql editor</comment>
-      <translation>Copia</translation>
+        <location filename="../sqleditor.cpp" line="159"/>
+        <source>Copy</source>
+        <comment>sql editor</comment>
+        <translation>Copia</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="160"/>
-      <source>Paste</source>
-      <comment>sql editor</comment>
-      <translation>Enganxa</translation>
+        <location filename="../sqleditor.cpp" line="160"/>
+        <source>Paste</source>
+        <comment>sql editor</comment>
+        <translation>Enganxa</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="161"/>
-      <source>Delete</source>
-      <comment>sql editor</comment>
-      <translation>Suprimeix</translation>
+        <location filename="../sqleditor.cpp" line="161"/>
+        <source>Delete</source>
+        <comment>sql editor</comment>
+        <translation>Suprimeix</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="162"/>
-      <source>Select all</source>
-      <comment>sql editor</comment>
-      <translation>Selecciona-ho tot</translation>
+        <location filename="../sqleditor.cpp" line="162"/>
+        <source>Select all</source>
+        <comment>sql editor</comment>
+        <translation>Selecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="163"/>
-      <source>Undo</source>
-      <comment>sql editor</comment>
-      <translation>Desfés</translation>
+        <location filename="../sqleditor.cpp" line="163"/>
+        <source>Undo</source>
+        <comment>sql editor</comment>
+        <translation>Desfés</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="164"/>
-      <source>Redo</source>
-      <comment>sql editor</comment>
-      <translation>Refés</translation>
+        <location filename="../sqleditor.cpp" line="164"/>
+        <source>Redo</source>
+        <comment>sql editor</comment>
+        <translation>Refés</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="166"/>
-      <source>Complete</source>
-      <comment>sql editor</comment>
-      <translation>Completa</translation>
+        <location filename="../sqleditor.cpp" line="166"/>
+        <source>Complete</source>
+        <comment>sql editor</comment>
+        <translation>Completa</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="167"/>
-      <source>Format SQL</source>
-      <comment>sql editor</comment>
-      <translation>Formata l&apos;SQL</translation>
+        <location filename="../sqleditor.cpp" line="167"/>
+        <source>Format SQL</source>
+        <comment>sql editor</comment>
+        <translation>Formata l&apos;SQL</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="168"/>
-      <source>Save SQL to file</source>
-      <comment>sql editor</comment>
-      <translation>Desa l&apos;SQL en un fitxer</translation>
+        <location filename="../sqleditor.cpp" line="168"/>
+        <source>Save SQL to file</source>
+        <comment>sql editor</comment>
+        <translation>Desa l&apos;SQL en un fitxer</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="169"/>
-      <source>Select file to save SQL</source>
-      <comment>sql editor</comment>
-      <translation>Seleccioneu el fitxer per desar l&apos;SQL</translation>
+        <location filename="../sqleditor.cpp" line="169"/>
+        <source>Select file to save SQL</source>
+        <comment>sql editor</comment>
+        <translation>Seleccioneu el fitxer per desar l&apos;SQL</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="170"/>
-      <source>Load SQL from file</source>
-      <comment>sql editor</comment>
-      <translation>Carrega l&apos;SQL des d&apos;un fitxer</translation>
+        <location filename="../sqleditor.cpp" line="170"/>
+        <source>Load SQL from file</source>
+        <comment>sql editor</comment>
+        <translation>Carrega l&apos;SQL des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="171"/>
-      <source>Delete line</source>
-      <comment>sql editor</comment>
-      <translation>Suprimeix la línia</translation>
+        <location filename="../sqleditor.cpp" line="171"/>
+        <source>Delete line</source>
+        <comment>sql editor</comment>
+        <translation>Suprimeix la línia</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="172"/>
-      <source>Move block down</source>
-      <comment>sql editor</comment>
-      <translation>Mou el bloc avall</translation>
+        <location filename="../sqleditor.cpp" line="172"/>
+        <source>Move block down</source>
+        <comment>sql editor</comment>
+        <translation>Mou el bloc avall</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="173"/>
-      <source>Move block up</source>
-      <comment>sql editor</comment>
-      <translation>Mou el bloc amunt</translation>
+        <location filename="../sqleditor.cpp" line="173"/>
+        <source>Move block up</source>
+        <comment>sql editor</comment>
+        <translation>Mou el bloc amunt</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="174"/>
-      <source>Copy block down</source>
-      <comment>sql editor</comment>
-      <translation>Copia el bloc avall</translation>
+        <location filename="../sqleditor.cpp" line="174"/>
+        <source>Copy block down</source>
+        <comment>sql editor</comment>
+        <translation>Copia el bloc avall</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="175"/>
-      <source>Copy up down</source>
-      <comment>sql editor</comment>
-      <translation>Copia el bloc amunt</translation>
+        <location filename="../sqleditor.cpp" line="175"/>
+        <source>Copy up down</source>
+        <comment>sql editor</comment>
+        <translation>Copia el bloc amunt</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="176"/>
-      <source>Find or replace</source>
-      <comment>sql editor</comment>
-      <translation>Cerca o substitueix</translation>
+        <location filename="../sqleditor.cpp" line="176"/>
+        <source>Find or replace</source>
+        <comment>sql editor</comment>
+        <translation>Cerca o substitueix</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="177"/>
-      <source>Find next</source>
-      <comment>sql editor</comment>
-      <translation>Cerca el següent</translation>
+        <location filename="../sqleditor.cpp" line="177"/>
+        <source>Find next</source>
+        <comment>sql editor</comment>
+        <translation>Cerca el següent</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="178"/>
-      <source>Find previous</source>
-      <comment>sql editor</comment>
-      <translation>Cerca l&apos;anterior</translation>
+        <location filename="../sqleditor.cpp" line="178"/>
+        <source>Find previous</source>
+        <comment>sql editor</comment>
+        <translation>Cerca l&apos;anterior</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="179"/>
-      <source>Replace</source>
-      <comment>sql editor</comment>
-      <translation>Substitueix</translation>
+        <location filename="../sqleditor.cpp" line="179"/>
+        <source>Replace</source>
+        <comment>sql editor</comment>
+        <translation>Substitueix</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="180"/>
-      <source>Toggle comment</source>
-      <comment>sql editor</comment>
-      <translation>Activa/desactiva el comentari</translation>
+        <location filename="../sqleditor.cpp" line="180"/>
+        <source>Toggle comment</source>
+        <comment>sql editor</comment>
+        <translation>Activa/desactiva el comentari</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="181"/>
-      <source>Increase font size</source>
-      <comment>sql editor</comment>
-      <translation>Augmenta la mida de la lletra</translation>
+        <location filename="../sqleditor.cpp" line="181"/>
+        <source>Increase font size</source>
+        <comment>sql editor</comment>
+        <translation>Augmenta la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="182"/>
-      <source>Decrease font size</source>
-      <comment>sql editor</comment>
-      <translation>Disminueix la mida de la lletra</translation>
+        <location filename="../sqleditor.cpp" line="182"/>
+        <source>Decrease font size</source>
+        <comment>sql editor</comment>
+        <translation>Disminueix la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="297"/>
-      <source>Could not open file &apos;%1&apos; for writing: %2</source>
-      <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per escriure-hi: %2</translation>
+        <location filename="../sqleditor.cpp" line="297"/>
+        <source>Could not open file &apos;%1&apos; for writing: %2</source>
+        <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per escriure-hi: %2</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="306"/>
-      <source>Saved SQL contents to file: %1</source>
-      <translation>S&apos;ha desat el contingut SQL al fitxer: %1</translation>
+        <location filename="../sqleditor.cpp" line="306"/>
+        <source>Saved SQL contents to file: %1</source>
+        <translation>S&apos;ha desat el contingut SQL al fitxer: %1</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="562"/>
-      <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
-      <translation>La compleció de sintaxi només es pot utilitzar quan hi ha una base de dades vàlida establerta per a l&apos;editor SQL.</translation>
+        <location filename="../sqleditor.cpp" line="562"/>
+        <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
+        <translation>La compleció de sintaxi només es pot utilitzar quan hi ha una base de dades vàlida establerta per a l&apos;editor SQL.</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1183"/>
-      <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
-      <translation>El contingut de l&apos;editor SQL és enorme, de manera que la detecció d&apos;errors i el ressaltat d&apos;objectes existents s&apos;han desactivat temporalment.</translation>
+        <location filename="../sqleditor.cpp" line="1183"/>
+        <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
+        <translation>El contingut de l&apos;editor SQL és enorme, de manera que la detecció d&apos;errors i el ressaltat d&apos;objectes existents s&apos;han desactivat temporalment.</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1212"/>
-      <source>Save to file</source>
-      <translation>Desa en un fitxer</translation>
+        <location filename="../sqleditor.cpp" line="1212"/>
+        <source>Save to file</source>
+        <translation>Desa en un fitxer</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1227"/>
-      <source>SQL scripts (*.sql);;All files (*)</source>
-      <translation>Scripts SQL (*.sql);;Tots els fitxers (*)</translation>
+        <location filename="../sqleditor.cpp" line="1227"/>
+        <source>SQL scripts (*.sql);;All files (*)</source>
+        <translation>Scripts SQL (*.sql);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1228"/>
-      <location filename="../sqleditor.cpp" line="1259"/>
-      <source>Open file</source>
-      <translation>Obre un fitxer</translation>
+        <location filename="../sqleditor.cpp" line="1228"/>
+        <location filename="../sqleditor.cpp" line="1259"/>
+        <source>Open file</source>
+        <translation>Obre un fitxer</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1260"/>
-      <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
-      <translation>Aquest fitxer és enorme (més de %1 MB). Segur que voleu carregar-lo a l&apos;editor de consultes SQL?</translation>
+        <location filename="../sqleditor.cpp" line="1260"/>
+        <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
+        <translation>Aquest fitxer és enorme (més de %1 MB). Segur que voleu carregar-lo a l&apos;editor de consultes SQL?</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1274"/>
-      <source>Could not open file &apos;%1&apos; for reading: %2</source>
-      <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per llegir-lo: %2</translation>
+        <location filename="../sqleditor.cpp" line="1274"/>
+        <source>Could not open file &apos;%1&apos; for reading: %2</source>
+        <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per llegir-lo: %2</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1468"/>
-      <source>Reached the end of document. Hit the find again to restart the search.</source>
-      <translation>S&apos;ha arribat al final del document. Torneu a prémer cerca per reiniciar la cerca.</translation>
+        <location filename="../sqleditor.cpp" line="1468"/>
+        <source>Reached the end of document. Hit the find again to restart the search.</source>
+        <translation>S&apos;ha arribat al final del document. Torneu a prémer cerca per reiniciar la cerca.</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1740"/>
-      <source>Ctrl+click to open this table or view</source>
-      <translation>Ctrl+clic per obrir aquesta taula o vista</translation>
+        <location filename="../sqleditor.cpp" line="1740"/>
+        <source>Ctrl+click to open this table or view</source>
+        <translation>Ctrl+clic per obrir aquesta taula o vista</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryItem</name>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
-      <source>Committing error:</source>
-      <comment>data view tooltip</comment>
-      <translation>Error en confirmar:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
+        <source>Committing error:</source>
+        <comment>data view tooltip</comment>
+        <translation>Error en confirmar:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
-      <source>Column:</source>
-      <comment>data view tooltip</comment>
-      <translation>Columna:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
+        <source>Column:</source>
+        <comment>data view tooltip</comment>
+        <translation>Columna:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
-      <source>Data type:</source>
-      <comment>data view</comment>
-      <translation>Tipus de dades:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
+        <source>Data type:</source>
+        <comment>data view</comment>
+        <translation>Tipus de dades:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
-      <source>Table:</source>
-      <comment>data view tooltip</comment>
-      <translation>Taula:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
+        <source>Table:</source>
+        <comment>data view tooltip</comment>
+        <translation>Taula:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
-      <source>Constraints:</source>
-      <comment>data view tooltip</comment>
-      <translation>Restriccions:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
+        <source>Constraints:</source>
+        <comment>data view tooltip</comment>
+        <translation>Restriccions:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryItemDelegate</name>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
-      <source>Cannot edit this cell. Details: %1</source>
-      <translation>No es pot editar aquesta cel·la. Detalls: %1</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <source>Cannot edit this cell. Details: %1</source>
+        <translation>No es pot editar aquesta cel·la. Detalls: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
-      <source>The row is marked for deletion.</source>
-      <translation>La fila està marcada per suprimir-la.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
+        <source>The row is marked for deletion.</source>
+        <translation>La fila està marcada per suprimir-la.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
-      <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
-      <translation>L&apos;estructura d&apos;aquesta taula ha canviat des de l&apos;última vegada que es van carregar les dades. Torneu a carregar les dades per continuar.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
+        <translation>L&apos;estructura d&apos;aquesta taula ha canviat des de l&apos;última vegada que es van carregar les dades. Torneu a carregar les dades per continuar.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-      <source>ROWID is not available for this cell.</source>
-      <translation>ROWID no està disponible per a aquesta cel·la.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
+        <source>ROWID is not available for this cell.</source>
+        <translation>ROWID no està disponible per a aquesta cel·la.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
-      <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
-      <translation>L&apos;edició de contingut molt gran en un editor de cel·la en línia no és una bona idea. Pot tornar-se lent i incòmode. És millor editar continguts tan grans en una vista de formulari o en un editor emergent (disponible al menú del clic dret).</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
+        <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
+        <translation>L&apos;edició de contingut molt gran en un editor de cel·la en línia no és una bona idea. Pot tornar-se lent i incòmode. És millor editar continguts tan grans en una vista de formulari o en un editor emergent (disponible al menú del clic dret).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
-      <source>Reset to DEFAULT value</source>
-      <translation>Restableix al valor DEFAULT</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
+        <source>Reset to DEFAULT value</source>
+        <translation>Restableix al valor DEFAULT</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
-      <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
-      <translation>Restableix al valor PRIMARY KEY AUTOINCREMENT</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
+        <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
+        <translation>Restableix al valor PRIMARY KEY AUTOINCREMENT</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
-      <source>Reset value</source>
-      <translation>Restableix el valor</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
+        <source>Reset value</source>
+        <translation>Restableix el valor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
-      <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
-      <translation>La clau forana de la columna %2 té més de %1 valors possibles. N&apos;hi ha massa per mostrar-los a la llista desplegable. Heu d’editar el valor manualment.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
+        <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
+        <translation>La clau forana de la columna %2 té més de %1 valors possibles. N&apos;hi ha massa per mostrar-los a la llista desplegable. Heu d’editar el valor manualment.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryModel</name>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
-      <source>Only one query can be executed simultaneously.</source>
-      <translation>Només es pot executar una consulta simultàniament.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
+        <source>Only one query can be executed simultaneously.</source>
+        <translation>Només es pot executar una consulta simultàniament.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
-      <source>Cannot execute query on undefined or invalid database.</source>
-      <translation>No es pot executar la consulta en una base de dades no definida o no vàlida.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
+        <source>Cannot execute query on undefined or invalid database.</source>
+        <translation>No es pot executar la consulta en una base de dades no definida o no vàlida.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
-      <source>Cannot execute empty query.</source>
-      <translation>No es pot executar una consulta buida.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
+        <source>Cannot execute empty query.</source>
+        <translation>No es pot executar una consulta buida.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
-      <source>Uncommitted data</source>
-      <translation>Dades no confirmades</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
+        <source>Uncommitted data</source>
+        <translation>Dades no confirmades</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
-      <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
-      <translation>Hi ha canvis de dades no confirmats. Voleu continuar igualment? Es perdran tots els canvis no confirmats.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+        <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
+        <translation>Hi ha canvis de dades no confirmats. Voleu continuar igualment? Es perdran tots els canvis no confirmats.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
-      <source>Cannot commit the data for a cell that refers to the already closed database.</source>
-      <translation>No es poden confirmar les dades d&apos;una cel·la que fa referència a la base de dades ja tancada.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
+        <source>Cannot commit the data for a cell that refers to the already closed database.</source>
+        <translation>No es poden confirmar les dades d&apos;una cel·la que fa referència a la base de dades ja tancada.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
-      <source>Could not begin transaction on the database. Details: %1</source>
-      <translation>No s&apos;ha pogut iniciar una transacció a la base de dades. Detalls: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
+        <source>Could not begin transaction on the database. Details: %1</source>
+        <translation>No s&apos;ha pogut iniciar una transacció a la base de dades. Detalls: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
-      <source>An error occurred while committing the transaction: %1</source>
-      <translation>S&apos;ha produït un error en confirmar la transacció: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
+        <source>An error occurred while committing the transaction: %1</source>
+        <translation>S&apos;ha produït un error en confirmar la transacció: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
-      <source>An error occurred while rolling back the transaction: %1</source>
-      <translation>S&apos;ha produït un error en revertir la transacció: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
+        <source>An error occurred while rolling back the transaction: %1</source>
+        <translation>S&apos;ha produït un error en revertir la transacció: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
-      <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
-      <translation>S&apos;ha intentat confirmar una cel·la que no és editable (però que ha estat modificada i espera confirmació)! Això és un error. Informeu-ne, si us plau.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
+        <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
+        <translation>S&apos;ha intentat confirmar una cel·la que no és editable (però que ha estat modificada i espera confirmació)! Això és un error. Informeu-ne, si us plau.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
-      <source>An error occurred while committing the data: %1</source>
-      <translation>S&apos;ha produït un error en confirmar les dades: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation>S&apos;ha produït un error en confirmar les dades: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
-      <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
-      <translation>El nombre de files per pàgina s&apos;ha reduït a %1 a causa del nombre de columnes (%2) a la vista de dades.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
+        <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
+        <translation>El nombre de files per pàgina s&apos;ha reduït a %1 a causa del nombre de columnes (%2) a la vista de dades.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
-      <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
-      <translation>Error en executar la consulta SQL a la base de dades &apos;%1&apos;: %2</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
+        <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
+        <translation>Error en executar la consulta SQL a la base de dades &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
-      <source>Error while loading query results: %1</source>
-      <translation>Error en carregar els resultats de la consulta: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
+        <source>Error while loading query results: %1</source>
+        <translation>Error en carregar els resultats de la consulta: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
-      <source>There are less columns in the new query, sort order has been reset.</source>
-      <translation>Hi ha menys columnes a la consulta nova; s&apos;ha restablert l&apos;ordre d&apos;ordenació.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
+        <source>There are less columns in the new query, sort order has been reset.</source>
+        <translation>Hi ha menys columnes a la consulta nova; s&apos;ha restablert l&apos;ordre d&apos;ordenació.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
-      <source>Insert multiple rows</source>
-      <translation>Insereix diverses files</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <source>Insert multiple rows</source>
+        <translation>Insereix diverses files</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
-      <source>Number of rows to insert:</source>
-      <translation>Nombre de files a inserir:</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <source>Number of rows to insert:</source>
+        <translation>Nombre de files a inserir:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
-      <source>Delete rows</source>
-      <translation>Suprimeix files</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
+        <source>Delete rows</source>
+        <translation>Suprimeix files</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
-      <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
-      <translation>Esteu a punt de suprimir files acabades d&apos;inserir que encara no s’han confirmat. Números de fila: %1
+        <translation>Esteu a punt de suprimir files acabades d&apos;inserir que encara no s’han confirmat. Números de fila: %1
 Aquesta supressió serà permanent. Segur que voleu suprimir-les?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
-      <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
-      <translation>Un sol clic ordena per la columna.&lt;br&gt;Alt+clic selecciona les dades de la columna.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
+        <translation>Un sol clic ordena per la columna.&lt;br&gt;Alt+clic selecciona les dades de la columna.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
-      <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
-      <translation>Un sol clic selecciona les dades de la columna.&lt;br&gt;Doble clic ordena per la columna.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
+        <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
+        <translation>Un sol clic selecciona les dades de la columna.&lt;br&gt;Doble clic ordena per la columna.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
-      <source>Middle-click resets sorting.</source>
-      <translation>El clic central restableix l&apos;ordenació.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
+        <source>Middle-click resets sorting.</source>
+        <translation>El clic central restableix l&apos;ordenació.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
-      <source>More options are available in the context menu.</source>
-      <translation>Hi ha més opcions disponibles al menú contextual.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <source>More options are available in the context menu.</source>
+        <translation>Hi ha més opcions disponibles al menú contextual.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryView</name>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
-      <source>Go to referenced row in...</source>
-      <translation>Ves a la fila referenciada a...</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
+        <source>Go to referenced row in...</source>
+        <translation>Ves a la fila referenciada a...</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
-      <source>Cut</source>
-      <translation>Retalla</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
+        <source>Cut</source>
+        <translation>Retalla</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
-      <source>Copy</source>
-      <translation>Copia</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
+        <source>Copy</source>
+        <translation>Copia</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
-      <source>Copy with headers</source>
-      <translation>Copia amb capçaleres</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
+        <source>Copy with headers</source>
+        <translation>Copia amb capçaleres</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
-      <source>Copy as...</source>
-      <translation>Copia com a...</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
+        <source>Copy as...</source>
+        <translation>Copia com a...</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
-      <source>Paste</source>
-      <translation>Enganxa</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
+        <source>Paste</source>
+        <translation>Enganxa</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
-      <source>Paste as...</source>
-      <translation>Enganxa com a...</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
+        <source>Paste as...</source>
+        <translation>Enganxa com a...</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
-      <source>Set NULL value</source>
-      <translation>Estableix el valor NULL</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
+        <source>Set NULL value</source>
+        <translation>Estableix el valor NULL</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
-      <source>Erase value</source>
-      <translation>Esborra el valor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
+        <source>Erase value</source>
+        <translation>Esborra el valor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
-      <source>Reset value</source>
-      <translation>Restableix el valor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
+        <source>Reset value</source>
+        <translation>Restableix el valor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
-      <source>Commit</source>
-      <translation>Confirma</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
+        <source>Commit</source>
+        <translation>Confirma</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
-      <source>Rollback</source>
-      <translation>Reverteix</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
+        <source>Rollback</source>
+        <translation>Reverteix</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
-      <source>Commit selected cells</source>
-      <translation>Confirma les cel·les seleccionades</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
+        <source>Commit selected cells</source>
+        <translation>Confirma les cel·les seleccionades</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
-      <source>Rollback selected cells</source>
-      <translation>Reverteix les cel·les seleccionades</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
+        <source>Rollback selected cells</source>
+        <translation>Reverteix les cel·les seleccionades</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
-      <source>Edit current cell inline</source>
-      <translation>Edita la cel·la actual en línia</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
+        <source>Edit current cell inline</source>
+        <translation>Edita la cel·la actual en línia</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
-      <source>Define columns to sort by</source>
-      <translation>Defineix les columnes per les quals ordenar</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
+        <source>Define columns to sort by</source>
+        <translation>Defineix les columnes per les quals ordenar</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
-      <source>Remove custom sorting (Middle click)</source>
-      <translation>Elimina l&apos;ordenació personalitzada (clic central)</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
+        <source>Remove custom sorting (Middle click)</source>
+        <translation>Elimina l&apos;ordenació personalitzada (clic central)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
-      <source>Insert row</source>
-      <translation>Insereix una fila</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
+        <source>Insert row</source>
+        <translation>Insereix una fila</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
-      <source>Insert multiple rows</source>
-      <translation>Insereix diverses files</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
+        <source>Insert multiple rows</source>
+        <translation>Insereix diverses files</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
-      <source>Delete selected row</source>
-      <translation>Suprimeix la fila seleccionada</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
+        <source>Delete selected row</source>
+        <translation>Suprimeix la fila seleccionada</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
-      <source>Adjust height of rows</source>
-      <translation>Ajusta l&apos;alçada de les files</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
+        <source>Adjust height of rows</source>
+        <translation>Ajusta l&apos;alçada de les files</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
-      <source>Next row on Enter</source>
-      <translation>Fila següent amb Retorn</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
+        <source>Next row on Enter</source>
+        <translation>Fila següent amb Retorn</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
-      <source>Increase font size</source>
-      <comment>data view</comment>
-      <translation>Augmenta la mida de la lletra</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
+        <source>Increase font size</source>
+        <comment>data view</comment>
+        <translation>Augmenta la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
-      <source>Decrease font size</source>
-      <comment>data view</comment>
-      <translation>Disminueix la mida de la lletra</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
+        <source>Decrease font size</source>
+        <comment>data view</comment>
+        <translation>Disminueix la mida de la lletra</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
-      <source>Invert selection</source>
-      <comment>data view</comment>
-      <translation>Inverteix la selecció</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
+        <source>Invert selection</source>
+        <comment>data view</comment>
+        <translation>Inverteix la selecció</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
-      <source>Edit value in editor</source>
-      <translation>Edita el valor a l&apos;editor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
+        <source>Edit value in editor</source>
+        <translation>Edita el valor a l&apos;editor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
-      <source>Show value in a viewer</source>
-      <translation>Mostra el valor en un visor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
+        <source>Show value in a viewer</source>
+        <translation>Mostra el valor en un visor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
-      <source>Generate query for selected cells</source>
-      <translation>Genera una consulta per a les cel·les seleccionades</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
+        <source>Generate query for selected cells</source>
+        <translation>Genera una consulta per a les cel·les seleccionades</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
-      <source>No items selected to paste clipboard contents to.</source>
-      <translation>No s&apos;ha seleccionat cap element on enganxar el contingut del porta-retalls.</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
+        <source>No items selected to paste clipboard contents to.</source>
+        <translation>No s&apos;ha seleccionat cap element on enganxar el contingut del porta-retalls.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
-      <source>Cannot paste data. Details: %1</source>
-      <translation>No es poden enganxar les dades. Detalls: %1</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
+        <source>Cannot paste data. Details: %1</source>
+        <translation>No es poden enganxar les dades. Detalls: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
-      <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
-      <translation>L&apos;estructura d&apos;almenys una taula utilitzada ha canviat des de l&apos;última vegada que es van carregar les dades. Torneu a carregar les dades per continuar.</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
+        <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
+        <translation>L&apos;estructura d&apos;almenys una taula utilitzada ha canviat des de l&apos;última vegada que es van carregar les dades. Torneu a carregar les dades per continuar.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
-      <source>Cannot paste to a cell. Details: %1</source>
-      <translation>No es pot enganxar en una cel·la. Detalls: %1</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
+        <source>Cannot paste to a cell. Details: %1</source>
+        <translation>No es pot enganxar en una cel·la. Detalls: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
-      <source>The row is marked for deletion.</source>
-      <translation>La fila està marcada per suprimir-la.</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
+        <source>The row is marked for deletion.</source>
+        <translation>La fila està marcada per suprimir-la.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
-      <source>Cannot paste to column %1. Details: %2</source>
-      <translation>No es pot enganxar a la columna %1. Detalls: %2</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
+        <source>Cannot paste to column %1. Details: %2</source>
+        <translation>No es pot enganxar a la columna %1. Detalls: %2</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
-      <source>Go to referenced row in table &apos;%1&apos;</source>
-      <translation>Ves a la fila referenciada a la taula &apos;%1&apos;</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
+        <source>Go to referenced row in table &apos;%1&apos;</source>
+        <translation>Ves a la fila referenciada a la taula &apos;%1&apos;</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
-      <source>table &apos;%1&apos;</source>
-      <translation>taula &apos;%1&apos;</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
+        <source>table &apos;%1&apos;</source>
+        <translation>taula &apos;%1&apos;</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
-      <source>Referenced row (%1)</source>
-      <translation>Fila referenciada (%1)</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
+        <source>Referenced row (%1)</source>
+        <translation>Fila referenciada (%1)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
-      <source>Pin column</source>
-      <translation>Fixa la columna</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+        <source>Pin column</source>
+        <translation>Fixa la columna</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
-      <source>Column renderer</source>
-      <translation>Renderitzador de columna</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+        <source>Column renderer</source>
+        <translation>Renderitzador de columna</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
-      <source>Default</source>
-      <translation>Per defecte</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+        <source>Default</source>
+        <translation>Per defecte</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
-      <source>Trim pasted text?</source>
-      <translation>Retallar el text enganxat?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+        <source>Trim pasted text?</source>
+        <translation>Retallar el text enganxat?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
-      <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
-      <translation>El text enganxat conté espais en blanc inicials o finals. Voleu retallar-lo automàticament?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+        <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
+        <translation>El text enganxat conté espais en blanc inicials o finals. Voleu retallar-lo automàticament?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
-      <source>Paste &quot;NULL&quot; as null value?</source>
-      <translation>Enganxar &quot;NULL&quot; com a valor nul?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+        <source>Paste &quot;NULL&quot; as null value?</source>
+        <translation>Enganxar &quot;NULL&quot; com a valor nul?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
-      <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
-      <translation>El text enganxat conté literals &quot;NULL&quot;. Voleu considerar-los valors NULL?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+        <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
+        <translation>El text enganxat conté literals &quot;NULL&quot;. Voleu considerar-los valors NULL?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
-      <source>Edit value</source>
-      <translation>Edita el valor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+        <source>Edit value</source>
+        <translation>Edita el valor</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlViewModel</name>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
-      <source>An error occurred while committing the data: %1</source>
-      <translation>S&apos;ha produït un error en confirmar les dades: %1</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation>S&apos;ha produït un error en confirmar les dades: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
-      <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-      <translation>Fila %1: el disparador INSTEAD OF UPDATE ha modificat més d&apos;una fila (%2). La vista no identifica de manera única el registre editat.</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+        <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation>Fila %1: el disparador INSTEAD OF UPDATE ha modificat més d&apos;una fila (%2). La vista no identifica de manera única el registre editat.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
-      <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-      <translation>Fila %1: el disparador INSTEAD OF DELETE ha suprimit més d&apos;una fila (%2). La vista no identifica de manera única el registre editat.</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
+        <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation>Fila %1: el disparador INSTEAD OF DELETE ha suprimit més d&apos;una fila (%2). La vista no identifica de manera única el registre editat.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
-      <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-      <translation>La vista té disparador(s) INSTEAD OF que gestionen l’edició. S&apos;aconsella actualitzar les dades després de la confirmació per veure els canvis reals, perquè els disparadors poden modificar les dades d’una manera inesperada.</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
+        <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
+        <translation>La vista té disparador(s) INSTEAD OF que gestionen l’edició. S&apos;aconsella actualitzar les dades després de la confirmació per veure els canvis reals, perquè els disparadors poden modificar les dades d’una manera inesperada.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqliteExtensionEditor</name>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
-      <source>Filter extensions</source>
-      <translation>Filtra extensions</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
+        <source>Filter extensions</source>
+        <translation>Filtra extensions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
-      <source>Leave empty to use default function</source>
-      <translation>Deixeu-ho buit per utilitzar la funció per defecte</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
+        <source>Leave empty to use default function</source>
+        <translation>Deixeu-ho buit per utilitzar la funció per defecte</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
-      <source>Extension file</source>
-      <translation>Fitxer d&apos;extensió</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
+        <source>Extension file</source>
+        <translation>Fitxer d&apos;extensió</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
-      <source>Initialization function</source>
-      <translation>Funció d&apos;inicialització</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
+        <source>Initialization function</source>
+        <translation>Funció d&apos;inicialització</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
-      <source>Databases</source>
-      <translation>Bases de dades</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
+        <source>Databases</source>
+        <translation>Bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
-      <source>Register in all databases</source>
-      <translation>Registra a totes les bases de dades</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
+        <source>Register in all databases</source>
+        <translation>Registra a totes les bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
-      <source>Register in following databases:</source>
-      <translation>Registra a les bases de dades següents:</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
+        <source>Register in following databases:</source>
+        <translation>Registra a les bases de dades següents:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
-      <source>Extension manager window has uncommitted modifications.</source>
-      <translation>La finestra del gestor d&apos;extensions té modificacions no confirmades.</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
+        <source>Extension manager window has uncommitted modifications.</source>
+        <translation>La finestra del gestor d&apos;extensions té modificacions no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
-      <source>Extension manager</source>
-      <translation>Gestor d&apos;extensions</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
+        <source>Extension manager</source>
+        <translation>Gestor d&apos;extensions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
-      <source>Commit all extension changes</source>
-      <translation>Confirma tots els canvis d&apos;extensions</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
+        <source>Commit all extension changes</source>
+        <translation>Confirma tots els canvis d&apos;extensions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
-      <source>Rollback all extension changes</source>
-      <translation>Reverteix tots els canvis d&apos;extensions</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
+        <source>Rollback all extension changes</source>
+        <translation>Reverteix tots els canvis d&apos;extensions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
-      <source>Add new extension</source>
-      <translation>Afegeix una extensió nova</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
+        <source>Add new extension</source>
+        <translation>Afegeix una extensió nova</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
-      <source>Remove selected extension</source>
-      <translation>Elimina l&apos;extensió seleccionada</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
+        <source>Remove selected extension</source>
+        <translation>Elimina l&apos;extensió seleccionada</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
-      <source>Import extension list from file</source>
-      <translation>Importa la llista d&apos;extensions des d&apos;un fitxer</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
+        <source>Import extension list from file</source>
+        <translation>Importa la llista d&apos;extensions des d&apos;un fitxer</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
-      <source>Export extension list file</source>
-      <translation>Exporta el fitxer de llista d&apos;extensions</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
+        <source>Export extension list file</source>
+        <translation>Exporta el fitxer de llista d&apos;extensions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
-      <source>Editing extensions manual</source>
-      <translation>Manual d&apos;edició d&apos;extensions</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
+        <source>Editing extensions manual</source>
+        <translation>Manual d&apos;edició d&apos;extensions</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
-      <source>File with given path does not exist or is not readable.</source>
-      <translation>El fitxer amb el camí indicat no existeix o no és llegible.</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
+        <source>File with given path does not exist or is not readable.</source>
+        <translation>El fitxer amb el camí indicat no existeix o no és llegible.</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
-      <source>Unable to load extension: %1</source>
-      <translation>No es pot carregar l&apos;extensió: %1</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
+        <source>Unable to load extension: %1</source>
+        <translation>No es pot carregar l&apos;extensió: %1</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
-      <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
-      <translation>Nom de funció d&apos;inicialització no vàlid. El nom de la funció només pot contenir caràcters alfanumèrics i guions baixos.</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
+        <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
+        <translation>Nom de funció d&apos;inicialització no vàlid. El nom de la funció només pot contenir caràcters alfanumèrics i guions baixos.</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
-      <source>Dynamic link libraries (*.dll);;All files (*)</source>
-      <translation>Biblioteques d&apos;enllaç dinàmic (*.dll);;Tots els fitxers (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
+        <source>Dynamic link libraries (*.dll);;All files (*)</source>
+        <translation>Biblioteques d&apos;enllaç dinàmic (*.dll);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
-      <source>Shared objects (*.so);;All files (*)</source>
-      <translation>Objectes compartits (*.so);;Tots els fitxers (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
+        <source>Shared objects (*.so);;All files (*)</source>
+        <translation>Objectes compartits (*.so);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
-      <source>Dynamic libraries (*.dylib);;All files (*)</source>
-      <translation>Biblioteques dinàmiques (*.dylib);;Tots els fitxers (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
+        <source>Dynamic libraries (*.dylib);;All files (*)</source>
+        <translation>Biblioteques dinàmiques (*.dylib);;Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
-      <source>All files (*)</source>
-      <translation>Tots els fitxers (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
+        <source>All files (*)</source>
+        <translation>Tots els fitxers (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
-      <source>Open file</source>
-      <translation>Obre un fitxer</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
+        <source>Open file</source>
+        <translation>Obre un fitxer</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqliteExtensionEditorModel</name>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
-      <source>all databases</source>
-      <translation>totes les bases de dades</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
+        <source>all databases</source>
+        <translation>totes les bases de dades</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
-      <source>Extension:</source>
-      <translation>Extensió:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
+        <source>Extension:</source>
+        <translation>Extensió:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
-      <source>File:</source>
-      <translation>Fitxer:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
+        <source>File:</source>
+        <translation>Fitxer:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
-      <source>Init function:</source>
-      <translation>Funció d&apos;inici:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
+        <source>Init function:</source>
+        <translation>Funció d&apos;inici:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
-      <source>Registered in:</source>
-      <translation>Registrat a:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
+        <source>Registered in:</source>
+        <translation>Registrat a:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>StatusField</name>
     <message>
-      <location filename="../statusfield.ui" line="14"/>
-      <source>Status</source>
-      <translation>Estat</translation>
+        <location filename="../statusfield.ui" line="14"/>
+        <source>Status</source>
+        <translation>Estat</translation>
     </message>
     <message>
-      <location filename="../statusfield.cpp" line="211"/>
-      <source>Copy</source>
-      <translation>Copia</translation>
+        <location filename="../statusfield.cpp" line="211"/>
+        <source>Copy</source>
+        <translation>Copia</translation>
     </message>
     <message>
-      <location filename="../statusfield.cpp" line="218"/>
-      <source>Clear</source>
-      <translation>Neteja</translation>
+        <location filename="../statusfield.cpp" line="218"/>
+        <source>Clear</source>
+        <translation>Neteja</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableConstraintsModel</name>
     <message>
-      <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
-      <source>Type</source>
-      <comment>table constraints</comment>
-      <translation>Tipus</translation>
+        <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
+        <source>Type</source>
+        <comment>table constraints</comment>
+        <translation>Tipus</translation>
     </message>
     <message>
-      <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
-      <source>Details</source>
-      <comment>table constraints</comment>
-      <translation>Detalls</translation>
+        <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
+        <source>Details</source>
+        <comment>table constraints</comment>
+        <translation>Detalls</translation>
     </message>
     <message>
-      <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
-      <source>Name</source>
-      <comment>table constraints</comment>
-      <translation>Nom</translation>
+        <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
+        <source>Name</source>
+        <comment>table constraints</comment>
+        <translation>Nom</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableForeignKeyPanel</name>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
-      <source>Columns</source>
-      <translation>Columnes</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
+        <source>Columns</source>
+        <translation>Columnes</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
-      <source>Referenced table:</source>
-      <translation>Taula referenciada:</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
+        <source>Referenced table:</source>
+        <translation>Taula referenciada:</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
-      <source>Referencing column</source>
-      <translation>Columna que referencia</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
+        <source>Referencing column</source>
+        <translation>Columna que referencia</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
-      <source>Referenced column</source>
-      <translation>Columna referenciada</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
+        <source>Referenced column</source>
+        <translation>Columna referenciada</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
-      <source>Reactions</source>
-      <translation>Reaccions</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
+        <source>Reactions</source>
+        <translation>Reaccions</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
-      <source>Deferred foreign key</source>
-      <translation>Clau forana diferida</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
+        <source>Deferred foreign key</source>
+        <translation>Clau forana diferida</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
-      <source>Named constraint</source>
-      <translation>Restricció amb nom</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
+        <source>Named constraint</source>
+        <translation>Restricció amb nom</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
-      <source>Constraint name</source>
-      <translation>Nom de la restricció</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
+        <source>Constraint name</source>
+        <translation>Nom de la restricció</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
-      <source>Pick the foreign column.</source>
-      <translation>Trieu la columna forana.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
+        <source>Pick the foreign column.</source>
+        <translation>Trieu la columna forana.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
-      <source>Pick the foreign table.</source>
-      <translation>Trieu la taula forana.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
+        <source>Pick the foreign table.</source>
+        <translation>Trieu la taula forana.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
-      <source>Select at least one foreign column.</source>
-      <translation>Seleccioneu almenys una columna forana.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
+        <source>Select at least one foreign column.</source>
+        <translation>Seleccioneu almenys una columna forana.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
-      <source>Column with the same name</source>
-      <translation>Columna amb el mateix nom</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
+        <source>Column with the same name</source>
+        <translation>Columna amb el mateix nom</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
-      <source>Foreign column</source>
-      <comment>table constraints</comment>
-      <translation>Columna forana</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
+        <source>Foreign column</source>
+        <comment>table constraints</comment>
+        <translation>Columna forana</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
-      <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
-      <translation>La columna referenciada no és PRIMARY KEY ni UNIQUE. Pot causar problemes en inserir o actualitzar dades.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
+        <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
+        <translation>La columna referenciada no és PRIMARY KEY ni UNIQUE. Pot causar problemes en inserir o actualitzar dades.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
-      <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
-      <translation>El tipus de la columna referenciada (%1) és diferent del tipus declarat per a la columna local (%2). Pot causar problemes en inserir o actualitzar dades.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
+        <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
+        <translation>El tipus de la columna referenciada (%1) és diferent del tipus declarat per a la columna local (%2). Pot causar problemes en inserir o actualitzar dades.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TablePrimaryKeyAndUniquePanel</name>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
-      <source>Columns</source>
-      <translation>Columnes</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
+        <source>Columns</source>
+        <translation>Columnes</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
-      <source>Column</source>
-      <translation>Columna</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
+        <source>Column</source>
+        <translation>Columna</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
-      <source>Collation</source>
-      <translation>Intercalació</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
+        <source>Collation</source>
+        <translation>Intercalació</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
-      <source>Sort</source>
-      <translation>Ordenació</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
+        <source>Sort</source>
+        <translation>Ordenació</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
-      <source>Valid only for a single column with INTEGER data type</source>
-      <translation>Vàlid només per a una sola columna amb tipus de dades INTEGER</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
+        <source>Valid only for a single column with INTEGER data type</source>
+        <translation>Vàlid només per a una sola columna amb tipus de dades INTEGER</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
-      <source>Autoincrement</source>
-      <translation>Autoincrementació</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
+        <source>Autoincrement</source>
+        <translation>Autoincrementació</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
-      <source>Named constraint</source>
-      <translation>Restricció amb nom</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
+        <source>Named constraint</source>
+        <translation>Restricció amb nom</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
-      <source>Constraint name</source>
-      <translation>Nom de la restricció</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
+        <source>Constraint name</source>
+        <translation>Nom de la restricció</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
-      <source>On conflict</source>
-      <translation>En cas de conflicte</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
+        <source>On conflict</source>
+        <translation>En cas de conflicte</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
-      <source>Collate</source>
-      <comment>table constraints</comment>
-      <translation>Intercala</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
+        <source>Collate</source>
+        <comment>table constraints</comment>
+        <translation>Intercala</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
-      <source>Sort order</source>
-      <comment>table constraints</comment>
-      <translation>Ordre d&apos;ordenació</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
+        <source>Sort order</source>
+        <comment>table constraints</comment>
+        <translation>Ordre d&apos;ordenació</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
-      <source>Select at least one column.</source>
-      <translation>Seleccioneu almenys una columna.</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
+        <source>Select at least one column.</source>
+        <translation>Seleccioneu almenys una columna.</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduïu un nom per a la restricció.</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduïu un nom per a la restricció.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableStructureModel</name>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="322"/>
-      <source>Name</source>
-      <comment>table structure columns</comment>
-      <translation>Nom</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="322"/>
+        <source>Name</source>
+        <comment>table structure columns</comment>
+        <translation>Nom</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="324"/>
-      <source>Data type</source>
-      <comment>table structure columns</comment>
-      <translation>Tipus de dades</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="324"/>
+        <source>Data type</source>
+        <comment>table structure columns</comment>
+        <translation>Tipus de dades</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="326"/>
-      <source>Primary
+        <location filename="../windows/tablestructuremodel.cpp" line="326"/>
+        <source>Primary
 Key</source>
-      <comment>table structure columns</comment>
-      <translation>Clau
+        <comment>table structure columns</comment>
+        <translation>Clau
 primària</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="328"/>
-      <source>Foreign
+        <location filename="../windows/tablestructuremodel.cpp" line="328"/>
+        <source>Foreign
 Key</source>
-      <comment>table structure columns</comment>
-      <translation>Clau
+        <comment>table structure columns</comment>
+        <translation>Clau
 forana</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="330"/>
-      <source>Unique</source>
-      <comment>table structure columns</comment>
-      <translation>Únic</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="330"/>
+        <source>Unique</source>
+        <comment>table structure columns</comment>
+        <translation>Únic</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="332"/>
-      <source>Check</source>
-      <comment>table structure columns</comment>
-      <translation>Comprovació</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="332"/>
+        <source>Check</source>
+        <comment>table structure columns</comment>
+        <translation>Comprovació</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="334"/>
-      <source>Not
+        <location filename="../windows/tablestructuremodel.cpp" line="334"/>
+        <source>Not
 NULL</source>
-      <comment>table structure columns</comment>
-      <translation>No
+        <comment>table structure columns</comment>
+        <translation>No
 NULL</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="336"/>
-      <source>Collate</source>
-      <comment>table structure columns</comment>
-      <translation>Intercala</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="336"/>
+        <source>Collate</source>
+        <comment>table structure columns</comment>
+        <translation>Intercala</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="338"/>
-      <source>Generated</source>
-      <comment>table structure columns</comment>
-      <translation>Generat</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="338"/>
+        <source>Generated</source>
+        <comment>table structure columns</comment>
+        <translation>Generat</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="340"/>
-      <source>Default value</source>
-      <comment>table structure columns</comment>
-      <translation>Valor per defecte</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="340"/>
+        <source>Default value</source>
+        <comment>table structure columns</comment>
+        <translation>Valor per defecte</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableWindow</name>
     <message>
-      <location filename="../windows/tablewindow.ui" line="36"/>
-      <source>Structure</source>
-      <translation>Estructura</translation>
+        <location filename="../windows/tablewindow.ui" line="36"/>
+        <source>Structure</source>
+        <translation>Estructura</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="70"/>
-      <source>Table name:</source>
-      <translation>Nom de la taula:</translation>
+        <location filename="../windows/tablewindow.ui" line="70"/>
+        <source>Table name:</source>
+        <translation>Nom de la taula:</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="87"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activa/desactiva la clàusula WITHOUT ROWID a la taula. Aquesta taula ja no tindrà la columna oculta &amp;quot;rowid&amp;quot;. Per a aquesta taula és obligatòria una columna PRIMARY KEY explícita. Podeu llegir-ne més detalls a la documentació oficial de SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/tablewindow.ui" line="87"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activa/desactiva la clàusula WITHOUT ROWID a la taula. Aquesta taula ja no tindrà la columna oculta &amp;quot;rowid&amp;quot;. Per a aquesta taula és obligatòria una columna PRIMARY KEY explícita. Podeu llegir-ne més detalls a la documentació oficial de SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="97"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activa/desactiva la clàusula STRICT per a la taula. Aquesta taula fa una verificació estricta de les dades emmagatzemades a les columnes respecte dels tipus de dades declarats per a aquestes columnes. Això és similar a com se solen aplicar els tipus de dades a la majoria d&apos;altres motors de bases de dades. Manteniu-ho desactivat per utilitzar el comportament clàssic de SQLite (és a dir, sense imposició del tipus de dades). Podeu trobar més detalls a la documentació oficial de SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/tablewindow.ui" line="97"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activa/desactiva la clàusula STRICT per a la taula. Aquesta taula fa una verificació estricta de les dades emmagatzemades a les columnes respecte dels tipus de dades declarats per a aquestes columnes. Això és similar a com se solen aplicar els tipus de dades a la majoria d&apos;altres motors de bases de dades. Manteniu-ho desactivat per utilitzar el comportament clàssic de SQLite (és a dir, sense imposició del tipus de dades). Podeu trobar més detalls a la documentació oficial de SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="213"/>
-      <location filename="../windows/tablewindow.cpp" line="1778"/>
-      <source>Data</source>
-      <translation>Dades</translation>
+        <location filename="../windows/tablewindow.ui" line="213"/>
+        <location filename="../windows/tablewindow.cpp" line="1778"/>
+        <source>Data</source>
+        <translation>Dades</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="230"/>
-      <source>Constraints</source>
-      <translation>Restriccions</translation>
+        <location filename="../windows/tablewindow.ui" line="230"/>
+        <source>Constraints</source>
+        <translation>Restriccions</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="244"/>
-      <source>Indexes</source>
-      <translation>Índexs</translation>
+        <location filename="../windows/tablewindow.ui" line="244"/>
+        <source>Indexes</source>
+        <translation>Índexs</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="276"/>
-      <source>Triggers</source>
-      <translation>Disparadors</translation>
+        <location filename="../windows/tablewindow.ui" line="276"/>
+        <source>Triggers</source>
+        <translation>Disparadors</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="311"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../windows/tablewindow.ui" line="311"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="243"/>
-      <source>Export table</source>
-      <comment>table window</comment>
-      <translation>Exporta la taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="243"/>
+        <source>Export table</source>
+        <comment>table window</comment>
+        <translation>Exporta la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="244"/>
-      <source>Populate table</source>
-      <comment>table window</comment>
-      <translation>Omple la taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="244"/>
+        <source>Populate table</source>
+        <comment>table window</comment>
+        <translation>Omple la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="232"/>
-      <source>Refresh structure</source>
-      <comment>table window</comment>
-      <translation>Actualitza l&apos;estructura</translation>
+        <location filename="../windows/tablewindow.cpp" line="232"/>
+        <source>Refresh structure</source>
+        <comment>table window</comment>
+        <translation>Actualitza l&apos;estructura</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="234"/>
-      <source>Commit structure changes</source>
-      <comment>table window</comment>
-      <translation>Confirma els canvis d&apos;estructura</translation>
+        <location filename="../windows/tablewindow.cpp" line="234"/>
+        <source>Commit structure changes</source>
+        <comment>table window</comment>
+        <translation>Confirma els canvis d&apos;estructura</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="235"/>
-      <source>Rollback structure changes</source>
-      <comment>table window</comment>
-      <translation>Reverteix els canvis d&apos;estructura</translation>
+        <location filename="../windows/tablewindow.cpp" line="235"/>
+        <source>Rollback structure changes</source>
+        <comment>table window</comment>
+        <translation>Reverteix els canvis d&apos;estructura</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="236"/>
-      <source>Add column</source>
-      <comment>table window</comment>
-      <translation>Afegeix una columna</translation>
+        <location filename="../windows/tablewindow.cpp" line="236"/>
+        <source>Add column</source>
+        <comment>table window</comment>
+        <translation>Afegeix una columna</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="237"/>
-      <source>Edit column</source>
-      <comment>table window</comment>
-      <translation>Edita la columna</translation>
+        <location filename="../windows/tablewindow.cpp" line="237"/>
+        <source>Edit column</source>
+        <comment>table window</comment>
+        <translation>Edita la columna</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="238"/>
-      <location filename="../windows/tablewindow.cpp" line="330"/>
-      <source>Delete column</source>
-      <comment>table window</comment>
-      <translation>Suprimeix la columna</translation>
+        <location filename="../windows/tablewindow.cpp" line="238"/>
+        <location filename="../windows/tablewindow.cpp" line="330"/>
+        <source>Delete column</source>
+        <comment>table window</comment>
+        <translation>Suprimeix la columna</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="239"/>
-      <source>Move column up</source>
-      <comment>table window</comment>
-      <translation>Mou la columna amunt</translation>
+        <location filename="../windows/tablewindow.cpp" line="239"/>
+        <source>Move column up</source>
+        <comment>table window</comment>
+        <translation>Mou la columna amunt</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="240"/>
-      <source>Move column down</source>
-      <comment>table window</comment>
-      <translation>Mou la columna avall</translation>
+        <location filename="../windows/tablewindow.cpp" line="240"/>
+        <source>Move column down</source>
+        <comment>table window</comment>
+        <translation>Mou la columna avall</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="246"/>
-      <source>Create similar table</source>
-      <comment>table window</comment>
-      <translation>Crea una taula similar</translation>
+        <location filename="../windows/tablewindow.cpp" line="246"/>
+        <source>Create similar table</source>
+        <comment>table window</comment>
+        <translation>Crea una taula similar</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="247"/>
-      <source>Reset autoincrement value</source>
-      <comment>table window</comment>
-      <translation>Restableix el valor d&apos;autoincrement</translation>
+        <location filename="../windows/tablewindow.cpp" line="247"/>
+        <source>Reset autoincrement value</source>
+        <comment>table window</comment>
+        <translation>Restableix el valor d&apos;autoincrement</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="250"/>
-      <source>Add table constraint</source>
-      <comment>table window</comment>
-      <translation>Afegeix una restricció de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="250"/>
+        <source>Add table constraint</source>
+        <comment>table window</comment>
+        <translation>Afegeix una restricció de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="251"/>
-      <source>Edit table constraint</source>
-      <comment>table window</comment>
-      <translation>Edita la restricció de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="251"/>
+        <source>Edit table constraint</source>
+        <comment>table window</comment>
+        <translation>Edita la restricció de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="252"/>
-      <source>Delete table constraint</source>
-      <comment>table window</comment>
-      <translation>Suprimeix la restricció de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="252"/>
+        <source>Delete table constraint</source>
+        <comment>table window</comment>
+        <translation>Suprimeix la restricció de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="253"/>
-      <source>Move table constraint up</source>
-      <comment>table window</comment>
-      <translation>Mou la restricció de taula amunt</translation>
+        <location filename="../windows/tablewindow.cpp" line="253"/>
+        <source>Move table constraint up</source>
+        <comment>table window</comment>
+        <translation>Mou la restricció de taula amunt</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="254"/>
-      <source>Move table constraint down</source>
-      <comment>table window</comment>
-      <translation>Mou la restricció de taula avall</translation>
+        <location filename="../windows/tablewindow.cpp" line="254"/>
+        <source>Move table constraint down</source>
+        <comment>table window</comment>
+        <translation>Mou la restricció de taula avall</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="256"/>
-      <source>Add table primary key</source>
-      <comment>table window</comment>
-      <translation>Afegeix una clau primària de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="256"/>
+        <source>Add table primary key</source>
+        <comment>table window</comment>
+        <translation>Afegeix una clau primària de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="257"/>
-      <source>Add table foreign key</source>
-      <comment>table window</comment>
-      <translation>Afegeix una clau forana de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="257"/>
+        <source>Add table foreign key</source>
+        <comment>table window</comment>
+        <translation>Afegeix una clau forana de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="258"/>
-      <source>Add table unique constraint</source>
-      <comment>table window</comment>
-      <translation>Afegeix una restricció única de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="258"/>
+        <source>Add table unique constraint</source>
+        <comment>table window</comment>
+        <translation>Afegeix una restricció única de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="259"/>
-      <source>Add table check constraint</source>
-      <comment>table window</comment>
-      <translation>Afegeix una restricció check de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="259"/>
+        <source>Add table check constraint</source>
+        <comment>table window</comment>
+        <translation>Afegeix una restricció check de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="242"/>
-      <source>Import data to the table</source>
-      <comment>table window</comment>
-      <translation>Importa dades a la taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="242"/>
+        <source>Import data to the table</source>
+        <comment>table window</comment>
+        <translation>Importa dades a la taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="277"/>
-      <source>Refresh index list</source>
-      <comment>table window</comment>
-      <translation>Actualitza la llista d&apos;índexs</translation>
+        <location filename="../windows/tablewindow.cpp" line="277"/>
+        <source>Refresh index list</source>
+        <comment>table window</comment>
+        <translation>Actualitza la llista d&apos;índexs</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="279"/>
-      <source>Create index</source>
-      <comment>table window</comment>
-      <translation>Crea un índex</translation>
+        <location filename="../windows/tablewindow.cpp" line="279"/>
+        <source>Create index</source>
+        <comment>table window</comment>
+        <translation>Crea un índex</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="280"/>
-      <source>Edit index</source>
-      <comment>table window</comment>
-      <translation>Edita l&apos;índex</translation>
+        <location filename="../windows/tablewindow.cpp" line="280"/>
+        <source>Edit index</source>
+        <comment>table window</comment>
+        <translation>Edita l&apos;índex</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="281"/>
-      <source>Delete index</source>
-      <comment>table window</comment>
-      <translation>Suprimeix l&apos;índex</translation>
+        <location filename="../windows/tablewindow.cpp" line="281"/>
+        <source>Delete index</source>
+        <comment>table window</comment>
+        <translation>Suprimeix l&apos;índex</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="287"/>
-      <source>Refresh trigger list</source>
-      <comment>table window</comment>
-      <translation>Actualitza la llista de disparadors</translation>
+        <location filename="../windows/tablewindow.cpp" line="287"/>
+        <source>Refresh trigger list</source>
+        <comment>table window</comment>
+        <translation>Actualitza la llista de disparadors</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="289"/>
-      <source>Create trigger</source>
-      <comment>table window</comment>
-      <translation>Crea un disparador</translation>
+        <location filename="../windows/tablewindow.cpp" line="289"/>
+        <source>Create trigger</source>
+        <comment>table window</comment>
+        <translation>Crea un disparador</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="290"/>
-      <source>Edit trigger</source>
-      <comment>table window</comment>
-      <translation>Edita el disparador</translation>
+        <location filename="../windows/tablewindow.cpp" line="290"/>
+        <source>Edit trigger</source>
+        <comment>table window</comment>
+        <translation>Edita el disparador</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="291"/>
-      <source>Delete trigger</source>
-      <comment>table window</comment>
-      <translation>Suprimeix el disparador</translation>
+        <location filename="../windows/tablewindow.cpp" line="291"/>
+        <source>Delete trigger</source>
+        <comment>table window</comment>
+        <translation>Suprimeix el disparador</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="329"/>
-      <source>Are you sure you want to delete column &apos;%1&apos;?</source>
-      <comment>table window</comment>
-      <translation>Segur que voleu suprimir la columna &apos;%1&apos;?</translation>
+        <location filename="../windows/tablewindow.cpp" line="329"/>
+        <source>Are you sure you want to delete column &apos;%1&apos;?</source>
+        <comment>table window</comment>
+        <translation>Segur que voleu suprimir la columna &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="380"/>
-      <source>Following problems will take place while modifying the table.
+        <location filename="../windows/tablewindow.cpp" line="380"/>
+        <source>Following problems will take place while modifying the table.
 Would you like to proceed?</source>
-      <comment>table window</comment>
-      <translation>Es produiran els problemes següents en modificar la taula.
+        <comment>table window</comment>
+        <translation>Es produiran els problemes següents en modificar la taula.
 Voleu continuar?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="382"/>
-      <source>Table modification</source>
-      <comment>table window</comment>
-      <translation>Modificació de taula</translation>
+        <location filename="../windows/tablewindow.cpp" line="382"/>
+        <source>Table modification</source>
+        <comment>table window</comment>
+        <translation>Modificació de taula</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="507"/>
-      <source>Could not load data for table %1. Error details: %2</source>
-      <translation>No s&apos;han pogut carregar les dades de la taula %1. Detalls de l&apos;error: %2</translation>
+        <location filename="../windows/tablewindow.cpp" line="507"/>
+        <source>Could not load data for table %1. Error details: %2</source>
+        <translation>No s&apos;han pogut carregar les dades de la taula %1. Detalls de l&apos;error: %2</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="655"/>
-      <source>Could not process the %1 table correctly. Unable to open a table window.</source>
-      <translation>No s&apos;ha pogut processar correctament la taula %1. No es pot obrir una finestra de taula.</translation>
+        <location filename="../windows/tablewindow.cpp" line="655"/>
+        <source>Could not process the %1 table correctly. Unable to open a table window.</source>
+        <translation>No s&apos;ha pogut processar correctament la taula %1. No es pot obrir una finestra de taula.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="679"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../windows/tablewindow.cpp" line="679"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="722"/>
-      <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra %1 perquè no s&apos;havia emmagatzemat cap base de dades ni taula a la sessió per a aquesta finestra.</translation>
+        <location filename="../windows/tablewindow.cpp" line="722"/>
+        <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra %1 perquè no s&apos;havia emmagatzemat cap base de dades ni taula a la sessió per a aquesta finestra.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="728"/>
-      <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;havia emmagatzemat cap base de dades ni taula a la sessió per a aquesta finestra.</translation>
+        <location filename="../windows/tablewindow.cpp" line="728"/>
+        <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;havia emmagatzemat cap base de dades ni taula a la sessió per a aquesta finestra.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="735"/>
-      <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;ha pogut resoldre la base de dades %2.</translation>
+        <location filename="../windows/tablewindow.cpp" line="735"/>
+        <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;ha pogut resoldre la base de dades %2.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="744"/>
-      <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos;, perquè la taula %2 no existeix a la base de dades %3.</translation>
+        <location filename="../windows/tablewindow.cpp" line="744"/>
+        <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos;, perquè la taula %2 no existeix a la base de dades %3.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="775"/>
-      <location filename="../windows/tablewindow.cpp" line="777"/>
-      <source>New table %1</source>
-      <translation>Taula nova %1</translation>
+        <location filename="../windows/tablewindow.cpp" line="775"/>
+        <location filename="../windows/tablewindow.cpp" line="777"/>
+        <source>New table %1</source>
+        <translation>Taula nova %1</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="918"/>
-      <source>Committed changes for table &apos;%1&apos; successfully.</source>
-      <translation>S&apos;han confirmat correctament els canvis de la taula &apos;%1&apos;.</translation>
+        <location filename="../windows/tablewindow.cpp" line="918"/>
+        <source>Committed changes for table &apos;%1&apos; successfully.</source>
+        <translation>S&apos;han confirmat correctament els canvis de la taula &apos;%1&apos;.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="922"/>
-      <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-      <translation>S&apos;han confirmat correctament els canvis de la taula &apos;%1&apos; (anomenada abans &apos;%2&apos;).</translation>
+        <location filename="../windows/tablewindow.cpp" line="922"/>
+        <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
+        <translation>S&apos;han confirmat correctament els canvis de la taula &apos;%1&apos; (anomenada abans &apos;%2&apos;).</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="962"/>
-      <source>Could not commit table structure. Error message: %1</source>
-      <comment>table window</comment>
-      <translation>No s&apos;ha pogut confirmar l&apos;estructura de la taula. Missatge d&apos;error: %1</translation>
+        <location filename="../windows/tablewindow.cpp" line="962"/>
+        <source>Could not commit table structure. Error message: %1</source>
+        <comment>table window</comment>
+        <translation>No s&apos;ha pogut confirmar l&apos;estructura de la taula. Missatge d&apos;error: %1</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="988"/>
-      <source>Reset autoincrement</source>
-      <translation>Restableix l&apos;autoincrement</translation>
+        <location filename="../windows/tablewindow.cpp" line="988"/>
+        <source>Reset autoincrement</source>
+        <translation>Restableix l&apos;autoincrement</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="988"/>
-      <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-      <translation>Segur que voleu restablir el valor d&apos;autoincrement per a la taula &apos;%1&apos;?</translation>
+        <location filename="../windows/tablewindow.cpp" line="988"/>
+        <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
+        <translation>Segur que voleu restablir el valor d&apos;autoincrement per a la taula &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="995"/>
-      <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-      <translation>S&apos;ha produït un error en intentar restablir el valor d&apos;autoincrement per a la taula &apos;%1&apos;: %2</translation>
+        <location filename="../windows/tablewindow.cpp" line="995"/>
+        <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
+        <translation>S&apos;ha produït un error en intentar restablir el valor d&apos;autoincrement per a la taula &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="997"/>
-      <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-      <translation>El valor d&apos;autoincrement de la taula &apos;%1&apos; s&apos;ha restablert correctament.</translation>
+        <location filename="../windows/tablewindow.cpp" line="997"/>
+        <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
+        <translation>El valor d&apos;autoincrement de la taula &apos;%1&apos; s&apos;ha restablert correctament.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1085"/>
-      <source>Empty name</source>
-      <translation>Nom buit</translation>
+        <location filename="../windows/tablewindow.cpp" line="1085"/>
+        <source>Empty name</source>
+        <translation>Nom buit</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1085"/>
-      <source>A blank name for the table is allowed in SQLite, but it is not recommended.
+        <location filename="../windows/tablewindow.cpp" line="1085"/>
+        <source>A blank name for the table is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a table with blank name?</source>
-      <translation>SQLite permet un nom en blanc per a la taula, però no és recomanable.
+        <translation>SQLite permet un nom en blanc per a la taula, però no és recomanable.
 Segur que voleu crear una taula amb el nom en blanc?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1094"/>
-      <source>Cannot create a table without at least one column.</source>
-      <translation>No es pot crear una taula sense almenys una columna.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1094"/>
+        <source>Cannot create a table without at least one column.</source>
+        <translation>No es pot crear una taula sense almenys una columna.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1119"/>
-      <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
-      <translation>No es pot crear la taula %1 si no té definida cap clau primària. Desmarqueu %2 o definiu una clau primària.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1119"/>
+        <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
+        <translation>No es pot crear la taula %1 si no té definida cap clau primària. Desmarqueu %2 o definiu una clau primària.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1126"/>
-      <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
-      <translation>No es pot utilitzar autoincrement per a la clau primària quan s&apos;utilitza la clàusula %1. Desmarqueu %2 o l&apos;autoincrement en una clau primària.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1126"/>
+        <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
+        <translation>No es pot utilitzar autoincrement per a la clau primària quan s&apos;utilitza la clàusula %1. Desmarqueu %2 o l&apos;autoincrement en una clau primària.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1145"/>
-      <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
-      <translation>Les columnes següents tenen un tipus de dades no estricte: %1. Desactiveu el mode estricte de la taula o corregiu els tipus de dades de les columnes. Els tipus de dades estrictes vàlids són: %2</translation>
+        <location filename="../windows/tablewindow.cpp" line="1145"/>
+        <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
+        <translation>Les columnes següents tenen un tipus de dades no estricte: %1. Desactiveu el mode estricte de la taula o corregiu els tipus de dades de les columnes. Els tipus de dades estrictes vàlids són: %2</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1327"/>
-      <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
-      <comment>table window</comment>
-      <translation>Segur que voleu suprimir la restricció de taula &apos;%1&apos;?</translation>
+        <location filename="../windows/tablewindow.cpp" line="1327"/>
+        <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
+        <comment>table window</comment>
+        <translation>Segur que voleu suprimir la restricció de taula &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1328"/>
-      <source>Delete constraint</source>
-      <comment>table window</comment>
-      <translation>Suprimeix la restricció</translation>
+        <location filename="../windows/tablewindow.cpp" line="1328"/>
+        <source>Delete constraint</source>
+        <comment>table window</comment>
+        <translation>Suprimeix la restricció</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1383"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1383"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1396"/>
-      <source>Cannot import, because no import plugin is loaded.</source>
-      <translation>No es pot importar perquè no s&apos;ha carregat cap connector d&apos;importació.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1396"/>
+        <source>Cannot import, because no import plugin is loaded.</source>
+        <translation>No es pot importar perquè no s&apos;ha carregat cap connector d&apos;importació.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1430"/>
-      <source>Uncommitted changes</source>
-      <translation>Canvis no confirmats</translation>
+        <location filename="../windows/tablewindow.cpp" line="1430"/>
+        <source>Uncommitted changes</source>
+        <translation>Canvis no confirmats</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1431"/>
-      <source>There are uncommitted structure modifications.</source>
-      <translation>Hi ha modificacions d&apos;estructura no confirmades.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1431"/>
+        <source>There are uncommitted structure modifications.</source>
+        <translation>Hi ha modificacions d&apos;estructura no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1433"/>
-      <source>You cannot browse or edit data until you have table structure settled.
+        <location filename="../windows/tablewindow.cpp" line="1433"/>
+        <source>You cannot browse or edit data until you have table structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-      <translation>No podeu explorar ni editar dades fins que no tingueu establerta l&apos;estructura de la taula.
+        <translation>No podeu explorar ni editar dades fins que no tingueu establerta l&apos;estructura de la taula.
 Voleu confirmar l&apos;estructura o voleu tornar a la pestanya d&apos;estructura?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1437"/>
-      <source>Commit modifications and browse data</source>
-      <translation>Confirma les modificacions i explora les dades</translation>
+        <location filename="../windows/tablewindow.cpp" line="1437"/>
+        <source>Commit modifications and browse data</source>
+        <translation>Confirma les modificacions i explora les dades</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1436"/>
-      <source>Go back to structure tab</source>
-      <translation>Torna a la pestanya d&apos;estructura</translation>
+        <location filename="../windows/tablewindow.cpp" line="1436"/>
+        <source>Go back to structure tab</source>
+        <translation>Torna a la pestanya d&apos;estructura</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1644"/>
-      <source>Name</source>
-      <comment>table window indexes</comment>
-      <translation>Nom</translation>
+        <location filename="../windows/tablewindow.cpp" line="1644"/>
+        <source>Name</source>
+        <comment>table window indexes</comment>
+        <translation>Nom</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1645"/>
-      <source>Unique</source>
-      <comment>table window indexes</comment>
-      <translation>Únic</translation>
+        <location filename="../windows/tablewindow.cpp" line="1645"/>
+        <source>Unique</source>
+        <comment>table window indexes</comment>
+        <translation>Únic</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1646"/>
-      <source>Columns</source>
-      <comment>table window indexes</comment>
-      <translation>Columnes</translation>
+        <location filename="../windows/tablewindow.cpp" line="1646"/>
+        <source>Columns</source>
+        <comment>table window indexes</comment>
+        <translation>Columnes</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1647"/>
-      <source>Partial index condition</source>
-      <comment>table window indexes</comment>
-      <translation>Condició d&apos;índex parcial</translation>
+        <location filename="../windows/tablewindow.cpp" line="1647"/>
+        <source>Partial index condition</source>
+        <comment>table window indexes</comment>
+        <translation>Condició d&apos;índex parcial</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1703"/>
-      <source>Name</source>
-      <comment>table window triggers</comment>
-      <translation>Nom</translation>
+        <location filename="../windows/tablewindow.cpp" line="1703"/>
+        <source>Name</source>
+        <comment>table window triggers</comment>
+        <translation>Nom</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1704"/>
-      <source>Event</source>
-      <comment>table window triggers</comment>
-      <translation>Esdeveniment</translation>
+        <location filename="../windows/tablewindow.cpp" line="1704"/>
+        <source>Event</source>
+        <comment>table window triggers</comment>
+        <translation>Esdeveniment</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1705"/>
-      <source>Condition</source>
-      <comment>table window triggers</comment>
-      <translation>Condició</translation>
+        <location filename="../windows/tablewindow.cpp" line="1705"/>
+        <source>Condition</source>
+        <comment>table window triggers</comment>
+        <translation>Condició</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1706"/>
-      <source>Details</source>
-      <comment>table window triggers</comment>
-      <translation>Detalls</translation>
+        <location filename="../windows/tablewindow.cpp" line="1706"/>
+        <source>Details</source>
+        <comment>table window triggers</comment>
+        <translation>Detalls</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1820"/>
-      <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-      <translation>La finestra de taula &quot;%1&quot; té modificacions d&apos;estructura i dades no confirmades.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1820"/>
+        <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
+        <translation>La finestra de taula &quot;%1&quot; té modificacions d&apos;estructura i dades no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1822"/>
-      <source>Table window &quot;%1&quot; has uncommitted data.</source>
-      <translation>La finestra de taula &quot;%1&quot; té dades no confirmades.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1822"/>
+        <source>Table window &quot;%1&quot; has uncommitted data.</source>
+        <translation>La finestra de taula &quot;%1&quot; té dades no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1824"/>
-      <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
-      <translation>La finestra de taula &quot;%1&quot; té modificacions d&apos;estructura no confirmades.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1824"/>
+        <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
+        <translation>La finestra de taula &quot;%1&quot; té modificacions d&apos;estructura no confirmades.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TriggerColumnsDialog</name>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
-      <source>Trigger columns</source>
-      <translation>Columnes del disparador</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
+        <source>Trigger columns</source>
+        <translation>Columnes del disparador</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
-      <source>Triggering columns:</source>
-      <translation>Columnes disparadores:</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
+        <source>Triggering columns:</source>
+        <translation>Columnes disparadores:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
-      <source>Select all</source>
-      <translation>Selecciona-ho tot</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
+        <source>Select all</source>
+        <translation>Selecciona-ho tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
-      <source>Deselect all</source>
-      <translation>Desselecciona-ho tot</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
+        <source>Deselect all</source>
+        <translation>Desselecciona-ho tot</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TriggerDialog</name>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="14"/>
-      <location filename="../dialogs/triggerdialog.ui" line="24"/>
-      <source>Trigger</source>
-      <translation>Disparador</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="14"/>
+        <location filename="../dialogs/triggerdialog.ui" line="24"/>
+        <source>Trigger</source>
+        <translation>Disparador</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="30"/>
-      <source>On table:</source>
-      <translation>A la taula:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="30"/>
+        <source>On table:</source>
+        <translation>A la taula:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="40"/>
-      <source>Action:</source>
-      <translation>Acció:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="40"/>
+        <source>Action:</source>
+        <translation>Acció:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="56"/>
-      <location filename="../dialogs/triggerdialog.ui" line="127"/>
-      <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Condició SQL que s&apos;avaluarà abans del codi real del disparador. Si la condició retorna fals, el disparador no s&apos;activarà per a aquesta fila.&lt;/p&gt;</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="56"/>
+        <location filename="../dialogs/triggerdialog.ui" line="127"/>
+        <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Condició SQL que s&apos;avaluarà abans del codi real del disparador. Si la condició retorna fals, el disparador no s&apos;activarà per a aquesta fila.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="59"/>
-      <source>Pre-condition:</source>
-      <translation>Precondició:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="59"/>
+        <source>Pre-condition:</source>
+        <translation>Precondició:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="66"/>
-      <source>The scope is still not fully supported by the SQLite database.</source>
-      <translation>L&apos;àmbit encara no està totalment admès per la base de dades SQLite.</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="66"/>
+        <source>The scope is still not fully supported by the SQLite database.</source>
+        <translation>L&apos;àmbit encara no està totalment admès per la base de dades SQLite.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="73"/>
-      <source>Trigger name:</source>
-      <translation>Nom del disparador:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="73"/>
+        <source>Trigger name:</source>
+        <translation>Nom del disparador:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="80"/>
-      <source>When:</source>
-      <translation>Quan:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="80"/>
+        <source>When:</source>
+        <translation>Quan:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="87"/>
-      <source>List of columns for UPDATE OF action.</source>
-      <translation>Llista de columnes per a l&apos;acció UPDATE OF.</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="87"/>
+        <source>List of columns for UPDATE OF action.</source>
+        <translation>Llista de columnes per a l&apos;acció UPDATE OF.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="97"/>
-      <source>Scope:</source>
-      <translation>Àmbit:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="97"/>
+        <source>Scope:</source>
+        <translation>Àmbit:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="104"/>
-      <source>Code:</source>
-      <translation>Codi:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="104"/>
+        <source>Code:</source>
+        <translation>Codi:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="111"/>
-      <source>Trigger statements to be executed.</source>
-      <translation>Sentències del disparador que s&apos;executaran.</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="111"/>
+        <source>Trigger statements to be executed.</source>
+        <translation>Sentències del disparador que s&apos;executaran.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="138"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="138"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="154"/>
-      <source>On view:</source>
-      <translation>A la vista:</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="154"/>
+        <source>On view:</source>
+        <translation>A la vista:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="178"/>
-      <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
-      <translation>No s&apos;ha pogut processar correctament el disparador %1. No es pot obrir un diàleg de disparador.</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="178"/>
+        <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
+        <translation>No s&apos;ha pogut processar correctament el disparador %1. No es pot obrir un diàleg de disparador.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="349"/>
-      <source>Enter a valid condition.</source>
-      <translation>Introduïu una condició vàlida.</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="349"/>
+        <source>Enter a valid condition.</source>
+        <translation>Introduïu una condició vàlida.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="350"/>
-      <source>Enter a valid trigger code.</source>
-      <translation>Introduïu un codi de disparador vàlid.</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="350"/>
+        <source>Enter a valid trigger code.</source>
+        <translation>Introduïu un codi de disparador vàlid.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="428"/>
-      <source>Error</source>
-      <comment>trigger dialog</comment>
-      <translation>Errada</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="428"/>
+        <source>Error</source>
+        <comment>trigger dialog</comment>
+        <translation>Errada</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="428"/>
-      <source>An error occurred while executing SQL statements:
+        <location filename="../dialogs/triggerdialog.cpp" line="428"/>
+        <source>An error occurred while executing SQL statements:
 %1</source>
-      <translation>S&apos;ha produït un error en executar les sentències SQL:
+        <translation>S&apos;ha produït un error en executar les sentències SQL:
 %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>VersionConvertSummaryDialog</name>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
-      <source>Database version convert</source>
-      <translation>Conversió de versió de la base de dades</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
+        <source>Database version convert</source>
+        <translation>Conversió de versió de la base de dades</translation>
     </message>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
-      <source>Following changes to the SQL statements will be made:</source>
-      <translation>Es faran els canvis següents a les sentències SQL:</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
+        <source>Following changes to the SQL statements will be made:</source>
+        <translation>Es faran els canvis següents a les sentències SQL:</translation>
     </message>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
-      <source>Before</source>
-      <translation>Abans</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
+        <source>Before</source>
+        <translation>Abans</translation>
     </message>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
-      <source>After</source>
-      <translation>Després</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
+        <source>After</source>
+        <translation>Després</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ViewWindow</name>
     <message>
-      <location filename="../windows/viewwindow.ui" line="36"/>
-      <source>Query</source>
-      <translation>Consulta</translation>
+        <location filename="../windows/viewwindow.ui" line="36"/>
+        <source>Query</source>
+        <translation>Consulta</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="70"/>
-      <source>View name:</source>
-      <translation>Nom de la vista:</translation>
+        <location filename="../windows/viewwindow.ui" line="70"/>
+        <source>View name:</source>
+        <translation>Nom de la vista:</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="123"/>
-      <source>Output column names</source>
-      <translation>Noms de columnes de sortida</translation>
+        <location filename="../windows/viewwindow.ui" line="123"/>
+        <source>Output column names</source>
+        <translation>Noms de columnes de sortida</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="170"/>
-      <location filename="../windows/viewwindow.cpp" line="939"/>
-      <source>Data</source>
-      <translation>Dades</translation>
+        <location filename="../windows/viewwindow.ui" line="170"/>
+        <location filename="../windows/viewwindow.cpp" line="939"/>
+        <source>Data</source>
+        <translation>Dades</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="180"/>
-      <source>Triggers</source>
-      <translation>Disparadors</translation>
+        <location filename="../windows/viewwindow.ui" line="180"/>
+        <source>Triggers</source>
+        <translation>Disparadors</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="215"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../windows/viewwindow.ui" line="215"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="110"/>
-      <location filename="../windows/viewwindow.cpp" line="116"/>
-      <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;havia emmagatzemat cap base de dades ni vista a la sessió per a aquesta finestra.</translation>
+        <location filename="../windows/viewwindow.cpp" line="110"/>
+        <location filename="../windows/viewwindow.cpp" line="116"/>
+        <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;havia emmagatzemat cap base de dades ni vista a la sessió per a aquesta finestra.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="123"/>
-      <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;ha pogut resoldre la base de dades %2.</translation>
+        <location filename="../windows/viewwindow.cpp" line="123"/>
+        <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;ha pogut resoldre la base de dades %2.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="129"/>
-      <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;ha pogut obrir la base de dades %2.</translation>
+        <location filename="../windows/viewwindow.cpp" line="129"/>
+        <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos; perquè no s&apos;ha pogut obrir la base de dades %2.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="138"/>
-      <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
-      <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos;, perquè la vista %2 no existeix a la base de dades %3.</translation>
+        <location filename="../windows/viewwindow.cpp" line="138"/>
+        <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
+        <translation>No s&apos;ha pogut restaurar la finestra &apos;%1&apos;, perquè la vista %2 no existeix a la base de dades %3.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="169"/>
-      <location filename="../windows/viewwindow.cpp" line="171"/>
-      <source>New view %1</source>
-      <translation>Vista nova %1</translation>
+        <location filename="../windows/viewwindow.cpp" line="169"/>
+        <location filename="../windows/viewwindow.cpp" line="171"/>
+        <source>New view %1</source>
+        <translation>Vista nova %1</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="294"/>
-      <source>Database</source>
-      <translation>Base de dades</translation>
+        <location filename="../windows/viewwindow.cpp" line="294"/>
+        <source>Database</source>
+        <translation>Base de dades</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="349"/>
-      <source>Refresh the view</source>
-      <comment>view window</comment>
-      <translation>Actualitza la vista</translation>
+        <location filename="../windows/viewwindow.cpp" line="349"/>
+        <source>Refresh the view</source>
+        <comment>view window</comment>
+        <translation>Actualitza la vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="351"/>
-      <source>Commit the view changes</source>
-      <comment>view window</comment>
-      <translation>Confirma els canvis de la vista</translation>
+        <location filename="../windows/viewwindow.cpp" line="351"/>
+        <source>Commit the view changes</source>
+        <comment>view window</comment>
+        <translation>Confirma els canvis de la vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="352"/>
-      <source>Rollback the view changes</source>
-      <comment>view window</comment>
-      <translation>Reverteix els canvis de la vista</translation>
+        <location filename="../windows/viewwindow.cpp" line="352"/>
+        <source>Rollback the view changes</source>
+        <comment>view window</comment>
+        <translation>Reverteix els canvis de la vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="356"/>
-      <source>Explicit column names</source>
-      <translation>Noms de columnes explícits</translation>
+        <location filename="../windows/viewwindow.cpp" line="356"/>
+        <source>Explicit column names</source>
+        <translation>Noms de columnes explícits</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="362"/>
-      <source>Generate output column names automatically basing on result columns of the view.</source>
-      <translation>Genera automàticament els noms de columnes de sortida basant-se en les columnes de resultat de la vista.</translation>
+        <location filename="../windows/viewwindow.cpp" line="362"/>
+        <source>Generate output column names automatically basing on result columns of the view.</source>
+        <translation>Genera automàticament els noms de columnes de sortida basant-se en les columnes de resultat de la vista.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="363"/>
-      <source>Add column</source>
-      <comment>view window</comment>
-      <translation>Afegeix una columna</translation>
+        <location filename="../windows/viewwindow.cpp" line="363"/>
+        <source>Add column</source>
+        <comment>view window</comment>
+        <translation>Afegeix una columna</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="364"/>
-      <source>Edit column</source>
-      <comment>view window</comment>
-      <translation>Edita la columna</translation>
+        <location filename="../windows/viewwindow.cpp" line="364"/>
+        <source>Edit column</source>
+        <comment>view window</comment>
+        <translation>Edita la columna</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="365"/>
-      <source>Delete column</source>
-      <comment>view window</comment>
-      <translation>Suprimeix la columna</translation>
+        <location filename="../windows/viewwindow.cpp" line="365"/>
+        <source>Delete column</source>
+        <comment>view window</comment>
+        <translation>Suprimeix la columna</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="366"/>
-      <source>Move column up</source>
-      <comment>view window</comment>
-      <translation>Mou la columna amunt</translation>
+        <location filename="../windows/viewwindow.cpp" line="366"/>
+        <source>Move column up</source>
+        <comment>view window</comment>
+        <translation>Mou la columna amunt</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="367"/>
-      <source>Move column down</source>
-      <comment>view window</comment>
-      <translation>Mou la columna avall</translation>
+        <location filename="../windows/viewwindow.cpp" line="367"/>
+        <source>Move column down</source>
+        <comment>view window</comment>
+        <translation>Mou la columna avall</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="369"/>
-      <source>Export view</source>
-      <comment>view window</comment>
-      <translation>Exporta la vista</translation>
+        <location filename="../windows/viewwindow.cpp" line="369"/>
+        <source>Export view</source>
+        <comment>view window</comment>
+        <translation>Exporta la vista</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="378"/>
-      <source>Refresh trigger list</source>
-      <comment>view window</comment>
-      <translation>Actualitza la llista de disparadors</translation>
+        <location filename="../windows/viewwindow.cpp" line="378"/>
+        <source>Refresh trigger list</source>
+        <comment>view window</comment>
+        <translation>Actualitza la llista de disparadors</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="380"/>
-      <source>Create new trigger</source>
-      <comment>view window</comment>
-      <translation>Crea un disparador nou</translation>
+        <location filename="../windows/viewwindow.cpp" line="380"/>
+        <source>Create new trigger</source>
+        <comment>view window</comment>
+        <translation>Crea un disparador nou</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="381"/>
-      <source>Edit selected trigger</source>
-      <comment>view window</comment>
-      <translation>Edita el disparador seleccionat</translation>
+        <location filename="../windows/viewwindow.cpp" line="381"/>
+        <source>Edit selected trigger</source>
+        <comment>view window</comment>
+        <translation>Edita el disparador seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="382"/>
-      <source>Delete selected trigger</source>
-      <comment>view window</comment>
-      <translation>Suprimeix el disparador seleccionat</translation>
+        <location filename="../windows/viewwindow.cpp" line="382"/>
+        <source>Delete selected trigger</source>
+        <comment>view window</comment>
+        <translation>Suprimeix el disparador seleccionat</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="403"/>
-      <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-      <translation>La finestra de vista &quot;%1&quot; té modificacions d&apos;estructura i dades no confirmades.</translation>
+        <location filename="../windows/viewwindow.cpp" line="403"/>
+        <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
+        <translation>La finestra de vista &quot;%1&quot; té modificacions d&apos;estructura i dades no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="405"/>
-      <source>View window &quot;%1&quot; has uncommitted data.</source>
-      <translation>La finestra de vista &quot;%1&quot; té dades no confirmades.</translation>
+        <location filename="../windows/viewwindow.cpp" line="405"/>
+        <source>View window &quot;%1&quot; has uncommitted data.</source>
+        <translation>La finestra de vista &quot;%1&quot; té dades no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="407"/>
-      <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
-      <translation>La finestra de vista &quot;%1&quot; té modificacions d&apos;estructura no confirmades.</translation>
+        <location filename="../windows/viewwindow.cpp" line="407"/>
+        <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
+        <translation>La finestra de vista &quot;%1&quot; té modificacions d&apos;estructura no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="638"/>
-      <source>Could not load data for view %1. Error details: %2</source>
-      <translation>No s&apos;han pogut carregar les dades de la vista %1. Detalls de l&apos;error: %2</translation>
+        <location filename="../windows/viewwindow.cpp" line="638"/>
+        <source>Could not load data for view %1. Error details: %2</source>
+        <translation>No s&apos;han pogut carregar les dades de la vista %1. Detalls de l&apos;error: %2</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="650"/>
-      <source>Uncommitted changes</source>
-      <translation>Canvis no confirmats</translation>
+        <location filename="../windows/viewwindow.cpp" line="650"/>
+        <source>Uncommitted changes</source>
+        <translation>Canvis no confirmats</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="651"/>
-      <source>There are uncommitted structure modifications.</source>
-      <translation>Hi ha modificacions d&apos;estructura no confirmades.</translation>
+        <location filename="../windows/viewwindow.cpp" line="651"/>
+        <source>There are uncommitted structure modifications.</source>
+        <translation>Hi ha modificacions d&apos;estructura no confirmades.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="653"/>
-      <source>You cannot browse or edit data until you have the view structure settled.
+        <location filename="../windows/viewwindow.cpp" line="653"/>
+        <source>You cannot browse or edit data until you have the view structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-      <translation>No podeu explorar ni editar dades fins que no tingueu establerta l&apos;estructura de la vista.
+        <translation>No podeu explorar ni editar dades fins que no tingueu establerta l&apos;estructura de la vista.
 Voleu confirmar l&apos;estructura o voleu tornar a la pestanya d&apos;estructura?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="657"/>
-      <source>Commit modifications and browse data</source>
-      <translation>Confirma les modificacions i explora les dades</translation>
+        <location filename="../windows/viewwindow.cpp" line="657"/>
+        <source>Commit modifications and browse data</source>
+        <translation>Confirma les modificacions i explora les dades</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1085"/>
-      <source>The view could not be modified due to internal Letos error. Please report this!</source>
-      <translation>No s&apos;ha pogut modificar la vista a causa d&apos;un error intern de Letos. Informeu-ne, si us plau!</translation>
+        <location filename="../windows/viewwindow.cpp" line="1085"/>
+        <source>The view could not be modified due to internal Letos error. Please report this!</source>
+        <translation>No s&apos;ha pogut modificar la vista a causa d&apos;un error intern de Letos. Informeu-ne, si us plau!</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1111"/>
-      <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
-      <translation>No s&apos;ha pogut analitzar correctament el codi de la vista per executar-lo. Això és una errada de Letos. Informeu-ne, si us plau.</translation>
+        <location filename="../windows/viewwindow.cpp" line="1111"/>
+        <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
+        <translation>No s&apos;ha pogut analitzar correctament el codi de la vista per executar-lo. Això és una errada de Letos. Informeu-ne, si us plau.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="656"/>
-      <source>Go back to structure tab</source>
-      <translation>Torna a la pestanya d&apos;estructura</translation>
+        <location filename="../windows/viewwindow.cpp" line="656"/>
+        <source>Go back to structure tab</source>
+        <translation>Torna a la pestanya d&apos;estructura</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="709"/>
-      <source>View &apos;%1&apos; was committed successfully.</source>
-      <translation>La vista &apos;%1&apos; s&apos;ha confirmat correctament.</translation>
+        <location filename="../windows/viewwindow.cpp" line="709"/>
+        <source>View &apos;%1&apos; was committed successfully.</source>
+        <translation>La vista &apos;%1&apos; s&apos;ha confirmat correctament.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="711"/>
-      <source>Committed changes for view &apos;%1&apos; successfully.</source>
-      <translation>S&apos;han confirmat correctament els canvis de la vista &apos;%1&apos;.</translation>
+        <location filename="../windows/viewwindow.cpp" line="711"/>
+        <source>Committed changes for view &apos;%1&apos; successfully.</source>
+        <translation>S&apos;han confirmat correctament els canvis de la vista &apos;%1&apos;.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="713"/>
-      <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-      <translation>S&apos;han confirmat correctament els canvis de la vista &apos;%1&apos; (anomenada abans &apos;%2&apos;).</translation>
+        <location filename="../windows/viewwindow.cpp" line="713"/>
+        <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
+        <translation>S&apos;han confirmat correctament els canvis de la vista &apos;%1&apos; (anomenada abans &apos;%2&apos;).</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="736"/>
-      <source>Could not commit view changes. Error message: %1</source>
-      <comment>view window</comment>
-      <translation>No s&apos;han pogut confirmar els canvis de la vista. Missatge d&apos;error: %1</translation>
+        <location filename="../windows/viewwindow.cpp" line="736"/>
+        <source>Could not commit view changes. Error message: %1</source>
+        <comment>view window</comment>
+        <translation>No s&apos;han pogut confirmar els canvis de la vista. Missatge d&apos;error: %1</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="880"/>
-      <source>Override columns</source>
-      <translation>Sobreescriu les columnes</translation>
+        <location filename="../windows/viewwindow.cpp" line="880"/>
+        <source>Override columns</source>
+        <translation>Sobreescriu les columnes</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="880"/>
-      <source>Currently defined columns will be overriden. Do you want to continue?</source>
-      <translation>Les columnes definides actualment se sobreescriuran. Voleu continuar?</translation>
+        <location filename="../windows/viewwindow.cpp" line="880"/>
+        <source>Currently defined columns will be overriden. Do you want to continue?</source>
+        <translation>Les columnes definides actualment se sobreescriuran. Voleu continuar?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="903"/>
-      <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
-      <translation>No s&apos;han pogut determinar les columnes retornades per la vista. Probablement la consulta és incompleta o conté errors.</translation>
+        <location filename="../windows/viewwindow.cpp" line="903"/>
+        <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
+        <translation>No s&apos;han pogut determinar les columnes retornades per la vista. Probablement la consulta és incompleta o conté errors.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="922"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
+        <location filename="../windows/viewwindow.cpp" line="922"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="971"/>
-      <source>Name</source>
-      <comment>view window triggers</comment>
-      <translation>Nom</translation>
+        <location filename="../windows/viewwindow.cpp" line="971"/>
+        <source>Name</source>
+        <comment>view window triggers</comment>
+        <translation>Nom</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="972"/>
-      <source>Instead of</source>
-      <comment>view window triggers</comment>
-      <translation>En lloc de</translation>
+        <location filename="../windows/viewwindow.cpp" line="972"/>
+        <source>Instead of</source>
+        <comment>view window triggers</comment>
+        <translation>En lloc de</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="973"/>
-      <source>Condition</source>
-      <comment>view window triggers</comment>
-      <translation>Condició</translation>
+        <location filename="../windows/viewwindow.cpp" line="973"/>
+        <source>Condition</source>
+        <comment>view window triggers</comment>
+        <translation>Condició</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="974"/>
-      <source>Details</source>
-      <comment>table window triggers</comment>
-      <translation>Detalls</translation>
+        <location filename="../windows/viewwindow.cpp" line="974"/>
+        <source>Details</source>
+        <comment>table window triggers</comment>
+        <translation>Detalls</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1018"/>
-      <source>Could not process the %1 view correctly. Unable to open a view window.</source>
-      <translation>No s&apos;ha pogut processar correctament la vista %1. No es pot obrir una finestra de vista.</translation>
+        <location filename="../windows/viewwindow.cpp" line="1018"/>
+        <source>Could not process the %1 view correctly. Unable to open a view window.</source>
+        <translation>No s&apos;ha pogut processar correctament la vista %1. No es pot obrir una finestra de vista.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1065"/>
-      <source>Empty name</source>
-      <translation>Nom buit</translation>
+        <location filename="../windows/viewwindow.cpp" line="1065"/>
+        <source>Empty name</source>
+        <translation>Nom buit</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1065"/>
-      <source>A blank name for the view is allowed in SQLite, but it is not recommended.
+        <location filename="../windows/viewwindow.cpp" line="1065"/>
+        <source>A blank name for the view is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a view with blank name?</source>
-      <translation>SQLite permet un nom en blanc per a la vista, però no és recomanable.
+        <translation>SQLite permet un nom en blanc per a la vista, però no és recomanable.
 Segur que voleu crear una vista amb el nom en blanc?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1077"/>
-      <source>The SELECT statement could not be parsed. Please correct the query and retry.
+        <location filename="../windows/viewwindow.cpp" line="1077"/>
+        <source>The SELECT statement could not be parsed. Please correct the query and retry.
 Details: %1</source>
-      <translation>No s&apos;ha pogut analitzar la sentència SELECT. Corregiu la consulta i torneu-ho a provar.
+        <translation>No s&apos;ha pogut analitzar la sentència SELECT. Corregiu la consulta i torneu-ho a provar.
 Detalls: %1</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1123"/>
-      <source>Following problems will take place while modifying the view.
+        <location filename="../windows/viewwindow.cpp" line="1123"/>
+        <source>Following problems will take place while modifying the view.
 Would you like to proceed?</source>
-      <comment>view window</comment>
-      <translation>Es produiran els problemes següents en modificar la vista.
+        <comment>view window</comment>
+        <translation>Es produiran els problemes següents en modificar la vista.
 Voleu continuar?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1125"/>
-      <source>View modification</source>
-      <comment>view window</comment>
-      <translation>Modificació de vista</translation>
+        <location filename="../windows/viewwindow.cpp" line="1125"/>
+        <source>View modification</source>
+        <comment>view window</comment>
+        <translation>Modificació de vista</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>WidgetCover</name>
     <message>
-      <location filename="../common/widgetcover.cpp" line="242"/>
-      <source>Interrupt</source>
-      <translation>Interromp</translation>
+        <location filename="../common/widgetcover.cpp" line="242"/>
+        <source>Interrupt</source>
+        <translation>Interromp</translation>
     </message>
-  </context>
+</context>
 </TS>
