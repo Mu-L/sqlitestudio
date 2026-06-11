@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="uk" sourcelanguage="en">
-<context>
+  <context>
     <name>XmlExport</name>
     <message>
-        <location filename="../xmlexport.cpp" line="37"/>
-        <source>Enter the namespace to use (for example: http://my.namespace.org)</source>
-        <translation>Введіть простір імен для використання (наприклад: http://my.namespace.org)</translation>
+      <location filename="../xmlexport.cpp" line="37"/>
+      <source>Enter the namespace to use (for example: http://my.namespace.org)</source>
+      <translation>Введіть простір імен для використання (наприклад: http://my.namespace.org)</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>XmlExportConfig</name>
     <message>
-        <location filename="../XmlExport.ui" line="20"/>
-        <source>Output format</source>
-        <translation>Формат виводу</translation>
+      <location filename="../XmlExport.ui" line="20"/>
+      <source>Output format</source>
+      <translation>Формат виводу</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="26"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>Форматувати документ (нові рядки, відступи)</translation>
+      <location filename="../XmlExport.ui" line="26"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>Форматувати документ (нові рядки, відступи)</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="42"/>
-        <source>Compress (everything in one line)</source>
-        <translation>Стиснути (усе в один рядок)</translation>
+      <location filename="../XmlExport.ui" line="42"/>
+      <source>Compress (everything in one line)</source>
+      <translation>Стиснути (усе в один рядок)</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="58"/>
-        <source>Special characters escaping</source>
-        <translation>Екранування спеціальних символів</translation>
+      <location filename="../XmlExport.ui" line="58"/>
+      <source>Special characters escaping</source>
+      <translation>Екранування спеціальних символів</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="64"/>
-        <source>&lt;p&gt;Ampersands will be used for shorter values and CDATA will be used for larger values. This applies only to values that require character escaping. Other values will be exported as they are.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Для коротших значень використовуватимуться амперсанди, а для більших значень — CDATA. Це застосовується лише до значень, які потребують екранування символів. Інші значення буде експортовано без змін.&lt;/p&gt;</translation>
+      <location filename="../XmlExport.ui" line="64"/>
+      <source>&lt;p&gt;Ampersands will be used for shorter values and CDATA will be used for larger values. This applies only to values that require character escaping. Other values will be exported as they are.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Для коротших значень використовуватимуться амперсанди, а для більших значень — CDATA. Це застосовується лише до значень, які потребують екранування символів. Інші значення буде експортовано без змін.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="67"/>
-        <source>Use CDATA and ampersands</source>
-        <translation>Використовувати CDATA та амперсанди</translation>
+      <location filename="../XmlExport.ui" line="67"/>
+      <source>Use CDATA and ampersands</source>
+      <translation>Використовувати CDATA та амперсанди</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="83"/>
-        <source>&lt;p&gt;Every value requiring character escepe will be enclosed in CDATA block.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Кожне значення, що потребує екранування символів, буде взято в блок CDATA.&lt;/p&gt;</translation>
+      <location filename="../XmlExport.ui" line="83"/>
+      <source>&lt;p&gt;Every value requiring character escepe will be enclosed in CDATA block.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Кожне значення, що потребує екранування символів, буде взято в блок CDATA.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="86"/>
-        <source>Always use CDATA</source>
-        <translation>Завжди використовувати CDATA</translation>
+      <location filename="../XmlExport.ui" line="86"/>
+      <source>Always use CDATA</source>
+      <translation>Завжди використовувати CDATA</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="99"/>
-        <source>&lt;p&gt;Every character that require esceping will be replaced with its ampersand escape sequence. No CDATA blocks will be used.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Кожен символ, що потребує екранування, буде замінено його escape-послідовністю з амперсандом. Блоки CDATA не використовуватимуться.&lt;/p&gt;</translation>
+      <location filename="../XmlExport.ui" line="99"/>
+      <source>&lt;p&gt;Every character that require esceping will be replaced with its ampersand escape sequence. No CDATA blocks will be used.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Кожен символ, що потребує екранування, буде замінено його escape-послідовністю з амперсандом. Блоки CDATA не використовуватимуться.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="102"/>
-        <source>Always use ampersand</source>
-        <translation>Завжди використовувати амперсанд</translation>
+      <location filename="../XmlExport.ui" line="102"/>
+      <source>Always use ampersand</source>
+      <translation>Завжди використовувати амперсанд</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="118"/>
-        <source>Define XML namespace</source>
-        <translation>Визначити простір імен XML</translation>
+      <location filename="../XmlExport.ui" line="118"/>
+      <source>Define XML namespace</source>
+      <translation>Визначити простір імен XML</translation>
     </message>
-</context>
+  </context>
 </TS>
