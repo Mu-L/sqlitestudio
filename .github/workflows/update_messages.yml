@@ -1,15 +1,27 @@
 env:
-    PYTHON_VERSION: '3.9'
-    QT_VERSION: '6.8.3'
-    TCL_VERSION: '8.6'
 
 name: Update messages
 
 on:
     workflow_dispatch:
         inputs:
+  push:
+    branches:
+      - master
+    paths:
+      - 'Letos/**/*.cpp'
+      - 'Letos/**/*.h'
+      - 'Letos/**/*.hpp'
+      - 'Letos/**/*.ui'
+      - 'Letos/**/*.qrc'
+      - 'Plugins/**/*.cpp'
+      - 'Plugins/**/*.h'
+      - 'Plugins/**/*.hpp'
+      - 'Plugins/**/*.ui'
+      - 'Plugins/**/*.qrc'
+      - '.github/workflows/update-messages.yml'
     schedule:
-        - cron: '30 5 * * *' # run at 5:30 AM UTC every day
+      - cron: '30 5 * * *' # run at 5:30 AM UTC every day
 
 jobs:
     build:
