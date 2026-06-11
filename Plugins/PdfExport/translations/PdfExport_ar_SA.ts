@@ -6,169 +6,169 @@
     <message>
         <location filename="../pdfexport.cpp" line="66"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>نتائج استعلام SQL</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="205"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>الجدول المُصدَّر: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="101"/>
         <location filename="../pdfexport.cpp" line="153"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>الجدول: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos الإصدار %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>العمود</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>نوع البيانات</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>القيود</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="135"/>
         <source>Global table constraints</source>
-        <translation type="unfinished">Global table constraints</translation>
+        <translation>قيود الجدول العامة</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>العرض المُصدَّر: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>قاعدة البيانات المُصدَّرة: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="258"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>الفهرس: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Property</source>
         <comment>index header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>الخاصية</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Value</source>
         <comment>index header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>القيمة</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="263"/>
         <source>Indexed table</source>
-        <translation type="unfinished">Indexed table</translation>
+        <translation>الجدول المفهرس</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>فهرس فريد</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>نعم</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>لا</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>ترتيب المقارنة</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>ترتيب الفرز</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="282"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>شرط الفهرس الجزئي</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="296"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>المُشغِّل: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Property</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>الخاصية</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Value</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>القيمة</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="300"/>
         <source>Activation time</source>
-        <translation type="unfinished">Activation time</translation>
+        <translation>وقت التفعيل</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="303"/>
         <source>For action</source>
-        <translation type="unfinished">For action</translation>
+        <translation>للإجراء</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="307"/>
         <source>On view</source>
-        <translation type="unfinished">On view</translation>
+        <translation>على العرض</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="309"/>
         <source>On table</source>
-        <translation type="unfinished">On table</translation>
+        <translation>على الجدول</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="314"/>
         <source>Activation condition</source>
-        <translation type="unfinished">Activation condition</translation>
+        <translation>شرط التفعيل</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="320"/>
         <source>Code executed</source>
-        <translation type="unfinished">Code executed</translation>
+        <translation>التعليمات البرمجية المنفَّذة</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="333"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>العرض: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>تم إنشاء المستند باستخدام Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
         <location filename="../pdfexport.cpp" line="335"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>الاستعلام:</translation>
     </message>
 </context>
 <context>
@@ -176,32 +176,32 @@
     <message>
         <location filename="../pdfexport.ui" line="20"/>
         <source>Size and layout</source>
-        <translation type="unfinished">Size and layout</translation>
+        <translation>الحجم والتخطيط</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="36"/>
         <source>Page size:</source>
-        <translation type="unfinished">Page size:</translation>
+        <translation>حجم الصفحة:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="63"/>
         <source>Right margin:</source>
-        <translation type="unfinished">Right margin:</translation>
+        <translation>الهامش الأيمن:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="70"/>
         <source>Left margin:</source>
-        <translation type="unfinished">Left margin:</translation>
+        <translation>الهامش الأيسر:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="77"/>
         <source>Cell padding:</source>
-        <translation type="unfinished">Cell padding:</translation>
+        <translation>الحشو داخل الخلية:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="84"/>
         <source>Limit characters in single cell:</source>
-        <translation type="unfinished">Limit characters in single cell:</translation>
+        <translation>تحديد عدد الأحرف في خلية واحدة:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="91"/>
@@ -210,119 +210,114 @@
         <location filename="../pdfexport.ui" line="132"/>
         <location filename="../pdfexport.ui" line="156"/>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>مم</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="139"/>
         <source>Bottom margin:</source>
-        <translation type="unfinished">Bottom margin:</translation>
+        <translation>الهامش السفلي:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="163"/>
         <source>Top margin:</source>
-        <translation type="unfinished">Top margin:</translation>
+        <translation>الهامش العلوي:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="183"/>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>الخط</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="206"/>
         <source>Colors</source>
-        <translation type="unfinished">Colors</translation>
+        <translation>الألوان</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="212"/>
         <source>Headers background:</source>
-        <translation type="unfinished">Headers background:</translation>
+        <translation>خلفية الرؤوس:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="235"/>
         <source>NULL value color:</source>
-        <translation type="unfinished">NULL value color:</translation>
+        <translation>لون قيمة NULL:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="261"/>
         <source>Other settings</source>
-        <translation type="unfinished">Other settings</translation>
+        <translation>إعدادات أخرى</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="267"/>
         <source>Print row numbers for data</source>
-        <translation type="unfinished">Print row numbers for data</translation>
+        <translation>طباعة أرقام الصفوف للبيانات</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="277"/>
         <source>Print page numbers</source>
-        <translation type="unfinished">Print page numbers</translation>
+        <translation>طباعة أرقام الصفحات</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>رأس مخصص</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>بدون رأس مخصص</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>تعريف محتوى رأس مخصص</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>محتوى نص عادي</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>تعريف ملف رأس مخصص</translation>
+    </message>
+    <message>
+        <location filename="../pdfexport.ui" line="348"/>
+        <source>Choose file for the header</source>
+        <translation>اختر ملفًا للرأس</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>ملفات نصية (*.txt);;كل الملفات (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>تذييل مخصص</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>بدون تذييل مخصص</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>تعريف محتوى تذييل مخصص</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>تعريف ملف تذييل مخصص</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>اختر ملفًا للتذييل</translation>
     </message>
 </context>
 </TS>

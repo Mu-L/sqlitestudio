@@ -6,17 +6,17 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>Interfaccia GUI per Letos, un gestore SQLite.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation type="unfinished">Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</translation>
+        <translation>Avvia l&apos;applicazione in modalità provvisoria senza ripristinare la sessione precedente. Usalo per aggirare i problemi causati da una sessione danneggiata.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>Non carica alcun plugin. Può essere usato insieme alla modalità provvisoria per isolare ulteriormente potenziali problemi.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>database</source>
-        <translation type="unfinished">database</translation>
+        <translation>base di dati</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="56"/>
@@ -66,22 +66,22 @@
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>settings file</source>
-        <translation type="unfinished">settings file</translation>
+        <translation>file delle impostazioni</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Abilita il debug dell&apos;esecutore di query di Letos.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Elenca i plugin installati in Letos ed esce.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
         <source>file</source>
-        <translation type="unfinished">file</translation>
+        <translation>file</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>

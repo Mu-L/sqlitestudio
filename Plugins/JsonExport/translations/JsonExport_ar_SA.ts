@@ -6,17 +6,17 @@
     <message>
         <location filename="../jsonexport.ui" line="20"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>تنسيق الإخراج</translation>
     </message>
     <message>
         <location filename="../jsonexport.ui" line="26"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>تنسيق المستند (أسطر جديدة، مسافات بادئة)</translation>
     </message>
     <message>
         <location filename="../jsonexport.ui" line="42"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>ضغط (كل شيء في سطر واحد)</translation>
     </message>
 </context>
 </TS>

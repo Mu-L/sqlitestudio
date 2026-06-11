@@ -6,22 +6,22 @@
     <message>
         <location filename="../scriptingtcl.cpp" line="428"/>
         <source>No database available in current context, while called Tcl&apos;s &apos;%1&apos; command.</source>
-        <translation type="unfinished">No database available in current context, while called Tcl&apos;s &apos;%1&apos; command.</translation>
+        <translation>Nenhuma base de dados disponível no contexto atual ao chamar o comando &apos;%1&apos; do Tcl.</translation>
     </message>
     <message>
         <location filename="../scriptingtcl.cpp" line="450"/>
         <source>Invalid &apos;%1&apos; command syntax. Should be: %2</source>
-        <translation type="unfinished">Invalid &apos;%1&apos; command syntax. Should be: %2</translation>
+        <translation>Sintaxe inválida do comando &apos;%1&apos;. Deve ser: %2</translation>
     </message>
     <message>
         <location filename="../scriptingtcl.cpp" line="462"/>
         <source>Error from Tcl&apos;s &apos;%1&apos; command: %2</source>
-        <translation type="unfinished">Error from Tcl&apos;s &apos;%1&apos; command: %2</translation>
+        <translation>Erro do comando &apos;%1&apos; do Tcl: %2</translation>
     </message>
     <message>
         <location filename="../scriptingtcl.cpp" line="593"/>
         <source>Error from Tcl&apos;s&apos; &apos;%1&apos; command: %2</source>
-        <translation type="unfinished">Error from Tcl&apos;s&apos; &apos;%1&apos; command: %2</translation>
+        <translation>Erro do comando &apos;%1&apos; do Tcl: %2</translation>
     </message>
 </context>
 </TS>

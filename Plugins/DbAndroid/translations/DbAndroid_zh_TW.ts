@@ -31,22 +31,22 @@
     <message>
         <location filename="../dbandroid.cpp" line="198"/>
         <source>Could not find Android Debug Bridge application. &lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to point out the location of the ADB application, otherwise the %2 plugin will not support USB cable connections, only the network connection.</source>
-        <translation type="unfinished">Could not find Android Debug Bridge application. &lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to point out the location of the ADB application, otherwise the %2 plugin will not support USB cable connections, only the network connection.</translation>
+        <translation>找不到 Android Debug Bridge 應用程式。&lt;a href=&quot;%1&quot;&gt;按一下這裡&lt;/a&gt;以指定 ADB 應用程式的位置，否則 %2 外掛程式將不支援 USB 傳輸線連線，而僅支援網路連線。</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="217"/>
         <source>The selected ADB is incorrect.</source>
-        <translation type="unfinished">The selected ADB is incorrect.</translation>
+        <translation>選取的 ADB 不正確。</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="218"/>
         <source>Would you like to select another one, or leave it unconfigured?</source>
-        <translation type="unfinished">Would you like to select another one, or leave it unconfigured?</translation>
+        <translation>您要選取另一個，還是保持未設定？</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="242"/>
         <source>Save JAR file</source>
-        <translation type="unfinished">Save JAR file</translation>
+        <translation>儲存 JAR 檔案</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="216"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../dbandroid.cpp" line="183"/>
         <source>You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</source>
-        <translation type="unfinished">You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</translation>
+        <translation>您可以從「工具」選單取得 Android 連接器 JAR 檔案。它（it&apos;s）是 Android 外掛程式支援的 3 種連線中有 2 種所必需。如需更多詳細資訊，請閱讀 &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki 頁面上的 plugin&apos;s 文件。&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="219"/>
@@ -92,7 +92,7 @@
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="175"/>
         <source>Cannot connect to device %1, because it&apos;s not visible from your computer.</source>
-        <translation type="unfinished">Cannot connect to device %1, because it&apos;s not visible from your computer.</translation>
+        <translation>無法連線至裝置 %1，因為它（it&apos;s）無法從您的電腦看見。</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="182"/>
@@ -186,7 +186,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="127"/>
         <source>&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;這是在嵌入 Android 應用程式的 Letos 服務中設定的密碼。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="140"/>
@@ -305,7 +305,7 @@ Android 裝置拒絕或無法完成刪除。</translation>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="31"/>
         <source>Cannot connect to device %1, because it&apos;s not visible from your computer.</source>
-        <translation type="unfinished">Cannot connect to device %1, because it&apos;s not visible from your computer.</translation>
+        <translation>無法連線至裝置 %1，因為它（it&apos;s）無法從您的電腦看見。</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="46"/>

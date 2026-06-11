@@ -6,7 +6,7 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>Interfaz GUI para Letos, un gestor de SQLite.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>No cargar ningún plugin. Puede usarse junto con el modo seguro para aislar mejor posibles problemas.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
@@ -71,12 +71,12 @@
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Habilita la depuración del ejecutor de consultas de Letos&apos;s.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Enumera los plugins instalados en Letos y sale.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>

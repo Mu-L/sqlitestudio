@@ -11,7 +11,7 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="23"/>
         <source>Get up-to-date tips online</source>
-        <translation type="unfinished">Get up-to-date tips online</translation>
+        <translation>최신 팁을 온라인으로 받기</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="36"/>
@@ -21,12 +21,12 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="49"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, tips will appear in the status field in short format with link to read its full content.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, tips will appear in the status field in short format with link to read its full content.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;활성화하면 팁이 전체 내용을 읽을 수 있는 링크와 함께 짧은 형식으로 상태 필드에 표시됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="52"/>
         <source>Show Tip of the Day on startup</source>
-        <translation type="unfinished">Show Tip of the Day on startup</translation>
+        <translation>시작 시 오늘의 팁 표시</translation>
     </message>
 </context>
 <context>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../tipofthedaydialog.ui" line="14"/>
         <source>Tip of the Day</source>
-        <translation type="unfinished">Tip of the Day</translation>
+        <translation>오늘의 팁</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.ui" line="20"/>
@@ -45,19 +45,19 @@
         <location filename="../tipofthedaydialog.cpp" line="24"/>
         <source>Configure</source>
         <comment>tip of the day dialog</comment>
-        <translation type="unfinished">Configure</translation>
+        <translation>구성</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="25"/>
         <source>« Previous</source>
         <comment>tip of the day dialog</comment>
-        <translation type="unfinished">« Previous</translation>
+        <translation>« 이전</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="26"/>
         <source>Next »</source>
         <comment>tip of the day dialog</comment>
-        <translation type="unfinished">Next »</translation>
+        <translation>다음 »</translation>
     </message>
 </context>
 <context>
@@ -65,17 +65,17 @@
     <message>
         <location filename="../tipofthedayplugin.cpp" line="18"/>
         <source>Tip of the Day...</source>
-        <translation type="unfinished">Tip of the Day...</translation>
+        <translation>오늘의 팁...</translation>
     </message>
     <message>
         <location filename="../tipofthedayplugin.cpp" line="86"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
-        <translation type="unfinished">Could not download tips from the internet. Letos will use locally stored tips instead.</translation>
+        <translation>인터넷에서 팁을 다운로드할 수 없습니다. Letos는 대신 로컬에 저장된 팁을 사용합니다.</translation>
     </message>
     <message>
         <location filename="../tipofthedayplugin.cpp" line="179"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</translation>
+        <translation>&lt;b&gt;빠른 팁:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;자세히 알아보기&lt;/a&gt;</translation>
     </message>
 </context>
 </TS>

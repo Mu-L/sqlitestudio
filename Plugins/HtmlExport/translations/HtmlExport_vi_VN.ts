@@ -11,54 +11,54 @@
     <message>
         <location filename="../htmlexport.cpp" line="54"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Truy vấn:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="94"/>
         <location filename="../htmlexport.cpp" line="188"/>
         <source>no type</source>
-        <translation type="unfinished">no type</translation>
+        <translation>không có kiểu</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="125"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Bảng đã xuất: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="136"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Khung nhìn đã xuất: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="157"/>
         <location filename="../htmlexport.cpp" line="280"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Bảng: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="283"/>
         <source>virtual</source>
-        <translation type="unfinished">virtual</translation>
+        <translation>ảo</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="335"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Cơ sở dữ liệu đã xuất: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="351"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Chỉ mục: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="357"/>
         <source>For table:</source>
-        <translation type="unfinished">For table:</translation>
+        <translation>Cho bảng:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="364"/>
         <source>Unique:</source>
-        <translation type="unfinished">Unique:</translation>
+        <translation>Duy nhất:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
@@ -78,7 +78,7 @@
     <message>
         <location filename="../htmlexport.cpp" line="372"/>
         <source>Collating</source>
-        <translation type="unfinished">Collating</translation>
+        <translation>Quy tắc đối chiếu</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="373"/>
@@ -88,47 +88,47 @@
     <message>
         <location filename="../htmlexport.cpp" line="407"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Bộ kích hoạt: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="413"/>
         <source>Activated:</source>
-        <translation type="unfinished">Activated:</translation>
+        <translation>Được kích hoạt:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="421"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>Hành động:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="428"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>Trên khung nhìn:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="430"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Trên bảng:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="441"/>
         <source>Activate condition:</source>
-        <translation type="unfinished">Activate condition:</translation>
+        <translation>Điều kiện kích hoạt:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="448"/>
         <source>Code executed:</source>
-        <translation type="unfinished">Code executed:</translation>
+        <translation>Mã được thực thi:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="486"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Khung nhìn: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="565"/>
         <source>Document generated by Letos v%1 on %2</source>
-        <translation type="unfinished">Document generated by Letos v%1 on %2</translation>
+        <translation>Tài liệu được tạo bởi Letos v%1 vào %2</translation>
     </message>
 </context>
 <context>
@@ -136,74 +136,74 @@
     <message>
         <location filename="../htmlexport.ui" line="136"/>
         <source>Maximum number of characters per cell:</source>
-        <translation type="unfinished">Maximum number of characters per cell:</translation>
+        <translation>Số ký tự tối đa trên mỗi ô:</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="182"/>
         <source>Include data types in first row</source>
-        <translation type="unfinished">Include data types in first row</translation>
+        <translation>Bao gồm kiểu dữ liệu trong hàng đầu tiên</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="143"/>
         <source>Column names as first row</source>
-        <translation type="unfinished">Column names as first row</translation>
+        <translation>Tên cột làm hàng đầu tiên</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="126"/>
         <source>Row numbers as first column</source>
-        <translation type="unfinished">Row numbers as first column</translation>
+        <translation>Số thứ tự hàng làm cột đầu tiên</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="91"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>Định dạng đầu ra</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="20"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Đầu trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="26"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Không có đầu trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Xác định nội dung đầu trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="52"/>
         <location filename="../htmlexport.ui" line="224"/>
         <source>HTML content</source>
-        <translation type="unfinished">HTML content</translation>
+        <translation>Nội dung HTML</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="62"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Xác định tệp đầu trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="78"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>Chọn tệp cho đầu trang</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="81"/>
         <location filename="../htmlexport.ui" line="253"/>
         <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
+        <translation>Tệp HTML (*.htm, *.html);;Tệp văn bản (*.txt);;Tất cả tệp (*)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="97"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>Định dạng tài liệu (dòng mới, thụt lề)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="110"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>Nén (mọi thứ trên một dòng)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="153"/>
@@ -213,32 +213,32 @@
     <message>
         <location filename="../htmlexport.ui" line="156"/>
         <source>Don&apos;t escape HTML characters</source>
-        <translation type="unfinished">Don&apos;t escape HTML characters</translation>
+        <translation>Don&apos;t thoát ký tự HTML</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="192"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Chân trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="198"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Không có chân trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="211"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Xác định nội dung chân trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="234"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Xác định tệp chân trang tùy chỉnh</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="250"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Chọn tệp cho chân trang</translation>
     </message>
 </context>
 </TS>

@@ -68,7 +68,7 @@
     <name>MultiEditorJsonPlugin</name>
     <message>
         <source>JSON</source>
-        <translation type="vanished">JSON</translation>
+        <translation>JSON</translation>
     </message>
 </context>
 </TS>

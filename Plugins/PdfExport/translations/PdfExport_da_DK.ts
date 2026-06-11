@@ -6,169 +6,169 @@
     <message>
         <location filename="../pdfexport.cpp" line="66"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>SQL-forespørgselsresultater</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="205"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Eksporteret tabel: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="101"/>
         <location filename="../pdfexport.cpp" line="153"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolonne</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>Datatype</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Begrænsninger</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="135"/>
         <source>Global table constraints</source>
-        <translation type="unfinished">Global table constraints</translation>
+        <translation>Globale tabelbegrænsninger</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Eksporteret visning: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Eksporteret database: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="258"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Indeks: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Property</source>
         <comment>index header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Egenskab</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Value</source>
         <comment>index header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Værdi</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="263"/>
         <source>Indexed table</source>
-        <translation type="unfinished">Indexed table</translation>
+        <translation>Indekseret tabel</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>Unikt indeks</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Kollation</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Sorteringsrækkefølge</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="282"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Betingelse for delvist indeks</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="296"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Udløser: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Property</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Egenskab</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Value</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Værdi</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="300"/>
         <source>Activation time</source>
-        <translation type="unfinished">Activation time</translation>
+        <translation>Aktiveringstidspunkt</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="303"/>
         <source>For action</source>
-        <translation type="unfinished">For action</translation>
+        <translation>For handling</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="307"/>
         <source>On view</source>
-        <translation type="unfinished">On view</translation>
+        <translation>På visning</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="309"/>
         <source>On table</source>
-        <translation type="unfinished">On table</translation>
+        <translation>På tabel</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="314"/>
         <source>Activation condition</source>
-        <translation type="unfinished">Activation condition</translation>
+        <translation>Aktiveringsbetingelse</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="320"/>
         <source>Code executed</source>
-        <translation type="unfinished">Code executed</translation>
+        <translation>Udført kode</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="333"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Visning: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>Dokument genereret med Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
         <location filename="../pdfexport.cpp" line="335"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Forespørgsel:</translation>
     </message>
 </context>
 <context>
@@ -176,32 +176,32 @@
     <message>
         <location filename="../pdfexport.ui" line="20"/>
         <source>Size and layout</source>
-        <translation type="unfinished">Size and layout</translation>
+        <translation>Størrelse og layout</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="36"/>
         <source>Page size:</source>
-        <translation type="unfinished">Page size:</translation>
+        <translation>Sidestørrelse:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="63"/>
         <source>Right margin:</source>
-        <translation type="unfinished">Right margin:</translation>
+        <translation>Højre margen:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="70"/>
         <source>Left margin:</source>
-        <translation type="unfinished">Left margin:</translation>
+        <translation>Venstre margen:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="77"/>
         <source>Cell padding:</source>
-        <translation type="unfinished">Cell padding:</translation>
+        <translation>Indvendig celleafstand:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="84"/>
         <source>Limit characters in single cell:</source>
-        <translation type="unfinished">Limit characters in single cell:</translation>
+        <translation>Begræns tegn i en enkelt celle:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="91"/>
@@ -210,119 +210,114 @@
         <location filename="../pdfexport.ui" line="132"/>
         <location filename="../pdfexport.ui" line="156"/>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="139"/>
         <source>Bottom margin:</source>
-        <translation type="unfinished">Bottom margin:</translation>
+        <translation>Nederste margen:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="163"/>
         <source>Top margin:</source>
-        <translation type="unfinished">Top margin:</translation>
+        <translation>Øverste margen:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="183"/>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Skrifttype</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="206"/>
         <source>Colors</source>
-        <translation type="unfinished">Colors</translation>
+        <translation>Farver</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="212"/>
         <source>Headers background:</source>
-        <translation type="unfinished">Headers background:</translation>
+        <translation>Baggrund for overskrifter:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="235"/>
         <source>NULL value color:</source>
-        <translation type="unfinished">NULL value color:</translation>
+        <translation>Farve for NULL-værdi:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="261"/>
         <source>Other settings</source>
-        <translation type="unfinished">Other settings</translation>
+        <translation>Andre indstillinger</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="267"/>
         <source>Print row numbers for data</source>
-        <translation type="unfinished">Print row numbers for data</translation>
+        <translation>Udskriv rækkenumre for data</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="277"/>
         <source>Print page numbers</source>
-        <translation type="unfinished">Print page numbers</translation>
+        <translation>Udskriv sidetal</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Brugerdefineret sidehoved</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Intet brugerdefineret sidehoved</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Definer indhold for brugerdefineret sidehoved</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>Indhold i almindelig tekst</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Definer fil til brugerdefineret sidehoved</translation>
+    </message>
+    <message>
+        <location filename="../pdfexport.ui" line="348"/>
+        <source>Choose file for the header</source>
+        <translation>Vælg fil til sidehovedet</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Tekstfiler (*.txt);;Alle filer (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Brugerdefineret sidefod</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Ingen brugerdefineret sidefod</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Definer indhold for brugerdefineret sidefod</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Definer fil til brugerdefineret sidefod</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Vælg fil til sidefoden</translation>
     </message>
 </context>
 </TS>

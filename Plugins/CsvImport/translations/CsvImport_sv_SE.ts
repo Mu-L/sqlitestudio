@@ -49,22 +49,22 @@
     <message>
         <location filename="../CsvImportOptions.ui" line="65"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>Kolumnseparator:</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="108"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, the &amp;quot; character will be interpreted as standard CSV value quotation mark, causing the string to be treated as single value until the next (ending) &amp;quot; character. If disabled, the &amp;quot; will be treated as any other character. Usually you want this to be enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, the &amp;quot; character will be interpreted as standard CSV value quotation mark, causing the string to be treated as single value until the next (ending) &amp;quot; character. If disabled, the &amp;quot; will be treated as any other character. Usually you want this to be enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om detta är aktiverat kommer tecknet &amp;quot; att tolkas som ett standardcitattecken för CSV-värden, vilket gör att strängen behandlas som ett enskilt värde fram till nästa (avslutande) &amp;quot;-tecken. Om detta är inaktiverat kommer &amp;quot; att behandlas som vilket annat tecken som helst. Vanligtvis vill du att detta ska vara aktiverat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="111"/>
         <source>Interpret &quot; as a value quotation mark</source>
-        <translation type="unfinished">Interpret &quot; as a value quotation mark</translation>
+        <translation>Tolka &quot; som ett citattecken för värden</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="20"/>
         <source>&lt;p&gt;Enable this if the first data line in your CSV file represents column names. You don&apos;t want column names to be imported into the table as a regular data.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Enable this if the first data line in your CSV file represents column names. You don&apos;t want column names to be imported into the table as a regular data.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Aktivera detta om den första dataraden i din CSV-fil representerar kolumnnamn. Du vill inte att kolumnnamn importeras till tabellen som vanliga data.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="23"/>

@@ -6,17 +6,17 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>SQLiteマネージャー Letos の GUI インターフェイス。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation type="unfinished">Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</translation>
+        <translation>前回のセッションを復元せずに、アプリケーションをセーフモードで起動します。破損したセッションが原因の問題を回避するには、これを使用してください。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>プラグインを読み込みません。セーフモードと併用して、潜在的な問題をさらに切り分けることができます。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
@@ -66,17 +66,17 @@
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>settings file</source>
-        <translation type="unfinished">settings file</translation>
+        <translation>設定ファイル</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Letos&apos;s クエリ実行機能のデバッグを有効にします。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Letos にインストールされているプラグインを一覧表示して終了します。</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>

@@ -6,27 +6,27 @@
     <message>
         <location filename="../scriptingpython.cpp" line="730"/>
         <source>Invalid use of %1 function. Expected %2 arguments, but got %3.</source>
-        <translation type="unfinished">Invalid use of %1 function. Expected %2 arguments, but got %3.</translation>
+        <translation>Neplatné použití funkce %1. Očekáván počet argumentů: %2, ale obdrženo: %3.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="739"/>
         <source>Unknown error from function %1.</source>
-        <translation type="unfinished">Unknown error from function %1.</translation>
+        <translation>Neznámá chyba z funkce %1.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="780"/>
         <source>Could not calculate string representation of the Python object passed as argument to the function %1.</source>
-        <translation type="unfinished">Could not calculate string representation of the Python object passed as argument to the function %1.</translation>
+        <translation>Nepodařilo se vypočítat řetězcovou reprezentaci objektu Pythonu předaného jako argument funkci %1.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="802"/>
         <source>Could not find execution context for function %1. This is a bug of Python plugin. Please report it.</source>
-        <translation type="unfinished">Could not find execution context for function %1. This is a bug of Python plugin. Please report it.</translation>
+        <translation>Nepodařilo se najít kontext spuštění pro funkci %1. Toto je chyba pluginu Pythonu. Nahlaste ji prosím.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="827"/>
         <source>Error from Python function %1: %2</source>
-        <translation type="unfinished">Error from Python function %1: %2</translation>
+        <translation>Chyba z funkce Pythonu %1: %2</translation>
     </message>
 </context>
 <context>
@@ -34,17 +34,17 @@
     <message>
         <location filename="../scriptingpython.ui" line="20"/>
         <source>Python library path</source>
-        <translation type="unfinished">Python library path</translation>
+        <translation>Cesta ke knihovně Pythonu</translation>
     </message>
     <message>
         <location filename="../scriptingpython.ui" line="29"/>
         <source>Choose a Python library file</source>
-        <translation type="unfinished">Choose a Python library file</translation>
+        <translation>Vyberte soubor knihovny Pythonu</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="370"/>
         <source>The plugin is not configured properly.</source>
-        <translation type="unfinished">The plugin is not configured properly.</translation>
+        <translation>Plugin není správně nakonfigurován.</translation>
     </message>
 </context>
 </TS>

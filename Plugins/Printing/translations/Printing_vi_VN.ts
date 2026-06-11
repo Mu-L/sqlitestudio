@@ -6,27 +6,27 @@
     <message>
         <location filename="../printing.cpp" line="35"/>
         <source>Print data</source>
-        <translation type="unfinished">Print data</translation>
+        <translation>In dữ liệu</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="37"/>
         <source>Print query</source>
-        <translation type="unfinished">Print query</translation>
+        <translation>In truy vấn</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="74"/>
         <source>No data to print.</source>
-        <translation type="unfinished">No data to print.</translation>
+        <translation>Không có dữ liệu để in.</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="82"/>
         <source>Printing data.</source>
-        <translation type="unfinished">Printing data.</translation>
+        <translation>Đang in dữ liệu.</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="108"/>
         <source>Printing query.</source>
-        <translation type="unfinished">Printing query.</translation>
+        <translation>Đang in truy vấn.</translation>
     </message>
 </context>
 <context>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../printingexport.cpp" line="27"/>
         <source>Printing</source>
-        <translation type="unfinished">Printing</translation>
+        <translation>Đang in</translation>
     </message>
 </context>
 </TS>

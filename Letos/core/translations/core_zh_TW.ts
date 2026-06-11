@@ -39,7 +39,7 @@
         <location filename="../db/chainexecutor.cpp" line="73"/>
         <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</translation>
+        <translation>無法在資料庫中切換為舊版 ALTER RENAME 行為。詳細資訊：%1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="82"/>
@@ -130,18 +130,18 @@
     <message>
         <location filename="../completionhelper.cpp" line="267"/>
         <source>String</source>
-        <translation type="unfinished">String</translation>
+        <translation>字串</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="270"/>
         <location filename="../completionhelper.cpp" line="273"/>
         <source>Number</source>
-        <translation type="unfinished">Number</translation>
+        <translation>數值</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="285"/>
         <source>BLOB literal</source>
-        <translation type="unfinished">BLOB literal</translation>
+        <translation>BLOB 常值</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="445"/>
@@ -159,27 +159,27 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="592"/>
         <source>Cannot export config to file %1: %2</source>
-        <translation type="unfinished">Cannot export config to file %1: %2</translation>
+        <translation>無法將設定匯出至檔案 %1：%2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="597"/>
         <source>Config exported successfully to %1</source>
-        <translation type="unfinished">Config exported successfully to %1</translation>
+        <translation>設定已成功匯出至 %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="629"/>
         <source>Cannot import config from file %1: %2</source>
-        <translation type="unfinished">Cannot import config from file %1: %2</translation>
+        <translation>無法從檔案 %1 匯入設定：%2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="648"/>
         <source>Config imported successfully from %1</source>
-        <translation type="unfinished">Config imported successfully from %1</translation>
+        <translation>設定已成功從 %1 匯入</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="659"/>
         <source>Cannot read file %1: %2</source>
-        <translation type="unfinished">Cannot read file %1: %2</translation>
+        <translation>無法讀取檔案 %1：%2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1001"/>
@@ -194,7 +194,7 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1366"/>
         <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-        <translation type="unfinished">Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</translation>
+        <translation>更新至版本 4.0.0 後，已設定的快速鍵已重設為預設設定；在此版本中，許多捷徑已經修訂以符合現代 IDE 標準。</translation>
     </message>
 </context>
 <context>
@@ -240,17 +240,17 @@
         <location filename="../dbobjectorganizer.cpp" line="130"/>
         <location filename="../dbobjectorganizer.cpp" line="149"/>
         <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-        <translation type="unfinished">An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</translation>
+        <translation>嘗試將資料表 &apos;%1&apos; 重新命名為 &apos;%2&apos; 時發生錯誤：%3</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="131"/>
         <source>Failed to parse object definition.</source>
-        <translation type="unfinished">Failed to parse object definition.</translation>
+        <translation>無法剖析物件定義。</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="166"/>
         <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-        <translation type="unfinished">An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</translation>
+        <translation>嘗試將資料表 &apos;%2&apos; 的欄位 &apos;%1&apos; 重新命名為 &apos;%3&apos; 時發生錯誤：%4</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../dbobjectorganizer.cpp" line="507"/>
         <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-        <translation type="unfinished">Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</translation>
+        <translation>資料庫 %1 無法附加至資料庫 %2，因此資料表 %3 的資料將透過 Letos 作為中介進行複製。此方法對大型資料表可能很慢，請耐心等候。</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="531"/>
@@ -284,8 +284,8 @@
         <location filename="../dbobjectorganizer.cpp" line="606"/>
         <source>Error while dropping source view %1: %2
 Tables, indexes, triggers and views copied to database %3 will remain.</source>
-        <translation type="unfinished">Error while dropping source view %1: %2
-Tables, indexes, triggers and views copied to database %3 will remain.</translation>
+        <translation>刪除來源檢視 %1 時發生錯誤：%2
+已複製到資料庫 %3 的資料表、索引、觸發器和檢視將會保留。</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="613"/>
@@ -342,27 +342,27 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/exportmanager.cpp" line="74"/>
         <source>Export plugin %1 doesn&apos;t support exporing query results.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing query results.</translation>
+        <translation>匯出外掛程式 %1 不支援匯出查詢結果&apos;。</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="100"/>
         <source>Export plugin %1 doesn&apos;t support exporing tables.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing tables.</translation>
+        <translation>匯出外掛程式 %1 不支援匯出資料表&apos;。</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="126"/>
         <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing views.</translation>
+        <translation>匯出外掛程式 %1 不支援匯出檢視&apos;。</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="150"/>
         <source>Export plugin %1 doesn&apos;t support exporing databases.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing databases.</translation>
+        <translation>匯出外掛程式 %1 不支援匯出資料庫&apos;。</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="183"/>
         <source>Export format &apos;%1&apos; is not supported. Supported formats are: %2.</source>
-        <translation type="unfinished">Export format &apos;%1&apos; is not supported. Supported formats are: %2.</translation>
+        <translation>匯出格式 &apos;%1&apos; 不受支援。支援的格式為：%2。</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="247"/>
@@ -372,7 +372,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/exportmanager.cpp" line="251"/>
         <source>Export to the file &apos;%1&apos; was successful.</source>
-        <translation type="unfinished">Export to the file &apos;%1&apos; was successful.</translation>
+        <translation>已成功匯出至檔案 &apos;%1&apos;。</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="253"/>
@@ -382,7 +382,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/exportmanager.cpp" line="295"/>
         <source>Could not export to file %1. File cannot be open for writting.</source>
-        <translation type="unfinished">Could not export to file %1. File cannot be open for writting.</translation>
+        <translation>無法匯出至檔案 %1。無法開啟檔案進行寫入。</translation>
     </message>
 </context>
 <context>
@@ -395,29 +395,29 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../exportworker.cpp" line="222"/>
         <source>Error while counting data column width to export from query results: %1</source>
-        <translation type="unfinished">Error while counting data column width to export from query results: %1</translation>
+        <translation>計算要從查詢結果匯出的資料欄位寬度時發生錯誤：%1</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="366"/>
         <location filename="../exportworker.cpp" line="426"/>
         <location filename="../exportworker.cpp" line="545"/>
         <source>Could not parse %1 in order to export it. It will be excluded from the export output.</source>
-        <translation type="unfinished">Could not parse %1 in order to export it. It will be excluded from the export output.</translation>
+        <translation>無法剖析 %1 以便匯出。它將從匯出輸出中排除。</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="821"/>
         <source>Error while reading data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while reading data to export from table or view %1: %2</translation>
+        <translation>讀取要從資料表或檢視 %1 匯出的資料時發生錯誤：%2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="829"/>
         <source>Error while counting data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data to export from table or view %1: %2</translation>
+        <translation>計算要從資料表或檢視 %1 匯出的資料時發生錯誤：%2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="845"/>
         <source>Error while counting data column width to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data column width to export from table or view %1: %2</translation>
+        <translation>計算要從資料表或檢視 %1 匯出的資料欄位寬度時發生錯誤：%2</translation>
     </message>
 </context>
 <context>
@@ -425,17 +425,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/functionmanager.cpp" line="37"/>
         <source>Scalar</source>
-        <translation type="unfinished">Scalar</translation>
+        <translation>標量函式</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="39"/>
         <source>Aggregate</source>
-        <translation type="unfinished">Aggregate</translation>
+        <translation>聚合函式</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="41"/>
         <source>Window</source>
-        <translation type="unfinished">Window</translation>
+        <translation>視窗函式</translation>
     </message>
 </context>
 <context>
@@ -443,22 +443,22 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
         <source>Could not create scripting context, probably the plugin is not configured properly</source>
-        <translation type="unfinished">Could not create scripting context, probably the plugin is not configured properly</translation>
+        <translation>無法建立指令碼內容，可能是外掛程式未正確設定</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
         <source>Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</source>
-        <translation type="unfinished">Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</translation>
+        <translation>函式 &apos;%1&apos; 的引數數量無效。預期為 %2，但得到 %3。</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
-        <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
+        <translation>Letos 中未註冊這樣的函式：%1(%2)</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
         <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
-        <translation type="unfinished">Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</translation>
+        <translation>函式 %1(%2) 已使用語言 %3 註冊，但支援該語言的外掛程式目前尚未載入。</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
@@ -492,7 +492,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/genericexportplugin.cpp" line="19"/>
         <source>Could not initialize text codec for exporting. Using default codec: %1</source>
-        <translation type="unfinished">Could not initialize text codec for exporting. Using default codec: %1</translation>
+        <translation>無法初始化用於匯出的文字編碼器。使用預設編碼器：%1</translation>
     </message>
 </context>
 <context>
@@ -500,7 +500,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/importmanager.cpp" line="98"/>
         <source>Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</source>
-        <translation type="unfinished">Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</translation>
+        <translation>已成功將資料匯入資料表 &apos;%1&apos;。匯入列數：%2</translation>
     </message>
 </context>
 <context>
@@ -508,32 +508,32 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../importworker.cpp" line="24"/>
         <source>No columns provided by the import plugin.</source>
-        <translation type="unfinished">No columns provided by the import plugin.</translation>
+        <translation>匯入外掛程式未提供任何欄位。</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="31"/>
         <source>Could not start transaction in order to import a data: %1</source>
-        <translation type="unfinished">Could not start transaction in order to import a data: %1</translation>
+        <translation>無法啟動交易以匯入資料：%1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="54"/>
         <source>Could not commit transaction for imported data: %1</source>
-        <translation type="unfinished">Could not commit transaction for imported data: %1</translation>
+        <translation>無法提交匯入資料的交易：%1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="101"/>
         <source>Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</source>
-        <translation type="unfinished">Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</translation>
+        <translation>資料表 &apos;%1&apos; 的欄位數少於要匯入資料中的欄位數。多餘的資料欄位將被忽略。</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="106"/>
         <source>Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</source>
-        <translation type="unfinished">Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</translation>
+        <translation>資料表 &apos;%1&apos; 的欄位數多於要匯入資料中的欄位數。資料表中的某些欄位將留空。</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="125"/>
         <source>Could not create table to import to: %1</source>
-        <translation type="unfinished">Could not create table to import to: %1</translation>
+        <translation>無法建立要匯入到的資料表：%1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="134"/>
@@ -552,7 +552,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../importworker.cpp" line="176"/>
         <source>Could not import data row number %1. The row was ignored. Problem details: %2</source>
-        <translation type="unfinished">Could not import data row number %1. The row was ignored. Problem details: %2</translation>
+        <translation>無法匯入第 %1 筆資料列。該列已被忽略。問題詳細資訊：%2</translation>
     </message>
 </context>
 <context>
@@ -560,22 +560,22 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="564"/>
         <source>Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</source>
-        <translation type="unfinished">Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</translation>
+        <translation>無法載入外掛程式 %1，因為它與外掛程式 %2 衝突&apos;。</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="575"/>
         <source>Cannot load plugin %1, because its dependency was not loaded: %2.</source>
-        <translation type="unfinished">Cannot load plugin %1, because its dependency was not loaded: %2.</translation>
+        <translation>無法載入外掛程式 %1，因為其相依項目未載入：%2。</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="584"/>
         <source>Cannot load plugin %1. Error details: %2</source>
-        <translation type="unfinished">Cannot load plugin %1. Error details: %2</translation>
+        <translation>無法載入外掛程式 %1。錯誤詳細資訊：%2</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="600"/>
         <source>Cannot load plugin %1 (error while initializing plugin).</source>
-        <translation type="unfinished">Cannot load plugin %1 (error while initializing plugin).</translation>
+        <translation>無法載入外掛程式 %1（初始化外掛程式時發生錯誤）。</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
@@ -751,7 +751,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="90"/>
         <source>A whitespace, a tab and a new line character.</source>
-        <translation type="unfinished">A whitespace, a tab and a new line character.</translation>
+        <translation>空白字元、定位字元和換行字元。</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="93"/>
@@ -781,7 +781,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="160"/>
         <source>If you type some character multiple times, it&apos;s more likely to be used.</source>
-        <translation type="unfinished">If you type some character multiple times, it&apos;s more likely to be used.</translation>
+        <translation>如果您多次輸入某個字元，該字元被使用的可能性會更高&apos;。</translation>
     </message>
 </context>
 <context>
@@ -802,7 +802,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatescript.ui" line="45"/>
         <source>Per step code</source>
-        <translation type="unfinished">Per step code</translation>
+        <translation>每步驟程式碼</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.ui" line="70"/>
@@ -859,27 +859,27 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../common/utils.cpp" line="79"/>
         <source>SQLite database or SQL file</source>
-        <translation type="unfinished">SQLite database or SQL file</translation>
+        <translation>SQLite 資料庫或 SQL 檔案</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="81"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>SQL 檔案</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="82"/>
         <source>CSV files</source>
-        <translation type="unfinished">CSV files</translation>
+        <translation>CSV 檔案</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="83"/>
         <source>Text files</source>
-        <translation type="unfinished">Text files</translation>
+        <translation>文字檔案</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="84"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>所有檔案</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="968"/>
@@ -961,7 +961,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatescript.cpp" line="69"/>
         <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-        <translation type="unfinished">Could not get evaluation context, probably the %1 scripting plugin is not configured properly</translation>
+        <translation>無法取得評估內容，可能是 %1 指令碼外掛程式未正確設定</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="83"/>
@@ -1014,13 +1014,13 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <location filename="../letos.cpp" line="365"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Code formatter</translation>
+        <translation>程式碼格式化工具</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="366"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Scripting languages</translation>
+        <translation>指令碼語言</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="368"/>
@@ -1092,17 +1092,17 @@ view 將保留原始內容</translation>
     <message>
         <location filename="../viewmodifier.cpp" line="80"/>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-        <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
+        <translation>Letos 無法解析新檢視傳回的欄位，因此將無法判斷在重新建立過程中哪些觸發器可能會失敗&apos;。</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>函式型</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>擴充套件型</translation>
     </message>
 </context>
 <context>
@@ -1126,12 +1126,12 @@ view 將保留原始內容</translation>
         <location filename="../db/queryexecutor.cpp" line="363"/>
         <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-        <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
+        <translation>執行 count(*) 查詢時發生錯誤，因此資料分頁將被停用。來自資料庫的錯誤詳細資訊：%1</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-        <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
+        <translation>Letos 無法從查詢中擷取中繼資料。結果將無法編輯&apos;。</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ view 將保留原始內容</translation>
     <message>
         <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
         <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-        <translation type="unfinished">Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</translation>
+        <translation>資料表 %2 中的欄位 %1 正在參照資料表 %4 中的欄位 %3，但這些欄位的資料類型不同：%5 與 %6。這可能會導致與外鍵值比對相關的問題。</translation>
     </message>
 </context>
 <context>
@@ -1160,12 +1160,12 @@ view 將保留原始內容</translation>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="59"/>
         <source>Could not execute SQL, because application has failed to start transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to start transaction: %1</translation>
+        <translation>應用程式啟動交易失敗，因此無法執行 SQL：%1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="90"/>
         <source>Execution from file cancelled. Any queries executed so far have been rolled back.</source>
-        <translation type="unfinished">Execution from file cancelled. Any queries executed so far have been rolled back.</translation>
+        <translation>從檔案執行已取消。到目前為止已執行的所有查詢皆已回復。</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="106"/>
@@ -1175,22 +1175,22 @@ view 將保留原始內容</translation>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="151"/>
         <source>Could not execute SQL, because application has failed to commit the transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to commit the transaction: %1</translation>
+        <translation>應用程式提交交易失敗，因此無法執行 SQL：%1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="156"/>
         <source>Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</translation>
+        <translation>已在 %2 秒內完成執行 %1 個查詢。%3 個因錯誤而未執行。</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="162"/>
         <source>Finished executing %1 queries in %2 seconds.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds.</translation>
+        <translation>已在 %2 秒內完成執行 %1 個查詢。</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="169"/>
         <source>Could not execute SQL due to error.</source>
-        <translation type="unfinished">Could not execute SQL due to error.</translation>
+        <translation>由於錯誤，無法執行 SQL。</translation>
     </message>
 </context>
 <context>
@@ -1223,7 +1223,7 @@ view 將保留原始內容</translation>
         <location filename="../sqlhistorymodel.cpp" line="40"/>
         <source>SQL</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">SQL</translation>
+        <translation>SQL</translation>
     </message>
 </context>
 <context>
@@ -1231,12 +1231,12 @@ view 將保留原始內容</translation>
     <message>
         <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-        <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
+        <translation>資料庫檔案 &apos;%1&apos; 已由較新版本的 SQLite（格式 %2）修改，而目前應用程式最高支援格式 %3。某些功能可能無法正確運作。</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
-        <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
+        <translation>已依需求註冊預設定序，名稱為：%1</translation>
     </message>
 </context>
 <context>

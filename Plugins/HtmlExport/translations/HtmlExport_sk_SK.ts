@@ -6,129 +6,129 @@
     <message>
         <location filename="../htmlexport.cpp" line="45"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>Výsledky dotazu SQL</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="54"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Dotaz:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="94"/>
         <location filename="../htmlexport.cpp" line="188"/>
         <source>no type</source>
-        <translation type="unfinished">no type</translation>
+        <translation>bez typu</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="125"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Exportovaná tabuľka: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="136"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Exportovaný pohľad: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="157"/>
         <location filename="../htmlexport.cpp" line="280"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Tabuľka: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="283"/>
         <source>virtual</source>
-        <translation type="unfinished">virtual</translation>
+        <translation>virtuálna</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="335"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Exportovaná databáza: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="351"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Index: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="357"/>
         <source>For table:</source>
-        <translation type="unfinished">For table:</translation>
+        <translation>Pre tabuľku:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="364"/>
         <source>Unique:</source>
-        <translation type="unfinished">Unique:</translation>
+        <translation>Jedinečný:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Áno</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Nie</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="371"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Stĺpec</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="372"/>
         <source>Collating</source>
-        <translation type="unfinished">Collating</translation>
+        <translation>Kolácia</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="373"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Poradie zoradenia</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="407"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Spúšťač: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="413"/>
         <source>Activated:</source>
-        <translation type="unfinished">Activated:</translation>
+        <translation>Aktivované:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="421"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>Akcia:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="428"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>Na pohľade:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="430"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Na tabuľke:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="441"/>
         <source>Activate condition:</source>
-        <translation type="unfinished">Activate condition:</translation>
+        <translation>Podmienka aktivácie:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="448"/>
         <source>Code executed:</source>
-        <translation type="unfinished">Code executed:</translation>
+        <translation>Vykonávaný kód:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="486"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Pohľad: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="565"/>
         <source>Document generated by Letos v%1 on %2</source>
-        <translation type="unfinished">Document generated by Letos v%1 on %2</translation>
+        <translation>Dokument vygenerovaný aplikáciou Letos v%1 dňa %2</translation>
     </message>
 </context>
 <context>
@@ -161,39 +161,39 @@
     <message>
         <location filename="../htmlexport.ui" line="20"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Vlastná hlavička</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="26"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Bez vlastnej hlavičky</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Definovať obsah vlastnej hlavičky</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="52"/>
         <location filename="../htmlexport.ui" line="224"/>
         <source>HTML content</source>
-        <translation type="unfinished">HTML content</translation>
+        <translation>Obsah HTML</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="62"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Definovať súbor vlastnej hlavičky</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="78"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>Vybrať súbor pre hlavičku</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="81"/>
         <location filename="../htmlexport.ui" line="253"/>
         <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
+        <translation>Súbory HTML (*.htm, *.html);;Textové súbory (*.txt);;Všetky súbory (*)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="97"/>
@@ -213,32 +213,32 @@
     <message>
         <location filename="../htmlexport.ui" line="156"/>
         <source>Don&apos;t escape HTML characters</source>
-        <translation type="unfinished">Don&apos;t escape HTML characters</translation>
+        <translation>Neescapovať znaky HTML</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="192"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Vlastná päta</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="198"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Bez vlastnej päty</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="211"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Definovať obsah vlastnej päty</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="234"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Definovať súbor vlastnej päty</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="250"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Vybrať súbor pre pätu</translation>
     </message>
 </context>
 </TS>

@@ -22,7 +22,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
@@ -48,7 +48,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Dışa aktarılan görünüm: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
@@ -162,7 +162,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>Belge Letos v%1 ile oluşturuldu</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
@@ -260,69 +260,64 @@
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Özel üst bilgi</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Özel üst bilgi yok</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Özel üst bilgi içeriğini tanımla</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>Düz metin içeriği</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Özel üst bilgi dosyasını tanımla</translation>
+    </message>
+    <message>
+        <location filename="../pdfexport.ui" line="348"/>
+        <source>Choose file for the header</source>
+        <translation>Üst bilgi için dosya seç</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Metin dosyaları (*.txt);;Tüm dosyalar (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Özel alt bilgi</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Özel alt bilgi yok</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Özel alt bilgi içeriğini tanımla</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Özel alt bilgi dosyasını tanımla</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Alt bilgi için dosya seç</translation>
     </message>
 </context>
 </TS>

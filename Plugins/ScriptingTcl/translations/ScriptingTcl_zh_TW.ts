@@ -11,12 +11,12 @@
     <message>
         <location filename="../scriptingtcl.cpp" line="450"/>
         <source>Invalid &apos;%1&apos; command syntax. Should be: %2</source>
-        <translation type="unfinished">Invalid &apos;%1&apos; command syntax. Should be: %2</translation>
+        <translation>無效的 &apos;%1&apos; 命令語法。應為：%2</translation>
     </message>
     <message>
         <location filename="../scriptingtcl.cpp" line="462"/>
         <source>Error from Tcl&apos;s &apos;%1&apos; command: %2</source>
-        <translation type="unfinished">Error from Tcl&apos;s &apos;%1&apos; command: %2</translation>
+        <translation>Tcl 的 &apos;%1&apos; 命令發生錯誤：%2</translation>
     </message>
     <message>
         <location filename="../scriptingtcl.cpp" line="593"/>

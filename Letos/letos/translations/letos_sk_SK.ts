@@ -6,17 +6,17 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>GUI rozhranie pre Letos, správcu SQLite.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation type="unfinished">Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</translation>
+        <translation>Spustí aplikáciu v bezpečnom režime bez obnovenia predchádzajúcej relácie. Použite to na obídenie problémov spôsobených poškodenou reláciou.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>Nenačíta žiadne pluginy. Dá sa použiť spolu s bezpečným režimom na ďalšie izolovanie potenciálnych problémov.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
@@ -31,27 +31,27 @@
     <message>
         <location filename="../main.cpp" line="61"/>
         <source>Redirects debug messages into given file (forces debug mode).</source>
-        <translation type="unfinished">Redirects debug messages into given file (forces debug mode).</translation>
+        <translation>Presmeruje debugovacie správy do zadaného súboru (vynúti debugovací režim).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="61"/>
         <source>log file</source>
-        <translation type="unfinished">log file</translation>
+        <translation>log súbor</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="62"/>
         <source>Enables Lemon parser debug messages for SQL code assistant.</source>
-        <translation type="unfinished">Enables Lemon parser debug messages for SQL code assistant.</translation>
+        <translation>Povolí debugovacie správy parsera Lemon pre asistenta SQL kódu.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="63"/>
         <source>Enables debugging of every single SQL query being sent to any database.</source>
-        <translation type="unfinished">Enables debugging of every single SQL query being sent to any database.</translation>
+        <translation>Povolí debugovanie každého jednotlivého SQL dotazu odosielaného do ľubovoľnej databázy.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>Limits SQL query messages to only the given &lt;database&gt;.</source>
-        <translation type="unfinished">Limits SQL query messages to only the given &lt;database&gt;.</translation>
+        <translation>Obmedzí správy SQL dotazov iba na zadanú &lt;databázu&gt;.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="64"/>
@@ -61,22 +61,22 @@
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>Points to the master configuration file. Read manual at wiki page for more details.</source>
-        <translation type="unfinished">Points to the master configuration file. Read manual at wiki page for more details.</translation>
+        <translation>Ukazuje na hlavný konfiguračný súbor. Ďalšie podrobnosti nájdete v príručke na wiki stránke.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>settings file</source>
-        <translation type="unfinished">settings file</translation>
+        <translation>súbor nastavení</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Povolí ladenie vykonávateľa dotazov aplikácie Letos&apos;.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Vypíše pluginy nainštalované v aplikácii Letos a skončí.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
@@ -86,12 +86,12 @@
     <message>
         <location filename="../main.cpp" line="79"/>
         <source>Database file to open</source>
-        <translation type="unfinished">Database file to open</translation>
+        <translation>Databázový súbor na otvorenie</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="152"/>
         <source>Select configuration directory</source>
-        <translation type="unfinished">Select configuration directory</translation>
+        <translation>Vyberte konfiguračný adresár</translation>
     </message>
 </context>
 </TS>

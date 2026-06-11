@@ -54,12 +54,12 @@
     <message>
         <location filename="../CsvImportOptions.ui" line="108"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, the &amp;quot; character will be interpreted as standard CSV value quotation mark, causing the string to be treated as single value until the next (ending) &amp;quot; character. If disabled, the &amp;quot; will be treated as any other character. Usually you want this to be enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, the &amp;quot; character will be interpreted as standard CSV value quotation mark, causing the string to be treated as single value until the next (ending) &amp;quot; character. If disabled, the &amp;quot; will be treated as any other character. Usually you want this to be enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Etkinleştirilirse, &amp;quot; karakteri standart CSV değeri tırnak işareti olarak yorumlanır ve dizenin bir sonraki (kapanış) &amp;quot; karakterine kadar tek bir değer olarak ele alınmasına neden olur. Devre dışı bırakılırsa, &amp;quot; diğer herhangi bir karakter gibi ele alınır. Genellikle bunun etkinleştirilmesini istersiniz.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="111"/>
         <source>Interpret &quot; as a value quotation mark</source>
-        <translation type="unfinished">Interpret &quot; as a value quotation mark</translation>
+        <translation>&quot; karakterini değer tırnak işareti olarak yorumla</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="20"/>

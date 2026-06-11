@@ -6,27 +6,27 @@
     <message>
         <location filename="../scriptingpython.cpp" line="730"/>
         <source>Invalid use of %1 function. Expected %2 arguments, but got %3.</source>
-        <translation type="unfinished">Invalid use of %1 function. Expected %2 arguments, but got %3.</translation>
+        <translation>Μη έγκυρη χρήση της συνάρτησης %1. Αναμένονταν %2 ορίσματα, αλλά λήφθηκαν %3.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="739"/>
         <source>Unknown error from function %1.</source>
-        <translation type="unfinished">Unknown error from function %1.</translation>
+        <translation>Άγνωστο σφάλμα από τη συνάρτηση %1.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="780"/>
         <source>Could not calculate string representation of the Python object passed as argument to the function %1.</source>
-        <translation type="unfinished">Could not calculate string representation of the Python object passed as argument to the function %1.</translation>
+        <translation>Δεν ήταν δυνατός ο υπολογισμός της αναπαράστασης συμβολοσειράς του αντικειμένου Python που μεταβιβάστηκε ως όρισμα στη συνάρτηση %1.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="802"/>
         <source>Could not find execution context for function %1. This is a bug of Python plugin. Please report it.</source>
-        <translation type="unfinished">Could not find execution context for function %1. This is a bug of Python plugin. Please report it.</translation>
+        <translation>Δεν ήταν δυνατή η εύρεση πλαισίου εκτέλεσης για τη συνάρτηση %1. Αυτό είναι σφάλμα του πρόσθετου Python. Παρακαλούμε αναφέρετέ το.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="827"/>
         <source>Error from Python function %1: %2</source>
-        <translation type="unfinished">Error from Python function %1: %2</translation>
+        <translation>Σφάλμα από τη συνάρτηση Python %1: %2</translation>
     </message>
 </context>
 <context>
@@ -34,17 +34,17 @@
     <message>
         <location filename="../scriptingpython.ui" line="20"/>
         <source>Python library path</source>
-        <translation type="unfinished">Python library path</translation>
+        <translation>Διαδρομή βιβλιοθήκης Python</translation>
     </message>
     <message>
         <location filename="../scriptingpython.ui" line="29"/>
         <source>Choose a Python library file</source>
-        <translation type="unfinished">Choose a Python library file</translation>
+        <translation>Επιλέξτε αρχείο βιβλιοθήκης Python</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="370"/>
         <source>The plugin is not configured properly.</source>
-        <translation type="unfinished">The plugin is not configured properly.</translation>
+        <translation>Το πρόσθετο δεν έχει ρυθμιστεί σωστά.</translation>
     </message>
 </context>
 </TS>

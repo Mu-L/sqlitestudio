@@ -6,87 +6,87 @@
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="24"/>
         <source>About</source>
-        <translation type="unfinished">About</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/aboutdialog.ui" line="30"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>Σχετικά</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="41"/>
         <source>Licenses</source>
-        <translation type="unfinished">Licenses</translation>
+        <translation>Άδειες</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="55"/>
         <source>Environment</source>
-        <translation type="unfinished">Environment</translation>
+        <translation>Περιβάλλον</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="102"/>
         <source>Icon directories</source>
-        <translation type="unfinished">Icon directories</translation>
+        <translation>Κατάλογοι εικονιδίων</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="170"/>
         <source>Form directories</source>
-        <translation type="unfinished">Form directories</translation>
+        <translation>Κατάλογοι φορμών</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="187"/>
         <source>SQLite extension directories</source>
-        <translation type="unfinished">SQLite extension directories</translation>
+        <translation>Κατάλογοι επεκτάσεων SQLite</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="140"/>
         <source>Plugin directories</source>
-        <translation type="unfinished">Plugin directories</translation>
+        <translation>Κατάλογοι προσθέτων</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="14"/>
         <source>About Letos and licenses</source>
-        <translation type="unfinished">About Letos and licenses</translation>
+        <translation>Σχετικά με το Letos και άδειες</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/aboutdialog.ui" line="30"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Δωρεάν, ανοικτού κώδικα, διαπλατφορμικός διαχειριστής βάσεων δεδομένων SQLite.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Συντάκτης και ενεργός συντηρητής:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="75"/>
         <source>Configuration directory</source>
-        <translation type="unfinished">Configuration directory</translation>
+        <translation>Κατάλογος διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="150"/>
         <source>Application directory</source>
-        <translation type="unfinished">Application directory</translation>
+        <translation>Κατάλογος εφαρμογής</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="85"/>
         <source>Qt version:</source>
-        <translation type="unfinished">Qt version:</translation>
+        <translation>Έκδοση Qt:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="160"/>
         <source>SQLite 3 version:</source>
-        <translation type="unfinished">SQLite 3 version:</translation>
+        <translation>Έκδοση SQLite 3:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="42"/>
         <source>Portable distribution.</source>
-        <translation type="unfinished">Portable distribution.</translation>
+        <translation>Φορητή διανομή.</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="45"/>
         <source>MacOS X application bundle distribution.</source>
-        <translation type="unfinished">MacOS X application bundle distribution.</translation>
+        <translation>Διανομή πακέτου εφαρμογής MacOS X.</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="48"/>
         <source>Operating system managed distribution.</source>
-        <translation type="unfinished">Operating system managed distribution.</translation>
+        <translation>Διανομή διαχειριζόμενη από το λειτουργικό σύστημα.</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="98"/>
         <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
-        <translation type="unfinished">&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
+        <translation>&lt;h3&gt;Πίνακας περιεχομένων:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
 </context>
 <context>
@@ -94,17 +94,17 @@
     <message>
         <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
         <source>Query parameters</source>
-        <translation type="unfinished">Query parameters</translation>
+        <translation>Παράμετροι ερωτήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
         <source>Please provide values for query parameters</source>
-        <translation type="unfinished">Please provide values for query parameters</translation>
+        <translation>Παρακαλώ δώστε τιμές για τις παραμέτρους ερωτήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
         <source>Advanced mode</source>
-        <translation type="unfinished">Advanced mode</translation>
+        <translation>Προηγμένη λειτουργία</translation>
     </message>
 </context>
 <context>
@@ -112,7 +112,7 @@
     <message>
         <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished">Default</translation>
+        <translation>Προεπιλογή</translation>
     </message>
 </context>
 <context>
@@ -120,104 +120,104 @@
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="84"/>
         <source>Filter snippets</source>
-        <translation type="unfinished">Filter snippets</translation>
+        <translation>Φιλτράρισμα αποσπασμάτων</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="183"/>
         <location filename="../windows/codesnippeteditor.ui" line="221"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Προαιρετική συντόμευση, η οποία θα λειτουργεί μόνο στο πλαίσιο του ενεργού παραθύρου βοηθού κώδικα. Επιτρέπει στον χρήστη να χρησιμοποιεί συνδυασμούς πλήκτρων που διαφορετικά θα συγκρούονταν με άλλες συντομεύσεις. Το να απαιτείται ως πλαίσιο το παράθυρο του βοηθού κώδικα κάνει την επιλογή πλήκτρων πιο ευέλικτη.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="204"/>
         <location filename="../windows/codesnippeteditor.ui" line="214"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Το όνομα του αποσπάσματος θα εμφανίζεται στον βοηθό κώδικα. Για πρόσβαση στη λίστα αποσπασμάτων, ο χρήστης πρέπει να πατήσει δύο φορές τη συντόμευση του βοηθού κώδικα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="207"/>
         <source>Snippet name</source>
-        <translation type="unfinished">Snippet name</translation>
+        <translation>Όνομα αποσπάσματος</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="224"/>
         <source>Code assistant shortcut</source>
-        <translation type="unfinished">Code assistant shortcut</translation>
+        <translation>Συντόμευση βοηθού κώδικα</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="240"/>
         <source>Snippet code</source>
-        <translation type="unfinished">Snippet code</translation>
+        <translation>Κώδικας αποσπάσματος</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="50"/>
         <source>Code Snippets editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Code Snippets editor window has uncommitted modifications.</translation>
+        <translation>Το παράθυρο επεξεργαστή αποσπασμάτων κώδικα έχει μη οριστικοποιημένες τροποποιήσεις.</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="71"/>
         <source>Code Snippets editor</source>
-        <translation type="unfinished">Code Snippets editor</translation>
+        <translation>Επεξεργαστής αποσπασμάτων κώδικα</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="76"/>
         <source>Commit all snippet changes</source>
-        <translation type="unfinished">Commit all snippet changes</translation>
+        <translation>Οριστικοποίηση όλων των αλλαγών αποσπασμάτων</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="77"/>
         <source>Rollback all snippet changes</source>
-        <translation type="unfinished">Rollback all snippet changes</translation>
+        <translation>Επαναφορά όλων των αλλαγών αποσπασμάτων</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="79"/>
         <source>Create new snippet</source>
-        <translation type="unfinished">Create new snippet</translation>
+        <translation>Δημιουργία νέου αποσπάσματος</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="80"/>
         <source>Delete selected snippet</source>
-        <translation type="unfinished">Delete selected snippet</translation>
+        <translation>Διαγραφή επιλεγμένου αποσπάσματος</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="82"/>
         <source>Move the snippet up</source>
-        <translation type="unfinished">Move the snippet up</translation>
+        <translation>Μετακίνηση του αποσπάσματος προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="83"/>
         <source>Move the snippet down</source>
-        <translation type="unfinished">Move the snippet down</translation>
+        <translation>Μετακίνηση του αποσπάσματος προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="85"/>
         <source>Import snippets from file</source>
-        <translation type="unfinished">Import snippets from file</translation>
+        <translation>Εισαγωγή αποσπασμάτων από αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="86"/>
         <source>Export snippets to file</source>
-        <translation type="unfinished">Export snippets to file</translation>
+        <translation>Εξαγωγή αποσπασμάτων σε αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="87"/>
         <source>Code snippets manual</source>
-        <translation type="unfinished">Code snippets manual</translation>
+        <translation>Εγχειρίδιο αποσπασμάτων κώδικα</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="325"/>
         <source>Enter a non-empty, unique name of the snippet.</source>
-        <translation type="unfinished">Enter a non-empty, unique name of the snippet.</translation>
+        <translation>Εισαγάγετε ένα μη κενό, μοναδικό όνομα για το απόσπασμα.</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="328"/>
         <source>Enter a non-empty snippet content.</source>
-        <translation type="unfinished">Enter a non-empty snippet content.</translation>
+        <translation>Εισαγάγετε μη κενό περιεχόμενο αποσπάσματος.</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="332"/>
         <source>This hotkey is not unique in context of a code assistant.</source>
-        <translation type="unfinished">This hotkey is not unique in context of a code assistant.</translation>
+        <translation>Αυτό το πλήκτρο συντόμευσης δεν είναι μοναδικό στο πλαίσιο ενός βοηθού κώδικα.</translation>
     </message>
 </context>
 <context>
@@ -225,12 +225,12 @@
     <message>
         <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
         <source>Name:</source>
-        <translation type="unfinished">Name:</translation>
+        <translation>Όνομα:</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
         <source>Hotkey:</source>
-        <translation type="unfinished">Hotkey:</translation>
+        <translation>Πλήκτρο συντόμευσης:</translation>
     </message>
 </context>
 <context>
@@ -238,32 +238,32 @@
     <message>
         <location filename="../codesnippetspanel.ui" line="17"/>
         <source>Code Snippets</source>
-        <translation type="unfinished">Code Snippets</translation>
+        <translation>Αποσπάσματα κώδικα</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.ui" line="43"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Σύρετε στον επεξεργαστή SQL για να χρησιμοποιήσετε το απόσπασμα.&lt;/p&gt;&lt;p&gt;Αποθέστε οποιονδήποτε κώδικα (ή κείμενο) εδώ για να προσθέσετε νέο απόσπασμα κώδικα.&lt;/p&gt;&lt;p&gt;Κάντε διπλό κλικ για επεξεργασία του αποσπάσματος.&lt;/p&gt;&lt;p&gt;Τα αποσπάσματα κώδικα είναι επίσης διαθέσιμα στον Βοηθό κώδικα. Καλέστε τον δύο φορές για να εμφανιστούν τα αποσπάσματα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.ui" line="69"/>
         <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+        <translation>Προεπισκόπηση</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="69"/>
         <source>Add code snippet</source>
-        <translation type="unfinished">Add code snippet</translation>
+        <translation>Προσθήκη αποσπάσματος κώδικα</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="69"/>
         <source>Enter a name for the new code snippet:</source>
-        <translation type="unfinished">Enter a name for the new code snippet:</translation>
+        <translation>Εισαγάγετε ένα όνομα για το νέο απόσπασμα κώδικα:</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="97"/>
         <source>Filter by name</source>
-        <translation type="unfinished">Filter by name</translation>
+        <translation>Φιλτράρισμα κατά όνομα</translation>
     </message>
 </context>
 <context>
@@ -271,137 +271,137 @@
     <message>
         <location filename="../windows/collationseditor.ui" line="84"/>
         <source>Filter collations</source>
-        <translation type="unfinished">Filter collations</translation>
+        <translation>Φιλτράρισμα σειρών ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="163"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="169"/>
         <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+        <translation>Καταχώριση σε όλες τις βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="176"/>
         <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+        <translation>Καταχώριση στις ακόλουθες βάσεις δεδομένων:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="197"/>
         <source>Implementation code:</source>
-        <translation type="unfinished">Implementation code:</translation>
+        <translation>Κώδικας υλοποίησης:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="229"/>
         <source>Collation name:</source>
-        <translation type="unfinished">Collation name:</translation>
+        <translation>Όνομα σειράς ταξινόμησης:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="239"/>
         <source>Collation type:</source>
-        <translation type="unfinished">Collation type:</translation>
+        <translation>Τύπος σειράς ταξινόμησης:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Υλοποιεί τη λογική σύγκρισης απευθείας στο Letos χρησιμοποιώντας μια γλώσσα δέσμης ενεργειών. Επιλέξτε αυτόν τον τύπο για να δημιουργήσετε πλήρως προσαρμοσμένους κανόνες ταξινόμησης και σύγκρισης χωρίς να απαιτούνται εξωτερικές επεκτάσεις SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="251"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>Βασισμένη σε συνάρτηση</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="258"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Χρησιμοποιεί μια ακολουθία ταξινόμησης που υλοποιείται από επέκταση SQLite ή εξωτερική βιβλιοθήκη. Επιλέξτε αυτόν τον τύπο όταν η λογική σύγκρισης υπάρχει ήδη εκτός του Letos, για παράδειγμα στο ICU ή σε άλλη επέκταση SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="261"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>Βασισμένη σε επέκταση</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="270"/>
         <source>Implementation language:</source>
-        <translation type="unfinished">Implementation language:</translation>
+        <translation>Γλώσσα υλοποίησης:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="56"/>
         <source>Collations editor</source>
-        <translation type="unfinished">Collations editor</translation>
+        <translation>Επεξεργαστής σειρών ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="61"/>
         <source>Commit all collation changes</source>
-        <translation type="unfinished">Commit all collation changes</translation>
+        <translation>Οριστικοποίηση όλων των αλλαγών σειράς ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="62"/>
         <source>Rollback all collation changes</source>
-        <translation type="unfinished">Rollback all collation changes</translation>
+        <translation>Επαναφορά όλων των αλλαγών σειράς ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="64"/>
         <source>Create new collation</source>
-        <translation type="unfinished">Create new collation</translation>
+        <translation>Δημιουργία νέας σειράς ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="65"/>
         <source>Delete selected collation</source>
-        <translation type="unfinished">Delete selected collation</translation>
+        <translation>Διαγραφή επιλεγμένης σειράς ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="67"/>
         <source>Import collations from file</source>
-        <translation type="unfinished">Import collations from file</translation>
+        <translation>Εισαγωγή σειρών ταξινόμησης από αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="68"/>
         <source>Export collations to file</source>
-        <translation type="unfinished">Export collations to file</translation>
+        <translation>Εξαγωγή σειρών ταξινόμησης σε αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="69"/>
         <source>Editing collations manual</source>
-        <translation type="unfinished">Editing collations manual</translation>
+        <translation>Εγχειρίδιο επεξεργασίας σειρών ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="322"/>
         <source>Enter a non-empty, unique name of the collation.</source>
-        <translation type="unfinished">Enter a non-empty, unique name of the collation.</translation>
+        <translation>Εισαγάγετε ένα μη κενό, μοναδικό όνομα για τη σειρά ταξινόμησης.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="332"/>
         <source>Pick the implementation language.</source>
-        <translation type="unfinished">Pick the implementation language.</translation>
+        <translation>Επιλέξτε τη γλώσσα υλοποίησης.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="337"/>
         <source>Registration code</source>
-        <translation type="unfinished">Registration code</translation>
+        <translation>Κώδικας καταχώρισης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="338"/>
         <source>Enter a non-empty registration code.</source>
-        <translation type="unfinished">Enter a non-empty registration code.</translation>
+        <translation>Εισαγάγετε μη κενό κώδικα καταχώρισης.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="346"/>
         <source>Implementation code</source>
-        <translation type="unfinished">Implementation code</translation>
+        <translation>Κώδικας υλοποίησης</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="347"/>
         <source>Enter a non-empty implementation code.</source>
-        <translation type="unfinished">Enter a non-empty implementation code.</translation>
+        <translation>Εισαγάγετε μη κενό κώδικα υλοποίησης.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="506"/>
         <source>Collations editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Collations editor window has uncommitted modifications.</translation>
+        <translation>Το παράθυρο επεξεργαστή σειρών ταξινόμησης έχει μη οριστικοποιημένες τροποποιήσεις.</translation>
     </message>
 </context>
 <context>
@@ -409,27 +409,27 @@
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="219"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>όλες οι βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="224"/>
         <source>Collation:</source>
-        <translation type="unfinished">Collation:</translation>
+        <translation>Ακολουθία ταξινόμησης:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="225"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Τύπος:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="226"/>
         <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+        <translation>Γλώσσα:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="227"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Εγγεγραμμένη σε:</translation>
     </message>
 </context>
 <context>
@@ -437,7 +437,7 @@
     <message>
         <location filename="../common/colorbutton.cpp" line="29"/>
         <source>Pick a color</source>
-        <translation type="unfinished">Pick a color</translation>
+        <translation>Επιλέξτε χρώμα</translation>
     </message>
 </context>
 <context>
@@ -445,22 +445,22 @@
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="58"/>
         <source>Clear</source>
-        <translation type="unfinished">Clear</translation>
+        <translation>Εκκαθάριση</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="65"/>
         <source>Custom colors</source>
-        <translation type="unfinished">Custom colors</translation>
+        <translation>Προσαρμοσμένα χρώματα</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="73"/>
         <source>Add custom color</source>
-        <translation type="unfinished">Add custom color</translation>
+        <translation>Προσθήκη προσαρμοσμένου χρώματος</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="219"/>
         <source>Select color</source>
-        <translation type="unfinished">Select color</translation>
+        <translation>Επιλογή χρώματος</translation>
     </message>
 </context>
 <context>
@@ -468,22 +468,22 @@
     <message>
         <location filename="../constraints/columncollatepanel.ui" line="41"/>
         <source>Collation name:</source>
-        <translation type="unfinished">Collation name:</translation>
+        <translation>Όνομα σειράς ταξινόμησης:</translation>
     </message>
     <message>
         <location filename="../constraints/columncollatepanel.ui" line="73"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Ονομασμένος περιορισμός:</translation>
     </message>
     <message>
         <location filename="../constraints/columncollatepanel.cpp" line="80"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
     <message>
         <location filename="../constraints/columncollatepanel.cpp" line="81"/>
         <source>Enter a collation name.</source>
-        <translation type="unfinished">Enter a collation name.</translation>
+        <translation>Εισαγάγετε όνομα σειράς ταξινόμησης.</translation>
     </message>
 </context>
 <context>
@@ -491,32 +491,32 @@
     <message>
         <location filename="../constraints/columndefaultpanel.ui" line="20"/>
         <source>Default value:</source>
-        <translation type="unfinished">Default value:</translation>
+        <translation>Προεπιλεγμένη τιμή:</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.ui" line="35"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Ονομασμένος περιορισμός:</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
         <source>Enter a default value expression.</source>
-        <translation type="unfinished">Enter a default value expression.</translation>
+        <translation>Εισαγάγετε έκφραση προεπιλεγμένης τιμής.</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
         <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
-        <translation type="unfinished">Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</translation>
+        <translation>Μη έγκυρη έκφραση προεπιλεγμένης τιμής: %1. Αν θέλετε να χρησιμοποιήσετε απλή συμβολοσειρά ως τιμή, θυμηθείτε να την περικλείσετε με χαρακτήρες εισαγωγικών.</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
         <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
-        <translation type="unfinished">Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</translation>
+        <translation>Μη έγκυρη έκφραση προεπιλεγμένης τιμής. Αν θέλετε να χρησιμοποιήσετε απλή συμβολοσειρά ως τιμή, θυμηθείτε να την περικλείσετε με χαρακτήρες εισαγωγικών.</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
 </context>
 <context>
@@ -524,72 +524,72 @@
     <message>
         <location filename="../dialogs/columndialog.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Στήλη</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="29"/>
         <source>Name and type</source>
-        <translation type="unfinished">Name and type</translation>
+        <translation>Όνομα και τύπος</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="41"/>
         <source>Scale</source>
-        <translation type="unfinished">Scale</translation>
+        <translation>Κλίμακα</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="61"/>
         <source>Precision</source>
-        <translation type="unfinished">Precision</translation>
+        <translation>Ακρίβεια</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="68"/>
         <source>Data type:</source>
-        <translation type="unfinished">Data type:</translation>
+        <translation>Τύπος δεδομένων:</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="75"/>
         <source>Column name:</source>
-        <translation type="unfinished">Column name:</translation>
+        <translation>Όνομα στήλης:</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="85"/>
         <source>Size:</source>
-        <translation type="unfinished">Size:</translation>
+        <translation>Μέγεθος:</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="108"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Περιορισμοί</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="138"/>
         <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Αυτή η στήλη είναι μέρος ενός σύνθετου πρωτεύοντος κλειδιού. Οι σύνθετοι περιορισμοί διαμορφώνονται στο κάτω μέρος της καρτέλας Δομή.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="141"/>
         <source>Composite Primary Key</source>
-        <translation type="unfinished">Composite Primary Key</translation>
+        <translation>Σύνθετο πρωτεύον κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="161"/>
         <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Αυτή η στήλη είναι μέρος ενός σύνθετου ξένου κλειδιού. Οι σύνθετοι περιορισμοί διαμορφώνονται στο κάτω μέρος της καρτέλας Δομή.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="164"/>
         <source>Composite Foreign Key</source>
-        <translation type="unfinished">Composite Foreign Key</translation>
+        <translation>Σύνθετο ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="209"/>
         <source>Generated value</source>
-        <translation type="unfinished">Generated value</translation>
+        <translation>Παραγόμενη τιμή</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="223"/>
         <source>Unique</source>
-        <translation type="unfinished">Unique</translation>
+        <translation>Μοναδικό</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="121"/>
@@ -601,182 +601,182 @@
         <location filename="../dialogs/columndialog.ui" line="244"/>
         <location filename="../dialogs/columndialog.ui" line="251"/>
         <source>Configure</source>
-        <translation type="unfinished">Configure</translation>
+        <translation>Διαμόρφωση</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="258"/>
         <source>Foreign Key</source>
-        <translation type="unfinished">Foreign Key</translation>
+        <translation>Ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="237"/>
         <source>Collate</source>
-        <translation type="unfinished">Collate</translation>
+        <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="265"/>
         <source>Not NULL</source>
-        <translation type="unfinished">Not NULL</translation>
+        <translation>Μη NULL</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="128"/>
         <source>Check condition</source>
-        <translation type="unfinished">Check condition</translation>
+        <translation>Συνθήκη ελέγχου</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="230"/>
         <source>Primary Key</source>
-        <translation type="unfinished">Primary Key</translation>
+        <translation>Πρωτεύον κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="174"/>
         <source>Default</source>
-        <translation type="unfinished">Default</translation>
+        <translation>Προεπιλογή</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="188"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Αυτόματη αύξηση</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="275"/>
         <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Αυτή η στήλη είναι μέρος ενός σύνθετου περιορισμού μοναδικότητας. Οι σύνθετοι περιορισμοί διαμορφώνονται στο κάτω μέρος της καρτέλας Δομή.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="278"/>
         <source>Composite Unique</source>
-        <translation type="unfinished">Composite Unique</translation>
+        <translation>Σύνθετος μοναδικός περιορισμός</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="345"/>
         <source>Advanced mode</source>
-        <translation type="unfinished">Advanced mode</translation>
+        <translation>Προηγμένη λειτουργία</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="85"/>
         <source>Add constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add constraint</translation>
+        <translation>Προσθήκη περιορισμού</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="86"/>
         <source>Edit constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Edit constraint</translation>
+        <translation>Επεξεργασία περιορισμού</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="87"/>
         <location filename="../dialogs/columndialog.cpp" line="252"/>
         <source>Delete constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Delete constraint</translation>
+        <translation>Διαγραφή περιορισμού</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="88"/>
         <source>Move constraint up</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Move constraint up</translation>
+        <translation>Μετακίνηση περιορισμού προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="89"/>
         <source>Move constraint down</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Move constraint down</translation>
+        <translation>Μετακίνηση περιορισμού προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="91"/>
         <source>Add a primary key</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a primary key</translation>
+        <translation>Προσθήκη πρωτεύοντος κλειδιού</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="92"/>
         <source>Add a foreign key</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a foreign key</translation>
+        <translation>Προσθήκη ξένου κλειδιού</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="93"/>
         <source>Add an unique constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add an unique constraint</translation>
+        <translation>Προσθήκη περιορισμού μοναδικότητας</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="94"/>
         <source>Add a check constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a check constraint</translation>
+        <translation>Προσθήκη περιορισμού ελέγχου</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="95"/>
         <source>Add a not null constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a not null constraint</translation>
+        <translation>Προσθήκη περιορισμού not null</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="96"/>
         <source>Add a collate constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a collate constraint</translation>
+        <translation>Προσθήκη περιορισμού collate</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="97"/>
         <source>Add a generated value constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a generated value constraint</translation>
+        <translation>Προσθήκη περιορισμού παραγόμενης τιμής</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="98"/>
         <source>Add a default constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a default constraint</translation>
+        <translation>Προσθήκη περιορισμού προεπιλεγμένης τιμής</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="251"/>
         <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Are you sure you want to delete constraint &apos;%1&apos;?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τον περιορισμό &apos;%1&apos;;</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="316"/>
         <source>Correct the constraint&apos;s configuration.</source>
-        <translation type="unfinished">Correct the constraint&apos;s configuration.</translation>
+        <translation>Διορθώστε τη &apos;διαμόρφωση&apos; του περιορισμού.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="386"/>
         <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
-        <translation type="unfinished">Scale is not allowed for INTEGER PRIMARY KEY columns.</translation>
+        <translation>Η κλίμακα δεν επιτρέπεται για στήλες INTEGER PRIMARY KEY.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="387"/>
         <source>Precision cannot be defined without the scale.</source>
-        <translation type="unfinished">Precision cannot be defined without the scale.</translation>
+        <translation>Η ακρίβεια δεν μπορεί να οριστεί χωρίς την κλίμακα.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="388"/>
         <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
-        <translation type="unfinished">Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</translation>
+        <translation>Δεν μπορεί να χρησιμοποιηθεί τύπος διαφορετικός από INTEGER αν το AUTOINCREMENT είναι ενεργοποιημένο στο PRIMARY KEY.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="389"/>
         <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
-        <translation type="unfinished">INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</translation>
+        <translation>Ο τύπος INTEGER επιβλήθηκε λόγω ενεργοποιημένου AUTOINCREMENT στο PRIMARY KEY.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="411"/>
         <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
-        <translation type="unfinished">Precision is not allowed for INTEGER PRIMARY KEY columns.</translation>
+        <translation>Η ακρίβεια δεν επιτρέπεται για στήλες INTEGER PRIMARY KEY.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="459"/>
         <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</translation>
+        <translation>Ο τύπος της αναφερόμενης στήλης (%1) είναι διαφορετικός από τον τύπο που δηλώθηκε σε αυτήν τη στήλη. Μπορεί να προκαλέσει προβλήματα κατά την εισαγωγή ή την ενημέρωση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="771"/>
         <source>Could not match valid STRICT table datatype from declared type: %1.</source>
-        <translation type="unfinished">Could not match valid STRICT table datatype from declared type: %1.</translation>
+        <translation>Δεν ήταν δυνατή η αντιστοίχιση έγκυρου τύπου δεδομένων πίνακα STRICT από τον δηλωμένο τύπο: %1.</translation>
     </message>
 </context>
 <context>
@@ -785,19 +785,19 @@
         <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
         <source>Type</source>
         <comment>column dialog constraints</comment>
-        <translation type="unfinished">Type</translation>
+        <translation>Τύπος</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
         <source>Name</source>
         <comment>column dialog constraints</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
         <source>Details</source>
         <comment>column dialog constraints</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
 </context>
 <context>
@@ -805,57 +805,57 @@
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
         <source>Referenced table:</source>
-        <translation type="unfinished">Referenced table:</translation>
+        <translation>Αναφερόμενος πίνακας:</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
         <source>Referenced column:</source>
-        <translation type="unfinished">Referenced column:</translation>
+        <translation>Αναφερόμενη στήλη:</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
         <source>Reactions</source>
-        <translation type="unfinished">Reactions</translation>
+        <translation>Αντιδράσεις</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
         <source>Deferred foreign key</source>
-        <translation type="unfinished">Deferred foreign key</translation>
+        <translation>Αναβαλλόμενο ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Ονομασμένος περιορισμός</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Όνομα περιορισμού</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
         <source>Pick the foreign table.</source>
-        <translation type="unfinished">Pick the foreign table.</translation>
+        <translation>Επιλέξτε τον ξένο πίνακα.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
         <source>Pick the foreign column.</source>
-        <translation type="unfinished">Pick the foreign column.</translation>
+        <translation>Επιλέξτε την ξένη στήλη.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
         <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
-        <translation type="unfinished">The referenced column should be a PRIMARY KEY or UNIQUE.</translation>
+        <translation>Η αναφερόμενη στήλη θα πρέπει να είναι PRIMARY KEY ή UNIQUE.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
         <source>Column with the same name</source>
-        <translation type="unfinished">Column with the same name</translation>
+        <translation>Στήλη με το ίδιο όνομα</translation>
     </message>
 </context>
 <context>
@@ -863,42 +863,42 @@
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
         <source>Generating code:</source>
-        <translation type="unfinished">Generating code:</translation>
+        <translation>Κώδικας παραγωγής:</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
         <source>Explicit type:</source>
-        <translation type="unfinished">Explicit type:</translation>
+        <translation>Ρητός τύπος:</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
         <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
-        <translation type="unfinished">Use &quot;GENERATED ALWAYS&quot; keywords</translation>
+        <translation>Χρήση λέξεων-κλειδιών &quot;GENERATED ALWAYS&quot;</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Ονομασμένος περιορισμός:</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
         <source>Enter the column value generating expression.</source>
-        <translation type="unfinished">Enter the column value generating expression.</translation>
+        <translation>Εισαγάγετε την έκφραση παραγωγής τιμής στήλης.</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
         <source>Invalid value generating expression: %1.</source>
-        <translation type="unfinished">Invalid value generating expression: %1.</translation>
+        <translation>Μη έγκυρη έκφραση παραγωγής τιμής: %1.</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
         <source>Invalid value generating expression.</source>
-        <translation type="unfinished">Invalid value generating expression.</translation>
+        <translation>Μη έγκυρη έκφραση παραγωγής τιμής.</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
 </context>
 <context>
@@ -906,32 +906,32 @@
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Αυτόματη αύξηση</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
         <source>Sort order:</source>
-        <translation type="unfinished">Sort order:</translation>
+        <translation>Σειρά ταξινόμησης:</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Ονομασμένος περιορισμός:</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
         <source>On conflict:</source>
-        <translation type="unfinished">On conflict:</translation>
+        <translation>Σε σύγκρουση:</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
         <source>Descending order is not allowed with AUTOINCREMENT.</source>
-        <translation type="unfinished">Descending order is not allowed with AUTOINCREMENT.</translation>
+        <translation>Η φθίνουσα σειρά δεν επιτρέπεται με AUTOINCREMENT.</translation>
     </message>
 </context>
 <context>
@@ -939,17 +939,17 @@
     <message>
         <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Ονομασμένος περιορισμός:</translation>
     </message>
     <message>
         <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
         <source>On conflict:</source>
-        <translation type="unfinished">On conflict:</translation>
+        <translation>Σε σύγκρουση:</translation>
     </message>
     <message>
         <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
 </context>
 <context>
@@ -957,7 +957,7 @@
     <message>
         <location filename="../commandpalette/commandpalette.cpp" line="53"/>
         <source>Search anything...</source>
-        <translation type="unfinished">Search anything...</translation>
+        <translation>Αναζήτηση οτιδήποτε...</translation>
     </message>
 </context>
 <context>
@@ -965,102 +965,102 @@
     <message>
         <location filename="../completer/completerwindow.cpp" line="95"/>
         <source>Press / to filter snippets</source>
-        <translation type="unfinished">Press / to filter snippets</translation>
+        <translation>Πατήστε / για φιλτράρισμα αποσπασμάτων</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="95"/>
         <source>Press / to use hotkeys</source>
-        <translation type="unfinished">Press / to use hotkeys</translation>
+        <translation>Πατήστε / για χρήση πλήκτρων συντόμευσης</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="310"/>
         <source>Column: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Column: %1</translation>
+        <translation>Στήλη: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="312"/>
         <source>Table: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Πίνακας: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="314"/>
         <source>Index: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Ευρετήριο: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="316"/>
         <source>Trigger: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Έναυσμα: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="318"/>
         <source>View: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Προβολή: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="320"/>
         <source>Database: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Database: %1</translation>
+        <translation>Βάση δεδομένων: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="332"/>
         <source>Keyword: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Keyword: %1</translation>
+        <translation>Λέξη-κλειδί: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="334"/>
         <source>Function: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Function: %1</translation>
+        <translation>Συνάρτηση: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="336"/>
         <source>Operator: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Operator: %1</translation>
+        <translation>Τελεστής: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="338"/>
         <source>String</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">String</translation>
+        <translation>Συμβολοσειρά</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="340"/>
         <source>Number</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Number</translation>
+        <translation>Αριθμός</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="342"/>
         <source>Binary data</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Binary data</translation>
+        <translation>Δυαδικά δεδομένα</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="344"/>
         <source>Collation: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Collation: %1</translation>
+        <translation>Σειρά ταξινόμησης: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="346"/>
         <source>Pragma function: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Pragma function: %1</translation>
+        <translation>Συνάρτηση pragma: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="348"/>
         <source>Join condition: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Join condition: %1</translation>
+        <translation>Συνθήκη σύζευξης: %1</translation>
     </message>
 </context>
 <context>
@@ -1069,968 +1069,968 @@
         <location filename="../dialogs/configdialog.ui" line="14"/>
         <location filename="../dialogs/configdialog.ui" line="3114"/>
         <source>Configuration</source>
-        <translation type="unfinished">Configuration</translation>
+        <translation>Διαμόρφωση</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="63"/>
         <source>Search</source>
-        <translation type="unfinished">Search</translation>
+        <translation>Αναζήτηση</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="100"/>
         <source>General</source>
-        <translation type="unfinished">General</translation>
+        <translation>Γενικά</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="112"/>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished">Keyboard shortcuts</translation>
+        <translation>Συντομεύσεις πληκτρολογίου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="124"/>
         <source>Look &amp; feel</source>
-        <translation type="unfinished">Look &amp; feel</translation>
+        <translation>Εμφάνιση και αίσθηση</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="135"/>
         <source>Style</source>
-        <translation type="unfinished">Style</translation>
+        <translation>Στυλ</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="147"/>
         <source>Fonts</source>
-        <translation type="unfinished">Fonts</translation>
+        <translation>Γραμματοσειρές</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="159"/>
         <source>Code colors</source>
-        <translation type="unfinished">Code colors</translation>
+        <translation>Χρώματα κώδικα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="184"/>
         <location filename="../dialogs/configdialog.ui" line="277"/>
         <source>Database list</source>
-        <translation type="unfinished">Database list</translation>
+        <translation>Λίστα βάσεων δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Code assistant</source>
-        <translation type="unfinished">Code assistant</translation>
+        <translation>Βοηθός κώδικα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="196"/>
         <source>Data browsing</source>
-        <translation type="unfinished">Data browsing</translation>
+        <translation>Περιήγηση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
         <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>SQL Editor</source>
-        <translation type="unfinished">SQL Editor</translation>
+        <translation>Επεξεργαστής SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="207"/>
         <source>Data editors</source>
-        <translation type="unfinished">Data editors</translation>
+        <translation>Επεξεργαστές δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="232"/>
         <source>Plugins</source>
-        <translation type="unfinished">Plugins</translation>
+        <translation>Πρόσθετα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="243"/>
         <source>Code formatters</source>
-        <translation type="unfinished">Code formatters</translation>
+        <translation>Μορφοποιητές κώδικα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="251"/>
         <source>Scripting languages</source>
-        <translation type="unfinished">Scripting languages</translation>
+        <translation>Γλώσσες δέσμης ενεργειών</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="306"/>
         <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
-        <translation type="unfinished">If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</translation>
+        <translation>Αν απενεργοποιηθεί, τότε οι στήλες θα ταξινομηθούν με τη σειρά που πληκτρολογούνται στη δήλωση CREATE TABLE.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="309"/>
         <source>Sort table columns alphabetically</source>
-        <translation type="unfinished">Sort table columns alphabetically</translation>
+        <translation>Ταξινόμηση στηλών πίνακα αλφαβητικά</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="345"/>
         <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</translation>
+        <translation>&lt;p&gt;Οι πρόσθετες ετικέτες είναι αυτές που εμφανίζονται δίπλα στα ονόματα στη λίστα βάσεων δεδομένων (είναι μπλε, εκτός αν έχει διαμορφωθεί διαφορετικά). Η ενεργοποίηση αυτής της επιλογής θα έχει ως αποτέλεσμα ετικέτες για βάσεις δεδομένων, μη έγκυρες βάσεις δεδομένων και συγκεντρωτικούς κόμβους (ομάδα στηλών, ομάδα ευρετηρίων, ομάδα εναυσμάτων). Για περισσότερες ετικέτες δείτε τις παρακάτω επιλογές.&lt;p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="348"/>
         <source>Display additional labels on the list</source>
-        <translation type="unfinished">Display additional labels on the list</translation>
+        <translation>Εμφάνιση πρόσθετων ετικετών στη λίστα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="379"/>
         <source>Display labels for regular tables</source>
-        <translation type="unfinished">Display labels for regular tables</translation>
+        <translation>Εμφάνιση ετικετών για κανονικούς πίνακες</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="389"/>
         <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
-        <translation type="unfinished">Virtual tables will be marked with a &apos;virtual&apos; label.</translation>
+        <translation>Οι εικονικοί πίνακες θα επισημαίνονται με ετικέτα &apos;virtual&apos;.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="392"/>
         <source>Display labels for virtual tables</source>
-        <translation type="unfinished">Display labels for virtual tables</translation>
+        <translation>Εμφάνιση ετικετών για εικονικούς πίνακες</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="332"/>
         <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
-        <translation type="unfinished">If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</translation>
+        <translation>Αν αυτή η επιλογή είναι απενεργοποιημένη, τότε τα αντικείμενα θα ταξινομηθούν με τη σειρά που εμφανίζονται στον πίνακα sqlite_master (δηλαδή με τη σειρά που δημιουργήθηκαν)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="335"/>
         <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
-        <translation type="unfinished">Sort objects (tables, indexes, triggers and views) alphabetically</translation>
+        <translation>Ταξινόμηση αντικειμένων (πίνακες, ευρετήρια, εναύσματα και προβολές) αλφαβητικά</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="408"/>
         <source>Display system tables and indexes on the list</source>
-        <translation type="unfinished">Display system tables and indexes on the list</translation>
+        <translation>Εμφάνιση πινάκων και ευρετηρίων συστήματος στη λίστα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="431"/>
         <source>Database dialog window</source>
-        <translation type="unfinished">Database dialog window</translation>
+        <translation>Παράθυρο διαλόγου βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="437"/>
         <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Κατά την προσθήκη νέας βάσης δεδομένων, επισημαίνεται ως &quot;μόνιμη&quot; (αποθηκεύεται στη διαμόρφωση) από προεπιλογή. Η ενεργοποίηση αυτής της επιλογής κάνει κάθε νέα βάση δεδομένων να ΜΗΝ είναι &quot;μόνιμη&quot; από προεπιλογή.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="440"/>
         <source>Do not mark database to be &quot;permanent&quot; by default</source>
-        <translation type="unfinished">Do not mark database to be &quot;permanent&quot; by default</translation>
+        <translation>Να μην επισημαίνεται η βάση δεδομένων ως &quot;μόνιμη&quot; από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="498"/>
         <source>Data browsing and editing</source>
-        <translation type="unfinished">Data browsing and editing</translation>
+        <translation>Περιήγηση και επεξεργασία δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="582"/>
         <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Μέγιστος αριθμός διαμορφώσεων του διαλόγου Συμπλήρωσης πίνακα που αποθηκεύονται στη διαμόρφωση. Η τιμή 100 θα πρέπει να είναι επαρκής.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="585"/>
         <source>Number of memorized table populating configurations</source>
-        <translation type="unfinished">Number of memorized table populating configurations</translation>
+        <translation>Αριθμός απομνημονευμένων διαμορφώσεων συμπλήρωσης πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="511"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Μετατρέπει διαχωριστικά γραμμών Unicode (U+2028, U+2029) στον τυπικό χαρακτήρα LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) κατά την επεξεργασία κειμένου στον επεξεργαστή προβολής φόρμας.&lt;/p&gt;&lt;p&gt;Απενεργοποιήστε το για να διατηρηθούν οι αρχικοί χαρακτήρες.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="514"/>
         <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-        <translation type="unfinished">Convert Unicode line separators to LF (\n) in form view editors</translation>
+        <translation>Μετατροπή διαχωριστικών γραμμών Unicode σε LF (\n) στους επεξεργαστές προβολής φόρμας</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
-        <translation type="unfinished">Use scientific notation for very small real numbers in the grid view</translation>
+        <translation>Χρήση επιστημονικής σημειογραφίας για πολύ μικρούς πραγματικούς αριθμούς στην προβολή πλέγματος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="647"/>
         <source>Data column width</source>
-        <translation type="unfinished">Data column width</translation>
+        <translation>Πλάτος στήλης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="653"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Όταν ο χρήστης εισαγάγει νέα τιμή σε στήλη και η τιμή είναι μεγαλύτερη από το τρέχον πλάτος της στήλης, η εφαρμογή θα μεγεθύνει τη στήλη ώστε να χωρέσει τη νέα τιμή, αλλά όχι περισσότερο από το όριο που ορίζεται στην παραπάνω επιλογή.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="656"/>
         <source>Enlarge column when entering value longer than current width</source>
-        <translation type="unfinished">Enlarge column when entering value longer than current width</translation>
+        <translation>Μεγέθυνση στήλης κατά την εισαγωγή τιμής μεγαλύτερης από το τρέχον πλάτος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="672"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Όταν τα δεδομένα διαβάζονται στην προβολή πλέγματος, το πλάτος των στηλών προσαρμόζεται αυτόματα. Αυτή η τιμή περιορίζει το αρχικό πλάτος για την προσαρμογή, αλλά ο χρήστης μπορεί ακόμα να αλλάξει χειροκίνητα το μέγεθος της στήλης πέρα από αυτό το όριο.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="504"/>
         <source>Number of data rows per page:</source>
-        <translation type="unfinished">Number of data rows per page:</translation>
+        <translation>Αριθμός γραμμών δεδομένων ανά σελίδα:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="569"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Όταν είναι ενεργοποιημένο και ο χρήστης κρατά τον δείκτη του ποντικιού πάνω από ένα κελί σε οποιαδήποτε προβολή δεδομένων (αποτελέσματα ερωτήματος, δεδομένα πίνακα, δεδομένα προβολής), θα εμφανίζεται συμβουλή εργαλείου με λεπτομέρειες για το κελί - περιλαμβάνει λεπτομέρειες όπως τύπο δεδομένων στήλης, περιορισμούς, ROWID και άλλα.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="572"/>
         <source>Show column and row details tooltip in data view</source>
-        <translation type="unfinished">Show column and row details tooltip in data view</translation>
+        <translation>Εμφάνιση συμβουλής εργαλείου με λεπτομέρειες στήλης και γραμμής στην προβολή δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="618"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Κατά την επεξεργασία κελιού που είχε τιμή NULL και την εισαγωγή κενής συμβολοσειράς ως νέας τιμής, αυτή η επιλογή καθορίζει αν η νέα τιμή πρέπει να παραμείνει NULL (με ενεργοποιημένη αυτή την επιλογή) ή να αντικατασταθεί με τιμή κενής συμβολοσειράς (με απενεργοποιημένη αυτή την επιλογή).&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="621"/>
         <source>Keep NULL value when entering empty value</source>
-        <translation type="unfinished">Keep NULL value when entering empty value</translation>
+        <translation>Διατήρηση τιμής NULL κατά την εισαγωγή κενής τιμής</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="608"/>
         <source>Limit number of rows for in case of dozens of columns</source>
-        <translation type="unfinished">Limit number of rows for in case of dozens of columns</translation>
+        <translation>Περιορισμός αριθμού γραμμών σε περίπτωση δεκάδων στηλών</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="752"/>
         <source>Inserting new row in data grid</source>
-        <translation type="unfinished">Inserting new row in data grid</translation>
+        <translation>Εισαγωγή νέας γραμμής στο πλέγμα δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="758"/>
         <source>Before currently selected row</source>
-        <translation type="unfinished">Before currently selected row</translation>
+        <translation>Πριν από την τρέχουσα επιλεγμένη γραμμή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="774"/>
         <source>After currently selected row</source>
-        <translation type="unfinished">After currently selected row</translation>
+        <translation>Μετά την τρέχουσα επιλεγμένη γραμμή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="787"/>
         <source>At the end of data view</source>
-        <translation type="unfinished">At the end of data view</translation>
+        <translation>Στο τέλος της προβολής δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="803"/>
         <source>Table windows</source>
-        <translation type="unfinished">Table windows</translation>
+        <translation>Παράθυρα πινάκων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="809"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Όταν είναι ενεργοποιημένο, τα παράθυρα πινάκων θα εμφανίζονται με την καρτέλα δεδομένων, αντί για την καρτέλα δομής.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="812"/>
         <source>Open Table Windows with the data tab for start</source>
-        <translation type="unfinished">Open Table Windows with the data tab for start</translation>
+        <translation>Άνοιγμα παραθύρων πινάκων με την καρτέλα δεδομένων στην αρχή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="822"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Όταν είναι ενεργοποιημένο, η καρτέλα &quot;Δεδομένα&quot; θα τοποθετείται ως πρώτη καρτέλα σε κάθε παράθυρο πίνακα, αντί να είναι στη δεύτερη θέση.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="825"/>
         <source>Place data tab as first tab in a Table Window</source>
-        <translation type="unfinished">Place data tab as first tab in a Table Window</translation>
+        <translation>Τοποθέτηση καρτέλας δεδομένων ως πρώτης καρτέλας σε παράθυρο πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="838"/>
         <source>View windows</source>
-        <translation type="unfinished">View windows</translation>
+        <translation>Παράθυρα προβολών</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="844"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Όταν είναι ενεργοποιημένο, τα παράθυρα προβολών θα εμφανίζονται με την καρτέλα δεδομένων, αντί για την καρτέλα δομής.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="847"/>
         <source>Open View Windows with the data tab for start</source>
-        <translation type="unfinished">Open View Windows with the data tab for start</translation>
+        <translation>Άνοιγμα παραθύρων προβολών με την καρτέλα δεδομένων στην αρχή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="857"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Όταν είναι ενεργοποιημένο, η καρτέλα &quot;Δεδομένα&quot; θα τοποθετείται ως πρώτη καρτέλα σε κάθε παράθυρο προβολής, αντί να είναι στη δεύτερη θέση.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="860"/>
         <source>Place data tab as first tab in a View Window</source>
-        <translation type="unfinished">Place data tab as first tab in a View Window</translation>
+        <translation>Τοποθέτηση καρτέλας δεδομένων ως πρώτης καρτέλας σε παράθυρο προβολής</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="904"/>
         <source>Data types</source>
-        <translation type="unfinished">Data types</translation>
+        <translation>Τύποι δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="957"/>
         <source>Available editors:</source>
-        <translation type="unfinished">Available editors:</translation>
+        <translation>Διαθέσιμοι επεξεργαστές:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1074"/>
         <source>Schema editing</source>
-        <translation type="unfinished">Schema editing</translation>
+        <translation>Επεξεργασία σχήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1086"/>
         <source>Number of DDL changes kept in history.</source>
-        <translation type="unfinished">Number of DDL changes kept in history.</translation>
+        <translation>Αριθμός αλλαγών DDL που διατηρούνται στο ιστορικό.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1099"/>
         <source>DDL history size:</source>
-        <translation type="unfinished">DDL history size:</translation>
+        <translation>Μέγεθος ιστορικού DDL:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
-        <translation type="unfinished">Don&apos;t show DDL preview dialog when committing schema changes</translation>
+        <translation>Μην τ&apos; εμφανίζετε το παράθυρο διαλόγου προεπισκόπησης DDL κατά την οριστικοποίηση αλλαγών σχήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1391"/>
         <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Number of queries kept in the history.</source>
-        <translation type="unfinished">Number of queries kept in the history.</translation>
+        <translation>Αριθμός ερωτημάτων που διατηρούνται στο ιστορικό.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Execute only the query under the cursor</source>
-        <translation type="unfinished">Execute only the query under the cursor</translation>
+        <translation>Εκτέλεση μόνο του ερωτήματος κάτω από τον δρομέα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1423"/>
         <source>Number of memorized query parameters</source>
-        <translation type="unfinished">Number of memorized query parameters</translation>
+        <translation>Αριθμός απομνημονευμένων παραμέτρων ερωτήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Όταν τα δεδομένα διαβάζονται στην προβολή πλέγματος, το πλάτος των στηλών προσαρμόζεται αυτόματα. Αυτή η τιμή περιορίζει το αρχικό πλάτος για την προσαρμογή, αλλά ο χρήστης μπορεί ακόμα να αλλάξει χειροκίνητα το μέγεθος της στήλης πέρα από αυτό το όριο. Αυτή η τιμή χρησιμοποιείται επίσης κατά τη μεγέθυνση στήλης μετά την εισαγωγή νέας, μεγαλύτερης τιμής από τον χρήστη (δείτε την παρακάτω επιλογή).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="694"/>
         <source>Limit automatic data column width to (in pixels):</source>
-        <translation type="unfinished">Limit automatic data column width to (in pixels):</translation>
+        <translation>Περιορισμός αυτόματου πλάτους στήλης δεδομένων σε (σε pixel):</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="701"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Το αρχικό πλάτος των στηλών δεδομένων θα οριστεί ώστε τουλάχιστον να εμφανίζει το πλήρες όνομα της στήλης στην κεφαλίδα. Αυτό μπορεί ακόμη να αντικατασταθεί από το αρχικό όριο πλάτους στήλης που καθορίζεται σε pixel (η παραπάνω ρύθμιση).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="704"/>
         <source>Keep at least the width to show complete column name</source>
-        <translation type="unfinished">Keep at least the width to show complete column name</translation>
+        <translation>Διατήρηση τουλάχιστον του πλάτους για εμφάνιση πλήρους ονόματος στήλης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1301"/>
         <source>Wrap lines in SQL editor</source>
-        <translation type="unfinished">Wrap lines in SQL editor</translation>
+        <translation>Αναδίπλωση γραμμών στον επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Highlight current query</source>
-        <translation type="unfinished">Highlight current query</translation>
+        <translation>Επισήμανση τρέχοντος ερωτήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1119"/>
         <source>Updates</source>
-        <translation type="unfinished">Updates</translation>
+        <translation>Ενημερώσεις</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Automatically check for updates at startup</source>
-        <translation type="unfinished">Automatically check for updates at startup</translation>
+        <translation>Αυτόματος έλεγχος για ενημερώσεις κατά την εκκίνηση</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1138"/>
         <source>Session</source>
-        <translation type="unfinished">Session</translation>
+        <translation>Συνεδρία</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1144"/>
         <source>Restore last session (active MDI windows) after startup</source>
-        <translation type="unfinished">Restore last session (active MDI windows) after startup</translation>
+        <translation>Επαναφορά τελευταίας συνεδρίας (ενεργά παράθυρα MDI) μετά την εκκίνηση</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1154"/>
         <source>Allow multiple instances of the application at the same time</source>
-        <translation type="unfinished">Allow multiple instances of the application at the same time</translation>
+        <translation>Να επιτρέπονται πολλαπλές παρουσίες της εφαρμογής ταυτόχρονα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1167"/>
         <source>Status Field</source>
-        <translation type="unfinished">Status Field</translation>
+        <translation>Πεδίο κατάστασης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1176"/>
         <source>Always open Status panel when new message is printed</source>
-        <translation type="unfinished">Always open Status panel when new message is printed</translation>
+        <translation>Να ανοίγει πάντα ο πίνακας Κατάστασης όταν εμφανίζεται νέο μήνυμα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1488"/>
         <source>Code syntax colors</source>
-        <translation type="unfinished">Code syntax colors</translation>
+        <translation>Χρώματα σύνταξης κώδικα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1674"/>
         <source>Keyword foreground</source>
-        <translation type="unfinished">Keyword foreground</translation>
+        <translation>Προσκήνιο λέξης-κλειδιού</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1494"/>
         <source>Regular foreground</source>
-        <translation type="unfinished">Regular foreground</translation>
+        <translation>Κανονικό προσκήνιο</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1584"/>
         <source>String foreground</source>
-        <translation type="unfinished">String foreground</translation>
+        <translation>Προσκήνιο συμβολοσειράς</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1854"/>
         <source>Comment foreground</source>
-        <translation type="unfinished">Comment foreground</translation>
+        <translation>Προσκήνιο σχολίου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1944"/>
         <source>Valid objects foreground</source>
-        <translation type="unfinished">Valid objects foreground</translation>
+        <translation>Προσκήνιο έγκυρων αντικειμένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2255"/>
         <source>Current query background</source>
-        <translation type="unfinished">Current query background</translation>
+        <translation>Φόντο τρέχοντος ερωτήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2124"/>
         <source>Bind parameter foreground</source>
-        <translation type="unfinished">Bind parameter foreground</translation>
+        <translation>Προσκήνιο παραμέτρου δέσμευσης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2214"/>
         <source>Current line background</source>
-        <translation type="unfinished">Current line background</translation>
+        <translation>Φόντο τρέχουσας γραμμής</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2299"/>
         <source>Matched parenthesis background</source>
-        <translation type="unfinished">Matched parenthesis background</translation>
+        <translation>Φόντο αντιστοιχισμένης παρένθεσης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2283"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Μπορείτε να απενεργοποιήσετε πλήρως την επισήμανση τρέχοντος ερωτήματος στη σελίδα Γενικών ρυθμίσεων.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="219"/>
         <source>Data renderers</source>
-        <translation type="unfinished">Data renderers</translation>
+        <translation>Απεικονιστές δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="283"/>
         <source>Expand tables when connected to a database</source>
-        <translation type="unfinished">Expand tables when connected to a database</translation>
+        <translation>Ανάπτυξη πινάκων κατά τη σύνδεση σε βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="418"/>
         <source>Expand views when connected to a database</source>
-        <translation type="unfinished">Expand views when connected to a database</translation>
+        <translation>Ανάπτυξη προβολών κατά τη σύνδεση σε βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="319"/>
         <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
-        <translation type="unfinished">Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</translation>
+        <translation>Η ανάπτυξη ενός πίνακα ή μιας προβολής αναπτύσσει επίσης τους κόμβους Στήλες, Ευρετήρια και Εναύσματα για να εμφανίσει τα περιεχόμενά τους.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="293"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Από προεπιλογή, η πρόσβαση στο σχήμα της βάσης δεδομένων γίνεται χρησιμοποιώντας το όνομα πίνακα &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Οι παλαιότερες εκδόσεις SQLite χρησιμοποιούσαν το όνομα &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, το οποίο εξακολουθεί να υποστηρίζεται ως ψευδώνυμο.&lt;br/&gt;Μπορείτε να μεταβείτε εδώ στη χρήση του παλαιού ονόματος αντί αυτού.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="296"/>
         <source>Prefer sqlite_master over sqlite_schema table name</source>
-        <translation type="unfinished">Prefer sqlite_master over sqlite_schema table name</translation>
+        <translation>Προτίμηση του ονόματος πίνακα sqlite_master έναντι του sqlite_schema</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="322"/>
         <source>Expand columns, indexes and triggers together with the table</source>
-        <translation type="unfinished">Expand columns, indexes and triggers together with the table</translation>
+        <translation>Ανάπτυξη στηλών, ευρετηρίων και εναυσμάτων μαζί με τον πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="363"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Εμφανίζει τον τύπο δεδομένων δίπλα στη στήλη όταν ο κόμβος Στήλες είναι ανεπτυγμένος.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="366"/>
         <source>Display column data types</source>
-        <translation type="unfinished">Display column data types</translation>
+        <translation>Εμφάνιση τύπων δεδομένων στηλών</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="376"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Εμφανίζει τον αριθμό στηλών, ευρετηρίων και εναυσμάτων δίπλα σε κάθε όνομα πίνακα.&lt;/p&gt;&lt;p&gt;Απαιτεί φόρτωση πλήρους σχήματος για όλους τους πίνακες. Για βάσεις δεδομένων με εκατοντάδες ή χιλιάδες πίνακες, αυτό μπορεί να επηρεάσει σημαντικά την απόδοση.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="405"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Από προεπιλογή, οι πίνακες και τα ευρετήρια συστήματος είναι κρυμμένα από τη λίστα.&lt;br/&gt;Ενεργοποιήστε αυτήν την επιλογή για να εμφανίσετε εσωτερικά αντικείμενα SQLite, όπως το &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; και αυτόματα δημιουργημένα ευρετήρια.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="450"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Όταν είναι ενεργοποιημένο, τα αρχεία βάσεων δεδομένων θα προστίθενται χωρίς εμφάνιση του τυπικού διαλόγου βάσης δεδομένων. Αν το άνοιγμα της βάσης δεδομένων με τις προεπιλεγμένες επιλογές αποτύχει (π.χ. κρυπτογραφημένη βάση δεδομένων ή απαιτείται διαφορετικός οδηγός), ο διάλογος θα εμφανιστεί ώστε να μπορούν να προσαρμοστούν οι επιλογές. Όταν είναι απενεργοποιημένο, ο διάλογος θα εμφανίζεται πάντα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="453"/>
         <source>Skip the dialog when possible</source>
-        <translation type="unfinished">Skip the dialog when possible</translation>
+        <translation>Παράλειψη του διαλόγου όταν είναι δυνατό</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="973"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ορίστε ποιοι επεξεργαστές δεδομένων είναι διαθέσιμοι για συγκεκριμένους τύπους στηλών στην &lt;span style=&quot; font-weight:700;&quot;&gt;Προβολή φόρμας&lt;/span&gt; και στον &lt;span style=&quot; font-weight:700;&quot;&gt;αναδυόμενο διάλογο επεξεργαστή&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="992"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
-        <translation type="unfinished">Preview of editors for this data type (drag to reorder):</translation>
+        <translation>Προεπισκόπηση επεξεργαστών για αυτόν τον τύπο δεδομένων (σύρετε για αλλαγή σειράς):</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1016"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Μπορείτε να ορίσετε ποιοι απεικονιστές κελιών χρησιμοποιούνται για συγκεκριμένους τύπους δεδομένων που δηλώνονται στις στήλες πίνακα (χωρίς διάκριση πεζών-κεφαλαίων). Αν δεν έχει οριστεί απεικονιστής για έναν δεδομένο τύπο, χρησιμοποιείται ο προεπιλεγμένος απεικονιστής.&lt;/p&gt;&lt;p&gt;Προαιρετικά πρόσθετα μπορεί να παρέχουν πρόσθετους απεικονιστές και να ορίζουν τις δικές τους προεπιλεγμένες αντιστοιχίσεις για τύπους δεδομένων, τις οποίες μπορείτε ακόμα να παρακάμψετε εδώ.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1045"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>Τύπος δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1050"/>
         <source>Renderer</source>
-        <translation type="unfinished">Renderer</translation>
+        <translation>Απεικονιστής</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Όταν υπάρχουν πολλά ερωτήματα, εκτελεί μόνο το ερώτημα κάτω από τον δρομέα.&lt;br/&gt;Όταν είναι απενεργοποιημένο, εκτελούνται όλα τα ερωτήματα.&lt;br/&gt;Μπορείτε επίσης να εκτελέσετε επιλεγμένα ερωτήματα ή να χρησιμοποιήσετε συντομεύσεις (%1 για ένα, %2 για όλα).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Επισημαίνει το ερώτημα κάτω από τον δρομέα - το ίδιο ερώτημα που θα εκτελεστεί όταν χρησιμοποιείται η εντολή &lt;span style=&quot; font-style:italic;&quot;&gt;Εκτέλεση ερωτήματος&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="524"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Όταν είναι ενεργοποιημένο, το Letos αλλάζει αυτόματα σε επιστημονική σημειογραφία για πολύ μικρούς πραγματικούς αριθμούς (π.χ. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Η δεκαδική σημειογραφία χρησιμοποιείται για τιμές των οποίων το μέγεθος επιτρέπει αναγνώσιμη δεκαδική αναπαράσταση.&lt;/p&gt;&lt;p&gt;Όταν είναι απενεργοποιημένο, οι πραγματικοί αριθμοί εμφανίζονται πάντα με δεκαδική σημειογραφία, ακόμη κι αν αυτό οδηγεί σε πολύ μεγάλα κλασματικά μέρη.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="556"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κατά την επεξεργασία ενός κελιού, το πάτημα του Enter αποδέχεται την τιμή και μετακινείται στην ίδια στήλη της επόμενης γραμμής.&lt;br/&gt;Αν είναι απενεργοποιημένο, η επιλογή παραμένει στο τρέχον κελί.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="559"/>
         <source>After editing, Enter moves to the next row</source>
-        <translation type="unfinished">After editing, Enter moves to the next row</translation>
+        <translation>Μετά την επεξεργασία, το Enter μετακινεί στην επόμενη γραμμή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="605"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Αν τα αποτελέσματα ερωτήματος περιέχουν δεκάδες (ή εκατοντάδες) στήλες, είναι πιο πιθανό να εξαντλήσουν την ελεύθερη μνήμη του υπολογιστή σας φορτώνοντας πολλά gigabyte δεδομένων ταυτόχρονα. Το Letos μπορεί να προσπαθήσει να περιορίσει τον αριθμό αποτελεσμάτων που εμφανίζονται σε μία σελίδα σε τέτοιες περιπτώσεις για να προστατεύσει τον υπολογιστή σας. Αν γνωρίζετε ότι δεν &apos;εργάζεστε&apos; με μεγάλες τιμές στη βάση δεδομένων, μπορείτε να απενεργοποιήσετε αυτό το όριο και θα βλέπετε πάντα όσες γραμμές ορίζονται ανά σελίδα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="631"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ξεκινά αυτόματα την επεξεργασία του κελιού στην επόμενη γραμμή μετά τη μετακίνηση σε αυτό με το Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="634"/>
         <source>Start editing after moving to the next row</source>
-        <translation type="unfinished">Start editing after moving to the next row</translation>
+        <translation>Έναρξη επεξεργασίας μετά τη μετακίνηση στην επόμενη γραμμή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="717"/>
         <source>Column header actions</source>
-        <translation type="unfinished">Column header actions</translation>
+        <translation>Ενέργειες κεφαλίδας στήλης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="723"/>
         <source>Single-click selects column data; double-click sorts by column</source>
-        <translation type="unfinished">Single-click selects column data; double-click sorts by column</translation>
+        <translation>Μονό κλικ επιλέγει τα δεδομένα στήλης· διπλό κλικ ταξινομεί κατά στήλη</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="736"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
-        <translation type="unfinished">Single-click sorts by column; Alt+click selects column data</translation>
+        <translation>Μονό κλικ ταξινομεί κατά στήλη· Alt+κλικ επιλέγει τα δεδομένα στήλης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1173"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Όταν ο χρήστης κλείνει χειροκίνητα τον πίνακα Κατάστασης, αυτή η επιλογή διασφαλίζει ότι, αν εμφανιστεί οποιοδήποτε νέο μήνυμα στον πίνακα Κατάστασης, αυτός θα ανοίξει ξανά. Αν &apos;είναι&apos; απενεργοποιημένη, τότε ο πίνακας Κατάστασης μπορεί να ανοίξει μόνο χειροκίνητα από τον χρήστη από το μενού &amp;quot;Προβολή&amp;quot;.&lt;/p&gt;&lt;p&gt;Μπορείτε πάντα να αποκρύψετε τον πίνακα Κατάστασης με το πλήκτρο Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1186"/>
         <source>Older status messages</source>
-        <translation type="unfinished">Older status messages</translation>
+        <translation>Παλαιότερα μηνύματα κατάστασης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1192"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Τα παλαιότερα μηνύματα κατάστασης διατηρούνται αμετάβλητα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1195"/>
         <source>Keep messages</source>
-        <translation type="unfinished">Keep messages</translation>
+        <translation>Διατήρηση μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1208"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Τα παλαιότερα μηνύματα κατάστασης παραμένουν ορατά, αλλά σκουραίνουν οπτικά ώστε να ξεχωρίζουν τα πρόσφατα μηνύματα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1211"/>
         <source>Dim older messages</source>
-        <translation type="unfinished">Dim older messages</translation>
+        <translation>Σκούρυνση παλαιότερων μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1224"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Τα παλαιότερα μηνύματα κατάστασης αφαιρούνται αυτόματα από το πεδίο κατάστασης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1227"/>
         <source>Remove older messages</source>
-        <translation type="unfinished">Remove older messages</translation>
+        <translation>Αφαίρεση παλαιότερων μηνυμάτων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1269"/>
         <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Καθορίζει τον μέγιστο αριθμό δεκαδικών ψηφίων που εμφανίζονται για τον χρόνο εκτέλεσης ερωτήματος. Μπορούν να διαμορφωθούν έως 9 ψηφία (νανοδευτερόλεπτα). Τα τελικά μηδενικά περικόπτονται αυτόματα.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1272"/>
         <source>Execution time precision (decimal places)</source>
-        <translation type="unfinished">Execution time precision (decimal places)</translation>
+        <translation>Ακρίβεια χρόνου εκτέλεσης (δεκαδικά ψηφία)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Αν ενεργοποιηθεί, οι γραμμές που είναι μεγαλύτερες από το πλάτος του επεξεργαστή θα αναδιπλώνονται, ώστε να μην χρειάζεται οριζόντια κύλιση.&lt;/p&gt;&lt;p&gt;Αυτή η επιλογή ορίζει την καθολική προεπιλογή, ενώ τα μεμονωμένα παράθυρα επεξεργαστή SQL μπορούν να την παρακάμπτουν τοπικά.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Disable blinking text cursor</source>
-        <translation type="unfinished">Disable blinking text cursor</translation>
+        <translation>Απενεργοποίηση αναβοσβήματος δρομέα κειμένου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Trigger assistant after typing a dot</source>
-        <translation type="unfinished">Trigger assistant after typing a dot</translation>
+        <translation>Ενεργοποίηση βοηθού μετά την πληκτρολόγηση τελείας</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
-        <translation type="unfinished">When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</translation>
+        <translation>Όταν είναι ενεργό, η κλήση συμπλήρωσης κώδικα σε κενό επεξεργαστή εμφανίζει πρώτα αποσπάσματα κώδικα αντί για προτάσεις σύνταξης. Η εκ νέου κλήση συμπλήρωσης κώδικα αλλάζει σε προτάσεις σύνταξης (και αντίστροφα).</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Prefer snippets in empty editor</source>
-        <translation type="unfinished">Prefer snippets in empty editor</translation>
+        <translation>Προτίμηση αποσπασμάτων σε κενό επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>History</source>
-        <translation type="unfinished">History</translation>
+        <translation>Ιστορικό</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1394"/>
         <source>Query history size:</source>
-        <translation type="unfinished">Query history size:</translation>
+        <translation>Μέγεθος ιστορικού ερωτημάτων:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1420"/>
         <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Μέγιστος αριθμός παραμέτρων ερωτήματος (:param, @param, $param, ?) που αποθηκεύονται στο ιστορικό. Όταν επαναχρησιμοποιείτε παράμετρο με το ίδιο όνομα/θέση, το Letos θα την προ-αρχικοποιεί με την πιο πρόσφατη απομνημονευμένη τιμή (θα μπορείτε ακόμη να την αλλάξετε). Η τιμή 1000 θα πρέπει να είναι επαρκής.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1764"/>
         <source>Number foreground</source>
-        <translation type="unfinished">Number foreground</translation>
+        <translation>Χρώμα προσκηνίου αριθμού</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2034"/>
         <source>BLOB value foreground</source>
-        <translation type="unfinished">BLOB value foreground</translation>
+        <translation>Χρώμα προσκηνίου τιμής BLOB</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2340"/>
         <source>Matched parenthesis foreground</source>
-        <translation type="unfinished">Matched parenthesis foreground</translation>
+        <translation>Χρώμα προσκηνίου αντιστοιχισμένης παρένθεσης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2448"/>
         <location filename="../dialogs/configdialog.ui" line="2556"/>
         <source>Reset to defaults</source>
-        <translation type="unfinished">Reset to defaults</translation>
+        <translation>Επαναφορά προεπιλογών</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2474"/>
         <source>Filter shortcuts by name or key combination</source>
-        <translation type="unfinished">Filter shortcuts by name or key combination</translation>
+        <translation>Φιλτράρισμα συντομεύσεων κατά όνομα ή συνδυασμό πλήκτρων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2518"/>
         <source>Action</source>
-        <translation type="unfinished">Action</translation>
+        <translation>Ενέργεια</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2523"/>
         <source>Key combination</source>
-        <translation type="unfinished">Key combination</translation>
+        <translation>Συνδυασμός πλήκτρων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2597"/>
         <location filename="../dialogs/configdialog.ui" line="3104"/>
         <source>Language</source>
-        <translation type="unfinished">Language</translation>
+        <translation>Γλώσσα</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2603"/>
         <source>Changing language requires application restart to take effect.</source>
-        <translation type="unfinished">Changing language requires application restart to take effect.</translation>
+        <translation>Η αλλαγή γλώσσας απαιτεί επανεκκίνηση της εφαρμογής για να εφαρμοστεί.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2623"/>
         <source>Compact layout</source>
-        <translation type="unfinished">Compact layout</translation>
+        <translation>Συμπαγής διάταξη</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2629"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Η συμπαγής διάταξη μειώνει όλα τα περιθώρια και τα διαστήματα στο UI στο ελάχιστο, δημιουργώντας χώρο για την εμφάνιση περισσότερων δεδομένων. Κάνει το περιβάλλον λίγο λιγότερο αισθητικό, αλλά επιτρέπει την εμφάνιση περισσότερων δεδομένων ταυτόχρονα.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2632"/>
         <source>Use compact layout</source>
-        <translation type="unfinished">Use compact layout</translation>
+        <translation>Χρήση συμπαγούς διάταξης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2648"/>
         <source>Main window dock areas</source>
-        <translation type="unfinished">Main window dock areas</translation>
+        <translation>Περιοχές προσάρτησης κύριου παραθύρου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2654"/>
         <source>Left and right areas occupy corners</source>
-        <translation type="unfinished">Left and right areas occupy corners</translation>
+        <translation>Οι αριστερές και δεξιές περιοχές καταλαμβάνουν τις γωνίες</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2674"/>
         <source>Top and bottom areas occupy corners</source>
-        <translation type="unfinished">Top and bottom areas occupy corners</translation>
+        <translation>Οι επάνω και κάτω περιοχές καταλαμβάνουν τις γωνίες</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Toolbars</source>
-        <translation type="unfinished">Toolbars</translation>
+        <translation>Γραμμές εργαλείων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2700"/>
         <location filename="../dialogs/configdialog.ui" line="2710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Εκφρασμένο ως ποσοστό του προεπιλεγμένου μεγέθους.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
-        <translation type="unfinished">Icon size</translation>
+        <translation>Μέγεθος εικονιδίου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2828"/>
         <source>Hide built-in plugins</source>
-        <translation type="unfinished">Hide built-in plugins</translation>
+        <translation>Απόκρυψη ενσωματωμένων πρόσθετων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2857"/>
         <source>Current style:</source>
-        <translation type="unfinished">Current style:</translation>
+        <translation>Τρέχον στυλ:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2874"/>
         <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+        <translation>Προεπισκόπηση</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2884"/>
         <source>Enabled</source>
-        <translation type="unfinished">Enabled</translation>
+        <translation>Ενεργό</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3060"/>
         <source>Disabled</source>
-        <translation type="unfinished">Disabled</translation>
+        <translation>Ανενεργό</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3109"/>
         <source>Active formatter plugin</source>
-        <translation type="unfinished">Active formatter plugin</translation>
+        <translation>Ενεργό πρόσθετο μορφοποίησης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Συμβουλή:&lt;/span&gt; Εκτός από τις ρυθμίσεις που είναι διαθέσιμες εδώ, τα μεγέθη γραμματοσειράς μπορούν επίσης να προσαρμοστούν δυναμικά στα περισσότερα στοιχεία του περιβάλλοντος κρατώντας πατημένο το &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; και κυλώντας τον &lt;span style=&quot; font-weight:700;&quot;&gt;τροχό του ποντικιού&lt;/span&gt; πάνω από το στοιχείο του οποίου θέλετε να αλλάξετε το μέγεθος γραμματοσειράς.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3166"/>
         <source>SQL editor font</source>
-        <translation type="unfinished">SQL editor font</translation>
+        <translation>Γραμματοσειρά επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3182"/>
         <source>Database list font</source>
-        <translation type="unfinished">Database list font</translation>
+        <translation>Γραμματοσειρά λίστας βάσεων δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3198"/>
         <source>Database list additional label font</source>
-        <translation type="unfinished">Database list additional label font</translation>
+        <translation>Γραμματοσειρά πρόσθετης ετικέτας λίστας βάσεων δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3214"/>
         <source>Data view font</source>
-        <translation type="unfinished">Data view font</translation>
+        <translation>Γραμματοσειρά προβολής δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3230"/>
         <source>Status field font</source>
-        <translation type="unfinished">Status field font</translation>
+        <translation>Γραμματοσειρά πεδίου κατάστασης</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Αν αυτή η επιλογή είναι ενεργή, ο βοηθός κώδικα θα ενεργοποιείται σε περιπτώσεις όπου ο χρήστης πληκτρολογεί, για παράδειγμα, &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; για να προτείνει στήλες του πίνακα. Αν η επιλογή είναι ανενεργή, ο χρήστης θα πρέπει να πατήσει ρητά το πλήκτρο συντόμευσης του βοηθού.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1119"/>
         <source>Description:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Description:</translation>
+        <translation>Περιγραφή:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1120"/>
         <source>Category:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Category:</translation>
+        <translation>Κατηγορία:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1121"/>
         <source>Version:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Version:</translation>
+        <translation>Έκδοση:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Author:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Author:</translation>
+        <translation>Συντάκτης:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Internal name:</translation>
+        <translation>Εσωτερικό όνομα:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Dependencies:</translation>
+        <translation>Εξαρτήσεις:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1126"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Conflicts:</translation>
+        <translation>Συγκρούσεις:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>File:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">File:</translation>
+        <translation>Αρχείο:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1132"/>
         <source>Plugin details</source>
-        <translation type="unfinished">Plugin details</translation>
+        <translation>Λεπτομέρειες πρόσθετου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1753"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
-        <translation type="unfinished">Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</translation>
+        <translation>Τα πρόσθετα φορτώνονται/εκφορτώνονται αμέσως όταν επιλέγονται/αποεπιλέγονται, αλλά η τροποποιημένη λίστα πρόσθετων προς φόρτωση κατά την εκκίνηση δεν αποθηκεύεται μέχρι να επιβεβαιώσετε ολόκληρο το παράθυρο διαλόγου ρυθμίσεων.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1811"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
-        <translation type="unfinished">%1 (built-in)</translation>
+        <translation>%1 (ενσωματωμένο)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1853"/>
         <source>Details</source>
-        <translation type="unfinished">Details</translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1867"/>
         <source>No plugins in this category.</source>
-        <translation type="unfinished">No plugins in this category.</translation>
+        <translation>Δεν υπάρχουν πρόσθετα σε αυτήν την κατηγορία.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1967"/>
         <location filename="../dialogs/configdialog.cpp" line="1996"/>
         <source>Add new data type</source>
-        <translation type="unfinished">Add new data type</translation>
+        <translation>Προσθήκη νέου τύπου δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1971"/>
         <location filename="../dialogs/configdialog.cpp" line="2000"/>
         <source>Rename selected data type</source>
-        <translation type="unfinished">Rename selected data type</translation>
+        <translation>Μετονομασία επιλεγμένου τύπου δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1975"/>
         <location filename="../dialogs/configdialog.cpp" line="2004"/>
         <source>Delete selected data type</source>
-        <translation type="unfinished">Delete selected data type</translation>
+        <translation>Διαγραφή επιλεγμένου τύπου δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="2088"/>
         <source>Clear hotkey for this action</source>
-        <translation type="unfinished">Clear hotkey for this action</translation>
+        <translation>Εκκαθάριση πλήκτρου συντόμευσης για αυτήν την ενέργεια</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="2100"/>
         <source>Restore original hotkey for this action</source>
-        <translation type="unfinished">Restore original hotkey for this action</translation>
+        <translation>Επαναφορά αρχικού πλήκτρου συντόμευσης για αυτήν την ενέργεια</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="2142"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
-        <translation type="unfinished">Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</translation>
+        <translation>Εδώ μπορείτε να ρυθμίσετε χρώματα για την επισήμανση σύνταξης κώδικα. Είναι κοινά σε διαφορετικές γλώσσες - όχι μόνο για SQL, αλλά και JavaScript και άλλες. Από προεπιλογή χρησιμοποιείται χρώμα βάσει θέματος. Για να ορίσετε δικό σας χρώμα, ενεργοποιήστε ένα προσαρμοσμένο χρώμα επιλέγοντας το πλαίσιο δίπλα στο συγκεκριμένο χρώμα.</translation>
     </message>
 </context>
 <context>
@@ -2038,27 +2038,27 @@
     <message>
         <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
         <source>The condition</source>
-        <translation type="unfinished">The condition</translation>
+        <translation>Η συνθήκη</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Ονομασμένος περιορισμός:</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
         <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+        <translation>Σε περίπτωση σύγκρουσης</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
         <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+        <translation>Εισαγάγετε έγκυρη συνθήκη.</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε όνομα για τον περιορισμό.</translation>
     </message>
 </context>
 <context>
@@ -2067,73 +2067,73 @@
         <location filename="../dialogs/constraintdialog.cpp" line="62"/>
         <source>New constraint</source>
         <comment>constraint dialog</comment>
-        <translation type="unfinished">New constraint</translation>
+        <translation>Νέος περιορισμός</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="63"/>
         <source>Create</source>
         <comment>constraint dialog</comment>
-        <translation type="unfinished">Create</translation>
+        <translation>Δημιουργία</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="66"/>
         <source>Edit constraint</source>
         <comment>dialog window</comment>
-        <translation type="unfinished">Edit constraint</translation>
+        <translation>Επεξεργασία περιορισμού</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="67"/>
         <source>Apply</source>
         <comment>constraint dialog</comment>
-        <translation type="unfinished">Apply</translation>
+        <translation>Εφαρμογή</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="174"/>
         <source>Primary key</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Primary key</translation>
+        <translation>Πρωτεύον κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="178"/>
         <source>Foreign key</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Foreign key</translation>
+        <translation>Ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="182"/>
         <source>Unique</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Μοναδικό</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="186"/>
         <source>Not NULL</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Not NULL</translation>
+        <translation>Μη NULL</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="190"/>
         <source>Check</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Check</translation>
+        <translation>Έλεγχος</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="194"/>
         <source>Generated</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Generated</translation>
+        <translation>Παραγόμενο</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="198"/>
         <source>Collate</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Συρραφή</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="202"/>
         <source>Default</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Default</translation>
+        <translation>Προεπιλογή</translation>
     </message>
 </context>
 <context>
@@ -2142,37 +2142,37 @@
         <location filename="../windows/constrainttabmodel.cpp" line="67"/>
         <source>Table</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Table</translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="108"/>
         <source>Column (%1)</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Column (%1)</translation>
+        <translation>Στήλη (%1)</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="152"/>
         <source>Scope</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Scope</translation>
+        <translation>Εμβέλεια</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="154"/>
         <source>Type</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Type</translation>
+        <translation>Τύπος</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="156"/>
         <source>Details</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="158"/>
         <source>Name</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
 </context>
 <context>
@@ -2180,20 +2180,20 @@
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
         <source>Configure hotkey: %1 (%2)</source>
-        <translation type="unfinished">Configure hotkey: %1 (%2)</translation>
+        <translation>Διαμόρφωση πλήκτρου συντόμευσης: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
         <source>Open configuration on the &quot;%1&quot; page</source>
-        <translation type="unfinished">Open configuration on the &quot;%1&quot; page</translation>
+        <translation>Άνοιγμα διαμόρφωσης στη σελίδα &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
         <source>Configure: %1</source>
-        <translation type="unfinished">Configure: %1</translation>
+        <translation>Διαμόρφωση: %1</translation>
     </message>
 </context>
 <context>
@@ -2201,7 +2201,7 @@
     <message>
         <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
         <source>Letos CSS console</source>
-        <translation type="unfinished">Letos CSS console</translation>
+        <translation>Κονσόλα CSS του Letos</translation>
     </message>
 </context>
 <context>
@@ -2210,186 +2210,186 @@
         <location filename="../dataview.cpp" line="125"/>
         <source>Filter data</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter data</translation>
+        <translation>Φιλτράρισμα δεδομένων</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="126"/>
         <source>Filter by value in any column</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by value in any column</translation>
+        <translation>Φιλτράρισμα κατά τιμή σε οποιαδήποτε στήλη</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="135"/>
         <source>Grid view</source>
-        <translation type="unfinished">Grid view</translation>
+        <translation>Προβολή πλέγματος</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="136"/>
         <source>Form view</source>
-        <translation type="unfinished">Form view</translation>
+        <translation>Προβολή φόρμας</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="239"/>
         <source>Find in data</source>
         <comment>data view</comment>
-        <translation type="unfinished">Find in data</translation>
+        <translation>Εύρεση στα δεδομένα</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="240"/>
         <source>Refresh table data</source>
         <comment>data view</comment>
-        <translation type="unfinished">Refresh table data</translation>
+        <translation>Ανανέωση δεδομένων πίνακα</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="256"/>
         <source>First page</source>
         <comment>data view</comment>
-        <translation type="unfinished">First page</translation>
+        <translation>Πρώτη σελίδα</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="257"/>
         <source>Previous page</source>
         <comment>data view</comment>
-        <translation type="unfinished">Previous page</translation>
+        <translation>Προηγούμενη σελίδα</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="259"/>
         <source>Next page</source>
         <comment>data view</comment>
-        <translation type="unfinished">Next page</translation>
+        <translation>Επόμενη σελίδα</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="260"/>
         <source>Last page</source>
         <comment>data view</comment>
-        <translation type="unfinished">Last page</translation>
+        <translation>Τελευταία σελίδα</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="274"/>
         <source>Show grid view of results</source>
         <comment>data view</comment>
-        <translation type="unfinished">Show grid view of results</translation>
+        <translation>Εμφάνιση προβολής πλέγματος αποτελεσμάτων</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="275"/>
         <source>Show form view of results</source>
         <comment>data view</comment>
-        <translation type="unfinished">Show form view of results</translation>
+        <translation>Εμφάνιση προβολής φόρμας αποτελεσμάτων</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="524"/>
         <source>Rows available on current page: %1 - %2</source>
         <comment>data view</comment>
-        <translation type="unfinished">Rows available on current page: %1 - %2</translation>
+        <translation>Διαθέσιμες γραμμές στην τρέχουσα σελίδα: %1 - %2</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="811"/>
         <source>Sum: %1</source>
-        <translation type="unfinished">Sum: %1</translation>
+        <translation>Άθροισμα: %1</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="964"/>
         <source>Total pages available: %1</source>
-        <translation type="unfinished">Total pages available: %1</translation>
+        <translation>Σύνολο διαθέσιμων σελίδων: %1</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="974"/>
         <source>Total rows loaded: %1</source>
-        <translation type="unfinished">Total rows loaded: %1</translation>
+        <translation>Σύνολο φορτωμένων γραμμών: %1</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1370"/>
         <source>Filter by text (if contains)</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by text (if contains)</translation>
+        <translation>Φιλτράρισμα κατά κείμενο (αν περιέχει)</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1371"/>
         <source>Filter strictly by text (if equals)</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter strictly by text (if equals)</translation>
+        <translation>Αυστηρό φιλτράρισμα κατά κείμενο (αν ισούται)</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="382"/>
         <source>Tabs on top</source>
         <comment>data view</comment>
-        <translation type="unfinished">Tabs on top</translation>
+        <translation>Καρτέλες επάνω</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="54"/>
         <source>Sum of values in selected cells</source>
         <comment>data view</comment>
-        <translation type="unfinished">Sum of values in selected cells</translation>
+        <translation>Άθροισμα τιμών στα επιλεγμένα κελιά</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="105"/>
         <source>Row:</source>
-        <translation type="unfinished">Row:</translation>
+        <translation>Γραμμή:</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="383"/>
         <source>Tabs at bottom</source>
         <comment>data view</comment>
-        <translation type="unfinished">Tabs at bottom</translation>
+        <translation>Καρτέλες κάτω</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="408"/>
         <source>Place new rows above selected row</source>
         <comment>data view</comment>
-        <translation type="unfinished">Place new rows above selected row</translation>
+        <translation>Τοποθέτηση νέων γραμμών πάνω από την επιλεγμένη γραμμή</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="409"/>
         <source>Place new rows below selected row</source>
         <comment>data view</comment>
-        <translation type="unfinished">Place new rows below selected row</translation>
+        <translation>Τοποθέτηση νέων γραμμών κάτω από την επιλεγμένη γραμμή</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="410"/>
         <source>Place new rows at the end of the data view</source>
         <comment>data view</comment>
-        <translation type="unfinished">Place new rows at the end of the data view</translation>
+        <translation>Τοποθέτηση νέων γραμμών στο τέλος της προβολής δεδομένων</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="987"/>
         <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
-        <translation type="unfinished">Total number of rows is being counted.
-Browsing other pages will be possible after the row counting is done.</translation>
+        <translation>Ο συνολικός αριθμός γραμμών υπολογίζεται.
+Η περιήγηση σε άλλες σελίδες θα είναι δυνατή μετά την ολοκλήρωση της καταμέτρησης γραμμών.</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1337"/>
         <source>Filter</source>
-        <translation type="unfinished">Filter</translation>
+        <translation>Φίλτρο</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1340"/>
         <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
-        <translation type="unfinished">Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</translation>
+        <translation>Πατήστε το πλήκτρο Enter ή το κουμπί &quot;Εφαρμογή φίλτρου&quot; στη γραμμή εργαλείων για να εφαρμόσετε τη νέα τιμή.</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1372"/>
         <source>Filter by the Regular Expression</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by the Regular Expression</translation>
+        <translation>Φιλτράρισμα με κανονική έκφραση</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1373"/>
         <source>Filter by SQL expression</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by SQL expression</translation>
+        <translation>Φιλτράρισμα με έκφραση SQL</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1392"/>
         <source>Show filter inputs per column</source>
         <comment>data view</comment>
-        <translation type="unfinished">Show filter inputs per column</translation>
+        <translation>Εμφάνιση πεδίων φίλτρου ανά στήλη</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1396"/>
         <source>Apply filter</source>
         <comment>data view</comment>
-        <translation type="unfinished">Apply filter</translation>
+        <translation>Εφαρμογή φίλτρου</translation>
     </message>
 </context>
 <context>
@@ -2397,141 +2397,141 @@ Browsing other pages will be possible after the row counting is done.</translati
     <message>
         <location filename="../dialogs/dbdialog.ui" line="23"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="29"/>
         <source>Database type</source>
-        <translation type="unfinished">Database type</translation>
+        <translation>Τύπος βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="35"/>
         <source>Database driver</source>
-        <translation type="unfinished">Database driver</translation>
+        <translation>Οδηγός βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="45"/>
         <location filename="../dialogs/dbdialog.cpp" line="194"/>
         <source>File</source>
-        <translation type="unfinished">File</translation>
+        <translation>Αρχείο</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="51"/>
         <source>Select an existing database file</source>
-        <translation type="unfinished">Select an existing database file</translation>
+        <translation>Επιλέξτε υπάρχον αρχείο βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="61"/>
         <source>Create a new database file</source>
-        <translation type="unfinished">Create a new database file</translation>
+        <translation>Δημιουργία νέου αρχείου βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="89"/>
         <source>Name (on the list)</source>
-        <translation type="unfinished">Name (on the list)</translation>
+        <translation>Όνομα (στη λίστα)</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="117"/>
         <source>Change</source>
-        <translation type="unfinished">Change</translation>
+        <translation>Αλλαγή</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="127"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Επιλογές</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="133"/>
         <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
         <extracomment>aasfd</extracomment>
-        <translation type="unfinished">&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Ενεργοποιήστε το αν θέλετε η βάση δεδομένων να αποθηκεύεται στο αρχείο ρυθμίσεων και να επαναφέρεται κάθε φορά που ξεκινά το Letos.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="136"/>
         <source>Permanent (keep it in configuration)</source>
-        <translation type="unfinished">Permanent (keep it in configuration)</translation>
+        <translation>Μόνιμη (διατήρηση στις ρυθμίσεις)</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="180"/>
         <source>Test connection</source>
-        <translation type="unfinished">Test connection</translation>
+        <translation>Δοκιμή σύνδεσης</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="355"/>
         <source>Browse</source>
-        <translation type="unfinished">Browse</translation>
+        <translation>Περιήγηση</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="528"/>
         <source>Database type not selected.</source>
-        <translation type="unfinished">Database type not selected.</translation>
+        <translation>Δεν επιλέχθηκε τύπος βάσης δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="535"/>
         <source>Database path not specified.</source>
-        <translation type="unfinished">Database path not specified.</translation>
+        <translation>Δεν καθορίστηκε διαδρομή βάσης δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="568"/>
         <source>Enter an unique database name.</source>
-        <translation type="unfinished">Enter an unique database name.</translation>
+        <translation>Εισαγάγετε μοναδικό όνομα βάσης δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="578"/>
         <source>This name is already in use. Please enter unique name.</source>
-        <translation type="unfinished">This name is already in use. Please enter unique name.</translation>
+        <translation>Αυτό το όνομα χρησιμοποιείται ήδη. Εισαγάγετε μοναδικό όνομα.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="585"/>
         <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Η αυτόματη δημιουργία ονόματος απενεργοποιήθηκε, επειδή το όνομα επεξεργάστηκε χειροκίνητα. Για να επαναφέρετε την αυτόματη δημιουργία, διαγράψτε τα περιεχόμενα του πεδίου ονόματος.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="594"/>
         <source>Enter a database file path.</source>
-        <translation type="unfinished">Enter a database file path.</translation>
+        <translation>Εισαγάγετε διαδρομή αρχείου βάσης δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="600"/>
         <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
-        <translation type="unfinished">You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</translation>
+        <translation>Χρησιμοποιείτε &apos;σχετική&apos; διαδρομή αρχείου, η οποία θα αναλυθεί σε &quot;%1&quot; σύμφωνα με τον κατάλογο εργασίας της εφαρμογής. Είναι πάντα καλύτερο να χρησιμοποιείτε απόλυτη διαδρομή αρχείου, ώστε ν&apos; αποφύγετε απροσδόκητη θέση βάσης δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="610"/>
         <source>This database is already on the list under name: %1</source>
-        <translation type="unfinished">This database is already on the list under name: %1</translation>
+        <translation>Αυτή η βάση δεδομένων βρίσκεται ήδη στη λίστα με όνομα: %1</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="632"/>
         <source>Select a database type.</source>
-        <translation type="unfinished">Select a database type.</translation>
+        <translation>Επιλέξτε τύπο βάσης δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="657"/>
         <source>Automatic</source>
         <comment>database name</comment>
-        <translation type="unfinished">Automatic</translation>
+        <translation>Αυτόματο</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="658"/>
         <source>Change</source>
         <comment>database name</comment>
-        <translation type="unfinished">Change</translation>
+        <translation>Αλλαγή</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="667"/>
         <source>(empty)</source>
-        <translation type="unfinished">(empty)</translation>
+        <translation>(κενό)</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="837"/>
         <source>Choose a location for the new database file</source>
-        <translation type="unfinished">Choose a location for the new database file</translation>
+        <translation>Επιλέξτε θέση για το νέο αρχείο βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="838"/>
         <source>Browse for existing database file on local computer</source>
-        <translation type="unfinished">Browse for existing database file on local computer</translation>
+        <translation>Περιήγηση για υπάρχον αρχείο βάσης δεδομένων στον τοπικό υπολογιστή</translation>
     </message>
 </context>
 <context>
@@ -2539,70 +2539,70 @@ Browsing other pages will be possible after the row counting is done.</translati
     <message>
         <location filename="../dbobjectdialogs.cpp" line="176"/>
         <source>Delete table</source>
-        <translation type="unfinished">Delete table</translation>
+        <translation>Διαγραφή πίνακα</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="177"/>
         <source>Are you sure you want to delete table %1?</source>
-        <translation type="unfinished">Are you sure you want to delete table %1?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τον πίνακα %1;</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="181"/>
         <source>Delete index</source>
-        <translation type="unfinished">Delete index</translation>
+        <translation>Διαγραφή ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="182"/>
         <source>Are you sure you want to delete index %1?</source>
-        <translation type="unfinished">Are you sure you want to delete index %1?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε το ευρετήριο %1;</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="186"/>
         <source>Delete trigger</source>
-        <translation type="unfinished">Delete trigger</translation>
+        <translation>Διαγραφή ενεργοποιητή</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="187"/>
         <source>Are you sure you want to delete trigger %1?</source>
-        <translation type="unfinished">Are you sure you want to delete trigger %1?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τον ενεργοποιητή %1;</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="191"/>
         <source>Delete view</source>
-        <translation type="unfinished">Delete view</translation>
+        <translation>Διαγραφή προβολής</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="192"/>
         <source>Are you sure you want to delete view %1?</source>
-        <translation type="unfinished">Are you sure you want to delete view %1?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε την προβολή %1;</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="214"/>
         <location filename="../dbobjectdialogs.cpp" line="346"/>
         <source>Error while dropping %1: %2</source>
-        <translation type="unfinished">Error while dropping %1: %2</translation>
+        <translation>Σφάλμα κατά την απόρριψη του %1: %2</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="322"/>
         <source>Delete objects</source>
-        <translation type="unfinished">Delete objects</translation>
+        <translation>Διαγραφή αντικειμένων</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="323"/>
         <source>Are you sure you want to delete following objects:
 %1</source>
-        <translation type="unfinished">Are you sure you want to delete following objects:
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τα ακόλουθα αντικείμενα:
 %1</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="330"/>
         <source>Cannot start transaction. Details: %1</source>
-        <translation type="unfinished">Cannot start transaction. Details: %1</translation>
+        <translation>Δεν είναι δυνατή η έναρξη συναλλαγής. Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="357"/>
         <source>Cannot commit transaction. Details: %1</source>
-        <translation type="unfinished">Cannot commit transaction. Details: %1</translation>
+        <translation>Δεν είναι δυνατή η επικύρωση συναλλαγής. Λεπτομέρειες: %1</translation>
     </message>
 </context>
 <context>
@@ -2610,263 +2610,263 @@ Browsing other pages will be possible after the row counting is done.</translati
     <message>
         <location filename="../dbtree/dbtree.ui" line="20"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2556"/>
         <source>Filter by name</source>
-        <translation type="unfinished">Filter by name</translation>
+        <translation>Φιλτράρισμα κατά όνομα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="142"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="143"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Επικόλληση</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="144"/>
         <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="145"/>
         <source>Create a group</source>
-        <translation type="unfinished">Create a group</translation>
+        <translation>Δημιουργία ομάδας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="146"/>
         <source>Delete the group</source>
-        <translation type="unfinished">Delete the group</translation>
+        <translation>Διαγραφή ομάδας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="147"/>
         <source>Rename the group</source>
-        <translation type="unfinished">Rename the group</translation>
+        <translation>Μετονομασία ομάδας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="152"/>
         <source>&amp;Edit the database</source>
-        <translation type="unfinished">&amp;Edit the database</translation>
+        <translation>&amp;Επεξεργασία βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="154"/>
         <source>&amp;Remove the database</source>
-        <translation type="unfinished">&amp;Remove the database</translation>
+        <translation>&amp;Αφαίρεση βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="155"/>
         <source>&amp;Connect to the database</source>
-        <translation type="unfinished">&amp;Connect to the database</translation>
+        <translation>&amp;Σύνδεση στη βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="156"/>
         <source>&amp;Disconnect from the database</source>
-        <translation type="unfinished">&amp;Disconnect from the database</translation>
+        <translation>&amp;Αποσύνδεση από τη βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="159"/>
         <source>Vac&amp;uum</source>
-        <translation type="unfinished">Vac&amp;uum</translation>
+        <translation>Εκκα&amp;θάριση</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="160"/>
         <source>&amp;Integrity check</source>
-        <translation type="unfinished">&amp;Integrity check</translation>
+        <translation>&amp;Έλεγχος ακεραιότητας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="161"/>
         <source>Create a &amp;table</source>
-        <translation type="unfinished">Create a &amp;table</translation>
+        <translation>Δημιουργία &amp;πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="162"/>
         <source>Edit the t&amp;able</source>
-        <translation type="unfinished">Edit the t&amp;able</translation>
+        <translation>Επεξεργασία πί&amp;νακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="164"/>
         <source>Delete the ta&amp;ble</source>
-        <translation type="unfinished">Delete the ta&amp;ble</translation>
+        <translation>Διαγραφή πίνα&amp;κα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="165"/>
         <source>Export the table</source>
-        <translation type="unfinished">Export the table</translation>
+        <translation>Εξαγωγή πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="166"/>
         <source>Import into the table</source>
-        <translation type="unfinished">Import into the table</translation>
+        <translation>Εισαγωγή στον πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="168"/>
         <source>Populate table</source>
-        <translation type="unfinished">Populate table</translation>
+        <translation>Συμπλήρωση πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="169"/>
         <source>Create similar table</source>
-        <translation type="unfinished">Create similar table</translation>
+        <translation>Δημιουργία παρόμοιου πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="170"/>
         <source>Reset autoincrement sequence</source>
-        <translation type="unfinished">Reset autoincrement sequence</translation>
+        <translation>Επαναφορά ακολουθίας autoincrement</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="171"/>
         <source>Create an &amp;index</source>
-        <translation type="unfinished">Create an &amp;index</translation>
+        <translation>Δημιουργία &amp;ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="172"/>
         <source>Edit the i&amp;ndex</source>
-        <translation type="unfinished">Edit the i&amp;ndex</translation>
+        <translation>Επεξεργασία ευ&amp;ρετηρίου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="174"/>
         <source>Delete the in&amp;dex</source>
-        <translation type="unfinished">Delete the in&amp;dex</translation>
+        <translation>Διαγραφή ευρετη&amp;ρίου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="175"/>
         <source>Create a trig&amp;ger</source>
-        <translation type="unfinished">Create a trig&amp;ger</translation>
+        <translation>Δημιουργία ενεργο&amp;ποιητή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="176"/>
         <source>Edit the trigg&amp;er</source>
-        <translation type="unfinished">Edit the trigg&amp;er</translation>
+        <translation>Επεξεργασία ενεργοποιη&amp;τή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="178"/>
         <source>Delete the trigge&amp;r</source>
-        <translation type="unfinished">Delete the trigge&amp;r</translation>
+        <translation>Διαγραφή ενεργοποιητ&amp;ή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="179"/>
         <source>Create a &amp;view</source>
-        <translation type="unfinished">Create a &amp;view</translation>
+        <translation>Δημιουργία &amp;προβολής</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="180"/>
         <source>Edit the v&amp;iew</source>
-        <translation type="unfinished">Edit the v&amp;iew</translation>
+        <translation>Επεξεργασία προβ&amp;ολής</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="182"/>
         <source>Delete the vi&amp;ew</source>
-        <translation type="unfinished">Delete the vi&amp;ew</translation>
+        <translation>Διαγραφή προβο&amp;λής</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="183"/>
         <source>Add a column</source>
-        <translation type="unfinished">Add a column</translation>
+        <translation>Προσθήκη στήλης</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="184"/>
         <source>Edit the column</source>
-        <translation type="unfinished">Edit the column</translation>
+        <translation>Επεξεργασία στήλης</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="186"/>
         <source>Delete the column</source>
-        <translation type="unfinished">Delete the column</translation>
+        <translation>Διαγραφή στήλης</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="187"/>
         <source>Delete selected items</source>
-        <translation type="unfinished">Delete selected items</translation>
+        <translation>Διαγραφή επιλεγμένων στοιχείων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="207"/>
         <source>Clear filter</source>
-        <translation type="unfinished">Clear filter</translation>
+        <translation>Εκκαθάριση φίλτρου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="188"/>
         <source>&amp;Refresh all database schemas</source>
-        <translation type="unfinished">&amp;Refresh all database schemas</translation>
+        <translation>&amp;Ανανέωση όλων των σχημάτων βάσεων δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="148"/>
         <source>&amp;Create new database</source>
-        <translation type="unfinished">&amp;Create new database</translation>
+        <translation>&amp;Δημιουργία νέας βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="149"/>
         <source>&amp;Open existing database</source>
-        <translation type="unfinished">&amp;Open existing database</translation>
+        <translation>&amp;Άνοιγμα υπάρχουσας βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="150"/>
         <source>&amp;Open existing database or SQL file</source>
-        <translation type="unfinished">&amp;Open existing database or SQL file</translation>
+        <translation>&amp;Άνοιγμα υπάρχουσας βάσης δεδομένων ή αρχείου SQL</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="151"/>
         <source>Add a database</source>
-        <translation type="unfinished">Add a database</translation>
+        <translation>Προσθήκη βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="153"/>
         <source>Rename the database</source>
-        <translation type="unfinished">Rename the database</translation>
+        <translation>Μετονομασία βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="157"/>
         <source>&amp;Import</source>
-        <translation type="unfinished">&amp;Import</translation>
+        <translation>&amp;Εισαγωγή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="158"/>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Export</translation>
+        <translation>&amp;Εξαγωγή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="163"/>
         <source>Rename the table</source>
-        <translation type="unfinished">Rename the table</translation>
+        <translation>Μετονομασία πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="167"/>
         <source>Export the view</source>
-        <translation type="unfinished">Export the view</translation>
+        <translation>Εξαγωγή προβολής</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="173"/>
         <source>Rename the index</source>
-        <translation type="unfinished">Rename the index</translation>
+        <translation>Μετονομασία ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="177"/>
         <source>Rename the trigger</source>
-        <translation type="unfinished">Rename the trigger</translation>
+        <translation>Μετονομασία ενεργοποιητή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="181"/>
         <source>Rename the view</source>
-        <translation type="unfinished">Rename the view</translation>
+        <translation>Μετονομασία προβολής</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="185"/>
         <source>Rename the column</source>
-        <translation type="unfinished">Rename the column</translation>
+        <translation>Μετονομασία στήλης</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="189"/>
         <source>Re&amp;fresh selected database schema</source>
-        <translation type="unfinished">Re&amp;fresh selected database schema</translation>
+        <translation>Ανανέωση σχήματος επιλεγμένης βάσης &amp;δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
         <location filename="../dbtree/dbtree.cpp" line="1938"/>
         <source>Erase table data</source>
-        <translation type="unfinished">Erase table data</translation>
+        <translation>Διαγραφή δεδομένων πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="192"/>
@@ -2874,188 +2874,188 @@ Browsing other pages will be possible after the row counting is done.</translati
         <location filename="../dbtree/dbtree.cpp" line="198"/>
         <source>Drag</source>
         <comment>dbtree table action shortcut</comment>
-        <translation type="unfinished">Drag</translation>
+        <translation>Μεταφορά</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="201"/>
         <source>Open file&apos;s directory</source>
-        <translation type="unfinished">Open file&apos;s directory</translation>
+        <translation>Άνοιγμα του καταλόγου του &apos;αρχείου&apos;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="202"/>
         <source>Execute SQL from file</source>
-        <translation type="unfinished">Execute SQL from file</translation>
+        <translation>Εκτέλεση SQL από αρχείο</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="203"/>
         <source>Increase font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Αύξηση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="204"/>
         <source>Decrease font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Μείωση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="417"/>
         <location filename="../dbtree/dbtree.cpp" line="424"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="436"/>
         <source>Grouping</source>
-        <translation type="unfinished">Grouping</translation>
+        <translation>Ομαδοποίηση</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="441"/>
         <source>Generate query for table</source>
-        <translation type="unfinished">Generate query for table</translation>
+        <translation>Δημιουργία ερωτήματος για πίνακα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="447"/>
         <source>Generate query for view</source>
-        <translation type="unfinished">Generate query for view</translation>
+        <translation>Δημιουργία ερωτήματος για προβολή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1326"/>
         <location filename="../dbtree/dbtree.cpp" line="1329"/>
         <source>Create group</source>
-        <translation type="unfinished">Create group</translation>
+        <translation>Δημιουργία ομάδας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1326"/>
         <source>Group name</source>
-        <translation type="unfinished">Group name</translation>
+        <translation>Όνομα ομάδας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1329"/>
         <source>Entry with name %1 already exists in group %2.</source>
-        <translation type="unfinished">Entry with name %1 already exists in group %2.</translation>
+        <translation>Καταχώρηση με όνομα %1 υπάρχει ήδη στην ομάδα %2.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1366"/>
         <source>Delete group</source>
-        <translation type="unfinished">Delete group</translation>
+        <translation>Διαγραφή ομάδας</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1367"/>
         <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
-        <translation type="unfinished">Are you sure you want to delete groups: %1?
-All objects from these groups will be moved to respective parent groups.</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τις ομάδες: %1;
+Όλα τα αντικείμενα από αυτές τις ομάδες θα μετακινηθούν στις αντίστοιχες γονικές ομάδες.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1499"/>
         <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
-        <translation type="unfinished">Are you sure you want to remove database &apos;%1&apos; from the list?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να αφαιρέσετε τη βάση δεδομένων &apos;%1&apos; από τη λίστα;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1507"/>
         <source>Are you sure you want to remove following databases from the list:
 %1</source>
-        <translation type="unfinished">Are you sure you want to remove following databases from the list:
+        <translation>Είστε βέβαιοι ότι θέλετε να αφαιρέσετε τις ακόλουθες βάσεις δεδομένων από τη λίστα:
 %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1509"/>
         <source>Remove database</source>
-        <translation type="unfinished">Remove database</translation>
+        <translation>Αφαίρεση βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1564"/>
         <location filename="../dbtree/dbtree.cpp" line="1769"/>
         <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εισαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εισαγωγής.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1584"/>
         <location filename="../dbtree/dbtree.cpp" line="1744"/>
         <location filename="../dbtree/dbtree.cpp" line="1813"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εξαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εξαγωγής.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1859"/>
         <source>Vacuum (%1)</source>
-        <translation type="unfinished">Vacuum (%1)</translation>
+        <translation>Εκκαθάριση (%1)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1873"/>
         <source>Integrity check (%1)</source>
-        <translation type="unfinished">Integrity check (%1)</translation>
+        <translation>Έλεγχος ακεραιότητας (%1)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1909"/>
         <source>Reset autoincrement</source>
-        <translation type="unfinished">Reset autoincrement</translation>
+        <translation>Επαναφορά autoincrement</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1909"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-        <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να επαναφέρετε την τιμή autoincrement για τον πίνακα &apos;%1&apos;;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1916"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την προσπάθεια επαναφοράς της τιμής autoincrement για τον πίνακα &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-        <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+        <translation>Η τιμή autoincrement για τον πίνακα &apos;%1&apos; επαναφέρθηκε με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1938"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
-        <translation type="unfinished">Are you sure you want to delete all data from table(s): %1?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε όλα τα δεδομένα από τον/τους πίνακα(ες): %1;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1950"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to delete data from table &apos;%1&apos;: %2</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την προσπάθεια διαγραφής δεδομένων από τον πίνακα &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1954"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
-        <translation type="unfinished">All data has been deleted for table &apos;%1&apos;.</translation>
+        <translation>Όλα τα δεδομένα διαγράφηκαν για τον πίνακα &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2093"/>
         <source>Following objects will be deleted: %1.</source>
-        <translation type="unfinished">Following objects will be deleted: %1.</translation>
+        <translation>Τα ακόλουθα αντικείμενα θα διαγραφούν: %1.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2096"/>
         <source>Following databases will be removed from list: %1.</source>
-        <translation type="unfinished">Following databases will be removed from list: %1.</translation>
+        <translation>Οι ακόλουθες βάσεις δεδομένων θα αφαιρεθούν από τη λίστα: %1.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2099"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
-        <translation type="unfinished">Remainig objects from deleted group will be moved in place where the group used to be.</translation>
+        <translation>Τα υπόλοιπα αντικείμενα από τη διαγραμμένη ομάδα θα μετακινηθούν στη θέση όπου βρισκόταν η ομάδα.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2101"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
-        <translation type="unfinished">%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</translation>
+        <translation>%1&lt;br&gt;&lt;br&gt;Είστε βέβαιοι ότι θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2103"/>
         <source>Delete objects</source>
-        <translation type="unfinished">Delete objects</translation>
+        <translation>Διαγραφή αντικειμένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2582"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Συνδεδεμένο.&lt;/p&gt;&lt;p&gt;Κάντε κλικ εδώ για αποσύνδεση ή μεσαίο κλικ στη βάση δεδομένων.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2590"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Αποσυνδεδεμένο.&lt;/p&gt;&lt;p&gt;Κάντε κλικ εδώ για σύνδεση ή διπλό κλικ στη βάση δεδομένων.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -3064,25 +3064,25 @@ All objects from these groups will be moved to respective parent groups.</transl
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
         <source>error</source>
         <comment>dbtree labels</comment>
-        <translation type="unfinished">error</translation>
+        <translation>σφάλμα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
         <source>(system table)</source>
         <comment>database tree label</comment>
-        <translation type="unfinished">(system table)</translation>
+        <translation>(πίνακας συστήματος)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
         <source>(virtual)</source>
         <comment>virtual table label</comment>
-        <translation type="unfinished">(virtual)</translation>
+        <translation>(εικονικό)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
         <source>(system index)</source>
         <comment>database tree label</comment>
-        <translation type="unfinished">(system index)</translation>
+        <translation>(ευρετήριο συστήματος)</translation>
     </message>
 </context>
 <context>
@@ -3091,147 +3091,147 @@ All objects from these groups will be moved to respective parent groups.</transl
         <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
         <source>Database: %1</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Database: %1</translation>
+        <translation>Βάση δεδομένων: %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
         <source>URI:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">URI:</translation>
+        <translation>URI (αναγνωριστικό πόρου):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
         <source>Format:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Format:</translation>
+        <translation>Μορφή:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
         <source>File size:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">File size:</translation>
+        <translation>Μέγεθος αρχείου:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
         <source>Encoding:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Encoding:</translation>
+        <translation>Κωδικοποίηση:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
         <source>Error:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Error:</translation>
+        <translation>Σφάλμα:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
         <source>Double-click to edit this database</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Double-click to edit this database</translation>
+        <translation>Κάντε διπλό κλικ για επεξεργασία αυτής της βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
         <source>Double-click to connect to this database</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Double-click to connect to this database</translation>
+        <translation>Κάντε διπλό κλικ για σύνδεση σε αυτήν τη βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
         <source>Table : %1</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Table : %1</translation>
+        <translation>Πίνακας : %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
         <source>Columns (%1):</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Columns (%1):</translation>
+        <translation>Στήλες (%1):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
         <source>Indexes (%1):</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Indexes (%1):</translation>
+        <translation>Ευρετήρια (%1):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
         <source>Triggers (%1):</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Triggers (%1):</translation>
+        <translation>Ενεργοποιητές (%1):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
         <source>Move</source>
-        <translation type="unfinished">Move</translation>
+        <translation>Μετακίνηση</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
         <source>Include data</source>
-        <translation type="unfinished">Include data</translation>
+        <translation>Συμπερίληψη δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
         <source>Include indexes</source>
-        <translation type="unfinished">Include indexes</translation>
+        <translation>Συμπερίληψη ευρετηρίων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
         <source>Include triggers</source>
-        <translation type="unfinished">Include triggers</translation>
+        <translation>Συμπερίληψη ενεργοποιητών</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
         <source>Abort</source>
-        <translation type="unfinished">Abort</translation>
+        <translation>Ματαίωση</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
         <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
-        <translation type="unfinished">Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</translation>
+        <translation>Δεν ήταν δυνατή η αυτόματη προσθήκη του αρχείου βάσης δεδομένων &apos;%1&apos; που απορρίφθηκε. Απαιτείται χειροκίνητη ρύθμιση.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
         <source>Referenced tables</source>
-        <translation type="unfinished">Referenced tables</translation>
+        <translation>Αναφερόμενοι πίνακες</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
         <source>Do you want to include following referenced tables as well:
 %1</source>
-        <translation type="unfinished">Do you want to include following referenced tables as well:
+        <translation>Θέλετε να συμπεριλάβετε και τους ακόλουθους αναφερόμενους πίνακες:
 %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
         <source>Name conflict</source>
-        <translation type="unfinished">Name conflict</translation>
+        <translation>Σύγκρουση ονόματος</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
         <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
-        <translation type="unfinished">Following object already exists in the target database.
-Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</translation>
+        <translation>Το ακόλουθο αντικείμενο υπάρχει ήδη στη βάση δεδομένων προορισμού.
+Εισαγάγετε νέο, μοναδικό όνομα ή πατήστε &apos;%1&apos; για να ματαιώσετε τη λειτουργία:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
         <source>SQL statements conversion</source>
-        <translation type="unfinished">SQL statements conversion</translation>
+        <translation>Μετατροπή δηλώσεων SQL</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
         <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
-        <translation type="unfinished">Following error occurred while converting SQL statements to the target SQLite version:</translation>
+        <translation>Παρουσιάστηκε το ακόλουθο σφάλμα κατά τη μετατροπή δηλώσεων SQL στην έκδοση SQLite προορισμού:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
         <source>Would you like to ignore those errors and proceed?</source>
-        <translation type="unfinished">Would you like to ignore those errors and proceed?</translation>
+        <translation>Θέλετε να αγνοήσετε αυτά τα σφάλματα και να συνεχίσετε;</translation>
     </message>
 </context>
 <context>
@@ -3239,36 +3239,36 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/ddlhistorywindow.ui" line="35"/>
         <source>Filter by database:</source>
-        <translation type="unfinished">Filter by database:</translation>
+        <translation>Φιλτράρισμα κατά βάση δεδομένων:</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.ui" line="55"/>
         <source>Clear entire history</source>
-        <translation type="unfinished">Clear entire history</translation>
+        <translation>Εκκαθάριση ολόκληρου του ιστορικού</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
         <source>-- Queries executed on database %1 (%2)
 -- Date and time of execution: %3
 %4</source>
-        <translation type="unfinished">-- Queries executed on database %1 (%2)
--- Date and time of execution: %3
+        <translation>-- Ερωτήματα που εκτελέστηκαν στη βάση δεδομένων %1 (%2)
+-- Ημερομηνία και ώρα εκτέλεσης: %3
 %4</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
         <source>Clear history</source>
-        <translation type="unfinished">Clear history</translation>
+        <translation>Εκκαθάριση ιστορικού</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
         <source>Are you sure you want to erase entire DDL history?</source>
-        <translation type="unfinished">Are you sure you want to erase entire DDL history?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε ολόκληρο το ιστορικό DDL;</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
         <source>DDL history</source>
-        <translation type="unfinished">DDL history</translation>
+        <translation>Ιστορικό DDL</translation>
     </message>
 </context>
 <context>
@@ -3276,22 +3276,22 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
         <source>Queries to be executed</source>
-        <translation type="unfinished">Queries to be executed</translation>
+        <translation>Ερωτήματα προς εκτέλεση</translation>
     </message>
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
         <source>Don&apos;t show again</source>
-        <translation type="unfinished">Don&apos;t show again</translation>
+        <translation>Μην τ&apos; εμφανίσετε ξανά</translation>
     </message>
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
         <source>Opens the DDL in the SQL Editor without executing it.</source>
-        <translation type="unfinished">Opens the DDL in the SQL Editor without executing it.</translation>
+        <translation>Ανοίγει το DDL στον επεξεργαστή SQL χωρίς να το εκτελέσει.</translation>
     </message>
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
         <source>Open in editor</source>
-        <translation type="unfinished">Open in editor</translation>
+        <translation>Άνοιγμα στον επεξεργαστή</translation>
     </message>
 </context>
 <context>
@@ -3299,7 +3299,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../debugconsole.ui" line="14"/>
         <source>Letos Debug Console</source>
-        <translation type="unfinished">Letos Debug Console</translation>
+        <translation>Κονσόλα αποσφαλμάτωσης Letos</translation>
     </message>
 </context>
 <context>
@@ -3307,285 +3307,285 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.ui" line="14"/>
         <source>SQL editor</source>
-        <translation type="unfinished">SQL editor</translation>
+        <translation>Επεξεργαστής SQL</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="43"/>
         <source>Query</source>
-        <translation type="unfinished">Query</translation>
+        <translation>Ερώτημα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="134"/>
         <source>History</source>
-        <translation type="unfinished">History</translation>
+        <translation>Ιστορικό</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="200"/>
         <location filename="../windows/editorwindow.cpp" line="202"/>
         <source>SQL editor %1</source>
-        <translation type="unfinished">SQL editor %1</translation>
+        <translation>Επεξεργαστής SQL %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="99"/>
         <location filename="../windows/editorwindow.cpp" line="417"/>
         <source>Results</source>
-        <translation type="unfinished">Results</translation>
+        <translation>Αποτελέσματα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="468"/>
         <source>Execute query</source>
-        <translation type="unfinished">Execute query</translation>
+        <translation>Εκτέλεση ερωτήματος</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="469"/>
         <source>Explain query</source>
-        <translation type="unfinished">Explain query</translation>
+        <translation>Εξήγηση ερωτήματος</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="490"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Clear execution history</translation>
+        <translation>Εκκαθάριση ιστορικού εκτέλεσης</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="496"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Focus results on the same tab</translation>
+        <translation>Εστίαση των αποτελεσμάτων στην ίδια καρτέλα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Focus SQL editor on the same tab</translation>
+        <translation>Εστίαση του επεξεργαστή SQL στην ίδια καρτέλα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="502"/>
         <source>Export results</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Export results</translation>
+        <translation>Εξαγωγή αποτελεσμάτων</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="484"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Create view from query</translation>
+        <translation>Δημιουργία προβολής από ερώτημα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+        <translation>Επικύρωση</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+        <translation>Επαναφορά</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="486"/>
         <source>Previous database</source>
-        <translation type="unfinished">Previous database</translation>
+        <translation>Προηγούμενη βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="487"/>
         <source>Next database</source>
-        <translation type="unfinished">Next database</translation>
+        <translation>Επόμενη βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="491"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Export execution history</translation>
+        <translation>Εξαγωγή ιστορικού εκτέλεσης</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="494"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Show next tab</translation>
+        <translation>Εμφάνιση επόμενης καρτέλας</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="495"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Show previous tab</translation>
+        <translation>Εμφάνιση προηγούμενης καρτέλας</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Export selected SQL history entries</translation>
+        <translation>Εξαγωγή επιλεγμένων καταχωρήσεων ιστορικού SQL</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="499"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Delete selected SQL history entries</translation>
+        <translation>Διαγραφή επιλεγμένων καταχωρήσεων ιστορικού SQL</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="500"/>
         <source>Execute single query under cursor</source>
-        <translation type="unfinished">Execute single query under cursor</translation>
+        <translation>Εκτέλεση μεμονωμένου ερωτήματος κάτω από τον δρομέα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="501"/>
         <source>Execute all queries in editor</source>
-        <translation type="unfinished">Execute all queries in editor</translation>
+        <translation>Εκτέλεση όλων των ερωτημάτων στον επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="522"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Separate tab</translation>
+        <translation>Διάταξη αποτελεσμάτων: Ξεχωριστή καρτέλα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="523"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Below editor</translation>
+        <translation>Διάταξη αποτελεσμάτων: Κάτω από τον επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="524"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Right of editor</translation>
+        <translation>Διάταξη αποτελεσμάτων: Δεξιά από τον επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="539"/>
         <location filename="../windows/editorwindow.cpp" line="540"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Explain mode: %1</translation>
+        <translation>Λειτουργία εξήγησης: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="560"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Auto-commit queries</translation>
+        <translation>Αυτόματη επικύρωση ερωτημάτων</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="577"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Editor window settings</translation>
+        <translation>Ρυθμίσεις παραθύρου επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="625"/>
         <source>Active database (%1/%2)</source>
-        <translation type="unfinished">Active database (%1/%2)</translation>
+        <translation>Ενεργή βάση δεδομένων (%1/%2)</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="776"/>
         <source>Save to file</source>
-        <translation type="unfinished">Save to file</translation>
+        <translation>Αποθήκευση σε αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="787"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+        <translation>Δεν ήταν δυνατό το άνοιγμα του αρχείου &apos;%1&apos; για εγγραφή: %2</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="807"/>
         <source>Saved SQL contents to file: %1</source>
-        <translation type="unfinished">Saved SQL contents to file: %1</translation>
+        <translation>Αποθηκεύτηκαν τα περιεχόμενα SQL στο αρχείο: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="830"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-        <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
+        <translation>Αποτυχία αλλαγής του journal_mode σε WAL. Η λειτουργία χειροκίνητης επικύρωσης δεν είναι διαθέσιμη. Σφάλμα: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="841"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-        <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
+        <translation>Αποτυχία ανοίγματος νέας σύνδεσης βάσης δεδομένων. Η λειτουργία χειροκίνητης επικύρωσης δεν θα ενεργοποιηθεί. Σφάλμα: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="844"/>
         <source>The joirnal_mode will be switched back to %1.</source>
-        <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
+        <translation>Το joirnal_mode θα επιστραφεί σε %1.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="968"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
-        <translation type="unfinished">Query finished in %1 second(s). Rows affected: %2</translation>
+        <translation>Το ερώτημα ολοκληρώθηκε σε %1 δευτερόλεπτο(α). Γραμμές που επηρεάστηκαν: %2</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="972"/>
         <source>Query finished in %1 second(s).</source>
-        <translation type="unfinished">Query finished in %1 second(s).</translation>
+        <translation>Το ερώτημα ολοκληρώθηκε σε %1 δευτερόλεπτο(α).</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1103"/>
         <source>Clear execution history</source>
-        <translation type="unfinished">Clear execution history</translation>
+        <translation>Εκκαθάριση ιστορικού εκτέλεσης</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1103"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
-        <translation type="unfinished">Are you sure you want to erase the entire SQL execution history? This cannot be undone.</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε ολόκληρο το ιστορικό εκτέλεσης SQL; Αυτό δεν μπορεί να αναιρεθεί.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1141"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εξαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εξαγωγής.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1169"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Query auto-commit is now enabled in: %1</translation>
+        <translation>Η αυτόματη οριστικοποίηση ερωτημάτων είναι τώρα ενεργοποιημένη σε: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1171"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Query auto-commit is now disabled in: %1</translation>
+        <translation>Η αυτόματη οριστικοποίηση ερωτημάτων είναι τώρα απενεργοποιημένη σε: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1229"/>
         <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Apply changes to the transaction</source>
-        <translation type="unfinished">Apply changes to the transaction</translation>
+        <translation>Εφαρμογή αλλαγών στη συναλλαγή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1230"/>
         <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Discard changes in data view</source>
-        <translation type="unfinished">Discard changes in data view</translation>
+        <translation>Απόρριψη αλλαγών στην προβολή δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1231"/>
         <source>Apply selected changes to the transaction</source>
-        <translation type="unfinished">Apply selected changes to the transaction</translation>
+        <translation>Εφαρμογή επιλεγμένων αλλαγών στη συναλλαγή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Discard changes in selected cells</source>
-        <translation type="unfinished">Discard changes in selected cells</translation>
+        <translation>Απόρριψη αλλαγών στα επιλεγμένα κελιά</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1273"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-        <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
+        <translation>Δεν είναι δυνατή η αλλαγή βάσης δεδομένων ενώ υπάρχει εκκρεμής χειροκίνητη συναλλαγή. Παρακαλώ οριστικοποιήστε ή αναιρέστε τη συναλλαγή πριν αλλάξετε τη βάση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1313"/>
         <source>Manual transaction committed successfully.</source>
-        <translation type="unfinished">Manual transaction committed successfully.</translation>
+        <translation>Η χειροκίνητη συναλλαγή οριστικοποιήθηκε με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1342"/>
         <source>Manual transaction rolled back.</source>
-        <translation type="unfinished">Manual transaction rolled back.</translation>
+        <translation>Η χειροκίνητη συναλλαγή αναιρέθηκε.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1385"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
-        <translation type="unfinished">No database selected in the SQL editor. Cannot create a view for unknown database.</translation>
+        <translation>Δεν επιλέχθηκε βάση δεδομένων στον επεξεργαστή SQL. Δεν είναι δυνατή η δημιουργία προβολής για άγνωστη βάση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1435"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">Editor window &quot;%1&quot; has uncommitted data.</translation>
+        <translation>Το παράθυρο επεξεργαστή &quot;%1&quot; έχει μη επικυρωμένα δεδομένα.</translation>
     </message>
 </context>
 <context>
@@ -3593,17 +3593,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
         <source>Errors</source>
-        <translation type="unfinished">Errors</translation>
+        <translation>Σφάλματα</translation>
     </message>
     <message>
         <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
         <source>Following errors occurred:</source>
-        <translation type="unfinished">Following errors occurred:</translation>
+        <translation>Παρουσιάστηκαν τα ακόλουθα σφάλματα:</translation>
     </message>
     <message>
         <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished">Would you like to proceed?</translation>
+        <translation>Θέλετε να συνεχίσετε;</translation>
     </message>
 </context>
 <context>
@@ -3611,102 +3611,102 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
         <source>Execute SQL from file</source>
-        <translation type="unfinished">Execute SQL from file</translation>
+        <translation>Εκτέλεση SQL από αρχείο</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
         <source>Input file</source>
-        <translation type="unfinished">Input file</translation>
+        <translation>Αρχείο εισόδου</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
         <source>Path to file</source>
-        <translation type="unfinished">Path to file</translation>
+        <translation>Διαδρομή προς αρχείο</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
         <source>Browse for file</source>
-        <translation type="unfinished">Browse for file</translation>
+        <translation>Περιήγηση για αρχείο</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Επιλογές</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
         <source>File encoding</source>
-        <translation type="unfinished">File encoding</translation>
+        <translation>Κωδικοποίηση αρχείου</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
         <source>Skip failing SQL statements</source>
-        <translation type="unfinished">Skip failing SQL statements</translation>
+        <translation>Παράλειψη αποτυχημένων δηλώσεων SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Οποιοδήποτε περιεχόμενο δεν είναι έγκυρο SQL θα προκαλέσει αποτυχία μιας δήλωσης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Επιτρέπει εντολές με τελεία (που χρησιμοποιούνται από την επίσημη εφαρμογή SQLite CLI) στο αρχείο.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Επιτρέπει εντολές με τελεία (που χρησιμοποιούνται από την επίσημη εφαρμογή SQLite CLI) στο αρχείο και εκτελεί ακόμη και ορισμένες από αυτές (δηλ. .print και .read). Όλες οι άλλες εντολές με τελεία αγνοούνται.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
         <source>Strict (only SQL content allowed)</source>
-        <translation type="unfinished">Strict (only SQL content allowed)</translation>
+        <translation>Αυστηρό (επιτρέπεται μόνο περιεχόμενο SQL)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
         <source>Execution mode</source>
-        <translation type="unfinished">Execution mode</translation>
+        <translation>Λειτουργία εκτέλεσης</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
         <source>Permissive (dot commands ignored)</source>
-        <translation type="unfinished">Permissive (dot commands ignored)</translation>
+        <translation>Επιτρεπτικό (οι εντολές με τελεία αγνοούνται)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
         <source>Extended (dot commands executed)</source>
-        <translation type="unfinished">Extended (dot commands executed)</translation>
+        <translation>Εκτεταμένο (οι εντολές με τελεία εκτελούνται)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
-        <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+        <translation>Σενάρια SQL (*.sql);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
         <source>Execute SQL file</source>
-        <translation type="unfinished">Execute SQL file</translation>
+        <translation>Εκτέλεση αρχείου SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
         <source>Please provide file to be executed.</source>
-        <translation type="unfinished">Please provide file to be executed.</translation>
+        <translation>Παρακαλώ δώστε αρχείο προς εκτέλεση.</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
         <source>Provided file does not exist or cannot be read.</source>
-        <translation type="unfinished">Provided file does not exist or cannot be read.</translation>
+        <translation>Το παρεχόμενο αρχείο δεν υπάρχει ή δεν μπορεί να διαβαστεί.</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
         <source>Select a database to execute the SQL file on.</source>
-        <translation type="unfinished">Select a database to execute the SQL file on.</translation>
+        <translation>Επιλέξτε βάση δεδομένων στην οποία θα εκτελεστεί το αρχείο SQL.</translation>
     </message>
 </context>
 <context>
@@ -3714,201 +3714,201 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/exportdialog.ui" line="14"/>
         <source>Export</source>
-        <translation type="unfinished">Export</translation>
+        <translation>Εξαγωγή</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="24"/>
         <source>What do you want to export?</source>
-        <translation type="unfinished">What do you want to export?</translation>
+        <translation>Τι θέλετε να εξαγάγετε;</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="39"/>
         <source>A database</source>
-        <translation type="unfinished">A database</translation>
+        <translation>Μια βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="49"/>
         <source>A single table</source>
-        <translation type="unfinished">A single table</translation>
+        <translation>Έναν μόνο πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="56"/>
         <source>A single view</source>
-        <translation type="unfinished">A single view</translation>
+        <translation>Μία μόνο προβολή</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="63"/>
         <source>Query results</source>
-        <translation type="unfinished">Query results</translation>
+        <translation>Αποτελέσματα ερωτήματος</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="75"/>
         <source>Table to export</source>
-        <translation type="unfinished">Table to export</translation>
+        <translation>Πίνακας προς εξαγωγή</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="110"/>
         <location filename="../dialogs/exportdialog.ui" line="234"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="117"/>
         <source>Table</source>
-        <translation type="unfinished">Table</translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="134"/>
         <location filename="../dialogs/exportdialog.ui" line="258"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Επιλογές</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="140"/>
         <location filename="../dialogs/exportdialog.ui" line="264"/>
         <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
-        <translation type="unfinished">When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</translation>
+        <translation>Όταν αυτή η επιλογή δεν είναι επιλεγμένη, εξάγεται μόνο το DDL του πίνακα (δήλωση CREATE TABLE).</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="143"/>
         <source>Export table data</source>
-        <translation type="unfinished">Export table data</translation>
+        <translation>Εξαγωγή δεδομένων πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="153"/>
         <source>Export table indexes</source>
-        <translation type="unfinished">Export table indexes</translation>
+        <translation>Εξαγωγή ευρετηρίων πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="163"/>
         <source>Export table triggers</source>
-        <translation type="unfinished">Export table triggers</translation>
+        <translation>Εξαγωγή ενεργοποιητών πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="185"/>
         <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
-        <translation type="unfinished">Note, that exporting table indexes and triggers may be unsupported by some output formats.</translation>
+        <translation>Σημειώστε ότι η εξαγωγή ευρετηρίων και ενεργοποιητών πίνακα μπορεί να μην υποστηρίζεται από ορισμένες μορφές εξόδου.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="199"/>
         <source>View to export</source>
-        <translation type="unfinished">View to export</translation>
+        <translation>Προβολή προς εξαγωγή</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="241"/>
         <source>View</source>
-        <translation type="unfinished">View</translation>
+        <translation>Προβολή</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="267"/>
         <source>Export view data</source>
-        <translation type="unfinished">Export view data</translation>
+        <translation>Εξαγωγή δεδομένων προβολής</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="277"/>
         <source>Export view triggers</source>
-        <translation type="unfinished">Export view triggers</translation>
+        <translation>Εξαγωγή ενεργοποιητών προβολής</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="299"/>
         <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
-        <translation type="unfinished">Note, that exporting view triggers may be unsupported by some output formats.</translation>
+        <translation>Σημειώστε ότι η εξαγωγή ενεργοποιητών προβολής μπορεί να μην υποστηρίζεται από ορισμένες μορφές εξόδου.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="313"/>
         <source>Select database objects to export</source>
-        <translation type="unfinished">Select database objects to export</translation>
+        <translation>Επιλέξτε αντικείμενα βάσης δεδομένων προς εξαγωγή</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="319"/>
         <source>Export indexes (tables only)</source>
-        <translation type="unfinished">Export indexes (tables only)</translation>
+        <translation>Εξαγωγή ευρετηρίων (μόνο πίνακες)</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="333"/>
         <source>Export data from tables</source>
-        <translation type="unfinished">Export data from tables</translation>
+        <translation>Εξαγωγή δεδομένων από πίνακες</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="343"/>
         <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="374"/>
         <source>Export data from views</source>
-        <translation type="unfinished">Export data from views</translation>
+        <translation>Εξαγωγή δεδομένων από προβολές</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="326"/>
         <source>Deselect all</source>
-        <translation type="unfinished">Deselect all</translation>
+        <translation>Αποεπιλογή όλων</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="350"/>
         <source>Export triggers (tables and views)</source>
-        <translation type="unfinished">Export triggers (tables and views)</translation>
+        <translation>Εξαγωγή ενεργοποιητών (πίνακες και προβολές)</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="360"/>
         <location filename="../dialogs/exportdialog.ui" line="394"/>
         <source>Database:</source>
-        <translation type="unfinished">Database:</translation>
+        <translation>Βάση δεδομένων:</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="382"/>
         <source>Query to export results for</source>
-        <translation type="unfinished">Query to export results for</translation>
+        <translation>Ερώτημα για εξαγωγή αποτελεσμάτων</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="401"/>
         <source>Query to be executed for results:</source>
-        <translation type="unfinished">Query to be executed for results:</translation>
+        <translation>Ερώτημα προς εκτέλεση για αποτελέσματα:</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="409"/>
         <source>Export format and options</source>
-        <translation type="unfinished">Export format and options</translation>
+        <translation>Μορφή εξαγωγής και επιλογές</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="463"/>
         <source>Export format</source>
-        <translation type="unfinished">Export format</translation>
+        <translation>Μορφή εξαγωγής</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="475"/>
         <source>Output</source>
-        <translation type="unfinished">Output</translation>
+        <translation>Έξοδος</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="481"/>
         <source>Exported file path</source>
-        <translation type="unfinished">Exported file path</translation>
+        <translation>Διαδρομή εξαγόμενου αρχείου</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="488"/>
         <source>Clipboard</source>
-        <translation type="unfinished">Clipboard</translation>
+        <translation>Πρόχειρο</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="502"/>
         <source>File</source>
-        <translation type="unfinished">File</translation>
+        <translation>Αρχείο</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="527"/>
         <source>Exported text encoding:</source>
-        <translation type="unfinished">Exported text encoding:</translation>
+        <translation>Κωδικοποίηση εξαγόμενου κειμένου:</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="543"/>
         <source>Export format options</source>
-        <translation type="unfinished">Export format options</translation>
+        <translation>Επιλογές μορφής εξαγωγής</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="69"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="197"/>
@@ -3916,62 +3916,62 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../dialogs/exportdialog.cpp" line="246"/>
         <location filename="../dialogs/exportdialog.cpp" line="271"/>
         <source>Select database to export.</source>
-        <translation type="unfinished">Select database to export.</translation>
+        <translation>Επιλέξτε βάση δεδομένων προς εξαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="198"/>
         <source>Select table to export.</source>
-        <translation type="unfinished">Select table to export.</translation>
+        <translation>Επιλέξτε πίνακα προς εξαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="222"/>
         <source>Select view to export.</source>
-        <translation type="unfinished">Select view to export.</translation>
+        <translation>Επιλέξτε προβολή προς εξαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="247"/>
         <source>Enter valid query to export.</source>
-        <translation type="unfinished">Enter valid query to export.</translation>
+        <translation>Εισαγάγετε έγκυρο ερώτημα προς εξαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="272"/>
         <source>Select at least one object to export.</source>
-        <translation type="unfinished">Select at least one object to export.</translation>
+        <translation>Επιλέξτε τουλάχιστον ένα αντικείμενο προς εξαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="295"/>
         <source>You must provide a file name to export to.</source>
-        <translation type="unfinished">You must provide a file name to export to.</translation>
+        <translation>Πρέπει να δώσετε όνομα αρχείου για εξαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="302"/>
         <source>Path you provided is an existing directory. You cannot overwrite it.</source>
-        <translation type="unfinished">Path you provided is an existing directory. You cannot overwrite it.</translation>
+        <translation>Η διαδρομή που δώσατε είναι υπάρχων κατάλογος. Δεν μπορείτε να τον αντικαταστήσετε.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="308"/>
         <source>The directory &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">The directory &apos;%1&apos; does not exist.</translation>
+        <translation>Ο κατάλογος &apos;%1&apos; δεν υπάρχει.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="314"/>
         <source>The file &apos;%1&apos; exists and will be overwritten.</source>
-        <translation type="unfinished">The file &apos;%1&apos; exists and will be overwritten.</translation>
+        <translation>Το αρχείο &apos;%1&apos; υπάρχει και θα αντικατασταθεί.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="555"/>
         <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+        <translation>Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="558"/>
         <source>Pick file to export to</source>
-        <translation type="unfinished">Pick file to export to</translation>
+        <translation>Επιλέξτε αρχείο για εξαγωγή σε αυτό</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="985"/>
         <source>Internal error during export. This is a bug. Please report it.</source>
-        <translation type="unfinished">Internal error during export. This is a bug. Please report it.</translation>
+        <translation>Εσωτερικό σφάλμα κατά την εξαγωγή. Αυτό είναι σφάλμα προγράμματος. Παρακαλώ αναφέρετέ το.</translation>
     </message>
 </context>
 <context>
@@ -3979,32 +3979,32 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
         <source>Execution errors</source>
-        <translation type="unfinished">Execution errors</translation>
+        <translation>Σφάλματα εκτέλεσης</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
         <source>Following errors were encountered during execution of SQL statements from the file:</source>
-        <translation type="unfinished">Following errors were encountered during execution of SQL statements from the file:</translation>
+        <translation>Παρουσιάστηκαν τα ακόλουθα σφάλματα κατά την εκτέλεση δηλώσεων SQL από το αρχείο:</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
         <source>SQL</source>
-        <translation type="unfinished">SQL</translation>
+        <translation>Κώδικας SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
         <source>Error</source>
-        <translation type="unfinished">Error</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
         <source>Statements that were executed successfully were commited.</source>
-        <translation type="unfinished">Statements that were executed successfully were commited.</translation>
+        <translation>Οι δηλώσεις που εκτελέστηκαν με επιτυχία επικυρώθηκαν.</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
         <source>Statements that were executed successfully were rolled back.</source>
-        <translation type="unfinished">Statements that were executed successfully were rolled back.</translation>
+        <translation>Οι δηλώσεις που εκτελέστηκαν με επιτυχία αναιρέθηκαν.</translation>
     </message>
 </context>
 <context>
@@ -4012,7 +4012,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../datagrid/fkcombobox.cpp" line="375"/>
         <source>Cannot edit this cell. Details: %1</source>
-        <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία αυτού του κελιού. Λεπτομέρειες: %1</translation>
     </message>
 </context>
 <context>
@@ -4021,7 +4021,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../common/fontedit.cpp" line="61"/>
         <source>Choose font</source>
         <comment>font configuration</comment>
-        <translation type="unfinished">Choose font</translation>
+        <translation>Επιλογή γραμματοσειράς</translation>
     </message>
 </context>
 <context>
@@ -4029,7 +4029,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../forms/sqlformatterplugin.ui" line="20"/>
         <source>Active SQL formatter plugin</source>
-        <translation type="unfinished">Active SQL formatter plugin</translation>
+        <translation>Ενεργό πρόσθετο μορφοποίησης SQL</translation>
     </message>
 </context>
 <context>
@@ -4038,49 +4038,49 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../formview.cpp" line="287"/>
         <source>Commit row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Commit row</translation>
+        <translation>Επικύρωση γραμμής</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="288"/>
         <source>Rollback row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Rollback row</translation>
+        <translation>Αναίρεση γραμμής</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="289"/>
         <source>First row</source>
         <comment>form view</comment>
-        <translation type="unfinished">First row</translation>
+        <translation>Πρώτη γραμμή</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="290"/>
         <source>Previous row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Previous row</translation>
+        <translation>Προηγούμενη γραμμή</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="291"/>
         <source>Next row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Next row</translation>
+        <translation>Επόμενη γραμμή</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="292"/>
         <source>Last row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Last row</translation>
+        <translation>Τελευταία γραμμή</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="293"/>
         <source>Insert new row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Insert new row</translation>
+        <translation>Εισαγωγή νέας γραμμής</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="294"/>
         <source>Delete current row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Delete current row</translation>
+        <translation>Διαγραφή τρέχουσας γραμμής</translation>
     </message>
 </context>
 <context>
@@ -4088,225 +4088,225 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/functionseditor.ui" line="84"/>
         <source>Filter functions</source>
-        <translation type="unfinished">Filter functions</translation>
+        <translation>Φιλτράρισμα συναρτήσεων</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="172"/>
         <source>Input arguments</source>
-        <translation type="unfinished">Input arguments</translation>
+        <translation>Ορίσματα εισόδου</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="178"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Μπορείτε να ορίσετε εδώ τις παραμέτρους της συνάρτησης. Τα καθορισμένα ονόματα είναι διαθέσιμα ως μεταβλητές στον κώδικα υλοποίησης και περιέχουν τις τιμές που μεταβιβάζονται στη συνάρτηση. Τα ορίσματα είναι επίσης προσβάσιμα μέσω του τυπικού περιέκτη ορισμάτων της γλώσσας (π.χ. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; στο Tcl ή &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; στο JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="207"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Υποδεικνύει ότι η συνάρτηση δέχεται μεταβλητό αριθμό ορισμάτων. Σε αυτήν τη λειτουργία τα ορίσματα είναι διαθέσιμα μόνο μέσω του μηχανισμού της συγκεκριμένης γλώσσας (π.χ. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; στο Tcl ή &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; στο JavaScript).&lt;br/&gt;Αν απενεργοποιηθεί, τα ορίσματα ορίζονται παρακάτω και τα ονόματά τους είναι επίσης διαθέσιμα ως μεταβλητές στον κώδικα υλοποίησης, ενώ παραμένουν προσβάσιμα μέσω του τυπικού περιέκτη ορισμάτων της γλώσσας.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="210"/>
         <source>Undefined</source>
-        <translation type="unfinished">Undefined</translation>
+        <translation>Απροσδιόριστο</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="226"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="232"/>
         <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+        <translation>Καταχώριση σε όλες τις βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="239"/>
         <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+        <translation>Καταχώριση στις ακόλουθες βάσεις δεδομένων:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="274"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Τύπος:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="281"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Επιλέγει τη γλώσσα που χρησιμοποιείται για την υλοποίηση της συνάρτησης. Η επιλεγμένη γλώσσα καθορίζει πώς ερμηνεύεται ο κώδικας της συνάρτησης και ποια σύνταξη, μεταβλητές και περιβάλλον εκτέλεσης είναι διαθέσιμα στα μπλοκ υλοποίησης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="288"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Επιλέγει τον τύπο της συνάρτησης που υλοποιείται. Ο επιλεγμένος τύπος καθορίζει τον τρόπο με τον οποίο το SQLite καλεί τη συνάρτηση και ποια μπλοκ υλοποίησης πρέπει να παρέχονται: ένα μεμονωμένο μπλοκ κώδικα για βαθμωτές συναρτήσεις, επεξεργασία βάσει βημάτων για συναρτήσεις συγκεντρωτικών αποτελεσμάτων ή πρόσθετος χειρισμός πλαισίου παραθύρου (συμπεριλαμβανομένου του αντίστροφου βήματος) για συγκεντρωτικές συναρτήσεις παραθύρου.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="295"/>
         <source>Function name:</source>
-        <translation type="unfinished">Function name:</translation>
+        <translation>Όνομα συνάρτησης:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="305"/>
         <source>Implementation language:</source>
-        <translation type="unfinished">Implementation language:</translation>
+        <translation>Γλώσσα υλοποίησης:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="312"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Υποδεικνύει ότι η συνάρτηση επιστρέφει πάντα το ίδιο αποτέλεσμα για τα ίδια ορίσματα εισόδου. Απαιτείται για χρήση σε ορισμένες εκφράσεις σχήματος (π.χ. περιορισμοί CHECK, μερικά ευρετήρια, ευρετήρια εκφράσεων, παραγόμενες στήλες) και μπορεί να επιτρέψει στο SQLite να εφαρμόσει πρόσθετες βελτιστοποιήσεις.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="315"/>
         <source>Deterministic</source>
-        <translation type="unfinished">Deterministic</translation>
+        <translation>Ντετερμινιστική</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="336"/>
         <source>Function code</source>
-        <translation type="unfinished">Function code</translation>
+        <translation>Κώδικας συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="342"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κώδικας που εκτελείται όταν καλείται η συνάρτηση. Λαμβάνει τα ορίσματα της συνάρτησης και πρέπει να υπολογίζει και να επιστρέφει το αποτέλεσμα. Οι τιμές παραμέτρων είναι διαθέσιμες ως μεταβλητές με το ίδιο όνομα με τις δηλωμένες παραμέτρους της συνάρτησης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="353"/>
         <source>Initialization</source>
-        <translation type="unfinished">Initialization</translation>
+        <translation>Αρχικοποίηση</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="359"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κώδικας που εκτελείται μία φορά πριν από το πρώτο βήμα συγκέντρωσης. Χρησιμοποιήστε τον για να αρχικοποιήσετε μεταβλητές που αποθηκεύουν την κατάσταση συγκέντρωσης. Οι τιμές παραμέτρων είναι διαθέσιμες ως μεταβλητές με το ίδιο όνομα με τις δηλωμένες παραμέτρους της συνάρτησης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="370"/>
         <source>Step</source>
-        <translation type="unfinished">Step</translation>
+        <translation>Βήμα</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="376"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κώδικας που εκτελείται για κάθε γραμμή εισόδου. Θα πρέπει να ενημερώνει την κατάσταση συγκέντρωσης χρησιμοποιώντας τα τρέχοντα ορίσματα. Οι τιμές παραμέτρων είναι διαθέσιμες ως μεταβλητές με το ίδιο όνομα με τις δηλωμένες παραμέτρους της συνάρτησης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="387"/>
         <source>Inverse</source>
-        <translation type="unfinished">Inverse</translation>
+        <translation>Αντίστροφο</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="393"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κώδικας που εκτελείται όταν μια γραμμή εξέρχεται από το πλαίσιο παραθύρου. Οι τιμές παραμέτρων αντιστοιχούν στη γραμμή που αφαιρείται από το παράθυρο και θα πρέπει να χρησιμοποιηθούν για να αφαιρεθεί η συμβολή της από την κατάσταση συγκέντρωσης. Οι τιμές παραμέτρων είναι διαθέσιμες ως μεταβλητές με το ίδιο όνομα με τις δηλωμένες παραμέτρους της συνάρτησης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="404"/>
         <source>Aggregated value</source>
-        <translation type="unfinished">Aggregated value</translation>
+        <translation>Συγκεντρωτική τιμή</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="410"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Κώδικας που υπολογίζει και επιστρέφει το συγκεντρωτικό αποτέλεσμα βάσει της τρέχουσας κατάστασης συγκέντρωσης. Στις συναρτήσεις παραθύρου μπορεί να εκτελεστεί πολλές φορές για να επιστρέψει την τρέχουσα τιμή παραθύρου. Στις κανονικές συναρτήσεις συγκεντρωτικών αποτελεσμάτων καλείται μία φορά ως τελική συνάρτηση. Οι τιμές παραμέτρων είναι διαθέσιμες ως μεταβλητές με το ίδιο όνομα με τις δηλωμένες παραμέτρους της συνάρτησης.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="62"/>
         <source>SQL functions editor</source>
-        <translation type="unfinished">SQL functions editor</translation>
+        <translation>Επεξεργαστής συναρτήσεων SQL</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="67"/>
         <source>Commit all function changes</source>
-        <translation type="unfinished">Commit all function changes</translation>
+        <translation>Οριστικοποίηση όλων των αλλαγών συναρτήσεων</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="68"/>
         <source>Rollback all function changes</source>
-        <translation type="unfinished">Rollback all function changes</translation>
+        <translation>Αναίρεση όλων των αλλαγών συναρτήσεων</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="70"/>
         <source>Create new function</source>
-        <translation type="unfinished">Create new function</translation>
+        <translation>Δημιουργία νέας συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="71"/>
         <source>Delete selected function</source>
-        <translation type="unfinished">Delete selected function</translation>
+        <translation>Διαγραφή επιλεγμένης συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="73"/>
         <source>Import functions from file</source>
-        <translation type="unfinished">Import functions from file</translation>
+        <translation>Εισαγωγή συναρτήσεων από αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="74"/>
         <source>Export functions to file</source>
-        <translation type="unfinished">Export functions to file</translation>
+        <translation>Εξαγωγή συναρτήσεων σε αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="75"/>
         <source>Custom SQL functions manual</source>
-        <translation type="unfinished">Custom SQL functions manual</translation>
+        <translation>Εγχειρίδιο προσαρμοσμένων συναρτήσεων SQL</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="78"/>
         <source>Add function argument</source>
-        <translation type="unfinished">Add function argument</translation>
+        <translation>Προσθήκη ορίσματος συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="79"/>
         <source>Rename function argument</source>
-        <translation type="unfinished">Rename function argument</translation>
+        <translation>Μετονομασία ορίσματος συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="80"/>
         <source>Delete function argument</source>
-        <translation type="unfinished">Delete function argument</translation>
+        <translation>Διαγραφή ορίσματος συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="82"/>
         <source>Move function argument up</source>
-        <translation type="unfinished">Move function argument up</translation>
+        <translation>Μετακίνηση ορίσματος συνάρτησης προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="83"/>
         <source>Move function argument down</source>
-        <translation type="unfinished">Move function argument down</translation>
+        <translation>Μετακίνηση ορίσματος συνάρτησης προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="540"/>
         <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
-        <translation type="unfinished">Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</translation>
+        <translation>Εισαγάγετε ένα μοναδικό, μη κενό όνομα συνάρτησης. Επιτρέπονται διπλότυπα ονόματα εάν ο αριθμός των παραμέτρων εισόδου διαφέρει.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="551"/>
         <source>Pick the implementation language.</source>
-        <translation type="unfinished">Pick the implementation language.</translation>
+        <translation>Επιλέξτε τη γλώσσα υλοποίησης.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="569"/>
         <location filename="../windows/functionseditor.cpp" line="579"/>
         <location filename="../windows/functionseditor.cpp" line="580"/>
         <source>Enter a non-empty implementation code.</source>
-        <translation type="unfinished">Enter a non-empty implementation code.</translation>
+        <translation>Εισαγάγετε μη κενό κώδικα υλοποίησης.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="629"/>
         <source>argument</source>
         <comment>new function argument name in function editor window</comment>
-        <translation type="unfinished">argument</translation>
+        <translation>όρισμα</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="733"/>
         <source>Function argument cannot be empty and it cannot have duplicated name.</source>
-        <translation type="unfinished">Function argument cannot be empty and it cannot have duplicated name.</translation>
+        <translation>Το όρισμα συνάρτησης δεν μπορεί να είναι κενό και δεν μπορεί να έχει διπλότυπο όνομα.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="800"/>
         <source>Functions editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Functions editor window has uncommitted modifications.</translation>
+        <translation>Το παράθυρο επεξεργαστή συναρτήσεων έχει μη οριστικοποιημένες τροποποιήσεις.</translation>
     </message>
 </context>
 <context>
@@ -4314,42 +4314,42 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="261"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>όλες οι βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="266"/>
         <source>Function:</source>
-        <translation type="unfinished">Function:</translation>
+        <translation>Συνάρτηση:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="267"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Τύπος:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Deterministic:</source>
-        <translation type="unfinished">Deterministic:</translation>
+        <translation>Ντετερμινιστική:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Ναι</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Όχι</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="269"/>
         <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+        <translation>Γλώσσα:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="270"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Καταχωρημένη σε:</translation>
     </message>
 </context>
 <context>
@@ -4357,102 +4357,102 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/importdialog.ui" line="14"/>
         <source>Import data</source>
-        <translation type="unfinished">Import data</translation>
+        <translation>Εισαγωγή δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="171"/>
         <source>Table to import to</source>
-        <translation type="unfinished">Table to import to</translation>
+        <translation>Πίνακας στον οποίο θα γίνει εισαγωγή</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="186"/>
         <source>Table</source>
-        <translation type="unfinished">Table</translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="193"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="24"/>
         <source>Data source to import from</source>
-        <translation type="unfinished">Data source to import from</translation>
+        <translation>Πηγή δεδομένων από την οποία θα γίνει εισαγωγή</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="69"/>
         <source>Data source type</source>
-        <translation type="unfinished">Data source type</translation>
+        <translation>Τύπος πηγής δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="81"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Επιλογές</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="115"/>
         <source>Text encoding:</source>
-        <translation type="unfinished">Text encoding:</translation>
+        <translation>Κωδικοποίηση κειμένου:</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="122"/>
         <source>Input file:</source>
-        <translation type="unfinished">Input file:</translation>
+        <translation>Αρχείο εισόδου:</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="132"/>
         <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Εάν είναι ενεργοποιημένο, οποιαδήποτε παραβίαση περιορισμού, ή μη έγκυρη μορφή δεδομένων (λάθος πλήθος στηλών), ή οποιοδήποτε άλλο πρόβλημα παρουσιαστεί κατά την εισαγωγή θα αγνοηθεί και η εισαγωγή θα συνεχιστεί.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="135"/>
         <source>Ignore errors</source>
-        <translation type="unfinished">Ignore errors</translation>
+        <translation>Παράβλεψη σφαλμάτων</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="145"/>
         <source>Data source options</source>
-        <translation type="unfinished">Data source options</translation>
+        <translation>Επιλογές πηγής δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="131"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>Άκυρο</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="162"/>
         <source>If you type table name that doesn&apos;t exist, it will be created.</source>
-        <translation type="unfinished">If you type table name that doesn&apos;t exist, it will be created.</translation>
+        <translation>Αν πληκτρολογήσετε όνομα πίνακα που δεν &apos;υπάρχει&apos;, θα δημιουργηθεί.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="162"/>
         <source>Enter the table name</source>
-        <translation type="unfinished">Enter the table name</translation>
+        <translation>Εισαγάγετε το όνομα πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="180"/>
         <source>Select import plugin.</source>
-        <translation type="unfinished">Select import plugin.</translation>
+        <translation>Επιλέξτε πρόσθετο εισαγωγής.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="189"/>
         <source>You must provide a file to import from.</source>
-        <translation type="unfinished">You must provide a file to import from.</translation>
+        <translation>Πρέπει να δώσετε ένα αρχείο από το οποίο θα γίνει εισαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="196"/>
         <source>The file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">The file &apos;%1&apos; does not exist.</translation>
+        <translation>Το αρχείο &apos;%1&apos; δεν υπάρχει.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="202"/>
         <source>Path you provided is a directory. A regular file is required.</source>
-        <translation type="unfinished">Path you provided is a directory. A regular file is required.</translation>
+        <translation>Η διαδρομή που δώσατε είναι κατάλογος. Απαιτείται κανονικό αρχείο.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="395"/>
         <source>Pick file to import from</source>
-        <translation type="unfinished">Pick file to import from</translation>
+        <translation>Επιλέξτε αρχείο από το οποίο θα γίνει εισαγωγή</translation>
     </message>
 </context>
 <context>
@@ -4461,127 +4461,127 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../dialogs/indexdialog.ui" line="20"/>
         <location filename="../dialogs/indexdialog.ui" line="30"/>
         <source>Index</source>
-        <translation type="unfinished">Index</translation>
+        <translation>Ευρετήριο</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="70"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Στήλη</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="75"/>
         <source>Sort</source>
-        <translation type="unfinished">Sort</translation>
+        <translation>Ταξινόμηση</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="80"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Συρραφή</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="88"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Στον πίνακα:</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="98"/>
         <source>Delete selected indexed expression</source>
-        <translation type="unfinished">Delete selected indexed expression</translation>
+        <translation>Διαγραφή επιλεγμένης ευρετηριασμένης έκφρασης</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="108"/>
         <source>Moves selected index column up in the order, making it more significant in the index.</source>
-        <translation type="unfinished">Moves selected index column up in the order, making it more significant in the index.</translation>
+        <translation>Μετακινεί την επιλεγμένη στήλη ευρετηρίου προς τα πάνω στη σειρά, καθιστώντας την πιο σημαντική στο ευρετήριο.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="118"/>
         <source>Moves selected index column down in the order, making it less significant in the index.</source>
-        <translation type="unfinished">Moves selected index column down in the order, making it less significant in the index.</translation>
+        <translation>Μετακινεί την επιλεγμένη στήλη ευρετηρίου προς τα κάτω στη σειρά, καθιστώντας την λιγότερο σημαντική στο ευρετήριο.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="128"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Συνθήκη μερικού ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="135"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>Μοναδικό ευρετήριο</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="142"/>
         <source>Index name:</source>
-        <translation type="unfinished">Index name:</translation>
+        <translation>Όνομα ευρετηρίου:</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="149"/>
         <source>Edit selected indexed expression</source>
-        <translation type="unfinished">Edit selected indexed expression</translation>
+        <translation>Επεξεργασία επιλεγμένης ευρετηριασμένης έκφρασης</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="169"/>
         <source>Add indexed expression</source>
-        <translation type="unfinished">Add indexed expression</translation>
+        <translation>Προσθήκη ευρετηριασμένης έκφρασης</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="180"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>Κώδικας DDL</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="73"/>
         <source>Tried to open index dialog for closed or inexisting database.</source>
-        <translation type="unfinished">Tried to open index dialog for closed or inexisting database.</translation>
+        <translation>Έγινε προσπάθεια ανοίγματος διαλόγου ευρετηρίου για κλειστή ή ανύπαρκτη βάση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="143"/>
         <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
-        <translation type="unfinished">Could not process index %1 correctly. Unable to open an index dialog.</translation>
+        <translation>Δεν ήταν δυνατή η σωστή επεξεργασία του ευρετηρίου %1. Δεν είναι δυνατό το άνοιγμα διαλόγου ευρετηρίου.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="196"/>
         <source>Pick the table for the index.</source>
-        <translation type="unfinished">Pick the table for the index.</translation>
+        <translation>Επιλέξτε τον πίνακα για το ευρετήριο.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="197"/>
         <source>Select at least one column.</source>
-        <translation type="unfinished">Select at least one column.</translation>
+        <translation>Επιλέξτε τουλάχιστον μία στήλη.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="198"/>
         <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+        <translation>Εισαγάγετε έγκυρη συνθήκη.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="270"/>
         <source>default</source>
         <comment>index dialog</comment>
-        <translation type="unfinished">default</translation>
+        <translation>προεπιλογή</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="274"/>
         <source>Sort order</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="768"/>
         <location filename="../dialogs/indexdialog.cpp" line="781"/>
         <source>Error</source>
         <comment>index dialog</comment>
-        <translation type="unfinished">Error</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="769"/>
         <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
-        <translation type="unfinished">Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</translation>
+        <translation>Δεν είναι δυνατή η δημιουργία μοναδικού ευρετηρίου, επειδή οι τιμές στις επιλεγμένες στήλες δεν είναι μοναδικές. Θέλετε να εκτελέσετε ερώτημα SELECT για να δείτε τις προβληματικές τιμές;</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="781"/>
         <source>An error occurred while executing SQL statements:
 %1</source>
-        <translation type="unfinished">An error occurred while executing SQL statements:
+        <translation>Παρουσιάστηκε σφάλμα κατά την εκτέλεση δηλώσεων SQL:
 %1</translation>
     </message>
 </context>
@@ -4590,42 +4590,42 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
         <source>Indexed expression</source>
-        <translation type="unfinished">Indexed expression</translation>
+        <translation>Ευρετηριασμένη έκφραση</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
         <source>Expression to index</source>
-        <translation type="unfinished">Expression to index</translation>
+        <translation>Έκφραση προς ευρετηρίαση</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
         <source>This expression is already indexed by the index.</source>
-        <translation type="unfinished">This expression is already indexed by the index.</translation>
+        <translation>Αυτή η έκφραση είναι ήδη ευρετηριασμένη από το ευρετήριο.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
         <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
-        <translation type="unfinished">Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</translation>
+        <translation>Η στήλη πρέπει να ευρετηριαστεί απευθείας, όχι μέσω έκφρασης. Είτε επεκτείνετε αυτήν την έκφραση ώστε να περιέχει κάτι περισσότερο από απλώς το όνομα στήλης, είτε ακυρώστε και επιλέξτε αυτήν τη στήλη απευθείας στον διάλογο ευρετηρίου.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
         <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
-        <translation type="unfinished">Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</translation>
+        <translation>Η στήλη &apos;%1&apos; δεν ανήκει στον πίνακα που καλύπτεται από αυτό το ευρετήριο. Οι ευρετηριασμένες εκφράσεις μπορούν να αναφέρονται μόνο σε στήλες από τον ευρετηριασμένο πίνακα.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
         <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
-        <translation type="unfinished">It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</translation>
+        <translation>&apos;Απαγορεύεται&apos; η χρήση δηλώσεων &apos;SELECT&apos; σε ευρετηριασμένες εκφράσεις.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
         <source>Enter an indexed expression.</source>
-        <translation type="unfinished">Enter an indexed expression.</translation>
+        <translation>Εισαγάγετε μια ευρετηριασμένη έκφραση.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished">Invalid expression.</translation>
+        <translation>Μη έγκυρη έκφραση.</translation>
     </message>
 </context>
 <context>
@@ -4633,12 +4633,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/languagedialog.ui" line="14"/>
         <source>Language</source>
-        <translation type="unfinished">Language</translation>
+        <translation>Γλώσσα</translation>
     </message>
     <message>
         <location filename="../dialogs/languagedialog.ui" line="20"/>
         <source>Please choose language:</source>
-        <translation type="unfinished">Please choose language:</translation>
+        <translation>Επιλέξτε γλώσσα:</translation>
     </message>
 </context>
 <context>
@@ -4646,426 +4646,426 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../mainwindow.ui" line="81"/>
         <source>Database toolbar</source>
-        <translation type="unfinished">Database toolbar</translation>
+        <translation>Γραμμή εργαλείων βάσεων δεδομένων</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="92"/>
         <source>Structure toolbar</source>
-        <translation type="unfinished">Structure toolbar</translation>
+        <translation>Γραμμή εργαλείων δομής</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="103"/>
         <source>Tools</source>
-        <translation type="unfinished">Tools</translation>
+        <translation>Εργαλεία</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="120"/>
         <source>Window list</source>
-        <translation type="unfinished">Window list</translation>
+        <translation>Λίστα παραθύρων</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="134"/>
         <source>View toolbar</source>
-        <translation type="unfinished">View toolbar</translation>
+        <translation>Γραμμή εργαλείων προβολής</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="145"/>
         <source>Configuration widgets</source>
-        <translation type="unfinished">Configuration widgets</translation>
+        <translation>Γραφικά στοιχεία διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="146"/>
         <source>Syntax highlighting engines</source>
-        <translation type="unfinished">Syntax highlighting engines</translation>
+        <translation>Μηχανές επισήμανσης σύνταξης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="147"/>
         <source>Data editors</source>
-        <translation type="unfinished">Data editors</translation>
+        <translation>Επεξεργαστές δεδομένων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="160"/>
         <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
-        <translation type="unfinished">Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</translation>
+        <translation>Εκτέλεση σε λειτουργία αποσφαλμάτωσης. Πατήστε %1 ή χρησιμοποιήστε την καταχώρηση μενού &apos;Βοήθεια / Άνοιγμα κονσόλας αποσφαλμάτωσης&apos; για να ανοίξετε την κονσόλα αποσφαλμάτωσης.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="162"/>
         <source>Running in debug mode. Debug messages are printed to the standard output.</source>
-        <translation type="unfinished">Running in debug mode. Debug messages are printed to the standard output.</translation>
+        <translation>Εκτέλεση σε λειτουργία αποσφαλμάτωσης. Τα μηνύματα αποσφαλμάτωσης εκτυπώνονται στην τυπική έξοδο.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="272"/>
         <source>You need to restart application to make the language change take effect.</source>
-        <translation type="unfinished">You need to restart application to make the language change take effect.</translation>
+        <translation>Πρέπει να επανεκκινήσετε την εφαρμογή για να τεθεί σε ισχύ η αλλαγή γλώσσας.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="317"/>
         <source>Open SQL &amp;editor</source>
-        <translation type="unfinished">Open SQL &amp;editor</translation>
+        <translation>Άνοιγμα &amp;επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="361"/>
         <source>Open DDL &amp;history</source>
-        <translation type="unfinished">Open DDL &amp;history</translation>
+        <translation>Άνοιγμα &amp;ιστορικού DDL</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="318"/>
         <source>Open SQL &amp;functions editor</source>
-        <translation type="unfinished">Open SQL &amp;functions editor</translation>
+        <translation>Άνοιγμα επεξεργαστή &amp;συναρτήσεων SQL</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
         <source>Open code &amp;snippets editor</source>
-        <translation type="unfinished">Open code &amp;snippets editor</translation>
+        <translation>Άνοιγμα επεξεργαστή &amp;αποσπασμάτων κώδικα</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="320"/>
         <source>Open &amp;collations editor</source>
-        <translation type="unfinished">Open &amp;collations editor</translation>
+        <translation>Άνοιγμα επεξεργαστή &amp;συρραφών</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="321"/>
         <source>Open ex&amp;tension manager</source>
-        <translation type="unfinished">Open ex&amp;tension manager</translation>
+        <translation>Άνοιγμα διαχειριστή επε&amp;κτάσεων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="323"/>
         <source>&amp;Import</source>
-        <translation type="unfinished">&amp;Import</translation>
+        <translation>&amp;Εισαγωγή</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="324"/>
         <source>E&amp;xport</source>
-        <translation type="unfinished">E&amp;xport</translation>
+        <translation>Ε&amp;ξαγωγή</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="325"/>
         <source>Open confi&amp;guration dialog</source>
-        <translation type="unfinished">Open confi&amp;guration dialog</translation>
+        <translation>Άνοιγμα διαλόγου δια&amp;μόρφωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
         <source>&amp;Tile windows</source>
-        <translation type="unfinished">&amp;Tile windows</translation>
+        <translation>&amp;Παράθεση παραθύρων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="328"/>
         <source>Tile windows &amp;horizontally</source>
-        <translation type="unfinished">Tile windows &amp;horizontally</translation>
+        <translation>Παράθεση παραθύρων &amp;οριζόντια</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="329"/>
         <source>Tile windows &amp;vertically</source>
-        <translation type="unfinished">Tile windows &amp;vertically</translation>
+        <translation>Παράθεση παραθύρων &amp;κατακόρυφα</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="330"/>
         <source>&amp;Cascade windows</source>
-        <translation type="unfinished">&amp;Cascade windows</translation>
+        <translation>&amp;Διαδοχική διάταξη παραθύρων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="332"/>
         <source>Next window</source>
-        <translation type="unfinished">Next window</translation>
+        <translation>Επόμενο παράθυρο</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="331"/>
         <source>Previous window</source>
-        <translation type="unfinished">Previous window</translation>
+        <translation>Προηγούμενο παράθυρο</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="335"/>
         <source>Hide status field</source>
-        <translation type="unfinished">Hide status field</translation>
+        <translation>Απόκρυψη πεδίου κατάστασης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Close &amp;all windows</source>
-        <translation type="unfinished">Close &amp;all windows</translation>
+        <translation>Κλείσιμο &amp;όλων των παραθύρων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="342"/>
         <source>Re&amp;store recently closed window</source>
-        <translation type="unfinished">Re&amp;store recently closed window</translation>
+        <translation>Επα&amp;ναφορά πρόσφατα κλεισμένου παραθύρου</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="337"/>
         <source>Close current &amp;window</source>
-        <translation type="unfinished">Close current &amp;window</translation>
+        <translation>Κλείσιμο τρέχοντος &amp;παραθύρου</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="148"/>
         <source>Data renderers</source>
-        <translation type="unfinished">Data renderers</translation>
+        <translation>Αποδότες δεδομένων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="338"/>
         <source>Close &amp;other windows</source>
-        <translation type="unfinished">Close &amp;other windows</translation>
+        <translation>Κλείσιμο &amp;άλλων παραθύρων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="340"/>
         <source>Close windows on the &amp;left</source>
-        <translation type="unfinished">Close windows on the &amp;left</translation>
+        <translation>Κλείσιμο παραθύρων στα &amp;αριστερά</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="341"/>
         <source>Close windows on the &amp;right</source>
-        <translation type="unfinished">Close windows on the &amp;right</translation>
+        <translation>Κλείσιμο παραθύρων στα &amp;δεξιά</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="343"/>
         <source>Re&amp;name selected window</source>
-        <translation type="unfinished">Re&amp;name selected window</translation>
+        <translation>Μετο&amp;νομασία επιλεγμένου παραθύρου</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="346"/>
         <source>Open Debug Console</source>
-        <translation type="unfinished">Open Debug Console</translation>
+        <translation>Άνοιγμα κονσόλας αποσφαλμάτωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="347"/>
         <source>Open CSS Console</source>
-        <translation type="unfinished">Open CSS Console</translation>
+        <translation>Άνοιγμα κονσόλας CSS</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="348"/>
         <source>Report a &amp;bug</source>
-        <translation type="unfinished">Report a &amp;bug</translation>
+        <translation>Αναφορά &amp;σφάλματος</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>D&amp;onate</source>
-        <translation type="unfinished">D&amp;onate</translation>
+        <translation>&amp;Δωρεά</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="350"/>
         <source>Propose a new &amp;feature</source>
-        <translation type="unfinished">Propose a new &amp;feature</translation>
+        <translation>Πρόταση νέας &amp;δυνατότητας</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="351"/>
         <source>&amp;About</source>
-        <translation type="unfinished">&amp;About</translation>
+        <translation>&amp;Σχετικά</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="352"/>
         <source>&amp;Licenses</source>
-        <translation type="unfinished">&amp;Licenses</translation>
+        <translation>&amp;Άδειες χρήσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="353"/>
         <source>Open home &amp;page</source>
-        <translation type="unfinished">Open home &amp;page</translation>
+        <translation>Άνοιγμα &amp;αρχικής σελίδας</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>User &amp;Manual</source>
-        <translation type="unfinished">User &amp;Manual</translation>
+        <translation>&amp;Εγχειρίδιο χρήστη</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="355"/>
         <source>SQLite &amp;documentation</source>
-        <translation type="unfinished">SQLite &amp;documentation</translation>
+        <translation>&amp;Τεκμηρίωση SQLite</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="356"/>
         <source>Bugs and feature &amp;requests</source>
-        <translation type="unfinished">Bugs and feature &amp;requests</translation>
+        <translation>Σφάλματα και αιτήματα &amp;δυνατοτήτων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="357"/>
         <source>Quit</source>
-        <translation type="unfinished">Quit</translation>
+        <translation>Έξοδος</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Check for &amp;updates</translation>
+        <translation>Έλεγχος για &amp;ενημερώσεις</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>&amp;Database</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;Database</translation>
+        <translation>&amp;Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="415"/>
         <source>&amp;Structure</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;Structure</translation>
+        <translation>&amp;Δομή</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="759"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;View</translation>
+        <translation>&amp;Προβολή</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1379"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
-        <translation type="unfinished">The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</translation>
+        <translation>Το απορριφθέν αρχείο φαίνεται να είναι βάση δεδομένων SQLite 2, η οποία δεν υποστηρίζεται από αυτήν την έκδοση του Letos. Η τελευταία έκδοση που υποστήριζε SQLite 2 ήταν η 3.2.1.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="441"/>
         <source>Window list</source>
         <comment>menubar view menu</comment>
-        <translation type="unfinished">Window list</translation>
+        <translation>Λίστα παραθύρων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="333"/>
         <source>Move window earlier</source>
-        <translation type="unfinished">Move window earlier</translation>
+        <translation>Μετακίνηση παραθύρου νωρίτερα</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="334"/>
         <source>Move window later</source>
-        <translation type="unfinished">Move window later</translation>
+        <translation>Μετακίνηση παραθύρου αργότερα</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="345"/>
         <source>Open Command Palette</source>
-        <translation type="unfinished">Open Command Palette</translation>
+        <translation>Άνοιγμα παλέτας εντολών</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="362"/>
         <source>Export configuration</source>
-        <translation type="unfinished">Export configuration</translation>
+        <translation>Εξαγωγή διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="363"/>
         <source>Import configuration</source>
-        <translation type="unfinished">Import configuration</translation>
+        <translation>Εισαγωγή διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>arrange</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">arrange</translation>
+        <translation>τακτοποίηση</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="471"/>
         <source>&amp;Tools</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;Tools</translation>
+        <translation>&amp;Εργαλεία</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="491"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Help</translation>
+        <translation>&amp;Βοήθεια</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="696"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
-        <translation type="unfinished">Could not set style: %1</translation>
+        <translation>Δεν ήταν δυνατός ο ορισμός στυλ: %1</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="933"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εξαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εξαγωγής.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="950"/>
         <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εισαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εισαγωγής.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="993"/>
         <source>Rename window</source>
-        <translation type="unfinished">Rename window</translation>
+        <translation>Μετονομασία παραθύρου</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="993"/>
         <source>Enter new name for the window:</source>
-        <translation type="unfinished">Enter new name for the window:</translation>
+        <translation>Εισαγάγετε νέο όνομα για το παράθυρο:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1095"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
-        <translation type="unfinished">New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</translation>
+        <translation>Υπάρχουν νέες ενημερώσεις. &lt;a href=&quot;%1&quot;&gt;Κάντε κλικ εδώ για λεπτομέρειες&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1101"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
-        <translation type="unfinished">You&apos;re running the most recent version. No updates are available.</translation>
+        <translation>Εκτελείτε την &apos;πιο πρόσφατη&apos; έκδοση. Δεν υπάρχουν διαθέσιμες ενημερώσεις.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1185"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
-        <translation type="unfinished">Toolbar &amp;icons</translation>
+        <translation>&amp;Εικονίδια γραμμής εργαλείων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1192"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
-        <translation type="unfinished">Size: %1%</translation>
+        <translation>Μέγεθος: %1%</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1280"/>
         <source>Drop files to open them</source>
-        <translation type="unfinished">Drop files to open them</translation>
+        <translation>Αποθέστε αρχεία για να τα ανοίξετε</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1382"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
-        <translation type="unfinished">The dropped file type is unsupported: %1 (%2)</translation>
+        <translation>Ο τύπος του απορριφθέντος αρχείου δεν υποστηρίζεται: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1392"/>
         <source>SQLite 3 database - add to database list and open</source>
-        <translation type="unfinished">SQLite 3 database - add to database list and open</translation>
+        <translation>Βάση δεδομένων SQLite 3 - προσθήκη στη λίστα βάσεων δεδομένων και άνοιγμα</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1394"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
-        <translation type="unfinished">It may be an encrypted SQLite 3 database. You can try to open it.</translation>
+        <translation>Μπορεί να είναι κρυπτογραφημένη βάση δεδομένων SQLite 3. Μπορείτε να δοκιμάσετε να την ανοίξετε.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1396"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
-        <translation type="unfinished">Empty file, but also empty SQLite 3 database - open as database</translation>
+        <translation>Κενό αρχείο, αλλά και κενή βάση δεδομένων SQLite 3 - άνοιγμα ως βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1398"/>
         <source>SQL file - open in SQL Editor</source>
-        <translation type="unfinished">SQL file - open in SQL Editor</translation>
+        <translation>Αρχείο SQL - άνοιγμα στον επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1400"/>
         <source>Text file - open in SQL Editor</source>
-        <translation type="unfinished">Text file - open in SQL Editor</translation>
+        <translation>Αρχείο κειμένου - άνοιγμα στον επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1402"/>
         <source>CSV file - import using Import Dialog</source>
-        <translation type="unfinished">CSV file - import using Import Dialog</translation>
+        <translation>Αρχείο CSV - εισαγωγή με χρήση του διαλόγου εισαγωγής</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1404"/>
         <source>SQLite 2 database - not supported anymore</source>
-        <translation type="unfinished">SQLite 2 database - not supported anymore</translation>
+        <translation>Βάση δεδομένων SQLite 2 - δεν υποστηρίζεται πλέον</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1406"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished">Unsupported file type</translation>
+        <translation>Μη υποστηριζόμενος τύπος αρχείου</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1505"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
-        <translation type="unfinished">Database passed in command line parameters (%1) was already on the list under name: %2</translation>
+        <translation>Η βάση δεδομένων που δόθηκε στις παραμέτρους γραμμής εντολών (%1) ήταν ήδη στη λίστα με όνομα: %2</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1512"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
-        <translation type="unfinished">Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</translation>
+        <translation>Η βάση δεδομένων που δόθηκε στις παραμέτρους γραμμής εντολών (%1) προστέθηκε προσωρινά στη λίστα με όνομα: %2</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1517"/>
         <source>Could not add database %1 to list.</source>
-        <translation type="unfinished">Could not add database %1 to list.</translation>
+        <translation>Δεν ήταν δυνατή η προσθήκη της βάσης δεδομένων %1 στη λίστα.</translation>
     </message>
 </context>
 <context>
@@ -5073,47 +5073,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
         <source>Pending transaction</source>
-        <translation type="unfinished">Pending transaction</translation>
+        <translation>Εκκρεμής συναλλαγή</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
         <source>Roll Back Transaction</source>
-        <translation type="unfinished">Roll Back Transaction</translation>
+        <translation>Αναίρεση συναλλαγής</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
         <source>Discard changes made within the transaction and proceed</source>
-        <translation type="unfinished">Discard changes made within the transaction and proceed</translation>
+        <translation>Απόρριψη των αλλαγών που έγιναν εντός της συναλλαγής και συνέχεια</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
         <source>Commit Transaction</source>
-        <translation type="unfinished">Commit Transaction</translation>
+        <translation>Οριστικοποίηση συναλλαγής</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
         <source>Save transaction changes and proceed</source>
-        <translation type="unfinished">Save transaction changes and proceed</translation>
+        <translation>Αποθήκευση των αλλαγών της συναλλαγής και συνέχεια</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
         <source>Keep the transaction open and stay with the current database</source>
-        <translation type="unfinished">Keep the transaction open and stay with the current database</translation>
+        <translation>Διατήρηση της συναλλαγής ανοικτής και παραμονή στην τρέχουσα βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Τι θα θέλατε να κάνετε με αυτήν τη συναλλαγή;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Η τρέχουσα σύνδεση βάσης δεδομένων (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) έχει μια ενεργή χειροκίνητη συναλλαγή με εκκρεμείς αλλαγές που δεν έχουν οριστικοποιηθεί ακόμα.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -5121,37 +5121,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
         <source>WAL mode for manual commits</source>
-        <translation type="unfinished">WAL mode for manual commits</translation>
+        <translation>Λειτουργία WAL για χειροκίνητες οριστικοποιήσεις</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Αυτή η βάση δεδομένων (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) δεν χρησιμοποιεί προς το παρόν τη λειτουργία ημερολογίου WAL (Write-Ahead Logging).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Η λειτουργία χειροκίνητης οριστικοποίησης απαιτεί να είναι ενεργοποιημένη η λειτουργία WAL.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Η λειτουργία WAL επιτρέπει σε άλλες συνδέσεις και μέρη της εφαρμογής να συνεχίζουν να διαβάζουν τη βάση δεδομένων ενώ είναι ανοικτή μια συναλλαγή εγγραφής. Χωρίς τη λειτουργία WAL, μια ανοικτή συναλλαγή θα μπορούσε να μπλοκάρει την ανανέωση του σχήματος, την περιήγηση δεδομένων και άλλες λειτουργίες βάσης δεδομένων.&lt;/p&gt;&lt;p&gt;Σημειώστε:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Η λειτουργία WAL επηρεάζει το ίδιο το αρχείο της βάσης δεδομένων και θα χρησιμοποιείται από όλες τις μελλοντικές συνδέσεις σε αυτήν τη βάση δεδομένων μέχρι να αλλάξει ξανά με το &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Το SQLite εξακολουθεί να επιτρέπει μόνο μία ενεργή συναλλαγή εγγραφής κάθε φορά, ακόμη και σε λειτουργία WAL.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Διαβάστε περισσότερα για το WAL στη διεύθυνση &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
         <source>Keep current journal mode</source>
-        <translation type="unfinished">Keep current journal mode</translation>
+        <translation>Διατήρηση της τρέχουσας λειτουργίας ημερολογίου</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
         <source>and use auto-commits</source>
-        <translation type="unfinished">and use auto-commits</translation>
+        <translation>και χρήση αυτόματων οριστικοποιήσεων</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
         <source>Enable WAL mode</source>
-        <translation type="unfinished">Enable WAL mode</translation>
+        <translation>Ενεργοποίηση λειτουργίας WAL</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
         <source>and use manual commits</source>
-        <translation type="unfinished">and use manual commits</translation>
+        <translation>και χρήση χειροκίνητων οριστικοποιήσεων</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Θέλετε να ενεργοποιήσετε τη λειτουργία WAL και να συνεχίσετε;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -5159,17 +5159,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../mdiwindow.cpp" line="204"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Μη οριστικοποιημένες αλλαγές</translation>
     </message>
     <message>
         <location filename="../mdiwindow.cpp" line="209"/>
         <source>Close anyway</source>
-        <translation type="unfinished">Close anyway</translation>
+        <translation>Κλείσιμο ούτως ή άλλως</translation>
     </message>
     <message>
         <location filename="../mdiwindow.cpp" line="211"/>
         <source>Don&apos;t close</source>
-        <translation type="unfinished">Don&apos;t close</translation>
+        <translation>Μην το &apos;κλείσετε&apos;</translation>
     </message>
 </context>
 <context>
@@ -5179,77 +5179,77 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../multieditor/multieditor.cpp" line="590"/>
         <source>Null value</source>
         <comment>multieditor</comment>
-        <translation type="unfinished">Null value</translation>
+        <translation>Τιμή null</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="80"/>
         <source>Save this value to a file</source>
-        <translation type="unfinished">Save this value to a file</translation>
+        <translation>Αποθήκευση αυτής της τιμής σε αρχείο</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="83"/>
         <source>Load this value from a file</source>
-        <translation type="unfinished">Load this value from a file</translation>
+        <translation>Φόρτωση αυτής της τιμής από αρχείο</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="94"/>
         <source>Configure editors for this data type</source>
-        <translation type="unfinished">Configure editors for this data type</translation>
+        <translation>Διαμόρφωση επεξεργαστών για αυτόν τον τύπο δεδομένων</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="102"/>
         <source>Open another tab</source>
-        <translation type="unfinished">Open another tab</translation>
+        <translation>Άνοιγμα άλλης καρτέλας</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="118"/>
         <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+        <translation>Επαναφορά τιμής</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="376"/>
         <source>Foreign Key</source>
-        <translation type="unfinished">Foreign Key</translation>
+        <translation>Ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="434"/>
         <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+        <translation>Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="436"/>
         <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
-        <translation type="unfinished">Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
+        <translation>Αρχεία κειμένου (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="438"/>
         <source>SQL files (*.sql)</source>
-        <translation type="unfinished">SQL files (*.sql)</translation>
+        <translation>Αρχεία SQL (*.sql)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="440"/>
         <source>Binary data (*.bin *.dat *.raw)</source>
-        <translation type="unfinished">Binary data (*.bin *.dat *.raw)</translation>
+        <translation>Δυαδικά δεδομένα (*.bin *.dat *.raw)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="442"/>
         <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
-        <translation type="unfinished">Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
+        <translation>Εικόνες (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="444"/>
         <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
-        <translation type="unfinished">Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
+        <translation>Αρχειοθήκες (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="446"/>
         <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
-        <translation type="unfinished">Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
+        <translation>Έγγραφα (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="448"/>
         <source>Executables (*.exe *.dll *.so *.dylib)</source>
-        <translation type="unfinished">Executables (*.exe *.dll *.so *.dylib)</translation>
+        <translation>Εκτελέσιμα (*.exe *.dll *.so *.dylib)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="472"/>
@@ -5260,38 +5260,38 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../multieditor/multieditor.cpp" line="578"/>
         <source>Deleted</source>
         <comment>multieditor</comment>
-        <translation type="unfinished">Deleted</translation>
+        <translation>Διαγράφηκε</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="580"/>
         <source>Read only</source>
         <comment>multieditor</comment>
-        <translation type="unfinished">Read only</translation>
+        <translation>Μόνο για ανάγνωση</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="694"/>
         <source>Open</source>
-        <translation type="unfinished">Open</translation>
+        <translation>Άνοιγμα</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="703"/>
         <source>Could not open file %1 for reading.</source>
-        <translation type="unfinished">Could not open file %1 for reading.</translation>
+        <translation>Δεν ήταν δυνατό το άνοιγμα του αρχείου %1 για ανάγνωση.</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="719"/>
         <source>Save</source>
-        <translation type="unfinished">Save</translation>
+        <translation>Αποθήκευση</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="728"/>
         <source>Could not open file %1 for writting.</source>
-        <translation type="unfinished">Could not open file %1 for writting.</translation>
+        <translation>Δεν ήταν δυνατό το άνοιγμα του αρχείου %1 για εγγραφή.</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="778"/>
         <source>Could not write data into the file %1</source>
-        <translation type="unfinished">Could not write data into the file %1</translation>
+        <translation>Δεν ήταν δυνατή η εγγραφή δεδομένων στο αρχείο %1</translation>
     </message>
 </context>
 <context>
@@ -5299,7 +5299,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditorbool.cpp" line="227"/>
         <source>Boolean</source>
-        <translation type="unfinished">Boolean</translation>
+        <translation>Λογική τιμή</translation>
     </message>
 </context>
 <context>
@@ -5307,7 +5307,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditordate.cpp" line="89"/>
         <source>Date</source>
-        <translation type="unfinished">Date</translation>
+        <translation>Ημερομηνία</translation>
     </message>
 </context>
 <context>
@@ -5315,7 +5315,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
         <source>Date &amp; time</source>
-        <translation type="unfinished">Date &amp; time</translation>
+        <translation>Ημερομηνία &amp; ώρα</translation>
     </message>
 </context>
 <context>
@@ -5323,7 +5323,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditorfk.cpp" line="25"/>
         <source>Selected value preview</source>
-        <translation type="unfinished">Selected value preview</translation>
+        <translation>Προεπισκόπηση επιλεγμένης τιμής</translation>
     </message>
 </context>
 <context>
@@ -5331,7 +5331,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditorhex.cpp" line="102"/>
         <source>Hex</source>
-        <translation type="unfinished">Hex</translation>
+        <translation>Δεκαεξαδικό</translation>
     </message>
 </context>
 <context>
@@ -5340,7 +5340,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
         <source>Number</source>
         <comment>numeric multi editor tab name</comment>
-        <translation type="unfinished">Number</translation>
+        <translation>Αριθμός</translation>
     </message>
 </context>
 <context>
@@ -5348,37 +5348,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="119"/>
         <source>Tab changes focus</source>
-        <translation type="unfinished">Tab changes focus</translation>
+        <translation>Το Tab αλλάζει την εστίαση</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="120"/>
         <source>Cut</source>
-        <translation type="unfinished">Cut</translation>
+        <translation>Αποκοπή</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="121"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="122"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Επικόλληση</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="123"/>
         <source>Delete</source>
-        <translation type="unfinished">Delete</translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="124"/>
         <source>Undo</source>
-        <translation type="unfinished">Undo</translation>
+        <translation>Αναίρεση</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="125"/>
         <source>Redo</source>
-        <translation type="unfinished">Redo</translation>
+        <translation>Επανάληψη</translation>
     </message>
 </context>
 <context>
@@ -5386,7 +5386,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="203"/>
         <source>Text</source>
-        <translation type="unfinished">Text</translation>
+        <translation>Κείμενο</translation>
     </message>
 </context>
 <context>
@@ -5394,7 +5394,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditortime.cpp" line="92"/>
         <source>Time</source>
-        <translation type="unfinished">Time</translation>
+        <translation>Ώρα</translation>
     </message>
 </context>
 <context>
@@ -5402,59 +5402,59 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
         <source>New constraint</source>
-        <translation type="unfinished">New constraint</translation>
+        <translation>Νέος περιορισμός</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
         <source>Primary Key</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Primary Key</translation>
+        <translation>Πρωτεύον κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
         <source>Foreign Key</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Foreign Key</translation>
+        <translation>Ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
         <source>Unique</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Μοναδικό</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
         <source>Check</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Check</translation>
+        <translation>Έλεγχος</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
         <source>Not NULL</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Not NULL</translation>
+        <translation>Όχι NULL</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
         <source>Collate</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Συρραφή</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
         <source>Generated</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Generated</translation>
+        <translation>Παραγόμενο</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
         <source>Default</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Default</translation>
+        <translation>Προεπιλογή</translation>
     </message>
 </context>
 <context>
@@ -5462,47 +5462,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="14"/>
         <source>Letos updates</source>
-        <translation type="unfinished">Letos updates</translation>
+        <translation>Ενημερώσεις Letos</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="25"/>
         <source>New version is available!</source>
-        <translation type="unfinished">New version is available!</translation>
+        <translation>Υπάρχει διαθέσιμη νέα έκδοση!</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="51"/>
         <source>Download new version!</source>
-        <translation type="unfinished">Download new version!</translation>
+        <translation>Λήψη νέας έκδοσης!</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="64"/>
         <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
-        <translation type="unfinished">New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</translation>
+        <translation>Το πακέτο της νέας έκδοσης θα ληφθεί. Θα το εγκαταστήσετε όταν &apos;είστε&apos; έτοιμοι.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="71"/>
         <source>Open Letos home page.</source>
-        <translation type="unfinished">Open Letos home page.</translation>
+        <translation>Άνοιγμα της αρχικής σελίδας του Letos.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="84"/>
         <source>Read release notes &amp;&amp; download package yourself.</source>
-        <translation type="unfinished">Read release notes &amp;&amp; download package yourself.</translation>
+        <translation>Διαβάστε τις σημειώσεις έκδοσης &amp;&amp; κατεβάστε το πακέτο μόνοι σας.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="104"/>
         <source>Just close this window.</source>
-        <translation type="unfinished">Just close this window.</translation>
+        <translation>Απλώς κλείστε αυτό το παράθυρο.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="114"/>
         <source>Check for updates on startup</source>
-        <translation type="unfinished">Check for updates on startup</translation>
+        <translation>Έλεγχος για ενημερώσεις κατά την εκκίνηση</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="91"/>
         <source>Not now.</source>
-        <translation type="unfinished">Not now.</translation>
+        <translation>Όχι τώρα.</translation>
     </message>
 </context>
 <context>
@@ -5510,7 +5510,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../common/passwordtogglehelper.cpp" line="11"/>
         <source>Show / hide password</source>
-        <translation type="unfinished">Show / hide password</translation>
+        <translation>Εμφάνιση / απόκρυψη κωδικού πρόσβασης</translation>
     </message>
 </context>
 <context>
@@ -5518,12 +5518,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
         <source>Populating configuration</source>
-        <translation type="unfinished">Populating configuration</translation>
+        <translation>Διαμόρφωση συμπλήρωσης</translation>
     </message>
     <message>
         <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
         <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
-        <translation type="unfinished">Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</translation>
+        <translation>Διαμόρφωση του &lt;b&gt;%1&lt;/b&gt; για τη στήλη &lt;b&gt;%2&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -5531,73 +5531,73 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/populatedialog.ui" line="14"/>
         <source>Populate table</source>
-        <translation type="unfinished">Populate table</translation>
+        <translation>Συμπλήρωση πίνακα</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="84"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="102"/>
         <source>Table</source>
-        <translation type="unfinished">Table</translation>
+        <translation>Πίνακας</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="139"/>
         <source>Select All</source>
-        <translation type="unfinished">Select All</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="152"/>
         <source>Deselect All</source>
-        <translation type="unfinished">Deselect All</translation>
+        <translation>Αποεπιλογή όλων</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="48"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Στήλες</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="20"/>
         <source>Number of rows to populate:</source>
-        <translation type="unfinished">Number of rows to populate:</translation>
+        <translation>Αριθμός γραμμών για συμπλήρωση:</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="52"/>
         <source>Populate</source>
         <comment>populate dialog button</comment>
-        <translation type="unfinished">Populate</translation>
+        <translation>Συμπλήρωση</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="67"/>
         <source>Abort</source>
-        <translation type="unfinished">Abort</translation>
+        <translation>Ματαίωση</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="204"/>
         <source>Configure</source>
-        <translation type="unfinished">Configure</translation>
+        <translation>Διαμόρφωση</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="311"/>
         <source>Populating configuration for this column is invalid or incomplete.</source>
-        <translation type="unfinished">Populating configuration for this column is invalid or incomplete.</translation>
+        <translation>Η διαμόρφωση συμπλήρωσης για αυτήν τη στήλη είναι μη έγκυρη ή ελλιπής.</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="342"/>
         <source>Select database with table to populate</source>
-        <translation type="unfinished">Select database with table to populate</translation>
+        <translation>Επιλέξτε βάση δεδομένων με πίνακα προς συμπλήρωση</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="343"/>
         <source>Select table to populate</source>
-        <translation type="unfinished">Select table to populate</translation>
+        <translation>Επιλέξτε πίνακα προς συμπλήρωση</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="344"/>
         <source>You have to select at least one column.</source>
-        <translation type="unfinished">You have to select at least one column.</translation>
+        <translation>Πρέπει να επιλέξετε τουλάχιστον μία στήλη.</translation>
     </message>
 </context>
 <context>
@@ -5605,22 +5605,22 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Στήλη</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Αυτόματη αύξηση</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Ονομασμένος περιορισμός</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
         <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+        <translation>Σε περίπτωση σύγκρουσης</translation>
     </message>
 </context>
 <context>
@@ -5628,57 +5628,57 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
         <source>Cannot edit columns that are result of an inline subquery.</source>
-        <translation type="unfinished">Cannot edit columns that are result of an inline subquery.</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία στηλών που είναι αποτέλεσμα ενσωματωμένου υποερωτήματος.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
         <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
-        <translation type="unfinished">Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία στηλών που είναι αποτέλεσμα σύνθετων δηλώσεων %1 (που περιλαμβάνουν τις λέξεις-κλειδιά %2, %3 ή %4).</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
         <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
-        <translation type="unfinished">The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</translation>
+        <translation>Ο μηχανισμός εκτέλεσης ερωτημάτων είχε προβλήματα με τη σωστή εξαγωγή του ROWID&apos;s. Αυτό μπορεί να είναι σφάλμα στην εφαρμογή. Ίσως θέλετε να το αναφέρετε.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
         <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
-        <translation type="unfinished">Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</translation>
+        <translation>Η ζητούμενη στήλη είναι αποτέλεσμα έκφρασης SQL, αντί για απλή επιλογή στήλης. Τέτοιες στήλες δεν μπορούν να επεξεργαστούν.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
         <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
-        <translation type="unfinished">Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</translation>
+        <translation>Η ζητούμενη στήλη ανήκει σε περιορισμένο πίνακα SQLite. Αυτοί οι πίνακες δεν μπορούν να επεξεργαστούν απευθείας.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
         <source>Cannot edit results of query other than %1.</source>
-        <translation type="unfinished">Cannot edit results of query other than %1.</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία αποτελεσμάτων ερωτήματος διαφορετικού από %1.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
         <source>Cannot edit columns that are result of aggregated %1 statements.</source>
-        <translation type="unfinished">Cannot edit columns that are result of aggregated %1 statements.</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία στηλών που είναι αποτέλεσμα συγκεντρωτικών δηλώσεων %1.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
         <source>Cannot edit columns that are result of %1 statement.</source>
-        <translation type="unfinished">Cannot edit columns that are result of %1 statement.</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία στηλών που είναι αποτέλεσμα δήλωσης %1.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
         <source>Cannot edit columns that are result of common table expression statement (%1).</source>
-        <translation type="unfinished">Cannot edit columns that are result of common table expression statement (%1).</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία στηλών που είναι αποτέλεσμα δήλωσης κοινής έκφρασης πίνακα (%1).</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
         <source>Cannot edit table generated columns.</source>
-        <translation type="unfinished">Cannot edit table generated columns.</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία παραγόμενων στηλών πίνακα.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
         <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
-        <translation type="unfinished">Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία στηλών που είναι αποτέλεσμα προβολής εάν το εκτελεσμένο ερώτημα διαβάζει από οποιεσδήποτε πολυεπίπεδες προβολές (δηλ. προβολή που εκτελεί ερώτημα σε άλλη προβολή).</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
@@ -5687,779 +5687,779 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
         <source>on conflict: %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">on conflict: %1</translation>
+        <translation>σε περίπτωση σύγκρουσης: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
         <source>references table %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">references table %1</translation>
+        <translation>αναφέρεται στον πίνακα %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
         <source>references table %1, column %2</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">references table %1, column %2</translation>
+        <translation>αναφέρεται στον πίνακα %1, στήλη %2</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
         <source>condition: %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">condition: %1</translation>
+        <translation>συνθήκη: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
         <source>collation name: %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">collation name: %1</translation>
+        <translation>όνομα συρραφής: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="25"/>
         <source>Data grid view</source>
-        <translation type="unfinished">Data grid view</translation>
+        <translation>Προβολή πλέγματος δεδομένων</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="26"/>
         <source>Edit current cell inline</source>
-        <translation type="unfinished">Edit current cell inline</translation>
+        <translation>Επεξεργασία τρέχοντος κελιού επιτόπου</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="27"/>
         <source>Cut cell(s) contents to clipboard</source>
-        <translation type="unfinished">Cut cell(s) contents to clipboard</translation>
+        <translation>Αποκοπή περιεχομένων κελιού(ών) στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="28"/>
         <source>Copy cell(s) contents to clipboard</source>
-        <translation type="unfinished">Copy cell(s) contents to clipboard</translation>
+        <translation>Αντιγραφή περιεχομένων κελιού(ών) στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="29"/>
         <source>Copy cell(s) contents together with header to clipboard</source>
-        <translation type="unfinished">Copy cell(s) contents together with header to clipboard</translation>
+        <translation>Αντιγραφή περιεχομένων κελιού(ών) μαζί με την κεφαλίδα στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="31"/>
         <source>Paste cell(s) contents from clipboard</source>
-        <translation type="unfinished">Paste cell(s) contents from clipboard</translation>
+        <translation>Επικόλληση περιεχομένων κελιού(ών) από το πρόχειρο</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="33"/>
         <source>Set empty value to selected cell(s)</source>
-        <translation type="unfinished">Set empty value to selected cell(s)</translation>
+        <translation>Ορισμός κενής τιμής στα επιλεγμένα κελιά(ά)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="34"/>
         <source>Set NULL value to selected cell(s)</source>
-        <translation type="unfinished">Set NULL value to selected cell(s)</translation>
+        <translation>Ορισμός τιμής NULL στα επιλεγμένα κελιά(ά)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="35"/>
         <source>Commit changes to cell(s) contents</source>
-        <translation type="unfinished">Commit changes to cell(s) contents</translation>
+        <translation>Οριστικοποίηση αλλαγών στα περιεχόμενα κελιού(ών)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="36"/>
         <source>Rollback changes to cell(s) contents</source>
-        <translation type="unfinished">Rollback changes to cell(s) contents</translation>
+        <translation>Αναίρεση αλλαγών στα περιεχόμενα κελιού(ών)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="37"/>
         <source>Delete selected data row</source>
-        <translation type="unfinished">Delete selected data row</translation>
+        <translation>Διαγραφή επιλεγμένης γραμμής δεδομένων</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="38"/>
         <source>Insert new data row</source>
-        <translation type="unfinished">Insert new data row</translation>
+        <translation>Εισαγωγή νέας γραμμής δεδομένων</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="39"/>
         <source>Open contents of selected cell in a separate editor</source>
-        <translation type="unfinished">Open contents of selected cell in a separate editor</translation>
+        <translation>Άνοιγμα περιεχομένων επιλεγμένου κελιού σε ξεχωριστό επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="40"/>
         <source>Toggle the height adjustment of rows</source>
-        <translation type="unfinished">Toggle the height adjustment of rows</translation>
+        <translation>Εναλλαγή της προσαρμογής ύψους γραμμών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="41"/>
         <source>Increase font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Αύξηση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="42"/>
         <source>Decrease font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Μείωση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="32"/>
         <source>Data view (both grid and form)</source>
-        <translation type="unfinished">Data view (both grid and form)</translation>
+        <translation>Προβολή δεδομένων (πλέγμα και φόρμα)</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="33"/>
         <source>Refresh data</source>
-        <translation type="unfinished">Refresh data</translation>
+        <translation>Ανανέωση δεδομένων</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="34"/>
         <source>Find in data</source>
-        <translation type="unfinished">Find in data</translation>
+        <translation>Εύρεση σε δεδομένα</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="35"/>
         <source>Switch to grid view of the data</source>
-        <translation type="unfinished">Switch to grid view of the data</translation>
+        <translation>Μετάβαση σε προβολή πλέγματος των δεδομένων</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="36"/>
         <source>Switch to form view of the data</source>
-        <translation type="unfinished">Switch to form view of the data</translation>
+        <translation>Μετάβαση σε προβολή φόρμας των δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="31"/>
         <source>Database list</source>
-        <translation type="unfinished">Database list</translation>
+        <translation>Λίστα βάσεων δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="32"/>
         <source>Delete selected item</source>
-        <translation type="unfinished">Delete selected item</translation>
+        <translation>Διαγραφή επιλεγμένου στοιχείου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="33"/>
         <source>Clear filter contents</source>
-        <translation type="unfinished">Clear filter contents</translation>
+        <translation>Εκκαθάριση περιεχομένων φίλτρου</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="34"/>
         <source>Refresh schema</source>
-        <translation type="unfinished">Refresh schema</translation>
+        <translation>Ανανέωση σχήματος</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="35"/>
         <source>Refresh all schemas</source>
-        <translation type="unfinished">Refresh all schemas</translation>
+        <translation>Ανανέωση όλων των σχημάτων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="36"/>
         <source>Create new database</source>
-        <translation type="unfinished">Create new database</translation>
+        <translation>Δημιουργία νέας βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="37"/>
         <source>Open existing database or SQL file</source>
-        <translation type="unfinished">Open existing database or SQL file</translation>
+        <translation>Άνοιγμα υπάρχουσας βάσης δεδομένων ή αρχείου SQL</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="38"/>
         <source>Edit selected database</source>
-        <translation type="unfinished">Edit selected database</translation>
+        <translation>Επεξεργασία επιλεγμένης βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="39"/>
         <source>Rename selected database</source>
-        <translation type="unfinished">Rename selected database</translation>
+        <translation>Μετονομασία επιλεγμένης βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="40"/>
         <source>Select all items</source>
-        <translation type="unfinished">Select all items</translation>
+        <translation>Επιλογή όλων των στοιχείων</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="41"/>
         <source>Copy selected item(s)</source>
-        <translation type="unfinished">Copy selected item(s)</translation>
+        <translation>Αντιγραφή επιλεγμένου(ων) στοιχείου(ων)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="42"/>
         <location filename="../multieditor/multieditortext.h" line="15"/>
         <location filename="../sqleditor.h" line="35"/>
         <source>Paste from clipboard</source>
-        <translation type="unfinished">Paste from clipboard</translation>
+        <translation>Επικόλληση από το πρόχειρο</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="43"/>
         <source>Increase font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Αύξηση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="44"/>
         <source>Decrease font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Μείωση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
         <source>Tables</source>
-        <translation type="unfinished">Tables</translation>
+        <translation>Πίνακες</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
         <source>Indexes</source>
-        <translation type="unfinished">Indexes</translation>
+        <translation>Ευρετήρια</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
         <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+        <translation>Εναύσματα</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
         <source>Views</source>
-        <translation type="unfinished">Views</translation>
+        <translation>Προβολές</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Στήλες</translation>
     </message>
     <message>
         <location filename="../formview.h" line="15"/>
         <source>Data form view</source>
-        <translation type="unfinished">Data form view</translation>
+        <translation>Προβολή φόρμας δεδομένων</translation>
     </message>
     <message>
         <location filename="../formview.h" line="16"/>
         <source>Commit changes for current row</source>
-        <translation type="unfinished">Commit changes for current row</translation>
+        <translation>Οριστικοποίηση αλλαγών για την τρέχουσα γραμμή</translation>
     </message>
     <message>
         <location filename="../formview.h" line="17"/>
         <source>Rollback changes for current row</source>
-        <translation type="unfinished">Rollback changes for current row</translation>
+        <translation>Αναίρεση αλλαγών για την τρέχουσα γραμμή</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="37"/>
         <location filename="../formview.h" line="18"/>
         <source>Go to first row on current page</source>
-        <translation type="unfinished">Go to first row on current page</translation>
+        <translation>Μετάβαση στην πρώτη γραμμή της τρέχουσας σελίδας</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="39"/>
         <location filename="../formview.h" line="19"/>
         <source>Go to next row</source>
-        <translation type="unfinished">Go to next row</translation>
+        <translation>Μετάβαση στην επόμενη γραμμή</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="38"/>
         <location filename="../formview.h" line="20"/>
         <source>Go to previous row</source>
-        <translation type="unfinished">Go to previous row</translation>
+        <translation>Μετάβαση στην προηγούμενη γραμμή</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="40"/>
         <location filename="../formview.h" line="21"/>
         <source>Go to last row on current page</source>
-        <translation type="unfinished">Go to last row on current page</translation>
+        <translation>Μετάβαση στην τελευταία γραμμή της τρέχουσας σελίδας</translation>
     </message>
     <message>
         <location filename="../formview.h" line="22"/>
         <source>Insert new row</source>
-        <translation type="unfinished">Insert new row</translation>
+        <translation>Εισαγωγή νέας γραμμής</translation>
     </message>
     <message>
         <location filename="../formview.h" line="23"/>
         <source>Delete current row</source>
-        <translation type="unfinished">Delete current row</translation>
+        <translation>Διαγραφή τρέχουσας γραμμής</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="60"/>
         <source>Main window</source>
-        <translation type="unfinished">Main window</translation>
+        <translation>Κύριο παράθυρο</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="61"/>
         <source>Open SQL editor</source>
-        <translation type="unfinished">Open SQL editor</translation>
+        <translation>Άνοιγμα επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="65"/>
         <source>Open DDL history window</source>
-        <translation type="unfinished">Open DDL history window</translation>
+        <translation>Άνοιγμα παραθύρου ιστορικού DDL</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="67"/>
         <source>Open snippets editor window</source>
-        <translation type="unfinished">Open snippets editor window</translation>
+        <translation>Άνοιγμα παραθύρου επεξεργαστή αποσπασμάτων</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="66"/>
         <source>Open function editor window</source>
-        <translation type="unfinished">Open function editor window</translation>
+        <translation>Άνοιγμα παραθύρου επεξεργαστή συναρτήσεων</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="62"/>
         <source>Restore recently closed window</source>
-        <translation type="unfinished">Restore recently closed window</translation>
+        <translation>Επαναφορά πρόσφατα κλεισμένου παραθύρου</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="63"/>
         <source>Open Export Dialog</source>
-        <translation type="unfinished">Open Export Dialog</translation>
+        <translation>Άνοιγμα διαλόγου εξαγωγής</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="64"/>
         <source>Open Import Dialog</source>
-        <translation type="unfinished">Open Import Dialog</translation>
+        <translation>Άνοιγμα διαλόγου εισαγωγής</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="68"/>
         <source>Open collation editor window</source>
-        <translation type="unfinished">Open collation editor window</translation>
+        <translation>Άνοιγμα παραθύρου επεξεργαστή συρραφών</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="69"/>
         <source>Open extension manager window</source>
-        <translation type="unfinished">Open extension manager window</translation>
+        <translation>Άνοιγμα παραθύρου διαχειριστή επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="70"/>
         <source>Previous window</source>
-        <translation type="unfinished">Previous window</translation>
+        <translation>Προηγούμενο παράθυρο</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="71"/>
         <source>Next window</source>
-        <translation type="unfinished">Next window</translation>
+        <translation>Επόμενο παράθυρο</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="72"/>
         <source>Move window earlier</source>
-        <translation type="unfinished">Move window earlier</translation>
+        <translation>Μετακίνηση παραθύρου νωρίτερα</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="73"/>
         <source>Move window later</source>
-        <translation type="unfinished">Move window later</translation>
+        <translation>Μετακίνηση παραθύρου αργότερα</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="74"/>
         <source>Hide status area</source>
-        <translation type="unfinished">Hide status area</translation>
+        <translation>Απόκρυψη περιοχής κατάστασης</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="75"/>
         <source>Open user manual</source>
-        <translation type="unfinished">Open user manual</translation>
+        <translation>Άνοιγμα εγχειριδίου χρήστη</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="76"/>
         <source>Open configuration dialog</source>
-        <translation type="unfinished">Open configuration dialog</translation>
+        <translation>Άνοιγμα διαλόγου διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="77"/>
         <source>Open Debug Console</source>
-        <translation type="unfinished">Open Debug Console</translation>
+        <translation>Άνοιγμα κονσόλας αποσφαλμάτωσης</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="78"/>
         <source>Open CSS Console</source>
-        <translation type="unfinished">Open CSS Console</translation>
+        <translation>Άνοιγμα κονσόλας CSS</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="79"/>
         <source>Open Command Palette</source>
-        <translation type="unfinished">Open Command Palette</translation>
+        <translation>Άνοιγμα παλέτας εντολών</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="80"/>
         <source>Open the About dialog</source>
-        <translation type="unfinished">Open the About dialog</translation>
+        <translation>Άνοιγμα του διαλόγου Σχετικά</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="81"/>
         <source>Quit the application</source>
-        <translation type="unfinished">Quit the application</translation>
+        <translation>Έξοδος από την εφαρμογή</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="12"/>
         <source>Cell text value editor</source>
-        <translation type="unfinished">Cell text value editor</translation>
+        <translation>Επεξεργαστής τιμής κειμένου κελιού</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="13"/>
         <location filename="../sqleditor.h" line="33"/>
         <source>Cut selected text</source>
-        <translation type="unfinished">Cut selected text</translation>
+        <translation>Αποκοπή επιλεγμένου κειμένου</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="14"/>
         <location filename="../sqleditor.h" line="34"/>
         <source>Copy selected text</source>
-        <translation type="unfinished">Copy selected text</translation>
+        <translation>Αντιγραφή επιλεγμένου κειμένου</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="16"/>
         <location filename="../sqleditor.h" line="36"/>
         <source>Delete selected text</source>
-        <translation type="unfinished">Delete selected text</translation>
+        <translation>Διαγραφή επιλεγμένου κειμένου</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="17"/>
         <location filename="../sqleditor.h" line="38"/>
         <source>Undo</source>
-        <translation type="unfinished">Undo</translation>
+        <translation>Αναίρεση</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="18"/>
         <location filename="../sqleditor.h" line="39"/>
         <source>Redo</source>
-        <translation type="unfinished">Redo</translation>
+        <translation>Επανάληψη</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="32"/>
         <source>SQL editor input field</source>
-        <translation type="unfinished">SQL editor input field</translation>
+        <translation>Πεδίο εισαγωγής επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="37"/>
         <source>Select whole editor contents</source>
-        <translation type="unfinished">Select whole editor contents</translation>
+        <translation>Επιλογή όλου του περιεχομένου του επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="40"/>
         <source>Save contents into a file</source>
-        <translation type="unfinished">Save contents into a file</translation>
+        <translation>Αποθήκευση περιεχομένων σε αρχείο</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="41"/>
         <source>Find in text</source>
-        <translation type="unfinished">Find in text</translation>
+        <translation>Εύρεση σε κείμενο</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="42"/>
         <source>Find next</source>
-        <translation type="unfinished">Find next</translation>
+        <translation>Εύρεση επόμενου</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="43"/>
         <source>Find previous</source>
-        <translation type="unfinished">Find previous</translation>
+        <translation>Εύρεση προηγούμενου</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="44"/>
         <source>Replace in text</source>
-        <translation type="unfinished">Replace in text</translation>
+        <translation>Αντικατάσταση σε κείμενο</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="45"/>
         <source>Delete current line</source>
-        <translation type="unfinished">Delete current line</translation>
+        <translation>Διαγραφή τρέχουσας γραμμής</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="46"/>
         <source>Request code assistant</source>
-        <translation type="unfinished">Request code assistant</translation>
+        <translation>Αίτημα βοηθού κώδικα</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="47"/>
         <source>Format contents</source>
-        <translation type="unfinished">Format contents</translation>
+        <translation>Μορφοποίηση περιεχομένων</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="48"/>
         <source>Open the object at current position</source>
-        <translation type="unfinished">Open the object at current position</translation>
+        <translation>Άνοιγμα του αντικειμένου στην τρέχουσα θέση</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="49"/>
         <source>Move selected block of text one line down</source>
-        <translation type="unfinished">Move selected block of text one line down</translation>
+        <translation>Μετακίνηση επιλεγμένου μπλοκ κειμένου μία γραμμή κάτω</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="50"/>
         <source>Move selected block of text one line up</source>
-        <translation type="unfinished">Move selected block of text one line up</translation>
+        <translation>Μετακίνηση επιλεγμένου μπλοκ κειμένου μία γραμμή πάνω</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="51"/>
         <source>Copy selected block of text and paste it a line below</source>
-        <translation type="unfinished">Copy selected block of text and paste it a line below</translation>
+        <translation>Αντιγραφή επιλεγμένου μπλοκ κειμένου και επικόλλησή του μία γραμμή παρακάτω</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="52"/>
         <source>Copy selected block of text and paste it a line above</source>
-        <translation type="unfinished">Copy selected block of text and paste it a line above</translation>
+        <translation>Αντιγραφή επιλεγμένου μπλοκ κειμένου και επικόλλησή του μία γραμμή παραπάνω</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="53"/>
         <source>Toggle comment</source>
-        <translation type="unfinished">Toggle comment</translation>
+        <translation>Εναλλαγή σχολίου</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="54"/>
         <source>Increase font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Αύξηση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="55"/>
         <source>Decrease font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Μείωση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Όλα τα αρχεία</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="72"/>
         <source>Select database file</source>
-        <translation type="unfinished">Select database file</translation>
+        <translation>Επιλέξτε αρχείο βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="72"/>
         <source>Select new database file</source>
-        <translation type="unfinished">Select new database file</translation>
+        <translation>Επιλέξτε νέο αρχείο βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>Αρχεία SQL</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="83"/>
         <location filename="../uiutils.cpp" line="96"/>
         <source>Select a file to open</source>
-        <translation type="unfinished">Select a file to open</translation>
+        <translation>Επιλέξτε αρχείο για άνοιγμα</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="267"/>
         <source>Format SQL</source>
-        <translation type="unfinished">Format SQL</translation>
+        <translation>Μορφοποίηση SQL</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="56"/>
         <source>Select</source>
-        <translation type="unfinished">Select</translation>
+        <translation>Επιλογή</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="57"/>
         <source>File type</source>
-        <translation type="unfinished">File type</translation>
+        <translation>Τύπος αρχείου</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="30"/>
         <source>SQL editor window</source>
-        <translation type="unfinished">SQL editor window</translation>
+        <translation>Παράθυρο επεξεργαστή SQL</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="31"/>
         <source>Execute query</source>
-        <translation type="unfinished">Execute query</translation>
+        <translation>Εκτέλεση ερωτήματος</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="32"/>
         <source>Execute single query under cursor</source>
-        <translation type="unfinished">Execute single query under cursor</translation>
+        <translation>Εκτέλεση μεμονωμένου ερωτήματος κάτω από τον δρομέα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="33"/>
         <source>Execute all queries in editor</source>
-        <translation type="unfinished">Execute all queries in editor</translation>
+        <translation>Εκτέλεση όλων των ερωτημάτων στον επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="34"/>
         <source>Execute EXPLAIN query</source>
-        <translation type="unfinished">Execute EXPLAIN query</translation>
+        <translation>Εκτέλεση ερωτήματος EXPLAIN</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="35"/>
         <source>Export query results</source>
-        <translation type="unfinished">Export query results</translation>
+        <translation>Εξαγωγή αποτελεσμάτων ερωτήματος</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="36"/>
         <source>Switch current working database to previous on the list</source>
-        <translation type="unfinished">Switch current working database to previous on the list</translation>
+        <translation>Αλλαγή τρέχουσας βάσης δεδομένων εργασίας στην προηγούμενη στη λίστα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="37"/>
         <source>Switch current working database to next on the list</source>
-        <translation type="unfinished">Switch current working database to next on the list</translation>
+        <translation>Αλλαγή τρέχουσας βάσης δεδομένων εργασίας στην επόμενη στη λίστα</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="38"/>
         <source>Go to next editor tab</source>
-        <translation type="unfinished">Go to next editor tab</translation>
+        <translation>Μετάβαση στην επόμενη καρτέλα επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="39"/>
         <source>Go to previous editor tab</source>
-        <translation type="unfinished">Go to previous editor tab</translation>
+        <translation>Μετάβαση στην προηγούμενη καρτέλα επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="40"/>
         <source>Move keyboard input focus to the results view below</source>
-        <translation type="unfinished">Move keyboard input focus to the results view below</translation>
+        <translation>Μετακίνηση εστίασης εισόδου πληκτρολογίου στην προβολή αποτελεσμάτων παρακάτω</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="41"/>
         <source>Move keyboard input focus to the SQL editor above</source>
-        <translation type="unfinished">Move keyboard input focus to the SQL editor above</translation>
+        <translation>Μετακίνηση εστίασης εισόδου πληκτρολογίου στον επεξεργαστή SQL παραπάνω</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="42"/>
         <source>Delete selected SQL history entries</source>
-        <translation type="unfinished">Delete selected SQL history entries</translation>
+        <translation>Διαγραφή επιλεγμένων καταχωρήσεων ιστορικού SQL</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="32"/>
         <source>Table window</source>
-        <translation type="unfinished">Table window</translation>
+        <translation>Παράθυρο πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="33"/>
         <source>Commit the table structure</source>
-        <translation type="unfinished">Commit the table structure</translation>
+        <translation>Οριστικοποίηση της δομής πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="34"/>
         <source>Rollback pending changes in the table structure</source>
-        <translation type="unfinished">Rollback pending changes in the table structure</translation>
+        <translation>Αναίρεση εκκρεμών αλλαγών στη δομή πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="35"/>
         <source>Refresh table structure</source>
-        <translation type="unfinished">Refresh table structure</translation>
+        <translation>Ανανέωση δομής πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="36"/>
         <source>Add new column</source>
-        <translation type="unfinished">Add new column</translation>
+        <translation>Προσθήκη νέας στήλης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="37"/>
         <source>Edit selected column</source>
-        <translation type="unfinished">Edit selected column</translation>
+        <translation>Επεξεργασία επιλεγμένης στήλης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="38"/>
         <source>Delete selected column</source>
-        <translation type="unfinished">Delete selected column</translation>
+        <translation>Διαγραφή επιλεγμένης στήλης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="39"/>
         <source>Export table data</source>
-        <translation type="unfinished">Export table data</translation>
+        <translation>Εξαγωγή δεδομένων πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="40"/>
         <source>Import data to the table</source>
-        <translation type="unfinished">Import data to the table</translation>
+        <translation>Εισαγωγή δεδομένων στον πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="41"/>
         <source>Add new table constraint</source>
-        <translation type="unfinished">Add new table constraint</translation>
+        <translation>Προσθήκη νέου περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="42"/>
         <source>Edit selected table constraint</source>
-        <translation type="unfinished">Edit selected table constraint</translation>
+        <translation>Επεξεργασία επιλεγμένου περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="43"/>
         <source>Delete selected table constraint</source>
-        <translation type="unfinished">Delete selected table constraint</translation>
+        <translation>Διαγραφή επιλεγμένου περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="44"/>
         <source>Refresh table index list</source>
-        <translation type="unfinished">Refresh table index list</translation>
+        <translation>Ανανέωση λίστας ευρετηρίων πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="45"/>
         <source>Add new index</source>
-        <translation type="unfinished">Add new index</translation>
+        <translation>Προσθήκη νέου ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="46"/>
         <source>Edit selected index</source>
-        <translation type="unfinished">Edit selected index</translation>
+        <translation>Επεξεργασία επιλεγμένου ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="47"/>
         <source>Delete selected index</source>
-        <translation type="unfinished">Delete selected index</translation>
+        <translation>Διαγραφή επιλεγμένου ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="48"/>
         <source>Refresh table trigger list</source>
-        <translation type="unfinished">Refresh table trigger list</translation>
+        <translation>Ανανέωση λίστας εναυσμάτων πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="49"/>
         <location filename="../windows/viewwindow.h" line="29"/>
         <source>Add new trigger</source>
-        <translation type="unfinished">Add new trigger</translation>
+        <translation>Προσθήκη νέου εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="50"/>
         <location filename="../windows/viewwindow.h" line="30"/>
         <source>Edit selected trigger</source>
-        <translation type="unfinished">Edit selected trigger</translation>
+        <translation>Επεξεργασία επιλεγμένου εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="51"/>
         <location filename="../windows/viewwindow.h" line="31"/>
         <source>Delete selected trigger</source>
-        <translation type="unfinished">Delete selected trigger</translation>
+        <translation>Διαγραφή επιλεγμένου εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="52"/>
         <location filename="../windows/viewwindow.h" line="32"/>
         <source>Go to next tab</source>
-        <translation type="unfinished">Go to next tab</translation>
+        <translation>Μετάβαση στην επόμενη καρτέλα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="53"/>
         <location filename="../windows/viewwindow.h" line="33"/>
         <source>Go to previous tab</source>
-        <translation type="unfinished">Go to previous tab</translation>
+        <translation>Μετάβαση στην προηγούμενη καρτέλα</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="23"/>
         <source>A view window</source>
-        <translation type="unfinished">A view window</translation>
+        <translation>Παράθυρο προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="24"/>
         <source>Commit the view&apos;s query</source>
-        <translation type="unfinished">Commit the view&apos;s query</translation>
+        <translation>Οριστικοποίηση του &apos;ερωτήματος&apos; της προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="25"/>
         <source>Rollback pending changes in the view&apos;s query</source>
-        <translation type="unfinished">Rollback pending changes in the view&apos;s query</translation>
+        <translation>Αναίρεση εκκρεμών αλλαγών στο &apos;ερώτημα&apos; της προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="26"/>
         <source>Refresh view trigger list</source>
-        <translation type="unfinished">Refresh view trigger list</translation>
+        <translation>Ανανέωση λίστας εναυσμάτων προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="27"/>
         <source>Execute the view&apos;s query</source>
-        <translation type="unfinished">Execute the view&apos;s query</translation>
+        <translation>Εκτέλεση του &apos;ερωτήματος&apos; της προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="28"/>
         <source>Export view data</source>
-        <translation type="unfinished">Export view data</translation>
+        <translation>Εξαγωγή δεδομένων προβολής</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.h" line="17"/>
         <source>A code snippets editor window</source>
-        <translation type="unfinished">A code snippets editor window</translation>
+        <translation>Παράθυρο επεξεργαστή αποσπασμάτων κώδικα</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.h" line="18"/>
@@ -6467,7 +6467,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/functionseditor.h" line="25"/>
         <location filename="../windows/sqliteextensioneditor.h" line="22"/>
         <source>Commit the pending changes</source>
-        <translation type="unfinished">Commit the pending changes</translation>
+        <translation>Οριστικοποίηση των εκκρεμών αλλαγών</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.h" line="19"/>
@@ -6475,58 +6475,58 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/functionseditor.h" line="26"/>
         <location filename="../windows/sqliteextensioneditor.h" line="23"/>
         <source>Rollback the pending changes</source>
-        <translation type="unfinished">Rollback the pending changes</translation>
+        <translation>Αναίρεση των εκκρεμών αλλαγών</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.h" line="21"/>
         <source>A collation editor window</source>
-        <translation type="unfinished">A collation editor window</translation>
+        <translation>Παράθυρο επεξεργαστή συρραφών</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.h" line="24"/>
         <source>A function editor window</source>
-        <translation type="unfinished">A function editor window</translation>
+        <translation>Παράθυρο επεξεργαστή συναρτήσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.h" line="21"/>
         <source>A SQLite extension editor window</source>
-        <translation type="unfinished">A SQLite extension editor window</translation>
+        <translation>Παράθυρο επεξεργαστή επεκτάσεων SQLite</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
         <source>Edit database properties</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Edit database properties</translation>
+        <translation>Επεξεργασία ιδιοτήτων βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
         <source>Open table</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Open table</translation>
+        <translation>Άνοιγμα πίνακα</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
         <source>Edit index</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Edit index</translation>
+        <translation>Επεξεργασία ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
         <source>Edit trigger</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Edit trigger</translation>
+        <translation>Επεξεργασία trigger</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
         <source>Open view</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Open view</translation>
+        <translation>Άνοιγμα προβολής</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
         <source>Bring the window to front</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Bring the window to front</translation>
+        <translation>Μεταφορά του παραθύρου στο προσκήνιο</translation>
     </message>
 </context>
 <context>
@@ -6534,12 +6534,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Μη οριστικοποιημένες αλλαγές</translation>
     </message>
     <message>
         <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Είστε βέβαιοι ότι θέλετε να κλείσετε την εφαρμογή;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Τα ακόλουθα στοιχεία εκκρεμούν:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -6547,54 +6547,54 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="14"/>
         <source>Find or replace</source>
-        <translation type="unfinished">Find or replace</translation>
+        <translation>Εύρεση ή αντικατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="88"/>
         <source>Find:</source>
-        <translation type="unfinished">Find:</translation>
+        <translation>Εύρεση:</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="31"/>
         <source>Case sensitive</source>
-        <translation type="unfinished">Case sensitive</translation>
+        <translation>Διάκριση πεζών-κεφαλαίων</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="38"/>
         <source>Search backwards</source>
-        <translation type="unfinished">Search backwards</translation>
+        <translation>Αναζήτηση προς τα πίσω</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="45"/>
         <source>Regular expression matching</source>
-        <translation type="unfinished">Regular expression matching</translation>
+        <translation>Αντιστοίχιση κανονικής έκφρασης</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="113"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Έφτασε στο τέλος του εγγράφου.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="20"/>
         <source>Replace &amp;&amp;
 find next</source>
-        <translation type="unfinished">Replace &amp;&amp;
-find next</translation>
+        <translation>Αντικατάσταση &amp;&amp;
+εύρεση επόμενου</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="65"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Replace with:</translation>
+        <translation>Αντικατάσταση με:</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="55"/>
         <source>Replace all</source>
-        <translation type="unfinished">Replace all</translation>
+        <translation>Αντικατάσταση όλων</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="75"/>
         <source>Find</source>
-        <translation type="unfinished">Find</translation>
+        <translation>Εύρεση</translation>
     </message>
 </context>
 <context>
@@ -6602,44 +6602,44 @@ find next</translation>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
         <source>Export configuration</source>
-        <translation type="unfinished">Export configuration</translation>
+        <translation>Εξαγωγή διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
         <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
         <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
         <source>Output JSON file</source>
-        <translation type="unfinished">Output JSON file</translation>
+        <translation>Αρχείο JSON εξόδου</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
         <source>JSON file (*.json);;All files (*)</source>
-        <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+        <translation>Αρχείο JSON (*.json);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
         <source>What to export?</source>
-        <translation type="unfinished">What to export?</translation>
+        <translation>Τι να εξαχθεί;</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
         <source>User-defined SQL functions</source>
-        <translation type="unfinished">User-defined SQL functions</translation>
+        <translation>Συναρτήσεις SQL ορισμένες από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
         <source>User-defined collation sequences</source>
-        <translation type="unfinished">User-defined collation sequences</translation>
+        <translation>Ακολουθίες συρραφής ορισμένες από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
         <source>User-defined code snippets</source>
-        <translation type="unfinished">User-defined code snippets</translation>
+        <translation>Αποσπάσματα κώδικα ορισμένα από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
         <source>Configured SQLite extensions</source>
-        <translation type="unfinished">Configured SQLite extensions</translation>
+        <translation>Διαμορφωμένες επεκτάσεις SQLite</translation>
     </message>
 </context>
 <context>
@@ -6647,94 +6647,94 @@ find next</translation>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
         <source>Import configuration</source>
-        <translation type="unfinished">Import configuration</translation>
+        <translation>Εισαγωγή διαμόρφωσης</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
         <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
         <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
         <source>Input JSON file</source>
-        <translation type="unfinished">Input JSON file</translation>
+        <translation>Αρχείο JSON εισόδου</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
         <source>JSON file (*.json);;All files (*)</source>
-        <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+        <translation>Αρχείο JSON (*.json);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
         <source>What to import?</source>
-        <translation type="unfinished">What to import?</translation>
+        <translation>Τι να εισαχθεί;</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
         <source>User-defined SQL functions</source>
-        <translation type="unfinished">User-defined SQL functions</translation>
+        <translation>Συναρτήσεις SQL ορισμένες από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
         <source>User-defined collation sequences</source>
-        <translation type="unfinished">User-defined collation sequences</translation>
+        <translation>Ακολουθίες συρραφής ορισμένες από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
         <source>User-defined code snippets</source>
-        <translation type="unfinished">User-defined code snippets</translation>
+        <translation>Αποσπάσματα κώδικα ορισμένα από τον χρήστη</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
         <source>Configured SQLite extensions</source>
-        <translation type="unfinished">Configured SQLite extensions</translation>
+        <translation>Διαμορφωμένες επεκτάσεις SQLite</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
         <source>Import mode</source>
-        <translation type="unfinished">Import mode</translation>
+        <translation>Λειτουργία εισαγωγής</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
         <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
-        <translation type="unfinished">Imports selected items without modifying or removing ones existing in your current configuration.</translation>
+        <translation>Εισάγει τα επιλεγμένα στοιχεία χωρίς να τροποποιεί ή να αφαιρεί όσα υπάρχουν στην τρέχουσα διαμόρφωσή σας.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
         <source>Add to existing items</source>
-        <translation type="unfinished">Add to existing items</translation>
+        <translation>Προσθήκη στα υπάρχοντα στοιχεία</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
         <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
-        <translation type="unfinished">Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</translation>
+        <translation>Αφαιρεί όλα τα υπάρχοντα στοιχεία στις επιλεγμένες κατηγορίες και, στη συνέχεια, εισάγει τα νέα από το αρχείο. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
         <source>Replace existing items</source>
-        <translation type="unfinished">Replace existing items</translation>
+        <translation>Αντικατάσταση υπαρχόντων στοιχείων</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
         <source>Invalid input file to import: %1</source>
-        <translation type="unfinished">Invalid input file to import: %1</translation>
+        <translation>Μη έγκυρο αρχείο εισόδου για εισαγωγή: %1</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
         <source>Selected file does not contain functions to import.</source>
-        <translation type="unfinished">Selected file does not contain functions to import.</translation>
+        <translation>Το επιλεγμένο αρχείο δεν περιέχει συναρτήσεις για εισαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
         <source>Selected file does not contain collation sequences to import.</source>
-        <translation type="unfinished">Selected file does not contain collation sequences to import.</translation>
+        <translation>Το επιλεγμένο αρχείο δεν περιέχει ακολουθίες ταξινόμησης για εισαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
         <source>Selected file does not contain code snippets to import.</source>
-        <translation type="unfinished">Selected file does not contain code snippets to import.</translation>
+        <translation>Το επιλεγμένο αρχείο δεν περιέχει αποσπάσματα κώδικα για εισαγωγή.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
         <source>Selected file does not contain SQLite extensions to import.</source>
-        <translation type="unfinished">Selected file does not contain SQLite extensions to import.</translation>
+        <translation>Το επιλεγμένο αρχείο δεν περιέχει επεκτάσεις SQLite για εισαγωγή.</translation>
     </message>
 </context>
 <context>
@@ -6742,34 +6742,34 @@ find next</translation>
     <message>
         <location filename="../dialogs/sortdialog.ui" line="14"/>
         <source>Sort by columns</source>
-        <translation type="unfinished">Sort by columns</translation>
+        <translation>Ταξινόμηση κατά στήλες</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.ui" line="45"/>
         <location filename="../dialogs/sortdialog.cpp" line="47"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Στήλη</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.ui" line="50"/>
         <location filename="../dialogs/sortdialog.cpp" line="47"/>
         <source>Order</source>
-        <translation type="unfinished">Order</translation>
+        <translation>Σειρά</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.cpp" line="177"/>
         <source>Sort by: %1</source>
-        <translation type="unfinished">Sort by: %1</translation>
+        <translation>Ταξινόμηση κατά: %1</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.cpp" line="241"/>
         <source>Move column up</source>
-        <translation type="unfinished">Move column up</translation>
+        <translation>Μετακίνηση στήλης προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.cpp" line="242"/>
         <source>Move column down</source>
-        <translation type="unfinished">Move column down</translation>
+        <translation>Μετακίνηση στήλης προς τα κάτω</translation>
     </message>
 </context>
 <context>
@@ -6777,12 +6777,12 @@ find next</translation>
     <message>
         <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
         <source>Error while committing new row: %1</source>
-        <translation type="unfinished">Error while committing new row: %1</translation>
+        <translation>Σφάλμα κατά την οριστικοποίηση νέας γραμμής: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
         <source>Error while deleting row from %1: %2</source>
-        <translation type="unfinished">Error while deleting row from %1: %2</translation>
+        <translation>Σφάλμα κατά τη διαγραφή γραμμής από %1: %2</translation>
     </message>
 </context>
 <context>
@@ -6791,207 +6791,207 @@ find next</translation>
         <location filename="../sqleditor.cpp" line="194"/>
         <source>Wrap words</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Wrap words</translation>
+        <translation>Αναδίπλωση λέξεων</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="158"/>
         <source>Cut</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Cut</translation>
+        <translation>Αποκοπή</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="159"/>
         <source>Copy</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Copy</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="160"/>
         <source>Paste</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Paste</translation>
+        <translation>Επικόλληση</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="161"/>
         <source>Delete</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Delete</translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="162"/>
         <source>Select all</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Select all</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="163"/>
         <source>Undo</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Undo</translation>
+        <translation>Αναίρεση</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="164"/>
         <source>Redo</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Redo</translation>
+        <translation>Επανάληψη</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="166"/>
         <source>Complete</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Complete</translation>
+        <translation>Συμπλήρωση</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="167"/>
         <source>Format SQL</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Format SQL</translation>
+        <translation>Μορφοποίηση SQL</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="168"/>
         <source>Save SQL to file</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Save SQL to file</translation>
+        <translation>Αποθήκευση SQL σε αρχείο</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="169"/>
         <source>Select file to save SQL</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Select file to save SQL</translation>
+        <translation>Επιλέξτε αρχείο για αποθήκευση SQL</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="170"/>
         <source>Load SQL from file</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Load SQL from file</translation>
+        <translation>Φόρτωση SQL από αρχείο</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="171"/>
         <source>Delete line</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Delete line</translation>
+        <translation>Διαγραφή γραμμής</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="172"/>
         <source>Move block down</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Move block down</translation>
+        <translation>Μετακίνηση μπλοκ προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="173"/>
         <source>Move block up</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Move block up</translation>
+        <translation>Μετακίνηση μπλοκ προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="174"/>
         <source>Copy block down</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Copy block down</translation>
+        <translation>Αντιγραφή μπλοκ προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="175"/>
         <source>Copy up down</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Copy up down</translation>
+        <translation>Αντιγραφή μπλοκ προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="176"/>
         <source>Find or replace</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Find or replace</translation>
+        <translation>Εύρεση ή αντικατάσταση</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="177"/>
         <source>Find next</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Find next</translation>
+        <translation>Εύρεση επόμενου</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="178"/>
         <source>Find previous</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Find previous</translation>
+        <translation>Εύρεση προηγούμενου</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="179"/>
         <source>Replace</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Replace</translation>
+        <translation>Αντικατάσταση</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="180"/>
         <source>Toggle comment</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Toggle comment</translation>
+        <translation>Εναλλαγή σχολίου</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="181"/>
         <source>Increase font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Αύξηση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="182"/>
         <source>Decrease font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Μείωση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="297"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+        <translation>Δεν ήταν δυνατό το άνοιγμα του αρχείου &apos;%1&apos; για εγγραφή: %2</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="306"/>
         <source>Saved SQL contents to file: %1</source>
-        <translation type="unfinished">Saved SQL contents to file: %1</translation>
+        <translation>Τα περιεχόμενα SQL αποθηκεύτηκαν στο αρχείο: %1</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="562"/>
         <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
-        <translation type="unfinished">Syntax completion can be used only when a valid database is set for the SQL editor.</translation>
+        <translation>Η συμπλήρωση σύνταξης μπορεί να χρησιμοποιηθεί μόνο όταν έχει οριστεί έγκυρη βάση δεδομένων για τον επεξεργαστή SQL.</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1183"/>
         <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
-        <translation type="unfinished">Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</translation>
+        <translation>Τα περιεχόμενα του επεξεργαστή SQL είναι τεράστια, επομένως η ανίχνευση σφαλμάτων και η επισήμανση υπαρχόντων αντικειμένων έχουν απενεργοποιηθεί προσωρινά.</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1212"/>
         <source>Save to file</source>
-        <translation type="unfinished">Save to file</translation>
+        <translation>Αποθήκευση σε αρχείο</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1227"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
-        <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+        <translation>Σενάρια SQL (*.sql);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1228"/>
         <location filename="../sqleditor.cpp" line="1259"/>
         <source>Open file</source>
-        <translation type="unfinished">Open file</translation>
+        <translation>Άνοιγμα αρχείου</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1260"/>
         <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
-        <translation type="unfinished">This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</translation>
+        <translation>Αυτό το αρχείο είναι τεράστιο (πάνω από %1 MB). Είστε βέβαιοι ότι θέλετε να το φορτώσετε στον επεξεργαστή ερωτημάτων SQL;</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1274"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
+        <translation>Δεν ήταν δυνατό το άνοιγμα του αρχείου &apos;%1&apos; για ανάγνωση: %2</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1468"/>
         <source>Reached the end of document. Hit the find again to restart the search.</source>
-        <translation type="unfinished">Reached the end of document. Hit the find again to restart the search.</translation>
+        <translation>Φτάσατε στο τέλος του εγγράφου. Πατήστε ξανά την εύρεση για επανεκκίνηση της αναζήτησης.</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1740"/>
         <source>Ctrl+click to open this table or view</source>
-        <translation type="unfinished">Ctrl+click to open this table or view</translation>
+        <translation>Ctrl+κλικ για άνοιγμα αυτού του πίνακα ή της προβολής</translation>
     </message>
 </context>
 <context>
@@ -7000,31 +7000,31 @@ find next</translation>
         <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
         <source>Committing error:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Committing error:</translation>
+        <translation>Σφάλμα επικύρωσης:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
         <source>Column:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Column:</translation>
+        <translation>Στήλη:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
         <source>Data type:</source>
         <comment>data view</comment>
-        <translation type="unfinished">Data type:</translation>
+        <translation>Τύπος δεδομένων:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
         <source>Table:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Table:</translation>
+        <translation>Πίνακας:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
         <source>Constraints:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Constraints:</translation>
+        <translation>Περιορισμοί:</translation>
     </message>
 </context>
 <context>
@@ -7036,48 +7036,48 @@ find next</translation>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
         <source>Cannot edit this cell. Details: %1</source>
-        <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+        <translation>Δεν είναι δυνατή η επεξεργασία αυτού του κελιού. Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
         <source>The row is marked for deletion.</source>
-        <translation type="unfinished">The row is marked for deletion.</translation>
+        <translation>Η γραμμή έχει επισημανθεί για διαγραφή.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
         <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
-        <translation type="unfinished">Structure of this table has changed since last data was loaded. Reload the data to proceed.</translation>
+        <translation>Η δομή αυτού του πίνακα έχει αλλάξει από την τελευταία φόρτωση των δεδομένων. Επαναφορτώστε τα δεδομένα για να συνεχίσετε.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
         <source>ROWID is not available for this cell.</source>
-        <translation type="unfinished">ROWID is not available for this cell.</translation>
+        <translation>Το ROWID δεν είναι διαθέσιμο για αυτό το κελί.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
         <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
-        <translation type="unfinished">Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</translation>
+        <translation>Η επεξεργασία τεράστιου περιεχομένου σε ενσωματωμένο επεξεργαστή κελιού δεν είναι καλή ιδέα. Μπορεί να γίνει αργή και άβολη. Είναι &apos;καλύτερο&apos; να επεξεργάζεστε τόσο μεγάλο περιεχόμενο σε Προβολή φόρμας ή σε αναδυόμενο επεξεργαστή (διαθέσιμο από το μενού δεξιού κλικ).</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
         <source>Reset to DEFAULT value</source>
-        <translation type="unfinished">Reset to DEFAULT value</translation>
+        <translation>Επαναφορά στην τιμή DEFAULT</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
         <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
-        <translation type="unfinished">Reset to PRIMARY KEY AUTOINCREMENT value</translation>
+        <translation>Επαναφορά στην τιμή PRIMARY KEY AUTOINCREMENT</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
         <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+        <translation>Επαναφορά τιμής</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
         <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
-        <translation type="unfinished">Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</translation>
+        <translation>Το ξένο κλειδί για τη στήλη %2 έχει περισσότερες από %1 πιθανές τιμές. Είναι &apos;πάρα πολλές&apos; για να εμφανιστούν σε αναπτυσσόμενη λίστα. Πρέπει να επεξεργαστείτε την τιμή χειροκίνητα.</translation>
     </message>
 </context>
 <context>
@@ -7086,121 +7086,121 @@ find next</translation>
         <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
         <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
         <source>Only one query can be executed simultaneously.</source>
-        <translation type="unfinished">Only one query can be executed simultaneously.</translation>
+        <translation>Μόνο ένα ερώτημα μπορεί να εκτελείται ταυτόχρονα.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
         <source>Cannot execute query on undefined or invalid database.</source>
-        <translation type="unfinished">Cannot execute query on undefined or invalid database.</translation>
+        <translation>Δεν είναι δυνατή η εκτέλεση ερωτήματος σε μη καθορισμένη ή μη έγκυρη βάση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
         <source>Cannot execute empty query.</source>
-        <translation type="unfinished">Cannot execute empty query.</translation>
+        <translation>Δεν είναι δυνατή η εκτέλεση κενού ερωτήματος.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
         <source>Uncommitted data</source>
-        <translation type="unfinished">Uncommitted data</translation>
+        <translation>Μη επικυρωμένα δεδομένα</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
-        <translation type="unfinished">There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</translation>
+        <translation>Υπάρχουν μη επικυρωμένες αλλαγές δεδομένων. Θέλετε να συνεχίσετε ούτως ή άλλως; Όλες οι μη επικυρωμένες αλλαγές θα χαθούν.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
-        <translation type="unfinished">Cannot commit the data for a cell that refers to the already closed database.</translation>
+        <translation>Δεν είναι δυνατή η επικύρωση των δεδομένων για κελί που αναφέρεται σε ήδη κλειστή βάση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
         <source>Could not begin transaction on the database. Details: %1</source>
-        <translation type="unfinished">Could not begin transaction on the database. Details: %1</translation>
+        <translation>Δεν ήταν δυνατή η έναρξη συναλλαγής στη βάση δεδομένων. Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
         <source>An error occurred while committing the transaction: %1</source>
-        <translation type="unfinished">An error occurred while committing the transaction: %1</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την επικύρωση της συναλλαγής: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
         <source>An error occurred while rolling back the transaction: %1</source>
-        <translation type="unfinished">An error occurred while rolling back the transaction: %1</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την επαναφορά της συναλλαγής: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
-        <translation type="unfinished">Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</translation>
+        <translation>Έγινε προσπάθεια επικύρωσης κελιού που δεν είναι επεξεργάσιμο (παρότι έχει τροποποιηθεί και αναμένει επικύρωση)! Αυτό είναι σφάλμα. Παρακαλώ αναφέρετέ το.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
         <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την επικύρωση των δεδομένων: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
-        <translation type="unfinished">Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</translation>
+        <translation>Ο αριθμός γραμμών ανά σελίδα μειώθηκε σε %1 λόγω του αριθμού στηλών (%2) στην προβολή δεδομένων.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
-        <translation type="unfinished">Error while executing SQL query on database &apos;%1&apos;: %2</translation>
+        <translation>Σφάλμα κατά την εκτέλεση ερωτήματος SQL στη βάση δεδομένων &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
         <source>Error while loading query results: %1</source>
-        <translation type="unfinished">Error while loading query results: %1</translation>
+        <translation>Σφάλμα κατά τη φόρτωση των αποτελεσμάτων ερωτήματος: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation type="unfinished">There are less columns in the new query, sort order has been reset.</translation>
+        <translation>Υπάρχουν λιγότερες στήλες στο νέο ερώτημα, η σειρά ταξινόμησης έχει επαναφερθεί.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Insert multiple rows</source>
-        <translation type="unfinished">Insert multiple rows</translation>
+        <translation>Εισαγωγή πολλαπλών γραμμών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Number of rows to insert:</source>
-        <translation type="unfinished">Number of rows to insert:</translation>
+        <translation>Αριθμός γραμμών για εισαγωγή:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>Delete rows</source>
-        <translation type="unfinished">Delete rows</translation>
+        <translation>Διαγραφή γραμμών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
-        <translation type="unfinished">You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
-Such deletion will be permanent. Are you sure you want to delete them?</translation>
+        <translation>Πρόκειται να διαγράψετε πρόσφατα εισαγμένες γραμμές που δεν έχουν ακόμη οριστικοποιηθεί. Αριθμοί γραμμών: %1
+Αυτή η διαγραφή θα είναι &apos;μόνιμη&apos;. Είστε βέβαιοι ότι θέλετε να τις διαγράψετε;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
-        <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
+        <translation>Το μονό κλικ ταξινομεί κατά τη στήλη.&lt;br&gt;Alt+κλικ επιλέγει δεδομένα στη στήλη.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
-        <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
+        <translation>Το μονό κλικ επιλέγει δεδομένα στη στήλη.&lt;br&gt;Το διπλό κλικ ταξινομεί κατά τη στήλη.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>Middle-click resets sorting.</source>
-        <translation type="unfinished">Middle-click resets sorting.</translation>
+        <translation>Το μεσαίο κλικ επαναφέρει την ταξινόμηση.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>More options are available in the context menu.</source>
-        <translation type="unfinished">More options are available in the context menu.</translation>
+        <translation>Περισσότερες επιλογές είναι διαθέσιμες στο μενού περιβάλλοντος.</translation>
     </message>
 </context>
 <context>
@@ -7208,230 +7208,230 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
         <source>Go to referenced row in...</source>
-        <translation type="unfinished">Go to referenced row in...</translation>
+        <translation>Μετάβαση στην αναφερόμενη γραμμή σε...</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
         <source>Cut</source>
-        <translation type="unfinished">Cut</translation>
+        <translation>Αποκοπή</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
         <source>Copy with headers</source>
-        <translation type="unfinished">Copy with headers</translation>
+        <translation>Αντιγραφή με κεφαλίδες</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
         <source>Copy as...</source>
-        <translation type="unfinished">Copy as...</translation>
+        <translation>Αντιγραφή ως...</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Επικόλληση</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
         <source>Paste as...</source>
-        <translation type="unfinished">Paste as...</translation>
+        <translation>Επικόλληση ως...</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
         <source>Set NULL value</source>
-        <translation type="unfinished">Set NULL value</translation>
+        <translation>Ορισμός τιμής NULL</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
         <source>Erase value</source>
-        <translation type="unfinished">Erase value</translation>
+        <translation>Διαγραφή τιμής</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
         <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+        <translation>Επαναφορά τιμής</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
         <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+        <translation>Επικύρωση</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
         <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+        <translation>Επαναφορά</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
         <source>Commit selected cells</source>
-        <translation type="unfinished">Commit selected cells</translation>
+        <translation>Επικύρωση επιλεγμένων κελιών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
         <source>Rollback selected cells</source>
-        <translation type="unfinished">Rollback selected cells</translation>
+        <translation>Επαναφορά επιλεγμένων κελιών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
         <source>Edit current cell inline</source>
-        <translation type="unfinished">Edit current cell inline</translation>
+        <translation>Επεξεργασία τρέχοντος κελιού επιτόπου</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
         <source>Define columns to sort by</source>
-        <translation type="unfinished">Define columns to sort by</translation>
+        <translation>Καθορισμός στηλών ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
         <source>Remove custom sorting (Middle click)</source>
-        <translation type="unfinished">Remove custom sorting (Middle click)</translation>
+        <translation>Αφαίρεση προσαρμοσμένης ταξινόμησης (μεσαίο κλικ)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
         <source>Insert row</source>
-        <translation type="unfinished">Insert row</translation>
+        <translation>Εισαγωγή γραμμής</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
         <source>Insert multiple rows</source>
-        <translation type="unfinished">Insert multiple rows</translation>
+        <translation>Εισαγωγή πολλαπλών γραμμών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
         <source>Delete selected row</source>
-        <translation type="unfinished">Delete selected row</translation>
+        <translation>Διαγραφή επιλεγμένης γραμμής</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
         <source>Adjust height of rows</source>
-        <translation type="unfinished">Adjust height of rows</translation>
+        <translation>Προσαρμογή ύψους γραμμών</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
         <source>Next row on Enter</source>
-        <translation type="unfinished">Next row on Enter</translation>
+        <translation>Επόμενη γραμμή με Enter</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
         <source>Increase font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Αύξηση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
         <source>Decrease font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Μείωση μεγέθους γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
         <source>Invert selection</source>
         <comment>data view</comment>
-        <translation type="unfinished">Invert selection</translation>
+        <translation>Αντιστροφή επιλογής</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
         <source>Edit value in editor</source>
-        <translation type="unfinished">Edit value in editor</translation>
+        <translation>Επεξεργασία τιμής στον επεξεργαστή</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
         <source>Show value in a viewer</source>
-        <translation type="unfinished">Show value in a viewer</translation>
+        <translation>Εμφάνιση τιμής σε προβολέα</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
         <source>Generate query for selected cells</source>
-        <translation type="unfinished">Generate query for selected cells</translation>
+        <translation>Δημιουργία ερωτήματος για επιλεγμένα κελιά</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
         <source>No items selected to paste clipboard contents to.</source>
-        <translation type="unfinished">No items selected to paste clipboard contents to.</translation>
+        <translation>Δεν έχουν επιλεγεί στοιχεία για επικόλληση των περιεχομένων του πρόχειρου.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
         <source>Cannot paste data. Details: %1</source>
-        <translation type="unfinished">Cannot paste data. Details: %1</translation>
+        <translation>Δεν είναι δυνατή η επικόλληση δεδομένων. Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
         <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
-        <translation type="unfinished">Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</translation>
+        <translation>Η δομή τουλάχιστον ενός χρησιμοποιούμενου πίνακα έχει αλλάξει από την τελευταία φόρτωση των δεδομένων. Επαναφορτώστε τα δεδομένα για να συνεχίσετε.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
         <source>Cannot paste to a cell. Details: %1</source>
-        <translation type="unfinished">Cannot paste to a cell. Details: %1</translation>
+        <translation>Δεν είναι δυνατή η επικόλληση σε κελί. Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
         <source>The row is marked for deletion.</source>
-        <translation type="unfinished">The row is marked for deletion.</translation>
+        <translation>Η γραμμή έχει επισημανθεί για διαγραφή.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
         <source>Cannot paste to column %1. Details: %2</source>
-        <translation type="unfinished">Cannot paste to column %1. Details: %2</translation>
+        <translation>Δεν είναι δυνατή η επικόλληση στη στήλη %1. Λεπτομέρειες: %2</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
         <source>Go to referenced row in table &apos;%1&apos;</source>
-        <translation type="unfinished">Go to referenced row in table &apos;%1&apos;</translation>
+        <translation>Μετάβαση στην αναφερόμενη γραμμή στον πίνακα &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
         <source>table &apos;%1&apos;</source>
-        <translation type="unfinished">table &apos;%1&apos;</translation>
+        <translation>πίνακας &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
         <source>Referenced row (%1)</source>
-        <translation type="unfinished">Referenced row (%1)</translation>
+        <translation>Αναφερόμενη γραμμή (%1)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
         <source>Pin column</source>
-        <translation type="unfinished">Pin column</translation>
+        <translation>Καρφίτσωμα στήλης</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
         <source>Column renderer</source>
-        <translation type="unfinished">Column renderer</translation>
+        <translation>Απεικονιστής στήλης</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
         <source>Default</source>
-        <translation type="unfinished">Default</translation>
+        <translation>Προεπιλογή</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
         <source>Trim pasted text?</source>
-        <translation type="unfinished">Trim pasted text?</translation>
+        <translation>Περικοπή επικολλημένου κειμένου;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
         <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
-        <translation type="unfinished">The pasted text contains leading or trailing white space. Trim it automatically?</translation>
+        <translation>Το επικολλημένο κείμενο περιέχει αρχικά ή τελικά κενά. Να περικοπεί αυτόματα;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
         <source>Paste &quot;NULL&quot; as null value?</source>
-        <translation type="unfinished">Paste &quot;NULL&quot; as null value?</translation>
+        <translation>Επικόλληση του &quot;NULL&quot; ως null τιμή;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
         <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
-        <translation type="unfinished">The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</translation>
+        <translation>Το επικολλημένο κείμενο περιέχει λεκτικά &quot;NULL&quot;. Θέλετε να τα θεωρήσετε ως τιμές NULL;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
         <source>Edit value</source>
-        <translation type="unfinished">Edit value</translation>
+        <translation>Επεξεργασία τιμής</translation>
     </message>
 </context>
 <context>
@@ -7439,22 +7439,22 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
         <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την οριστικοποίηση των δεδομένων: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
         <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
+        <translation>Γραμμή %1: το trigger INSTEAD OF UPDATE τροποποίησε περισσότερες από μία γραμμές (%2). Η προβολή δεν ταυτοποιεί μοναδικά την επεξεργαζόμενη εγγραφή.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished">Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</translation>
+        <translation>Γραμμή %1: το trigger INSTEAD OF DELETE διέγραψε περισσότερες από μία γραμμές (%2). Η προβολή δεν ταυτοποιεί μοναδικά την επεξεργαζόμενη εγγραφή.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-        <translation type="unfinished">The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</translation>
+        <translation>Η προβολή έχει trigger(s) INSTEAD OF που χειρίζονται την επεξεργασία. Συνιστάται η ανανέωση των δεδομένων μετά την οριστικοποίηση για να δείτε τις πραγματικές αλλαγές, επειδή τα trigger μπορεί να τροποποιήσουν τα δεδομένα μ&apos; απροσδόκητο τρόπο.</translation>
     </message>
 </context>
 <context>
@@ -7462,122 +7462,122 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
         <source>Filter extensions</source>
-        <translation type="unfinished">Filter extensions</translation>
+        <translation>Φιλτράρισμα επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
         <source>Leave empty to use default function</source>
-        <translation type="unfinished">Leave empty to use default function</translation>
+        <translation>Αφήστε κενό για χρήση της προεπιλεγμένης συνάρτησης</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
         <source>Extension file</source>
-        <translation type="unfinished">Extension file</translation>
+        <translation>Αρχείο επέκτασης</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
         <source>Initialization function</source>
-        <translation type="unfinished">Initialization function</translation>
+        <translation>Συνάρτηση αρχικοποίησης</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
         <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+        <translation>Εγγραφή σε όλες τις βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
         <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+        <translation>Εγγραφή στις ακόλουθες βάσεις δεδομένων:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
         <source>Extension manager window has uncommitted modifications.</source>
-        <translation type="unfinished">Extension manager window has uncommitted modifications.</translation>
+        <translation>Το παράθυρο διαχειριστή επεκτάσεων έχει μη επικυρωμένες τροποποιήσεις.</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
         <source>Extension manager</source>
-        <translation type="unfinished">Extension manager</translation>
+        <translation>Διαχειριστής επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
         <source>Commit all extension changes</source>
-        <translation type="unfinished">Commit all extension changes</translation>
+        <translation>Επικύρωση όλων των αλλαγών επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
         <source>Rollback all extension changes</source>
-        <translation type="unfinished">Rollback all extension changes</translation>
+        <translation>Επαναφορά όλων των αλλαγών επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
         <source>Add new extension</source>
-        <translation type="unfinished">Add new extension</translation>
+        <translation>Προσθήκη νέας επέκτασης</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
         <source>Remove selected extension</source>
-        <translation type="unfinished">Remove selected extension</translation>
+        <translation>Αφαίρεση επιλεγμένης επέκτασης</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
         <source>Import extension list from file</source>
-        <translation type="unfinished">Import extension list from file</translation>
+        <translation>Εισαγωγή λίστας επεκτάσεων από αρχείο</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
         <source>Export extension list file</source>
-        <translation type="unfinished">Export extension list file</translation>
+        <translation>Εξαγωγή αρχείου λίστας επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
         <source>Editing extensions manual</source>
-        <translation type="unfinished">Editing extensions manual</translation>
+        <translation>Εγχειρίδιο επεξεργασίας επεκτάσεων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
         <source>File with given path does not exist or is not readable.</source>
-        <translation type="unfinished">File with given path does not exist or is not readable.</translation>
+        <translation>Το αρχείο με τη δοσμένη διαδρομή δεν υπάρχει ή δεν είναι αναγνώσιμο.</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
         <source>Unable to load extension: %1</source>
-        <translation type="unfinished">Unable to load extension: %1</translation>
+        <translation>Αδυναμία φόρτωσης επέκτασης: %1</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
         <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
-        <translation type="unfinished">Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</translation>
+        <translation>Μη έγκυρο όνομα συνάρτησης αρχικοποίησης. Το όνομα συνάρτησης μπορεί να περιέχει μόνο αλφαριθμητικούς χαρακτήρες και κάτω παύλα.</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
         <source>Dynamic link libraries (*.dll);;All files (*)</source>
-        <translation type="unfinished">Dynamic link libraries (*.dll);;All files (*)</translation>
+        <translation>Βιβλιοθήκες δυναμικής σύνδεσης (*.dll);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
         <source>Shared objects (*.so);;All files (*)</source>
-        <translation type="unfinished">Shared objects (*.so);;All files (*)</translation>
+        <translation>Κοινόχρηστα αντικείμενα (*.so);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
         <source>Dynamic libraries (*.dylib);;All files (*)</source>
-        <translation type="unfinished">Dynamic libraries (*.dylib);;All files (*)</translation>
+        <translation>Δυναμικές βιβλιοθήκες (*.dylib);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
         <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+        <translation>Όλα τα αρχεία (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
         <source>Open file</source>
-        <translation type="unfinished">Open file</translation>
+        <translation>Άνοιγμα αρχείου</translation>
     </message>
 </context>
 <context>
@@ -7585,27 +7585,27 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>όλες οι βάσεις δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
         <source>Extension:</source>
-        <translation type="unfinished">Extension:</translation>
+        <translation>Επέκταση:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
         <source>File:</source>
-        <translation type="unfinished">File:</translation>
+        <translation>Αρχείο:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
         <source>Init function:</source>
-        <translation type="unfinished">Init function:</translation>
+        <translation>Συνάρτηση αρχικοποίησης:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Εγγεγραμμένη σε:</translation>
     </message>
 </context>
 <context>
@@ -7613,17 +7613,17 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../statusfield.ui" line="14"/>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Κατάσταση</translation>
     </message>
     <message>
         <location filename="../statusfield.cpp" line="211"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../statusfield.cpp" line="218"/>
         <source>Clear</source>
-        <translation type="unfinished">Clear</translation>
+        <translation>Εκκαθάριση</translation>
     </message>
 </context>
 <context>
@@ -7632,19 +7632,19 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
         <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
         <source>Type</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Type</translation>
+        <translation>Τύπος</translation>
     </message>
     <message>
         <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
         <source>Details</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
         <source>Name</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
 </context>
 <context>
@@ -7652,83 +7652,83 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Στήλες</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
         <source>Referenced table:</source>
-        <translation type="unfinished">Referenced table:</translation>
+        <translation>Αναφερόμενος πίνακας:</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
         <source>Referencing column</source>
-        <translation type="unfinished">Referencing column</translation>
+        <translation>Στήλη αναφοράς</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
         <source>Referenced column</source>
-        <translation type="unfinished">Referenced column</translation>
+        <translation>Αναφερόμενη στήλη</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
         <source>Reactions</source>
-        <translation type="unfinished">Reactions</translation>
+        <translation>Αντιδράσεις</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
         <source>Deferred foreign key</source>
-        <translation type="unfinished">Deferred foreign key</translation>
+        <translation>Αναβαλλόμενο ξένο κλειδί</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Ονομασμένος περιορισμός</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Όνομα περιορισμού</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
         <source>Pick the foreign column.</source>
-        <translation type="unfinished">Pick the foreign column.</translation>
+        <translation>Επιλέξτε την ξένη στήλη.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
         <source>Pick the foreign table.</source>
-        <translation type="unfinished">Pick the foreign table.</translation>
+        <translation>Επιλέξτε τον ξένο πίνακα.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
         <source>Select at least one foreign column.</source>
-        <translation type="unfinished">Select at least one foreign column.</translation>
+        <translation>Επιλέξτε τουλάχιστον μία ξένη στήλη.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
         <source>Column with the same name</source>
-        <translation type="unfinished">Column with the same name</translation>
+        <translation>Στήλη με το ίδιο όνομα</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
         <source>Foreign column</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Foreign column</translation>
+        <translation>Ξένη στήλη</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
         <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</translation>
+        <translation>Η αναφερόμενη στήλη δεν είναι PRIMARY KEY ή UNIQUE. Μπορεί να προκαλέσει προβλήματα κατά την εισαγωγή ή την ενημέρωση δεδομένων.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
         <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</translation>
+        <translation>Ο τύπος της αναφερόμενης στήλης (%1) διαφέρει από τον τύπο που δηλώθηκε για την τοπική στήλη (%2). Μπορεί να προκαλέσει προβλήματα κατά την εισαγωγή ή την ενημέρωση δεδομένων.</translation>
     </message>
 </context>
 <context>
@@ -7736,69 +7736,69 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Στήλες</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Στήλη</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Ακολουθία ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
         <source>Sort</source>
-        <translation type="unfinished">Sort</translation>
+        <translation>Ταξινόμηση</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
         <source>Valid only for a single column with INTEGER data type</source>
-        <translation type="unfinished">Valid only for a single column with INTEGER data type</translation>
+        <translation>Έγκυρο μόνο για μία στήλη με τύπο δεδομένων INTEGER</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Αυτόματη αύξηση</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Ονομασμένος περιορισμός</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Όνομα περιορισμού</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
         <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+        <translation>Σε περίπτωση σύγκρουσης</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
         <source>Collate</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
         <source>Sort order</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
         <source>Select at least one column.</source>
-        <translation type="unfinished">Select at least one column.</translation>
+        <translation>Επιλέξτε τουλάχιστον μία στήλη.</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Εισαγάγετε ένα όνομα για τον περιορισμό.</translation>
     </message>
 </context>
 <context>
@@ -7807,67 +7807,67 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
         <location filename="../windows/tablestructuremodel.cpp" line="322"/>
         <source>Name</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="324"/>
         <source>Data type</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Data type</translation>
+        <translation>Τύπος δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="326"/>
         <source>Primary
 Key</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Primary
-Key</translation>
+        <translation>Πρωτεύον
+Κλειδί</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="328"/>
         <source>Foreign
 Key</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Foreign
-Key</translation>
+        <translation>Ξένο
+Κλειδί</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="330"/>
         <source>Unique</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Μοναδικό</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="332"/>
         <source>Check</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Check</translation>
+        <translation>Έλεγχος</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="334"/>
         <source>Not
 NULL</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Not
+        <translation>Όχι
 NULL</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="336"/>
         <source>Collate</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="338"/>
         <source>Generated</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Generated</translation>
+        <translation>Παραγόμενο</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="340"/>
         <source>Default value</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Default value</translation>
+        <translation>Προεπιλεγμένη τιμή</translation>
     </message>
 </context>
 <context>
@@ -7875,470 +7875,470 @@ NULL</translation>
     <message>
         <location filename="../windows/tablewindow.ui" line="36"/>
         <source>Structure</source>
-        <translation type="unfinished">Structure</translation>
+        <translation>Δομή</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="70"/>
         <source>Table name:</source>
-        <translation type="unfinished">Table name:</translation>
+        <translation>Όνομα πίνακα:</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="87"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ενεργοποιεί/απενεργοποιεί τη ρήτρα WITHOUT ROWID στον πίνακα. Ένας τέτοιος πίνακας δεν θα έχει πλέον την κρυφή στήλη &amp;quot;rowid&amp;quot;. Για τέτοιον πίνακα είναι υποχρεωτική μια ρητή στήλη PRIMARY KEY. Μπορείτε να διαβάσετε περισσότερες λεπτομέρειες για αυτό στην επίσημη τεκμηρίωση του SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="97"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ενεργοποιεί/απενεργοποιεί τη ρήτρα STRICT για τον πίνακα. Ένας τέτοιος πίνακας κάνει αυστηρή επαλήθευση των δεδομένων που αποθηκεύονται στις στήλες έναντι των δηλωμένων τύπων δεδομένων για αυτές τις στήλες. Αυτό είναι παρόμοιο με τον τρόπο που συνήθως επιβάλλονται οι τύποι δεδομένων στις περισσότερες άλλες μηχανές βάσεων δεδομένων. Διατηρήστε το απενεργοποιημένο για να χρησιμοποιήσετε την κλασική συμπεριφορά SQLite (δηλ. χωρίς επιβολή τύπου δεδομένων). Μπορείτε να βρείτε περισσότερες λεπτομέρειες στην επίσημη τεκμηρίωση του SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="213"/>
         <location filename="../windows/tablewindow.cpp" line="1778"/>
         <source>Data</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Δεδομένα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="230"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Περιορισμοί</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="244"/>
         <source>Indexes</source>
-        <translation type="unfinished">Indexes</translation>
+        <translation>Ευρετήρια</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="276"/>
         <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+        <translation>Εναύσματα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="311"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>Κώδικας DDL</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="243"/>
         <source>Export table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Export table</translation>
+        <translation>Εξαγωγή πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="244"/>
         <source>Populate table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Populate table</translation>
+        <translation>Συμπλήρωση πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="232"/>
         <source>Refresh structure</source>
         <comment>table window</comment>
-        <translation type="unfinished">Refresh structure</translation>
+        <translation>Ανανέωση δομής</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="234"/>
         <source>Commit structure changes</source>
         <comment>table window</comment>
-        <translation type="unfinished">Commit structure changes</translation>
+        <translation>Επικύρωση αλλαγών δομής</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="235"/>
         <source>Rollback structure changes</source>
         <comment>table window</comment>
-        <translation type="unfinished">Rollback structure changes</translation>
+        <translation>Επαναφορά αλλαγών δομής</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="236"/>
         <source>Add column</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add column</translation>
+        <translation>Προσθήκη στήλης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="237"/>
         <source>Edit column</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit column</translation>
+        <translation>Επεξεργασία στήλης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="238"/>
         <location filename="../windows/tablewindow.cpp" line="330"/>
         <source>Delete column</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete column</translation>
+        <translation>Διαγραφή στήλης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="239"/>
         <source>Move column up</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move column up</translation>
+        <translation>Μετακίνηση στήλης προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="240"/>
         <source>Move column down</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move column down</translation>
+        <translation>Μετακίνηση στήλης προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="246"/>
         <source>Create similar table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Create similar table</translation>
+        <translation>Δημιουργία παρόμοιου πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="247"/>
         <source>Reset autoincrement value</source>
         <comment>table window</comment>
-        <translation type="unfinished">Reset autoincrement value</translation>
+        <translation>Επαναφορά τιμής αυτόματης αύξησης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="250"/>
         <source>Add table constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table constraint</translation>
+        <translation>Προσθήκη περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="251"/>
         <source>Edit table constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit table constraint</translation>
+        <translation>Επεξεργασία περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="252"/>
         <source>Delete table constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete table constraint</translation>
+        <translation>Διαγραφή περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="253"/>
         <source>Move table constraint up</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move table constraint up</translation>
+        <translation>Μετακίνηση περιορισμού πίνακα προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="254"/>
         <source>Move table constraint down</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move table constraint down</translation>
+        <translation>Μετακίνηση περιορισμού πίνακα προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="256"/>
         <source>Add table primary key</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table primary key</translation>
+        <translation>Προσθήκη πρωτεύοντος κλειδιού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="257"/>
         <source>Add table foreign key</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table foreign key</translation>
+        <translation>Προσθήκη ξένου κλειδιού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="258"/>
         <source>Add table unique constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table unique constraint</translation>
+        <translation>Προσθήκη μοναδικού περιορισμού πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="259"/>
         <source>Add table check constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table check constraint</translation>
+        <translation>Προσθήκη περιορισμού ελέγχου πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="242"/>
         <source>Import data to the table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Import data to the table</translation>
+        <translation>Εισαγωγή δεδομένων στον πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="277"/>
         <source>Refresh index list</source>
         <comment>table window</comment>
-        <translation type="unfinished">Refresh index list</translation>
+        <translation>Ανανέωση λίστας ευρετηρίων</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="279"/>
         <source>Create index</source>
         <comment>table window</comment>
-        <translation type="unfinished">Create index</translation>
+        <translation>Δημιουργία ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="280"/>
         <source>Edit index</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit index</translation>
+        <translation>Επεξεργασία ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="281"/>
         <source>Delete index</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete index</translation>
+        <translation>Διαγραφή ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="287"/>
         <source>Refresh trigger list</source>
         <comment>table window</comment>
-        <translation type="unfinished">Refresh trigger list</translation>
+        <translation>Ανανέωση λίστας εναυσμάτων</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="289"/>
         <source>Create trigger</source>
         <comment>table window</comment>
-        <translation type="unfinished">Create trigger</translation>
+        <translation>Δημιουργία εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="290"/>
         <source>Edit trigger</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit trigger</translation>
+        <translation>Επεξεργασία εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="291"/>
         <source>Delete trigger</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete trigger</translation>
+        <translation>Διαγραφή εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="329"/>
         <source>Are you sure you want to delete column &apos;%1&apos;?</source>
         <comment>table window</comment>
-        <translation type="unfinished">Are you sure you want to delete column &apos;%1&apos;?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τη στήλη &apos;%1&apos;;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="380"/>
         <source>Following problems will take place while modifying the table.
 Would you like to proceed?</source>
         <comment>table window</comment>
-        <translation type="unfinished">Following problems will take place while modifying the table.
-Would you like to proceed?</translation>
+        <translation>Τα ακόλουθα προβλήματα θα προκύψουν κατά την τροποποίηση του πίνακα.
+Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="382"/>
         <source>Table modification</source>
         <comment>table window</comment>
-        <translation type="unfinished">Table modification</translation>
+        <translation>Τροποποίηση πίνακα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="507"/>
         <source>Could not load data for table %1. Error details: %2</source>
-        <translation type="unfinished">Could not load data for table %1. Error details: %2</translation>
+        <translation>Δεν ήταν δυνατή η φόρτωση δεδομένων για τον πίνακα %1. Λεπτομέρειες σφάλματος: %2</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="655"/>
         <source>Could not process the %1 table correctly. Unable to open a table window.</source>
-        <translation type="unfinished">Could not process the %1 table correctly. Unable to open a table window.</translation>
+        <translation>Δεν ήταν δυνατή η σωστή επεξεργασία του πίνακα %1. Αδυναμία ανοίγματος παραθύρου πίνακα.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="679"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="722"/>
         <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window %1, because no database or table was stored in session for this window.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου %1, επειδή δεν αποθηκεύτηκε βάση δεδομένων ή πίνακας στη συνεδρία για αυτό το παράθυρο.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="728"/>
         <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή δεν αποθηκεύτηκε βάση δεδομένων ή πίνακας στη συνεδρία για αυτό το παράθυρο.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="735"/>
         <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή δεν ήταν δυνατή η επίλυση της βάσης δεδομένων %2.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="744"/>
         <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή ο πίνακας %2 δεν &apos;υπάρχει&apos; στη βάση δεδομένων %3.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="775"/>
         <location filename="../windows/tablewindow.cpp" line="777"/>
         <source>New table %1</source>
-        <translation type="unfinished">New table %1</translation>
+        <translation>Νέος πίνακας %1</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="918"/>
         <source>Committed changes for table &apos;%1&apos; successfully.</source>
-        <translation type="unfinished">Committed changes for table &apos;%1&apos; successfully.</translation>
+        <translation>Οι αλλαγές για τον πίνακα &apos;%1&apos; επικυρώθηκαν με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="922"/>
         <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-        <translation type="unfinished">Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+        <translation>Οι αλλαγές για τον πίνακα &apos;%1&apos; (που ονομαζόταν προηγουμένως &apos;%2&apos;) επικυρώθηκαν με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="962"/>
         <source>Could not commit table structure. Error message: %1</source>
         <comment>table window</comment>
-        <translation type="unfinished">Could not commit table structure. Error message: %1</translation>
+        <translation>Δεν ήταν δυνατή η επικύρωση της δομής πίνακα. Μήνυμα σφάλματος: %1</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="988"/>
         <source>Reset autoincrement</source>
-        <translation type="unfinished">Reset autoincrement</translation>
+        <translation>Επαναφορά αυτόματης αύξησης</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="988"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-        <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να επαναφέρετε την τιμή αυτόματης αύξησης για τον πίνακα &apos;%1&apos;;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="995"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+        <translation>Παρουσιάστηκε σφάλμα κατά την προσπάθεια επαναφοράς της τιμής αυτόματης αύξησης για τον πίνακα &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="997"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-        <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+        <translation>Η τιμή αυτόματης αύξησης για τον πίνακα &apos;%1&apos; επαναφέρθηκε με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1085"/>
         <source>Empty name</source>
-        <translation type="unfinished">Empty name</translation>
+        <translation>Κενό όνομα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1085"/>
         <source>A blank name for the table is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a table with blank name?</source>
-        <translation type="unfinished">A blank name for the table is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a table with blank name?</translation>
+        <translation>Ένα κενό όνομα για τον πίνακα επιτρέπεται στο SQLite, αλλά δεν συνιστάται.
+Είστε βέβαιοι ότι θέλετε να δημιουργήσετε πίνακα με κενό όνομα;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1094"/>
         <source>Cannot create a table without at least one column.</source>
-        <translation type="unfinished">Cannot create a table without at least one column.</translation>
+        <translation>Δεν είναι δυνατή η δημιουργία πίνακα χωρίς τουλάχιστον μία στήλη.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1119"/>
         <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
-        <translation type="unfinished">Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</translation>
+        <translation>Δεν είναι δυνατή η δημιουργία του πίνακα %1, εάν δεν έχει ορισμένο πρωτεύον κλειδί. Είτε αποεπιλέξτε το %2 είτε ορίστε ένα πρωτεύον κλειδί.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1126"/>
         <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
-        <translation type="unfinished">Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</translation>
+        <translation>Δεν είναι δυνατή η χρήση αυτόματης αύξησης για πρωτεύον κλειδί όταν χρησιμοποιείται η ρήτρα %1. Είτε αποεπιλέξτε το %2 είτε την αυτόματη αύξηση σε πρωτεύον κλειδί.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1145"/>
         <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
-        <translation type="unfinished">Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</translation>
+        <translation>Οι ακόλουθες στήλες έχουν μη αυστηρό τύπο δεδομένων: %1. Είτε απενεργοποιήστε την αυστηρή λειτουργία του πίνακα είτε διορθώστε τους τύπους δεδομένων των στηλών. Οι έγκυροι αυστηροί τύποι δεδομένων είναι: %2</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1327"/>
         <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
         <comment>table window</comment>
-        <translation type="unfinished">Are you sure you want to delete table constraint &apos;%1&apos;?</translation>
+        <translation>Είστε βέβαιοι ότι θέλετε να διαγράψετε τον περιορισμό πίνακα &apos;%1&apos;;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1328"/>
         <source>Delete constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete constraint</translation>
+        <translation>Διαγραφή περιορισμού</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1383"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εξαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εξαγωγής.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1396"/>
         <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εισαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εισαγωγής.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1430"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Μη επικυρωμένες αλλαγές</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1431"/>
         <source>There are uncommitted structure modifications.</source>
-        <translation type="unfinished">There are uncommitted structure modifications.</translation>
+        <translation>Υπάρχουν μη επικυρωμένες τροποποιήσεις δομής.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1433"/>
         <source>You cannot browse or edit data until you have table structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-        <translation type="unfinished">You cannot browse or edit data until you have table structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+        <translation>Δεν μπορείτε να περιηγηθείτε ή να επεξεργαστείτε δεδομένα μέχρι να οριστικοποιηθεί η δομή του πίνακα.
+Θέλετε να επικυρώσετε τη δομή ή να επιστρέψετε στην καρτέλα δομής;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1437"/>
         <source>Commit modifications and browse data</source>
-        <translation type="unfinished">Commit modifications and browse data</translation>
+        <translation>Επικύρωση τροποποιήσεων και περιήγηση δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1436"/>
         <source>Go back to structure tab</source>
-        <translation type="unfinished">Go back to structure tab</translation>
+        <translation>Επιστροφή στην καρτέλα δομής</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1644"/>
         <source>Name</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1645"/>
         <source>Unique</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Μοναδικό</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1646"/>
         <source>Columns</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Columns</translation>
+        <translation>Στήλες</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1647"/>
         <source>Partial index condition</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Συνθήκη μερικού ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1703"/>
         <source>Name</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1704"/>
         <source>Event</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Event</translation>
+        <translation>Συμβάν</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1705"/>
         <source>Condition</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Condition</translation>
+        <translation>Συνθήκη</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1706"/>
         <source>Details</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1820"/>
         <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+        <translation>Το παράθυρο πίνακα &quot;%1&quot; έχει μη επικυρωμένες τροποποιήσεις δομής και δεδομένα.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1822"/>
         <source>Table window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted data.</translation>
+        <translation>Το παράθυρο πίνακα &quot;%1&quot; έχει μη επικυρωμένα δεδομένα.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1824"/>
         <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications.</translation>
+        <translation>Το παράθυρο πίνακα &quot;%1&quot; έχει μη επικυρωμένες τροποποιήσεις δομής.</translation>
     </message>
 </context>
 <context>
@@ -8346,22 +8346,22 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
         <source>Trigger columns</source>
-        <translation type="unfinished">Trigger columns</translation>
+        <translation>Στήλες εναύσματος</translation>
     </message>
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
         <source>Triggering columns:</source>
-        <translation type="unfinished">Triggering columns:</translation>
+        <translation>Στήλες ενεργοποίησης:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
         <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
         <source>Deselect all</source>
-        <translation type="unfinished">Deselect all</translation>
+        <translation>Αποεπιλογή όλων</translation>
     </message>
 </context>
 <context>
@@ -8370,100 +8370,100 @@ Do you want to commit the structure, or do you want to go back to the structure 
         <location filename="../dialogs/triggerdialog.ui" line="14"/>
         <location filename="../dialogs/triggerdialog.ui" line="24"/>
         <source>Trigger</source>
-        <translation type="unfinished">Trigger</translation>
+        <translation>Έναυσμα</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="30"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Σε πίνακα:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="40"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>Ενέργεια:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="56"/>
         <location filename="../dialogs/triggerdialog.ui" line="127"/>
         <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Συνθήκη SQL που θα αξιολογηθεί πριν από τον πραγματικό κώδικα του εναύσματος. Σε περίπτωση που η συνθήκη επιστρέψει false, το έναυσμα δεν θα ενεργοποιηθεί για αυτή τη γραμμή.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="59"/>
         <source>Pre-condition:</source>
-        <translation type="unfinished">Pre-condition:</translation>
+        <translation>Προϋπόθεση:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="66"/>
         <source>The scope is still not fully supported by the SQLite database.</source>
-        <translation type="unfinished">The scope is still not fully supported by the SQLite database.</translation>
+        <translation>Το πεδίο εφαρμογής εξακολουθεί να μην υποστηρίζεται πλήρως από τη βάση δεδομένων SQLite.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="73"/>
         <source>Trigger name:</source>
-        <translation type="unfinished">Trigger name:</translation>
+        <translation>Όνομα εναύσματος:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="80"/>
         <source>When:</source>
-        <translation type="unfinished">When:</translation>
+        <translation>Πότε:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="87"/>
         <source>List of columns for UPDATE OF action.</source>
-        <translation type="unfinished">List of columns for UPDATE OF action.</translation>
+        <translation>Λίστα στηλών για την ενέργεια UPDATE OF.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="97"/>
         <source>Scope:</source>
-        <translation type="unfinished">Scope:</translation>
+        <translation>Πεδίο εφαρμογής:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="104"/>
         <source>Code:</source>
-        <translation type="unfinished">Code:</translation>
+        <translation>Κώδικας:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="111"/>
         <source>Trigger statements to be executed.</source>
-        <translation type="unfinished">Trigger statements to be executed.</translation>
+        <translation>Δηλώσεις εναύσματος προς εκτέλεση.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="138"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>Κώδικας DDL</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="154"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>Σε προβολή:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="178"/>
         <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
-        <translation type="unfinished">Could not process trigger %1 correctly. Unable to open a trigger dialog.</translation>
+        <translation>Δεν ήταν δυνατή η σωστή επεξεργασία του εναύσματος %1. Αδυναμία ανοίγματος διαλόγου εναύσματος.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="349"/>
         <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+        <translation>Εισαγάγετε μια έγκυρη συνθήκη.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="350"/>
         <source>Enter a valid trigger code.</source>
-        <translation type="unfinished">Enter a valid trigger code.</translation>
+        <translation>Εισαγάγετε έγκυρο κώδικα εναύσματος.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="428"/>
         <source>Error</source>
         <comment>trigger dialog</comment>
-        <translation type="unfinished">Error</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="428"/>
         <source>An error occurred while executing SQL statements:
 %1</source>
-        <translation type="unfinished">An error occurred while executing SQL statements:
+        <translation>Παρουσιάστηκε σφάλμα κατά την εκτέλεση δηλώσεων SQL:
 %1</translation>
     </message>
 </context>
@@ -8472,22 +8472,22 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
         <source>Database version convert</source>
-        <translation type="unfinished">Database version convert</translation>
+        <translation>Μετατροπή έκδοσης βάσης δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
         <source>Following changes to the SQL statements will be made:</source>
-        <translation type="unfinished">Following changes to the SQL statements will be made:</translation>
+        <translation>Θα γίνουν οι ακόλουθες αλλαγές στις δηλώσεις SQL:</translation>
     </message>
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
         <source>Before</source>
-        <translation type="unfinished">Before</translation>
+        <translation>Πριν</translation>
     </message>
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
         <source>After</source>
-        <translation type="unfinished">After</translation>
+        <translation>Μετά</translation>
     </message>
 </context>
 <context>
@@ -8495,313 +8495,313 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
         <location filename="../windows/viewwindow.ui" line="36"/>
         <source>Query</source>
-        <translation type="unfinished">Query</translation>
+        <translation>Ερώτημα</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="70"/>
         <source>View name:</source>
-        <translation type="unfinished">View name:</translation>
+        <translation>Όνομα προβολής:</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="123"/>
         <source>Output column names</source>
-        <translation type="unfinished">Output column names</translation>
+        <translation>Ονόματα στηλών εξόδου</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="170"/>
         <location filename="../windows/viewwindow.cpp" line="939"/>
         <source>Data</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Δεδομένα</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="180"/>
         <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+        <translation>Εναύσματα</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="215"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>Κώδικας DDL</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="110"/>
         <location filename="../windows/viewwindow.cpp" line="116"/>
         <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή δεν αποθηκεύτηκε βάση δεδομένων ή προβολή στη συνεδρία για αυτό το παράθυρο.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="123"/>
         <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή δεν ήταν δυνατή η επίλυση της βάσης δεδομένων %2.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="129"/>
         <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be open.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή δεν ήταν δυνατό να ανοιχτεί η βάση δεδομένων %2.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="138"/>
         <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</translation>
+        <translation>Δεν ήταν δυνατή η επαναφορά του παραθύρου &apos;%1&apos;, επειδή η προβολή %2 δεν &apos;υπάρχει&apos; στη βάση δεδομένων %3.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="169"/>
         <location filename="../windows/viewwindow.cpp" line="171"/>
         <source>New view %1</source>
-        <translation type="unfinished">New view %1</translation>
+        <translation>Νέα προβολή %1</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="294"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Βάση δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="349"/>
         <source>Refresh the view</source>
         <comment>view window</comment>
-        <translation type="unfinished">Refresh the view</translation>
+        <translation>Ανανέωση της προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="351"/>
         <source>Commit the view changes</source>
         <comment>view window</comment>
-        <translation type="unfinished">Commit the view changes</translation>
+        <translation>Επικύρωση των αλλαγών προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="352"/>
         <source>Rollback the view changes</source>
         <comment>view window</comment>
-        <translation type="unfinished">Rollback the view changes</translation>
+        <translation>Επαναφορά των αλλαγών προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="356"/>
         <source>Explicit column names</source>
-        <translation type="unfinished">Explicit column names</translation>
+        <translation>Ρητά ονόματα στηλών</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="362"/>
         <source>Generate output column names automatically basing on result columns of the view.</source>
-        <translation type="unfinished">Generate output column names automatically basing on result columns of the view.</translation>
+        <translation>Δημιουργία ονομάτων στηλών εξόδου αυτόματα με βάση τις στήλες αποτελεσμάτων της προβολής.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="363"/>
         <source>Add column</source>
         <comment>view window</comment>
-        <translation type="unfinished">Add column</translation>
+        <translation>Προσθήκη στήλης</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="364"/>
         <source>Edit column</source>
         <comment>view window</comment>
-        <translation type="unfinished">Edit column</translation>
+        <translation>Επεξεργασία στήλης</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="365"/>
         <source>Delete column</source>
         <comment>view window</comment>
-        <translation type="unfinished">Delete column</translation>
+        <translation>Διαγραφή στήλης</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="366"/>
         <source>Move column up</source>
         <comment>view window</comment>
-        <translation type="unfinished">Move column up</translation>
+        <translation>Μετακίνηση στήλης προς τα πάνω</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="367"/>
         <source>Move column down</source>
         <comment>view window</comment>
-        <translation type="unfinished">Move column down</translation>
+        <translation>Μετακίνηση στήλης προς τα κάτω</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="369"/>
         <source>Export view</source>
         <comment>view window</comment>
-        <translation type="unfinished">Export view</translation>
+        <translation>Εξαγωγή προβολής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="378"/>
         <source>Refresh trigger list</source>
         <comment>view window</comment>
-        <translation type="unfinished">Refresh trigger list</translation>
+        <translation>Ανανέωση λίστας εναυσμάτων</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="380"/>
         <source>Create new trigger</source>
         <comment>view window</comment>
-        <translation type="unfinished">Create new trigger</translation>
+        <translation>Δημιουργία νέου εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="381"/>
         <source>Edit selected trigger</source>
         <comment>view window</comment>
-        <translation type="unfinished">Edit selected trigger</translation>
+        <translation>Επεξεργασία επιλεγμένου εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="382"/>
         <source>Delete selected trigger</source>
         <comment>view window</comment>
-        <translation type="unfinished">Delete selected trigger</translation>
+        <translation>Διαγραφή επιλεγμένου εναύσματος</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="403"/>
         <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+        <translation>Το παράθυρο προβολής &quot;%1&quot; έχει μη επικυρωμένες τροποποιήσεις δομής και δεδομένα.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="405"/>
         <source>View window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted data.</translation>
+        <translation>Το παράθυρο προβολής &quot;%1&quot; έχει μη επικυρωμένα δεδομένα.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="407"/>
         <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications.</translation>
+        <translation>Το παράθυρο προβολής &quot;%1&quot; έχει μη επικυρωμένες τροποποιήσεις δομής.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="638"/>
         <source>Could not load data for view %1. Error details: %2</source>
-        <translation type="unfinished">Could not load data for view %1. Error details: %2</translation>
+        <translation>Δεν ήταν δυνατή η φόρτωση δεδομένων για την προβολή %1. Λεπτομέρειες σφάλματος: %2</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="650"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Μη επικυρωμένες αλλαγές</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="651"/>
         <source>There are uncommitted structure modifications.</source>
-        <translation type="unfinished">There are uncommitted structure modifications.</translation>
+        <translation>Υπάρχουν μη επικυρωμένες τροποποιήσεις δομής.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="653"/>
         <source>You cannot browse or edit data until you have the view structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-        <translation type="unfinished">You cannot browse or edit data until you have the view structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+        <translation>Δεν μπορείτε να περιηγηθείτε ή να επεξεργαστείτε δεδομένα μέχρι να οριστικοποιηθεί η δομή της προβολής.
+Θέλετε να επικυρώσετε τη δομή ή να επιστρέψετε στην καρτέλα δομής;</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="657"/>
         <source>Commit modifications and browse data</source>
-        <translation type="unfinished">Commit modifications and browse data</translation>
+        <translation>Επικύρωση τροποποιήσεων και περιήγηση δεδομένων</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1085"/>
         <source>The view could not be modified due to internal Letos error. Please report this!</source>
-        <translation type="unfinished">The view could not be modified due to internal Letos error. Please report this!</translation>
+        <translation>Δεν ήταν δυνατή η τροποποίηση της προβολής λόγω εσωτερικού σφάλματος του Letos. Παρακαλώ αναφέρετέ το!</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1111"/>
         <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
-        <translation type="unfinished">The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</translation>
+        <translation>Δεν ήταν δυνατή η σωστή ανάλυση του κώδικα προβολής για εκτέλεση. Αυτό είναι σφάλμα του Letos&apos;s. Παρακαλώ αναφέρετέ το.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="656"/>
         <source>Go back to structure tab</source>
-        <translation type="unfinished">Go back to structure tab</translation>
+        <translation>Επιστροφή στην καρτέλα δομής</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="709"/>
         <source>View &apos;%1&apos; was committed successfully.</source>
-        <translation type="unfinished">View &apos;%1&apos; was committed successfully.</translation>
+        <translation>Η προβολή &apos;%1&apos; επικυρώθηκε με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="711"/>
         <source>Committed changes for view &apos;%1&apos; successfully.</source>
-        <translation type="unfinished">Committed changes for view &apos;%1&apos; successfully.</translation>
+        <translation>Οι αλλαγές για την προβολή &apos;%1&apos; επικυρώθηκαν με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="713"/>
         <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-        <translation type="unfinished">Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+        <translation>Οι αλλαγές για την προβολή &apos;%1&apos; (που ονομαζόταν προηγουμένως &apos;%2&apos;) επικυρώθηκαν με επιτυχία.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="736"/>
         <source>Could not commit view changes. Error message: %1</source>
         <comment>view window</comment>
-        <translation type="unfinished">Could not commit view changes. Error message: %1</translation>
+        <translation>Δεν ήταν δυνατή η επικύρωση των αλλαγών προβολής. Μήνυμα σφάλματος: %1</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="880"/>
         <source>Override columns</source>
-        <translation type="unfinished">Override columns</translation>
+        <translation>Παράκαμψη στηλών</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="880"/>
         <source>Currently defined columns will be overriden. Do you want to continue?</source>
-        <translation type="unfinished">Currently defined columns will be overriden. Do you want to continue?</translation>
+        <translation>Οι τρέχουσες καθορισμένες στήλες θα αντικατασταθούν. Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="903"/>
         <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
-        <translation type="unfinished">Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</translation>
+        <translation>Δεν ήταν δυνατός ο προσδιορισμός των στηλών που επιστρέφονται από την προβολή. Το ερώτημα είναι πιθανώς ελλιπές ή περιέχει σφάλματα.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="922"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Δεν είναι δυνατή η εξαγωγή, επειδή δεν έχει φορτωθεί πρόσθετο εξαγωγής.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="971"/>
         <source>Name</source>
         <comment>view window triggers</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Όνομα</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="972"/>
         <source>Instead of</source>
         <comment>view window triggers</comment>
-        <translation type="unfinished">Instead of</translation>
+        <translation>Αντί για</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="973"/>
         <source>Condition</source>
         <comment>view window triggers</comment>
-        <translation type="unfinished">Condition</translation>
+        <translation>Συνθήκη</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="974"/>
         <source>Details</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Λεπτομέρειες</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1018"/>
         <source>Could not process the %1 view correctly. Unable to open a view window.</source>
-        <translation type="unfinished">Could not process the %1 view correctly. Unable to open a view window.</translation>
+        <translation>Δεν ήταν δυνατή η σωστή επεξεργασία της προβολής %1. Αδυναμία ανοίγματος παραθύρου προβολής.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1065"/>
         <source>Empty name</source>
-        <translation type="unfinished">Empty name</translation>
+        <translation>Κενό όνομα</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1065"/>
         <source>A blank name for the view is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a view with blank name?</source>
-        <translation type="unfinished">A blank name for the view is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a view with blank name?</translation>
+        <translation>Ένα κενό όνομα για την προβολή επιτρέπεται στο SQLite, αλλά δεν συνιστάται.
+Είστε βέβαιοι ότι θέλετε να δημιουργήσετε προβολή με κενό όνομα;</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1077"/>
         <source>The SELECT statement could not be parsed. Please correct the query and retry.
 Details: %1</source>
-        <translation type="unfinished">The SELECT statement could not be parsed. Please correct the query and retry.
-Details: %1</translation>
+        <translation>Δεν ήταν δυνατή η ανάλυση της δήλωσης SELECT. Διορθώστε το ερώτημα και δοκιμάστε ξανά.
+Λεπτομέρειες: %1</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1123"/>
         <source>Following problems will take place while modifying the view.
 Would you like to proceed?</source>
         <comment>view window</comment>
-        <translation type="unfinished">Following problems will take place while modifying the view.
-Would you like to proceed?</translation>
+        <translation>Τα ακόλουθα προβλήματα θα προκύψουν κατά την τροποποίηση της προβολής.
+Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1125"/>
         <source>View modification</source>
         <comment>view window</comment>
-        <translation type="unfinished">View modification</translation>
+        <translation>Τροποποίηση προβολής</translation>
     </message>
 </context>
 <context>
@@ -8809,7 +8809,7 @@ Would you like to proceed?</translation>
     <message>
         <location filename="../common/widgetcover.cpp" line="242"/>
         <source>Interrupt</source>
-        <translation type="unfinished">Interrupt</translation>
+        <translation>Διακοπή</translation>
     </message>
 </context>
 </TS>

@@ -6,69 +6,69 @@
     <message>
         <location filename="../multieditorjson.cpp" line="27"/>
         <source>Prettify</source>
-        <translation type="unfinished">Prettify</translation>
+        <translation>Định dạng đẹp</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="28"/>
         <source>Format JSON with indentation</source>
-        <translation type="unfinished">Format JSON with indentation</translation>
+        <translation>Định dạng JSON với thụt lề</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="30"/>
         <source>Condense</source>
-        <translation type="unfinished">Condense</translation>
+        <translation>Thu gọn</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="31"/>
         <source>Remove whitespace and format on single line</source>
-        <translation type="unfinished">Remove whitespace and format on single line</translation>
+        <translation>Xóa khoảng trắng và định dạng trên một dòng</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="35"/>
         <source>Validate</source>
-        <translation type="unfinished">Validate</translation>
+        <translation>Kiểm tra hợp lệ</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="36"/>
         <source>Validate JSON syntax</source>
-        <translation type="unfinished">Validate JSON syntax</translation>
+        <translation>Kiểm tra cú pháp JSON</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="39"/>
         <source>Find or replace (%1)</source>
-        <translation type="unfinished">Find or replace (%1)</translation>
+        <translation>Tìm hoặc thay thế (%1)</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="169"/>
         <source>✓ Valid JSON</source>
-        <translation type="unfinished">✓ Valid JSON</translation>
+        <translation>✓ JSON hợp lệ</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="174"/>
         <source>✗ Invalid: %1</source>
-        <translation type="unfinished">✗ Invalid: %1</translation>
+        <translation>✗ Không hợp lệ: %1</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="214"/>
         <source>JSON is valid!</source>
-        <translation type="unfinished">JSON is valid!</translation>
+        <translation>JSON hợp lệ!</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="218"/>
         <source>JSON validation failed: %1</source>
-        <translation type="unfinished">JSON validation failed: %1</translation>
+        <translation>Kiểm tra JSON không thành công: %1</translation>
     </message>
     <message>
         <location filename="../multieditorjson.cpp" line="113"/>
         <source>JSON files (*.json, *.txt)</source>
-        <translation type="unfinished">JSON files (*.json, *.txt)</translation>
+        <translation>Tệp JSON (*.json, *.txt)</translation>
     </message>
 </context>
 <context>
     <name>MultiEditorJsonPlugin</name>
     <message>
         <source>JSON</source>
-        <translation type="obsolete">JSON</translation>
+        <translation>JSON</translation>
     </message>
 </context>
 </TS>

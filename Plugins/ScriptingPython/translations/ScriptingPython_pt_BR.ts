@@ -34,17 +34,17 @@
     <message>
         <location filename="../scriptingpython.ui" line="20"/>
         <source>Python library path</source>
-        <translation type="unfinished">Python library path</translation>
+        <translation>Caminho da biblioteca Python</translation>
     </message>
     <message>
         <location filename="../scriptingpython.ui" line="29"/>
         <source>Choose a Python library file</source>
-        <translation type="unfinished">Choose a Python library file</translation>
+        <translation>Escolha um arquivo de biblioteca Python</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="370"/>
         <source>The plugin is not configured properly.</source>
-        <translation type="unfinished">The plugin is not configured properly.</translation>
+        <translation>O plugin não está configurado corretamente.</translation>
     </message>
 </context>
 </TS>

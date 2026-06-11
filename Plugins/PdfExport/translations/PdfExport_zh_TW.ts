@@ -22,7 +22,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
@@ -48,7 +48,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>匯出的檢視：%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
@@ -162,7 +162,7 @@
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>使用 Letos v%1 產生的文件</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
@@ -260,70 +260,64 @@
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>自訂頁首</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>無自訂頁首</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="299"/>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>定義自訂頁首內容</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>純文字內容</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>定義自訂頁首檔案</translation>
+    </message>
+    <message>
+        <location filename="../pdfexport.ui" line="348"/>
+        <source>Choose file for the header</source>
+        <translation>選擇頁首檔案</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>文字檔案 (*.txt);;所有檔案 (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>自訂頁尾</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>無自訂頁尾</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>定義自訂頁尾內容</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>定義自訂頁尾檔案</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>選擇頁尾檔案</translation>
     </message>
 </context>
 </TS>

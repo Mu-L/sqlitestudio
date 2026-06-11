@@ -6,92 +6,92 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>GUI-grænseflade til Letos, en SQLite-manager.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation type="unfinished">Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</translation>
+        <translation>Starter programmet i sikker tilstand uden at gendanne den forrige session. Brug dette til at omgå problemer forårsaget af en beskadiget session.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>Indlæs ikke nogen plugins. Kan bruges sammen med sikker tilstand for yderligere at isolere potentielle problemer.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
         <source>Enables debug messages in console (accessible with F12).</source>
-        <translation type="unfinished">Enables debug messages in console (accessible with F12).</translation>
+        <translation>Aktiverer debugmeddelelser i konsollen (tilgængelig med F12).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="60"/>
         <source>Redirects debug messages into standard output (forces debug mode).</source>
-        <translation type="unfinished">Redirects debug messages into standard output (forces debug mode).</translation>
+        <translation>Omdirigerer debugmeddelelser til standardoutput (tvinger debugtilstand).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="61"/>
         <source>Redirects debug messages into given file (forces debug mode).</source>
-        <translation type="unfinished">Redirects debug messages into given file (forces debug mode).</translation>
+        <translation>Omdirigerer debugmeddelelser til den angivne fil (tvinger debugtilstand).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="61"/>
         <source>log file</source>
-        <translation type="unfinished">log file</translation>
+        <translation>logfil</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="62"/>
         <source>Enables Lemon parser debug messages for SQL code assistant.</source>
-        <translation type="unfinished">Enables Lemon parser debug messages for SQL code assistant.</translation>
+        <translation>Aktiverer debugmeddelelser fra Lemon-parseren til SQL-kodeassistenten.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="63"/>
         <source>Enables debugging of every single SQL query being sent to any database.</source>
-        <translation type="unfinished">Enables debugging of every single SQL query being sent to any database.</translation>
+        <translation>Aktiverer debugging af hver enkelt SQL-forespørgsel, der sendes til en database.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>Limits SQL query messages to only the given &lt;database&gt;.</source>
-        <translation type="unfinished">Limits SQL query messages to only the given &lt;database&gt;.</translation>
+        <translation>Begrænser SQL-forespørgselsmeddelelser til kun den angivne &lt;database&gt;.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>database</source>
-        <translation type="unfinished">database</translation>
+        <translation>database</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>Points to the master configuration file. Read manual at wiki page for more details.</source>
-        <translation type="unfinished">Points to the master configuration file. Read manual at wiki page for more details.</translation>
+        <translation>Peger på hovedkonfigurationsfilen. Læs manualen på wiki-siden for flere detaljer.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>settings file</source>
-        <translation type="unfinished">settings file</translation>
+        <translation>indstillingsfil</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Aktiverer debugging af Letos&apos; forespørgselseksekutor.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Viser plugins installeret i Letos og afslutter.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
         <source>file</source>
-        <translation type="unfinished">file</translation>
+        <translation>fil</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
         <source>Database file to open</source>
-        <translation type="unfinished">Database file to open</translation>
+        <translation>Databasefil, der skal åbnes</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="152"/>
         <source>Select configuration directory</source>
-        <translation type="unfinished">Select configuration directory</translation>
+        <translation>Vælg konfigurationsmappe</translation>
     </message>
 </context>
 </TS>

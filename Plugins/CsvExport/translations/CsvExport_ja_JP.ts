@@ -6,52 +6,52 @@
     <message>
         <location filename="../CsvExport.ui" line="20"/>
         <source>Column names in first row</source>
-        <translation type="unfinished">Column names in first row</translation>
+        <translation>先頭行に列名を含める</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="30"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>列の区切り文字：</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="41"/>
         <source>, (comma)</source>
-        <translation type="unfinished">, (comma)</translation>
+        <translation>, (カンマ)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="46"/>
         <source>; (semicolon)</source>
-        <translation type="unfinished">; (semicolon)</translation>
+        <translation>; (セミコロン)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="51"/>
         <source>\t (tab)</source>
-        <translation type="unfinished">\t (tab)</translation>
+        <translation>\t (タブ)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="56"/>
         <source>  (whitespace)</source>
-        <translation type="unfinished">  (whitespace)</translation>
+        <translation>  (空白)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="61"/>
         <source>Custom:</source>
-        <translation type="unfinished">Custom:</translation>
+        <translation>カスタム：</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="82"/>
         <source>Export NULL values as:</source>
-        <translation type="unfinished">Export NULL values as:</translation>
+        <translation>NULL 値のエクスポート形式：</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="89"/>
         <source>Empty string</source>
-        <translation type="unfinished">Empty string</translation>
+        <translation>空文字列</translation>
     </message>
     <message>
         <location filename="../csvexport.cpp" line="41"/>
         <source>Enter the custom separator character.</source>
-        <translation type="unfinished">Enter the custom separator character.</translation>
+        <translation>カスタム区切り文字を入力してください。</translation>
     </message>
 </context>
 </TS>

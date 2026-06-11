@@ -6,27 +6,27 @@
     <message>
         <location filename="../printing.cpp" line="35"/>
         <source>Print data</source>
-        <translation type="unfinished">Print data</translation>
+        <translation>Gegevens afdrukken</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="37"/>
         <source>Print query</source>
-        <translation type="unfinished">Print query</translation>
+        <translation>Query afdrukken</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="74"/>
         <source>No data to print.</source>
-        <translation type="unfinished">No data to print.</translation>
+        <translation>Geen gegevens om af te drukken.</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="82"/>
         <source>Printing data.</source>
-        <translation type="unfinished">Printing data.</translation>
+        <translation>Gegevens worden afgedrukt.</translation>
     </message>
     <message>
         <location filename="../printing.cpp" line="108"/>
         <source>Printing query.</source>
-        <translation type="unfinished">Printing query.</translation>
+        <translation>Query wordt afgedrukt.</translation>
     </message>
 </context>
 <context>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../printingexport.cpp" line="27"/>
         <source>Printing</source>
-        <translation type="unfinished">Printing</translation>
+        <translation>Afdrukken</translation>
     </message>
 </context>
 </TS>

@@ -6,12 +6,12 @@
     <message>
         <location filename="../SqlFormatterSimple.ui" line="20"/>
         <source>Upper case keywords</source>
-        <translation type="unfinished">Upper case keywords</translation>
+        <translation>키워드를 대문자로 변환</translation>
     </message>
     <message>
         <location filename="../SqlFormatterSimple.ui" line="30"/>
         <source>Reduce multiple whitespaces to single whitespace</source>
-        <translation type="unfinished">Reduce multiple whitespaces to single whitespace</translation>
+        <translation>여러 공백 문자를 단일 공백으로 줄이기</translation>
     </message>
 </context>
 </TS>

@@ -6,52 +6,52 @@
     <message>
         <location filename="../CsvExport.ui" line="20"/>
         <source>Column names in first row</source>
-        <translation type="unfinished">Column names in first row</translation>
+        <translation>Tên cột ở hàng đầu tiên</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="30"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>Dấu phân tách cột:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="41"/>
         <source>, (comma)</source>
-        <translation type="unfinished">, (comma)</translation>
+        <translation>, (dấu phẩy)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="46"/>
         <source>; (semicolon)</source>
-        <translation type="unfinished">; (semicolon)</translation>
+        <translation>; (dấu chấm phẩy)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="51"/>
         <source>\t (tab)</source>
-        <translation type="unfinished">\t (tab)</translation>
+        <translation>\t (tab)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="56"/>
         <source>  (whitespace)</source>
-        <translation type="unfinished">  (whitespace)</translation>
+        <translation>  (khoảng trắng)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="61"/>
         <source>Custom:</source>
-        <translation type="unfinished">Custom:</translation>
+        <translation>Tùy chỉnh:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="82"/>
         <source>Export NULL values as:</source>
-        <translation type="unfinished">Export NULL values as:</translation>
+        <translation>Xuất giá trị NULL dưới dạng:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="89"/>
         <source>Empty string</source>
-        <translation type="unfinished">Empty string</translation>
+        <translation>Chuỗi rỗng</translation>
     </message>
     <message>
         <location filename="../csvexport.cpp" line="41"/>
         <source>Enter the custom separator character.</source>
-        <translation type="unfinished">Enter the custom separator character.</translation>
+        <translation>Nhập ký tự phân tách tùy chỉnh.</translation>
     </message>
 </context>
 </TS>

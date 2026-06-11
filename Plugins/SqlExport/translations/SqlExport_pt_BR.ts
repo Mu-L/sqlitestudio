@@ -31,7 +31,7 @@
     <message>
         <location filename="../sqlexport.cpp" line="284"/>
         <source>-- File generated with Letos v%1 on %2</source>
-        <translation type="unfinished">-- File generated with Letos v%1 on %2</translation>
+        <translation>-- Arquivo gerado com Letos v%1 em %2</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="288"/>

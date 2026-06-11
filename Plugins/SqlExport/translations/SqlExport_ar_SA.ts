@@ -6,42 +6,42 @@
     <message>
         <location filename="../sqlexport.cpp" line="87"/>
         <source>-- Results of query:</source>
-        <translation type="unfinished">-- Results of query:</translation>
+        <translation>-- نتائج الاستعلام:</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="159"/>
         <source>-- Table: %1</source>
-        <translation type="unfinished">-- Table: %1</translation>
+        <translation>-- الجدول: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="206"/>
         <source>-- Index: %1</source>
-        <translation type="unfinished">-- Index: %1</translation>
+        <translation>-- الفهرس: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="231"/>
         <source>-- Trigger: %1</source>
-        <translation type="unfinished">-- Trigger: %1</translation>
+        <translation>-- المشغّل: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="259"/>
         <source>-- View: %1</source>
-        <translation type="unfinished">-- View: %1</translation>
+        <translation>-- العرض: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="284"/>
         <source>-- File generated with Letos v%1 on %2</source>
-        <translation type="unfinished">-- File generated with Letos v%1 on %2</translation>
+        <translation>-- ملف تم إنشاؤه باستخدام Letos v%1 في %2</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="288"/>
         <source>-- Text encoding used: %1</source>
-        <translation type="unfinished">-- Text encoding used: %1</translation>
+        <translation>-- ترميز النص المستخدم: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="370"/>
         <source>Table name for INSERT statements is mandatory.</source>
-        <translation type="unfinished">Table name for INSERT statements is mandatory.</translation>
+        <translation>اسم الجدول لعبارات INSERT إلزامي.</translation>
     </message>
 </context>
 <context>
@@ -49,22 +49,22 @@
     <message>
         <location filename="../SqlExportCommon.ui" line="30"/>
         <source>Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</translation>
+        <translation>إنشاء عبارة &quot;DROP IF EXISTS&quot; قبل عبارة &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="40"/>
         <source>Format DDL statements only (excludes &quot;INSERT&quot; statements)</source>
-        <translation type="unfinished">Format DDL statements only (excludes &quot;INSERT&quot; statements)</translation>
+        <translation>تنسيق عبارات DDL فقط (يستثني عبارات &quot;INSERT&quot;)</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="50"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>إضافة بند &quot;IF NOT EXISTS&quot; إلى عبارة &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="20"/>
         <source>Use SQL formatter to format exported SQL statements</source>
-        <translation type="unfinished">Use SQL formatter to format exported SQL statements</translation>
+        <translation>استخدام منسّق SQL لتنسيق عبارات SQL المُصدَّرة</translation>
     </message>
 </context>
 <context>
@@ -72,37 +72,37 @@
     <message>
         <location filename="../SqlExportQuery.ui" line="47"/>
         <source>Use SQL formatter to format exported SQL statements</source>
-        <translation type="unfinished">Use SQL formatter to format exported SQL statements</translation>
+        <translation>استخدام منسّق SQL لتنسيق عبارات SQL المُصدَّرة</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="40"/>
         <source>Table name to use for INSERT statements:</source>
-        <translation type="unfinished">Table name to use for INSERT statements:</translation>
+        <translation>اسم الجدول المراد استخدامه لعبارات INSERT:</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="64"/>
         <source>Generate &quot;CREATE TABLE&quot; statement at the begining</source>
-        <translation type="unfinished">Generate &quot;CREATE TABLE&quot; statement at the begining</translation>
+        <translation>إنشاء عبارة &quot;CREATE TABLE&quot; في البداية</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="20"/>
         <source>Include the query in comments</source>
-        <translation type="unfinished">Include the query in comments</translation>
+        <translation>تضمين الاستعلام في التعليقات</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="30"/>
         <source>Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</translation>
+        <translation>إنشاء عبارة &quot;DROP IF EXISTS&quot; قبل عبارة &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="74"/>
         <source>Format DDL statements only (excludes &quot;INSERT&quot; statements)</source>
-        <translation type="unfinished">Format DDL statements only (excludes &quot;INSERT&quot; statements)</translation>
+        <translation>تنسيق عبارات DDL فقط (يستثني عبارات &quot;INSERT&quot;)</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="84"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>إضافة بند &quot;IF NOT EXISTS&quot; إلى عبارة &quot;CREATE&quot;</translation>
     </message>
 </context>
 </TS>

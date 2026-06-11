@@ -8,7 +8,7 @@
         <location filename="../sqlenterpriseformatter.cpp" line="96"/>
         <source>name</source>
         <comment>example name wrapper</comment>
-        <translation type="unfinished">name</translation>
+        <translation>navn</translation>
     </message>
 </context>
 <context>
@@ -16,213 +16,213 @@
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="46"/>
         <source>Indentation</source>
-        <translation type="unfinished">Indentation</translation>
+        <translation>Innrykk</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="58"/>
         <source>Line up keywords in multi-line queries</source>
-        <translation type="unfinished">Line up keywords in multi-line queries</translation>
+        <translation>Rett inn nøkkelord i spørringer over flere linjer</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="68"/>
         <source>Indent contents of parenthesis block</source>
-        <translation type="unfinished">Indent contents of parenthesis block</translation>
+        <translation>Rykk inn innholdet i parentesblokker</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="91"/>
         <source>Tab size:</source>
-        <translation type="unfinished">Tab size:</translation>
+        <translation>Tabulatorstørrelse:</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="106"/>
         <source>New lines</source>
-        <translation type="unfinished">New lines</translation>
+        <translation>Linjeskift</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="160"/>
         <source>Before opening parenthesis in column definitions</source>
-        <translation type="unfinished">Before opening parenthesis in column definitions</translation>
+        <translation>Før åpningsparentes i kolonnedefinisjoner</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="170"/>
         <source>After opening parenthesis in column definitions</source>
-        <translation type="unfinished">After opening parenthesis in column definitions</translation>
+        <translation>Etter åpningsparentes i kolonnedefinisjoner</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="180"/>
         <source>Before closing parenthesis in column definitions</source>
-        <translation type="unfinished">Before closing parenthesis in column definitions</translation>
+        <translation>Før lukkeparentes i kolonnedefinisjoner</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="190"/>
         <source>After closing parenthesis in column definitions</source>
-        <translation type="unfinished">After closing parenthesis in column definitions</translation>
+        <translation>Etter lukkeparentes i kolonnedefinisjoner</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="200"/>
         <source>Before opening parenthesis in expressions</source>
-        <translation type="unfinished">Before opening parenthesis in expressions</translation>
+        <translation>Før åpningsparentes i uttrykk</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="210"/>
         <source>After opening parenthesis in expressions</source>
-        <translation type="unfinished">After opening parenthesis in expressions</translation>
+        <translation>Etter åpningsparentes i uttrykk</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="220"/>
         <source>Before closing parenthesis in expressions</source>
-        <translation type="unfinished">Before closing parenthesis in expressions</translation>
+        <translation>Før lukkeparentes i uttrykk</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="230"/>
         <source>After closing parenthesis in expressions</source>
-        <translation type="unfinished">After closing parenthesis in expressions</translation>
+        <translation>Etter lukkeparentes i uttrykk</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="240"/>
         <source>After JOIN keywords in FROM clause</source>
-        <translation type="unfinished">After JOIN keywords in FROM clause</translation>
+        <translation>Etter JOIN-nøkkelord i FROM-klausul</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="250"/>
         <source>Put each column constraint in CREATE TABLE into new line</source>
-        <translation type="unfinished">Put each column constraint in CREATE TABLE into new line</translation>
+        <translation>Plasser hver kolonnebegrensning i CREATE TABLE på en ny linje</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="260"/>
         <source>After comma</source>
-        <translation type="unfinished">After comma</translation>
+        <translation>Etter komma</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="270"/>
         <source>After comma in expressions</source>
-        <translation type="unfinished">After comma in expressions</translation>
+        <translation>Etter komma i uttrykk</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="280"/>
         <source>After semicolon</source>
-        <translation type="unfinished">After semicolon</translation>
+        <translation>Etter semikolon</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="290"/>
         <location filename="../sqlenterpriseformatter.ui" line="512"/>
         <source>Never before semicolon</source>
-        <translation type="unfinished">Never before semicolon</translation>
+        <translation>Aldri før semikolon</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="338"/>
         <source>White spaces</source>
-        <translation type="unfinished">White spaces</translation>
+        <translation>Mellomrom</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="392"/>
         <source>Before comma in lists</source>
-        <translation type="unfinished">Before comma in lists</translation>
+        <translation>Før komma i lister</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="402"/>
         <source>After comma in lists</source>
-        <translation type="unfinished">After comma in lists</translation>
+        <translation>Etter komma i lister</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="412"/>
         <source>Before opening parenthesis</source>
-        <translation type="unfinished">Before opening parenthesis</translation>
+        <translation>Før åpningsparentes</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="422"/>
         <source>After opening parenthesis</source>
-        <translation type="unfinished">After opening parenthesis</translation>
+        <translation>Etter åpningsparentes</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="432"/>
         <source>Before closing parenthesis</source>
-        <translation type="unfinished">Before closing parenthesis</translation>
+        <translation>Før lukkeparentes</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="442"/>
         <source>After closing parenthesis</source>
-        <translation type="unfinished">After closing parenthesis</translation>
+        <translation>Etter lukkeparentes</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="452"/>
         <source>No space between SQL function name and opening parenthesis</source>
-        <translation type="unfinished">No space between SQL function name and opening parenthesis</translation>
+        <translation>Ingen mellomrom mellom SQL-funksjonsnavn og åpningsparentes</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="462"/>
         <source>Before dot operator (in path to database object)</source>
-        <translation type="unfinished">Before dot operator (in path to database object)</translation>
+        <translation>Før punktumoperator (i sti til databaseobjekt)</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="472"/>
         <source>After dot operator (in path to database object)</source>
-        <translation type="unfinished">After dot operator (in path to database object)</translation>
+        <translation>Etter punktumoperator (i sti til databaseobjekt)</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="482"/>
         <source>Before mathematical operator</source>
-        <translation type="unfinished">Before mathematical operator</translation>
+        <translation>Før matematisk operator</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="492"/>
         <source>After mathematical operator</source>
-        <translation type="unfinished">After mathematical operator</translation>
+        <translation>Etter matematisk operator</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="502"/>
         <source>Never before comma</source>
-        <translation type="unfinished">Never before comma</translation>
+        <translation>Aldri før komma</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="558"/>
         <source>Names</source>
-        <translation type="unfinished">Names</translation>
+        <translation>Navn</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="583"/>
         <source>Preferred name wrapper</source>
-        <translation type="unfinished">Preferred name wrapper</translation>
+        <translation>Foretrukket navneomslutning</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="600"/>
         <source>Always use name wrapping</source>
-        <translation type="unfinished">Always use name wrapping</translation>
+        <translation>Bruk alltid navneomslutning</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="610"/>
         <source>Uppercase data type names</source>
-        <translation type="unfinished">Uppercase data type names</translation>
+        <translation>Bruk store bokstaver i datatypenavn</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="620"/>
         <source>Uppercase keywords</source>
-        <translation type="unfinished">Uppercase keywords</translation>
+        <translation>Bruk store bokstaver i nøkkelord</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="631"/>
         <source>Comments</source>
-        <translation type="unfinished">Comments</translation>
+        <translation>Kommentarer</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="637"/>
         <source>Preferred comment marker (where possible):</source>
-        <translation type="unfinished">Preferred comment marker (where possible):</translation>
+        <translation>Foretrukket kommentarmarkør (der det er mulig):</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="654"/>
         <source>Move all comments to the line end</source>
-        <translation type="unfinished">Move all comments to the line end</translation>
+        <translation>Flytt alle kommentarer til linjeslutt</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="664"/>
         <source>Line up comments at the line end</source>
-        <translation type="unfinished">Line up comments at the line end</translation>
+        <translation>Rett inn kommentarer ved linjeslutt</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="695"/>
         <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+        <translation>Forhåndsvisning</translation>
     </message>
 </context>
 </TS>

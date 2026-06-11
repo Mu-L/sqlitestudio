@@ -11,7 +11,7 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="23"/>
         <source>Get up-to-date tips online</source>
-        <translation type="unfinished">Get up-to-date tips online</translation>
+        <translation>Obține sfaturi actualizate online</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="36"/>
@@ -21,12 +21,12 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="49"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, tips will appear in the status field in short format with link to read its full content.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, tips will appear in the status field in short format with link to read its full content.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când este activată, sfaturile vor apărea în câmpul de stare într-un format scurt, cu un link pentru a citi conținutul complet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="52"/>
         <source>Show Tip of the Day on startup</source>
-        <translation type="unfinished">Show Tip of the Day on startup</translation>
+        <translation>Afișează Sfatul zilei la pornire</translation>
     </message>
 </context>
 <context>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../tipofthedaydialog.ui" line="14"/>
         <source>Tip of the Day</source>
-        <translation type="unfinished">Tip of the Day</translation>
+        <translation>Sfatul zilei</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.ui" line="20"/>
@@ -45,19 +45,19 @@
         <location filename="../tipofthedaydialog.cpp" line="24"/>
         <source>Configure</source>
         <comment>tip of the day dialog</comment>
-        <translation type="unfinished">Configure</translation>
+        <translation>Configurează</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="25"/>
         <source>« Previous</source>
         <comment>tip of the day dialog</comment>
-        <translation type="unfinished">« Previous</translation>
+        <translation>« Anterior</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="26"/>
         <source>Next »</source>
         <comment>tip of the day dialog</comment>
-        <translation type="unfinished">Next »</translation>
+        <translation>Următor »</translation>
     </message>
 </context>
 <context>
@@ -65,17 +65,17 @@
     <message>
         <location filename="../tipofthedayplugin.cpp" line="18"/>
         <source>Tip of the Day...</source>
-        <translation type="unfinished">Tip of the Day...</translation>
+        <translation>Sfatul zilei...</translation>
     </message>
     <message>
         <location filename="../tipofthedayplugin.cpp" line="86"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
-        <translation type="unfinished">Could not download tips from the internet. Letos will use locally stored tips instead.</translation>
+        <translation>Nu s-au putut descărca sfaturile de pe internet. Letos va folosi în schimb sfaturile stocate local.</translation>
     </message>
     <message>
         <location filename="../tipofthedayplugin.cpp" line="179"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</translation>
+        <translation>&lt;b&gt;Sfat rapid:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Aflați mai multe&lt;/a&gt;</translation>
     </message>
 </context>
 </TS>

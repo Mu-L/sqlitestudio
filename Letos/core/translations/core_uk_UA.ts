@@ -39,7 +39,7 @@
         <location filename="../db/chainexecutor.cpp" line="73"/>
         <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</translation>
+        <translation>Не вдалося перемкнутися на застарілу поведінку ALTER RENAME у базі даних. Докладно: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="82"/>
@@ -130,18 +130,18 @@
     <message>
         <location filename="../completionhelper.cpp" line="267"/>
         <source>String</source>
-        <translation type="unfinished">String</translation>
+        <translation>Рядок</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="270"/>
         <location filename="../completionhelper.cpp" line="273"/>
         <source>Number</source>
-        <translation type="unfinished">Number</translation>
+        <translation>Число</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="285"/>
         <source>BLOB literal</source>
-        <translation type="unfinished">BLOB literal</translation>
+        <translation>Літерал BLOB</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="445"/>
@@ -159,27 +159,27 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="592"/>
         <source>Cannot export config to file %1: %2</source>
-        <translation type="unfinished">Cannot export config to file %1: %2</translation>
+        <translation>Не вдалося експортувати конфігурацію до файлу %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="597"/>
         <source>Config exported successfully to %1</source>
-        <translation type="unfinished">Config exported successfully to %1</translation>
+        <translation>Конфігурацію успішно експортовано до %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="629"/>
         <source>Cannot import config from file %1: %2</source>
-        <translation type="unfinished">Cannot import config from file %1: %2</translation>
+        <translation>Не вдалося імпортувати конфігурацію з файлу %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="648"/>
         <source>Config imported successfully from %1</source>
-        <translation type="unfinished">Config imported successfully from %1</translation>
+        <translation>Конфігурацію успішно імпортовано з %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="659"/>
         <source>Cannot read file %1: %2</source>
-        <translation type="unfinished">Cannot read file %1: %2</translation>
+        <translation>Не вдалося прочитати файл %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1001"/>
@@ -194,7 +194,7 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1366"/>
         <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-        <translation type="unfinished">Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</translation>
+        <translation>Налаштовані гарячі клавіші було скинуто до стандартних параметрів після оновлення до версії 4.0.0, у якій багато сполучень клавіш було переглянуто відповідно до сучасних стандартів IDE.</translation>
     </message>
 </context>
 <context>
@@ -240,17 +240,17 @@
         <location filename="../dbobjectorganizer.cpp" line="130"/>
         <location filename="../dbobjectorganizer.cpp" line="149"/>
         <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-        <translation type="unfinished">An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</translation>
+        <translation>Сталася помилка під час спроби перейменувати таблицю &apos;%1&apos; на &apos;%2&apos;: %3</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="131"/>
         <source>Failed to parse object definition.</source>
-        <translation type="unfinished">Failed to parse object definition.</translation>
+        <translation>Не вдалося проаналізувати визначення об’єкта.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="166"/>
         <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-        <translation type="unfinished">An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</translation>
+        <translation>Сталася помилка під час спроби перейменувати стовпець &apos;%1&apos; таблиці &apos;%2&apos; на &apos;%3&apos;: %4</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../dbobjectorganizer.cpp" line="507"/>
         <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-        <translation type="unfinished">Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</translation>
+        <translation>Базу даних %1 не вдалося приєднати до бази даних %2, тому дані таблиці %3 буде скопійовано за посередництва Letos. Цей метод може бути повільним для величезних таблиць, тож наберіться терпіння.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="531"/>
@@ -352,7 +352,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../services/exportmanager.cpp" line="126"/>
         <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing views.</translation>
+        <translation>Плагін експорту %1 не підтримує експорт об&apos;єктів-представлень.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="150"/>
@@ -407,17 +407,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../exportworker.cpp" line="821"/>
         <source>Error while reading data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while reading data to export from table or view %1: %2</translation>
+        <translation>Помилка під час читання даних для експорту з таблиці або представлення %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="829"/>
         <source>Error while counting data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data to export from table or view %1: %2</translation>
+        <translation>Помилка під час підрахунку даних для експорту з таблиці або представлення %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="845"/>
         <source>Error while counting data column width to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data column width to export from table or view %1: %2</translation>
+        <translation>Помилка під час підрахунку ширини стовпця даних для експорту з таблиці або представлення %1: %2</translation>
     </message>
 </context>
 <context>
@@ -425,17 +425,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../services/functionmanager.cpp" line="37"/>
         <source>Scalar</source>
-        <translation type="unfinished">Scalar</translation>
+        <translation>Скалярна</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="39"/>
         <source>Aggregate</source>
-        <translation type="unfinished">Aggregate</translation>
+        <translation>Агрегатна</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="41"/>
         <source>Window</source>
-        <translation type="unfinished">Window</translation>
+        <translation>Віконна</translation>
     </message>
 </context>
 <context>
@@ -443,7 +443,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
         <source>Could not create scripting context, probably the plugin is not configured properly</source>
-        <translation type="unfinished">Could not create scripting context, probably the plugin is not configured properly</translation>
+        <translation>Не вдалося створити контекст сценаріїв, імовірно, плагін налаштовано неправильно</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
@@ -453,7 +453,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
-        <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
+        <translation>Немає такої функції, зареєстрованої в Letos: %1(%2)</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
@@ -859,27 +859,27 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../common/utils.cpp" line="79"/>
         <source>SQLite database or SQL file</source>
-        <translation type="unfinished">SQLite database or SQL file</translation>
+        <translation>База даних SQLite або файл SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="81"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>Файли SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="82"/>
         <source>CSV files</source>
-        <translation type="unfinished">CSV files</translation>
+        <translation>Файли CSV</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="83"/>
         <source>Text files</source>
-        <translation type="unfinished">Text files</translation>
+        <translation>Текстові файли</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="84"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Усі файли</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="968"/>
@@ -961,7 +961,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</source>
     <message>
         <location filename="../plugins/populatescript.cpp" line="69"/>
         <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-        <translation type="unfinished">Could not get evaluation context, probably the %1 scripting plugin is not configured properly</translation>
+        <translation>Не вдалося отримати контекст обчислення, імовірно, плагін сценаріїв %1 налаштовано неправильно</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="83"/>
@@ -1092,17 +1092,17 @@ The view will remain as it is.</source>
     <message>
         <location filename="../viewmodifier.cpp" line="80"/>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-        <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
+        <translation>Letos не вдалося визначити стовпці, які повертає нове представлення, тому він не зможе з&apos;ясувати, які тригери можуть дати збій під час процесу повторного створення.</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>На основі функції</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>На основі розширення</translation>
     </message>
 </context>
 <context>
@@ -1126,12 +1126,12 @@ The view will remain as it is.</source>
         <location filename="../db/queryexecutor.cpp" line="363"/>
         <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-        <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
+        <translation>Сталася помилка під час виконання запиту count(*), тому посторінкове відображення даних буде вимкнено. Докладні відомості про помилку з бази даних: %1</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-        <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
+        <translation>Letos не вдалося видобути метадані із запиту. Результати не пов&apos;язані з можливістю редагування.</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ The view will remain as it is.</source>
     <message>
         <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
         <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-        <translation type="unfinished">Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</translation>
+        <translation>Стовпець %1 у таблиці %2 посилається на стовпець %3 у таблиці %4, але ці стовпці мають різні типи даних: %5 проти %6. Це може спричинити проблеми, пов’язані зі зіставленням значень зовнішнього ключа.</translation>
     </message>
 </context>
 <context>
@@ -1160,12 +1160,12 @@ The view will remain as it is.</source>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="59"/>
         <source>Could not execute SQL, because application has failed to start transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to start transaction: %1</translation>
+        <translation>Не вдалося виконати SQL, оскільки застосунку не вдалося розпочати транзакцію: %1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="90"/>
         <source>Execution from file cancelled. Any queries executed so far have been rolled back.</source>
-        <translation type="unfinished">Execution from file cancelled. Any queries executed so far have been rolled back.</translation>
+        <translation>Виконання з файлу скасовано. Усі запити, виконані до цього моменту, було відкочено.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="106"/>
@@ -1175,22 +1175,22 @@ The view will remain as it is.</source>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="151"/>
         <source>Could not execute SQL, because application has failed to commit the transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to commit the transaction: %1</translation>
+        <translation>Не вдалося виконати SQL, оскільки застосунку не вдалося зафіксувати транзакцію: %1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="156"/>
         <source>Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</translation>
+        <translation>Завершено виконання %1 запитів за %2 секунд. %3 не виконано через помилки.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="162"/>
         <source>Finished executing %1 queries in %2 seconds.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds.</translation>
+        <translation>Завершено виконання %1 запитів за %2 секунд.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="169"/>
         <source>Could not execute SQL due to error.</source>
-        <translation type="unfinished">Could not execute SQL due to error.</translation>
+        <translation>Не вдалося виконати SQL через помилку.</translation>
     </message>
 </context>
 <context>
@@ -1223,7 +1223,7 @@ The view will remain as it is.</source>
         <location filename="../sqlhistorymodel.cpp" line="40"/>
         <source>SQL</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">SQL</translation>
+        <translation>SQL</translation>
     </message>
 </context>
 <context>
@@ -1231,12 +1231,12 @@ The view will remain as it is.</source>
     <message>
         <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-        <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
+        <translation>Файл бази даних &apos;%1&apos; було змінено новішою версією SQLite (формат %2), тоді як поточний застосунок підтримує лише формат до %3. Деякі функції можуть працювати некоректно.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
-        <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
+        <translation>Зареєстровано стандартну послідовність зіставлення на вимогу з назвою: %1</translation>
     </message>
 </context>
 <context>

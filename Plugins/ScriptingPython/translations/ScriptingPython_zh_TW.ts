@@ -34,17 +34,17 @@
     <message>
         <location filename="../scriptingpython.ui" line="20"/>
         <source>Python library path</source>
-        <translation type="unfinished">Python library path</translation>
+        <translation>Python 程式庫路徑</translation>
     </message>
     <message>
         <location filename="../scriptingpython.ui" line="29"/>
         <source>Choose a Python library file</source>
-        <translation type="unfinished">Choose a Python library file</translation>
+        <translation>選擇 Python 程式庫檔案</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="370"/>
         <source>The plugin is not configured properly.</source>
-        <translation type="unfinished">The plugin is not configured properly.</translation>
+        <translation>外掛程式未正確設定。</translation>
     </message>
 </context>
 </TS>

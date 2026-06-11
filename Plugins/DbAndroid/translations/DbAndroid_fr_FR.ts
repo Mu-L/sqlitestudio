@@ -56,7 +56,7 @@
     <message>
         <location filename="../dbandroid.cpp" line="183"/>
         <source>You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</source>
-        <translation type="unfinished">You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</translation>
+        <translation>Vous pouvez récupérer le fichier JAR du connecteur Android depuis le menu Outils. Il&apos;est requis pour 2 des 3 connexions prises en charge par le plugin Android. Pour plus de détails, lisez la documentation du plugin sur &lt;a href=&quot;%1&quot;&gt;la page wiki de Letos.&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="219"/>
@@ -186,7 +186,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="127"/>
         <source>&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Il s’agit du mot de passe configuré dans le service Letos intégré dans l’application Android.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="140"/>

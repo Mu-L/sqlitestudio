@@ -49,17 +49,17 @@
     <message>
         <location filename="../CsvImportOptions.ui" line="65"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>Oddeľovač stĺpcov:</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="108"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, the &amp;quot; character will be interpreted as standard CSV value quotation mark, causing the string to be treated as single value until the next (ending) &amp;quot; character. If disabled, the &amp;quot; will be treated as any other character. Usually you want this to be enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, the &amp;quot; character will be interpreted as standard CSV value quotation mark, causing the string to be treated as single value until the next (ending) &amp;quot; character. If disabled, the &amp;quot; will be treated as any other character. Usually you want this to be enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ak je povolené, znak &amp;quot; sa bude interpretovať ako štandardná úvodzovka hodnoty CSV, čo spôsobí, že reťazec sa bude považovať za jednu hodnotu až po nasledujúci (koncový) znak &amp;quot;. Ak je zakázané, znak &amp;quot; sa bude považovať za akýkoľvek iný znak. Zvyčajne chcete, aby to bolo povolené.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="111"/>
         <source>Interpret &quot; as a value quotation mark</source>
-        <translation type="unfinished">Interpret &quot; as a value quotation mark</translation>
+        <translation>Interpretovať &quot; ako úvodzovku hodnoty</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="20"/>
@@ -74,7 +74,7 @@
     <message>
         <location filename="../CsvImportOptions.ui" line="72"/>
         <source>If enabled, then text value provided on the right will be interpreted as NULL</source>
-        <translation type="unfinished">If enabled, then text value provided on the right will be interpreted as NULL</translation>
+        <translation>Ak je povolené, textová hodnota zadaná napravo sa bude interpretovať ako NULL</translation>
     </message>
     <message>
         <location filename="../CsvImportOptions.ui" line="75"/>

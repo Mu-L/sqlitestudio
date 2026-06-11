@@ -6,59 +6,59 @@
     <message>
         <location filename="../htmlexport.cpp" line="45"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>SQL 쿼리 결과</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="54"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>쿼리:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="94"/>
         <location filename="../htmlexport.cpp" line="188"/>
         <source>no type</source>
-        <translation type="unfinished">no type</translation>
+        <translation>유형 없음</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="125"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>내보낸 테이블: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="136"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>내보낸 뷰: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="157"/>
         <location filename="../htmlexport.cpp" line="280"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>테이블: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="283"/>
         <source>virtual</source>
-        <translation type="unfinished">virtual</translation>
+        <translation>가상</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="335"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>내보낸 데이터베이스: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="351"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>인덱스: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="357"/>
         <source>For table:</source>
-        <translation type="unfinished">For table:</translation>
+        <translation>대상 테이블:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="364"/>
         <source>Unique:</source>
-        <translation type="unfinished">Unique:</translation>
+        <translation>고유:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
@@ -73,62 +73,62 @@
     <message>
         <location filename="../htmlexport.cpp" line="371"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>열</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="372"/>
         <source>Collating</source>
-        <translation type="unfinished">Collating</translation>
+        <translation>정렬 규칙</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="373"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>정렬 순서</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="407"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>트리거: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="413"/>
         <source>Activated:</source>
-        <translation type="unfinished">Activated:</translation>
+        <translation>활성화됨:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="421"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>작업:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="428"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>뷰에서:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="430"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>테이블에서:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="441"/>
         <source>Activate condition:</source>
-        <translation type="unfinished">Activate condition:</translation>
+        <translation>활성화 조건:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="448"/>
         <source>Code executed:</source>
-        <translation type="unfinished">Code executed:</translation>
+        <translation>실행된 코드:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="486"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>뷰: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="565"/>
         <source>Document generated by Letos v%1 on %2</source>
-        <translation type="unfinished">Document generated by Letos v%1 on %2</translation>
+        <translation>Letos v%1에서 %2에 생성한 문서</translation>
     </message>
 </context>
 <context>
@@ -136,74 +136,74 @@
     <message>
         <location filename="../htmlexport.ui" line="136"/>
         <source>Maximum number of characters per cell:</source>
-        <translation type="unfinished">Maximum number of characters per cell:</translation>
+        <translation>셀당 최대 문자 수:</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="182"/>
         <source>Include data types in first row</source>
-        <translation type="unfinished">Include data types in first row</translation>
+        <translation>첫 번째 행에 데이터 유형 포함</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="143"/>
         <source>Column names as first row</source>
-        <translation type="unfinished">Column names as first row</translation>
+        <translation>열 이름을 첫 번째 행으로</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="126"/>
         <source>Row numbers as first column</source>
-        <translation type="unfinished">Row numbers as first column</translation>
+        <translation>행 번호를 첫 번째 열로</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="91"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>출력 형식</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="20"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>사용자 지정 헤더</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="26"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>사용자 지정 헤더 없음</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>사용자 지정 헤더 내용 정의</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="52"/>
         <location filename="../htmlexport.ui" line="224"/>
         <source>HTML content</source>
-        <translation type="unfinished">HTML content</translation>
+        <translation>HTML 콘텐츠</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="62"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>사용자 지정 헤더 파일 정의</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="78"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>헤더 파일 선택</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="81"/>
         <location filename="../htmlexport.ui" line="253"/>
         <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
+        <translation>HTML 파일 (*.htm, *.html);;텍스트 파일 (*.txt);;모든 파일 (*)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="97"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>문서 서식 지정(새 줄, 들여쓰기)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="110"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>압축(모든 내용을 한 줄로)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="153"/>
@@ -213,32 +213,32 @@
     <message>
         <location filename="../htmlexport.ui" line="156"/>
         <source>Don&apos;t escape HTML characters</source>
-        <translation type="unfinished">Don&apos;t escape HTML characters</translation>
+        <translation>HTML 문자를 이스케이프하지 않기(&apos;)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="192"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>사용자 지정 푸터</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="198"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>사용자 지정 푸터 없음</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="211"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>사용자 지정 푸터 내용 정의</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="234"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>사용자 지정 푸터 파일 정의</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="250"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>푸터 파일 선택</translation>
     </message>
 </context>
 </TS>

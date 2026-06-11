@@ -6,17 +6,17 @@
     <message>
         <location filename="../multieditorimage.cpp" line="26"/>
         <source>Zoom in by 25%</source>
-        <translation type="unfinished">Zoom in by 25%</translation>
+        <translation>Nagyítás 25%-kal</translation>
     </message>
     <message>
         <location filename="../multieditorimage.cpp" line="27"/>
         <source>Zoom out by 25%</source>
-        <translation type="unfinished">Zoom out by 25%</translation>
+        <translation>Kicsinyítés 25%-kal</translation>
     </message>
     <message>
         <location filename="../multieditorimage.cpp" line="28"/>
         <source>Reset zoom</source>
-        <translation type="unfinished">Reset zoom</translation>
+        <translation>Nagyítás visszaállítása</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../multieditorimage.cpp" line="200"/>
         <source>Image</source>
-        <translation type="unfinished">Image</translation>
+        <translation>Kép</translation>
     </message>
 </context>
 </TS>

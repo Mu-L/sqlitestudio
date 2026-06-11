@@ -31,7 +31,7 @@
     <message>
         <location filename="../sqlexport.cpp" line="284"/>
         <source>-- File generated with Letos v%1 on %2</source>
-        <translation type="unfinished">-- File generated with Letos v%1 on %2</translation>
+        <translation>-- Dosya, %2 tarihinde Letos v%1 ile oluşturuldu</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="288"/>
@@ -59,7 +59,7 @@
     <message>
         <location filename="../SqlExportCommon.ui" line="50"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>&quot;CREATE&quot; komutuna &quot;IF NOT EXISTS&quot; yan tümcesini ekle</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="20"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../SqlExportQuery.ui" line="84"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>&quot;CREATE&quot; komutuna &quot;IF NOT EXISTS&quot; yan tümcesini ekle</translation>
     </message>
 </context>
 </TS>

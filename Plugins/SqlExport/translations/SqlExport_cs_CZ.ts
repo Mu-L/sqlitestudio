@@ -6,42 +6,42 @@
     <message>
         <location filename="../sqlexport.cpp" line="87"/>
         <source>-- Results of query:</source>
-        <translation type="unfinished">-- Results of query:</translation>
+        <translation>-- Výsledky dotazu:</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="159"/>
         <source>-- Table: %1</source>
-        <translation type="unfinished">-- Table: %1</translation>
+        <translation>-- Tabulka: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="206"/>
         <source>-- Index: %1</source>
-        <translation type="unfinished">-- Index: %1</translation>
+        <translation>-- Index: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="231"/>
         <source>-- Trigger: %1</source>
-        <translation type="unfinished">-- Trigger: %1</translation>
+        <translation>-- Trigger: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="259"/>
         <source>-- View: %1</source>
-        <translation type="unfinished">-- View: %1</translation>
+        <translation>-- Pohled: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="284"/>
         <source>-- File generated with Letos v%1 on %2</source>
-        <translation type="unfinished">-- File generated with Letos v%1 on %2</translation>
+        <translation>-- Soubor vygenerován pomocí Letos v%1 dne %2</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="288"/>
         <source>-- Text encoding used: %1</source>
-        <translation type="unfinished">-- Text encoding used: %1</translation>
+        <translation>-- Použité kódování textu: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="370"/>
         <source>Table name for INSERT statements is mandatory.</source>
-        <translation type="unfinished">Table name for INSERT statements is mandatory.</translation>
+        <translation>Název tabulky pro příkazy INSERT je povinný.</translation>
     </message>
 </context>
 <context>
@@ -49,22 +49,22 @@
     <message>
         <location filename="../SqlExportCommon.ui" line="30"/>
         <source>Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</translation>
+        <translation>Generovat příkaz &quot;DROP IF EXISTS&quot; před příkazem &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="40"/>
         <source>Format DDL statements only (excludes &quot;INSERT&quot; statements)</source>
-        <translation type="unfinished">Format DDL statements only (excludes &quot;INSERT&quot; statements)</translation>
+        <translation>Formátovat pouze příkazy DDL (nezahrnuje příkazy &quot;INSERT&quot;)</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="50"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>Přidat klauzuli &quot;IF NOT EXISTS&quot; do příkazu &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="20"/>
         <source>Use SQL formatter to format exported SQL statements</source>
-        <translation type="unfinished">Use SQL formatter to format exported SQL statements</translation>
+        <translation>Použít formátovač SQL k formátování exportovaných příkazů SQL</translation>
     </message>
 </context>
 <context>
@@ -72,37 +72,37 @@
     <message>
         <location filename="../SqlExportQuery.ui" line="47"/>
         <source>Use SQL formatter to format exported SQL statements</source>
-        <translation type="unfinished">Use SQL formatter to format exported SQL statements</translation>
+        <translation>Použít formátovač SQL k formátování exportovaných příkazů SQL</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="40"/>
         <source>Table name to use for INSERT statements:</source>
-        <translation type="unfinished">Table name to use for INSERT statements:</translation>
+        <translation>Název tabulky pro příkazy INSERT:</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="64"/>
         <source>Generate &quot;CREATE TABLE&quot; statement at the begining</source>
-        <translation type="unfinished">Generate &quot;CREATE TABLE&quot; statement at the begining</translation>
+        <translation>Generovat příkaz &quot;CREATE TABLE&quot; na začátku</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="20"/>
         <source>Include the query in comments</source>
-        <translation type="unfinished">Include the query in comments</translation>
+        <translation>Zahrnout dotaz do komentářů</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="30"/>
         <source>Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</translation>
+        <translation>Generovat příkaz &quot;DROP IF EXISTS&quot; před příkazem &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="74"/>
         <source>Format DDL statements only (excludes &quot;INSERT&quot; statements)</source>
-        <translation type="unfinished">Format DDL statements only (excludes &quot;INSERT&quot; statements)</translation>
+        <translation>Formátovat pouze příkazy DDL (nezahrnuje příkazy &quot;INSERT&quot;)</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="84"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>Přidat klauzuli &quot;IF NOT EXISTS&quot; do příkazu &quot;CREATE&quot;</translation>
     </message>
 </context>
 </TS>

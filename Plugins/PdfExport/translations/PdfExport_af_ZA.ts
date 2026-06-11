@@ -6,169 +6,169 @@
     <message>
         <location filename="../pdfexport.cpp" line="66"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>SQL-navraagresultate</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="205"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Geëksporteerde tabel: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="101"/>
         <location filename="../pdfexport.cpp" line="153"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos weergawe %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolom</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>Datatipe</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Beperkings</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="135"/>
         <source>Global table constraints</source>
-        <translation type="unfinished">Global table constraints</translation>
+        <translation>Globale tabelbeperkings</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Geëksporteerde aansig: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Geëksporteerde databasis: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="258"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Indeks: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Property</source>
         <comment>index header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Eienskap</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Value</source>
         <comment>index header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Waarde</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="263"/>
         <source>Indexed table</source>
-        <translation type="unfinished">Indexed table</translation>
+        <translation>Geïndekseerde tabel</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>Unieke indeks</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Nee</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Kollasie</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Sorteervolgorde</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="282"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Gedeeltelike indeksvoorwaarde</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="296"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Sneller: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Property</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Eienskap</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Value</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Waarde</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="300"/>
         <source>Activation time</source>
-        <translation type="unfinished">Activation time</translation>
+        <translation>Aktiveringstyd</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="303"/>
         <source>For action</source>
-        <translation type="unfinished">For action</translation>
+        <translation>Vir aksie</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="307"/>
         <source>On view</source>
-        <translation type="unfinished">On view</translation>
+        <translation>Op aansig</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="309"/>
         <source>On table</source>
-        <translation type="unfinished">On table</translation>
+        <translation>Op tabel</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="314"/>
         <source>Activation condition</source>
-        <translation type="unfinished">Activation condition</translation>
+        <translation>Aktiveringsvoorwaarde</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="320"/>
         <source>Code executed</source>
-        <translation type="unfinished">Code executed</translation>
+        <translation>Uitgevoerde kode</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="333"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Aansig: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>Dokument gegenereer met Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
         <location filename="../pdfexport.cpp" line="335"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Navraag:</translation>
     </message>
 </context>
 <context>
@@ -176,32 +176,32 @@
     <message>
         <location filename="../pdfexport.ui" line="20"/>
         <source>Size and layout</source>
-        <translation type="unfinished">Size and layout</translation>
+        <translation>Grootte en uitleg</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="36"/>
         <source>Page size:</source>
-        <translation type="unfinished">Page size:</translation>
+        <translation>Bladsygrootte:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="63"/>
         <source>Right margin:</source>
-        <translation type="unfinished">Right margin:</translation>
+        <translation>Regtermarge:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="70"/>
         <source>Left margin:</source>
-        <translation type="unfinished">Left margin:</translation>
+        <translation>Linkermarge:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="77"/>
         <source>Cell padding:</source>
-        <translation type="unfinished">Cell padding:</translation>
+        <translation>Selvulling:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="84"/>
         <source>Limit characters in single cell:</source>
-        <translation type="unfinished">Limit characters in single cell:</translation>
+        <translation>Beperk karakters in &apos;n enkele sel:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="91"/>
@@ -210,119 +210,114 @@
         <location filename="../pdfexport.ui" line="132"/>
         <location filename="../pdfexport.ui" line="156"/>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="139"/>
         <source>Bottom margin:</source>
-        <translation type="unfinished">Bottom margin:</translation>
+        <translation>Ondermarge:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="163"/>
         <source>Top margin:</source>
-        <translation type="unfinished">Top margin:</translation>
+        <translation>Bomarge:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="183"/>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Lettertipe</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="206"/>
         <source>Colors</source>
-        <translation type="unfinished">Colors</translation>
+        <translation>Kleure</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="212"/>
         <source>Headers background:</source>
-        <translation type="unfinished">Headers background:</translation>
+        <translation>Opskrifte se agtergrond:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="235"/>
         <source>NULL value color:</source>
-        <translation type="unfinished">NULL value color:</translation>
+        <translation>NULL-waardekleur:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="261"/>
         <source>Other settings</source>
-        <translation type="unfinished">Other settings</translation>
+        <translation>Ander instellings</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="267"/>
         <source>Print row numbers for data</source>
-        <translation type="unfinished">Print row numbers for data</translation>
+        <translation>Druk rynommers vir data</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="277"/>
         <source>Print page numbers</source>
-        <translation type="unfinished">Print page numbers</translation>
+        <translation>Druk bladsynommers</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Pasgemaakte koptekst</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Geen pasgemaakte koptekst</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Definieer pasgemaakte koptekstinhoud</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>Gewone teksinhoud</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Definieer pasgemaakte koptekstlêer</translation>
+    </message>
+    <message>
+        <location filename="../pdfexport.ui" line="348"/>
+        <source>Choose file for the header</source>
+        <translation>Kies lêer vir die koptekst</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Tekslêers (*.txt);;Alle lêers (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Pasgemaakte voetteks</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Geen pasgemaakte voetteks</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Definieer pasgemaakte voetteksinhoud</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Definieer pasgemaakte voettekslêer</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Kies lêer vir die voetteks</translation>
     </message>
 </context>
 </TS>

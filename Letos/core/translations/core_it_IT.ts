@@ -39,7 +39,7 @@
         <location filename="../db/chainexecutor.cpp" line="73"/>
         <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</translation>
+        <translation>Impossibile passare al comportamento ALTER RENAME legacy nel database. Dettagli: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="82"/>
@@ -130,18 +130,18 @@
     <message>
         <location filename="../completionhelper.cpp" line="267"/>
         <source>String</source>
-        <translation type="unfinished">String</translation>
+        <translation>Stringa</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="270"/>
         <location filename="../completionhelper.cpp" line="273"/>
         <source>Number</source>
-        <translation type="unfinished">Number</translation>
+        <translation>Numero</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="285"/>
         <source>BLOB literal</source>
-        <translation type="unfinished">BLOB literal</translation>
+        <translation>Letterale BLOB</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="445"/>
@@ -159,27 +159,27 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="592"/>
         <source>Cannot export config to file %1: %2</source>
-        <translation type="unfinished">Cannot export config to file %1: %2</translation>
+        <translation>Impossibile esportare la configurazione nel file %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="597"/>
         <source>Config exported successfully to %1</source>
-        <translation type="unfinished">Config exported successfully to %1</translation>
+        <translation>Configurazione esportata correttamente in %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="629"/>
         <source>Cannot import config from file %1: %2</source>
-        <translation type="unfinished">Cannot import config from file %1: %2</translation>
+        <translation>Impossibile importare la configurazione dal file %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="648"/>
         <source>Config imported successfully from %1</source>
-        <translation type="unfinished">Config imported successfully from %1</translation>
+        <translation>Configurazione importata correttamente da %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="659"/>
         <source>Cannot read file %1: %2</source>
-        <translation type="unfinished">Cannot read file %1: %2</translation>
+        <translation>Impossibile leggere il file %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1001"/>
@@ -194,7 +194,7 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1366"/>
         <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-        <translation type="unfinished">Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</translation>
+        <translation>Le scorciatoie da tastiera configurate sono state ripristinate alle impostazioni predefinite in seguito all&apos;aggiornamento alla versione 4.0.0, in cui molte scorciatoie sono state riviste per allinearsi agli standard degli IDE moderni.</translation>
     </message>
 </context>
 <context>
@@ -240,17 +240,17 @@
         <location filename="../dbobjectorganizer.cpp" line="130"/>
         <location filename="../dbobjectorganizer.cpp" line="149"/>
         <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-        <translation type="unfinished">An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</translation>
+        <translation>Si è verificato un errore durante il tentativo di rinominare la tabella &apos;%1&apos; in &apos;%2&apos;: %3</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="131"/>
         <source>Failed to parse object definition.</source>
-        <translation type="unfinished">Failed to parse object definition.</translation>
+        <translation>Impossibile analizzare la definizione dell&apos;oggetto.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="166"/>
         <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-        <translation type="unfinished">An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</translation>
+        <translation>Si è verificato un errore durante il tentativo di rinominare la colonna &apos;%1&apos; della tabella &apos;%2&apos; in &apos;%3&apos;: %4</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../dbobjectorganizer.cpp" line="507"/>
         <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-        <translation type="unfinished">Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</translation>
+        <translation>Non è stato possibile allegare il database %1 al database %2, quindi i dati della tabella %3 verranno copiati usando Letos come mediatore. Questo metodo può essere lento per tabelle molto grandi, quindi attendere pazientemente.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="531"/>
@@ -352,7 +352,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../services/exportmanager.cpp" line="126"/>
         <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing views.</translation>
+        <translation>Il plugin di esportazione %1 non supporta l&apos;esportazione delle viste.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="150"/>
@@ -407,17 +407,17 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../exportworker.cpp" line="821"/>
         <source>Error while reading data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while reading data to export from table or view %1: %2</translation>
+        <translation>Errore durante la lettura dei dati da esportare dalla tabella o vista %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="829"/>
         <source>Error while counting data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data to export from table or view %1: %2</translation>
+        <translation>Errore durante il conteggio dei dati da esportare dalla tabella o vista %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="845"/>
         <source>Error while counting data column width to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data column width to export from table or view %1: %2</translation>
+        <translation>Errore durante il conteggio della larghezza della colonna dei dati da esportare dalla tabella o vista %1: %2</translation>
     </message>
 </context>
 <context>
@@ -425,17 +425,17 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../services/functionmanager.cpp" line="37"/>
         <source>Scalar</source>
-        <translation type="unfinished">Scalar</translation>
+        <translation>Scalare</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="39"/>
         <source>Aggregate</source>
-        <translation type="unfinished">Aggregate</translation>
+        <translation>Aggregata</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="41"/>
         <source>Window</source>
-        <translation type="unfinished">Window</translation>
+        <translation>Finestra</translation>
     </message>
 </context>
 <context>
@@ -443,7 +443,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
         <source>Could not create scripting context, probably the plugin is not configured properly</source>
-        <translation type="unfinished">Could not create scripting context, probably the plugin is not configured properly</translation>
+        <translation>Impossibile creare il contesto di scripting, probabilmente il plugin non è configurato correttamente</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
@@ -453,7 +453,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
-        <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
+        <translation>Nessuna funzione di questo tipo registrata in Letos: %1(%2)</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
@@ -581,13 +581,13 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
         <source>min: %1</source>
         <comment>plugin dependency version</comment>
-        <translation type="unfinished">min: %1</translation>
+        <translation>minimo: %1</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="762"/>
         <source>max: %1</source>
         <comment>plugin dependency version</comment>
-        <translation type="unfinished">max: %1</translation>
+        <translation>massimo: %1</translation>
     </message>
 </context>
 <context>
@@ -736,7 +736,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="67"/>
         <source>Alpha</source>
-        <translation type="unfinished">Alpha</translation>
+        <translation>Lettere</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="77"/>
@@ -789,7 +789,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../plugins/populatescript.cpp" line="33"/>
         <source>Script</source>
-        <translation type="unfinished">Script</translation>
+        <translation>Script</translation>
     </message>
 </context>
 <context>
@@ -859,27 +859,27 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../common/utils.cpp" line="79"/>
         <source>SQLite database or SQL file</source>
-        <translation type="unfinished">SQLite database or SQL file</translation>
+        <translation>Database SQLite o file SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="81"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>File SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="82"/>
         <source>CSV files</source>
-        <translation type="unfinished">CSV files</translation>
+        <translation>File CSV</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="83"/>
         <source>Text files</source>
-        <translation type="unfinished">Text files</translation>
+        <translation>File di testo</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="84"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Tutti i file</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="968"/>
@@ -921,7 +921,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../parser/sqlite3_parse.cpp" line="2723"/>
         <source>Parser stack overflow</source>
-        <translation type="unfinished">Parser stack overflow</translation>
+        <translation>Overflow dello stack del parser</translation>
     </message>
     <message>
         <location filename="../parser/sqlite3_parse.cpp" line="6456"/>
@@ -961,7 +961,7 @@ Le tabelle, gli indici, i trigger e le viste copiate nel database %3 rimarranno.
     <message>
         <location filename="../plugins/populatescript.cpp" line="69"/>
         <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-        <translation type="unfinished">Could not get evaluation context, probably the %1 scripting plugin is not configured properly</translation>
+        <translation>Impossibile ottenere il contesto di valutazione, probabilmente il plugin di scripting %1 non è configurato correttamente</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="83"/>
@@ -1092,17 +1092,17 @@ La vista rimarrà così com&apos;è.</translation>
     <message>
         <location filename="../viewmodifier.cpp" line="80"/>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-        <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
+        <translation>Letos non è riuscito a risolvere le colonne restituite dalla nuova vista, pertanto non sarà in grado d&apos;indicare quali trigger potrebbero non riuscire durante il processo di ricreazione.</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>Basata su funzione</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>Basata su estensione</translation>
     </message>
 </context>
 <context>
@@ -1126,12 +1126,12 @@ La vista rimarrà così com&apos;è.</translation>
         <location filename="../db/queryexecutor.cpp" line="363"/>
         <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-        <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
+        <translation>Si è verificato un errore durante l&apos;esecuzione della query count(*), pertanto la paginazione dei dati verrà disabilitata. Dettagli dell&apos;errore dal database: %1</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-        <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
+        <translation>Letos non è riuscito nell&apos;estrazione dei metadati dalla query. I risultati non saranno modificabili.</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ La vista rimarrà così com&apos;è.</translation>
     <message>
         <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
         <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-        <translation type="unfinished">Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</translation>
+        <translation>La colonna %1 nella tabella %2 fa riferimento alla colonna %3 nella tabella %4, ma queste colonne hanno tipi di dati diversi: %5 vs. %6. Ciò potrebbe causare problemi relativi alla corrispondenza dei valori delle chiavi esterne.</translation>
     </message>
 </context>
 <context>
@@ -1199,7 +1199,7 @@ La vista rimarrà così com&apos;è.</translation>
         <location filename="../sqlhistorymodel.cpp" line="32"/>
         <source>Database</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">Database</translation>
+        <translation>Base di dati</translation>
     </message>
     <message>
         <location filename="../sqlhistorymodel.cpp" line="34"/>
@@ -1223,7 +1223,7 @@ La vista rimarrà così com&apos;è.</translation>
         <location filename="../sqlhistorymodel.cpp" line="40"/>
         <source>SQL</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">SQL</translation>
+        <translation>Istruzione SQL</translation>
     </message>
 </context>
 <context>
@@ -1231,12 +1231,12 @@ La vista rimarrà così com&apos;è.</translation>
     <message>
         <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-        <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
+        <translation>Il file di database &apos;%1&apos; è stato modificato da una versione più recente di SQLite (formato %2), mentre l&apos;applicazione corrente supporta fino al formato %3. Alcune funzionalità potrebbero non funzionare correttamente.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
-        <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
+        <translation>Registrata la collation predefinita su richiesta, con il nome: %1</translation>
     </message>
 </context>
 <context>

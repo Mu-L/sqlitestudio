@@ -6,52 +6,52 @@
     <message>
         <location filename="../CsvExport.ui" line="20"/>
         <source>Column names in first row</source>
-        <translation type="unfinished">Column names in first row</translation>
+        <translation>Kolonnenavne i første række</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="30"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>Kolonneseparator:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="41"/>
         <source>, (comma)</source>
-        <translation type="unfinished">, (comma)</translation>
+        <translation>, (komma)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="46"/>
         <source>; (semicolon)</source>
-        <translation type="unfinished">; (semicolon)</translation>
+        <translation>; (semikolon)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="51"/>
         <source>\t (tab)</source>
-        <translation type="unfinished">\t (tab)</translation>
+        <translation>\t (tabulator)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="56"/>
         <source>  (whitespace)</source>
-        <translation type="unfinished">  (whitespace)</translation>
+        <translation>  (mellemrum)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="61"/>
         <source>Custom:</source>
-        <translation type="unfinished">Custom:</translation>
+        <translation>Brugerdefineret:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="82"/>
         <source>Export NULL values as:</source>
-        <translation type="unfinished">Export NULL values as:</translation>
+        <translation>Eksportér NULL-værdier som:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="89"/>
         <source>Empty string</source>
-        <translation type="unfinished">Empty string</translation>
+        <translation>Tom streng</translation>
     </message>
     <message>
         <location filename="../csvexport.cpp" line="41"/>
         <source>Enter the custom separator character.</source>
-        <translation type="unfinished">Enter the custom separator character.</translation>
+        <translation>Indtast det brugerdefinerede separatortegn.</translation>
     </message>
 </context>
 </TS>

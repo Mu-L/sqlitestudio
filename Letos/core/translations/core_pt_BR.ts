@@ -39,7 +39,7 @@
         <location filename="../db/chainexecutor.cpp" line="73"/>
         <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</translation>
+        <translation>Não foi possível alternar para o comportamento legado de ALTER RENAME no banco de dados. Detalhes: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="82"/>
@@ -130,18 +130,18 @@
     <message>
         <location filename="../completionhelper.cpp" line="267"/>
         <source>String</source>
-        <translation type="unfinished">String</translation>
+        <translation>Cadeia de caracteres</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="270"/>
         <location filename="../completionhelper.cpp" line="273"/>
         <source>Number</source>
-        <translation type="unfinished">Number</translation>
+        <translation>Número</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="285"/>
         <source>BLOB literal</source>
-        <translation type="unfinished">BLOB literal</translation>
+        <translation>Literal BLOB</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="445"/>
@@ -159,27 +159,27 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="592"/>
         <source>Cannot export config to file %1: %2</source>
-        <translation type="unfinished">Cannot export config to file %1: %2</translation>
+        <translation>Não é possível exportar a configuração para o arquivo %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="597"/>
         <source>Config exported successfully to %1</source>
-        <translation type="unfinished">Config exported successfully to %1</translation>
+        <translation>Configuração exportada com sucesso para %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="629"/>
         <source>Cannot import config from file %1: %2</source>
-        <translation type="unfinished">Cannot import config from file %1: %2</translation>
+        <translation>Não é possível importar a configuração do arquivo %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="648"/>
         <source>Config imported successfully from %1</source>
-        <translation type="unfinished">Config imported successfully from %1</translation>
+        <translation>Configuração importada com sucesso de %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="659"/>
         <source>Cannot read file %1: %2</source>
-        <translation type="unfinished">Cannot read file %1: %2</translation>
+        <translation>Não é possível ler o arquivo %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1001"/>
@@ -194,7 +194,7 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1366"/>
         <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-        <translation type="unfinished">Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</translation>
+        <translation>As teclas de atalho configuradas foram redefinidas para suas configurações padrão após a atualização para a versão 4.0.0, na qual muitos atalhos foram revisados para se alinhar aos padrões modernos de IDE.</translation>
     </message>
 </context>
 <context>
@@ -240,17 +240,17 @@
         <location filename="../dbobjectorganizer.cpp" line="130"/>
         <location filename="../dbobjectorganizer.cpp" line="149"/>
         <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-        <translation type="unfinished">An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</translation>
+        <translation>Ocorreu um erro ao tentar renomear a tabela &apos;%1&apos; para &apos;%2&apos;: %3</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="131"/>
         <source>Failed to parse object definition.</source>
-        <translation type="unfinished">Failed to parse object definition.</translation>
+        <translation>Falha ao analisar a definição do objeto.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="166"/>
         <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-        <translation type="unfinished">An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</translation>
+        <translation>Ocorreu um erro ao tentar renomear a coluna &apos;%1&apos; da tabela &apos;%2&apos; para &apos;%3&apos;: %4</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../dbobjectorganizer.cpp" line="507"/>
         <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-        <translation type="unfinished">Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</translation>
+        <translation>O banco de dados %1 não pôde ser anexado ao banco de dados %2, portanto os dados da tabela %3 serão copiados com o Letos como mediador. Esse método pode ser lento para tabelas enormes, portanto tenha paciência.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="531"/>
@@ -352,7 +352,7 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../services/exportmanager.cpp" line="126"/>
         <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing views.</translation>
+        <translation>O plugin de exportação %1 não oferece suporte à exportação de &apos;visões&apos;.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="150"/>
@@ -407,17 +407,17 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../exportworker.cpp" line="821"/>
         <source>Error while reading data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while reading data to export from table or view %1: %2</translation>
+        <translation>Erro ao ler os dados a serem exportados da tabela ou visão %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="829"/>
         <source>Error while counting data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data to export from table or view %1: %2</translation>
+        <translation>Erro ao contar os dados a serem exportados da tabela ou visão %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="845"/>
         <source>Error while counting data column width to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data column width to export from table or view %1: %2</translation>
+        <translation>Erro ao contar a largura da coluna de dados a serem exportados da tabela ou visão %1: %2</translation>
     </message>
 </context>
 <context>
@@ -425,17 +425,17 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../services/functionmanager.cpp" line="37"/>
         <source>Scalar</source>
-        <translation type="unfinished">Scalar</translation>
+        <translation>Escalar</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="39"/>
         <source>Aggregate</source>
-        <translation type="unfinished">Aggregate</translation>
+        <translation>Agregada</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="41"/>
         <source>Window</source>
-        <translation type="unfinished">Window</translation>
+        <translation>Janela</translation>
     </message>
 </context>
 <context>
@@ -443,7 +443,7 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
         <source>Could not create scripting context, probably the plugin is not configured properly</source>
-        <translation type="unfinished">Could not create scripting context, probably the plugin is not configured properly</translation>
+        <translation>Não foi possível criar o contexto de script; provavelmente o plugin não está configurado corretamente</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
@@ -453,7 +453,7 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
-        <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
+        <translation>Função não registrada no Letos: %1(%2)</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
@@ -581,13 +581,13 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
         <source>min: %1</source>
         <comment>plugin dependency version</comment>
-        <translation type="unfinished">min: %1</translation>
+        <translation>mín: %1</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="762"/>
         <source>max: %1</source>
         <comment>plugin dependency version</comment>
-        <translation type="unfinished">max: %1</translation>
+        <translation>máx: %1</translation>
     </message>
 </context>
 <context>
@@ -789,7 +789,7 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../plugins/populatescript.cpp" line="33"/>
         <source>Script</source>
-        <translation type="unfinished">Script</translation>
+        <translation>Código de script</translation>
     </message>
 </context>
 <context>
@@ -859,27 +859,27 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../common/utils.cpp" line="79"/>
         <source>SQLite database or SQL file</source>
-        <translation type="unfinished">SQLite database or SQL file</translation>
+        <translation>Banco de dados SQLite ou arquivo SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="81"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>Arquivos SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="82"/>
         <source>CSV files</source>
-        <translation type="unfinished">CSV files</translation>
+        <translation>Arquivos CSV</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="83"/>
         <source>Text files</source>
-        <translation type="unfinished">Text files</translation>
+        <translation>Arquivos de texto</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="84"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Todos os arquivos</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="968"/>
@@ -961,7 +961,7 @@ Tabelas, índices, trigger e visualizações copiadas para o banco de dados %3 p
     <message>
         <location filename="../plugins/populatescript.cpp" line="69"/>
         <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-        <translation type="unfinished">Could not get evaluation context, probably the %1 scripting plugin is not configured properly</translation>
+        <translation>Não foi possível obter o contexto de avaliação; provavelmente o plugin de script %1 não está configurado corretamente</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="83"/>
@@ -1092,17 +1092,17 @@ A visualização permanecerá como é.</translation>
     <message>
         <location filename="../viewmodifier.cpp" line="80"/>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-        <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
+        <translation>O Letos não conseguiu resolver as colunas retornadas pela nova visão; portanto, não será capaz de informar quais &apos;gatilhos&apos; podem falhar durante o processo de recriação.</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>Baseada em função</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>Baseada em extensão</translation>
     </message>
 </context>
 <context>
@@ -1126,12 +1126,12 @@ A visualização permanecerá como é.</translation>
         <location filename="../db/queryexecutor.cpp" line="363"/>
         <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-        <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
+        <translation>Ocorreu um erro ao executar a consulta count(*); portanto, a paginação de dados será desabilitada. Detalhes do erro do banco de dados: %1</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-        <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
+        <translation>O Letos não conseguiu extrair metadados da consulta. Os &apos;resultados&apos; não serão editáveis.</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ A visualização permanecerá como é.</translation>
     <message>
         <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
         <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-        <translation type="unfinished">Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</translation>
+        <translation>A coluna %1 na tabela %2 está referenciando a coluna %3 na tabela %4, mas essas colunas têm tipos de dados diferentes: %5 vs. %6. Isso pode causar problemas relacionados à correspondência de valores de chave estrangeira.</translation>
     </message>
 </context>
 <context>
@@ -1223,7 +1223,7 @@ A visualização permanecerá como é.</translation>
         <location filename="../sqlhistorymodel.cpp" line="40"/>
         <source>SQL</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">SQL</translation>
+        <translation>Código SQL</translation>
     </message>
 </context>
 <context>
@@ -1231,12 +1231,12 @@ A visualização permanecerá como é.</translation>
     <message>
         <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-        <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
+        <translation>O arquivo de banco de dados &apos;%1&apos; foi modificado por uma versão mais recente do SQLite (formato %2), enquanto o aplicativo atual oferece suporte até o formato %3. Alguns recursos podem não funcionar corretamente.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
-        <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
+        <translation>Collation padrão registrada sob demanda, com o nome: %1</translation>
     </message>
 </context>
 <context>

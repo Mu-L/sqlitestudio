@@ -6,17 +6,17 @@
     <message>
         <location filename="../jsonexport.ui" line="20"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>Định dạng đầu ra</translation>
     </message>
     <message>
         <location filename="../jsonexport.ui" line="26"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>Định dạng tài liệu (dòng mới, thụt lề)</translation>
     </message>
     <message>
         <location filename="../jsonexport.ui" line="42"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>Nén (mọi thứ trên một dòng)</translation>
     </message>
 </context>
 </TS>

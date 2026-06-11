@@ -8,7 +8,7 @@
         <location filename="../sqlenterpriseformatter.cpp" line="96"/>
         <source>name</source>
         <comment>example name wrapper</comment>
-        <translation type="unfinished">name</translation>
+        <translation>názov</translation>
     </message>
 </context>
 <context>
@@ -16,213 +16,213 @@
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="46"/>
         <source>Indentation</source>
-        <translation type="unfinished">Indentation</translation>
+        <translation>Odsadenie</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="58"/>
         <source>Line up keywords in multi-line queries</source>
-        <translation type="unfinished">Line up keywords in multi-line queries</translation>
+        <translation>Zarovnať kľúčové slová vo viacriadkových dopytoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="68"/>
         <source>Indent contents of parenthesis block</source>
-        <translation type="unfinished">Indent contents of parenthesis block</translation>
+        <translation>Odsadiť obsah bloku v zátvorkách</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="91"/>
         <source>Tab size:</source>
-        <translation type="unfinished">Tab size:</translation>
+        <translation>Veľkosť tabulátora:</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="106"/>
         <source>New lines</source>
-        <translation type="unfinished">New lines</translation>
+        <translation>Nové riadky</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="160"/>
         <source>Before opening parenthesis in column definitions</source>
-        <translation type="unfinished">Before opening parenthesis in column definitions</translation>
+        <translation>Pred otváracou zátvorkou v definíciách stĺpcov</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="170"/>
         <source>After opening parenthesis in column definitions</source>
-        <translation type="unfinished">After opening parenthesis in column definitions</translation>
+        <translation>Za otváracou zátvorkou v definíciách stĺpcov</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="180"/>
         <source>Before closing parenthesis in column definitions</source>
-        <translation type="unfinished">Before closing parenthesis in column definitions</translation>
+        <translation>Pred uzatváracou zátvorkou v definíciách stĺpcov</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="190"/>
         <source>After closing parenthesis in column definitions</source>
-        <translation type="unfinished">After closing parenthesis in column definitions</translation>
+        <translation>Za uzatváracou zátvorkou v definíciách stĺpcov</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="200"/>
         <source>Before opening parenthesis in expressions</source>
-        <translation type="unfinished">Before opening parenthesis in expressions</translation>
+        <translation>Pred otváracou zátvorkou vo výrazoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="210"/>
         <source>After opening parenthesis in expressions</source>
-        <translation type="unfinished">After opening parenthesis in expressions</translation>
+        <translation>Za otváracou zátvorkou vo výrazoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="220"/>
         <source>Before closing parenthesis in expressions</source>
-        <translation type="unfinished">Before closing parenthesis in expressions</translation>
+        <translation>Pred uzatváracou zátvorkou vo výrazoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="230"/>
         <source>After closing parenthesis in expressions</source>
-        <translation type="unfinished">After closing parenthesis in expressions</translation>
+        <translation>Za uzatváracou zátvorkou vo výrazoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="240"/>
         <source>After JOIN keywords in FROM clause</source>
-        <translation type="unfinished">After JOIN keywords in FROM clause</translation>
+        <translation>Za kľúčovými slovami JOIN v klauzule FROM</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="250"/>
         <source>Put each column constraint in CREATE TABLE into new line</source>
-        <translation type="unfinished">Put each column constraint in CREATE TABLE into new line</translation>
+        <translation>Umiestniť každé obmedzenie stĺpca v CREATE TABLE na nový riadok</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="260"/>
         <source>After comma</source>
-        <translation type="unfinished">After comma</translation>
+        <translation>Za čiarkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="270"/>
         <source>After comma in expressions</source>
-        <translation type="unfinished">After comma in expressions</translation>
+        <translation>Za čiarkou vo výrazoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="280"/>
         <source>After semicolon</source>
-        <translation type="unfinished">After semicolon</translation>
+        <translation>Za bodkočiarkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="290"/>
         <location filename="../sqlenterpriseformatter.ui" line="512"/>
         <source>Never before semicolon</source>
-        <translation type="unfinished">Never before semicolon</translation>
+        <translation>Nikdy pred bodkočiarkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="338"/>
         <source>White spaces</source>
-        <translation type="unfinished">White spaces</translation>
+        <translation>Medzery</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="392"/>
         <source>Before comma in lists</source>
-        <translation type="unfinished">Before comma in lists</translation>
+        <translation>Pred čiarkou v zoznamoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="402"/>
         <source>After comma in lists</source>
-        <translation type="unfinished">After comma in lists</translation>
+        <translation>Za čiarkou v zoznamoch</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="412"/>
         <source>Before opening parenthesis</source>
-        <translation type="unfinished">Before opening parenthesis</translation>
+        <translation>Pred otváracou zátvorkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="422"/>
         <source>After opening parenthesis</source>
-        <translation type="unfinished">After opening parenthesis</translation>
+        <translation>Za otváracou zátvorkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="432"/>
         <source>Before closing parenthesis</source>
-        <translation type="unfinished">Before closing parenthesis</translation>
+        <translation>Pred uzatváracou zátvorkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="442"/>
         <source>After closing parenthesis</source>
-        <translation type="unfinished">After closing parenthesis</translation>
+        <translation>Za uzatváracou zátvorkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="452"/>
         <source>No space between SQL function name and opening parenthesis</source>
-        <translation type="unfinished">No space between SQL function name and opening parenthesis</translation>
+        <translation>Bez medzery medzi názvom funkcie SQL a otváracou zátvorkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="462"/>
         <source>Before dot operator (in path to database object)</source>
-        <translation type="unfinished">Before dot operator (in path to database object)</translation>
+        <translation>Pred operátorom bodky (v ceste k databázovému objektu)</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="472"/>
         <source>After dot operator (in path to database object)</source>
-        <translation type="unfinished">After dot operator (in path to database object)</translation>
+        <translation>Za operátorom bodky (v ceste k databázovému objektu)</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="482"/>
         <source>Before mathematical operator</source>
-        <translation type="unfinished">Before mathematical operator</translation>
+        <translation>Pred matematickým operátorom</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="492"/>
         <source>After mathematical operator</source>
-        <translation type="unfinished">After mathematical operator</translation>
+        <translation>Za matematickým operátorom</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="502"/>
         <source>Never before comma</source>
-        <translation type="unfinished">Never before comma</translation>
+        <translation>Nikdy pred čiarkou</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="558"/>
         <source>Names</source>
-        <translation type="unfinished">Names</translation>
+        <translation>Názvy</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="583"/>
         <source>Preferred name wrapper</source>
-        <translation type="unfinished">Preferred name wrapper</translation>
+        <translation>Preferované ohraničenie názvu</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="600"/>
         <source>Always use name wrapping</source>
-        <translation type="unfinished">Always use name wrapping</translation>
+        <translation>Vždy používať ohraničenie názvov</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="610"/>
         <source>Uppercase data type names</source>
-        <translation type="unfinished">Uppercase data type names</translation>
+        <translation>Písať názvy dátových typov veľkými písmenami</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="620"/>
         <source>Uppercase keywords</source>
-        <translation type="unfinished">Uppercase keywords</translation>
+        <translation>Písať kľúčové slová veľkými písmenami</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="631"/>
         <source>Comments</source>
-        <translation type="unfinished">Comments</translation>
+        <translation>Komentáre</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="637"/>
         <source>Preferred comment marker (where possible):</source>
-        <translation type="unfinished">Preferred comment marker (where possible):</translation>
+        <translation>Preferovaná značka komentára (ak je to možné):</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="654"/>
         <source>Move all comments to the line end</source>
-        <translation type="unfinished">Move all comments to the line end</translation>
+        <translation>Presunúť všetky komentáre na koniec riadka</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="664"/>
         <source>Line up comments at the line end</source>
-        <translation type="unfinished">Line up comments at the line end</translation>
+        <translation>Zarovnať komentáre na konci riadka</translation>
     </message>
     <message>
         <location filename="../sqlenterpriseformatter.ui" line="695"/>
         <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+        <translation>Náhľad</translation>
     </message>
 </context>
 </TS>

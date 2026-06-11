@@ -6,129 +6,129 @@
     <message>
         <location filename="../htmlexport.cpp" line="45"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>SQL-kyselyn tulokset</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="54"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Kysely:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="94"/>
         <location filename="../htmlexport.cpp" line="188"/>
         <source>no type</source>
-        <translation type="unfinished">no type</translation>
+        <translation>ei tyyppiä</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="125"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Viety taulu: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="136"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Viety näkymä: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="157"/>
         <location filename="../htmlexport.cpp" line="280"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Taulu: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="283"/>
         <source>virtual</source>
-        <translation type="unfinished">virtual</translation>
+        <translation>virtuaalinen</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="335"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Viety tietokanta: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="351"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Indeksi: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="357"/>
         <source>For table:</source>
-        <translation type="unfinished">For table:</translation>
+        <translation>Taululle:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="364"/>
         <source>Unique:</source>
-        <translation type="unfinished">Unique:</translation>
+        <translation>Yksilöllinen:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Kyllä</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Ei</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="371"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Sarake</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="372"/>
         <source>Collating</source>
-        <translation type="unfinished">Collating</translation>
+        <translation>Lajitteluvertailu</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="373"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Lajittelujärjestys</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="407"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Liipaisin: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="413"/>
         <source>Activated:</source>
-        <translation type="unfinished">Activated:</translation>
+        <translation>Aktivoitu:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="421"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>Toiminto:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="428"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>Näkymälle:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="430"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Taululle:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="441"/>
         <source>Activate condition:</source>
-        <translation type="unfinished">Activate condition:</translation>
+        <translation>Aktivointiehto:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="448"/>
         <source>Code executed:</source>
-        <translation type="unfinished">Code executed:</translation>
+        <translation>Suoritettava koodi:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="486"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Näkymä: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="565"/>
         <source>Document generated by Letos v%1 on %2</source>
-        <translation type="unfinished">Document generated by Letos v%1 on %2</translation>
+        <translation>Asiakirjan on luonut Letos v%1 %2</translation>
     </message>
 </context>
 <context>
@@ -136,74 +136,74 @@
     <message>
         <location filename="../htmlexport.ui" line="136"/>
         <source>Maximum number of characters per cell:</source>
-        <translation type="unfinished">Maximum number of characters per cell:</translation>
+        <translation>Merkkien enimmäismäärä solua kohden:</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="182"/>
         <source>Include data types in first row</source>
-        <translation type="unfinished">Include data types in first row</translation>
+        <translation>Sisällytä tietotyypit ensimmäiselle riville</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="143"/>
         <source>Column names as first row</source>
-        <translation type="unfinished">Column names as first row</translation>
+        <translation>Sarakkeiden nimet ensimmäiseksi riviksi</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="126"/>
         <source>Row numbers as first column</source>
-        <translation type="unfinished">Row numbers as first column</translation>
+        <translation>Rivinumerot ensimmäiseksi sarakkeeksi</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="91"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>Tulostusmuoto</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="20"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Mukautettu ylätunniste</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="26"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Ei mukautettua ylätunnistetta</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Määritä mukautetun ylätunnisteen sisältö</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="52"/>
         <location filename="../htmlexport.ui" line="224"/>
         <source>HTML content</source>
-        <translation type="unfinished">HTML content</translation>
+        <translation>HTML-sisältö</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="62"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Määritä mukautetun ylätunnisteen tiedosto</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="78"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>Valitse ylätunnisteen tiedosto</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="81"/>
         <location filename="../htmlexport.ui" line="253"/>
         <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
+        <translation>HTML-tiedostot (*.htm, *.html);;Tekstitiedostot (*.txt);;Kaikki tiedostot (*)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="97"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>Muotoile asiakirja (uudet rivit, sisennys)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="110"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>Tiivistä (kaikki yhdelle riville)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="153"/>
@@ -213,32 +213,32 @@
     <message>
         <location filename="../htmlexport.ui" line="156"/>
         <source>Don&apos;t escape HTML characters</source>
-        <translation type="unfinished">Don&apos;t escape HTML characters</translation>
+        <translation>Älä koodaa HTML&apos;n merkkejä entiteeteiksi</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="192"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Mukautettu alatunniste</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="198"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Ei mukautettua alatunnistetta</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="211"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Määritä mukautetun alatunnisteen sisältö</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="234"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Määritä mukautetun alatunnisteen tiedosto</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="250"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Valitse alatunnisteen tiedosto</translation>
     </message>
 </context>
 </TS>

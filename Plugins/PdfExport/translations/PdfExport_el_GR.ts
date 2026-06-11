@@ -6,169 +6,169 @@
     <message>
         <location filename="../pdfexport.cpp" line="66"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>Αποτελέσματα ερωτήματος SQL</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="205"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Εξαγόμενος πίνακας: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="101"/>
         <location filename="../pdfexport.cpp" line="153"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Πίνακας: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos έκδ. %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Στήλη</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>Τύπος δεδομένων</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Περιορισμοί</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="135"/>
         <source>Global table constraints</source>
-        <translation type="unfinished">Global table constraints</translation>
+        <translation>Καθολικοί περιορισμοί πίνακα</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Εξαγόμενη προβολή: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Εξαγόμενη βάση δεδομένων: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="258"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Ευρετήριο: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Property</source>
         <comment>index header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Ιδιότητα</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Value</source>
         <comment>index header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Τιμή</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="263"/>
         <source>Indexed table</source>
-        <translation type="unfinished">Indexed table</translation>
+        <translation>Ευρετηριασμένος πίνακας</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>Μοναδικό ευρετήριο</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Ναι</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Όχι</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Κανόνας ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Σειρά ταξινόμησης</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="282"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Συνθήκη μερικού ευρετηρίου</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="296"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Ενεργοποιητής: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Property</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Ιδιότητα</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Value</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Τιμή</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="300"/>
         <source>Activation time</source>
-        <translation type="unfinished">Activation time</translation>
+        <translation>Χρόνος ενεργοποίησης</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="303"/>
         <source>For action</source>
-        <translation type="unfinished">For action</translation>
+        <translation>Για ενέργεια</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="307"/>
         <source>On view</source>
-        <translation type="unfinished">On view</translation>
+        <translation>Σε προβολή</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="309"/>
         <source>On table</source>
-        <translation type="unfinished">On table</translation>
+        <translation>Σε πίνακα</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="314"/>
         <source>Activation condition</source>
-        <translation type="unfinished">Activation condition</translation>
+        <translation>Συνθήκη ενεργοποίησης</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="320"/>
         <source>Code executed</source>
-        <translation type="unfinished">Code executed</translation>
+        <translation>Κώδικας που εκτελέστηκε</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="333"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Προβολή: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>Έγγραφο που δημιουργήθηκε με το Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
         <location filename="../pdfexport.cpp" line="335"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Ερώτημα:</translation>
     </message>
 </context>
 <context>
@@ -176,32 +176,32 @@
     <message>
         <location filename="../pdfexport.ui" line="20"/>
         <source>Size and layout</source>
-        <translation type="unfinished">Size and layout</translation>
+        <translation>Μέγεθος και διάταξη</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="36"/>
         <source>Page size:</source>
-        <translation type="unfinished">Page size:</translation>
+        <translation>Μέγεθος σελίδας:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="63"/>
         <source>Right margin:</source>
-        <translation type="unfinished">Right margin:</translation>
+        <translation>Δεξιό περιθώριο:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="70"/>
         <source>Left margin:</source>
-        <translation type="unfinished">Left margin:</translation>
+        <translation>Αριστερό περιθώριο:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="77"/>
         <source>Cell padding:</source>
-        <translation type="unfinished">Cell padding:</translation>
+        <translation>Εσωτερικό περιθώριο κελιού:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="84"/>
         <source>Limit characters in single cell:</source>
-        <translation type="unfinished">Limit characters in single cell:</translation>
+        <translation>Περιορισμός χαρακτήρων σε ένα κελί:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="91"/>
@@ -210,119 +210,114 @@
         <location filename="../pdfexport.ui" line="132"/>
         <location filename="../pdfexport.ui" line="156"/>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>mm</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="139"/>
         <source>Bottom margin:</source>
-        <translation type="unfinished">Bottom margin:</translation>
+        <translation>Κάτω περιθώριο:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="163"/>
         <source>Top margin:</source>
-        <translation type="unfinished">Top margin:</translation>
+        <translation>Πάνω περιθώριο:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="183"/>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Γραμματοσειρά</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="206"/>
         <source>Colors</source>
-        <translation type="unfinished">Colors</translation>
+        <translation>Χρώματα</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="212"/>
         <source>Headers background:</source>
-        <translation type="unfinished">Headers background:</translation>
+        <translation>Φόντο κεφαλίδων:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="235"/>
         <source>NULL value color:</source>
-        <translation type="unfinished">NULL value color:</translation>
+        <translation>Χρώμα τιμής NULL:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="261"/>
         <source>Other settings</source>
-        <translation type="unfinished">Other settings</translation>
+        <translation>Άλλες ρυθμίσεις</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="267"/>
         <source>Print row numbers for data</source>
-        <translation type="unfinished">Print row numbers for data</translation>
+        <translation>Εκτύπωση αριθμών γραμμών για τα δεδομένα</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="277"/>
         <source>Print page numbers</source>
-        <translation type="unfinished">Print page numbers</translation>
+        <translation>Εκτύπωση αριθμών σελίδων</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Προσαρμοσμένη κεφαλίδα</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Χωρίς προσαρμοσμένη κεφαλίδα</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished">Ctrl+S</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Ορισμός περιεχομένου προσαρμοσμένης κεφαλίδας</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>Περιεχόμενο απλού κειμένου</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Ορισμός αρχείου προσαρμοσμένης κεφαλίδας</translation>
+    </message>
+    <message>
+        <location filename="../pdfexport.ui" line="348"/>
+        <source>Choose file for the header</source>
+        <translation>Επιλέξτε αρχείο για την κεφαλίδα</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
-        <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Αρχεία κειμένου (*.txt);;Όλα τα αρχεία (*)</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Προσαρμοσμένο υποσέλιδο</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Χωρίς προσαρμοσμένο υποσέλιδο</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Ορισμός περιεχομένου προσαρμοσμένου υποσέλιδου</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Ορισμός αρχείου προσαρμοσμένου υποσέλιδου</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Επιλέξτε αρχείο για το υποσέλιδο</translation>
     </message>
 </context>
 </TS>

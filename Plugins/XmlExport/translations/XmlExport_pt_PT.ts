@@ -6,7 +6,7 @@
     <message>
         <location filename="../xmlexport.cpp" line="37"/>
         <source>Enter the namespace to use (for example: http://my.namespace.org)</source>
-        <translation type="unfinished">Enter the namespace to use (for example: http://my.namespace.org)</translation>
+        <translation>Introduza o namespace a utilizar (por exemplo: http://my.namespace.org)</translation>
     </message>
 </context>
 <context>
@@ -14,57 +14,57 @@
     <message>
         <location filename="../XmlExport.ui" line="20"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>Formato de saída</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="26"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>Formatar documento (novas linhas, indentação)</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="42"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>Comprimir (tudo numa só linha)</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="58"/>
         <source>Special characters escaping</source>
-        <translation type="unfinished">Special characters escaping</translation>
+        <translation>Escape de caracteres especiais</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="64"/>
         <source>&lt;p&gt;Ampersands will be used for shorter values and CDATA will be used for larger values. This applies only to values that require character escaping. Other values will be exported as they are.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Ampersands will be used for shorter values and CDATA will be used for larger values. This applies only to values that require character escaping. Other values will be exported as they are.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Serão usados ampersands para valores mais curtos e CDATA será usado para valores maiores. Isto aplica-se apenas a valores que exigem escape de caracteres. Outros valores serão exportados tal como estão.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="67"/>
         <source>Use CDATA and ampersands</source>
-        <translation type="unfinished">Use CDATA and ampersands</translation>
+        <translation>Usar CDATA e ampersands</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="83"/>
         <source>&lt;p&gt;Every value requiring character escepe will be enclosed in CDATA block.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Every value requiring character escepe will be enclosed in CDATA block.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Todos os valores que exigem escape de caracteres serão colocados num bloco CDATA.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="86"/>
         <source>Always use CDATA</source>
-        <translation type="unfinished">Always use CDATA</translation>
+        <translation>Usar sempre CDATA</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="99"/>
         <source>&lt;p&gt;Every character that require esceping will be replaced with its ampersand escape sequence. No CDATA blocks will be used.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Every character that require esceping will be replaced with its ampersand escape sequence. No CDATA blocks will be used.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Todos os caracteres que exigem escape serão substituídos pela respetiva sequência de escape com ampersand. Não serão usados blocos CDATA.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="102"/>
         <source>Always use ampersand</source>
-        <translation type="unfinished">Always use ampersand</translation>
+        <translation>Usar sempre ampersand</translation>
     </message>
     <message>
         <location filename="../XmlExport.ui" line="118"/>
         <source>Define XML namespace</source>
-        <translation type="unfinished">Define XML namespace</translation>
+        <translation>Definir namespace XML</translation>
     </message>
 </context>
 </TS>

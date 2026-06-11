@@ -36,12 +36,12 @@
     <message>
         <location filename="../dbandroid.cpp" line="217"/>
         <source>The selected ADB is incorrect.</source>
-        <translation type="unfinished">The selected ADB is incorrect.</translation>
+        <translation>O ADB selecionado está incorreto.</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="218"/>
         <source>Would you like to select another one, or leave it unconfigured?</source>
-        <translation type="unfinished">Would you like to select another one, or leave it unconfigured?</translation>
+        <translation>Gostaria de selecionar outro ou deixá-lo não configurado?</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="242"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../dbandroid.cpp" line="183"/>
         <source>You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</source>
-        <translation type="unfinished">You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</translation>
+        <translation>Você pode obter o arquivo JAR do conector Android no menu Ferramentas. Ele&apos;s é necessário para 2 das 3 conexões compatíveis com o plugin Android. Para mais detalhes, leia a documentação do plugin&apos;s na &lt;a href=&quot;%1&quot;&gt;página wiki do Letos&apos;s.&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="219"/>
@@ -186,7 +186,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="127"/>
         <source>&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Esta é a senha configurada no serviço Letos incorporado ao aplicativo Android.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="140"/>

@@ -6,87 +6,87 @@
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="24"/>
         <source>About</source>
-        <translation type="unfinished">About</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/aboutdialog.ui" line="30"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;SalSoft (&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;)&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>Over</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="41"/>
         <source>Licenses</source>
-        <translation type="unfinished">Licenses</translation>
+        <translation>Licenties</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="55"/>
         <source>Environment</source>
-        <translation type="unfinished">Environment</translation>
+        <translation>Omgeving</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="102"/>
         <source>Icon directories</source>
-        <translation type="unfinished">Icon directories</translation>
+        <translation>Pictogrammappen</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="170"/>
         <source>Form directories</source>
-        <translation type="unfinished">Form directories</translation>
+        <translation>Formuliermappen</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="187"/>
         <source>SQLite extension directories</source>
-        <translation type="unfinished">SQLite extension directories</translation>
+        <translation>Mappen voor SQLite-extensies</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="140"/>
         <source>Plugin directories</source>
-        <translation type="unfinished">Plugin directories</translation>
+        <translation>Pluginmappen</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="14"/>
         <source>About Letos and licenses</source>
-        <translation type="unfinished">About Letos and licenses</translation>
+        <translation>Over Letos en licenties</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/aboutdialog.ui" line="30"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Gratis, open-source, platformonafhankelijke SQLite-databasebeheerder.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Auteur en actieve beheerder:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="75"/>
         <source>Configuration directory</source>
-        <translation type="unfinished">Configuration directory</translation>
+        <translation>Configuratiemap</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="150"/>
         <source>Application directory</source>
-        <translation type="unfinished">Application directory</translation>
+        <translation>Applicatiemap</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="85"/>
         <source>Qt version:</source>
-        <translation type="unfinished">Qt version:</translation>
+        <translation>Qt-versie:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="160"/>
         <source>SQLite 3 version:</source>
-        <translation type="unfinished">SQLite 3 version:</translation>
+        <translation>SQLite 3-versie:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="42"/>
         <source>Portable distribution.</source>
-        <translation type="unfinished">Portable distribution.</translation>
+        <translation>Draagbare distributie.</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="45"/>
         <source>MacOS X application bundle distribution.</source>
-        <translation type="unfinished">MacOS X application bundle distribution.</translation>
+        <translation>Distributie als MacOS X-applicatiebundel.</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="48"/>
         <source>Operating system managed distribution.</source>
-        <translation type="unfinished">Operating system managed distribution.</translation>
+        <translation>Door het besturingssysteem beheerde distributie.</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.cpp" line="98"/>
         <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
-        <translation type="unfinished">&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
+        <translation>&lt;h3&gt;Inhoudsopgave:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
 </context>
 <context>
@@ -94,17 +94,17 @@
     <message>
         <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
         <source>Query parameters</source>
-        <translation type="unfinished">Query parameters</translation>
+        <translation>Queryparameters</translation>
     </message>
     <message>
         <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
         <source>Please provide values for query parameters</source>
-        <translation type="unfinished">Please provide values for query parameters</translation>
+        <translation>Geef waarden op voor queryparameters</translation>
     </message>
     <message>
         <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
         <source>Advanced mode</source>
-        <translation type="unfinished">Advanced mode</translation>
+        <translation>Geavanceerde modus</translation>
     </message>
 </context>
 <context>
@@ -112,7 +112,7 @@
     <message>
         <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
         <source>Default</source>
-        <translation type="unfinished">Default</translation>
+        <translation>Standaard</translation>
     </message>
 </context>
 <context>
@@ -120,104 +120,104 @@
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="84"/>
         <source>Filter snippets</source>
-        <translation type="unfinished">Filter snippets</translation>
+        <translation>Fragmenten filteren</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="183"/>
         <location filename="../windows/codesnippeteditor.ui" line="221"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optionele sneltoets die alleen werkt in de context van het actieve code-assistentvenster. Hiermee kan de gebruiker toetscombinaties gebruiken die anders zouden conflicteren met andere sneltoetsen. Doordat het code-assistentvenster als vereiste context geldt, is de keuze van toetsen veelzijdiger.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="204"/>
         <location filename="../windows/codesnippeteditor.ui" line="214"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;De naam van het fragment wordt weergegeven in de code-assistent. Om toegang te krijgen tot de lijst met fragmenten moet de gebruiker de sneltoets voor de code-assistent twee keer indrukken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="207"/>
         <source>Snippet name</source>
-        <translation type="unfinished">Snippet name</translation>
+        <translation>Fragmentnaam</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="224"/>
         <source>Code assistant shortcut</source>
-        <translation type="unfinished">Code assistant shortcut</translation>
+        <translation>Sneltoets voor code-assistent</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.ui" line="240"/>
         <source>Snippet code</source>
-        <translation type="unfinished">Snippet code</translation>
+        <translation>Fragmentcode</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="50"/>
         <source>Code Snippets editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Code Snippets editor window has uncommitted modifications.</translation>
+        <translation>Het venster van de editor voor codefragmenten bevat niet-vastgelegde wijzigingen.</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="71"/>
         <source>Code Snippets editor</source>
-        <translation type="unfinished">Code Snippets editor</translation>
+        <translation>Editor voor codefragmenten</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="76"/>
         <source>Commit all snippet changes</source>
-        <translation type="unfinished">Commit all snippet changes</translation>
+        <translation>Alle fragmentwijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="77"/>
         <source>Rollback all snippet changes</source>
-        <translation type="unfinished">Rollback all snippet changes</translation>
+        <translation>Alle fragmentwijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="79"/>
         <source>Create new snippet</source>
-        <translation type="unfinished">Create new snippet</translation>
+        <translation>Nieuw fragment maken</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="80"/>
         <source>Delete selected snippet</source>
-        <translation type="unfinished">Delete selected snippet</translation>
+        <translation>Geselecteerd fragment verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="82"/>
         <source>Move the snippet up</source>
-        <translation type="unfinished">Move the snippet up</translation>
+        <translation>Fragment omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="83"/>
         <source>Move the snippet down</source>
-        <translation type="unfinished">Move the snippet down</translation>
+        <translation>Fragment omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="85"/>
         <source>Import snippets from file</source>
-        <translation type="unfinished">Import snippets from file</translation>
+        <translation>Fragmenten uit bestand importeren</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="86"/>
         <source>Export snippets to file</source>
-        <translation type="unfinished">Export snippets to file</translation>
+        <translation>Fragmenten naar bestand exporteren</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="87"/>
         <source>Code snippets manual</source>
-        <translation type="unfinished">Code snippets manual</translation>
+        <translation>Handleiding voor codefragmenten</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="325"/>
         <source>Enter a non-empty, unique name of the snippet.</source>
-        <translation type="unfinished">Enter a non-empty, unique name of the snippet.</translation>
+        <translation>Voer een niet-lege, unieke naam voor het fragment in.</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="328"/>
         <source>Enter a non-empty snippet content.</source>
-        <translation type="unfinished">Enter a non-empty snippet content.</translation>
+        <translation>Voer niet-lege fragmentinhoud in.</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.cpp" line="332"/>
         <source>This hotkey is not unique in context of a code assistant.</source>
-        <translation type="unfinished">This hotkey is not unique in context of a code assistant.</translation>
+        <translation>Deze sneltoets is niet uniek in de context van een code-assistent.</translation>
     </message>
 </context>
 <context>
@@ -225,12 +225,12 @@
     <message>
         <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
         <source>Name:</source>
-        <translation type="unfinished">Name:</translation>
+        <translation>Naam:</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
         <source>Hotkey:</source>
-        <translation type="unfinished">Hotkey:</translation>
+        <translation>Sneltoets:</translation>
     </message>
 </context>
 <context>
@@ -238,32 +238,32 @@
     <message>
         <location filename="../codesnippetspanel.ui" line="17"/>
         <source>Code Snippets</source>
-        <translation type="unfinished">Code Snippets</translation>
+        <translation>Codefragmenten</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.ui" line="43"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sleep naar de SQL-editor om het fragment te gebruiken.&lt;/p&gt;&lt;p&gt;Zet hier code (of tekst) neer om een nieuw codefragment toe te voegen.&lt;/p&gt;&lt;p&gt;Dubbelklik om het fragment te bewerken.&lt;/p&gt;&lt;p&gt;Codefragmenten zijn ook beschikbaar in de code-assistent. Roep deze twee keer aan om fragmenten te tonen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.ui" line="69"/>
         <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+        <translation>Voorbeeld</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="69"/>
         <source>Add code snippet</source>
-        <translation type="unfinished">Add code snippet</translation>
+        <translation>Codefragment toevoegen</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="69"/>
         <source>Enter a name for the new code snippet:</source>
-        <translation type="unfinished">Enter a name for the new code snippet:</translation>
+        <translation>Voer een naam in voor het nieuwe codefragment:</translation>
     </message>
     <message>
         <location filename="../codesnippetspanel.cpp" line="97"/>
         <source>Filter by name</source>
-        <translation type="unfinished">Filter by name</translation>
+        <translation>Filteren op naam</translation>
     </message>
 </context>
 <context>
@@ -271,137 +271,137 @@
     <message>
         <location filename="../windows/collationseditor.ui" line="84"/>
         <source>Filter collations</source>
-        <translation type="unfinished">Filter collations</translation>
+        <translation>Collaties filteren</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="163"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Databanken</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="169"/>
         <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+        <translation>In alle databases registreren</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="176"/>
         <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+        <translation>In de volgende databases registreren:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="197"/>
         <source>Implementation code:</source>
-        <translation type="unfinished">Implementation code:</translation>
+        <translation>Implementatiecode:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="229"/>
         <source>Collation name:</source>
-        <translation type="unfinished">Collation name:</translation>
+        <translation>Collatienaam:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="239"/>
         <source>Collation type:</source>
-        <translation type="unfinished">Collation type:</translation>
+        <translation>Collatietype:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="248"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implementeert de vergelijkingslogica rechtstreeks in Letos met behulp van een scripttaal. Kies dit type om volledig aangepaste sorteer- en vergelijkingsregels te maken zonder externe SQLite-extensies te vereisen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="251"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>Gebaseerd op functie</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="258"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Gebruikt een sorteervolgorde die is geïmplementeerd door een SQLite-extensie of externe bibliotheek. Kies dit type wanneer de vergelijkingslogica al buiten Letos bestaat, bijvoorbeeld in ICU of een andere SQLite-extensie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="261"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>Gebaseerd op extensie</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.ui" line="270"/>
         <source>Implementation language:</source>
-        <translation type="unfinished">Implementation language:</translation>
+        <translation>Implementatietaal:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="56"/>
         <source>Collations editor</source>
-        <translation type="unfinished">Collations editor</translation>
+        <translation>Collatie-editor</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="61"/>
         <source>Commit all collation changes</source>
-        <translation type="unfinished">Commit all collation changes</translation>
+        <translation>Alle collatiewijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="62"/>
         <source>Rollback all collation changes</source>
-        <translation type="unfinished">Rollback all collation changes</translation>
+        <translation>Alle collatiewijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="64"/>
         <source>Create new collation</source>
-        <translation type="unfinished">Create new collation</translation>
+        <translation>Nieuwe collatie maken</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="65"/>
         <source>Delete selected collation</source>
-        <translation type="unfinished">Delete selected collation</translation>
+        <translation>Geselecteerde collatie verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="67"/>
         <source>Import collations from file</source>
-        <translation type="unfinished">Import collations from file</translation>
+        <translation>Collaties uit bestand importeren</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="68"/>
         <source>Export collations to file</source>
-        <translation type="unfinished">Export collations to file</translation>
+        <translation>Collaties naar bestand exporteren</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="69"/>
         <source>Editing collations manual</source>
-        <translation type="unfinished">Editing collations manual</translation>
+        <translation>Handleiding voor het bewerken van collaties</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="322"/>
         <source>Enter a non-empty, unique name of the collation.</source>
-        <translation type="unfinished">Enter a non-empty, unique name of the collation.</translation>
+        <translation>Voer een niet-lege, unieke naam voor de collatie in.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="332"/>
         <source>Pick the implementation language.</source>
-        <translation type="unfinished">Pick the implementation language.</translation>
+        <translation>Kies de implementatietaal.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="337"/>
         <source>Registration code</source>
-        <translation type="unfinished">Registration code</translation>
+        <translation>Registratiecode</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="338"/>
         <source>Enter a non-empty registration code.</source>
-        <translation type="unfinished">Enter a non-empty registration code.</translation>
+        <translation>Voer een niet-lege registratiecode in.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="346"/>
         <source>Implementation code</source>
-        <translation type="unfinished">Implementation code</translation>
+        <translation>Implementatiecode</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="347"/>
         <source>Enter a non-empty implementation code.</source>
-        <translation type="unfinished">Enter a non-empty implementation code.</translation>
+        <translation>Voer een niet-lege implementatiecode in.</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.cpp" line="506"/>
         <source>Collations editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Collations editor window has uncommitted modifications.</translation>
+        <translation>Het venster van de collatie-editor bevat niet-vastgelegde wijzigingen.</translation>
     </message>
 </context>
 <context>
@@ -409,27 +409,27 @@
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="219"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>alle databases</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="224"/>
         <source>Collation:</source>
-        <translation type="unfinished">Collation:</translation>
+        <translation>Sorteervolgorde:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="225"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Soort:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="226"/>
         <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+        <translation>Taal:</translation>
     </message>
     <message>
         <location filename="../windows/collationseditormodel.cpp" line="227"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Geregistreerd in:</translation>
     </message>
 </context>
 <context>
@@ -437,7 +437,7 @@
     <message>
         <location filename="../common/colorbutton.cpp" line="29"/>
         <source>Pick a color</source>
-        <translation type="unfinished">Pick a color</translation>
+        <translation>Kies een kleur</translation>
     </message>
 </context>
 <context>
@@ -445,22 +445,22 @@
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="58"/>
         <source>Clear</source>
-        <translation type="unfinished">Clear</translation>
+        <translation>Wissen</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="65"/>
         <source>Custom colors</source>
-        <translation type="unfinished">Custom colors</translation>
+        <translation>Aangepaste kleuren</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="73"/>
         <source>Add custom color</source>
-        <translation type="unfinished">Add custom color</translation>
+        <translation>Aangepaste kleur toevoegen</translation>
     </message>
     <message>
         <location filename="../common/colorpickerpopup.cpp" line="219"/>
         <source>Select color</source>
-        <translation type="unfinished">Select color</translation>
+        <translation>Kleur selecteren</translation>
     </message>
 </context>
 <context>
@@ -468,22 +468,22 @@
     <message>
         <location filename="../constraints/columncollatepanel.ui" line="41"/>
         <source>Collation name:</source>
-        <translation type="unfinished">Collation name:</translation>
+        <translation>Collatienaam:</translation>
     </message>
     <message>
         <location filename="../constraints/columncollatepanel.ui" line="73"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Benoemde beperking:</translation>
     </message>
     <message>
         <location filename="../constraints/columncollatepanel.cpp" line="80"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
     <message>
         <location filename="../constraints/columncollatepanel.cpp" line="81"/>
         <source>Enter a collation name.</source>
-        <translation type="unfinished">Enter a collation name.</translation>
+        <translation>Voer een collatienaam in.</translation>
     </message>
 </context>
 <context>
@@ -491,32 +491,32 @@
     <message>
         <location filename="../constraints/columndefaultpanel.ui" line="20"/>
         <source>Default value:</source>
-        <translation type="unfinished">Default value:</translation>
+        <translation>Standaardwaarde:</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.ui" line="35"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Benoemde beperking:</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
         <source>Enter a default value expression.</source>
-        <translation type="unfinished">Enter a default value expression.</translation>
+        <translation>Voer een expressie voor de standaardwaarde in.</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
         <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
-        <translation type="unfinished">Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</translation>
+        <translation>Ongeldige expressie voor standaardwaarde: %1. Als u een eenvoudige tekenreeks als waarde wilt gebruiken, vergeet dan niet deze tussen aanhalingstekens te plaatsen.</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
         <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
-        <translation type="unfinished">Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</translation>
+        <translation>Ongeldige expressie voor standaardwaarde. Als u een eenvoudige tekenreeks als waarde wilt gebruiken, vergeet dan niet deze tussen aanhalingstekens te plaatsen.</translation>
     </message>
     <message>
         <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
 </context>
 <context>
@@ -524,72 +524,72 @@
     <message>
         <location filename="../dialogs/columndialog.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolom</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="29"/>
         <source>Name and type</source>
-        <translation type="unfinished">Name and type</translation>
+        <translation>Naam en type</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="41"/>
         <source>Scale</source>
-        <translation type="unfinished">Scale</translation>
+        <translation>Schaal</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="61"/>
         <source>Precision</source>
-        <translation type="unfinished">Precision</translation>
+        <translation>Precisie</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="68"/>
         <source>Data type:</source>
-        <translation type="unfinished">Data type:</translation>
+        <translation>Gegevenstype:</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="75"/>
         <source>Column name:</source>
-        <translation type="unfinished">Column name:</translation>
+        <translation>Kolomnaam:</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="85"/>
         <source>Size:</source>
-        <translation type="unfinished">Size:</translation>
+        <translation>Grootte:</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="108"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Beperkingen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="138"/>
         <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Deze kolom maakt deel uit van een samengestelde primaire sleutel. Samengestelde beperkingen worden geconfigureerd in het onderste deel van het tabblad Structuur.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="141"/>
         <source>Composite Primary Key</source>
-        <translation type="unfinished">Composite Primary Key</translation>
+        <translation>Samengestelde primaire sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="161"/>
         <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Deze kolom maakt deel uit van een samengestelde externe sleutel. Samengestelde beperkingen worden geconfigureerd in het onderste deel van het tabblad Structuur.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="164"/>
         <source>Composite Foreign Key</source>
-        <translation type="unfinished">Composite Foreign Key</translation>
+        <translation>Samengestelde externe sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="209"/>
         <source>Generated value</source>
-        <translation type="unfinished">Generated value</translation>
+        <translation>Gegenereerde waarde</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="223"/>
         <source>Unique</source>
-        <translation type="unfinished">Unique</translation>
+        <translation>Uniek</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="121"/>
@@ -601,182 +601,182 @@
         <location filename="../dialogs/columndialog.ui" line="244"/>
         <location filename="../dialogs/columndialog.ui" line="251"/>
         <source>Configure</source>
-        <translation type="unfinished">Configure</translation>
+        <translation>Configureren</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="258"/>
         <source>Foreign Key</source>
-        <translation type="unfinished">Foreign Key</translation>
+        <translation>Externe sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="237"/>
         <source>Collate</source>
-        <translation type="unfinished">Collate</translation>
+        <translation>Sortering</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="265"/>
         <source>Not NULL</source>
-        <translation type="unfinished">Not NULL</translation>
+        <translation>Niet NULL</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="128"/>
         <source>Check condition</source>
-        <translation type="unfinished">Check condition</translation>
+        <translation>Controlevoorwaarde</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="230"/>
         <source>Primary Key</source>
-        <translation type="unfinished">Primary Key</translation>
+        <translation>Primaire sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="174"/>
         <source>Default</source>
-        <translation type="unfinished">Default</translation>
+        <translation>Standaard</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="188"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Auto-increment</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="275"/>
         <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</translation>
+        <translation>Deze kolom maakt deel uit van een samengestelde unieke beperking. Samengestelde beperkingen worden geconfigureerd in het onderste deel van het tabblad Structuur.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="278"/>
         <source>Composite Unique</source>
-        <translation type="unfinished">Composite Unique</translation>
+        <translation>Samengesteld uniek</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.ui" line="345"/>
         <source>Advanced mode</source>
-        <translation type="unfinished">Advanced mode</translation>
+        <translation>Geavanceerde modus</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="85"/>
         <source>Add constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add constraint</translation>
+        <translation>Beperking toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="86"/>
         <source>Edit constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Edit constraint</translation>
+        <translation>Beperking bewerken</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="87"/>
         <location filename="../dialogs/columndialog.cpp" line="252"/>
         <source>Delete constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Delete constraint</translation>
+        <translation>Beperking verwijderen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="88"/>
         <source>Move constraint up</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Move constraint up</translation>
+        <translation>Beperking omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="89"/>
         <source>Move constraint down</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Move constraint down</translation>
+        <translation>Beperking omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="91"/>
         <source>Add a primary key</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a primary key</translation>
+        <translation>Primaire sleutel toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="92"/>
         <source>Add a foreign key</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a foreign key</translation>
+        <translation>Externe sleutel toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="93"/>
         <source>Add an unique constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add an unique constraint</translation>
+        <translation>Unieke beperking toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="94"/>
         <source>Add a check constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a check constraint</translation>
+        <translation>Controlebeperking toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="95"/>
         <source>Add a not null constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a not null constraint</translation>
+        <translation>Niet-NULL-beperking toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="96"/>
         <source>Add a collate constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a collate constraint</translation>
+        <translation>Sorteerbeperking toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="97"/>
         <source>Add a generated value constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a generated value constraint</translation>
+        <translation>Beperking voor gegenereerde waarde toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="98"/>
         <source>Add a default constraint</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Add a default constraint</translation>
+        <translation>Beperking voor standaardwaarde toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="251"/>
         <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
         <comment>column dialog</comment>
-        <translation type="unfinished">Are you sure you want to delete constraint &apos;%1&apos;?</translation>
+        <translation>Weet u zeker dat u beperking &apos;%1&apos; wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="316"/>
         <source>Correct the constraint&apos;s configuration.</source>
-        <translation type="unfinished">Correct the constraint&apos;s configuration.</translation>
+        <translation>Corrigeer de configuratie van de beperking.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="386"/>
         <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
-        <translation type="unfinished">Scale is not allowed for INTEGER PRIMARY KEY columns.</translation>
+        <translation>Schaal is niet toegestaan voor INTEGER PRIMARY KEY-kolommen.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="387"/>
         <source>Precision cannot be defined without the scale.</source>
-        <translation type="unfinished">Precision cannot be defined without the scale.</translation>
+        <translation>Precisie kan niet zonder de schaal worden gedefinieerd.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="388"/>
         <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
-        <translation type="unfinished">Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</translation>
+        <translation>Kan geen ander type dan INTEGER gebruiken als AUTOINCREMENT is ingeschakeld in PRIMARY KEY.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="389"/>
         <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
-        <translation type="unfinished">INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</translation>
+        <translation>Het type INTEGER is afgedwongen vanwege ingeschakelde AUTOINCREMENT in PRIMARY KEY.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="411"/>
         <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
-        <translation type="unfinished">Precision is not allowed for INTEGER PRIMARY KEY columns.</translation>
+        <translation>Precisie is niet toegestaan voor INTEGER PRIMARY KEY-kolommen.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="459"/>
         <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</translation>
+        <translation>Het type van de gerefereerde kolom (%1) verschilt van het type dat in deze kolom is gedeclareerd. Dit kan problemen veroorzaken bij het invoegen of bijwerken van gegevens.</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialog.cpp" line="771"/>
         <source>Could not match valid STRICT table datatype from declared type: %1.</source>
-        <translation type="unfinished">Could not match valid STRICT table datatype from declared type: %1.</translation>
+        <translation>Kon geen geldig STRICT-tabelgegevenstype afleiden uit gedeclareerd type: %1.</translation>
     </message>
 </context>
 <context>
@@ -785,19 +785,19 @@
         <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
         <source>Type</source>
         <comment>column dialog constraints</comment>
-        <translation type="unfinished">Type</translation>
+        <translation>Soort</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
         <source>Name</source>
         <comment>column dialog constraints</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
         <source>Details</source>
         <comment>column dialog constraints</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Bijzonderheden</translation>
     </message>
 </context>
 <context>
@@ -805,57 +805,57 @@
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
         <source>Referenced table:</source>
-        <translation type="unfinished">Referenced table:</translation>
+        <translation>Gerefereerde tabel:</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
         <source>Referenced column:</source>
-        <translation type="unfinished">Referenced column:</translation>
+        <translation>Gerefereerde kolom:</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
         <source>Reactions</source>
-        <translation type="unfinished">Reactions</translation>
+        <translation>Reacties</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
         <source>Deferred foreign key</source>
-        <translation type="unfinished">Deferred foreign key</translation>
+        <translation>Uitgestelde externe sleutel</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Benoemde beperking</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Beperkingsnaam</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
         <source>Pick the foreign table.</source>
-        <translation type="unfinished">Pick the foreign table.</translation>
+        <translation>Kies de externe tabel.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
         <source>Pick the foreign column.</source>
-        <translation type="unfinished">Pick the foreign column.</translation>
+        <translation>Kies de externe kolom.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
         <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
-        <translation type="unfinished">The referenced column should be a PRIMARY KEY or UNIQUE.</translation>
+        <translation>De gerefereerde kolom moet een PRIMARY KEY of UNIQUE zijn.</translation>
     </message>
     <message>
         <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
         <source>Column with the same name</source>
-        <translation type="unfinished">Column with the same name</translation>
+        <translation>Kolom met dezelfde naam</translation>
     </message>
 </context>
 <context>
@@ -863,42 +863,42 @@
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
         <source>Generating code:</source>
-        <translation type="unfinished">Generating code:</translation>
+        <translation>Genererende code:</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
         <source>Explicit type:</source>
-        <translation type="unfinished">Explicit type:</translation>
+        <translation>Expliciet type:</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
         <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
-        <translation type="unfinished">Use &quot;GENERATED ALWAYS&quot; keywords</translation>
+        <translation>Gebruik de sleutelwoorden &quot;GENERATED ALWAYS&quot;</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Benoemde beperking:</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
         <source>Enter the column value generating expression.</source>
-        <translation type="unfinished">Enter the column value generating expression.</translation>
+        <translation>Voer de expressie in die de kolomwaarde genereert.</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
         <source>Invalid value generating expression: %1.</source>
-        <translation type="unfinished">Invalid value generating expression: %1.</translation>
+        <translation>Ongeldige expressie voor het genereren van waarden: %1.</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
         <source>Invalid value generating expression.</source>
-        <translation type="unfinished">Invalid value generating expression.</translation>
+        <translation>Ongeldige expressie voor het genereren van waarden.</translation>
     </message>
     <message>
         <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
 </context>
 <context>
@@ -906,32 +906,32 @@
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Auto-increment</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
         <source>Sort order:</source>
-        <translation type="unfinished">Sort order:</translation>
+        <translation>Sorteervolgorde:</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Benoemde beperking:</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
         <source>On conflict:</source>
-        <translation type="unfinished">On conflict:</translation>
+        <translation>Bij conflict:</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
     <message>
         <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
         <source>Descending order is not allowed with AUTOINCREMENT.</source>
-        <translation type="unfinished">Descending order is not allowed with AUTOINCREMENT.</translation>
+        <translation>Aflopende volgorde is niet toegestaan met AUTOINCREMENT.</translation>
     </message>
 </context>
 <context>
@@ -939,17 +939,17 @@
     <message>
         <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Benoemde beperking:</translation>
     </message>
     <message>
         <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
         <source>On conflict:</source>
-        <translation type="unfinished">On conflict:</translation>
+        <translation>Bij conflict:</translation>
     </message>
     <message>
         <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
 </context>
 <context>
@@ -957,7 +957,7 @@
     <message>
         <location filename="../commandpalette/commandpalette.cpp" line="53"/>
         <source>Search anything...</source>
-        <translation type="unfinished">Search anything...</translation>
+        <translation>Alles zoeken...</translation>
     </message>
 </context>
 <context>
@@ -965,102 +965,102 @@
     <message>
         <location filename="../completer/completerwindow.cpp" line="95"/>
         <source>Press / to filter snippets</source>
-        <translation type="unfinished">Press / to filter snippets</translation>
+        <translation>Druk op / om fragmenten te filteren</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="95"/>
         <source>Press / to use hotkeys</source>
-        <translation type="unfinished">Press / to use hotkeys</translation>
+        <translation>Druk op / om sneltoetsen te gebruiken</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="310"/>
         <source>Column: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Column: %1</translation>
+        <translation>Kolom: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="312"/>
         <source>Table: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="314"/>
         <source>Index: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Index: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="316"/>
         <source>Trigger: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Trigger: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="318"/>
         <source>View: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Weergave: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="320"/>
         <source>Database: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Database: %1</translation>
+        <translation>Databank: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="332"/>
         <source>Keyword: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Keyword: %1</translation>
+        <translation>Sleutelwoord: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="334"/>
         <source>Function: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Function: %1</translation>
+        <translation>Functie: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="336"/>
         <source>Operator: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Operator: %1</translation>
+        <translation>Operator: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="338"/>
         <source>String</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">String</translation>
+        <translation>Tekenreeks</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="340"/>
         <source>Number</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Number</translation>
+        <translation>Getal</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="342"/>
         <source>Binary data</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Binary data</translation>
+        <translation>Binaire gegevens</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="344"/>
         <source>Collation: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Collation: %1</translation>
+        <translation>Collatie: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="346"/>
         <source>Pragma function: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Pragma function: %1</translation>
+        <translation>Pragma-functie: %1</translation>
     </message>
     <message>
         <location filename="../completer/completerwindow.cpp" line="348"/>
         <source>Join condition: %1</source>
         <comment>completer statusbar</comment>
-        <translation type="unfinished">Join condition: %1</translation>
+        <translation>Join-voorwaarde: %1</translation>
     </message>
 </context>
 <context>
@@ -1069,968 +1069,968 @@
         <location filename="../dialogs/configdialog.ui" line="14"/>
         <location filename="../dialogs/configdialog.ui" line="3114"/>
         <source>Configuration</source>
-        <translation type="unfinished">Configuration</translation>
+        <translation>Configuratie</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="63"/>
         <source>Search</source>
-        <translation type="unfinished">Search</translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="100"/>
         <source>General</source>
-        <translation type="unfinished">General</translation>
+        <translation>Algemeen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="112"/>
         <source>Keyboard shortcuts</source>
-        <translation type="unfinished">Keyboard shortcuts</translation>
+        <translation>Sneltoetsen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="124"/>
         <source>Look &amp; feel</source>
-        <translation type="unfinished">Look &amp; feel</translation>
+        <translation>Uiterlijk en gedrag</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="135"/>
         <source>Style</source>
-        <translation type="unfinished">Style</translation>
+        <translation>Stijl</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="147"/>
         <source>Fonts</source>
-        <translation type="unfinished">Fonts</translation>
+        <translation>Lettertypen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="159"/>
         <source>Code colors</source>
-        <translation type="unfinished">Code colors</translation>
+        <translation>Codekleuren</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="184"/>
         <location filename="../dialogs/configdialog.ui" line="277"/>
         <source>Database list</source>
-        <translation type="unfinished">Database list</translation>
+        <translation>Databaselijst</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Code assistant</source>
-        <translation type="unfinished">Code assistant</translation>
+        <translation>Code-assistent</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="196"/>
         <source>Data browsing</source>
-        <translation type="unfinished">Data browsing</translation>
+        <translation>Gegevens bekijken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
         <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>SQL Editor</source>
-        <translation type="unfinished">SQL Editor</translation>
+        <translation>SQL-editor</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="207"/>
         <source>Data editors</source>
-        <translation type="unfinished">Data editors</translation>
+        <translation>Gegevenseditors</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="232"/>
         <source>Plugins</source>
-        <translation type="unfinished">Plugins</translation>
+        <translation>Plug-ins</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="243"/>
         <source>Code formatters</source>
-        <translation type="unfinished">Code formatters</translation>
+        <translation>Codeformatters</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="251"/>
         <source>Scripting languages</source>
-        <translation type="unfinished">Scripting languages</translation>
+        <translation>Scripttalen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="306"/>
         <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
-        <translation type="unfinished">If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</translation>
+        <translation>Als dit is uitgeschakeld, worden kolommen gesorteerd in de volgorde waarin ze in de CREATE TABLE-instructie zijn getypt.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="309"/>
         <source>Sort table columns alphabetically</source>
-        <translation type="unfinished">Sort table columns alphabetically</translation>
+        <translation>Tabelkolommen alfabetisch sorteren</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="345"/>
         <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</translation>
+        <translation>&lt;p&gt;Aanvullende labels zijn de labels die naast de namen in de databaselijst worden weergegeven (ze zijn blauw, tenzij anders geconfigureerd). Als u deze optie inschakelt, worden labels weergegeven voor databases, ongeldige databases en geaggregeerde knooppunten (kolomgroep, indexgroep, triggergroep). Zie de opties hieronder voor meer labels.&lt;p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="348"/>
         <source>Display additional labels on the list</source>
-        <translation type="unfinished">Display additional labels on the list</translation>
+        <translation>Aanvullende labels in de lijst weergeven</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="379"/>
         <source>Display labels for regular tables</source>
-        <translation type="unfinished">Display labels for regular tables</translation>
+        <translation>Labels voor gewone tabellen weergeven</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="389"/>
         <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
-        <translation type="unfinished">Virtual tables will be marked with a &apos;virtual&apos; label.</translation>
+        <translation>Virtuele tabellen worden gemarkeerd met een label &apos;virtueel&apos;.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="392"/>
         <source>Display labels for virtual tables</source>
-        <translation type="unfinished">Display labels for virtual tables</translation>
+        <translation>Labels voor virtuele tabellen weergeven</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="332"/>
         <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
-        <translation type="unfinished">If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</translation>
+        <translation>Als deze optie is uitgeschakeld, worden objecten gesorteerd in de volgorde waarin ze in de tabel sqlite_master voorkomen (dat is de volgorde waarin ze zijn gemaakt)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="335"/>
         <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
-        <translation type="unfinished">Sort objects (tables, indexes, triggers and views) alphabetically</translation>
+        <translation>Objecten (tabellen, indexen, triggers en weergaven) alfabetisch sorteren</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="408"/>
         <source>Display system tables and indexes on the list</source>
-        <translation type="unfinished">Display system tables and indexes on the list</translation>
+        <translation>Systeemtabellen en -indexen in de lijst weergeven</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="431"/>
         <source>Database dialog window</source>
-        <translation type="unfinished">Database dialog window</translation>
+        <translation>Database-dialoogvenster</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="437"/>
         <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Bij het toevoegen van een nieuwe database wordt deze standaard als &quot;permanent&quot; gemarkeerd (opgeslagen in de configuratie). Door deze optie aan te vinken wordt elke nieuwe database standaard NIET als &quot;permanent&quot; gemarkeerd.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="440"/>
         <source>Do not mark database to be &quot;permanent&quot; by default</source>
-        <translation type="unfinished">Do not mark database to be &quot;permanent&quot; by default</translation>
+        <translation>Database standaard niet als &quot;permanent&quot; markeren</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="498"/>
         <source>Data browsing and editing</source>
-        <translation type="unfinished">Data browsing and editing</translation>
+        <translation>Gegevens bekijken en bewerken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="582"/>
         <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Maximumaantal configuraties van het dialoogvenster Tabel vullen dat in de configuratie wordt opgeslagen. Een waarde van 100 zou voldoende moeten zijn.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="585"/>
         <source>Number of memorized table populating configurations</source>
-        <translation type="unfinished">Number of memorized table populating configurations</translation>
+        <translation>Aantal onthouden configuraties voor het vullen van tabellen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="511"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zet Unicode-regelscheidingstekens (U+2028, U+2029) om naar het standaard LF-teken (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) bij het bewerken van tekst in de formulierweergave-editor.&lt;/p&gt;&lt;p&gt;Schakel uit om de oorspronkelijke tekens te behouden.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="514"/>
         <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-        <translation type="unfinished">Convert Unicode line separators to LF (\n) in form view editors</translation>
+        <translation>Unicode-regelscheidingstekens naar LF (\n) omzetten in formulierweergave-editors</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
-        <translation type="unfinished">Use scientific notation for very small real numbers in the grid view</translation>
+        <translation>Wetenschappelijke notatie gebruiken voor zeer kleine reële getallen in de rasterweergave</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="647"/>
         <source>Data column width</source>
-        <translation type="unfinished">Data column width</translation>
+        <translation>Breedte van gegevenskolom</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="653"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer de gebruiker een nieuwe waarde in een kolom invoert en de waarde groter is dan de huidige kolombreedte, vergroot de toepassing de kolom zodat de nieuwe waarde past, maar niet breder dan de limiet die in de optie hierboven is gedefinieerd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="656"/>
         <source>Enlarge column when entering value longer than current width</source>
-        <translation type="unfinished">Enlarge column when entering value longer than current width</translation>
+        <translation>Kolom vergroten bij invoeren van waarde langer dan huidige breedte</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="672"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Wanneer de gegevens in de rasterweergave worden gelezen, wordt de breedte van kolommen automatisch aangepast. Deze waarde beperkt de initiële breedte voor de aanpassing, maar de gebruiker kan de kolom nog steeds handmatig groter maken dan deze limiet.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="504"/>
         <source>Number of data rows per page:</source>
-        <translation type="unfinished">Number of data rows per page:</translation>
+        <translation>Aantal gegevensrijen per pagina:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="569"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Wanneer dit is ingeschakeld en de gebruiker de muisaanwijzer boven een cel in een gegevensweergave houdt (queryresultaten, tabelgegevens, weergavegegevens), verschijnt er een tooltip met details over de cel - deze bevat details zoals kolomgegevenstype, beperkingen, ROWID en andere.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="572"/>
         <source>Show column and row details tooltip in data view</source>
-        <translation type="unfinished">Show column and row details tooltip in data view</translation>
+        <translation>Tooltip met kolom- en rijdetails in gegevensweergave tonen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="618"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Bij het bewerken van een cel die eerder de waarde NULL had en het invoeren van een lege tekenreeks als nieuwe waarde, bepaalt deze optie of de nieuwe waarde NULL moet blijven (deze optie ingeschakeld) of moet worden overschreven met een lege tekenreekswaarde (deze optie uitgeschakeld).&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="621"/>
         <source>Keep NULL value when entering empty value</source>
-        <translation type="unfinished">Keep NULL value when entering empty value</translation>
+        <translation>NULL-waarde behouden bij invoeren van lege waarde</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="608"/>
         <source>Limit number of rows for in case of dozens of columns</source>
-        <translation type="unfinished">Limit number of rows for in case of dozens of columns</translation>
+        <translation>Aantal rijen beperken bij tientallen kolommen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="752"/>
         <source>Inserting new row in data grid</source>
-        <translation type="unfinished">Inserting new row in data grid</translation>
+        <translation>Nieuwe rij invoegen in gegevensraster</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="758"/>
         <source>Before currently selected row</source>
-        <translation type="unfinished">Before currently selected row</translation>
+        <translation>Voor de momenteel geselecteerde rij</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="774"/>
         <source>After currently selected row</source>
-        <translation type="unfinished">After currently selected row</translation>
+        <translation>Na de momenteel geselecteerde rij</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="787"/>
         <source>At the end of data view</source>
-        <translation type="unfinished">At the end of data view</translation>
+        <translation>Aan het einde van de gegevensweergave</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="803"/>
         <source>Table windows</source>
-        <translation type="unfinished">Table windows</translation>
+        <translation>Tabelvensters</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="809"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Wanneer ingeschakeld, worden tabelvensters geopend met het tabblad Gegevens in plaats van het tabblad Structuur.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="812"/>
         <source>Open Table Windows with the data tab for start</source>
-        <translation type="unfinished">Open Table Windows with the data tab for start</translation>
+        <translation>Tabelvensters starten met het tabblad Gegevens</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="822"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Wanneer ingeschakeld, wordt het tabblad &quot;Gegevens&quot; als eerste tabblad in elk tabelvenster geplaatst, in plaats van op de tweede plaats.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="825"/>
         <source>Place data tab as first tab in a Table Window</source>
-        <translation type="unfinished">Place data tab as first tab in a Table Window</translation>
+        <translation>Gegevenstabblad als eerste tabblad in een tabelvenster plaatsen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="838"/>
         <source>View windows</source>
-        <translation type="unfinished">View windows</translation>
+        <translation>Weergavevensters</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="844"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Wanneer ingeschakeld, worden weergavevensters geopend met het tabblad Gegevens in plaats van het tabblad Structuur.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="847"/>
         <source>Open View Windows with the data tab for start</source>
-        <translation type="unfinished">Open View Windows with the data tab for start</translation>
+        <translation>Weergavevensters starten met het tabblad Gegevens</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="857"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Wanneer ingeschakeld, wordt het tabblad &quot;Gegevens&quot; als eerste tabblad in elk weergavevenster geplaatst, in plaats van op de tweede plaats.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="860"/>
         <source>Place data tab as first tab in a View Window</source>
-        <translation type="unfinished">Place data tab as first tab in a View Window</translation>
+        <translation>Gegevenstabblad als eerste tabblad in een weergavevenster plaatsen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="904"/>
         <source>Data types</source>
-        <translation type="unfinished">Data types</translation>
+        <translation>Gegevenstypen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="957"/>
         <source>Available editors:</source>
-        <translation type="unfinished">Available editors:</translation>
+        <translation>Beschikbare editors:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1074"/>
         <source>Schema editing</source>
-        <translation type="unfinished">Schema editing</translation>
+        <translation>Schemabewerking</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1086"/>
         <source>Number of DDL changes kept in history.</source>
-        <translation type="unfinished">Number of DDL changes kept in history.</translation>
+        <translation>Aantal DDL-wijzigingen dat in de geschiedenis wordt bewaard.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1099"/>
         <source>DDL history size:</source>
-        <translation type="unfinished">DDL history size:</translation>
+        <translation>Grootte van DDL-geschiedenis:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
-        <translation type="unfinished">Don&apos;t show DDL preview dialog when committing schema changes</translation>
+        <translation>DDL-voorbeeldvenster niet tonen bij het vastleggen van schemawijzigingen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1391"/>
         <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Number of queries kept in the history.</source>
-        <translation type="unfinished">Number of queries kept in the history.</translation>
+        <translation>Aantal queries dat in de geschiedenis wordt bewaard.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Execute only the query under the cursor</source>
-        <translation type="unfinished">Execute only the query under the cursor</translation>
+        <translation>Alleen de query onder de cursor uitvoeren</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1423"/>
         <source>Number of memorized query parameters</source>
-        <translation type="unfinished">Number of memorized query parameters</translation>
+        <translation>Aantal onthouden queryparameters</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer de gegevens in de rasterweergave worden gelezen, wordt de breedte van kolommen automatisch aangepast. Deze waarde beperkt de initiële breedte voor de aanpassing, maar de gebruiker kan de kolom nog steeds handmatig groter maken dan deze limiet. Deze waarde wordt ook gebruikt bij het vergroten van een kolom wanneer de gebruiker een nieuwe, langere waarde invoert (zie optie hieronder).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="694"/>
         <source>Limit automatic data column width to (in pixels):</source>
-        <translation type="unfinished">Limit automatic data column width to (in pixels):</translation>
+        <translation>Automatische breedte van gegevenskolom beperken tot (in pixels):</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="701"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;De initiële breedte van gegevenskolommen wordt minimaal zo ingesteld dat de volledige naam van de kolom in de kop wordt weergegeven. Dit kan nog steeds worden overschreven door de initiële limiet voor de kolombreedte in pixels (de instelling hierboven).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="704"/>
         <source>Keep at least the width to show complete column name</source>
-        <translation type="unfinished">Keep at least the width to show complete column name</translation>
+        <translation>Minimaal de breedte behouden om de volledige kolomnaam te tonen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1301"/>
         <source>Wrap lines in SQL editor</source>
-        <translation type="unfinished">Wrap lines in SQL editor</translation>
+        <translation>Regels afbreken in SQL-editor</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Highlight current query</source>
-        <translation type="unfinished">Highlight current query</translation>
+        <translation>Huidige query markeren</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1119"/>
         <source>Updates</source>
-        <translation type="unfinished">Updates</translation>
+        <translation>Updates</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Automatically check for updates at startup</source>
-        <translation type="unfinished">Automatically check for updates at startup</translation>
+        <translation>Automatisch op updates controleren bij opstarten</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1138"/>
         <source>Session</source>
-        <translation type="unfinished">Session</translation>
+        <translation>Sessie</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1144"/>
         <source>Restore last session (active MDI windows) after startup</source>
-        <translation type="unfinished">Restore last session (active MDI windows) after startup</translation>
+        <translation>Laatste sessie (actieve MDI-vensters) herstellen na opstarten</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1154"/>
         <source>Allow multiple instances of the application at the same time</source>
-        <translation type="unfinished">Allow multiple instances of the application at the same time</translation>
+        <translation>Meerdere instanties van de toepassing tegelijk toestaan</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1167"/>
         <source>Status Field</source>
-        <translation type="unfinished">Status Field</translation>
+        <translation>Statusveld</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1176"/>
         <source>Always open Status panel when new message is printed</source>
-        <translation type="unfinished">Always open Status panel when new message is printed</translation>
+        <translation>Statuspaneel altijd openen wanneer een nieuw bericht wordt afgedrukt</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1488"/>
         <source>Code syntax colors</source>
-        <translation type="unfinished">Code syntax colors</translation>
+        <translation>Kleuren voor codesyntaxis</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1674"/>
         <source>Keyword foreground</source>
-        <translation type="unfinished">Keyword foreground</translation>
+        <translation>Voorgrond van sleutelwoord</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1494"/>
         <source>Regular foreground</source>
-        <translation type="unfinished">Regular foreground</translation>
+        <translation>Normale voorgrond</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1584"/>
         <source>String foreground</source>
-        <translation type="unfinished">String foreground</translation>
+        <translation>Voorgrond van tekenreeks</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1854"/>
         <source>Comment foreground</source>
-        <translation type="unfinished">Comment foreground</translation>
+        <translation>Voorgrond van commentaar</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1944"/>
         <source>Valid objects foreground</source>
-        <translation type="unfinished">Valid objects foreground</translation>
+        <translation>Voorgrond van geldige objecten</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2255"/>
         <source>Current query background</source>
-        <translation type="unfinished">Current query background</translation>
+        <translation>Achtergrond van huidige query</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2124"/>
         <source>Bind parameter foreground</source>
-        <translation type="unfinished">Bind parameter foreground</translation>
+        <translation>Voorgrond van bindparameter</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2214"/>
         <source>Current line background</source>
-        <translation type="unfinished">Current line background</translation>
+        <translation>Achtergrond van huidige regel</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2299"/>
         <source>Matched parenthesis background</source>
-        <translation type="unfinished">Matched parenthesis background</translation>
+        <translation>Achtergrond van overeenkomende haakjes</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2283"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;U kunt het markeren van de huidige query volledig uitschakelen op de pagina Algemene instellingen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="219"/>
         <source>Data renderers</source>
-        <translation type="unfinished">Data renderers</translation>
+        <translation>Gegevensrenderers</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="283"/>
         <source>Expand tables when connected to a database</source>
-        <translation type="unfinished">Expand tables when connected to a database</translation>
+        <translation>Tabellen uitvouwen bij verbinding met een database</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="418"/>
         <source>Expand views when connected to a database</source>
-        <translation type="unfinished">Expand views when connected to a database</translation>
+        <translation>Weergaven uitvouwen bij verbinding met een database</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="319"/>
         <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
-        <translation type="unfinished">Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</translation>
+        <translation>Bij het uitvouwen van een tabel of weergave worden ook de knooppunten Kolommen, Indexen en Triggers uitgevouwen om hun inhoud te tonen.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="293"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standaard wordt het databaseschema benaderd met de tabelnaam &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Oudere SQLite-versies gebruikten de naam &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, die nog steeds als alias wordt ondersteund.&lt;br/&gt;U kunt hier overschakelen om in plaats daarvan de verouderde naam te gebruiken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="296"/>
         <source>Prefer sqlite_master over sqlite_schema table name</source>
-        <translation type="unfinished">Prefer sqlite_master over sqlite_schema table name</translation>
+        <translation>Tabelnaam sqlite_master verkiezen boven sqlite_schema</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="322"/>
         <source>Expand columns, indexes and triggers together with the table</source>
-        <translation type="unfinished">Expand columns, indexes and triggers together with the table</translation>
+        <translation>Kolommen, indexen en triggers samen met de tabel uitvouwen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="363"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Toont het gegevenstype naast de kolom wanneer het knooppunt Kolommen is uitgevouwen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="366"/>
         <source>Display column data types</source>
-        <translation type="unfinished">Display column data types</translation>
+        <translation>Kolomgegevenstypen weergeven</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="376"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Toont het aantal kolommen, indexen en triggers naast elke tabelnaam.&lt;/p&gt;&lt;p&gt;Vereist het laden van het volledige schema voor alle tabellen. Voor databases met honderden of duizenden tabellen kan dit de prestaties aanzienlijk beïnvloeden.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="405"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standaard zijn systeemtabellen en -indexen verborgen in de lijst.&lt;br/&gt;Schakel deze optie in om interne SQLite-objecten weer te geven, zoals &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; en automatisch gegenereerde indexen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="450"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer ingeschakeld, worden databasebestanden toegevoegd zonder het standaard database-dialoogvenster te tonen. Als het openen van de database met standaardopties mislukt (bijv. versleutelde database of andere driver vereist), wordt het dialoogvenster getoond zodat de opties kunnen worden aangepast. Wanneer uitgeschakeld, wordt het dialoogvenster altijd getoond.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="453"/>
         <source>Skip the dialog when possible</source>
-        <translation type="unfinished">Skip the dialog when possible</translation>
+        <translation>Dialoog overslaan wanneer mogelijk</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="973"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Definieer welke gegevenseditors beschikbaar zijn voor specifieke kolomtypen in &lt;span style=&quot; font-weight:700;&quot;&gt;Formulierweergave&lt;/span&gt; en het &lt;span style=&quot; font-weight:700;&quot;&gt;pop-up-editorvenster&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="992"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
-        <translation type="unfinished">Preview of editors for this data type (drag to reorder):</translation>
+        <translation>Voorbeeld van editors voor dit gegevenstype (sleep om te herschikken):</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1016"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;U kunt definiëren welke celrenderers worden gebruikt voor specifieke gegevenstypen die op tabelkolommen zijn gedeclareerd (niet hoofdlettergevoelig). Als er geen renderer voor een bepaald type is gedefinieerd, wordt de standaardrenderer gebruikt.&lt;/p&gt;&lt;p&gt;Optionele plugins kunnen aanvullende renderers leveren en hun eigen standaardtoewijzingen voor gegevenstypen instellen, die u hier nog steeds kunt overschrijven.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1045"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>Gegevenstype</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1050"/>
         <source>Renderer</source>
-        <translation type="unfinished">Renderer</translation>
+        <translation>Renderer</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer er meerdere queries aanwezig zijn, wordt alleen de query onder de cursor uitgevoerd.&lt;br/&gt;Wanneer uitgeschakeld, worden alle queries uitgevoerd.&lt;br/&gt;U kunt ook geselecteerde queries uitvoeren of sneltoetsen gebruiken (%1 voor één, %2 voor alle).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Markeert de query onder de cursor - dezelfde query die wordt uitgevoerd bij gebruik van &lt;span style=&quot; font-style:italic;&quot;&gt;Query uitvoeren&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="524"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer ingeschakeld, schakelt Letos automatisch over naar wetenschappelijke notatie voor zeer kleine reële getallen (bijv. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimale notatie wordt gebruikt voor waarden waarvan de grootte een leesbare decimale weergave mogelijk maakt.&lt;/p&gt;&lt;p&gt;Wanneer uitgeschakeld, worden reële getallen altijd weergegeven met decimale notatie, zelfs als dit resulteert in zeer lange breukdelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="556"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer u een cel bewerkt, accepteert Enter de waarde en gaat naar dezelfde kolom in de volgende rij.&lt;br/&gt;Indien uitgeschakeld, blijft de selectie op de huidige cel.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="559"/>
         <source>After editing, Enter moves to the next row</source>
-        <translation type="unfinished">After editing, Enter moves to the next row</translation>
+        <translation>Na bewerken verplaatst Enter naar de volgende rij</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="605"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Als queryresultaten tientallen (of honderden) kolommen bevatten, is de kans groter dat het vrije geheugen van uw computer uitgeput raakt door meerdere gigabytes aan gegevens tegelijk te laden. Letos kan in zulke gevallen proberen het aantal resultaten dat op één pagina wordt weergegeven te beperken om uw computer te beschermen. Als u weet dat u niet met grote waarden in de databank werkt, kunt u deze limiet uitschakelen en ziet u altijd zoveel rijen als per pagina is gedefinieerd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="631"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start automatisch het bewerken van de cel in de volgende rij nadat er met Enter naartoe is gegaan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="634"/>
         <source>Start editing after moving to the next row</source>
-        <translation type="unfinished">Start editing after moving to the next row</translation>
+        <translation>Bewerken starten na verplaatsen naar de volgende rij</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="717"/>
         <source>Column header actions</source>
-        <translation type="unfinished">Column header actions</translation>
+        <translation>Acties voor kolomkop</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="723"/>
         <source>Single-click selects column data; double-click sorts by column</source>
-        <translation type="unfinished">Single-click selects column data; double-click sorts by column</translation>
+        <translation>Eén klik selecteert kolomgegevens; dubbelklik sorteert op kolom</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="736"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
-        <translation type="unfinished">Single-click sorts by column; Alt+click selects column data</translation>
+        <translation>Eén klik sorteert op kolom; Alt+klik selecteert kolomgegevens</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1173"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer de gebruiker het statuspaneel handmatig sluit, zorgt deze optie ervoor dat het opnieuw wordt geopend als er een nieuw bericht in het statuspaneel wordt afgedrukt. Als dit is uitgeschakeld, kan het statuspaneel alleen handmatig door de gebruiker worden geopend via het menu &amp;quot;Weergave&amp;quot;.&lt;/p&gt;&lt;p&gt;U kunt het statuspaneel altijd verbergen met de Esc-toets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1186"/>
         <source>Older status messages</source>
-        <translation type="unfinished">Older status messages</translation>
+        <translation>Oudere statusberichten</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1192"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Oudere statusberichten blijven ongewijzigd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1195"/>
         <source>Keep messages</source>
-        <translation type="unfinished">Keep messages</translation>
+        <translation>Berichten behouden</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1208"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Oudere statusberichten blijven zichtbaar, maar worden visueel gedimd zodat recente berichten opvallen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1211"/>
         <source>Dim older messages</source>
-        <translation type="unfinished">Dim older messages</translation>
+        <translation>Oudere berichten dimmen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1224"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Oudere statusberichten worden automatisch uit het statusveld verwijderd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1227"/>
         <source>Remove older messages</source>
-        <translation type="unfinished">Remove older messages</translation>
+        <translation>Oudere berichten verwijderen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1269"/>
         <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specificeert het maximale aantal decimalen dat wordt weergegeven voor de uitvoeringstijd van queries. Er kunnen tot 9 cijfers (nanoseconden) worden geconfigureerd. Afsluitende nullen worden automatisch verwijderd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1272"/>
         <source>Execution time precision (decimal places)</source>
-        <translation type="unfinished">Execution time precision (decimal places)</translation>
+        <translation>Precisie van uitvoeringstijd (decimalen)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indien ingeschakeld, worden regels die langer zijn dan de breedte van de editor afgebroken, zodat horizontaal scrollen niet nodig is.&lt;/p&gt;&lt;p&gt;Deze optie definieert de globale standaardinstelling, terwijl afzonderlijke SQL-editorvensters deze lokaal kunnen overschrijven.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Disable blinking text cursor</source>
-        <translation type="unfinished">Disable blinking text cursor</translation>
+        <translation>Knipperende tekstcursor uitschakelen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Trigger assistant after typing a dot</source>
-        <translation type="unfinished">Trigger assistant after typing a dot</translation>
+        <translation>Assistent activeren na het typen van een punt</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
-        <translation type="unfinished">When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</translation>
+        <translation>Wanneer ingeschakeld, toont het aanroepen van codeaanvulling in een lege editor eerst codefragmenten in plaats van syntaxisvoorstellen. Door codeaanvulling opnieuw aan te roepen wordt overgeschakeld naar syntaxisvoorstellen (en omgekeerd).</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Prefer snippets in empty editor</source>
-        <translation type="unfinished">Prefer snippets in empty editor</translation>
+        <translation>Voorkeur voor fragmenten in lege editor</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>History</source>
-        <translation type="unfinished">History</translation>
+        <translation>Geschiedenis</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1394"/>
         <source>Query history size:</source>
-        <translation type="unfinished">Query history size:</translation>
+        <translation>Grootte van querygeschiedenis:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1420"/>
         <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Maximumaantal queryparameters (:param, @param, $param, ?) dat in de geschiedenis wordt opgeslagen. Wanneer u een parameter met dezelfde naam/positie opnieuw gebruikt, zal Letos deze vooraf initialiseren met de meest recent onthouden waarde (u kunt deze nog steeds wijzigen). Een waarde van 1000 zou voldoende moeten zijn.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1764"/>
         <source>Number foreground</source>
-        <translation type="unfinished">Number foreground</translation>
+        <translation>Voorgrondkleur van getal</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2034"/>
         <source>BLOB value foreground</source>
-        <translation type="unfinished">BLOB value foreground</translation>
+        <translation>Voorgrondkleur van BLOB-waarde</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2340"/>
         <source>Matched parenthesis foreground</source>
-        <translation type="unfinished">Matched parenthesis foreground</translation>
+        <translation>Voorgrondkleur van overeenkomend haakje</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2448"/>
         <location filename="../dialogs/configdialog.ui" line="2556"/>
         <source>Reset to defaults</source>
-        <translation type="unfinished">Reset to defaults</translation>
+        <translation>Standaardwaarden herstellen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2474"/>
         <source>Filter shortcuts by name or key combination</source>
-        <translation type="unfinished">Filter shortcuts by name or key combination</translation>
+        <translation>Sneltoetsen filteren op naam of toetscombinatie</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2518"/>
         <source>Action</source>
-        <translation type="unfinished">Action</translation>
+        <translation>Actie</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2523"/>
         <source>Key combination</source>
-        <translation type="unfinished">Key combination</translation>
+        <translation>Toetscombinatie</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2597"/>
         <location filename="../dialogs/configdialog.ui" line="3104"/>
         <source>Language</source>
-        <translation type="unfinished">Language</translation>
+        <translation>Taal</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2603"/>
         <source>Changing language requires application restart to take effect.</source>
-        <translation type="unfinished">Changing language requires application restart to take effect.</translation>
+        <translation>Het wijzigen van de taal vereist een herstart van de toepassing om van kracht te worden.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2623"/>
         <source>Compact layout</source>
-        <translation type="unfinished">Compact layout</translation>
+        <translation>Compacte indeling</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2629"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Compacte indeling beperkt alle marges en tussenruimten in de UI tot een minimum, waardoor er ruimte vrijkomt om meer gegevens weer te geven. De interface wordt hierdoor iets minder esthetisch, maar er kunnen meer gegevens tegelijk worden weergegeven.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2632"/>
         <source>Use compact layout</source>
-        <translation type="unfinished">Use compact layout</translation>
+        <translation>Compacte indeling gebruiken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2648"/>
         <source>Main window dock areas</source>
-        <translation type="unfinished">Main window dock areas</translation>
+        <translation>Dockgebieden van hoofdvenster</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2654"/>
         <source>Left and right areas occupy corners</source>
-        <translation type="unfinished">Left and right areas occupy corners</translation>
+        <translation>Linker- en rechtergebieden bezetten hoeken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2674"/>
         <source>Top and bottom areas occupy corners</source>
-        <translation type="unfinished">Top and bottom areas occupy corners</translation>
+        <translation>Boven- en ondergebieden bezetten hoeken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Toolbars</source>
-        <translation type="unfinished">Toolbars</translation>
+        <translation>Werkbalken</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2700"/>
         <location filename="../dialogs/configdialog.ui" line="2710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uitgedrukt als percentage van de standaardgrootte.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
-        <translation type="unfinished">Icon size</translation>
+        <translation>Pictogramgrootte</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2828"/>
         <source>Hide built-in plugins</source>
-        <translation type="unfinished">Hide built-in plugins</translation>
+        <translation>Ingebouwde plug-ins verbergen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2857"/>
         <source>Current style:</source>
-        <translation type="unfinished">Current style:</translation>
+        <translation>Huidige stijl:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2874"/>
         <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+        <translation>Voorbeeld</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2884"/>
         <source>Enabled</source>
-        <translation type="unfinished">Enabled</translation>
+        <translation>Ingeschakeld</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3060"/>
         <source>Disabled</source>
-        <translation type="unfinished">Disabled</translation>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3109"/>
         <source>Active formatter plugin</source>
-        <translation type="unfinished">Active formatter plugin</translation>
+        <translation>Actieve formatterplug-in</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; Naast de instellingen die hier beschikbaar zijn, kunnen lettergroottes in de meeste interface-elementen ook dynamisch worden aangepast door &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; ingedrukt te houden en met het &lt;span style=&quot; font-weight:700;&quot;&gt;muiswiel&lt;/span&gt; te scrollen boven het element waarvan u de lettergrootte wilt wijzigen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3166"/>
         <source>SQL editor font</source>
-        <translation type="unfinished">SQL editor font</translation>
+        <translation>Lettertype van SQL-editor</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3182"/>
         <source>Database list font</source>
-        <translation type="unfinished">Database list font</translation>
+        <translation>Lettertype van databaselijst</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3198"/>
         <source>Database list additional label font</source>
-        <translation type="unfinished">Database list additional label font</translation>
+        <translation>Lettertype van extra label in databaselijst</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3214"/>
         <source>Data view font</source>
-        <translation type="unfinished">Data view font</translation>
+        <translation>Lettertype van gegevensweergave</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="3230"/>
         <source>Status field font</source>
-        <translation type="unfinished">Status field font</translation>
+        <translation>Lettertype van statusveld</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Als deze optie is ingeschakeld, wordt de codeassistent geactiveerd in gevallen waarin de gebruiker bijvoorbeeld &lt;span style=&quot; font-weight:700;&quot;&gt;tabelNaam.&lt;/span&gt; typt om kolommen van de tabel voor te stellen. Als de optie is uitgeschakeld, moet de gebruiker de sneltoets van de assistent expliciet indrukken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1119"/>
         <source>Description:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Description:</translation>
+        <translation>Beschrijving:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1120"/>
         <source>Category:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Category:</translation>
+        <translation>Categorie:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1121"/>
         <source>Version:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Version:</translation>
+        <translation>Versie:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Author:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Author:</translation>
+        <translation>Auteur:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Internal name:</translation>
+        <translation>Interne naam:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Dependencies:</translation>
+        <translation>Afhankelijkheden:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1126"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">Conflicts:</translation>
+        <translation>Conflicten:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>File:</source>
         <comment>plugin details</comment>
-        <translation type="unfinished">File:</translation>
+        <translation>Bestand:</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1132"/>
         <source>Plugin details</source>
-        <translation type="unfinished">Plugin details</translation>
+        <translation>Plug-indetails</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1753"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
-        <translation type="unfinished">Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</translation>
+        <translation>Plug-ins worden onmiddellijk geladen/ontladen wanneer ze worden aangevinkt/uitgevinkt, maar de gewijzigde lijst met plug-ins die bij het opstarten moeten worden geladen, wordt pas opgeslagen wanneer u het hele configuratiedialoogvenster bevestigt.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1811"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
-        <translation type="unfinished">%1 (built-in)</translation>
+        <translation>%1 (ingebouwd)</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1853"/>
         <source>Details</source>
-        <translation type="unfinished">Details</translation>
+        <translation>Bijzonderheden</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1867"/>
         <source>No plugins in this category.</source>
-        <translation type="unfinished">No plugins in this category.</translation>
+        <translation>Geen plug-ins in deze categorie.</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1967"/>
         <location filename="../dialogs/configdialog.cpp" line="1996"/>
         <source>Add new data type</source>
-        <translation type="unfinished">Add new data type</translation>
+        <translation>Nieuw gegevenstype toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1971"/>
         <location filename="../dialogs/configdialog.cpp" line="2000"/>
         <source>Rename selected data type</source>
-        <translation type="unfinished">Rename selected data type</translation>
+        <translation>Geselecteerd gegevenstype hernoemen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="1975"/>
         <location filename="../dialogs/configdialog.cpp" line="2004"/>
         <source>Delete selected data type</source>
-        <translation type="unfinished">Delete selected data type</translation>
+        <translation>Geselecteerd gegevenstype verwijderen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="2088"/>
         <source>Clear hotkey for this action</source>
-        <translation type="unfinished">Clear hotkey for this action</translation>
+        <translation>Sneltoets voor deze actie wissen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="2100"/>
         <source>Restore original hotkey for this action</source>
-        <translation type="unfinished">Restore original hotkey for this action</translation>
+        <translation>Oorspronkelijke sneltoets voor deze actie herstellen</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.cpp" line="2142"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
-        <translation type="unfinished">Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</translation>
+        <translation>Hier kunt u kleuren configureren voor syntaxisaccentuering van code. Ze worden gedeeld tussen verschillende talen - niet alleen voor SQL, maar ook voor JavaScript en andere. Standaard wordt een op het thema gebaseerde kleur gebruikt. Om uw eigen kleur te definiëren, schakelt u een aangepaste kleur in door het selectievakje naast een bepaalde kleur te selecteren.</translation>
     </message>
 </context>
 <context>
@@ -2038,27 +2038,27 @@
     <message>
         <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
         <source>The condition</source>
-        <translation type="unfinished">The condition</translation>
+        <translation>De voorwaarde</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
         <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+        <translation>Benoemde constraint:</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
         <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+        <translation>Bij conflict</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
         <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+        <translation>Voer een geldige voorwaarde in.</translation>
     </message>
     <message>
         <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de constraint in.</translation>
     </message>
 </context>
 <context>
@@ -2067,73 +2067,73 @@
         <location filename="../dialogs/constraintdialog.cpp" line="62"/>
         <source>New constraint</source>
         <comment>constraint dialog</comment>
-        <translation type="unfinished">New constraint</translation>
+        <translation>Nieuwe constraint</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="63"/>
         <source>Create</source>
         <comment>constraint dialog</comment>
-        <translation type="unfinished">Create</translation>
+        <translation>Maken</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="66"/>
         <source>Edit constraint</source>
         <comment>dialog window</comment>
-        <translation type="unfinished">Edit constraint</translation>
+        <translation>Constraint bewerken</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="67"/>
         <source>Apply</source>
         <comment>constraint dialog</comment>
-        <translation type="unfinished">Apply</translation>
+        <translation>Toepassen</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="174"/>
         <source>Primary key</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Primary key</translation>
+        <translation>Primaire sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="178"/>
         <source>Foreign key</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Foreign key</translation>
+        <translation>Vreemde sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="182"/>
         <source>Unique</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Uniek</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="186"/>
         <source>Not NULL</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Not NULL</translation>
+        <translation>Niet NULL</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="190"/>
         <source>Check</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Check</translation>
+        <translation>Controle</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="194"/>
         <source>Generated</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Generated</translation>
+        <translation>Gegenereerd</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="198"/>
         <source>Collate</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Collatie</translation>
     </message>
     <message>
         <location filename="../dialogs/constraintdialog.cpp" line="202"/>
         <source>Default</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Default</translation>
+        <translation>Standaard</translation>
     </message>
 </context>
 <context>
@@ -2142,37 +2142,37 @@
         <location filename="../windows/constrainttabmodel.cpp" line="67"/>
         <source>Table</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Table</translation>
+        <translation>Tabel</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="108"/>
         <source>Column (%1)</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Column (%1)</translation>
+        <translation>Kolom (%1)</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="152"/>
         <source>Scope</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Scope</translation>
+        <translation>Bereik</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="154"/>
         <source>Type</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Type</translation>
+        <translation>Soort</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="156"/>
         <source>Details</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Bijzonderheden</translation>
     </message>
     <message>
         <location filename="../windows/constrainttabmodel.cpp" line="158"/>
         <source>Name</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
 </context>
 <context>
@@ -2180,20 +2180,20 @@
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
         <source>Configure hotkey: %1 (%2)</source>
-        <translation type="unfinished">Configure hotkey: %1 (%2)</translation>
+        <translation>Sneltoets configureren: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
         <source>Open configuration on the &quot;%1&quot; page</source>
-        <translation type="unfinished">Open configuration on the &quot;%1&quot; page</translation>
+        <translation>Configuratie openen op de pagina &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
         <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
         <source>Configure: %1</source>
-        <translation type="unfinished">Configure: %1</translation>
+        <translation>Configureren: %1</translation>
     </message>
 </context>
 <context>
@@ -2201,7 +2201,7 @@
     <message>
         <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
         <source>Letos CSS console</source>
-        <translation type="unfinished">Letos CSS console</translation>
+        <translation>Letos CSS-console</translation>
     </message>
 </context>
 <context>
@@ -2210,186 +2210,186 @@
         <location filename="../dataview.cpp" line="125"/>
         <source>Filter data</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter data</translation>
+        <translation>Gegevens filteren</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="126"/>
         <source>Filter by value in any column</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by value in any column</translation>
+        <translation>Filteren op waarde in elke kolom</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="135"/>
         <source>Grid view</source>
-        <translation type="unfinished">Grid view</translation>
+        <translation>Rasterweergave</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="136"/>
         <source>Form view</source>
-        <translation type="unfinished">Form view</translation>
+        <translation>Formulierweergave</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="239"/>
         <source>Find in data</source>
         <comment>data view</comment>
-        <translation type="unfinished">Find in data</translation>
+        <translation>Zoeken in gegevens</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="240"/>
         <source>Refresh table data</source>
         <comment>data view</comment>
-        <translation type="unfinished">Refresh table data</translation>
+        <translation>Tabelgegevens vernieuwen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="256"/>
         <source>First page</source>
         <comment>data view</comment>
-        <translation type="unfinished">First page</translation>
+        <translation>Eerste pagina</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="257"/>
         <source>Previous page</source>
         <comment>data view</comment>
-        <translation type="unfinished">Previous page</translation>
+        <translation>Vorige pagina</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="259"/>
         <source>Next page</source>
         <comment>data view</comment>
-        <translation type="unfinished">Next page</translation>
+        <translation>Volgende pagina</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="260"/>
         <source>Last page</source>
         <comment>data view</comment>
-        <translation type="unfinished">Last page</translation>
+        <translation>Laatste pagina</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="274"/>
         <source>Show grid view of results</source>
         <comment>data view</comment>
-        <translation type="unfinished">Show grid view of results</translation>
+        <translation>Rasterweergave van resultaten tonen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="275"/>
         <source>Show form view of results</source>
         <comment>data view</comment>
-        <translation type="unfinished">Show form view of results</translation>
+        <translation>Formulierweergave van resultaten tonen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="524"/>
         <source>Rows available on current page: %1 - %2</source>
         <comment>data view</comment>
-        <translation type="unfinished">Rows available on current page: %1 - %2</translation>
+        <translation>Rijen beschikbaar op huidige pagina: %1 - %2</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="811"/>
         <source>Sum: %1</source>
-        <translation type="unfinished">Sum: %1</translation>
+        <translation>Som: %1</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="964"/>
         <source>Total pages available: %1</source>
-        <translation type="unfinished">Total pages available: %1</translation>
+        <translation>Totaal aantal beschikbare pagina&apos;s: %1</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="974"/>
         <source>Total rows loaded: %1</source>
-        <translation type="unfinished">Total rows loaded: %1</translation>
+        <translation>Totaal aantal geladen rijen: %1</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1370"/>
         <source>Filter by text (if contains)</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by text (if contains)</translation>
+        <translation>Filteren op tekst (als deze bevat)</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1371"/>
         <source>Filter strictly by text (if equals)</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter strictly by text (if equals)</translation>
+        <translation>Strikt filteren op tekst (als deze gelijk is)</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="382"/>
         <source>Tabs on top</source>
         <comment>data view</comment>
-        <translation type="unfinished">Tabs on top</translation>
+        <translation>Tabbladen bovenaan</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="54"/>
         <source>Sum of values in selected cells</source>
         <comment>data view</comment>
-        <translation type="unfinished">Sum of values in selected cells</translation>
+        <translation>Som van waarden in geselecteerde cellen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="105"/>
         <source>Row:</source>
-        <translation type="unfinished">Row:</translation>
+        <translation>Rij:</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="383"/>
         <source>Tabs at bottom</source>
         <comment>data view</comment>
-        <translation type="unfinished">Tabs at bottom</translation>
+        <translation>Tabbladen onderaan</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="408"/>
         <source>Place new rows above selected row</source>
         <comment>data view</comment>
-        <translation type="unfinished">Place new rows above selected row</translation>
+        <translation>Nieuwe rijen boven geselecteerde rij plaatsen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="409"/>
         <source>Place new rows below selected row</source>
         <comment>data view</comment>
-        <translation type="unfinished">Place new rows below selected row</translation>
+        <translation>Nieuwe rijen onder geselecteerde rij plaatsen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="410"/>
         <source>Place new rows at the end of the data view</source>
         <comment>data view</comment>
-        <translation type="unfinished">Place new rows at the end of the data view</translation>
+        <translation>Nieuwe rijen aan het einde van de gegevensweergave plaatsen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="987"/>
         <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
-        <translation type="unfinished">Total number of rows is being counted.
-Browsing other pages will be possible after the row counting is done.</translation>
+        <translation>Het totale aantal rijen wordt geteld.
+Het doorbladeren van andere pagina&apos;s is mogelijk nadat het tellen van de rijen is voltooid.</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1337"/>
         <source>Filter</source>
-        <translation type="unfinished">Filter</translation>
+        <translation>Filteren</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1340"/>
         <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
-        <translation type="unfinished">Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</translation>
+        <translation>Druk op Enter of klik op de knop &quot;Filter toepassen&quot; op de werkbalk om de nieuwe waarde toe te passen.</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1372"/>
         <source>Filter by the Regular Expression</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by the Regular Expression</translation>
+        <translation>Filteren met reguliere expressie</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1373"/>
         <source>Filter by SQL expression</source>
         <comment>data view</comment>
-        <translation type="unfinished">Filter by SQL expression</translation>
+        <translation>Filteren met SQL-expressie</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1392"/>
         <source>Show filter inputs per column</source>
         <comment>data view</comment>
-        <translation type="unfinished">Show filter inputs per column</translation>
+        <translation>Filtervelden per kolom tonen</translation>
     </message>
     <message>
         <location filename="../dataview.cpp" line="1396"/>
         <source>Apply filter</source>
         <comment>data view</comment>
-        <translation type="unfinished">Apply filter</translation>
+        <translation>Filter toepassen</translation>
     </message>
 </context>
 <context>
@@ -2397,141 +2397,141 @@ Browsing other pages will be possible after the row counting is done.</translati
     <message>
         <location filename="../dialogs/dbdialog.ui" line="23"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="29"/>
         <source>Database type</source>
-        <translation type="unfinished">Database type</translation>
+        <translation>Databasetype</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="35"/>
         <source>Database driver</source>
-        <translation type="unfinished">Database driver</translation>
+        <translation>Databasestuurprogramma</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="45"/>
         <location filename="../dialogs/dbdialog.cpp" line="194"/>
         <source>File</source>
-        <translation type="unfinished">File</translation>
+        <translation>Bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="51"/>
         <source>Select an existing database file</source>
-        <translation type="unfinished">Select an existing database file</translation>
+        <translation>Een bestaand databasebestand selecteren</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="61"/>
         <source>Create a new database file</source>
-        <translation type="unfinished">Create a new database file</translation>
+        <translation>Een nieuw databasebestand maken</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="89"/>
         <source>Name (on the list)</source>
-        <translation type="unfinished">Name (on the list)</translation>
+        <translation>Naam (in de lijst)</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="117"/>
         <source>Change</source>
-        <translation type="unfinished">Change</translation>
+        <translation>Wijzigen</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="127"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="133"/>
         <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
         <extracomment>aasfd</extracomment>
-        <translation type="unfinished">&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Schakel dit in als u wilt dat de database in het configuratiebestand wordt opgeslagen en telkens wordt hersteld wanneer Letos wordt gestart.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="136"/>
         <source>Permanent (keep it in configuration)</source>
-        <translation type="unfinished">Permanent (keep it in configuration)</translation>
+        <translation>Permanent (in configuratie bewaren)</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="180"/>
         <source>Test connection</source>
-        <translation type="unfinished">Test connection</translation>
+        <translation>Verbinding testen</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="355"/>
         <source>Browse</source>
-        <translation type="unfinished">Browse</translation>
+        <translation>Bladeren</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="528"/>
         <source>Database type not selected.</source>
-        <translation type="unfinished">Database type not selected.</translation>
+        <translation>Databasetype niet geselecteerd.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="535"/>
         <source>Database path not specified.</source>
-        <translation type="unfinished">Database path not specified.</translation>
+        <translation>Databasepad niet opgegeven.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="568"/>
         <source>Enter an unique database name.</source>
-        <translation type="unfinished">Enter an unique database name.</translation>
+        <translation>Voer een unieke databasenaam in.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="578"/>
         <source>This name is already in use. Please enter unique name.</source>
-        <translation type="unfinished">This name is already in use. Please enter unique name.</translation>
+        <translation>Deze naam is al in gebruik. Voer een unieke naam in.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="585"/>
         <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Automatische naamgeneratie is uitgeschakeld omdat de naam handmatig is bewerkt. Wis de inhoud van het naamveld om automatische generatie te herstellen.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="594"/>
         <source>Enter a database file path.</source>
-        <translation type="unfinished">Enter a database file path.</translation>
+        <translation>Voer een pad naar een databasebestand in.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="600"/>
         <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
-        <translation type="unfinished">You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</translation>
+        <translation>U gebruikt een relatief bestandspad, dat wordt omgezet naar &quot;%1&quot; volgens de werkmap van de toepassing. Het is altijd beter om een absoluut bestandspad te gebruiken om een onverwachte databanklocatie te voorkomen.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="610"/>
         <source>This database is already on the list under name: %1</source>
-        <translation type="unfinished">This database is already on the list under name: %1</translation>
+        <translation>Deze database staat al in de lijst onder de naam: %1</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="632"/>
         <source>Select a database type.</source>
-        <translation type="unfinished">Select a database type.</translation>
+        <translation>Selecteer een databasetype.</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="657"/>
         <source>Automatic</source>
         <comment>database name</comment>
-        <translation type="unfinished">Automatic</translation>
+        <translation>Automatisch</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="658"/>
         <source>Change</source>
         <comment>database name</comment>
-        <translation type="unfinished">Change</translation>
+        <translation>Wijzigen</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="667"/>
         <source>(empty)</source>
-        <translation type="unfinished">(empty)</translation>
+        <translation>(leeg)</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="837"/>
         <source>Choose a location for the new database file</source>
-        <translation type="unfinished">Choose a location for the new database file</translation>
+        <translation>Kies een locatie voor het nieuwe databasebestand</translation>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.cpp" line="838"/>
         <source>Browse for existing database file on local computer</source>
-        <translation type="unfinished">Browse for existing database file on local computer</translation>
+        <translation>Bladeren naar bestaand databasebestand op lokale computer</translation>
     </message>
 </context>
 <context>
@@ -2539,70 +2539,70 @@ Browsing other pages will be possible after the row counting is done.</translati
     <message>
         <location filename="../dbobjectdialogs.cpp" line="176"/>
         <source>Delete table</source>
-        <translation type="unfinished">Delete table</translation>
+        <translation>Tabel verwijderen</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="177"/>
         <source>Are you sure you want to delete table %1?</source>
-        <translation type="unfinished">Are you sure you want to delete table %1?</translation>
+        <translation>Weet u zeker dat u tabel %1 wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="181"/>
         <source>Delete index</source>
-        <translation type="unfinished">Delete index</translation>
+        <translation>Index verwijderen</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="182"/>
         <source>Are you sure you want to delete index %1?</source>
-        <translation type="unfinished">Are you sure you want to delete index %1?</translation>
+        <translation>Weet u zeker dat u index %1 wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="186"/>
         <source>Delete trigger</source>
-        <translation type="unfinished">Delete trigger</translation>
+        <translation>Trigger verwijderen</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="187"/>
         <source>Are you sure you want to delete trigger %1?</source>
-        <translation type="unfinished">Are you sure you want to delete trigger %1?</translation>
+        <translation>Weet u zeker dat u trigger %1 wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="191"/>
         <source>Delete view</source>
-        <translation type="unfinished">Delete view</translation>
+        <translation>Weergave verwijderen</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="192"/>
         <source>Are you sure you want to delete view %1?</source>
-        <translation type="unfinished">Are you sure you want to delete view %1?</translation>
+        <translation>Weet u zeker dat u weergave %1 wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="214"/>
         <location filename="../dbobjectdialogs.cpp" line="346"/>
         <source>Error while dropping %1: %2</source>
-        <translation type="unfinished">Error while dropping %1: %2</translation>
+        <translation>Fout bij verwijderen van %1: %2</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="322"/>
         <source>Delete objects</source>
-        <translation type="unfinished">Delete objects</translation>
+        <translation>Objecten verwijderen</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="323"/>
         <source>Are you sure you want to delete following objects:
 %1</source>
-        <translation type="unfinished">Are you sure you want to delete following objects:
+        <translation>Weet u zeker dat u de volgende objecten wilt verwijderen:
 %1</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="330"/>
         <source>Cannot start transaction. Details: %1</source>
-        <translation type="unfinished">Cannot start transaction. Details: %1</translation>
+        <translation>Kan transactie niet starten. Details: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectdialogs.cpp" line="357"/>
         <source>Cannot commit transaction. Details: %1</source>
-        <translation type="unfinished">Cannot commit transaction. Details: %1</translation>
+        <translation>Kan transactie niet vastleggen. Details: %1</translation>
     </message>
 </context>
 <context>
@@ -2610,263 +2610,263 @@ Browsing other pages will be possible after the row counting is done.</translati
     <message>
         <location filename="../dbtree/dbtree.ui" line="20"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Databanken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2556"/>
         <source>Filter by name</source>
-        <translation type="unfinished">Filter by name</translation>
+        <translation>Filteren op naam</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="142"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="143"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Plakken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="144"/>
         <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+        <translation>Alles selecteren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="145"/>
         <source>Create a group</source>
-        <translation type="unfinished">Create a group</translation>
+        <translation>Een groep maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="146"/>
         <source>Delete the group</source>
-        <translation type="unfinished">Delete the group</translation>
+        <translation>De groep verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="147"/>
         <source>Rename the group</source>
-        <translation type="unfinished">Rename the group</translation>
+        <translation>De groep hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="152"/>
         <source>&amp;Edit the database</source>
-        <translation type="unfinished">&amp;Edit the database</translation>
+        <translation>Database b&amp;ewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="154"/>
         <source>&amp;Remove the database</source>
-        <translation type="unfinished">&amp;Remove the database</translation>
+        <translation>Database ve&amp;rwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="155"/>
         <source>&amp;Connect to the database</source>
-        <translation type="unfinished">&amp;Connect to the database</translation>
+        <translation>Verbin&amp;den met database</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="156"/>
         <source>&amp;Disconnect from the database</source>
-        <translation type="unfinished">&amp;Disconnect from the database</translation>
+        <translation>Verbinding met database &amp;verbreken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="159"/>
         <source>Vac&amp;uum</source>
-        <translation type="unfinished">Vac&amp;uum</translation>
+        <translation>&amp;Vacuum</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="160"/>
         <source>&amp;Integrity check</source>
-        <translation type="unfinished">&amp;Integrity check</translation>
+        <translation>&amp;Integriteitscontrole</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="161"/>
         <source>Create a &amp;table</source>
-        <translation type="unfinished">Create a &amp;table</translation>
+        <translation>Een &amp;tabel maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="162"/>
         <source>Edit the t&amp;able</source>
-        <translation type="unfinished">Edit the t&amp;able</translation>
+        <translation>T&amp;abel bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="164"/>
         <source>Delete the ta&amp;ble</source>
-        <translation type="unfinished">Delete the ta&amp;ble</translation>
+        <translation>Ta&amp;bel verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="165"/>
         <source>Export the table</source>
-        <translation type="unfinished">Export the table</translation>
+        <translation>Tabel exporteren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="166"/>
         <source>Import into the table</source>
-        <translation type="unfinished">Import into the table</translation>
+        <translation>In tabel importeren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="168"/>
         <source>Populate table</source>
-        <translation type="unfinished">Populate table</translation>
+        <translation>Tabel vullen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="169"/>
         <source>Create similar table</source>
-        <translation type="unfinished">Create similar table</translation>
+        <translation>Vergelijkbare tabel maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="170"/>
         <source>Reset autoincrement sequence</source>
-        <translation type="unfinished">Reset autoincrement sequence</translation>
+        <translation>Autoincrement-reeks resetten</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="171"/>
         <source>Create an &amp;index</source>
-        <translation type="unfinished">Create an &amp;index</translation>
+        <translation>Een &amp;index maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="172"/>
         <source>Edit the i&amp;ndex</source>
-        <translation type="unfinished">Edit the i&amp;ndex</translation>
+        <translation>I&amp;ndex bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="174"/>
         <source>Delete the in&amp;dex</source>
-        <translation type="unfinished">Delete the in&amp;dex</translation>
+        <translation>In&amp;dex verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="175"/>
         <source>Create a trig&amp;ger</source>
-        <translation type="unfinished">Create a trig&amp;ger</translation>
+        <translation>Een tri&amp;gger maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="176"/>
         <source>Edit the trigg&amp;er</source>
-        <translation type="unfinished">Edit the trigg&amp;er</translation>
+        <translation>Trigg&amp;er bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="178"/>
         <source>Delete the trigge&amp;r</source>
-        <translation type="unfinished">Delete the trigge&amp;r</translation>
+        <translation>Trigge&amp;r verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="179"/>
         <source>Create a &amp;view</source>
-        <translation type="unfinished">Create a &amp;view</translation>
+        <translation>Een &amp;weergave maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="180"/>
         <source>Edit the v&amp;iew</source>
-        <translation type="unfinished">Edit the v&amp;iew</translation>
+        <translation>Weer&amp;gave bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="182"/>
         <source>Delete the vi&amp;ew</source>
-        <translation type="unfinished">Delete the vi&amp;ew</translation>
+        <translation>Weerg&amp;ave verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="183"/>
         <source>Add a column</source>
-        <translation type="unfinished">Add a column</translation>
+        <translation>Een kolom toevoegen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="184"/>
         <source>Edit the column</source>
-        <translation type="unfinished">Edit the column</translation>
+        <translation>De kolom bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="186"/>
         <source>Delete the column</source>
-        <translation type="unfinished">Delete the column</translation>
+        <translation>De kolom verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="187"/>
         <source>Delete selected items</source>
-        <translation type="unfinished">Delete selected items</translation>
+        <translation>Geselecteerde items verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="207"/>
         <source>Clear filter</source>
-        <translation type="unfinished">Clear filter</translation>
+        <translation>Filter wissen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="188"/>
         <source>&amp;Refresh all database schemas</source>
-        <translation type="unfinished">&amp;Refresh all database schemas</translation>
+        <translation>Alle databaseschema&apos;s &amp;vernieuwen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="148"/>
         <source>&amp;Create new database</source>
-        <translation type="unfinished">&amp;Create new database</translation>
+        <translation>&amp;Nieuwe database maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="149"/>
         <source>&amp;Open existing database</source>
-        <translation type="unfinished">&amp;Open existing database</translation>
+        <translation>Bestaande database &amp;openen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="150"/>
         <source>&amp;Open existing database or SQL file</source>
-        <translation type="unfinished">&amp;Open existing database or SQL file</translation>
+        <translation>Bestaande database of SQL-bestand &amp;openen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="151"/>
         <source>Add a database</source>
-        <translation type="unfinished">Add a database</translation>
+        <translation>Een database toevoegen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="153"/>
         <source>Rename the database</source>
-        <translation type="unfinished">Rename the database</translation>
+        <translation>De database hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="157"/>
         <source>&amp;Import</source>
-        <translation type="unfinished">&amp;Import</translation>
+        <translation>&amp;Importeren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="158"/>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Export</translation>
+        <translation>&amp;Exporteren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="163"/>
         <source>Rename the table</source>
-        <translation type="unfinished">Rename the table</translation>
+        <translation>De tabel hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="167"/>
         <source>Export the view</source>
-        <translation type="unfinished">Export the view</translation>
+        <translation>De weergave exporteren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="173"/>
         <source>Rename the index</source>
-        <translation type="unfinished">Rename the index</translation>
+        <translation>De index hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="177"/>
         <source>Rename the trigger</source>
-        <translation type="unfinished">Rename the trigger</translation>
+        <translation>De trigger hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="181"/>
         <source>Rename the view</source>
-        <translation type="unfinished">Rename the view</translation>
+        <translation>De weergave hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="185"/>
         <source>Rename the column</source>
-        <translation type="unfinished">Rename the column</translation>
+        <translation>De kolom hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="189"/>
         <source>Re&amp;fresh selected database schema</source>
-        <translation type="unfinished">Re&amp;fresh selected database schema</translation>
+        <translation>Geselecteerd databaseschema &amp;vernieuwen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
         <location filename="../dbtree/dbtree.cpp" line="1938"/>
         <source>Erase table data</source>
-        <translation type="unfinished">Erase table data</translation>
+        <translation>Tabelgegevens wissen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="192"/>
@@ -2874,188 +2874,188 @@ Browsing other pages will be possible after the row counting is done.</translati
         <location filename="../dbtree/dbtree.cpp" line="198"/>
         <source>Drag</source>
         <comment>dbtree table action shortcut</comment>
-        <translation type="unfinished">Drag</translation>
+        <translation>Slepen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="201"/>
         <source>Open file&apos;s directory</source>
-        <translation type="unfinished">Open file&apos;s directory</translation>
+        <translation>Map van bestand openen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="202"/>
         <source>Execute SQL from file</source>
-        <translation type="unfinished">Execute SQL from file</translation>
+        <translation>SQL uit bestand uitvoeren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="203"/>
         <source>Increase font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Lettergrootte vergroten</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="204"/>
         <source>Decrease font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Lettergrootte verkleinen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="417"/>
         <location filename="../dbtree/dbtree.cpp" line="424"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="436"/>
         <source>Grouping</source>
-        <translation type="unfinished">Grouping</translation>
+        <translation>Groepering</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="441"/>
         <source>Generate query for table</source>
-        <translation type="unfinished">Generate query for table</translation>
+        <translation>Query voor tabel genereren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="447"/>
         <source>Generate query for view</source>
-        <translation type="unfinished">Generate query for view</translation>
+        <translation>Query voor weergave genereren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1326"/>
         <location filename="../dbtree/dbtree.cpp" line="1329"/>
         <source>Create group</source>
-        <translation type="unfinished">Create group</translation>
+        <translation>Groep maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1326"/>
         <source>Group name</source>
-        <translation type="unfinished">Group name</translation>
+        <translation>Groepsnaam</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1329"/>
         <source>Entry with name %1 already exists in group %2.</source>
-        <translation type="unfinished">Entry with name %1 already exists in group %2.</translation>
+        <translation>Item met naam %1 bestaat al in groep %2.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1366"/>
         <source>Delete group</source>
-        <translation type="unfinished">Delete group</translation>
+        <translation>Groep verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1367"/>
         <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
-        <translation type="unfinished">Are you sure you want to delete groups: %1?
-All objects from these groups will be moved to respective parent groups.</translation>
+        <translation>Weet u zeker dat u groepen wilt verwijderen: %1?
+Alle objecten uit deze groepen worden naar de respectieve bovenliggende groepen verplaatst.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1499"/>
         <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
-        <translation type="unfinished">Are you sure you want to remove database &apos;%1&apos; from the list?</translation>
+        <translation>Weet u zeker dat u database &apos;%1&apos; uit de lijst wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1507"/>
         <source>Are you sure you want to remove following databases from the list:
 %1</source>
-        <translation type="unfinished">Are you sure you want to remove following databases from the list:
+        <translation>Weet u zeker dat u de volgende databases uit de lijst wilt verwijderen:
 %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1509"/>
         <source>Remove database</source>
-        <translation type="unfinished">Remove database</translation>
+        <translation>Database verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1564"/>
         <location filename="../dbtree/dbtree.cpp" line="1769"/>
         <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+        <translation>Kan niet importeren, omdat er geen importplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1584"/>
         <location filename="../dbtree/dbtree.cpp" line="1744"/>
         <location filename="../dbtree/dbtree.cpp" line="1813"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Kan niet exporteren, omdat er geen exportplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1859"/>
         <source>Vacuum (%1)</source>
-        <translation type="unfinished">Vacuum (%1)</translation>
+        <translation>Vacuum (%1)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1873"/>
         <source>Integrity check (%1)</source>
-        <translation type="unfinished">Integrity check (%1)</translation>
+        <translation>Integriteitscontrole (%1)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1909"/>
         <source>Reset autoincrement</source>
-        <translation type="unfinished">Reset autoincrement</translation>
+        <translation>Autoincrement resetten</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1909"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-        <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+        <translation>Weet u zeker dat u de autoincrementwaarde voor tabel &apos;%1&apos; wilt resetten?</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1916"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+        <translation>Er is een fout opgetreden bij het resetten van de autoincrementwaarde voor tabel &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-        <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+        <translation>De autoincrementwaarde voor tabel &apos;%1&apos; is succesvol gereset.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1938"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
-        <translation type="unfinished">Are you sure you want to delete all data from table(s): %1?</translation>
+        <translation>Weet u zeker dat u alle gegevens uit tabel(len) wilt verwijderen: %1?</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1950"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to delete data from table &apos;%1&apos;: %2</translation>
+        <translation>Er is een fout opgetreden bij het verwijderen van gegevens uit tabel &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1954"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
-        <translation type="unfinished">All data has been deleted for table &apos;%1&apos;.</translation>
+        <translation>Alle gegevens zijn verwijderd voor tabel &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2093"/>
         <source>Following objects will be deleted: %1.</source>
-        <translation type="unfinished">Following objects will be deleted: %1.</translation>
+        <translation>De volgende objecten worden verwijderd: %1.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2096"/>
         <source>Following databases will be removed from list: %1.</source>
-        <translation type="unfinished">Following databases will be removed from list: %1.</translation>
+        <translation>De volgende databases worden uit de lijst verwijderd: %1.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2099"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
-        <translation type="unfinished">Remainig objects from deleted group will be moved in place where the group used to be.</translation>
+        <translation>Resterende objecten uit de verwijderde groep worden verplaatst naar de plaats waar de groep stond.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2101"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
-        <translation type="unfinished">%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</translation>
+        <translation>%1&lt;br&gt;&lt;br&gt;Weet u zeker dat u wilt doorgaan?</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2103"/>
         <source>Delete objects</source>
-        <translation type="unfinished">Delete objects</translation>
+        <translation>Objecten verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2582"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Verbonden.&lt;/p&gt;&lt;p&gt;Klik hier om de verbinding te verbreken, of klik met de middelste muisknop op de database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="2590"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Verbinding verbroken.&lt;/p&gt;&lt;p&gt;Klik hier om te verbinden, of dubbelklik op de database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -3064,25 +3064,25 @@ All objects from these groups will be moved to respective parent groups.</transl
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
         <source>error</source>
         <comment>dbtree labels</comment>
-        <translation type="unfinished">error</translation>
+        <translation>fout</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
         <source>(system table)</source>
         <comment>database tree label</comment>
-        <translation type="unfinished">(system table)</translation>
+        <translation>(systeemtabel)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
         <source>(virtual)</source>
         <comment>virtual table label</comment>
-        <translation type="unfinished">(virtual)</translation>
+        <translation>(virtueel)</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
         <source>(system index)</source>
         <comment>database tree label</comment>
-        <translation type="unfinished">(system index)</translation>
+        <translation>(systeemindex)</translation>
     </message>
 </context>
 <context>
@@ -3091,147 +3091,147 @@ All objects from these groups will be moved to respective parent groups.</transl
         <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
         <source>Database: %1</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Database: %1</translation>
+        <translation>Databank: %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
         <source>URI:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">URI:</translation>
+        <translation>URI:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
         <source>Format:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Format:</translation>
+        <translation>Formaat:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
         <source>File size:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">File size:</translation>
+        <translation>Bestandsgrootte:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
         <source>Encoding:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Encoding:</translation>
+        <translation>Codering:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
         <source>Error:</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Error:</translation>
+        <translation>Fout:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
         <source>Double-click to edit this database</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Double-click to edit this database</translation>
+        <translation>Dubbelklik om deze database te bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
         <source>Double-click to connect to this database</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Double-click to connect to this database</translation>
+        <translation>Dubbelklik om met deze database te verbinden</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
         <source>Table : %1</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Table : %1</translation>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
         <source>Columns (%1):</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Columns (%1):</translation>
+        <translation>Kolommen (%1):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
         <source>Indexes (%1):</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Indexes (%1):</translation>
+        <translation>Indexen (%1):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
         <source>Triggers (%1):</source>
         <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Triggers (%1):</translation>
+        <translation>Triggers (%1):</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
         <source>Move</source>
-        <translation type="unfinished">Move</translation>
+        <translation>Verplaatsen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
         <source>Include data</source>
-        <translation type="unfinished">Include data</translation>
+        <translation>Gegevens opnemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
         <source>Include indexes</source>
-        <translation type="unfinished">Include indexes</translation>
+        <translation>Indexen opnemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
         <source>Include triggers</source>
-        <translation type="unfinished">Include triggers</translation>
+        <translation>Triggers opnemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
         <source>Abort</source>
-        <translation type="unfinished">Abort</translation>
+        <translation>Afbreken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
         <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
-        <translation type="unfinished">Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</translation>
+        <translation>Kon neergezet databasebestand &apos;%1&apos; niet automatisch toevoegen. Handmatige configuratie is noodzakelijk.</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
         <source>Referenced tables</source>
-        <translation type="unfinished">Referenced tables</translation>
+        <translation>Gerefereerde tabellen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
         <source>Do you want to include following referenced tables as well:
 %1</source>
-        <translation type="unfinished">Do you want to include following referenced tables as well:
+        <translation>Wilt u ook de volgende gerefereerde tabellen opnemen:
 %1</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
         <source>Name conflict</source>
-        <translation type="unfinished">Name conflict</translation>
+        <translation>Naamconflict</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
         <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
-        <translation type="unfinished">Following object already exists in the target database.
-Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</translation>
+        <translation>Het volgende object bestaat al in de doeldatabase.
+Voer een nieuwe, unieke naam in, of druk op &apos;%1&apos; om de bewerking af te breken:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
         <source>SQL statements conversion</source>
-        <translation type="unfinished">SQL statements conversion</translation>
+        <translation>Conversie van SQL-instructies</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
         <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
-        <translation type="unfinished">Following error occurred while converting SQL statements to the target SQLite version:</translation>
+        <translation>De volgende fout is opgetreden bij het converteren van SQL-instructies naar de doelversie van SQLite:</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
         <source>Would you like to ignore those errors and proceed?</source>
-        <translation type="unfinished">Would you like to ignore those errors and proceed?</translation>
+        <translation>Wilt u deze fouten negeren en doorgaan?</translation>
     </message>
 </context>
 <context>
@@ -3239,36 +3239,36 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/ddlhistorywindow.ui" line="35"/>
         <source>Filter by database:</source>
-        <translation type="unfinished">Filter by database:</translation>
+        <translation>Filteren op database:</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.ui" line="55"/>
         <source>Clear entire history</source>
-        <translation type="unfinished">Clear entire history</translation>
+        <translation>Hele geschiedenis wissen</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
         <source>-- Queries executed on database %1 (%2)
 -- Date and time of execution: %3
 %4</source>
-        <translation type="unfinished">-- Queries executed on database %1 (%2)
--- Date and time of execution: %3
+        <translation>-- Query&apos;s uitgevoerd op database %1 (%2)
+-- Datum en tijd van uitvoering: %3
 %4</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
         <source>Clear history</source>
-        <translation type="unfinished">Clear history</translation>
+        <translation>Geschiedenis wissen</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
         <source>Are you sure you want to erase entire DDL history?</source>
-        <translation type="unfinished">Are you sure you want to erase entire DDL history?</translation>
+        <translation>Weet u zeker dat u de volledige DDL-geschiedenis wilt wissen?</translation>
     </message>
     <message>
         <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
         <source>DDL history</source>
-        <translation type="unfinished">DDL history</translation>
+        <translation>DDL-geschiedenis</translation>
     </message>
 </context>
 <context>
@@ -3276,22 +3276,22 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
         <source>Queries to be executed</source>
-        <translation type="unfinished">Queries to be executed</translation>
+        <translation>Uit te voeren query&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
         <source>Don&apos;t show again</source>
-        <translation type="unfinished">Don&apos;t show again</translation>
+        <translation>Niet opnieuw tonen</translation>
     </message>
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
         <source>Opens the DDL in the SQL Editor without executing it.</source>
-        <translation type="unfinished">Opens the DDL in the SQL Editor without executing it.</translation>
+        <translation>Opent de DDL in de SQL-editor zonder deze uit te voeren.</translation>
     </message>
     <message>
         <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
         <source>Open in editor</source>
-        <translation type="unfinished">Open in editor</translation>
+        <translation>In editor openen</translation>
     </message>
 </context>
 <context>
@@ -3299,7 +3299,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../debugconsole.ui" line="14"/>
         <source>Letos Debug Console</source>
-        <translation type="unfinished">Letos Debug Console</translation>
+        <translation>Letos Debug-console</translation>
     </message>
 </context>
 <context>
@@ -3307,285 +3307,285 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/editorwindow.ui" line="14"/>
         <source>SQL editor</source>
-        <translation type="unfinished">SQL editor</translation>
+        <translation>SQL-editor</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="43"/>
         <source>Query</source>
-        <translation type="unfinished">Query</translation>
+        <translation>SQL-query</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="134"/>
         <source>History</source>
-        <translation type="unfinished">History</translation>
+        <translation>Geschiedenis</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="200"/>
         <location filename="../windows/editorwindow.cpp" line="202"/>
         <source>SQL editor %1</source>
-        <translation type="unfinished">SQL editor %1</translation>
+        <translation>SQL-editor %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="99"/>
         <location filename="../windows/editorwindow.cpp" line="417"/>
         <source>Results</source>
-        <translation type="unfinished">Results</translation>
+        <translation>Resultaten</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="468"/>
         <source>Execute query</source>
-        <translation type="unfinished">Execute query</translation>
+        <translation>Query uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="469"/>
         <source>Explain query</source>
-        <translation type="unfinished">Explain query</translation>
+        <translation>Query uitleggen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="490"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Clear execution history</translation>
+        <translation>Uitvoeringsgeschiedenis wissen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="496"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Focus results on the same tab</translation>
+        <translation>Focus resultaten op hetzelfde tabblad</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Focus SQL editor on the same tab</translation>
+        <translation>Focus SQL-editor op hetzelfde tabblad</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="502"/>
         <source>Export results</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Export results</translation>
+        <translation>Resultaten exporteren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="484"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Create view from query</translation>
+        <translation>Weergave maken op basis van query</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+        <translation>Vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+        <translation>Terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="486"/>
         <source>Previous database</source>
-        <translation type="unfinished">Previous database</translation>
+        <translation>Vorige database</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="487"/>
         <source>Next database</source>
-        <translation type="unfinished">Next database</translation>
+        <translation>Volgende database</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="491"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Export execution history</translation>
+        <translation>Uitvoeringsgeschiedenis exporteren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="494"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Show next tab</translation>
+        <translation>Volgend tabblad tonen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="495"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Show previous tab</translation>
+        <translation>Vorig tabblad tonen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Export selected SQL history entries</translation>
+        <translation>Geselecteerde SQL-geschiedenisitems exporteren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="499"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Delete selected SQL history entries</translation>
+        <translation>Geselecteerde SQL-geschiedenisitems verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="500"/>
         <source>Execute single query under cursor</source>
-        <translation type="unfinished">Execute single query under cursor</translation>
+        <translation>Enkele query onder cursor uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="501"/>
         <source>Execute all queries in editor</source>
-        <translation type="unfinished">Execute all queries in editor</translation>
+        <translation>Alle query&apos;s in editor uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="522"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Separate tab</translation>
+        <translation>Resultatenindeling: apart tabblad</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="523"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Below editor</translation>
+        <translation>Resultatenindeling: onder editor</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="524"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Right of editor</translation>
+        <translation>Resultatenindeling: rechts van editor</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="539"/>
         <location filename="../windows/editorwindow.cpp" line="540"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Explain mode: %1</translation>
+        <translation>Explain-modus: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="560"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Auto-commit queries</translation>
+        <translation>Query&apos;s automatisch vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="577"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Editor window settings</translation>
+        <translation>Instellingen voor editorvenster</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="625"/>
         <source>Active database (%1/%2)</source>
-        <translation type="unfinished">Active database (%1/%2)</translation>
+        <translation>Actieve database (%1/%2)</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="776"/>
         <source>Save to file</source>
-        <translation type="unfinished">Save to file</translation>
+        <translation>Opslaan naar bestand</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="787"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+        <translation>Kon bestand &apos;%1&apos; niet openen om te schrijven: %2</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="807"/>
         <source>Saved SQL contents to file: %1</source>
-        <translation type="unfinished">Saved SQL contents to file: %1</translation>
+        <translation>SQL-inhoud opgeslagen naar bestand: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="830"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-        <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
+        <translation>Overschakelen van journal_mode naar WAL is mislukt. Handmatige vastlegmodus is niet beschikbaar. Fout: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="841"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-        <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
+        <translation>Openen van nieuwe databaseverbinding is mislukt. Handmatige vastlegmodus wordt niet ingeschakeld. Fout: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="844"/>
         <source>The joirnal_mode will be switched back to %1.</source>
-        <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
+        <translation>De joirnal_mode wordt teruggeschakeld naar %1.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="968"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
-        <translation type="unfinished">Query finished in %1 second(s). Rows affected: %2</translation>
+        <translation>Query voltooid in %1 seconde(n). Betrokken rijen: %2</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="972"/>
         <source>Query finished in %1 second(s).</source>
-        <translation type="unfinished">Query finished in %1 second(s).</translation>
+        <translation>Query voltooid in %1 seconde(n).</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1103"/>
         <source>Clear execution history</source>
-        <translation type="unfinished">Clear execution history</translation>
+        <translation>Uitvoeringsgeschiedenis wissen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1103"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
-        <translation type="unfinished">Are you sure you want to erase the entire SQL execution history? This cannot be undone.</translation>
+        <translation>Weet u zeker dat u de volledige SQL-uitvoeringsgeschiedenis wilt wissen? Dit kan niet ongedaan worden gemaakt.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1141"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Kan niet exporteren, omdat er geen exportplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1169"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Query auto-commit is now enabled in: %1</translation>
+        <translation>Automatisch vastleggen voor query&apos;s is nu ingeschakeld in: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1171"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Query auto-commit is now disabled in: %1</translation>
+        <translation>Automatisch vastleggen voor query&apos;s is nu uitgeschakeld in: %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1229"/>
         <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Apply changes to the transaction</source>
-        <translation type="unfinished">Apply changes to the transaction</translation>
+        <translation>Wijzigingen toepassen op de transactie</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1230"/>
         <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Discard changes in data view</source>
-        <translation type="unfinished">Discard changes in data view</translation>
+        <translation>Wijzigingen in gegevensweergave verwerpen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1231"/>
         <source>Apply selected changes to the transaction</source>
-        <translation type="unfinished">Apply selected changes to the transaction</translation>
+        <translation>Geselecteerde wijzigingen toepassen op de transactie</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Discard changes in selected cells</source>
-        <translation type="unfinished">Discard changes in selected cells</translation>
+        <translation>Wijzigingen in geselecteerde cellen verwerpen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1273"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-        <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
+        <translation>Kan de database niet wijzigen terwijl er een openstaande handmatige transactie is. Leg de transactie vast of draai deze terug voordat u de database wijzigt.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1313"/>
         <source>Manual transaction committed successfully.</source>
-        <translation type="unfinished">Manual transaction committed successfully.</translation>
+        <translation>Handmatige transactie succesvol vastgelegd.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1342"/>
         <source>Manual transaction rolled back.</source>
-        <translation type="unfinished">Manual transaction rolled back.</translation>
+        <translation>Handmatige transactie teruggedraaid.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1385"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
-        <translation type="unfinished">No database selected in the SQL editor. Cannot create a view for unknown database.</translation>
+        <translation>Geen database geselecteerd in de SQL-editor. Kan geen weergave maken voor een onbekende database.</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="1435"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">Editor window &quot;%1&quot; has uncommitted data.</translation>
+        <translation>Editorvenster &quot;%1&quot; heeft niet-vastgelegde gegevens.</translation>
     </message>
 </context>
 <context>
@@ -3593,17 +3593,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
         <source>Errors</source>
-        <translation type="unfinished">Errors</translation>
+        <translation>Fouten</translation>
     </message>
     <message>
         <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
         <source>Following errors occurred:</source>
-        <translation type="unfinished">Following errors occurred:</translation>
+        <translation>De volgende fouten zijn opgetreden:</translation>
     </message>
     <message>
         <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
         <source>Would you like to proceed?</source>
-        <translation type="unfinished">Would you like to proceed?</translation>
+        <translation>Wilt u doorgaan?</translation>
     </message>
 </context>
 <context>
@@ -3611,102 +3611,102 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
         <source>Execute SQL from file</source>
-        <translation type="unfinished">Execute SQL from file</translation>
+        <translation>SQL uit bestand uitvoeren</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
         <source>Input file</source>
-        <translation type="unfinished">Input file</translation>
+        <translation>Invoerbestand</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
         <source>Path to file</source>
-        <translation type="unfinished">Path to file</translation>
+        <translation>Pad naar bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
         <source>Browse for file</source>
-        <translation type="unfinished">Browse for file</translation>
+        <translation>Bladeren naar bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
         <source>File encoding</source>
-        <translation type="unfinished">File encoding</translation>
+        <translation>Bestandscodering</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
         <source>Skip failing SQL statements</source>
-        <translation type="unfinished">Skip failing SQL statements</translation>
+        <translation>Falende SQL-instructies overslaan</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Elke inhoud die geen geldige SQL is, zal een instructie laten mislukken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Staat puntcommando&apos;s (gebruikt door de officiële SQLite CLI-toepassing) in het bestand toe.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Staat puntcommando&apos;s (gebruikt door de officiële SQLite CLI-toepassing) in het bestand toe en voert er zelfs enkele uit (d.w.z. .print en .read). Alle andere puntcommando&apos;s worden genegeerd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
         <source>Strict (only SQL content allowed)</source>
-        <translation type="unfinished">Strict (only SQL content allowed)</translation>
+        <translation>Strikt (alleen SQL-inhoud toegestaan)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
         <source>Execution mode</source>
-        <translation type="unfinished">Execution mode</translation>
+        <translation>Uitvoeringsmodus</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
         <source>Permissive (dot commands ignored)</source>
-        <translation type="unfinished">Permissive (dot commands ignored)</translation>
+        <translation>Toegeeflijk (puntcommando&apos;s genegeerd)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
         <source>Extended (dot commands executed)</source>
-        <translation type="unfinished">Extended (dot commands executed)</translation>
+        <translation>Uitgebreid (puntcommando&apos;s uitgevoerd)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
-        <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+        <translation>SQL-scripts (*.sql);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
         <source>Execute SQL file</source>
-        <translation type="unfinished">Execute SQL file</translation>
+        <translation>SQL-bestand uitvoeren</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
         <source>Please provide file to be executed.</source>
-        <translation type="unfinished">Please provide file to be executed.</translation>
+        <translation>Geef het uit te voeren bestand op.</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
         <source>Provided file does not exist or cannot be read.</source>
-        <translation type="unfinished">Provided file does not exist or cannot be read.</translation>
+        <translation>Het opgegeven bestand bestaat niet of kan niet worden gelezen.</translation>
     </message>
     <message>
         <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
         <source>Select a database to execute the SQL file on.</source>
-        <translation type="unfinished">Select a database to execute the SQL file on.</translation>
+        <translation>Selecteer een database waarop het SQL-bestand moet worden uitgevoerd.</translation>
     </message>
 </context>
 <context>
@@ -3714,201 +3714,201 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/exportdialog.ui" line="14"/>
         <source>Export</source>
-        <translation type="unfinished">Export</translation>
+        <translation>Exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="24"/>
         <source>What do you want to export?</source>
-        <translation type="unfinished">What do you want to export?</translation>
+        <translation>Wat wilt u exporteren?</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="39"/>
         <source>A database</source>
-        <translation type="unfinished">A database</translation>
+        <translation>Een database</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="49"/>
         <source>A single table</source>
-        <translation type="unfinished">A single table</translation>
+        <translation>Een enkele tabel</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="56"/>
         <source>A single view</source>
-        <translation type="unfinished">A single view</translation>
+        <translation>Een enkele weergave</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="63"/>
         <source>Query results</source>
-        <translation type="unfinished">Query results</translation>
+        <translation>Queryresultaten</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="75"/>
         <source>Table to export</source>
-        <translation type="unfinished">Table to export</translation>
+        <translation>Te exporteren tabel</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="110"/>
         <location filename="../dialogs/exportdialog.ui" line="234"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="117"/>
         <source>Table</source>
-        <translation type="unfinished">Table</translation>
+        <translation>Tabel</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="134"/>
         <location filename="../dialogs/exportdialog.ui" line="258"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="140"/>
         <location filename="../dialogs/exportdialog.ui" line="264"/>
         <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
-        <translation type="unfinished">When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</translation>
+        <translation>Wanneer deze optie niet is aangevinkt, wordt alleen de DDL van de tabel (CREATE TABLE-instructie) geëxporteerd.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="143"/>
         <source>Export table data</source>
-        <translation type="unfinished">Export table data</translation>
+        <translation>Tabelgegevens exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="153"/>
         <source>Export table indexes</source>
-        <translation type="unfinished">Export table indexes</translation>
+        <translation>Tabelindexen exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="163"/>
         <source>Export table triggers</source>
-        <translation type="unfinished">Export table triggers</translation>
+        <translation>Tabeltriggers exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="185"/>
         <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
-        <translation type="unfinished">Note, that exporting table indexes and triggers may be unsupported by some output formats.</translation>
+        <translation>Merk op dat het exporteren van tabelindexen en -triggers mogelijk niet door sommige uitvoerformaten wordt ondersteund.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="199"/>
         <source>View to export</source>
-        <translation type="unfinished">View to export</translation>
+        <translation>Te exporteren weergave</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="241"/>
         <source>View</source>
-        <translation type="unfinished">View</translation>
+        <translation>Weergave</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="267"/>
         <source>Export view data</source>
-        <translation type="unfinished">Export view data</translation>
+        <translation>Weergavegegevens exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="277"/>
         <source>Export view triggers</source>
-        <translation type="unfinished">Export view triggers</translation>
+        <translation>Weergavetriggers exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="299"/>
         <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
-        <translation type="unfinished">Note, that exporting view triggers may be unsupported by some output formats.</translation>
+        <translation>Merk op dat het exporteren van weergavetriggers mogelijk niet door sommige uitvoerformaten wordt ondersteund.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="313"/>
         <source>Select database objects to export</source>
-        <translation type="unfinished">Select database objects to export</translation>
+        <translation>Databaseobjecten selecteren om te exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="319"/>
         <source>Export indexes (tables only)</source>
-        <translation type="unfinished">Export indexes (tables only)</translation>
+        <translation>Indexen exporteren (alleen tabellen)</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="333"/>
         <source>Export data from tables</source>
-        <translation type="unfinished">Export data from tables</translation>
+        <translation>Gegevens uit tabellen exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="343"/>
         <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+        <translation>Alles selecteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="374"/>
         <source>Export data from views</source>
-        <translation type="unfinished">Export data from views</translation>
+        <translation>Gegevens uit weergaven exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="326"/>
         <source>Deselect all</source>
-        <translation type="unfinished">Deselect all</translation>
+        <translation>Alles deselecteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="350"/>
         <source>Export triggers (tables and views)</source>
-        <translation type="unfinished">Export triggers (tables and views)</translation>
+        <translation>Triggers exporteren (tabellen en weergaven)</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="360"/>
         <location filename="../dialogs/exportdialog.ui" line="394"/>
         <source>Database:</source>
-        <translation type="unfinished">Database:</translation>
+        <translation>Databank:</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="382"/>
         <source>Query to export results for</source>
-        <translation type="unfinished">Query to export results for</translation>
+        <translation>Query waarvoor resultaten moeten worden geëxporteerd</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="401"/>
         <source>Query to be executed for results:</source>
-        <translation type="unfinished">Query to be executed for results:</translation>
+        <translation>Uit te voeren query voor resultaten:</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="409"/>
         <source>Export format and options</source>
-        <translation type="unfinished">Export format and options</translation>
+        <translation>Exportformaat en opties</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="463"/>
         <source>Export format</source>
-        <translation type="unfinished">Export format</translation>
+        <translation>Exportformaat</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="475"/>
         <source>Output</source>
-        <translation type="unfinished">Output</translation>
+        <translation>Uitvoer</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="481"/>
         <source>Exported file path</source>
-        <translation type="unfinished">Exported file path</translation>
+        <translation>Pad van geëxporteerd bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="488"/>
         <source>Clipboard</source>
-        <translation type="unfinished">Clipboard</translation>
+        <translation>Klembord</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="502"/>
         <source>File</source>
-        <translation type="unfinished">File</translation>
+        <translation>Bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="527"/>
         <source>Exported text encoding:</source>
-        <translation type="unfinished">Exported text encoding:</translation>
+        <translation>Codering van geëxporteerde tekst:</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.ui" line="543"/>
         <source>Export format options</source>
-        <translation type="unfinished">Export format options</translation>
+        <translation>Opties voor exportformaat</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="69"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="197"/>
@@ -3916,62 +3916,62 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../dialogs/exportdialog.cpp" line="246"/>
         <location filename="../dialogs/exportdialog.cpp" line="271"/>
         <source>Select database to export.</source>
-        <translation type="unfinished">Select database to export.</translation>
+        <translation>Selecteer database om te exporteren.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="198"/>
         <source>Select table to export.</source>
-        <translation type="unfinished">Select table to export.</translation>
+        <translation>Selecteer tabel om te exporteren.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="222"/>
         <source>Select view to export.</source>
-        <translation type="unfinished">Select view to export.</translation>
+        <translation>Selecteer weergave om te exporteren.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="247"/>
         <source>Enter valid query to export.</source>
-        <translation type="unfinished">Enter valid query to export.</translation>
+        <translation>Voer een geldige query in om te exporteren.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="272"/>
         <source>Select at least one object to export.</source>
-        <translation type="unfinished">Select at least one object to export.</translation>
+        <translation>Selecteer ten minste één object om te exporteren.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="295"/>
         <source>You must provide a file name to export to.</source>
-        <translation type="unfinished">You must provide a file name to export to.</translation>
+        <translation>U moet een bestandsnaam opgeven om naar te exporteren.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="302"/>
         <source>Path you provided is an existing directory. You cannot overwrite it.</source>
-        <translation type="unfinished">Path you provided is an existing directory. You cannot overwrite it.</translation>
+        <translation>Het pad dat u hebt opgegeven is een bestaande map. U kunt deze niet overschrijven.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="308"/>
         <source>The directory &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">The directory &apos;%1&apos; does not exist.</translation>
+        <translation>De map &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="314"/>
         <source>The file &apos;%1&apos; exists and will be overwritten.</source>
-        <translation type="unfinished">The file &apos;%1&apos; exists and will be overwritten.</translation>
+        <translation>Het bestand &apos;%1&apos; bestaat en zal worden overschreven.</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="555"/>
         <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+        <translation>Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="558"/>
         <source>Pick file to export to</source>
-        <translation type="unfinished">Pick file to export to</translation>
+        <translation>Kies bestand om naar te exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/exportdialog.cpp" line="985"/>
         <source>Internal error during export. This is a bug. Please report it.</source>
-        <translation type="unfinished">Internal error during export. This is a bug. Please report it.</translation>
+        <translation>Interne fout tijdens exporteren. Dit is een bug. Meld dit alstublieft.</translation>
     </message>
 </context>
 <context>
@@ -3979,32 +3979,32 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
         <source>Execution errors</source>
-        <translation type="unfinished">Execution errors</translation>
+        <translation>Uitvoeringsfouten</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
         <source>Following errors were encountered during execution of SQL statements from the file:</source>
-        <translation type="unfinished">Following errors were encountered during execution of SQL statements from the file:</translation>
+        <translation>De volgende fouten zijn opgetreden tijdens het uitvoeren van SQL-instructies uit het bestand:</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
         <source>SQL</source>
-        <translation type="unfinished">SQL</translation>
+        <translation>SQL</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
         <source>Error</source>
-        <translation type="unfinished">Error</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
         <source>Statements that were executed successfully were commited.</source>
-        <translation type="unfinished">Statements that were executed successfully were commited.</translation>
+        <translation>Instructies die succesvol zijn uitgevoerd, zijn vastgelegd.</translation>
     </message>
     <message>
         <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
         <source>Statements that were executed successfully were rolled back.</source>
-        <translation type="unfinished">Statements that were executed successfully were rolled back.</translation>
+        <translation>Instructies die succesvol zijn uitgevoerd, zijn teruggedraaid.</translation>
     </message>
 </context>
 <context>
@@ -4012,7 +4012,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../datagrid/fkcombobox.cpp" line="375"/>
         <source>Cannot edit this cell. Details: %1</source>
-        <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+        <translation>Kan deze cel niet bewerken. Details: %1</translation>
     </message>
 </context>
 <context>
@@ -4021,7 +4021,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../common/fontedit.cpp" line="61"/>
         <source>Choose font</source>
         <comment>font configuration</comment>
-        <translation type="unfinished">Choose font</translation>
+        <translation>Lettertype kiezen</translation>
     </message>
 </context>
 <context>
@@ -4029,7 +4029,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../forms/sqlformatterplugin.ui" line="20"/>
         <source>Active SQL formatter plugin</source>
-        <translation type="unfinished">Active SQL formatter plugin</translation>
+        <translation>Actieve SQL-formatterplug-in</translation>
     </message>
 </context>
 <context>
@@ -4038,49 +4038,49 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../formview.cpp" line="287"/>
         <source>Commit row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Commit row</translation>
+        <translation>Rij vastleggen</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="288"/>
         <source>Rollback row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Rollback row</translation>
+        <translation>Rij terugdraaien</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="289"/>
         <source>First row</source>
         <comment>form view</comment>
-        <translation type="unfinished">First row</translation>
+        <translation>Eerste rij</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="290"/>
         <source>Previous row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Previous row</translation>
+        <translation>Vorige rij</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="291"/>
         <source>Next row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Next row</translation>
+        <translation>Volgende rij</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="292"/>
         <source>Last row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Last row</translation>
+        <translation>Laatste rij</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="293"/>
         <source>Insert new row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Insert new row</translation>
+        <translation>Nieuwe rij invoegen</translation>
     </message>
     <message>
         <location filename="../formview.cpp" line="294"/>
         <source>Delete current row</source>
         <comment>form view</comment>
-        <translation type="unfinished">Delete current row</translation>
+        <translation>Huidige rij verwijderen</translation>
     </message>
 </context>
 <context>
@@ -4088,225 +4088,225 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/functionseditor.ui" line="84"/>
         <source>Filter functions</source>
-        <translation type="unfinished">Filter functions</translation>
+        <translation>Functies filteren</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="172"/>
         <source>Input arguments</source>
-        <translation type="unfinished">Input arguments</translation>
+        <translation>Invoerargumenten</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="178"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;U kunt hier de functieparameters definiëren. De opgegeven namen zijn beschikbaar als variabelen in de implementatiecode en bevatten de waarden die aan de functie zijn doorgegeven. Argumenten zijn ook toegankelijk via de standaard argumentcontainer van de taal (bijv. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl of &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="207"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geeft aan dat de functie een variabel aantal argumenten accepteert. In deze modus zijn argumenten alleen beschikbaar via het taalspecifieke mechanisme (bijv. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl of &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;Indien uitgeschakeld, worden argumenten hieronder gedefinieerd en zijn hun namen ook beschikbaar als variabelen in de implementatiecode, terwijl ze nog steeds toegankelijk blijven via de standaard argumentcontainer van de taal.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="210"/>
         <source>Undefined</source>
-        <translation type="unfinished">Undefined</translation>
+        <translation>Ongedefinieerd</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="226"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Databanken</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="232"/>
         <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+        <translation>In alle databases registreren</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="239"/>
         <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+        <translation>In de volgende databases registreren:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="274"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Soort:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="281"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecteert de taal die wordt gebruikt om de functie te implementeren. De gekozen taal bepaalt hoe de functiecode wordt geïnterpreteerd en welke syntaxis, variabelen en runtime-omgeving beschikbaar zijn in de implementatieblokken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="288"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selecteert het type functie dat wordt geïmplementeerd. Het geselecteerde type bepaalt hoe SQLite de functie aanroept en welke implementatieblokken moeten worden opgegeven: één codeblok voor scalaire functies, stapsgewijze verwerking voor aggregatiefuncties, of extra verwerking van het window-frame (inclusief inverse stap) voor window-aggregatiefuncties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="295"/>
         <source>Function name:</source>
-        <translation type="unfinished">Function name:</translation>
+        <translation>Functienaam:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="305"/>
         <source>Implementation language:</source>
-        <translation type="unfinished">Implementation language:</translation>
+        <translation>Implementatietaal:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="312"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geeft aan dat de functie altijd hetzelfde resultaat retourneert voor dezelfde invoerargumenten. Vereist voor gebruik in sommige schema-expressies (bijv. CHECK-beperkingen, gedeeltelijke indexen, expressie-indexen, gegenereerde kolommen) en kan SQLite in staat stellen extra optimalisaties toe te passen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="315"/>
         <source>Deterministic</source>
-        <translation type="unfinished">Deterministic</translation>
+        <translation>Deterministisch</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="336"/>
         <source>Function code</source>
-        <translation type="unfinished">Function code</translation>
+        <translation>Functiecode</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="342"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code die wordt uitgevoerd wanneer de functie wordt aangeroepen. Deze ontvangt de functieargumenten en moet het resultaat berekenen en retourneren. Parameterwaarden zijn beschikbaar als variabelen met dezelfde naam als de gedeclareerde functieparameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="353"/>
         <source>Initialization</source>
-        <translation type="unfinished">Initialization</translation>
+        <translation>Initialisatie</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="359"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code die één keer wordt uitgevoerd vóór de eerste aggregatiestap. Gebruik deze om variabelen te initialiseren die de aggregatiestatus opslaan. Parameterwaarden zijn beschikbaar als variabelen met dezelfde naam als de gedeclareerde functieparameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="370"/>
         <source>Step</source>
-        <translation type="unfinished">Step</translation>
+        <translation>Stap</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="376"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code die voor elke invoerrij wordt uitgevoerd. Deze moet de aggregatiestatus bijwerken met de huidige argumenten. Parameterwaarden zijn beschikbaar als variabelen met dezelfde naam als de gedeclareerde functieparameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="387"/>
         <source>Inverse</source>
-        <translation type="unfinished">Inverse</translation>
+        <translation>Omgekeerd</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="393"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code die wordt uitgevoerd wanneer een rij het window-frame verlaat. De parameterwaarden komen overeen met de rij die uit het window wordt verwijderd en moeten worden gebruikt om de bijdrage ervan van de aggregatiestatus af te trekken. Parameterwaarden zijn beschikbaar als variabelen met dezelfde naam als de gedeclareerde functieparameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="404"/>
         <source>Aggregated value</source>
-        <translation type="unfinished">Aggregated value</translation>
+        <translation>Geaggregeerde waarde</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.ui" line="410"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code die het geaggregeerde resultaat berekent en retourneert op basis van de huidige aggregatiestatus. In window-functies kan deze meerdere keren worden uitgevoerd om de huidige window-waarde te retourneren. In gewone aggregatiefuncties wordt deze één keer aangeroepen als de definitieve functie. Parameterwaarden zijn beschikbaar als variabelen met dezelfde naam als de gedeclareerde functieparameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="62"/>
         <source>SQL functions editor</source>
-        <translation type="unfinished">SQL functions editor</translation>
+        <translation>Editor voor SQL-functies</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="67"/>
         <source>Commit all function changes</source>
-        <translation type="unfinished">Commit all function changes</translation>
+        <translation>Alle functiewijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="68"/>
         <source>Rollback all function changes</source>
-        <translation type="unfinished">Rollback all function changes</translation>
+        <translation>Alle functiewijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="70"/>
         <source>Create new function</source>
-        <translation type="unfinished">Create new function</translation>
+        <translation>Nieuwe functie maken</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="71"/>
         <source>Delete selected function</source>
-        <translation type="unfinished">Delete selected function</translation>
+        <translation>Geselecteerde functie verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="73"/>
         <source>Import functions from file</source>
-        <translation type="unfinished">Import functions from file</translation>
+        <translation>Functies uit bestand importeren</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="74"/>
         <source>Export functions to file</source>
-        <translation type="unfinished">Export functions to file</translation>
+        <translation>Functies naar bestand exporteren</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="75"/>
         <source>Custom SQL functions manual</source>
-        <translation type="unfinished">Custom SQL functions manual</translation>
+        <translation>Handleiding voor aangepaste SQL-functies</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="78"/>
         <source>Add function argument</source>
-        <translation type="unfinished">Add function argument</translation>
+        <translation>Functieargument toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="79"/>
         <source>Rename function argument</source>
-        <translation type="unfinished">Rename function argument</translation>
+        <translation>Functieargument hernoemen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="80"/>
         <source>Delete function argument</source>
-        <translation type="unfinished">Delete function argument</translation>
+        <translation>Functieargument verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="82"/>
         <source>Move function argument up</source>
-        <translation type="unfinished">Move function argument up</translation>
+        <translation>Functieargument omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="83"/>
         <source>Move function argument down</source>
-        <translation type="unfinished">Move function argument down</translation>
+        <translation>Functieargument omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="540"/>
         <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
-        <translation type="unfinished">Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</translation>
+        <translation>Voer een unieke, niet-lege functienaam in. Dubbele namen zijn toegestaan als het aantal invoerparameters verschilt.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="551"/>
         <source>Pick the implementation language.</source>
-        <translation type="unfinished">Pick the implementation language.</translation>
+        <translation>Kies de implementatietaal.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="569"/>
         <location filename="../windows/functionseditor.cpp" line="579"/>
         <location filename="../windows/functionseditor.cpp" line="580"/>
         <source>Enter a non-empty implementation code.</source>
-        <translation type="unfinished">Enter a non-empty implementation code.</translation>
+        <translation>Voer niet-lege implementatiecode in.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="629"/>
         <source>argument</source>
         <comment>new function argument name in function editor window</comment>
-        <translation type="unfinished">argument</translation>
+        <translation>argument</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="733"/>
         <source>Function argument cannot be empty and it cannot have duplicated name.</source>
-        <translation type="unfinished">Function argument cannot be empty and it cannot have duplicated name.</translation>
+        <translation>Functieargument mag niet leeg zijn en mag geen dubbele naam hebben.</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.cpp" line="800"/>
         <source>Functions editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Functions editor window has uncommitted modifications.</translation>
+        <translation>Het venster van de functie-editor heeft niet-vastgelegde wijzigingen.</translation>
     </message>
 </context>
 <context>
@@ -4314,42 +4314,42 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="261"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>alle databases</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="266"/>
         <source>Function:</source>
-        <translation type="unfinished">Function:</translation>
+        <translation>Functie:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="267"/>
         <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+        <translation>Soort:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Deterministic:</source>
-        <translation type="unfinished">Deterministic:</translation>
+        <translation>Deterministisch:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="268"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Nee</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="269"/>
         <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+        <translation>Taal:</translation>
     </message>
     <message>
         <location filename="../windows/functionseditormodel.cpp" line="270"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Geregistreerd in:</translation>
     </message>
 </context>
 <context>
@@ -4357,102 +4357,102 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/importdialog.ui" line="14"/>
         <source>Import data</source>
-        <translation type="unfinished">Import data</translation>
+        <translation>Gegevens importeren</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="171"/>
         <source>Table to import to</source>
-        <translation type="unfinished">Table to import to</translation>
+        <translation>Tabel om naar te importeren</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="186"/>
         <source>Table</source>
-        <translation type="unfinished">Table</translation>
+        <translation>Tabel</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="193"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="24"/>
         <source>Data source to import from</source>
-        <translation type="unfinished">Data source to import from</translation>
+        <translation>Gegevensbron om uit te importeren</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="69"/>
         <source>Data source type</source>
-        <translation type="unfinished">Data source type</translation>
+        <translation>Type gegevensbron</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="81"/>
         <source>Options</source>
-        <translation type="unfinished">Options</translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="115"/>
         <source>Text encoding:</source>
-        <translation type="unfinished">Text encoding:</translation>
+        <translation>Tekstcodering:</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="122"/>
         <source>Input file:</source>
-        <translation type="unfinished">Input file:</translation>
+        <translation>Invoerbestand:</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="132"/>
         <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Indien ingeschakeld, worden elke schending van een beperking, een ongeldig gegevensformaat (verkeerd aantal kolommen) of elk ander probleem dat tijdens het importeren optreedt genegeerd en wordt het importeren voortgezet.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="135"/>
         <source>Ignore errors</source>
-        <translation type="unfinished">Ignore errors</translation>
+        <translation>Fouten negeren</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.ui" line="145"/>
         <source>Data source options</source>
-        <translation type="unfinished">Data source options</translation>
+        <translation>Opties voor gegevensbron</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="131"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="162"/>
         <source>If you type table name that doesn&apos;t exist, it will be created.</source>
-        <translation type="unfinished">If you type table name that doesn&apos;t exist, it will be created.</translation>
+        <translation>Als u een tabelnaam invoert die niet bestaat, wordt deze aangemaakt.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="162"/>
         <source>Enter the table name</source>
-        <translation type="unfinished">Enter the table name</translation>
+        <translation>Voer de tabelnaam in</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="180"/>
         <source>Select import plugin.</source>
-        <translation type="unfinished">Select import plugin.</translation>
+        <translation>Selecteer importplug-in.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="189"/>
         <source>You must provide a file to import from.</source>
-        <translation type="unfinished">You must provide a file to import from.</translation>
+        <translation>U moet een bestand opgeven om uit te importeren.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="196"/>
         <source>The file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">The file &apos;%1&apos; does not exist.</translation>
+        <translation>Het bestand &apos;%1&apos; bestaat niet.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="202"/>
         <source>Path you provided is a directory. A regular file is required.</source>
-        <translation type="unfinished">Path you provided is a directory. A regular file is required.</translation>
+        <translation>Het opgegeven pad is een map. Een normaal bestand is vereist.</translation>
     </message>
     <message>
         <location filename="../dialogs/importdialog.cpp" line="395"/>
         <source>Pick file to import from</source>
-        <translation type="unfinished">Pick file to import from</translation>
+        <translation>Kies bestand om uit te importeren</translation>
     </message>
 </context>
 <context>
@@ -4461,127 +4461,127 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../dialogs/indexdialog.ui" line="20"/>
         <location filename="../dialogs/indexdialog.ui" line="30"/>
         <source>Index</source>
-        <translation type="unfinished">Index</translation>
+        <translation>Index</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="70"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolom</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="75"/>
         <source>Sort</source>
-        <translation type="unfinished">Sort</translation>
+        <translation>Sorteren</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="80"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Collatie</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="88"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Op tabel:</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="98"/>
         <source>Delete selected indexed expression</source>
-        <translation type="unfinished">Delete selected indexed expression</translation>
+        <translation>Geselecteerde geïndexeerde expressie verwijderen</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="108"/>
         <source>Moves selected index column up in the order, making it more significant in the index.</source>
-        <translation type="unfinished">Moves selected index column up in the order, making it more significant in the index.</translation>
+        <translation>Verplaatst de geselecteerde indexkolom omhoog in de volgorde, waardoor deze belangrijker wordt in de index.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="118"/>
         <source>Moves selected index column down in the order, making it less significant in the index.</source>
-        <translation type="unfinished">Moves selected index column down in the order, making it less significant in the index.</translation>
+        <translation>Verplaatst de geselecteerde indexkolom omlaag in de volgorde, waardoor deze minder belangrijk wordt in de index.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="128"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Voorwaarde voor gedeeltelijke index</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="135"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>Unieke index</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="142"/>
         <source>Index name:</source>
-        <translation type="unfinished">Index name:</translation>
+        <translation>Indexnaam:</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="149"/>
         <source>Edit selected indexed expression</source>
-        <translation type="unfinished">Edit selected indexed expression</translation>
+        <translation>Geselecteerde geïndexeerde expressie bewerken</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="169"/>
         <source>Add indexed expression</source>
-        <translation type="unfinished">Add indexed expression</translation>
+        <translation>Geïndexeerde expressie toevoegen</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.ui" line="180"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>DDL</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="73"/>
         <source>Tried to open index dialog for closed or inexisting database.</source>
-        <translation type="unfinished">Tried to open index dialog for closed or inexisting database.</translation>
+        <translation>Geprobeerd het indexdialoogvenster te openen voor een gesloten of niet-bestaande database.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="143"/>
         <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
-        <translation type="unfinished">Could not process index %1 correctly. Unable to open an index dialog.</translation>
+        <translation>Kon index %1 niet correct verwerken. Kan geen indexdialoogvenster openen.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="196"/>
         <source>Pick the table for the index.</source>
-        <translation type="unfinished">Pick the table for the index.</translation>
+        <translation>Kies de tabel voor de index.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="197"/>
         <source>Select at least one column.</source>
-        <translation type="unfinished">Select at least one column.</translation>
+        <translation>Selecteer ten minste één kolom.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="198"/>
         <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+        <translation>Voer een geldige voorwaarde in.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="270"/>
         <source>default</source>
         <comment>index dialog</comment>
-        <translation type="unfinished">default</translation>
+        <translation>standaard</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="274"/>
         <source>Sort order</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Sorteervolgorde</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="768"/>
         <location filename="../dialogs/indexdialog.cpp" line="781"/>
         <source>Error</source>
         <comment>index dialog</comment>
-        <translation type="unfinished">Error</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="769"/>
         <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
-        <translation type="unfinished">Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</translation>
+        <translation>Kan geen unieke index maken, omdat waarden in de geselecteerde kolommen niet uniek zijn. Wilt u een SELECT-query uitvoeren om de problematische waarden te bekijken?</translation>
     </message>
     <message>
         <location filename="../dialogs/indexdialog.cpp" line="781"/>
         <source>An error occurred while executing SQL statements:
 %1</source>
-        <translation type="unfinished">An error occurred while executing SQL statements:
+        <translation>Er is een fout opgetreden tijdens het uitvoeren van SQL-instructies:
 %1</translation>
     </message>
 </context>
@@ -4590,42 +4590,42 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
         <source>Indexed expression</source>
-        <translation type="unfinished">Indexed expression</translation>
+        <translation>Geïndexeerde expressie</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
         <source>Expression to index</source>
-        <translation type="unfinished">Expression to index</translation>
+        <translation>Te indexeren expressie</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
         <source>This expression is already indexed by the index.</source>
-        <translation type="unfinished">This expression is already indexed by the index.</translation>
+        <translation>Deze expressie is al geïndexeerd door de index.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
         <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
-        <translation type="unfinished">Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</translation>
+        <translation>Kolom moet rechtstreeks worden geïndexeerd, niet via een expressie. Breid deze expressie uit zodat deze meer bevat dan alleen de kolomnaam, of breek af en selecteer deze kolom rechtstreeks in het indexdialoogvenster.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
         <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
-        <translation type="unfinished">Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</translation>
+        <translation>Kolom &apos;%1&apos; behoort niet tot de tabel die door deze index wordt gedekt. Geïndexeerde expressies mogen alleen verwijzen naar kolommen uit de geïndexeerde tabel.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
         <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
-        <translation type="unfinished">It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</translation>
+        <translation>Het is verboden om &apos;SELECT&apos;-instructies te gebruiken in geïndexeerde expressies.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
         <source>Enter an indexed expression.</source>
-        <translation type="unfinished">Enter an indexed expression.</translation>
+        <translation>Voer een geïndexeerde expressie in.</translation>
     </message>
     <message>
         <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished">Invalid expression.</translation>
+        <translation>Ongeldige expressie.</translation>
     </message>
 </context>
 <context>
@@ -4633,12 +4633,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/languagedialog.ui" line="14"/>
         <source>Language</source>
-        <translation type="unfinished">Language</translation>
+        <translation>Taal</translation>
     </message>
     <message>
         <location filename="../dialogs/languagedialog.ui" line="20"/>
         <source>Please choose language:</source>
-        <translation type="unfinished">Please choose language:</translation>
+        <translation>Kies een taal:</translation>
     </message>
 </context>
 <context>
@@ -4646,426 +4646,426 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../mainwindow.ui" line="81"/>
         <source>Database toolbar</source>
-        <translation type="unfinished">Database toolbar</translation>
+        <translation>Databasewerkbalk</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="92"/>
         <source>Structure toolbar</source>
-        <translation type="unfinished">Structure toolbar</translation>
+        <translation>Structuurwerkbalk</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="103"/>
         <source>Tools</source>
-        <translation type="unfinished">Tools</translation>
+        <translation>Hulpmiddelen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="120"/>
         <source>Window list</source>
-        <translation type="unfinished">Window list</translation>
+        <translation>Vensterlijst</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="134"/>
         <source>View toolbar</source>
-        <translation type="unfinished">View toolbar</translation>
+        <translation>Weergavewerkbalk</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="145"/>
         <source>Configuration widgets</source>
-        <translation type="unfinished">Configuration widgets</translation>
+        <translation>Configuratiewidgets</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="146"/>
         <source>Syntax highlighting engines</source>
-        <translation type="unfinished">Syntax highlighting engines</translation>
+        <translation>Engines voor syntaxismarkering</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="147"/>
         <source>Data editors</source>
-        <translation type="unfinished">Data editors</translation>
+        <translation>Gegevenseditors</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="160"/>
         <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
-        <translation type="unfinished">Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</translation>
+        <translation>Uitgevoerd in debugmodus. Druk op %1 of gebruik menu-item &apos;Help / Debugconsole openen&apos; om de debugconsole te openen.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="162"/>
         <source>Running in debug mode. Debug messages are printed to the standard output.</source>
-        <translation type="unfinished">Running in debug mode. Debug messages are printed to the standard output.</translation>
+        <translation>Uitgevoerd in debugmodus. Debugberichten worden naar de standaarduitvoer geschreven.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="272"/>
         <source>You need to restart application to make the language change take effect.</source>
-        <translation type="unfinished">You need to restart application to make the language change take effect.</translation>
+        <translation>U moet de toepassing opnieuw starten om de taalwijziging van kracht te laten worden.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="317"/>
         <source>Open SQL &amp;editor</source>
-        <translation type="unfinished">Open SQL &amp;editor</translation>
+        <translation>SQL-&amp;editor openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="361"/>
         <source>Open DDL &amp;history</source>
-        <translation type="unfinished">Open DDL &amp;history</translation>
+        <translation>DDL-&amp;geschiedenis openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="318"/>
         <source>Open SQL &amp;functions editor</source>
-        <translation type="unfinished">Open SQL &amp;functions editor</translation>
+        <translation>Editor voor SQL-&amp;functies openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="319"/>
         <source>Open code &amp;snippets editor</source>
-        <translation type="unfinished">Open code &amp;snippets editor</translation>
+        <translation>Editor voor code&amp;fragmenten openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="320"/>
         <source>Open &amp;collations editor</source>
-        <translation type="unfinished">Open &amp;collations editor</translation>
+        <translation>Editor voor &amp;collaties openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="321"/>
         <source>Open ex&amp;tension manager</source>
-        <translation type="unfinished">Open ex&amp;tension manager</translation>
+        <translation>Ex&amp;tensiebeheer openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="323"/>
         <source>&amp;Import</source>
-        <translation type="unfinished">&amp;Import</translation>
+        <translation>&amp;Importeren</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="324"/>
         <source>E&amp;xport</source>
-        <translation type="unfinished">E&amp;xport</translation>
+        <translation>E&amp;xporteren</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="325"/>
         <source>Open confi&amp;guration dialog</source>
-        <translation type="unfinished">Open confi&amp;guration dialog</translation>
+        <translation>Confi&amp;guratiedialoogvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="327"/>
         <source>&amp;Tile windows</source>
-        <translation type="unfinished">&amp;Tile windows</translation>
+        <translation>Vensters &amp;tegelen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="328"/>
         <source>Tile windows &amp;horizontally</source>
-        <translation type="unfinished">Tile windows &amp;horizontally</translation>
+        <translation>Vensters &amp;horizontaal tegelen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="329"/>
         <source>Tile windows &amp;vertically</source>
-        <translation type="unfinished">Tile windows &amp;vertically</translation>
+        <translation>Vensters &amp;verticaal tegelen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="330"/>
         <source>&amp;Cascade windows</source>
-        <translation type="unfinished">&amp;Cascade windows</translation>
+        <translation>Vensters &amp;trapsgewijs plaatsen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="332"/>
         <source>Next window</source>
-        <translation type="unfinished">Next window</translation>
+        <translation>Volgend venster</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="331"/>
         <source>Previous window</source>
-        <translation type="unfinished">Previous window</translation>
+        <translation>Vorig venster</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="335"/>
         <source>Hide status field</source>
-        <translation type="unfinished">Hide status field</translation>
+        <translation>Statusveld verbergen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="339"/>
         <source>Close &amp;all windows</source>
-        <translation type="unfinished">Close &amp;all windows</translation>
+        <translation>&amp;Alle vensters sluiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="342"/>
         <source>Re&amp;store recently closed window</source>
-        <translation type="unfinished">Re&amp;store recently closed window</translation>
+        <translation>Onlangs gesloten venster he&amp;rstellen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="337"/>
         <source>Close current &amp;window</source>
-        <translation type="unfinished">Close current &amp;window</translation>
+        <translation>Huidig &amp;venster sluiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="148"/>
         <source>Data renderers</source>
-        <translation type="unfinished">Data renderers</translation>
+        <translation>Gegevensrenderers</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="338"/>
         <source>Close &amp;other windows</source>
-        <translation type="unfinished">Close &amp;other windows</translation>
+        <translation>&amp;Andere vensters sluiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="340"/>
         <source>Close windows on the &amp;left</source>
-        <translation type="unfinished">Close windows on the &amp;left</translation>
+        <translation>Vensters aan de &amp;linkerkant sluiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="341"/>
         <source>Close windows on the &amp;right</source>
-        <translation type="unfinished">Close windows on the &amp;right</translation>
+        <translation>Vensters aan de &amp;rechterkant sluiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="343"/>
         <source>Re&amp;name selected window</source>
-        <translation type="unfinished">Re&amp;name selected window</translation>
+        <translation>Geselecteerd venster her&amp;noemen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="346"/>
         <source>Open Debug Console</source>
-        <translation type="unfinished">Open Debug Console</translation>
+        <translation>Debugconsole openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="347"/>
         <source>Open CSS Console</source>
-        <translation type="unfinished">Open CSS Console</translation>
+        <translation>CSS-console openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="348"/>
         <source>Report a &amp;bug</source>
-        <translation type="unfinished">Report a &amp;bug</translation>
+        <translation>Een &amp;bug melden</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="349"/>
         <source>D&amp;onate</source>
-        <translation type="unfinished">D&amp;onate</translation>
+        <translation>D&amp;oneren</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="350"/>
         <source>Propose a new &amp;feature</source>
-        <translation type="unfinished">Propose a new &amp;feature</translation>
+        <translation>Een nieuwe &amp;functie voorstellen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="351"/>
         <source>&amp;About</source>
-        <translation type="unfinished">&amp;About</translation>
+        <translation>&amp;Over</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="352"/>
         <source>&amp;Licenses</source>
-        <translation type="unfinished">&amp;Licenses</translation>
+        <translation>&amp;Licenties</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="353"/>
         <source>Open home &amp;page</source>
-        <translation type="unfinished">Open home &amp;page</translation>
+        <translation>Start&amp;pagina openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="354"/>
         <source>User &amp;Manual</source>
-        <translation type="unfinished">User &amp;Manual</translation>
+        <translation>Gebruikers&amp;handleiding</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="355"/>
         <source>SQLite &amp;documentation</source>
-        <translation type="unfinished">SQLite &amp;documentation</translation>
+        <translation>SQLite-&amp;documentatie</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="356"/>
         <source>Bugs and feature &amp;requests</source>
-        <translation type="unfinished">Bugs and feature &amp;requests</translation>
+        <translation>Bugs en functie&amp;verzoeken</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="357"/>
         <source>Quit</source>
-        <translation type="unfinished">Quit</translation>
+        <translation>Afsluiten</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="359"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Check for &amp;updates</translation>
+        <translation>Op &amp;updates controleren</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="390"/>
         <source>&amp;Database</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;Database</translation>
+        <translation>&amp;Databank</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="415"/>
         <source>&amp;Structure</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;Structure</translation>
+        <translation>&amp;Structuur</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="759"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;View</translation>
+        <translation>&amp;Weergave</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1379"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
-        <translation type="unfinished">The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</translation>
+        <translation>Het neergezette bestand lijkt een SQLite 2-database te zijn, die niet wordt ondersteund door deze versie van Letos. De laatste versie met ondersteuning voor SQLite 2 was 3.2.1.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="441"/>
         <source>Window list</source>
         <comment>menubar view menu</comment>
-        <translation type="unfinished">Window list</translation>
+        <translation>Vensterlijst</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="333"/>
         <source>Move window earlier</source>
-        <translation type="unfinished">Move window earlier</translation>
+        <translation>Venster eerder verplaatsen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="334"/>
         <source>Move window later</source>
-        <translation type="unfinished">Move window later</translation>
+        <translation>Venster later verplaatsen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="345"/>
         <source>Open Command Palette</source>
-        <translation type="unfinished">Open Command Palette</translation>
+        <translation>Opdrachtenpalet openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="362"/>
         <source>Export configuration</source>
-        <translation type="unfinished">Export configuration</translation>
+        <translation>Configuratie exporteren</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="363"/>
         <source>Import configuration</source>
-        <translation type="unfinished">Import configuration</translation>
+        <translation>Configuratie importeren</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="382"/>
         <source>arrange</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">arrange</translation>
+        <translation>rangschikken</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="471"/>
         <source>&amp;Tools</source>
         <comment>menubar</comment>
-        <translation type="unfinished">&amp;Tools</translation>
+        <translation>&amp;Hulpmiddelen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="491"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Help</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="696"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
-        <translation type="unfinished">Could not set style: %1</translation>
+        <translation>Kon stijl niet instellen: %1</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="933"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Kan niet exporteren, omdat er geen exportplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="950"/>
         <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+        <translation>Kan niet importeren, omdat er geen importplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="993"/>
         <source>Rename window</source>
-        <translation type="unfinished">Rename window</translation>
+        <translation>Venster hernoemen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="993"/>
         <source>Enter new name for the window:</source>
-        <translation type="unfinished">Enter new name for the window:</translation>
+        <translation>Voer een nieuwe naam voor het venster in:</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1095"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
-        <translation type="unfinished">New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</translation>
+        <translation>Er zijn nieuwe updates beschikbaar. &lt;a href=&quot;%1&quot;&gt;Klik hier voor details&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1101"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
-        <translation type="unfinished">You&apos;re running the most recent version. No updates are available.</translation>
+        <translation>U gebruikt de meest recente versie. Er zijn geen updates beschikbaar.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1185"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
-        <translation type="unfinished">Toolbar &amp;icons</translation>
+        <translation>Werkbalk&amp;pictogrammen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1192"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
-        <translation type="unfinished">Size: %1%</translation>
+        <translation>Grootte: %1%</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1280"/>
         <source>Drop files to open them</source>
-        <translation type="unfinished">Drop files to open them</translation>
+        <translation>Zet bestanden neer om ze te openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1382"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
-        <translation type="unfinished">The dropped file type is unsupported: %1 (%2)</translation>
+        <translation>Het neergezette bestandstype wordt niet ondersteund: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1392"/>
         <source>SQLite 3 database - add to database list and open</source>
-        <translation type="unfinished">SQLite 3 database - add to database list and open</translation>
+        <translation>SQLite 3-database - toevoegen aan databaselijst en openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1394"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
-        <translation type="unfinished">It may be an encrypted SQLite 3 database. You can try to open it.</translation>
+        <translation>Het kan een versleutelde SQLite 3-database zijn. U kunt proberen deze te openen.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1396"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
-        <translation type="unfinished">Empty file, but also empty SQLite 3 database - open as database</translation>
+        <translation>Leeg bestand, maar ook lege SQLite 3-database - openen als database</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1398"/>
         <source>SQL file - open in SQL Editor</source>
-        <translation type="unfinished">SQL file - open in SQL Editor</translation>
+        <translation>SQL-bestand - openen in SQL-editor</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1400"/>
         <source>Text file - open in SQL Editor</source>
-        <translation type="unfinished">Text file - open in SQL Editor</translation>
+        <translation>Tekstbestand - openen in SQL-editor</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1402"/>
         <source>CSV file - import using Import Dialog</source>
-        <translation type="unfinished">CSV file - import using Import Dialog</translation>
+        <translation>CSV-bestand - importeren met importdialoogvenster</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1404"/>
         <source>SQLite 2 database - not supported anymore</source>
-        <translation type="unfinished">SQLite 2 database - not supported anymore</translation>
+        <translation>SQLite 2-database - niet meer ondersteund</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1406"/>
         <source>Unsupported file type</source>
-        <translation type="unfinished">Unsupported file type</translation>
+        <translation>Niet-ondersteund bestandstype</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1505"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
-        <translation type="unfinished">Database passed in command line parameters (%1) was already on the list under name: %2</translation>
+        <translation>Database opgegeven in opdrachtregelparameters (%1) stond al in de lijst onder de naam: %2</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1512"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
-        <translation type="unfinished">Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</translation>
+        <translation>Database opgegeven in opdrachtregelparameters (%1) is tijdelijk aan de lijst toegevoegd onder de naam: %2</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1517"/>
         <source>Could not add database %1 to list.</source>
-        <translation type="unfinished">Could not add database %1 to list.</translation>
+        <translation>Kon database %1 niet aan de lijst toevoegen.</translation>
     </message>
 </context>
 <context>
@@ -5073,47 +5073,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
         <source>Pending transaction</source>
-        <translation type="unfinished">Pending transaction</translation>
+        <translation>Openstaande transactie</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
         <source>Roll Back Transaction</source>
-        <translation type="unfinished">Roll Back Transaction</translation>
+        <translation>Transactie terugdraaien</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
         <source>Discard changes made within the transaction and proceed</source>
-        <translation type="unfinished">Discard changes made within the transaction and proceed</translation>
+        <translation>Wijzigingen die binnen de transactie zijn aangebracht verwerpen en doorgaan</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
         <source>Commit Transaction</source>
-        <translation type="unfinished">Commit Transaction</translation>
+        <translation>Transactie vastleggen</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
         <source>Save transaction changes and proceed</source>
-        <translation type="unfinished">Save transaction changes and proceed</translation>
+        <translation>Transactiewijzigingen opslaan en doorgaan</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
         <source>Keep the transaction open and stay with the current database</source>
-        <translation type="unfinished">Keep the transaction open and stay with the current database</translation>
+        <translation>De transactie open houden en bij de huidige database blijven</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Wat wilt u met deze transactie doen?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;De huidige databaseverbinding (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) heeft een actieve handmatige transactie met openstaande wijzigingen die nog niet zijn vastgelegd.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -5121,37 +5121,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
         <source>WAL mode for manual commits</source>
-        <translation type="unfinished">WAL mode for manual commits</translation>
+        <translation>WAL-modus voor handmatig vastleggen</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Deze database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) gebruikt momenteel niet de WAL-journalmodus (Write-Ahead Logging).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;De modus voor handmatig vastleggen vereist dat de WAL-modus is ingeschakeld.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Met de WAL-modus kunnen andere verbindingen en delen van de toepassing de database blijven lezen terwijl er een schrijftransactie openstaat. Zonder WAL-modus kan een open transactie het vernieuwen van het schema, het bladeren door gegevens en andere databasebewerkingen blokkeren.&lt;/p&gt;&lt;p&gt;Let op:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;De WAL-modus beïnvloedt het databasebestand zelf en wordt gebruikt door alle toekomstige verbindingen met deze database totdat dit opnieuw wordt gewijzigd met &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite staat nog steeds slechts één actieve schrijftransactie tegelijk toe, zelfs in WAL-modus.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lees meer over WAL op &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
         <source>Keep current journal mode</source>
-        <translation type="unfinished">Keep current journal mode</translation>
+        <translation>Huidige journalmodus behouden</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
         <source>and use auto-commits</source>
-        <translation type="unfinished">and use auto-commits</translation>
+        <translation>en automatisch vastleggen gebruiken</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
         <source>Enable WAL mode</source>
-        <translation type="unfinished">Enable WAL mode</translation>
+        <translation>WAL-modus inschakelen</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
         <source>and use manual commits</source>
-        <translation type="unfinished">and use manual commits</translation>
+        <translation>en handmatig vastleggen gebruiken</translation>
     </message>
     <message>
         <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Wilt u de WAL-modus inschakelen en doorgaan?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -5159,17 +5159,17 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../mdiwindow.cpp" line="204"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Niet-vastgelegde wijzigingen</translation>
     </message>
     <message>
         <location filename="../mdiwindow.cpp" line="209"/>
         <source>Close anyway</source>
-        <translation type="unfinished">Close anyway</translation>
+        <translation>Toch sluiten</translation>
     </message>
     <message>
         <location filename="../mdiwindow.cpp" line="211"/>
         <source>Don&apos;t close</source>
-        <translation type="unfinished">Don&apos;t close</translation>
+        <translation>Niet sluiten</translation>
     </message>
 </context>
 <context>
@@ -5179,77 +5179,77 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../multieditor/multieditor.cpp" line="590"/>
         <source>Null value</source>
         <comment>multieditor</comment>
-        <translation type="unfinished">Null value</translation>
+        <translation>Null-waarde</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="80"/>
         <source>Save this value to a file</source>
-        <translation type="unfinished">Save this value to a file</translation>
+        <translation>Deze waarde naar een bestand opslaan</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="83"/>
         <source>Load this value from a file</source>
-        <translation type="unfinished">Load this value from a file</translation>
+        <translation>Deze waarde uit een bestand laden</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="94"/>
         <source>Configure editors for this data type</source>
-        <translation type="unfinished">Configure editors for this data type</translation>
+        <translation>Editors voor dit gegevenstype configureren</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="102"/>
         <source>Open another tab</source>
-        <translation type="unfinished">Open another tab</translation>
+        <translation>Nog een tabblad openen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="118"/>
         <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+        <translation>Waarde opnieuw instellen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="376"/>
         <source>Foreign Key</source>
-        <translation type="unfinished">Foreign Key</translation>
+        <translation>Vreemde sleutel</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="434"/>
         <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+        <translation>Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="436"/>
         <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
-        <translation type="unfinished">Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
+        <translation>Tekstbestanden (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="438"/>
         <source>SQL files (*.sql)</source>
-        <translation type="unfinished">SQL files (*.sql)</translation>
+        <translation>SQL-bestanden (*.sql)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="440"/>
         <source>Binary data (*.bin *.dat *.raw)</source>
-        <translation type="unfinished">Binary data (*.bin *.dat *.raw)</translation>
+        <translation>Binaire gegevens (*.bin *.dat *.raw)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="442"/>
         <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
-        <translation type="unfinished">Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
+        <translation>Afbeeldingen (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="444"/>
         <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
-        <translation type="unfinished">Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
+        <translation>Archieven (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="446"/>
         <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
-        <translation type="unfinished">Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
+        <translation>Documenten (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="448"/>
         <source>Executables (*.exe *.dll *.so *.dylib)</source>
-        <translation type="unfinished">Executables (*.exe *.dll *.so *.dylib)</translation>
+        <translation>Uitvoerbare bestanden (*.exe *.dll *.so *.dylib)</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="472"/>
@@ -5260,38 +5260,38 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../multieditor/multieditor.cpp" line="578"/>
         <source>Deleted</source>
         <comment>multieditor</comment>
-        <translation type="unfinished">Deleted</translation>
+        <translation>Verwijderd</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="580"/>
         <source>Read only</source>
         <comment>multieditor</comment>
-        <translation type="unfinished">Read only</translation>
+        <translation>Alleen-lezen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="694"/>
         <source>Open</source>
-        <translation type="unfinished">Open</translation>
+        <translation>Openen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="703"/>
         <source>Could not open file %1 for reading.</source>
-        <translation type="unfinished">Could not open file %1 for reading.</translation>
+        <translation>Kon bestand %1 niet openen om te lezen.</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="719"/>
         <source>Save</source>
-        <translation type="unfinished">Save</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="728"/>
         <source>Could not open file %1 for writting.</source>
-        <translation type="unfinished">Could not open file %1 for writting.</translation>
+        <translation>Kon bestand %1 niet openen om te schrijven.</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditor.cpp" line="778"/>
         <source>Could not write data into the file %1</source>
-        <translation type="unfinished">Could not write data into the file %1</translation>
+        <translation>Kon gegevens niet naar het bestand %1 schrijven</translation>
     </message>
 </context>
 <context>
@@ -5299,7 +5299,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditorbool.cpp" line="227"/>
         <source>Boolean</source>
-        <translation type="unfinished">Boolean</translation>
+        <translation>Booleaans</translation>
     </message>
 </context>
 <context>
@@ -5307,7 +5307,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditordate.cpp" line="89"/>
         <source>Date</source>
-        <translation type="unfinished">Date</translation>
+        <translation>Datum</translation>
     </message>
 </context>
 <context>
@@ -5315,7 +5315,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
         <source>Date &amp; time</source>
-        <translation type="unfinished">Date &amp; time</translation>
+        <translation>Datum en tijd</translation>
     </message>
 </context>
 <context>
@@ -5323,7 +5323,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditorfk.cpp" line="25"/>
         <source>Selected value preview</source>
-        <translation type="unfinished">Selected value preview</translation>
+        <translation>Voorbeeld van geselecteerde waarde</translation>
     </message>
 </context>
 <context>
@@ -5331,7 +5331,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditorhex.cpp" line="102"/>
         <source>Hex</source>
-        <translation type="unfinished">Hex</translation>
+        <translation>Hexadecimaal</translation>
     </message>
 </context>
 <context>
@@ -5340,7 +5340,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
         <source>Number</source>
         <comment>numeric multi editor tab name</comment>
-        <translation type="unfinished">Number</translation>
+        <translation>Getal</translation>
     </message>
 </context>
 <context>
@@ -5348,37 +5348,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="119"/>
         <source>Tab changes focus</source>
-        <translation type="unfinished">Tab changes focus</translation>
+        <translation>Tab verandert focus</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="120"/>
         <source>Cut</source>
-        <translation type="unfinished">Cut</translation>
+        <translation>Knippen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="121"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="122"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Plakken</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="123"/>
         <source>Delete</source>
-        <translation type="unfinished">Delete</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="124"/>
         <source>Undo</source>
-        <translation type="unfinished">Undo</translation>
+        <translation>Ongedaan maken</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="125"/>
         <source>Redo</source>
-        <translation type="unfinished">Redo</translation>
+        <translation>Opnieuw uitvoeren</translation>
     </message>
 </context>
 <context>
@@ -5386,7 +5386,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditortext.cpp" line="203"/>
         <source>Text</source>
-        <translation type="unfinished">Text</translation>
+        <translation>Tekst</translation>
     </message>
 </context>
 <context>
@@ -5394,7 +5394,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../multieditor/multieditortime.cpp" line="92"/>
         <source>Time</source>
-        <translation type="unfinished">Time</translation>
+        <translation>Tijd</translation>
     </message>
 </context>
 <context>
@@ -5402,59 +5402,59 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
         <source>New constraint</source>
-        <translation type="unfinished">New constraint</translation>
+        <translation>Nieuwe beperking</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
         <source>Primary Key</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Primary Key</translation>
+        <translation>Primaire sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
         <source>Foreign Key</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Foreign Key</translation>
+        <translation>Vreemde sleutel</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
         <source>Unique</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Uniek</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
         <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
         <source>Check</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Check</translation>
+        <translation>Controle</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
         <source>Not NULL</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Not NULL</translation>
+        <translation>Niet NULL</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
         <source>Collate</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Sortering</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
         <source>Generated</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Generated</translation>
+        <translation>Gegenereerd</translation>
     </message>
     <message>
         <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
         <source>Default</source>
         <comment>new constraint dialog</comment>
-        <translation type="unfinished">Default</translation>
+        <translation>Standaard</translation>
     </message>
 </context>
 <context>
@@ -5462,47 +5462,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="14"/>
         <source>Letos updates</source>
-        <translation type="unfinished">Letos updates</translation>
+        <translation>Letos-updates</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="25"/>
         <source>New version is available!</source>
-        <translation type="unfinished">New version is available!</translation>
+        <translation>Er is een nieuwe versie beschikbaar!</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="51"/>
         <source>Download new version!</source>
-        <translation type="unfinished">Download new version!</translation>
+        <translation>Nieuwe versie downloaden!</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="64"/>
         <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
-        <translation type="unfinished">New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</translation>
+        <translation>Het pakket met de nieuwe versie wordt gedownload. U kunt het installeren wanneer u er klaar voor bent.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="71"/>
         <source>Open Letos home page.</source>
-        <translation type="unfinished">Open Letos home page.</translation>
+        <translation>Letos-startpagina openen.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="84"/>
         <source>Read release notes &amp;&amp; download package yourself.</source>
-        <translation type="unfinished">Read release notes &amp;&amp; download package yourself.</translation>
+        <translation>Lees de releaseopmerkingen en download het pakket zelf.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="104"/>
         <source>Just close this window.</source>
-        <translation type="unfinished">Just close this window.</translation>
+        <translation>Sluit gewoon dit venster.</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="114"/>
         <source>Check for updates on startup</source>
-        <translation type="unfinished">Check for updates on startup</translation>
+        <translation>Bij opstarten op updates controleren</translation>
     </message>
     <message>
         <location filename="../dialogs/newversiondialog.ui" line="91"/>
         <source>Not now.</source>
-        <translation type="unfinished">Not now.</translation>
+        <translation>Niet nu.</translation>
     </message>
 </context>
 <context>
@@ -5510,7 +5510,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../common/passwordtogglehelper.cpp" line="11"/>
         <source>Show / hide password</source>
-        <translation type="unfinished">Show / hide password</translation>
+        <translation>Wachtwoord tonen/verbergen</translation>
     </message>
 </context>
 <context>
@@ -5518,12 +5518,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
         <source>Populating configuration</source>
-        <translation type="unfinished">Populating configuration</translation>
+        <translation>Configuratie voor vullen</translation>
     </message>
     <message>
         <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
         <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
-        <translation type="unfinished">Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; configureren voor kolom &lt;b&gt;%2&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -5531,73 +5531,73 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/populatedialog.ui" line="14"/>
         <source>Populate table</source>
-        <translation type="unfinished">Populate table</translation>
+        <translation>Tabel vullen</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="84"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="102"/>
         <source>Table</source>
-        <translation type="unfinished">Table</translation>
+        <translation>Tabel</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="139"/>
         <source>Select All</source>
-        <translation type="unfinished">Select All</translation>
+        <translation>Alles selecteren</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="152"/>
         <source>Deselect All</source>
-        <translation type="unfinished">Deselect All</translation>
+        <translation>Alles deselecteren</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="48"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Kolommen</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.ui" line="20"/>
         <source>Number of rows to populate:</source>
-        <translation type="unfinished">Number of rows to populate:</translation>
+        <translation>Aantal te vullen rijen:</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="52"/>
         <source>Populate</source>
         <comment>populate dialog button</comment>
-        <translation type="unfinished">Populate</translation>
+        <translation>Vullen</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="67"/>
         <source>Abort</source>
-        <translation type="unfinished">Abort</translation>
+        <translation>Afbreken</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="204"/>
         <source>Configure</source>
-        <translation type="unfinished">Configure</translation>
+        <translation>Configureren</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="311"/>
         <source>Populating configuration for this column is invalid or incomplete.</source>
-        <translation type="unfinished">Populating configuration for this column is invalid or incomplete.</translation>
+        <translation>De vulconfiguratie voor deze kolom is ongeldig of onvolledig.</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="342"/>
         <source>Select database with table to populate</source>
-        <translation type="unfinished">Select database with table to populate</translation>
+        <translation>Selecteer database met tabel om te vullen</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="343"/>
         <source>Select table to populate</source>
-        <translation type="unfinished">Select table to populate</translation>
+        <translation>Selecteer tabel om te vullen</translation>
     </message>
     <message>
         <location filename="../dialogs/populatedialog.cpp" line="344"/>
         <source>You have to select at least one column.</source>
-        <translation type="unfinished">You have to select at least one column.</translation>
+        <translation>U moet ten minste één kolom selecteren.</translation>
     </message>
 </context>
 <context>
@@ -5605,22 +5605,22 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolom</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Automatisch ophogen</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Benoemde beperking</translation>
     </message>
     <message>
         <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
         <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+        <translation>Bij conflict</translation>
     </message>
 </context>
 <context>
@@ -5628,57 +5628,57 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
         <source>Cannot edit columns that are result of an inline subquery.</source>
-        <translation type="unfinished">Cannot edit columns that are result of an inline subquery.</translation>
+        <translation>Kan kolommen die het resultaat zijn van een inline-subquery niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
         <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
-        <translation type="unfinished">Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</translation>
+        <translation>Kan kolommen die het resultaat zijn van samengestelde %1-instructies (een die %2-, %3- of %4-sleutelwoorden bevat) niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
         <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
-        <translation type="unfinished">The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</translation>
+        <translation>Het query-uitvoeringsmechanisme had problemen met het correct extraheren van ROWID&apos;s. Dit kan een bug in de toepassing zijn. U kunt dit melden.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
         <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
-        <translation type="unfinished">Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</translation>
+        <translation>De gevraagde kolom is het resultaat van een SQL-expressie in plaats van een eenvoudige kolomselectie. Dergelijke kolommen kunnen niet worden bewerkt.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
         <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
-        <translation type="unfinished">Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</translation>
+        <translation>De gevraagde kolom behoort tot een beperkte SQLite-tabel. Deze tabellen kunnen niet rechtstreeks worden bewerkt.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
         <source>Cannot edit results of query other than %1.</source>
-        <translation type="unfinished">Cannot edit results of query other than %1.</translation>
+        <translation>Kan resultaten van een andere query dan %1 niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
         <source>Cannot edit columns that are result of aggregated %1 statements.</source>
-        <translation type="unfinished">Cannot edit columns that are result of aggregated %1 statements.</translation>
+        <translation>Kan kolommen die het resultaat zijn van geaggregeerde %1-instructies niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
         <source>Cannot edit columns that are result of %1 statement.</source>
-        <translation type="unfinished">Cannot edit columns that are result of %1 statement.</translation>
+        <translation>Kan kolommen die het resultaat zijn van een %1-instructie niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
         <source>Cannot edit columns that are result of common table expression statement (%1).</source>
-        <translation type="unfinished">Cannot edit columns that are result of common table expression statement (%1).</translation>
+        <translation>Kan kolommen die het resultaat zijn van een common table expression-instructie (%1) niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
         <source>Cannot edit table generated columns.</source>
-        <translation type="unfinished">Cannot edit table generated columns.</translation>
+        <translation>Kan gegenereerde tabelkolommen niet bewerken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
         <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
-        <translation type="unfinished">Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</translation>
+        <translation>Kan kolommen die het resultaat zijn van een view niet bewerken als de uitgevoerde query uit meerlaagse views leest (d.w.z. een view die een andere view bevraagt).</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
@@ -5687,779 +5687,779 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
         <source>on conflict: %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">on conflict: %1</translation>
+        <translation>bij conflict: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
         <source>references table %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">references table %1</translation>
+        <translation>verwijst naar tabel %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
         <source>references table %1, column %2</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">references table %1, column %2</translation>
+        <translation>verwijst naar tabel %1, kolom %2</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
         <source>condition: %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">condition: %1</translation>
+        <translation>voorwaarde: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
         <source>collation name: %1</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">collation name: %1</translation>
+        <translation>collatienaam: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="25"/>
         <source>Data grid view</source>
-        <translation type="unfinished">Data grid view</translation>
+        <translation>Gegevensrasterweergave</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="26"/>
         <source>Edit current cell inline</source>
-        <translation type="unfinished">Edit current cell inline</translation>
+        <translation>Huidige cel inline bewerken</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="27"/>
         <source>Cut cell(s) contents to clipboard</source>
-        <translation type="unfinished">Cut cell(s) contents to clipboard</translation>
+        <translation>Inhoud van cel(len) naar klembord knippen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="28"/>
         <source>Copy cell(s) contents to clipboard</source>
-        <translation type="unfinished">Copy cell(s) contents to clipboard</translation>
+        <translation>Inhoud van cel(len) naar klembord kopiëren</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="29"/>
         <source>Copy cell(s) contents together with header to clipboard</source>
-        <translation type="unfinished">Copy cell(s) contents together with header to clipboard</translation>
+        <translation>Inhoud van cel(len) samen met koptekst naar klembord kopiëren</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="31"/>
         <source>Paste cell(s) contents from clipboard</source>
-        <translation type="unfinished">Paste cell(s) contents from clipboard</translation>
+        <translation>Inhoud van cel(len) vanaf klembord plakken</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="33"/>
         <source>Set empty value to selected cell(s)</source>
-        <translation type="unfinished">Set empty value to selected cell(s)</translation>
+        <translation>Lege waarde instellen voor geselecteerde cel(len)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="34"/>
         <source>Set NULL value to selected cell(s)</source>
-        <translation type="unfinished">Set NULL value to selected cell(s)</translation>
+        <translation>NULL-waarde instellen voor geselecteerde cel(len)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="35"/>
         <source>Commit changes to cell(s) contents</source>
-        <translation type="unfinished">Commit changes to cell(s) contents</translation>
+        <translation>Wijzigingen in inhoud van cel(len) vastleggen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="36"/>
         <source>Rollback changes to cell(s) contents</source>
-        <translation type="unfinished">Rollback changes to cell(s) contents</translation>
+        <translation>Wijzigingen in inhoud van cel(len) terugdraaien</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="37"/>
         <source>Delete selected data row</source>
-        <translation type="unfinished">Delete selected data row</translation>
+        <translation>Geselecteerde gegevensrij verwijderen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="38"/>
         <source>Insert new data row</source>
-        <translation type="unfinished">Insert new data row</translation>
+        <translation>Nieuwe gegevensrij invoegen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="39"/>
         <source>Open contents of selected cell in a separate editor</source>
-        <translation type="unfinished">Open contents of selected cell in a separate editor</translation>
+        <translation>Inhoud van geselecteerde cel in een aparte editor openen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="40"/>
         <source>Toggle the height adjustment of rows</source>
-        <translation type="unfinished">Toggle the height adjustment of rows</translation>
+        <translation>Hoogteaanpassing van rijen in-/uitschakelen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="41"/>
         <source>Increase font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Lettergrootte vergroten</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.h" line="42"/>
         <source>Decrease font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Lettergrootte verkleinen</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="32"/>
         <source>Data view (both grid and form)</source>
-        <translation type="unfinished">Data view (both grid and form)</translation>
+        <translation>Gegevensweergave (zowel raster als formulier)</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="33"/>
         <source>Refresh data</source>
-        <translation type="unfinished">Refresh data</translation>
+        <translation>Gegevens vernieuwen</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="34"/>
         <source>Find in data</source>
-        <translation type="unfinished">Find in data</translation>
+        <translation>Zoeken in gegevens</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="35"/>
         <source>Switch to grid view of the data</source>
-        <translation type="unfinished">Switch to grid view of the data</translation>
+        <translation>Overschakelen naar rasterweergave van de gegevens</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="36"/>
         <source>Switch to form view of the data</source>
-        <translation type="unfinished">Switch to form view of the data</translation>
+        <translation>Overschakelen naar formulierweergave van de gegevens</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="31"/>
         <source>Database list</source>
-        <translation type="unfinished">Database list</translation>
+        <translation>Databaselijst</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="32"/>
         <source>Delete selected item</source>
-        <translation type="unfinished">Delete selected item</translation>
+        <translation>Geselecteerd item verwijderen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="33"/>
         <source>Clear filter contents</source>
-        <translation type="unfinished">Clear filter contents</translation>
+        <translation>Filterinhoud wissen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="34"/>
         <source>Refresh schema</source>
-        <translation type="unfinished">Refresh schema</translation>
+        <translation>Schema vernieuwen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="35"/>
         <source>Refresh all schemas</source>
-        <translation type="unfinished">Refresh all schemas</translation>
+        <translation>Alle schema&apos;s vernieuwen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="36"/>
         <source>Create new database</source>
-        <translation type="unfinished">Create new database</translation>
+        <translation>Nieuwe database maken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="37"/>
         <source>Open existing database or SQL file</source>
-        <translation type="unfinished">Open existing database or SQL file</translation>
+        <translation>Bestaande database of SQL-bestand openen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="38"/>
         <source>Edit selected database</source>
-        <translation type="unfinished">Edit selected database</translation>
+        <translation>Geselecteerde database bewerken</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="39"/>
         <source>Rename selected database</source>
-        <translation type="unfinished">Rename selected database</translation>
+        <translation>Geselecteerde database hernoemen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="40"/>
         <source>Select all items</source>
-        <translation type="unfinished">Select all items</translation>
+        <translation>Alle items selecteren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="41"/>
         <source>Copy selected item(s)</source>
-        <translation type="unfinished">Copy selected item(s)</translation>
+        <translation>Geselecteerde item(s) kopiëren</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="42"/>
         <location filename="../multieditor/multieditortext.h" line="15"/>
         <location filename="../sqleditor.h" line="35"/>
         <source>Paste from clipboard</source>
-        <translation type="unfinished">Paste from clipboard</translation>
+        <translation>Plakken vanaf klembord</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="43"/>
         <source>Increase font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Lettergrootte vergroten</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtree.h" line="44"/>
         <source>Decrease font size</source>
         <comment>database list</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Lettergrootte verkleinen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
         <source>Tables</source>
-        <translation type="unfinished">Tables</translation>
+        <translation>Tabellen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
         <source>Indexes</source>
-        <translation type="unfinished">Indexes</translation>
+        <translation>Indexen</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
         <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+        <translation>Triggers</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
         <source>Views</source>
-        <translation type="unfinished">Views</translation>
+        <translation>Views</translation>
     </message>
     <message>
         <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Kolommen</translation>
     </message>
     <message>
         <location filename="../formview.h" line="15"/>
         <source>Data form view</source>
-        <translation type="unfinished">Data form view</translation>
+        <translation>Gegevensformulierweergave</translation>
     </message>
     <message>
         <location filename="../formview.h" line="16"/>
         <source>Commit changes for current row</source>
-        <translation type="unfinished">Commit changes for current row</translation>
+        <translation>Wijzigingen voor huidige rij vastleggen</translation>
     </message>
     <message>
         <location filename="../formview.h" line="17"/>
         <source>Rollback changes for current row</source>
-        <translation type="unfinished">Rollback changes for current row</translation>
+        <translation>Wijzigingen voor huidige rij terugdraaien</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="37"/>
         <location filename="../formview.h" line="18"/>
         <source>Go to first row on current page</source>
-        <translation type="unfinished">Go to first row on current page</translation>
+        <translation>Ga naar eerste rij op huidige pagina</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="39"/>
         <location filename="../formview.h" line="19"/>
         <source>Go to next row</source>
-        <translation type="unfinished">Go to next row</translation>
+        <translation>Ga naar volgende rij</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="38"/>
         <location filename="../formview.h" line="20"/>
         <source>Go to previous row</source>
-        <translation type="unfinished">Go to previous row</translation>
+        <translation>Ga naar vorige rij</translation>
     </message>
     <message>
         <location filename="../dataview.h" line="40"/>
         <location filename="../formview.h" line="21"/>
         <source>Go to last row on current page</source>
-        <translation type="unfinished">Go to last row on current page</translation>
+        <translation>Ga naar laatste rij op huidige pagina</translation>
     </message>
     <message>
         <location filename="../formview.h" line="22"/>
         <source>Insert new row</source>
-        <translation type="unfinished">Insert new row</translation>
+        <translation>Nieuwe rij invoegen</translation>
     </message>
     <message>
         <location filename="../formview.h" line="23"/>
         <source>Delete current row</source>
-        <translation type="unfinished">Delete current row</translation>
+        <translation>Huidige rij verwijderen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="60"/>
         <source>Main window</source>
-        <translation type="unfinished">Main window</translation>
+        <translation>Hoofdvenster</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="61"/>
         <source>Open SQL editor</source>
-        <translation type="unfinished">Open SQL editor</translation>
+        <translation>SQL-editor openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="65"/>
         <source>Open DDL history window</source>
-        <translation type="unfinished">Open DDL history window</translation>
+        <translation>DDL-geschiedenisvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="67"/>
         <source>Open snippets editor window</source>
-        <translation type="unfinished">Open snippets editor window</translation>
+        <translation>Editorvenster voor fragmenten openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="66"/>
         <source>Open function editor window</source>
-        <translation type="unfinished">Open function editor window</translation>
+        <translation>Functie-editorvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="62"/>
         <source>Restore recently closed window</source>
-        <translation type="unfinished">Restore recently closed window</translation>
+        <translation>Onlangs gesloten venster herstellen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="63"/>
         <source>Open Export Dialog</source>
-        <translation type="unfinished">Open Export Dialog</translation>
+        <translation>Exportdialoogvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="64"/>
         <source>Open Import Dialog</source>
-        <translation type="unfinished">Open Import Dialog</translation>
+        <translation>Importdialoogvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="68"/>
         <source>Open collation editor window</source>
-        <translation type="unfinished">Open collation editor window</translation>
+        <translation>Collatie-editorvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="69"/>
         <source>Open extension manager window</source>
-        <translation type="unfinished">Open extension manager window</translation>
+        <translation>Extensiebeheervenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="70"/>
         <source>Previous window</source>
-        <translation type="unfinished">Previous window</translation>
+        <translation>Vorig venster</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="71"/>
         <source>Next window</source>
-        <translation type="unfinished">Next window</translation>
+        <translation>Volgend venster</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="72"/>
         <source>Move window earlier</source>
-        <translation type="unfinished">Move window earlier</translation>
+        <translation>Venster eerder verplaatsen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="73"/>
         <source>Move window later</source>
-        <translation type="unfinished">Move window later</translation>
+        <translation>Venster later verplaatsen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="74"/>
         <source>Hide status area</source>
-        <translation type="unfinished">Hide status area</translation>
+        <translation>Statusgebied verbergen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="75"/>
         <source>Open user manual</source>
-        <translation type="unfinished">Open user manual</translation>
+        <translation>Gebruikershandleiding openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="76"/>
         <source>Open configuration dialog</source>
-        <translation type="unfinished">Open configuration dialog</translation>
+        <translation>Configuratiedialoogvenster openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="77"/>
         <source>Open Debug Console</source>
-        <translation type="unfinished">Open Debug Console</translation>
+        <translation>Debugconsole openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="78"/>
         <source>Open CSS Console</source>
-        <translation type="unfinished">Open CSS Console</translation>
+        <translation>CSS-console openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="79"/>
         <source>Open Command Palette</source>
-        <translation type="unfinished">Open Command Palette</translation>
+        <translation>Opdrachtenpalet openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="80"/>
         <source>Open the About dialog</source>
-        <translation type="unfinished">Open the About dialog</translation>
+        <translation>Het venster Over openen</translation>
     </message>
     <message>
         <location filename="../mainwindow.h" line="81"/>
         <source>Quit the application</source>
-        <translation type="unfinished">Quit the application</translation>
+        <translation>De toepassing afsluiten</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="12"/>
         <source>Cell text value editor</source>
-        <translation type="unfinished">Cell text value editor</translation>
+        <translation>Editor voor tekstwaarde van cel</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="13"/>
         <location filename="../sqleditor.h" line="33"/>
         <source>Cut selected text</source>
-        <translation type="unfinished">Cut selected text</translation>
+        <translation>Geselecteerde tekst knippen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="14"/>
         <location filename="../sqleditor.h" line="34"/>
         <source>Copy selected text</source>
-        <translation type="unfinished">Copy selected text</translation>
+        <translation>Geselecteerde tekst kopiëren</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="16"/>
         <location filename="../sqleditor.h" line="36"/>
         <source>Delete selected text</source>
-        <translation type="unfinished">Delete selected text</translation>
+        <translation>Geselecteerde tekst verwijderen</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="17"/>
         <location filename="../sqleditor.h" line="38"/>
         <source>Undo</source>
-        <translation type="unfinished">Undo</translation>
+        <translation>Ongedaan maken</translation>
     </message>
     <message>
         <location filename="../multieditor/multieditortext.h" line="18"/>
         <location filename="../sqleditor.h" line="39"/>
         <source>Redo</source>
-        <translation type="unfinished">Redo</translation>
+        <translation>Opnieuw uitvoeren</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="32"/>
         <source>SQL editor input field</source>
-        <translation type="unfinished">SQL editor input field</translation>
+        <translation>Invoerveld van SQL-editor</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="37"/>
         <source>Select whole editor contents</source>
-        <translation type="unfinished">Select whole editor contents</translation>
+        <translation>Volledige editorinhoud selecteren</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="40"/>
         <source>Save contents into a file</source>
-        <translation type="unfinished">Save contents into a file</translation>
+        <translation>Inhoud naar een bestand opslaan</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="41"/>
         <source>Find in text</source>
-        <translation type="unfinished">Find in text</translation>
+        <translation>Zoeken in tekst</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="42"/>
         <source>Find next</source>
-        <translation type="unfinished">Find next</translation>
+        <translation>Volgende zoeken</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="43"/>
         <source>Find previous</source>
-        <translation type="unfinished">Find previous</translation>
+        <translation>Vorige zoeken</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="44"/>
         <source>Replace in text</source>
-        <translation type="unfinished">Replace in text</translation>
+        <translation>Vervangen in tekst</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="45"/>
         <source>Delete current line</source>
-        <translation type="unfinished">Delete current line</translation>
+        <translation>Huidige regel verwijderen</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="46"/>
         <source>Request code assistant</source>
-        <translation type="unfinished">Request code assistant</translation>
+        <translation>Code-assistent aanvragen</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="47"/>
         <source>Format contents</source>
-        <translation type="unfinished">Format contents</translation>
+        <translation>Inhoud opmaken</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="48"/>
         <source>Open the object at current position</source>
-        <translation type="unfinished">Open the object at current position</translation>
+        <translation>Het object op de huidige positie openen</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="49"/>
         <source>Move selected block of text one line down</source>
-        <translation type="unfinished">Move selected block of text one line down</translation>
+        <translation>Geselecteerd tekstblok één regel omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="50"/>
         <source>Move selected block of text one line up</source>
-        <translation type="unfinished">Move selected block of text one line up</translation>
+        <translation>Geselecteerd tekstblok één regel omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="51"/>
         <source>Copy selected block of text and paste it a line below</source>
-        <translation type="unfinished">Copy selected block of text and paste it a line below</translation>
+        <translation>Geselecteerd tekstblok kopiëren en een regel eronder plakken</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="52"/>
         <source>Copy selected block of text and paste it a line above</source>
-        <translation type="unfinished">Copy selected block of text and paste it a line above</translation>
+        <translation>Geselecteerd tekstblok kopiëren en een regel erboven plakken</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="53"/>
         <source>Toggle comment</source>
-        <translation type="unfinished">Toggle comment</translation>
+        <translation>Opmerking in-/uitschakelen</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="54"/>
         <source>Increase font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Lettergrootte vergroten</translation>
     </message>
     <message>
         <location filename="../sqleditor.h" line="55"/>
         <source>Decrease font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Lettergrootte verkleinen</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Alle bestanden</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="72"/>
         <source>Select database file</source>
-        <translation type="unfinished">Select database file</translation>
+        <translation>Databasebestand selecteren</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="72"/>
         <source>Select new database file</source>
-        <translation type="unfinished">Select new database file</translation>
+        <translation>Nieuw databasebestand selecteren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>SQL-bestanden</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="83"/>
         <location filename="../uiutils.cpp" line="96"/>
         <source>Select a file to open</source>
-        <translation type="unfinished">Select a file to open</translation>
+        <translation>Selecteer een bestand om te openen</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="267"/>
         <source>Format SQL</source>
-        <translation type="unfinished">Format SQL</translation>
+        <translation>SQL opmaken</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="56"/>
         <source>Select</source>
-        <translation type="unfinished">Select</translation>
+        <translation>Selecteren</translation>
     </message>
     <message>
         <location filename="../uiutils.cpp" line="57"/>
         <source>File type</source>
-        <translation type="unfinished">File type</translation>
+        <translation>Bestandstype</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="30"/>
         <source>SQL editor window</source>
-        <translation type="unfinished">SQL editor window</translation>
+        <translation>SQL-editorvenster</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="31"/>
         <source>Execute query</source>
-        <translation type="unfinished">Execute query</translation>
+        <translation>Query uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="32"/>
         <source>Execute single query under cursor</source>
-        <translation type="unfinished">Execute single query under cursor</translation>
+        <translation>Enkele query onder cursor uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="33"/>
         <source>Execute all queries in editor</source>
-        <translation type="unfinished">Execute all queries in editor</translation>
+        <translation>Alle query&apos;s in editor uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="34"/>
         <source>Execute EXPLAIN query</source>
-        <translation type="unfinished">Execute EXPLAIN query</translation>
+        <translation>EXPLAIN-query uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="35"/>
         <source>Export query results</source>
-        <translation type="unfinished">Export query results</translation>
+        <translation>Queryresultaten exporteren</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="36"/>
         <source>Switch current working database to previous on the list</source>
-        <translation type="unfinished">Switch current working database to previous on the list</translation>
+        <translation>Huidige werkdatabase wijzigen naar vorige in de lijst</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="37"/>
         <source>Switch current working database to next on the list</source>
-        <translation type="unfinished">Switch current working database to next on the list</translation>
+        <translation>Huidige werkdatabase wijzigen naar volgende in de lijst</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="38"/>
         <source>Go to next editor tab</source>
-        <translation type="unfinished">Go to next editor tab</translation>
+        <translation>Ga naar volgende editortab</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="39"/>
         <source>Go to previous editor tab</source>
-        <translation type="unfinished">Go to previous editor tab</translation>
+        <translation>Ga naar vorige editortab</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="40"/>
         <source>Move keyboard input focus to the results view below</source>
-        <translation type="unfinished">Move keyboard input focus to the results view below</translation>
+        <translation>Toetsenbordinvoerfocus verplaatsen naar de resultatenweergave eronder</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="41"/>
         <source>Move keyboard input focus to the SQL editor above</source>
-        <translation type="unfinished">Move keyboard input focus to the SQL editor above</translation>
+        <translation>Toetsenbordinvoerfocus verplaatsen naar de SQL-editor erboven</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.h" line="42"/>
         <source>Delete selected SQL history entries</source>
-        <translation type="unfinished">Delete selected SQL history entries</translation>
+        <translation>Geselecteerde SQL-geschiedenisitems verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="32"/>
         <source>Table window</source>
-        <translation type="unfinished">Table window</translation>
+        <translation>Tabelvenster</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="33"/>
         <source>Commit the table structure</source>
-        <translation type="unfinished">Commit the table structure</translation>
+        <translation>De tabelstructuur vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="34"/>
         <source>Rollback pending changes in the table structure</source>
-        <translation type="unfinished">Rollback pending changes in the table structure</translation>
+        <translation>Openstaande wijzigingen in de tabelstructuur terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="35"/>
         <source>Refresh table structure</source>
-        <translation type="unfinished">Refresh table structure</translation>
+        <translation>Tabelstructuur vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="36"/>
         <source>Add new column</source>
-        <translation type="unfinished">Add new column</translation>
+        <translation>Nieuwe kolom toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="37"/>
         <source>Edit selected column</source>
-        <translation type="unfinished">Edit selected column</translation>
+        <translation>Geselecteerde kolom bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="38"/>
         <source>Delete selected column</source>
-        <translation type="unfinished">Delete selected column</translation>
+        <translation>Geselecteerde kolom verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="39"/>
         <source>Export table data</source>
-        <translation type="unfinished">Export table data</translation>
+        <translation>Tabelgegevens exporteren</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="40"/>
         <source>Import data to the table</source>
-        <translation type="unfinished">Import data to the table</translation>
+        <translation>Gegevens naar de tabel importeren</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="41"/>
         <source>Add new table constraint</source>
-        <translation type="unfinished">Add new table constraint</translation>
+        <translation>Nieuwe tabelbeperking toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="42"/>
         <source>Edit selected table constraint</source>
-        <translation type="unfinished">Edit selected table constraint</translation>
+        <translation>Geselecteerde tabelbeperking bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="43"/>
         <source>Delete selected table constraint</source>
-        <translation type="unfinished">Delete selected table constraint</translation>
+        <translation>Geselecteerde tabelbeperking verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="44"/>
         <source>Refresh table index list</source>
-        <translation type="unfinished">Refresh table index list</translation>
+        <translation>Tabelindexlijst vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="45"/>
         <source>Add new index</source>
-        <translation type="unfinished">Add new index</translation>
+        <translation>Nieuwe index toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="46"/>
         <source>Edit selected index</source>
-        <translation type="unfinished">Edit selected index</translation>
+        <translation>Geselecteerde index bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="47"/>
         <source>Delete selected index</source>
-        <translation type="unfinished">Delete selected index</translation>
+        <translation>Geselecteerde index verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="48"/>
         <source>Refresh table trigger list</source>
-        <translation type="unfinished">Refresh table trigger list</translation>
+        <translation>Tabeltriggerlijst vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="49"/>
         <location filename="../windows/viewwindow.h" line="29"/>
         <source>Add new trigger</source>
-        <translation type="unfinished">Add new trigger</translation>
+        <translation>Nieuwe trigger toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="50"/>
         <location filename="../windows/viewwindow.h" line="30"/>
         <source>Edit selected trigger</source>
-        <translation type="unfinished">Edit selected trigger</translation>
+        <translation>Geselecteerde trigger bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="51"/>
         <location filename="../windows/viewwindow.h" line="31"/>
         <source>Delete selected trigger</source>
-        <translation type="unfinished">Delete selected trigger</translation>
+        <translation>Geselecteerde trigger verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="52"/>
         <location filename="../windows/viewwindow.h" line="32"/>
         <source>Go to next tab</source>
-        <translation type="unfinished">Go to next tab</translation>
+        <translation>Ga naar volgend tabblad</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.h" line="53"/>
         <location filename="../windows/viewwindow.h" line="33"/>
         <source>Go to previous tab</source>
-        <translation type="unfinished">Go to previous tab</translation>
+        <translation>Ga naar vorig tabblad</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="23"/>
         <source>A view window</source>
-        <translation type="unfinished">A view window</translation>
+        <translation>Een viewvenster</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="24"/>
         <source>Commit the view&apos;s query</source>
-        <translation type="unfinished">Commit the view&apos;s query</translation>
+        <translation>De query van de view vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="25"/>
         <source>Rollback pending changes in the view&apos;s query</source>
-        <translation type="unfinished">Rollback pending changes in the view&apos;s query</translation>
+        <translation>Openstaande wijzigingen in de query van de view terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="26"/>
         <source>Refresh view trigger list</source>
-        <translation type="unfinished">Refresh view trigger list</translation>
+        <translation>View-triggerlijst vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="27"/>
         <source>Execute the view&apos;s query</source>
-        <translation type="unfinished">Execute the view&apos;s query</translation>
+        <translation>De query van de view uitvoeren</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.h" line="28"/>
         <source>Export view data</source>
-        <translation type="unfinished">Export view data</translation>
+        <translation>Viewgegevens exporteren</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.h" line="17"/>
         <source>A code snippets editor window</source>
-        <translation type="unfinished">A code snippets editor window</translation>
+        <translation>Een editorvenster voor codefragmenten</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.h" line="18"/>
@@ -6467,7 +6467,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/functionseditor.h" line="25"/>
         <location filename="../windows/sqliteextensioneditor.h" line="22"/>
         <source>Commit the pending changes</source>
-        <translation type="unfinished">Commit the pending changes</translation>
+        <translation>De openstaande wijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/codesnippeteditor.h" line="19"/>
@@ -6475,58 +6475,58 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <location filename="../windows/functionseditor.h" line="26"/>
         <location filename="../windows/sqliteextensioneditor.h" line="23"/>
         <source>Rollback the pending changes</source>
-        <translation type="unfinished">Rollback the pending changes</translation>
+        <translation>De openstaande wijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/collationseditor.h" line="21"/>
         <source>A collation editor window</source>
-        <translation type="unfinished">A collation editor window</translation>
+        <translation>Een collatie-editorvenster</translation>
     </message>
     <message>
         <location filename="../windows/functionseditor.h" line="24"/>
         <source>A function editor window</source>
-        <translation type="unfinished">A function editor window</translation>
+        <translation>Een functie-editorvenster</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.h" line="21"/>
         <source>A SQLite extension editor window</source>
-        <translation type="unfinished">A SQLite extension editor window</translation>
+        <translation>Een SQLite-extensie-editorvenster</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
         <source>Edit database properties</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Edit database properties</translation>
+        <translation>Database-eigenschappen bewerken</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
         <source>Open table</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Open table</translation>
+        <translation>Tabel openen</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
         <source>Edit index</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Edit index</translation>
+        <translation>Index bewerken</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
         <source>Edit trigger</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Edit trigger</translation>
+        <translation>Trigger bewerken</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
         <source>Open view</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Open view</translation>
+        <translation>View openen</translation>
     </message>
     <message>
         <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
         <source>Bring the window to front</source>
         <comment>command palette entry</comment>
-        <translation type="unfinished">Bring the window to front</translation>
+        <translation>Venster naar voren brengen</translation>
     </message>
 </context>
 <context>
@@ -6534,12 +6534,12 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Niet-vastgelegde wijzigingen</translation>
     </message>
     <message>
         <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Weet u zeker dat u de toepassing wilt afsluiten?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;De volgende items staan nog open:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -6547,54 +6547,54 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="14"/>
         <source>Find or replace</source>
-        <translation type="unfinished">Find or replace</translation>
+        <translation>Zoeken of vervangen</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="88"/>
         <source>Find:</source>
-        <translation type="unfinished">Find:</translation>
+        <translation>Zoeken:</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="31"/>
         <source>Case sensitive</source>
-        <translation type="unfinished">Case sensitive</translation>
+        <translation>Hoofdlettergevoelig</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="38"/>
         <source>Search backwards</source>
-        <translation type="unfinished">Search backwards</translation>
+        <translation>Achteruit zoeken</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="45"/>
         <source>Regular expression matching</source>
-        <translation type="unfinished">Regular expression matching</translation>
+        <translation>Overeenkomst met reguliere expressie</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="113"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Einde van document bereikt.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="20"/>
         <source>Replace &amp;&amp;
 find next</source>
-        <translation type="unfinished">Replace &amp;&amp;
-find next</translation>
+        <translation>Vervangen &amp;&amp;
+volgende zoeken</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="65"/>
         <source>Replace with:</source>
-        <translation type="unfinished">Replace with:</translation>
+        <translation>Vervangen door:</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="55"/>
         <source>Replace all</source>
-        <translation type="unfinished">Replace all</translation>
+        <translation>Alles vervangen</translation>
     </message>
     <message>
         <location filename="../dialogs/searchtextdialog.ui" line="75"/>
         <source>Find</source>
-        <translation type="unfinished">Find</translation>
+        <translation>Zoeken</translation>
     </message>
 </context>
 <context>
@@ -6602,44 +6602,44 @@ find next</translation>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
         <source>Export configuration</source>
-        <translation type="unfinished">Export configuration</translation>
+        <translation>Configuratie exporteren</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
         <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
         <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
         <source>Output JSON file</source>
-        <translation type="unfinished">Output JSON file</translation>
+        <translation>Uitvoer-JSON-bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
         <source>JSON file (*.json);;All files (*)</source>
-        <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+        <translation>JSON-bestand (*.json);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
         <source>What to export?</source>
-        <translation type="unfinished">What to export?</translation>
+        <translation>Wat exporteren?</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
         <source>User-defined SQL functions</source>
-        <translation type="unfinished">User-defined SQL functions</translation>
+        <translation>Door gebruiker gedefinieerde SQL-functies</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
         <source>User-defined collation sequences</source>
-        <translation type="unfinished">User-defined collation sequences</translation>
+        <translation>Door gebruiker gedefinieerde collatiereeksen</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
         <source>User-defined code snippets</source>
-        <translation type="unfinished">User-defined code snippets</translation>
+        <translation>Door gebruiker gedefinieerde codefragmenten</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
         <source>Configured SQLite extensions</source>
-        <translation type="unfinished">Configured SQLite extensions</translation>
+        <translation>Geconfigureerde SQLite-extensies</translation>
     </message>
 </context>
 <context>
@@ -6647,94 +6647,94 @@ find next</translation>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
         <source>Import configuration</source>
-        <translation type="unfinished">Import configuration</translation>
+        <translation>Configuratie importeren</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
         <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
         <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
         <source>Input JSON file</source>
-        <translation type="unfinished">Input JSON file</translation>
+        <translation>Invoer-JSON-bestand</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
         <source>JSON file (*.json);;All files (*)</source>
-        <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+        <translation>JSON-bestand (*.json);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
         <source>What to import?</source>
-        <translation type="unfinished">What to import?</translation>
+        <translation>Wat importeren?</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
         <source>User-defined SQL functions</source>
-        <translation type="unfinished">User-defined SQL functions</translation>
+        <translation>Door gebruiker gedefinieerde SQL-functies</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
         <source>User-defined collation sequences</source>
-        <translation type="unfinished">User-defined collation sequences</translation>
+        <translation>Door gebruiker gedefinieerde collatiereeksen</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
         <source>User-defined code snippets</source>
-        <translation type="unfinished">User-defined code snippets</translation>
+        <translation>Door gebruiker gedefinieerde codefragmenten</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
         <source>Configured SQLite extensions</source>
-        <translation type="unfinished">Configured SQLite extensions</translation>
+        <translation>Geconfigureerde SQLite-extensies</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
         <source>Import mode</source>
-        <translation type="unfinished">Import mode</translation>
+        <translation>Importmodus</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
         <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
-        <translation type="unfinished">Imports selected items without modifying or removing ones existing in your current configuration.</translation>
+        <translation>Importeert geselecteerde items zonder bestaande items in uw huidige configuratie te wijzigen of te verwijderen.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
         <source>Add to existing items</source>
-        <translation type="unfinished">Add to existing items</translation>
+        <translation>Toevoegen aan bestaande items</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
         <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
-        <translation type="unfinished">Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</translation>
+        <translation>Verwijdert alle bestaande items in de geselecteerde categorieën en importeert vervolgens de nieuwe uit het bestand. Deze actie kan niet ongedaan worden gemaakt!</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
         <source>Replace existing items</source>
-        <translation type="unfinished">Replace existing items</translation>
+        <translation>Bestaande items vervangen</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
         <source>Invalid input file to import: %1</source>
-        <translation type="unfinished">Invalid input file to import: %1</translation>
+        <translation>Ongeldig invoerbestand om te importeren: %1</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
         <source>Selected file does not contain functions to import.</source>
-        <translation type="unfinished">Selected file does not contain functions to import.</translation>
+        <translation>Het geselecteerde bestand bevat geen functies om te importeren.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
         <source>Selected file does not contain collation sequences to import.</source>
-        <translation type="unfinished">Selected file does not contain collation sequences to import.</translation>
+        <translation>Het geselecteerde bestand bevat geen sorteervolgordes om te importeren.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
         <source>Selected file does not contain code snippets to import.</source>
-        <translation type="unfinished">Selected file does not contain code snippets to import.</translation>
+        <translation>Het geselecteerde bestand bevat geen codefragmenten om te importeren.</translation>
     </message>
     <message>
         <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
         <source>Selected file does not contain SQLite extensions to import.</source>
-        <translation type="unfinished">Selected file does not contain SQLite extensions to import.</translation>
+        <translation>Het geselecteerde bestand bevat geen SQLite-extensies om te importeren.</translation>
     </message>
 </context>
 <context>
@@ -6742,34 +6742,34 @@ find next</translation>
     <message>
         <location filename="../dialogs/sortdialog.ui" line="14"/>
         <source>Sort by columns</source>
-        <translation type="unfinished">Sort by columns</translation>
+        <translation>Sorteren op kolommen</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.ui" line="45"/>
         <location filename="../dialogs/sortdialog.cpp" line="47"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolom</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.ui" line="50"/>
         <location filename="../dialogs/sortdialog.cpp" line="47"/>
         <source>Order</source>
-        <translation type="unfinished">Order</translation>
+        <translation>Volgorde</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.cpp" line="177"/>
         <source>Sort by: %1</source>
-        <translation type="unfinished">Sort by: %1</translation>
+        <translation>Sorteren op: %1</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.cpp" line="241"/>
         <source>Move column up</source>
-        <translation type="unfinished">Move column up</translation>
+        <translation>Kolom omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../dialogs/sortdialog.cpp" line="242"/>
         <source>Move column down</source>
-        <translation type="unfinished">Move column down</translation>
+        <translation>Kolom omlaag verplaatsen</translation>
     </message>
 </context>
 <context>
@@ -6777,12 +6777,12 @@ find next</translation>
     <message>
         <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
         <source>Error while committing new row: %1</source>
-        <translation type="unfinished">Error while committing new row: %1</translation>
+        <translation>Fout tijdens het vastleggen van nieuwe rij: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
         <source>Error while deleting row from %1: %2</source>
-        <translation type="unfinished">Error while deleting row from %1: %2</translation>
+        <translation>Fout tijdens het verwijderen van rij uit %1: %2</translation>
     </message>
 </context>
 <context>
@@ -6791,207 +6791,207 @@ find next</translation>
         <location filename="../sqleditor.cpp" line="194"/>
         <source>Wrap words</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Wrap words</translation>
+        <translation>Woorden afbreken</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="158"/>
         <source>Cut</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Cut</translation>
+        <translation>Knippen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="159"/>
         <source>Copy</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Copy</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="160"/>
         <source>Paste</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Paste</translation>
+        <translation>Plakken</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="161"/>
         <source>Delete</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Delete</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="162"/>
         <source>Select all</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Select all</translation>
+        <translation>Alles selecteren</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="163"/>
         <source>Undo</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Undo</translation>
+        <translation>Ongedaan maken</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="164"/>
         <source>Redo</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Redo</translation>
+        <translation>Opnieuw</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="166"/>
         <source>Complete</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Complete</translation>
+        <translation>Aanvullen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="167"/>
         <source>Format SQL</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Format SQL</translation>
+        <translation>SQL formatteren</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="168"/>
         <source>Save SQL to file</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Save SQL to file</translation>
+        <translation>SQL opslaan naar bestand</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="169"/>
         <source>Select file to save SQL</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Select file to save SQL</translation>
+        <translation>Selecteer bestand om SQL op te slaan</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="170"/>
         <source>Load SQL from file</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Load SQL from file</translation>
+        <translation>SQL laden uit bestand</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="171"/>
         <source>Delete line</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Delete line</translation>
+        <translation>Regel verwijderen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="172"/>
         <source>Move block down</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Move block down</translation>
+        <translation>Blok omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="173"/>
         <source>Move block up</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Move block up</translation>
+        <translation>Blok omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="174"/>
         <source>Copy block down</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Copy block down</translation>
+        <translation>Blok omlaag kopiëren</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="175"/>
         <source>Copy up down</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Copy up down</translation>
+        <translation>Blok omhoog kopiëren</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="176"/>
         <source>Find or replace</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Find or replace</translation>
+        <translation>Zoeken of vervangen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="177"/>
         <source>Find next</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Find next</translation>
+        <translation>Volgende zoeken</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="178"/>
         <source>Find previous</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Find previous</translation>
+        <translation>Vorige zoeken</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="179"/>
         <source>Replace</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Replace</translation>
+        <translation>Vervangen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="180"/>
         <source>Toggle comment</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Toggle comment</translation>
+        <translation>Commentaar omschakelen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="181"/>
         <source>Increase font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Lettergrootte vergroten</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="182"/>
         <source>Decrease font size</source>
         <comment>sql editor</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Lettergrootte verkleinen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="297"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+        <translation>Kon bestand &apos;%1&apos; niet openen voor schrijven: %2</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="306"/>
         <source>Saved SQL contents to file: %1</source>
-        <translation type="unfinished">Saved SQL contents to file: %1</translation>
+        <translation>SQL-inhoud opgeslagen naar bestand: %1</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="562"/>
         <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
-        <translation type="unfinished">Syntax completion can be used only when a valid database is set for the SQL editor.</translation>
+        <translation>Syntaxisaanvulling kan alleen worden gebruikt wanneer een geldige database is ingesteld voor de SQL-editor.</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1183"/>
         <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
-        <translation type="unfinished">Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</translation>
+        <translation>De inhoud van de SQL-editor is zeer groot, daarom zijn foutdetectie en markering van bestaande objecten tijdelijk uitgeschakeld.</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1212"/>
         <source>Save to file</source>
-        <translation type="unfinished">Save to file</translation>
+        <translation>Opslaan naar bestand</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1227"/>
         <source>SQL scripts (*.sql);;All files (*)</source>
-        <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+        <translation>SQL-scripts (*.sql);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1228"/>
         <location filename="../sqleditor.cpp" line="1259"/>
         <source>Open file</source>
-        <translation type="unfinished">Open file</translation>
+        <translation>Bestand openen</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1260"/>
         <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
-        <translation type="unfinished">This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</translation>
+        <translation>Dit bestand is zeer groot (meer dan %1 MB). Weet u zeker dat u het in de SQL-queryeditor wilt laden?</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1274"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
+        <translation>Kon bestand &apos;%1&apos; niet openen voor lezen: %2</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1468"/>
         <source>Reached the end of document. Hit the find again to restart the search.</source>
-        <translation type="unfinished">Reached the end of document. Hit the find again to restart the search.</translation>
+        <translation>Einde van document bereikt. Druk opnieuw op zoeken om de zoekopdracht opnieuw te starten.</translation>
     </message>
     <message>
         <location filename="../sqleditor.cpp" line="1740"/>
         <source>Ctrl+click to open this table or view</source>
-        <translation type="unfinished">Ctrl+click to open this table or view</translation>
+        <translation>Ctrl+klik om deze tabel of weergave te openen</translation>
     </message>
 </context>
 <context>
@@ -7000,31 +7000,31 @@ find next</translation>
         <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
         <source>Committing error:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Committing error:</translation>
+        <translation>Fout bij vastleggen:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
         <source>Column:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Column:</translation>
+        <translation>Kolom:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
         <source>Data type:</source>
         <comment>data view</comment>
-        <translation type="unfinished">Data type:</translation>
+        <translation>Gegevenstype:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
         <source>Table:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Table:</translation>
+        <translation>Tabel:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
         <source>Constraints:</source>
         <comment>data view tooltip</comment>
-        <translation type="unfinished">Constraints:</translation>
+        <translation>Beperkingen:</translation>
     </message>
 </context>
 <context>
@@ -7036,48 +7036,48 @@ find next</translation>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
         <source>Cannot edit this cell. Details: %1</source>
-        <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+        <translation>Kan deze cel niet bewerken. Details: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
         <source>The row is marked for deletion.</source>
-        <translation type="unfinished">The row is marked for deletion.</translation>
+        <translation>De rij is gemarkeerd voor verwijdering.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
         <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
-        <translation type="unfinished">Structure of this table has changed since last data was loaded. Reload the data to proceed.</translation>
+        <translation>De structuur van deze tabel is gewijzigd sinds de gegevens voor het laatst zijn geladen. Laad de gegevens opnieuw om door te gaan.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
         <source>ROWID is not available for this cell.</source>
-        <translation type="unfinished">ROWID is not available for this cell.</translation>
+        <translation>ROWID is niet beschikbaar voor deze cel.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
         <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
-        <translation type="unfinished">Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</translation>
+        <translation>Zeer grote inhoud bewerken in een inline-celeditor is geen goed idee. Dit kan traag en onhandig worden. Het is beter om zulke grote inhoud te bewerken in een formulierweergave of in de pop-upeditor (beschikbaar via het rechtermuisknopmenu).</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
         <source>Reset to DEFAULT value</source>
-        <translation type="unfinished">Reset to DEFAULT value</translation>
+        <translation>Terugzetten naar DEFAULT-waarde</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
         <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
-        <translation type="unfinished">Reset to PRIMARY KEY AUTOINCREMENT value</translation>
+        <translation>Terugzetten naar PRIMARY KEY AUTOINCREMENT-waarde</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
         <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+        <translation>Waarde terugzetten</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
         <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
-        <translation type="unfinished">Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</translation>
+        <translation>De vreemde sleutel voor kolom %2 heeft meer dan %1 mogelijke waarden. Dat zijn er te veel om in een keuzelijst weer te geven. U moet de waarde handmatig bewerken.</translation>
     </message>
 </context>
 <context>
@@ -7086,121 +7086,121 @@ find next</translation>
         <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
         <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
         <source>Only one query can be executed simultaneously.</source>
-        <translation type="unfinished">Only one query can be executed simultaneously.</translation>
+        <translation>Er kan slechts één query tegelijk worden uitgevoerd.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
         <source>Cannot execute query on undefined or invalid database.</source>
-        <translation type="unfinished">Cannot execute query on undefined or invalid database.</translation>
+        <translation>Kan query niet uitvoeren op een ongedefinieerde of ongeldige database.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
         <source>Cannot execute empty query.</source>
-        <translation type="unfinished">Cannot execute empty query.</translation>
+        <translation>Kan lege query niet uitvoeren.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
         <source>Uncommitted data</source>
-        <translation type="unfinished">Uncommitted data</translation>
+        <translation>Niet-vastgelegde gegevens</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
-        <translation type="unfinished">There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</translation>
+        <translation>Er zijn niet-vastgelegde gegevenswijzigingen. Wilt u toch doorgaan? Alle niet-vastgelegde wijzigingen gaan verloren.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
-        <translation type="unfinished">Cannot commit the data for a cell that refers to the already closed database.</translation>
+        <translation>Kan de gegevens niet vastleggen voor een cel die verwijst naar de reeds gesloten database.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
         <source>Could not begin transaction on the database. Details: %1</source>
-        <translation type="unfinished">Could not begin transaction on the database. Details: %1</translation>
+        <translation>Kon geen transactie starten op de database. Details: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
         <source>An error occurred while committing the transaction: %1</source>
-        <translation type="unfinished">An error occurred while committing the transaction: %1</translation>
+        <translation>Er is een fout opgetreden bij het vastleggen van de transactie: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
         <source>An error occurred while rolling back the transaction: %1</source>
-        <translation type="unfinished">An error occurred while rolling back the transaction: %1</translation>
+        <translation>Er is een fout opgetreden bij het terugdraaien van de transactie: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
-        <translation type="unfinished">Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</translation>
+        <translation>Geprobeerd een cel vast te leggen die niet bewerkbaar is (maar wel gewijzigd en wachtend op vastleggen)! Dit is een bug. Meld dit alstublieft.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
         <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+        <translation>Er is een fout opgetreden bij het vastleggen van de gegevens: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
-        <translation type="unfinished">Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</translation>
+        <translation>Het aantal rijen per pagina is verlaagd naar %1 vanwege het aantal kolommen (%2) in de gegevensweergave.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
-        <translation type="unfinished">Error while executing SQL query on database &apos;%1&apos;: %2</translation>
+        <translation>Fout bij het uitvoeren van SQL-query op database &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
         <source>Error while loading query results: %1</source>
-        <translation type="unfinished">Error while loading query results: %1</translation>
+        <translation>Fout bij het laden van queryresultaten: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation type="unfinished">There are less columns in the new query, sort order has been reset.</translation>
+        <translation>Er zijn minder kolommen in de nieuwe query; de sorteervolgorde is teruggezet.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Insert multiple rows</source>
-        <translation type="unfinished">Insert multiple rows</translation>
+        <translation>Meerdere rijen invoegen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
         <source>Number of rows to insert:</source>
-        <translation type="unfinished">Number of rows to insert:</translation>
+        <translation>Aantal in te voegen rijen:</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>Delete rows</source>
-        <translation type="unfinished">Delete rows</translation>
+        <translation>Rijen verwijderen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
-        <translation type="unfinished">You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
-Such deletion will be permanent. Are you sure you want to delete them?</translation>
+        <translation>U staat op het punt nieuw ingevoegde rijen te verwijderen die nog niet zijn vastgelegd. Rijnummers: %1
+Een dergelijke verwijdering is permanent. Weet u zeker dat u ze wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
-        <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
+        <translation>Eén klik sorteert op de kolom.&lt;br&gt;Alt+klik selecteert gegevens in de kolom.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
-        <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
+        <translation>Eén klik selecteert gegevens in de kolom.&lt;br&gt;Dubbelklik sorteert op de kolom.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>Middle-click resets sorting.</source>
-        <translation type="unfinished">Middle-click resets sorting.</translation>
+        <translation>Middelklik zet sortering terug.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>More options are available in the context menu.</source>
-        <translation type="unfinished">More options are available in the context menu.</translation>
+        <translation>Meer opties zijn beschikbaar in het contextmenu.</translation>
     </message>
 </context>
 <context>
@@ -7208,230 +7208,230 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
         <source>Go to referenced row in...</source>
-        <translation type="unfinished">Go to referenced row in...</translation>
+        <translation>Ga naar verwezen rij in...</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
         <source>Cut</source>
-        <translation type="unfinished">Cut</translation>
+        <translation>Knippen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
         <source>Copy with headers</source>
-        <translation type="unfinished">Copy with headers</translation>
+        <translation>Kopiëren met kopteksten</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
         <source>Copy as...</source>
-        <translation type="unfinished">Copy as...</translation>
+        <translation>Kopiëren als...</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Plakken</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
         <source>Paste as...</source>
-        <translation type="unfinished">Paste as...</translation>
+        <translation>Plakken als...</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
         <source>Set NULL value</source>
-        <translation type="unfinished">Set NULL value</translation>
+        <translation>NULL-waarde instellen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
         <source>Erase value</source>
-        <translation type="unfinished">Erase value</translation>
+        <translation>Waarde wissen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
         <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+        <translation>Waarde terugzetten</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
         <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+        <translation>Vastleggen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
         <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+        <translation>Terugdraaien</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
         <source>Commit selected cells</source>
-        <translation type="unfinished">Commit selected cells</translation>
+        <translation>Geselecteerde cellen vastleggen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
         <source>Rollback selected cells</source>
-        <translation type="unfinished">Rollback selected cells</translation>
+        <translation>Geselecteerde cellen terugdraaien</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
         <source>Edit current cell inline</source>
-        <translation type="unfinished">Edit current cell inline</translation>
+        <translation>Huidige cel inline bewerken</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
         <source>Define columns to sort by</source>
-        <translation type="unfinished">Define columns to sort by</translation>
+        <translation>Kolommen definiëren om op te sorteren</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
         <source>Remove custom sorting (Middle click)</source>
-        <translation type="unfinished">Remove custom sorting (Middle click)</translation>
+        <translation>Aangepaste sortering verwijderen (middelklik)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
         <source>Insert row</source>
-        <translation type="unfinished">Insert row</translation>
+        <translation>Rij invoegen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
         <source>Insert multiple rows</source>
-        <translation type="unfinished">Insert multiple rows</translation>
+        <translation>Meerdere rijen invoegen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
         <source>Delete selected row</source>
-        <translation type="unfinished">Delete selected row</translation>
+        <translation>Geselecteerde rij verwijderen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
         <source>Adjust height of rows</source>
-        <translation type="unfinished">Adjust height of rows</translation>
+        <translation>Hoogte van rijen aanpassen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
         <source>Next row on Enter</source>
-        <translation type="unfinished">Next row on Enter</translation>
+        <translation>Volgende rij met Enter</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
         <source>Increase font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Increase font size</translation>
+        <translation>Lettergrootte vergroten</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
         <source>Decrease font size</source>
         <comment>data view</comment>
-        <translation type="unfinished">Decrease font size</translation>
+        <translation>Lettergrootte verkleinen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
         <source>Invert selection</source>
         <comment>data view</comment>
-        <translation type="unfinished">Invert selection</translation>
+        <translation>Selectie omkeren</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
         <source>Edit value in editor</source>
-        <translation type="unfinished">Edit value in editor</translation>
+        <translation>Waarde in editor bewerken</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
         <source>Show value in a viewer</source>
-        <translation type="unfinished">Show value in a viewer</translation>
+        <translation>Waarde in een viewer tonen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
         <source>Generate query for selected cells</source>
-        <translation type="unfinished">Generate query for selected cells</translation>
+        <translation>Query genereren voor geselecteerde cellen</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
         <source>No items selected to paste clipboard contents to.</source>
-        <translation type="unfinished">No items selected to paste clipboard contents to.</translation>
+        <translation>Geen items geselecteerd om de klembordinhoud in te plakken.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
         <source>Cannot paste data. Details: %1</source>
-        <translation type="unfinished">Cannot paste data. Details: %1</translation>
+        <translation>Kan gegevens niet plakken. Details: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
         <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
-        <translation type="unfinished">Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</translation>
+        <translation>De structuur van ten minste één gebruikte tabel is gewijzigd sinds de gegevens voor het laatst zijn geladen. Laad de gegevens opnieuw om door te gaan.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
         <source>Cannot paste to a cell. Details: %1</source>
-        <translation type="unfinished">Cannot paste to a cell. Details: %1</translation>
+        <translation>Kan niet in een cel plakken. Details: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
         <source>The row is marked for deletion.</source>
-        <translation type="unfinished">The row is marked for deletion.</translation>
+        <translation>De rij is gemarkeerd voor verwijdering.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
         <source>Cannot paste to column %1. Details: %2</source>
-        <translation type="unfinished">Cannot paste to column %1. Details: %2</translation>
+        <translation>Kan niet plakken in kolom %1. Details: %2</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
         <source>Go to referenced row in table &apos;%1&apos;</source>
-        <translation type="unfinished">Go to referenced row in table &apos;%1&apos;</translation>
+        <translation>Ga naar verwezen rij in tabel &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
         <source>table &apos;%1&apos;</source>
-        <translation type="unfinished">table &apos;%1&apos;</translation>
+        <translation>tabel &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
         <source>Referenced row (%1)</source>
-        <translation type="unfinished">Referenced row (%1)</translation>
+        <translation>Verwezen rij (%1)</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
         <source>Pin column</source>
-        <translation type="unfinished">Pin column</translation>
+        <translation>Kolom vastzetten</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
         <source>Column renderer</source>
-        <translation type="unfinished">Column renderer</translation>
+        <translation>Kolomrenderer</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
         <source>Default</source>
-        <translation type="unfinished">Default</translation>
+        <translation>Standaard</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
         <source>Trim pasted text?</source>
-        <translation type="unfinished">Trim pasted text?</translation>
+        <translation>Geplakte tekst inkorten?</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
         <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
-        <translation type="unfinished">The pasted text contains leading or trailing white space. Trim it automatically?</translation>
+        <translation>De geplakte tekst bevat witruimte aan het begin of einde. Automatisch inkorten?</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
         <source>Paste &quot;NULL&quot; as null value?</source>
-        <translation type="unfinished">Paste &quot;NULL&quot; as null value?</translation>
+        <translation>&quot;NULL&quot; plakken als null-waarde?</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
         <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
-        <translation type="unfinished">The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</translation>
+        <translation>De geplakte tekst bevat &quot;NULL&quot;-literals. Wilt u deze als NULL-waarden beschouwen?</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
         <source>Edit value</source>
-        <translation type="unfinished">Edit value</translation>
+        <translation>Waarde bewerken</translation>
     </message>
 </context>
 <context>
@@ -7439,22 +7439,22 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
         <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+        <translation>Er is een fout opgetreden tijdens het vastleggen van de gegevens: %1</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
         <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
+        <translation>Rij %1: de INSTEAD OF UPDATE-trigger heeft meer dan één rij gewijzigd (%2). De view identificeert het bewerkte record niet eenduidig.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished">Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</translation>
+        <translation>Rij %1: de INSTEAD OF DELETE-trigger heeft meer dan één rij verwijderd (%2). De view identificeert het bewerkte record niet eenduidig.</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-        <translation type="unfinished">The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</translation>
+        <translation>De view heeft INSTEAD OF-trigger(s) die bewerkingen afhandelen. Het wordt aanbevolen om gegevens na het vastleggen te vernieuwen om de daadwerkelijke wijzigingen te zien, omdat triggers gegevens op een onverwachte manier kunnen wijzigen.</translation>
     </message>
 </context>
 <context>
@@ -7462,122 +7462,122 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
         <source>Filter extensions</source>
-        <translation type="unfinished">Filter extensions</translation>
+        <translation>Extensies filteren</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
         <source>Leave empty to use default function</source>
-        <translation type="unfinished">Leave empty to use default function</translation>
+        <translation>Laat leeg om de standaardfunctie te gebruiken</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
         <source>Extension file</source>
-        <translation type="unfinished">Extension file</translation>
+        <translation>Extensiebestand</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
         <source>Initialization function</source>
-        <translation type="unfinished">Initialization function</translation>
+        <translation>Initialisatiefunctie</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
         <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+        <translation>Databanken</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
         <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+        <translation>Registreren in alle databases</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
         <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+        <translation>Registreren in de volgende databases:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
         <source>Extension manager window has uncommitted modifications.</source>
-        <translation type="unfinished">Extension manager window has uncommitted modifications.</translation>
+        <translation>Het extensiebeheervenster heeft niet-vastgelegde wijzigingen.</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
         <source>Extension manager</source>
-        <translation type="unfinished">Extension manager</translation>
+        <translation>Extensiebeheer</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
         <source>Commit all extension changes</source>
-        <translation type="unfinished">Commit all extension changes</translation>
+        <translation>Alle extensiewijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
         <source>Rollback all extension changes</source>
-        <translation type="unfinished">Rollback all extension changes</translation>
+        <translation>Alle extensiewijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
         <source>Add new extension</source>
-        <translation type="unfinished">Add new extension</translation>
+        <translation>Nieuwe extensie toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
         <source>Remove selected extension</source>
-        <translation type="unfinished">Remove selected extension</translation>
+        <translation>Geselecteerde extensie verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
         <source>Import extension list from file</source>
-        <translation type="unfinished">Import extension list from file</translation>
+        <translation>Extensielijst uit bestand importeren</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
         <source>Export extension list file</source>
-        <translation type="unfinished">Export extension list file</translation>
+        <translation>Extensielijstbestand exporteren</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
         <source>Editing extensions manual</source>
-        <translation type="unfinished">Editing extensions manual</translation>
+        <translation>Handleiding voor het bewerken van extensies</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
         <source>File with given path does not exist or is not readable.</source>
-        <translation type="unfinished">File with given path does not exist or is not readable.</translation>
+        <translation>Bestand met opgegeven pad bestaat niet of is niet leesbaar.</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
         <source>Unable to load extension: %1</source>
-        <translation type="unfinished">Unable to load extension: %1</translation>
+        <translation>Kan extensie niet laden: %1</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
         <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
-        <translation type="unfinished">Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</translation>
+        <translation>Ongeldige naam voor initialisatiefunctie. Functienaam mag alleen alfanumerieke tekens en een onderstrepingsteken bevatten.</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
         <source>Dynamic link libraries (*.dll);;All files (*)</source>
-        <translation type="unfinished">Dynamic link libraries (*.dll);;All files (*)</translation>
+        <translation>Dynamic link libraries (*.dll);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
         <source>Shared objects (*.so);;All files (*)</source>
-        <translation type="unfinished">Shared objects (*.so);;All files (*)</translation>
+        <translation>Gedeelde objecten (*.so);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
         <source>Dynamic libraries (*.dylib);;All files (*)</source>
-        <translation type="unfinished">Dynamic libraries (*.dylib);;All files (*)</translation>
+        <translation>Dynamische bibliotheken (*.dylib);;Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
         <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+        <translation>Alle bestanden (*)</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
         <source>Open file</source>
-        <translation type="unfinished">Open file</translation>
+        <translation>Bestand openen</translation>
     </message>
 </context>
 <context>
@@ -7585,27 +7585,27 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
         <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+        <translation>alle databases</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
         <source>Extension:</source>
-        <translation type="unfinished">Extension:</translation>
+        <translation>Extensie:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
         <source>File:</source>
-        <translation type="unfinished">File:</translation>
+        <translation>Bestand:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
         <source>Init function:</source>
-        <translation type="unfinished">Init function:</translation>
+        <translation>Init-functie:</translation>
     </message>
     <message>
         <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
         <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+        <translation>Geregistreerd in:</translation>
     </message>
 </context>
 <context>
@@ -7613,17 +7613,17 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../statusfield.ui" line="14"/>
         <source>Status</source>
-        <translation type="unfinished">Status</translation>
+        <translation>Toestand</translation>
     </message>
     <message>
         <location filename="../statusfield.cpp" line="211"/>
         <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="../statusfield.cpp" line="218"/>
         <source>Clear</source>
-        <translation type="unfinished">Clear</translation>
+        <translation>Wissen</translation>
     </message>
 </context>
 <context>
@@ -7632,19 +7632,19 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
         <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
         <source>Type</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Type</translation>
+        <translation>Soort</translation>
     </message>
     <message>
         <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
         <source>Details</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Bijzonderheden</translation>
     </message>
     <message>
         <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
         <source>Name</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
 </context>
 <context>
@@ -7652,83 +7652,83 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Kolommen</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
         <source>Referenced table:</source>
-        <translation type="unfinished">Referenced table:</translation>
+        <translation>Verwezen tabel:</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
         <source>Referencing column</source>
-        <translation type="unfinished">Referencing column</translation>
+        <translation>Verwijzende kolom</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
         <source>Referenced column</source>
-        <translation type="unfinished">Referenced column</translation>
+        <translation>Verwezen kolom</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
         <source>Reactions</source>
-        <translation type="unfinished">Reactions</translation>
+        <translation>Reacties</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
         <source>Deferred foreign key</source>
-        <translation type="unfinished">Deferred foreign key</translation>
+        <translation>Uitgestelde vreemde sleutel</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Benoemde beperking</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Naam van beperking</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
         <source>Pick the foreign column.</source>
-        <translation type="unfinished">Pick the foreign column.</translation>
+        <translation>Kies de vreemde kolom.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
         <source>Pick the foreign table.</source>
-        <translation type="unfinished">Pick the foreign table.</translation>
+        <translation>Kies de vreemde tabel.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
         <source>Select at least one foreign column.</source>
-        <translation type="unfinished">Select at least one foreign column.</translation>
+        <translation>Selecteer ten minste één vreemde kolom.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
         <source>Column with the same name</source>
-        <translation type="unfinished">Column with the same name</translation>
+        <translation>Kolom met dezelfde naam</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
         <source>Foreign column</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Foreign column</translation>
+        <translation>Vreemde kolom</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
         <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</translation>
+        <translation>Verwezen kolom is geen PRIMARY KEY of UNIQUE. Dit kan problemen veroorzaken bij het invoegen of bijwerken van gegevens.</translation>
     </message>
     <message>
         <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
         <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</translation>
+        <translation>Het type van de verwezen kolom (%1) verschilt van het type dat is gedeclareerd voor de lokale kolom (%2). Dit kan problemen veroorzaken bij het invoegen of bijwerken van gegevens.</translation>
     </message>
 </context>
 <context>
@@ -7736,69 +7736,69 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
         <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+        <translation>Kolommen</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Kolom</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Sorteervolgorde</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
         <source>Sort</source>
-        <translation type="unfinished">Sort</translation>
+        <translation>Sorteren</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
         <source>Valid only for a single column with INTEGER data type</source>
-        <translation type="unfinished">Valid only for a single column with INTEGER data type</translation>
+        <translation>Alleen geldig voor één kolom met gegevenstype INTEGER</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
         <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+        <translation>Automatisch ophogen</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
         <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+        <translation>Benoemde beperking</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Naam van beperking</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
         <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+        <translation>Bij conflict</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
         <source>Collate</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Sortering</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
         <source>Sort order</source>
         <comment>table constraints</comment>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Sorteervolgorde</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
         <source>Select at least one column.</source>
-        <translation type="unfinished">Select at least one column.</translation>
+        <translation>Selecteer ten minste één kolom.</translation>
     </message>
     <message>
         <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
         <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+        <translation>Voer een naam voor de beperking in.</translation>
     </message>
 </context>
 <context>
@@ -7807,67 +7807,67 @@ Such deletion will be permanent. Are you sure you want to delete them?</translat
         <location filename="../windows/tablestructuremodel.cpp" line="322"/>
         <source>Name</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="324"/>
         <source>Data type</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Data type</translation>
+        <translation>Gegevenstype</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="326"/>
         <source>Primary
 Key</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Primary
-Key</translation>
+        <translation>Primaire
+sleutel</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="328"/>
         <source>Foreign
 Key</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Foreign
-Key</translation>
+        <translation>Vreemde
+sleutel</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="330"/>
         <source>Unique</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Uniek</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="332"/>
         <source>Check</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Check</translation>
+        <translation>Controle</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="334"/>
         <source>Not
 NULL</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Not
+        <translation>Niet
 NULL</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="336"/>
         <source>Collate</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Collate</translation>
+        <translation>Sortering</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="338"/>
         <source>Generated</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Generated</translation>
+        <translation>Gegenereerd</translation>
     </message>
     <message>
         <location filename="../windows/tablestructuremodel.cpp" line="340"/>
         <source>Default value</source>
         <comment>table structure columns</comment>
-        <translation type="unfinished">Default value</translation>
+        <translation>Standaardwaarde</translation>
     </message>
 </context>
 <context>
@@ -7875,470 +7875,470 @@ NULL</translation>
     <message>
         <location filename="../windows/tablewindow.ui" line="36"/>
         <source>Structure</source>
-        <translation type="unfinished">Structure</translation>
+        <translation>Structuur</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="70"/>
         <source>Table name:</source>
-        <translation type="unfinished">Table name:</translation>
+        <translation>Tabelnaam:</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="87"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Schakelt de WITHOUT ROWID-clausule voor de tabel in/uit. Zo&apos;n tabel heeft niet langer de verborgen kolom &amp;quot;rowid&amp;quot;. Voor zo&apos;n tabel is een expliciete PRIMARY KEY-kolom verplicht. U kunt meer details hierover lezen in de officiële SQLite-documentatie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="97"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Schakelt de STRICT-clausule voor de tabel in/uit. Zo&apos;n tabel voert een strikte controle uit van gegevens die in kolommen zijn opgeslagen tegen de gedeclareerde gegevenstypen voor deze kolommen. Dit is vergelijkbaar met hoe gegevenstypen meestal worden afgedwongen in de meeste andere database-engines. Laat dit uitgeschakeld om het klassieke SQLite-gedrag te gebruiken (d.w.z. geen afdwinging van gegevenstypen). Meer details vindt u in de officiële SQLite-documentatie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="213"/>
         <location filename="../windows/tablewindow.cpp" line="1778"/>
         <source>Data</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Gegevens</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="230"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Beperkingen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="244"/>
         <source>Indexes</source>
-        <translation type="unfinished">Indexes</translation>
+        <translation>Indexen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="276"/>
         <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+        <translation>Triggers</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.ui" line="311"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>DDL</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="243"/>
         <source>Export table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Export table</translation>
+        <translation>Tabel exporteren</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="244"/>
         <source>Populate table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Populate table</translation>
+        <translation>Tabel vullen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="232"/>
         <source>Refresh structure</source>
         <comment>table window</comment>
-        <translation type="unfinished">Refresh structure</translation>
+        <translation>Structuur vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="234"/>
         <source>Commit structure changes</source>
         <comment>table window</comment>
-        <translation type="unfinished">Commit structure changes</translation>
+        <translation>Structuurwijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="235"/>
         <source>Rollback structure changes</source>
         <comment>table window</comment>
-        <translation type="unfinished">Rollback structure changes</translation>
+        <translation>Structuurwijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="236"/>
         <source>Add column</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add column</translation>
+        <translation>Kolom toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="237"/>
         <source>Edit column</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit column</translation>
+        <translation>Kolom bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="238"/>
         <location filename="../windows/tablewindow.cpp" line="330"/>
         <source>Delete column</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete column</translation>
+        <translation>Kolom verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="239"/>
         <source>Move column up</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move column up</translation>
+        <translation>Kolom omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="240"/>
         <source>Move column down</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move column down</translation>
+        <translation>Kolom omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="246"/>
         <source>Create similar table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Create similar table</translation>
+        <translation>Vergelijkbare tabel maken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="247"/>
         <source>Reset autoincrement value</source>
         <comment>table window</comment>
-        <translation type="unfinished">Reset autoincrement value</translation>
+        <translation>Autoincrement-waarde terugzetten</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="250"/>
         <source>Add table constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table constraint</translation>
+        <translation>Tabelbeperking toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="251"/>
         <source>Edit table constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit table constraint</translation>
+        <translation>Tabelbeperking bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="252"/>
         <source>Delete table constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete table constraint</translation>
+        <translation>Tabelbeperking verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="253"/>
         <source>Move table constraint up</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move table constraint up</translation>
+        <translation>Tabelbeperking omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="254"/>
         <source>Move table constraint down</source>
         <comment>table window</comment>
-        <translation type="unfinished">Move table constraint down</translation>
+        <translation>Tabelbeperking omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="256"/>
         <source>Add table primary key</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table primary key</translation>
+        <translation>Primaire sleutel voor tabel toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="257"/>
         <source>Add table foreign key</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table foreign key</translation>
+        <translation>Vreemde sleutel voor tabel toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="258"/>
         <source>Add table unique constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table unique constraint</translation>
+        <translation>Unieke beperking voor tabel toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="259"/>
         <source>Add table check constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Add table check constraint</translation>
+        <translation>Controlebeperking voor tabel toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="242"/>
         <source>Import data to the table</source>
         <comment>table window</comment>
-        <translation type="unfinished">Import data to the table</translation>
+        <translation>Gegevens naar de tabel importeren</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="277"/>
         <source>Refresh index list</source>
         <comment>table window</comment>
-        <translation type="unfinished">Refresh index list</translation>
+        <translation>Indexlijst vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="279"/>
         <source>Create index</source>
         <comment>table window</comment>
-        <translation type="unfinished">Create index</translation>
+        <translation>Index maken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="280"/>
         <source>Edit index</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit index</translation>
+        <translation>Index bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="281"/>
         <source>Delete index</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete index</translation>
+        <translation>Index verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="287"/>
         <source>Refresh trigger list</source>
         <comment>table window</comment>
-        <translation type="unfinished">Refresh trigger list</translation>
+        <translation>Triggerlijst vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="289"/>
         <source>Create trigger</source>
         <comment>table window</comment>
-        <translation type="unfinished">Create trigger</translation>
+        <translation>Trigger maken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="290"/>
         <source>Edit trigger</source>
         <comment>table window</comment>
-        <translation type="unfinished">Edit trigger</translation>
+        <translation>Trigger bewerken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="291"/>
         <source>Delete trigger</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete trigger</translation>
+        <translation>Trigger verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="329"/>
         <source>Are you sure you want to delete column &apos;%1&apos;?</source>
         <comment>table window</comment>
-        <translation type="unfinished">Are you sure you want to delete column &apos;%1&apos;?</translation>
+        <translation>Weet u zeker dat u kolom &apos;%1&apos; wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="380"/>
         <source>Following problems will take place while modifying the table.
 Would you like to proceed?</source>
         <comment>table window</comment>
-        <translation type="unfinished">Following problems will take place while modifying the table.
-Would you like to proceed?</translation>
+        <translation>De volgende problemen zullen optreden tijdens het wijzigen van de tabel.
+Wilt u doorgaan?</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="382"/>
         <source>Table modification</source>
         <comment>table window</comment>
-        <translation type="unfinished">Table modification</translation>
+        <translation>Tabelwijziging</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="507"/>
         <source>Could not load data for table %1. Error details: %2</source>
-        <translation type="unfinished">Could not load data for table %1. Error details: %2</translation>
+        <translation>Kon gegevens voor tabel %1 niet laden. Foutdetails: %2</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="655"/>
         <source>Could not process the %1 table correctly. Unable to open a table window.</source>
-        <translation type="unfinished">Could not process the %1 table correctly. Unable to open a table window.</translation>
+        <translation>Kon de tabel %1 niet correct verwerken. Kan geen tabelvenster openen.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="679"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="722"/>
         <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window %1, because no database or table was stored in session for this window.</translation>
+        <translation>Kon venster %1 niet herstellen, omdat er voor dit venster geen database of tabel in de sessie was opgeslagen.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="728"/>
         <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat er voor dit venster geen database of tabel in de sessie was opgeslagen.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="735"/>
         <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat database %2 niet kon worden herleid.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="744"/>
         <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat de tabel %2 niet bestaat in databank %3.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="775"/>
         <location filename="../windows/tablewindow.cpp" line="777"/>
         <source>New table %1</source>
-        <translation type="unfinished">New table %1</translation>
+        <translation>Nieuwe tabel %1</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="918"/>
         <source>Committed changes for table &apos;%1&apos; successfully.</source>
-        <translation type="unfinished">Committed changes for table &apos;%1&apos; successfully.</translation>
+        <translation>Wijzigingen voor tabel &apos;%1&apos; succesvol vastgelegd.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="922"/>
         <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-        <translation type="unfinished">Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+        <translation>Wijzigingen voor tabel &apos;%1&apos; (voorheen &apos;%2&apos; genoemd) succesvol vastgelegd.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="962"/>
         <source>Could not commit table structure. Error message: %1</source>
         <comment>table window</comment>
-        <translation type="unfinished">Could not commit table structure. Error message: %1</translation>
+        <translation>Kon tabelstructuur niet vastleggen. Foutmelding: %1</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="988"/>
         <source>Reset autoincrement</source>
-        <translation type="unfinished">Reset autoincrement</translation>
+        <translation>Autoincrement terugzetten</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="988"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-        <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+        <translation>Weet u zeker dat u de autoincrement-waarde voor tabel &apos;%1&apos; wilt terugzetten?</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="995"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+        <translation>Er is een fout opgetreden bij het terugzetten van de autoincrement-waarde voor tabel &apos;%1&apos;: %2</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="997"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-        <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+        <translation>Autoincrement-waarde voor tabel &apos;%1&apos; is succesvol teruggezet.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1085"/>
         <source>Empty name</source>
-        <translation type="unfinished">Empty name</translation>
+        <translation>Lege naam</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1085"/>
         <source>A blank name for the table is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a table with blank name?</source>
-        <translation type="unfinished">A blank name for the table is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a table with blank name?</translation>
+        <translation>Een lege naam voor de tabel is toegestaan in SQLite, maar wordt niet aanbevolen.
+Weet u zeker dat u een tabel met een lege naam wilt maken?</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1094"/>
         <source>Cannot create a table without at least one column.</source>
-        <translation type="unfinished">Cannot create a table without at least one column.</translation>
+        <translation>Kan geen tabel maken zonder ten minste één kolom.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1119"/>
         <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
-        <translation type="unfinished">Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</translation>
+        <translation>Kan tabel %1 niet maken als er geen primaire sleutel is gedefinieerd. Schakel %2 uit of definieer een primaire sleutel.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1126"/>
         <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
-        <translation type="unfinished">Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</translation>
+        <translation>Kan autoincrement niet gebruiken voor de primaire sleutel wanneer de %1-clausule wordt gebruikt. Schakel %2 uit of schakel autoincrement in een primaire sleutel uit.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1145"/>
         <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
-        <translation type="unfinished">Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</translation>
+        <translation>De volgende kolommen hebben een niet-strikt gegevenstype: %1. Schakel de strikte modus van de tabel uit of corrigeer de gegevenstypen van de kolommen. Geldige strikte gegevenstypen zijn: %2</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1327"/>
         <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
         <comment>table window</comment>
-        <translation type="unfinished">Are you sure you want to delete table constraint &apos;%1&apos;?</translation>
+        <translation>Weet u zeker dat u tabelbeperking &apos;%1&apos; wilt verwijderen?</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1328"/>
         <source>Delete constraint</source>
         <comment>table window</comment>
-        <translation type="unfinished">Delete constraint</translation>
+        <translation>Beperking verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1383"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Kan niet exporteren, omdat er geen exportplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1396"/>
         <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+        <translation>Kan niet importeren, omdat er geen importplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1430"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Niet-vastgelegde wijzigingen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1431"/>
         <source>There are uncommitted structure modifications.</source>
-        <translation type="unfinished">There are uncommitted structure modifications.</translation>
+        <translation>Er zijn niet-vastgelegde structuurwijzigingen.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1433"/>
         <source>You cannot browse or edit data until you have table structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-        <translation type="unfinished">You cannot browse or edit data until you have table structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+        <translation>U kunt geen gegevens bekijken of bewerken totdat de tabelstructuur is vastgesteld.
+Wilt u de structuur vastleggen of teruggaan naar het structuurtabblad?</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1437"/>
         <source>Commit modifications and browse data</source>
-        <translation type="unfinished">Commit modifications and browse data</translation>
+        <translation>Wijzigingen vastleggen en gegevens bekijken</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1436"/>
         <source>Go back to structure tab</source>
-        <translation type="unfinished">Go back to structure tab</translation>
+        <translation>Terug naar structuurtabblad</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1644"/>
         <source>Name</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1645"/>
         <source>Unique</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Unique</translation>
+        <translation>Uniek</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1646"/>
         <source>Columns</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Columns</translation>
+        <translation>Kolommen</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1647"/>
         <source>Partial index condition</source>
         <comment>table window indexes</comment>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Voorwaarde voor gedeeltelijke index</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1703"/>
         <source>Name</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1704"/>
         <source>Event</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Event</translation>
+        <translation>Gebeurtenis</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1705"/>
         <source>Condition</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Condition</translation>
+        <translation>Voorwaarde</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1706"/>
         <source>Details</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Bijzonderheden</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1820"/>
         <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+        <translation>Tabelvenster &quot;%1&quot; heeft niet-vastgelegde structuurwijzigingen en gegevens.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1822"/>
         <source>Table window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted data.</translation>
+        <translation>Tabelvenster &quot;%1&quot; heeft niet-vastgelegde gegevens.</translation>
     </message>
     <message>
         <location filename="../windows/tablewindow.cpp" line="1824"/>
         <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications.</translation>
+        <translation>Tabelvenster &quot;%1&quot; heeft niet-vastgelegde structuurwijzigingen.</translation>
     </message>
 </context>
 <context>
@@ -8346,22 +8346,22 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
         <source>Trigger columns</source>
-        <translation type="unfinished">Trigger columns</translation>
+        <translation>Triggerkolommen</translation>
     </message>
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
         <source>Triggering columns:</source>
-        <translation type="unfinished">Triggering columns:</translation>
+        <translation>Triggerende kolommen:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
         <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+        <translation>Alles selecteren</translation>
     </message>
     <message>
         <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
         <source>Deselect all</source>
-        <translation type="unfinished">Deselect all</translation>
+        <translation>Alles deselecteren</translation>
     </message>
 </context>
 <context>
@@ -8370,100 +8370,100 @@ Do you want to commit the structure, or do you want to go back to the structure 
         <location filename="../dialogs/triggerdialog.ui" line="14"/>
         <location filename="../dialogs/triggerdialog.ui" line="24"/>
         <source>Trigger</source>
-        <translation type="unfinished">Trigger</translation>
+        <translation>Trigger</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="30"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>Op tabel:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="40"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>Actie:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="56"/>
         <location filename="../dialogs/triggerdialog.ui" line="127"/>
         <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;SQL-voorwaarde die wordt geëvalueerd vóór de daadwerkelijke triggercode. Als de voorwaarde false retourneert, wordt de trigger voor die rij niet geactiveerd.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="59"/>
         <source>Pre-condition:</source>
-        <translation type="unfinished">Pre-condition:</translation>
+        <translation>Voorwaarde vooraf:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="66"/>
         <source>The scope is still not fully supported by the SQLite database.</source>
-        <translation type="unfinished">The scope is still not fully supported by the SQLite database.</translation>
+        <translation>Het bereik wordt nog steeds niet volledig ondersteund door de SQLite-database.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="73"/>
         <source>Trigger name:</source>
-        <translation type="unfinished">Trigger name:</translation>
+        <translation>Triggernaam:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="80"/>
         <source>When:</source>
-        <translation type="unfinished">When:</translation>
+        <translation>Wanneer:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="87"/>
         <source>List of columns for UPDATE OF action.</source>
-        <translation type="unfinished">List of columns for UPDATE OF action.</translation>
+        <translation>Lijst met kolommen voor UPDATE OF-actie.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="97"/>
         <source>Scope:</source>
-        <translation type="unfinished">Scope:</translation>
+        <translation>Bereik:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="104"/>
         <source>Code:</source>
-        <translation type="unfinished">Code:</translation>
+        <translation>Code:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="111"/>
         <source>Trigger statements to be executed.</source>
-        <translation type="unfinished">Trigger statements to be executed.</translation>
+        <translation>Triggerstatements om uit te voeren.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.ui" line="138"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>DDL</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="154"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>Op weergave:</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="178"/>
         <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
-        <translation type="unfinished">Could not process trigger %1 correctly. Unable to open a trigger dialog.</translation>
+        <translation>Kon trigger %1 niet correct verwerken. Kan geen triggerdialoog openen.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="349"/>
         <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+        <translation>Voer een geldige voorwaarde in.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="350"/>
         <source>Enter a valid trigger code.</source>
-        <translation type="unfinished">Enter a valid trigger code.</translation>
+        <translation>Voer geldige triggercode in.</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="428"/>
         <source>Error</source>
         <comment>trigger dialog</comment>
-        <translation type="unfinished">Error</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <location filename="../dialogs/triggerdialog.cpp" line="428"/>
         <source>An error occurred while executing SQL statements:
 %1</source>
-        <translation type="unfinished">An error occurred while executing SQL statements:
+        <translation>Er is een fout opgetreden bij het uitvoeren van SQL-statements:
 %1</translation>
     </message>
 </context>
@@ -8472,22 +8472,22 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
         <source>Database version convert</source>
-        <translation type="unfinished">Database version convert</translation>
+        <translation>Databaseversie converteren</translation>
     </message>
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
         <source>Following changes to the SQL statements will be made:</source>
-        <translation type="unfinished">Following changes to the SQL statements will be made:</translation>
+        <translation>De volgende wijzigingen in de SQL-statements worden aangebracht:</translation>
     </message>
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
         <source>Before</source>
-        <translation type="unfinished">Before</translation>
+        <translation>Voor</translation>
     </message>
     <message>
         <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
         <source>After</source>
-        <translation type="unfinished">After</translation>
+        <translation>Na</translation>
     </message>
 </context>
 <context>
@@ -8495,298 +8495,298 @@ Do you want to commit the structure, or do you want to go back to the structure 
     <message>
         <location filename="../windows/viewwindow.ui" line="36"/>
         <source>Query</source>
-        <translation type="unfinished">Query</translation>
+        <translation>SQL-query</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="70"/>
         <source>View name:</source>
-        <translation type="unfinished">View name:</translation>
+        <translation>Weergavenaam:</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="123"/>
         <source>Output column names</source>
-        <translation type="unfinished">Output column names</translation>
+        <translation>Uitvoerkolomnamen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="170"/>
         <location filename="../windows/viewwindow.cpp" line="939"/>
         <source>Data</source>
-        <translation type="unfinished">Data</translation>
+        <translation>Gegevens</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="180"/>
         <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+        <translation>Triggers</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.ui" line="215"/>
         <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+        <translation>DDL</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="110"/>
         <location filename="../windows/viewwindow.cpp" line="116"/>
         <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat er voor dit venster geen database of weergave in de sessie was opgeslagen.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="123"/>
         <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat database %2 niet kon worden herleid.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="129"/>
         <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be open.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat database %2 niet kon worden geopend.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="138"/>
         <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</translation>
+        <translation>Kon venster &apos;%1&apos; niet herstellen, omdat de view %2 niet bestaat in databank %3.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="169"/>
         <location filename="../windows/viewwindow.cpp" line="171"/>
         <source>New view %1</source>
-        <translation type="unfinished">New view %1</translation>
+        <translation>Nieuwe weergave %1</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="294"/>
         <source>Database</source>
-        <translation type="unfinished">Database</translation>
+        <translation>Databank</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="349"/>
         <source>Refresh the view</source>
         <comment>view window</comment>
-        <translation type="unfinished">Refresh the view</translation>
+        <translation>De weergave vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="351"/>
         <source>Commit the view changes</source>
         <comment>view window</comment>
-        <translation type="unfinished">Commit the view changes</translation>
+        <translation>De weergavewijzigingen vastleggen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="352"/>
         <source>Rollback the view changes</source>
         <comment>view window</comment>
-        <translation type="unfinished">Rollback the view changes</translation>
+        <translation>De weergavewijzigingen terugdraaien</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="356"/>
         <source>Explicit column names</source>
-        <translation type="unfinished">Explicit column names</translation>
+        <translation>Expliciete kolomnamen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="362"/>
         <source>Generate output column names automatically basing on result columns of the view.</source>
-        <translation type="unfinished">Generate output column names automatically basing on result columns of the view.</translation>
+        <translation>Uitvoerkolomnamen automatisch genereren op basis van resultaatkolommen van de weergave.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="363"/>
         <source>Add column</source>
         <comment>view window</comment>
-        <translation type="unfinished">Add column</translation>
+        <translation>Kolom toevoegen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="364"/>
         <source>Edit column</source>
         <comment>view window</comment>
-        <translation type="unfinished">Edit column</translation>
+        <translation>Kolom bewerken</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="365"/>
         <source>Delete column</source>
         <comment>view window</comment>
-        <translation type="unfinished">Delete column</translation>
+        <translation>Kolom verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="366"/>
         <source>Move column up</source>
         <comment>view window</comment>
-        <translation type="unfinished">Move column up</translation>
+        <translation>Kolom omhoog verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="367"/>
         <source>Move column down</source>
         <comment>view window</comment>
-        <translation type="unfinished">Move column down</translation>
+        <translation>Kolom omlaag verplaatsen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="369"/>
         <source>Export view</source>
         <comment>view window</comment>
-        <translation type="unfinished">Export view</translation>
+        <translation>Weergave exporteren</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="378"/>
         <source>Refresh trigger list</source>
         <comment>view window</comment>
-        <translation type="unfinished">Refresh trigger list</translation>
+        <translation>Triggerlijst vernieuwen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="380"/>
         <source>Create new trigger</source>
         <comment>view window</comment>
-        <translation type="unfinished">Create new trigger</translation>
+        <translation>Nieuwe trigger maken</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="381"/>
         <source>Edit selected trigger</source>
         <comment>view window</comment>
-        <translation type="unfinished">Edit selected trigger</translation>
+        <translation>Geselecteerde trigger bewerken</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="382"/>
         <source>Delete selected trigger</source>
         <comment>view window</comment>
-        <translation type="unfinished">Delete selected trigger</translation>
+        <translation>Geselecteerde trigger verwijderen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="403"/>
         <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+        <translation>Weergavevenster &quot;%1&quot; heeft niet-vastgelegde structuurwijzigingen en gegevens.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="405"/>
         <source>View window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted data.</translation>
+        <translation>Weergavevenster &quot;%1&quot; heeft niet-vastgelegde gegevens.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="407"/>
         <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications.</translation>
+        <translation>Weergavevenster &quot;%1&quot; heeft niet-vastgelegde structuurwijzigingen.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="638"/>
         <source>Could not load data for view %1. Error details: %2</source>
-        <translation type="unfinished">Could not load data for view %1. Error details: %2</translation>
+        <translation>Kon gegevens voor weergave %1 niet laden. Foutdetails: %2</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="650"/>
         <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+        <translation>Niet-vastgelegde wijzigingen</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="651"/>
         <source>There are uncommitted structure modifications.</source>
-        <translation type="unfinished">There are uncommitted structure modifications.</translation>
+        <translation>Er zijn niet-vastgelegde structuurwijzigingen.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="653"/>
         <source>You cannot browse or edit data until you have the view structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-        <translation type="unfinished">You cannot browse or edit data until you have the view structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+        <translation>U kunt geen gegevens bekijken of bewerken totdat de weergavestructuur is vastgesteld.
+Wilt u de structuur vastleggen of teruggaan naar het structuurtabblad?</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="657"/>
         <source>Commit modifications and browse data</source>
-        <translation type="unfinished">Commit modifications and browse data</translation>
+        <translation>Wijzigingen vastleggen en gegevens bekijken</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1085"/>
         <source>The view could not be modified due to internal Letos error. Please report this!</source>
-        <translation type="unfinished">The view could not be modified due to internal Letos error. Please report this!</translation>
+        <translation>De weergave kon niet worden gewijzigd vanwege een interne Letos-fout. Meld dit alstublieft!</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1111"/>
         <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
-        <translation type="unfinished">The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</translation>
+        <translation>De viewcode kon niet correct worden geparseerd voor uitvoering. Dit is een bug van Letos. Meld dit alstublieft.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="656"/>
         <source>Go back to structure tab</source>
-        <translation type="unfinished">Go back to structure tab</translation>
+        <translation>Terug naar structuurtabblad</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="709"/>
         <source>View &apos;%1&apos; was committed successfully.</source>
-        <translation type="unfinished">View &apos;%1&apos; was committed successfully.</translation>
+        <translation>Weergave &apos;%1&apos; is succesvol vastgelegd.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="711"/>
         <source>Committed changes for view &apos;%1&apos; successfully.</source>
-        <translation type="unfinished">Committed changes for view &apos;%1&apos; successfully.</translation>
+        <translation>Wijzigingen voor weergave &apos;%1&apos; succesvol vastgelegd.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="713"/>
         <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-        <translation type="unfinished">Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+        <translation>Wijzigingen voor weergave &apos;%1&apos; (voorheen &apos;%2&apos; genoemd) succesvol vastgelegd.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="736"/>
         <source>Could not commit view changes. Error message: %1</source>
         <comment>view window</comment>
-        <translation type="unfinished">Could not commit view changes. Error message: %1</translation>
+        <translation>Kon weergavewijzigingen niet vastleggen. Foutmelding: %1</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="880"/>
         <source>Override columns</source>
-        <translation type="unfinished">Override columns</translation>
+        <translation>Kolommen overschrijven</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="880"/>
         <source>Currently defined columns will be overriden. Do you want to continue?</source>
-        <translation type="unfinished">Currently defined columns will be overriden. Do you want to continue?</translation>
+        <translation>De momenteel gedefinieerde kolommen worden overschreven. Wilt u doorgaan?</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="903"/>
         <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
-        <translation type="unfinished">Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</translation>
+        <translation>Kon niet bepalen welke kolommen door de weergave worden geretourneerd. De query is waarschijnlijk onvolledig of bevat fouten.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="922"/>
         <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+        <translation>Kan niet exporteren, omdat er geen exportplug-in is geladen.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="971"/>
         <source>Name</source>
         <comment>view window triggers</comment>
-        <translation type="unfinished">Name</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="972"/>
         <source>Instead of</source>
         <comment>view window triggers</comment>
-        <translation type="unfinished">Instead of</translation>
+        <translation>In plaats van</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="973"/>
         <source>Condition</source>
         <comment>view window triggers</comment>
-        <translation type="unfinished">Condition</translation>
+        <translation>Voorwaarde</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="974"/>
         <source>Details</source>
         <comment>table window triggers</comment>
-        <translation type="unfinished">Details</translation>
+        <translation>Bijzonderheden</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1018"/>
         <source>Could not process the %1 view correctly. Unable to open a view window.</source>
-        <translation type="unfinished">Could not process the %1 view correctly. Unable to open a view window.</translation>
+        <translation>Kon de weergave %1 niet correct verwerken. Kan geen weergavevenster openen.</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1065"/>
         <source>Empty name</source>
-        <translation type="unfinished">Empty name</translation>
+        <translation>Lege naam</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1065"/>
         <source>A blank name for the view is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a view with blank name?</source>
-        <translation type="unfinished">A blank name for the view is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a view with blank name?</translation>
+        <translation>Een lege naam voor de weergave is toegestaan in SQLite, maar wordt niet aanbevolen.
+Weet u zeker dat u een weergave met een lege naam wilt maken?</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1077"/>
         <source>The SELECT statement could not be parsed. Please correct the query and retry.
 Details: %1</source>
-        <translation type="unfinished">The SELECT statement could not be parsed. Please correct the query and retry.
+        <translation>Het SELECT-statement kon niet worden geparseerd. Corrigeer de query en probeer het opnieuw.
 Details: %1</translation>
     </message>
     <message>
@@ -8794,14 +8794,14 @@ Details: %1</translation>
         <source>Following problems will take place while modifying the view.
 Would you like to proceed?</source>
         <comment>view window</comment>
-        <translation type="unfinished">Following problems will take place while modifying the view.
-Would you like to proceed?</translation>
+        <translation>De volgende problemen zullen optreden tijdens het wijzigen van de weergave.
+Wilt u doorgaan?</translation>
     </message>
     <message>
         <location filename="../windows/viewwindow.cpp" line="1125"/>
         <source>View modification</source>
         <comment>view window</comment>
-        <translation type="unfinished">View modification</translation>
+        <translation>Weergavewijziging</translation>
     </message>
 </context>
 <context>
@@ -8809,7 +8809,7 @@ Would you like to proceed?</translation>
     <message>
         <location filename="../common/widgetcover.cpp" line="242"/>
         <source>Interrupt</source>
-        <translation type="unfinished">Interrupt</translation>
+        <translation>Onderbreken</translation>
     </message>
 </context>
 </TS>

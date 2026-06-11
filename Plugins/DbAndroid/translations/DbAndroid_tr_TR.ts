@@ -6,12 +6,12 @@
     <message>
         <location filename="../dbandroid.cpp" line="40"/>
         <source>Invalid or incomplete Android Database URL.</source>
-        <translation type="unfinished">Invalid or incomplete Android Database URL.</translation>
+        <translation>Geçersiz veya eksik Android veritabanı URL&apos;si.</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="55"/>
         <source>Android database URL</source>
-        <translation type="unfinished">Android database URL</translation>
+        <translation>Android veritabanı URL&apos;si</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="56"/>
@@ -21,32 +21,32 @@
     <message>
         <location filename="../dbandroid.cpp" line="151"/>
         <source>Select ADB</source>
-        <translation type="unfinished">Select ADB</translation>
+        <translation>ADB&apos;yi seç</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="173"/>
         <source>Using Android Debug Bridge: %1</source>
-        <translation type="unfinished">Using Android Debug Bridge: %1</translation>
+        <translation>Android Debug Bridge kullanılıyor: %1</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="198"/>
         <source>Could not find Android Debug Bridge application. &lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to point out the location of the ADB application, otherwise the %2 plugin will not support USB cable connections, only the network connection.</source>
-        <translation type="unfinished">Could not find Android Debug Bridge application. &lt;a href=&quot;%1&quot;&gt;Click here&lt;/a&gt; to point out the location of the ADB application, otherwise the %2 plugin will not support USB cable connections, only the network connection.</translation>
+        <translation>Android Debug Bridge uygulaması bulunamadı. &lt;a href=&quot;%1&quot;&gt;Buraya tıklayın&lt;/a&gt; ve ADB uygulamasının konumunu belirtin; aksi takdirde %2 eklentisi USB kablo bağlantılarını desteklemeyecek, yalnızca ağ bağlantısını destekleyecektir.</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="217"/>
         <source>The selected ADB is incorrect.</source>
-        <translation type="unfinished">The selected ADB is incorrect.</translation>
+        <translation>Seçilen ADB hatalı.</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="218"/>
         <source>Would you like to select another one, or leave it unconfigured?</source>
-        <translation type="unfinished">Would you like to select another one, or leave it unconfigured?</translation>
+        <translation>Başka bir tane seçmek mi yoksa yapılandırılmamış olarak bırakmak mı istersiniz?</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="242"/>
         <source>Save JAR file</source>
-        <translation type="unfinished">Save JAR file</translation>
+        <translation>JAR dosyasını kaydet</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="216"/>
@@ -56,7 +56,7 @@
     <message>
         <location filename="../dbandroid.cpp" line="183"/>
         <source>You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</source>
-        <translation type="unfinished">You can grab Android connector JAR file from Tools menu. It&apos;s required for 2 of 3 connections supported by the Android plugin. For more details read plugin&apos;s documentation on &lt;a href=&quot;%1&quot;&gt;Letos&apos;s wiki page.&lt;/a&gt;</translation>
+        <translation>Android bağlayıcı JAR dosyasını Araçlar menüsünden alabilirsiniz. Desteklenen 3 bağlantıdan 2&apos;si için gereklidir. Daha fazla ayrıntı için eklenti&apos;nin belgelerini &lt;a href=&quot;%1&quot;&gt;Letos&apos;un wiki sayfasında okuyun.&lt;/a&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroid.cpp" line="219"/>
@@ -71,7 +71,7 @@
     <message>
         <location filename="../dbandroid.cpp" line="192"/>
         <source>Get Android connector JAR file</source>
-        <translation type="unfinished">Get Android connector JAR file</translation>
+        <translation>Android bağlayıcı JAR dosyasını al</translation>
     </message>
 </context>
 <context>
@@ -92,48 +92,48 @@
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="175"/>
         <source>Cannot connect to device %1, because it&apos;s not visible from your computer.</source>
-        <translation type="unfinished">Cannot connect to device %1, because it&apos;s not visible from your computer.</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü bilgisayarınızdan görünür değil&apos;dir.</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="182"/>
         <source>Failed to create port forwarding for device %1 for port %2.</source>
-        <translation type="unfinished">Failed to create port forwarding for device %1 for port %2.</translation>
+        <translation>%1 cihazı için %2 portuna yönelik port yönlendirme oluşturulamadı.</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="196"/>
         <source>Could not connect to network host: %1:%2</source>
-        <translation type="unfinished">Could not connect to network host: %1:%2</translation>
+        <translation>Ağ ana makinesine bağlanılamadı: %1:%2</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="210"/>
         <source>Cannot connect to %1:%2, because password is invalid.</source>
-        <translation type="unfinished">Cannot connect to %1:%2, because password is invalid.</translation>
+        <translation>Parola geçersiz olduğundan %1:%2 adresine bağlanılamıyor.</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="301"/>
         <source>Unable to execute query on Android device (connection was closed): %1</source>
-        <translation type="unfinished">Unable to execute query on Android device (connection was closed): %1</translation>
+        <translation>Android cihazda sorgu yürütülemiyor (bağlantı kapatıldı): %1</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="313"/>
         <source>Error while parsing response from Android: %1</source>
-        <translation type="unfinished">Error while parsing response from Android: %1</translation>
+        <translation>Android&apos;den gelen yanıt ayrıştırılırken hata: %1</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="321"/>
         <source>Generic error from Android: %1</source>
-        <translation type="unfinished">Generic error from Android: %1</translation>
+        <translation>Android&apos;den gelen genel hata: %1</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="335"/>
         <location filename="../dbandroidjsonconnection.cpp" line="342"/>
         <source>Missing &apos;columns&apos; in response from Android.</source>
-        <translation type="unfinished">Missing &apos;columns&apos; in response from Android.</translation>
+        <translation>Android&apos;den gelen yanıtta &apos;columns&apos; eksik.</translation>
     </message>
     <message>
         <location filename="../dbandroidjsonconnection.cpp" line="363"/>
         <source>Response from Android has missing data for column &apos;%1&apos; in row %2.</source>
-        <translation type="unfinished">Response from Android has missing data for column &apos;%1&apos; in row %2.</translation>
+        <translation>Android&apos;den gelen yanıtta, %2 satırında &apos;%1&apos; sütunu için veri eksik.</translation>
     </message>
 </context>
 <context>
@@ -151,7 +151,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="32"/>
         <source>USB cable - port forwarding</source>
-        <translation type="unfinished">USB cable - port forwarding</translation>
+        <translation>USB kablosu - port yönlendirme</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="42"/>
@@ -176,7 +176,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="93"/>
         <source>Port</source>
-        <translation type="unfinished">Port</translation>
+        <translation>Bağlantı noktası</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="115"/>
@@ -186,7 +186,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="127"/>
         <source>&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;This is password configured in the Letos service being embeded in the Android application.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Bu, Android uygulamasına gömülen Letos hizmetinde yapılandırılan paroladır.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="140"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="155"/>
         <source>Filter</source>
-        <translation type="unfinished">Filter</translation>
+        <translation>Filtre</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.ui" line="168"/>
@@ -211,7 +211,7 @@
     <message>
         <location filename="../dbandroidpathdialog.ui" line="187"/>
         <source>Delete currently selected database from the device. The currently selected database is the one picked in the list on the left of this button.</source>
-        <translation type="unfinished">Delete currently selected database from the device. The currently selected database is the one picked in the list on the left of this button.</translation>
+        <translation>Cihazdan geçerli olarak seçili veritabanını sil. Geçerli olarak seçili veritabanı, bu düğmenin solundaki listeden seçilen veritabanıdır.</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="362"/>
@@ -231,7 +231,7 @@
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="395"/>
         <source>Selected Android application is unknown, or not debuggable.</source>
-        <translation type="unfinished">Selected Android application is unknown, or not debuggable.</translation>
+        <translation>Seçilen Android uygulaması bilinmiyor veya hata ayıklanabilir değil.</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="422"/>
@@ -242,8 +242,8 @@
         <location filename="../dbandroidpathdialog.cpp" line="422"/>
         <source>Please provide name for the new database.
 It&apos;s the name which Android application will use to connect to the database:</source>
-        <translation type="unfinished">Please provide name for the new database.
-It&apos;s the name which Android application will use to connect to the database:</translation>
+        <translation>Lütfen yeni veritabanı için bir ad belirtin.
+Bu, Android uygulamasının veritabanına bağlanmak için kullanacağı ad&apos;dır:</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="430"/>
@@ -256,13 +256,13 @@ It&apos;s the name which Android application will use to connect to the database
         <location filename="../dbandroidpathdialog.cpp" line="430"/>
         <source>Database with the same name (%1) already exists on the device.
 The name must be unique.</source>
-        <translation type="unfinished">Database with the same name (%1) already exists on the device.
-The name must be unique.</translation>
+        <translation>Aynı ada sahip veritabanı (%1) cihazda zaten var.
+Ad benzersiz olmalıdır.</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="439"/>
         <source>Could not create database &apos;%1&apos;, because could not connect to the device.</source>
-        <translation type="unfinished">Could not create database &apos;%1&apos;, because could not connect to the device.</translation>
+        <translation>Cihaza bağlanılamadığı için &apos;%1&apos; veritabanı oluşturulamadı.</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="448"/>
@@ -278,25 +278,25 @@ Details: %2</source>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="463"/>
         <source>Are you sure you want to delete database &apos;%1&apos; from %2?</source>
-        <translation type="unfinished">Are you sure you want to delete database &apos;%1&apos; from %2?</translation>
+        <translation>%2 üzerindeki &apos;%1&apos; veritabanını silmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="484"/>
         <location filename="../dbandroidpathdialog.cpp" line="490"/>
         <source>Error deleting</source>
-        <translation type="unfinished">Error deleting</translation>
+        <translation>Silme hatası</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="484"/>
         <source>Could not connect to %1 in order to delete database &apos;%2&apos;.</source>
-        <translation type="unfinished">Could not connect to %1 in order to delete database &apos;%2&apos;.</translation>
+        <translation>&apos;%2&apos; veritabanını silmek için %1 öğesine bağlanılamadı.</translation>
     </message>
     <message>
         <location filename="../dbandroidpathdialog.cpp" line="490"/>
         <source>Could not delete database named &apos;%1&apos; from the device.
 Android device refused deletion, or it was impossible.</source>
-        <translation type="unfinished">Could not delete database named &apos;%1&apos; from the device.
-Android device refused deletion, or it was impossible.</translation>
+        <translation>Cihazdan &apos;%1&apos; adlı veritabanı silinemedi.
+Android cihaz silmeyi reddetti veya silme mümkün değildi.</translation>
     </message>
 </context>
 <context>
@@ -304,43 +304,43 @@ Android device refused deletion, or it was impossible.</translation>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="31"/>
         <source>Cannot connect to device %1, because it&apos;s not visible from your computer.</source>
-        <translation type="unfinished">Cannot connect to device %1, because it&apos;s not visible from your computer.</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü bilgisayarınızdan görünür değil&apos;dir.</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="46"/>
         <source>Cannot connect to device %1, because the application %2 doesn&apos;t seem to be installed on the device.</source>
-        <translation type="unfinished">Cannot connect to device %1, because the application %2 doesn&apos;t seem to be installed on the device.</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü %2 uygulaması cihazda yüklü değil&apos; gibi görünüyor.</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="56"/>
         <source>Cannot connect to device %1, because the application %2 is not debuggable.</source>
-        <translation type="unfinished">Cannot connect to device %1, because the application %2 is not debuggable.</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü %2 uygulaması hata ayıklanabilir değil.</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="65"/>
         <source>Cannot connect to device %1, because &apos;%2&apos; command doesn&apos;t seem to be available on the device.</source>
-        <translation type="unfinished">Cannot connect to device %1, because &apos;%2&apos; command doesn&apos;t seem to be available on the device.</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü &apos;%2&apos; komutu cihazda kullanılabilir değil&apos; gibi görünüyor.</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="77"/>
         <source>Cannot connect to device %1, because &apos;%2&apos; database cannot be accessed on the device.</source>
-        <translation type="unfinished">Cannot connect to device %1, because &apos;%2&apos; database cannot be accessed on the device.</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü &apos;%2&apos; veritabanına cihazda erişilemiyor.</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="90"/>
         <source>Cannot connect to device %1, because &apos;%2&apos; database cannot be accessed on the device. Details: %3</source>
-        <translation type="unfinished">Cannot connect to device %1, because &apos;%2&apos; database cannot be accessed on the device. Details: %3</translation>
+        <translation>%1 cihazına bağlanılamıyor, çünkü &apos;%2&apos; veritabanına cihazda erişilemiyor. Ayrıntılar: %3</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="126"/>
         <source>Cannot get list of databases for application %1. Details: %2</source>
-        <translation type="unfinished">Cannot get list of databases for application %1. Details: %2</translation>
+        <translation>%1 uygulaması için veritabanları listesi alınamıyor. Ayrıntılar: %2</translation>
     </message>
     <message>
         <location filename="../dbandroidshellconnection.cpp" line="207"/>
         <location filename="../dbandroidshellconnection.cpp" line="214"/>
         <source>Could not execute query on database &apos;%1&apos;: %2</source>
-        <translation type="unfinished">Could not execute query on database &apos;%1&apos;: %2</translation>
+        <translation>&apos;%1&apos; veritabanında sorgu yürütülemedi: %2</translation>
     </message>
 </context>
 <context>
@@ -348,7 +348,7 @@ Android device refused deletion, or it was impossible.</translation>
     <message>
         <location filename="../sqlqueryandroid.cpp" line="100"/>
         <source>Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</source>
-        <translation type="unfinished">Cannot bind argument &apos;%1&apos; of the query, because it&apos;s value is missing.</translation>
+        <translation>Sorgunun &apos;%1&apos; bağımsız değişkeni bağlanamıyor, çünkü değeri eksik&apos;tir.</translation>
     </message>
 </context>
 </TS>

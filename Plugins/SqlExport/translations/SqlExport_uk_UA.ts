@@ -6,42 +6,42 @@
     <message>
         <location filename="../sqlexport.cpp" line="87"/>
         <source>-- Results of query:</source>
-        <translation type="unfinished">-- Results of query:</translation>
+        <translation>-- Результати запиту:</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="159"/>
         <source>-- Table: %1</source>
-        <translation type="unfinished">-- Table: %1</translation>
+        <translation>-- Таблиця: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="206"/>
         <source>-- Index: %1</source>
-        <translation type="unfinished">-- Index: %1</translation>
+        <translation>-- Індекс: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="231"/>
         <source>-- Trigger: %1</source>
-        <translation type="unfinished">-- Trigger: %1</translation>
+        <translation>-- Тригер: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="259"/>
         <source>-- View: %1</source>
-        <translation type="unfinished">-- View: %1</translation>
+        <translation>-- Подання: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="284"/>
         <source>-- File generated with Letos v%1 on %2</source>
-        <translation type="unfinished">-- File generated with Letos v%1 on %2</translation>
+        <translation>-- Файл згенеровано за допомогою Letos v%1, %2</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="288"/>
         <source>-- Text encoding used: %1</source>
-        <translation type="unfinished">-- Text encoding used: %1</translation>
+        <translation>-- Використане кодування тексту: %1</translation>
     </message>
     <message>
         <location filename="../sqlexport.cpp" line="370"/>
         <source>Table name for INSERT statements is mandatory.</source>
-        <translation type="unfinished">Table name for INSERT statements is mandatory.</translation>
+        <translation>Назва таблиці для інструкцій INSERT є обов’язковою.</translation>
     </message>
 </context>
 <context>
@@ -49,22 +49,22 @@
     <message>
         <location filename="../SqlExportCommon.ui" line="30"/>
         <source>Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</translation>
+        <translation>Генерувати інструкцію &quot;DROP IF EXISTS&quot; перед інструкцією &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="40"/>
         <source>Format DDL statements only (excludes &quot;INSERT&quot; statements)</source>
-        <translation type="unfinished">Format DDL statements only (excludes &quot;INSERT&quot; statements)</translation>
+        <translation>Форматувати лише інструкції DDL (за винятком інструкцій &quot;INSERT&quot;)</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="50"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>Додати речення &quot;IF NOT EXISTS&quot; до інструкції &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportCommon.ui" line="20"/>
         <source>Use SQL formatter to format exported SQL statements</source>
-        <translation type="unfinished">Use SQL formatter to format exported SQL statements</translation>
+        <translation>Використовувати форматувач SQL для форматування експортованих інструкцій SQL</translation>
     </message>
 </context>
 <context>
@@ -72,37 +72,37 @@
     <message>
         <location filename="../SqlExportQuery.ui" line="47"/>
         <source>Use SQL formatter to format exported SQL statements</source>
-        <translation type="unfinished">Use SQL formatter to format exported SQL statements</translation>
+        <translation>Використовувати форматувач SQL для форматування експортованих інструкцій SQL</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="40"/>
         <source>Table name to use for INSERT statements:</source>
-        <translation type="unfinished">Table name to use for INSERT statements:</translation>
+        <translation>Назва таблиці для використання в інструкціях INSERT:</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="64"/>
         <source>Generate &quot;CREATE TABLE&quot; statement at the begining</source>
-        <translation type="unfinished">Generate &quot;CREATE TABLE&quot; statement at the begining</translation>
+        <translation>Генерувати інструкцію &quot;CREATE TABLE&quot; на початку</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="20"/>
         <source>Include the query in comments</source>
-        <translation type="unfinished">Include the query in comments</translation>
+        <translation>Включити запит до коментарів</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="30"/>
         <source>Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Generate &quot;DROP IF EXISTS&quot; statement before &quot;CREATE&quot; statement</translation>
+        <translation>Генерувати інструкцію &quot;DROP IF EXISTS&quot; перед інструкцією &quot;CREATE&quot;</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="74"/>
         <source>Format DDL statements only (excludes &quot;INSERT&quot; statements)</source>
-        <translation type="unfinished">Format DDL statements only (excludes &quot;INSERT&quot; statements)</translation>
+        <translation>Форматувати лише інструкції DDL (за винятком інструкцій &quot;INSERT&quot;)</translation>
     </message>
     <message>
         <location filename="../SqlExportQuery.ui" line="84"/>
         <source>Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</source>
-        <translation type="unfinished">Add &quot;IF NOT EXISTS&quot; clause to &quot;CREATE&quot; statement</translation>
+        <translation>Додати речення &quot;IF NOT EXISTS&quot; до інструкції &quot;CREATE&quot;</translation>
     </message>
 </context>
 </TS>

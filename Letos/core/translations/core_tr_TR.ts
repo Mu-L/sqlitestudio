@@ -39,7 +39,7 @@
         <location filename="../db/chainexecutor.cpp" line="73"/>
         <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</translation>
+        <translation>Veritabanında eski ALTER RENAME davranışına geçilemedi. Ayrıntılar: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="82"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="../completionhelper.cpp" line="267"/>
         <source>String</source>
-        <translation type="unfinished">String</translation>
+        <translation>Yazı</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="270"/>
@@ -141,7 +141,7 @@
     <message>
         <location filename="../completionhelper.cpp" line="285"/>
         <source>BLOB literal</source>
-        <translation type="unfinished">BLOB literal</translation>
+        <translation>BLOB değişmezi</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="445"/>
@@ -159,27 +159,27 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="592"/>
         <source>Cannot export config to file %1: %2</source>
-        <translation type="unfinished">Cannot export config to file %1: %2</translation>
+        <translation>Yapılandırma %1 dosyasına dışa aktarılamıyor: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="597"/>
         <source>Config exported successfully to %1</source>
-        <translation type="unfinished">Config exported successfully to %1</translation>
+        <translation>Yapılandırma başarıyla %1 konumuna dışa aktarıldı</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="629"/>
         <source>Cannot import config from file %1: %2</source>
-        <translation type="unfinished">Cannot import config from file %1: %2</translation>
+        <translation>Yapılandırma %1 dosyasından içe aktarılamıyor: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="648"/>
         <source>Config imported successfully from %1</source>
-        <translation type="unfinished">Config imported successfully from %1</translation>
+        <translation>Yapılandırma başarıyla %1 konumundan içe aktarıldı</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="659"/>
         <source>Cannot read file %1: %2</source>
-        <translation type="unfinished">Cannot read file %1: %2</translation>
+        <translation>%1 dosyası okunamadı: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1001"/>
@@ -194,7 +194,7 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1366"/>
         <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-        <translation type="unfinished">Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</translation>
+        <translation>Yapılandırılmış kısayol tuşları, birçok kısayolun modern IDE standartlarıyla uyumlu olacak şekilde revize edildiği 4.0.0 sürümüne güncellemenin ardından varsayılan ayarlarına sıfırlandı.</translation>
     </message>
 </context>
 <context>
@@ -240,17 +240,17 @@
         <location filename="../dbobjectorganizer.cpp" line="130"/>
         <location filename="../dbobjectorganizer.cpp" line="149"/>
         <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-        <translation type="unfinished">An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</translation>
+        <translation>&apos;%1&apos; tablosunu &apos;%2&apos; olarak yeniden adlandırmaya çalışırken bir hata oluştu: %3</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="131"/>
         <source>Failed to parse object definition.</source>
-        <translation type="unfinished">Failed to parse object definition.</translation>
+        <translation>Nesne tanımı ayrıştırılamadı.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="166"/>
         <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-        <translation type="unfinished">An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</translation>
+        <translation>&apos;%2&apos; tablosunun &apos;%1&apos; sütununu &apos;%3&apos; olarak yeniden adlandırmaya çalışırken bir hata oluştu: %4</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../dbobjectorganizer.cpp" line="507"/>
         <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-        <translation type="unfinished">Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</translation>
+        <translation>%1 veritabanı %2 veritabanına eklenemedi, bu nedenle %3 tablosunun verileri aracı olarak Letos kullanılarak kopyalanacak. Bu yöntem çok büyük tablolar için yavaş olabilir, lütfen sabırlı olun.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="531"/>
@@ -284,30 +284,30 @@
         <location filename="../dbobjectorganizer.cpp" line="606"/>
         <source>Error while dropping source view %1: %2
 Tables, indexes, triggers and views copied to database %3 will remain.</source>
-        <translation type="unfinished">Error while dropping source view %1: %2
-Tables, indexes, triggers and views copied to database %3 will remain.</translation>
+        <translation>%1 kaynak görünümü silinirken hata oluştu: %2
+%3 veritabanına kopyalanan tablolar, indeksler, tetikleyiciler ve görünümler kalacak.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="613"/>
         <source>Error while creating view in target database: %1</source>
-        <translation type="unfinished">Error while creating view in target database: %1</translation>
+        <translation>Hedef veritabanında görünüm oluşturulurken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="618"/>
         <source>Error while creating index in target database: %1</source>
-        <translation type="unfinished">Error while creating index in target database: %1</translation>
+        <translation>Hedef veritabanında indeks oluşturulurken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="623"/>
         <source>Error while creating trigger in target database: %1</source>
-        <translation type="unfinished">Error while creating trigger in target database: %1</translation>
+        <translation>Hedef veritabanında tetikleyici oluşturulurken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="763"/>
         <location filename="../dbobjectorganizer.cpp" line="770"/>
         <location filename="../dbobjectorganizer.cpp" line="779"/>
         <source>Could not parse object &apos;%1&apos; in order to move or copy it.</source>
-        <translation type="unfinished">Could not parse object &apos;%1&apos; in order to move or copy it.</translation>
+        <translation>&apos;%1&apos; nesnesi taşımak veya kopyalamak için ayrıştırılamadı.</translation>
     </message>
 </context>
 <context>
@@ -328,7 +328,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <location filename="../ddlhistorymodel.cpp" line="70"/>
         <source>Date of execution</source>
         <comment>ddl history header</comment>
-        <translation type="unfinished">Date of execution</translation>
+        <translation>Yürütme tarihi</translation>
     </message>
     <message>
         <location filename="../ddlhistorymodel.cpp" line="72"/>
@@ -342,47 +342,47 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/exportmanager.cpp" line="74"/>
         <source>Export plugin %1 doesn&apos;t support exporing query results.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing query results.</translation>
+        <translation>%1 dışa aktarma eklentisi sorgu sonuçlarını dışa aktarmayı desteklemiyor.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="100"/>
         <source>Export plugin %1 doesn&apos;t support exporing tables.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing tables.</translation>
+        <translation>%1 dışa aktarma eklentisi tabloları dışa aktarmayı desteklemiyor.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="126"/>
         <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing views.</translation>
+        <translation>%1 dışa aktarma eklentisi görünümleri dışa aktarmayı desteklemiyor.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="150"/>
         <source>Export plugin %1 doesn&apos;t support exporing databases.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing databases.</translation>
+        <translation>%1 dışa aktarma eklentisi veritabanlarını dışa aktarmayı desteklemiyor.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="183"/>
         <source>Export format &apos;%1&apos; is not supported. Supported formats are: %2.</source>
-        <translation type="unfinished">Export format &apos;%1&apos; is not supported. Supported formats are: %2.</translation>
+        <translation>&apos;%1&apos; dışa aktarma biçimi desteklenmiyor. Desteklenen biçimler: %2.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="247"/>
         <source>Export to the clipboard was successful.</source>
-        <translation type="unfinished">Export to the clipboard was successful.</translation>
+        <translation>Panoya dışa aktarma başarılı oldu.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="251"/>
         <source>Export to the file &apos;%1&apos; was successful.</source>
-        <translation type="unfinished">Export to the file &apos;%1&apos; was successful.</translation>
+        <translation>&apos;%1&apos; dosyasına dışa aktarma başarılı oldu.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="253"/>
         <source>Export was successful.</source>
-        <translation type="unfinished">Export was successful.</translation>
+        <translation>Dışa aktarma başarılı oldu.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="295"/>
         <source>Could not export to file %1. File cannot be open for writting.</source>
-        <translation type="unfinished">Could not export to file %1. File cannot be open for writting.</translation>
+        <translation>%1 dosyasına dışa aktarılamadı. Dosya yazma için açılamıyor.</translation>
     </message>
 </context>
 <context>
@@ -390,34 +390,34 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../exportworker.cpp" line="136"/>
         <source>Error while exporting query results: %1</source>
-        <translation type="unfinished">Error while exporting query results: %1</translation>
+        <translation>Sorgu sonuçları dışa aktarılırken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="222"/>
         <source>Error while counting data column width to export from query results: %1</source>
-        <translation type="unfinished">Error while counting data column width to export from query results: %1</translation>
+        <translation>Sorgu sonuçlarından dışa aktarılacak veri sütunu genişliği hesaplanırken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="366"/>
         <location filename="../exportworker.cpp" line="426"/>
         <location filename="../exportworker.cpp" line="545"/>
         <source>Could not parse %1 in order to export it. It will be excluded from the export output.</source>
-        <translation type="unfinished">Could not parse %1 in order to export it. It will be excluded from the export output.</translation>
+        <translation>%1 dışa aktarmak için ayrıştırılamadı. Dışa aktarma çıktısından hariç tutulacak.</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="821"/>
         <source>Error while reading data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while reading data to export from table or view %1: %2</translation>
+        <translation>%1 tablosundan veya görünümünden dışa aktarılacak veriler okunurken hata oluştu: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="829"/>
         <source>Error while counting data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data to export from table or view %1: %2</translation>
+        <translation>%1 tablosundan veya görünümünden dışa aktarılacak veriler sayılırken hata oluştu: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="845"/>
         <source>Error while counting data column width to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data column width to export from table or view %1: %2</translation>
+        <translation>%1 tablosundan veya görünümünden dışa aktarılacak veri sütunu genişliği hesaplanırken hata oluştu: %2</translation>
     </message>
 </context>
 <context>
@@ -425,17 +425,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/functionmanager.cpp" line="37"/>
         <source>Scalar</source>
-        <translation type="unfinished">Scalar</translation>
+        <translation>Skaler</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="39"/>
         <source>Aggregate</source>
-        <translation type="unfinished">Aggregate</translation>
+        <translation>Toplama</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="41"/>
         <source>Window</source>
-        <translation type="unfinished">Window</translation>
+        <translation>Pencere</translation>
     </message>
 </context>
 <context>
@@ -443,27 +443,27 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
         <source>Could not create scripting context, probably the plugin is not configured properly</source>
-        <translation type="unfinished">Could not create scripting context, probably the plugin is not configured properly</translation>
+        <translation>Betik oluşturma bağlamı oluşturulamadı; eklenti büyük olasılıkla düzgün yapılandırılmamış</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
         <source>Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</source>
-        <translation type="unfinished">Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</translation>
+        <translation>&apos;%1&apos; işlevi için geçersiz sayıda argüman. %2 bekleniyordu, ancak %3 alındı.</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
-        <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
+        <translation>Letos içinde kayıtlı böyle bir işlev yok: %1(%2)</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
         <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
-        <translation type="unfinished">Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</translation>
+        <translation>%1(%2) işlevi %3 diliyle kaydedilmiş, ancak bu dili destekleyen eklenti şu anda yüklü değil.</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
         <source>Invalid regular expression pattern: %1</source>
-        <translation type="unfinished">Invalid regular expression pattern: %1</translation>
+        <translation>Geçersiz düzenli ifade deseni: %1</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
@@ -484,7 +484,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
         <source>Unsupported scripting language: %1</source>
-        <translation type="unfinished">Unsupported scripting language: %1</translation>
+        <translation>Desteklenmeyen betik dili: %1</translation>
     </message>
 </context>
 <context>
@@ -492,7 +492,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/genericexportplugin.cpp" line="19"/>
         <source>Could not initialize text codec for exporting. Using default codec: %1</source>
-        <translation type="unfinished">Could not initialize text codec for exporting. Using default codec: %1</translation>
+        <translation>Dışa aktarma için metin kodeği başlatılamadı. Varsayılan kodek kullanılıyor: %1</translation>
     </message>
 </context>
 <context>
@@ -500,7 +500,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/importmanager.cpp" line="98"/>
         <source>Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</source>
-        <translation type="unfinished">Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</translation>
+        <translation>Veriler &apos;%1&apos; tablosuna başarıyla içe aktarıldı. İçe aktarılan satır sayısı: %2</translation>
     </message>
 </context>
 <context>
@@ -508,39 +508,39 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../importworker.cpp" line="24"/>
         <source>No columns provided by the import plugin.</source>
-        <translation type="unfinished">No columns provided by the import plugin.</translation>
+        <translation>İçe aktarma eklentisi tarafından hiçbir sütun sağlanmadı.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="31"/>
         <source>Could not start transaction in order to import a data: %1</source>
-        <translation type="unfinished">Could not start transaction in order to import a data: %1</translation>
+        <translation>Verileri içe aktarmak için işlem başlatılamadı: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="54"/>
         <source>Could not commit transaction for imported data: %1</source>
-        <translation type="unfinished">Could not commit transaction for imported data: %1</translation>
+        <translation>İçe aktarılan veriler için işlem onaylanamadı: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="101"/>
         <source>Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</source>
-        <translation type="unfinished">Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</translation>
+        <translation>&apos;%1&apos; tablosunda, içe aktarılacak verilerdeki sütun sayısından daha az sütun var. Fazla veri sütunları yok sayılacak.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="106"/>
         <source>Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</source>
-        <translation type="unfinished">Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</translation>
+        <translation>&apos;%1&apos; tablosunda, içe aktarılacak verilerdeki sütun sayısından daha fazla sütun var. Tablodaki bazı sütunlar boş bırakılacak.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="125"/>
         <source>Could not create table to import to: %1</source>
-        <translation type="unfinished">Could not create table to import to: %1</translation>
+        <translation>İçe aktarma yapılacak tablo oluşturulamadı: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="134"/>
         <location filename="../importworker.cpp" line="181"/>
         <location filename="../importworker.cpp" line="188"/>
         <source>Error while importing data: %1</source>
-        <translation type="unfinished">Error while importing data: %1</translation>
+        <translation>Veriler içe aktarılırken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="134"/>
@@ -552,7 +552,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../importworker.cpp" line="176"/>
         <source>Could not import data row number %1. The row was ignored. Problem details: %2</source>
-        <translation type="unfinished">Could not import data row number %1. The row was ignored. Problem details: %2</translation>
+        <translation>%1 numaralı veri satırı içe aktarılamadı. Satır yok sayıldı. Sorun ayrıntıları: %2</translation>
     </message>
 </context>
 <context>
@@ -560,22 +560,22 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="564"/>
         <source>Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</source>
-        <translation type="unfinished">Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</translation>
+        <translation>%1 eklentisi yüklenemiyor, çünkü %2 eklentisiyle çakışıyor.</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="575"/>
         <source>Cannot load plugin %1, because its dependency was not loaded: %2.</source>
-        <translation type="unfinished">Cannot load plugin %1, because its dependency was not loaded: %2.</translation>
+        <translation>%1 eklentisi yüklenemiyor, çünkü bağımlılığı yüklenmedi: %2.</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="584"/>
         <source>Cannot load plugin %1. Error details: %2</source>
-        <translation type="unfinished">Cannot load plugin %1. Error details: %2</translation>
+        <translation>%1 eklentisi yüklenemiyor. Hata ayrıntıları: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="600"/>
         <source>Cannot load plugin %1 (error while initializing plugin).</source>
-        <translation type="unfinished">Cannot load plugin %1 (error while initializing plugin).</translation>
+        <translation>%1 eklentisi yüklenemiyor (eklenti başlatılırken hata oluştu).</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
@@ -664,7 +664,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/populatemanager.cpp" line="89"/>
         <source>Table &apos;%1&apos; populated successfully.</source>
-        <translation type="unfinished">Table &apos;%1&apos; populated successfully.</translation>
+        <translation>&apos;%1&apos; tablosu başarıyla dolduruldu.</translation>
     </message>
 </context>
 <context>
@@ -680,7 +680,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandom.ui" line="20"/>
         <source>Constant prefix</source>
-        <translation type="unfinished">Constant prefix</translation>
+        <translation>Sabit ön ek</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="26"/>
@@ -700,7 +700,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandom.ui" line="86"/>
         <source>Constant suffix</source>
-        <translation type="unfinished">Constant suffix</translation>
+        <translation>Sabit son ek</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="92"/>
@@ -721,7 +721,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="20"/>
         <source>Use characters from common sets:</source>
-        <translation type="unfinished">Use characters from common sets:</translation>
+        <translation>Yaygın kümelerden karakterleri kullan:</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="36"/>
@@ -731,7 +731,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="64"/>
         <source>Letters from a to z.</source>
-        <translation type="unfinished">Letters from a to z.</translation>
+        <translation>A&apos;dan Z&apos;ye harfler.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="67"/>
@@ -751,7 +751,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="90"/>
         <source>A whitespace, a tab and a new line character.</source>
-        <translation type="unfinished">A whitespace, a tab and a new line character.</translation>
+        <translation>Bir boşluk, bir sekme ve bir yeni satır karakteri.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="93"/>
@@ -761,7 +761,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="103"/>
         <source>Includes all above and all others.</source>
-        <translation type="unfinished">Includes all above and all others.</translation>
+        <translation>Yukarıdakilerin tümünü ve diğerlerinin tümünü içerir.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="106"/>
@@ -771,7 +771,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="119"/>
         <source>Use characters from my custom set:</source>
-        <translation type="unfinished">Use characters from my custom set:</translation>
+        <translation>Özel kümemdeki karakterleri kullan:</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="132"/>
@@ -797,12 +797,12 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatescript.ui" line="26"/>
         <source>Initialization code (optional)</source>
-        <translation type="unfinished">Initialization code (optional)</translation>
+        <translation>Başlatma kodu (isteğe bağlı)</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.ui" line="45"/>
         <source>Per step code</source>
-        <translation type="unfinished">Per step code</translation>
+        <translation>Her adım için kod</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.ui" line="70"/>
@@ -841,17 +841,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../populateworker.cpp" line="23"/>
         <source>Could not start transaction in order to perform table populating. Error details: %1</source>
-        <translation type="unfinished">Could not start transaction in order to perform table populating. Error details: %1</translation>
+        <translation>Tablo doldurma işlemini gerçekleştirmek için işlem başlatılamadı. Hata ayrıntıları: %1</translation>
     </message>
     <message>
         <location filename="../populateworker.cpp" line="69"/>
         <source>Error while populating table: %1</source>
-        <translation type="unfinished">Error while populating table: %1</translation>
+        <translation>Tablo doldurulurken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../populateworker.cpp" line="80"/>
         <source>Could not commit transaction after table populating. Error details: %1</source>
-        <translation type="unfinished">Could not commit transaction after table populating. Error details: %1</translation>
+        <translation>Tablo doldurma işleminden sonra işlem onaylanamadı. Hata ayrıntıları: %1</translation>
     </message>
 </context>
 <context>
@@ -859,27 +859,27 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../common/utils.cpp" line="79"/>
         <source>SQLite database or SQL file</source>
-        <translation type="unfinished">SQLite database or SQL file</translation>
+        <translation>SQLite veritabanı veya SQL dosyası</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="81"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>SQL dosyaları</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="82"/>
         <source>CSV files</source>
-        <translation type="unfinished">CSV files</translation>
+        <translation>CSV dosyaları</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="83"/>
         <source>Text files</source>
-        <translation type="unfinished">Text files</translation>
+        <translation>Metin dosyaları</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="84"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Tüm dosyalar</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="968"/>
@@ -894,7 +894,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../db/abstractdb3.h" line="1388"/>
         <source>Result set expired or no row available.</source>
-        <translation type="unfinished">Result set expired or no row available.</translation>
+        <translation>Sonuç kümesinin süresi doldu veya kullanılabilir satır yok.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="372"/>
@@ -910,18 +910,18 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../impl/dbattacherimpl.cpp" line="121"/>
         <source>Could not attach database %1: %2</source>
-        <translation type="unfinished">Could not attach database %1: %2</translation>
+        <translation>%1 veritabanı eklenemedi: %2</translation>
     </message>
     <message>
         <location filename="../parser/parsercontext.cpp" line="108"/>
         <location filename="../parser/parsercontext.cpp" line="110"/>
         <source>Incomplete query.</source>
-        <translation type="unfinished">Incomplete query.</translation>
+        <translation>Eksik sorgu.</translation>
     </message>
     <message>
         <location filename="../parser/sqlite3_parse.cpp" line="2723"/>
         <source>Parser stack overflow</source>
-        <translation type="unfinished">Parser stack overflow</translation>
+        <translation>Ayrıştırıcı yığını taşması</translation>
     </message>
     <message>
         <location filename="../parser/sqlite3_parse.cpp" line="6456"/>
@@ -951,52 +951,52 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.cpp" line="89"/>
         <source>Custom character set cannot be empty.</source>
-        <translation type="unfinished">Custom character set cannot be empty.</translation>
+        <translation>Özel karakter kümesi boş olamaz.</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="60"/>
         <source>Could not find plugin to support scripting language: %1</source>
-        <translation type="unfinished">Could not find plugin to support scripting language: %1</translation>
+        <translation>Betik dilini destekleyecek eklenti bulunamadı: %1</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="69"/>
         <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-        <translation type="unfinished">Could not get evaluation context, probably the %1 scripting plugin is not configured properly</translation>
+        <translation>Değerlendirme bağlamı alınamadı; %1 betik eklentisi büyük olasılıkla düzgün yapılandırılmamış</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="83"/>
         <source>Error while executing populating initial code: %1</source>
-        <translation type="unfinished">Error while executing populating initial code: %1</translation>
+        <translation>Doldurma başlatma kodu yürütülürken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="105"/>
         <source>Error while executing populating code: %1</source>
-        <translation type="unfinished">Error while executing populating code: %1</translation>
+        <translation>Doldurma kodu yürütülürken hata oluştu: %1</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="137"/>
         <source>Select implementation language.</source>
-        <translation type="unfinished">Select implementation language.</translation>
+        <translation>Uygulama dilini seçin.</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="138"/>
         <source>Implementation code cannot be empty.</source>
-        <translation type="unfinished">Implementation code cannot be empty.</translation>
+        <translation>Uygulama kodu boş olamaz.</translation>
     </message>
     <message>
         <location filename="../selectresolver.cpp" line="329"/>
         <source>Could not resolve data source for column: %1</source>
-        <translation type="unfinished">Could not resolve data source for column: %1</translation>
+        <translation>Sütun için veri kaynağı çözümlenemedi: %1</translation>
     </message>
     <message>
         <location filename="../selectresolver.cpp" line="462"/>
         <source>Could not resolve table for column &apos;%1&apos;.</source>
-        <translation type="unfinished">Could not resolve table for column &apos;%1&apos;.</translation>
+        <translation>&apos;%1&apos; sütunu için tablo çözümlenemedi.</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="876"/>
         <source>Could not initialize configuration file. Any configuration changes and queries history will be lost after application restart. Unable to create a file at following locations: %1.</source>
-        <translation type="unfinished">Could not initialize configuration file. Any configuration changes and queries history will be lost after application restart. Unable to create a file at following locations: %1.</translation>
+        <translation>Yapılandırma dosyası başlatılamadı. Uygulama yeniden başlatıldıktan sonra tüm yapılandırma değişiklikleri ve sorgu geçmişi kaybolacak. Şu konumlarda dosya oluşturulamıyor: %1.</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="363"/>
@@ -1043,66 +1043,66 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../tablemodifier.cpp" line="286"/>
         <source>Table %1 is referencing table %2, but the foreign key definition will not be updated for new table definition due to problems while parsing DDL of the table %3.</source>
-        <translation type="unfinished">Table %1 is referencing table %2, but the foreign key definition will not be updated for new table definition due to problems while parsing DDL of the table %3.</translation>
+        <translation>%1 tablosu %2 tablosuna başvuruyor, ancak %3 tablosunun DDL&apos;si ayrıştırılırken yaşanan sorunlar nedeniyle yabancı anahtar tanımı yeni tablo tanımı için güncellenmeyecek.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="666"/>
         <source>All columns indexed by the index %1 are gone. The index will not be recreated after table modification.</source>
-        <translation type="unfinished">All columns indexed by the index %1 are gone. The index will not be recreated after table modification.</translation>
+        <translation>%1 indeksi tarafından indekslenen tüm sütunlar artık yok. Tablo değişikliğinden sonra indeks yeniden oluşturulmayacak.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="710"/>
         <source>There is problem with proper processing trigger %1. It may be not fully updated afterwards and will need your attention.</source>
-        <translation type="unfinished">There is problem with proper processing trigger %1. It may be not fully updated afterwards and will need your attention.</translation>
+        <translation>%1 tetikleyicisinin düzgün işlenmesiyle ilgili bir sorun var. Sonrasında tam olarak güncellenmemiş olabilir ve ilgilenmeniz gerekecek.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="725"/>
         <source>All columns covered by the trigger %1 are gone. The trigger will not be recreated after table modification.</source>
-        <translation type="unfinished">All columns covered by the trigger %1 are gone. The trigger will not be recreated after table modification.</translation>
+        <translation>%1 tetikleyicisinin kapsadığı tüm sütunlar artık yok. Tablo değişikliğinden sonra tetikleyici yeniden oluşturulmayacak.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="757"/>
         <source>Cannot not update trigger %1 according to table %2 modification.</source>
-        <translation type="unfinished">Cannot not update trigger %1 according to table %2 modification.</translation>
+        <translation>%1 tetikleyicisi %2 tablosu değişikliğine göre güncellenemiyor.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="776"/>
         <source>Cannot not update view %1 according to table %2 modifications.
 The view will remain as it is.</source>
-        <translation type="unfinished">Cannot not update view %1 according to table %2 modifications.
-The view will remain as it is.</translation>
+        <translation>%1 görünümü %2 tablosu değişikliklerine göre güncellenemiyor.
+Görünüm olduğu gibi kalacak.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="961"/>
         <location filename="../tablemodifier.cpp" line="985"/>
         <location filename="../tablemodifier.cpp" line="1004"/>
         <source>There is a problem with updating an %1 statement within %2 trigger. One of the %1 substatements which might be referring to table %3 cannot be properly modified. Manual update of the trigger may be necessary.</source>
-        <translation type="unfinished">There is a problem with updating an %1 statement within %2 trigger. One of the %1 substatements which might be referring to table %3 cannot be properly modified. Manual update of the trigger may be necessary.</translation>
+        <translation>%2 tetikleyicisi içindeki bir %1 ifadesini güncellerken bir sorun var. %3 tablosuna başvuruyor olabilecek %1 alt ifadelerinden biri düzgün şekilde değiştirilemiyor. Tetikleyicinin elle güncellenmesi gerekebilir.</translation>
     </message>
     <message>
         <location filename="../viewmodifier.cpp" line="23"/>
         <source>Could not parse DDL of the view to be created. Details: %1</source>
-        <translation type="unfinished">Could not parse DDL of the view to be created. Details: %1</translation>
+        <translation>Oluşturulacak görünümün DDL&apos;si ayrıştırılamadı. Ayrıntılar: %1</translation>
     </message>
     <message>
         <location filename="../viewmodifier.cpp" line="32"/>
         <source>Parsed query is not CREATE VIEW. It&apos;s: %1</source>
-        <translation type="unfinished">Parsed query is not CREATE VIEW. It&apos;s: %1</translation>
+        <translation>Ayrıştırılan sorgu CREATE VIEW değil. Şu: %1</translation>
     </message>
     <message>
         <location filename="../viewmodifier.cpp" line="80"/>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-        <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
+        <translation>Letos, yeni görünüm tarafından döndürülen sütunları çözümleyemedi; bu nedenle yeniden oluşturma süreci sırasında hangi tetikleyicilerin başarısız olabileceğini söyleyemeyecek.</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>İşlev tabanlı</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>Uzantı tabanlı</translation>
     </message>
 </context>
 <context>
@@ -1110,7 +1110,7 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/queryexecutor.cpp" line="203"/>
         <source>Execution interrupted.</source>
-        <translation type="unfinished">Execution interrupted.</translation>
+        <translation>Yürütme kesintiye uğradı.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="245"/>
@@ -1120,18 +1120,18 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/queryexecutor.cpp" line="254"/>
         <source>Only one query can be executed simultaneously.</source>
-        <translation type="unfinished">Only one query can be executed simultaneously.</translation>
+        <translation>Aynı anda yalnızca bir sorgu yürütülebilir.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
         <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-        <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
+        <translation>count(*) sorgusu yürütülürken bir hata oluştu, bu nedenle veri sayfalama devre dışı bırakılacak. Veritabanından gelen hata ayrıntıları: %1</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-        <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
+        <translation>Letos sorgudan üstveri çıkaramadı. Sonuçlar düzenlenemeyecek.</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
         <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-        <translation type="unfinished">Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</translation>
+        <translation>%2 tablosundaki %1 sütunu, %4 tablosundaki %3 sütununa başvuruyor, ancak bu sütunların veri türleri farklı: %5 ve %6. Bu durum yabancı anahtar değeri eşleştirmesiyle ilgili sorunlara neden olabilir.</translation>
     </message>
 </context>
 <context>
@@ -1147,7 +1147,7 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../plugins/scriptingqtdbproxy.cpp" line="48"/>
         <source>No database available in current context, while called JavaScript&apos;s %1 command.</source>
-        <translation type="unfinished">No database available in current context, while called JavaScript&apos;s %1 command.</translation>
+        <translation>Geçerli bağlamda kullanılabilir veritabanı yok; JavaScript&apos;in %1 komutu çağrılırken.</translation>
     </message>
     <message>
         <location filename="../plugins/scriptingqtdbproxy.cpp" line="65"/>
@@ -1160,12 +1160,12 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="59"/>
         <source>Could not execute SQL, because application has failed to start transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to start transaction: %1</translation>
+        <translation>Uygulama işlemi başlatamadığı için SQL yürütülemedi: %1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="90"/>
         <source>Execution from file cancelled. Any queries executed so far have been rolled back.</source>
-        <translation type="unfinished">Execution from file cancelled. Any queries executed so far have been rolled back.</translation>
+        <translation>Dosyadan yürütme iptal edildi. Şu ana kadar yürütülen tüm sorgular geri alındı.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="106"/>
@@ -1175,22 +1175,22 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="151"/>
         <source>Could not execute SQL, because application has failed to commit the transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to commit the transaction: %1</translation>
+        <translation>Uygulama işlemi onaylayamadığı için SQL yürütülemedi: %1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="156"/>
         <source>Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</translation>
+        <translation>%1 sorgunun yürütülmesi %2 saniyede tamamlandı. %3 sorgu hatalar nedeniyle yürütülmedi.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="162"/>
         <source>Finished executing %1 queries in %2 seconds.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds.</translation>
+        <translation>%1 sorgunun yürütülmesi %2 saniyede tamamlandı.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="169"/>
         <source>Could not execute SQL due to error.</source>
-        <translation type="unfinished">Could not execute SQL due to error.</translation>
+        <translation>Hata nedeniyle SQL yürütülemedi.</translation>
     </message>
 </context>
 <context>
@@ -1223,7 +1223,7 @@ The view will remain as it is.</translation>
         <location filename="../sqlhistorymodel.cpp" line="40"/>
         <source>SQL</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">SQL</translation>
+        <translation>SQL</translation>
     </message>
 </context>
 <context>
@@ -1231,12 +1231,12 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-        <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
+        <translation>&apos;%1&apos; veritabanı dosyası daha yeni bir SQLite sürümü (biçim %2) tarafından değiştirilmiş, ancak geçerli uygulama en fazla %3 biçimini destekliyor. Bazı özellikler düzgün çalışmayabilir.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
-        <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
+        <translation>Varsayılan sıralama düzeni gerektiğinde şu adla kaydedildi: %1</translation>
     </message>
 </context>
 <context>

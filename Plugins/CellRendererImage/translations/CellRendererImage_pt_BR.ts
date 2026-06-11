@@ -6,22 +6,22 @@
     <message>
         <location filename="../cellrendererimage.ui" line="20"/>
         <source>Preferred image cell size</source>
-        <translation type="unfinished">Preferred image cell size</translation>
+        <translation>Tamanho preferido da célula da imagem</translation>
     </message>
     <message>
         <location filename="../cellrendererimage.ui" line="42"/>
         <source>Height</source>
-        <translation type="unfinished">Height</translation>
+        <translation>Altura</translation>
     </message>
     <message>
         <location filename="../cellrendererimage.ui" line="49"/>
         <source>Width</source>
-        <translation type="unfinished">Width</translation>
+        <translation>Largura</translation>
     </message>
     <message>
         <location filename="../cellrendererimage.ui" line="72"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; Set these values to &lt;span style=&quot; font-weight:700;&quot;&gt;1&lt;/span&gt; if you want cells to remain as small as required for regular &lt;span style=&quot; font-weight:700;&quot;&gt;text&lt;/span&gt; rendering, without affecting the overall grid layout.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; Set these values to &lt;span style=&quot; font-weight:700;&quot;&gt;1&lt;/span&gt; if you want cells to remain as small as required for regular &lt;span style=&quot; font-weight:700;&quot;&gt;text&lt;/span&gt; rendering, without affecting the overall grid layout.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Dica:&lt;/span&gt; Defina estes valores como &lt;span style=&quot; font-weight:700;&quot;&gt;1&lt;/span&gt; se quiser que as células permaneçam tão pequenas quanto necessário para a renderização normal de &lt;span style=&quot; font-weight:700;&quot;&gt;texto&lt;/span&gt;, sem afetar o layout geral da grade.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -30,7 +30,7 @@
         <location filename="../cellrendererimageplugin.cpp" line="42"/>
         <source>Image</source>
         <comment>cell preview renderer name</comment>
-        <translation type="unfinished">Image</translation>
+        <translation>Imagem</translation>
     </message>
 </context>
 </TS>
