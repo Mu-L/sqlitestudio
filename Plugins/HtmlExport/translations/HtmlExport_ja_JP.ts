@@ -1,244 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ja" sourcelanguage="en">
-<context>
+  <context>
     <name>HtmlExport</name>
     <message>
-        <location filename="../htmlexport.cpp" line="45"/>
-        <source>SQL query results</source>
-        <translation>SQLクエリ結果</translation>
+      <location filename="../htmlexport.cpp" line="45"/>
+      <source>SQL query results</source>
+      <translation>SQLクエリ結果</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="54"/>
-        <source>Query:</source>
-        <translation>クエリ：</translation>
+      <location filename="../htmlexport.cpp" line="54"/>
+      <source>Query:</source>
+      <translation>クエリ：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="94"/>
-        <location filename="../htmlexport.cpp" line="188"/>
-        <source>no type</source>
-        <translation>型なし</translation>
+      <location filename="../htmlexport.cpp" line="94"/>
+      <location filename="../htmlexport.cpp" line="188"/>
+      <source>no type</source>
+      <translation>型なし</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="125"/>
-        <source>Exported table: %1</source>
-        <translation>エクスポートされたテーブル: %1</translation>
+      <location filename="../htmlexport.cpp" line="125"/>
+      <source>Exported table: %1</source>
+      <translation>エクスポートされたテーブル: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="136"/>
-        <source>Exported view: %1</source>
-        <translation>エクスポートされたビュー: %1</translation>
+      <location filename="../htmlexport.cpp" line="136"/>
+      <source>Exported view: %1</source>
+      <translation>エクスポートされたビュー: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="157"/>
-        <location filename="../htmlexport.cpp" line="280"/>
-        <source>Table: %1</source>
-        <translation>テーブル: %1</translation>
+      <location filename="../htmlexport.cpp" line="157"/>
+      <location filename="../htmlexport.cpp" line="280"/>
+      <source>Table: %1</source>
+      <translation>テーブル: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="283"/>
-        <source>virtual</source>
-        <translation>仮想</translation>
+      <location filename="../htmlexport.cpp" line="283"/>
+      <source>virtual</source>
+      <translation>仮想</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="335"/>
-        <source>Exported database: %1</source>
-        <translation>エクスポートされたデータベース: %1</translation>
+      <location filename="../htmlexport.cpp" line="335"/>
+      <source>Exported database: %1</source>
+      <translation>エクスポートされたデータベース: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="351"/>
-        <source>Index: %1</source>
-        <translation>インデックス: %1</translation>
+      <location filename="../htmlexport.cpp" line="351"/>
+      <source>Index: %1</source>
+      <translation>インデックス: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="357"/>
-        <source>For table:</source>
-        <translation>対象テーブル：</translation>
+      <location filename="../htmlexport.cpp" line="357"/>
+      <source>For table:</source>
+      <translation>対象テーブル：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="364"/>
-        <source>Unique:</source>
-        <translation>一意：</translation>
+      <location filename="../htmlexport.cpp" line="364"/>
+      <source>Unique:</source>
+      <translation>一意：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>Yes</source>
-        <translation>はい</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>Yes</source>
+      <translation>はい</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="365"/>
-        <source>No</source>
-        <translation>いいえ</translation>
+      <location filename="../htmlexport.cpp" line="365"/>
+      <source>No</source>
+      <translation>いいえ</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="371"/>
-        <source>Column</source>
-        <translation>列</translation>
+      <location filename="../htmlexport.cpp" line="371"/>
+      <source>Column</source>
+      <translation>列</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="372"/>
-        <source>Collating</source>
-        <translation>照合順序</translation>
+      <location filename="../htmlexport.cpp" line="372"/>
+      <source>Collating</source>
+      <translation>照合順序</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="373"/>
-        <source>Sort order</source>
-        <translation>並べ替え順序</translation>
+      <location filename="../htmlexport.cpp" line="373"/>
+      <source>Sort order</source>
+      <translation>並べ替え順序</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="407"/>
-        <source>Trigger: %1</source>
-        <translation>トリガー: %1</translation>
+      <location filename="../htmlexport.cpp" line="407"/>
+      <source>Trigger: %1</source>
+      <translation>トリガー: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="413"/>
-        <source>Activated:</source>
-        <translation>有効化：</translation>
+      <location filename="../htmlexport.cpp" line="413"/>
+      <source>Activated:</source>
+      <translation>有効化：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="421"/>
-        <source>Action:</source>
-        <translation>アクション：</translation>
+      <location filename="../htmlexport.cpp" line="421"/>
+      <source>Action:</source>
+      <translation>アクション：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="428"/>
-        <source>On view:</source>
-        <translation>対象ビュー：</translation>
+      <location filename="../htmlexport.cpp" line="428"/>
+      <source>On view:</source>
+      <translation>対象ビュー：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="430"/>
-        <source>On table:</source>
-        <translation>対象テーブル：</translation>
+      <location filename="../htmlexport.cpp" line="430"/>
+      <source>On table:</source>
+      <translation>対象テーブル：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="441"/>
-        <source>Activate condition:</source>
-        <translation>有効化条件：</translation>
+      <location filename="../htmlexport.cpp" line="441"/>
+      <source>Activate condition:</source>
+      <translation>有効化条件：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="448"/>
-        <source>Code executed:</source>
-        <translation>実行されたコード：</translation>
+      <location filename="../htmlexport.cpp" line="448"/>
+      <source>Code executed:</source>
+      <translation>実行されたコード：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="486"/>
-        <source>View: %1</source>
-        <translation>ビュー: %1</translation>
+      <location filename="../htmlexport.cpp" line="486"/>
+      <source>View: %1</source>
+      <translation>ビュー: %1</translation>
     </message>
     <message>
-        <location filename="../htmlexport.cpp" line="565"/>
-        <source>Document generated by Letos v%1 on %2</source>
-        <translation>Letos v%1 により %2 に生成されたドキュメント</translation>
+      <location filename="../htmlexport.cpp" line="565"/>
+      <source>Document generated by Letos v%1 on %2</source>
+      <translation>Letos v%1 により %2 に生成されたドキュメント</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>HtmlExportConfig</name>
     <message>
-        <location filename="../htmlexport.ui" line="136"/>
-        <source>Maximum number of characters per cell:</source>
-        <translation>セルあたりの最大文字数：</translation>
+      <location filename="../htmlexport.ui" line="136"/>
+      <source>Maximum number of characters per cell:</source>
+      <translation>セルあたりの最大文字数：</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="182"/>
-        <source>Include data types in first row</source>
-        <translation>最初の行にデータ型を含める</translation>
+      <location filename="../htmlexport.ui" line="182"/>
+      <source>Include data types in first row</source>
+      <translation>最初の行にデータ型を含める</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="143"/>
-        <source>Column names as first row</source>
-        <translation>列名を最初の行にする</translation>
+      <location filename="../htmlexport.ui" line="143"/>
+      <source>Column names as first row</source>
+      <translation>列名を最初の行にする</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="126"/>
-        <source>Row numbers as first column</source>
-        <translation>行番号を最初の列にする</translation>
+      <location filename="../htmlexport.ui" line="126"/>
+      <source>Row numbers as first column</source>
+      <translation>行番号を最初の列にする</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="91"/>
-        <source>Output format</source>
-        <translation>出力形式</translation>
+      <location filename="../htmlexport.ui" line="91"/>
+      <source>Output format</source>
+      <translation>出力形式</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="20"/>
-        <source>Custom header</source>
-        <translation>カスタムヘッダー</translation>
+      <location filename="../htmlexport.ui" line="20"/>
+      <source>Custom header</source>
+      <translation>カスタムヘッダー</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="26"/>
-        <source>No custom header</source>
-        <translation>カスタムヘッダーなし</translation>
+      <location filename="../htmlexport.ui" line="26"/>
+      <source>No custom header</source>
+      <translation>カスタムヘッダーなし</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="39"/>
-        <source>Define custom header content</source>
-        <translation>カスタムヘッダーの内容を定義</translation>
+      <location filename="../htmlexport.ui" line="39"/>
+      <source>Define custom header content</source>
+      <translation>カスタムヘッダーの内容を定義</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="52"/>
-        <location filename="../htmlexport.ui" line="224"/>
-        <source>HTML content</source>
-        <translation>HTMLコンテンツ</translation>
+      <location filename="../htmlexport.ui" line="52"/>
+      <location filename="../htmlexport.ui" line="224"/>
+      <source>HTML content</source>
+      <translation>HTMLコンテンツ</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="62"/>
-        <source>Define custom header file</source>
-        <translation>カスタムヘッダーファイルを指定</translation>
+      <location filename="../htmlexport.ui" line="62"/>
+      <source>Define custom header file</source>
+      <translation>カスタムヘッダーファイルを指定</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="78"/>
-        <source>Choose file for the header</source>
-        <translation>ヘッダー用のファイルを選択</translation>
+      <location filename="../htmlexport.ui" line="78"/>
+      <source>Choose file for the header</source>
+      <translation>ヘッダー用のファイルを選択</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="81"/>
-        <location filename="../htmlexport.ui" line="253"/>
-        <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation>HTMLファイル (*.htm, *.html);;テキストファイル (*.txt);;すべてのファイル (*)</translation>
+      <location filename="../htmlexport.ui" line="81"/>
+      <location filename="../htmlexport.ui" line="253"/>
+      <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
+      <translation>HTMLファイル (*.htm, *.html);;テキストファイル (*.txt);;すべてのファイル (*)</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="97"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>ドキュメントを整形（改行、インデント）</translation>
+      <location filename="../htmlexport.ui" line="97"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>ドキュメントを整形（改行、インデント）</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="110"/>
-        <source>Compress (everything in one line)</source>
-        <translation>圧縮（すべてを1行にする）</translation>
+      <location filename="../htmlexport.ui" line="110"/>
+      <source>Compress (everything in one line)</source>
+      <translation>圧縮（すべてを1行にする）</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="153"/>
-        <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
+      <location filename="../htmlexport.ui" line="153"/>
+      <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="156"/>
-        <source>Don&apos;t escape HTML characters</source>
-        <translation>HTML文字をエスケープしない</translation>
+      <location filename="../htmlexport.ui" line="156"/>
+      <source>Don&apos;t escape HTML characters</source>
+      <translation>HTML文字をエスケープしない</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="192"/>
-        <source>Custom footer</source>
-        <translation>カスタムフッター</translation>
+      <location filename="../htmlexport.ui" line="192"/>
+      <source>Custom footer</source>
+      <translation>カスタムフッター</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="198"/>
-        <source>No custom footer</source>
-        <translation>カスタムフッターなし</translation>
+      <location filename="../htmlexport.ui" line="198"/>
+      <source>No custom footer</source>
+      <translation>カスタムフッターなし</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="211"/>
-        <source>Define custom footer content</source>
-        <translation>カスタムフッターの内容を定義</translation>
+      <location filename="../htmlexport.ui" line="211"/>
+      <source>Define custom footer content</source>
+      <translation>カスタムフッターの内容を定義</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="234"/>
-        <source>Define custom footer file</source>
-        <translation>カスタムフッターファイルを指定</translation>
+      <location filename="../htmlexport.ui" line="234"/>
+      <source>Define custom footer file</source>
+      <translation>カスタムフッターファイルを指定</translation>
     </message>
     <message>
-        <location filename="../htmlexport.ui" line="250"/>
-        <source>Choose file for the footer</source>
-        <translation>フッター用のファイルを選択</translation>
+      <location filename="../htmlexport.ui" line="250"/>
+      <source>Choose file for the footer</source>
+      <translation>フッター用のファイルを選択</translation>
     </message>
-</context>
+  </context>
 </TS>
