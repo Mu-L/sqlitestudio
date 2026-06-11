@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="fr" sourcelanguage="en">
-<context>
+  <context>
     <name>QObject</name>
     <message>
-        <location filename="../main.cpp" line="52"/>
-        <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation>Interface graphique de Letos, un gestionnaire SQLite.</translation>
+      <location filename="../main.cpp" line="52"/>
+      <source>GUI interface to Letos, a SQLite manager.</source>
+      <translation>Interface graphique de Letos, un gestionnaire SQLite.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="57"/>
-        <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation>Démarre l’application en mode sans échec sans restaurer la session précédente. Utilisez cette option pour contourner les problèmes causés par une session corrompue.</translation>
+      <location filename="../main.cpp" line="57"/>
+      <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
+      <translation>Démarre l’application en mode sans échec sans restaurer la session précédente. Utilisez cette option pour contourner les problèmes causés par une session corrompue.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="58"/>
-        <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation>Ne charge aucun plugin. Peut être utilisé avec le mode sans échec pour isoler davantage les problèmes potentiels.</translation>
+      <location filename="../main.cpp" line="58"/>
+      <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
+      <translation>Ne charge aucun plugin. Peut être utilisé avec le mode sans échec pour isoler davantage les problèmes potentiels.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="59"/>
-        <source>Enables debug messages in console (accessible with F12).</source>
-        <translation>Messages de déboguage dans la console (accessible avec F12).</translation>
+      <location filename="../main.cpp" line="59"/>
+      <source>Enables debug messages in console (accessible with F12).</source>
+      <translation>Messages de déboguage dans la console (accessible avec F12).</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="60"/>
-        <source>Redirects debug messages into standard output (forces debug mode).</source>
-        <translation>Messages de déboguage redirigés vers sortie standard (mode déboguage forcé).</translation>
+      <location filename="../main.cpp" line="60"/>
+      <source>Redirects debug messages into standard output (forces debug mode).</source>
+      <translation>Messages de déboguage redirigés vers sortie standard (mode déboguage forcé).</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="61"/>
-        <source>Redirects debug messages into given file (forces debug mode).</source>
-        <translation>Messages de déboguage redirigés vers un fichier (mode déboguage forcé).</translation>
+      <location filename="../main.cpp" line="61"/>
+      <source>Redirects debug messages into given file (forces debug mode).</source>
+      <translation>Messages de déboguage redirigés vers un fichier (mode déboguage forcé).</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="61"/>
-        <source>log file</source>
-        <translation>fichier log</translation>
+      <location filename="../main.cpp" line="61"/>
+      <source>log file</source>
+      <translation>fichier log</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="62"/>
-        <source>Enables Lemon parser debug messages for SQL code assistant.</source>
-        <translation>Message de déboguage avec l’analyseur Lemon pour un assistant code SQL.</translation>
+      <location filename="../main.cpp" line="62"/>
+      <source>Enables Lemon parser debug messages for SQL code assistant.</source>
+      <translation>Message de déboguage avec l’analyseur Lemon pour un assistant code SQL.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="63"/>
-        <source>Enables debugging of every single SQL query being sent to any database.</source>
-        <translation>Déboguage pour chaque requête SQL envoyée à toute base de données.</translation>
+      <location filename="../main.cpp" line="63"/>
+      <source>Enables debugging of every single SQL query being sent to any database.</source>
+      <translation>Déboguage pour chaque requête SQL envoyée à toute base de données.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="64"/>
-        <source>Limits SQL query messages to only the given &lt;database&gt;.</source>
-        <translation>Limite les messages de la requête SQL à la &lt;database&gt;.</translation>
+      <location filename="../main.cpp" line="64"/>
+      <source>Limits SQL query messages to only the given &lt;database&gt;.</source>
+      <translation>Limite les messages de la requête SQL à la &lt;database&gt;.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="64"/>
-        <source>database</source>
-        <translation>base de données</translation>
+      <location filename="../main.cpp" line="64"/>
+      <source>database</source>
+      <translation>base de données</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="56"/>
-        <source>Points to the master configuration file. Read manual at wiki page for more details.</source>
-        <translation>Pointe vers le fichier de configuration maître. Lisez le manuel sur la page wiki pour plus de détails.</translation>
+      <location filename="../main.cpp" line="56"/>
+      <source>Points to the master configuration file. Read manual at wiki page for more details.</source>
+      <translation>Pointe vers le fichier de configuration maître. Lisez le manuel sur la page wiki pour plus de détails.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="56"/>
-        <source>settings file</source>
-        <translation>fichier de paramètres</translation>
+      <location filename="../main.cpp" line="56"/>
+      <source>settings file</source>
+      <translation>fichier de paramètres</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="65"/>
-        <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation>Active le débogage de l&apos;exécuteur de requêtes de Letos.</translation>
+      <location filename="../main.cpp" line="65"/>
+      <source>Enables debugging of Letos&apos;s query executor.</source>
+      <translation>Active le débogage de l&apos;exécuteur de requêtes de Letos.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="66"/>
-        <source>Lists plugins installed in the Letos and quits.</source>
-        <translation>Liste les plugins installés dans Letos et quitte.</translation>
+      <location filename="../main.cpp" line="66"/>
+      <source>Lists plugins installed in the Letos and quits.</source>
+      <translation>Liste les plugins installés dans Letos et quitte.</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="79"/>
-        <source>file</source>
-        <translation>fichier</translation>
+      <location filename="../main.cpp" line="79"/>
+      <source>file</source>
+      <translation>fichier</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="79"/>
-        <source>Database file to open</source>
-        <translation>Fichier de la base de données à ouvrir</translation>
+      <location filename="../main.cpp" line="79"/>
+      <source>Database file to open</source>
+      <translation>Fichier de la base de données à ouvrir</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="152"/>
-        <source>Select configuration directory</source>
-        <translation>Sélectionnez le répertoire de configuration</translation>
+      <location filename="../main.cpp" line="152"/>
+      <source>Select configuration directory</source>
+      <translation>Sélectionnez le répertoire de configuration</translation>
     </message>
-</context>
+  </context>
 </TS>
