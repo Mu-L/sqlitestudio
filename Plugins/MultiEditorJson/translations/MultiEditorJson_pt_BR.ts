@@ -67,9 +67,8 @@
 <context>
     <name>MultiEditorJsonPlugin</name>
     <message>
-        <location filename="../multieditorjson.cpp" line="315"/>
         <source>JSON</source>
-        <translation type="unfinished">JSON</translation>
+        <translation type="obsolete">JSON</translation>
     </message>
 </context>
 </TS>
