@@ -6,52 +6,52 @@
     <message>
         <location filename="../CsvExport.ui" line="20"/>
         <source>Column names in first row</source>
-        <translation type="unfinished">Column names in first row</translation>
+        <translation>Називи колона у првом реду</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="30"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>Раздвајач колона:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="41"/>
         <source>, (comma)</source>
-        <translation type="unfinished">, (comma)</translation>
+        <translation>, (зарез)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="46"/>
         <source>; (semicolon)</source>
-        <translation type="unfinished">; (semicolon)</translation>
+        <translation>; (тачка и зарез)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="51"/>
         <source>\t (tab)</source>
-        <translation type="unfinished">\t (tab)</translation>
+        <translation>\t (табулатор)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="56"/>
         <source>  (whitespace)</source>
-        <translation type="unfinished">  (whitespace)</translation>
+        <translation>  (размак)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="61"/>
         <source>Custom:</source>
-        <translation type="unfinished">Custom:</translation>
+        <translation>Прилагођено:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="82"/>
         <source>Export NULL values as:</source>
-        <translation type="unfinished">Export NULL values as:</translation>
+        <translation>Извези NULL вредности као:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="89"/>
         <source>Empty string</source>
-        <translation type="unfinished">Empty string</translation>
+        <translation>Празан ниска</translation>
     </message>
     <message>
         <location filename="../csvexport.cpp" line="41"/>
         <source>Enter the custom separator character.</source>
-        <translation type="unfinished">Enter the custom separator character.</translation>
+        <translation>Унесите прилагођени знак раздвајача.</translation>
     </message>
 </context>
 </TS>

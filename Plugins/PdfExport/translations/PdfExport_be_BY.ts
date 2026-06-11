@@ -6,169 +6,169 @@
     <message>
         <location filename="../pdfexport.cpp" line="66"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>Вынікі SQL-запыту</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="205"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Экспартаваная табліца: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="101"/>
         <location filename="../pdfexport.cpp" line="153"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Табліца: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="33"/>
         <source>Letos v%1</source>
-        <translation type="unfinished">Letos v%1</translation>
+        <translation>Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Калонка</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+        <translation>Тып дадзеных</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="104"/>
         <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+        <translation>Абмежаванні</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="135"/>
         <source>Global table constraints</source>
-        <translation type="unfinished">Global table constraints</translation>
+        <translation>Глабальныя абмежаванні табліцы</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="216"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Экспартаванае прадстаўленне: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="250"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Экспартаваная база даных: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="258"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Індэкс: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Property</source>
         <comment>index header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Уласцівасць</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="260"/>
         <source>Value</source>
         <comment>index header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Значэнне</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="263"/>
         <source>Indexed table</source>
-        <translation type="unfinished">Indexed table</translation>
+        <translation>Індэксаваная табліца</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+        <translation>Унікальны індэкс</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Так</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="264"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+        <translation>Правілы сартавання</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="266"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Парадак сартавання</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="282"/>
         <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+        <translation>Умова частковага індэкса</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="296"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Трыгер: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Property</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Property</translation>
+        <translation>Уласцівасць</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="298"/>
         <source>Value</source>
         <comment>trigger header</comment>
-        <translation type="unfinished">Value</translation>
+        <translation>Значэнне</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="300"/>
         <source>Activation time</source>
-        <translation type="unfinished">Activation time</translation>
+        <translation>Час актывацыі</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="303"/>
         <source>For action</source>
-        <translation type="unfinished">For action</translation>
+        <translation>Для дзеяння</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="307"/>
         <source>On view</source>
-        <translation type="unfinished">On view</translation>
+        <translation>Для прадстаўлення</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="309"/>
         <source>On table</source>
-        <translation type="unfinished">On table</translation>
+        <translation>Для табліцы</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="314"/>
         <source>Activation condition</source>
-        <translation type="unfinished">Activation condition</translation>
+        <translation>Умова актывацыі</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="320"/>
         <source>Code executed</source>
-        <translation type="unfinished">Code executed</translation>
+        <translation>Код для выканання</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="333"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>Прадстаўленне: %1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="710"/>
         <source>Document generated with Letos v%1</source>
-        <translation type="unfinished">Document generated with Letos v%1</translation>
+        <translation>Дакумент згенераваны з дапамогай Letos v%1</translation>
     </message>
     <message>
         <location filename="../pdfexport.cpp" line="69"/>
         <location filename="../pdfexport.cpp" line="335"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Запыт:</translation>
     </message>
 </context>
 <context>
@@ -176,32 +176,32 @@
     <message>
         <location filename="../pdfexport.ui" line="20"/>
         <source>Size and layout</source>
-        <translation type="unfinished">Size and layout</translation>
+        <translation>Памер і макет</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="36"/>
         <source>Page size:</source>
-        <translation type="unfinished">Page size:</translation>
+        <translation>Памер старонкі:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="63"/>
         <source>Right margin:</source>
-        <translation type="unfinished">Right margin:</translation>
+        <translation>Правае поле:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="70"/>
         <source>Left margin:</source>
-        <translation type="unfinished">Left margin:</translation>
+        <translation>Левае поле:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="77"/>
         <source>Cell padding:</source>
-        <translation type="unfinished">Cell padding:</translation>
+        <translation>Унутраны водступ ячэйкі:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="84"/>
         <source>Limit characters in single cell:</source>
-        <translation type="unfinished">Limit characters in single cell:</translation>
+        <translation>Абмежаваць колькасць сімвалаў у адной ячэйцы:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="91"/>
@@ -210,114 +210,114 @@
         <location filename="../pdfexport.ui" line="132"/>
         <location filename="../pdfexport.ui" line="156"/>
         <source>mm</source>
-        <translation type="unfinished">mm</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="139"/>
         <source>Bottom margin:</source>
-        <translation type="unfinished">Bottom margin:</translation>
+        <translation>Ніжняе поле:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="163"/>
         <source>Top margin:</source>
-        <translation type="unfinished">Top margin:</translation>
+        <translation>Верхняе поле:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="183"/>
         <source>Font</source>
-        <translation type="unfinished">Font</translation>
+        <translation>Шрыфт</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="206"/>
         <source>Colors</source>
-        <translation type="unfinished">Colors</translation>
+        <translation>Колеры</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="212"/>
         <source>Headers background:</source>
-        <translation type="unfinished">Headers background:</translation>
+        <translation>Фон загалоўкаў:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="235"/>
         <source>NULL value color:</source>
-        <translation type="unfinished">NULL value color:</translation>
+        <translation>Колер значэння NULL:</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="261"/>
         <source>Other settings</source>
-        <translation type="unfinished">Other settings</translation>
+        <translation>Іншыя налады</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="267"/>
         <source>Print row numbers for data</source>
-        <translation type="unfinished">Print row numbers for data</translation>
+        <translation>Друкаваць нумары радкоў для дадзеных</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="277"/>
         <source>Print page numbers</source>
-        <translation type="unfinished">Print page numbers</translation>
+        <translation>Друкаваць нумары старонак</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="290"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Карыстальніцкі верхні калантытул</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="296"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>Без карыстальніцкага верхняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Вызначыць змесціва карыстальніцкага верхняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="322"/>
         <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
-        <translation type="unfinished">Plain text content</translation>
+        <translation>Змесціва простым тэкстам</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Вызначыць файл карыстальніцкага верхняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="348"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>Выберыце файл для верхняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="351"/>
         <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Тэкставыя файлы (*.txt);;Усе файлы (*)</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Карыстальніцкі ніжні калантытул</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>Без карыстальніцкага ніжняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Вызначыць змесціва карыстальніцкага ніжняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Вызначыць файл карыстальніцкага ніжняга калантытула</translation>
     </message>
     <message>
         <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Выберыце файл для ніжняга калантытула</translation>
     </message>
 </context>
 </TS>

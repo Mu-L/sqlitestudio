@@ -6,32 +6,32 @@
     <message>
         <location filename="../regexpimport.cpp" line="37"/>
         <source>Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">Text files (*.txt);;All files (*)</translation>
+        <translation>Тэкставыя файлы (*.txt);;Усе файлы (*)</translation>
     </message>
     <message>
         <location filename="../regexpimport.cpp" line="53"/>
         <source>Cannot read file %1</source>
-        <translation type="unfinished">Cannot read file %1</translation>
+        <translation>Немагчыма прачытаць файл %1</translation>
     </message>
     <message>
         <location filename="../regexpimport.cpp" line="161"/>
         <source>Enter the regular expression pattern.</source>
-        <translation type="unfinished">Enter the regular expression pattern.</translation>
+        <translation>Увядзіце шаблон рэгулярнага выразу.</translation>
     </message>
     <message>
         <location filename="../regexpimport.cpp" line="169"/>
         <source>Invalid pattern: %1</source>
-        <translation type="unfinished">Invalid pattern: %1</translation>
+        <translation>Недапушчальны шаблон: %1</translation>
     </message>
     <message>
         <location filename="../regexpimport.cpp" line="189"/>
         <source>Requested capture index %1 is out of range.</source>
-        <translation type="unfinished">Requested capture index %1 is out of range.</translation>
+        <translation>Запытаны індэкс захопу %1 па-за дыяпазонам.</translation>
     </message>
     <message>
         <location filename="../regexpimport.cpp" line="196"/>
         <source>&lt;p&gt;Requested capture group name &apos;%1&apos;, but it&apos;s not defined in the pattern: &lt;pre&gt;%2&lt;/pre&gt;&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Requested capture group name &apos;%1&apos;, but it&apos;s not defined in the pattern: &lt;pre&gt;%2&lt;/pre&gt;&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Запытана назва групы захопу &apos;%1&apos;, але яна не вызначана ў шаблоне: &lt;pre&gt;%2&lt;/pre&gt;&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -39,48 +39,48 @@
     <message>
         <location filename="../regexpimport.ui" line="20"/>
         <source>Capture groups</source>
-        <translation type="unfinished">Capture groups</translation>
+        <translation>Групы захопу</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="26"/>
         <source>Treat all RegExp capture groups as columns</source>
-        <translation type="unfinished">Treat all RegExp capture groups as columns</translation>
+        <translation>Разглядаць усе групы захопу рэгулярнага выразу як слупкі</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="39"/>
         <source>Import only following groups:</source>
-        <translation type="unfinished">Import only following groups:</translation>
+        <translation>Імпартаваць толькі наступныя групы:</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="52"/>
         <source>&lt;p&gt;Enter comma separated list of capture group indexes. The 0 index refers to the entire matched string.&lt;/p&gt;
 &lt;p&gt;If you used named groups in the pattern, you can use names instead of indexes. You can mix indexes and names in this list.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Enter comma separated list of capture group indexes. The 0 index refers to the entire matched string.&lt;/p&gt;
-&lt;p&gt;If you used named groups in the pattern, you can use names instead of indexes. You can mix indexes and names in this list.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Увядзіце спіс індэксаў груп захопу, раздзеленых коскамі. Індэкс 0 адпавядае ўсяму радку супадзення.&lt;/p&gt;
+&lt;p&gt;Калі вы выкарыстоўвалі ў шаблоне найменныя групы, можна выкарыстоўваць назвы замест індэксаў. У гэтым спісе можна змешваць індэксы і назвы.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="56"/>
         <source>Example: 1, 3, 4</source>
-        <translation type="unfinished">Example: 1, 3, 4</translation>
+        <translation>Прыклад: 1, 3, 4</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="69"/>
         <source>Pattern:</source>
-        <translation type="unfinished">Pattern:</translation>
+        <translation>Шаблон:</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="76"/>
         <source>&lt;p&gt;Use Regular Expression groups to enclose parts of the expression that you want to import. If you want to use a group, that you don&apos;t want to import, then use &quot;import only following groups&quot; option below.
 
 You can use named groups and refer to them in group list below. To name a group use: &lt;pre&gt;(?&amp;lt;myGroupName&amp;gt;\s+\d+\s+)&lt;/pre&gt;&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Use Regular Expression groups to enclose parts of the expression that you want to import. If you want to use a group, that you don&apos;t want to import, then use &quot;import only following groups&quot; option below.
+        <translation>&lt;p&gt;Выкарыстоўвайце групы рэгулярнага выразу, каб ахапіць часткі выразу, якія вы хочаце імпартаваць. Калі вы хочаце выкарыстаць групу, якую не хочаце імпартаваць, скарыстайцеся параметрам &quot;імпартаваць толькі наступныя групы&quot; ніжэй.
 
-You can use named groups and refer to them in group list below. To name a group use: &lt;pre&gt;(?&amp;lt;myGroupName&amp;gt;\s+\d+\s+)&lt;/pre&gt;&lt;/p&gt;</translation>
+Можна выкарыстоўваць найменныя групы і спасылацца на іх у спісе груп ніжэй. Каб назваць групу, выкарыстоўвайце: &lt;pre&gt;(?&amp;lt;myGroupName&amp;gt;\s+\d+\s+)&lt;/pre&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../regexpimport.ui" line="81"/>
         <source>Example: (\d+)\s+((\d+)\w+)\s+(\w+)</source>
-        <translation type="unfinished">Example: (\d+)\s+((\d+)\w+)\s+(\w+)</translation>
+        <translation>Прыклад: (\d+)\s+((\d+)\w+)\s+(\w+)</translation>
     </message>
 </context>
 </TS>

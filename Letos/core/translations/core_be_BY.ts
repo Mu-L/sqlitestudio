@@ -7,12 +7,12 @@
         <location filename="../db/abstractdb.cpp" line="415"/>
         <location filename="../db/abstractdb.cpp" line="432"/>
         <source>Cannot execute query on closed database.</source>
-        <translation type="unfinished">Cannot execute query on closed database.</translation>
+        <translation>Немагчыма выканаць запыт у закрытай базе дадзеных.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb.cpp" line="858"/>
         <source>Error attaching database %1: %2</source>
-        <translation type="unfinished">Error attaching database %1: %2</translation>
+        <translation>Памылка далучэння базы дадзеных %1: %2</translation>
     </message>
 </context>
 <context>
@@ -21,43 +21,43 @@
         <location filename="../db/chainexecutor.cpp" line="38"/>
         <source>The database for executing queries was not defined.</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">The database for executing queries was not defined.</translation>
+        <translation>База дадзеных для выканання запытаў не была вызначана.</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="45"/>
         <source>The database for executing queries was not open.</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">The database for executing queries was not open.</translation>
+        <translation>База дадзеных для выканання запытаў не была адкрыта.</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="58"/>
         <source>Could not disable foreign keys in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not disable foreign keys in the database. Details: %1</translation>
+        <translation>Не ўдалося адключыць знешнія ключы ў базе дадзеных. Падрабязнасці: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="73"/>
         <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</translation>
+        <translation>Не ўдалося пераключыцца на састарэлыя паводзіны ALTER RENAME у базе дадзеных. Падрабязнасці: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="82"/>
         <source>Could not start a database transaction. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not start a database transaction. Details: %1</translation>
+        <translation>Не ўдалося пачаць транзакцыю базы дадзеных. Падрабязнасці: %1</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="112"/>
         <source>Interrupted</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Interrupted</translation>
+        <translation>Перапынена</translation>
     </message>
     <message>
         <location filename="../db/chainexecutor.cpp" line="180"/>
         <source>Could not commit a database transaction. Details: %1</source>
         <comment>chain executor</comment>
-        <translation type="unfinished">Could not commit a database transaction. Details: %1</translation>
+        <translation>Не ўдалося зафіксаваць транзакцыю базы дадзеных. Падрабязнасці: %1</translation>
     </message>
 </context>
 <context>
@@ -65,93 +65,93 @@
     <message>
         <location filename="../completionhelper.cpp" line="163"/>
         <source>New row reference</source>
-        <translation type="unfinished">New row reference</translation>
+        <translation>Спасылка на новы радок</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="170"/>
         <source>Old row reference</source>
-        <translation type="unfinished">Old row reference</translation>
+        <translation>Спасылка на стары радок</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="175"/>
         <source>New table name</source>
-        <translation type="unfinished">New table name</translation>
+        <translation>Назва новай табліцы</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="178"/>
         <source>New index name</source>
-        <translation type="unfinished">New index name</translation>
+        <translation>Назва новага індэкса</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="181"/>
         <source>New view name</source>
-        <translation type="unfinished">New view name</translation>
+        <translation>Назва новага прадстаўлення</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="184"/>
         <source>New trigger name</source>
-        <translation type="unfinished">New trigger name</translation>
+        <translation>Назва новага трыгера</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="187"/>
         <source>Table or column alias</source>
-        <translation type="unfinished">Table or column alias</translation>
+        <translation>Псеўданім табліцы або калонкі</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="190"/>
         <source>transaction name</source>
-        <translation type="unfinished">transaction name</translation>
+        <translation>назва транзакцыі</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="193"/>
         <source>New column name</source>
-        <translation type="unfinished">New column name</translation>
+        <translation>Імя новай калонкі</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="196"/>
         <source>Column data type</source>
-        <translation type="unfinished">Column data type</translation>
+        <translation>Тып дадзеных калонкі</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="199"/>
         <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+        <translation>Назва абмежавання</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="215"/>
         <source>Error message</source>
-        <translation type="unfinished">Error message</translation>
+        <translation>Паведамленне пра памылку</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="264"/>
         <source>Any word</source>
-        <translation type="unfinished">Any word</translation>
+        <translation>Любое слова</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="267"/>
         <source>String</source>
-        <translation type="unfinished">String</translation>
+        <translation>Радок</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="270"/>
         <location filename="../completionhelper.cpp" line="273"/>
         <source>Number</source>
-        <translation type="unfinished">Number</translation>
+        <translation>Лік</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="285"/>
         <source>BLOB literal</source>
-        <translation type="unfinished">BLOB literal</translation>
+        <translation>Літарал BLOB</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="445"/>
         <source>Default database</source>
-        <translation type="unfinished">Default database</translation>
+        <translation>Прадвызначаная база дадзеных</translation>
     </message>
     <message>
         <location filename="../completionhelper.cpp" line="446"/>
         <source>Temporary objects database</source>
-        <translation type="unfinished">Temporary objects database</translation>
+        <translation>База дадзеных часовых аб&apos;ектаў</translation>
     </message>
 </context>
 <context>
@@ -159,42 +159,42 @@
     <message>
         <location filename="../services/impl/configimpl.cpp" line="592"/>
         <source>Cannot export config to file %1: %2</source>
-        <translation type="unfinished">Cannot export config to file %1: %2</translation>
+        <translation>Немагчыма экспартаваць канфігурацыю ў файл %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="597"/>
         <source>Config exported successfully to %1</source>
-        <translation type="unfinished">Config exported successfully to %1</translation>
+        <translation>Канфігурацыя паспяхова экспартавана ў %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="629"/>
         <source>Cannot import config from file %1: %2</source>
-        <translation type="unfinished">Cannot import config from file %1: %2</translation>
+        <translation>Немагчыма імпартаваць канфігурацыю з файла %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="648"/>
         <source>Config imported successfully from %1</source>
-        <translation type="unfinished">Config imported successfully from %1</translation>
+        <translation>Канфігурацыя паспяхова імпартавана з %1</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="659"/>
         <source>Cannot read file %1: %2</source>
-        <translation type="unfinished">Cannot read file %1: %2</translation>
+        <translation>Немагчыма прачытаць файл %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1001"/>
         <source>Could not start database transaction for deleting SQL history, therefore it&apos;s not deleted.</source>
-        <translation type="unfinished">Could not start database transaction for deleting SQL history, therefore it&apos;s not deleted.</translation>
+        <translation>Не ўдалося пачаць транзакцыю базы даных для выдалення гісторыі SQL, таму аперацыя не з&apos;яўляецца выкананай.</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1008"/>
         <source>Could not commit database transaction for deleting SQL history, therefore it&apos;s not deleted.</source>
-        <translation type="unfinished">Could not commit database transaction for deleting SQL history, therefore it&apos;s not deleted.</translation>
+        <translation>Не ўдалося зафіксаваць транзакцыю базы даных для выдалення гісторыі SQL, таму аперацыя не з&apos;яўляецца выкананай.</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="1366"/>
         <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-        <translation type="unfinished">Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</translation>
+        <translation>Наладжаныя гарачыя клавішы былі скінуты да стандартных налад пасля абнаўлення да версіі 4.0.0, у якой многія спалучэнні клавіш былі перагледжаны для адпаведнасці сучасным стандартам IDE.</translation>
     </message>
 </context>
 <context>
@@ -202,35 +202,35 @@
     <message>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="63"/>
         <source>Could not add database %1: %2</source>
-        <translation type="unfinished">Could not add database %1: %2</translation>
+        <translation>Не ўдалося дадаць базу дадзеных %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="148"/>
         <source>Database %1 could not be updated, because of an error: %2</source>
-        <translation type="unfinished">Database %1 could not be updated, because of an error: %2</translation>
+        <translation>Базу дадзеных %1 не ўдалося абнавіць з-за памылкі: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="385"/>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="414"/>
         <source>Database file doesn&apos;t exist.</source>
-        <translation type="unfinished">Database file doesn&apos;t exist.</translation>
+        <translation>Файл базы даных з&apos;яўляецца адсутным.</translation>
     </message>
     <message>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="387"/>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="416"/>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="632"/>
         <source>No supporting plugin loaded.</source>
-        <translation type="unfinished">No supporting plugin loaded.</translation>
+        <translation>Не загружана ўбудова падтрымкі.</translation>
     </message>
     <message>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="550"/>
         <source>Database could not be initialized.</source>
-        <translation type="unfinished">Database could not be initialized.</translation>
+        <translation>Не ўдалося ініцыялізаваць базу дадзеных.</translation>
     </message>
     <message>
         <location filename="../services/impl/dbmanagerimpl.cpp" line="560"/>
         <source>No suitable database driver plugin found.</source>
-        <translation type="unfinished">No suitable database driver plugin found.</translation>
+        <translation>Не знойдзена прыдатная ўбудова драйвера базы дадзеных.</translation>
     </message>
 </context>
 <context>
@@ -240,74 +240,74 @@
         <location filename="../dbobjectorganizer.cpp" line="130"/>
         <location filename="../dbobjectorganizer.cpp" line="149"/>
         <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-        <translation type="unfinished">An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</translation>
+        <translation>Падчас спробы перайменаваць табліцу &apos;%1&apos; у &apos;%2&apos; адбылася памылка: %3</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="131"/>
         <source>Failed to parse object definition.</source>
-        <translation type="unfinished">Failed to parse object definition.</translation>
+        <translation>Не ўдалося разабраць азначэнне аб&apos;екта.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="166"/>
         <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-        <translation type="unfinished">An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</translation>
+        <translation>Падчас спробы перайменаваць калонку &apos;%1&apos; табліцы &apos;%2&apos; у &apos;%3&apos; адбылася памылка: %4</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
         <location filename="../dbobjectorganizer.cpp" line="493"/>
         <source>Error while creating table in target database: %1</source>
-        <translation type="unfinished">Error while creating table in target database: %1</translation>
+        <translation>Памылка падчас стварэння табліцы ў мэтавай базе дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="462"/>
         <source>Could not parse table.</source>
-        <translation type="unfinished">Could not parse table.</translation>
+        <translation>Не ўдалося разабраць табліцу.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="507"/>
         <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-        <translation type="unfinished">Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</translation>
+        <translation>Базу дадзеных %1 не ўдалося далучыць да базы дадзеных %2, таму дадзеныя табліцы %3 будуць скапіраваны з Letos у якасці пасярэдніка. Гэты метад можа быць павольным для вялікіх табліц, таму набярыцеся цярпення.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="531"/>
         <source>Error while copying data for table %1: %2</source>
-        <translation type="unfinished">Error while copying data for table %1: %2</translation>
+        <translation>Памылка падчас капіравання дадзеных для табліцы %1: %2</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="550"/>
         <location filename="../dbobjectorganizer.cpp" line="557"/>
         <location filename="../dbobjectorganizer.cpp" line="584"/>
         <source>Error while copying data to table %1: %2</source>
-        <translation type="unfinished">Error while copying data to table %1: %2</translation>
+        <translation>Памылка падчас капіравання дадзеных у табліцу %1: %2</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="606"/>
         <source>Error while dropping source view %1: %2
 Tables, indexes, triggers and views copied to database %3 will remain.</source>
-        <translation type="unfinished">Error while dropping source view %1: %2
-Tables, indexes, triggers and views copied to database %3 will remain.</translation>
+        <translation>Памылка падчас выдалення зыходнага прадстаўлення %1: %2
+Табліцы, індэксы, трыгеры і прадстаўленні, скапіраваныя ў базу дадзеных %3, застануцца.</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="613"/>
         <source>Error while creating view in target database: %1</source>
-        <translation type="unfinished">Error while creating view in target database: %1</translation>
+        <translation>Памылка падчас стварэння прадстаўлення ў мэтавай базе дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="618"/>
         <source>Error while creating index in target database: %1</source>
-        <translation type="unfinished">Error while creating index in target database: %1</translation>
+        <translation>Памылка падчас стварэння індэкса ў мэтавай базе дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="623"/>
         <source>Error while creating trigger in target database: %1</source>
-        <translation type="unfinished">Error while creating trigger in target database: %1</translation>
+        <translation>Памылка падчас стварэння трыгера ў мэтавай базе дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../dbobjectorganizer.cpp" line="763"/>
         <location filename="../dbobjectorganizer.cpp" line="770"/>
         <location filename="../dbobjectorganizer.cpp" line="779"/>
         <source>Could not parse object &apos;%1&apos; in order to move or copy it.</source>
-        <translation type="unfinished">Could not parse object &apos;%1&apos; in order to move or copy it.</translation>
+        <translation>Не ўдалося разабраць аб&apos;ект &apos;%1&apos;, каб перамясціць або скапіраваць яго.</translation>
     </message>
 </context>
 <context>
@@ -316,25 +316,25 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <location filename="../ddlhistorymodel.cpp" line="66"/>
         <source>Database name</source>
         <comment>ddl history header</comment>
-        <translation type="unfinished">Database name</translation>
+        <translation>Назва базы дадзеных</translation>
     </message>
     <message>
         <location filename="../ddlhistorymodel.cpp" line="68"/>
         <source>Database file</source>
         <comment>ddl history header</comment>
-        <translation type="unfinished">Database file</translation>
+        <translation>Файл базы дадзеных</translation>
     </message>
     <message>
         <location filename="../ddlhistorymodel.cpp" line="70"/>
         <source>Date of execution</source>
         <comment>ddl history header</comment>
-        <translation type="unfinished">Date of execution</translation>
+        <translation>Дата выканання</translation>
     </message>
     <message>
         <location filename="../ddlhistorymodel.cpp" line="72"/>
         <source>Changes</source>
         <comment>ddl history header</comment>
-        <translation type="unfinished">Changes</translation>
+        <translation>Змены</translation>
     </message>
 </context>
 <context>
@@ -342,47 +342,47 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/exportmanager.cpp" line="74"/>
         <source>Export plugin %1 doesn&apos;t support exporing query results.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing query results.</translation>
+        <translation>Убудова экспарту %1 не з&apos;яўляецца сумяшчальнай з экспартаваннем вынікаў запытаў.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="100"/>
         <source>Export plugin %1 doesn&apos;t support exporing tables.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing tables.</translation>
+        <translation>Убудова экспарту %1 не з&apos;яўляецца сумяшчальнай з экспартаваннем табліц.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="126"/>
         <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing views.</translation>
+        <translation>Убудова экспарту %1 не з&apos;яўляецца сумяшчальнай з экспартаваннем прадстаўленняў.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="150"/>
         <source>Export plugin %1 doesn&apos;t support exporing databases.</source>
-        <translation type="unfinished">Export plugin %1 doesn&apos;t support exporing databases.</translation>
+        <translation>Убудова экспарту %1 не з&apos;яўляецца сумяшчальнай з экспартаваннем баз даных.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="183"/>
         <source>Export format &apos;%1&apos; is not supported. Supported formats are: %2.</source>
-        <translation type="unfinished">Export format &apos;%1&apos; is not supported. Supported formats are: %2.</translation>
+        <translation>Фармат экспарту &apos;%1&apos; не падтрымліваецца. Фарматы, якія падтрымліваюцца: %2.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="247"/>
         <source>Export to the clipboard was successful.</source>
-        <translation type="unfinished">Export to the clipboard was successful.</translation>
+        <translation>Экспарт у буфер абмену паспяхова выкананы.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="251"/>
         <source>Export to the file &apos;%1&apos; was successful.</source>
-        <translation type="unfinished">Export to the file &apos;%1&apos; was successful.</translation>
+        <translation>Экспарт у файл &apos;%1&apos; паспяхова выкананы.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="253"/>
         <source>Export was successful.</source>
-        <translation type="unfinished">Export was successful.</translation>
+        <translation>Экспарт паспяхова выкананы.</translation>
     </message>
     <message>
         <location filename="../services/exportmanager.cpp" line="295"/>
         <source>Could not export to file %1. File cannot be open for writting.</source>
-        <translation type="unfinished">Could not export to file %1. File cannot be open for writting.</translation>
+        <translation>Не ўдалося экспартаваць у файл %1. Файл немагчыма адкрыць для запісу.</translation>
     </message>
 </context>
 <context>
@@ -390,34 +390,34 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../exportworker.cpp" line="136"/>
         <source>Error while exporting query results: %1</source>
-        <translation type="unfinished">Error while exporting query results: %1</translation>
+        <translation>Памылка падчас экспартавання вынікаў запыту: %1</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="222"/>
         <source>Error while counting data column width to export from query results: %1</source>
-        <translation type="unfinished">Error while counting data column width to export from query results: %1</translation>
+        <translation>Памылка падчас падліку шырыні калонкі дадзеных для экспарту з вынікаў запыту: %1</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="366"/>
         <location filename="../exportworker.cpp" line="426"/>
         <location filename="../exportworker.cpp" line="545"/>
         <source>Could not parse %1 in order to export it. It will be excluded from the export output.</source>
-        <translation type="unfinished">Could not parse %1 in order to export it. It will be excluded from the export output.</translation>
+        <translation>Не ўдалося разабраць %1, каб экспартаваць яго. Ён будзе выключаны з выніковага экспарту.</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="821"/>
         <source>Error while reading data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while reading data to export from table or view %1: %2</translation>
+        <translation>Памылка падчас чытання дадзеных для экспарту з табліцы або прадстаўлення %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="829"/>
         <source>Error while counting data to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data to export from table or view %1: %2</translation>
+        <translation>Памылка падчас падліку дадзеных для экспарту з табліцы або прадстаўлення %1: %2</translation>
     </message>
     <message>
         <location filename="../exportworker.cpp" line="845"/>
         <source>Error while counting data column width to export from table or view %1: %2</source>
-        <translation type="unfinished">Error while counting data column width to export from table or view %1: %2</translation>
+        <translation>Памылка падчас падліку шырыні калонкі дадзеных для экспарту з табліцы або прадстаўлення %1: %2</translation>
     </message>
 </context>
 <context>
@@ -425,17 +425,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/functionmanager.cpp" line="37"/>
         <source>Scalar</source>
-        <translation type="unfinished">Scalar</translation>
+        <translation>Скалярная</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="39"/>
         <source>Aggregate</source>
-        <translation type="unfinished">Aggregate</translation>
+        <translation>Агрэгатная</translation>
     </message>
     <message>
         <location filename="../services/functionmanager.cpp" line="41"/>
         <source>Window</source>
-        <translation type="unfinished">Window</translation>
+        <translation>Аконная</translation>
     </message>
 </context>
 <context>
@@ -443,48 +443,48 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
         <source>Could not create scripting context, probably the plugin is not configured properly</source>
-        <translation type="unfinished">Could not create scripting context, probably the plugin is not configured properly</translation>
+        <translation>Не ўдалося стварыць кантэкст сцэнарыяў, верагодна, убудова наладжана няправільна</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
         <source>Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</source>
-        <translation type="unfinished">Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</translation>
+        <translation>Няправільная колькасць аргументаў для функцыі &apos;%1&apos;. Чакалася %2, атрымана %3.</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
         <source>No such function registered in Letos: %1(%2)</source>
-        <translation type="unfinished">No such function registered in Letos: %1(%2)</translation>
+        <translation>Такая функцыя не зарэгістравана ў Letos: %1(%2)</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
         <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
-        <translation type="unfinished">Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</translation>
+        <translation>Функцыя %1(%2) была зарэгістравана з мовай %3, але ўбудова, якая падтрымлівае гэтую мову, цяпер не загружана.</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
         <source>Invalid regular expression pattern: %1</source>
-        <translation type="unfinished">Invalid regular expression pattern: %1</translation>
+        <translation>Няправільны шаблон рэгулярнага выразу: %1</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="491"/>
         <source>Could not open file %1 for reading: %2</source>
-        <translation type="unfinished">Could not open file %1 for reading: %2</translation>
+        <translation>Не ўдалося адкрыць файл %1 для чытання: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="513"/>
         <source>Could not open file %1 for writting: %2</source>
-        <translation type="unfinished">Could not open file %1 for writting: %2</translation>
+        <translation>Не ўдалося адкрыць файл %1 для запісу: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="533"/>
         <source>Error while writting to file %1: %2</source>
-        <translation type="unfinished">Error while writting to file %1: %2</translation>
+        <translation>Памылка падчас запісу ў файл %1: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
         <source>Unsupported scripting language: %1</source>
-        <translation type="unfinished">Unsupported scripting language: %1</translation>
+        <translation>Мова сцэнарыяў не падтрымліваецца: %1</translation>
     </message>
 </context>
 <context>
@@ -492,7 +492,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/genericexportplugin.cpp" line="19"/>
         <source>Could not initialize text codec for exporting. Using default codec: %1</source>
-        <translation type="unfinished">Could not initialize text codec for exporting. Using default codec: %1</translation>
+        <translation>Не ўдалося ініцыялізаваць тэкставы кодэк для экспарту. Выкарыстоўваецца прадвызначаны кодэк: %1</translation>
     </message>
 </context>
 <context>
@@ -500,7 +500,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/importmanager.cpp" line="98"/>
         <source>Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</source>
-        <translation type="unfinished">Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</translation>
+        <translation>Дадзеныя паспяхова імпартаваны ў табліцу &apos;%1&apos;. Колькасць імпартаваных радкоў: %2</translation>
     </message>
 </context>
 <context>
@@ -508,51 +508,51 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../importworker.cpp" line="24"/>
         <source>No columns provided by the import plugin.</source>
-        <translation type="unfinished">No columns provided by the import plugin.</translation>
+        <translation>Убудова імпарту не прадаставіла калонак.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="31"/>
         <source>Could not start transaction in order to import a data: %1</source>
-        <translation type="unfinished">Could not start transaction in order to import a data: %1</translation>
+        <translation>Не ўдалося пачаць транзакцыю для імпарту дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="54"/>
         <source>Could not commit transaction for imported data: %1</source>
-        <translation type="unfinished">Could not commit transaction for imported data: %1</translation>
+        <translation>Не ўдалося зафіксаваць транзакцыю для імпартаваных дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="101"/>
         <source>Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</source>
-        <translation type="unfinished">Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</translation>
+        <translation>Табліца &apos;%1&apos; мае менш калонак, чым ёсць у дадзеных для імпарту. Лішнія калонкі дадзеных будуць праігнараваны.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="106"/>
         <source>Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</source>
-        <translation type="unfinished">Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</translation>
+        <translation>Табліца &apos;%1&apos; мае больш калонак, чым ёсць у дадзеных для імпарту. Некаторыя калонкі ў табліцы застануцца пустымі.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="125"/>
         <source>Could not create table to import to: %1</source>
-        <translation type="unfinished">Could not create table to import to: %1</translation>
+        <translation>Не ўдалося стварыць табліцу для імпарту: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="134"/>
         <location filename="../importworker.cpp" line="181"/>
         <location filename="../importworker.cpp" line="188"/>
         <source>Error while importing data: %1</source>
-        <translation type="unfinished">Error while importing data: %1</translation>
+        <translation>Памылка падчас імпартавання дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="134"/>
         <location filename="../importworker.cpp" line="188"/>
         <source>Interrupted.</source>
         <comment>import process status update</comment>
-        <translation type="unfinished">Interrupted.</translation>
+        <translation>Перапынена.</translation>
     </message>
     <message>
         <location filename="../importworker.cpp" line="176"/>
         <source>Could not import data row number %1. The row was ignored. Problem details: %2</source>
-        <translation type="unfinished">Could not import data row number %1. The row was ignored. Problem details: %2</translation>
+        <translation>Не ўдалося імпартаваць радок дадзеных нумар %1. Радок быў праігнараваны. Падрабязнасці праблемы: %2</translation>
     </message>
 </context>
 <context>
@@ -560,34 +560,34 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="564"/>
         <source>Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</source>
-        <translation type="unfinished">Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</translation>
+        <translation>Немагчыма загрузіць убудову %1, бо яна з&apos;яўляецца канфліктнай з убудовай %2.</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="575"/>
         <source>Cannot load plugin %1, because its dependency was not loaded: %2.</source>
-        <translation type="unfinished">Cannot load plugin %1, because its dependency was not loaded: %2.</translation>
+        <translation>Немагчыма загрузіць убудову %1, бо яе залежнасць не была загружана: %2.</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="584"/>
         <source>Cannot load plugin %1. Error details: %2</source>
-        <translation type="unfinished">Cannot load plugin %1. Error details: %2</translation>
+        <translation>Немагчыма загрузіць убудову %1. Падрабязнасці памылкі: %2</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="600"/>
         <source>Cannot load plugin %1 (error while initializing plugin).</source>
-        <translation type="unfinished">Cannot load plugin %1 (error while initializing plugin).</translation>
+        <translation>Немагчыма загрузіць убудову %1 (памылка падчас ініцыялізацыі ўбудовы).</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
         <source>min: %1</source>
         <comment>plugin dependency version</comment>
-        <translation type="unfinished">min: %1</translation>
+        <translation>мін.: %1</translation>
     </message>
     <message>
         <location filename="../services/impl/pluginmanagerimpl.cpp" line="762"/>
         <source>max: %1</source>
         <comment>plugin dependency version</comment>
-        <translation type="unfinished">max: %1</translation>
+        <translation>макс.: %1</translation>
     </message>
 </context>
 <context>
@@ -596,7 +596,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <location filename="../plugins/populateconstant.cpp" line="9"/>
         <source>Constant</source>
         <comment>populate constant plugin name</comment>
-        <translation type="unfinished">Constant</translation>
+        <translation>Канстанта</translation>
     </message>
 </context>
 <context>
@@ -604,7 +604,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populateconstant.ui" line="20"/>
         <source>Constant value:</source>
-        <translation type="unfinished">Constant value:</translation>
+        <translation>Значэнне канстанты:</translation>
     </message>
 </context>
 <context>
@@ -613,7 +613,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
         <location filename="../plugins/populatedictionary.cpp" line="16"/>
         <source>Dictionary</source>
         <comment>dictionary populating plugin name</comment>
-        <translation type="unfinished">Dictionary</translation>
+        <translation>Слоўнік</translation>
     </message>
 </context>
 <context>
@@ -621,42 +621,42 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatedictionary.ui" line="20"/>
         <source>Dictionary file</source>
-        <translation type="unfinished">Dictionary file</translation>
+        <translation>Файл слоўніка</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="29"/>
         <source>Pick dictionary file</source>
-        <translation type="unfinished">Pick dictionary file</translation>
+        <translation>Выбраць файл слоўніка</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="39"/>
         <source>Word separator</source>
-        <translation type="unfinished">Word separator</translation>
+        <translation>Раздзяляльнік слоў</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="45"/>
         <source>Whitespace</source>
-        <translation type="unfinished">Whitespace</translation>
+        <translation>Прабельны сімвал</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="58"/>
         <source>Line break</source>
-        <translation type="unfinished">Line break</translation>
+        <translation>Разрыў радка</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="74"/>
         <source>Method of using words</source>
-        <translation type="unfinished">Method of using words</translation>
+        <translation>Метад выкарыстання слоў</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="80"/>
         <source>Ordered</source>
-        <translation type="unfinished">Ordered</translation>
+        <translation>Па парадку</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.ui" line="93"/>
         <source>Randomly</source>
-        <translation type="unfinished">Randomly</translation>
+        <translation>Выпадкова</translation>
     </message>
 </context>
 <context>
@@ -664,7 +664,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../services/populatemanager.cpp" line="89"/>
         <source>Table &apos;%1&apos; populated successfully.</source>
-        <translation type="unfinished">Table &apos;%1&apos; populated successfully.</translation>
+        <translation>Табліца &apos;%1&apos; паспяхова запоўнена.</translation>
     </message>
 </context>
 <context>
@@ -672,7 +672,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandom.cpp" line="12"/>
         <source>Random number</source>
-        <translation type="unfinished">Random number</translation>
+        <translation>Выпадковы лік</translation>
     </message>
 </context>
 <context>
@@ -680,32 +680,32 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandom.ui" line="20"/>
         <source>Constant prefix</source>
-        <translation type="unfinished">Constant prefix</translation>
+        <translation>Пастаянны прэфікс</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="26"/>
         <source>No prefix</source>
-        <translation type="unfinished">No prefix</translation>
+        <translation>Без прэфікса</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="39"/>
         <source>Minimum value</source>
-        <translation type="unfinished">Minimum value</translation>
+        <translation>Мінімальнае значэнне</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="61"/>
         <source>Maximum value</source>
-        <translation type="unfinished">Maximum value</translation>
+        <translation>Максімальнае значэнне</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="86"/>
         <source>Constant suffix</source>
-        <translation type="unfinished">Constant suffix</translation>
+        <translation>Пастаянны суфікс</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.ui" line="92"/>
         <source>No suffix</source>
-        <translation type="unfinished">No suffix</translation>
+        <translation>Без суфікса</translation>
     </message>
 </context>
 <context>
@@ -713,7 +713,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.cpp" line="13"/>
         <source>Random text</source>
-        <translation type="unfinished">Random text</translation>
+        <translation>Выпадковы тэкст</translation>
     </message>
 </context>
 <context>
@@ -721,67 +721,67 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="20"/>
         <source>Use characters from common sets:</source>
-        <translation type="unfinished">Use characters from common sets:</translation>
+        <translation>Выкарыстоўваць сімвалы з агульных набораў:</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="36"/>
         <source>Minimum length</source>
-        <translation type="unfinished">Minimum length</translation>
+        <translation>Мінімальная даўжыня</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="64"/>
         <source>Letters from a to z.</source>
-        <translation type="unfinished">Letters from a to z.</translation>
+        <translation>Літары ад a да z.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="67"/>
         <source>Alpha</source>
-        <translation type="unfinished">Alpha</translation>
+        <translation>Літары</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="77"/>
         <source>Numbers from 0 to 9.</source>
-        <translation type="unfinished">Numbers from 0 to 9.</translation>
+        <translation>Лікі ад 0 да 9.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="80"/>
         <source>Numeric</source>
-        <translation type="unfinished">Numeric</translation>
+        <translation>Лічбы</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="90"/>
         <source>A whitespace, a tab and a new line character.</source>
-        <translation type="unfinished">A whitespace, a tab and a new line character.</translation>
+        <translation>Прабел, табуляцыя і сімвал новага радка.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="93"/>
         <source>Whitespace</source>
-        <translation type="unfinished">Whitespace</translation>
+        <translation>Прабельны сімвал</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="103"/>
         <source>Includes all above and all others.</source>
-        <translation type="unfinished">Includes all above and all others.</translation>
+        <translation>Уключае ўсе вышэйпералічаныя і ўсе астатнія.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="106"/>
         <source>Binary</source>
-        <translation type="unfinished">Binary</translation>
+        <translation>Двайковыя</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="119"/>
         <source>Use characters from my custom set:</source>
-        <translation type="unfinished">Use characters from my custom set:</translation>
+        <translation>Выкарыстоўваць сімвалы з майго ўласнага набору:</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="132"/>
         <source>Maximum length</source>
-        <translation type="unfinished">Maximum length</translation>
+        <translation>Максімальная даўжыня</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.ui" line="160"/>
         <source>If you type some character multiple times, it&apos;s more likely to be used.</source>
-        <translation type="unfinished">If you type some character multiple times, it&apos;s more likely to be used.</translation>
+        <translation>Калі ўвесці нейкі сімвал некалькі разоў, верагоднасць яго выкарыстання з&apos;яўляецца вышэйшай.</translation>
     </message>
 </context>
 <context>
@@ -789,7 +789,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatescript.cpp" line="33"/>
         <source>Script</source>
-        <translation type="unfinished">Script</translation>
+        <translation>Сцэнарый</translation>
     </message>
 </context>
 <context>
@@ -797,22 +797,22 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatescript.ui" line="26"/>
         <source>Initialization code (optional)</source>
-        <translation type="unfinished">Initialization code (optional)</translation>
+        <translation>Код ініцыялізацыі (неабавязкова)</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.ui" line="45"/>
         <source>Per step code</source>
-        <translation type="unfinished">Per step code</translation>
+        <translation>Код для кожнага кроку</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.ui" line="70"/>
         <source>Language</source>
-        <translation type="unfinished">Language</translation>
+        <translation>Мова</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.ui" line="89"/>
         <source>Help</source>
-        <translation type="unfinished">Help</translation>
+        <translation>Даведка</translation>
     </message>
 </context>
 <context>
@@ -820,7 +820,7 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatesequence.cpp" line="12"/>
         <source>Sequence</source>
-        <translation type="unfinished">Sequence</translation>
+        <translation>Паслядоўнасць</translation>
     </message>
 </context>
 <context>
@@ -828,12 +828,12 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../plugins/populatesequence.ui" line="33"/>
         <source>Start value:</source>
-        <translation type="unfinished">Start value:</translation>
+        <translation>Пачатковае значэнне:</translation>
     </message>
     <message>
         <location filename="../plugins/populatesequence.ui" line="56"/>
         <source>Step:</source>
-        <translation type="unfinished">Step:</translation>
+        <translation>Крок:</translation>
     </message>
 </context>
 <context>
@@ -841,17 +841,17 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../populateworker.cpp" line="23"/>
         <source>Could not start transaction in order to perform table populating. Error details: %1</source>
-        <translation type="unfinished">Could not start transaction in order to perform table populating. Error details: %1</translation>
+        <translation>Не ўдалося пачаць транзакцыю для запаўнення табліцы. Падрабязнасці памылкі: %1</translation>
     </message>
     <message>
         <location filename="../populateworker.cpp" line="69"/>
         <source>Error while populating table: %1</source>
-        <translation type="unfinished">Error while populating table: %1</translation>
+        <translation>Памылка падчас запаўнення табліцы: %1</translation>
     </message>
     <message>
         <location filename="../populateworker.cpp" line="80"/>
         <source>Could not commit transaction after table populating. Error details: %1</source>
-        <translation type="unfinished">Could not commit transaction after table populating. Error details: %1</translation>
+        <translation>Не ўдалося зафіксаваць транзакцыю пасля запаўнення табліцы. Падрабязнасці памылкі: %1</translation>
     </message>
 </context>
 <context>
@@ -859,250 +859,250 @@ Tables, indexes, triggers and views copied to database %3 will remain.</translat
     <message>
         <location filename="../common/utils.cpp" line="79"/>
         <source>SQLite database or SQL file</source>
-        <translation type="unfinished">SQLite database or SQL file</translation>
+        <translation>База дадзеных SQLite або файл SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="81"/>
         <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+        <translation>Файлы SQL</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="82"/>
         <source>CSV files</source>
-        <translation type="unfinished">CSV files</translation>
+        <translation>Файлы CSV</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="83"/>
         <source>Text files</source>
-        <translation type="unfinished">Text files</translation>
+        <translation>Тэкставыя файлы</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="84"/>
         <source>All files</source>
-        <translation type="unfinished">All files</translation>
+        <translation>Усе файлы</translation>
     </message>
     <message>
         <location filename="../common/utils.cpp" line="968"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
+        <translation>Не ўдалося адкрыць файл &apos;%1&apos; для чытання: %2</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="480"/>
         <source>Could not open database: %1</source>
-        <translation type="unfinished">Could not open database: %1</translation>
+        <translation>Не ўдалося адкрыць базу дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1388"/>
         <source>Result set expired or no row available.</source>
-        <translation type="unfinished">Result set expired or no row available.</translation>
+        <translation>Набор вынікаў састарэў або няма даступнага радка.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="372"/>
         <location filename="../db/abstractdb3.h" line="376"/>
         <source>Could not load extension %1: %2</source>
-        <translation type="unfinished">Could not load extension %1: %2</translation>
+        <translation>Не ўдалося загрузіць пашырэнне %1: %2</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="504"/>
         <source>Could not close database: %1</source>
-        <translation type="unfinished">Could not close database: %1</translation>
+        <translation>Не ўдалося закрыць базу дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../impl/dbattacherimpl.cpp" line="121"/>
         <source>Could not attach database %1: %2</source>
-        <translation type="unfinished">Could not attach database %1: %2</translation>
+        <translation>Не ўдалося далучыць базу дадзеных %1: %2</translation>
     </message>
     <message>
         <location filename="../parser/parsercontext.cpp" line="108"/>
         <location filename="../parser/parsercontext.cpp" line="110"/>
         <source>Incomplete query.</source>
-        <translation type="unfinished">Incomplete query.</translation>
+        <translation>Няпоўны запыт.</translation>
     </message>
     <message>
         <location filename="../parser/sqlite3_parse.cpp" line="2723"/>
         <source>Parser stack overflow</source>
-        <translation type="unfinished">Parser stack overflow</translation>
+        <translation>Перапаўненне стэка аналізатара</translation>
     </message>
     <message>
         <location filename="../parser/sqlite3_parse.cpp" line="6456"/>
         <source>Syntax error</source>
-        <translation type="unfinished">Syntax error</translation>
+        <translation>Сінтаксічная памылка</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.cpp" line="31"/>
         <source>Could not open dictionary file %1 for reading.</source>
-        <translation type="unfinished">Could not open dictionary file %1 for reading.</translation>
+        <translation>Не ўдалося адкрыць файл слоўніка %1 для чытання.</translation>
     </message>
     <message>
         <location filename="../plugins/populatedictionary.cpp" line="92"/>
         <source>Dictionary file must exist and be readable.</source>
-        <translation type="unfinished">Dictionary file must exist and be readable.</translation>
+        <translation>Файл слоўніка павінен існаваць і быць даступным для чытання.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandom.cpp" line="53"/>
         <source>Maximum value cannot be less than minimum value.</source>
-        <translation type="unfinished">Maximum value cannot be less than minimum value.</translation>
+        <translation>Максімальнае значэнне не можа быць меншым за мінімальнае значэнне.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.cpp" line="78"/>
         <source>Maximum length cannot be less than minimum length.</source>
-        <translation type="unfinished">Maximum length cannot be less than minimum length.</translation>
+        <translation>Максімальная даўжыня не можа быць меншай за мінімальную даўжыню.</translation>
     </message>
     <message>
         <location filename="../plugins/populaterandomtext.cpp" line="89"/>
         <source>Custom character set cannot be empty.</source>
-        <translation type="unfinished">Custom character set cannot be empty.</translation>
+        <translation>Уласны набор сімвалаў не можа быць пустым.</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="60"/>
         <source>Could not find plugin to support scripting language: %1</source>
-        <translation type="unfinished">Could not find plugin to support scripting language: %1</translation>
+        <translation>Не ўдалося знайсці ўбудову для падтрымкі мовы сцэнарыяў: %1</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="69"/>
         <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-        <translation type="unfinished">Could not get evaluation context, probably the %1 scripting plugin is not configured properly</translation>
+        <translation>Не ўдалося атрымаць кантэкст вылічэння, верагодна, убудова сцэнарыяў %1 наладжана няправільна</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="83"/>
         <source>Error while executing populating initial code: %1</source>
-        <translation type="unfinished">Error while executing populating initial code: %1</translation>
+        <translation>Памылка падчас выканання пачатковага кода запаўнення: %1</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="105"/>
         <source>Error while executing populating code: %1</source>
-        <translation type="unfinished">Error while executing populating code: %1</translation>
+        <translation>Памылка падчас выканання кода запаўнення: %1</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="137"/>
         <source>Select implementation language.</source>
-        <translation type="unfinished">Select implementation language.</translation>
+        <translation>Выберыце мову рэалізацыі.</translation>
     </message>
     <message>
         <location filename="../plugins/populatescript.cpp" line="138"/>
         <source>Implementation code cannot be empty.</source>
-        <translation type="unfinished">Implementation code cannot be empty.</translation>
+        <translation>Код рэалізацыі не можа быць пустым.</translation>
     </message>
     <message>
         <location filename="../selectresolver.cpp" line="329"/>
         <source>Could not resolve data source for column: %1</source>
-        <translation type="unfinished">Could not resolve data source for column: %1</translation>
+        <translation>Не ўдалося вызначыць крыніцу дадзеных для калонкі: %1</translation>
     </message>
     <message>
         <location filename="../selectresolver.cpp" line="462"/>
         <source>Could not resolve table for column &apos;%1&apos;.</source>
-        <translation type="unfinished">Could not resolve table for column &apos;%1&apos;.</translation>
+        <translation>Не ўдалося вызначыць табліцу для калонкі &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../services/impl/configimpl.cpp" line="876"/>
         <source>Could not initialize configuration file. Any configuration changes and queries history will be lost after application restart. Unable to create a file at following locations: %1.</source>
-        <translation type="unfinished">Could not initialize configuration file. Any configuration changes and queries history will be lost after application restart. Unable to create a file at following locations: %1.</translation>
+        <translation>Не ўдалося ініцыялізаваць файл канфігурацыі. Усе змены канфігурацыі і гісторыя запытаў будуць страчаны пасля перазапуску праграмы. Немагчыма стварыць файл у наступных месцах: %1.</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="363"/>
         <source>General purpose</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">General purpose</translation>
+        <translation>Агульнага прызначэння</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="364"/>
         <source>Database support</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Database support</translation>
+        <translation>Падтрымка баз дадзеных</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="365"/>
         <source>Code formatter</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Code formatter</translation>
+        <translation>Фарматавальнік кода</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="366"/>
         <source>Scripting languages</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Scripting languages</translation>
+        <translation>Мовы сцэнарыяў</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="368"/>
         <source>Exporting</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Exporting</translation>
+        <translation>Экспартаванне</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="369"/>
         <source>Importing</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Importing</translation>
+        <translation>Імпартаванне</translation>
     </message>
     <message>
         <location filename="../letos.cpp" line="370"/>
         <source>Table populating</source>
         <comment>plugin category name</comment>
-        <translation type="unfinished">Table populating</translation>
+        <translation>Запаўненне табліц</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="286"/>
         <source>Table %1 is referencing table %2, but the foreign key definition will not be updated for new table definition due to problems while parsing DDL of the table %3.</source>
-        <translation type="unfinished">Table %1 is referencing table %2, but the foreign key definition will not be updated for new table definition due to problems while parsing DDL of the table %3.</translation>
+        <translation>Табліца %1 спасылаецца на табліцу %2, але азначэнне знешняга ключа не будзе абноўлена для новага азначэння табліцы з-за праблем падчас разбору DDL табліцы %3.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="666"/>
         <source>All columns indexed by the index %1 are gone. The index will not be recreated after table modification.</source>
-        <translation type="unfinished">All columns indexed by the index %1 are gone. The index will not be recreated after table modification.</translation>
+        <translation>Усе калонкі, індэксаваныя індэксам %1, зніклі. Індэкс не будзе створаны нанова пасля мадыфікацыі табліцы.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="710"/>
         <source>There is problem with proper processing trigger %1. It may be not fully updated afterwards and will need your attention.</source>
-        <translation type="unfinished">There is problem with proper processing trigger %1. It may be not fully updated afterwards and will need your attention.</translation>
+        <translation>Узнікла праблема з правільнай апрацоўкай трыгера %1. Пасля гэтага ён можа быць абноўлены не цалкам і запатрабуе вашай увагі.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="725"/>
         <source>All columns covered by the trigger %1 are gone. The trigger will not be recreated after table modification.</source>
-        <translation type="unfinished">All columns covered by the trigger %1 are gone. The trigger will not be recreated after table modification.</translation>
+        <translation>Усе калонкі, ахопленыя трыгерам %1, зніклі. Трыгер не будзе створаны нанова пасля мадыфікацыі табліцы.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="757"/>
         <source>Cannot not update trigger %1 according to table %2 modification.</source>
-        <translation type="unfinished">Cannot not update trigger %1 according to table %2 modification.</translation>
+        <translation>Немагчыма абнавіць трыгер %1 у адпаведнасці з мадыфікацыяй табліцы %2.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="776"/>
         <source>Cannot not update view %1 according to table %2 modifications.
 The view will remain as it is.</source>
-        <translation type="unfinished">Cannot not update view %1 according to table %2 modifications.
-The view will remain as it is.</translation>
+        <translation>Немагчыма абнавіць прадстаўленне %1 у адпаведнасці з мадыфікацыямі табліцы %2.
+Прадстаўленне застанецца без змен.</translation>
     </message>
     <message>
         <location filename="../tablemodifier.cpp" line="961"/>
         <location filename="../tablemodifier.cpp" line="985"/>
         <location filename="../tablemodifier.cpp" line="1004"/>
         <source>There is a problem with updating an %1 statement within %2 trigger. One of the %1 substatements which might be referring to table %3 cannot be properly modified. Manual update of the trigger may be necessary.</source>
-        <translation type="unfinished">There is a problem with updating an %1 statement within %2 trigger. One of the %1 substatements which might be referring to table %3 cannot be properly modified. Manual update of the trigger may be necessary.</translation>
+        <translation>Узнікла праблема з абнаўленнем аператара %1 у трыгеры %2. Адзін з падзапытаў %1, які можа спасылацца на табліцу %3, не можа быць правільна зменены. Можа спатрэбіцца ручное абнаўленне трыгера.</translation>
     </message>
     <message>
         <location filename="../viewmodifier.cpp" line="23"/>
         <source>Could not parse DDL of the view to be created. Details: %1</source>
-        <translation type="unfinished">Could not parse DDL of the view to be created. Details: %1</translation>
+        <translation>Не ўдалося разабраць DDL прадстаўлення, якое трэба стварыць. Падрабязнасці: %1</translation>
     </message>
     <message>
         <location filename="../viewmodifier.cpp" line="32"/>
         <source>Parsed query is not CREATE VIEW. It&apos;s: %1</source>
-        <translation type="unfinished">Parsed query is not CREATE VIEW. It&apos;s: %1</translation>
+        <translation>Разабраны запыт не з&apos;яўляецца CREATE VIEW. Гэта: %1</translation>
     </message>
     <message>
         <location filename="../viewmodifier.cpp" line="80"/>
         <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-        <translation type="unfinished">Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</translation>
+        <translation>Letos не змог вызначыць слупкі, якія з&apos;яўляюцца вынікам новага прадстаўлення, таму не зможа паведаміць, якія трыгеры могуць даць збой падчас працэсу паўторнага стварэння.</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="48"/>
         <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+        <translation>На аснове функцыі</translation>
     </message>
     <message>
         <location filename="../services/collationmanager.h" line="50"/>
         <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+        <translation>На аснове пашырэння</translation>
     </message>
 </context>
 <context>
@@ -1110,28 +1110,28 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/queryexecutor.cpp" line="203"/>
         <source>Execution interrupted.</source>
-        <translation type="unfinished">Execution interrupted.</translation>
+        <translation>Выкананне перапынена.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="245"/>
         <source>Database is not open.</source>
-        <translation type="unfinished">Database is not open.</translation>
+        <translation>База дадзеных не адкрыта.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="254"/>
         <source>Only one query can be executed simultaneously.</source>
-        <translation type="unfinished">Only one query can be executed simultaneously.</translation>
+        <translation>Адначасова можа выконвацца толькі адзін запыт.</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="363"/>
         <location filename="../db/queryexecutor.cpp" line="608"/>
         <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-        <translation type="unfinished">An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</translation>
+        <translation>Падчас выканання запыту count(*) адбылася памылка, таму старонкаванне дадзеных будзе адключана. Падрабязнасці памылкі з базы дадзеных: %1</translation>
     </message>
     <message>
         <location filename="../db/queryexecutor.cpp" line="525"/>
         <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-        <translation type="unfinished">Letos was unable to extract metadata from the query. Results won&apos;t be editable.</translation>
+        <translation>Letos не змог атрымаць метаданыя з запыту. Вынікі не будуць з&apos;яўляцца рэдагуемымі.</translation>
     </message>
 </context>
 <context>
@@ -1139,7 +1139,7 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
         <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-        <translation type="unfinished">Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</translation>
+        <translation>Калонка %1 у табліцы %2 спасылаецца на калонку %3 у табліцы %4, але гэтыя калонкі маюць розныя тыпы дадзеных: %5 супраць %6. Гэта можа выклікаць праблемы, звязаныя з супастаўленнем значэнняў знешніх ключоў.</translation>
     </message>
 </context>
 <context>
@@ -1147,12 +1147,12 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../plugins/scriptingqtdbproxy.cpp" line="48"/>
         <source>No database available in current context, while called JavaScript&apos;s %1 command.</source>
-        <translation type="unfinished">No database available in current context, while called JavaScript&apos;s %1 command.</translation>
+        <translation>У бягучым кантэксце няма даступнай базы даных пры выкліку каманды %1, якая з&apos;яўляецца камандай JavaScript.</translation>
     </message>
     <message>
         <location filename="../plugins/scriptingqtdbproxy.cpp" line="65"/>
         <source>Error from %1: %2</source>
-        <translation type="unfinished">Error from %1: %2</translation>
+        <translation>Памылка ад %1: %2</translation>
     </message>
 </context>
 <context>
@@ -1160,37 +1160,37 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="59"/>
         <source>Could not execute SQL, because application has failed to start transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to start transaction: %1</translation>
+        <translation>Не ўдалося выканаць SQL, бо праграме не ўдалося пачаць транзакцыю: %1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="90"/>
         <source>Execution from file cancelled. Any queries executed so far have been rolled back.</source>
-        <translation type="unfinished">Execution from file cancelled. Any queries executed so far have been rolled back.</translation>
+        <translation>Выкананне з файла скасавана. Усе запыты, выкананыя да гэтага часу, былі адкачаны.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="106"/>
         <source>Could not open file &apos;%1&apos; for reading: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
+        <translation>Не ўдалося адкрыць файл &apos;%1&apos; для чытання: %2</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="151"/>
         <source>Could not execute SQL, because application has failed to commit the transaction: %1</source>
-        <translation type="unfinished">Could not execute SQL, because application has failed to commit the transaction: %1</translation>
+        <translation>Не ўдалося выканаць SQL, бо праграме не ўдалося зафіксаваць транзакцыю: %1</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="156"/>
         <source>Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</translation>
+        <translation>Завершана выкананне %1 запытаў за %2 секунд. %3 не былі выкананы з-за памылак.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="162"/>
         <source>Finished executing %1 queries in %2 seconds.</source>
-        <translation type="unfinished">Finished executing %1 queries in %2 seconds.</translation>
+        <translation>Завершана выкананне %1 запытаў за %2 секунд.</translation>
     </message>
     <message>
         <location filename="../sqlfileexecutor.cpp" line="169"/>
         <source>Could not execute SQL due to error.</source>
-        <translation type="unfinished">Could not execute SQL due to error.</translation>
+        <translation>Не ўдалося выканаць SQL з-за памылкі.</translation>
     </message>
 </context>
 <context>
@@ -1199,31 +1199,31 @@ The view will remain as it is.</translation>
         <location filename="../sqlhistorymodel.cpp" line="32"/>
         <source>Database</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">Database</translation>
+        <translation>База дадзеных</translation>
     </message>
     <message>
         <location filename="../sqlhistorymodel.cpp" line="34"/>
         <source>Execution date</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">Execution date</translation>
+        <translation>Дата выканання</translation>
     </message>
     <message>
         <location filename="../sqlhistorymodel.cpp" line="36"/>
         <source>Time spent</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">Time spent</translation>
+        <translation>Затрачаны час</translation>
     </message>
     <message>
         <location filename="../sqlhistorymodel.cpp" line="38"/>
         <source>Rows affected</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">Rows affected</translation>
+        <translation>Закранутыя радкі</translation>
     </message>
     <message>
         <location filename="../sqlhistorymodel.cpp" line="40"/>
         <source>SQL</source>
         <comment>sql history header</comment>
-        <translation type="unfinished">SQL</translation>
+        <translation>SQL</translation>
     </message>
 </context>
 <context>
@@ -1231,12 +1231,12 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../db/abstractdb3.h" line="714"/>
         <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-        <translation type="unfinished">The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</translation>
+        <translation>Файл базы дадзеных &apos;%1&apos; быў зменены навейшай версіяй SQLite (фармат %2), у той час як бягучая праграма падтрымлівае фармат да %3. Некаторыя функцыі могуць працаваць няправільна.</translation>
     </message>
     <message>
         <location filename="../db/abstractdb3.h" line="1013"/>
         <source>Registered default collation on demand, under name: %1</source>
-        <translation type="unfinished">Registered default collation on demand, under name: %1</translation>
+        <translation>Прадвызначанае супастаўленне зарэгістравана па патрабаванні пад назвай: %1</translation>
     </message>
 </context>
 <context>
@@ -1244,7 +1244,7 @@ The view will remain as it is.</translation>
     <message>
         <location filename="../services/updatemanager.cpp" line="99"/>
         <source>Could not check for updates (%1).</source>
-        <translation type="unfinished">Could not check for updates (%1).</translation>
+        <translation>Не ўдалося праверыць наяўнасць абнаўленняў (%1).</translation>
     </message>
 </context>
 </TS>

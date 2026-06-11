@@ -6,27 +6,27 @@
     <message>
         <location filename="../scriptingpython.cpp" line="730"/>
         <source>Invalid use of %1 function. Expected %2 arguments, but got %3.</source>
-        <translation type="unfinished">Invalid use of %1 function. Expected %2 arguments, but got %3.</translation>
+        <translation>Неисправна употреба функције %1. Очекивано је %2 аргумената, али је добијено %3.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="739"/>
         <source>Unknown error from function %1.</source>
-        <translation type="unfinished">Unknown error from function %1.</translation>
+        <translation>Непозната грешка из функције %1.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="780"/>
         <source>Could not calculate string representation of the Python object passed as argument to the function %1.</source>
-        <translation type="unfinished">Could not calculate string representation of the Python object passed as argument to the function %1.</translation>
+        <translation>Није могуће израчунати ниску представу Python објекта прослеђеног као аргумент функцији %1.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="802"/>
         <source>Could not find execution context for function %1. This is a bug of Python plugin. Please report it.</source>
-        <translation type="unfinished">Could not find execution context for function %1. This is a bug of Python plugin. Please report it.</translation>
+        <translation>Није могуће пронаћи контекст извршавања за функцију %1. Ово је грешка у Python прикључку. Пријавите је.</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="827"/>
         <source>Error from Python function %1: %2</source>
-        <translation type="unfinished">Error from Python function %1: %2</translation>
+        <translation>Грешка из Python функције %1: %2</translation>
     </message>
 </context>
 <context>
@@ -34,17 +34,17 @@
     <message>
         <location filename="../scriptingpython.ui" line="20"/>
         <source>Python library path</source>
-        <translation type="unfinished">Python library path</translation>
+        <translation>Путања Python библиотеке</translation>
     </message>
     <message>
         <location filename="../scriptingpython.ui" line="29"/>
         <source>Choose a Python library file</source>
-        <translation type="unfinished">Choose a Python library file</translation>
+        <translation>Изаберите датотеку Python библиотеке</translation>
     </message>
     <message>
         <location filename="../scriptingpython.cpp" line="370"/>
         <source>The plugin is not configured properly.</source>
-        <translation type="unfinished">The plugin is not configured properly.</translation>
+        <translation>Прикључак није правилно конфигурисан.</translation>
     </message>
 </context>
 </TS>

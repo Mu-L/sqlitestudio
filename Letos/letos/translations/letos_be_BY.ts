@@ -6,92 +6,92 @@
     <message>
         <location filename="../main.cpp" line="52"/>
         <source>GUI interface to Letos, a SQLite manager.</source>
-        <translation type="unfinished">GUI interface to Letos, a SQLite manager.</translation>
+        <translation>Графічны інтэрфейс для Letos, менеджара SQLite.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="57"/>
         <source>Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</source>
-        <translation type="unfinished">Starts the application in safe mode without restoring the previous session. Use this to bypass issues caused by a corrupted session.</translation>
+        <translation>Запускае праграму ў бяспечным рэжыме без аднаўлення папярэдняй сесіі. Выкарыстоўвайце гэта, каб абысці праблемы, выкліканыя пашкоджанай сесіяй.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="58"/>
         <source>Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</source>
-        <translation type="unfinished">Do not load any plugins. Can be used alongside safe mode to further isolate potential issues.</translation>
+        <translation>Не загружаць ніякія плагіны. Можна выкарыстоўваць разам з бяспечным рэжымам для далейшай ізаляцыі патэнцыйных праблем.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="59"/>
         <source>Enables debug messages in console (accessible with F12).</source>
-        <translation type="unfinished">Enables debug messages in console (accessible with F12).</translation>
+        <translation>Уключае паведамленні адладкі ў кансолі (даступнай праз F12).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="60"/>
         <source>Redirects debug messages into standard output (forces debug mode).</source>
-        <translation type="unfinished">Redirects debug messages into standard output (forces debug mode).</translation>
+        <translation>Перанакіроўвае паведамленні адладкі ў стандартны вывад (прымусова ўключае рэжым адладкі).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="61"/>
         <source>Redirects debug messages into given file (forces debug mode).</source>
-        <translation type="unfinished">Redirects debug messages into given file (forces debug mode).</translation>
+        <translation>Перанакіроўвае паведамленні адладкі ў зададзены файл (прымусова ўключае рэжым адладкі).</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="61"/>
         <source>log file</source>
-        <translation type="unfinished">log file</translation>
+        <translation>файл журнала</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="62"/>
         <source>Enables Lemon parser debug messages for SQL code assistant.</source>
-        <translation type="unfinished">Enables Lemon parser debug messages for SQL code assistant.</translation>
+        <translation>Уключае паведамленні адладкі парсера Lemon для памочніка кода SQL.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="63"/>
         <source>Enables debugging of every single SQL query being sent to any database.</source>
-        <translation type="unfinished">Enables debugging of every single SQL query being sent to any database.</translation>
+        <translation>Уключае адладку кожнага асобнага SQL-запыту, які адпраўляецца ў любую базу даных.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>Limits SQL query messages to only the given &lt;database&gt;.</source>
-        <translation type="unfinished">Limits SQL query messages to only the given &lt;database&gt;.</translation>
+        <translation>Абмяжоўвае паведамленні SQL-запытаў толькі зададзенай &lt;базай даных&gt;.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="64"/>
         <source>database</source>
-        <translation type="unfinished">database</translation>
+        <translation>база даных</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>Points to the master configuration file. Read manual at wiki page for more details.</source>
-        <translation type="unfinished">Points to the master configuration file. Read manual at wiki page for more details.</translation>
+        <translation>Указвае на галоўны файл канфігурацыі. Больш падрабязную інфармацыю чытайце ў дапаможніку на старонцы wiki.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="56"/>
         <source>settings file</source>
-        <translation type="unfinished">settings file</translation>
+        <translation>файл налад</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="65"/>
         <source>Enables debugging of Letos&apos;s query executor.</source>
-        <translation type="unfinished">Enables debugging of Letos&apos;s query executor.</translation>
+        <translation>Уключае адладку выканаўцы запытаў Letos&apos;s.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="66"/>
         <source>Lists plugins installed in the Letos and quits.</source>
-        <translation type="unfinished">Lists plugins installed in the Letos and quits.</translation>
+        <translation>Выводзіць спіс плагінаў, усталяваных у Letos, і завяршае працу.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
         <source>file</source>
-        <translation type="unfinished">file</translation>
+        <translation>файл</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="79"/>
         <source>Database file to open</source>
-        <translation type="unfinished">Database file to open</translation>
+        <translation>Файл базы даных для адкрыцця</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="152"/>
         <source>Select configuration directory</source>
-        <translation type="unfinished">Select configuration directory</translation>
+        <translation>Выберыце каталог канфігурацыі</translation>
     </message>
 </context>
 </TS>
