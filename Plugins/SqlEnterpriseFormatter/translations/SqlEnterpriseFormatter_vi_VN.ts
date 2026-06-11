@@ -1,228 +1,228 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="vi" sourcelanguage="en">
-  <context>
+<context>
     <name>QObject</name>
     <message>
-      <location filename="../sqlenterpriseformatter.cpp" line="89"/>
-      <location filename="../sqlenterpriseformatter.cpp" line="96"/>
-      <source>name</source>
-      <comment>example name wrapper</comment>
-      <translation>tên</translation>
+        <location filename="../sqlenterpriseformatter.cpp" line="89"/>
+        <location filename="../sqlenterpriseformatter.cpp" line="96"/>
+        <source>name</source>
+        <comment>example name wrapper</comment>
+        <translation>tên</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlEnterpriseFormatter</name>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="46"/>
-      <source>Indentation</source>
-      <translation>Thụt lề</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="46"/>
+        <source>Indentation</source>
+        <translation>Thụt lề</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="58"/>
-      <source>Line up keywords in multi-line queries</source>
-      <translation>Căn thẳng hàng các từ khóa trong truy vấn nhiều dòng</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="58"/>
+        <source>Line up keywords in multi-line queries</source>
+        <translation>Căn thẳng hàng các từ khóa trong truy vấn nhiều dòng</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="68"/>
-      <source>Indent contents of parenthesis block</source>
-      <translation>Thụt lề nội dung của khối ngoặc đơn</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="68"/>
+        <source>Indent contents of parenthesis block</source>
+        <translation>Thụt lề nội dung của khối ngoặc đơn</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="91"/>
-      <source>Tab size:</source>
-      <translation>Kích thước tab:</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="91"/>
+        <source>Tab size:</source>
+        <translation>Kích thước tab:</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="106"/>
-      <source>New lines</source>
-      <translation>Dòng mới</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="106"/>
+        <source>New lines</source>
+        <translation>Dòng mới</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="160"/>
-      <source>Before opening parenthesis in column definitions</source>
-      <translation>Trước ngoặc đơn mở trong định nghĩa cột</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="160"/>
+        <source>Before opening parenthesis in column definitions</source>
+        <translation>Trước ngoặc đơn mở trong định nghĩa cột</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="170"/>
-      <source>After opening parenthesis in column definitions</source>
-      <translation>Sau ngoặc đơn mở trong định nghĩa cột</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="170"/>
+        <source>After opening parenthesis in column definitions</source>
+        <translation>Sau ngoặc đơn mở trong định nghĩa cột</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="180"/>
-      <source>Before closing parenthesis in column definitions</source>
-      <translation>Trước ngoặc đơn đóng trong định nghĩa cột</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="180"/>
+        <source>Before closing parenthesis in column definitions</source>
+        <translation>Trước ngoặc đơn đóng trong định nghĩa cột</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="190"/>
-      <source>After closing parenthesis in column definitions</source>
-      <translation>Sau ngoặc đơn đóng trong định nghĩa cột</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="190"/>
+        <source>After closing parenthesis in column definitions</source>
+        <translation>Sau ngoặc đơn đóng trong định nghĩa cột</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="200"/>
-      <source>Before opening parenthesis in expressions</source>
-      <translation>Trước ngoặc đơn mở trong biểu thức</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="200"/>
+        <source>Before opening parenthesis in expressions</source>
+        <translation>Trước ngoặc đơn mở trong biểu thức</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="210"/>
-      <source>After opening parenthesis in expressions</source>
-      <translation>Sau ngoặc đơn mở trong biểu thức</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="210"/>
+        <source>After opening parenthesis in expressions</source>
+        <translation>Sau ngoặc đơn mở trong biểu thức</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="220"/>
-      <source>Before closing parenthesis in expressions</source>
-      <translation>Trước ngoặc đơn đóng trong biểu thức</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="220"/>
+        <source>Before closing parenthesis in expressions</source>
+        <translation>Trước ngoặc đơn đóng trong biểu thức</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="230"/>
-      <source>After closing parenthesis in expressions</source>
-      <translation>Sau ngoặc đơn đóng trong biểu thức</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="230"/>
+        <source>After closing parenthesis in expressions</source>
+        <translation>Sau ngoặc đơn đóng trong biểu thức</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="240"/>
-      <source>After JOIN keywords in FROM clause</source>
-      <translation>Sau các từ khóa JOIN trong mệnh đề FROM</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="240"/>
+        <source>After JOIN keywords in FROM clause</source>
+        <translation>Sau các từ khóa JOIN trong mệnh đề FROM</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="250"/>
-      <source>Put each column constraint in CREATE TABLE into new line</source>
-      <translation>Đặt mỗi ràng buộc cột trong CREATE TABLE trên dòng mới</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="250"/>
+        <source>Put each column constraint in CREATE TABLE into new line</source>
+        <translation>Đặt mỗi ràng buộc cột trong CREATE TABLE trên dòng mới</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="260"/>
-      <source>After comma</source>
-      <translation>Sau dấu phẩy</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="260"/>
+        <source>After comma</source>
+        <translation>Sau dấu phẩy</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="270"/>
-      <source>After comma in expressions</source>
-      <translation>Sau dấu phẩy trong biểu thức</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="270"/>
+        <source>After comma in expressions</source>
+        <translation>Sau dấu phẩy trong biểu thức</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="280"/>
-      <source>After semicolon</source>
-      <translation>Sau dấu chấm phẩy</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="280"/>
+        <source>After semicolon</source>
+        <translation>Sau dấu chấm phẩy</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="290"/>
-      <location filename="../sqlenterpriseformatter.ui" line="512"/>
-      <source>Never before semicolon</source>
-      <translation>Không bao giờ trước dấu chấm phẩy</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="290"/>
+        <location filename="../sqlenterpriseformatter.ui" line="512"/>
+        <source>Never before semicolon</source>
+        <translation>Không bao giờ trước dấu chấm phẩy</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="338"/>
-      <source>White spaces</source>
-      <translation>Khoảng trắng</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="338"/>
+        <source>White spaces</source>
+        <translation>Khoảng trắng</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="392"/>
-      <source>Before comma in lists</source>
-      <translation>Trước dấu phẩy trong danh sách</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="392"/>
+        <source>Before comma in lists</source>
+        <translation>Trước dấu phẩy trong danh sách</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="402"/>
-      <source>After comma in lists</source>
-      <translation>Sau dấu phẩy trong danh sách</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="402"/>
+        <source>After comma in lists</source>
+        <translation>Sau dấu phẩy trong danh sách</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="412"/>
-      <source>Before opening parenthesis</source>
-      <translation>Trước ngoặc đơn mở</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="412"/>
+        <source>Before opening parenthesis</source>
+        <translation>Trước ngoặc đơn mở</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="422"/>
-      <source>After opening parenthesis</source>
-      <translation>Sau ngoặc đơn mở</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="422"/>
+        <source>After opening parenthesis</source>
+        <translation>Sau ngoặc đơn mở</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="432"/>
-      <source>Before closing parenthesis</source>
-      <translation>Trước ngoặc đơn đóng</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="432"/>
+        <source>Before closing parenthesis</source>
+        <translation>Trước ngoặc đơn đóng</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="442"/>
-      <source>After closing parenthesis</source>
-      <translation>Sau ngoặc đơn đóng</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="442"/>
+        <source>After closing parenthesis</source>
+        <translation>Sau ngoặc đơn đóng</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="452"/>
-      <source>No space between SQL function name and opening parenthesis</source>
-      <translation>Không có khoảng trắng giữa tên hàm SQL và ngoặc đơn mở</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="452"/>
+        <source>No space between SQL function name and opening parenthesis</source>
+        <translation>Không có khoảng trắng giữa tên hàm SQL và ngoặc đơn mở</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="462"/>
-      <source>Before dot operator (in path to database object)</source>
-      <translation>Trước toán tử dấu chấm (trong đường dẫn đến đối tượng cơ sở dữ liệu)</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="462"/>
+        <source>Before dot operator (in path to database object)</source>
+        <translation>Trước toán tử dấu chấm (trong đường dẫn đến đối tượng cơ sở dữ liệu)</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="472"/>
-      <source>After dot operator (in path to database object)</source>
-      <translation>Sau toán tử dấu chấm (trong đường dẫn đến đối tượng cơ sở dữ liệu)</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="472"/>
+        <source>After dot operator (in path to database object)</source>
+        <translation>Sau toán tử dấu chấm (trong đường dẫn đến đối tượng cơ sở dữ liệu)</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="482"/>
-      <source>Before mathematical operator</source>
-      <translation>Trước toán tử toán học</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="482"/>
+        <source>Before mathematical operator</source>
+        <translation>Trước toán tử toán học</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="492"/>
-      <source>After mathematical operator</source>
-      <translation>Sau toán tử toán học</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="492"/>
+        <source>After mathematical operator</source>
+        <translation>Sau toán tử toán học</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="502"/>
-      <source>Never before comma</source>
-      <translation>Không bao giờ trước dấu phẩy</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="502"/>
+        <source>Never before comma</source>
+        <translation>Không bao giờ trước dấu phẩy</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="558"/>
-      <source>Names</source>
-      <translation>Tên</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="558"/>
+        <source>Names</source>
+        <translation>Tên</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="583"/>
-      <source>Preferred name wrapper</source>
-      <translation>Ký tự bao tên ưu tiên</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="583"/>
+        <source>Preferred name wrapper</source>
+        <translation>Ký tự bao tên ưu tiên</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="600"/>
-      <source>Always use name wrapping</source>
-      <translation>Luôn bao tên</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="600"/>
+        <source>Always use name wrapping</source>
+        <translation>Luôn bao tên</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="610"/>
-      <source>Uppercase data type names</source>
-      <translation>Chuyển tên kiểu dữ liệu sang chữ hoa</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="610"/>
+        <source>Uppercase data type names</source>
+        <translation>Chuyển tên kiểu dữ liệu sang chữ hoa</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="620"/>
-      <source>Uppercase keywords</source>
-      <translation>Chuyển từ khóa sang chữ hoa</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="620"/>
+        <source>Uppercase keywords</source>
+        <translation>Chuyển từ khóa sang chữ hoa</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="631"/>
-      <source>Comments</source>
-      <translation>Chú thích</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="631"/>
+        <source>Comments</source>
+        <translation>Chú thích</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="637"/>
-      <source>Preferred comment marker (where possible):</source>
-      <translation>Dấu đánh dấu chú thích ưu tiên (khi có thể):</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="637"/>
+        <source>Preferred comment marker (where possible):</source>
+        <translation>Dấu đánh dấu chú thích ưu tiên (khi có thể):</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="654"/>
-      <source>Move all comments to the line end</source>
-      <translation>Di chuyển tất cả chú thích đến cuối dòng</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="654"/>
+        <source>Move all comments to the line end</source>
+        <translation>Di chuyển tất cả chú thích đến cuối dòng</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="664"/>
-      <source>Line up comments at the line end</source>
-      <translation>Căn thẳng hàng các chú thích ở cuối dòng</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="664"/>
+        <source>Line up comments at the line end</source>
+        <translation>Căn thẳng hàng các chú thích ở cuối dòng</translation>
     </message>
     <message>
-      <location filename="../sqlenterpriseformatter.ui" line="695"/>
-      <source>Preview</source>
-      <translation>Xem trước</translation>
+        <location filename="../sqlenterpriseformatter.ui" line="695"/>
+        <source>Preview</source>
+        <translation>Xem trước</translation>
     </message>
-  </context>
+</context>
 </TS>

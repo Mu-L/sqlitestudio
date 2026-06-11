@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="be" sourcelanguage="en">
-  <context>
+<context>
     <name>SqlFormatterSimplePlugin</name>
     <message>
-      <location filename="../SqlFormatterSimple.ui" line="20"/>
-      <source>Upper case keywords</source>
-      <translation>Пераўтвараць ключавыя словы ў верхні рэгістр</translation>
+        <location filename="../SqlFormatterSimple.ui" line="20"/>
+        <source>Upper case keywords</source>
+        <translation>Пераўтвараць ключавыя словы ў верхні рэгістр</translation>
     </message>
     <message>
-      <location filename="../SqlFormatterSimple.ui" line="30"/>
-      <source>Reduce multiple whitespaces to single whitespace</source>
-      <translation>Зводзіць некалькі прабельных сімвалаў да аднаго прабельнага сімвала</translation>
+        <location filename="../SqlFormatterSimple.ui" line="30"/>
+        <source>Reduce multiple whitespaces to single whitespace</source>
+        <translation>Зводзіць некалькі прабельных сімвалаў да аднаго прабельнага сімвала</translation>
     </message>
-  </context>
+</context>
 </TS>

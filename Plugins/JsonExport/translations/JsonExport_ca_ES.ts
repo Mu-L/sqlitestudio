@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ca" sourcelanguage="en">
-  <context>
+<context>
     <name>JsonExportConfig</name>
     <message>
-      <location filename="../jsonexport.ui" line="20"/>
-      <source>Output format</source>
-      <translation>Format de sortida</translation>
+        <location filename="../jsonexport.ui" line="20"/>
+        <source>Output format</source>
+        <translation>Format de sortida</translation>
     </message>
     <message>
-      <location filename="../jsonexport.ui" line="26"/>
-      <source>Format document (new lines, indentation)</source>
-      <translation>Formata el document (línies noves, sagnat)</translation>
+        <location filename="../jsonexport.ui" line="26"/>
+        <source>Format document (new lines, indentation)</source>
+        <translation>Formata el document (línies noves, sagnat)</translation>
     </message>
     <message>
-      <location filename="../jsonexport.ui" line="42"/>
-      <source>Compress (everything in one line)</source>
-      <translation>Comprimeix (tot en una sola línia)</translation>
+        <location filename="../jsonexport.ui" line="42"/>
+        <source>Compress (everything in one line)</source>
+        <translation>Comprimeix (tot en una sola línia)</translation>
     </message>
-  </context>
+</context>
 </TS>
