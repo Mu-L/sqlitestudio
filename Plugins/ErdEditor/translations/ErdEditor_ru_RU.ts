@@ -48,9 +48,8 @@
 <context>
     <name>ErdConfig</name>
     <message>
-        <location filename="../erdconfig.ui" line="14"/>
         <source>Form</source>
-        <translation>Форма</translation>
+        <translation type="vanished">Форма</translation>
     </message>
     <message>
         <location filename="../erdconfig.ui" line="33"/>
@@ -269,9 +268,8 @@
 <context>
     <name>ErdWindow</name>
     <message>
-        <location filename="../erdwindow.ui" line="14"/>
         <source>Form</source>
-        <translation type="unfinished">Form</translation>
+        <translation type="obsolete">Form</translation>
     </message>
     <message>
         <location filename="../erdwindow.ui" line="86"/>

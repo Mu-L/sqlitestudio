@@ -269,7 +269,6 @@
         <translation>Kein benutzerdefinierter Header</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="299"/>
         <location filename="../pdfexport.ui" line="373"/>
         <source>Ctrl+S</source>
         <translation>Strg+S</translation>

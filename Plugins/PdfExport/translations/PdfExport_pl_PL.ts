@@ -268,7 +268,6 @@
         <translation>Brak własnego nagłówka</translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="299"/>
         <location filename="../pdfexport.ui" line="373"/>
         <source>Ctrl+S</source>
         <translation type="unfinished">Ctrl+S</translation>
