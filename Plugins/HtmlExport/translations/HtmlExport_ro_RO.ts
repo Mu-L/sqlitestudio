@@ -1,244 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ro" sourcelanguage="en">
-  <context>
+<context>
     <name>HtmlExport</name>
     <message>
-      <location filename="../htmlexport.cpp" line="45"/>
-      <source>SQL query results</source>
-      <translation>Rezultatele interogării SQL</translation>
+        <location filename="../htmlexport.cpp" line="45"/>
+        <source>SQL query results</source>
+        <translation>Rezultatele interogării SQL</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="54"/>
-      <source>Query:</source>
-      <translation>Interogare:</translation>
+        <location filename="../htmlexport.cpp" line="54"/>
+        <source>Query:</source>
+        <translation>Interogare:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="94"/>
-      <location filename="../htmlexport.cpp" line="188"/>
-      <source>no type</source>
-      <translation>fără tip</translation>
+        <location filename="../htmlexport.cpp" line="94"/>
+        <location filename="../htmlexport.cpp" line="188"/>
+        <source>no type</source>
+        <translation>fără tip</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="125"/>
-      <source>Exported table: %1</source>
-      <translation>Tabel exportat: %1</translation>
+        <location filename="../htmlexport.cpp" line="125"/>
+        <source>Exported table: %1</source>
+        <translation>Tabel exportat: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="136"/>
-      <source>Exported view: %1</source>
-      <translation>Vizualizare exportată: %1</translation>
+        <location filename="../htmlexport.cpp" line="136"/>
+        <source>Exported view: %1</source>
+        <translation>Vizualizare exportată: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="157"/>
-      <location filename="../htmlexport.cpp" line="280"/>
-      <source>Table: %1</source>
-      <translation>Tabel: %1</translation>
+        <location filename="../htmlexport.cpp" line="157"/>
+        <location filename="../htmlexport.cpp" line="280"/>
+        <source>Table: %1</source>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="283"/>
-      <source>virtual</source>
-      <translation>virtual</translation>
+        <location filename="../htmlexport.cpp" line="283"/>
+        <source>virtual</source>
+        <translation>virtual</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="335"/>
-      <source>Exported database: %1</source>
-      <translation>Bază de date exportată: %1</translation>
+        <location filename="../htmlexport.cpp" line="335"/>
+        <source>Exported database: %1</source>
+        <translation>Bază de date exportată: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="351"/>
-      <source>Index: %1</source>
-      <translation>Index: %1</translation>
+        <location filename="../htmlexport.cpp" line="351"/>
+        <source>Index: %1</source>
+        <translation>Index: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="357"/>
-      <source>For table:</source>
-      <translation>Pentru tabelul:</translation>
+        <location filename="../htmlexport.cpp" line="357"/>
+        <source>For table:</source>
+        <translation>Pentru tabelul:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="364"/>
-      <source>Unique:</source>
-      <translation>Unic:</translation>
+        <location filename="../htmlexport.cpp" line="364"/>
+        <source>Unique:</source>
+        <translation>Unic:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="365"/>
-      <source>Yes</source>
-      <translation>Da</translation>
+        <location filename="../htmlexport.cpp" line="365"/>
+        <source>Yes</source>
+        <translation>Da</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="365"/>
-      <source>No</source>
-      <translation>Nu</translation>
+        <location filename="../htmlexport.cpp" line="365"/>
+        <source>No</source>
+        <translation>Nu</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="371"/>
-      <source>Column</source>
-      <translation>Coloană</translation>
+        <location filename="../htmlexport.cpp" line="371"/>
+        <source>Column</source>
+        <translation>Coloană</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="372"/>
-      <source>Collating</source>
-      <translation>Colaționare</translation>
+        <location filename="../htmlexport.cpp" line="372"/>
+        <source>Collating</source>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="373"/>
-      <source>Sort order</source>
-      <translation>Ordine de sortare</translation>
+        <location filename="../htmlexport.cpp" line="373"/>
+        <source>Sort order</source>
+        <translation>Ordine de sortare</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="407"/>
-      <source>Trigger: %1</source>
-      <translation>Declanșator: %1</translation>
+        <location filename="../htmlexport.cpp" line="407"/>
+        <source>Trigger: %1</source>
+        <translation>Declanșator: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="413"/>
-      <source>Activated:</source>
-      <translation>Activat:</translation>
+        <location filename="../htmlexport.cpp" line="413"/>
+        <source>Activated:</source>
+        <translation>Activat:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="421"/>
-      <source>Action:</source>
-      <translation>Acțiune:</translation>
+        <location filename="../htmlexport.cpp" line="421"/>
+        <source>Action:</source>
+        <translation>Acțiune:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="428"/>
-      <source>On view:</source>
-      <translation>Pe vizualizarea:</translation>
+        <location filename="../htmlexport.cpp" line="428"/>
+        <source>On view:</source>
+        <translation>Pe vizualizarea:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="430"/>
-      <source>On table:</source>
-      <translation>Pe tabelul:</translation>
+        <location filename="../htmlexport.cpp" line="430"/>
+        <source>On table:</source>
+        <translation>Pe tabelul:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="441"/>
-      <source>Activate condition:</source>
-      <translation>Condiție de activare:</translation>
+        <location filename="../htmlexport.cpp" line="441"/>
+        <source>Activate condition:</source>
+        <translation>Condiție de activare:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="448"/>
-      <source>Code executed:</source>
-      <translation>Cod executat:</translation>
+        <location filename="../htmlexport.cpp" line="448"/>
+        <source>Code executed:</source>
+        <translation>Cod executat:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="486"/>
-      <source>View: %1</source>
-      <translation>Vizualizare: %1</translation>
+        <location filename="../htmlexport.cpp" line="486"/>
+        <source>View: %1</source>
+        <translation>Vizualizare: %1</translation>
     </message>
     <message>
-      <location filename="../htmlexport.cpp" line="565"/>
-      <source>Document generated by Letos v%1 on %2</source>
-      <translation>Document generat de Letos v%1 la %2</translation>
+        <location filename="../htmlexport.cpp" line="565"/>
+        <source>Document generated by Letos v%1 on %2</source>
+        <translation>Document generat de Letos v%1 la %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>HtmlExportConfig</name>
     <message>
-      <location filename="../htmlexport.ui" line="136"/>
-      <source>Maximum number of characters per cell:</source>
-      <translation>Numărul maxim de caractere per celulă:</translation>
+        <location filename="../htmlexport.ui" line="136"/>
+        <source>Maximum number of characters per cell:</source>
+        <translation>Numărul maxim de caractere per celulă:</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="182"/>
-      <source>Include data types in first row</source>
-      <translation>Include tipurile de date în primul rând</translation>
+        <location filename="../htmlexport.ui" line="182"/>
+        <source>Include data types in first row</source>
+        <translation>Include tipurile de date în primul rând</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="143"/>
-      <source>Column names as first row</source>
-      <translation>Numele coloanelor ca primul rând</translation>
+        <location filename="../htmlexport.ui" line="143"/>
+        <source>Column names as first row</source>
+        <translation>Numele coloanelor ca primul rând</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="126"/>
-      <source>Row numbers as first column</source>
-      <translation>Numerele rândurilor ca prima coloană</translation>
+        <location filename="../htmlexport.ui" line="126"/>
+        <source>Row numbers as first column</source>
+        <translation>Numerele rândurilor ca prima coloană</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="91"/>
-      <source>Output format</source>
-      <translation>Format de ieșire</translation>
+        <location filename="../htmlexport.ui" line="91"/>
+        <source>Output format</source>
+        <translation>Format de ieșire</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="20"/>
-      <source>Custom header</source>
-      <translation>Antet personalizat</translation>
+        <location filename="../htmlexport.ui" line="20"/>
+        <source>Custom header</source>
+        <translation>Antet personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="26"/>
-      <source>No custom header</source>
-      <translation>Fără antet personalizat</translation>
+        <location filename="../htmlexport.ui" line="26"/>
+        <source>No custom header</source>
+        <translation>Fără antet personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="39"/>
-      <source>Define custom header content</source>
-      <translation>Definește conținutul antetului personalizat</translation>
+        <location filename="../htmlexport.ui" line="39"/>
+        <source>Define custom header content</source>
+        <translation>Definește conținutul antetului personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="52"/>
-      <location filename="../htmlexport.ui" line="224"/>
-      <source>HTML content</source>
-      <translation>Conținut HTML</translation>
+        <location filename="../htmlexport.ui" line="52"/>
+        <location filename="../htmlexport.ui" line="224"/>
+        <source>HTML content</source>
+        <translation>Conținut HTML</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="62"/>
-      <source>Define custom header file</source>
-      <translation>Definește fișierul antetului personalizat</translation>
+        <location filename="../htmlexport.ui" line="62"/>
+        <source>Define custom header file</source>
+        <translation>Definește fișierul antetului personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="78"/>
-      <source>Choose file for the header</source>
-      <translation>Alege fișierul pentru antet</translation>
+        <location filename="../htmlexport.ui" line="78"/>
+        <source>Choose file for the header</source>
+        <translation>Alege fișierul pentru antet</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="81"/>
-      <location filename="../htmlexport.ui" line="253"/>
-      <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-      <translation>Fișiere HTML (*.htm, *.html);;Fișiere text (*.txt);;Toate fișierele (*)</translation>
+        <location filename="../htmlexport.ui" line="81"/>
+        <location filename="../htmlexport.ui" line="253"/>
+        <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
+        <translation>Fișiere HTML (*.htm, *.html);;Fișiere text (*.txt);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="97"/>
-      <source>Format document (new lines, indentation)</source>
-      <translation>Formatează documentul (linii noi, indentare)</translation>
+        <location filename="../htmlexport.ui" line="97"/>
+        <source>Format document (new lines, indentation)</source>
+        <translation>Formatează documentul (linii noi, indentare)</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="110"/>
-      <source>Compress (everything in one line)</source>
-      <translation>Comprimă (totul pe o singură linie)</translation>
+        <location filename="../htmlexport.ui" line="110"/>
+        <source>Compress (everything in one line)</source>
+        <translation>Comprimă (totul pe o singură linie)</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="153"/>
-      <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
+        <location filename="../htmlexport.ui" line="153"/>
+        <source>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp;amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;When enabled, HTML characters such as &amp;lt;, &amp;gt; and &amp; are not escaped in exported values. This allows you for example to export hyper-link enabled documents, but it also may result in incorrect HTML document (unmatched pairs of &amp;lt; and &amp;gt; characters). Be warned.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="156"/>
-      <source>Don&apos;t escape HTML characters</source>
-      <translation>Nu transforma caracterele HTML &apos;în entități</translation>
+        <location filename="../htmlexport.ui" line="156"/>
+        <source>Don&apos;t escape HTML characters</source>
+        <translation>Nu transforma caracterele HTML &apos;în entități</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="192"/>
-      <source>Custom footer</source>
-      <translation>Subsol personalizat</translation>
+        <location filename="../htmlexport.ui" line="192"/>
+        <source>Custom footer</source>
+        <translation>Subsol personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="198"/>
-      <source>No custom footer</source>
-      <translation>Fără subsol personalizat</translation>
+        <location filename="../htmlexport.ui" line="198"/>
+        <source>No custom footer</source>
+        <translation>Fără subsol personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="211"/>
-      <source>Define custom footer content</source>
-      <translation>Definește conținutul subsolului personalizat</translation>
+        <location filename="../htmlexport.ui" line="211"/>
+        <source>Define custom footer content</source>
+        <translation>Definește conținutul subsolului personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="234"/>
-      <source>Define custom footer file</source>
-      <translation>Definește fișierul subsolului personalizat</translation>
+        <location filename="../htmlexport.ui" line="234"/>
+        <source>Define custom footer file</source>
+        <translation>Definește fișierul subsolului personalizat</translation>
     </message>
     <message>
-      <location filename="../htmlexport.ui" line="250"/>
-      <source>Choose file for the footer</source>
-      <translation>Alege fișierul pentru subsol</translation>
+        <location filename="../htmlexport.ui" line="250"/>
+        <source>Choose file for the footer</source>
+        <translation>Alege fișierul pentru subsol</translation>
     </message>
-  </context>
+</context>
 </TS>

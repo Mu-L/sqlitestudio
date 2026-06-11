@@ -1,1250 +1,1250 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="hu" sourcelanguage="en">
-  <context>
+<context>
     <name>AbstractDb</name>
     <message>
-      <location filename="../db/abstractdb.cpp" line="415"/>
-      <location filename="../db/abstractdb.cpp" line="432"/>
-      <source>Cannot execute query on closed database.</source>
-      <translation>Nem lehet lekérdezést végrehajtani lezárt adatbázison.</translation>
+        <location filename="../db/abstractdb.cpp" line="415"/>
+        <location filename="../db/abstractdb.cpp" line="432"/>
+        <source>Cannot execute query on closed database.</source>
+        <translation>Nem lehet lekérdezést végrehajtani lezárt adatbázison.</translation>
     </message>
     <message>
-      <location filename="../db/abstractdb.cpp" line="858"/>
-      <source>Error attaching database %1: %2</source>
-      <translation>Hiba az adatbázis csatolásakor %1: %2</translation>
+        <location filename="../db/abstractdb.cpp" line="858"/>
+        <source>Error attaching database %1: %2</source>
+        <translation>Hiba az adatbázis csatolásakor %1: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ChainExecutor</name>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="38"/>
-      <source>The database for executing queries was not defined.</source>
-      <comment>chain executor</comment>
-      <translation>A lekérdezések végrehajtásához használt adatbázis nincs megadva.</translation>
+        <location filename="../db/chainexecutor.cpp" line="38"/>
+        <source>The database for executing queries was not defined.</source>
+        <comment>chain executor</comment>
+        <translation>A lekérdezések végrehajtásához használt adatbázis nincs megadva.</translation>
     </message>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="45"/>
-      <source>The database for executing queries was not open.</source>
-      <comment>chain executor</comment>
-      <translation>A lekérdezések végrehajtásához használt adatbázis nincs megnyitva.</translation>
+        <location filename="../db/chainexecutor.cpp" line="45"/>
+        <source>The database for executing queries was not open.</source>
+        <comment>chain executor</comment>
+        <translation>A lekérdezések végrehajtásához használt adatbázis nincs megnyitva.</translation>
     </message>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="58"/>
-      <source>Could not disable foreign keys in the database. Details: %1</source>
-      <comment>chain executor</comment>
-      <translation>Nem sikerült letiltani az idegen kulcsokat az adatbázisban. Részletek: %1</translation>
+        <location filename="../db/chainexecutor.cpp" line="58"/>
+        <source>Could not disable foreign keys in the database. Details: %1</source>
+        <comment>chain executor</comment>
+        <translation>Nem sikerült letiltani az idegen kulcsokat az adatbázisban. Részletek: %1</translation>
     </message>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="73"/>
-      <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
-      <comment>chain executor</comment>
-      <translation>Nem sikerült átváltani az adatbázisban a régi ALTER RENAME viselkedésre. Részletek: %1</translation>
+        <location filename="../db/chainexecutor.cpp" line="73"/>
+        <source>Could not switch to legacy ALTER RENAME behavior in the database. Details: %1</source>
+        <comment>chain executor</comment>
+        <translation>Nem sikerült átváltani az adatbázisban a régi ALTER RENAME viselkedésre. Részletek: %1</translation>
     </message>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="82"/>
-      <source>Could not start a database transaction. Details: %1</source>
-      <comment>chain executor</comment>
-      <translation>Nem sikerült adatbázis-tranzakciót indítani. Részletek: %1</translation>
+        <location filename="../db/chainexecutor.cpp" line="82"/>
+        <source>Could not start a database transaction. Details: %1</source>
+        <comment>chain executor</comment>
+        <translation>Nem sikerült adatbázis-tranzakciót indítani. Részletek: %1</translation>
     </message>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="112"/>
-      <source>Interrupted</source>
-      <comment>chain executor</comment>
-      <translation>Megszakítva</translation>
+        <location filename="../db/chainexecutor.cpp" line="112"/>
+        <source>Interrupted</source>
+        <comment>chain executor</comment>
+        <translation>Megszakítva</translation>
     </message>
     <message>
-      <location filename="../db/chainexecutor.cpp" line="180"/>
-      <source>Could not commit a database transaction. Details: %1</source>
-      <comment>chain executor</comment>
-      <translation>Nem sikerült véglegesíteni az adatbázis-tranzakciót. Részletek: %1</translation>
+        <location filename="../db/chainexecutor.cpp" line="180"/>
+        <source>Could not commit a database transaction. Details: %1</source>
+        <comment>chain executor</comment>
+        <translation>Nem sikerült véglegesíteni az adatbázis-tranzakciót. Részletek: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CompletionHelper</name>
     <message>
-      <location filename="../completionhelper.cpp" line="163"/>
-      <source>New row reference</source>
-      <translation>Új sor hivatkozása</translation>
+        <location filename="../completionhelper.cpp" line="163"/>
+        <source>New row reference</source>
+        <translation>Új sor hivatkozása</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="170"/>
-      <source>Old row reference</source>
-      <translation>Régi sor hivatkozása</translation>
+        <location filename="../completionhelper.cpp" line="170"/>
+        <source>Old row reference</source>
+        <translation>Régi sor hivatkozása</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="175"/>
-      <source>New table name</source>
-      <translation>Új tábla neve</translation>
+        <location filename="../completionhelper.cpp" line="175"/>
+        <source>New table name</source>
+        <translation>Új tábla neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="178"/>
-      <source>New index name</source>
-      <translation>Új index neve</translation>
+        <location filename="../completionhelper.cpp" line="178"/>
+        <source>New index name</source>
+        <translation>Új index neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="181"/>
-      <source>New view name</source>
-      <translation>Új nézet neve</translation>
+        <location filename="../completionhelper.cpp" line="181"/>
+        <source>New view name</source>
+        <translation>Új nézet neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="184"/>
-      <source>New trigger name</source>
-      <translation>Új trigger neve</translation>
+        <location filename="../completionhelper.cpp" line="184"/>
+        <source>New trigger name</source>
+        <translation>Új trigger neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="187"/>
-      <source>Table or column alias</source>
-      <translation>Tábla- vagy oszlopálnév</translation>
+        <location filename="../completionhelper.cpp" line="187"/>
+        <source>Table or column alias</source>
+        <translation>Tábla- vagy oszlopálnév</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="190"/>
-      <source>transaction name</source>
-      <translation>tranzakció neve</translation>
+        <location filename="../completionhelper.cpp" line="190"/>
+        <source>transaction name</source>
+        <translation>tranzakció neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="193"/>
-      <source>New column name</source>
-      <translation>Új oszlop neve</translation>
+        <location filename="../completionhelper.cpp" line="193"/>
+        <source>New column name</source>
+        <translation>Új oszlop neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="196"/>
-      <source>Column data type</source>
-      <translation>Oszlop adattípusa</translation>
+        <location filename="../completionhelper.cpp" line="196"/>
+        <source>Column data type</source>
+        <translation>Oszlop adattípusa</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="199"/>
-      <source>Constraint name</source>
-      <translation>Megszorítás neve</translation>
+        <location filename="../completionhelper.cpp" line="199"/>
+        <source>Constraint name</source>
+        <translation>Megszorítás neve</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="215"/>
-      <source>Error message</source>
-      <translation>Hibaüzenet</translation>
+        <location filename="../completionhelper.cpp" line="215"/>
+        <source>Error message</source>
+        <translation>Hibaüzenet</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="264"/>
-      <source>Any word</source>
-      <translation>Bármely szó</translation>
+        <location filename="../completionhelper.cpp" line="264"/>
+        <source>Any word</source>
+        <translation>Bármely szó</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="267"/>
-      <source>String</source>
-      <translation>Karakterlánc</translation>
+        <location filename="../completionhelper.cpp" line="267"/>
+        <source>String</source>
+        <translation>Karakterlánc</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="270"/>
-      <location filename="../completionhelper.cpp" line="273"/>
-      <source>Number</source>
-      <translation>Szám</translation>
+        <location filename="../completionhelper.cpp" line="270"/>
+        <location filename="../completionhelper.cpp" line="273"/>
+        <source>Number</source>
+        <translation>Szám</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="285"/>
-      <source>BLOB literal</source>
-      <translation>BLOB literál</translation>
+        <location filename="../completionhelper.cpp" line="285"/>
+        <source>BLOB literal</source>
+        <translation>BLOB literál</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="445"/>
-      <source>Default database</source>
-      <translation>Alapértelmezett adatbázis</translation>
+        <location filename="../completionhelper.cpp" line="445"/>
+        <source>Default database</source>
+        <translation>Alapértelmezett adatbázis</translation>
     </message>
     <message>
-      <location filename="../completionhelper.cpp" line="446"/>
-      <source>Temporary objects database</source>
-      <translation>Ideiglenes objektumok adatbázisa</translation>
+        <location filename="../completionhelper.cpp" line="446"/>
+        <source>Temporary objects database</source>
+        <translation>Ideiglenes objektumok adatbázisa</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConfigImpl</name>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="592"/>
-      <source>Cannot export config to file %1: %2</source>
-      <translation>Nem lehet exportálni a konfigurációt a %1 fájlba: %2</translation>
+        <location filename="../services/impl/configimpl.cpp" line="592"/>
+        <source>Cannot export config to file %1: %2</source>
+        <translation>Nem lehet exportálni a konfigurációt a %1 fájlba: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="597"/>
-      <source>Config exported successfully to %1</source>
-      <translation>A konfiguráció sikeresen exportálva ide: %1</translation>
+        <location filename="../services/impl/configimpl.cpp" line="597"/>
+        <source>Config exported successfully to %1</source>
+        <translation>A konfiguráció sikeresen exportálva ide: %1</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="629"/>
-      <source>Cannot import config from file %1: %2</source>
-      <translation>Nem lehet importálni a konfigurációt a %1 fájlból: %2</translation>
+        <location filename="../services/impl/configimpl.cpp" line="629"/>
+        <source>Cannot import config from file %1: %2</source>
+        <translation>Nem lehet importálni a konfigurációt a %1 fájlból: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="648"/>
-      <source>Config imported successfully from %1</source>
-      <translation>A konfiguráció sikeresen importálva innen: %1</translation>
+        <location filename="../services/impl/configimpl.cpp" line="648"/>
+        <source>Config imported successfully from %1</source>
+        <translation>A konfiguráció sikeresen importálva innen: %1</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="659"/>
-      <source>Cannot read file %1: %2</source>
-      <translation>Nem lehet olvasni a %1 fájlt: %2</translation>
+        <location filename="../services/impl/configimpl.cpp" line="659"/>
+        <source>Cannot read file %1: %2</source>
+        <translation>Nem lehet olvasni a %1 fájlt: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="1001"/>
-      <source>Could not start database transaction for deleting SQL history, therefore it&apos;s not deleted.</source>
-      <translation>Nem sikerült adatbázis-tranzakciót indítani az SQL-előzmények törléséhez, ezért azok nem törlődnek.</translation>
+        <location filename="../services/impl/configimpl.cpp" line="1001"/>
+        <source>Could not start database transaction for deleting SQL history, therefore it&apos;s not deleted.</source>
+        <translation>Nem sikerült adatbázis-tranzakciót indítani az SQL-előzmények törléséhez, ezért azok nem törlődnek.</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="1008"/>
-      <source>Could not commit database transaction for deleting SQL history, therefore it&apos;s not deleted.</source>
-      <translation>Nem sikerült véglegesíteni az adatbázis-tranzakciót az SQL-előzmények törléséhez, ezért azok nem törlődnek.</translation>
+        <location filename="../services/impl/configimpl.cpp" line="1008"/>
+        <source>Could not commit database transaction for deleting SQL history, therefore it&apos;s not deleted.</source>
+        <translation>Nem sikerült véglegesíteni az adatbázis-tranzakciót az SQL-előzmények törléséhez, ezért azok nem törlődnek.</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="1366"/>
-      <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
-      <translation>A beállított gyorsbillentyűk a 4.0.0-s verzióra való frissítés után visszaálltak az alapértelmezett beállításaikra, mivel számos billentyűparancsot átdolgoztak a modern IDE-szabványokhoz igazítva.</translation>
+        <location filename="../services/impl/configimpl.cpp" line="1366"/>
+        <source>Configured hotkeys have been reset to their default settings following the update to version 4.0.0, where many shortcuts were revised to align with modern IDE standards.</source>
+        <translation>A beállított gyorsbillentyűk a 4.0.0-s verzióra való frissítés után visszaálltak az alapértelmezett beállításaikra, mivel számos billentyűparancsot átdolgoztak a modern IDE-szabványokhoz igazítva.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbManagerImpl</name>
     <message>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="63"/>
-      <source>Could not add database %1: %2</source>
-      <translation>Nem sikerült hozzáadni a %1 adatbázist: %2</translation>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="63"/>
+        <source>Could not add database %1: %2</source>
+        <translation>Nem sikerült hozzáadni a %1 adatbázist: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="148"/>
-      <source>Database %1 could not be updated, because of an error: %2</source>
-      <translation>A %1 adatbázist nem sikerült frissíteni egy hiba miatt: %2</translation>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="148"/>
+        <source>Database %1 could not be updated, because of an error: %2</source>
+        <translation>A %1 adatbázist nem sikerült frissíteni egy hiba miatt: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="385"/>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="414"/>
-      <source>Database file doesn&apos;t exist.</source>
-      <translation>Az adatbázisfájl nem létezik.</translation>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="385"/>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="414"/>
+        <source>Database file doesn&apos;t exist.</source>
+        <translation>Az adatbázisfájl nem létezik.</translation>
     </message>
     <message>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="387"/>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="416"/>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="632"/>
-      <source>No supporting plugin loaded.</source>
-      <translation>Nincs betöltve támogató bővítmény.</translation>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="387"/>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="416"/>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="632"/>
+        <source>No supporting plugin loaded.</source>
+        <translation>Nincs betöltve támogató bővítmény.</translation>
     </message>
     <message>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="550"/>
-      <source>Database could not be initialized.</source>
-      <translation>Az adatbázist nem sikerült inicializálni.</translation>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="550"/>
+        <source>Database could not be initialized.</source>
+        <translation>Az adatbázist nem sikerült inicializálni.</translation>
     </message>
     <message>
-      <location filename="../services/impl/dbmanagerimpl.cpp" line="560"/>
-      <source>No suitable database driver plugin found.</source>
-      <translation>Nem található megfelelő adatbázis-illesztőprogram bővítmény.</translation>
+        <location filename="../services/impl/dbmanagerimpl.cpp" line="560"/>
+        <source>No suitable database driver plugin found.</source>
+        <translation>Nem található megfelelő adatbázis-illesztőprogram bővítmény.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbObjectOrganizer</name>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="96"/>
-      <location filename="../dbobjectorganizer.cpp" line="130"/>
-      <location filename="../dbobjectorganizer.cpp" line="149"/>
-      <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
-      <translation>Hiba történt a &apos;%1&apos; tábla &apos;%2&apos; névre történő átnevezése közben: %3</translation>
+        <location filename="../dbobjectorganizer.cpp" line="96"/>
+        <location filename="../dbobjectorganizer.cpp" line="130"/>
+        <location filename="../dbobjectorganizer.cpp" line="149"/>
+        <source>An error occurred while trying to rename table &apos;%1&apos; to &apos;%2&apos;: %3</source>
+        <translation>Hiba történt a &apos;%1&apos; tábla &apos;%2&apos; névre történő átnevezése közben: %3</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="131"/>
-      <source>Failed to parse object definition.</source>
-      <translation>Nem sikerült értelmezni az objektumdefiníciót.</translation>
+        <location filename="../dbobjectorganizer.cpp" line="131"/>
+        <source>Failed to parse object definition.</source>
+        <translation>Nem sikerült értelmezni az objektumdefiníciót.</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="166"/>
-      <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
-      <translation>Hiba történt a &apos;%2&apos; tábla &apos;%1&apos; oszlopának &apos;%3&apos; névre történő átnevezése közben: %4</translation>
+        <location filename="../dbobjectorganizer.cpp" line="166"/>
+        <source>An error occurred while trying to rename column &apos;%1&apos; of table &apos;%2&apos; to &apos;%3&apos;: %4</source>
+        <translation>Hiba történt a &apos;%2&apos; tábla &apos;%1&apos; oszlopának &apos;%3&apos; névre történő átnevezése közben: %4</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="462"/>
-      <location filename="../dbobjectorganizer.cpp" line="493"/>
-      <source>Error while creating table in target database: %1</source>
-      <translation>Hiba a tábla létrehozásakor a céladatbázisban: %1</translation>
+        <location filename="../dbobjectorganizer.cpp" line="462"/>
+        <location filename="../dbobjectorganizer.cpp" line="493"/>
+        <source>Error while creating table in target database: %1</source>
+        <translation>Hiba a tábla létrehozásakor a céladatbázisban: %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="462"/>
-      <source>Could not parse table.</source>
-      <translation>Nem sikerült értelmezni a táblát.</translation>
+        <location filename="../dbobjectorganizer.cpp" line="462"/>
+        <source>Could not parse table.</source>
+        <translation>Nem sikerült értelmezni a táblát.</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="507"/>
-      <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
-      <translation>A %1 adatbázist nem sikerült csatolni a %2 adatbázishoz, ezért a %3 tábla adatai a Letos közvetítésével lesznek másolva. Ez a módszer nagy táblák esetén lassú lehet, ezért legyen türelemmel.</translation>
+        <location filename="../dbobjectorganizer.cpp" line="507"/>
+        <source>Database %1 could not be attached to database %2, so the data of table %3 will be copied with Letos as a mediator. This method can be slow for huge tables, so please be patient.</source>
+        <translation>A %1 adatbázist nem sikerült csatolni a %2 adatbázishoz, ezért a %3 tábla adatai a Letos közvetítésével lesznek másolva. Ez a módszer nagy táblák esetén lassú lehet, ezért legyen türelemmel.</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="531"/>
-      <source>Error while copying data for table %1: %2</source>
-      <translation>Hiba a %1 tábla adatainak másolásakor: %2</translation>
+        <location filename="../dbobjectorganizer.cpp" line="531"/>
+        <source>Error while copying data for table %1: %2</source>
+        <translation>Hiba a %1 tábla adatainak másolásakor: %2</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="550"/>
-      <location filename="../dbobjectorganizer.cpp" line="557"/>
-      <location filename="../dbobjectorganizer.cpp" line="584"/>
-      <source>Error while copying data to table %1: %2</source>
-      <translation>Hiba az adatok %1 táblába másolásakor: %2</translation>
+        <location filename="../dbobjectorganizer.cpp" line="550"/>
+        <location filename="../dbobjectorganizer.cpp" line="557"/>
+        <location filename="../dbobjectorganizer.cpp" line="584"/>
+        <source>Error while copying data to table %1: %2</source>
+        <translation>Hiba az adatok %1 táblába másolásakor: %2</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="606"/>
-      <source>Error while dropping source view %1: %2
+        <location filename="../dbobjectorganizer.cpp" line="606"/>
+        <source>Error while dropping source view %1: %2
 Tables, indexes, triggers and views copied to database %3 will remain.</source>
-      <translation>Hiba a %1 forrásnézet eldobásakor: %2
+        <translation>Hiba a %1 forrásnézet eldobásakor: %2
 A %3 adatbázisba másolt táblák, indexek, triggerek és nézetek megmaradnak.</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="613"/>
-      <source>Error while creating view in target database: %1</source>
-      <translation>Hiba a nézet létrehozásakor a céladatbázisban: %1</translation>
+        <location filename="../dbobjectorganizer.cpp" line="613"/>
+        <source>Error while creating view in target database: %1</source>
+        <translation>Hiba a nézet létrehozásakor a céladatbázisban: %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="618"/>
-      <source>Error while creating index in target database: %1</source>
-      <translation>Hiba az index létrehozásakor a céladatbázisban: %1</translation>
+        <location filename="../dbobjectorganizer.cpp" line="618"/>
+        <source>Error while creating index in target database: %1</source>
+        <translation>Hiba az index létrehozásakor a céladatbázisban: %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="623"/>
-      <source>Error while creating trigger in target database: %1</source>
-      <translation>Hiba a trigger létrehozásakor a céladatbázisban: %1</translation>
+        <location filename="../dbobjectorganizer.cpp" line="623"/>
+        <source>Error while creating trigger in target database: %1</source>
+        <translation>Hiba a trigger létrehozásakor a céladatbázisban: %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectorganizer.cpp" line="763"/>
-      <location filename="../dbobjectorganizer.cpp" line="770"/>
-      <location filename="../dbobjectorganizer.cpp" line="779"/>
-      <source>Could not parse object &apos;%1&apos; in order to move or copy it.</source>
-      <translation>Nem sikerült értelmezni a &apos;%1&apos; objektumot az áthelyezéséhez vagy másolásához.</translation>
+        <location filename="../dbobjectorganizer.cpp" line="763"/>
+        <location filename="../dbobjectorganizer.cpp" line="770"/>
+        <location filename="../dbobjectorganizer.cpp" line="779"/>
+        <source>Could not parse object &apos;%1&apos; in order to move or copy it.</source>
+        <translation>Nem sikerült értelmezni a &apos;%1&apos; objektumot az áthelyezéséhez vagy másolásához.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DdlHistoryModel</name>
     <message>
-      <location filename="../ddlhistorymodel.cpp" line="66"/>
-      <source>Database name</source>
-      <comment>ddl history header</comment>
-      <translation>Adatbázis neve</translation>
+        <location filename="../ddlhistorymodel.cpp" line="66"/>
+        <source>Database name</source>
+        <comment>ddl history header</comment>
+        <translation>Adatbázis neve</translation>
     </message>
     <message>
-      <location filename="../ddlhistorymodel.cpp" line="68"/>
-      <source>Database file</source>
-      <comment>ddl history header</comment>
-      <translation>Adatbázisfájl</translation>
+        <location filename="../ddlhistorymodel.cpp" line="68"/>
+        <source>Database file</source>
+        <comment>ddl history header</comment>
+        <translation>Adatbázisfájl</translation>
     </message>
     <message>
-      <location filename="../ddlhistorymodel.cpp" line="70"/>
-      <source>Date of execution</source>
-      <comment>ddl history header</comment>
-      <translation>Végrehajtás dátuma</translation>
+        <location filename="../ddlhistorymodel.cpp" line="70"/>
+        <source>Date of execution</source>
+        <comment>ddl history header</comment>
+        <translation>Végrehajtás dátuma</translation>
     </message>
     <message>
-      <location filename="../ddlhistorymodel.cpp" line="72"/>
-      <source>Changes</source>
-      <comment>ddl history header</comment>
-      <translation>Változtatások</translation>
+        <location filename="../ddlhistorymodel.cpp" line="72"/>
+        <source>Changes</source>
+        <comment>ddl history header</comment>
+        <translation>Változtatások</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ExportManager</name>
     <message>
-      <location filename="../services/exportmanager.cpp" line="74"/>
-      <source>Export plugin %1 doesn&apos;t support exporing query results.</source>
-      <translation>A %1 exportbővítmény nem támogatja a lekérdezési eredmények exportálását.</translation>
+        <location filename="../services/exportmanager.cpp" line="74"/>
+        <source>Export plugin %1 doesn&apos;t support exporing query results.</source>
+        <translation>A %1 exportbővítmény nem támogatja a lekérdezési eredmények exportálását.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="100"/>
-      <source>Export plugin %1 doesn&apos;t support exporing tables.</source>
-      <translation>A %1 exportbővítmény nem támogatja a táblák exportálását.</translation>
+        <location filename="../services/exportmanager.cpp" line="100"/>
+        <source>Export plugin %1 doesn&apos;t support exporing tables.</source>
+        <translation>A %1 exportbővítmény nem támogatja a táblák exportálását.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="126"/>
-      <source>Export plugin %1 doesn&apos;t support exporing views.</source>
-      <translation>A %1 exportbővítmény nem támogatja a nézetek exportálását.</translation>
+        <location filename="../services/exportmanager.cpp" line="126"/>
+        <source>Export plugin %1 doesn&apos;t support exporing views.</source>
+        <translation>A %1 exportbővítmény nem támogatja a nézetek exportálását.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="150"/>
-      <source>Export plugin %1 doesn&apos;t support exporing databases.</source>
-      <translation>A %1 exportbővítmény nem támogatja az adatbázisok exportálását.</translation>
+        <location filename="../services/exportmanager.cpp" line="150"/>
+        <source>Export plugin %1 doesn&apos;t support exporing databases.</source>
+        <translation>A %1 exportbővítmény nem támogatja az adatbázisok exportálását.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="183"/>
-      <source>Export format &apos;%1&apos; is not supported. Supported formats are: %2.</source>
-      <translation>A &apos;%1&apos; exportformátum nem támogatott. A támogatott formátumok: %2.</translation>
+        <location filename="../services/exportmanager.cpp" line="183"/>
+        <source>Export format &apos;%1&apos; is not supported. Supported formats are: %2.</source>
+        <translation>A &apos;%1&apos; exportformátum nem támogatott. A támogatott formátumok: %2.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="247"/>
-      <source>Export to the clipboard was successful.</source>
-      <translation>A vágólapra exportálás sikeres volt.</translation>
+        <location filename="../services/exportmanager.cpp" line="247"/>
+        <source>Export to the clipboard was successful.</source>
+        <translation>A vágólapra exportálás sikeres volt.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="251"/>
-      <source>Export to the file &apos;%1&apos; was successful.</source>
-      <translation>A &apos;%1&apos; fájlba exportálás sikeres volt.</translation>
+        <location filename="../services/exportmanager.cpp" line="251"/>
+        <source>Export to the file &apos;%1&apos; was successful.</source>
+        <translation>A &apos;%1&apos; fájlba exportálás sikeres volt.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="253"/>
-      <source>Export was successful.</source>
-      <translation>Az exportálás sikeres volt.</translation>
+        <location filename="../services/exportmanager.cpp" line="253"/>
+        <source>Export was successful.</source>
+        <translation>Az exportálás sikeres volt.</translation>
     </message>
     <message>
-      <location filename="../services/exportmanager.cpp" line="295"/>
-      <source>Could not export to file %1. File cannot be open for writting.</source>
-      <translation>Nem sikerült exportálni a %1 fájlba. A fájl nem nyitható meg írásra.</translation>
+        <location filename="../services/exportmanager.cpp" line="295"/>
+        <source>Could not export to file %1. File cannot be open for writting.</source>
+        <translation>Nem sikerült exportálni a %1 fájlba. A fájl nem nyitható meg írásra.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ExportWorker</name>
     <message>
-      <location filename="../exportworker.cpp" line="136"/>
-      <source>Error while exporting query results: %1</source>
-      <translation>Hiba a lekérdezési eredmények exportálásakor: %1</translation>
+        <location filename="../exportworker.cpp" line="136"/>
+        <source>Error while exporting query results: %1</source>
+        <translation>Hiba a lekérdezési eredmények exportálásakor: %1</translation>
     </message>
     <message>
-      <location filename="../exportworker.cpp" line="222"/>
-      <source>Error while counting data column width to export from query results: %1</source>
-      <translation>Hiba a lekérdezési eredményekből exportálandó adatoszlop-szélesség kiszámításakor: %1</translation>
+        <location filename="../exportworker.cpp" line="222"/>
+        <source>Error while counting data column width to export from query results: %1</source>
+        <translation>Hiba a lekérdezési eredményekből exportálandó adatoszlop-szélesség kiszámításakor: %1</translation>
     </message>
     <message>
-      <location filename="../exportworker.cpp" line="366"/>
-      <location filename="../exportworker.cpp" line="426"/>
-      <location filename="../exportworker.cpp" line="545"/>
-      <source>Could not parse %1 in order to export it. It will be excluded from the export output.</source>
-      <translation>Nem sikerült értelmezni a következőt az exportáláshoz: %1. Ki lesz hagyva az exportált kimenetből.</translation>
+        <location filename="../exportworker.cpp" line="366"/>
+        <location filename="../exportworker.cpp" line="426"/>
+        <location filename="../exportworker.cpp" line="545"/>
+        <source>Could not parse %1 in order to export it. It will be excluded from the export output.</source>
+        <translation>Nem sikerült értelmezni a következőt az exportáláshoz: %1. Ki lesz hagyva az exportált kimenetből.</translation>
     </message>
     <message>
-      <location filename="../exportworker.cpp" line="821"/>
-      <source>Error while reading data to export from table or view %1: %2</source>
-      <translation>Hiba az exportálandó adatok olvasásakor a %1 táblából vagy nézetből: %2</translation>
+        <location filename="../exportworker.cpp" line="821"/>
+        <source>Error while reading data to export from table or view %1: %2</source>
+        <translation>Hiba az exportálandó adatok olvasásakor a %1 táblából vagy nézetből: %2</translation>
     </message>
     <message>
-      <location filename="../exportworker.cpp" line="829"/>
-      <source>Error while counting data to export from table or view %1: %2</source>
-      <translation>Hiba az exportálandó adatok megszámlálásakor a %1 táblából vagy nézetből: %2</translation>
+        <location filename="../exportworker.cpp" line="829"/>
+        <source>Error while counting data to export from table or view %1: %2</source>
+        <translation>Hiba az exportálandó adatok megszámlálásakor a %1 táblából vagy nézetből: %2</translation>
     </message>
     <message>
-      <location filename="../exportworker.cpp" line="845"/>
-      <source>Error while counting data column width to export from table or view %1: %2</source>
-      <translation>Hiba a %1 táblából vagy nézetből exportálandó adatoszlop-szélesség kiszámításakor: %2</translation>
+        <location filename="../exportworker.cpp" line="845"/>
+        <source>Error while counting data column width to export from table or view %1: %2</source>
+        <translation>Hiba a %1 táblából vagy nézetből exportálandó adatoszlop-szélesség kiszámításakor: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FunctionManager</name>
     <message>
-      <location filename="../services/functionmanager.cpp" line="37"/>
-      <source>Scalar</source>
-      <translation>Skalár</translation>
+        <location filename="../services/functionmanager.cpp" line="37"/>
+        <source>Scalar</source>
+        <translation>Skalár</translation>
     </message>
     <message>
-      <location filename="../services/functionmanager.cpp" line="39"/>
-      <source>Aggregate</source>
-      <translation>Aggregáló</translation>
+        <location filename="../services/functionmanager.cpp" line="39"/>
+        <source>Aggregate</source>
+        <translation>Aggregáló</translation>
     </message>
     <message>
-      <location filename="../services/functionmanager.cpp" line="41"/>
-      <source>Window</source>
-      <translation>Ablak</translation>
+        <location filename="../services/functionmanager.cpp" line="41"/>
+        <source>Window</source>
+        <translation>Ablak</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FunctionManagerImpl</name>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
-      <source>Could not create scripting context, probably the plugin is not configured properly</source>
-      <translation>Nem sikerült létrehozni a szkriptelési kontextust; valószínűleg a bővítmény nincs megfelelően konfigurálva</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="232"/>
+        <source>Could not create scripting context, probably the plugin is not configured properly</source>
+        <translation>Nem sikerült létrehozni a szkriptelési kontextust; valószínűleg a bővítmény nincs megfelelően konfigurálva</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
-      <source>Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</source>
-      <translation>Érvénytelen számú argumentum a &apos;%1&apos; függvényhez. Várt: %2, kapott: %3.</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="281"/>
+        <source>Invalid number of arguments to function &apos;%1&apos;. Expected %2, but got %3.</source>
+        <translation>Érvénytelen számú argumentum a &apos;%1&apos; függvényhez. Várt: %2, kapott: %3.</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
-      <source>No such function registered in Letos: %1(%2)</source>
-      <translation>Nincs ilyen függvény regisztrálva a Letosban: %1(%2)</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="402"/>
+        <source>No such function registered in Letos: %1(%2)</source>
+        <translation>Nincs ilyen függvény regisztrálva a Letosban: %1(%2)</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
-      <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
-      <translation>A %1(%2) függvény %3 nyelvvel lett regisztrálva, de az ezt a nyelvet támogató bővítmény jelenleg nincs betöltve.</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="408"/>
+        <source>Function %1(%2) was registered with language %3, but the plugin supporting that language is not currently loaded.</source>
+        <translation>A %1(%2) függvény %3 nyelvvel lett regisztrálva, de az ezt a nyelvet támogató bővítmény jelenleg nincs betöltve.</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
-      <source>Invalid regular expression pattern: %1</source>
-      <translation>Érvénytelen reguláriskifejezés-minta: %1</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="439"/>
+        <source>Invalid regular expression pattern: %1</source>
+        <translation>Érvénytelen reguláriskifejezés-minta: %1</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="491"/>
-      <source>Could not open file %1 for reading: %2</source>
-      <translation>Nem sikerült megnyitni a %1 fájlt olvasásra: %2</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="458"/>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="491"/>
+        <source>Could not open file %1 for reading: %2</source>
+        <translation>Nem sikerült megnyitni a %1 fájlt olvasásra: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="513"/>
-      <source>Could not open file %1 for writting: %2</source>
-      <translation>Nem sikerült megnyitni a %1 fájlt írásra: %2</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="513"/>
+        <source>Could not open file %1 for writting: %2</source>
+        <translation>Nem sikerült megnyitni a %1 fájlt írásra: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="533"/>
-      <source>Error while writting to file %1: %2</source>
-      <translation>Hiba a %1 fájlba írás közben: %2</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="533"/>
+        <source>Error while writting to file %1: %2</source>
+        <translation>Hiba a %1 fájlba írás közben: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
-      <source>Unsupported scripting language: %1</source>
-      <translation>Nem támogatott szkriptelési nyelv: %1</translation>
+        <location filename="../services/impl/functionmanagerimpl.cpp" line="551"/>
+        <source>Unsupported scripting language: %1</source>
+        <translation>Nem támogatott szkriptelési nyelv: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>GenericExportPlugin</name>
     <message>
-      <location filename="../plugins/genericexportplugin.cpp" line="19"/>
-      <source>Could not initialize text codec for exporting. Using default codec: %1</source>
-      <translation>Nem sikerült inicializálni a szövegkodeket az exportáláshoz. Az alapértelmezett kodek lesz használva: %1</translation>
+        <location filename="../plugins/genericexportplugin.cpp" line="19"/>
+        <source>Could not initialize text codec for exporting. Using default codec: %1</source>
+        <translation>Nem sikerült inicializálni a szövegkodeket az exportáláshoz. Az alapértelmezett kodek lesz használva: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ImportManager</name>
     <message>
-      <location filename="../services/importmanager.cpp" line="98"/>
-      <source>Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</source>
-      <translation>Az adatok sikeresen importálva a &apos;%1&apos; táblába. Importált sorok száma: %2</translation>
+        <location filename="../services/importmanager.cpp" line="98"/>
+        <source>Imported data to the table &apos;%1&apos; successfully. Number of imported rows: %2</source>
+        <translation>Az adatok sikeresen importálva a &apos;%1&apos; táblába. Importált sorok száma: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ImportWorker</name>
     <message>
-      <location filename="../importworker.cpp" line="24"/>
-      <source>No columns provided by the import plugin.</source>
-      <translation>Az importbővítmény nem adott meg oszlopokat.</translation>
+        <location filename="../importworker.cpp" line="24"/>
+        <source>No columns provided by the import plugin.</source>
+        <translation>Az importbővítmény nem adott meg oszlopokat.</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="31"/>
-      <source>Could not start transaction in order to import a data: %1</source>
-      <translation>Nem sikerült tranzakciót indítani az adatok importálásához: %1</translation>
+        <location filename="../importworker.cpp" line="31"/>
+        <source>Could not start transaction in order to import a data: %1</source>
+        <translation>Nem sikerült tranzakciót indítani az adatok importálásához: %1</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="54"/>
-      <source>Could not commit transaction for imported data: %1</source>
-      <translation>Nem sikerült véglegesíteni az importált adatok tranzakcióját: %1</translation>
+        <location filename="../importworker.cpp" line="54"/>
+        <source>Could not commit transaction for imported data: %1</source>
+        <translation>Nem sikerült véglegesíteni az importált adatok tranzakcióját: %1</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="101"/>
-      <source>Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</source>
-      <translation>A &apos;%1&apos; táblának kevesebb oszlopa van, mint az importálandó adatokban lévő oszlopok száma. A többlet adatoszlopok figyelmen kívül lesznek hagyva.</translation>
+        <location filename="../importworker.cpp" line="101"/>
+        <source>Table &apos;%1&apos; has less columns than there are columns in the data to be imported. Excessive data columns will be ignored.</source>
+        <translation>A &apos;%1&apos; táblának kevesebb oszlopa van, mint az importálandó adatokban lévő oszlopok száma. A többlet adatoszlopok figyelmen kívül lesznek hagyva.</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="106"/>
-      <source>Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</source>
-      <translation>A &apos;%1&apos; táblának több oszlopa van, mint az importálandó adatokban lévő oszlopok száma. A tábla egyes oszlopai üresen maradnak.</translation>
+        <location filename="../importworker.cpp" line="106"/>
+        <source>Table &apos;%1&apos; has more columns than there are columns in the data to be imported. Some columns in the table will be left empty.</source>
+        <translation>A &apos;%1&apos; táblának több oszlopa van, mint az importálandó adatokban lévő oszlopok száma. A tábla egyes oszlopai üresen maradnak.</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="125"/>
-      <source>Could not create table to import to: %1</source>
-      <translation>Nem sikerült létrehozni a táblát az importáláshoz: %1</translation>
+        <location filename="../importworker.cpp" line="125"/>
+        <source>Could not create table to import to: %1</source>
+        <translation>Nem sikerült létrehozni a táblát az importáláshoz: %1</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="134"/>
-      <location filename="../importworker.cpp" line="181"/>
-      <location filename="../importworker.cpp" line="188"/>
-      <source>Error while importing data: %1</source>
-      <translation>Hiba az adatok importálásakor: %1</translation>
+        <location filename="../importworker.cpp" line="134"/>
+        <location filename="../importworker.cpp" line="181"/>
+        <location filename="../importworker.cpp" line="188"/>
+        <source>Error while importing data: %1</source>
+        <translation>Hiba az adatok importálásakor: %1</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="134"/>
-      <location filename="../importworker.cpp" line="188"/>
-      <source>Interrupted.</source>
-      <comment>import process status update</comment>
-      <translation>Megszakítva.</translation>
+        <location filename="../importworker.cpp" line="134"/>
+        <location filename="../importworker.cpp" line="188"/>
+        <source>Interrupted.</source>
+        <comment>import process status update</comment>
+        <translation>Megszakítva.</translation>
     </message>
     <message>
-      <location filename="../importworker.cpp" line="176"/>
-      <source>Could not import data row number %1. The row was ignored. Problem details: %2</source>
-      <translation>Nem sikerült importálni a %1 számú adatsort. A sor figyelmen kívül lett hagyva. A probléma részletei: %2</translation>
+        <location filename="../importworker.cpp" line="176"/>
+        <source>Could not import data row number %1. The row was ignored. Problem details: %2</source>
+        <translation>Nem sikerült importálni a %1 számú adatsort. A sor figyelmen kívül lett hagyva. A probléma részletei: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PluginManagerImpl</name>
     <message>
-      <location filename="../services/impl/pluginmanagerimpl.cpp" line="564"/>
-      <source>Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</source>
-      <translation>Nem lehet betölteni a %1 bővítményt, mert ütközik a %2 bővítménnyel.</translation>
+        <location filename="../services/impl/pluginmanagerimpl.cpp" line="564"/>
+        <source>Cannot load plugin %1, because it&apos;s in conflict with plugin %2.</source>
+        <translation>Nem lehet betölteni a %1 bővítményt, mert ütközik a %2 bővítménnyel.</translation>
     </message>
     <message>
-      <location filename="../services/impl/pluginmanagerimpl.cpp" line="575"/>
-      <source>Cannot load plugin %1, because its dependency was not loaded: %2.</source>
-      <translation>Nem lehet betölteni a %1 bővítményt, mert a függősége nincs betöltve: %2.</translation>
+        <location filename="../services/impl/pluginmanagerimpl.cpp" line="575"/>
+        <source>Cannot load plugin %1, because its dependency was not loaded: %2.</source>
+        <translation>Nem lehet betölteni a %1 bővítményt, mert a függősége nincs betöltve: %2.</translation>
     </message>
     <message>
-      <location filename="../services/impl/pluginmanagerimpl.cpp" line="584"/>
-      <source>Cannot load plugin %1. Error details: %2</source>
-      <translation>Nem lehet betölteni a %1 bővítményt. A hiba részletei: %2</translation>
+        <location filename="../services/impl/pluginmanagerimpl.cpp" line="584"/>
+        <source>Cannot load plugin %1. Error details: %2</source>
+        <translation>Nem lehet betölteni a %1 bővítményt. A hiba részletei: %2</translation>
     </message>
     <message>
-      <location filename="../services/impl/pluginmanagerimpl.cpp" line="600"/>
-      <source>Cannot load plugin %1 (error while initializing plugin).</source>
-      <translation>Nem lehet betölteni a %1 bővítményt (hiba a bővítmény inicializálásakor).</translation>
+        <location filename="../services/impl/pluginmanagerimpl.cpp" line="600"/>
+        <source>Cannot load plugin %1 (error while initializing plugin).</source>
+        <translation>Nem lehet betölteni a %1 bővítményt (hiba a bővítmény inicializálásakor).</translation>
     </message>
     <message>
-      <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
-      <source>min: %1</source>
-      <comment>plugin dependency version</comment>
-      <translation>min.: %1</translation>
+        <location filename="../services/impl/pluginmanagerimpl.cpp" line="761"/>
+        <source>min: %1</source>
+        <comment>plugin dependency version</comment>
+        <translation>min.: %1</translation>
     </message>
     <message>
-      <location filename="../services/impl/pluginmanagerimpl.cpp" line="762"/>
-      <source>max: %1</source>
-      <comment>plugin dependency version</comment>
-      <translation>max.: %1</translation>
+        <location filename="../services/impl/pluginmanagerimpl.cpp" line="762"/>
+        <source>max: %1</source>
+        <comment>plugin dependency version</comment>
+        <translation>max.: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateConstant</name>
     <message>
-      <location filename="../plugins/populateconstant.cpp" line="9"/>
-      <source>Constant</source>
-      <comment>populate constant plugin name</comment>
-      <translation>Állandó</translation>
+        <location filename="../plugins/populateconstant.cpp" line="9"/>
+        <source>Constant</source>
+        <comment>populate constant plugin name</comment>
+        <translation>Állandó</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateConstantConfig</name>
     <message>
-      <location filename="../plugins/populateconstant.ui" line="20"/>
-      <source>Constant value:</source>
-      <translation>Állandó érték:</translation>
+        <location filename="../plugins/populateconstant.ui" line="20"/>
+        <source>Constant value:</source>
+        <translation>Állandó érték:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateDictionary</name>
     <message>
-      <location filename="../plugins/populatedictionary.cpp" line="16"/>
-      <source>Dictionary</source>
-      <comment>dictionary populating plugin name</comment>
-      <translation>Szótár</translation>
+        <location filename="../plugins/populatedictionary.cpp" line="16"/>
+        <source>Dictionary</source>
+        <comment>dictionary populating plugin name</comment>
+        <translation>Szótár</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateDictionaryConfig</name>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="20"/>
-      <source>Dictionary file</source>
-      <translation>Szótárfájl</translation>
+        <location filename="../plugins/populatedictionary.ui" line="20"/>
+        <source>Dictionary file</source>
+        <translation>Szótárfájl</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="29"/>
-      <source>Pick dictionary file</source>
-      <translation>Szótárfájl kiválasztása</translation>
+        <location filename="../plugins/populatedictionary.ui" line="29"/>
+        <source>Pick dictionary file</source>
+        <translation>Szótárfájl kiválasztása</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="39"/>
-      <source>Word separator</source>
-      <translation>Szóelválasztó</translation>
+        <location filename="../plugins/populatedictionary.ui" line="39"/>
+        <source>Word separator</source>
+        <translation>Szóelválasztó</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="45"/>
-      <source>Whitespace</source>
-      <translation>Üres karakter</translation>
+        <location filename="../plugins/populatedictionary.ui" line="45"/>
+        <source>Whitespace</source>
+        <translation>Üres karakter</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="58"/>
-      <source>Line break</source>
-      <translation>Sortörés</translation>
+        <location filename="../plugins/populatedictionary.ui" line="58"/>
+        <source>Line break</source>
+        <translation>Sortörés</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="74"/>
-      <source>Method of using words</source>
-      <translation>Szavak használatának módja</translation>
+        <location filename="../plugins/populatedictionary.ui" line="74"/>
+        <source>Method of using words</source>
+        <translation>Szavak használatának módja</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="80"/>
-      <source>Ordered</source>
-      <translation>Sorrendben</translation>
+        <location filename="../plugins/populatedictionary.ui" line="80"/>
+        <source>Ordered</source>
+        <translation>Sorrendben</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.ui" line="93"/>
-      <source>Randomly</source>
-      <translation>Véletlenszerűen</translation>
+        <location filename="../plugins/populatedictionary.ui" line="93"/>
+        <source>Randomly</source>
+        <translation>Véletlenszerűen</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateManager</name>
     <message>
-      <location filename="../services/populatemanager.cpp" line="89"/>
-      <source>Table &apos;%1&apos; populated successfully.</source>
-      <translation>A &apos;%1&apos; tábla sikeresen feltöltve.</translation>
+        <location filename="../services/populatemanager.cpp" line="89"/>
+        <source>Table &apos;%1&apos; populated successfully.</source>
+        <translation>A &apos;%1&apos; tábla sikeresen feltöltve.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateRandom</name>
     <message>
-      <location filename="../plugins/populaterandom.cpp" line="12"/>
-      <source>Random number</source>
-      <translation>Véletlen szám</translation>
+        <location filename="../plugins/populaterandom.cpp" line="12"/>
+        <source>Random number</source>
+        <translation>Véletlen szám</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateRandomConfig</name>
     <message>
-      <location filename="../plugins/populaterandom.ui" line="20"/>
-      <source>Constant prefix</source>
-      <translation>Állandó előtag</translation>
+        <location filename="../plugins/populaterandom.ui" line="20"/>
+        <source>Constant prefix</source>
+        <translation>Állandó előtag</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandom.ui" line="26"/>
-      <source>No prefix</source>
-      <translation>Nincs előtag</translation>
+        <location filename="../plugins/populaterandom.ui" line="26"/>
+        <source>No prefix</source>
+        <translation>Nincs előtag</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandom.ui" line="39"/>
-      <source>Minimum value</source>
-      <translation>Minimális érték</translation>
+        <location filename="../plugins/populaterandom.ui" line="39"/>
+        <source>Minimum value</source>
+        <translation>Minimális érték</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandom.ui" line="61"/>
-      <source>Maximum value</source>
-      <translation>Maximális érték</translation>
+        <location filename="../plugins/populaterandom.ui" line="61"/>
+        <source>Maximum value</source>
+        <translation>Maximális érték</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandom.ui" line="86"/>
-      <source>Constant suffix</source>
-      <translation>Állandó utótag</translation>
+        <location filename="../plugins/populaterandom.ui" line="86"/>
+        <source>Constant suffix</source>
+        <translation>Állandó utótag</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandom.ui" line="92"/>
-      <source>No suffix</source>
-      <translation>Nincs utótag</translation>
+        <location filename="../plugins/populaterandom.ui" line="92"/>
+        <source>No suffix</source>
+        <translation>Nincs utótag</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateRandomText</name>
     <message>
-      <location filename="../plugins/populaterandomtext.cpp" line="13"/>
-      <source>Random text</source>
-      <translation>Véletlen szöveg</translation>
+        <location filename="../plugins/populaterandomtext.cpp" line="13"/>
+        <source>Random text</source>
+        <translation>Véletlen szöveg</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateRandomTextConfig</name>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="20"/>
-      <source>Use characters from common sets:</source>
-      <translation>Karakterek használata gyakori készletekből:</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="20"/>
+        <source>Use characters from common sets:</source>
+        <translation>Karakterek használata gyakori készletekből:</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="36"/>
-      <source>Minimum length</source>
-      <translation>Minimális hossz</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="36"/>
+        <source>Minimum length</source>
+        <translation>Minimális hossz</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="64"/>
-      <source>Letters from a to z.</source>
-      <translation>Betűk a-tól z-ig.</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="64"/>
+        <source>Letters from a to z.</source>
+        <translation>Betűk a-tól z-ig.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="67"/>
-      <source>Alpha</source>
-      <translation>Betűk</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="67"/>
+        <source>Alpha</source>
+        <translation>Betűk</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="77"/>
-      <source>Numbers from 0 to 9.</source>
-      <translation>Számok 0-tól 9-ig.</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="77"/>
+        <source>Numbers from 0 to 9.</source>
+        <translation>Számok 0-tól 9-ig.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="80"/>
-      <source>Numeric</source>
-      <translation>Számjegyek</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="80"/>
+        <source>Numeric</source>
+        <translation>Számjegyek</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="90"/>
-      <source>A whitespace, a tab and a new line character.</source>
-      <translation>Üres karakter, tabulátor és újsor karakter.</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="90"/>
+        <source>A whitespace, a tab and a new line character.</source>
+        <translation>Üres karakter, tabulátor és újsor karakter.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="93"/>
-      <source>Whitespace</source>
-      <translation>Üres karakter</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="93"/>
+        <source>Whitespace</source>
+        <translation>Üres karakter</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="103"/>
-      <source>Includes all above and all others.</source>
-      <translation>Tartalmazza az összes fentit és minden mást.</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="103"/>
+        <source>Includes all above and all others.</source>
+        <translation>Tartalmazza az összes fentit és minden mást.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="106"/>
-      <source>Binary</source>
-      <translation>Bináris</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="106"/>
+        <source>Binary</source>
+        <translation>Bináris</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="119"/>
-      <source>Use characters from my custom set:</source>
-      <translation>Karakterek használata saját készletből:</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="119"/>
+        <source>Use characters from my custom set:</source>
+        <translation>Karakterek használata saját készletből:</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="132"/>
-      <source>Maximum length</source>
-      <translation>Maximális hossz</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="132"/>
+        <source>Maximum length</source>
+        <translation>Maximális hossz</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.ui" line="160"/>
-      <source>If you type some character multiple times, it&apos;s more likely to be used.</source>
-      <translation>Ha egy karaktert többször ír be, nagyobb valószínűséggel lesz felhasználva.</translation>
+        <location filename="../plugins/populaterandomtext.ui" line="160"/>
+        <source>If you type some character multiple times, it&apos;s more likely to be used.</source>
+        <translation>Ha egy karaktert többször ír be, nagyobb valószínűséggel lesz felhasználva.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateScript</name>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="33"/>
-      <source>Script</source>
-      <translation>Szkript</translation>
+        <location filename="../plugins/populatescript.cpp" line="33"/>
+        <source>Script</source>
+        <translation>Szkript</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateScriptConfig</name>
     <message>
-      <location filename="../plugins/populatescript.ui" line="26"/>
-      <source>Initialization code (optional)</source>
-      <translation>Inicializáló kód (opcionális)</translation>
+        <location filename="../plugins/populatescript.ui" line="26"/>
+        <source>Initialization code (optional)</source>
+        <translation>Inicializáló kód (opcionális)</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.ui" line="45"/>
-      <source>Per step code</source>
-      <translation>Lépésenkénti kód</translation>
+        <location filename="../plugins/populatescript.ui" line="45"/>
+        <source>Per step code</source>
+        <translation>Lépésenkénti kód</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.ui" line="70"/>
-      <source>Language</source>
-      <translation>Nyelv</translation>
+        <location filename="../plugins/populatescript.ui" line="70"/>
+        <source>Language</source>
+        <translation>Nyelv</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.ui" line="89"/>
-      <source>Help</source>
-      <translation>Súgó</translation>
+        <location filename="../plugins/populatescript.ui" line="89"/>
+        <source>Help</source>
+        <translation>Súgó</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateSequence</name>
     <message>
-      <location filename="../plugins/populatesequence.cpp" line="12"/>
-      <source>Sequence</source>
-      <translation>Szekvencia</translation>
+        <location filename="../plugins/populatesequence.cpp" line="12"/>
+        <source>Sequence</source>
+        <translation>Szekvencia</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateSequenceConfig</name>
     <message>
-      <location filename="../plugins/populatesequence.ui" line="33"/>
-      <source>Start value:</source>
-      <translation>Kezdőérték:</translation>
+        <location filename="../plugins/populatesequence.ui" line="33"/>
+        <source>Start value:</source>
+        <translation>Kezdőérték:</translation>
     </message>
     <message>
-      <location filename="../plugins/populatesequence.ui" line="56"/>
-      <source>Step:</source>
-      <translation>Lépésköz:</translation>
+        <location filename="../plugins/populatesequence.ui" line="56"/>
+        <source>Step:</source>
+        <translation>Lépésköz:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateWorker</name>
     <message>
-      <location filename="../populateworker.cpp" line="23"/>
-      <source>Could not start transaction in order to perform table populating. Error details: %1</source>
-      <translation>Nem sikerült tranzakciót indítani a tábla feltöltéséhez. Hiba részletei: %1</translation>
+        <location filename="../populateworker.cpp" line="23"/>
+        <source>Could not start transaction in order to perform table populating. Error details: %1</source>
+        <translation>Nem sikerült tranzakciót indítani a tábla feltöltéséhez. Hiba részletei: %1</translation>
     </message>
     <message>
-      <location filename="../populateworker.cpp" line="69"/>
-      <source>Error while populating table: %1</source>
-      <translation>Hiba a tábla feltöltése közben: %1</translation>
+        <location filename="../populateworker.cpp" line="69"/>
+        <source>Error while populating table: %1</source>
+        <translation>Hiba a tábla feltöltése közben: %1</translation>
     </message>
     <message>
-      <location filename="../populateworker.cpp" line="80"/>
-      <source>Could not commit transaction after table populating. Error details: %1</source>
-      <translation>Nem sikerült véglegesíteni a tranzakciót a tábla feltöltése után. Hiba részletei: %1</translation>
+        <location filename="../populateworker.cpp" line="80"/>
+        <source>Could not commit transaction after table populating. Error details: %1</source>
+        <translation>Nem sikerült véglegesíteni a tranzakciót a tábla feltöltése után. Hiba részletei: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QObject</name>
     <message>
-      <location filename="../common/utils.cpp" line="79"/>
-      <source>SQLite database or SQL file</source>
-      <translation>SQLite-adatbázis vagy SQL-fájl</translation>
+        <location filename="../common/utils.cpp" line="79"/>
+        <source>SQLite database or SQL file</source>
+        <translation>SQLite-adatbázis vagy SQL-fájl</translation>
     </message>
     <message>
-      <location filename="../common/utils.cpp" line="81"/>
-      <source>SQL files</source>
-      <translation>SQL-fájlok</translation>
+        <location filename="../common/utils.cpp" line="81"/>
+        <source>SQL files</source>
+        <translation>SQL-fájlok</translation>
     </message>
     <message>
-      <location filename="../common/utils.cpp" line="82"/>
-      <source>CSV files</source>
-      <translation>CSV-fájlok</translation>
+        <location filename="../common/utils.cpp" line="82"/>
+        <source>CSV files</source>
+        <translation>CSV-fájlok</translation>
     </message>
     <message>
-      <location filename="../common/utils.cpp" line="83"/>
-      <source>Text files</source>
-      <translation>Szövegfájlok</translation>
+        <location filename="../common/utils.cpp" line="83"/>
+        <source>Text files</source>
+        <translation>Szövegfájlok</translation>
     </message>
     <message>
-      <location filename="../common/utils.cpp" line="84"/>
-      <source>All files</source>
-      <translation>Minden fájl</translation>
+        <location filename="../common/utils.cpp" line="84"/>
+        <source>All files</source>
+        <translation>Minden fájl</translation>
     </message>
     <message>
-      <location filename="../common/utils.cpp" line="968"/>
-      <source>Could not open file &apos;%1&apos; for reading: %2</source>
-      <translation>Nem sikerült megnyitni a &apos;%1&apos; fájlt olvasásra: %2</translation>
+        <location filename="../common/utils.cpp" line="968"/>
+        <source>Could not open file &apos;%1&apos; for reading: %2</source>
+        <translation>Nem sikerült megnyitni a &apos;%1&apos; fájlt olvasásra: %2</translation>
     </message>
     <message>
-      <location filename="../db/abstractdb3.h" line="480"/>
-      <source>Could not open database: %1</source>
-      <translation>Nem sikerült megnyitni az adatbázist: %1</translation>
+        <location filename="../db/abstractdb3.h" line="480"/>
+        <source>Could not open database: %1</source>
+        <translation>Nem sikerült megnyitni az adatbázist: %1</translation>
     </message>
     <message>
-      <location filename="../db/abstractdb3.h" line="1388"/>
-      <source>Result set expired or no row available.</source>
-      <translation>Az eredményhalmaz lejárt, vagy nincs elérhető sor.</translation>
+        <location filename="../db/abstractdb3.h" line="1388"/>
+        <source>Result set expired or no row available.</source>
+        <translation>Az eredményhalmaz lejárt, vagy nincs elérhető sor.</translation>
     </message>
     <message>
-      <location filename="../db/abstractdb3.h" line="372"/>
-      <location filename="../db/abstractdb3.h" line="376"/>
-      <source>Could not load extension %1: %2</source>
-      <translation>Nem sikerült betölteni a %1 kiterjesztést: %2</translation>
+        <location filename="../db/abstractdb3.h" line="372"/>
+        <location filename="../db/abstractdb3.h" line="376"/>
+        <source>Could not load extension %1: %2</source>
+        <translation>Nem sikerült betölteni a %1 kiterjesztést: %2</translation>
     </message>
     <message>
-      <location filename="../db/abstractdb3.h" line="504"/>
-      <source>Could not close database: %1</source>
-      <translation>Nem sikerült bezárni az adatbázist: %1</translation>
+        <location filename="../db/abstractdb3.h" line="504"/>
+        <source>Could not close database: %1</source>
+        <translation>Nem sikerült bezárni az adatbázist: %1</translation>
     </message>
     <message>
-      <location filename="../impl/dbattacherimpl.cpp" line="121"/>
-      <source>Could not attach database %1: %2</source>
-      <translation>Nem sikerült csatolni a %1 adatbázist: %2</translation>
+        <location filename="../impl/dbattacherimpl.cpp" line="121"/>
+        <source>Could not attach database %1: %2</source>
+        <translation>Nem sikerült csatolni a %1 adatbázist: %2</translation>
     </message>
     <message>
-      <location filename="../parser/parsercontext.cpp" line="108"/>
-      <location filename="../parser/parsercontext.cpp" line="110"/>
-      <source>Incomplete query.</source>
-      <translation>Hiányos lekérdezés.</translation>
+        <location filename="../parser/parsercontext.cpp" line="108"/>
+        <location filename="../parser/parsercontext.cpp" line="110"/>
+        <source>Incomplete query.</source>
+        <translation>Hiányos lekérdezés.</translation>
     </message>
     <message>
-      <location filename="../parser/sqlite3_parse.cpp" line="2723"/>
-      <source>Parser stack overflow</source>
-      <translation>Az elemző veremtúlcsordulása</translation>
+        <location filename="../parser/sqlite3_parse.cpp" line="2723"/>
+        <source>Parser stack overflow</source>
+        <translation>Az elemző veremtúlcsordulása</translation>
     </message>
     <message>
-      <location filename="../parser/sqlite3_parse.cpp" line="6456"/>
-      <source>Syntax error</source>
-      <translation>Szintaktikai hiba</translation>
+        <location filename="../parser/sqlite3_parse.cpp" line="6456"/>
+        <source>Syntax error</source>
+        <translation>Szintaktikai hiba</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.cpp" line="31"/>
-      <source>Could not open dictionary file %1 for reading.</source>
-      <translation>Nem sikerült megnyitni a %1 szótárfájlt olvasásra.</translation>
+        <location filename="../plugins/populatedictionary.cpp" line="31"/>
+        <source>Could not open dictionary file %1 for reading.</source>
+        <translation>Nem sikerült megnyitni a %1 szótárfájlt olvasásra.</translation>
     </message>
     <message>
-      <location filename="../plugins/populatedictionary.cpp" line="92"/>
-      <source>Dictionary file must exist and be readable.</source>
-      <translation>A szótárfájlnak léteznie kell és olvashatónak kell lennie.</translation>
+        <location filename="../plugins/populatedictionary.cpp" line="92"/>
+        <source>Dictionary file must exist and be readable.</source>
+        <translation>A szótárfájlnak léteznie kell és olvashatónak kell lennie.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandom.cpp" line="53"/>
-      <source>Maximum value cannot be less than minimum value.</source>
-      <translation>A maximális érték nem lehet kisebb a minimális értéknél.</translation>
+        <location filename="../plugins/populaterandom.cpp" line="53"/>
+        <source>Maximum value cannot be less than minimum value.</source>
+        <translation>A maximális érték nem lehet kisebb a minimális értéknél.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.cpp" line="78"/>
-      <source>Maximum length cannot be less than minimum length.</source>
-      <translation>A maximális hossz nem lehet kisebb a minimális hossznál.</translation>
+        <location filename="../plugins/populaterandomtext.cpp" line="78"/>
+        <source>Maximum length cannot be less than minimum length.</source>
+        <translation>A maximális hossz nem lehet kisebb a minimális hossznál.</translation>
     </message>
     <message>
-      <location filename="../plugins/populaterandomtext.cpp" line="89"/>
-      <source>Custom character set cannot be empty.</source>
-      <translation>Az egyéni karakterkészlet nem lehet üres.</translation>
+        <location filename="../plugins/populaterandomtext.cpp" line="89"/>
+        <source>Custom character set cannot be empty.</source>
+        <translation>Az egyéni karakterkészlet nem lehet üres.</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="60"/>
-      <source>Could not find plugin to support scripting language: %1</source>
-      <translation>Nem található bővítmény a szkriptelési nyelv támogatásához: %1</translation>
+        <location filename="../plugins/populatescript.cpp" line="60"/>
+        <source>Could not find plugin to support scripting language: %1</source>
+        <translation>Nem található bővítmény a szkriptelési nyelv támogatásához: %1</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="69"/>
-      <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
-      <translation>Nem sikerült lekérni a kiértékelési kontextust; valószínűleg a %1 szkriptelési bővítmény nincs megfelelően konfigurálva</translation>
+        <location filename="../plugins/populatescript.cpp" line="69"/>
+        <source>Could not get evaluation context, probably the %1 scripting plugin is not configured properly</source>
+        <translation>Nem sikerült lekérni a kiértékelési kontextust; valószínűleg a %1 szkriptelési bővítmény nincs megfelelően konfigurálva</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="83"/>
-      <source>Error while executing populating initial code: %1</source>
-      <translation>Hiba a feltöltés inicializáló kódjának végrehajtásakor: %1</translation>
+        <location filename="../plugins/populatescript.cpp" line="83"/>
+        <source>Error while executing populating initial code: %1</source>
+        <translation>Hiba a feltöltés inicializáló kódjának végrehajtásakor: %1</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="105"/>
-      <source>Error while executing populating code: %1</source>
-      <translation>Hiba a feltöltési kód végrehajtásakor: %1</translation>
+        <location filename="../plugins/populatescript.cpp" line="105"/>
+        <source>Error while executing populating code: %1</source>
+        <translation>Hiba a feltöltési kód végrehajtásakor: %1</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="137"/>
-      <source>Select implementation language.</source>
-      <translation>Válassza ki az implementációs nyelvet.</translation>
+        <location filename="../plugins/populatescript.cpp" line="137"/>
+        <source>Select implementation language.</source>
+        <translation>Válassza ki az implementációs nyelvet.</translation>
     </message>
     <message>
-      <location filename="../plugins/populatescript.cpp" line="138"/>
-      <source>Implementation code cannot be empty.</source>
-      <translation>Az implementációs kód nem lehet üres.</translation>
+        <location filename="../plugins/populatescript.cpp" line="138"/>
+        <source>Implementation code cannot be empty.</source>
+        <translation>Az implementációs kód nem lehet üres.</translation>
     </message>
     <message>
-      <location filename="../selectresolver.cpp" line="329"/>
-      <source>Could not resolve data source for column: %1</source>
-      <translation>Nem sikerült feloldani az oszlop adatforrását: %1</translation>
+        <location filename="../selectresolver.cpp" line="329"/>
+        <source>Could not resolve data source for column: %1</source>
+        <translation>Nem sikerült feloldani az oszlop adatforrását: %1</translation>
     </message>
     <message>
-      <location filename="../selectresolver.cpp" line="462"/>
-      <source>Could not resolve table for column &apos;%1&apos;.</source>
-      <translation>Nem sikerült feloldani a &apos;%1&apos; oszlop tábláját.</translation>
+        <location filename="../selectresolver.cpp" line="462"/>
+        <source>Could not resolve table for column &apos;%1&apos;.</source>
+        <translation>Nem sikerült feloldani a &apos;%1&apos; oszlop tábláját.</translation>
     </message>
     <message>
-      <location filename="../services/impl/configimpl.cpp" line="876"/>
-      <source>Could not initialize configuration file. Any configuration changes and queries history will be lost after application restart. Unable to create a file at following locations: %1.</source>
-      <translation>Nem sikerült inicializálni a konfigurációs fájlt. Az alkalmazás újraindítása után minden konfigurációs változtatás és lekérdezési előzmény el fog veszni. Nem sikerült fájlt létrehozni a következő helyeken: %1.</translation>
+        <location filename="../services/impl/configimpl.cpp" line="876"/>
+        <source>Could not initialize configuration file. Any configuration changes and queries history will be lost after application restart. Unable to create a file at following locations: %1.</source>
+        <translation>Nem sikerült inicializálni a konfigurációs fájlt. Az alkalmazás újraindítása után minden konfigurációs változtatás és lekérdezési előzmény el fog veszni. Nem sikerült fájlt létrehozni a következő helyeken: %1.</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="363"/>
-      <source>General purpose</source>
-      <comment>plugin category name</comment>
-      <translation>Általános célú</translation>
+        <location filename="../letos.cpp" line="363"/>
+        <source>General purpose</source>
+        <comment>plugin category name</comment>
+        <translation>Általános célú</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="364"/>
-      <source>Database support</source>
-      <comment>plugin category name</comment>
-      <translation>Adatbázis-támogatás</translation>
+        <location filename="../letos.cpp" line="364"/>
+        <source>Database support</source>
+        <comment>plugin category name</comment>
+        <translation>Adatbázis-támogatás</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="365"/>
-      <source>Code formatter</source>
-      <comment>plugin category name</comment>
-      <translation>Kódformázó</translation>
+        <location filename="../letos.cpp" line="365"/>
+        <source>Code formatter</source>
+        <comment>plugin category name</comment>
+        <translation>Kódformázó</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="366"/>
-      <source>Scripting languages</source>
-      <comment>plugin category name</comment>
-      <translation>Szkriptelési nyelvek</translation>
+        <location filename="../letos.cpp" line="366"/>
+        <source>Scripting languages</source>
+        <comment>plugin category name</comment>
+        <translation>Szkriptelési nyelvek</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="368"/>
-      <source>Exporting</source>
-      <comment>plugin category name</comment>
-      <translation>Exportálás</translation>
+        <location filename="../letos.cpp" line="368"/>
+        <source>Exporting</source>
+        <comment>plugin category name</comment>
+        <translation>Exportálás</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="369"/>
-      <source>Importing</source>
-      <comment>plugin category name</comment>
-      <translation>Importálás</translation>
+        <location filename="../letos.cpp" line="369"/>
+        <source>Importing</source>
+        <comment>plugin category name</comment>
+        <translation>Importálás</translation>
     </message>
     <message>
-      <location filename="../letos.cpp" line="370"/>
-      <source>Table populating</source>
-      <comment>plugin category name</comment>
-      <translation>Tábla feltöltése</translation>
+        <location filename="../letos.cpp" line="370"/>
+        <source>Table populating</source>
+        <comment>plugin category name</comment>
+        <translation>Tábla feltöltése</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="286"/>
-      <source>Table %1 is referencing table %2, but the foreign key definition will not be updated for new table definition due to problems while parsing DDL of the table %3.</source>
-      <translation>A %1 tábla a %2 táblára hivatkozik, de az idegen kulcs definíciója nem lesz frissítve az új tábladefinícióhoz, mert problémák adódtak a %3 tábla DDL-jének értelmezésekor.</translation>
+        <location filename="../tablemodifier.cpp" line="286"/>
+        <source>Table %1 is referencing table %2, but the foreign key definition will not be updated for new table definition due to problems while parsing DDL of the table %3.</source>
+        <translation>A %1 tábla a %2 táblára hivatkozik, de az idegen kulcs definíciója nem lesz frissítve az új tábladefinícióhoz, mert problémák adódtak a %3 tábla DDL-jének értelmezésekor.</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="666"/>
-      <source>All columns indexed by the index %1 are gone. The index will not be recreated after table modification.</source>
-      <translation>A %1 index által indexelt összes oszlop eltűnt. Az index nem lesz újra létrehozva a tábla módosítása után.</translation>
+        <location filename="../tablemodifier.cpp" line="666"/>
+        <source>All columns indexed by the index %1 are gone. The index will not be recreated after table modification.</source>
+        <translation>A %1 index által indexelt összes oszlop eltűnt. Az index nem lesz újra létrehozva a tábla módosítása után.</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="710"/>
-      <source>There is problem with proper processing trigger %1. It may be not fully updated afterwards and will need your attention.</source>
-      <translation>Probléma adódott a %1 trigger megfelelő feldolgozásával. Előfordulhat, hogy később nem lesz teljesen frissítve, és figyelmet igényel.</translation>
+        <location filename="../tablemodifier.cpp" line="710"/>
+        <source>There is problem with proper processing trigger %1. It may be not fully updated afterwards and will need your attention.</source>
+        <translation>Probléma adódott a %1 trigger megfelelő feldolgozásával. Előfordulhat, hogy később nem lesz teljesen frissítve, és figyelmet igényel.</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="725"/>
-      <source>All columns covered by the trigger %1 are gone. The trigger will not be recreated after table modification.</source>
-      <translation>A %1 trigger által érintett összes oszlop eltűnt. A trigger nem lesz újra létrehozva a tábla módosítása után.</translation>
+        <location filename="../tablemodifier.cpp" line="725"/>
+        <source>All columns covered by the trigger %1 are gone. The trigger will not be recreated after table modification.</source>
+        <translation>A %1 trigger által érintett összes oszlop eltűnt. A trigger nem lesz újra létrehozva a tábla módosítása után.</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="757"/>
-      <source>Cannot not update trigger %1 according to table %2 modification.</source>
-      <translation>Nem lehet frissíteni a %1 triggert a %2 tábla módosításának megfelelően.</translation>
+        <location filename="../tablemodifier.cpp" line="757"/>
+        <source>Cannot not update trigger %1 according to table %2 modification.</source>
+        <translation>Nem lehet frissíteni a %1 triggert a %2 tábla módosításának megfelelően.</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="776"/>
-      <source>Cannot not update view %1 according to table %2 modifications.
+        <location filename="../tablemodifier.cpp" line="776"/>
+        <source>Cannot not update view %1 according to table %2 modifications.
 The view will remain as it is.</source>
-      <translation>Nem lehet frissíteni a %1 nézetet a %2 tábla módosításainak megfelelően.
+        <translation>Nem lehet frissíteni a %1 nézetet a %2 tábla módosításainak megfelelően.
 A nézet változatlan marad.</translation>
     </message>
     <message>
-      <location filename="../tablemodifier.cpp" line="961"/>
-      <location filename="../tablemodifier.cpp" line="985"/>
-      <location filename="../tablemodifier.cpp" line="1004"/>
-      <source>There is a problem with updating an %1 statement within %2 trigger. One of the %1 substatements which might be referring to table %3 cannot be properly modified. Manual update of the trigger may be necessary.</source>
-      <translation>Probléma adódott egy %1 utasítás frissítésével a %2 triggerben. Az egyik %1 alutasítás, amely a %3 táblára hivatkozhat, nem módosítható megfelelően. Szükség lehet a trigger kézi frissítésére.</translation>
+        <location filename="../tablemodifier.cpp" line="961"/>
+        <location filename="../tablemodifier.cpp" line="985"/>
+        <location filename="../tablemodifier.cpp" line="1004"/>
+        <source>There is a problem with updating an %1 statement within %2 trigger. One of the %1 substatements which might be referring to table %3 cannot be properly modified. Manual update of the trigger may be necessary.</source>
+        <translation>Probléma adódott egy %1 utasítás frissítésével a %2 triggerben. Az egyik %1 alutasítás, amely a %3 táblára hivatkozhat, nem módosítható megfelelően. Szükség lehet a trigger kézi frissítésére.</translation>
     </message>
     <message>
-      <location filename="../viewmodifier.cpp" line="23"/>
-      <source>Could not parse DDL of the view to be created. Details: %1</source>
-      <translation>Nem sikerült értelmezni a létrehozandó nézet DDL-jét. Részletek: %1</translation>
+        <location filename="../viewmodifier.cpp" line="23"/>
+        <source>Could not parse DDL of the view to be created. Details: %1</source>
+        <translation>Nem sikerült értelmezni a létrehozandó nézet DDL-jét. Részletek: %1</translation>
     </message>
     <message>
-      <location filename="../viewmodifier.cpp" line="32"/>
-      <source>Parsed query is not CREATE VIEW. It&apos;s: %1</source>
-      <translation>Az értelmezett lekérdezés nem CREATE VIEW. Ez: %1</translation>
+        <location filename="../viewmodifier.cpp" line="32"/>
+        <source>Parsed query is not CREATE VIEW. It&apos;s: %1</source>
+        <translation>Az értelmezett lekérdezés nem CREATE VIEW. Ez: %1</translation>
     </message>
     <message>
-      <location filename="../viewmodifier.cpp" line="80"/>
-      <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
-      <translation>A Letos nem tudta feloldani az új nézet által visszaadott oszlopokat, ezért nem fogja tudni megállapítani, mely triggerek hibásodhatnak meg az újralétrehozási folyamat során.</translation>
+        <location filename="../viewmodifier.cpp" line="80"/>
+        <source>Letos was unable to resolve columns returned by the new view, therefore it won&apos;t be able to tell which triggers might fail during the recreation process.</source>
+        <translation>A Letos nem tudta feloldani az új nézet által visszaadott oszlopokat, ezért nem fogja tudni megállapítani, mely triggerek hibásodhatnak meg az újralétrehozási folyamat során.</translation>
     </message>
     <message>
-      <location filename="../services/collationmanager.h" line="48"/>
-      <source>Function-based</source>
-      <translation>Függvényalapú</translation>
+        <location filename="../services/collationmanager.h" line="48"/>
+        <source>Function-based</source>
+        <translation>Függvényalapú</translation>
     </message>
     <message>
-      <location filename="../services/collationmanager.h" line="50"/>
-      <source>Extension-based</source>
-      <translation>Kiterjesztésalapú</translation>
+        <location filename="../services/collationmanager.h" line="50"/>
+        <source>Extension-based</source>
+        <translation>Kiterjesztésalapú</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QueryExecutor</name>
     <message>
-      <location filename="../db/queryexecutor.cpp" line="203"/>
-      <source>Execution interrupted.</source>
-      <translation>A végrehajtás megszakítva.</translation>
+        <location filename="../db/queryexecutor.cpp" line="203"/>
+        <source>Execution interrupted.</source>
+        <translation>A végrehajtás megszakítva.</translation>
     </message>
     <message>
-      <location filename="../db/queryexecutor.cpp" line="245"/>
-      <source>Database is not open.</source>
-      <translation>Az adatbázis nincs megnyitva.</translation>
+        <location filename="../db/queryexecutor.cpp" line="245"/>
+        <source>Database is not open.</source>
+        <translation>Az adatbázis nincs megnyitva.</translation>
     </message>
     <message>
-      <location filename="../db/queryexecutor.cpp" line="254"/>
-      <source>Only one query can be executed simultaneously.</source>
-      <translation>Egyszerre csak egy lekérdezés hajtható végre.</translation>
+        <location filename="../db/queryexecutor.cpp" line="254"/>
+        <source>Only one query can be executed simultaneously.</source>
+        <translation>Egyszerre csak egy lekérdezés hajtható végre.</translation>
     </message>
     <message>
-      <location filename="../db/queryexecutor.cpp" line="363"/>
-      <location filename="../db/queryexecutor.cpp" line="608"/>
-      <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
-      <translation>Hiba történt a count(*) lekérdezés végrehajtása közben, ezért az adatok lapozása le lesz tiltva. Az adatbázis hibaadatai: %1</translation>
+        <location filename="../db/queryexecutor.cpp" line="363"/>
+        <location filename="../db/queryexecutor.cpp" line="608"/>
+        <source>An error occurred while executing the count(*) query, thus data paging will be disabled. Error details from the database: %1</source>
+        <translation>Hiba történt a count(*) lekérdezés végrehajtása közben, ezért az adatok lapozása le lesz tiltva. Az adatbázis hibaadatai: %1</translation>
     </message>
     <message>
-      <location filename="../db/queryexecutor.cpp" line="525"/>
-      <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
-      <translation>A Letos nem tudta kinyerni a metaadatokat a lekérdezésből. Az eredmények nem lesznek szerkeszthetők.</translation>
+        <location filename="../db/queryexecutor.cpp" line="525"/>
+        <source>Letos was unable to extract metadata from the query. Results won&apos;t be editable.</source>
+        <translation>A Letos nem tudta kinyerni a metaadatokat a lekérdezésből. Az eredmények nem lesznek szerkeszthetők.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QueryExecutorSmartHints</name>
     <message>
-      <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
-      <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
-      <translation>A %2 tábla %1 oszlopa a %4 tábla %3 oszlopára hivatkozik, de ezeknek az oszlopoknak eltérő az adattípusa: %5 és %6. Ez problémákat okozhat az idegen kulcs értékeinek egyeztetésével kapcsolatban.</translation>
+        <location filename="../db/queryexecutorsteps/queryexecutorsmarthints.cpp" line="77"/>
+        <source>Column %1 in table %2 is referencing column %3 in table %4, but these columns have different data types: %5 vs. %6. This may cause issues related to foreign key value matching.</source>
+        <translation>A %2 tábla %1 oszlopa a %4 tábla %3 oszlopára hivatkozik, de ezeknek az oszlopoknak eltérő az adattípusa: %5 és %6. Ez problémákat okozhat az idegen kulcs értékeinek egyeztetésével kapcsolatban.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ScriptingQtDbProxy</name>
     <message>
-      <location filename="../plugins/scriptingqtdbproxy.cpp" line="48"/>
-      <source>No database available in current context, while called JavaScript&apos;s %1 command.</source>
-      <translation>Nincs elérhető adatbázis az aktuális kontextusban a JavaScript %1 parancsának meghívásakor.</translation>
+        <location filename="../plugins/scriptingqtdbproxy.cpp" line="48"/>
+        <source>No database available in current context, while called JavaScript&apos;s %1 command.</source>
+        <translation>Nincs elérhető adatbázis az aktuális kontextusban a JavaScript %1 parancsának meghívásakor.</translation>
     </message>
     <message>
-      <location filename="../plugins/scriptingqtdbproxy.cpp" line="65"/>
-      <source>Error from %1: %2</source>
-      <translation>Hiba innen: %1: %2</translation>
+        <location filename="../plugins/scriptingqtdbproxy.cpp" line="65"/>
+        <source>Error from %1: %2</source>
+        <translation>Hiba innen: %1: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlFileExecutor</name>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="59"/>
-      <source>Could not execute SQL, because application has failed to start transaction: %1</source>
-      <translation>Nem sikerült végrehajtani az SQL-t, mert az alkalmazásnak nem sikerült tranzakciót indítania: %1</translation>
+        <location filename="../sqlfileexecutor.cpp" line="59"/>
+        <source>Could not execute SQL, because application has failed to start transaction: %1</source>
+        <translation>Nem sikerült végrehajtani az SQL-t, mert az alkalmazásnak nem sikerült tranzakciót indítania: %1</translation>
     </message>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="90"/>
-      <source>Execution from file cancelled. Any queries executed so far have been rolled back.</source>
-      <translation>A fájlból történő végrehajtás megszakítva. Az eddig végrehajtott lekérdezések vissza lettek görgetve.</translation>
+        <location filename="../sqlfileexecutor.cpp" line="90"/>
+        <source>Execution from file cancelled. Any queries executed so far have been rolled back.</source>
+        <translation>A fájlból történő végrehajtás megszakítva. Az eddig végrehajtott lekérdezések vissza lettek görgetve.</translation>
     </message>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="106"/>
-      <source>Could not open file &apos;%1&apos; for reading: %2</source>
-      <translation>Nem sikerült megnyitni a &apos;%1&apos; fájlt olvasásra: %2</translation>
+        <location filename="../sqlfileexecutor.cpp" line="106"/>
+        <source>Could not open file &apos;%1&apos; for reading: %2</source>
+        <translation>Nem sikerült megnyitni a &apos;%1&apos; fájlt olvasásra: %2</translation>
     </message>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="151"/>
-      <source>Could not execute SQL, because application has failed to commit the transaction: %1</source>
-      <translation>Nem sikerült végrehajtani az SQL-t, mert az alkalmazásnak nem sikerült véglegesítenie a tranzakciót: %1</translation>
+        <location filename="../sqlfileexecutor.cpp" line="151"/>
+        <source>Could not execute SQL, because application has failed to commit the transaction: %1</source>
+        <translation>Nem sikerült végrehajtani az SQL-t, mert az alkalmazásnak nem sikerült véglegesítenie a tranzakciót: %1</translation>
     </message>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="156"/>
-      <source>Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</source>
-      <translation>%1 lekérdezés végrehajtása befejeződött %2 másodperc alatt. %3 nem lett végrehajtva hibák miatt.</translation>
+        <location filename="../sqlfileexecutor.cpp" line="156"/>
+        <source>Finished executing %1 queries in %2 seconds. %3 were not executed due to errors.</source>
+        <translation>%1 lekérdezés végrehajtása befejeződött %2 másodperc alatt. %3 nem lett végrehajtva hibák miatt.</translation>
     </message>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="162"/>
-      <source>Finished executing %1 queries in %2 seconds.</source>
-      <translation>%1 lekérdezés végrehajtása befejeződött %2 másodperc alatt.</translation>
+        <location filename="../sqlfileexecutor.cpp" line="162"/>
+        <source>Finished executing %1 queries in %2 seconds.</source>
+        <translation>%1 lekérdezés végrehajtása befejeződött %2 másodperc alatt.</translation>
     </message>
     <message>
-      <location filename="../sqlfileexecutor.cpp" line="169"/>
-      <source>Could not execute SQL due to error.</source>
-      <translation>Hiba miatt nem sikerült végrehajtani az SQL-t.</translation>
+        <location filename="../sqlfileexecutor.cpp" line="169"/>
+        <source>Could not execute SQL due to error.</source>
+        <translation>Hiba miatt nem sikerült végrehajtani az SQL-t.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlHistoryModel</name>
     <message>
-      <location filename="../sqlhistorymodel.cpp" line="32"/>
-      <source>Database</source>
-      <comment>sql history header</comment>
-      <translation>Adatbázis</translation>
+        <location filename="../sqlhistorymodel.cpp" line="32"/>
+        <source>Database</source>
+        <comment>sql history header</comment>
+        <translation>Adatbázis</translation>
     </message>
     <message>
-      <location filename="../sqlhistorymodel.cpp" line="34"/>
-      <source>Execution date</source>
-      <comment>sql history header</comment>
-      <translation>Végrehajtás dátuma</translation>
+        <location filename="../sqlhistorymodel.cpp" line="34"/>
+        <source>Execution date</source>
+        <comment>sql history header</comment>
+        <translation>Végrehajtás dátuma</translation>
     </message>
     <message>
-      <location filename="../sqlhistorymodel.cpp" line="36"/>
-      <source>Time spent</source>
-      <comment>sql history header</comment>
-      <translation>Eltelt idő</translation>
+        <location filename="../sqlhistorymodel.cpp" line="36"/>
+        <source>Time spent</source>
+        <comment>sql history header</comment>
+        <translation>Eltelt idő</translation>
     </message>
     <message>
-      <location filename="../sqlhistorymodel.cpp" line="38"/>
-      <source>Rows affected</source>
-      <comment>sql history header</comment>
-      <translation>Érintett sorok</translation>
+        <location filename="../sqlhistorymodel.cpp" line="38"/>
+        <source>Rows affected</source>
+        <comment>sql history header</comment>
+        <translation>Érintett sorok</translation>
     </message>
     <message>
-      <location filename="../sqlhistorymodel.cpp" line="40"/>
-      <source>SQL</source>
-      <comment>sql history header</comment>
-      <translation>SQL</translation>
+        <location filename="../sqlhistorymodel.cpp" line="40"/>
+        <source>SQL</source>
+        <comment>sql history header</comment>
+        <translation>SQL</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>T</name>
     <message>
-      <location filename="../db/abstractdb3.h" line="714"/>
-      <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
-      <translation>A &apos;%1&apos; adatbázisfájlt az SQLite egy újabb verziója módosította (%2 formátum), míg a jelenlegi alkalmazás legfeljebb a %3 formátumot támogatja. Előfordulhat, hogy egyes funkciók nem működnek megfelelően.</translation>
+        <location filename="../db/abstractdb3.h" line="714"/>
+        <source>The database file &apos;%1&apos; has been modified by a newer version of SQLite (format %2), while the current application supports up to format %3. Some features may not work correctly.</source>
+        <translation>A &apos;%1&apos; adatbázisfájlt az SQLite egy újabb verziója módosította (%2 formátum), míg a jelenlegi alkalmazás legfeljebb a %3 formátumot támogatja. Előfordulhat, hogy egyes funkciók nem működnek megfelelően.</translation>
     </message>
     <message>
-      <location filename="../db/abstractdb3.h" line="1013"/>
-      <source>Registered default collation on demand, under name: %1</source>
-      <translation>Az alapértelmezett rendezési szabály igény szerint regisztrálva, a következő néven: %1</translation>
+        <location filename="../db/abstractdb3.h" line="1013"/>
+        <source>Registered default collation on demand, under name: %1</source>
+        <translation>Az alapértelmezett rendezési szabály igény szerint regisztrálva, a következő néven: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>UpdateManager</name>
     <message>
-      <location filename="../services/updatemanager.cpp" line="99"/>
-      <source>Could not check for updates (%1).</source>
-      <translation>Nem sikerült frissítéseket keresni (%1).</translation>
+        <location filename="../services/updatemanager.cpp" line="99"/>
+        <source>Could not check for updates (%1).</source>
+        <translation>Nem sikerült frissítéseket keresni (%1).</translation>
     </message>
-  </context>
+</context>
 </TS>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="cs" sourcelanguage="en">
-  <context>
+<context>
     <name>MultiEditorImage</name>
     <message>
-      <location filename="../multieditorimage.cpp" line="26"/>
-      <source>Zoom in by 25%</source>
-      <translation>Přiblížit o 25 %</translation>
+        <location filename="../multieditorimage.cpp" line="26"/>
+        <source>Zoom in by 25%</source>
+        <translation>Přiblížit o 25 %</translation>
     </message>
     <message>
-      <location filename="../multieditorimage.cpp" line="27"/>
-      <source>Zoom out by 25%</source>
-      <translation>Oddálit o 25 %</translation>
+        <location filename="../multieditorimage.cpp" line="27"/>
+        <source>Zoom out by 25%</source>
+        <translation>Oddálit o 25 %</translation>
     </message>
     <message>
-      <location filename="../multieditorimage.cpp" line="28"/>
-      <source>Reset zoom</source>
-      <translation>Obnovit přiblížení</translation>
+        <location filename="../multieditorimage.cpp" line="28"/>
+        <source>Reset zoom</source>
+        <translation>Obnovit přiblížení</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorImagePlugin</name>
     <message>
-      <location filename="../multieditorimage.cpp" line="200"/>
-      <source>Image</source>
-      <translation>Obrázek</translation>
+        <location filename="../multieditorimage.cpp" line="200"/>
+        <source>Image</source>
+        <translation>Obrázek</translation>
     </message>
-  </context>
+</context>
 </TS>

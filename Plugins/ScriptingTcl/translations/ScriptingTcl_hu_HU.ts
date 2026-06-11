@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="hu" sourcelanguage="en">
-  <context>
+<context>
     <name>ScriptingTcl</name>
     <message>
-      <location filename="../scriptingtcl.cpp" line="428"/>
-      <source>No database available in current context, while called Tcl&apos;s &apos;%1&apos; command.</source>
-      <translation>Nincs elérhető adatbázis az aktuális kontextusban, amikor a Tcl&apos;s &apos;%1&apos; parancsot meghívták.</translation>
+        <location filename="../scriptingtcl.cpp" line="428"/>
+        <source>No database available in current context, while called Tcl&apos;s &apos;%1&apos; command.</source>
+        <translation>Nincs elérhető adatbázis az aktuális kontextusban, amikor a Tcl&apos;s &apos;%1&apos; parancsot meghívták.</translation>
     </message>
     <message>
-      <location filename="../scriptingtcl.cpp" line="450"/>
-      <source>Invalid &apos;%1&apos; command syntax. Should be: %2</source>
-      <translation>Érvénytelen &apos;%1&apos; parancsszintaxis. A következőnek kell lennie: %2</translation>
+        <location filename="../scriptingtcl.cpp" line="450"/>
+        <source>Invalid &apos;%1&apos; command syntax. Should be: %2</source>
+        <translation>Érvénytelen &apos;%1&apos; parancsszintaxis. A következőnek kell lennie: %2</translation>
     </message>
     <message>
-      <location filename="../scriptingtcl.cpp" line="462"/>
-      <source>Error from Tcl&apos;s &apos;%1&apos; command: %2</source>
-      <translation>Hiba a Tcl&apos;s &apos;%1&apos; parancsból: %2</translation>
+        <location filename="../scriptingtcl.cpp" line="462"/>
+        <source>Error from Tcl&apos;s &apos;%1&apos; command: %2</source>
+        <translation>Hiba a Tcl&apos;s &apos;%1&apos; parancsból: %2</translation>
     </message>
     <message>
-      <location filename="../scriptingtcl.cpp" line="593"/>
-      <source>Error from Tcl&apos;s&apos; &apos;%1&apos; command: %2</source>
-      <translation>Hiba a Tcl&apos;s&apos; &apos;%1&apos; parancsból: %2</translation>
+        <location filename="../scriptingtcl.cpp" line="593"/>
+        <source>Error from Tcl&apos;s&apos; &apos;%1&apos; command: %2</source>
+        <translation>Hiba a Tcl&apos;s&apos; &apos;%1&apos; parancsból: %2</translation>
     </message>
-  </context>
+</context>
 </TS>
