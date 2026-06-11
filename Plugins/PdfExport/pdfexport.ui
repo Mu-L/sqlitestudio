@@ -295,9 +295,6 @@
         <property name="text">
          <string>No custom header</string>
         </property>
-        <property name="shortcut">
-         <string notr="true">Ctrl+S</string>
-        </property>
         <property name="cfg" stdset="0">
          <string notr="true">PdfExport.CustomHeaderMode</string>
         </property>
@@ -368,9 +365,6 @@
        <widget class="ConfigRadioButton" name="noCustomFtrRadio">
         <property name="text">
          <string>No custom footer</string>
-        </property>
-        <property name="shortcut">
-         <string>Ctrl+S</string>
         </property>
         <property name="cfg" stdset="0">
          <string notr="true">PdfExport.CustomFooterMode</string>
