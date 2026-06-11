@@ -268,59 +268,54 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="373"/>
-        <source>Ctrl+S</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pdfexport.ui" line="312"/>
+        <location filename="../pdfexport.ui" line="309"/>
         <source>Define custom header content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="325"/>
-        <location filename="../pdfexport.ui" line="399"/>
+        <location filename="../pdfexport.ui" line="322"/>
+        <location filename="../pdfexport.ui" line="393"/>
         <source>Plain text content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="335"/>
+        <location filename="../pdfexport.ui" line="332"/>
         <source>Define custom header file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="351"/>
+        <location filename="../pdfexport.ui" line="348"/>
         <source>Choose file for the header</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="354"/>
-        <location filename="../pdfexport.ui" line="428"/>
+        <location filename="../pdfexport.ui" line="351"/>
+        <location filename="../pdfexport.ui" line="422"/>
         <source>Text files (*.txt);;All files (*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="364"/>
+        <location filename="../pdfexport.ui" line="361"/>
         <source>Custom footer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="370"/>
+        <location filename="../pdfexport.ui" line="367"/>
         <source>No custom footer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="386"/>
+        <location filename="../pdfexport.ui" line="380"/>
         <source>Define custom footer content</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="409"/>
+        <location filename="../pdfexport.ui" line="403"/>
         <source>Define custom footer file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pdfexport.ui" line="425"/>
+        <location filename="../pdfexport.ui" line="419"/>
         <source>Choose file for the footer</source>
         <translation type="unfinished"></translation>
     </message>
