@@ -155,7 +155,7 @@ jobs:
 
             - name: Install other tools/dependencies
               run: |
-                sudo apt install libreadline-dev libncurses5-dev
+                sudo apt-get install libreadline-dev libncurses5-dev
                 echo "${{ github.workspace }}/../Qt/${{ matrix.QT_VERSION }}/gcc_64/bin" >> $GITHUB_PATH
 
             - name: Prepare output dir
@@ -201,7 +201,7 @@ jobs:
                     github.repository_owner == 'pawelsalawa'
                     && (inputs.debug_ssh || (failure() && inputs.debug_on_failure))
                 }}
-              run: sudo apt install mc
+              run: sudo apt-get install mc
 
             - name: Setup debugging SSH
               if: >

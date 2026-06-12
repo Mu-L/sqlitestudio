@@ -105,10 +105,13 @@ jobs:
                 python-version: ${{ env.PYTHON_VERSION }}
                 architecture: ${{ matrix.PYTHON_ARCH }}
 
+            - name: Update APT metadata
+              run: sudo apt-get update
+
             # CMake files in Qt 6.7 have bugged dependency on Cups headers, making them mandatory in the OS.
             # It's easy and fast to install it.
             - name: Workaround for Qt 6.7.x CUPS bug
-              run: sudo apt install libcups2-dev
+              run: sudo apt-get install libcups2-dev
 
             - name: Qt installation dir
               id: qt-installation-dir
@@ -234,7 +237,7 @@ jobs:
 
             - name: Install other tools/dependencies
               run: |
-                sudo apt install libreadline-dev libncurses5-dev patchelf
+                sudo apt-get install libreadline-dev libncurses5-dev patchelf
                 echo "${{ github.workspace }}/../Qt/${{ env.QT_VERSION }}/gcc_64/bin" >> $GITHUB_PATH
 
             - name: Prepare output dir
@@ -383,7 +386,7 @@ jobs:
               shell: bash
               working-directory: ${{ env.PORTABLE_DIR }}/..
               run: |
-                sudo apt install binutils coreutils desktop-file-utils fakeroot fuse libgdk-pixbuf2.0-dev patchelf python3-pip python3-setuptools squashfs-tools strace util-linux zsync
+                sudo apt-get install binutils coreutils desktop-file-utils fakeroot fuse libgdk-pixbuf2.0-dev patchelf python3-pip python3-setuptools squashfs-tools strace util-linux zsync
                 sudo wget ${{ matrix.APPIMAGE_URL }} -O /usr/local/bin/appimagetool
                 sudo chmod +x /usr/local/bin/appimagetool
 
@@ -427,7 +430,7 @@ jobs:
                     github.repository_owner == 'pawelsalawa'
                     && (inputs.debug_ssh || (failure() && inputs.debug_on_failure))
                 }}
-              run: sudo apt install mc
+              run: sudo apt-get install mc
 
             - name: Setup debugging SSH
               if: >
