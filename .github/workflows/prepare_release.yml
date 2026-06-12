@@ -3,30 +3,35 @@ env:
         {
             "win_release": {
                 "x64": {
-                    "os": "Windows x86_64",
+                    "os": "Windows",
+                    "arch": "x86_64",
                     "installer_url": "",
                     "portable_url": ""
                 },
                 "arm64": {
-                    "os": "Windows ARM64",
+                    "os": "Windows",
+                    "arch": "ARM64",
                     "installer_url": "",
                     "portable_url": ""
                 }
             },
             "mac_release": {
                 "universal": {
-                    "os": "MacOS X universal (x64 & ARM64)",
+                    "os": "MacOS X",
+                    "arch": "Universal (x64 & ARM64)",
                     "image_url": ""
                 }
             },
             "lin_release": {
                 "x64": {
-                    "os": "Linux x64",
+                    "os": "Linux",
+                    "arch": "x64",
                     "image_url": "",
                     "portable_url": ""
                 },
                 "arm64": {
-                    "os": "Linux ARM64",
+                    "os": "Linux",
+                    "arch": "ARM64",
                     "image_url": "",
                     "portable_url": ""
                 }
@@ -208,23 +213,17 @@ jobs:
                         rm -f $uniq_nm
 
 
-                        if [[ "$file" == *"installer"* ]]; then
+                        if [[ "$file" == *"installer"* || "$file" == *"setup"* ]]; then
                             url_type=installer_url
-                        elif [[ "$file" == *"AppImage" ]]; then
-                            url_type=image_url
-                        elif [[ "$file" == *"dmg" ]]; then
+                        elif [[ "$file" == *"AppImage" || "$file" == *"dmg" ]]; then
                             url_type=image_url
                         else
                             url_type=portable_url
                         fi
 
-                        if [[ "$file" == *x64* ]]; then
+                        if [[ "$file" == *x64* || "$file" == *x86_64* ]]; then
                             arch="x64"
-                        elif [[ "$file" == *x86_64* ]]; then
-                            arch="x64"
-                        elif [[ "$file" == *arm64* ]]; then
-                            arch="arm64"
-                        elif [[ "$file" == *aarch64* ]]; then
+                        elif [[ "$file" == *arm64* || "$file" == *aarch64* ]]; then
                             arch="arm64"
                         elif [[ "$file" == *universal* ]]; then
                             arch="universal"
@@ -261,7 +260,7 @@ jobs:
               working-directory: assets
               run: |
                 body_lines=()
-                body_lines+=("| Platform | Package type | File name | SHA256 checksum |")
+                body_lines+=("| File name | Platform | Architecture | Package type |")
                 body_lines+=("| --- | --- | --- | --- |")
                 for dir in *
                 do
@@ -269,15 +268,9 @@ jobs:
                     
                     for file in *
                     do
-                        checksum=$(sha256sum $file | cut -d ' ' -f 1)
-
-                        if [[ "$file" == *x64* ]]; then
+                        if [[ "$file" == *x64* || "$file" == *x86_64* ]]; then
                             arch="x64"
-                        elif [[ "$file" == *x86_64* ]]; then
-                            arch="x64"
-                        elif [[ "$file" == *arm64* ]]; then
-                            arch="arm64"
-                        elif [[ "$file" == *aarch64* ]]; then
+                        elif [[ "$file" == *arm64* || "$file" == *aarch64* ]]; then
                             arch="arm64"
                         elif [[ "$file" == *universal* ]]; then
                             arch="universal"
@@ -287,11 +280,12 @@ jobs:
                         fi
 
                         os=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].os')
+                        archstr=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].arch')
                         portable_url=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].portable_url')
                         installer_url=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].installer_url')
                         image_url=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].image_url')
 
-                        if [[ "$file" == *"installer"* ]]; then
+                        if [[ "$file" == *"installer"* || "$file" == *"setup"* ]]; then
                             url=$installer_url
                             type="Installer"
                         elif [[ "$file" == *"AppImage" ]]; then
@@ -305,12 +299,27 @@ jobs:
                             type="Portable"
                         fi
 
-                        body_lines+=("| $os | $type | [$file]($url) | \`$checksum\` |")
+                        body_lines+=("| [$file]($url) | $os | $archstr | $type |")
                     done
                     
                     cd ..
-                done                
-                
+                done
+
+                body_lines_-("")
+                body_lines_-("## Checksums")
+                body_lines+=("| File name | SHA256 checksum |")
+                body_lines+=("| --- | --- |")
+                for dir in *
+                do
+                    cd $dir
+
+                    for file in *
+                    do
+                        checksum=$(sha256sum $file | cut -d ' ' -f 1)
+                        body_lines+=("| [$file]($url) | \`$checksum\` |")
+                    done
+                done
+
                 body=$(printf "%s\n" "${body_lines[@]}")
                 $SCRIPTS/update_release_body.sh $RELEASE_ID "$TAG_NAME" "$body" >/dev/null
                 
