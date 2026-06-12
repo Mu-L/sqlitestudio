@@ -273,6 +273,8 @@ jobs:
                             arch="x64"
                         elif [[ "$file" == *arm64* ]]; then
                             arch="arm64"
+                        elif [[ "$file" == *aarch64* ]]; then
+                            arch="arm64"
                         elif [[ "$file" == *universal* ]]; then
                             arch="universal"
                         else
