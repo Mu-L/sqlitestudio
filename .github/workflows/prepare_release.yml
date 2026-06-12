@@ -305,8 +305,8 @@ jobs:
                     cd ..
                 done
 
-                body_lines_-("")
-                body_lines_-("## Checksums")
+                body_lines+=("")
+                body_lines+=("## Checksums")
                 body_lines+=("| File name | SHA256 checksum |")
                 body_lines+=("| --- | --- |")
                 for dir in *
