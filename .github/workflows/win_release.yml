@@ -248,7 +248,7 @@ jobs:
               with:
                 api-token: '${{ secrets.SIGNPATH_API_TOKEN }}'
                 organization-id: '78b5c545-92b8-4428-a8f9-31676f9553ba'
-                project-slug: 'letos'
+                project-slug: 'sqlitestudio'
                 signing-policy-slug: '${{ env.SIGNPATH_CERT }}'
                 github-artifact-id: '${{ steps.upload-unsigned-artifact-portable.outputs.artifact-id }}'
                 github-token: '${{ secrets.SIGNPATH_GITHUB_TOKEN }}'
@@ -301,7 +301,7 @@ jobs:
               with:
                 api-token: '${{ secrets.SIGNPATH_API_TOKEN }}'
                 organization-id: '78b5c545-92b8-4428-a8f9-31676f9553ba'
-                project-slug: 'letos'
+                project-slug: 'sqlitestudio'
                 signing-policy-slug: '${{ env.SIGNPATH_CERT }}'
                 github-artifact-id: '${{ steps.upload-unsigned-artifact-installer.outputs.artifact-id }}'
                 github-token: '${{ secrets.SIGNPATH_GITHUB_TOKEN }}'
