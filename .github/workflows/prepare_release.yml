@@ -16,19 +16,18 @@ env:
             "mac_release": {
                 "universal": {
                     "os": "MacOS X universal (x64 & ARM64)",
-                    "installer_url": "",
-                    "portable_url": ""
+                    "image_url": ""
                 }
             },
             "lin_release": {
                 "x64": {
                     "os": "Linux x64",
-                    "installer_url": "",
+                    "image_url": "",
                     "portable_url": ""
                 },
                 "arm64": {
                     "os": "Linux ARM64",
-                    "installer_url": "",
+                    "image_url": "",
                     "portable_url": ""
                 }
             }
@@ -209,9 +208,12 @@ jobs:
                         rm -f $uniq_nm
 
 
-                        if [[ "$file" == *"installer"* ]]
-                        then
+                        if [[ "$file" == *"installer"* ]]; then
                             url_type=installer_url
+                        elif [[ "$file" == *"AppImage" ]]; then
+                            url_type=image_url
+                        elif [[ "$file" == *"dmg" ]]; then
+                            url_type=image_url
                         else
                             url_type=portable_url
                         fi
@@ -279,11 +281,17 @@ jobs:
                         os=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].os')
                         portable_url=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].portable_url')
                         installer_url=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].installer_url')
+                        image_url=$(echo $RELEASE_META | jq -r --arg dir $dir --arg arch "$arch" '.[$dir][$arch].image_url')
 
-                        if [[ "$file" == *"installer"* ]]
-                        then
+                        if [[ "$file" == *"installer"* ]]; then
                             url=$installer_url
                             type="Installer"
+                        elif [[ "$file" == *"AppImage" ]]; then
+                            url=$image_url
+                            type="AppImage"
+                        elif [[ "$file" == *"dmg" ]]; then
+                            url=$image_url
+                            type="DMG Image"
                         else
                             url=$portable_url
                             type="Portable"
