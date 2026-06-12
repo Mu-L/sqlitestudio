@@ -318,6 +318,8 @@ jobs:
                         checksum=$(sha256sum $file | cut -d ' ' -f 1)
                         body_lines+=("| [$file]($url) | \`$checksum\` |")
                     done
+
+                    cd ..
                 done
 
                 body=$(printf "%s\n" "${body_lines[@]}")
