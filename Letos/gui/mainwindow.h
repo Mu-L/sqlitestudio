@@ -356,6 +356,7 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
 
     signals:
         void sessionValueChanged();
+        void sessionInitiallyRestored();
 };
 
 template <class T, typename... Args>

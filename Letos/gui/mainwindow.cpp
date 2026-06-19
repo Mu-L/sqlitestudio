@@ -550,7 +550,14 @@ void MainWindow::saveSession(MdiWindow* currWindow)
 
 void MainWindow::restoreSession()
 {
-    auto cleanup = qScopeGuard([] { sessionRestoringFinished = true;});
+    auto cleanup = qScopeGuard([this]
+    {
+        sessionRestoringFinished = true;
+        if (statusField->hasMessages())
+            statusField->setVisible(true);
+
+        emit sessionInitiallyRestored();
+    });
 
     if (safeModeEnabled)
     {
@@ -616,9 +623,6 @@ void MainWindow::restoreSession()
                 ui->mdiArea->setActiveSubWindow(window);
         }
     }
-
-    if (statusField->hasMessages())
-        statusField->setVisible(true);
 
     updateCornerDocking();
     updateWindowActions();

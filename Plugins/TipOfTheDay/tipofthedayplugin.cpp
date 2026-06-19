@@ -24,6 +24,7 @@ bool TipOfTheDayPlugin::init()
     netManager = new QNetworkAccessManager(this);
 
     connect(this, SIGNAL(tipsAvailable()), this, SLOT(showOnStartup()));
+    connect(MAINWINDOW, SIGNAL(sessionInitiallyRestored()), this, SLOT(showOnStartup()));
     connect(STATUSFIELD, SIGNAL(linkActivated(const QString&)), this, SLOT(openTotdFromLink(const QString&)));
     fetchtTips();
 
@@ -150,7 +151,7 @@ void TipOfTheDayPlugin::fetchtTips()
 
 void TipOfTheDayPlugin::showOnStartup()
 {
-    if (!cfg.Totd.ShowOnStartup.get() || tips.isEmpty())
+    if (!cfg.Totd.ShowOnStartup.get() || tips.isEmpty() || !MAINWINDOW->isSessionRestoringFinished())
         return;
 
     QStringList shownList = cfg.Totd.RecentlyShown.get();
@@ -163,17 +164,23 @@ void TipOfTheDayPlugin::showOnStartup()
             shownList.clear();
         }
 
-        // Prepare list of tips not shown yet and use random tip from that list,
-        // then find what index is has in the tips list and use it
-        QList<Tip> notShownList;
-        for (const Tip& tip : tips)
+        // For first run the first tip should be shown (it's just good for the 1st tip).
+        // Then randomize the rest.
+        if (!shownList.isEmpty())
         {
-            if (!shownList.contains(tip.summary))
-                notShownList << tip;
+            // Prepare list of tips not shown yet and use random tip from that list,
+            // then find what index is has in the tips list and use it
+            QList<Tip> notShownList;
+            for (const Tip& tip : tips)
+            {
+                if (!shownList.contains(tip.summary))
+                    notShownList << tip;
+            }
+
+            quint32 randInt = QRandomGenerator::securelySeeded().bounded(notShownList.size());
+            Tip tipToUse = notShownList[randInt];
+            idx = tips.indexOf(tipToUse);
         }
-        QRandomGenerator randGen;
-        Tip tipToUse = notShownList[randGen.generate() % notShownList.size()];
-        idx = tips.indexOf(tipToUse);
     }
 
     notifyInfo(tr("<b>Quick tip:</b> %1 - <a href=\"%2\">Learn more</a>").arg(tips[idx].summary, openTotdUrl + QString::number(idx)));
@@ -197,6 +204,5 @@ void TipOfTheDayPlugin::markAsRead(const QString& summary)
     {
         shownList << summary;
         cfg.Totd.RecentlyShown.set(shownList);
-        qDebug() << "marked, total" << shownList.size();
     }
 }
