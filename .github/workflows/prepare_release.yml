@@ -293,7 +293,7 @@ jobs:
                             type="AppImage"
                         elif [[ "$file" == *"dmg" ]]; then
                             url=$image_url
-                            type="DMG Image"
+                            type="Disk Image"
                         else
                             url=$portable_url
                             type="Portable"
