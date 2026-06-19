@@ -91,6 +91,7 @@ void SqlQueryModel::executeQuery(bool enforcePage0)
     if (queryExecutor->isExecutionInProgress())
     {
         notifyWarn(tr("Only one query can be executed simultaneously."));
+
         return;
     }
 

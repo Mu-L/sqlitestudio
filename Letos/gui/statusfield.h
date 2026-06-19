@@ -6,6 +6,7 @@
 #include <QDockWidget>
 #include <QPointer>
 #include <QTimer>
+#include <QStyledItemDelegate>
 
 class QMenu;
 class QAbstractAnimation;
@@ -59,6 +60,24 @@ class GUI_API_EXPORT StatusField : public QDockWidget
             DEPRECATED = Qt::UserRole + 3
         };
 
+        class HtmlDelegate : public QStyledItemDelegate
+        {
+            public:
+                using LinkCallback = std::function<void(const QString&)>;
+
+                HtmlDelegate(QWidget *viewport, LinkCallback linkCallback);
+
+                void paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const override;
+                QSize sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const override;
+                bool editorEvent(QEvent *event, QAbstractItemModel *model, const QStyleOptionViewItem &option,
+                                 const QModelIndex &index) override;
+                QString anchorAt(QMouseEvent *event, const QStyleOptionViewItem &option, const QModelIndex &index) const;
+
+            private:
+                QWidget *viewport;
+                LinkCallback linkCallback;
+        };
+
         void addEntry(const QIcon& icon, const QString& text, const QColor& color, EntryRole role);
         void flashItems(const QList<QTableWidgetItem*>& items, const QColor& color);
         void setupMenu();
@@ -81,7 +100,6 @@ class GUI_API_EXPORT StatusField : public QDockWidget
         static const int itemCountLimit = 30;
         static const int itemRole = Qt::UserRole;
         static constexpr const char* timeStampFormat = "hh:mm:ss";
-        static const QString colorTpl;
 
     private slots:
         void customContextMenuRequested(const QPoint& pos);

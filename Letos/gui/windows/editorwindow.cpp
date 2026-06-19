@@ -180,6 +180,9 @@ void EditorWindow::init()
     connect(DBLIST, &DbManager::dbAboutToBeDisconnected, this, &EditorWindow::handleDbAboutToDisconnect);
     connect(ui->dataView, &DataView::commitStatusChanged, this, &EditorWindow::updateManualCommitStatus);
 
+    // Status field message blocks
+    connect(resultsModel, &SqlQueryModel::executionStarted, this, [this]() {STATUSFIELD->blockFadeOutFor(this);});
+
     updateState();
     updateManualCommitIconsAndLabels(!currentlyAutoCommit);
     updateManualCommitStatus();
@@ -633,8 +636,6 @@ void EditorWindow::execQuery(int explain, QueryExecMode querySelectionMode)
     bool proceed = processBindParams(sql, bindParams);
     if (!proceed)
         return;
-
-    STATUSFIELD->blockFadeOutFor(this);
 
     if (isManualCommitMode())
     {

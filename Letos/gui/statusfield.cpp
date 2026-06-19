@@ -13,8 +13,8 @@
 #include <QVariantAnimation>
 #include <QDebug>
 #include <QPainter>
-
-const QString StatusField::colorTpl = "QLabel {color: %1}";
+#include <QMouseEvent>
+#include <QAbstractTextDocumentLayout>
 
 StatusField::StatusField(QWidget *parent) :
     QDockWidget(parent),
@@ -24,6 +24,14 @@ StatusField::StatusField(QWidget *parent) :
     setupMenu();
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(1, QHeaderView::ResizeToContents);
     ui->tableWidget->verticalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
+    ui->tableWidget->viewport()->setMouseTracking(true);
+    ui->tableWidget->setItemDelegateForColumn(2,
+                                              new HtmlDelegate(ui->tableWidget->viewport(),
+                                                [this](const QString& link)
+                                                {
+                                                      emit linkActivated(link);
+                                                })
+                                              );
 
     NotifyManager* nm = NotifyManager::getInstance();
     connect(nm, SIGNAL(notifyInfo(QString)), this, SLOT(info(QString)));
@@ -145,28 +153,9 @@ void StatusField::addEntry(const QIcon &icon, const QString &text, const QColor&
     item->setForeground(QBrush(color));
     item->setFont(font);
     item->setData(ENTRY_ROLE, role);
+    item->setText(text);
     ui->tableWidget->setItem(row, 2, item);
     itemsCreated << item;
-
-    // While QLabel does detect if the text is rich automatically, we don't want to use qlabel for plain text,
-    // because it's not wrapped correctly if the text is longer.
-    if (text.contains("<"))
-    {
-        QLabel* label = new QLabel(text);
-        QMargins margin = label->contentsMargins();
-        margin.setLeft(QApplication::style()->pixelMetric(QStyle::PM_LayoutHorizontalSpacing));
-        label->setContentsMargins(margin);
-        label->setFont(font);
-        label->setStyleSheet(colorTpl.arg(color.name()));
-        connect(label, SIGNAL(linkActivated(QString)), this, SIGNAL(linkActivated(QString)));
-        ui->tableWidget->setCellWidget(row, 2, label);
-        ui->tableWidget->item(row, 2)->setData(ENTRY_ROLE, role);
-        ui->tableWidget->item(row, 2)->setData(HAS_WIDGET_LABEL, true);
-    }
-    else
-    {
-        item->setText(text);
-    }
 
     if (CFG_UI.General.AutoOpenStatusField.get())
         setVisible(true);
@@ -178,29 +167,19 @@ void StatusField::addEntry(const QIcon &icon, const QString &text, const QColor&
 
 void StatusField::refreshColors()
 {
-
     const QColor stdColor = style()->standardPalette().text().color();
     const QColor errColor = QColor(Qt::red);
     const QColor stdDeprColor = style()->standardPalette().color(QPalette::Disabled, QPalette::Text);
     const QColor errDeprColor = QColor(255, 0, 0, 96);
-    EntryRole role;
-    bool hasLabel;
-    QLabel* label = nullptr;
     for (QTableWidgetItem* item : ui->tableWidget->findItems("", Qt::MatchContains))
     {
-        role = (EntryRole)item->data(ENTRY_ROLE).toInt();
+        EntryRole role = (EntryRole)item->data(ENTRY_ROLE).toInt();
         bool deprecated = item->data(DEPRECATED).toBool();
-
-        hasLabel = item->data(HAS_WIDGET_LABEL).toBool();
-        label = hasLabel ? dynamic_cast<QLabel*>(ui->tableWidget->cellWidget(item->row(), item->column())) : nullptr;
-
         QColor colorToSet = deprecated ?
                     (role == ERROR ? errDeprColor : stdDeprColor) :
                     (role == ERROR ? errColor : stdColor);
 
         item->setForeground(colorToSet);
-        if (label != nullptr)
-            label->setStyleSheet(colorTpl.arg(colorToSet.name()));
     }
 }
 
@@ -288,13 +267,20 @@ void StatusField::dimOldMessages()
         QIcon icon = item->icon();
         if (!icon.isNull())
         {
-            QPixmap src = icon.pixmap(256, 256);
+            qreal dpr = ui->tableWidget->devicePixelRatioF();
+
+            QPixmap src = icon.pixmap(ui->tableWidget->iconSize() * dpr);
+            src.setDevicePixelRatio(dpr);
+
             QPixmap dst(src.size());
+            dst.setDevicePixelRatio(dpr);
             dst.fill(Qt::transparent);
+
             QPainter p(&dst);
-            p.setOpacity(0.4);
+            p.setOpacity(0.3);
             p.drawPixmap(0, 0, src);
             p.end();
+
             item->setIcon(QIcon(dst));
         }
     }
@@ -328,4 +314,104 @@ void StatusField::fadeOutOldMessages()
             removeOldMessages();
             break;
     }
+}
+
+StatusField::HtmlDelegate::HtmlDelegate(QWidget *viewport, LinkCallback linkCallback)
+    : QStyledItemDelegate(viewport),
+    viewport(viewport),
+    linkCallback(std::move(linkCallback))
+{
+}
+
+void StatusField::HtmlDelegate::paint(QPainter *painter, const QStyleOptionViewItem &option, const QModelIndex &index) const
+{
+    QStyleOptionViewItem opt(option);
+    initStyleOption(&opt, index);
+
+    painter->save();
+
+    QStyle *style = opt.widget ? opt.widget->style() : QApplication::style();
+
+    opt.text.clear();
+    style->drawControl(QStyle::CE_ItemViewItem, &opt, painter, opt.widget);
+
+    QString html = index.data(Qt::DisplayRole).toString();
+
+    QVariant fg = index.data(Qt::ForegroundRole);
+    QColor color = fg.canConvert<QBrush>() ?
+        fg.value<QBrush>().color() :
+        option.palette.color(QPalette::Text);
+
+    QTextDocument doc;
+    doc.setHtml(QString("<span style=\"color:%1;\">%2</span>").arg(color.name(), html));
+    doc.setDefaultFont(opt.font);
+    doc.setTextWidth(opt.rect.width());
+
+    painter->translate(opt.rect.topLeft());
+    QRect clip(0, 0, opt.rect.width(), opt.rect.height());
+    doc.drawContents(painter, clip);
+
+    painter->restore();
+}
+
+QSize StatusField::HtmlDelegate::sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const
+{
+    QTextDocument doc;
+    doc.setHtml(index.data(Qt::DisplayRole).toString());
+    doc.setDefaultFont(option.font);
+    doc.setTextWidth(option.rect.width());
+    return QSize(doc.idealWidth(), doc.size().height());
+}
+
+bool StatusField::HtmlDelegate::editorEvent(QEvent *event, QAbstractItemModel *model, const QStyleOptionViewItem &option, const QModelIndex &index)
+{
+    Q_UNUSED(model);
+
+    if (event->type() == QEvent::MouseMove)
+    {
+        auto *mouseEvent = static_cast<QMouseEvent*>(event);
+        const QString href = anchorAt(mouseEvent, option, index);
+        if (!href.isEmpty())
+            viewport->setCursor(Qt::PointingHandCursor);
+        else
+            viewport->unsetCursor();
+
+        return false;
+    }
+    if (event->type() == QEvent::MouseButtonRelease)
+    {
+        auto *mouseEvent = static_cast<QMouseEvent*>(event);
+        if (mouseEvent->button() != Qt::LeftButton)
+            return QStyledItemDelegate::editorEvent(event, model, option, index);
+
+        QTextDocument doc;
+        doc.setHtml(index.data(Qt::DisplayRole).toString());
+        doc.setDefaultFont(option.font);
+
+        QRect textRect = option.rect;
+        doc.setTextWidth(textRect.width());
+
+        QPointF pos = mouseEvent->position() - QPointF(textRect.topLeft());
+        const QString href = doc.documentLayout()->anchorAt(pos);
+        if (!href.isEmpty())
+        {
+            if (linkCallback)
+                linkCallback(href);
+
+            return true;
+        }
+    }
+
+    return QStyledItemDelegate::editorEvent(event, model, option, index);
+}
+
+QString StatusField::HtmlDelegate::anchorAt(QMouseEvent *event, const QStyleOptionViewItem &option, const QModelIndex &index) const
+{
+    QTextDocument doc;
+    doc.setHtml(index.data(Qt::DisplayRole).toString());
+    doc.setDefaultFont(option.font);
+    doc.setTextWidth(option.rect.width());
+
+    const QPointF pos = event->position() - QPointF(option.rect.topLeft());
+    return doc.documentLayout()->anchorAt(pos);
 }
