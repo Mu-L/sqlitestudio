@@ -7,6 +7,7 @@
 #include <QPointer>
 #include <QTimer>
 #include <QStyledItemDelegate>
+#include <QTextDocument>
 
 class QMenu;
 class QAbstractAnimation;
@@ -71,9 +72,11 @@ class GUI_API_EXPORT StatusField : public QDockWidget
                 QSize sizeHint(const QStyleOptionViewItem &option, const QModelIndex &index) const override;
                 bool editorEvent(QEvent *event, QAbstractItemModel *model, const QStyleOptionViewItem &option,
                                  const QModelIndex &index) override;
-                QString anchorAt(QMouseEvent *event, const QStyleOptionViewItem &option, const QModelIndex &index) const;
 
             private:
+                QString anchorAt(QMouseEvent *event, const QStyleOptionViewItem &option, const QModelIndex &index) const;
+                void prepareDoc(QTextDocument& doc, const QModelIndex& index, const QStyleOptionViewItem& opt) const;
+
                 QWidget *viewport;
                 LinkCallback linkCallback;
         };

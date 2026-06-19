@@ -268,8 +268,11 @@ void StatusField::dimOldMessages()
         if (!icon.isNull())
         {
             qreal dpr = ui->tableWidget->devicePixelRatioF();
+            QSize size = ui->tableWidget->iconSize();
+            if (!size.isValid())
+                size = QSize(512, 512);
 
-            QPixmap src = icon.pixmap(ui->tableWidget->iconSize() * dpr);
+            QPixmap src = icon.pixmap(size * dpr);
             src.setDevicePixelRatio(dpr);
 
             QPixmap dst(src.size());
@@ -335,17 +338,8 @@ void StatusField::HtmlDelegate::paint(QPainter *painter, const QStyleOptionViewI
     opt.text.clear();
     style->drawControl(QStyle::CE_ItemViewItem, &opt, painter, opt.widget);
 
-    QString html = index.data(Qt::DisplayRole).toString();
-
-    QVariant fg = index.data(Qt::ForegroundRole);
-    QColor color = fg.canConvert<QBrush>() ?
-        fg.value<QBrush>().color() :
-        option.palette.color(QPalette::Text);
-
     QTextDocument doc;
-    doc.setHtml(QString("<span style=\"color:%1;\">%2</span>").arg(color.name(), html));
-    doc.setDefaultFont(opt.font);
-    doc.setTextWidth(opt.rect.width());
+    prepareDoc(doc, index, option);
 
     painter->translate(opt.rect.topLeft());
     QRect clip(0, 0, opt.rect.width(), opt.rect.height());
@@ -385,13 +379,9 @@ bool StatusField::HtmlDelegate::editorEvent(QEvent *event, QAbstractItemModel *m
             return QStyledItemDelegate::editorEvent(event, model, option, index);
 
         QTextDocument doc;
-        doc.setHtml(index.data(Qt::DisplayRole).toString());
-        doc.setDefaultFont(option.font);
+        prepareDoc(doc, index, option);
 
-        QRect textRect = option.rect;
-        doc.setTextWidth(textRect.width());
-
-        QPointF pos = mouseEvent->position() - QPointF(textRect.topLeft());
+        QPointF pos = mouseEvent->position() - QPointF(option.rect.topLeft());
         const QString href = doc.documentLayout()->anchorAt(pos);
         if (!href.isEmpty())
         {
@@ -408,10 +398,28 @@ bool StatusField::HtmlDelegate::editorEvent(QEvent *event, QAbstractItemModel *m
 QString StatusField::HtmlDelegate::anchorAt(QMouseEvent *event, const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
     QTextDocument doc;
-    doc.setHtml(index.data(Qt::DisplayRole).toString());
-    doc.setDefaultFont(option.font);
-    doc.setTextWidth(option.rect.width());
+    prepareDoc(doc, index, option);
 
     const QPointF pos = event->position() - QPointF(option.rect.topLeft());
     return doc.documentLayout()->anchorAt(pos);
+}
+
+void StatusField::HtmlDelegate::prepareDoc(QTextDocument& doc, const QModelIndex& index, const QStyleOptionViewItem& opt) const
+{
+    const bool selected = opt.state & QStyle::State_Selected;
+
+    QVariant fg = index.data(Qt::ForegroundRole);
+    QColor color = fg.canConvert<QBrush>() ?
+        fg.value<QBrush>().color() :
+        opt.palette.color(QPalette::Text);
+
+    if (selected)
+    {
+        doc.setDefaultStyleSheet(QString("a { color: %1; }").arg(opt.palette.color(QPalette::HighlightedText).name()));
+        color = opt.palette.color(QPalette::HighlightedText);
+    }
+
+    doc.setHtml(QString("<span style=\"color:%1;\">%2</span>").arg(color.name(), index.data(Qt::DisplayRole).toString()));
+    doc.setDefaultFont(opt.font);
+    doc.setTextWidth(opt.rect.width());
 }
