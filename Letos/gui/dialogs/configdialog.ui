@@ -267,7 +267,7 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>6</number>
+          <number>4</number>
          </property>
          <widget class="QWidget" name="databaseListPage">
           <layout class="QVBoxLayout" name="verticalLayout_36">
@@ -1246,7 +1246,7 @@
                  <string>Show occasional project support reminders</string>
                 </property>
                 <property name="cfg" stdset="0">
-                 <string>SupportReminder.ShowOccasional</string>
+                 <string notr="true">SupportReminder.ShowOccasional</string>
                 </property>
                </widget>
               </item>
