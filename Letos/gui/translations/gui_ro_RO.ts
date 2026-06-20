@@ -1,8830 +1,8830 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ro" sourcelanguage="en">
-  <context>
+<context>
     <name>AboutDialog</name>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="24"/>
-      <source>About</source>
-      <translation>Despre</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="24"/>
+        <source>About</source>
+        <translation>Despre</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="41"/>
-      <source>Licenses</source>
-      <translation>Licențe</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="41"/>
+        <source>Licenses</source>
+        <translation>Licențe</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="55"/>
-      <source>Environment</source>
-      <translation>Mediu</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="55"/>
+        <source>Environment</source>
+        <translation>Mediu</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="102"/>
-      <source>Icon directories</source>
-      <translation>Directoare de pictograme</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="102"/>
+        <source>Icon directories</source>
+        <translation>Directoare de pictograme</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="170"/>
-      <source>Form directories</source>
-      <translation>Directoare de formulare</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="170"/>
+        <source>Form directories</source>
+        <translation>Directoare de formulare</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="187"/>
-      <source>SQLite extension directories</source>
-      <translation>Directoare pentru extensii SQLite</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="187"/>
+        <source>SQLite extension directories</source>
+        <translation>Directoare pentru extensii SQLite</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="140"/>
-      <source>Plugin directories</source>
-      <translation>Directoare de pluginuri</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="140"/>
+        <source>Plugin directories</source>
+        <translation>Directoare de pluginuri</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="14"/>
-      <source>About Letos and licenses</source>
-      <translation>Despre Letos și licențe</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="14"/>
+        <source>About Letos and licenses</source>
+        <translation>Despre Letos și licențe</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="30"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Manager de baze de date SQLite gratuit, open-source și multiplatformă.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Autor și întreținător activ:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="30"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Manager de baze de date SQLite gratuit, open-source și multiplatformă.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Autor și întreținător activ:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="75"/>
-      <source>Configuration directory</source>
-      <translation>Director de configurare</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="75"/>
+        <source>Configuration directory</source>
+        <translation>Director de configurare</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="150"/>
-      <source>Application directory</source>
-      <translation>Directorul aplicației</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="150"/>
+        <source>Application directory</source>
+        <translation>Directorul aplicației</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="85"/>
-      <source>Qt version:</source>
-      <translation>Versiune Qt:</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="85"/>
+        <source>Qt version:</source>
+        <translation>Versiune Qt:</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.ui" line="160"/>
-      <source>SQLite 3 version:</source>
-      <translation>Versiune SQLite 3:</translation>
+        <location filename="../dialogs/aboutdialog.ui" line="160"/>
+        <source>SQLite 3 version:</source>
+        <translation>Versiune SQLite 3:</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="42"/>
-      <source>Portable distribution.</source>
-      <translation>Distribuție portabilă.</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="42"/>
+        <source>Portable distribution.</source>
+        <translation>Distribuție portabilă.</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="45"/>
-      <source>MacOS X application bundle distribution.</source>
-      <translation>Distribuție ca pachet de aplicație MacOS X.</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="45"/>
+        <source>MacOS X application bundle distribution.</source>
+        <translation>Distribuție ca pachet de aplicație MacOS X.</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="48"/>
-      <source>Operating system managed distribution.</source>
-      <translation>Distribuție gestionată de sistemul de operare.</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="48"/>
+        <source>Operating system managed distribution.</source>
+        <translation>Distribuție gestionată de sistemul de operare.</translation>
     </message>
     <message>
-      <location filename="../dialogs/aboutdialog.cpp" line="98"/>
-      <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
-      <translation>&lt;h3&gt;Cuprins:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
+        <location filename="../dialogs/aboutdialog.cpp" line="98"/>
+        <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
+        <translation>&lt;h3&gt;Cuprins:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>BindParamsDialog</name>
     <message>
-      <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
-      <source>Query parameters</source>
-      <translation>Parametrii interogării</translation>
+        <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
+        <source>Query parameters</source>
+        <translation>Parametrii interogării</translation>
     </message>
     <message>
-      <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
-      <source>Please provide values for query parameters</source>
-      <translation>Furnizați valori pentru parametrii interogării</translation>
+        <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
+        <source>Please provide values for query parameters</source>
+        <translation>Furnizați valori pentru parametrii interogării</translation>
     </message>
     <message>
-      <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
-      <source>Advanced mode</source>
-      <translation>Mod avansat</translation>
+        <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
+        <source>Advanced mode</source>
+        <translation>Mod avansat</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CellRendererTable</name>
     <message>
-      <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
-      <source>Default</source>
-      <translation>Implicit</translation>
+        <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
+        <source>Default</source>
+        <translation>Implicit</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CodeSnippetEditor</name>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="84"/>
-      <source>Filter snippets</source>
-      <translation>Filtrează fragmentele</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="84"/>
+        <source>Filter snippets</source>
+        <translation>Filtrează fragmentele</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="183"/>
-      <location filename="../windows/codesnippeteditor.ui" line="221"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scurtătură opțională care va funcționa numai în contextul ferestrei active a asistentului de cod. Aceasta permite utilizatorului să folosească combinații de taste care altfel ar intra în conflict cu alte scurtături. Faptul că fereastra asistentului de cod este contextul necesar face alegerea tastelor mai flexibilă.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="183"/>
+        <location filename="../windows/codesnippeteditor.ui" line="221"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Scurtătură opțională care va funcționa numai în contextul ferestrei active a asistentului de cod. Aceasta permite utilizatorului să folosească combinații de taste care altfel ar intra în conflict cu alte scurtături. Faptul că fereastra asistentului de cod este contextul necesar face alegerea tastelor mai flexibilă.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="204"/>
-      <location filename="../windows/codesnippeteditor.ui" line="214"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numele fragmentului va fi afișat în asistentul de cod. Pentru a accesa lista de fragmente, utilizatorul trebuie să apese de două ori scurtătura asistentului de cod.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="204"/>
+        <location filename="../windows/codesnippeteditor.ui" line="214"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Numele fragmentului va fi afișat în asistentul de cod. Pentru a accesa lista de fragmente, utilizatorul trebuie să apese de două ori scurtătura asistentului de cod.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="207"/>
-      <source>Snippet name</source>
-      <translation>Nume fragment</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="207"/>
+        <source>Snippet name</source>
+        <translation>Nume fragment</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="224"/>
-      <source>Code assistant shortcut</source>
-      <translation>Scurtătură asistent de cod</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="224"/>
+        <source>Code assistant shortcut</source>
+        <translation>Scurtătură asistent de cod</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.ui" line="240"/>
-      <source>Snippet code</source>
-      <translation>Cod fragment</translation>
+        <location filename="../windows/codesnippeteditor.ui" line="240"/>
+        <source>Snippet code</source>
+        <translation>Cod fragment</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="50"/>
-      <source>Code Snippets editor window has uncommitted modifications.</source>
-      <translation>Fereastra editorului de fragmente de cod are modificări neconfirmate.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="50"/>
+        <source>Code Snippets editor window has uncommitted modifications.</source>
+        <translation>Fereastra editorului de fragmente de cod are modificări neconfirmate.</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="71"/>
-      <source>Code Snippets editor</source>
-      <translation>Editor de fragmente de cod</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="71"/>
+        <source>Code Snippets editor</source>
+        <translation>Editor de fragmente de cod</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="76"/>
-      <source>Commit all snippet changes</source>
-      <translation>Confirmă toate modificările fragmentelor</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="76"/>
+        <source>Commit all snippet changes</source>
+        <translation>Confirmă toate modificările fragmentelor</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="77"/>
-      <source>Rollback all snippet changes</source>
-      <translation>Revocă toate modificările fragmentelor</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="77"/>
+        <source>Rollback all snippet changes</source>
+        <translation>Revocă toate modificările fragmentelor</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="79"/>
-      <source>Create new snippet</source>
-      <translation>Creează un fragment nou</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="79"/>
+        <source>Create new snippet</source>
+        <translation>Creează un fragment nou</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="80"/>
-      <source>Delete selected snippet</source>
-      <translation>Șterge fragmentul selectat</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="80"/>
+        <source>Delete selected snippet</source>
+        <translation>Șterge fragmentul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="82"/>
-      <source>Move the snippet up</source>
-      <translation>Mută fragmentul în sus</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="82"/>
+        <source>Move the snippet up</source>
+        <translation>Mută fragmentul în sus</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="83"/>
-      <source>Move the snippet down</source>
-      <translation>Mută fragmentul în jos</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="83"/>
+        <source>Move the snippet down</source>
+        <translation>Mută fragmentul în jos</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="85"/>
-      <source>Import snippets from file</source>
-      <translation>Importă fragmente din fișier</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="85"/>
+        <source>Import snippets from file</source>
+        <translation>Importă fragmente din fișier</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="86"/>
-      <source>Export snippets to file</source>
-      <translation>Exportă fragmente în fișier</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="86"/>
+        <source>Export snippets to file</source>
+        <translation>Exportă fragmente în fișier</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="87"/>
-      <source>Code snippets manual</source>
-      <translation>Manual pentru fragmente de cod</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="87"/>
+        <source>Code snippets manual</source>
+        <translation>Manual pentru fragmente de cod</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="325"/>
-      <source>Enter a non-empty, unique name of the snippet.</source>
-      <translation>Introduceți un nume nevid și unic pentru fragment.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="325"/>
+        <source>Enter a non-empty, unique name of the snippet.</source>
+        <translation>Introduceți un nume nevid și unic pentru fragment.</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="328"/>
-      <source>Enter a non-empty snippet content.</source>
-      <translation>Introduceți conținut nevid pentru fragment.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="328"/>
+        <source>Enter a non-empty snippet content.</source>
+        <translation>Introduceți conținut nevid pentru fragment.</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.cpp" line="332"/>
-      <source>This hotkey is not unique in context of a code assistant.</source>
-      <translation>Această tastă rapidă nu este unică în contextul asistentului de cod.</translation>
+        <location filename="../windows/codesnippeteditor.cpp" line="332"/>
+        <source>This hotkey is not unique in context of a code assistant.</source>
+        <translation>Această tastă rapidă nu este unică în contextul asistentului de cod.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CodeSnippetEditorModel</name>
     <message>
-      <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
-      <source>Name:</source>
-      <translation>Nume:</translation>
+        <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
+        <source>Name:</source>
+        <translation>Nume:</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
-      <source>Hotkey:</source>
-      <translation>Tastă rapidă:</translation>
+        <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
+        <source>Hotkey:</source>
+        <translation>Tastă rapidă:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CodeSnippetsPanel</name>
     <message>
-      <location filename="../codesnippetspanel.ui" line="17"/>
-      <source>Code Snippets</source>
-      <translation>Fragmente de cod</translation>
+        <location filename="../codesnippetspanel.ui" line="17"/>
+        <source>Code Snippets</source>
+        <translation>Fragmente de cod</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.ui" line="43"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Trageți în editorul SQL pentru a utiliza fragmentul.&lt;/p&gt;&lt;p&gt;Plasați aici orice cod (sau text) pentru a adăuga un fragment de cod nou.&lt;/p&gt;&lt;p&gt;Faceți dublu clic pentru a edita fragmentul.&lt;/p&gt;&lt;p&gt;Fragmentele de cod sunt disponibile și în Asistentul de cod. Invocați-l de două ori pentru a afișa fragmentele.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../codesnippetspanel.ui" line="43"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Trageți în editorul SQL pentru a utiliza fragmentul.&lt;/p&gt;&lt;p&gt;Plasați aici orice cod (sau text) pentru a adăuga un fragment de cod nou.&lt;/p&gt;&lt;p&gt;Faceți dublu clic pentru a edita fragmentul.&lt;/p&gt;&lt;p&gt;Fragmentele de cod sunt disponibile și în Asistentul de cod. Invocați-l de două ori pentru a afișa fragmentele.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.ui" line="69"/>
-      <source>Preview</source>
-      <translation>Previzualizare</translation>
+        <location filename="../codesnippetspanel.ui" line="69"/>
+        <source>Preview</source>
+        <translation>Previzualizare</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.cpp" line="69"/>
-      <source>Add code snippet</source>
-      <translation>Adaugă fragment de cod</translation>
+        <location filename="../codesnippetspanel.cpp" line="69"/>
+        <source>Add code snippet</source>
+        <translation>Adaugă fragment de cod</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.cpp" line="69"/>
-      <source>Enter a name for the new code snippet:</source>
-      <translation>Introduceți un nume pentru noul fragment de cod:</translation>
+        <location filename="../codesnippetspanel.cpp" line="69"/>
+        <source>Enter a name for the new code snippet:</source>
+        <translation>Introduceți un nume pentru noul fragment de cod:</translation>
     </message>
     <message>
-      <location filename="../codesnippetspanel.cpp" line="97"/>
-      <source>Filter by name</source>
-      <translation>Filtrează după nume</translation>
+        <location filename="../codesnippetspanel.cpp" line="97"/>
+        <source>Filter by name</source>
+        <translation>Filtrează după nume</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CollationsEditor</name>
     <message>
-      <location filename="../windows/collationseditor.ui" line="84"/>
-      <source>Filter collations</source>
-      <translation>Filtrează colaționările</translation>
+        <location filename="../windows/collationseditor.ui" line="84"/>
+        <source>Filter collations</source>
+        <translation>Filtrează colaționările</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="163"/>
-      <source>Databases</source>
-      <translation>Baze de date</translation>
+        <location filename="../windows/collationseditor.ui" line="163"/>
+        <source>Databases</source>
+        <translation>Baze de date</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="169"/>
-      <source>Register in all databases</source>
-      <translation>Înregistrează în toate bazele de date</translation>
+        <location filename="../windows/collationseditor.ui" line="169"/>
+        <source>Register in all databases</source>
+        <translation>Înregistrează în toate bazele de date</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="176"/>
-      <source>Register in following databases:</source>
-      <translation>Înregistrează în următoarele baze de date:</translation>
+        <location filename="../windows/collationseditor.ui" line="176"/>
+        <source>Register in following databases:</source>
+        <translation>Înregistrează în următoarele baze de date:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="197"/>
-      <source>Implementation code:</source>
-      <translation>Cod de implementare:</translation>
+        <location filename="../windows/collationseditor.ui" line="197"/>
+        <source>Implementation code:</source>
+        <translation>Cod de implementare:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="229"/>
-      <source>Collation name:</source>
-      <translation>Nume colaționare:</translation>
+        <location filename="../windows/collationseditor.ui" line="229"/>
+        <source>Collation name:</source>
+        <translation>Nume colaționare:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="239"/>
-      <source>Collation type:</source>
-      <translation>Tip colaționare:</translation>
+        <location filename="../windows/collationseditor.ui" line="239"/>
+        <source>Collation type:</source>
+        <translation>Tip colaționare:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="248"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implementează logica de comparare direct în Letos folosind un limbaj de scripting. Alegeți acest tip pentru a crea reguli de sortare și comparare complet personalizate fără a necesita extensii SQLite externe.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/collationseditor.ui" line="248"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implementează logica de comparare direct în Letos folosind un limbaj de scripting. Alegeți acest tip pentru a crea reguli de sortare și comparare complet personalizate fără a necesita extensii SQLite externe.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="251"/>
-      <source>Function-based</source>
-      <translation>Bazată pe funcție</translation>
+        <location filename="../windows/collationseditor.ui" line="251"/>
+        <source>Function-based</source>
+        <translation>Bazată pe funcție</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="258"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilizează o colaționare implementată de o extensie SQLite sau de o bibliotecă externă. Alegeți acest tip când logica de comparare există deja în afara Letos, de exemplu în ICU sau într-o altă extensie SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/collationseditor.ui" line="258"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Utilizează o colaționare implementată de o extensie SQLite sau de o bibliotecă externă. Alegeți acest tip când logica de comparare există deja în afara Letos, de exemplu în ICU sau într-o altă extensie SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="261"/>
-      <source>Extension-based</source>
-      <translation>Bazată pe extensie</translation>
+        <location filename="../windows/collationseditor.ui" line="261"/>
+        <source>Extension-based</source>
+        <translation>Bazată pe extensie</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.ui" line="270"/>
-      <source>Implementation language:</source>
-      <translation>Limbaj de implementare:</translation>
+        <location filename="../windows/collationseditor.ui" line="270"/>
+        <source>Implementation language:</source>
+        <translation>Limbaj de implementare:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="56"/>
-      <source>Collations editor</source>
-      <translation>Editor de colaționări</translation>
+        <location filename="../windows/collationseditor.cpp" line="56"/>
+        <source>Collations editor</source>
+        <translation>Editor de colaționări</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="61"/>
-      <source>Commit all collation changes</source>
-      <translation>Confirmă toate modificările colaționărilor</translation>
+        <location filename="../windows/collationseditor.cpp" line="61"/>
+        <source>Commit all collation changes</source>
+        <translation>Confirmă toate modificările colaționărilor</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="62"/>
-      <source>Rollback all collation changes</source>
-      <translation>Revocă toate modificările colaționărilor</translation>
+        <location filename="../windows/collationseditor.cpp" line="62"/>
+        <source>Rollback all collation changes</source>
+        <translation>Revocă toate modificările colaționărilor</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="64"/>
-      <source>Create new collation</source>
-      <translation>Creează o colaționare nouă</translation>
+        <location filename="../windows/collationseditor.cpp" line="64"/>
+        <source>Create new collation</source>
+        <translation>Creează o colaționare nouă</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="65"/>
-      <source>Delete selected collation</source>
-      <translation>Șterge colaționarea selectată</translation>
+        <location filename="../windows/collationseditor.cpp" line="65"/>
+        <source>Delete selected collation</source>
+        <translation>Șterge colaționarea selectată</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="67"/>
-      <source>Import collations from file</source>
-      <translation>Importă colaționări din fișier</translation>
+        <location filename="../windows/collationseditor.cpp" line="67"/>
+        <source>Import collations from file</source>
+        <translation>Importă colaționări din fișier</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="68"/>
-      <source>Export collations to file</source>
-      <translation>Exportă colaționări în fișier</translation>
+        <location filename="../windows/collationseditor.cpp" line="68"/>
+        <source>Export collations to file</source>
+        <translation>Exportă colaționări în fișier</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="69"/>
-      <source>Editing collations manual</source>
-      <translation>Manual de editare a colaționărilor</translation>
+        <location filename="../windows/collationseditor.cpp" line="69"/>
+        <source>Editing collations manual</source>
+        <translation>Manual de editare a colaționărilor</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="322"/>
-      <source>Enter a non-empty, unique name of the collation.</source>
-      <translation>Introduceți un nume nevid și unic pentru colaționare.</translation>
+        <location filename="../windows/collationseditor.cpp" line="322"/>
+        <source>Enter a non-empty, unique name of the collation.</source>
+        <translation>Introduceți un nume nevid și unic pentru colaționare.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="332"/>
-      <source>Pick the implementation language.</source>
-      <translation>Alegeți limbajul de implementare.</translation>
+        <location filename="../windows/collationseditor.cpp" line="332"/>
+        <source>Pick the implementation language.</source>
+        <translation>Alegeți limbajul de implementare.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="337"/>
-      <source>Registration code</source>
-      <translation>Cod de înregistrare</translation>
+        <location filename="../windows/collationseditor.cpp" line="337"/>
+        <source>Registration code</source>
+        <translation>Cod de înregistrare</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="338"/>
-      <source>Enter a non-empty registration code.</source>
-      <translation>Introduceți un cod de înregistrare nevid.</translation>
+        <location filename="../windows/collationseditor.cpp" line="338"/>
+        <source>Enter a non-empty registration code.</source>
+        <translation>Introduceți un cod de înregistrare nevid.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="346"/>
-      <source>Implementation code</source>
-      <translation>Cod de implementare</translation>
+        <location filename="../windows/collationseditor.cpp" line="346"/>
+        <source>Implementation code</source>
+        <translation>Cod de implementare</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="347"/>
-      <source>Enter a non-empty implementation code.</source>
-      <translation>Introduceți un cod de implementare nevid.</translation>
+        <location filename="../windows/collationseditor.cpp" line="347"/>
+        <source>Enter a non-empty implementation code.</source>
+        <translation>Introduceți un cod de implementare nevid.</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.cpp" line="506"/>
-      <source>Collations editor window has uncommitted modifications.</source>
-      <translation>Fereastra editorului de colaționări are modificări neconfirmate.</translation>
+        <location filename="../windows/collationseditor.cpp" line="506"/>
+        <source>Collations editor window has uncommitted modifications.</source>
+        <translation>Fereastra editorului de colaționări are modificări neconfirmate.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CollationsEditorModel</name>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="219"/>
-      <source>all databases</source>
-      <translation>toate bazele de date</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="219"/>
+        <source>all databases</source>
+        <translation>toate bazele de date</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="224"/>
-      <source>Collation:</source>
-      <translation>Colaționare:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="224"/>
+        <source>Collation:</source>
+        <translation>Colaționare:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="225"/>
-      <source>Type:</source>
-      <translation>Tip:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="225"/>
+        <source>Type:</source>
+        <translation>Tip:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="226"/>
-      <source>Language:</source>
-      <translation>Limbaj:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="226"/>
+        <source>Language:</source>
+        <translation>Limbaj:</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditormodel.cpp" line="227"/>
-      <source>Registered in:</source>
-      <translation>Înregistrată în:</translation>
+        <location filename="../windows/collationseditormodel.cpp" line="227"/>
+        <source>Registered in:</source>
+        <translation>Înregistrată în:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColorButton</name>
     <message>
-      <location filename="../common/colorbutton.cpp" line="29"/>
-      <source>Pick a color</source>
-      <translation>Alegeți o culoare</translation>
+        <location filename="../common/colorbutton.cpp" line="29"/>
+        <source>Pick a color</source>
+        <translation>Alegeți o culoare</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColorPickerPopup</name>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="58"/>
-      <source>Clear</source>
-      <translation>Șterge</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="58"/>
+        <source>Clear</source>
+        <translation>Șterge</translation>
     </message>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="65"/>
-      <source>Custom colors</source>
-      <translation>Culori personalizate</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="65"/>
+        <source>Custom colors</source>
+        <translation>Culori personalizate</translation>
     </message>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="73"/>
-      <source>Add custom color</source>
-      <translation>Adaugă culoare personalizată</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="73"/>
+        <source>Add custom color</source>
+        <translation>Adaugă culoare personalizată</translation>
     </message>
     <message>
-      <location filename="../common/colorpickerpopup.cpp" line="219"/>
-      <source>Select color</source>
-      <translation>Selectează culoarea</translation>
+        <location filename="../common/colorpickerpopup.cpp" line="219"/>
+        <source>Select color</source>
+        <translation>Selectează culoarea</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnCollatePanel</name>
     <message>
-      <location filename="../constraints/columncollatepanel.ui" line="41"/>
-      <source>Collation name:</source>
-      <translation>Nume colaționare:</translation>
+        <location filename="../constraints/columncollatepanel.ui" line="41"/>
+        <source>Collation name:</source>
+        <translation>Nume colaționare:</translation>
     </message>
     <message>
-      <location filename="../constraints/columncollatepanel.ui" line="73"/>
-      <source>Named constraint:</source>
-      <translation>Constrângere denumită:</translation>
+        <location filename="../constraints/columncollatepanel.ui" line="73"/>
+        <source>Named constraint:</source>
+        <translation>Constrângere denumită:</translation>
     </message>
     <message>
-      <location filename="../constraints/columncollatepanel.cpp" line="80"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/columncollatepanel.cpp" line="80"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
     <message>
-      <location filename="../constraints/columncollatepanel.cpp" line="81"/>
-      <source>Enter a collation name.</source>
-      <translation>Introduceți un nume de colaționare.</translation>
+        <location filename="../constraints/columncollatepanel.cpp" line="81"/>
+        <source>Enter a collation name.</source>
+        <translation>Introduceți un nume de colaționare.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnDefaultPanel</name>
     <message>
-      <location filename="../constraints/columndefaultpanel.ui" line="20"/>
-      <source>Default value:</source>
-      <translation>Valoare implicită:</translation>
+        <location filename="../constraints/columndefaultpanel.ui" line="20"/>
+        <source>Default value:</source>
+        <translation>Valoare implicită:</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.ui" line="35"/>
-      <source>Named constraint:</source>
-      <translation>Constrângere denumită:</translation>
+        <location filename="../constraints/columndefaultpanel.ui" line="35"/>
+        <source>Named constraint:</source>
+        <translation>Constrângere denumită:</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
-      <source>Enter a default value expression.</source>
-      <translation>Introduceți o expresie pentru valoarea implicită.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
+        <source>Enter a default value expression.</source>
+        <translation>Introduceți o expresie pentru valoarea implicită.</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
-      <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
-      <translation>Expresie de valoare implicită nevalidă: %1. Dacă doriți să utilizați un șir simplu ca valoare, nu uitați să îl încadrați între caractere de citare.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
+        <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
+        <translation>Expresie de valoare implicită nevalidă: %1. Dacă doriți să utilizați un șir simplu ca valoare, nu uitați să îl încadrați între caractere de citare.</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
-      <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
-      <translation>Expresie de valoare implicită nevalidă. Dacă doriți să utilizați un șir simplu ca valoare, nu uitați să îl încadrați între caractere de citare.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
+        <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
+        <translation>Expresie de valoare implicită nevalidă. Dacă doriți să utilizați un șir simplu ca valoare, nu uitați să îl încadrați între caractere de citare.</translation>
     </message>
     <message>
-      <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnDialog</name>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="20"/>
-      <source>Column</source>
-      <translation>Coloană</translation>
+        <location filename="../dialogs/columndialog.ui" line="20"/>
+        <source>Column</source>
+        <translation>Coloană</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="29"/>
-      <source>Name and type</source>
-      <translation>Nume și tip</translation>
+        <location filename="../dialogs/columndialog.ui" line="29"/>
+        <source>Name and type</source>
+        <translation>Nume și tip</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="41"/>
-      <source>Scale</source>
-      <translation>Scală</translation>
+        <location filename="../dialogs/columndialog.ui" line="41"/>
+        <source>Scale</source>
+        <translation>Scală</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="61"/>
-      <source>Precision</source>
-      <translation>Precizie</translation>
+        <location filename="../dialogs/columndialog.ui" line="61"/>
+        <source>Precision</source>
+        <translation>Precizie</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="68"/>
-      <source>Data type:</source>
-      <translation>Tip de date:</translation>
+        <location filename="../dialogs/columndialog.ui" line="68"/>
+        <source>Data type:</source>
+        <translation>Tip de date:</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="75"/>
-      <source>Column name:</source>
-      <translation>Nume coloană:</translation>
+        <location filename="../dialogs/columndialog.ui" line="75"/>
+        <source>Column name:</source>
+        <translation>Nume coloană:</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="85"/>
-      <source>Size:</source>
-      <translation>Dimensiune:</translation>
+        <location filename="../dialogs/columndialog.ui" line="85"/>
+        <source>Size:</source>
+        <translation>Dimensiune:</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="108"/>
-      <source>Constraints</source>
-      <translation>Constrângeri</translation>
+        <location filename="../dialogs/columndialog.ui" line="108"/>
+        <source>Constraints</source>
+        <translation>Constrângeri</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="138"/>
-      <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
-      <translation>Această coloană face parte dintr-o cheie primară compusă. Constrângerile compuse sunt configurate în partea de jos a filei Structură.</translation>
+        <location filename="../dialogs/columndialog.ui" line="138"/>
+        <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
+        <translation>Această coloană face parte dintr-o cheie primară compusă. Constrângerile compuse sunt configurate în partea de jos a filei Structură.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="141"/>
-      <source>Composite Primary Key</source>
-      <translation>Cheie primară compusă</translation>
+        <location filename="../dialogs/columndialog.ui" line="141"/>
+        <source>Composite Primary Key</source>
+        <translation>Cheie primară compusă</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="161"/>
-      <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
-      <translation>Această coloană face parte dintr-o cheie externă compusă. Constrângerile compuse sunt configurate în partea de jos a filei Structură.</translation>
+        <location filename="../dialogs/columndialog.ui" line="161"/>
+        <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
+        <translation>Această coloană face parte dintr-o cheie externă compusă. Constrângerile compuse sunt configurate în partea de jos a filei Structură.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="164"/>
-      <source>Composite Foreign Key</source>
-      <translation>Cheie externă compusă</translation>
+        <location filename="../dialogs/columndialog.ui" line="164"/>
+        <source>Composite Foreign Key</source>
+        <translation>Cheie externă compusă</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="209"/>
-      <source>Generated value</source>
-      <translation>Valoare generată</translation>
+        <location filename="../dialogs/columndialog.ui" line="209"/>
+        <source>Generated value</source>
+        <translation>Valoare generată</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="223"/>
-      <source>Unique</source>
-      <translation>Unică</translation>
+        <location filename="../dialogs/columndialog.ui" line="223"/>
+        <source>Unique</source>
+        <translation>Unică</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="121"/>
-      <location filename="../dialogs/columndialog.ui" line="151"/>
-      <location filename="../dialogs/columndialog.ui" line="181"/>
-      <location filename="../dialogs/columndialog.ui" line="195"/>
-      <location filename="../dialogs/columndialog.ui" line="202"/>
-      <location filename="../dialogs/columndialog.ui" line="216"/>
-      <location filename="../dialogs/columndialog.ui" line="244"/>
-      <location filename="../dialogs/columndialog.ui" line="251"/>
-      <source>Configure</source>
-      <translation>Configurează</translation>
+        <location filename="../dialogs/columndialog.ui" line="121"/>
+        <location filename="../dialogs/columndialog.ui" line="151"/>
+        <location filename="../dialogs/columndialog.ui" line="181"/>
+        <location filename="../dialogs/columndialog.ui" line="195"/>
+        <location filename="../dialogs/columndialog.ui" line="202"/>
+        <location filename="../dialogs/columndialog.ui" line="216"/>
+        <location filename="../dialogs/columndialog.ui" line="244"/>
+        <location filename="../dialogs/columndialog.ui" line="251"/>
+        <source>Configure</source>
+        <translation>Configurează</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="258"/>
-      <source>Foreign Key</source>
-      <translation>Cheie externă</translation>
+        <location filename="../dialogs/columndialog.ui" line="258"/>
+        <source>Foreign Key</source>
+        <translation>Cheie externă</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="237"/>
-      <source>Collate</source>
-      <translation>Colaționare</translation>
+        <location filename="../dialogs/columndialog.ui" line="237"/>
+        <source>Collate</source>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="265"/>
-      <source>Not NULL</source>
-      <translation>Nu este NULL</translation>
+        <location filename="../dialogs/columndialog.ui" line="265"/>
+        <source>Not NULL</source>
+        <translation>Nu este NULL</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="128"/>
-      <source>Check condition</source>
-      <translation>Condiție de verificare</translation>
+        <location filename="../dialogs/columndialog.ui" line="128"/>
+        <source>Check condition</source>
+        <translation>Condiție de verificare</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="230"/>
-      <source>Primary Key</source>
-      <translation>Cheie primară</translation>
+        <location filename="../dialogs/columndialog.ui" line="230"/>
+        <source>Primary Key</source>
+        <translation>Cheie primară</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="174"/>
-      <source>Default</source>
-      <translation>Implicit</translation>
+        <location filename="../dialogs/columndialog.ui" line="174"/>
+        <source>Default</source>
+        <translation>Implicit</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="188"/>
-      <source>Autoincrement</source>
-      <translation>Auto-incrementare</translation>
+        <location filename="../dialogs/columndialog.ui" line="188"/>
+        <source>Autoincrement</source>
+        <translation>Auto-incrementare</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="275"/>
-      <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
-      <translation>Această coloană face parte dintr-o constrângere unică compusă. Constrângerile compuse sunt configurate în partea de jos a filei Structură.</translation>
+        <location filename="../dialogs/columndialog.ui" line="275"/>
+        <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
+        <translation>Această coloană face parte dintr-o constrângere unică compusă. Constrângerile compuse sunt configurate în partea de jos a filei Structură.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="278"/>
-      <source>Composite Unique</source>
-      <translation>Unică compusă</translation>
+        <location filename="../dialogs/columndialog.ui" line="278"/>
+        <source>Composite Unique</source>
+        <translation>Unică compusă</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.ui" line="345"/>
-      <source>Advanced mode</source>
-      <translation>Mod avansat</translation>
+        <location filename="../dialogs/columndialog.ui" line="345"/>
+        <source>Advanced mode</source>
+        <translation>Mod avansat</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="85"/>
-      <source>Add constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă constrângere</translation>
+        <location filename="../dialogs/columndialog.cpp" line="85"/>
+        <source>Add constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă constrângere</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="86"/>
-      <source>Edit constraint</source>
-      <comment>column dialog</comment>
-      <translation>Editează constrângerea</translation>
+        <location filename="../dialogs/columndialog.cpp" line="86"/>
+        <source>Edit constraint</source>
+        <comment>column dialog</comment>
+        <translation>Editează constrângerea</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="87"/>
-      <location filename="../dialogs/columndialog.cpp" line="252"/>
-      <source>Delete constraint</source>
-      <comment>column dialog</comment>
-      <translation>Șterge constrângerea</translation>
+        <location filename="../dialogs/columndialog.cpp" line="87"/>
+        <location filename="../dialogs/columndialog.cpp" line="252"/>
+        <source>Delete constraint</source>
+        <comment>column dialog</comment>
+        <translation>Șterge constrângerea</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="88"/>
-      <source>Move constraint up</source>
-      <comment>column dialog</comment>
-      <translation>Mută constrângerea în sus</translation>
+        <location filename="../dialogs/columndialog.cpp" line="88"/>
+        <source>Move constraint up</source>
+        <comment>column dialog</comment>
+        <translation>Mută constrângerea în sus</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="89"/>
-      <source>Move constraint down</source>
-      <comment>column dialog</comment>
-      <translation>Mută constrângerea în jos</translation>
+        <location filename="../dialogs/columndialog.cpp" line="89"/>
+        <source>Move constraint down</source>
+        <comment>column dialog</comment>
+        <translation>Mută constrângerea în jos</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="91"/>
-      <source>Add a primary key</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o cheie primară</translation>
+        <location filename="../dialogs/columndialog.cpp" line="91"/>
+        <source>Add a primary key</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o cheie primară</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="92"/>
-      <source>Add a foreign key</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o cheie externă</translation>
+        <location filename="../dialogs/columndialog.cpp" line="92"/>
+        <source>Add a foreign key</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o cheie externă</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="93"/>
-      <source>Add an unique constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o constrângere unică</translation>
+        <location filename="../dialogs/columndialog.cpp" line="93"/>
+        <source>Add an unique constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o constrângere unică</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="94"/>
-      <source>Add a check constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o constrângere de verificare</translation>
+        <location filename="../dialogs/columndialog.cpp" line="94"/>
+        <source>Add a check constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o constrângere de verificare</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="95"/>
-      <source>Add a not null constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o constrângere not null</translation>
+        <location filename="../dialogs/columndialog.cpp" line="95"/>
+        <source>Add a not null constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o constrângere not null</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="96"/>
-      <source>Add a collate constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o constrângere de colaționare</translation>
+        <location filename="../dialogs/columndialog.cpp" line="96"/>
+        <source>Add a collate constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o constrângere de colaționare</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="97"/>
-      <source>Add a generated value constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o constrângere pentru valoare generată</translation>
+        <location filename="../dialogs/columndialog.cpp" line="97"/>
+        <source>Add a generated value constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o constrângere pentru valoare generată</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="98"/>
-      <source>Add a default constraint</source>
-      <comment>column dialog</comment>
-      <translation>Adaugă o constrângere de valoare implicită</translation>
+        <location filename="../dialogs/columndialog.cpp" line="98"/>
+        <source>Add a default constraint</source>
+        <comment>column dialog</comment>
+        <translation>Adaugă o constrângere de valoare implicită</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="251"/>
-      <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
-      <comment>column dialog</comment>
-      <translation>Sigur doriți să ștergeți constrângerea &apos;%1&apos;?</translation>
+        <location filename="../dialogs/columndialog.cpp" line="251"/>
+        <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
+        <comment>column dialog</comment>
+        <translation>Sigur doriți să ștergeți constrângerea &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="316"/>
-      <source>Correct the constraint&apos;s configuration.</source>
-      <translation>Corectați configurația constrângerii.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="316"/>
+        <source>Correct the constraint&apos;s configuration.</source>
+        <translation>Corectați configurația constrângerii.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="386"/>
-      <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
-      <translation>Scala nu este permisă pentru coloanele INTEGER PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="386"/>
+        <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
+        <translation>Scala nu este permisă pentru coloanele INTEGER PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="387"/>
-      <source>Precision cannot be defined without the scale.</source>
-      <translation>Precizia nu poate fi definită fără scală.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="387"/>
+        <source>Precision cannot be defined without the scale.</source>
+        <translation>Precizia nu poate fi definită fără scală.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="388"/>
-      <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
-      <translation>Nu se poate utiliza un alt tip decât INTEGER dacă AUTOINCREMENT este activat în PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="388"/>
+        <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
+        <translation>Nu se poate utiliza un alt tip decât INTEGER dacă AUTOINCREMENT este activat în PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="389"/>
-      <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
-      <translation>Tipul INTEGER a fost impus din cauza activării AUTOINCREMENT în PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="389"/>
+        <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
+        <translation>Tipul INTEGER a fost impus din cauza activării AUTOINCREMENT în PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="411"/>
-      <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
-      <translation>Precizia nu este permisă pentru coloanele INTEGER PRIMARY KEY.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="411"/>
+        <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
+        <translation>Precizia nu este permisă pentru coloanele INTEGER PRIMARY KEY.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="459"/>
-      <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
-      <translation>Tipul coloanei referențiate (%1) este diferit de tipul declarat în această coloană. Poate cauza probleme la inserarea sau actualizarea datelor.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="459"/>
+        <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
+        <translation>Tipul coloanei referențiate (%1) este diferit de tipul declarat în această coloană. Poate cauza probleme la inserarea sau actualizarea datelor.</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialog.cpp" line="771"/>
-      <source>Could not match valid STRICT table datatype from declared type: %1.</source>
-      <translation>Nu s-a putut potrivi un tip de date valid pentru tabel STRICT din tipul declarat: %1.</translation>
+        <location filename="../dialogs/columndialog.cpp" line="771"/>
+        <source>Could not match valid STRICT table datatype from declared type: %1.</source>
+        <translation>Nu s-a putut potrivi un tip de date valid pentru tabel STRICT din tipul declarat: %1.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnDialogConstraintsModel</name>
     <message>
-      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
-      <source>Type</source>
-      <comment>column dialog constraints</comment>
-      <translation>Tip</translation>
+        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
+        <source>Type</source>
+        <comment>column dialog constraints</comment>
+        <translation>Tip</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
-      <source>Name</source>
-      <comment>column dialog constraints</comment>
-      <translation>Nume</translation>
+        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
+        <source>Name</source>
+        <comment>column dialog constraints</comment>
+        <translation>Nume</translation>
     </message>
     <message>
-      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
-      <source>Details</source>
-      <comment>column dialog constraints</comment>
-      <translation>Detalii</translation>
+        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
+        <source>Details</source>
+        <comment>column dialog constraints</comment>
+        <translation>Detalii</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnForeignKeyPanel</name>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
-      <source>Referenced table:</source>
-      <translation>Tabel referențiat:</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
+        <source>Referenced table:</source>
+        <translation>Tabel referențiat:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
-      <source>Referenced column:</source>
-      <translation>Coloană referențiată:</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
+        <source>Referenced column:</source>
+        <translation>Coloană referențiată:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
-      <source>Reactions</source>
-      <translation>Reacții</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
+        <source>Reactions</source>
+        <translation>Reacții</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
-      <source>Deferred foreign key</source>
-      <translation>Cheie externă amânată</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
+        <source>Deferred foreign key</source>
+        <translation>Cheie externă amânată</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
-      <source>Named constraint</source>
-      <translation>Constrângere denumită</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
+        <source>Named constraint</source>
+        <translation>Constrângere denumită</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
-      <source>Constraint name</source>
-      <translation>Nume constrângere</translation>
+        <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
+        <source>Constraint name</source>
+        <translation>Nume constrângere</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
-      <source>Pick the foreign table.</source>
-      <translation>Alegeți tabelul extern.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
+        <source>Pick the foreign table.</source>
+        <translation>Alegeți tabelul extern.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
-      <source>Pick the foreign column.</source>
-      <translation>Alegeți coloana externă.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
+        <source>Pick the foreign column.</source>
+        <translation>Alegeți coloana externă.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
-      <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
-      <translation>Coloana referențiată ar trebui să fie PRIMARY KEY sau UNIQUE.</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
+        <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
+        <translation>Coloana referențiată ar trebui să fie PRIMARY KEY sau UNIQUE.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
-      <source>Column with the same name</source>
-      <translation>Coloană cu același nume</translation>
+        <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
+        <source>Column with the same name</source>
+        <translation>Coloană cu același nume</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnGeneratedPanel</name>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
-      <source>Generating code:</source>
-      <translation>Cod de generare:</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
+        <source>Generating code:</source>
+        <translation>Cod de generare:</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
-      <source>Explicit type:</source>
-      <translation>Tip explicit:</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
+        <source>Explicit type:</source>
+        <translation>Tip explicit:</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
-      <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
-      <translation>Utilizează cuvintele-cheie &quot;GENERATED ALWAYS&quot;</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
+        <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
+        <translation>Utilizează cuvintele-cheie &quot;GENERATED ALWAYS&quot;</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
-      <source>Named constraint:</source>
-      <translation>Constrângere denumită:</translation>
+        <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
+        <source>Named constraint:</source>
+        <translation>Constrângere denumită:</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
-      <source>Enter the column value generating expression.</source>
-      <translation>Introduceți expresia de generare a valorii coloanei.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
+        <source>Enter the column value generating expression.</source>
+        <translation>Introduceți expresia de generare a valorii coloanei.</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
-      <source>Invalid value generating expression: %1.</source>
-      <translation>Expresie de generare a valorii nevalidă: %1.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
+        <source>Invalid value generating expression: %1.</source>
+        <translation>Expresie de generare a valorii nevalidă: %1.</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
-      <source>Invalid value generating expression.</source>
-      <translation>Expresie de generare a valorii nevalidă.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
+        <source>Invalid value generating expression.</source>
+        <translation>Expresie de generare a valorii nevalidă.</translation>
     </message>
     <message>
-      <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnPrimaryKeyPanel</name>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
-      <source>Autoincrement</source>
-      <translation>Auto-incrementare</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
+        <source>Autoincrement</source>
+        <translation>Auto-incrementare</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
-      <source>Sort order:</source>
-      <translation>Ordine de sortare:</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
+        <source>Sort order:</source>
+        <translation>Ordine de sortare:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
-      <source>Named constraint:</source>
-      <translation>Constrângere denumită:</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
+        <source>Named constraint:</source>
+        <translation>Constrângere denumită:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
-      <source>On conflict:</source>
-      <translation>La conflict:</translation>
+        <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
+        <source>On conflict:</source>
+        <translation>La conflict:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
     <message>
-      <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
-      <source>Descending order is not allowed with AUTOINCREMENT.</source>
-      <translation>Ordinea descrescătoare nu este permisă cu AUTOINCREMENT.</translation>
+        <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
+        <source>Descending order is not allowed with AUTOINCREMENT.</source>
+        <translation>Ordinea descrescătoare nu este permisă cu AUTOINCREMENT.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ColumnUniqueAndNotNullPanel</name>
     <message>
-      <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
-      <source>Named constraint:</source>
-      <translation>Constrângere denumită:</translation>
+        <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
+        <source>Named constraint:</source>
+        <translation>Constrângere denumită:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
-      <source>On conflict:</source>
-      <translation>La conflict:</translation>
+        <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
+        <source>On conflict:</source>
+        <translation>La conflict:</translation>
     </message>
     <message>
-      <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CommandPalette</name>
     <message>
-      <location filename="../commandpalette/commandpalette.cpp" line="53"/>
-      <source>Search anything...</source>
-      <translation>Caută orice...</translation>
+        <location filename="../commandpalette/commandpalette.cpp" line="53"/>
+        <source>Search anything...</source>
+        <translation>Caută orice...</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CompleterWindow</name>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="95"/>
-      <source>Press / to filter snippets</source>
-      <translation>Apăsați / pentru a filtra fragmentele</translation>
+        <location filename="../completer/completerwindow.cpp" line="95"/>
+        <source>Press / to filter snippets</source>
+        <translation>Apăsați / pentru a filtra fragmentele</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="95"/>
-      <source>Press / to use hotkeys</source>
-      <translation>Apăsați / pentru a utiliza tastele rapide</translation>
+        <location filename="../completer/completerwindow.cpp" line="95"/>
+        <source>Press / to use hotkeys</source>
+        <translation>Apăsați / pentru a utiliza tastele rapide</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="310"/>
-      <source>Column: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Coloană: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="310"/>
+        <source>Column: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Coloană: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="312"/>
-      <source>Table: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Tabel: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="312"/>
+        <source>Table: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="314"/>
-      <source>Index: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Index: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="314"/>
+        <source>Index: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Index: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="316"/>
-      <source>Trigger: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Declanșator: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="316"/>
+        <source>Trigger: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Declanșator: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="318"/>
-      <source>View: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Vizualizare: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="318"/>
+        <source>View: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Vizualizare: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="320"/>
-      <source>Database: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Bază de date: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="320"/>
+        <source>Database: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Bază de date: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="332"/>
-      <source>Keyword: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Cuvânt-cheie: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="332"/>
+        <source>Keyword: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Cuvânt-cheie: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="334"/>
-      <source>Function: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Funcție: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="334"/>
+        <source>Function: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Funcție: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="336"/>
-      <source>Operator: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Operator: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="336"/>
+        <source>Operator: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Operator: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="338"/>
-      <source>String</source>
-      <comment>completer statusbar</comment>
-      <translation>Șir</translation>
+        <location filename="../completer/completerwindow.cpp" line="338"/>
+        <source>String</source>
+        <comment>completer statusbar</comment>
+        <translation>Șir</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="340"/>
-      <source>Number</source>
-      <comment>completer statusbar</comment>
-      <translation>Număr</translation>
+        <location filename="../completer/completerwindow.cpp" line="340"/>
+        <source>Number</source>
+        <comment>completer statusbar</comment>
+        <translation>Număr</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="342"/>
-      <source>Binary data</source>
-      <comment>completer statusbar</comment>
-      <translation>Date binare</translation>
+        <location filename="../completer/completerwindow.cpp" line="342"/>
+        <source>Binary data</source>
+        <comment>completer statusbar</comment>
+        <translation>Date binare</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="344"/>
-      <source>Collation: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Colaționare: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="344"/>
+        <source>Collation: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Colaționare: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="346"/>
-      <source>Pragma function: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Funcție pragma: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="346"/>
+        <source>Pragma function: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Funcție pragma: %1</translation>
     </message>
     <message>
-      <location filename="../completer/completerwindow.cpp" line="348"/>
-      <source>Join condition: %1</source>
-      <comment>completer statusbar</comment>
-      <translation>Condiție de îmbinare: %1</translation>
+        <location filename="../completer/completerwindow.cpp" line="348"/>
+        <source>Join condition: %1</source>
+        <comment>completer statusbar</comment>
+        <translation>Condiție de îmbinare: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConfigDialog</name>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="14"/>
-      <location filename="../dialogs/configdialog.ui" line="3127"/>
-      <source>Configuration</source>
-      <translation>Configurare</translation>
+        <location filename="../dialogs/configdialog.ui" line="14"/>
+        <location filename="../dialogs/configdialog.ui" line="3127"/>
+        <source>Configuration</source>
+        <translation>Configurare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="63"/>
-      <source>Search</source>
-      <translation>Căutare</translation>
+        <location filename="../dialogs/configdialog.ui" line="63"/>
+        <source>Search</source>
+        <translation>Căutare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="100"/>
-      <source>General</source>
-      <translation>General</translation>
+        <location filename="../dialogs/configdialog.ui" line="100"/>
+        <source>General</source>
+        <translation>General</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="112"/>
-      <source>Keyboard shortcuts</source>
-      <translation>Scurtături de tastatură</translation>
+        <location filename="../dialogs/configdialog.ui" line="112"/>
+        <source>Keyboard shortcuts</source>
+        <translation>Scurtături de tastatură</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="124"/>
-      <source>Look &amp; feel</source>
-      <translation>Aspect și comportament</translation>
+        <location filename="../dialogs/configdialog.ui" line="124"/>
+        <source>Look &amp; feel</source>
+        <translation>Aspect și comportament</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="135"/>
-      <source>Style</source>
-      <translation>Stil</translation>
+        <location filename="../dialogs/configdialog.ui" line="135"/>
+        <source>Style</source>
+        <translation>Stil</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="147"/>
-      <source>Fonts</source>
-      <translation>Fonturi</translation>
+        <location filename="../dialogs/configdialog.ui" line="147"/>
+        <source>Fonts</source>
+        <translation>Fonturi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="159"/>
-      <source>Code colors</source>
-      <translation>Culori cod</translation>
+        <location filename="../dialogs/configdialog.ui" line="159"/>
+        <source>Code colors</source>
+        <translation>Culori cod</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="184"/>
-      <location filename="../dialogs/configdialog.ui" line="277"/>
-      <source>Database list</source>
-      <translation>Listă baze de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="184"/>
+        <location filename="../dialogs/configdialog.ui" line="277"/>
+        <source>Database list</source>
+        <translation>Listă baze de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1363"/>
-      <source>Code assistant</source>
-      <translation>Asistent de cod</translation>
+        <location filename="../dialogs/configdialog.ui" line="1363"/>
+        <source>Code assistant</source>
+        <translation>Asistent de cod</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="196"/>
-      <source>Data browsing</source>
-      <translation>Răsfoire date</translation>
+        <location filename="../dialogs/configdialog.ui" line="196"/>
+        <source>Data browsing</source>
+        <translation>Răsfoire date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="172"/>
-      <location filename="../dialogs/configdialog.ui" line="1276"/>
-      <source>SQL Editor</source>
-      <translation>Editor SQL</translation>
+        <location filename="../dialogs/configdialog.ui" line="172"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
+        <source>SQL Editor</source>
+        <translation>Editor SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="207"/>
-      <source>Data editors</source>
-      <translation>Editoare de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="207"/>
+        <source>Data editors</source>
+        <translation>Editoare de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="232"/>
-      <source>Plugins</source>
-      <translation>Pluginuri</translation>
+        <location filename="../dialogs/configdialog.ui" line="232"/>
+        <source>Plugins</source>
+        <translation>Pluginuri</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="243"/>
-      <source>Code formatters</source>
-      <translation>Formatatoare de cod</translation>
+        <location filename="../dialogs/configdialog.ui" line="243"/>
+        <source>Code formatters</source>
+        <translation>Formatatoare de cod</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="251"/>
-      <source>Scripting languages</source>
-      <translation>Limbaje de scripting</translation>
+        <location filename="../dialogs/configdialog.ui" line="251"/>
+        <source>Scripting languages</source>
+        <translation>Limbaje de scripting</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="306"/>
-      <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
-      <translation>Dacă este dezactivată, coloanele vor fi sortate în ordinea în care sunt introduse în instrucțiunea CREATE TABLE.</translation>
+        <location filename="../dialogs/configdialog.ui" line="306"/>
+        <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
+        <translation>Dacă este dezactivată, coloanele vor fi sortate în ordinea în care sunt introduse în instrucțiunea CREATE TABLE.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="309"/>
-      <source>Sort table columns alphabetically</source>
-      <translation>Sortează alfabetic coloanele tabelului</translation>
+        <location filename="../dialogs/configdialog.ui" line="309"/>
+        <source>Sort table columns alphabetically</source>
+        <translation>Sortează alfabetic coloanele tabelului</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="345"/>
-      <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
-      <translation>&lt;p&gt;Etichetele suplimentare sunt cele afișate lângă nume în lista bazelor de date (sunt albastre, dacă nu sunt configurate altfel). Activarea acestei opțiuni va afișa etichete pentru baze de date, baze de date nevalide și noduri agregate (grup de coloane, grup de indecși, grup de declanșatori). Pentru mai multe etichete, vedeți opțiunile de mai jos.&lt;p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="345"/>
+        <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
+        <translation>&lt;p&gt;Etichetele suplimentare sunt cele afișate lângă nume în lista bazelor de date (sunt albastre, dacă nu sunt configurate altfel). Activarea acestei opțiuni va afișa etichete pentru baze de date, baze de date nevalide și noduri agregate (grup de coloane, grup de indecși, grup de declanșatori). Pentru mai multe etichete, vedeți opțiunile de mai jos.&lt;p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="348"/>
-      <source>Display additional labels on the list</source>
-      <translation>Afișează etichete suplimentare în listă</translation>
+        <location filename="../dialogs/configdialog.ui" line="348"/>
+        <source>Display additional labels on the list</source>
+        <translation>Afișează etichete suplimentare în listă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="379"/>
-      <source>Display labels for regular tables</source>
-      <translation>Afișează etichete pentru tabele obișnuite</translation>
+        <location filename="../dialogs/configdialog.ui" line="379"/>
+        <source>Display labels for regular tables</source>
+        <translation>Afișează etichete pentru tabele obișnuite</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="389"/>
-      <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
-      <translation>Tabelele virtuale vor fi marcate cu eticheta &apos;virtual&apos;.</translation>
+        <location filename="../dialogs/configdialog.ui" line="389"/>
+        <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
+        <translation>Tabelele virtuale vor fi marcate cu eticheta &apos;virtual&apos;.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="392"/>
-      <source>Display labels for virtual tables</source>
-      <translation>Afișează etichete pentru tabele virtuale</translation>
+        <location filename="../dialogs/configdialog.ui" line="392"/>
+        <source>Display labels for virtual tables</source>
+        <translation>Afișează etichete pentru tabele virtuale</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="332"/>
-      <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
-      <translation>Dacă această opțiune este dezactivată, obiectele vor fi sortate în ordinea în care apar în tabelul sqlite_master (adică în ordinea în care au fost create)</translation>
+        <location filename="../dialogs/configdialog.ui" line="332"/>
+        <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
+        <translation>Dacă această opțiune este dezactivată, obiectele vor fi sortate în ordinea în care apar în tabelul sqlite_master (adică în ordinea în care au fost create)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="335"/>
-      <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
-      <translation>Sortează alfabetic obiectele (tabele, indecși, declanșatori și vizualizări)</translation>
+        <location filename="../dialogs/configdialog.ui" line="335"/>
+        <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
+        <translation>Sortează alfabetic obiectele (tabele, indecși, declanșatori și vizualizări)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="408"/>
-      <source>Display system tables and indexes on the list</source>
-      <translation>Afișează tabelele și indecșii de sistem în listă</translation>
+        <location filename="../dialogs/configdialog.ui" line="408"/>
+        <source>Display system tables and indexes on the list</source>
+        <translation>Afișează tabelele și indecșii de sistem în listă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="431"/>
-      <source>Database dialog window</source>
-      <translation>Fereastră de dialog pentru baza de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="431"/>
+        <source>Database dialog window</source>
+        <translation>Fereastră de dialog pentru baza de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="437"/>
-      <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;La adăugarea unei baze de date noi, aceasta este marcată implicit ca &quot;permanentă&quot; (stocată în configurare). Bifarea acestei opțiuni face ca fiecare bază de date nouă să NU fie &quot;permanentă&quot; în mod implicit.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="437"/>
+        <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;La adăugarea unei baze de date noi, aceasta este marcată implicit ca &quot;permanentă&quot; (stocată în configurare). Bifarea acestei opțiuni face ca fiecare bază de date nouă să NU fie &quot;permanentă&quot; în mod implicit.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="440"/>
-      <source>Do not mark database to be &quot;permanent&quot; by default</source>
-      <translation>Nu marca baza de date ca &quot;permanentă&quot; implicit</translation>
+        <location filename="../dialogs/configdialog.ui" line="440"/>
+        <source>Do not mark database to be &quot;permanent&quot; by default</source>
+        <translation>Nu marca baza de date ca &quot;permanentă&quot; implicit</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="498"/>
-      <source>Data browsing and editing</source>
-      <translation>Răsfoire și editare date</translation>
+        <location filename="../dialogs/configdialog.ui" line="498"/>
+        <source>Data browsing and editing</source>
+        <translation>Răsfoire și editare date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="582"/>
-      <location filename="../dialogs/configdialog.ui" line="592"/>
-      <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Numărul maxim de configurații ale dialogului Populare tabel stocate în configurare. Valoarea 100 ar trebui să fie suficientă.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="582"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Numărul maxim de configurații ale dialogului Populare tabel stocate în configurare. Valoarea 100 ar trebui să fie suficientă.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="585"/>
-      <source>Number of memorized table populating configurations</source>
-      <translation>Număr de configurații memorate pentru popularea tabelelor</translation>
+        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <source>Number of memorized table populating configurations</source>
+        <translation>Număr de configurații memorate pentru popularea tabelelor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="511"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Convertește separatorii de linie Unicode (U+2028, U+2029) în caracterul LF standard (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) la editarea textului în editorul de vizualizare formular.&lt;/p&gt;&lt;p&gt;Dezactivați pentru a păstra caracterele originale.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="511"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Convertește separatorii de linie Unicode (U+2028, U+2029) în caracterul LF standard (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) la editarea textului în editorul de vizualizare formular.&lt;/p&gt;&lt;p&gt;Dezactivați pentru a păstra caracterele originale.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="514"/>
-      <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-      <translation>Convertește separatorii de linie Unicode în LF (\n) în editoarele de vizualizare formular</translation>
+        <location filename="../dialogs/configdialog.ui" line="514"/>
+        <source>Convert Unicode line separators to LF (\n) in form view editors</source>
+        <translation>Convertește separatorii de linie Unicode în LF (\n) în editoarele de vizualizare formular</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="527"/>
-      <source>Use scientific notation for very small real numbers in the grid view</source>
-      <translation>Utilizează notația științifică pentru numere reale foarte mici în vizualizarea grilă</translation>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <source>Use scientific notation for very small real numbers in the grid view</source>
+        <translation>Utilizează notația științifică pentru numere reale foarte mici în vizualizarea grilă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="647"/>
-      <source>Data column width</source>
-      <translation>Lățimea coloanei de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="647"/>
+        <source>Data column width</source>
+        <translation>Lățimea coloanei de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="653"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când utilizatorul introduce o valoare nouă într-o coloană, iar valoarea este mai mare decât lățimea curentă a coloanei, aplicația va mări coloana pentru a se potrivi noii valori, dar nu mai mult decât limita definită în opțiunea de mai sus.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="653"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când utilizatorul introduce o valoare nouă într-o coloană, iar valoarea este mai mare decât lățimea curentă a coloanei, aplicația va mări coloana pentru a se potrivi noii valori, dar nu mai mult decât limita definită în opțiunea de mai sus.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="656"/>
-      <source>Enlarge column when entering value longer than current width</source>
-      <translation>Mărește coloana la introducerea unei valori mai lungi decât lățimea curentă</translation>
+        <location filename="../dialogs/configdialog.ui" line="656"/>
+        <source>Enlarge column when entering value longer than current width</source>
+        <translation>Mărește coloana la introducerea unei valori mai lungi decât lățimea curentă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="672"/>
-      <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Când datele sunt citite în vizualizarea grilă, lățimea coloanelor este ajustată automat. Această valoare limitează lățimea inițială pentru ajustare, dar utilizatorul poate totuși redimensiona manual coloana peste această limită.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="672"/>
+        <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Când datele sunt citite în vizualizarea grilă, lățimea coloanelor este ajustată automat. Această valoare limitează lățimea inițială pentru ajustare, dar utilizatorul poate totuși redimensiona manual coloana peste această limită.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="504"/>
-      <source>Number of data rows per page:</source>
-      <translation>Număr de rânduri de date pe pagină:</translation>
+        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <source>Number of data rows per page:</source>
+        <translation>Număr de rânduri de date pe pagină:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="569"/>
-      <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Când această opțiune este activată și utilizatorul ține indicatorul mouse-ului peste o celulă în orice vizualizare de date (rezultatele interogării, datele unui tabel, datele unei vizualizări), va apărea un tooltip cu detalii despre celulă - include detalii precum tipul de date al coloanei, constrângeri, ROWID și altele.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="569"/>
+        <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Când această opțiune este activată și utilizatorul ține indicatorul mouse-ului peste o celulă în orice vizualizare de date (rezultatele interogării, datele unui tabel, datele unei vizualizări), va apărea un tooltip cu detalii despre celulă - include detalii precum tipul de date al coloanei, constrângeri, ROWID și altele.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="572"/>
-      <source>Show column and row details tooltip in data view</source>
-      <translation>Afișează tooltip cu detalii despre coloană și rând în vizualizarea de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <source>Show column and row details tooltip in data view</source>
+        <translation>Afișează tooltip cu detalii despre coloană și rând în vizualizarea de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="618"/>
-      <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
-      <translation>&lt;p&gt;La editarea unei celule care avea valoarea NULL și introducerea unui șir gol ca valoare nouă, această opțiune stabilește dacă noua valoare trebuie să rămână NULL (opțiunea activată) sau să fie suprascrisă cu valoarea șirului gol (opțiunea dezactivată).&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
+        <translation>&lt;p&gt;La editarea unei celule care avea valoarea NULL și introducerea unui șir gol ca valoare nouă, această opțiune stabilește dacă noua valoare trebuie să rămână NULL (opțiunea activată) sau să fie suprascrisă cu valoarea șirului gol (opțiunea dezactivată).&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="621"/>
-      <source>Keep NULL value when entering empty value</source>
-      <translation>Păstrează valoarea NULL la introducerea unei valori goale</translation>
+        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <source>Keep NULL value when entering empty value</source>
+        <translation>Păstrează valoarea NULL la introducerea unei valori goale</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="608"/>
-      <source>Limit number of rows for in case of dozens of columns</source>
-      <translation>Limitează numărul de rânduri în cazul zecilor de coloane</translation>
+        <location filename="../dialogs/configdialog.ui" line="608"/>
+        <source>Limit number of rows for in case of dozens of columns</source>
+        <translation>Limitează numărul de rânduri în cazul zecilor de coloane</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="752"/>
-      <source>Inserting new row in data grid</source>
-      <translation>Inserarea unui rând nou în grila de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="752"/>
+        <source>Inserting new row in data grid</source>
+        <translation>Inserarea unui rând nou în grila de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="758"/>
-      <source>Before currently selected row</source>
-      <translation>Înaintea rândului selectat curent</translation>
+        <location filename="../dialogs/configdialog.ui" line="758"/>
+        <source>Before currently selected row</source>
+        <translation>Înaintea rândului selectat curent</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="774"/>
-      <source>After currently selected row</source>
-      <translation>După rândul selectat curent</translation>
+        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <source>After currently selected row</source>
+        <translation>După rândul selectat curent</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="787"/>
-      <source>At the end of data view</source>
-      <translation>La sfârșitul vizualizării de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="787"/>
+        <source>At the end of data view</source>
+        <translation>La sfârșitul vizualizării de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="803"/>
-      <source>Table windows</source>
-      <translation>Ferestre de tabel</translation>
+        <location filename="../dialogs/configdialog.ui" line="803"/>
+        <source>Table windows</source>
+        <translation>Ferestre de tabel</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="809"/>
-      <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Când este activată, ferestrele de tabel se vor deschide cu fila de date, în locul filei de structură.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Când este activată, ferestrele de tabel se vor deschide cu fila de date, în locul filei de structură.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="812"/>
-      <source>Open Table Windows with the data tab for start</source>
-      <translation>Deschide ferestrele de tabel cu fila de date la pornire</translation>
+        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <source>Open Table Windows with the data tab for start</source>
+        <translation>Deschide ferestrele de tabel cu fila de date la pornire</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="822"/>
-      <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Când este activată, fila &quot;Date&quot; va fi plasată ca prima filă în fiecare fereastră de tabel, în loc să fie pe locul al doilea.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="822"/>
+        <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Când este activată, fila &quot;Date&quot; va fi plasată ca prima filă în fiecare fereastră de tabel, în loc să fie pe locul al doilea.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="825"/>
-      <source>Place data tab as first tab in a Table Window</source>
-      <translation>Plasează fila de date ca prima filă într-o fereastră de tabel</translation>
+        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <source>Place data tab as first tab in a Table Window</source>
+        <translation>Plasează fila de date ca prima filă într-o fereastră de tabel</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="838"/>
-      <source>View windows</source>
-      <translation>Ferestre de vizualizare</translation>
+        <location filename="../dialogs/configdialog.ui" line="838"/>
+        <source>View windows</source>
+        <translation>Ferestre de vizualizare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="844"/>
-      <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Când este activată, ferestrele de vizualizare se vor deschide cu fila de date, în locul filei de structură.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Când este activată, ferestrele de vizualizare se vor deschide cu fila de date, în locul filei de structură.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="847"/>
-      <source>Open View Windows with the data tab for start</source>
-      <translation>Deschide ferestrele de vizualizare cu fila de date la pornire</translation>
+        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <source>Open View Windows with the data tab for start</source>
+        <translation>Deschide ferestrele de vizualizare cu fila de date la pornire</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="857"/>
-      <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Când este activată, fila &quot;Date&quot; va fi plasată ca prima filă în fiecare fereastră de vizualizare, în loc să fie pe locul al doilea.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="857"/>
+        <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Când este activată, fila &quot;Date&quot; va fi plasată ca prima filă în fiecare fereastră de vizualizare, în loc să fie pe locul al doilea.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="860"/>
-      <source>Place data tab as first tab in a View Window</source>
-      <translation>Plasează fila de date ca prima filă într-o fereastră de vizualizare</translation>
+        <location filename="../dialogs/configdialog.ui" line="860"/>
+        <source>Place data tab as first tab in a View Window</source>
+        <translation>Plasează fila de date ca prima filă într-o fereastră de vizualizare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="904"/>
-      <source>Data types</source>
-      <translation>Tipuri de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="904"/>
+        <source>Data types</source>
+        <translation>Tipuri de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="957"/>
-      <source>Available editors:</source>
-      <translation>Editoare disponibile:</translation>
+        <location filename="../dialogs/configdialog.ui" line="957"/>
+        <source>Available editors:</source>
+        <translation>Editoare disponibile:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1074"/>
-      <source>Schema editing</source>
-      <translation>Editare schemă</translation>
+        <location filename="../dialogs/configdialog.ui" line="1074"/>
+        <source>Schema editing</source>
+        <translation>Editare schemă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1086"/>
-      <source>Number of DDL changes kept in history.</source>
-      <translation>Numărul modificărilor DDL păstrate în istoric.</translation>
+        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <source>Number of DDL changes kept in history.</source>
+        <translation>Numărul modificărilor DDL păstrate în istoric.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1099"/>
-      <source>DDL history size:</source>
-      <translation>Dimensiune istoric DDL:</translation>
+        <location filename="../dialogs/configdialog.ui" line="1099"/>
+        <source>DDL history size:</source>
+        <translation>Dimensiune istoric DDL:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1106"/>
-      <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
-      <translation>Nu afișați dialogul de previzualizare DDL la confirmarea modificărilor schemei</translation>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
+        <translation>Nu afișați dialogul de previzualizare DDL la confirmarea modificărilor schemei</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1404"/>
-      <location filename="../dialogs/configdialog.ui" line="1420"/>
-      <source>Number of queries kept in the history.</source>
-      <translation>Numărul interogărilor păstrate în istoric.</translation>
+        <location filename="../dialogs/configdialog.ui" line="1404"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <source>Number of queries kept in the history.</source>
+        <translation>Numărul interogărilor păstrate în istoric.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1350"/>
-      <source>Execute only the query under the cursor</source>
-      <translation>Execută numai interogarea de sub cursor</translation>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <source>Execute only the query under the cursor</source>
+        <translation>Execută numai interogarea de sub cursor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1436"/>
-      <source>Number of memorized query parameters</source>
-      <translation>Număr de parametri de interogare memorați</translation>
+        <location filename="../dialogs/configdialog.ui" line="1436"/>
+        <source>Number of memorized query parameters</source>
+        <translation>Număr de parametri de interogare memorați</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="691"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când datele sunt citite în vizualizarea grilă, lățimea coloanelor este ajustată automat. Această valoare limitează lățimea inițială pentru ajustare, dar utilizatorul poate totuși redimensiona manual coloana peste această limită. Această valoare este utilizată și la mărirea coloanei după introducerea de către utilizator a unei valori noi, mai lungi (vedeți opțiunea de mai jos).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când datele sunt citite în vizualizarea grilă, lățimea coloanelor este ajustată automat. Această valoare limitează lățimea inițială pentru ajustare, dar utilizatorul poate totuși redimensiona manual coloana peste această limită. Această valoare este utilizată și la mărirea coloanei după introducerea de către utilizator a unei valori noi, mai lungi (vedeți opțiunea de mai jos).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="694"/>
-      <source>Limit automatic data column width to (in pixels):</source>
-      <translation>Limitează lățimea automată a coloanei de date la (în pixeli):</translation>
+        <location filename="../dialogs/configdialog.ui" line="694"/>
+        <source>Limit automatic data column width to (in pixels):</source>
+        <translation>Limitează lățimea automată a coloanei de date la (în pixeli):</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="701"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lățimea inițială a coloanelor de date va fi setată cel puțin pentru a afișa numele complet al coloanei în antet. Aceasta poate fi totuși suprascrisă de limita inițială a lățimii coloanei specificată în pixeli (setarea de mai sus).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="701"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Lățimea inițială a coloanelor de date va fi setată cel puțin pentru a afișa numele complet al coloanei în antet. Aceasta poate fi totuși suprascrisă de limita inițială a lățimii coloanei specificată în pixeli (setarea de mai sus).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="704"/>
-      <source>Keep at least the width to show complete column name</source>
-      <translation>Păstrează cel puțin lățimea necesară pentru afișarea numelui complet al coloanei</translation>
+        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <source>Keep at least the width to show complete column name</source>
+        <translation>Păstrează cel puțin lățimea necesară pentru afișarea numelui complet al coloanei</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1314"/>
-      <source>Wrap lines in SQL editor</source>
-      <translation>Încadrează liniile în editorul SQL</translation>
+        <location filename="../dialogs/configdialog.ui" line="1314"/>
+        <source>Wrap lines in SQL editor</source>
+        <translation>Încadrează liniile în editorul SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1337"/>
-      <source>Highlight current query</source>
-      <translation>Evidențiază interogarea curentă</translation>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <source>Highlight current query</source>
+        <translation>Evidențiază interogarea curentă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1119"/>
-      <source>Updates</source>
-      <translation>Actualizări</translation>
+        <location filename="../dialogs/configdialog.ui" line="1119"/>
+        <source>Updates</source>
+        <translation>Actualizări</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1125"/>
-      <source>Automatically check for updates at startup</source>
-      <translation>Verifică automat actualizările la pornire</translation>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <source>Automatically check for updates at startup</source>
+        <translation>Verifică automat actualizările la pornire</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1138"/>
-      <source>Session</source>
-      <translation>Sesiune</translation>
+        <location filename="../dialogs/configdialog.ui" line="1138"/>
+        <source>Session</source>
+        <translation>Sesiune</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1144"/>
-      <source>Restore last session (active MDI windows) after startup</source>
-      <translation>Restaurează ultima sesiune (ferestre MDI active) după pornire</translation>
+        <location filename="../dialogs/configdialog.ui" line="1144"/>
+        <source>Restore last session (active MDI windows) after startup</source>
+        <translation>Restaurează ultima sesiune (ferestre MDI active) după pornire</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1154"/>
-      <source>Allow multiple instances of the application at the same time</source>
-      <translation>Permite mai multe instanțe ale aplicației în același timp</translation>
+        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <source>Allow multiple instances of the application at the same time</source>
+        <translation>Permite mai multe instanțe ale aplicației în același timp</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1167"/>
-      <source>Status Field</source>
-      <translation>Câmp de stare</translation>
+        <location filename="../dialogs/configdialog.ui" line="1167"/>
+        <source>Status Field</source>
+        <translation>Câmp de stare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1176"/>
-      <source>Always open Status panel when new message is printed</source>
-      <translation>Deschide întotdeauna panoul Stare când este afișat un mesaj nou</translation>
+        <location filename="../dialogs/configdialog.ui" line="1176"/>
+        <source>Always open Status panel when new message is printed</source>
+        <translation>Deschide întotdeauna panoul Stare când este afișat un mesaj nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1501"/>
-      <source>Code syntax colors</source>
-      <translation>Culori sintaxă cod</translation>
+        <location filename="../dialogs/configdialog.ui" line="1501"/>
+        <source>Code syntax colors</source>
+        <translation>Culori sintaxă cod</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1687"/>
-      <source>Keyword foreground</source>
-      <translation>Prim-plan cuvânt-cheie</translation>
+        <location filename="../dialogs/configdialog.ui" line="1687"/>
+        <source>Keyword foreground</source>
+        <translation>Prim-plan cuvânt-cheie</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1507"/>
-      <source>Regular foreground</source>
-      <translation>Prim-plan obișnuit</translation>
+        <location filename="../dialogs/configdialog.ui" line="1507"/>
+        <source>Regular foreground</source>
+        <translation>Prim-plan obișnuit</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1597"/>
-      <source>String foreground</source>
-      <translation>Prim-plan șir</translation>
+        <location filename="../dialogs/configdialog.ui" line="1597"/>
+        <source>String foreground</source>
+        <translation>Prim-plan șir</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1867"/>
-      <source>Comment foreground</source>
-      <translation>Prim-plan comentariu</translation>
+        <location filename="../dialogs/configdialog.ui" line="1867"/>
+        <source>Comment foreground</source>
+        <translation>Prim-plan comentariu</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1957"/>
-      <source>Valid objects foreground</source>
-      <translation>Prim-plan obiecte valide</translation>
+        <location filename="../dialogs/configdialog.ui" line="1957"/>
+        <source>Valid objects foreground</source>
+        <translation>Prim-plan obiecte valide</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2268"/>
-      <source>Current query background</source>
-      <translation>Fundal interogare curentă</translation>
+        <location filename="../dialogs/configdialog.ui" line="2268"/>
+        <source>Current query background</source>
+        <translation>Fundal interogare curentă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2137"/>
-      <source>Bind parameter foreground</source>
-      <translation>Prim-plan parametru de legare</translation>
+        <location filename="../dialogs/configdialog.ui" line="2137"/>
+        <source>Bind parameter foreground</source>
+        <translation>Prim-plan parametru de legare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2227"/>
-      <source>Current line background</source>
-      <translation>Fundal linie curentă</translation>
+        <location filename="../dialogs/configdialog.ui" line="2227"/>
+        <source>Current line background</source>
+        <translation>Fundal linie curentă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2312"/>
-      <source>Matched parenthesis background</source>
-      <translation>Fundal paranteză potrivită</translation>
+        <location filename="../dialogs/configdialog.ui" line="2312"/>
+        <source>Matched parenthesis background</source>
+        <translation>Fundal paranteză potrivită</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2296"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți dezactiva complet evidențierea interogării curente pe pagina setărilor generale.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="2296"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți dezactiva complet evidențierea interogării curente pe pagina setărilor generale.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="219"/>
-      <source>Data renderers</source>
-      <translation>Renderere de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="219"/>
+        <source>Data renderers</source>
+        <translation>Renderere de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="283"/>
-      <source>Expand tables when connected to a database</source>
-      <translation>Extinde tabelele la conectarea la o bază de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="283"/>
+        <source>Expand tables when connected to a database</source>
+        <translation>Extinde tabelele la conectarea la o bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="418"/>
-      <source>Expand views when connected to a database</source>
-      <translation>Extinde vizualizările la conectarea la o bază de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="418"/>
+        <source>Expand views when connected to a database</source>
+        <translation>Extinde vizualizările la conectarea la o bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="319"/>
-      <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
-      <translation>Extinderea unui tabel sau a unei vizualizări extinde și nodurile Coloane, Indecși și Declanșatori pentru a le afișa conținutul.</translation>
+        <location filename="../dialogs/configdialog.ui" line="319"/>
+        <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
+        <translation>Extinderea unui tabel sau a unei vizualizări extinde și nodurile Coloane, Indecși și Declanșatori pentru a le afișa conținutul.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="293"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implicit, schema bazei de date este accesată folosind numele tabelului &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Versiunile SQLite mai vechi foloseau numele &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, care este încă acceptat ca alias.&lt;br/&gt;Puteți comuta aici pentru a utiliza în schimb numele moștenit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="293"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implicit, schema bazei de date este accesată folosind numele tabelului &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Versiunile SQLite mai vechi foloseau numele &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, care este încă acceptat ca alias.&lt;br/&gt;Puteți comuta aici pentru a utiliza în schimb numele moștenit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="296"/>
-      <source>Prefer sqlite_master over sqlite_schema table name</source>
-      <translation>Preferă numele de tabel sqlite_master în loc de sqlite_schema</translation>
+        <location filename="../dialogs/configdialog.ui" line="296"/>
+        <source>Prefer sqlite_master over sqlite_schema table name</source>
+        <translation>Preferă numele de tabel sqlite_master în loc de sqlite_schema</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="322"/>
-      <source>Expand columns, indexes and triggers together with the table</source>
-      <translation>Extinde coloanele, indecșii și declanșatorii împreună cu tabelul</translation>
+        <location filename="../dialogs/configdialog.ui" line="322"/>
+        <source>Expand columns, indexes and triggers together with the table</source>
+        <translation>Extinde coloanele, indecșii și declanșatorii împreună cu tabelul</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="363"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afișează tipul de date lângă coloană când nodul Coloane este extins.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="363"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afișează tipul de date lângă coloană când nodul Coloane este extins.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="366"/>
-      <source>Display column data types</source>
-      <translation>Afișează tipurile de date ale coloanelor</translation>
+        <location filename="../dialogs/configdialog.ui" line="366"/>
+        <source>Display column data types</source>
+        <translation>Afișează tipurile de date ale coloanelor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="376"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afișează numărul de coloane, indecși și declanșatori lângă numele fiecărui tabel.&lt;/p&gt;&lt;p&gt;Necesită încărcarea schemei complete pentru toate tabelele. Pentru baze de date cu sute sau mii de tabele, acest lucru poate afecta semnificativ performanța.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="376"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Afișează numărul de coloane, indecși și declanșatori lângă numele fiecărui tabel.&lt;/p&gt;&lt;p&gt;Necesită încărcarea schemei complete pentru toate tabelele. Pentru baze de date cu sute sau mii de tabele, acest lucru poate afecta semnificativ performanța.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="405"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implicit, tabelele și indecșii de sistem sunt ascunși din listă.&lt;br/&gt;Activați această opțiune pentru a afișa obiecte SQLite interne, precum &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; și indecși generați automat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="405"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implicit, tabelele și indecșii de sistem sunt ascunși din listă.&lt;br/&gt;Activați această opțiune pentru a afișa obiecte SQLite interne, precum &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; și indecși generați automat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="450"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când este activată, fișierele de baze de date vor fi adăugate fără afișarea dialogului standard pentru baza de date. Dacă deschiderea bazei de date cu opțiunile implicite eșuează (de ex. bază de date criptată sau este necesar un alt driver), dialogul va fi afișat pentru ca opțiunile să poată fi ajustate. Când este dezactivată, dialogul va fi afișat întotdeauna.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="450"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când este activată, fișierele de baze de date vor fi adăugate fără afișarea dialogului standard pentru baza de date. Dacă deschiderea bazei de date cu opțiunile implicite eșuează (de ex. bază de date criptată sau este necesar un alt driver), dialogul va fi afișat pentru ca opțiunile să poată fi ajustate. Când este dezactivată, dialogul va fi afișat întotdeauna.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="453"/>
-      <source>Skip the dialog when possible</source>
-      <translation>Omite dialogul când este posibil</translation>
+        <location filename="../dialogs/configdialog.ui" line="453"/>
+        <source>Skip the dialog when possible</source>
+        <translation>Omite dialogul când este posibil</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="973"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Definiți ce editoare de date sunt disponibile pentru anumite tipuri de coloane în &lt;span style=&quot; font-weight:700;&quot;&gt;Vizualizarea formular&lt;/span&gt; și în &lt;span style=&quot; font-weight:700;&quot;&gt;dialogul editorului pop-up&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="973"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Definiți ce editoare de date sunt disponibile pentru anumite tipuri de coloane în &lt;span style=&quot; font-weight:700;&quot;&gt;Vizualizarea formular&lt;/span&gt; și în &lt;span style=&quot; font-weight:700;&quot;&gt;dialogul editorului pop-up&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="992"/>
-      <source>Preview of editors for this data type (drag to reorder):</source>
-      <translation>Previzualizarea editoarelor pentru acest tip de date (trageți pentru reordonare):</translation>
+        <location filename="../dialogs/configdialog.ui" line="992"/>
+        <source>Preview of editors for this data type (drag to reorder):</source>
+        <translation>Previzualizarea editoarelor pentru acest tip de date (trageți pentru reordonare):</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1016"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți defini ce renderere de celule sunt utilizate pentru anumite tipuri de date declarate pe coloanele tabelului (fără a ține cont de majuscule/minuscule). Dacă nu este definit niciun renderer pentru un anumit tip, este utilizat rendererul implicit.&lt;/p&gt;&lt;p&gt;Pluginurile opționale pot furniza renderere suplimentare și își pot seta propriile mapări implicite pentru tipurile de date, pe care le puteți suprascrie aici.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1016"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți defini ce renderere de celule sunt utilizate pentru anumite tipuri de date declarate pe coloanele tabelului (fără a ține cont de majuscule/minuscule). Dacă nu este definit niciun renderer pentru un anumit tip, este utilizat rendererul implicit.&lt;/p&gt;&lt;p&gt;Pluginurile opționale pot furniza renderere suplimentare și își pot seta propriile mapări implicite pentru tipurile de date, pe care le puteți suprascrie aici.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1045"/>
-      <source>Data type</source>
-      <translation>Tip de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="1045"/>
+        <source>Data type</source>
+        <translation>Tip de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1050"/>
-      <source>Renderer</source>
-      <translation>Motor de randare</translation>
+        <location filename="../dialogs/configdialog.ui" line="1050"/>
+        <source>Renderer</source>
+        <translation>Motor de randare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1347"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când sunt prezente mai multe interogări, execută numai interogarea de sub cursor.&lt;br/&gt;Când este dezactivată, toate interogările sunt executate.&lt;br/&gt;Puteți executa și interogări selectate sau puteți utiliza scurtături (%1 pentru una singură, %2 pentru toate).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1347"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când sunt prezente mai multe interogări, execută numai interogarea de sub cursor.&lt;br/&gt;Când este dezactivată, toate interogările sunt executate.&lt;br/&gt;Puteți executa și interogări selectate sau puteți utiliza scurtături (%1 pentru una singură, %2 pentru toate).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1334"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Evidențiază interogarea de sub cursor - aceeași interogare care va fi executată la utilizarea &lt;span style=&quot; font-style:italic;&quot;&gt;Execută interogarea&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Evidențiază interogarea de sub cursor - aceeași interogare care va fi executată la utilizarea &lt;span style=&quot; font-style:italic;&quot;&gt;Execută interogarea&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="524"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când este activată, Letos comută automat la notația științifică pentru numere reale foarte mici (de ex. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Notația zecimală este utilizată pentru valorile a căror magnitudine permite o reprezentare zecimală lizibilă.&lt;/p&gt;&lt;p&gt;Când este dezactivată, numerele reale sunt afișate întotdeauna folosind notația zecimală, chiar dacă acest lucru duce la părți fracționare foarte lungi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="524"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când este activată, Letos comută automat la notația științifică pentru numere reale foarte mici (de ex. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Notația zecimală este utilizată pentru valorile a căror magnitudine permite o reprezentare zecimală lizibilă.&lt;/p&gt;&lt;p&gt;Când este dezactivată, numerele reale sunt afișate întotdeauna folosind notația zecimală, chiar dacă acest lucru duce la părți fracționare foarte lungi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="556"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;La editarea unei celule, apăsarea tastei Enter acceptă valoarea și trece la aceeași coloană din rândul următor.&lt;br/&gt;Dacă este dezactivat, selecția rămâne pe celula curentă.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="556"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;La editarea unei celule, apăsarea tastei Enter acceptă valoarea și trece la aceeași coloană din rândul următor.&lt;br/&gt;Dacă este dezactivat, selecția rămâne pe celula curentă.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="559"/>
-      <source>After editing, Enter moves to the next row</source>
-      <translation>După editare, Enter trece la rândul următor</translation>
+        <location filename="../dialogs/configdialog.ui" line="559"/>
+        <source>After editing, Enter moves to the next row</source>
+        <translation>După editare, Enter trece la rândul următor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="605"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă rezultatele interogării conțin zeci (sau sute) de coloane, este mai probabil ca memoria liberă a computerului să fie epuizată prin încărcarea simultană a mai multor gigaocteți de date. În astfel de cazuri, Letos poate încerca să limiteze numărul de rezultate afișate pe o pagină pentru a vă proteja computerul. Dacă știți că nu lucrați cu valori mari în baza de date, puteți dezactiva această limită și veți vedea întotdeauna atâtea rânduri câte sunt definite pe pagină.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="605"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă rezultatele interogării conțin zeci (sau sute) de coloane, este mai probabil ca memoria liberă a computerului să fie epuizată prin încărcarea simultană a mai multor gigaocteți de date. În astfel de cazuri, Letos poate încerca să limiteze numărul de rezultate afișate pe o pagină pentru a vă proteja computerul. Dacă știți că nu lucrați cu valori mari în baza de date, puteți dezactiva această limită și veți vedea întotdeauna atâtea rânduri câte sunt definite pe pagină.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="631"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Începe automat editarea celulei din rândul următor după trecerea la aceasta cu Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="631"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Începe automat editarea celulei din rândul următor după trecerea la aceasta cu Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="634"/>
-      <source>Start editing after moving to the next row</source>
-      <translation>Începe editarea după trecerea la rândul următor</translation>
+        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <source>Start editing after moving to the next row</source>
+        <translation>Începe editarea după trecerea la rândul următor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="717"/>
-      <source>Column header actions</source>
-      <translation>Acțiuni antet coloană</translation>
+        <location filename="../dialogs/configdialog.ui" line="717"/>
+        <source>Column header actions</source>
+        <translation>Acțiuni antet coloană</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="723"/>
-      <source>Single-click selects column data; double-click sorts by column</source>
-      <translation>Un singur clic selectează datele coloanei; dublu clic sortează după coloană</translation>
+        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <source>Single-click selects column data; double-click sorts by column</source>
+        <translation>Un singur clic selectează datele coloanei; dublu clic sortează după coloană</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="736"/>
-      <source>Single-click sorts by column; Alt+click selects column data</source>
-      <translation>Un singur clic sortează după coloană; Alt+clic selectează datele coloanei</translation>
+        <location filename="../dialogs/configdialog.ui" line="736"/>
+        <source>Single-click sorts by column; Alt+click selects column data</source>
+        <translation>Un singur clic sortează după coloană; Alt+clic selectează datele coloanei</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1173"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când utilizatorul închide manual panoul Stare, această opțiune se asigură că, dacă este afișat un mesaj nou în panoul Stare, acesta va fi redeschis. Dacă opțiunea este dezactivată, panoul Stare poate fi deschis numai manual de către utilizator din meniul &amp;quot;Vizualizare&amp;quot;.&lt;/p&gt;&lt;p&gt;Puteți ascunde oricând panoul Stare cu tasta Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când utilizatorul închide manual panoul Stare, această opțiune se asigură că, dacă este afișat un mesaj nou în panoul Stare, acesta va fi redeschis. Dacă opțiunea este dezactivată, panoul Stare poate fi deschis numai manual de către utilizator din meniul &amp;quot;Vizualizare&amp;quot;.&lt;/p&gt;&lt;p&gt;Puteți ascunde oricând panoul Stare cu tasta Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1186"/>
-      <source>Older status messages</source>
-      <translation>Mesaje de stare mai vechi</translation>
+        <location filename="../dialogs/configdialog.ui" line="1186"/>
+        <source>Older status messages</source>
+        <translation>Mesaje de stare mai vechi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1192"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mesajele de stare mai vechi sunt păstrate neschimbate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1192"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mesajele de stare mai vechi sunt păstrate neschimbate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1195"/>
-      <source>Keep messages</source>
-      <translation>Păstrează mesajele</translation>
+        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <source>Keep messages</source>
+        <translation>Păstrează mesajele</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1208"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mesajele de stare mai vechi rămân vizibile, dar sunt estompate vizual pentru ca mesajele recente să iasă în evidență.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1208"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mesajele de stare mai vechi rămân vizibile, dar sunt estompate vizual pentru ca mesajele recente să iasă în evidență.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1211"/>
-      <source>Dim older messages</source>
-      <translation>Estompează mesajele mai vechi</translation>
+        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <source>Dim older messages</source>
+        <translation>Estompează mesajele mai vechi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1224"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mesajele de stare mai vechi sunt eliminate automat din câmpul de stare.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1224"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mesajele de stare mai vechi sunt eliminate automat din câmpul de stare.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1227"/>
-      <source>Remove older messages</source>
-      <translation>Elimină mesajele mai vechi</translation>
+        <location filename="../dialogs/configdialog.ui" line="1227"/>
+        <source>Remove older messages</source>
+        <translation>Elimină mesajele mai vechi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1243"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1246"/>
-      <source>Show occasional project support reminders</source>
-      <translation type="unfinished">Show occasional project support reminders</translation>
+        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <source>Show occasional project support reminders</source>
+        <translation type="unfinished">Show occasional project support reminders</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1282"/>
-      <location filename="../dialogs/configdialog.ui" line="1298"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifică numărul maxim de zecimale afișate pentru timpul de execuție al interogării. Se pot configura până la 9 cifre (nanosecunde). Zerourile finale sunt eliminate automat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1282"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifică numărul maxim de zecimale afișate pentru timpul de execuție al interogării. Se pot configura până la 9 cifre (nanosecunde). Zerourile finale sunt eliminate automat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1285"/>
-      <source>Execution time precision (decimal places)</source>
-      <translation>Precizia timpului de execuție (zecimale)</translation>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <source>Execution time precision (decimal places)</source>
+        <translation>Precizia timpului de execuție (zecimale)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1311"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă este activată, liniile mai lungi decât lățimea editorului vor fi încadrate, astfel încât derularea orizontală nu va fi necesară.&lt;/p&gt;&lt;p&gt;Această opțiune definește valoarea implicită globală, în timp ce ferestrele individuale ale editorului SQL o pot suprascrie local.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă este activată, liniile mai lungi decât lățimea editorului vor fi încadrate, astfel încât derularea orizontală nu va fi necesară.&lt;/p&gt;&lt;p&gt;Această opțiune definește valoarea implicită globală, în timp ce ferestrele individuale ale editorului SQL o pot suprascrie local.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1324"/>
-      <source>Disable blinking text cursor</source>
-      <translation>Dezactivează cursorul de text intermitent</translation>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <source>Disable blinking text cursor</source>
+        <translation>Dezactivează cursorul de text intermitent</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1372"/>
-      <source>Trigger assistant after typing a dot</source>
-      <translation>Declanșează asistentul după tastarea unui punct</translation>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <source>Trigger assistant after typing a dot</source>
+        <translation>Declanșează asistentul după tastarea unui punct</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1382"/>
-      <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
-      <translation>Când este activată, invocarea completării codului într-un editor gol afișează mai întâi fragmente de cod în locul sugestiilor de sintaxă. Invocarea din nou a completării codului comută la sugestiile de sintaxă (și invers).</translation>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
+        <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
+        <translation>Când este activată, invocarea completării codului într-un editor gol afișează mai întâi fragmente de cod în locul sugestiilor de sintaxă. Invocarea din nou a completării codului comută la sugestiile de sintaxă (și invers).</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1385"/>
-      <source>Prefer snippets in empty editor</source>
-      <translation>Preferă fragmentele într-un editor gol</translation>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <source>Prefer snippets in empty editor</source>
+        <translation>Preferă fragmentele într-un editor gol</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1398"/>
-      <source>History</source>
-      <translation>Istoric</translation>
+        <location filename="../dialogs/configdialog.ui" line="1398"/>
+        <source>History</source>
+        <translation>Istoric</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1407"/>
-      <source>Query history size:</source>
-      <translation>Dimensiunea istoricului interogărilor:</translation>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <source>Query history size:</source>
+        <translation>Dimensiunea istoricului interogărilor:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1433"/>
-      <location filename="../dialogs/configdialog.ui" line="1443"/>
-      <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Numărul maxim de parametri ai interogării (:param, @param, $param, ?) stocați în istoric. Când reutilizați un parametru cu același nume/aceeași poziție, Letos îl va preinițializa cu cea mai recentă valoare memorată (o veți putea modifica în continuare). Valoarea 1000 ar trebui să fie suficientă.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1433"/>
+        <location filename="../dialogs/configdialog.ui" line="1443"/>
+        <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Numărul maxim de parametri ai interogării (:param, @param, $param, ?) stocați în istoric. Când reutilizați un parametru cu același nume/aceeași poziție, Letos îl va preinițializa cu cea mai recentă valoare memorată (o veți putea modifica în continuare). Valoarea 1000 ar trebui să fie suficientă.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1777"/>
-      <source>Number foreground</source>
-      <translation>Prim-plan număr</translation>
+        <location filename="../dialogs/configdialog.ui" line="1777"/>
+        <source>Number foreground</source>
+        <translation>Prim-plan număr</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2047"/>
-      <source>BLOB value foreground</source>
-      <translation>Prim-plan valoare BLOB</translation>
+        <location filename="../dialogs/configdialog.ui" line="2047"/>
+        <source>BLOB value foreground</source>
+        <translation>Prim-plan valoare BLOB</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2353"/>
-      <source>Matched parenthesis foreground</source>
-      <translation>Prim-plan paranteză potrivită</translation>
+        <location filename="../dialogs/configdialog.ui" line="2353"/>
+        <source>Matched parenthesis foreground</source>
+        <translation>Prim-plan paranteză potrivită</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2461"/>
-      <location filename="../dialogs/configdialog.ui" line="2569"/>
-      <source>Reset to defaults</source>
-      <translation>Resetează la valorile implicite</translation>
+        <location filename="../dialogs/configdialog.ui" line="2461"/>
+        <location filename="../dialogs/configdialog.ui" line="2569"/>
+        <source>Reset to defaults</source>
+        <translation>Resetează la valorile implicite</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2487"/>
-      <source>Filter shortcuts by name or key combination</source>
-      <translation>Filtrează scurtăturile după nume sau combinație de taste</translation>
+        <location filename="../dialogs/configdialog.ui" line="2487"/>
+        <source>Filter shortcuts by name or key combination</source>
+        <translation>Filtrează scurtăturile după nume sau combinație de taste</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2531"/>
-      <source>Action</source>
-      <translation>Acțiune</translation>
+        <location filename="../dialogs/configdialog.ui" line="2531"/>
+        <source>Action</source>
+        <translation>Acțiune</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2536"/>
-      <source>Key combination</source>
-      <translation>Combinație de taste</translation>
+        <location filename="../dialogs/configdialog.ui" line="2536"/>
+        <source>Key combination</source>
+        <translation>Combinație de taste</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2610"/>
-      <location filename="../dialogs/configdialog.ui" line="3117"/>
-      <source>Language</source>
-      <translation>Limbă</translation>
+        <location filename="../dialogs/configdialog.ui" line="2610"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <source>Language</source>
+        <translation>Limbă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2616"/>
-      <source>Changing language requires application restart to take effect.</source>
-      <translation>Schimbarea limbii necesită repornirea aplicației pentru a intra în vigoare.</translation>
+        <location filename="../dialogs/configdialog.ui" line="2616"/>
+        <source>Changing language requires application restart to take effect.</source>
+        <translation>Schimbarea limbii necesită repornirea aplicației pentru a intra în vigoare.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2636"/>
-      <source>Compact layout</source>
-      <translation>Aspect compact</translation>
+        <location filename="../dialogs/configdialog.ui" line="2636"/>
+        <source>Compact layout</source>
+        <translation>Aspect compact</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2642"/>
-      <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Aspectul compact reduce la minimum toate marginile și spațierile din interfața cu utilizatorul, făcând loc pentru afișarea mai multor date. Face interfața puțin mai puțin estetică, dar permite afișarea mai multor date simultan.&lt;/p&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="2642"/>
+        <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Aspectul compact reduce la minimum toate marginile și spațierile din interfața cu utilizatorul, făcând loc pentru afișarea mai multor date. Face interfața puțin mai puțin estetică, dar permite afișarea mai multor date simultan.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2645"/>
-      <source>Use compact layout</source>
-      <translation>Utilizează aspectul compact</translation>
+        <location filename="../dialogs/configdialog.ui" line="2645"/>
+        <source>Use compact layout</source>
+        <translation>Utilizează aspectul compact</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2661"/>
-      <source>Main window dock areas</source>
-      <translation>Zone de andocare ale ferestrei principale</translation>
+        <location filename="../dialogs/configdialog.ui" line="2661"/>
+        <source>Main window dock areas</source>
+        <translation>Zone de andocare ale ferestrei principale</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2667"/>
-      <source>Left and right areas occupy corners</source>
-      <translation>Zonele din stânga și din dreapta ocupă colțurile</translation>
+        <location filename="../dialogs/configdialog.ui" line="2667"/>
+        <source>Left and right areas occupy corners</source>
+        <translation>Zonele din stânga și din dreapta ocupă colțurile</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2687"/>
-      <source>Top and bottom areas occupy corners</source>
-      <translation>Zonele de sus și de jos ocupă colțurile</translation>
+        <location filename="../dialogs/configdialog.ui" line="2687"/>
+        <source>Top and bottom areas occupy corners</source>
+        <translation>Zonele de sus și de jos ocupă colțurile</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2707"/>
-      <source>Toolbars</source>
-      <translation>Bare de instrumente</translation>
+        <location filename="../dialogs/configdialog.ui" line="2707"/>
+        <source>Toolbars</source>
+        <translation>Bare de instrumente</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2713"/>
-      <location filename="../dialogs/configdialog.ui" line="2723"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exprimat ca procent din dimensiunea implicită.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="2713"/>
+        <location filename="../dialogs/configdialog.ui" line="2723"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exprimat ca procent din dimensiunea implicită.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2716"/>
-      <source>Icon size</source>
-      <translation>Dimensiune pictogramă</translation>
+        <location filename="../dialogs/configdialog.ui" line="2716"/>
+        <source>Icon size</source>
+        <translation>Dimensiune pictogramă</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2841"/>
-      <source>Hide built-in plugins</source>
-      <translation>Ascunde pluginurile încorporate</translation>
+        <location filename="../dialogs/configdialog.ui" line="2841"/>
+        <source>Hide built-in plugins</source>
+        <translation>Ascunde pluginurile încorporate</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2870"/>
-      <source>Current style:</source>
-      <translation>Stil curent:</translation>
+        <location filename="../dialogs/configdialog.ui" line="2870"/>
+        <source>Current style:</source>
+        <translation>Stil curent:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2887"/>
-      <source>Preview</source>
-      <translation>Previzualizare</translation>
+        <location filename="../dialogs/configdialog.ui" line="2887"/>
+        <source>Preview</source>
+        <translation>Previzualizare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2897"/>
-      <source>Enabled</source>
-      <translation>Activat</translation>
+        <location filename="../dialogs/configdialog.ui" line="2897"/>
+        <source>Enabled</source>
+        <translation>Activat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3073"/>
-      <source>Disabled</source>
-      <translation>Dezactivat</translation>
+        <location filename="../dialogs/configdialog.ui" line="3073"/>
+        <source>Disabled</source>
+        <translation>Dezactivat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3122"/>
-      <source>Active formatter plugin</source>
-      <translation>Plugin de formatare activ</translation>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <source>Active formatter plugin</source>
+        <translation>Plugin de formatare activ</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3160"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Sfat:&lt;/span&gt; Pe lângă setările disponibile aici, dimensiunile fonturilor pot fi ajustate dinamic în majoritatea elementelor interfeței ținând apăsată tasta &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; și derulând &lt;span style=&quot; font-weight:700;&quot;&gt;rotița mouse-ului&lt;/span&gt; deasupra elementului a cărui dimensiune de font doriți să o modificați.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="3160"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Sfat:&lt;/span&gt; Pe lângă setările disponibile aici, dimensiunile fonturilor pot fi ajustate dinamic în majoritatea elementelor interfeței ținând apăsată tasta &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; și derulând &lt;span style=&quot; font-weight:700;&quot;&gt;rotița mouse-ului&lt;/span&gt; deasupra elementului a cărui dimensiune de font doriți să o modificați.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3179"/>
-      <source>SQL editor font</source>
-      <translation>Font editor SQL</translation>
+        <location filename="../dialogs/configdialog.ui" line="3179"/>
+        <source>SQL editor font</source>
+        <translation>Font editor SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3195"/>
-      <source>Database list font</source>
-      <translation>Font listă baze de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="3195"/>
+        <source>Database list font</source>
+        <translation>Font listă baze de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3211"/>
-      <source>Database list additional label font</source>
-      <translation>Font etichetă suplimentară listă baze de date</translation>
+        <location filename="../dialogs/configdialog.ui" line="3211"/>
+        <source>Database list additional label font</source>
+        <translation>Font etichetă suplimentară listă baze de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3227"/>
-      <source>Data view font</source>
-      <translation>Font vizualizare date</translation>
+        <location filename="../dialogs/configdialog.ui" line="3227"/>
+        <source>Data view font</source>
+        <translation>Font vizualizare date</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3243"/>
-      <source>Status field font</source>
-      <translation>Font câmp de stare</translation>
+        <location filename="../dialogs/configdialog.ui" line="3243"/>
+        <source>Status field font</source>
+        <translation>Font câmp de stare</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="1369"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă această opțiune este activată, asistentul de cod va fi declanșat în cazurile în care utilizatorul tastează, de exemplu, &lt;span style=&quot; font-weight:700;&quot;&gt;numeTabel.&lt;/span&gt; pentru a propune coloanele tabelului. Dacă opțiunea este dezactivată, utilizatorul va trebui să apese explicit tasta rapidă a asistentului.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă această opțiune este activată, asistentul de cod va fi declanșat în cazurile în care utilizatorul tastează, de exemplu, &lt;span style=&quot; font-weight:700;&quot;&gt;numeTabel.&lt;/span&gt; pentru a propune coloanele tabelului. Dacă opțiunea este dezactivată, utilizatorul va trebui să apese explicit tasta rapidă a asistentului.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1122"/>
-      <source>Description:</source>
-      <comment>plugin details</comment>
-      <translation>Descriere:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <source>Description:</source>
+        <comment>plugin details</comment>
+        <translation>Descriere:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1123"/>
-      <source>Category:</source>
-      <comment>plugin details</comment>
-      <translation>Categorie:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1123"/>
+        <source>Category:</source>
+        <comment>plugin details</comment>
+        <translation>Categorie:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1124"/>
-      <source>Version:</source>
-      <comment>plugin details</comment>
-      <translation>Versiune:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <source>Version:</source>
+        <comment>plugin details</comment>
+        <translation>Versiune:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1125"/>
-      <source>Author:</source>
-      <comment>plugin details</comment>
-      <translation>Autor:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <source>Author:</source>
+        <comment>plugin details</comment>
+        <translation>Autor:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1127"/>
-      <source>Internal name:</source>
-      <comment>plugin details</comment>
-      <translation>Nume intern:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <source>Internal name:</source>
+        <comment>plugin details</comment>
+        <translation>Nume intern:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1128"/>
-      <source>Dependencies:</source>
-      <comment>plugin details</comment>
-      <translation>Dependențe:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1128"/>
+        <source>Dependencies:</source>
+        <comment>plugin details</comment>
+        <translation>Dependențe:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1129"/>
-      <source>Conflicts:</source>
-      <comment>plugin details</comment>
-      <translation>Conflicte:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1129"/>
+        <source>Conflicts:</source>
+        <comment>plugin details</comment>
+        <translation>Conflicte:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1130"/>
-      <source>File:</source>
-      <comment>plugin details</comment>
-      <translation>Fișier:</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1130"/>
+        <source>File:</source>
+        <comment>plugin details</comment>
+        <translation>Fișier:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1135"/>
-      <source>Plugin details</source>
-      <translation>Detalii plugin</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1135"/>
+        <source>Plugin details</source>
+        <translation>Detalii plugin</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1756"/>
-      <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
-      <translation>Pluginurile sunt încărcate/descărcate imediat când sunt bifate/debifate, dar lista modificată de pluginuri de încărcat la pornire nu este salvată până când nu confirmați întregul dialog de configurare.</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1756"/>
+        <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
+        <translation>Pluginurile sunt încărcate/descărcate imediat când sunt bifate/debifate, dar lista modificată de pluginuri de încărcat la pornire nu este salvată până când nu confirmați întregul dialog de configurare.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1814"/>
-      <source>%1 (built-in)</source>
-      <comment>plugins manager in configuration dialog</comment>
-      <translation>%1 (încorporat)</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1814"/>
+        <source>%1 (built-in)</source>
+        <comment>plugins manager in configuration dialog</comment>
+        <translation>%1 (încorporat)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1856"/>
-      <source>Details</source>
-      <translation>Detalii</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1856"/>
+        <source>Details</source>
+        <translation>Detalii</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1870"/>
-      <source>No plugins in this category.</source>
-      <translation>Nu există pluginuri în această categorie.</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1870"/>
+        <source>No plugins in this category.</source>
+        <translation>Nu există pluginuri în această categorie.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1970"/>
-      <location filename="../dialogs/configdialog.cpp" line="1999"/>
-      <source>Add new data type</source>
-      <translation>Adaugă un tip de date nou</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1970"/>
+        <location filename="../dialogs/configdialog.cpp" line="1999"/>
+        <source>Add new data type</source>
+        <translation>Adaugă un tip de date nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1974"/>
-      <location filename="../dialogs/configdialog.cpp" line="2003"/>
-      <source>Rename selected data type</source>
-      <translation>Redenumește tipul de date selectat</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1974"/>
+        <location filename="../dialogs/configdialog.cpp" line="2003"/>
+        <source>Rename selected data type</source>
+        <translation>Redenumește tipul de date selectat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1978"/>
-      <location filename="../dialogs/configdialog.cpp" line="2007"/>
-      <source>Delete selected data type</source>
-      <translation>Șterge tipul de date selectat</translation>
+        <location filename="../dialogs/configdialog.cpp" line="1978"/>
+        <location filename="../dialogs/configdialog.cpp" line="2007"/>
+        <source>Delete selected data type</source>
+        <translation>Șterge tipul de date selectat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2091"/>
-      <source>Clear hotkey for this action</source>
-      <translation>Șterge tasta rapidă pentru această acțiune</translation>
+        <location filename="../dialogs/configdialog.cpp" line="2091"/>
+        <source>Clear hotkey for this action</source>
+        <translation>Șterge tasta rapidă pentru această acțiune</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2103"/>
-      <source>Restore original hotkey for this action</source>
-      <translation>Restabilește tasta rapidă originală pentru această acțiune</translation>
+        <location filename="../dialogs/configdialog.cpp" line="2103"/>
+        <source>Restore original hotkey for this action</source>
+        <translation>Restabilește tasta rapidă originală pentru această acțiune</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2145"/>
-      <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
-      <translation>Aici puteți configura culorile pentru evidențierea sintaxei codului. Acestea sunt partajate între diferite limbaje - nu doar pentru SQL, ci și pentru JavaScript și altele. În mod implicit se utilizează o culoare bazată pe temă. Pentru a defini propria culoare, activați o culoare personalizată selectând caseta de bifare de lângă o anumită culoare.</translation>
+        <location filename="../dialogs/configdialog.cpp" line="2145"/>
+        <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
+        <translation>Aici puteți configura culorile pentru evidențierea sintaxei codului. Acestea sunt partajate între diferite limbaje - nu doar pentru SQL, ci și pentru JavaScript și altele. În mod implicit se utilizează o culoare bazată pe temă. Pentru a defini propria culoare, activați o culoare personalizată selectând caseta de bifare de lângă o anumită culoare.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConstraintCheckPanel</name>
     <message>
-      <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
-      <source>The condition</source>
-      <translation>Condiția</translation>
+        <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
+        <source>The condition</source>
+        <translation>Condiția</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
-      <source>Named constraint:</source>
-      <translation>Constrângere denumită:</translation>
+        <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
+        <source>Named constraint:</source>
+        <translation>Constrângere denumită:</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
-      <source>On conflict</source>
-      <translation>La conflict</translation>
+        <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
+        <source>On conflict</source>
+        <translation>La conflict</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
-      <source>Enter a valid condition.</source>
-      <translation>Introduceți o condiție validă.</translation>
+        <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
+        <source>Enter a valid condition.</source>
+        <translation>Introduceți o condiție validă.</translation>
     </message>
     <message>
-      <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume al constrângerii.</translation>
+        <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume al constrângerii.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConstraintDialog</name>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="62"/>
-      <source>New constraint</source>
-      <comment>constraint dialog</comment>
-      <translation>Constrângere nouă</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="62"/>
+        <source>New constraint</source>
+        <comment>constraint dialog</comment>
+        <translation>Constrângere nouă</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="63"/>
-      <source>Create</source>
-      <comment>constraint dialog</comment>
-      <translation>Creează</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="63"/>
+        <source>Create</source>
+        <comment>constraint dialog</comment>
+        <translation>Creează</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="66"/>
-      <source>Edit constraint</source>
-      <comment>dialog window</comment>
-      <translation>Editează constrângerea</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="66"/>
+        <source>Edit constraint</source>
+        <comment>dialog window</comment>
+        <translation>Editează constrângerea</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="67"/>
-      <source>Apply</source>
-      <comment>constraint dialog</comment>
-      <translation>Aplică</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="67"/>
+        <source>Apply</source>
+        <comment>constraint dialog</comment>
+        <translation>Aplică</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="174"/>
-      <source>Primary key</source>
-      <comment>table constraints</comment>
-      <translation>Cheie primară</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="174"/>
+        <source>Primary key</source>
+        <comment>table constraints</comment>
+        <translation>Cheie primară</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="178"/>
-      <source>Foreign key</source>
-      <comment>table constraints</comment>
-      <translation>Cheie străină</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="178"/>
+        <source>Foreign key</source>
+        <comment>table constraints</comment>
+        <translation>Cheie străină</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="182"/>
-      <source>Unique</source>
-      <comment>table constraints</comment>
-      <translation>Unic</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="182"/>
+        <source>Unique</source>
+        <comment>table constraints</comment>
+        <translation>Unic</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="186"/>
-      <source>Not NULL</source>
-      <comment>table constraints</comment>
-      <translation>NOT NULL</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="186"/>
+        <source>Not NULL</source>
+        <comment>table constraints</comment>
+        <translation>NOT NULL</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="190"/>
-      <source>Check</source>
-      <comment>table constraints</comment>
-      <translation>Verificare</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="190"/>
+        <source>Check</source>
+        <comment>table constraints</comment>
+        <translation>Verificare</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="194"/>
-      <source>Generated</source>
-      <comment>table constraints</comment>
-      <translation>Generat</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="194"/>
+        <source>Generated</source>
+        <comment>table constraints</comment>
+        <translation>Generat</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="198"/>
-      <source>Collate</source>
-      <comment>table constraints</comment>
-      <translation>Colaționare</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="198"/>
+        <source>Collate</source>
+        <comment>table constraints</comment>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../dialogs/constraintdialog.cpp" line="202"/>
-      <source>Default</source>
-      <comment>table constraints</comment>
-      <translation>Implicit</translation>
+        <location filename="../dialogs/constraintdialog.cpp" line="202"/>
+        <source>Default</source>
+        <comment>table constraints</comment>
+        <translation>Implicit</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ConstraintTabModel</name>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="67"/>
-      <source>Table</source>
-      <comment>table constraints</comment>
-      <translation>Tabel</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="67"/>
+        <source>Table</source>
+        <comment>table constraints</comment>
+        <translation>Tabel</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="108"/>
-      <source>Column (%1)</source>
-      <comment>table constraints</comment>
-      <translation>Coloană (%1)</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="108"/>
+        <source>Column (%1)</source>
+        <comment>table constraints</comment>
+        <translation>Coloană (%1)</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="152"/>
-      <source>Scope</source>
-      <comment>table constraints</comment>
-      <translation>Domeniu</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="152"/>
+        <source>Scope</source>
+        <comment>table constraints</comment>
+        <translation>Domeniu</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="154"/>
-      <source>Type</source>
-      <comment>table constraints</comment>
-      <translation>Tip</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="154"/>
+        <source>Type</source>
+        <comment>table constraints</comment>
+        <translation>Tip</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="156"/>
-      <source>Details</source>
-      <comment>table constraints</comment>
-      <translation>Detalii</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="156"/>
+        <source>Details</source>
+        <comment>table constraints</comment>
+        <translation>Detalii</translation>
     </message>
     <message>
-      <location filename="../windows/constrainttabmodel.cpp" line="158"/>
-      <source>Name</source>
-      <comment>table constraints</comment>
-      <translation>Nume</translation>
+        <location filename="../windows/constrainttabmodel.cpp" line="158"/>
+        <source>Name</source>
+        <comment>table constraints</comment>
+        <translation>Nume</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CpConfigDialogProvider</name>
     <message>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
-      <source>Configure hotkey: %1 (%2)</source>
-      <translation>Configurează scurtătura: %1 (%2)</translation>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
+        <source>Configure hotkey: %1 (%2)</source>
+        <translation>Configurează scurtătura: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
-      <source>Open configuration on the &quot;%1&quot; page</source>
-      <translation>Deschide configurația la pagina &quot;%1&quot;</translation>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
+        <source>Open configuration on the &quot;%1&quot; page</source>
+        <translation>Deschide configurația la pagina &quot;%1&quot;</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
-      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
-      <source>Configure: %1</source>
-      <translation>Configurează: %1</translation>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
+        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
+        <source>Configure: %1</source>
+        <translation>Configurează: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>CssDebugDialog</name>
     <message>
-      <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
-      <source>Letos CSS console</source>
-      <translation>Consolă CSS Letos</translation>
+        <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
+        <source>Letos CSS console</source>
+        <translation>Consolă CSS Letos</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DataView</name>
     <message>
-      <location filename="../dataview.cpp" line="125"/>
-      <source>Filter data</source>
-      <comment>data view</comment>
-      <translation>Filtrează datele</translation>
+        <location filename="../dataview.cpp" line="125"/>
+        <source>Filter data</source>
+        <comment>data view</comment>
+        <translation>Filtrează datele</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="126"/>
-      <source>Filter by value in any column</source>
-      <comment>data view</comment>
-      <translation>Filtrează după valoare în orice coloană</translation>
+        <location filename="../dataview.cpp" line="126"/>
+        <source>Filter by value in any column</source>
+        <comment>data view</comment>
+        <translation>Filtrează după valoare în orice coloană</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="135"/>
-      <source>Grid view</source>
-      <translation>Vizualizare grilă</translation>
+        <location filename="../dataview.cpp" line="135"/>
+        <source>Grid view</source>
+        <translation>Vizualizare grilă</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="136"/>
-      <source>Form view</source>
-      <translation>Vizualizare formular</translation>
+        <location filename="../dataview.cpp" line="136"/>
+        <source>Form view</source>
+        <translation>Vizualizare formular</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="239"/>
-      <source>Find in data</source>
-      <comment>data view</comment>
-      <translation>Caută în date</translation>
+        <location filename="../dataview.cpp" line="239"/>
+        <source>Find in data</source>
+        <comment>data view</comment>
+        <translation>Caută în date</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="240"/>
-      <source>Refresh table data</source>
-      <comment>data view</comment>
-      <translation>Reîmprospătează datele tabelului</translation>
+        <location filename="../dataview.cpp" line="240"/>
+        <source>Refresh table data</source>
+        <comment>data view</comment>
+        <translation>Reîmprospătează datele tabelului</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="256"/>
-      <source>First page</source>
-      <comment>data view</comment>
-      <translation>Prima pagină</translation>
+        <location filename="../dataview.cpp" line="256"/>
+        <source>First page</source>
+        <comment>data view</comment>
+        <translation>Prima pagină</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="257"/>
-      <source>Previous page</source>
-      <comment>data view</comment>
-      <translation>Pagina anterioară</translation>
+        <location filename="../dataview.cpp" line="257"/>
+        <source>Previous page</source>
+        <comment>data view</comment>
+        <translation>Pagina anterioară</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="259"/>
-      <source>Next page</source>
-      <comment>data view</comment>
-      <translation>Pagina următoare</translation>
+        <location filename="../dataview.cpp" line="259"/>
+        <source>Next page</source>
+        <comment>data view</comment>
+        <translation>Pagina următoare</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="260"/>
-      <source>Last page</source>
-      <comment>data view</comment>
-      <translation>Ultima pagină</translation>
+        <location filename="../dataview.cpp" line="260"/>
+        <source>Last page</source>
+        <comment>data view</comment>
+        <translation>Ultima pagină</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="274"/>
-      <source>Show grid view of results</source>
-      <comment>data view</comment>
-      <translation>Afișează vizualizarea grilă a rezultatelor</translation>
+        <location filename="../dataview.cpp" line="274"/>
+        <source>Show grid view of results</source>
+        <comment>data view</comment>
+        <translation>Afișează vizualizarea grilă a rezultatelor</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="275"/>
-      <source>Show form view of results</source>
-      <comment>data view</comment>
-      <translation>Afișează vizualizarea formular a rezultatelor</translation>
+        <location filename="../dataview.cpp" line="275"/>
+        <source>Show form view of results</source>
+        <comment>data view</comment>
+        <translation>Afișează vizualizarea formular a rezultatelor</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="524"/>
-      <source>Rows available on current page: %1 - %2</source>
-      <comment>data view</comment>
-      <translation>Rânduri disponibile pe pagina curentă: %1 - %2</translation>
+        <location filename="../dataview.cpp" line="524"/>
+        <source>Rows available on current page: %1 - %2</source>
+        <comment>data view</comment>
+        <translation>Rânduri disponibile pe pagina curentă: %1 - %2</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="811"/>
-      <source>Sum: %1</source>
-      <translation>Sumă: %1</translation>
+        <location filename="../dataview.cpp" line="811"/>
+        <source>Sum: %1</source>
+        <translation>Sumă: %1</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="964"/>
-      <source>Total pages available: %1</source>
-      <translation>Total pagini disponibile: %1</translation>
+        <location filename="../dataview.cpp" line="964"/>
+        <source>Total pages available: %1</source>
+        <translation>Total pagini disponibile: %1</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="974"/>
-      <source>Total rows loaded: %1</source>
-      <translation>Total rânduri încărcate: %1</translation>
+        <location filename="../dataview.cpp" line="974"/>
+        <source>Total rows loaded: %1</source>
+        <translation>Total rânduri încărcate: %1</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1370"/>
-      <source>Filter by text (if contains)</source>
-      <comment>data view</comment>
-      <translation>Filtrează după text (dacă conține)</translation>
+        <location filename="../dataview.cpp" line="1370"/>
+        <source>Filter by text (if contains)</source>
+        <comment>data view</comment>
+        <translation>Filtrează după text (dacă conține)</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1371"/>
-      <source>Filter strictly by text (if equals)</source>
-      <comment>data view</comment>
-      <translation>Filtrează strict după text (dacă este egal)</translation>
+        <location filename="../dataview.cpp" line="1371"/>
+        <source>Filter strictly by text (if equals)</source>
+        <comment>data view</comment>
+        <translation>Filtrează strict după text (dacă este egal)</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="382"/>
-      <source>Tabs on top</source>
-      <comment>data view</comment>
-      <translation>File sus</translation>
+        <location filename="../dataview.cpp" line="382"/>
+        <source>Tabs on top</source>
+        <comment>data view</comment>
+        <translation>File sus</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="54"/>
-      <source>Sum of values in selected cells</source>
-      <comment>data view</comment>
-      <translation>Suma valorilor din celulele selectate</translation>
+        <location filename="../dataview.cpp" line="54"/>
+        <source>Sum of values in selected cells</source>
+        <comment>data view</comment>
+        <translation>Suma valorilor din celulele selectate</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="105"/>
-      <source>Row:</source>
-      <translation>Rând:</translation>
+        <location filename="../dataview.cpp" line="105"/>
+        <source>Row:</source>
+        <translation>Rând:</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="383"/>
-      <source>Tabs at bottom</source>
-      <comment>data view</comment>
-      <translation>File jos</translation>
+        <location filename="../dataview.cpp" line="383"/>
+        <source>Tabs at bottom</source>
+        <comment>data view</comment>
+        <translation>File jos</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="408"/>
-      <source>Place new rows above selected row</source>
-      <comment>data view</comment>
-      <translation>Plasează rândurile noi deasupra rândului selectat</translation>
+        <location filename="../dataview.cpp" line="408"/>
+        <source>Place new rows above selected row</source>
+        <comment>data view</comment>
+        <translation>Plasează rândurile noi deasupra rândului selectat</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="409"/>
-      <source>Place new rows below selected row</source>
-      <comment>data view</comment>
-      <translation>Plasează rândurile noi sub rândul selectat</translation>
+        <location filename="../dataview.cpp" line="409"/>
+        <source>Place new rows below selected row</source>
+        <comment>data view</comment>
+        <translation>Plasează rândurile noi sub rândul selectat</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="410"/>
-      <source>Place new rows at the end of the data view</source>
-      <comment>data view</comment>
-      <translation>Plasează rândurile noi la sfârșitul vizualizării de date</translation>
+        <location filename="../dataview.cpp" line="410"/>
+        <source>Place new rows at the end of the data view</source>
+        <comment>data view</comment>
+        <translation>Plasează rândurile noi la sfârșitul vizualizării de date</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="987"/>
-      <source>Total number of rows is being counted.
+        <location filename="../dataview.cpp" line="987"/>
+        <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
-      <translation>Numărul total de rânduri este în curs de numărare.
+        <translation>Numărul total de rânduri este în curs de numărare.
 Navigarea pe alte pagini va fi posibilă după finalizarea numărării rândurilor.</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1337"/>
-      <source>Filter</source>
-      <translation>Filtru</translation>
+        <location filename="../dataview.cpp" line="1337"/>
+        <source>Filter</source>
+        <translation>Filtru</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1340"/>
-      <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
-      <translation>Apăsați tasta Enter sau apăsați butonul &quot;Aplică filtrul&quot; de pe bara de instrumente pentru a aplica noua valoare.</translation>
+        <location filename="../dataview.cpp" line="1340"/>
+        <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
+        <translation>Apăsați tasta Enter sau apăsați butonul &quot;Aplică filtrul&quot; de pe bara de instrumente pentru a aplica noua valoare.</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1372"/>
-      <source>Filter by the Regular Expression</source>
-      <comment>data view</comment>
-      <translation>Filtrează după expresie regulată</translation>
+        <location filename="../dataview.cpp" line="1372"/>
+        <source>Filter by the Regular Expression</source>
+        <comment>data view</comment>
+        <translation>Filtrează după expresie regulată</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1373"/>
-      <source>Filter by SQL expression</source>
-      <comment>data view</comment>
-      <translation>Filtrează după expresie SQL</translation>
+        <location filename="../dataview.cpp" line="1373"/>
+        <source>Filter by SQL expression</source>
+        <comment>data view</comment>
+        <translation>Filtrează după expresie SQL</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1392"/>
-      <source>Show filter inputs per column</source>
-      <comment>data view</comment>
-      <translation>Afișează intrări de filtru pe coloană</translation>
+        <location filename="../dataview.cpp" line="1392"/>
+        <source>Show filter inputs per column</source>
+        <comment>data view</comment>
+        <translation>Afișează intrări de filtru pe coloană</translation>
     </message>
     <message>
-      <location filename="../dataview.cpp" line="1396"/>
-      <source>Apply filter</source>
-      <comment>data view</comment>
-      <translation>Aplică filtrul</translation>
+        <location filename="../dataview.cpp" line="1396"/>
+        <source>Apply filter</source>
+        <comment>data view</comment>
+        <translation>Aplică filtrul</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbDialog</name>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="23"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../dialogs/dbdialog.ui" line="23"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="29"/>
-      <source>Database type</source>
-      <translation>Tip bază de date</translation>
+        <location filename="../dialogs/dbdialog.ui" line="29"/>
+        <source>Database type</source>
+        <translation>Tip bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="35"/>
-      <source>Database driver</source>
-      <translation>Driver bază de date</translation>
+        <location filename="../dialogs/dbdialog.ui" line="35"/>
+        <source>Database driver</source>
+        <translation>Driver bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="45"/>
-      <location filename="../dialogs/dbdialog.cpp" line="194"/>
-      <source>File</source>
-      <translation>Fișier</translation>
+        <location filename="../dialogs/dbdialog.ui" line="45"/>
+        <location filename="../dialogs/dbdialog.cpp" line="194"/>
+        <source>File</source>
+        <translation>Fișier</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="51"/>
-      <source>Select an existing database file</source>
-      <translation>Selectați un fișier de bază de date existent</translation>
+        <location filename="../dialogs/dbdialog.ui" line="51"/>
+        <source>Select an existing database file</source>
+        <translation>Selectați un fișier de bază de date existent</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="61"/>
-      <source>Create a new database file</source>
-      <translation>Creați un fișier de bază de date nou</translation>
+        <location filename="../dialogs/dbdialog.ui" line="61"/>
+        <source>Create a new database file</source>
+        <translation>Creați un fișier de bază de date nou</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="89"/>
-      <source>Name (on the list)</source>
-      <translation>Nume (în listă)</translation>
+        <location filename="../dialogs/dbdialog.ui" line="89"/>
+        <source>Name (on the list)</source>
+        <translation>Nume (în listă)</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="117"/>
-      <source>Change</source>
-      <translation>Schimbă</translation>
+        <location filename="../dialogs/dbdialog.ui" line="117"/>
+        <source>Change</source>
+        <translation>Schimbă</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="127"/>
-      <source>Options</source>
-      <translation>Opțiuni</translation>
+        <location filename="../dialogs/dbdialog.ui" line="127"/>
+        <source>Options</source>
+        <translation>Opțiuni</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="133"/>
-      <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
-      <extracomment>aasfd</extracomment>
-      <translation>&lt;p&gt;Activați aceasta dacă doriți ca baza de date să fie stocată în fișierul de configurare și restaurată de fiecare dată când pornește Letos.&lt;/p&gt;</translation>
+        <location filename="../dialogs/dbdialog.ui" line="133"/>
+        <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
+        <extracomment>aasfd</extracomment>
+        <translation>&lt;p&gt;Activați aceasta dacă doriți ca baza de date să fie stocată în fișierul de configurare și restaurată de fiecare dată când pornește Letos.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="136"/>
-      <source>Permanent (keep it in configuration)</source>
-      <translation>Permanentă (păstreaz-o în configurare)</translation>
+        <location filename="../dialogs/dbdialog.ui" line="136"/>
+        <source>Permanent (keep it in configuration)</source>
+        <translation>Permanentă (păstreaz-o în configurare)</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.ui" line="180"/>
-      <source>Test connection</source>
-      <translation>Testează conexiunea</translation>
+        <location filename="../dialogs/dbdialog.ui" line="180"/>
+        <source>Test connection</source>
+        <translation>Testează conexiunea</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="355"/>
-      <source>Browse</source>
-      <translation>Răsfoiește</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="355"/>
+        <source>Browse</source>
+        <translation>Răsfoiește</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="528"/>
-      <source>Database type not selected.</source>
-      <translation>Tipul bazei de date nu este selectat.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="528"/>
+        <source>Database type not selected.</source>
+        <translation>Tipul bazei de date nu este selectat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="535"/>
-      <source>Database path not specified.</source>
-      <translation>Calea bazei de date nu este specificată.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="535"/>
+        <source>Database path not specified.</source>
+        <translation>Calea bazei de date nu este specificată.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="568"/>
-      <source>Enter an unique database name.</source>
-      <translation>Introduceți un nume unic de bază de date.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="568"/>
+        <source>Enter an unique database name.</source>
+        <translation>Introduceți un nume unic de bază de date.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="578"/>
-      <source>This name is already in use. Please enter unique name.</source>
-      <translation>Acest nume este deja utilizat. Introduceți un nume unic.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="578"/>
+        <source>This name is already in use. Please enter unique name.</source>
+        <translation>Acest nume este deja utilizat. Introduceți un nume unic.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="585"/>
-      <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Generarea automată a numelui a fost dezactivată deoarece numele a fost editat manual. Pentru a restaura generarea automată, ștergeți conținutul câmpului nume.&lt;/p&gt;</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="585"/>
+        <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Generarea automată a numelui a fost dezactivată deoarece numele a fost editat manual. Pentru a restaura generarea automată, ștergeți conținutul câmpului nume.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="594"/>
-      <source>Enter a database file path.</source>
-      <translation>Introduceți o cale către fișierul bazei de date.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="594"/>
+        <source>Enter a database file path.</source>
+        <translation>Introduceți o cale către fișierul bazei de date.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="600"/>
-      <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
-      <translation>Utilizați o cale relativă de fișier, care va fi rezolvată la &quot;%1&quot; conform directorului de lucru al aplicației. Este întotdeauna mai bine să utilizați o cale absolută de fișier pentru a evita o locație neașteptată a bazei de date.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="600"/>
+        <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
+        <translation>Utilizați o cale relativă de fișier, care va fi rezolvată la &quot;%1&quot; conform directorului de lucru al aplicației. Este întotdeauna mai bine să utilizați o cale absolută de fișier pentru a evita o locație neașteptată a bazei de date.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="610"/>
-      <source>This database is already on the list under name: %1</source>
-      <translation>Această bază de date este deja în listă cu numele: %1</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="610"/>
+        <source>This database is already on the list under name: %1</source>
+        <translation>Această bază de date este deja în listă cu numele: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="632"/>
-      <source>Select a database type.</source>
-      <translation>Selectați un tip de bază de date.</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="632"/>
+        <source>Select a database type.</source>
+        <translation>Selectați un tip de bază de date.</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="657"/>
-      <source>Automatic</source>
-      <comment>database name</comment>
-      <translation>Automat</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="657"/>
+        <source>Automatic</source>
+        <comment>database name</comment>
+        <translation>Automat</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="658"/>
-      <source>Change</source>
-      <comment>database name</comment>
-      <translation>Schimbă</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="658"/>
+        <source>Change</source>
+        <comment>database name</comment>
+        <translation>Schimbă</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="667"/>
-      <source>(empty)</source>
-      <translation>(gol)</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="667"/>
+        <source>(empty)</source>
+        <translation>(gol)</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="837"/>
-      <source>Choose a location for the new database file</source>
-      <translation>Alegeți o locație pentru noul fișier de bază de date</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="837"/>
+        <source>Choose a location for the new database file</source>
+        <translation>Alegeți o locație pentru noul fișier de bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/dbdialog.cpp" line="838"/>
-      <source>Browse for existing database file on local computer</source>
-      <translation>Răsfoiește computerul local pentru un fișier de bază de date existent</translation>
+        <location filename="../dialogs/dbdialog.cpp" line="838"/>
+        <source>Browse for existing database file on local computer</source>
+        <translation>Răsfoiește computerul local pentru un fișier de bază de date existent</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbObjectDialogs</name>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="176"/>
-      <source>Delete table</source>
-      <translation>Șterge tabelul</translation>
+        <location filename="../dbobjectdialogs.cpp" line="176"/>
+        <source>Delete table</source>
+        <translation>Șterge tabelul</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="177"/>
-      <source>Are you sure you want to delete table %1?</source>
-      <translation>Sigur doriți să ștergeți tabelul %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="177"/>
+        <source>Are you sure you want to delete table %1?</source>
+        <translation>Sigur doriți să ștergeți tabelul %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="181"/>
-      <source>Delete index</source>
-      <translation>Șterge indicele</translation>
+        <location filename="../dbobjectdialogs.cpp" line="181"/>
+        <source>Delete index</source>
+        <translation>Șterge indicele</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="182"/>
-      <source>Are you sure you want to delete index %1?</source>
-      <translation>Sigur doriți să ștergeți indicele %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="182"/>
+        <source>Are you sure you want to delete index %1?</source>
+        <translation>Sigur doriți să ștergeți indicele %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="186"/>
-      <source>Delete trigger</source>
-      <translation>Șterge declanșatorul</translation>
+        <location filename="../dbobjectdialogs.cpp" line="186"/>
+        <source>Delete trigger</source>
+        <translation>Șterge declanșatorul</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="187"/>
-      <source>Are you sure you want to delete trigger %1?</source>
-      <translation>Sigur doriți să ștergeți declanșatorul %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="187"/>
+        <source>Are you sure you want to delete trigger %1?</source>
+        <translation>Sigur doriți să ștergeți declanșatorul %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="191"/>
-      <source>Delete view</source>
-      <translation>Șterge vizualizarea</translation>
+        <location filename="../dbobjectdialogs.cpp" line="191"/>
+        <source>Delete view</source>
+        <translation>Șterge vizualizarea</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="192"/>
-      <source>Are you sure you want to delete view %1?</source>
-      <translation>Sigur doriți să ștergeți vizualizarea %1?</translation>
+        <location filename="../dbobjectdialogs.cpp" line="192"/>
+        <source>Are you sure you want to delete view %1?</source>
+        <translation>Sigur doriți să ștergeți vizualizarea %1?</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="214"/>
-      <location filename="../dbobjectdialogs.cpp" line="346"/>
-      <source>Error while dropping %1: %2</source>
-      <translation>Eroare la eliminarea %1: %2</translation>
+        <location filename="../dbobjectdialogs.cpp" line="214"/>
+        <location filename="../dbobjectdialogs.cpp" line="346"/>
+        <source>Error while dropping %1: %2</source>
+        <translation>Eroare la eliminarea %1: %2</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="322"/>
-      <source>Delete objects</source>
-      <translation>Șterge obiecte</translation>
+        <location filename="../dbobjectdialogs.cpp" line="322"/>
+        <source>Delete objects</source>
+        <translation>Șterge obiecte</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="323"/>
-      <source>Are you sure you want to delete following objects:
+        <location filename="../dbobjectdialogs.cpp" line="323"/>
+        <source>Are you sure you want to delete following objects:
 %1</source>
-      <translation>Sigur doriți să ștergeți următoarele obiecte:
+        <translation>Sigur doriți să ștergeți următoarele obiecte:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="330"/>
-      <source>Cannot start transaction. Details: %1</source>
-      <translation>Nu se poate porni tranzacția. Detalii: %1</translation>
+        <location filename="../dbobjectdialogs.cpp" line="330"/>
+        <source>Cannot start transaction. Details: %1</source>
+        <translation>Nu se poate porni tranzacția. Detalii: %1</translation>
     </message>
     <message>
-      <location filename="../dbobjectdialogs.cpp" line="357"/>
-      <source>Cannot commit transaction. Details: %1</source>
-      <translation>Nu se poate confirma tranzacția. Detalii: %1</translation>
+        <location filename="../dbobjectdialogs.cpp" line="357"/>
+        <source>Cannot commit transaction. Details: %1</source>
+        <translation>Nu se poate confirma tranzacția. Detalii: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbTree</name>
     <message>
-      <location filename="../dbtree/dbtree.ui" line="20"/>
-      <source>Databases</source>
-      <translation>Baze de date</translation>
+        <location filename="../dbtree/dbtree.ui" line="20"/>
+        <source>Databases</source>
+        <translation>Baze de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2556"/>
-      <source>Filter by name</source>
-      <translation>Filtrează după nume</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2556"/>
+        <source>Filter by name</source>
+        <translation>Filtrează după nume</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="142"/>
-      <source>Copy</source>
-      <translation>Copiază</translation>
+        <location filename="../dbtree/dbtree.cpp" line="142"/>
+        <source>Copy</source>
+        <translation>Copiază</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="143"/>
-      <source>Paste</source>
-      <translation>Lipește</translation>
+        <location filename="../dbtree/dbtree.cpp" line="143"/>
+        <source>Paste</source>
+        <translation>Lipește</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="144"/>
-      <source>Select all</source>
-      <translation>Selectează tot</translation>
+        <location filename="../dbtree/dbtree.cpp" line="144"/>
+        <source>Select all</source>
+        <translation>Selectează tot</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="145"/>
-      <source>Create a group</source>
-      <translation>Creează un grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="145"/>
+        <source>Create a group</source>
+        <translation>Creează un grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="146"/>
-      <source>Delete the group</source>
-      <translation>Șterge grupul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="146"/>
+        <source>Delete the group</source>
+        <translation>Șterge grupul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="147"/>
-      <source>Rename the group</source>
-      <translation>Redenumește grupul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="147"/>
+        <source>Rename the group</source>
+        <translation>Redenumește grupul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="152"/>
-      <source>&amp;Edit the database</source>
-      <translation>&amp;Editează baza de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="152"/>
+        <source>&amp;Edit the database</source>
+        <translation>&amp;Editează baza de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="154"/>
-      <source>&amp;Remove the database</source>
-      <translation>&amp;Elimină baza de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="154"/>
+        <source>&amp;Remove the database</source>
+        <translation>&amp;Elimină baza de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="155"/>
-      <source>&amp;Connect to the database</source>
-      <translation>&amp;Conectează la baza de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="155"/>
+        <source>&amp;Connect to the database</source>
+        <translation>&amp;Conectează la baza de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="156"/>
-      <source>&amp;Disconnect from the database</source>
-      <translation>&amp;Deconectează de la baza de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="156"/>
+        <source>&amp;Disconnect from the database</source>
+        <translation>&amp;Deconectează de la baza de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="159"/>
-      <source>Vac&amp;uum</source>
-      <translation>Compact&amp;are</translation>
+        <location filename="../dbtree/dbtree.cpp" line="159"/>
+        <source>Vac&amp;uum</source>
+        <translation>Compact&amp;are</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="160"/>
-      <source>&amp;Integrity check</source>
-      <translation>Verificare &amp;integritate</translation>
+        <location filename="../dbtree/dbtree.cpp" line="160"/>
+        <source>&amp;Integrity check</source>
+        <translation>Verificare &amp;integritate</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="161"/>
-      <source>Create a &amp;table</source>
-      <translation>Creează un &amp;tabel</translation>
+        <location filename="../dbtree/dbtree.cpp" line="161"/>
+        <source>Create a &amp;table</source>
+        <translation>Creează un &amp;tabel</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="162"/>
-      <source>Edit the t&amp;able</source>
-      <translation>Editează t&amp;abelul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="162"/>
+        <source>Edit the t&amp;able</source>
+        <translation>Editează t&amp;abelul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="164"/>
-      <source>Delete the ta&amp;ble</source>
-      <translation>Șterge ta&amp;belul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="164"/>
+        <source>Delete the ta&amp;ble</source>
+        <translation>Șterge ta&amp;belul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="165"/>
-      <source>Export the table</source>
-      <translation>Exportă tabelul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="165"/>
+        <source>Export the table</source>
+        <translation>Exportă tabelul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="166"/>
-      <source>Import into the table</source>
-      <translation>Importă în tabel</translation>
+        <location filename="../dbtree/dbtree.cpp" line="166"/>
+        <source>Import into the table</source>
+        <translation>Importă în tabel</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="168"/>
-      <source>Populate table</source>
-      <translation>Populează tabelul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="168"/>
+        <source>Populate table</source>
+        <translation>Populează tabelul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="169"/>
-      <source>Create similar table</source>
-      <translation>Creează tabel similar</translation>
+        <location filename="../dbtree/dbtree.cpp" line="169"/>
+        <source>Create similar table</source>
+        <translation>Creează tabel similar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="170"/>
-      <source>Reset autoincrement sequence</source>
-      <translation>Resetează secvența autoincrement</translation>
+        <location filename="../dbtree/dbtree.cpp" line="170"/>
+        <source>Reset autoincrement sequence</source>
+        <translation>Resetează secvența autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="171"/>
-      <source>Create an &amp;index</source>
-      <translation>Creează un &amp;indice</translation>
+        <location filename="../dbtree/dbtree.cpp" line="171"/>
+        <source>Create an &amp;index</source>
+        <translation>Creează un &amp;indice</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="172"/>
-      <source>Edit the i&amp;ndex</source>
-      <translation>Editează i&amp;ndicele</translation>
+        <location filename="../dbtree/dbtree.cpp" line="172"/>
+        <source>Edit the i&amp;ndex</source>
+        <translation>Editează i&amp;ndicele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="174"/>
-      <source>Delete the in&amp;dex</source>
-      <translation>Șterge in&amp;dicele</translation>
+        <location filename="../dbtree/dbtree.cpp" line="174"/>
+        <source>Delete the in&amp;dex</source>
+        <translation>Șterge in&amp;dicele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="175"/>
-      <source>Create a trig&amp;ger</source>
-      <translation>Creează un de&amp;clanșator</translation>
+        <location filename="../dbtree/dbtree.cpp" line="175"/>
+        <source>Create a trig&amp;ger</source>
+        <translation>Creează un de&amp;clanșator</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="176"/>
-      <source>Edit the trigg&amp;er</source>
-      <translation>Editează declanș&amp;atorul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="176"/>
+        <source>Edit the trigg&amp;er</source>
+        <translation>Editează declanș&amp;atorul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="178"/>
-      <source>Delete the trigge&amp;r</source>
-      <translation>Șterge declanșato&amp;rul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="178"/>
+        <source>Delete the trigge&amp;r</source>
+        <translation>Șterge declanșato&amp;rul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="179"/>
-      <source>Create a &amp;view</source>
-      <translation>Creează o &amp;vizualizare</translation>
+        <location filename="../dbtree/dbtree.cpp" line="179"/>
+        <source>Create a &amp;view</source>
+        <translation>Creează o &amp;vizualizare</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="180"/>
-      <source>Edit the v&amp;iew</source>
-      <translation>Editează v&amp;izualizarea</translation>
+        <location filename="../dbtree/dbtree.cpp" line="180"/>
+        <source>Edit the v&amp;iew</source>
+        <translation>Editează v&amp;izualizarea</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="182"/>
-      <source>Delete the vi&amp;ew</source>
-      <translation>Șterge viz&amp;ualizarea</translation>
+        <location filename="../dbtree/dbtree.cpp" line="182"/>
+        <source>Delete the vi&amp;ew</source>
+        <translation>Șterge viz&amp;ualizarea</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="183"/>
-      <source>Add a column</source>
-      <translation>Adaugă o coloană</translation>
+        <location filename="../dbtree/dbtree.cpp" line="183"/>
+        <source>Add a column</source>
+        <translation>Adaugă o coloană</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="184"/>
-      <source>Edit the column</source>
-      <translation>Editează coloana</translation>
+        <location filename="../dbtree/dbtree.cpp" line="184"/>
+        <source>Edit the column</source>
+        <translation>Editează coloana</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="186"/>
-      <source>Delete the column</source>
-      <translation>Șterge coloana</translation>
+        <location filename="../dbtree/dbtree.cpp" line="186"/>
+        <source>Delete the column</source>
+        <translation>Șterge coloana</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="187"/>
-      <source>Delete selected items</source>
-      <translation>Șterge elementele selectate</translation>
+        <location filename="../dbtree/dbtree.cpp" line="187"/>
+        <source>Delete selected items</source>
+        <translation>Șterge elementele selectate</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="207"/>
-      <source>Clear filter</source>
-      <translation>Șterge filtrul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="207"/>
+        <source>Clear filter</source>
+        <translation>Șterge filtrul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="188"/>
-      <source>&amp;Refresh all database schemas</source>
-      <translation>&amp;Reîmprospătează toate schemele bazelor de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="188"/>
+        <source>&amp;Refresh all database schemas</source>
+        <translation>&amp;Reîmprospătează toate schemele bazelor de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="148"/>
-      <source>&amp;Create new database</source>
-      <translation>&amp;Creează bază de date nouă</translation>
+        <location filename="../dbtree/dbtree.cpp" line="148"/>
+        <source>&amp;Create new database</source>
+        <translation>&amp;Creează bază de date nouă</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="149"/>
-      <source>&amp;Open existing database</source>
-      <translation>&amp;Deschide bază de date existentă</translation>
+        <location filename="../dbtree/dbtree.cpp" line="149"/>
+        <source>&amp;Open existing database</source>
+        <translation>&amp;Deschide bază de date existentă</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="150"/>
-      <source>&amp;Open existing database or SQL file</source>
-      <translation>&amp;Deschide bază de date sau fișier SQL existent</translation>
+        <location filename="../dbtree/dbtree.cpp" line="150"/>
+        <source>&amp;Open existing database or SQL file</source>
+        <translation>&amp;Deschide bază de date sau fișier SQL existent</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="151"/>
-      <source>Add a database</source>
-      <translation>Adaugă o bază de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="151"/>
+        <source>Add a database</source>
+        <translation>Adaugă o bază de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="153"/>
-      <source>Rename the database</source>
-      <translation>Redenumește baza de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="153"/>
+        <source>Rename the database</source>
+        <translation>Redenumește baza de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="157"/>
-      <source>&amp;Import</source>
-      <translation>&amp;Importă</translation>
+        <location filename="../dbtree/dbtree.cpp" line="157"/>
+        <source>&amp;Import</source>
+        <translation>&amp;Importă</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="158"/>
-      <source>&amp;Export</source>
-      <translation>&amp;Exportă</translation>
+        <location filename="../dbtree/dbtree.cpp" line="158"/>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportă</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="163"/>
-      <source>Rename the table</source>
-      <translation>Redenumește tabelul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="163"/>
+        <source>Rename the table</source>
+        <translation>Redenumește tabelul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="167"/>
-      <source>Export the view</source>
-      <translation>Exportă vizualizarea</translation>
+        <location filename="../dbtree/dbtree.cpp" line="167"/>
+        <source>Export the view</source>
+        <translation>Exportă vizualizarea</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="173"/>
-      <source>Rename the index</source>
-      <translation>Redenumește indicele</translation>
+        <location filename="../dbtree/dbtree.cpp" line="173"/>
+        <source>Rename the index</source>
+        <translation>Redenumește indicele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="177"/>
-      <source>Rename the trigger</source>
-      <translation>Redenumește declanșatorul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="177"/>
+        <source>Rename the trigger</source>
+        <translation>Redenumește declanșatorul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="181"/>
-      <source>Rename the view</source>
-      <translation>Redenumește vizualizarea</translation>
+        <location filename="../dbtree/dbtree.cpp" line="181"/>
+        <source>Rename the view</source>
+        <translation>Redenumește vizualizarea</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="185"/>
-      <source>Rename the column</source>
-      <translation>Redenumește coloana</translation>
+        <location filename="../dbtree/dbtree.cpp" line="185"/>
+        <source>Rename the column</source>
+        <translation>Redenumește coloana</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="189"/>
-      <source>Re&amp;fresh selected database schema</source>
-      <translation>Reîm&amp;prospătează schema bazei de date selectate</translation>
+        <location filename="../dbtree/dbtree.cpp" line="189"/>
+        <source>Re&amp;fresh selected database schema</source>
+        <translation>Reîm&amp;prospătează schema bazei de date selectate</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="190"/>
-      <location filename="../dbtree/dbtree.cpp" line="1938"/>
-      <source>Erase table data</source>
-      <translation>Șterge datele tabelului</translation>
+        <location filename="../dbtree/dbtree.cpp" line="190"/>
+        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <source>Erase table data</source>
+        <translation>Șterge datele tabelului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="192"/>
-      <location filename="../dbtree/dbtree.cpp" line="195"/>
-      <location filename="../dbtree/dbtree.cpp" line="198"/>
-      <source>Drag</source>
-      <comment>dbtree table action shortcut</comment>
-      <translation>Trage</translation>
+        <location filename="../dbtree/dbtree.cpp" line="192"/>
+        <location filename="../dbtree/dbtree.cpp" line="195"/>
+        <location filename="../dbtree/dbtree.cpp" line="198"/>
+        <source>Drag</source>
+        <comment>dbtree table action shortcut</comment>
+        <translation>Trage</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="201"/>
-      <source>Open file&apos;s directory</source>
-      <translation>Deschide directorul fișierului</translation>
+        <location filename="../dbtree/dbtree.cpp" line="201"/>
+        <source>Open file&apos;s directory</source>
+        <translation>Deschide directorul fișierului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="202"/>
-      <source>Execute SQL from file</source>
-      <translation>Execută SQL din fișier</translation>
+        <location filename="../dbtree/dbtree.cpp" line="202"/>
+        <source>Execute SQL from file</source>
+        <translation>Execută SQL din fișier</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="203"/>
-      <source>Increase font size</source>
-      <comment>database list</comment>
-      <translation>Mărește dimensiunea fontului</translation>
+        <location filename="../dbtree/dbtree.cpp" line="203"/>
+        <source>Increase font size</source>
+        <comment>database list</comment>
+        <translation>Mărește dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="204"/>
-      <source>Decrease font size</source>
-      <comment>database list</comment>
-      <translation>Micșorează dimensiunea fontului</translation>
+        <location filename="../dbtree/dbtree.cpp" line="204"/>
+        <source>Decrease font size</source>
+        <comment>database list</comment>
+        <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="417"/>
-      <location filename="../dbtree/dbtree.cpp" line="424"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="417"/>
+        <location filename="../dbtree/dbtree.cpp" line="424"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="436"/>
-      <source>Grouping</source>
-      <translation>Grupare</translation>
+        <location filename="../dbtree/dbtree.cpp" line="436"/>
+        <source>Grouping</source>
+        <translation>Grupare</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="441"/>
-      <source>Generate query for table</source>
-      <translation>Generează interogare pentru tabel</translation>
+        <location filename="../dbtree/dbtree.cpp" line="441"/>
+        <source>Generate query for table</source>
+        <translation>Generează interogare pentru tabel</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="447"/>
-      <source>Generate query for view</source>
-      <translation>Generează interogare pentru vizualizare</translation>
+        <location filename="../dbtree/dbtree.cpp" line="447"/>
+        <source>Generate query for view</source>
+        <translation>Generează interogare pentru vizualizare</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1326"/>
-      <location filename="../dbtree/dbtree.cpp" line="1329"/>
-      <source>Create group</source>
-      <translation>Creează grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <source>Create group</source>
+        <translation>Creează grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1326"/>
-      <source>Group name</source>
-      <translation>Nume grup</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <source>Group name</source>
+        <translation>Nume grup</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1329"/>
-      <source>Entry with name %1 already exists in group %2.</source>
-      <translation>Intrarea cu numele %1 există deja în grupul %2.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <source>Entry with name %1 already exists in group %2.</source>
+        <translation>Intrarea cu numele %1 există deja în grupul %2.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1366"/>
-      <source>Delete group</source>
-      <translation>Șterge grupul</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1366"/>
+        <source>Delete group</source>
+        <translation>Șterge grupul</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1367"/>
-      <source>Are you sure you want to delete groups: %1?
+        <location filename="../dbtree/dbtree.cpp" line="1367"/>
+        <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
-      <translation>Sigur doriți să ștergeți grupurile: %1?
+        <translation>Sigur doriți să ștergeți grupurile: %1?
 Toate obiectele din aceste grupuri vor fi mutate în grupurile părinte corespunzătoare.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1499"/>
-      <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
-      <translation>Sigur doriți să eliminați baza de date &apos;%1&apos; din listă?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1499"/>
+        <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
+        <translation>Sigur doriți să eliminați baza de date &apos;%1&apos; din listă?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1507"/>
-      <source>Are you sure you want to remove following databases from the list:
+        <location filename="../dbtree/dbtree.cpp" line="1507"/>
+        <source>Are you sure you want to remove following databases from the list:
 %1</source>
-      <translation>Sigur doriți să eliminați următoarele baze de date din listă:
+        <translation>Sigur doriți să eliminați următoarele baze de date din listă:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1509"/>
-      <source>Remove database</source>
-      <translation>Elimină baza de date</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1509"/>
+        <source>Remove database</source>
+        <translation>Elimină baza de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1564"/>
-      <location filename="../dbtree/dbtree.cpp" line="1769"/>
-      <source>Cannot import, because no import plugin is loaded.</source>
-      <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1564"/>
+        <location filename="../dbtree/dbtree.cpp" line="1769"/>
+        <source>Cannot import, because no import plugin is loaded.</source>
+        <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1584"/>
-      <location filename="../dbtree/dbtree.cpp" line="1744"/>
-      <location filename="../dbtree/dbtree.cpp" line="1813"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1584"/>
+        <location filename="../dbtree/dbtree.cpp" line="1744"/>
+        <location filename="../dbtree/dbtree.cpp" line="1813"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1859"/>
-      <source>Vacuum (%1)</source>
-      <translation>Compactare (%1)</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1859"/>
+        <source>Vacuum (%1)</source>
+        <translation>Compactare (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1873"/>
-      <source>Integrity check (%1)</source>
-      <translation>Verificare integritate (%1)</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1873"/>
+        <source>Integrity check (%1)</source>
+        <translation>Verificare integritate (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1909"/>
-      <source>Reset autoincrement</source>
-      <translation>Resetează autoincrement</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <source>Reset autoincrement</source>
+        <translation>Resetează autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1909"/>
-      <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-      <translation>Sigur doriți să resetați valoarea autoincrement pentru tabelul &apos;%1&apos;?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
+        <translation>Sigur doriți să resetați valoarea autoincrement pentru tabelul &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1916"/>
-      <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-      <translation>A apărut o eroare la încercarea de resetare a valorii autoincrement pentru tabelul &apos;%1&apos;: %2</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
+        <translation>A apărut o eroare la încercarea de resetare a valorii autoincrement pentru tabelul &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
-      <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-      <translation>Valoarea autoincrement pentru tabelul &apos;%1&apos; a fost resetată cu succes.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
+        <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
+        <translation>Valoarea autoincrement pentru tabelul &apos;%1&apos; a fost resetată cu succes.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1938"/>
-      <source>Are you sure you want to delete all data from table(s): %1?</source>
-      <translation>Sigur doriți să ștergeți toate datele din tabel(e): %1?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <source>Are you sure you want to delete all data from table(s): %1?</source>
+        <translation>Sigur doriți să ștergeți toate datele din tabel(e): %1?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1950"/>
-      <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
-      <translation>A apărut o eroare la încercarea de ștergere a datelor din tabelul &apos;%1&apos;: %2</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1950"/>
+        <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
+        <translation>A apărut o eroare la încercarea de ștergere a datelor din tabelul &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1954"/>
-      <source>All data has been deleted for table &apos;%1&apos;.</source>
-      <translation>Toate datele au fost șterse pentru tabelul &apos;%1&apos;.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="1954"/>
+        <source>All data has been deleted for table &apos;%1&apos;.</source>
+        <translation>Toate datele au fost șterse pentru tabelul &apos;%1&apos;.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2093"/>
-      <source>Following objects will be deleted: %1.</source>
-      <translation>Următoarele obiecte vor fi șterse: %1.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2093"/>
+        <source>Following objects will be deleted: %1.</source>
+        <translation>Următoarele obiecte vor fi șterse: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2096"/>
-      <source>Following databases will be removed from list: %1.</source>
-      <translation>Următoarele baze de date vor fi eliminate din listă: %1.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2096"/>
+        <source>Following databases will be removed from list: %1.</source>
+        <translation>Următoarele baze de date vor fi eliminate din listă: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2099"/>
-      <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
-      <translation>Obiectele rămase din grupul șters vor fi mutate în locul în care se afla grupul.</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2099"/>
+        <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
+        <translation>Obiectele rămase din grupul șters vor fi mutate în locul în care se afla grupul.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2101"/>
-      <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
-      <translation>%1&lt;br&gt;&lt;br&gt;Sigur doriți să continuați?</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2101"/>
+        <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
+        <translation>%1&lt;br&gt;&lt;br&gt;Sigur doriți să continuați?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2103"/>
-      <source>Delete objects</source>
-      <translation>Șterge obiecte</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2103"/>
+        <source>Delete objects</source>
+        <translation>Șterge obiecte</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2582"/>
-      <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Conectat.&lt;/p&gt;&lt;p&gt;Faceți clic aici pentru deconectare sau clic cu butonul din mijloc pe baza de date.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2582"/>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Conectat.&lt;/p&gt;&lt;p&gt;Faceți clic aici pentru deconectare sau clic cu butonul din mijloc pe baza de date.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2590"/>
-      <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Deconectat.&lt;/p&gt;&lt;p&gt;Faceți clic aici pentru conectare sau dublu clic pe baza de date.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dbtree/dbtree.cpp" line="2590"/>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Deconectat.&lt;/p&gt;&lt;p&gt;Faceți clic aici pentru conectare sau dublu clic pe baza de date.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbTreeItemDelegate</name>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
-      <source>error</source>
-      <comment>dbtree labels</comment>
-      <translation>eroare</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
+        <source>error</source>
+        <comment>dbtree labels</comment>
+        <translation>eroare</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
-      <source>(system table)</source>
-      <comment>database tree label</comment>
-      <translation>(tabel de sistem)</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
+        <source>(system table)</source>
+        <comment>database tree label</comment>
+        <translation>(tabel de sistem)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
-      <source>(virtual)</source>
-      <comment>virtual table label</comment>
-      <translation>(virtual)</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
+        <source>(virtual)</source>
+        <comment>virtual table label</comment>
+        <translation>(virtual)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
-      <source>(system index)</source>
-      <comment>database tree label</comment>
-      <translation>(indice de sistem)</translation>
+        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
+        <source>(system index)</source>
+        <comment>database tree label</comment>
+        <translation>(indice de sistem)</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DbTreeModel</name>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
-      <source>Database: %1</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Bază de date: %1</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
+        <source>Database: %1</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Bază de date: %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
-      <source>URI:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>URI:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
+        <source>URI:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>URI:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
-      <source>Format:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Format:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
+        <source>Format:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Format:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
-      <source>File size:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Dimensiune fișier:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
+        <source>File size:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Dimensiune fișier:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
-      <source>Encoding:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Codificare:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
+        <source>Encoding:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Codificare:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
-      <source>Error:</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Eroare:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
+        <source>Error:</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Eroare:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
-      <source>Double-click to edit this database</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Dublu clic pentru a edita această bază de date</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
+        <source>Double-click to edit this database</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Dublu clic pentru a edita această bază de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
-      <source>Double-click to connect to this database</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Dublu clic pentru a vă conecta la această bază de date</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
+        <source>Double-click to connect to this database</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Dublu clic pentru a vă conecta la această bază de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
-      <source>Table : %1</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Tabel: %1</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
+        <source>Table : %1</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Tabel: %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
-      <source>Columns (%1):</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Coloane (%1):</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
+        <source>Columns (%1):</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Coloane (%1):</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
-      <source>Indexes (%1):</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Indici (%1):</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
+        <source>Indexes (%1):</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Indici (%1):</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
-      <source>Triggers (%1):</source>
-      <comment>dbtree tooltip</comment>
-      <translation>Declanșatoare (%1):</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
+        <source>Triggers (%1):</source>
+        <comment>dbtree tooltip</comment>
+        <translation>Declanșatoare (%1):</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
-      <source>Copy</source>
-      <translation>Copiază</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
+        <source>Copy</source>
+        <translation>Copiază</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
-      <source>Move</source>
-      <translation>Mută</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
+        <source>Move</source>
+        <translation>Mută</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
-      <source>Include data</source>
-      <translation>Include datele</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
+        <source>Include data</source>
+        <translation>Include datele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
-      <source>Include indexes</source>
-      <translation>Include indicii</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
+        <source>Include indexes</source>
+        <translation>Include indicii</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
-      <source>Include triggers</source>
-      <translation>Include declanșatoarele</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
+        <source>Include triggers</source>
+        <translation>Include declanșatoarele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
-      <source>Abort</source>
-      <translation>Abandonează</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
+        <source>Abort</source>
+        <translation>Abandonează</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
-      <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
-      <translation>Nu s-a putut adăuga automat fișierul de bază de date plasat &apos;%1&apos;. Este necesară configurarea manuală.</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
+        <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
+        <translation>Nu s-a putut adăuga automat fișierul de bază de date plasat &apos;%1&apos;. Este necesară configurarea manuală.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
-      <source>Referenced tables</source>
-      <translation>Tabele referențiate</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
+        <source>Referenced tables</source>
+        <translation>Tabele referențiate</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
-      <source>Do you want to include following referenced tables as well:
+        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
+        <source>Do you want to include following referenced tables as well:
 %1</source>
-      <translation>Doriți să includeți și următoarele tabele referențiate:
+        <translation>Doriți să includeți și următoarele tabele referențiate:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
-      <source>Name conflict</source>
-      <translation>Conflict de nume</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
+        <source>Name conflict</source>
+        <translation>Conflict de nume</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
-      <source>Following object already exists in the target database.
+        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
+        <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
-      <translation>Următorul obiect există deja în baza de date țintă.
+        <translation>Următorul obiect există deja în baza de date țintă.
 Introduceți un nume nou, unic, sau apăsați &apos;%1&apos; pentru a abandona operația:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
-      <source>SQL statements conversion</source>
-      <translation>Conversie instrucțiuni SQL</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
+        <source>SQL statements conversion</source>
+        <translation>Conversie instrucțiuni SQL</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
-      <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
-      <translation>Următoarea eroare a apărut la conversia instrucțiunilor SQL la versiunea SQLite țintă:</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
+        <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
+        <translation>Următoarea eroare a apărut la conversia instrucțiunilor SQL la versiunea SQLite țintă:</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
-      <source>Would you like to ignore those errors and proceed?</source>
-      <translation>Doriți să ignorați aceste erori și să continuați?</translation>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
+        <source>Would you like to ignore those errors and proceed?</source>
+        <translation>Doriți să ignorați aceste erori și să continuați?</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DdlHistoryWindow</name>
     <message>
-      <location filename="../windows/ddlhistorywindow.ui" line="35"/>
-      <source>Filter by database:</source>
-      <translation>Filtrează după baza de date:</translation>
+        <location filename="../windows/ddlhistorywindow.ui" line="35"/>
+        <source>Filter by database:</source>
+        <translation>Filtrează după baza de date:</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.ui" line="55"/>
-      <source>Clear entire history</source>
-      <translation>Șterge întregul istoric</translation>
+        <location filename="../windows/ddlhistorywindow.ui" line="55"/>
+        <source>Clear entire history</source>
+        <translation>Șterge întregul istoric</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
-      <source>-- Queries executed on database %1 (%2)
+        <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
+        <source>-- Queries executed on database %1 (%2)
 -- Date and time of execution: %3
 %4</source>
-      <translation>-- Interogări executate pe baza de date %1 (%2)
+        <translation>-- Interogări executate pe baza de date %1 (%2)
 -- Data și ora execuției: %3
 %4</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
-      <source>Clear history</source>
-      <translation>Șterge istoricul</translation>
+        <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
+        <source>Clear history</source>
+        <translation>Șterge istoricul</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
-      <source>Are you sure you want to erase entire DDL history?</source>
-      <translation>Sigur doriți să ștergeți întregul istoric DDL?</translation>
+        <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
+        <source>Are you sure you want to erase entire DDL history?</source>
+        <translation>Sigur doriți să ștergeți întregul istoric DDL?</translation>
     </message>
     <message>
-      <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
-      <source>DDL history</source>
-      <translation>Istoric DDL</translation>
+        <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
+        <source>DDL history</source>
+        <translation>Istoric DDL</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DdlPreviewDialog</name>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
-      <source>Queries to be executed</source>
-      <translation>Interogări de executat</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
+        <source>Queries to be executed</source>
+        <translation>Interogări de executat</translation>
     </message>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
-      <source>Don&apos;t show again</source>
-      <translation>Nu mai afișa</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
+        <source>Don&apos;t show again</source>
+        <translation>Nu mai afișa</translation>
     </message>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
-      <source>Opens the DDL in the SQL Editor without executing it.</source>
-      <translation>Deschide DDL-ul în editorul SQL fără a-l executa.</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
+        <source>Opens the DDL in the SQL Editor without executing it.</source>
+        <translation>Deschide DDL-ul în editorul SQL fără a-l executa.</translation>
     </message>
     <message>
-      <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
-      <source>Open in editor</source>
-      <translation>Deschide în editor</translation>
+        <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
+        <source>Open in editor</source>
+        <translation>Deschide în editor</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>DebugConsole</name>
     <message>
-      <location filename="../debugconsole.ui" line="14"/>
-      <source>Letos Debug Console</source>
-      <translation>Consolă de depanare Letos</translation>
+        <location filename="../debugconsole.ui" line="14"/>
+        <source>Letos Debug Console</source>
+        <translation>Consolă de depanare Letos</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>EditorWindow</name>
     <message>
-      <location filename="../windows/editorwindow.ui" line="14"/>
-      <source>SQL editor</source>
-      <translation>Editor SQL</translation>
+        <location filename="../windows/editorwindow.ui" line="14"/>
+        <source>SQL editor</source>
+        <translation>Editor SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.ui" line="43"/>
-      <source>Query</source>
-      <translation>Interogare</translation>
+        <location filename="../windows/editorwindow.ui" line="43"/>
+        <source>Query</source>
+        <translation>Interogare</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.ui" line="134"/>
-      <source>History</source>
-      <translation>Istoric</translation>
+        <location filename="../windows/editorwindow.ui" line="134"/>
+        <source>History</source>
+        <translation>Istoric</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="203"/>
-      <location filename="../windows/editorwindow.cpp" line="205"/>
-      <source>SQL editor %1</source>
-      <translation>Editor SQL %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="203"/>
+        <location filename="../windows/editorwindow.cpp" line="205"/>
+        <source>SQL editor %1</source>
+        <translation>Editor SQL %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.ui" line="99"/>
-      <location filename="../windows/editorwindow.cpp" line="420"/>
-      <source>Results</source>
-      <translation>Rezultate</translation>
+        <location filename="../windows/editorwindow.ui" line="99"/>
+        <location filename="../windows/editorwindow.cpp" line="420"/>
+        <source>Results</source>
+        <translation>Rezultate</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="471"/>
-      <source>Execute query</source>
-      <translation>Execută interogarea</translation>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <source>Execute query</source>
+        <translation>Execută interogarea</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="472"/>
-      <source>Explain query</source>
-      <translation>Explică interogarea</translation>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <source>Explain query</source>
+        <translation>Explică interogarea</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="493"/>
-      <source>Clear execution history</source>
-      <comment>sql editor</comment>
-      <translation>Șterge istoricul de execuție</translation>
+        <location filename="../windows/editorwindow.cpp" line="493"/>
+        <source>Clear execution history</source>
+        <comment>sql editor</comment>
+        <translation>Șterge istoricul de execuție</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="499"/>
-      <source>Focus results on the same tab</source>
-      <comment>sql editor</comment>
-      <translation>Focalizează rezultatele în aceeași filă</translation>
+        <location filename="../windows/editorwindow.cpp" line="499"/>
+        <source>Focus results on the same tab</source>
+        <comment>sql editor</comment>
+        <translation>Focalizează rezultatele în aceeași filă</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="500"/>
-      <source>Focus SQL editor on the same tab</source>
-      <comment>sql editor</comment>
-      <translation>Focalizează editorul SQL în aceeași filă</translation>
+        <location filename="../windows/editorwindow.cpp" line="500"/>
+        <source>Focus SQL editor on the same tab</source>
+        <comment>sql editor</comment>
+        <translation>Focalizează editorul SQL în aceeași filă</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="505"/>
-      <source>Export results</source>
-      <comment>sql editor</comment>
-      <translation>Exportă rezultatele</translation>
+        <location filename="../windows/editorwindow.cpp" line="505"/>
+        <source>Export results</source>
+        <comment>sql editor</comment>
+        <translation>Exportă rezultatele</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="487"/>
-      <source>Create view from query</source>
-      <comment>sql editor</comment>
-      <translation>Creează vizualizare din interogare</translation>
+        <location filename="../windows/editorwindow.cpp" line="487"/>
+        <source>Create view from query</source>
+        <comment>sql editor</comment>
+        <translation>Creează vizualizare din interogare</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="474"/>
-      <source>Commit</source>
-      <translation>Confirmă</translation>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
+        <source>Commit</source>
+        <translation>Confirmă</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="475"/>
-      <source>Rollback</source>
-      <translation>Revino</translation>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
+        <source>Rollback</source>
+        <translation>Revino</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="489"/>
-      <source>Previous database</source>
-      <translation>Baza de date anterioară</translation>
+        <location filename="../windows/editorwindow.cpp" line="489"/>
+        <source>Previous database</source>
+        <translation>Baza de date anterioară</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="490"/>
-      <source>Next database</source>
-      <translation>Baza de date următoare</translation>
+        <location filename="../windows/editorwindow.cpp" line="490"/>
+        <source>Next database</source>
+        <translation>Baza de date următoare</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="494"/>
-      <source>Export execution history</source>
-      <comment>sql editor</comment>
-      <translation>Exportă istoricul de execuție</translation>
+        <location filename="../windows/editorwindow.cpp" line="494"/>
+        <source>Export execution history</source>
+        <comment>sql editor</comment>
+        <translation>Exportă istoricul de execuție</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="497"/>
-      <source>Show next tab</source>
-      <comment>sql editor</comment>
-      <translation>Afișează fila următoare</translation>
+        <location filename="../windows/editorwindow.cpp" line="497"/>
+        <source>Show next tab</source>
+        <comment>sql editor</comment>
+        <translation>Afișează fila următoare</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="498"/>
-      <source>Show previous tab</source>
-      <comment>sql editor</comment>
-      <translation>Afișează fila anterioară</translation>
+        <location filename="../windows/editorwindow.cpp" line="498"/>
+        <source>Show previous tab</source>
+        <comment>sql editor</comment>
+        <translation>Afișează fila anterioară</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="501"/>
-      <source>Export selected SQL history entries</source>
-      <comment>sql editor</comment>
-      <translation>Exportă intrările selectate din istoricul SQL</translation>
+        <location filename="../windows/editorwindow.cpp" line="501"/>
+        <source>Export selected SQL history entries</source>
+        <comment>sql editor</comment>
+        <translation>Exportă intrările selectate din istoricul SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="502"/>
-      <source>Delete selected SQL history entries</source>
-      <comment>sql editor</comment>
-      <translation>Șterge intrările selectate din istoricul SQL</translation>
+        <location filename="../windows/editorwindow.cpp" line="502"/>
+        <source>Delete selected SQL history entries</source>
+        <comment>sql editor</comment>
+        <translation>Șterge intrările selectate din istoricul SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="503"/>
-      <source>Execute single query under cursor</source>
-      <translation>Execută o singură interogare de sub cursor</translation>
+        <location filename="../windows/editorwindow.cpp" line="503"/>
+        <source>Execute single query under cursor</source>
+        <translation>Execută o singură interogare de sub cursor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="504"/>
-      <source>Execute all queries in editor</source>
-      <translation>Execută toate interogările din editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="504"/>
+        <source>Execute all queries in editor</source>
+        <translation>Execută toate interogările din editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="525"/>
-      <source>Results layout: Separate tab</source>
-      <comment>sql editor</comment>
-      <translation>Aspect rezultate: filă separată</translation>
+        <location filename="../windows/editorwindow.cpp" line="525"/>
+        <source>Results layout: Separate tab</source>
+        <comment>sql editor</comment>
+        <translation>Aspect rezultate: filă separată</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="526"/>
-      <source>Results layout: Below editor</source>
-      <comment>sql editor</comment>
-      <translation>Aspect rezultate: sub editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="526"/>
+        <source>Results layout: Below editor</source>
+        <comment>sql editor</comment>
+        <translation>Aspect rezultate: sub editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="527"/>
-      <source>Results layout: Right of editor</source>
-      <comment>sql editor</comment>
-      <translation>Aspect rezultate: în dreapta editorului</translation>
+        <location filename="../windows/editorwindow.cpp" line="527"/>
+        <source>Results layout: Right of editor</source>
+        <comment>sql editor</comment>
+        <translation>Aspect rezultate: în dreapta editorului</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="542"/>
-      <location filename="../windows/editorwindow.cpp" line="543"/>
-      <source>Explain mode: %1</source>
-      <comment>sql editor</comment>
-      <translation>Mod explicare: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="542"/>
+        <location filename="../windows/editorwindow.cpp" line="543"/>
+        <source>Explain mode: %1</source>
+        <comment>sql editor</comment>
+        <translation>Mod explicare: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="563"/>
-      <source>Auto-commit queries</source>
-      <comment>sql editor</comment>
-      <translation>Confirmă automat interogările</translation>
+        <location filename="../windows/editorwindow.cpp" line="563"/>
+        <source>Auto-commit queries</source>
+        <comment>sql editor</comment>
+        <translation>Confirmă automat interogările</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="580"/>
-      <source>Editor window settings</source>
-      <comment>sql editor</comment>
-      <translation>Setări fereastră editor</translation>
+        <location filename="../windows/editorwindow.cpp" line="580"/>
+        <source>Editor window settings</source>
+        <comment>sql editor</comment>
+        <translation>Setări fereastră editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="628"/>
-      <source>Active database (%1/%2)</source>
-      <translation>Bază de date activă (%1/%2)</translation>
+        <location filename="../windows/editorwindow.cpp" line="628"/>
+        <source>Active database (%1/%2)</source>
+        <translation>Bază de date activă (%1/%2)</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="777"/>
-      <source>Save to file</source>
-      <translation>Salvează în fișier</translation>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
+        <source>Save to file</source>
+        <translation>Salvează în fișier</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="788"/>
-      <source>Could not open file &apos;%1&apos; for writing: %2</source>
-      <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru scriere: %2</translation>
+        <location filename="../windows/editorwindow.cpp" line="788"/>
+        <source>Could not open file &apos;%1&apos; for writing: %2</source>
+        <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru scriere: %2</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="808"/>
-      <source>Saved SQL contents to file: %1</source>
-      <translation>Conținutul SQL a fost salvat în fișier: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="808"/>
+        <source>Saved SQL contents to file: %1</source>
+        <translation>Conținutul SQL a fost salvat în fișier: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="831"/>
-      <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-      <translation>Comutarea journal_mode la WAL a eșuat. Modul de confirmare manuală nu este disponibil. Eroare: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
+        <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
+        <translation>Comutarea journal_mode la WAL a eșuat. Modul de confirmare manuală nu este disponibil. Eroare: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="842"/>
-      <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-      <translation>Deschiderea unei noi conexiuni la baza de date a eșuat. Modul de confirmare manuală nu va fi activat. Eroare: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="842"/>
+        <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
+        <translation>Deschiderea unei noi conexiuni la baza de date a eșuat. Modul de confirmare manuală nu va fi activat. Eroare: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="845"/>
-      <source>The joirnal_mode will be switched back to %1.</source>
-      <translation>Modul joirnal_mode va fi comutat înapoi la %1.</translation>
+        <location filename="../windows/editorwindow.cpp" line="845"/>
+        <source>The joirnal_mode will be switched back to %1.</source>
+        <translation>Modul joirnal_mode va fi comutat înapoi la %1.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="969"/>
-      <source>Query finished in %1 second(s). Rows affected: %2</source>
-      <translation>Interogarea s-a terminat în %1 secundă(e). Rânduri afectate: %2</translation>
+        <location filename="../windows/editorwindow.cpp" line="969"/>
+        <source>Query finished in %1 second(s). Rows affected: %2</source>
+        <translation>Interogarea s-a terminat în %1 secundă(e). Rânduri afectate: %2</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="973"/>
-      <source>Query finished in %1 second(s).</source>
-      <translation>Interogarea s-a terminat în %1 secundă(e).</translation>
+        <location filename="../windows/editorwindow.cpp" line="973"/>
+        <source>Query finished in %1 second(s).</source>
+        <translation>Interogarea s-a terminat în %1 secundă(e).</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1104"/>
-      <source>Clear execution history</source>
-      <translation>Șterge istoricul de execuție</translation>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
+        <source>Clear execution history</source>
+        <translation>Șterge istoricul de execuție</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1104"/>
-      <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
-      <translation>Sigur doriți să ștergeți întregul istoric de execuție SQL? Aceasta nu poate fi anulată.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
+        <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
+        <translation>Sigur doriți să ștergeți întregul istoric de execuție SQL? Aceasta nu poate fi anulată.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1142"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1170"/>
-      <source>Query auto-commit is now enabled in: %1</source>
-      <comment>sql editor</comment>
-      <translation>Confirmarea automată a interogărilor este acum activată în: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="1170"/>
+        <source>Query auto-commit is now enabled in: %1</source>
+        <comment>sql editor</comment>
+        <translation>Confirmarea automată a interogărilor este acum activată în: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1172"/>
-      <source>Query auto-commit is now disabled in: %1</source>
-      <comment>sql editor</comment>
-      <translation>Confirmarea automată a interogărilor este acum dezactivată în: %1</translation>
+        <location filename="../windows/editorwindow.cpp" line="1172"/>
+        <source>Query auto-commit is now disabled in: %1</source>
+        <comment>sql editor</comment>
+        <translation>Confirmarea automată a interogărilor este acum dezactivată în: %1</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1230"/>
-      <location filename="../windows/editorwindow.cpp" line="1234"/>
-      <source>Apply changes to the transaction</source>
-      <translation>Aplică modificările tranzacției</translation>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <source>Apply changes to the transaction</source>
+        <translation>Aplică modificările tranzacției</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1231"/>
-      <location filename="../windows/editorwindow.cpp" line="1235"/>
-      <source>Discard changes in data view</source>
-      <translation>Renunță la modificările din vizualizarea datelor</translation>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1235"/>
+        <source>Discard changes in data view</source>
+        <translation>Renunță la modificările din vizualizarea datelor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1232"/>
-      <source>Apply selected changes to the transaction</source>
-      <translation>Aplică modificările selectate tranzacției</translation>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
+        <source>Apply selected changes to the transaction</source>
+        <translation>Aplică modificările selectate tranzacției</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1233"/>
-      <source>Discard changes in selected cells</source>
-      <translation>Renunță la modificările din celulele selectate</translation>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
+        <source>Discard changes in selected cells</source>
+        <translation>Renunță la modificările din celulele selectate</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1274"/>
-      <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-      <translation>Nu se poate schimba baza de date cât timp există o tranzacție manuală în așteptare. Confirmați sau anulați tranzacția înainte de a schimba baza de date.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1274"/>
+        <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
+        <translation>Nu se poate schimba baza de date cât timp există o tranzacție manuală în așteptare. Confirmați sau anulați tranzacția înainte de a schimba baza de date.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1314"/>
-      <source>Manual transaction committed successfully.</source>
-      <translation>Tranzacția manuală a fost confirmată cu succes.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1314"/>
+        <source>Manual transaction committed successfully.</source>
+        <translation>Tranzacția manuală a fost confirmată cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1343"/>
-      <source>Manual transaction rolled back.</source>
-      <translation>Tranzacția manuală a fost anulată.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
+        <source>Manual transaction rolled back.</source>
+        <translation>Tranzacția manuală a fost anulată.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1386"/>
-      <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
-      <translation>Nu este selectată nicio bază de date în editorul SQL. Nu se poate crea o vizualizare pentru o bază de date necunoscută.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1386"/>
+        <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
+        <translation>Nu este selectată nicio bază de date în editorul SQL. Nu se poate crea o vizualizare pentru o bază de date necunoscută.</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="1436"/>
-      <source>Editor window &quot;%1&quot; has uncommitted data.</source>
-      <translation>Fereastra editorului &quot;%1&quot; are date neconfirmate.</translation>
+        <location filename="../windows/editorwindow.cpp" line="1436"/>
+        <source>Editor window &quot;%1&quot; has uncommitted data.</source>
+        <translation>Fereastra editorului &quot;%1&quot; are date neconfirmate.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ErrorsConfirmDialog</name>
     <message>
-      <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
-      <source>Errors</source>
-      <translation>Erori</translation>
+        <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
+        <source>Errors</source>
+        <translation>Erori</translation>
     </message>
     <message>
-      <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
-      <source>Following errors occurred:</source>
-      <translation>Au apărut următoarele erori:</translation>
+        <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
+        <source>Following errors occurred:</source>
+        <translation>Au apărut următoarele erori:</translation>
     </message>
     <message>
-      <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
-      <source>Would you like to proceed?</source>
-      <translation>Doriți să continuați?</translation>
+        <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
+        <source>Would you like to proceed?</source>
+        <translation>Doriți să continuați?</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ExecFromFileDialog</name>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
-      <source>Execute SQL from file</source>
-      <translation>Execută SQL din fișier</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
+        <source>Execute SQL from file</source>
+        <translation>Execută SQL din fișier</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
-      <source>Input file</source>
-      <translation>Fișier de intrare</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
+        <source>Input file</source>
+        <translation>Fișier de intrare</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
-      <source>Path to file</source>
-      <translation>Cale către fișier</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
+        <source>Path to file</source>
+        <translation>Cale către fișier</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
-      <source>Browse for file</source>
-      <translation>Răsfoiește pentru fișier</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
+        <source>Browse for file</source>
+        <translation>Răsfoiește pentru fișier</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
-      <source>Options</source>
-      <translation>Opțiuni</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
+        <source>Options</source>
+        <translation>Opțiuni</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
-      <source>File encoding</source>
-      <translation>Codificare fișier</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
+        <source>File encoding</source>
+        <translation>Codificare fișier</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
-      <source>Skip failing SQL statements</source>
-      <translation>Omite instrucțiunile SQL eșuate</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
+        <source>Skip failing SQL statements</source>
+        <translation>Omite instrucțiunile SQL eșuate</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Orice conținut care nu este SQL valid va cauza eșuarea unei instrucțiuni.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Orice conținut care nu este SQL valid va cauza eșuarea unei instrucțiuni.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permite comenzile cu punct (utilizate de aplicația oficială CLI SQLite) în fișier.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permite comenzile cu punct (utilizate de aplicația oficială CLI SQLite) în fișier.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permite comenzile cu punct (utilizate de aplicația oficială CLI SQLite) în fișier și chiar execută unele dintre ele (adică .print și .read). Toate celelalte comenzi cu punct sunt ignorate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Permite comenzile cu punct (utilizate de aplicația oficială CLI SQLite) în fișier și chiar execută unele dintre ele (adică .print și .read). Toate celelalte comenzi cu punct sunt ignorate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
-      <source>Strict (only SQL content allowed)</source>
-      <translation>Strict (este permis doar conținut SQL)</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
+        <source>Strict (only SQL content allowed)</source>
+        <translation>Strict (este permis doar conținut SQL)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
-      <source>Execution mode</source>
-      <translation>Mod de execuție</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
+        <source>Execution mode</source>
+        <translation>Mod de execuție</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
-      <source>Permissive (dot commands ignored)</source>
-      <translation>Permisiv (comenzile cu punct sunt ignorate)</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
+        <source>Permissive (dot commands ignored)</source>
+        <translation>Permisiv (comenzile cu punct sunt ignorate)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
-      <source>Extended (dot commands executed)</source>
-      <translation>Extins (comenzile cu punct sunt executate)</translation>
+        <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
+        <source>Extended (dot commands executed)</source>
+        <translation>Extins (comenzile cu punct sunt executate)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
-      <source>SQL scripts (*.sql);;All files (*)</source>
-      <translation>Scripturi SQL (*.sql);;Toate fișierele (*)</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
+        <source>SQL scripts (*.sql);;All files (*)</source>
+        <translation>Scripturi SQL (*.sql);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
-      <source>Execute SQL file</source>
-      <translation>Execută fișier SQL</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
+        <source>Execute SQL file</source>
+        <translation>Execută fișier SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
-      <source>Please provide file to be executed.</source>
-      <translation>Furnizați fișierul de executat.</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
+        <source>Please provide file to be executed.</source>
+        <translation>Furnizați fișierul de executat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
-      <source>Provided file does not exist or cannot be read.</source>
-      <translation>Fișierul furnizat nu există sau nu poate fi citit.</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
+        <source>Provided file does not exist or cannot be read.</source>
+        <translation>Fișierul furnizat nu există sau nu poate fi citit.</translation>
     </message>
     <message>
-      <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
-      <source>Select a database to execute the SQL file on.</source>
-      <translation>Selectați o bază de date pe care să se execute fișierul SQL.</translation>
+        <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
+        <source>Select a database to execute the SQL file on.</source>
+        <translation>Selectați o bază de date pe care să se execute fișierul SQL.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ExportDialog</name>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="14"/>
-      <source>Export</source>
-      <translation>Exportă</translation>
+        <location filename="../dialogs/exportdialog.ui" line="14"/>
+        <source>Export</source>
+        <translation>Exportă</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="24"/>
-      <source>What do you want to export?</source>
-      <translation>Ce doriți să exportați?</translation>
+        <location filename="../dialogs/exportdialog.ui" line="24"/>
+        <source>What do you want to export?</source>
+        <translation>Ce doriți să exportați?</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="39"/>
-      <source>A database</source>
-      <translation>O bază de date</translation>
+        <location filename="../dialogs/exportdialog.ui" line="39"/>
+        <source>A database</source>
+        <translation>O bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="49"/>
-      <source>A single table</source>
-      <translation>Un singur tabel</translation>
+        <location filename="../dialogs/exportdialog.ui" line="49"/>
+        <source>A single table</source>
+        <translation>Un singur tabel</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="56"/>
-      <source>A single view</source>
-      <translation>O singură vizualizare</translation>
+        <location filename="../dialogs/exportdialog.ui" line="56"/>
+        <source>A single view</source>
+        <translation>O singură vizualizare</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="63"/>
-      <source>Query results</source>
-      <translation>Rezultatele interogării</translation>
+        <location filename="../dialogs/exportdialog.ui" line="63"/>
+        <source>Query results</source>
+        <translation>Rezultatele interogării</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="75"/>
-      <source>Table to export</source>
-      <translation>Tabel de exportat</translation>
+        <location filename="../dialogs/exportdialog.ui" line="75"/>
+        <source>Table to export</source>
+        <translation>Tabel de exportat</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="110"/>
-      <location filename="../dialogs/exportdialog.ui" line="234"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../dialogs/exportdialog.ui" line="110"/>
+        <location filename="../dialogs/exportdialog.ui" line="234"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="117"/>
-      <source>Table</source>
-      <translation>Tabel</translation>
+        <location filename="../dialogs/exportdialog.ui" line="117"/>
+        <source>Table</source>
+        <translation>Tabel</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="134"/>
-      <location filename="../dialogs/exportdialog.ui" line="258"/>
-      <source>Options</source>
-      <translation>Opțiuni</translation>
+        <location filename="../dialogs/exportdialog.ui" line="134"/>
+        <location filename="../dialogs/exportdialog.ui" line="258"/>
+        <source>Options</source>
+        <translation>Opțiuni</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="140"/>
-      <location filename="../dialogs/exportdialog.ui" line="264"/>
-      <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
-      <translation>Când această opțiune este debifată, se exportă doar DDL-ul tabelului (instrucțiunea CREATE TABLE).</translation>
+        <location filename="../dialogs/exportdialog.ui" line="140"/>
+        <location filename="../dialogs/exportdialog.ui" line="264"/>
+        <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
+        <translation>Când această opțiune este debifată, se exportă doar DDL-ul tabelului (instrucțiunea CREATE TABLE).</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="143"/>
-      <source>Export table data</source>
-      <translation>Exportă datele tabelului</translation>
+        <location filename="../dialogs/exportdialog.ui" line="143"/>
+        <source>Export table data</source>
+        <translation>Exportă datele tabelului</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="153"/>
-      <source>Export table indexes</source>
-      <translation>Exportă indicii tabelului</translation>
+        <location filename="../dialogs/exportdialog.ui" line="153"/>
+        <source>Export table indexes</source>
+        <translation>Exportă indicii tabelului</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="163"/>
-      <source>Export table triggers</source>
-      <translation>Exportă declanșatoarele tabelului</translation>
+        <location filename="../dialogs/exportdialog.ui" line="163"/>
+        <source>Export table triggers</source>
+        <translation>Exportă declanșatoarele tabelului</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="185"/>
-      <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
-      <translation>Rețineți că exportarea indicilor și declanșatoarelor tabelului poate să nu fie acceptată de unele formate de ieșire.</translation>
+        <location filename="../dialogs/exportdialog.ui" line="185"/>
+        <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
+        <translation>Rețineți că exportarea indicilor și declanșatoarelor tabelului poate să nu fie acceptată de unele formate de ieșire.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="199"/>
-      <source>View to export</source>
-      <translation>Vizualizare de exportat</translation>
+        <location filename="../dialogs/exportdialog.ui" line="199"/>
+        <source>View to export</source>
+        <translation>Vizualizare de exportat</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="241"/>
-      <source>View</source>
-      <translation>Vizualizare</translation>
+        <location filename="../dialogs/exportdialog.ui" line="241"/>
+        <source>View</source>
+        <translation>Vizualizare</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="267"/>
-      <source>Export view data</source>
-      <translation>Exportă datele vizualizării</translation>
+        <location filename="../dialogs/exportdialog.ui" line="267"/>
+        <source>Export view data</source>
+        <translation>Exportă datele vizualizării</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="277"/>
-      <source>Export view triggers</source>
-      <translation>Exportă declanșatoarele vizualizării</translation>
+        <location filename="../dialogs/exportdialog.ui" line="277"/>
+        <source>Export view triggers</source>
+        <translation>Exportă declanșatoarele vizualizării</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="299"/>
-      <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
-      <translation>Rețineți că exportarea declanșatoarelor vizualizării poate să nu fie acceptată de unele formate de ieșire.</translation>
+        <location filename="../dialogs/exportdialog.ui" line="299"/>
+        <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
+        <translation>Rețineți că exportarea declanșatoarelor vizualizării poate să nu fie acceptată de unele formate de ieșire.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="313"/>
-      <source>Select database objects to export</source>
-      <translation>Selectați obiectele bazei de date de exportat</translation>
+        <location filename="../dialogs/exportdialog.ui" line="313"/>
+        <source>Select database objects to export</source>
+        <translation>Selectați obiectele bazei de date de exportat</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="319"/>
-      <source>Export indexes (tables only)</source>
-      <translation>Exportă indicii (doar tabele)</translation>
+        <location filename="../dialogs/exportdialog.ui" line="319"/>
+        <source>Export indexes (tables only)</source>
+        <translation>Exportă indicii (doar tabele)</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="333"/>
-      <source>Export data from tables</source>
-      <translation>Exportă datele din tabele</translation>
+        <location filename="../dialogs/exportdialog.ui" line="333"/>
+        <source>Export data from tables</source>
+        <translation>Exportă datele din tabele</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="343"/>
-      <source>Select all</source>
-      <translation>Selectează tot</translation>
+        <location filename="../dialogs/exportdialog.ui" line="343"/>
+        <source>Select all</source>
+        <translation>Selectează tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="374"/>
-      <source>Export data from views</source>
-      <translation>Exportă datele din vizualizări</translation>
+        <location filename="../dialogs/exportdialog.ui" line="374"/>
+        <source>Export data from views</source>
+        <translation>Exportă datele din vizualizări</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="326"/>
-      <source>Deselect all</source>
-      <translation>Deselectează tot</translation>
+        <location filename="../dialogs/exportdialog.ui" line="326"/>
+        <source>Deselect all</source>
+        <translation>Deselectează tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="350"/>
-      <source>Export triggers (tables and views)</source>
-      <translation>Exportă declanșatoarele (tabele și vizualizări)</translation>
+        <location filename="../dialogs/exportdialog.ui" line="350"/>
+        <source>Export triggers (tables and views)</source>
+        <translation>Exportă declanșatoarele (tabele și vizualizări)</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="360"/>
-      <location filename="../dialogs/exportdialog.ui" line="394"/>
-      <source>Database:</source>
-      <translation>Bază de date:</translation>
+        <location filename="../dialogs/exportdialog.ui" line="360"/>
+        <location filename="../dialogs/exportdialog.ui" line="394"/>
+        <source>Database:</source>
+        <translation>Bază de date:</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="382"/>
-      <source>Query to export results for</source>
-      <translation>Interogare pentru care se exportă rezultatele</translation>
+        <location filename="../dialogs/exportdialog.ui" line="382"/>
+        <source>Query to export results for</source>
+        <translation>Interogare pentru care se exportă rezultatele</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="401"/>
-      <source>Query to be executed for results:</source>
-      <translation>Interogare de executat pentru rezultate:</translation>
+        <location filename="../dialogs/exportdialog.ui" line="401"/>
+        <source>Query to be executed for results:</source>
+        <translation>Interogare de executat pentru rezultate:</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="409"/>
-      <source>Export format and options</source>
-      <translation>Format de export și opțiuni</translation>
+        <location filename="../dialogs/exportdialog.ui" line="409"/>
+        <source>Export format and options</source>
+        <translation>Format de export și opțiuni</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="463"/>
-      <source>Export format</source>
-      <translation>Format de export</translation>
+        <location filename="../dialogs/exportdialog.ui" line="463"/>
+        <source>Export format</source>
+        <translation>Format de export</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="475"/>
-      <source>Output</source>
-      <translation>Ieșire</translation>
+        <location filename="../dialogs/exportdialog.ui" line="475"/>
+        <source>Output</source>
+        <translation>Ieșire</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="481"/>
-      <source>Exported file path</source>
-      <translation>Calea fișierului exportat</translation>
+        <location filename="../dialogs/exportdialog.ui" line="481"/>
+        <source>Exported file path</source>
+        <translation>Calea fișierului exportat</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="488"/>
-      <source>Clipboard</source>
-      <translation>Memorie temporară</translation>
+        <location filename="../dialogs/exportdialog.ui" line="488"/>
+        <source>Clipboard</source>
+        <translation>Memorie temporară</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="502"/>
-      <source>File</source>
-      <translation>Fișier</translation>
+        <location filename="../dialogs/exportdialog.ui" line="502"/>
+        <source>File</source>
+        <translation>Fișier</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="527"/>
-      <source>Exported text encoding:</source>
-      <translation>Codificarea textului exportat:</translation>
+        <location filename="../dialogs/exportdialog.ui" line="527"/>
+        <source>Exported text encoding:</source>
+        <translation>Codificarea textului exportat:</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.ui" line="543"/>
-      <source>Export format options</source>
-      <translation>Opțiuni format de export</translation>
+        <location filename="../dialogs/exportdialog.ui" line="543"/>
+        <source>Export format options</source>
+        <translation>Opțiuni format de export</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="69"/>
-      <source>Cancel</source>
-      <translation>Anulează</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="69"/>
+        <source>Cancel</source>
+        <translation>Anulează</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="197"/>
-      <location filename="../dialogs/exportdialog.cpp" line="221"/>
-      <location filename="../dialogs/exportdialog.cpp" line="246"/>
-      <location filename="../dialogs/exportdialog.cpp" line="271"/>
-      <source>Select database to export.</source>
-      <translation>Selectați baza de date de exportat.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="197"/>
+        <location filename="../dialogs/exportdialog.cpp" line="221"/>
+        <location filename="../dialogs/exportdialog.cpp" line="246"/>
+        <location filename="../dialogs/exportdialog.cpp" line="271"/>
+        <source>Select database to export.</source>
+        <translation>Selectați baza de date de exportat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="198"/>
-      <source>Select table to export.</source>
-      <translation>Selectați tabelul de exportat.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <source>Select table to export.</source>
+        <translation>Selectați tabelul de exportat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="222"/>
-      <source>Select view to export.</source>
-      <translation>Selectați vizualizarea de exportat.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <source>Select view to export.</source>
+        <translation>Selectați vizualizarea de exportat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="247"/>
-      <source>Enter valid query to export.</source>
-      <translation>Introduceți o interogare validă de exportat.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <source>Enter valid query to export.</source>
+        <translation>Introduceți o interogare validă de exportat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="272"/>
-      <source>Select at least one object to export.</source>
-      <translation>Selectați cel puțin un obiect de exportat.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="272"/>
+        <source>Select at least one object to export.</source>
+        <translation>Selectați cel puțin un obiect de exportat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="295"/>
-      <source>You must provide a file name to export to.</source>
-      <translation>Trebuie să furnizați un nume de fișier în care să exportați.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="295"/>
+        <source>You must provide a file name to export to.</source>
+        <translation>Trebuie să furnizați un nume de fișier în care să exportați.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="302"/>
-      <source>Path you provided is an existing directory. You cannot overwrite it.</source>
-      <translation>Calea furnizată este un director existent. Nu îl puteți suprascrie.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="302"/>
+        <source>Path you provided is an existing directory. You cannot overwrite it.</source>
+        <translation>Calea furnizată este un director existent. Nu îl puteți suprascrie.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="308"/>
-      <source>The directory &apos;%1&apos; does not exist.</source>
-      <translation>Directorul &apos;%1&apos; nu există.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="308"/>
+        <source>The directory &apos;%1&apos; does not exist.</source>
+        <translation>Directorul &apos;%1&apos; nu există.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="314"/>
-      <source>The file &apos;%1&apos; exists and will be overwritten.</source>
-      <translation>Fișierul &apos;%1&apos; există și va fi suprascris.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="314"/>
+        <source>The file &apos;%1&apos; exists and will be overwritten.</source>
+        <translation>Fișierul &apos;%1&apos; există și va fi suprascris.</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="555"/>
-      <source>All files (*)</source>
-      <translation>Toate fișierele (*)</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="555"/>
+        <source>All files (*)</source>
+        <translation>Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="558"/>
-      <source>Pick file to export to</source>
-      <translation>Alegeți fișierul în care se exportă</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="558"/>
+        <source>Pick file to export to</source>
+        <translation>Alegeți fișierul în care se exportă</translation>
     </message>
     <message>
-      <location filename="../dialogs/exportdialog.cpp" line="985"/>
-      <source>Internal error during export. This is a bug. Please report it.</source>
-      <translation>Eroare internă în timpul exportului. Aceasta este o eroare de program. Vă rugăm să o raportați.</translation>
+        <location filename="../dialogs/exportdialog.cpp" line="985"/>
+        <source>Internal error during export. This is a bug. Please report it.</source>
+        <translation>Eroare internă în timpul exportului. Aceasta este o eroare de program. Vă rugăm să o raportați.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FileExecErrorsDialog</name>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
-      <source>Execution errors</source>
-      <translation>Erori de execuție</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
+        <source>Execution errors</source>
+        <translation>Erori de execuție</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
-      <source>Following errors were encountered during execution of SQL statements from the file:</source>
-      <translation>Următoarele erori au fost întâlnite în timpul execuției instrucțiunilor SQL din fișier:</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
+        <source>Following errors were encountered during execution of SQL statements from the file:</source>
+        <translation>Următoarele erori au fost întâlnite în timpul execuției instrucțiunilor SQL din fișier:</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
-      <source>SQL</source>
-      <translation>SQL</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
+        <source>SQL</source>
+        <translation>SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
-      <source>Error</source>
-      <translation>Eroare</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
+        <source>Error</source>
+        <translation>Eroare</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
-      <source>Statements that were executed successfully were commited.</source>
-      <translation>Instrucțiunile care au fost executate cu succes au fost confirmate.</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
+        <source>Statements that were executed successfully were commited.</source>
+        <translation>Instrucțiunile care au fost executate cu succes au fost confirmate.</translation>
     </message>
     <message>
-      <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
-      <source>Statements that were executed successfully were rolled back.</source>
-      <translation>Instrucțiunile care au fost executate cu succes au fost derulate înapoi.</translation>
+        <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
+        <source>Statements that were executed successfully were rolled back.</source>
+        <translation>Instrucțiunile care au fost executate cu succes au fost derulate înapoi.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FkComboBox</name>
     <message>
-      <location filename="../datagrid/fkcombobox.cpp" line="375"/>
-      <source>Cannot edit this cell. Details: %1</source>
-      <translation>Nu se poate edita această celulă. Detalii: %1</translation>
+        <location filename="../datagrid/fkcombobox.cpp" line="375"/>
+        <source>Cannot edit this cell. Details: %1</source>
+        <translation>Nu se poate edita această celulă. Detalii: %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FontEdit</name>
     <message>
-      <location filename="../common/fontedit.cpp" line="61"/>
-      <source>Choose font</source>
-      <comment>font configuration</comment>
-      <translation>Alegeți fontul</translation>
+        <location filename="../common/fontedit.cpp" line="61"/>
+        <source>Choose font</source>
+        <comment>font configuration</comment>
+        <translation>Alegeți fontul</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>Form</name>
     <message>
-      <location filename="../forms/sqlformatterplugin.ui" line="20"/>
-      <source>Active SQL formatter plugin</source>
-      <translation>Plugin de formatare SQL activ</translation>
+        <location filename="../forms/sqlformatterplugin.ui" line="20"/>
+        <source>Active SQL formatter plugin</source>
+        <translation>Plugin de formatare SQL activ</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FormView</name>
     <message>
-      <location filename="../formview.cpp" line="287"/>
-      <source>Commit row</source>
-      <comment>form view</comment>
-      <translation>Confirmă rândul</translation>
+        <location filename="../formview.cpp" line="287"/>
+        <source>Commit row</source>
+        <comment>form view</comment>
+        <translation>Confirmă rândul</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="288"/>
-      <source>Rollback row</source>
-      <comment>form view</comment>
-      <translation>Derulează înapoi rândul</translation>
+        <location filename="../formview.cpp" line="288"/>
+        <source>Rollback row</source>
+        <comment>form view</comment>
+        <translation>Derulează înapoi rândul</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="289"/>
-      <source>First row</source>
-      <comment>form view</comment>
-      <translation>Primul rând</translation>
+        <location filename="../formview.cpp" line="289"/>
+        <source>First row</source>
+        <comment>form view</comment>
+        <translation>Primul rând</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="290"/>
-      <source>Previous row</source>
-      <comment>form view</comment>
-      <translation>Rândul anterior</translation>
+        <location filename="../formview.cpp" line="290"/>
+        <source>Previous row</source>
+        <comment>form view</comment>
+        <translation>Rândul anterior</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="291"/>
-      <source>Next row</source>
-      <comment>form view</comment>
-      <translation>Rândul următor</translation>
+        <location filename="../formview.cpp" line="291"/>
+        <source>Next row</source>
+        <comment>form view</comment>
+        <translation>Rândul următor</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="292"/>
-      <source>Last row</source>
-      <comment>form view</comment>
-      <translation>Ultimul rând</translation>
+        <location filename="../formview.cpp" line="292"/>
+        <source>Last row</source>
+        <comment>form view</comment>
+        <translation>Ultimul rând</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="293"/>
-      <source>Insert new row</source>
-      <comment>form view</comment>
-      <translation>Inserează rând nou</translation>
+        <location filename="../formview.cpp" line="293"/>
+        <source>Insert new row</source>
+        <comment>form view</comment>
+        <translation>Inserează rând nou</translation>
     </message>
     <message>
-      <location filename="../formview.cpp" line="294"/>
-      <source>Delete current row</source>
-      <comment>form view</comment>
-      <translation>Șterge rândul curent</translation>
+        <location filename="../formview.cpp" line="294"/>
+        <source>Delete current row</source>
+        <comment>form view</comment>
+        <translation>Șterge rândul curent</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FunctionsEditor</name>
     <message>
-      <location filename="../windows/functionseditor.ui" line="84"/>
-      <source>Filter functions</source>
-      <translation>Filtrează funcțiile</translation>
+        <location filename="../windows/functionseditor.ui" line="84"/>
+        <source>Filter functions</source>
+        <translation>Filtrează funcțiile</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="172"/>
-      <source>Input arguments</source>
-      <translation>Argumente de intrare</translation>
+        <location filename="../windows/functionseditor.ui" line="172"/>
+        <source>Input arguments</source>
+        <translation>Argumente de intrare</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="178"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți defini aici parametrii funcției. Numele specificate sunt disponibile ca variabile în codul de implementare și conțin valorile transmise funcției. Argumentele sunt accesibile și prin containerul standard de argumente al limbajului (de ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; în Tcl sau &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; în JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="178"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți defini aici parametrii funcției. Numele specificate sunt disponibile ca variabile în codul de implementare și conțin valorile transmise funcției. Argumentele sunt accesibile și prin containerul standard de argumente al limbajului (de ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; în Tcl sau &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; în JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="207"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indică faptul că funcția acceptă un număr variabil de argumente. În acest mod, argumentele sunt disponibile numai prin mecanismul specific limbajului (de ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; în Tcl sau &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; în JavaScript).&lt;br/&gt;Dacă este dezactivată, argumentele sunt definite mai jos, iar numele lor sunt disponibile și ca variabile în codul de implementare, rămânând în același timp accesibile prin containerul standard de argumente al limbajului.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="207"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indică faptul că funcția acceptă un număr variabil de argumente. În acest mod, argumentele sunt disponibile numai prin mecanismul specific limbajului (de ex. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; în Tcl sau &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; în JavaScript).&lt;br/&gt;Dacă este dezactivată, argumentele sunt definite mai jos, iar numele lor sunt disponibile și ca variabile în codul de implementare, rămânând în același timp accesibile prin containerul standard de argumente al limbajului.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="210"/>
-      <source>Undefined</source>
-      <translation>Nedefinit</translation>
+        <location filename="../windows/functionseditor.ui" line="210"/>
+        <source>Undefined</source>
+        <translation>Nedefinit</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="226"/>
-      <source>Databases</source>
-      <translation>Baze de date</translation>
+        <location filename="../windows/functionseditor.ui" line="226"/>
+        <source>Databases</source>
+        <translation>Baze de date</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="232"/>
-      <source>Register in all databases</source>
-      <translation>Înregistrează în toate bazele de date</translation>
+        <location filename="../windows/functionseditor.ui" line="232"/>
+        <source>Register in all databases</source>
+        <translation>Înregistrează în toate bazele de date</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="239"/>
-      <source>Register in following databases:</source>
-      <translation>Înregistrează în următoarele baze de date:</translation>
+        <location filename="../windows/functionseditor.ui" line="239"/>
+        <source>Register in following databases:</source>
+        <translation>Înregistrează în următoarele baze de date:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="274"/>
-      <source>Type:</source>
-      <translation>Tip:</translation>
+        <location filename="../windows/functionseditor.ui" line="274"/>
+        <source>Type:</source>
+        <translation>Tip:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="281"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selectează limbajul utilizat pentru implementarea funcției. Limbajul ales determină modul în care codul funcției este interpretat și ce sintaxă, variabile și mediu de execuție sunt disponibile în blocurile de implementare.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="281"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selectează limbajul utilizat pentru implementarea funcției. Limbajul ales determină modul în care codul funcției este interpretat și ce sintaxă, variabile și mediu de execuție sunt disponibile în blocurile de implementare.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="288"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selectează tipul funcției implementate. Tipul selectat determină modul în care SQLite invocă funcția și ce blocuri de implementare trebuie furnizate: un singur bloc de cod pentru funcțiile scalare, procesare bazată pe pași pentru funcțiile agregate sau gestionare suplimentară a cadrului de fereastră (inclusiv pas invers) pentru funcțiile agregate de fereastră.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="288"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selectează tipul funcției implementate. Tipul selectat determină modul în care SQLite invocă funcția și ce blocuri de implementare trebuie furnizate: un singur bloc de cod pentru funcțiile scalare, procesare bazată pe pași pentru funcțiile agregate sau gestionare suplimentară a cadrului de fereastră (inclusiv pas invers) pentru funcțiile agregate de fereastră.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="295"/>
-      <source>Function name:</source>
-      <translation>Numele funcției:</translation>
+        <location filename="../windows/functionseditor.ui" line="295"/>
+        <source>Function name:</source>
+        <translation>Numele funcției:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="305"/>
-      <source>Implementation language:</source>
-      <translation>Limbaj de implementare:</translation>
+        <location filename="../windows/functionseditor.ui" line="305"/>
+        <source>Implementation language:</source>
+        <translation>Limbaj de implementare:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="312"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indică faptul că funcția returnează întotdeauna același rezultat pentru aceleași argumente de intrare. Este necesară pentru utilizare în unele expresii ale schemei (de ex. constrângeri CHECK, indecși parțiali, indecși pe expresii, coloane generate) și poate permite SQLite să aplice optimizări suplimentare.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="312"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indică faptul că funcția returnează întotdeauna același rezultat pentru aceleași argumente de intrare. Este necesară pentru utilizare în unele expresii ale schemei (de ex. constrângeri CHECK, indecși parțiali, indecși pe expresii, coloane generate) și poate permite SQLite să aplice optimizări suplimentare.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="315"/>
-      <source>Deterministic</source>
-      <translation>Deterministă</translation>
+        <location filename="../windows/functionseditor.ui" line="315"/>
+        <source>Deterministic</source>
+        <translation>Deterministă</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="336"/>
-      <source>Function code</source>
-      <translation>Codul funcției</translation>
+        <location filename="../windows/functionseditor.ui" line="336"/>
+        <source>Function code</source>
+        <translation>Codul funcției</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="342"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat când funcția este apelată. Acesta primește argumentele funcției și trebuie să calculeze și să returneze rezultatul. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="342"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat când funcția este apelată. Acesta primește argumentele funcției și trebuie să calculeze și să returneze rezultatul. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="353"/>
-      <source>Initialization</source>
-      <translation>Inițializare</translation>
+        <location filename="../windows/functionseditor.ui" line="353"/>
+        <source>Initialization</source>
+        <translation>Inițializare</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="359"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat o singură dată înainte de primul pas de agregare. Folosiți-l pentru a inițializa variabilele care stochează starea agregării. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="359"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat o singură dată înainte de primul pas de agregare. Folosiți-l pentru a inițializa variabilele care stochează starea agregării. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="370"/>
-      <source>Step</source>
-      <translation>Pas</translation>
+        <location filename="../windows/functionseditor.ui" line="370"/>
+        <source>Step</source>
+        <translation>Pas</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="376"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat pentru fiecare rând de intrare. Acesta ar trebui să actualizeze starea agregării folosind argumentele curente. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="376"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat pentru fiecare rând de intrare. Acesta ar trebui să actualizeze starea agregării folosind argumentele curente. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="387"/>
-      <source>Inverse</source>
-      <translation>Invers</translation>
+        <location filename="../windows/functionseditor.ui" line="387"/>
+        <source>Inverse</source>
+        <translation>Invers</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="393"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat când un rând părăsește cadrul ferestrei. Valorile parametrilor corespund rândului eliminat din fereastră și ar trebui folosite pentru a scădea contribuția acestuia din starea agregării. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="393"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod executat când un rând părăsește cadrul ferestrei. Valorile parametrilor corespund rândului eliminat din fereastră și ar trebui folosite pentru a scădea contribuția acestuia din starea agregării. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="404"/>
-      <source>Aggregated value</source>
-      <translation>Valoare agregată</translation>
+        <location filename="../windows/functionseditor.ui" line="404"/>
+        <source>Aggregated value</source>
+        <translation>Valoare agregată</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.ui" line="410"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod care calculează și returnează rezultatul agregat pe baza stării curente a agregării. În funcțiile de fereastră poate fi executat de mai multe ori pentru a returna valoarea curentă a ferestrei. În funcțiile agregate obișnuite este apelat o singură dată ca funcție finală. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/functionseditor.ui" line="410"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cod care calculează și returnează rezultatul agregat pe baza stării curente a agregării. În funcțiile de fereastră poate fi executat de mai multe ori pentru a returna valoarea curentă a ferestrei. În funcțiile agregate obișnuite este apelat o singură dată ca funcție finală. Valorile parametrilor sunt disponibile ca variabile numite la fel ca parametrii declarați ai funcției.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="62"/>
-      <source>SQL functions editor</source>
-      <translation>Editor de funcții SQL</translation>
+        <location filename="../windows/functionseditor.cpp" line="62"/>
+        <source>SQL functions editor</source>
+        <translation>Editor de funcții SQL</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="67"/>
-      <source>Commit all function changes</source>
-      <translation>Confirmă toate modificările funcțiilor</translation>
+        <location filename="../windows/functionseditor.cpp" line="67"/>
+        <source>Commit all function changes</source>
+        <translation>Confirmă toate modificările funcțiilor</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="68"/>
-      <source>Rollback all function changes</source>
-      <translation>Revocă toate modificările funcțiilor</translation>
+        <location filename="../windows/functionseditor.cpp" line="68"/>
+        <source>Rollback all function changes</source>
+        <translation>Revocă toate modificările funcțiilor</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="70"/>
-      <source>Create new function</source>
-      <translation>Creează funcție nouă</translation>
+        <location filename="../windows/functionseditor.cpp" line="70"/>
+        <source>Create new function</source>
+        <translation>Creează funcție nouă</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="71"/>
-      <source>Delete selected function</source>
-      <translation>Șterge funcția selectată</translation>
+        <location filename="../windows/functionseditor.cpp" line="71"/>
+        <source>Delete selected function</source>
+        <translation>Șterge funcția selectată</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="73"/>
-      <source>Import functions from file</source>
-      <translation>Importă funcții din fișier</translation>
+        <location filename="../windows/functionseditor.cpp" line="73"/>
+        <source>Import functions from file</source>
+        <translation>Importă funcții din fișier</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="74"/>
-      <source>Export functions to file</source>
-      <translation>Exportă funcții în fișier</translation>
+        <location filename="../windows/functionseditor.cpp" line="74"/>
+        <source>Export functions to file</source>
+        <translation>Exportă funcții în fișier</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="75"/>
-      <source>Custom SQL functions manual</source>
-      <translation>Manual pentru funcții SQL personalizate</translation>
+        <location filename="../windows/functionseditor.cpp" line="75"/>
+        <source>Custom SQL functions manual</source>
+        <translation>Manual pentru funcții SQL personalizate</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="78"/>
-      <source>Add function argument</source>
-      <translation>Adaugă argument de funcție</translation>
+        <location filename="../windows/functionseditor.cpp" line="78"/>
+        <source>Add function argument</source>
+        <translation>Adaugă argument de funcție</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="79"/>
-      <source>Rename function argument</source>
-      <translation>Redenumește argumentul funcției</translation>
+        <location filename="../windows/functionseditor.cpp" line="79"/>
+        <source>Rename function argument</source>
+        <translation>Redenumește argumentul funcției</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="80"/>
-      <source>Delete function argument</source>
-      <translation>Șterge argumentul funcției</translation>
+        <location filename="../windows/functionseditor.cpp" line="80"/>
+        <source>Delete function argument</source>
+        <translation>Șterge argumentul funcției</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="82"/>
-      <source>Move function argument up</source>
-      <translation>Mută argumentul funcției în sus</translation>
+        <location filename="../windows/functionseditor.cpp" line="82"/>
+        <source>Move function argument up</source>
+        <translation>Mută argumentul funcției în sus</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="83"/>
-      <source>Move function argument down</source>
-      <translation>Mută argumentul funcției în jos</translation>
+        <location filename="../windows/functionseditor.cpp" line="83"/>
+        <source>Move function argument down</source>
+        <translation>Mută argumentul funcției în jos</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="540"/>
-      <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
-      <translation>Introduceți un nume de funcție unic, nevid. Numele duplicate sunt permise dacă numărul parametrilor de intrare diferă.</translation>
+        <location filename="../windows/functionseditor.cpp" line="540"/>
+        <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
+        <translation>Introduceți un nume de funcție unic, nevid. Numele duplicate sunt permise dacă numărul parametrilor de intrare diferă.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="551"/>
-      <source>Pick the implementation language.</source>
-      <translation>Alegeți limbajul de implementare.</translation>
+        <location filename="../windows/functionseditor.cpp" line="551"/>
+        <source>Pick the implementation language.</source>
+        <translation>Alegeți limbajul de implementare.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="569"/>
-      <location filename="../windows/functionseditor.cpp" line="579"/>
-      <location filename="../windows/functionseditor.cpp" line="580"/>
-      <source>Enter a non-empty implementation code.</source>
-      <translation>Introduceți un cod de implementare nevid.</translation>
+        <location filename="../windows/functionseditor.cpp" line="569"/>
+        <location filename="../windows/functionseditor.cpp" line="579"/>
+        <location filename="../windows/functionseditor.cpp" line="580"/>
+        <source>Enter a non-empty implementation code.</source>
+        <translation>Introduceți un cod de implementare nevid.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="629"/>
-      <source>argument</source>
-      <comment>new function argument name in function editor window</comment>
-      <translation>parametru</translation>
+        <location filename="../windows/functionseditor.cpp" line="629"/>
+        <source>argument</source>
+        <comment>new function argument name in function editor window</comment>
+        <translation>parametru</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="733"/>
-      <source>Function argument cannot be empty and it cannot have duplicated name.</source>
-      <translation>Argumentul funcției nu poate fi gol și nu poate avea nume duplicat.</translation>
+        <location filename="../windows/functionseditor.cpp" line="733"/>
+        <source>Function argument cannot be empty and it cannot have duplicated name.</source>
+        <translation>Argumentul funcției nu poate fi gol și nu poate avea nume duplicat.</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.cpp" line="800"/>
-      <source>Functions editor window has uncommitted modifications.</source>
-      <translation>Fereastra editorului de funcții are modificări neconfirmate.</translation>
+        <location filename="../windows/functionseditor.cpp" line="800"/>
+        <source>Functions editor window has uncommitted modifications.</source>
+        <translation>Fereastra editorului de funcții are modificări neconfirmate.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>FunctionsEditorModel</name>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="261"/>
-      <source>all databases</source>
-      <translation>toate bazele de date</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="261"/>
+        <source>all databases</source>
+        <translation>toate bazele de date</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="266"/>
-      <source>Function:</source>
-      <translation>Funcție:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="266"/>
+        <source>Function:</source>
+        <translation>Funcție:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="267"/>
-      <source>Type:</source>
-      <translation>Tip:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="267"/>
+        <source>Type:</source>
+        <translation>Tip:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="268"/>
-      <source>Deterministic:</source>
-      <translation>Deterministă:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
+        <source>Deterministic:</source>
+        <translation>Deterministă:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="268"/>
-      <source>Yes</source>
-      <translation>Da</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
+        <source>Yes</source>
+        <translation>Da</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="268"/>
-      <source>No</source>
-      <translation>Nu</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="268"/>
+        <source>No</source>
+        <translation>Nu</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="269"/>
-      <source>Language:</source>
-      <translation>Limbaj:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="269"/>
+        <source>Language:</source>
+        <translation>Limbaj:</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditormodel.cpp" line="270"/>
-      <source>Registered in:</source>
-      <translation>Înregistrată în:</translation>
+        <location filename="../windows/functionseditormodel.cpp" line="270"/>
+        <source>Registered in:</source>
+        <translation>Înregistrată în:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ImportDialog</name>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="14"/>
-      <source>Import data</source>
-      <translation>Importă date</translation>
+        <location filename="../dialogs/importdialog.ui" line="14"/>
+        <source>Import data</source>
+        <translation>Importă date</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="171"/>
-      <source>Table to import to</source>
-      <translation>Tabel în care se importă</translation>
+        <location filename="../dialogs/importdialog.ui" line="171"/>
+        <source>Table to import to</source>
+        <translation>Tabel în care se importă</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="186"/>
-      <source>Table</source>
-      <translation>Tabel</translation>
+        <location filename="../dialogs/importdialog.ui" line="186"/>
+        <source>Table</source>
+        <translation>Tabel</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="193"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../dialogs/importdialog.ui" line="193"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="24"/>
-      <source>Data source to import from</source>
-      <translation>Sursă de date din care se importă</translation>
+        <location filename="../dialogs/importdialog.ui" line="24"/>
+        <source>Data source to import from</source>
+        <translation>Sursă de date din care se importă</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="69"/>
-      <source>Data source type</source>
-      <translation>Tip sursă de date</translation>
+        <location filename="../dialogs/importdialog.ui" line="69"/>
+        <source>Data source type</source>
+        <translation>Tip sursă de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="81"/>
-      <source>Options</source>
-      <translation>Opțiuni</translation>
+        <location filename="../dialogs/importdialog.ui" line="81"/>
+        <source>Options</source>
+        <translation>Opțiuni</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="115"/>
-      <source>Text encoding:</source>
-      <translation>Codare text:</translation>
+        <location filename="../dialogs/importdialog.ui" line="115"/>
+        <source>Text encoding:</source>
+        <translation>Codare text:</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="122"/>
-      <source>Input file:</source>
-      <translation>Fișier de intrare:</translation>
+        <location filename="../dialogs/importdialog.ui" line="122"/>
+        <source>Input file:</source>
+        <translation>Fișier de intrare:</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="132"/>
-      <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Dacă este activată, orice încălcare a constrângerilor, format de date nevalid (număr greșit de coloane) sau orice altă problemă întâlnită în timpul importului va fi ignorată, iar importul va continua.&lt;/p&gt;</translation>
+        <location filename="../dialogs/importdialog.ui" line="132"/>
+        <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Dacă este activată, orice încălcare a constrângerilor, format de date nevalid (număr greșit de coloane) sau orice altă problemă întâlnită în timpul importului va fi ignorată, iar importul va continua.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="135"/>
-      <source>Ignore errors</source>
-      <translation>Ignoră erorile</translation>
+        <location filename="../dialogs/importdialog.ui" line="135"/>
+        <source>Ignore errors</source>
+        <translation>Ignoră erorile</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.ui" line="145"/>
-      <source>Data source options</source>
-      <translation>Opțiuni sursă de date</translation>
+        <location filename="../dialogs/importdialog.ui" line="145"/>
+        <source>Data source options</source>
+        <translation>Opțiuni sursă de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="131"/>
-      <source>Cancel</source>
-      <translation>Anulează</translation>
+        <location filename="../dialogs/importdialog.cpp" line="131"/>
+        <source>Cancel</source>
+        <translation>Anulează</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="162"/>
-      <source>If you type table name that doesn&apos;t exist, it will be created.</source>
-      <translation>Dacă introduceți un nume de tabel care nu există, acesta va fi creat.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <source>If you type table name that doesn&apos;t exist, it will be created.</source>
+        <translation>Dacă introduceți un nume de tabel care nu există, acesta va fi creat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="162"/>
-      <source>Enter the table name</source>
-      <translation>Introduceți numele tabelului</translation>
+        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <source>Enter the table name</source>
+        <translation>Introduceți numele tabelului</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="180"/>
-      <source>Select import plugin.</source>
-      <translation>Selectați pluginul de import.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="180"/>
+        <source>Select import plugin.</source>
+        <translation>Selectați pluginul de import.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="189"/>
-      <source>You must provide a file to import from.</source>
-      <translation>Trebuie să furnizați un fișier din care să se importe.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="189"/>
+        <source>You must provide a file to import from.</source>
+        <translation>Trebuie să furnizați un fișier din care să se importe.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="196"/>
-      <source>The file &apos;%1&apos; does not exist.</source>
-      <translation>Fișierul &apos;%1&apos; nu există.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="196"/>
+        <source>The file &apos;%1&apos; does not exist.</source>
+        <translation>Fișierul &apos;%1&apos; nu există.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="202"/>
-      <source>Path you provided is a directory. A regular file is required.</source>
-      <translation>Calea furnizată este un director. Este necesar un fișier obișnuit.</translation>
+        <location filename="../dialogs/importdialog.cpp" line="202"/>
+        <source>Path you provided is a directory. A regular file is required.</source>
+        <translation>Calea furnizată este un director. Este necesar un fișier obișnuit.</translation>
     </message>
     <message>
-      <location filename="../dialogs/importdialog.cpp" line="395"/>
-      <source>Pick file to import from</source>
-      <translation>Alegeți fișierul din care se importă</translation>
+        <location filename="../dialogs/importdialog.cpp" line="395"/>
+        <source>Pick file to import from</source>
+        <translation>Alegeți fișierul din care se importă</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>IndexDialog</name>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="20"/>
-      <location filename="../dialogs/indexdialog.ui" line="30"/>
-      <source>Index</source>
-      <translation>Index</translation>
+        <location filename="../dialogs/indexdialog.ui" line="20"/>
+        <location filename="../dialogs/indexdialog.ui" line="30"/>
+        <source>Index</source>
+        <translation>Index</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="70"/>
-      <source>Column</source>
-      <translation>Coloană</translation>
+        <location filename="../dialogs/indexdialog.ui" line="70"/>
+        <source>Column</source>
+        <translation>Coloană</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="75"/>
-      <source>Sort</source>
-      <translation>Sortare</translation>
+        <location filename="../dialogs/indexdialog.ui" line="75"/>
+        <source>Sort</source>
+        <translation>Sortare</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="80"/>
-      <source>Collation</source>
-      <translation>Colaționare</translation>
+        <location filename="../dialogs/indexdialog.ui" line="80"/>
+        <source>Collation</source>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="88"/>
-      <source>On table:</source>
-      <translation>Pe tabelul:</translation>
+        <location filename="../dialogs/indexdialog.ui" line="88"/>
+        <source>On table:</source>
+        <translation>Pe tabelul:</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="98"/>
-      <source>Delete selected indexed expression</source>
-      <translation>Șterge expresia indexată selectată</translation>
+        <location filename="../dialogs/indexdialog.ui" line="98"/>
+        <source>Delete selected indexed expression</source>
+        <translation>Șterge expresia indexată selectată</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="108"/>
-      <source>Moves selected index column up in the order, making it more significant in the index.</source>
-      <translation>Mută coloana indexului selectată mai sus în ordine, făcând-o mai semnificativă în index.</translation>
+        <location filename="../dialogs/indexdialog.ui" line="108"/>
+        <source>Moves selected index column up in the order, making it more significant in the index.</source>
+        <translation>Mută coloana indexului selectată mai sus în ordine, făcând-o mai semnificativă în index.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="118"/>
-      <source>Moves selected index column down in the order, making it less significant in the index.</source>
-      <translation>Mută coloana indexului selectată mai jos în ordine, făcând-o mai puțin semnificativă în index.</translation>
+        <location filename="../dialogs/indexdialog.ui" line="118"/>
+        <source>Moves selected index column down in the order, making it less significant in the index.</source>
+        <translation>Mută coloana indexului selectată mai jos în ordine, făcând-o mai puțin semnificativă în index.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="128"/>
-      <source>Partial index condition</source>
-      <translation>Condiție index parțial</translation>
+        <location filename="../dialogs/indexdialog.ui" line="128"/>
+        <source>Partial index condition</source>
+        <translation>Condiție index parțial</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="135"/>
-      <source>Unique index</source>
-      <translation>Index unic</translation>
+        <location filename="../dialogs/indexdialog.ui" line="135"/>
+        <source>Unique index</source>
+        <translation>Index unic</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="142"/>
-      <source>Index name:</source>
-      <translation>Nume index:</translation>
+        <location filename="../dialogs/indexdialog.ui" line="142"/>
+        <source>Index name:</source>
+        <translation>Nume index:</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="149"/>
-      <source>Edit selected indexed expression</source>
-      <translation>Editează expresia indexată selectată</translation>
+        <location filename="../dialogs/indexdialog.ui" line="149"/>
+        <source>Edit selected indexed expression</source>
+        <translation>Editează expresia indexată selectată</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="169"/>
-      <source>Add indexed expression</source>
-      <translation>Adaugă expresie indexată</translation>
+        <location filename="../dialogs/indexdialog.ui" line="169"/>
+        <source>Add indexed expression</source>
+        <translation>Adaugă expresie indexată</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.ui" line="180"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../dialogs/indexdialog.ui" line="180"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="73"/>
-      <source>Tried to open index dialog for closed or inexisting database.</source>
-      <translation>S-a încercat deschiderea dialogului de index pentru o bază de date închisă sau inexistentă.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="73"/>
+        <source>Tried to open index dialog for closed or inexisting database.</source>
+        <translation>S-a încercat deschiderea dialogului de index pentru o bază de date închisă sau inexistentă.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="143"/>
-      <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
-      <translation>Nu s-a putut procesa corect indexul %1. Nu se poate deschide un dialog de index.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="143"/>
+        <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
+        <translation>Nu s-a putut procesa corect indexul %1. Nu se poate deschide un dialog de index.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="196"/>
-      <source>Pick the table for the index.</source>
-      <translation>Alegeți tabelul pentru index.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="196"/>
+        <source>Pick the table for the index.</source>
+        <translation>Alegeți tabelul pentru index.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="197"/>
-      <source>Select at least one column.</source>
-      <translation>Selectați cel puțin o coloană.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="197"/>
+        <source>Select at least one column.</source>
+        <translation>Selectați cel puțin o coloană.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="198"/>
-      <source>Enter a valid condition.</source>
-      <translation>Introduceți o condiție validă.</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="198"/>
+        <source>Enter a valid condition.</source>
+        <translation>Introduceți o condiție validă.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="270"/>
-      <source>default</source>
-      <comment>index dialog</comment>
-      <translation>implicit</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="270"/>
+        <source>default</source>
+        <comment>index dialog</comment>
+        <translation>implicit</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="274"/>
-      <source>Sort order</source>
-      <comment>table constraints</comment>
-      <translation>Ordine de sortare</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="274"/>
+        <source>Sort order</source>
+        <comment>table constraints</comment>
+        <translation>Ordine de sortare</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="768"/>
-      <location filename="../dialogs/indexdialog.cpp" line="781"/>
-      <source>Error</source>
-      <comment>index dialog</comment>
-      <translation>Eroare</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="768"/>
+        <location filename="../dialogs/indexdialog.cpp" line="781"/>
+        <source>Error</source>
+        <comment>index dialog</comment>
+        <translation>Eroare</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="769"/>
-      <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
-      <translation>Nu se poate crea indexul unic, deoarece valorile din coloanele selectate nu sunt unice. Doriți să executați o interogare SELECT pentru a vedea valorile problematice?</translation>
+        <location filename="../dialogs/indexdialog.cpp" line="769"/>
+        <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
+        <translation>Nu se poate crea indexul unic, deoarece valorile din coloanele selectate nu sunt unice. Doriți să executați o interogare SELECT pentru a vedea valorile problematice?</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexdialog.cpp" line="781"/>
-      <source>An error occurred while executing SQL statements:
+        <location filename="../dialogs/indexdialog.cpp" line="781"/>
+        <source>An error occurred while executing SQL statements:
 %1</source>
-      <translation>A apărut o eroare la executarea instrucțiunilor SQL:
+        <translation>A apărut o eroare la executarea instrucțiunilor SQL:
 %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>IndexExprColumnDialog</name>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
-      <source>Indexed expression</source>
-      <translation>Expresie indexată</translation>
+        <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
+        <source>Indexed expression</source>
+        <translation>Expresie indexată</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
-      <source>Expression to index</source>
-      <translation>Expresie de indexat</translation>
+        <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
+        <source>Expression to index</source>
+        <translation>Expresie de indexat</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
-      <source>This expression is already indexed by the index.</source>
-      <translation>Această expresie este deja indexată de index.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
+        <source>This expression is already indexed by the index.</source>
+        <translation>Această expresie este deja indexată de index.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
-      <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
-      <translation>Coloana ar trebui indexată direct, nu prin expresie. Fie extindeți această expresie pentru a conține ceva mai mult decât doar numele coloanei, fie anulați și selectați această coloană direct în dialogul indexului.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
+        <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
+        <translation>Coloana ar trebui indexată direct, nu prin expresie. Fie extindeți această expresie pentru a conține ceva mai mult decât doar numele coloanei, fie anulați și selectați această coloană direct în dialogul indexului.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
-      <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
-      <translation>Coloana &apos;%1&apos; nu aparține tabelului acoperit de acest index. Expresiile indexate se pot referi numai la coloane din tabelul indexat.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
+        <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
+        <translation>Coloana &apos;%1&apos; nu aparține tabelului acoperit de acest index. Expresiile indexate se pot referi numai la coloane din tabelul indexat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
-      <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
-      <translation>Este interzisă utilizarea instrucțiunilor &apos;SELECT&apos; în expresiile indexate.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
+        <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
+        <translation>Este interzisă utilizarea instrucțiunilor &apos;SELECT&apos; în expresiile indexate.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
-      <source>Enter an indexed expression.</source>
-      <translation>Introduceți o expresie indexată.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
+        <source>Enter an indexed expression.</source>
+        <translation>Introduceți o expresie indexată.</translation>
     </message>
     <message>
-      <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
-      <source>Invalid expression.</source>
-      <translation>Expresie nevalidă.</translation>
+        <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
+        <source>Invalid expression.</source>
+        <translation>Expresie nevalidă.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>LanguageDialog</name>
     <message>
-      <location filename="../dialogs/languagedialog.ui" line="14"/>
-      <source>Language</source>
-      <translation>Limbă</translation>
+        <location filename="../dialogs/languagedialog.ui" line="14"/>
+        <source>Language</source>
+        <translation>Limbă</translation>
     </message>
     <message>
-      <location filename="../dialogs/languagedialog.ui" line="20"/>
-      <source>Please choose language:</source>
-      <translation>Alegeți limba:</translation>
+        <location filename="../dialogs/languagedialog.ui" line="20"/>
+        <source>Please choose language:</source>
+        <translation>Alegeți limba:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MainWindow</name>
     <message>
-      <location filename="../mainwindow.ui" line="81"/>
-      <source>Database toolbar</source>
-      <translation>Bară de instrumente baze de date</translation>
+        <location filename="../mainwindow.ui" line="81"/>
+        <source>Database toolbar</source>
+        <translation>Bară de instrumente baze de date</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="92"/>
-      <source>Structure toolbar</source>
-      <translation>Bară de instrumente structură</translation>
+        <location filename="../mainwindow.ui" line="92"/>
+        <source>Structure toolbar</source>
+        <translation>Bară de instrumente structură</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="103"/>
-      <source>Tools</source>
-      <translation>Instrumente</translation>
+        <location filename="../mainwindow.ui" line="103"/>
+        <source>Tools</source>
+        <translation>Instrumente</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="120"/>
-      <source>Window list</source>
-      <translation>Listă de ferestre</translation>
+        <location filename="../mainwindow.ui" line="120"/>
+        <source>Window list</source>
+        <translation>Listă de ferestre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.ui" line="134"/>
-      <source>View toolbar</source>
-      <translation>Bară de instrumente vizualizare</translation>
+        <location filename="../mainwindow.ui" line="134"/>
+        <source>View toolbar</source>
+        <translation>Bară de instrumente vizualizare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="145"/>
-      <source>Configuration widgets</source>
-      <translation>Widgeturi de configurare</translation>
+        <location filename="../mainwindow.cpp" line="145"/>
+        <source>Configuration widgets</source>
+        <translation>Widgeturi de configurare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="146"/>
-      <source>Syntax highlighting engines</source>
-      <translation>Motoare de evidențiere a sintaxei</translation>
+        <location filename="../mainwindow.cpp" line="146"/>
+        <source>Syntax highlighting engines</source>
+        <translation>Motoare de evidențiere a sintaxei</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="147"/>
-      <source>Data editors</source>
-      <translation>Editoare de date</translation>
+        <location filename="../mainwindow.cpp" line="147"/>
+        <source>Data editors</source>
+        <translation>Editoare de date</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="160"/>
-      <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
-      <translation>Rulează în modul de depanare. Apăsați %1 sau folosiți intrarea de meniu &apos;Ajutor / Deschide consola de depanare&apos; pentru a deschide consola de depanare.</translation>
+        <location filename="../mainwindow.cpp" line="160"/>
+        <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
+        <translation>Rulează în modul de depanare. Apăsați %1 sau folosiți intrarea de meniu &apos;Ajutor / Deschide consola de depanare&apos; pentru a deschide consola de depanare.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="162"/>
-      <source>Running in debug mode. Debug messages are printed to the standard output.</source>
-      <translation>Rulează în modul de depanare. Mesajele de depanare sunt afișate la ieșirea standard.</translation>
+        <location filename="../mainwindow.cpp" line="162"/>
+        <source>Running in debug mode. Debug messages are printed to the standard output.</source>
+        <translation>Rulează în modul de depanare. Mesajele de depanare sunt afișate la ieșirea standard.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="272"/>
-      <source>You need to restart application to make the language change take effect.</source>
-      <translation>Trebuie să reporniți aplicația pentru ca schimbarea limbii să intre în vigoare.</translation>
+        <location filename="../mainwindow.cpp" line="272"/>
+        <source>You need to restart application to make the language change take effect.</source>
+        <translation>Trebuie să reporniți aplicația pentru ca schimbarea limbii să intre în vigoare.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="317"/>
-      <source>Open SQL &amp;editor</source>
-      <translation>Deschide &amp;editorul SQL</translation>
+        <location filename="../mainwindow.cpp" line="317"/>
+        <source>Open SQL &amp;editor</source>
+        <translation>Deschide &amp;editorul SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="361"/>
-      <source>Open DDL &amp;history</source>
-      <translation>Deschide &amp;istoricul DDL</translation>
+        <location filename="../mainwindow.cpp" line="361"/>
+        <source>Open DDL &amp;history</source>
+        <translation>Deschide &amp;istoricul DDL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="318"/>
-      <source>Open SQL &amp;functions editor</source>
-      <translation>Deschide editorul de &amp;funcții SQL</translation>
+        <location filename="../mainwindow.cpp" line="318"/>
+        <source>Open SQL &amp;functions editor</source>
+        <translation>Deschide editorul de &amp;funcții SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="319"/>
-      <source>Open code &amp;snippets editor</source>
-      <translation>Deschide editorul de fragmente de &amp;cod</translation>
+        <location filename="../mainwindow.cpp" line="319"/>
+        <source>Open code &amp;snippets editor</source>
+        <translation>Deschide editorul de fragmente de &amp;cod</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="320"/>
-      <source>Open &amp;collations editor</source>
-      <translation>Deschide editorul de &amp;colaționări</translation>
+        <location filename="../mainwindow.cpp" line="320"/>
+        <source>Open &amp;collations editor</source>
+        <translation>Deschide editorul de &amp;colaționări</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="321"/>
-      <source>Open ex&amp;tension manager</source>
-      <translation>Deschide managerul de ex&amp;tensii</translation>
+        <location filename="../mainwindow.cpp" line="321"/>
+        <source>Open ex&amp;tension manager</source>
+        <translation>Deschide managerul de ex&amp;tensii</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="323"/>
-      <source>&amp;Import</source>
-      <translation>&amp;Importă</translation>
+        <location filename="../mainwindow.cpp" line="323"/>
+        <source>&amp;Import</source>
+        <translation>&amp;Importă</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="324"/>
-      <source>E&amp;xport</source>
-      <translation>E&amp;xportă</translation>
+        <location filename="../mainwindow.cpp" line="324"/>
+        <source>E&amp;xport</source>
+        <translation>E&amp;xportă</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="325"/>
-      <source>Open confi&amp;guration dialog</source>
-      <translation>Deschide dialogul de confi&amp;gurare</translation>
+        <location filename="../mainwindow.cpp" line="325"/>
+        <source>Open confi&amp;guration dialog</source>
+        <translation>Deschide dialogul de confi&amp;gurare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="327"/>
-      <source>&amp;Tile windows</source>
-      <translation>&amp;Aranjează ferestrele</translation>
+        <location filename="../mainwindow.cpp" line="327"/>
+        <source>&amp;Tile windows</source>
+        <translation>&amp;Aranjează ferestrele</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="328"/>
-      <source>Tile windows &amp;horizontally</source>
-      <translation>Aranjează ferestrele pe &amp;orizontală</translation>
+        <location filename="../mainwindow.cpp" line="328"/>
+        <source>Tile windows &amp;horizontally</source>
+        <translation>Aranjează ferestrele pe &amp;orizontală</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="329"/>
-      <source>Tile windows &amp;vertically</source>
-      <translation>Aranjează ferestrele pe &amp;verticală</translation>
+        <location filename="../mainwindow.cpp" line="329"/>
+        <source>Tile windows &amp;vertically</source>
+        <translation>Aranjează ferestrele pe &amp;verticală</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="330"/>
-      <source>&amp;Cascade windows</source>
-      <translation>Aranjează ferestrele în &amp;cascadă</translation>
+        <location filename="../mainwindow.cpp" line="330"/>
+        <source>&amp;Cascade windows</source>
+        <translation>Aranjează ferestrele în &amp;cascadă</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="332"/>
-      <source>Next window</source>
-      <translation>Fereastra următoare</translation>
+        <location filename="../mainwindow.cpp" line="332"/>
+        <source>Next window</source>
+        <translation>Fereastra următoare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="331"/>
-      <source>Previous window</source>
-      <translation>Fereastra anterioară</translation>
+        <location filename="../mainwindow.cpp" line="331"/>
+        <source>Previous window</source>
+        <translation>Fereastra anterioară</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="335"/>
-      <source>Hide status field</source>
-      <translation>Ascunde câmpul de stare</translation>
+        <location filename="../mainwindow.cpp" line="335"/>
+        <source>Hide status field</source>
+        <translation>Ascunde câmpul de stare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="339"/>
-      <source>Close &amp;all windows</source>
-      <translation>Închide toate &amp;ferestrele</translation>
+        <location filename="../mainwindow.cpp" line="339"/>
+        <source>Close &amp;all windows</source>
+        <translation>Închide toate &amp;ferestrele</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="342"/>
-      <source>Re&amp;store recently closed window</source>
-      <translation>Re&amp;stabilește fereastra închisă recent</translation>
+        <location filename="../mainwindow.cpp" line="342"/>
+        <source>Re&amp;store recently closed window</source>
+        <translation>Re&amp;stabilește fereastra închisă recent</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="337"/>
-      <source>Close current &amp;window</source>
-      <translation>Închide fereastra &amp;curentă</translation>
+        <location filename="../mainwindow.cpp" line="337"/>
+        <source>Close current &amp;window</source>
+        <translation>Închide fereastra &amp;curentă</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="148"/>
-      <source>Data renderers</source>
-      <translation>Randori de date</translation>
+        <location filename="../mainwindow.cpp" line="148"/>
+        <source>Data renderers</source>
+        <translation>Randori de date</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="338"/>
-      <source>Close &amp;other windows</source>
-      <translation>Închide &amp;celelalte ferestre</translation>
+        <location filename="../mainwindow.cpp" line="338"/>
+        <source>Close &amp;other windows</source>
+        <translation>Închide &amp;celelalte ferestre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="340"/>
-      <source>Close windows on the &amp;left</source>
-      <translation>Închide ferestrele din &amp;stânga</translation>
+        <location filename="../mainwindow.cpp" line="340"/>
+        <source>Close windows on the &amp;left</source>
+        <translation>Închide ferestrele din &amp;stânga</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="341"/>
-      <source>Close windows on the &amp;right</source>
-      <translation>Închide ferestrele din &amp;dreapta</translation>
+        <location filename="../mainwindow.cpp" line="341"/>
+        <source>Close windows on the &amp;right</source>
+        <translation>Închide ferestrele din &amp;dreapta</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="343"/>
-      <source>Re&amp;name selected window</source>
-      <translation>Rede&amp;numește fereastra selectată</translation>
+        <location filename="../mainwindow.cpp" line="343"/>
+        <source>Re&amp;name selected window</source>
+        <translation>Rede&amp;numește fereastra selectată</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="346"/>
-      <source>Open Debug Console</source>
-      <translation>Deschide consola de depanare</translation>
+        <location filename="../mainwindow.cpp" line="346"/>
+        <source>Open Debug Console</source>
+        <translation>Deschide consola de depanare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="347"/>
-      <source>Open CSS Console</source>
-      <translation>Deschide consola CSS</translation>
+        <location filename="../mainwindow.cpp" line="347"/>
+        <source>Open CSS Console</source>
+        <translation>Deschide consola CSS</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="348"/>
-      <source>Report a &amp;bug</source>
-      <translation>Raportează o &amp;eroare</translation>
+        <location filename="../mainwindow.cpp" line="348"/>
+        <source>Report a &amp;bug</source>
+        <translation>Raportează o &amp;eroare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="349"/>
-      <source>D&amp;onate</source>
-      <translation>D&amp;onează</translation>
+        <location filename="../mainwindow.cpp" line="349"/>
+        <source>D&amp;onate</source>
+        <translation>D&amp;onează</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="350"/>
-      <source>Propose a new &amp;feature</source>
-      <translation>Propune o &amp;funcționalitate nouă</translation>
+        <location filename="../mainwindow.cpp" line="350"/>
+        <source>Propose a new &amp;feature</source>
+        <translation>Propune o &amp;funcționalitate nouă</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="351"/>
-      <source>&amp;About</source>
-      <translation>&amp;Despre</translation>
+        <location filename="../mainwindow.cpp" line="351"/>
+        <source>&amp;About</source>
+        <translation>&amp;Despre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="352"/>
-      <source>&amp;Licenses</source>
-      <translation>&amp;Licențe</translation>
+        <location filename="../mainwindow.cpp" line="352"/>
+        <source>&amp;Licenses</source>
+        <translation>&amp;Licențe</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="353"/>
-      <source>Open home &amp;page</source>
-      <translation>Deschide pagina &amp;principală</translation>
+        <location filename="../mainwindow.cpp" line="353"/>
+        <source>Open home &amp;page</source>
+        <translation>Deschide pagina &amp;principală</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="354"/>
-      <source>User &amp;Manual</source>
-      <translation>&amp;Manualul utilizatorului</translation>
+        <location filename="../mainwindow.cpp" line="354"/>
+        <source>User &amp;Manual</source>
+        <translation>&amp;Manualul utilizatorului</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="355"/>
-      <source>SQLite &amp;documentation</source>
-      <translation>&amp;Documentația SQLite</translation>
+        <location filename="../mainwindow.cpp" line="355"/>
+        <source>SQLite &amp;documentation</source>
+        <translation>&amp;Documentația SQLite</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="356"/>
-      <source>Bugs and feature &amp;requests</source>
-      <translation>Erori și solicitări de &amp;funcționalități</translation>
+        <location filename="../mainwindow.cpp" line="356"/>
+        <source>Bugs and feature &amp;requests</source>
+        <translation>Erori și solicitări de &amp;funcționalități</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="357"/>
-      <source>Quit</source>
-      <translation>Ieșire</translation>
+        <location filename="../mainwindow.cpp" line="357"/>
+        <source>Quit</source>
+        <translation>Ieșire</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="359"/>
-      <source>Check for &amp;updates</source>
-      <translation>Caută &amp;actualizări</translation>
+        <location filename="../mainwindow.cpp" line="359"/>
+        <source>Check for &amp;updates</source>
+        <translation>Caută &amp;actualizări</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="390"/>
-      <source>&amp;Database</source>
-      <comment>menubar</comment>
-      <translation>Bază de &amp;date</translation>
+        <location filename="../mainwindow.cpp" line="390"/>
+        <source>&amp;Database</source>
+        <comment>menubar</comment>
+        <translation>Bază de &amp;date</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="415"/>
-      <source>&amp;Structure</source>
-      <comment>menubar</comment>
-      <translation>&amp;Structură</translation>
+        <location filename="../mainwindow.cpp" line="415"/>
+        <source>&amp;Structure</source>
+        <comment>menubar</comment>
+        <translation>&amp;Structură</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="766"/>
-      <source>&amp;View</source>
-      <comment>menubar</comment>
-      <translation>&amp;Vizualizare</translation>
+        <location filename="../mainwindow.cpp" line="766"/>
+        <source>&amp;View</source>
+        <comment>menubar</comment>
+        <translation>&amp;Vizualizare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1450"/>
-      <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
-      <translation>Fișierul plasat pare a fi o bază de date SQLite 2, care nu este acceptată de această versiune Letos. Ultima versiune care accepta SQLite 2 a fost 3.2.1.</translation>
+        <location filename="../mainwindow.cpp" line="1450"/>
+        <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
+        <translation>Fișierul plasat pare a fi o bază de date SQLite 2, care nu este acceptată de această versiune Letos. Ultima versiune care accepta SQLite 2 a fost 3.2.1.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="441"/>
-      <source>Window list</source>
-      <comment>menubar view menu</comment>
-      <translation>Listă de ferestre</translation>
+        <location filename="../mainwindow.cpp" line="441"/>
+        <source>Window list</source>
+        <comment>menubar view menu</comment>
+        <translation>Listă de ferestre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="333"/>
-      <source>Move window earlier</source>
-      <translation>Mută fereastra mai devreme</translation>
+        <location filename="../mainwindow.cpp" line="333"/>
+        <source>Move window earlier</source>
+        <translation>Mută fereastra mai devreme</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="334"/>
-      <source>Move window later</source>
-      <translation>Mută fereastra mai târziu</translation>
+        <location filename="../mainwindow.cpp" line="334"/>
+        <source>Move window later</source>
+        <translation>Mută fereastra mai târziu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="345"/>
-      <source>Open Command Palette</source>
-      <translation>Deschide Paleta de comenzi</translation>
+        <location filename="../mainwindow.cpp" line="345"/>
+        <source>Open Command Palette</source>
+        <translation>Deschide Paleta de comenzi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="362"/>
-      <source>Export configuration</source>
-      <translation>Exportă configurația</translation>
+        <location filename="../mainwindow.cpp" line="362"/>
+        <source>Export configuration</source>
+        <translation>Exportă configurația</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="363"/>
-      <source>Import configuration</source>
-      <translation>Importă configurația</translation>
+        <location filename="../mainwindow.cpp" line="363"/>
+        <source>Import configuration</source>
+        <translation>Importă configurația</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="382"/>
-      <source>arrange</source>
-      <comment>command palette entry</comment>
-      <translation>aranjează</translation>
+        <location filename="../mainwindow.cpp" line="382"/>
+        <source>arrange</source>
+        <comment>command palette entry</comment>
+        <translation>aranjează</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="471"/>
-      <source>&amp;Tools</source>
-      <comment>menubar</comment>
-      <translation>&amp;Instrumente</translation>
+        <location filename="../mainwindow.cpp" line="471"/>
+        <source>&amp;Tools</source>
+        <comment>menubar</comment>
+        <translation>&amp;Instrumente</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="491"/>
-      <source>&amp;Help</source>
-      <translation>&amp;Ajutor</translation>
+        <location filename="../mainwindow.cpp" line="491"/>
+        <source>&amp;Help</source>
+        <translation>&amp;Ajutor</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="703"/>
-      <source>Could not set style: %1</source>
-      <comment>main window</comment>
-      <translation>Nu s-a putut seta stilul: %1</translation>
+        <location filename="../mainwindow.cpp" line="703"/>
+        <source>Could not set style: %1</source>
+        <comment>main window</comment>
+        <translation>Nu s-a putut seta stilul: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="940"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
+        <location filename="../mainwindow.cpp" line="940"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="957"/>
-      <source>Cannot import, because no import plugin is loaded.</source>
-      <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
+        <location filename="../mainwindow.cpp" line="957"/>
+        <source>Cannot import, because no import plugin is loaded.</source>
+        <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1000"/>
-      <source>Rename window</source>
-      <translation>Redenumește fereastra</translation>
+        <location filename="../mainwindow.cpp" line="1000"/>
+        <source>Rename window</source>
+        <translation>Redenumește fereastra</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1000"/>
-      <source>Enter new name for the window:</source>
-      <translation>Introduceți un nume nou pentru fereastră:</translation>
+        <location filename="../mainwindow.cpp" line="1000"/>
+        <source>Enter new name for the window:</source>
+        <translation>Introduceți un nume nou pentru fereastră:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1110"/>
-      <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
-      <translation>Sunt disponibile actualizări noi. &lt;a href=&quot;%1&quot;&gt;Faceți clic aici pentru detalii&lt;/a&gt;.</translation>
+        <location filename="../mainwindow.cpp" line="1110"/>
+        <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
+        <translation>Sunt disponibile actualizări noi. &lt;a href=&quot;%1&quot;&gt;Faceți clic aici pentru detalii&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1116"/>
-      <source>You&apos;re running the most recent version. No updates are available.</source>
-      <translation>Rulați cea mai recentă versiune. Nu sunt disponibile actualizări.</translation>
+        <location filename="../mainwindow.cpp" line="1116"/>
+        <source>You&apos;re running the most recent version. No updates are available.</source>
+        <translation>Rulați cea mai recentă versiune. Nu sunt disponibile actualizări.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1171"/>
-      <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-      <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+        <location filename="../mainwindow.cpp" line="1171"/>
+        <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
+        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1256"/>
-      <source>Toolbar &amp;icons</source>
-      <comment>menubar</comment>
-      <translation>Pictogramele barei de &amp;instrumente</translation>
+        <location filename="../mainwindow.cpp" line="1256"/>
+        <source>Toolbar &amp;icons</source>
+        <comment>menubar</comment>
+        <translation>Pictogramele barei de &amp;instrumente</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1263"/>
-      <source>Size: %1%</source>
-      <comment>toolbar icons</comment>
-      <translation>Dimensiune: %1%</translation>
+        <location filename="../mainwindow.cpp" line="1263"/>
+        <source>Size: %1%</source>
+        <comment>toolbar icons</comment>
+        <translation>Dimensiune: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1351"/>
-      <source>Drop files to open them</source>
-      <translation>Plasați fișiere pentru a le deschide</translation>
+        <location filename="../mainwindow.cpp" line="1351"/>
+        <source>Drop files to open them</source>
+        <translation>Plasați fișiere pentru a le deschide</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1453"/>
-      <source>The dropped file type is unsupported: %1 (%2)</source>
-      <translation>Tipul fișierului plasat nu este acceptat: %1 (%2)</translation>
+        <location filename="../mainwindow.cpp" line="1453"/>
+        <source>The dropped file type is unsupported: %1 (%2)</source>
+        <translation>Tipul fișierului plasat nu este acceptat: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1463"/>
-      <source>SQLite 3 database - add to database list and open</source>
-      <translation>Bază de date SQLite 3 - adaugă la lista de baze de date și deschide</translation>
+        <location filename="../mainwindow.cpp" line="1463"/>
+        <source>SQLite 3 database - add to database list and open</source>
+        <translation>Bază de date SQLite 3 - adaugă la lista de baze de date și deschide</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1465"/>
-      <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
-      <translation>Poate fi o bază de date SQLite 3 criptată. Puteți încerca să o deschideți.</translation>
+        <location filename="../mainwindow.cpp" line="1465"/>
+        <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
+        <translation>Poate fi o bază de date SQLite 3 criptată. Puteți încerca să o deschideți.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1467"/>
-      <source>Empty file, but also empty SQLite 3 database - open as database</source>
-      <translation>Fișier gol, dar și bază de date SQLite 3 goală - deschide ca bază de date</translation>
+        <location filename="../mainwindow.cpp" line="1467"/>
+        <source>Empty file, but also empty SQLite 3 database - open as database</source>
+        <translation>Fișier gol, dar și bază de date SQLite 3 goală - deschide ca bază de date</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1469"/>
-      <source>SQL file - open in SQL Editor</source>
-      <translation>Fișier SQL - deschide în editorul SQL</translation>
+        <location filename="../mainwindow.cpp" line="1469"/>
+        <source>SQL file - open in SQL Editor</source>
+        <translation>Fișier SQL - deschide în editorul SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1471"/>
-      <source>Text file - open in SQL Editor</source>
-      <translation>Fișier text - deschide în editorul SQL</translation>
+        <location filename="../mainwindow.cpp" line="1471"/>
+        <source>Text file - open in SQL Editor</source>
+        <translation>Fișier text - deschide în editorul SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1473"/>
-      <source>CSV file - import using Import Dialog</source>
-      <translation>Fișier CSV - importă folosind dialogul de import</translation>
+        <location filename="../mainwindow.cpp" line="1473"/>
+        <source>CSV file - import using Import Dialog</source>
+        <translation>Fișier CSV - importă folosind dialogul de import</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1475"/>
-      <source>SQLite 2 database - not supported anymore</source>
-      <translation>Bază de date SQLite 2 - nu mai este acceptată</translation>
+        <location filename="../mainwindow.cpp" line="1475"/>
+        <source>SQLite 2 database - not supported anymore</source>
+        <translation>Bază de date SQLite 2 - nu mai este acceptată</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1477"/>
-      <source>Unsupported file type</source>
-      <translation>Tip de fișier neacceptat</translation>
+        <location filename="../mainwindow.cpp" line="1477"/>
+        <source>Unsupported file type</source>
+        <translation>Tip de fișier neacceptat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1576"/>
-      <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
-      <translation>Baza de date transmisă în parametrii liniei de comandă (%1) era deja în listă sub numele: %2</translation>
+        <location filename="../mainwindow.cpp" line="1576"/>
+        <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
+        <translation>Baza de date transmisă în parametrii liniei de comandă (%1) era deja în listă sub numele: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1583"/>
-      <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
-      <translation>Baza de date transmisă în parametrii liniei de comandă (%1) a fost adăugată temporar în listă sub numele: %2</translation>
+        <location filename="../mainwindow.cpp" line="1583"/>
+        <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
+        <translation>Baza de date transmisă în parametrii liniei de comandă (%1) a fost adăugată temporar în listă sub numele: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1588"/>
-      <source>Could not add database %1 to list.</source>
-      <translation>Nu s-a putut adăuga baza de date %1 în listă.</translation>
+        <location filename="../mainwindow.cpp" line="1588"/>
+        <source>Could not add database %1 to list.</source>
+        <translation>Nu s-a putut adăuga baza de date %1 în listă.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ManualCommitPendingTxDialog</name>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
-      <source>Pending transaction</source>
-      <translation>Tranzacție în așteptare</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
+        <source>Pending transaction</source>
+        <translation>Tranzacție în așteptare</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
-      <source>Roll Back Transaction</source>
-      <translation>Revino asupra tranzacției</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
+        <source>Roll Back Transaction</source>
+        <translation>Revino asupra tranzacției</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
-      <source>Discard changes made within the transaction and proceed</source>
-      <translation>Renunță la modificările făcute în cadrul tranzacției și continuă</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
+        <source>Discard changes made within the transaction and proceed</source>
+        <translation>Renunță la modificările făcute în cadrul tranzacției și continuă</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
-      <source>Commit Transaction</source>
-      <translation>Confirmă tranzacția</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
+        <source>Commit Transaction</source>
+        <translation>Confirmă tranzacția</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
-      <source>Save transaction changes and proceed</source>
-      <translation>Salvează modificările tranzacției și continuă</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
+        <source>Save transaction changes and proceed</source>
+        <translation>Salvează modificările tranzacției și continuă</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
-      <source>Cancel</source>
-      <translation>Anulează</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
+        <source>Cancel</source>
+        <translation>Anulează</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
-      <source>Keep the transaction open and stay with the current database</source>
-      <translation>Păstrează tranzacția deschisă și rămâi la baza de date curentă</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
+        <source>Keep the transaction open and stay with the current database</source>
+        <translation>Păstrează tranzacția deschisă și rămâi la baza de date curentă</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Ce doriți să faceți cu această tranzacție?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Ce doriți să faceți cu această tranzacție?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Conexiunea curentă la baza de date (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) are o tranzacție manuală activă cu modificări în așteptare care nu au fost încă confirmate.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Conexiunea curentă la baza de date (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) are o tranzacție manuală activă cu modificări în așteptare care nu au fost încă confirmate.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ManualCommitWalModeDialog</name>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
-      <source>WAL mode for manual commits</source>
-      <translation>Mod WAL pentru confirmări manuale</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
+        <source>WAL mode for manual commits</source>
+        <translation>Mod WAL pentru confirmări manuale</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Această bază de date (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) nu utilizează în prezent modul de jurnal WAL (Write-Ahead Logging).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Modul de confirmare manuală necesită activarea modului WAL.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Modul WAL permite altor conexiuni și părți ale aplicației să continue să citească baza de date cât timp este deschisă o tranzacție de scriere. Fără modul WAL, o tranzacție deschisă ar putea bloca reîmprospătarea schemei, navigarea prin date și alte operații asupra bazei de date.&lt;/p&gt;&lt;p&gt;Rețineți:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modul WAL afectează fișierul bazei de date în sine și va fi utilizat de toate conexiunile viitoare la această bază de date până când este schimbat din nou cu &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite permite în continuare doar o singură tranzacție de scriere activă la un moment dat, chiar și în modul WAL.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Citiți mai multe despre WAL la &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Această bază de date (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) nu utilizează în prezent modul de jurnal WAL (Write-Ahead Logging).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Modul de confirmare manuală necesită activarea modului WAL.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Modul WAL permite altor conexiuni și părți ale aplicației să continue să citească baza de date cât timp este deschisă o tranzacție de scriere. Fără modul WAL, o tranzacție deschisă ar putea bloca reîmprospătarea schemei, navigarea prin date și alte operații asupra bazei de date.&lt;/p&gt;&lt;p&gt;Rețineți:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Modul WAL afectează fișierul bazei de date în sine și va fi utilizat de toate conexiunile viitoare la această bază de date până când este schimbat din nou cu &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite permite în continuare doar o singură tranzacție de scriere activă la un moment dat, chiar și în modul WAL.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Citiți mai multe despre WAL la &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
-      <source>Keep current journal mode</source>
-      <translation>Păstrează modul curent de jurnal</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
+        <source>Keep current journal mode</source>
+        <translation>Păstrează modul curent de jurnal</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
-      <source>and use auto-commits</source>
-      <translation>și folosește confirmări automate</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
+        <source>and use auto-commits</source>
+        <translation>și folosește confirmări automate</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
-      <source>Enable WAL mode</source>
-      <translation>Activează modul WAL</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
+        <source>Enable WAL mode</source>
+        <translation>Activează modul WAL</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
-      <source>and use manual commits</source>
-      <translation>și folosește confirmări manuale</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
+        <source>and use manual commits</source>
+        <translation>și folosește confirmări manuale</translation>
     </message>
     <message>
-      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Doriți să activați modul WAL și să continuați?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Doriți să activați modul WAL și să continuați?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MdiWindow</name>
     <message>
-      <location filename="../mdiwindow.cpp" line="204"/>
-      <source>Uncommitted changes</source>
-      <translation>Modificări neconfirmate</translation>
+        <location filename="../mdiwindow.cpp" line="204"/>
+        <source>Uncommitted changes</source>
+        <translation>Modificări neconfirmate</translation>
     </message>
     <message>
-      <location filename="../mdiwindow.cpp" line="209"/>
-      <source>Close anyway</source>
-      <translation>Închide oricum</translation>
+        <location filename="../mdiwindow.cpp" line="209"/>
+        <source>Close anyway</source>
+        <translation>Închide oricum</translation>
     </message>
     <message>
-      <location filename="../mdiwindow.cpp" line="211"/>
-      <source>Don&apos;t close</source>
-      <translation>Nu închide</translation>
+        <location filename="../mdiwindow.cpp" line="211"/>
+        <source>Don&apos;t close</source>
+        <translation>Nu închide</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditor</name>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="70"/>
-      <location filename="../multieditor/multieditor.cpp" line="590"/>
-      <source>Null value</source>
-      <comment>multieditor</comment>
-      <translation>Valoare null</translation>
+        <location filename="../multieditor/multieditor.cpp" line="70"/>
+        <location filename="../multieditor/multieditor.cpp" line="590"/>
+        <source>Null value</source>
+        <comment>multieditor</comment>
+        <translation>Valoare null</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="80"/>
-      <source>Save this value to a file</source>
-      <translation>Salvează această valoare într-un fișier</translation>
+        <location filename="../multieditor/multieditor.cpp" line="80"/>
+        <source>Save this value to a file</source>
+        <translation>Salvează această valoare într-un fișier</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="83"/>
-      <source>Load this value from a file</source>
-      <translation>Încarcă această valoare dintr-un fișier</translation>
+        <location filename="../multieditor/multieditor.cpp" line="83"/>
+        <source>Load this value from a file</source>
+        <translation>Încarcă această valoare dintr-un fișier</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="94"/>
-      <source>Configure editors for this data type</source>
-      <translation>Configurează editoarele pentru acest tip de date</translation>
+        <location filename="../multieditor/multieditor.cpp" line="94"/>
+        <source>Configure editors for this data type</source>
+        <translation>Configurează editoarele pentru acest tip de date</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="102"/>
-      <source>Open another tab</source>
-      <translation>Deschide altă filă</translation>
+        <location filename="../multieditor/multieditor.cpp" line="102"/>
+        <source>Open another tab</source>
+        <translation>Deschide altă filă</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="118"/>
-      <source>Reset value</source>
-      <translation>Resetează valoarea</translation>
+        <location filename="../multieditor/multieditor.cpp" line="118"/>
+        <source>Reset value</source>
+        <translation>Resetează valoarea</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="376"/>
-      <source>Foreign Key</source>
-      <translation>Cheie străină</translation>
+        <location filename="../multieditor/multieditor.cpp" line="376"/>
+        <source>Foreign Key</source>
+        <translation>Cheie străină</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="434"/>
-      <source>All files (*)</source>
-      <translation>Toate fișierele (*)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="434"/>
+        <source>All files (*)</source>
+        <translation>Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="436"/>
-      <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
-      <translation>Fișiere text (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="436"/>
+        <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
+        <translation>Fișiere text (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="438"/>
-      <source>SQL files (*.sql)</source>
-      <translation>Fișiere SQL (*.sql)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="438"/>
+        <source>SQL files (*.sql)</source>
+        <translation>Fișiere SQL (*.sql)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="440"/>
-      <source>Binary data (*.bin *.dat *.raw)</source>
-      <translation>Date binare (*.bin *.dat *.raw)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="440"/>
+        <source>Binary data (*.bin *.dat *.raw)</source>
+        <translation>Date binare (*.bin *.dat *.raw)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="442"/>
-      <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
-      <translation>Imagini (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="442"/>
+        <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
+        <translation>Imagini (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="444"/>
-      <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
-      <translation>Arhive (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="444"/>
+        <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
+        <translation>Arhive (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="446"/>
-      <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
-      <translation>Documente (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="446"/>
+        <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
+        <translation>Documente (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="448"/>
-      <source>Executables (*.exe *.dll *.so *.dylib)</source>
-      <translation>Executabile (*.exe *.dll *.so *.dylib)</translation>
+        <location filename="../multieditor/multieditor.cpp" line="448"/>
+        <source>Executables (*.exe *.dll *.so *.dylib)</source>
+        <translation>Executabile (*.exe *.dll *.so *.dylib)</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="472"/>
-      <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
-      <translation>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%1&apos; data type. {1&apos;?} {2&apos;?} {1&apos; or 2&apos;?}</translation>
+        <location filename="../multieditor/multieditor.cpp" line="472"/>
+        <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
+        <translation>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%1&apos; data type. {1&apos;?} {2&apos;?} {1&apos; or 2&apos;?}</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="578"/>
-      <source>Deleted</source>
-      <comment>multieditor</comment>
-      <translation>Șters</translation>
+        <location filename="../multieditor/multieditor.cpp" line="578"/>
+        <source>Deleted</source>
+        <comment>multieditor</comment>
+        <translation>Șters</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="580"/>
-      <source>Read only</source>
-      <comment>multieditor</comment>
-      <translation>Doar citire</translation>
+        <location filename="../multieditor/multieditor.cpp" line="580"/>
+        <source>Read only</source>
+        <comment>multieditor</comment>
+        <translation>Doar citire</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="694"/>
-      <source>Open</source>
-      <translation>Deschide</translation>
+        <location filename="../multieditor/multieditor.cpp" line="694"/>
+        <source>Open</source>
+        <translation>Deschide</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="703"/>
-      <source>Could not open file %1 for reading.</source>
-      <translation>Nu s-a putut deschide fișierul %1 pentru citire.</translation>
+        <location filename="../multieditor/multieditor.cpp" line="703"/>
+        <source>Could not open file %1 for reading.</source>
+        <translation>Nu s-a putut deschide fișierul %1 pentru citire.</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="719"/>
-      <source>Save</source>
-      <translation>Salvează</translation>
+        <location filename="../multieditor/multieditor.cpp" line="719"/>
+        <source>Save</source>
+        <translation>Salvează</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="728"/>
-      <source>Could not open file %1 for writting.</source>
-      <translation>Nu s-a putut deschide fișierul %1 pentru scriere.</translation>
+        <location filename="../multieditor/multieditor.cpp" line="728"/>
+        <source>Could not open file %1 for writting.</source>
+        <translation>Nu s-a putut deschide fișierul %1 pentru scriere.</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditor.cpp" line="778"/>
-      <source>Could not write data into the file %1</source>
-      <translation>Nu s-au putut scrie datele în fișierul %1</translation>
+        <location filename="../multieditor/multieditor.cpp" line="778"/>
+        <source>Could not write data into the file %1</source>
+        <translation>Nu s-au putut scrie datele în fișierul %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorBoolPlugin</name>
     <message>
-      <location filename="../multieditor/multieditorbool.cpp" line="227"/>
-      <source>Boolean</source>
-      <translation>Boolean</translation>
+        <location filename="../multieditor/multieditorbool.cpp" line="227"/>
+        <source>Boolean</source>
+        <translation>Boolean</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorDatePlugin</name>
     <message>
-      <location filename="../multieditor/multieditordate.cpp" line="89"/>
-      <source>Date</source>
-      <translation>Dată</translation>
+        <location filename="../multieditor/multieditordate.cpp" line="89"/>
+        <source>Date</source>
+        <translation>Dată</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorDateTimePlugin</name>
     <message>
-      <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
-      <source>Date &amp; time</source>
-      <translation>Dată și oră</translation>
+        <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
+        <source>Date &amp; time</source>
+        <translation>Dată și oră</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorFk</name>
     <message>
-      <location filename="../multieditor/multieditorfk.cpp" line="25"/>
-      <source>Selected value preview</source>
-      <translation>Previzualizare valoare selectată</translation>
+        <location filename="../multieditor/multieditorfk.cpp" line="25"/>
+        <source>Selected value preview</source>
+        <translation>Previzualizare valoare selectată</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorHexPlugin</name>
     <message>
-      <location filename="../multieditor/multieditorhex.cpp" line="102"/>
-      <source>Hex</source>
-      <translation>Hexazecimal</translation>
+        <location filename="../multieditor/multieditorhex.cpp" line="102"/>
+        <source>Hex</source>
+        <translation>Hexazecimal</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorNumericPlugin</name>
     <message>
-      <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
-      <source>Number</source>
-      <comment>numeric multi editor tab name</comment>
-      <translation>Număr</translation>
+        <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
+        <source>Number</source>
+        <comment>numeric multi editor tab name</comment>
+        <translation>Număr</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorText</name>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="119"/>
-      <source>Tab changes focus</source>
-      <translation>Tab schimbă focalizarea</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="119"/>
+        <source>Tab changes focus</source>
+        <translation>Tab schimbă focalizarea</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="120"/>
-      <source>Cut</source>
-      <translation>Taie</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="120"/>
+        <source>Cut</source>
+        <translation>Taie</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="121"/>
-      <source>Copy</source>
-      <translation>Copiază</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="121"/>
+        <source>Copy</source>
+        <translation>Copiază</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="122"/>
-      <source>Paste</source>
-      <translation>Lipește</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="122"/>
+        <source>Paste</source>
+        <translation>Lipește</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="123"/>
-      <source>Delete</source>
-      <translation>Șterge</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="123"/>
+        <source>Delete</source>
+        <translation>Șterge</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="124"/>
-      <source>Undo</source>
-      <translation>Anulează</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="124"/>
+        <source>Undo</source>
+        <translation>Anulează</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="125"/>
-      <source>Redo</source>
-      <translation>Refă</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="125"/>
+        <source>Redo</source>
+        <translation>Refă</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorTextPlugin</name>
     <message>
-      <location filename="../multieditor/multieditortext.cpp" line="203"/>
-      <source>Text</source>
-      <translation>Text</translation>
+        <location filename="../multieditor/multieditortext.cpp" line="203"/>
+        <source>Text</source>
+        <translation>Text</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>MultiEditorTimePlugin</name>
     <message>
-      <location filename="../multieditor/multieditortime.cpp" line="92"/>
-      <source>Time</source>
-      <translation>Oră</translation>
+        <location filename="../multieditor/multieditortime.cpp" line="92"/>
+        <source>Time</source>
+        <translation>Oră</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>NewConstraintDialog</name>
     <message>
-      <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
-      <source>New constraint</source>
-      <translation>Constrângere nouă</translation>
+        <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
+        <source>New constraint</source>
+        <translation>Constrângere nouă</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
-      <source>Primary Key</source>
-      <comment>new constraint dialog</comment>
-      <translation>Cheie primară</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
+        <source>Primary Key</source>
+        <comment>new constraint dialog</comment>
+        <translation>Cheie primară</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
-      <source>Foreign Key</source>
-      <comment>new constraint dialog</comment>
-      <translation>Cheie străină</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
+        <source>Foreign Key</source>
+        <comment>new constraint dialog</comment>
+        <translation>Cheie străină</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
-      <source>Unique</source>
-      <comment>new constraint dialog</comment>
-      <translation>Unic</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
+        <source>Unique</source>
+        <comment>new constraint dialog</comment>
+        <translation>Unic</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
-      <source>Check</source>
-      <comment>new constraint dialog</comment>
-      <translation>Verificare</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
+        <source>Check</source>
+        <comment>new constraint dialog</comment>
+        <translation>Verificare</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
-      <source>Not NULL</source>
-      <comment>new constraint dialog</comment>
-      <translation>Nu este NULL</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
+        <source>Not NULL</source>
+        <comment>new constraint dialog</comment>
+        <translation>Nu este NULL</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
-      <source>Collate</source>
-      <comment>new constraint dialog</comment>
-      <translation>Colaționare</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
+        <source>Collate</source>
+        <comment>new constraint dialog</comment>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
-      <source>Generated</source>
-      <comment>new constraint dialog</comment>
-      <translation>Generat</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
+        <source>Generated</source>
+        <comment>new constraint dialog</comment>
+        <translation>Generat</translation>
     </message>
     <message>
-      <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
-      <source>Default</source>
-      <comment>new constraint dialog</comment>
-      <translation>Implicit</translation>
+        <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
+        <source>Default</source>
+        <comment>new constraint dialog</comment>
+        <translation>Implicit</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>NewVersionDialog</name>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="14"/>
-      <source>Letos updates</source>
-      <translation>Actualizări Letos</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="14"/>
+        <source>Letos updates</source>
+        <translation>Actualizări Letos</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="25"/>
-      <source>New version is available!</source>
-      <translation>Este disponibilă o versiune nouă!</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="25"/>
+        <source>New version is available!</source>
+        <translation>Este disponibilă o versiune nouă!</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="51"/>
-      <source>Download new version!</source>
-      <translation>Descărcați versiunea nouă!</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="51"/>
+        <source>Download new version!</source>
+        <translation>Descărcați versiunea nouă!</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="64"/>
-      <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
-      <translation>Pachetul noii versiuni va fi descărcat. Va depinde de dvs. să îl instalați atunci când sunteți pregătit.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="64"/>
+        <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
+        <translation>Pachetul noii versiuni va fi descărcat. Va depinde de dvs. să îl instalați atunci când sunteți pregătit.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="71"/>
-      <source>Open Letos home page.</source>
-      <translation>Deschide pagina principală Letos.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="71"/>
+        <source>Open Letos home page.</source>
+        <translation>Deschide pagina principală Letos.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="84"/>
-      <source>Read release notes &amp;&amp; download package yourself.</source>
-      <translation>Citiți notele de lansare &amp;&amp; descărcați singur pachetul.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="84"/>
+        <source>Read release notes &amp;&amp; download package yourself.</source>
+        <translation>Citiți notele de lansare &amp;&amp; descărcați singur pachetul.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="104"/>
-      <source>Just close this window.</source>
-      <translation>Doar închideți această fereastră.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="104"/>
+        <source>Just close this window.</source>
+        <translation>Doar închideți această fereastră.</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="114"/>
-      <source>Check for updates on startup</source>
-      <translation>Caută actualizări la pornire</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="114"/>
+        <source>Check for updates on startup</source>
+        <translation>Caută actualizări la pornire</translation>
     </message>
     <message>
-      <location filename="../dialogs/newversiondialog.ui" line="91"/>
-      <source>Not now.</source>
-      <translation>Nu acum.</translation>
+        <location filename="../dialogs/newversiondialog.ui" line="91"/>
+        <source>Not now.</source>
+        <translation>Nu acum.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PasswordToggleHelper</name>
     <message>
-      <location filename="../common/passwordtogglehelper.cpp" line="11"/>
-      <source>Show / hide password</source>
-      <translation>Afișează / ascunde parola</translation>
+        <location filename="../common/passwordtogglehelper.cpp" line="11"/>
+        <source>Show / hide password</source>
+        <translation>Afișează / ascunde parola</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateConfigDialog</name>
     <message>
-      <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
-      <source>Populating configuration</source>
-      <translation>Configurare populare</translation>
+        <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
+        <source>Populating configuration</source>
+        <translation>Configurare populare</translation>
     </message>
     <message>
-      <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
-      <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
-      <translation>Se configurează &lt;b&gt;%1&lt;/b&gt; pentru coloana &lt;b&gt;%2&lt;/b&gt;</translation>
+        <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
+        <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
+        <translation>Se configurează &lt;b&gt;%1&lt;/b&gt; pentru coloana &lt;b&gt;%2&lt;/b&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PopulateDialog</name>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="14"/>
-      <source>Populate table</source>
-      <translation>Populează tabelul</translation>
+        <location filename="../dialogs/populatedialog.ui" line="14"/>
+        <source>Populate table</source>
+        <translation>Populează tabelul</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="84"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../dialogs/populatedialog.ui" line="84"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="102"/>
-      <source>Table</source>
-      <translation>Tabel</translation>
+        <location filename="../dialogs/populatedialog.ui" line="102"/>
+        <source>Table</source>
+        <translation>Tabel</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="139"/>
-      <source>Select All</source>
-      <translation>Selectează tot</translation>
+        <location filename="../dialogs/populatedialog.ui" line="139"/>
+        <source>Select All</source>
+        <translation>Selectează tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="152"/>
-      <source>Deselect All</source>
-      <translation>Deselectează tot</translation>
+        <location filename="../dialogs/populatedialog.ui" line="152"/>
+        <source>Deselect All</source>
+        <translation>Deselectează tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="48"/>
-      <source>Columns</source>
-      <translation>Coloane</translation>
+        <location filename="../dialogs/populatedialog.ui" line="48"/>
+        <source>Columns</source>
+        <translation>Coloane</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.ui" line="20"/>
-      <source>Number of rows to populate:</source>
-      <translation>Numărul de rânduri de populat:</translation>
+        <location filename="../dialogs/populatedialog.ui" line="20"/>
+        <source>Number of rows to populate:</source>
+        <translation>Numărul de rânduri de populat:</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="52"/>
-      <source>Populate</source>
-      <comment>populate dialog button</comment>
-      <translation>Populează</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="52"/>
+        <source>Populate</source>
+        <comment>populate dialog button</comment>
+        <translation>Populează</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="67"/>
-      <source>Abort</source>
-      <translation>Întrerupe</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="67"/>
+        <source>Abort</source>
+        <translation>Întrerupe</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="204"/>
-      <source>Configure</source>
-      <translation>Configurează</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="204"/>
+        <source>Configure</source>
+        <translation>Configurează</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="311"/>
-      <source>Populating configuration for this column is invalid or incomplete.</source>
-      <translation>Configurarea populării pentru această coloană este nevalidă sau incompletă.</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="311"/>
+        <source>Populating configuration for this column is invalid or incomplete.</source>
+        <translation>Configurarea populării pentru această coloană este nevalidă sau incompletă.</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="342"/>
-      <source>Select database with table to populate</source>
-      <translation>Selectați baza de date cu tabelul de populat</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="342"/>
+        <source>Select database with table to populate</source>
+        <translation>Selectați baza de date cu tabelul de populat</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="343"/>
-      <source>Select table to populate</source>
-      <translation>Selectați tabelul de populat</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="343"/>
+        <source>Select table to populate</source>
+        <translation>Selectați tabelul de populat</translation>
     </message>
     <message>
-      <location filename="../dialogs/populatedialog.cpp" line="344"/>
-      <source>You have to select at least one column.</source>
-      <translation>Trebuie să selectați cel puțin o coloană.</translation>
+        <location filename="../dialogs/populatedialog.cpp" line="344"/>
+        <source>You have to select at least one column.</source>
+        <translation>Trebuie să selectați cel puțin o coloană.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>PrimaryKeyPanel</name>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
-      <source>Column</source>
-      <translation>Coloană</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
+        <source>Column</source>
+        <translation>Coloană</translation>
     </message>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
-      <source>Autoincrement</source>
-      <translation>Autoincrementare</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
+        <source>Autoincrement</source>
+        <translation>Autoincrementare</translation>
     </message>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
-      <source>Named constraint</source>
-      <translation>Constrângere denumită</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
+        <source>Named constraint</source>
+        <translation>Constrângere denumită</translation>
     </message>
     <message>
-      <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
-      <source>On conflict</source>
-      <translation>La conflict</translation>
+        <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
+        <source>On conflict</source>
+        <translation>La conflict</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QObject</name>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
-      <source>Cannot edit columns that are result of an inline subquery.</source>
-      <translation>Nu se pot edita coloanele care sunt rezultatul unei subinterogări inline.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
+        <source>Cannot edit columns that are result of an inline subquery.</source>
+        <translation>Nu se pot edita coloanele care sunt rezultatul unei subinterogări inline.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
-      <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
-      <translation>Nu se pot edita coloanele care sunt rezultatul instrucțiunilor %1 compuse (una care include cuvintele cheie %2, %3 sau %4).</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
+        <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
+        <translation>Nu se pot edita coloanele care sunt rezultatul instrucțiunilor %1 compuse (una care include cuvintele cheie %2, %3 sau %4).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
-      <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
-      <translation>Mecanismul de executare a interogărilor a întâmpinat probleme la extragerea corectă a ROWID-urilor. Aceasta ar putea fi o eroare în aplicație. Poate doriți să o raportați.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
+        <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
+        <translation>Mecanismul de executare a interogărilor a întâmpinat probleme la extragerea corectă a ROWID-urilor. Aceasta ar putea fi o eroare în aplicație. Poate doriți să o raportați.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
-      <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
-      <translation>Coloana solicitată este rezultatul unei expresii SQL, în locul unei selecții simple de coloană. Astfel de coloane nu pot fi editate.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
+        <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
+        <translation>Coloana solicitată este rezultatul unei expresii SQL, în locul unei selecții simple de coloană. Astfel de coloane nu pot fi editate.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
-      <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
-      <translation>Coloana solicitată aparține unui tabel SQLite restricționat. Aceste tabele nu pot fi editate direct.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
+        <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
+        <translation>Coloana solicitată aparține unui tabel SQLite restricționat. Aceste tabele nu pot fi editate direct.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
-      <source>Cannot edit results of query other than %1.</source>
-      <translation>Nu se pot edita rezultatele unei interogări diferite de %1.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
+        <source>Cannot edit results of query other than %1.</source>
+        <translation>Nu se pot edita rezultatele unei interogări diferite de %1.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
-      <source>Cannot edit columns that are result of aggregated %1 statements.</source>
-      <translation>Nu se pot edita coloanele care sunt rezultatul instrucțiunilor %1 agregate.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
+        <source>Cannot edit columns that are result of aggregated %1 statements.</source>
+        <translation>Nu se pot edita coloanele care sunt rezultatul instrucțiunilor %1 agregate.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
-      <source>Cannot edit columns that are result of %1 statement.</source>
-      <translation>Nu se pot edita coloanele care sunt rezultatul instrucțiunii %1.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
+        <source>Cannot edit columns that are result of %1 statement.</source>
+        <translation>Nu se pot edita coloanele care sunt rezultatul instrucțiunii %1.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
-      <source>Cannot edit columns that are result of common table expression statement (%1).</source>
-      <translation>Nu se pot edita coloanele care sunt rezultatul unei instrucțiuni de expresie de tabel comună (%1).</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
+        <source>Cannot edit columns that are result of common table expression statement (%1).</source>
+        <translation>Nu se pot edita coloanele care sunt rezultatul unei instrucțiuni de expresie de tabel comună (%1).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
-      <source>Cannot edit table generated columns.</source>
-      <translation>Nu se pot edita coloanele generate ale tabelului.</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
+        <source>Cannot edit table generated columns.</source>
+        <translation>Nu se pot edita coloanele generate ale tabelului.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
-      <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
-      <translation>Nu se pot edita coloanele care sunt rezultatul unei vizualizări dacă interogarea executată citește din vizualizări pe mai multe niveluri (adică o vizualizare care interoghează altă vizualizare).</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
+        <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
+        <translation>Nu se pot edita coloanele care sunt rezultatul unei vizualizări dacă interogarea executată citește din vizualizări pe mai multe niveluri (adică o vizualizare care interoghează altă vizualizare).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
-      <source>on conflict: %1</source>
-      <comment>data view tooltip</comment>
-      <translation>la conflict: %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
+        <source>on conflict: %1</source>
+        <comment>data view tooltip</comment>
+        <translation>la conflict: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
-      <source>references table %1</source>
-      <comment>data view tooltip</comment>
-      <translation>referă tabelul %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
+        <source>references table %1</source>
+        <comment>data view tooltip</comment>
+        <translation>referă tabelul %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
-      <source>references table %1, column %2</source>
-      <comment>data view tooltip</comment>
-      <translation>referă tabelul %1, coloana %2</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
+        <source>references table %1, column %2</source>
+        <comment>data view tooltip</comment>
+        <translation>referă tabelul %1, coloana %2</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
-      <source>condition: %1</source>
-      <comment>data view tooltip</comment>
-      <translation>condiție: %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
+        <source>condition: %1</source>
+        <comment>data view tooltip</comment>
+        <translation>condiție: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
-      <source>collation name: %1</source>
-      <comment>data view tooltip</comment>
-      <translation>nume colaționare: %1</translation>
+        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
+        <source>collation name: %1</source>
+        <comment>data view tooltip</comment>
+        <translation>nume colaționare: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="25"/>
-      <source>Data grid view</source>
-      <translation>Vizualizare grilă de date</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="25"/>
+        <source>Data grid view</source>
+        <translation>Vizualizare grilă de date</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="26"/>
-      <source>Edit current cell inline</source>
-      <translation>Editează celula curentă inline</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="26"/>
+        <source>Edit current cell inline</source>
+        <translation>Editează celula curentă inline</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="27"/>
-      <source>Cut cell(s) contents to clipboard</source>
-      <translation>Taie conținutul celulei(lor) în memoria temporară</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="27"/>
+        <source>Cut cell(s) contents to clipboard</source>
+        <translation>Taie conținutul celulei(lor) în memoria temporară</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="28"/>
-      <source>Copy cell(s) contents to clipboard</source>
-      <translation>Copiază conținutul celulei(lor) în memoria temporară</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="28"/>
+        <source>Copy cell(s) contents to clipboard</source>
+        <translation>Copiază conținutul celulei(lor) în memoria temporară</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="29"/>
-      <source>Copy cell(s) contents together with header to clipboard</source>
-      <translation>Copiază conținutul celulei(lor) împreună cu antetul în memoria temporară</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="29"/>
+        <source>Copy cell(s) contents together with header to clipboard</source>
+        <translation>Copiază conținutul celulei(lor) împreună cu antetul în memoria temporară</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="31"/>
-      <source>Paste cell(s) contents from clipboard</source>
-      <translation>Lipește conținutul celulei(lor) din memoria temporară</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="31"/>
+        <source>Paste cell(s) contents from clipboard</source>
+        <translation>Lipește conținutul celulei(lor) din memoria temporară</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="33"/>
-      <source>Set empty value to selected cell(s)</source>
-      <translation>Setează o valoare goală pentru celula(ele) selectată(e)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="33"/>
+        <source>Set empty value to selected cell(s)</source>
+        <translation>Setează o valoare goală pentru celula(ele) selectată(e)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="34"/>
-      <source>Set NULL value to selected cell(s)</source>
-      <translation>Setează valoarea NULL pentru celula(ele) selectată(e)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="34"/>
+        <source>Set NULL value to selected cell(s)</source>
+        <translation>Setează valoarea NULL pentru celula(ele) selectată(e)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="35"/>
-      <source>Commit changes to cell(s) contents</source>
-      <translation>Confirmă modificările conținutului celulei(lor)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="35"/>
+        <source>Commit changes to cell(s) contents</source>
+        <translation>Confirmă modificările conținutului celulei(lor)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="36"/>
-      <source>Rollback changes to cell(s) contents</source>
-      <translation>Revocă modificările conținutului celulei(lor)</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="36"/>
+        <source>Rollback changes to cell(s) contents</source>
+        <translation>Revocă modificările conținutului celulei(lor)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="37"/>
-      <source>Delete selected data row</source>
-      <translation>Șterge rândul de date selectat</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="37"/>
+        <source>Delete selected data row</source>
+        <translation>Șterge rândul de date selectat</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="38"/>
-      <source>Insert new data row</source>
-      <translation>Inserează rând de date nou</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="38"/>
+        <source>Insert new data row</source>
+        <translation>Inserează rând de date nou</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="39"/>
-      <source>Open contents of selected cell in a separate editor</source>
-      <translation>Deschide conținutul celulei selectate într-un editor separat</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="39"/>
+        <source>Open contents of selected cell in a separate editor</source>
+        <translation>Deschide conținutul celulei selectate într-un editor separat</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="40"/>
-      <source>Toggle the height adjustment of rows</source>
-      <translation>Comută ajustarea înălțimii rândurilor</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="40"/>
+        <source>Toggle the height adjustment of rows</source>
+        <translation>Comută ajustarea înălțimii rândurilor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="41"/>
-      <source>Increase font size</source>
-      <comment>data view</comment>
-      <translation>Mărește dimensiunea fontului</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="41"/>
+        <source>Increase font size</source>
+        <comment>data view</comment>
+        <translation>Mărește dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.h" line="42"/>
-      <source>Decrease font size</source>
-      <comment>data view</comment>
-      <translation>Micșorează dimensiunea fontului</translation>
+        <location filename="../datagrid/sqlqueryview.h" line="42"/>
+        <source>Decrease font size</source>
+        <comment>data view</comment>
+        <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="32"/>
-      <source>Data view (both grid and form)</source>
-      <translation>Vizualizare date (atât grilă, cât și formular)</translation>
+        <location filename="../dataview.h" line="32"/>
+        <source>Data view (both grid and form)</source>
+        <translation>Vizualizare date (atât grilă, cât și formular)</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="33"/>
-      <source>Refresh data</source>
-      <translation>Reîmprospătează datele</translation>
+        <location filename="../dataview.h" line="33"/>
+        <source>Refresh data</source>
+        <translation>Reîmprospătează datele</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="34"/>
-      <source>Find in data</source>
-      <translation>Caută în date</translation>
+        <location filename="../dataview.h" line="34"/>
+        <source>Find in data</source>
+        <translation>Caută în date</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="35"/>
-      <source>Switch to grid view of the data</source>
-      <translation>Comută la vizualizarea grilă a datelor</translation>
+        <location filename="../dataview.h" line="35"/>
+        <source>Switch to grid view of the data</source>
+        <translation>Comută la vizualizarea grilă a datelor</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="36"/>
-      <source>Switch to form view of the data</source>
-      <translation>Comută la vizualizarea formular a datelor</translation>
+        <location filename="../dataview.h" line="36"/>
+        <source>Switch to form view of the data</source>
+        <translation>Comută la vizualizarea formular a datelor</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="31"/>
-      <source>Database list</source>
-      <translation>Listă baze de date</translation>
+        <location filename="../dbtree/dbtree.h" line="31"/>
+        <source>Database list</source>
+        <translation>Listă baze de date</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="32"/>
-      <source>Delete selected item</source>
-      <translation>Șterge elementul selectat</translation>
+        <location filename="../dbtree/dbtree.h" line="32"/>
+        <source>Delete selected item</source>
+        <translation>Șterge elementul selectat</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="33"/>
-      <source>Clear filter contents</source>
-      <translation>Golește conținutul filtrului</translation>
+        <location filename="../dbtree/dbtree.h" line="33"/>
+        <source>Clear filter contents</source>
+        <translation>Golește conținutul filtrului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="34"/>
-      <source>Refresh schema</source>
-      <translation>Reîmprospătează schema</translation>
+        <location filename="../dbtree/dbtree.h" line="34"/>
+        <source>Refresh schema</source>
+        <translation>Reîmprospătează schema</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="35"/>
-      <source>Refresh all schemas</source>
-      <translation>Reîmprospătează toate schemele</translation>
+        <location filename="../dbtree/dbtree.h" line="35"/>
+        <source>Refresh all schemas</source>
+        <translation>Reîmprospătează toate schemele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="36"/>
-      <source>Create new database</source>
-      <translation>Creează bază de date nouă</translation>
+        <location filename="../dbtree/dbtree.h" line="36"/>
+        <source>Create new database</source>
+        <translation>Creează bază de date nouă</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="37"/>
-      <source>Open existing database or SQL file</source>
-      <translation>Deschide bază de date existentă sau fișier SQL</translation>
+        <location filename="../dbtree/dbtree.h" line="37"/>
+        <source>Open existing database or SQL file</source>
+        <translation>Deschide bază de date existentă sau fișier SQL</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="38"/>
-      <source>Edit selected database</source>
-      <translation>Editează baza de date selectată</translation>
+        <location filename="../dbtree/dbtree.h" line="38"/>
+        <source>Edit selected database</source>
+        <translation>Editează baza de date selectată</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="39"/>
-      <source>Rename selected database</source>
-      <translation>Redenumește baza de date selectată</translation>
+        <location filename="../dbtree/dbtree.h" line="39"/>
+        <source>Rename selected database</source>
+        <translation>Redenumește baza de date selectată</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="40"/>
-      <source>Select all items</source>
-      <translation>Selectează toate elementele</translation>
+        <location filename="../dbtree/dbtree.h" line="40"/>
+        <source>Select all items</source>
+        <translation>Selectează toate elementele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="41"/>
-      <source>Copy selected item(s)</source>
-      <translation>Copiază elementul(ele) selectat(e)</translation>
+        <location filename="../dbtree/dbtree.h" line="41"/>
+        <source>Copy selected item(s)</source>
+        <translation>Copiază elementul(ele) selectat(e)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="42"/>
-      <location filename="../multieditor/multieditortext.h" line="15"/>
-      <location filename="../sqleditor.h" line="35"/>
-      <source>Paste from clipboard</source>
-      <translation>Lipește din clipboard</translation>
+        <location filename="../dbtree/dbtree.h" line="42"/>
+        <location filename="../multieditor/multieditortext.h" line="15"/>
+        <location filename="../sqleditor.h" line="35"/>
+        <source>Paste from clipboard</source>
+        <translation>Lipește din clipboard</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="43"/>
-      <source>Increase font size</source>
-      <comment>database list</comment>
-      <translation>Mărește dimensiunea fontului</translation>
+        <location filename="../dbtree/dbtree.h" line="43"/>
+        <source>Increase font size</source>
+        <comment>database list</comment>
+        <translation>Mărește dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.h" line="44"/>
-      <source>Decrease font size</source>
-      <comment>database list</comment>
-      <translation>Micșorează dimensiunea fontului</translation>
+        <location filename="../dbtree/dbtree.h" line="44"/>
+        <source>Decrease font size</source>
+        <comment>database list</comment>
+        <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
-      <source>Tables</source>
-      <translation>Tabele</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
+        <source>Tables</source>
+        <translation>Tabele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
-      <source>Indexes</source>
-      <translation>Indecși</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
+        <source>Indexes</source>
+        <translation>Indecși</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
-      <source>Triggers</source>
-      <translation>Declanșatoare</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
+        <source>Triggers</source>
+        <translation>Declanșatoare</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
-      <source>Views</source>
-      <translation>Vizualizări</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
+        <source>Views</source>
+        <translation>Vizualizări</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
-      <source>Columns</source>
-      <translation>Coloane</translation>
+        <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
+        <source>Columns</source>
+        <translation>Coloane</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="15"/>
-      <source>Data form view</source>
-      <translation>Vizualizare formular de date</translation>
+        <location filename="../formview.h" line="15"/>
+        <source>Data form view</source>
+        <translation>Vizualizare formular de date</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="16"/>
-      <source>Commit changes for current row</source>
-      <translation>Confirmă modificările pentru rândul curent</translation>
+        <location filename="../formview.h" line="16"/>
+        <source>Commit changes for current row</source>
+        <translation>Confirmă modificările pentru rândul curent</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="17"/>
-      <source>Rollback changes for current row</source>
-      <translation>Revocă modificările pentru rândul curent</translation>
+        <location filename="../formview.h" line="17"/>
+        <source>Rollback changes for current row</source>
+        <translation>Revocă modificările pentru rândul curent</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="37"/>
-      <location filename="../formview.h" line="18"/>
-      <source>Go to first row on current page</source>
-      <translation>Mergi la primul rând de pe pagina curentă</translation>
+        <location filename="../dataview.h" line="37"/>
+        <location filename="../formview.h" line="18"/>
+        <source>Go to first row on current page</source>
+        <translation>Mergi la primul rând de pe pagina curentă</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="39"/>
-      <location filename="../formview.h" line="19"/>
-      <source>Go to next row</source>
-      <translation>Mergi la rândul următor</translation>
+        <location filename="../dataview.h" line="39"/>
+        <location filename="../formview.h" line="19"/>
+        <source>Go to next row</source>
+        <translation>Mergi la rândul următor</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="38"/>
-      <location filename="../formview.h" line="20"/>
-      <source>Go to previous row</source>
-      <translation>Mergi la rândul anterior</translation>
+        <location filename="../dataview.h" line="38"/>
+        <location filename="../formview.h" line="20"/>
+        <source>Go to previous row</source>
+        <translation>Mergi la rândul anterior</translation>
     </message>
     <message>
-      <location filename="../dataview.h" line="40"/>
-      <location filename="../formview.h" line="21"/>
-      <source>Go to last row on current page</source>
-      <translation>Mergi la ultimul rând de pe pagina curentă</translation>
+        <location filename="../dataview.h" line="40"/>
+        <location filename="../formview.h" line="21"/>
+        <source>Go to last row on current page</source>
+        <translation>Mergi la ultimul rând de pe pagina curentă</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="22"/>
-      <source>Insert new row</source>
-      <translation>Inserează rând nou</translation>
+        <location filename="../formview.h" line="22"/>
+        <source>Insert new row</source>
+        <translation>Inserează rând nou</translation>
     </message>
     <message>
-      <location filename="../formview.h" line="23"/>
-      <source>Delete current row</source>
-      <translation>Șterge rândul curent</translation>
+        <location filename="../formview.h" line="23"/>
+        <source>Delete current row</source>
+        <translation>Șterge rândul curent</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="60"/>
-      <source>Main window</source>
-      <translation>Fereastra principală</translation>
+        <location filename="../mainwindow.h" line="60"/>
+        <source>Main window</source>
+        <translation>Fereastra principală</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="61"/>
-      <source>Open SQL editor</source>
-      <translation>Deschide editorul SQL</translation>
+        <location filename="../mainwindow.h" line="61"/>
+        <source>Open SQL editor</source>
+        <translation>Deschide editorul SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="65"/>
-      <source>Open DDL history window</source>
-      <translation>Deschide fereastra istoricului DDL</translation>
+        <location filename="../mainwindow.h" line="65"/>
+        <source>Open DDL history window</source>
+        <translation>Deschide fereastra istoricului DDL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="67"/>
-      <source>Open snippets editor window</source>
-      <translation>Deschide fereastra editorului de fragmente</translation>
+        <location filename="../mainwindow.h" line="67"/>
+        <source>Open snippets editor window</source>
+        <translation>Deschide fereastra editorului de fragmente</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="66"/>
-      <source>Open function editor window</source>
-      <translation>Deschide fereastra editorului de funcții</translation>
+        <location filename="../mainwindow.h" line="66"/>
+        <source>Open function editor window</source>
+        <translation>Deschide fereastra editorului de funcții</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="62"/>
-      <source>Restore recently closed window</source>
-      <translation>Restabilește fereastra închisă recent</translation>
+        <location filename="../mainwindow.h" line="62"/>
+        <source>Restore recently closed window</source>
+        <translation>Restabilește fereastra închisă recent</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="63"/>
-      <source>Open Export Dialog</source>
-      <translation>Deschide dialogul de export</translation>
+        <location filename="../mainwindow.h" line="63"/>
+        <source>Open Export Dialog</source>
+        <translation>Deschide dialogul de export</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="64"/>
-      <source>Open Import Dialog</source>
-      <translation>Deschide dialogul de import</translation>
+        <location filename="../mainwindow.h" line="64"/>
+        <source>Open Import Dialog</source>
+        <translation>Deschide dialogul de import</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="68"/>
-      <source>Open collation editor window</source>
-      <translation>Deschide fereastra editorului de colaționări</translation>
+        <location filename="../mainwindow.h" line="68"/>
+        <source>Open collation editor window</source>
+        <translation>Deschide fereastra editorului de colaționări</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="69"/>
-      <source>Open extension manager window</source>
-      <translation>Deschide fereastra managerului de extensii</translation>
+        <location filename="../mainwindow.h" line="69"/>
+        <source>Open extension manager window</source>
+        <translation>Deschide fereastra managerului de extensii</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="70"/>
-      <source>Previous window</source>
-      <translation>Fereastra anterioară</translation>
+        <location filename="../mainwindow.h" line="70"/>
+        <source>Previous window</source>
+        <translation>Fereastra anterioară</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="71"/>
-      <source>Next window</source>
-      <translation>Fereastra următoare</translation>
+        <location filename="../mainwindow.h" line="71"/>
+        <source>Next window</source>
+        <translation>Fereastra următoare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="72"/>
-      <source>Move window earlier</source>
-      <translation>Mută fereastra mai devreme</translation>
+        <location filename="../mainwindow.h" line="72"/>
+        <source>Move window earlier</source>
+        <translation>Mută fereastra mai devreme</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="73"/>
-      <source>Move window later</source>
-      <translation>Mută fereastra mai târziu</translation>
+        <location filename="../mainwindow.h" line="73"/>
+        <source>Move window later</source>
+        <translation>Mută fereastra mai târziu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="74"/>
-      <source>Hide status area</source>
-      <translation>Ascunde zona de stare</translation>
+        <location filename="../mainwindow.h" line="74"/>
+        <source>Hide status area</source>
+        <translation>Ascunde zona de stare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="75"/>
-      <source>Open user manual</source>
-      <translation>Deschide manualul utilizatorului</translation>
+        <location filename="../mainwindow.h" line="75"/>
+        <source>Open user manual</source>
+        <translation>Deschide manualul utilizatorului</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="76"/>
-      <source>Open configuration dialog</source>
-      <translation>Deschide dialogul de configurare</translation>
+        <location filename="../mainwindow.h" line="76"/>
+        <source>Open configuration dialog</source>
+        <translation>Deschide dialogul de configurare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="77"/>
-      <source>Open Debug Console</source>
-      <translation>Deschide consola de depanare</translation>
+        <location filename="../mainwindow.h" line="77"/>
+        <source>Open Debug Console</source>
+        <translation>Deschide consola de depanare</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="78"/>
-      <source>Open CSS Console</source>
-      <translation>Deschide consola CSS</translation>
+        <location filename="../mainwindow.h" line="78"/>
+        <source>Open CSS Console</source>
+        <translation>Deschide consola CSS</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="79"/>
-      <source>Open Command Palette</source>
-      <translation>Deschide Paleta de comenzi</translation>
+        <location filename="../mainwindow.h" line="79"/>
+        <source>Open Command Palette</source>
+        <translation>Deschide Paleta de comenzi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="80"/>
-      <source>Open the About dialog</source>
-      <translation>Deschide dialogul Despre</translation>
+        <location filename="../mainwindow.h" line="80"/>
+        <source>Open the About dialog</source>
+        <translation>Deschide dialogul Despre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="81"/>
-      <source>Quit the application</source>
-      <translation>Ieși din aplicație</translation>
+        <location filename="../mainwindow.h" line="81"/>
+        <source>Quit the application</source>
+        <translation>Ieși din aplicație</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="12"/>
-      <source>Cell text value editor</source>
-      <translation>Editor de valoare text a celulei</translation>
+        <location filename="../multieditor/multieditortext.h" line="12"/>
+        <source>Cell text value editor</source>
+        <translation>Editor de valoare text a celulei</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="13"/>
-      <location filename="../sqleditor.h" line="33"/>
-      <source>Cut selected text</source>
-      <translation>Taie textul selectat</translation>
+        <location filename="../multieditor/multieditortext.h" line="13"/>
+        <location filename="../sqleditor.h" line="33"/>
+        <source>Cut selected text</source>
+        <translation>Taie textul selectat</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="14"/>
-      <location filename="../sqleditor.h" line="34"/>
-      <source>Copy selected text</source>
-      <translation>Copiază textul selectat</translation>
+        <location filename="../multieditor/multieditortext.h" line="14"/>
+        <location filename="../sqleditor.h" line="34"/>
+        <source>Copy selected text</source>
+        <translation>Copiază textul selectat</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="16"/>
-      <location filename="../sqleditor.h" line="36"/>
-      <source>Delete selected text</source>
-      <translation>Șterge textul selectat</translation>
+        <location filename="../multieditor/multieditortext.h" line="16"/>
+        <location filename="../sqleditor.h" line="36"/>
+        <source>Delete selected text</source>
+        <translation>Șterge textul selectat</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="17"/>
-      <location filename="../sqleditor.h" line="38"/>
-      <source>Undo</source>
-      <translation>Anulează</translation>
+        <location filename="../multieditor/multieditortext.h" line="17"/>
+        <location filename="../sqleditor.h" line="38"/>
+        <source>Undo</source>
+        <translation>Anulează</translation>
     </message>
     <message>
-      <location filename="../multieditor/multieditortext.h" line="18"/>
-      <location filename="../sqleditor.h" line="39"/>
-      <source>Redo</source>
-      <translation>Refă</translation>
+        <location filename="../multieditor/multieditortext.h" line="18"/>
+        <location filename="../sqleditor.h" line="39"/>
+        <source>Redo</source>
+        <translation>Refă</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="32"/>
-      <source>SQL editor input field</source>
-      <translation>Câmp de introducere al editorului SQL</translation>
+        <location filename="../sqleditor.h" line="32"/>
+        <source>SQL editor input field</source>
+        <translation>Câmp de introducere al editorului SQL</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="37"/>
-      <source>Select whole editor contents</source>
-      <translation>Selectează întregul conținut al editorului</translation>
+        <location filename="../sqleditor.h" line="37"/>
+        <source>Select whole editor contents</source>
+        <translation>Selectează întregul conținut al editorului</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="40"/>
-      <source>Save contents into a file</source>
-      <translation>Salvează conținutul într-un fișier</translation>
+        <location filename="../sqleditor.h" line="40"/>
+        <source>Save contents into a file</source>
+        <translation>Salvează conținutul într-un fișier</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="41"/>
-      <source>Find in text</source>
-      <translation>Caută în text</translation>
+        <location filename="../sqleditor.h" line="41"/>
+        <source>Find in text</source>
+        <translation>Caută în text</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="42"/>
-      <source>Find next</source>
-      <translation>Caută următorul</translation>
+        <location filename="../sqleditor.h" line="42"/>
+        <source>Find next</source>
+        <translation>Caută următorul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="43"/>
-      <source>Find previous</source>
-      <translation>Caută anteriorul</translation>
+        <location filename="../sqleditor.h" line="43"/>
+        <source>Find previous</source>
+        <translation>Caută anteriorul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="44"/>
-      <source>Replace in text</source>
-      <translation>Înlocuiește în text</translation>
+        <location filename="../sqleditor.h" line="44"/>
+        <source>Replace in text</source>
+        <translation>Înlocuiește în text</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="45"/>
-      <source>Delete current line</source>
-      <translation>Șterge linia curentă</translation>
+        <location filename="../sqleditor.h" line="45"/>
+        <source>Delete current line</source>
+        <translation>Șterge linia curentă</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="46"/>
-      <source>Request code assistant</source>
-      <translation>Solicită asistentul de cod</translation>
+        <location filename="../sqleditor.h" line="46"/>
+        <source>Request code assistant</source>
+        <translation>Solicită asistentul de cod</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="47"/>
-      <source>Format contents</source>
-      <translation>Formatează conținutul</translation>
+        <location filename="../sqleditor.h" line="47"/>
+        <source>Format contents</source>
+        <translation>Formatează conținutul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="48"/>
-      <source>Open the object at current position</source>
-      <translation>Deschide obiectul de la poziția curentă</translation>
+        <location filename="../sqleditor.h" line="48"/>
+        <source>Open the object at current position</source>
+        <translation>Deschide obiectul de la poziția curentă</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="49"/>
-      <source>Move selected block of text one line down</source>
-      <translation>Mută blocul de text selectat cu o linie mai jos</translation>
+        <location filename="../sqleditor.h" line="49"/>
+        <source>Move selected block of text one line down</source>
+        <translation>Mută blocul de text selectat cu o linie mai jos</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="50"/>
-      <source>Move selected block of text one line up</source>
-      <translation>Mută blocul de text selectat cu o linie mai sus</translation>
+        <location filename="../sqleditor.h" line="50"/>
+        <source>Move selected block of text one line up</source>
+        <translation>Mută blocul de text selectat cu o linie mai sus</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="51"/>
-      <source>Copy selected block of text and paste it a line below</source>
-      <translation>Copiază blocul de text selectat și lipește-l cu o linie mai jos</translation>
+        <location filename="../sqleditor.h" line="51"/>
+        <source>Copy selected block of text and paste it a line below</source>
+        <translation>Copiază blocul de text selectat și lipește-l cu o linie mai jos</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="52"/>
-      <source>Copy selected block of text and paste it a line above</source>
-      <translation>Copiază blocul de text selectat și lipește-l cu o linie mai sus</translation>
+        <location filename="../sqleditor.h" line="52"/>
+        <source>Copy selected block of text and paste it a line above</source>
+        <translation>Copiază blocul de text selectat și lipește-l cu o linie mai sus</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="53"/>
-      <source>Toggle comment</source>
-      <translation>Comută comentariul</translation>
+        <location filename="../sqleditor.h" line="53"/>
+        <source>Toggle comment</source>
+        <translation>Comută comentariul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="54"/>
-      <source>Increase font size</source>
-      <comment>sql editor</comment>
-      <translation>Mărește dimensiunea fontului</translation>
+        <location filename="../sqleditor.h" line="54"/>
+        <source>Increase font size</source>
+        <comment>sql editor</comment>
+        <translation>Mărește dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../sqleditor.h" line="55"/>
-      <source>Decrease font size</source>
-      <comment>sql editor</comment>
-      <translation>Micșorează dimensiunea fontului</translation>
+        <location filename="../sqleditor.h" line="55"/>
+        <source>Decrease font size</source>
+        <comment>sql editor</comment>
+        <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="779"/>
-      <source>All files</source>
-      <translation>Toate fișierele</translation>
+        <location filename="../windows/editorwindow.cpp" line="779"/>
+        <source>All files</source>
+        <translation>Toate fișierele</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="72"/>
-      <source>Select database file</source>
-      <translation>Selectați fișierul bazei de date</translation>
+        <location filename="../uiutils.cpp" line="72"/>
+        <source>Select database file</source>
+        <translation>Selectați fișierul bazei de date</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="72"/>
-      <source>Select new database file</source>
-      <translation>Selectați fișierul bazei de date noi</translation>
+        <location filename="../uiutils.cpp" line="72"/>
+        <source>Select new database file</source>
+        <translation>Selectați fișierul bazei de date noi</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.cpp" line="778"/>
-      <source>SQL files</source>
-      <translation>Fișiere SQL</translation>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
+        <source>SQL files</source>
+        <translation>Fișiere SQL</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="83"/>
-      <location filename="../uiutils.cpp" line="96"/>
-      <source>Select a file to open</source>
-      <translation>Selectați un fișier de deschis</translation>
+        <location filename="../uiutils.cpp" line="83"/>
+        <location filename="../uiutils.cpp" line="96"/>
+        <source>Select a file to open</source>
+        <translation>Selectați un fișier de deschis</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="267"/>
-      <source>Format SQL</source>
-      <translation>Formatează SQL</translation>
+        <location filename="../uiutils.cpp" line="267"/>
+        <source>Format SQL</source>
+        <translation>Formatează SQL</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="56"/>
-      <source>Select</source>
-      <translation>Selectează</translation>
+        <location filename="../uiutils.cpp" line="56"/>
+        <source>Select</source>
+        <translation>Selectează</translation>
     </message>
     <message>
-      <location filename="../uiutils.cpp" line="57"/>
-      <source>File type</source>
-      <translation>Tip fișier</translation>
+        <location filename="../uiutils.cpp" line="57"/>
+        <source>File type</source>
+        <translation>Tip fișier</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="30"/>
-      <source>SQL editor window</source>
-      <translation>Fereastra editorului SQL</translation>
+        <location filename="../windows/editorwindow.h" line="30"/>
+        <source>SQL editor window</source>
+        <translation>Fereastra editorului SQL</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="31"/>
-      <source>Execute query</source>
-      <translation>Execută interogarea</translation>
+        <location filename="../windows/editorwindow.h" line="31"/>
+        <source>Execute query</source>
+        <translation>Execută interogarea</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="32"/>
-      <source>Execute single query under cursor</source>
-      <translation>Execută o singură interogare de sub cursor</translation>
+        <location filename="../windows/editorwindow.h" line="32"/>
+        <source>Execute single query under cursor</source>
+        <translation>Execută o singură interogare de sub cursor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="33"/>
-      <source>Execute all queries in editor</source>
-      <translation>Execută toate interogările din editor</translation>
+        <location filename="../windows/editorwindow.h" line="33"/>
+        <source>Execute all queries in editor</source>
+        <translation>Execută toate interogările din editor</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="34"/>
-      <source>Execute EXPLAIN query</source>
-      <translation>Execută interogarea EXPLAIN</translation>
+        <location filename="../windows/editorwindow.h" line="34"/>
+        <source>Execute EXPLAIN query</source>
+        <translation>Execută interogarea EXPLAIN</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="35"/>
-      <source>Export query results</source>
-      <translation>Exportă rezultatele interogării</translation>
+        <location filename="../windows/editorwindow.h" line="35"/>
+        <source>Export query results</source>
+        <translation>Exportă rezultatele interogării</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="36"/>
-      <source>Switch current working database to previous on the list</source>
-      <translation>Comută baza de date de lucru curentă la cea anterioară din listă</translation>
+        <location filename="../windows/editorwindow.h" line="36"/>
+        <source>Switch current working database to previous on the list</source>
+        <translation>Comută baza de date de lucru curentă la cea anterioară din listă</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="37"/>
-      <source>Switch current working database to next on the list</source>
-      <translation>Comută baza de date de lucru curentă la cea următoare din listă</translation>
+        <location filename="../windows/editorwindow.h" line="37"/>
+        <source>Switch current working database to next on the list</source>
+        <translation>Comută baza de date de lucru curentă la cea următoare din listă</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="38"/>
-      <source>Go to next editor tab</source>
-      <translation>Mergi la fila următoare a editorului</translation>
+        <location filename="../windows/editorwindow.h" line="38"/>
+        <source>Go to next editor tab</source>
+        <translation>Mergi la fila următoare a editorului</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="39"/>
-      <source>Go to previous editor tab</source>
-      <translation>Mergi la fila anterioară a editorului</translation>
+        <location filename="../windows/editorwindow.h" line="39"/>
+        <source>Go to previous editor tab</source>
+        <translation>Mergi la fila anterioară a editorului</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="40"/>
-      <source>Move keyboard input focus to the results view below</source>
-      <translation>Mută focalizarea de introducere de la tastatură la vizualizarea rezultatelor de mai jos</translation>
+        <location filename="../windows/editorwindow.h" line="40"/>
+        <source>Move keyboard input focus to the results view below</source>
+        <translation>Mută focalizarea de introducere de la tastatură la vizualizarea rezultatelor de mai jos</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="41"/>
-      <source>Move keyboard input focus to the SQL editor above</source>
-      <translation>Mută focalizarea de introducere de la tastatură la editorul SQL de mai sus</translation>
+        <location filename="../windows/editorwindow.h" line="41"/>
+        <source>Move keyboard input focus to the SQL editor above</source>
+        <translation>Mută focalizarea de introducere de la tastatură la editorul SQL de mai sus</translation>
     </message>
     <message>
-      <location filename="../windows/editorwindow.h" line="42"/>
-      <source>Delete selected SQL history entries</source>
-      <translation>Șterge intrările selectate din istoricul SQL</translation>
+        <location filename="../windows/editorwindow.h" line="42"/>
+        <source>Delete selected SQL history entries</source>
+        <translation>Șterge intrările selectate din istoricul SQL</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="32"/>
-      <source>Table window</source>
-      <translation>Fereastră tabel</translation>
+        <location filename="../windows/tablewindow.h" line="32"/>
+        <source>Table window</source>
+        <translation>Fereastră tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="33"/>
-      <source>Commit the table structure</source>
-      <translation>Confirmă structura tabelului</translation>
+        <location filename="../windows/tablewindow.h" line="33"/>
+        <source>Commit the table structure</source>
+        <translation>Confirmă structura tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="34"/>
-      <source>Rollback pending changes in the table structure</source>
-      <translation>Revocă modificările în așteptare din structura tabelului</translation>
+        <location filename="../windows/tablewindow.h" line="34"/>
+        <source>Rollback pending changes in the table structure</source>
+        <translation>Revocă modificările în așteptare din structura tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="35"/>
-      <source>Refresh table structure</source>
-      <translation>Reîmprospătează structura tabelului</translation>
+        <location filename="../windows/tablewindow.h" line="35"/>
+        <source>Refresh table structure</source>
+        <translation>Reîmprospătează structura tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="36"/>
-      <source>Add new column</source>
-      <translation>Adaugă coloană nouă</translation>
+        <location filename="../windows/tablewindow.h" line="36"/>
+        <source>Add new column</source>
+        <translation>Adaugă coloană nouă</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="37"/>
-      <source>Edit selected column</source>
-      <translation>Editează coloana selectată</translation>
+        <location filename="../windows/tablewindow.h" line="37"/>
+        <source>Edit selected column</source>
+        <translation>Editează coloana selectată</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="38"/>
-      <source>Delete selected column</source>
-      <translation>Șterge coloana selectată</translation>
+        <location filename="../windows/tablewindow.h" line="38"/>
+        <source>Delete selected column</source>
+        <translation>Șterge coloana selectată</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="39"/>
-      <source>Export table data</source>
-      <translation>Exportă datele tabelului</translation>
+        <location filename="../windows/tablewindow.h" line="39"/>
+        <source>Export table data</source>
+        <translation>Exportă datele tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="40"/>
-      <source>Import data to the table</source>
-      <translation>Importă date în tabel</translation>
+        <location filename="../windows/tablewindow.h" line="40"/>
+        <source>Import data to the table</source>
+        <translation>Importă date în tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="41"/>
-      <source>Add new table constraint</source>
-      <translation>Adaugă constrângere nouă de tabel</translation>
+        <location filename="../windows/tablewindow.h" line="41"/>
+        <source>Add new table constraint</source>
+        <translation>Adaugă constrângere nouă de tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="42"/>
-      <source>Edit selected table constraint</source>
-      <translation>Editează constrângerea de tabel selectată</translation>
+        <location filename="../windows/tablewindow.h" line="42"/>
+        <source>Edit selected table constraint</source>
+        <translation>Editează constrângerea de tabel selectată</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="43"/>
-      <source>Delete selected table constraint</source>
-      <translation>Șterge constrângerea de tabel selectată</translation>
+        <location filename="../windows/tablewindow.h" line="43"/>
+        <source>Delete selected table constraint</source>
+        <translation>Șterge constrângerea de tabel selectată</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="44"/>
-      <source>Refresh table index list</source>
-      <translation>Reîmprospătează lista de indecși a tabelului</translation>
+        <location filename="../windows/tablewindow.h" line="44"/>
+        <source>Refresh table index list</source>
+        <translation>Reîmprospătează lista de indecși a tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="45"/>
-      <source>Add new index</source>
-      <translation>Adaugă index nou</translation>
+        <location filename="../windows/tablewindow.h" line="45"/>
+        <source>Add new index</source>
+        <translation>Adaugă index nou</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="46"/>
-      <source>Edit selected index</source>
-      <translation>Editează indexul selectat</translation>
+        <location filename="../windows/tablewindow.h" line="46"/>
+        <source>Edit selected index</source>
+        <translation>Editează indexul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="47"/>
-      <source>Delete selected index</source>
-      <translation>Șterge indexul selectat</translation>
+        <location filename="../windows/tablewindow.h" line="47"/>
+        <source>Delete selected index</source>
+        <translation>Șterge indexul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="48"/>
-      <source>Refresh table trigger list</source>
-      <translation>Reîmprospătează lista de declanșatoare a tabelului</translation>
+        <location filename="../windows/tablewindow.h" line="48"/>
+        <source>Refresh table trigger list</source>
+        <translation>Reîmprospătează lista de declanșatoare a tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="49"/>
-      <location filename="../windows/viewwindow.h" line="29"/>
-      <source>Add new trigger</source>
-      <translation>Adaugă declanșator nou</translation>
+        <location filename="../windows/tablewindow.h" line="49"/>
+        <location filename="../windows/viewwindow.h" line="29"/>
+        <source>Add new trigger</source>
+        <translation>Adaugă declanșator nou</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="50"/>
-      <location filename="../windows/viewwindow.h" line="30"/>
-      <source>Edit selected trigger</source>
-      <translation>Editează declanșatorul selectat</translation>
+        <location filename="../windows/tablewindow.h" line="50"/>
+        <location filename="../windows/viewwindow.h" line="30"/>
+        <source>Edit selected trigger</source>
+        <translation>Editează declanșatorul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="51"/>
-      <location filename="../windows/viewwindow.h" line="31"/>
-      <source>Delete selected trigger</source>
-      <translation>Șterge declanșatorul selectat</translation>
+        <location filename="../windows/tablewindow.h" line="51"/>
+        <location filename="../windows/viewwindow.h" line="31"/>
+        <source>Delete selected trigger</source>
+        <translation>Șterge declanșatorul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="52"/>
-      <location filename="../windows/viewwindow.h" line="32"/>
-      <source>Go to next tab</source>
-      <translation>Mergi la fila următoare</translation>
+        <location filename="../windows/tablewindow.h" line="52"/>
+        <location filename="../windows/viewwindow.h" line="32"/>
+        <source>Go to next tab</source>
+        <translation>Mergi la fila următoare</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.h" line="53"/>
-      <location filename="../windows/viewwindow.h" line="33"/>
-      <source>Go to previous tab</source>
-      <translation>Mergi la fila anterioară</translation>
+        <location filename="../windows/tablewindow.h" line="53"/>
+        <location filename="../windows/viewwindow.h" line="33"/>
+        <source>Go to previous tab</source>
+        <translation>Mergi la fila anterioară</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="23"/>
-      <source>A view window</source>
-      <translation>O fereastră de vizualizare</translation>
+        <location filename="../windows/viewwindow.h" line="23"/>
+        <source>A view window</source>
+        <translation>O fereastră de vizualizare</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="24"/>
-      <source>Commit the view&apos;s query</source>
-      <translation>Confirmă interogarea vizualizării</translation>
+        <location filename="../windows/viewwindow.h" line="24"/>
+        <source>Commit the view&apos;s query</source>
+        <translation>Confirmă interogarea vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="25"/>
-      <source>Rollback pending changes in the view&apos;s query</source>
-      <translation>Revocă modificările în așteptare din interogarea vizualizării</translation>
+        <location filename="../windows/viewwindow.h" line="25"/>
+        <source>Rollback pending changes in the view&apos;s query</source>
+        <translation>Revocă modificările în așteptare din interogarea vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="26"/>
-      <source>Refresh view trigger list</source>
-      <translation>Reîmprospătează lista de declanșatoare a vizualizării</translation>
+        <location filename="../windows/viewwindow.h" line="26"/>
+        <source>Refresh view trigger list</source>
+        <translation>Reîmprospătează lista de declanșatoare a vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="27"/>
-      <source>Execute the view&apos;s query</source>
-      <translation>Execută interogarea vizualizării</translation>
+        <location filename="../windows/viewwindow.h" line="27"/>
+        <source>Execute the view&apos;s query</source>
+        <translation>Execută interogarea vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.h" line="28"/>
-      <source>Export view data</source>
-      <translation>Exportă datele vizualizării</translation>
+        <location filename="../windows/viewwindow.h" line="28"/>
+        <source>Export view data</source>
+        <translation>Exportă datele vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.h" line="17"/>
-      <source>A code snippets editor window</source>
-      <translation>O fereastră de editor de fragmente de cod</translation>
+        <location filename="../windows/codesnippeteditor.h" line="17"/>
+        <source>A code snippets editor window</source>
+        <translation>O fereastră de editor de fragmente de cod</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.h" line="18"/>
-      <location filename="../windows/collationseditor.h" line="22"/>
-      <location filename="../windows/functionseditor.h" line="25"/>
-      <location filename="../windows/sqliteextensioneditor.h" line="22"/>
-      <source>Commit the pending changes</source>
-      <translation>Confirmă modificările în așteptare</translation>
+        <location filename="../windows/codesnippeteditor.h" line="18"/>
+        <location filename="../windows/collationseditor.h" line="22"/>
+        <location filename="../windows/functionseditor.h" line="25"/>
+        <location filename="../windows/sqliteextensioneditor.h" line="22"/>
+        <source>Commit the pending changes</source>
+        <translation>Confirmă modificările în așteptare</translation>
     </message>
     <message>
-      <location filename="../windows/codesnippeteditor.h" line="19"/>
-      <location filename="../windows/collationseditor.h" line="23"/>
-      <location filename="../windows/functionseditor.h" line="26"/>
-      <location filename="../windows/sqliteextensioneditor.h" line="23"/>
-      <source>Rollback the pending changes</source>
-      <translation>Revocă modificările în așteptare</translation>
+        <location filename="../windows/codesnippeteditor.h" line="19"/>
+        <location filename="../windows/collationseditor.h" line="23"/>
+        <location filename="../windows/functionseditor.h" line="26"/>
+        <location filename="../windows/sqliteextensioneditor.h" line="23"/>
+        <source>Rollback the pending changes</source>
+        <translation>Revocă modificările în așteptare</translation>
     </message>
     <message>
-      <location filename="../windows/collationseditor.h" line="21"/>
-      <source>A collation editor window</source>
-      <translation>O fereastră de editor de colaționări</translation>
+        <location filename="../windows/collationseditor.h" line="21"/>
+        <source>A collation editor window</source>
+        <translation>O fereastră de editor de colaționări</translation>
     </message>
     <message>
-      <location filename="../windows/functionseditor.h" line="24"/>
-      <source>A function editor window</source>
-      <translation>O fereastră de editor de funcții</translation>
+        <location filename="../windows/functionseditor.h" line="24"/>
+        <source>A function editor window</source>
+        <translation>O fereastră de editor de funcții</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.h" line="21"/>
-      <source>A SQLite extension editor window</source>
-      <translation>O fereastră de editor de extensii SQLite</translation>
+        <location filename="../windows/sqliteextensioneditor.h" line="21"/>
+        <source>A SQLite extension editor window</source>
+        <translation>O fereastră de editor de extensii SQLite</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
-      <source>Edit database properties</source>
-      <comment>command palette entry</comment>
-      <translation>Editează proprietățile bazei de date</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
+        <source>Edit database properties</source>
+        <comment>command palette entry</comment>
+        <translation>Editează proprietățile bazei de date</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
-      <source>Open table</source>
-      <comment>command palette entry</comment>
-      <translation>Deschide tabela</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
+        <source>Open table</source>
+        <comment>command palette entry</comment>
+        <translation>Deschide tabela</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
-      <source>Edit index</source>
-      <comment>command palette entry</comment>
-      <translation>Editează indexul</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
+        <source>Edit index</source>
+        <comment>command palette entry</comment>
+        <translation>Editează indexul</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
-      <source>Edit trigger</source>
-      <comment>command palette entry</comment>
-      <translation>Editează declanșatorul</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
+        <source>Edit trigger</source>
+        <comment>command palette entry</comment>
+        <translation>Editează declanșatorul</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
-      <source>Open view</source>
-      <comment>command palette entry</comment>
-      <translation>Deschide vizualizarea</translation>
+        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
+        <source>Open view</source>
+        <comment>command palette entry</comment>
+        <translation>Deschide vizualizarea</translation>
     </message>
     <message>
-      <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
-      <source>Bring the window to front</source>
-      <comment>command palette entry</comment>
-      <translation>Adu fereastra în prim-plan</translation>
+        <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
+        <source>Bring the window to front</source>
+        <comment>command palette entry</comment>
+        <translation>Adu fereastra în prim-plan</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>QuitConfirmDialog</name>
     <message>
-      <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
-      <source>Uncommitted changes</source>
-      <translation>Modificări neconfirmate</translation>
+        <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
+        <source>Uncommitted changes</source>
+        <translation>Modificări neconfirmate</translation>
     </message>
     <message>
-      <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Sigur doriți să ieșiți din aplicație?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Următoarele elemente sunt în așteptare:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Sigur doriți să ieșiți din aplicație?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Următoarele elemente sunt în așteptare:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SearchTextDialog</name>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="14"/>
-      <source>Find or replace</source>
-      <translation>Caută sau înlocuiește</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="14"/>
+        <source>Find or replace</source>
+        <translation>Caută sau înlocuiește</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="88"/>
-      <source>Find:</source>
-      <translation>Caută:</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="88"/>
+        <source>Find:</source>
+        <translation>Caută:</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="31"/>
-      <source>Case sensitive</source>
-      <translation>Sensibil la majuscule/minuscule</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="31"/>
+        <source>Case sensitive</source>
+        <translation>Sensibil la majuscule/minuscule</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="38"/>
-      <source>Search backwards</source>
-      <translation>Caută înapoi</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="38"/>
+        <source>Search backwards</source>
+        <translation>Caută înapoi</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="45"/>
-      <source>Regular expression matching</source>
-      <translation>Potrivire cu expresie regulată</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="45"/>
+        <source>Regular expression matching</source>
+        <translation>Potrivire cu expresie regulată</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="113"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;S-a ajuns la sfârșitul documentului.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="113"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;S-a ajuns la sfârșitul documentului.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="20"/>
-      <source>Replace &amp;&amp;
+        <location filename="../dialogs/searchtextdialog.ui" line="20"/>
+        <source>Replace &amp;&amp;
 find next</source>
-      <translation>Înlocuiește &amp;&amp;
+        <translation>Înlocuiește &amp;&amp;
 caută următorul</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="65"/>
-      <source>Replace with:</source>
-      <translation>Înlocuiește cu:</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="65"/>
+        <source>Replace with:</source>
+        <translation>Înlocuiește cu:</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="55"/>
-      <source>Replace all</source>
-      <translation>Înlocuiește tot</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="55"/>
+        <source>Replace all</source>
+        <translation>Înlocuiește tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/searchtextdialog.ui" line="75"/>
-      <source>Find</source>
-      <translation>Caută</translation>
+        <location filename="../dialogs/searchtextdialog.ui" line="75"/>
+        <source>Find</source>
+        <translation>Caută</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SettingsExportDialog</name>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
-      <source>Export configuration</source>
-      <translation>Exportă configurația</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
+        <source>Export configuration</source>
+        <translation>Exportă configurația</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
-      <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
-      <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
-      <source>Output JSON file</source>
-      <translation>Fișier JSON de ieșire</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
+        <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
+        <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
+        <source>Output JSON file</source>
+        <translation>Fișier JSON de ieșire</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
-      <source>JSON file (*.json);;All files (*)</source>
-      <translation>Fișier JSON (*.json);;Toate fișierele (*)</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
+        <source>JSON file (*.json);;All files (*)</source>
+        <translation>Fișier JSON (*.json);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
-      <source>What to export?</source>
-      <translation>Ce se exportă?</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
+        <source>What to export?</source>
+        <translation>Ce se exportă?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
-      <source>User-defined SQL functions</source>
-      <translation>Funcții SQL definite de utilizator</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
+        <source>User-defined SQL functions</source>
+        <translation>Funcții SQL definite de utilizator</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
-      <source>User-defined collation sequences</source>
-      <translation>Secvențe de colaționare definite de utilizator</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
+        <source>User-defined collation sequences</source>
+        <translation>Secvențe de colaționare definite de utilizator</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
-      <source>User-defined code snippets</source>
-      <translation>Fragmente de cod definite de utilizator</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
+        <source>User-defined code snippets</source>
+        <translation>Fragmente de cod definite de utilizator</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
-      <source>Configured SQLite extensions</source>
-      <translation>Extensii SQLite configurate</translation>
+        <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
+        <source>Configured SQLite extensions</source>
+        <translation>Extensii SQLite configurate</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SettingsImportDialog</name>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
-      <source>Import configuration</source>
-      <translation>Importă configurația</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
+        <source>Import configuration</source>
+        <translation>Importă configurația</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
-      <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
-      <source>Input JSON file</source>
-      <translation>Fișier JSON de intrare</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
+        <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
+        <source>Input JSON file</source>
+        <translation>Fișier JSON de intrare</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
-      <source>JSON file (*.json);;All files (*)</source>
-      <translation>Fișier JSON (*.json);;Toate fișierele (*)</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
+        <source>JSON file (*.json);;All files (*)</source>
+        <translation>Fișier JSON (*.json);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
-      <source>What to import?</source>
-      <translation>Ce se importă?</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
+        <source>What to import?</source>
+        <translation>Ce se importă?</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
-      <source>User-defined SQL functions</source>
-      <translation>Funcții SQL definite de utilizator</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
+        <source>User-defined SQL functions</source>
+        <translation>Funcții SQL definite de utilizator</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
-      <source>User-defined collation sequences</source>
-      <translation>Secvențe de colaționare definite de utilizator</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
+        <source>User-defined collation sequences</source>
+        <translation>Secvențe de colaționare definite de utilizator</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
-      <source>User-defined code snippets</source>
-      <translation>Fragmente de cod definite de utilizator</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
+        <source>User-defined code snippets</source>
+        <translation>Fragmente de cod definite de utilizator</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
-      <source>Configured SQLite extensions</source>
-      <translation>Extensii SQLite configurate</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
+        <source>Configured SQLite extensions</source>
+        <translation>Extensii SQLite configurate</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
-      <source>Import mode</source>
-      <translation>Mod de import</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
+        <source>Import mode</source>
+        <translation>Mod de import</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
-      <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
-      <translation>Importă elementele selectate fără a modifica sau elimina elementele existente în configurația curentă.</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
+        <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
+        <translation>Importă elementele selectate fără a modifica sau elimina elementele existente în configurația curentă.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
-      <source>Add to existing items</source>
-      <translation>Adaugă la elementele existente</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
+        <source>Add to existing items</source>
+        <translation>Adaugă la elementele existente</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
-      <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
-      <translation>Elimină toate elementele existente din categoriile selectate, apoi importă elementele noi din fișier. Această acțiune nu poate fi anulată!</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
+        <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
+        <translation>Elimină toate elementele existente din categoriile selectate, apoi importă elementele noi din fișier. Această acțiune nu poate fi anulată!</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
-      <source>Replace existing items</source>
-      <translation>Înlocuiește elementele existente</translation>
+        <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
+        <source>Replace existing items</source>
+        <translation>Înlocuiește elementele existente</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
-      <source>Invalid input file to import: %1</source>
-      <translation>Fișier de intrare nevalid pentru import: %1</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
+        <source>Invalid input file to import: %1</source>
+        <translation>Fișier de intrare nevalid pentru import: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
-      <source>Selected file does not contain functions to import.</source>
-      <translation>Fișierul selectat nu conține funcții de importat.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
+        <source>Selected file does not contain functions to import.</source>
+        <translation>Fișierul selectat nu conține funcții de importat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
-      <source>Selected file does not contain collation sequences to import.</source>
-      <translation>Fișierul selectat nu conține secvențe de colaționare de importat.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
+        <source>Selected file does not contain collation sequences to import.</source>
+        <translation>Fișierul selectat nu conține secvențe de colaționare de importat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
-      <source>Selected file does not contain code snippets to import.</source>
-      <translation>Fișierul selectat nu conține fragmente de cod de importat.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
+        <source>Selected file does not contain code snippets to import.</source>
+        <translation>Fișierul selectat nu conține fragmente de cod de importat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
-      <source>Selected file does not contain SQLite extensions to import.</source>
-      <translation>Fișierul selectat nu conține extensii SQLite de importat.</translation>
+        <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
+        <source>Selected file does not contain SQLite extensions to import.</source>
+        <translation>Fișierul selectat nu conține extensii SQLite de importat.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SortDialog</name>
     <message>
-      <location filename="../dialogs/sortdialog.ui" line="14"/>
-      <source>Sort by columns</source>
-      <translation>Sortează după coloane</translation>
+        <location filename="../dialogs/sortdialog.ui" line="14"/>
+        <source>Sort by columns</source>
+        <translation>Sortează după coloane</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.ui" line="45"/>
-      <location filename="../dialogs/sortdialog.cpp" line="47"/>
-      <source>Column</source>
-      <translation>Coloană</translation>
+        <location filename="../dialogs/sortdialog.ui" line="45"/>
+        <location filename="../dialogs/sortdialog.cpp" line="47"/>
+        <source>Column</source>
+        <translation>Coloană</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.ui" line="50"/>
-      <location filename="../dialogs/sortdialog.cpp" line="47"/>
-      <source>Order</source>
-      <translation>Ordine</translation>
+        <location filename="../dialogs/sortdialog.ui" line="50"/>
+        <location filename="../dialogs/sortdialog.cpp" line="47"/>
+        <source>Order</source>
+        <translation>Ordine</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.cpp" line="177"/>
-      <source>Sort by: %1</source>
-      <translation>Sortează după: %1</translation>
+        <location filename="../dialogs/sortdialog.cpp" line="177"/>
+        <source>Sort by: %1</source>
+        <translation>Sortează după: %1</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.cpp" line="241"/>
-      <source>Move column up</source>
-      <translation>Mută coloana în sus</translation>
+        <location filename="../dialogs/sortdialog.cpp" line="241"/>
+        <source>Move column up</source>
+        <translation>Mută coloana în sus</translation>
     </message>
     <message>
-      <location filename="../dialogs/sortdialog.cpp" line="242"/>
-      <source>Move column down</source>
-      <translation>Mută coloana în jos</translation>
+        <location filename="../dialogs/sortdialog.cpp" line="242"/>
+        <source>Move column down</source>
+        <translation>Mută coloana în jos</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
-      <source>Error while committing new row: %1</source>
-      <translation>Eroare la confirmarea rândului nou: %1</translation>
+        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+        <source>Error while committing new row: %1</source>
+        <translation>Eroare la confirmarea rândului nou: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
-      <source>Error while deleting row from %1: %2</source>
-      <translation>Eroare la ștergerea rândului din %1: %2</translation>
+        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+        <source>Error while deleting row from %1: %2</source>
+        <translation>Eroare la ștergerea rândului din %1: %2</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlEditor</name>
     <message>
-      <location filename="../sqleditor.cpp" line="194"/>
-      <source>Wrap words</source>
-      <comment>sql editor</comment>
-      <translation>Încadrează cuvintele</translation>
+        <location filename="../sqleditor.cpp" line="194"/>
+        <source>Wrap words</source>
+        <comment>sql editor</comment>
+        <translation>Încadrează cuvintele</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="158"/>
-      <source>Cut</source>
-      <comment>sql editor</comment>
-      <translation>Taie</translation>
+        <location filename="../sqleditor.cpp" line="158"/>
+        <source>Cut</source>
+        <comment>sql editor</comment>
+        <translation>Taie</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="159"/>
-      <source>Copy</source>
-      <comment>sql editor</comment>
-      <translation>Copiază</translation>
+        <location filename="../sqleditor.cpp" line="159"/>
+        <source>Copy</source>
+        <comment>sql editor</comment>
+        <translation>Copiază</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="160"/>
-      <source>Paste</source>
-      <comment>sql editor</comment>
-      <translation>Lipește</translation>
+        <location filename="../sqleditor.cpp" line="160"/>
+        <source>Paste</source>
+        <comment>sql editor</comment>
+        <translation>Lipește</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="161"/>
-      <source>Delete</source>
-      <comment>sql editor</comment>
-      <translation>Șterge</translation>
+        <location filename="../sqleditor.cpp" line="161"/>
+        <source>Delete</source>
+        <comment>sql editor</comment>
+        <translation>Șterge</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="162"/>
-      <source>Select all</source>
-      <comment>sql editor</comment>
-      <translation>Selectează tot</translation>
+        <location filename="../sqleditor.cpp" line="162"/>
+        <source>Select all</source>
+        <comment>sql editor</comment>
+        <translation>Selectează tot</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="163"/>
-      <source>Undo</source>
-      <comment>sql editor</comment>
-      <translation>Anulează</translation>
+        <location filename="../sqleditor.cpp" line="163"/>
+        <source>Undo</source>
+        <comment>sql editor</comment>
+        <translation>Anulează</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="164"/>
-      <source>Redo</source>
-      <comment>sql editor</comment>
-      <translation>Refă</translation>
+        <location filename="../sqleditor.cpp" line="164"/>
+        <source>Redo</source>
+        <comment>sql editor</comment>
+        <translation>Refă</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="166"/>
-      <source>Complete</source>
-      <comment>sql editor</comment>
-      <translation>Completează</translation>
+        <location filename="../sqleditor.cpp" line="166"/>
+        <source>Complete</source>
+        <comment>sql editor</comment>
+        <translation>Completează</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="167"/>
-      <source>Format SQL</source>
-      <comment>sql editor</comment>
-      <translation>Formatează SQL</translation>
+        <location filename="../sqleditor.cpp" line="167"/>
+        <source>Format SQL</source>
+        <comment>sql editor</comment>
+        <translation>Formatează SQL</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="168"/>
-      <source>Save SQL to file</source>
-      <comment>sql editor</comment>
-      <translation>Salvează SQL în fișier</translation>
+        <location filename="../sqleditor.cpp" line="168"/>
+        <source>Save SQL to file</source>
+        <comment>sql editor</comment>
+        <translation>Salvează SQL în fișier</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="169"/>
-      <source>Select file to save SQL</source>
-      <comment>sql editor</comment>
-      <translation>Selectează fișierul pentru salvarea SQL</translation>
+        <location filename="../sqleditor.cpp" line="169"/>
+        <source>Select file to save SQL</source>
+        <comment>sql editor</comment>
+        <translation>Selectează fișierul pentru salvarea SQL</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="170"/>
-      <source>Load SQL from file</source>
-      <comment>sql editor</comment>
-      <translation>Încarcă SQL din fișier</translation>
+        <location filename="../sqleditor.cpp" line="170"/>
+        <source>Load SQL from file</source>
+        <comment>sql editor</comment>
+        <translation>Încarcă SQL din fișier</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="171"/>
-      <source>Delete line</source>
-      <comment>sql editor</comment>
-      <translation>Șterge linia</translation>
+        <location filename="../sqleditor.cpp" line="171"/>
+        <source>Delete line</source>
+        <comment>sql editor</comment>
+        <translation>Șterge linia</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="172"/>
-      <source>Move block down</source>
-      <comment>sql editor</comment>
-      <translation>Mută blocul în jos</translation>
+        <location filename="../sqleditor.cpp" line="172"/>
+        <source>Move block down</source>
+        <comment>sql editor</comment>
+        <translation>Mută blocul în jos</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="173"/>
-      <source>Move block up</source>
-      <comment>sql editor</comment>
-      <translation>Mută blocul în sus</translation>
+        <location filename="../sqleditor.cpp" line="173"/>
+        <source>Move block up</source>
+        <comment>sql editor</comment>
+        <translation>Mută blocul în sus</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="174"/>
-      <source>Copy block down</source>
-      <comment>sql editor</comment>
-      <translation>Copiază blocul în jos</translation>
+        <location filename="../sqleditor.cpp" line="174"/>
+        <source>Copy block down</source>
+        <comment>sql editor</comment>
+        <translation>Copiază blocul în jos</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="175"/>
-      <source>Copy up down</source>
-      <comment>sql editor</comment>
-      <translation>Copiază blocul în sus</translation>
+        <location filename="../sqleditor.cpp" line="175"/>
+        <source>Copy up down</source>
+        <comment>sql editor</comment>
+        <translation>Copiază blocul în sus</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="176"/>
-      <source>Find or replace</source>
-      <comment>sql editor</comment>
-      <translation>Găsește sau înlocuiește</translation>
+        <location filename="../sqleditor.cpp" line="176"/>
+        <source>Find or replace</source>
+        <comment>sql editor</comment>
+        <translation>Găsește sau înlocuiește</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="177"/>
-      <source>Find next</source>
-      <comment>sql editor</comment>
-      <translation>Găsește următorul</translation>
+        <location filename="../sqleditor.cpp" line="177"/>
+        <source>Find next</source>
+        <comment>sql editor</comment>
+        <translation>Găsește următorul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="178"/>
-      <source>Find previous</source>
-      <comment>sql editor</comment>
-      <translation>Găsește precedentul</translation>
+        <location filename="../sqleditor.cpp" line="178"/>
+        <source>Find previous</source>
+        <comment>sql editor</comment>
+        <translation>Găsește precedentul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="179"/>
-      <source>Replace</source>
-      <comment>sql editor</comment>
-      <translation>Înlocuiește</translation>
+        <location filename="../sqleditor.cpp" line="179"/>
+        <source>Replace</source>
+        <comment>sql editor</comment>
+        <translation>Înlocuiește</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="180"/>
-      <source>Toggle comment</source>
-      <comment>sql editor</comment>
-      <translation>Comută comentariul</translation>
+        <location filename="../sqleditor.cpp" line="180"/>
+        <source>Toggle comment</source>
+        <comment>sql editor</comment>
+        <translation>Comută comentariul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="181"/>
-      <source>Increase font size</source>
-      <comment>sql editor</comment>
-      <translation>Mărește dimensiunea fontului</translation>
+        <location filename="../sqleditor.cpp" line="181"/>
+        <source>Increase font size</source>
+        <comment>sql editor</comment>
+        <translation>Mărește dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="182"/>
-      <source>Decrease font size</source>
-      <comment>sql editor</comment>
-      <translation>Micșorează dimensiunea fontului</translation>
+        <location filename="../sqleditor.cpp" line="182"/>
+        <source>Decrease font size</source>
+        <comment>sql editor</comment>
+        <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="297"/>
-      <source>Could not open file &apos;%1&apos; for writing: %2</source>
-      <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru scriere: %2</translation>
+        <location filename="../sqleditor.cpp" line="297"/>
+        <source>Could not open file &apos;%1&apos; for writing: %2</source>
+        <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru scriere: %2</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="306"/>
-      <source>Saved SQL contents to file: %1</source>
-      <translation>Conținutul SQL a fost salvat în fișierul: %1</translation>
+        <location filename="../sqleditor.cpp" line="306"/>
+        <source>Saved SQL contents to file: %1</source>
+        <translation>Conținutul SQL a fost salvat în fișierul: %1</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="562"/>
-      <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
-      <translation>Completarea sintaxei poate fi utilizată numai când este setată o bază de date validă pentru editorul SQL.</translation>
+        <location filename="../sqleditor.cpp" line="562"/>
+        <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
+        <translation>Completarea sintaxei poate fi utilizată numai când este setată o bază de date validă pentru editorul SQL.</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1183"/>
-      <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
-      <translation>Conținutul editorului SQL este foarte mare, astfel că detectarea erorilor și evidențierea obiectelor existente sunt dezactivate temporar.</translation>
+        <location filename="../sqleditor.cpp" line="1183"/>
+        <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
+        <translation>Conținutul editorului SQL este foarte mare, astfel că detectarea erorilor și evidențierea obiectelor existente sunt dezactivate temporar.</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1212"/>
-      <source>Save to file</source>
-      <translation>Salvează în fișier</translation>
+        <location filename="../sqleditor.cpp" line="1212"/>
+        <source>Save to file</source>
+        <translation>Salvează în fișier</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1227"/>
-      <source>SQL scripts (*.sql);;All files (*)</source>
-      <translation>Scripturi SQL (*.sql);;Toate fișierele (*)</translation>
+        <location filename="../sqleditor.cpp" line="1227"/>
+        <source>SQL scripts (*.sql);;All files (*)</source>
+        <translation>Scripturi SQL (*.sql);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1228"/>
-      <location filename="../sqleditor.cpp" line="1259"/>
-      <source>Open file</source>
-      <translation>Deschide fișierul</translation>
+        <location filename="../sqleditor.cpp" line="1228"/>
+        <location filename="../sqleditor.cpp" line="1259"/>
+        <source>Open file</source>
+        <translation>Deschide fișierul</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1260"/>
-      <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
-      <translation>Acest fișier este foarte mare (peste %1 MB). Sigur doriți să îl încărcați în editorul de interogări SQL?</translation>
+        <location filename="../sqleditor.cpp" line="1260"/>
+        <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
+        <translation>Acest fișier este foarte mare (peste %1 MB). Sigur doriți să îl încărcați în editorul de interogări SQL?</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1274"/>
-      <source>Could not open file &apos;%1&apos; for reading: %2</source>
-      <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru citire: %2</translation>
+        <location filename="../sqleditor.cpp" line="1274"/>
+        <source>Could not open file &apos;%1&apos; for reading: %2</source>
+        <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru citire: %2</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1468"/>
-      <source>Reached the end of document. Hit the find again to restart the search.</source>
-      <translation>S-a ajuns la sfârșitul documentului. Apăsați din nou găsire pentru a reporni căutarea.</translation>
+        <location filename="../sqleditor.cpp" line="1468"/>
+        <source>Reached the end of document. Hit the find again to restart the search.</source>
+        <translation>S-a ajuns la sfârșitul documentului. Apăsați din nou găsire pentru a reporni căutarea.</translation>
     </message>
     <message>
-      <location filename="../sqleditor.cpp" line="1740"/>
-      <source>Ctrl+click to open this table or view</source>
-      <translation>Ctrl+clic pentru a deschide acest tabel sau această vizualizare</translation>
+        <location filename="../sqleditor.cpp" line="1740"/>
+        <source>Ctrl+click to open this table or view</source>
+        <translation>Ctrl+clic pentru a deschide acest tabel sau această vizualizare</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryItem</name>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
-      <source>Committing error:</source>
-      <comment>data view tooltip</comment>
-      <translation>Eroare la confirmare:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
+        <source>Committing error:</source>
+        <comment>data view tooltip</comment>
+        <translation>Eroare la confirmare:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
-      <source>Column:</source>
-      <comment>data view tooltip</comment>
-      <translation>Coloană:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
+        <source>Column:</source>
+        <comment>data view tooltip</comment>
+        <translation>Coloană:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
-      <source>Data type:</source>
-      <comment>data view</comment>
-      <translation>Tip de date:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
+        <source>Data type:</source>
+        <comment>data view</comment>
+        <translation>Tip de date:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
-      <source>Table:</source>
-      <comment>data view tooltip</comment>
-      <translation>Tabel:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
+        <source>Table:</source>
+        <comment>data view tooltip</comment>
+        <translation>Tabel:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
-      <source>Constraints:</source>
-      <comment>data view tooltip</comment>
-      <translation>Constrângeri:</translation>
+        <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
+        <source>Constraints:</source>
+        <comment>data view tooltip</comment>
+        <translation>Constrângeri:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryItemDelegate</name>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
-      <source>Cannot edit this cell. Details: %1</source>
-      <translation>Nu se poate edita această celulă. Detalii: %1</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <source>Cannot edit this cell. Details: %1</source>
+        <translation>Nu se poate edita această celulă. Detalii: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
-      <source>The row is marked for deletion.</source>
-      <translation>Rândul este marcat pentru ștergere.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
+        <source>The row is marked for deletion.</source>
+        <translation>Rândul este marcat pentru ștergere.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
-      <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
-      <translation>Structura acestui tabel s-a modificat de la ultima încărcare a datelor. Reîncărcați datele pentru a continua.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
+        <translation>Structura acestui tabel s-a modificat de la ultima încărcare a datelor. Reîncărcați datele pentru a continua.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-      <source>ROWID is not available for this cell.</source>
-      <translation>ROWID nu este disponibil pentru această celulă.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
+        <source>ROWID is not available for this cell.</source>
+        <translation>ROWID nu este disponibil pentru această celulă.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
-      <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
-      <translation>Editarea unui conținut foarte mare într-un editor de celulă inline nu este o idee bună. Poate deveni lentă și incomodă. Este mai bine să editați astfel de conținut mare în Vizualizarea formular sau în editorul popup (disponibil în meniul deschis cu clic dreapta).</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
+        <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
+        <translation>Editarea unui conținut foarte mare într-un editor de celulă inline nu este o idee bună. Poate deveni lentă și incomodă. Este mai bine să editați astfel de conținut mare în Vizualizarea formular sau în editorul popup (disponibil în meniul deschis cu clic dreapta).</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
-      <source>Reset to DEFAULT value</source>
-      <translation>Resetează la valoarea DEFAULT</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
+        <source>Reset to DEFAULT value</source>
+        <translation>Resetează la valoarea DEFAULT</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
-      <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
-      <translation>Resetează la valoarea PRIMARY KEY AUTOINCREMENT</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
+        <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
+        <translation>Resetează la valoarea PRIMARY KEY AUTOINCREMENT</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
-      <source>Reset value</source>
-      <translation>Resetează valoarea</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
+        <source>Reset value</source>
+        <translation>Resetează valoarea</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
-      <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
-      <translation>Cheia străină pentru coloana %2 are mai mult de %1 valori posibile. Sunt prea multe pentru a fi afișate în lista derulantă. Trebuie să editați valoarea manual.</translation>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
+        <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
+        <translation>Cheia străină pentru coloana %2 are mai mult de %1 valori posibile. Sunt prea multe pentru a fi afișate în lista derulantă. Trebuie să editați valoarea manual.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryModel</name>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
-      <source>Only one query can be executed simultaneously.</source>
-      <translation>Poate fi executată simultan o singură interogare.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
+        <source>Only one query can be executed simultaneously.</source>
+        <translation>Poate fi executată simultan o singură interogare.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
-      <source>Cannot execute query on undefined or invalid database.</source>
-      <translation>Nu se poate executa interogarea pe o bază de date nedefinită sau nevalidă.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
+        <source>Cannot execute query on undefined or invalid database.</source>
+        <translation>Nu se poate executa interogarea pe o bază de date nedefinită sau nevalidă.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
-      <source>Cannot execute empty query.</source>
-      <translation>Nu se poate executa o interogare goală.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
+        <source>Cannot execute empty query.</source>
+        <translation>Nu se poate executa o interogare goală.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
-      <source>Uncommitted data</source>
-      <translation>Date neconfirmate</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+        <source>Uncommitted data</source>
+        <translation>Date neconfirmate</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
-      <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
-      <translation>Există modificări de date neconfirmate. Doriți să continuați oricum? Toate modificările neconfirmate se vor pierde.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
+        <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
+        <translation>Există modificări de date neconfirmate. Doriți să continuați oricum? Toate modificările neconfirmate se vor pierde.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
-      <source>Cannot commit the data for a cell that refers to the already closed database.</source>
-      <translation>Nu se pot confirma datele pentru o celulă care se referă la baza de date deja închisă.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
+        <source>Cannot commit the data for a cell that refers to the already closed database.</source>
+        <translation>Nu se pot confirma datele pentru o celulă care se referă la baza de date deja închisă.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
-      <source>Could not begin transaction on the database. Details: %1</source>
-      <translation>Nu s-a putut începe tranzacția în baza de date. Detalii: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
+        <source>Could not begin transaction on the database. Details: %1</source>
+        <translation>Nu s-a putut începe tranzacția în baza de date. Detalii: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
-      <source>An error occurred while committing the transaction: %1</source>
-      <translation>A apărut o eroare la confirmarea tranzacției: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
+        <source>An error occurred while committing the transaction: %1</source>
+        <translation>A apărut o eroare la confirmarea tranzacției: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
-      <source>An error occurred while rolling back the transaction: %1</source>
-      <translation>A apărut o eroare la revenirea tranzacției: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
+        <source>An error occurred while rolling back the transaction: %1</source>
+        <translation>A apărut o eroare la revenirea tranzacției: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
-      <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
-      <translation>S-a încercat confirmarea unei celule care nu este editabilă (totuși modificată și în așteptarea confirmării)! Aceasta este o eroare. Vă rugăm să o raportați.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
+        <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
+        <translation>S-a încercat confirmarea unei celule care nu este editabilă (totuși modificată și în așteptarea confirmării)! Aceasta este o eroare. Vă rugăm să o raportați.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
-      <source>An error occurred while committing the data: %1</source>
-      <translation>A apărut o eroare la confirmarea datelor: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation>A apărut o eroare la confirmarea datelor: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
-      <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
-      <translation>Numărul de rânduri pe pagină a fost redus la %1 din cauza numărului de coloane (%2) din vizualizarea datelor.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
+        <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
+        <translation>Numărul de rânduri pe pagină a fost redus la %1 din cauza numărului de coloane (%2) din vizualizarea datelor.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
-      <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
-      <translation>Eroare la executarea interogării SQL pe baza de date &apos;%1&apos;: %2</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
+        <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
+        <translation>Eroare la executarea interogării SQL pe baza de date &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
-      <source>Error while loading query results: %1</source>
-      <translation>Eroare la încărcarea rezultatelor interogării: %1</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
+        <source>Error while loading query results: %1</source>
+        <translation>Eroare la încărcarea rezultatelor interogării: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
-      <source>There are less columns in the new query, sort order has been reset.</source>
-      <translation>Există mai puține coloane în noua interogare, ordinea de sortare a fost resetată.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
+        <source>There are less columns in the new query, sort order has been reset.</source>
+        <translation>Există mai puține coloane în noua interogare, ordinea de sortare a fost resetată.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
-      <source>Insert multiple rows</source>
-      <translation>Inserează mai multe rânduri</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <source>Insert multiple rows</source>
+        <translation>Inserează mai multe rânduri</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
-      <source>Number of rows to insert:</source>
-      <translation>Numărul de rânduri de inserat:</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <source>Number of rows to insert:</source>
+        <translation>Numărul de rânduri de inserat:</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
-      <source>Delete rows</source>
-      <translation>Șterge rânduri</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <source>Delete rows</source>
+        <translation>Șterge rânduri</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
-      <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
+        <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
-      <translation>Sunteți pe cale să ștergeți rânduri nou inserate care nu au fost încă confirmate. Numerele rândurilor: %1
+        <translation>Sunteți pe cale să ștergeți rânduri nou inserate care nu au fost încă confirmate. Numerele rândurilor: %1
 O astfel de ștergere va fi permanentă. Sigur doriți să le ștergeți?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
-      <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
-      <translation>Un singur clic sortează după coloană.&lt;br&gt;Alt+clic selectează datele din coloană.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
+        <translation>Un singur clic sortează după coloană.&lt;br&gt;Alt+clic selectează datele din coloană.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
-      <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
-      <translation>Un singur clic selectează datele din coloană.&lt;br&gt;Dublu clic sortează după coloană.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
+        <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
+        <translation>Un singur clic selectează datele din coloană.&lt;br&gt;Dublu clic sortează după coloană.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
-      <source>Middle-click resets sorting.</source>
-      <translation>Clic cu butonul din mijloc resetează sortarea.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <source>Middle-click resets sorting.</source>
+        <translation>Clic cu butonul din mijloc resetează sortarea.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
-      <source>More options are available in the context menu.</source>
-      <translation>Mai multe opțiuni sunt disponibile în meniul contextual.</translation>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
+        <source>More options are available in the context menu.</source>
+        <translation>Mai multe opțiuni sunt disponibile în meniul contextual.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlQueryView</name>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
-      <source>Go to referenced row in...</source>
-      <translation>Mergi la rândul referențiat în...</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
+        <source>Go to referenced row in...</source>
+        <translation>Mergi la rândul referențiat în...</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
-      <source>Cut</source>
-      <translation>Taie</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
+        <source>Cut</source>
+        <translation>Taie</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
-      <source>Copy</source>
-      <translation>Copiază</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
+        <source>Copy</source>
+        <translation>Copiază</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
-      <source>Copy with headers</source>
-      <translation>Copiază cu anteturi</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
+        <source>Copy with headers</source>
+        <translation>Copiază cu anteturi</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
-      <source>Copy as...</source>
-      <translation>Copiază ca...</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
+        <source>Copy as...</source>
+        <translation>Copiază ca...</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
-      <source>Paste</source>
-      <translation>Lipește</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
+        <source>Paste</source>
+        <translation>Lipește</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
-      <source>Paste as...</source>
-      <translation>Lipește ca...</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
+        <source>Paste as...</source>
+        <translation>Lipește ca...</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
-      <source>Set NULL value</source>
-      <translation>Setează valoarea NULL</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
+        <source>Set NULL value</source>
+        <translation>Setează valoarea NULL</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
-      <source>Erase value</source>
-      <translation>Șterge valoarea</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
+        <source>Erase value</source>
+        <translation>Șterge valoarea</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
-      <source>Reset value</source>
-      <translation>Resetează valoarea</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
+        <source>Reset value</source>
+        <translation>Resetează valoarea</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
-      <source>Commit</source>
-      <translation>Confirmă</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
+        <source>Commit</source>
+        <translation>Confirmă</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
-      <source>Rollback</source>
-      <translation>Revino</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
+        <source>Rollback</source>
+        <translation>Revino</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
-      <source>Commit selected cells</source>
-      <translation>Confirmă celulele selectate</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
+        <source>Commit selected cells</source>
+        <translation>Confirmă celulele selectate</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
-      <source>Rollback selected cells</source>
-      <translation>Revino asupra celulelor selectate</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
+        <source>Rollback selected cells</source>
+        <translation>Revino asupra celulelor selectate</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
-      <source>Edit current cell inline</source>
-      <translation>Editează celula curentă inline</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
+        <source>Edit current cell inline</source>
+        <translation>Editează celula curentă inline</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
-      <source>Define columns to sort by</source>
-      <translation>Definește coloanele după care se sortează</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
+        <source>Define columns to sort by</source>
+        <translation>Definește coloanele după care se sortează</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
-      <source>Remove custom sorting (Middle click)</source>
-      <translation>Elimină sortarea personalizată (clic cu butonul din mijloc)</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
+        <source>Remove custom sorting (Middle click)</source>
+        <translation>Elimină sortarea personalizată (clic cu butonul din mijloc)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
-      <source>Insert row</source>
-      <translation>Inserează rând</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
+        <source>Insert row</source>
+        <translation>Inserează rând</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
-      <source>Insert multiple rows</source>
-      <translation>Inserează mai multe rânduri</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
+        <source>Insert multiple rows</source>
+        <translation>Inserează mai multe rânduri</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
-      <source>Delete selected row</source>
-      <translation>Șterge rândul selectat</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
+        <source>Delete selected row</source>
+        <translation>Șterge rândul selectat</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
-      <source>Adjust height of rows</source>
-      <translation>Ajustează înălțimea rândurilor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
+        <source>Adjust height of rows</source>
+        <translation>Ajustează înălțimea rândurilor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
-      <source>Next row on Enter</source>
-      <translation>Rândul următor la Enter</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
+        <source>Next row on Enter</source>
+        <translation>Rândul următor la Enter</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
-      <source>Increase font size</source>
-      <comment>data view</comment>
-      <translation>Mărește dimensiunea fontului</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
+        <source>Increase font size</source>
+        <comment>data view</comment>
+        <translation>Mărește dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
-      <source>Decrease font size</source>
-      <comment>data view</comment>
-      <translation>Micșorează dimensiunea fontului</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
+        <source>Decrease font size</source>
+        <comment>data view</comment>
+        <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
-      <source>Invert selection</source>
-      <comment>data view</comment>
-      <translation>Inversează selecția</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
+        <source>Invert selection</source>
+        <comment>data view</comment>
+        <translation>Inversează selecția</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
-      <source>Edit value in editor</source>
-      <translation>Editează valoarea în editor</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
+        <source>Edit value in editor</source>
+        <translation>Editează valoarea în editor</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
-      <source>Show value in a viewer</source>
-      <translation>Afișează valoarea într-un vizualizator</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
+        <source>Show value in a viewer</source>
+        <translation>Afișează valoarea într-un vizualizator</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
-      <source>Generate query for selected cells</source>
-      <translation>Generează interogare pentru celulele selectate</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
+        <source>Generate query for selected cells</source>
+        <translation>Generează interogare pentru celulele selectate</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
-      <source>No items selected to paste clipboard contents to.</source>
-      <translation>Nu sunt selectate elemente în care să se lipească conținutul clipboardului.</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
+        <source>No items selected to paste clipboard contents to.</source>
+        <translation>Nu sunt selectate elemente în care să se lipească conținutul clipboardului.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
-      <source>Cannot paste data. Details: %1</source>
-      <translation>Nu se pot lipi datele. Detalii: %1</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
+        <source>Cannot paste data. Details: %1</source>
+        <translation>Nu se pot lipi datele. Detalii: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
-      <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
-      <translation>Structura a cel puțin unui tabel utilizat s-a modificat de la ultima încărcare a datelor. Reîncărcați datele pentru a continua.</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
+        <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
+        <translation>Structura a cel puțin unui tabel utilizat s-a modificat de la ultima încărcare a datelor. Reîncărcați datele pentru a continua.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
-      <source>Cannot paste to a cell. Details: %1</source>
-      <translation>Nu se poate lipi într-o celulă. Detalii: %1</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
+        <source>Cannot paste to a cell. Details: %1</source>
+        <translation>Nu se poate lipi într-o celulă. Detalii: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
-      <source>The row is marked for deletion.</source>
-      <translation>Rândul este marcat pentru ștergere.</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
+        <source>The row is marked for deletion.</source>
+        <translation>Rândul este marcat pentru ștergere.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
-      <source>Cannot paste to column %1. Details: %2</source>
-      <translation>Nu se poate lipi în coloana %1. Detalii: %2</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
+        <source>Cannot paste to column %1. Details: %2</source>
+        <translation>Nu se poate lipi în coloana %1. Detalii: %2</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
-      <source>Go to referenced row in table &apos;%1&apos;</source>
-      <translation>Mergi la rândul referențiat din tabelul &apos;%1&apos;</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
+        <source>Go to referenced row in table &apos;%1&apos;</source>
+        <translation>Mergi la rândul referențiat din tabelul &apos;%1&apos;</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
-      <source>table &apos;%1&apos;</source>
-      <translation>tabelul &apos;%1&apos;</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
+        <source>table &apos;%1&apos;</source>
+        <translation>tabelul &apos;%1&apos;</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
-      <source>Referenced row (%1)</source>
-      <translation>Rând referențiat (%1)</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
+        <source>Referenced row (%1)</source>
+        <translation>Rând referențiat (%1)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
-      <source>Pin column</source>
-      <translation>Fixează coloana</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+        <source>Pin column</source>
+        <translation>Fixează coloana</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
-      <source>Column renderer</source>
-      <translation>Randator coloană</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+        <source>Column renderer</source>
+        <translation>Randator coloană</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
-      <source>Default</source>
-      <translation>Implicit</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+        <source>Default</source>
+        <translation>Implicit</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
-      <source>Trim pasted text?</source>
-      <translation>Se elimină spațiile din textul lipit?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+        <source>Trim pasted text?</source>
+        <translation>Se elimină spațiile din textul lipit?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
-      <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
-      <translation>Textul lipit conține spații albe la început sau la sfârșit. Să fie eliminate automat?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+        <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
+        <translation>Textul lipit conține spații albe la început sau la sfârșit. Să fie eliminate automat?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
-      <source>Paste &quot;NULL&quot; as null value?</source>
-      <translation>Lipiți &quot;NULL&quot; ca valoare null?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+        <source>Paste &quot;NULL&quot; as null value?</source>
+        <translation>Lipiți &quot;NULL&quot; ca valoare null?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
-      <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
-      <translation>Textul lipit conține literali &quot;NULL&quot;. Doriți să îi considerați valori NULL?</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+        <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
+        <translation>Textul lipit conține literali &quot;NULL&quot;. Doriți să îi considerați valori NULL?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
-      <source>Edit value</source>
-      <translation>Editează valoarea</translation>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+        <source>Edit value</source>
+        <translation>Editează valoarea</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqlViewModel</name>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
-      <source>An error occurred while committing the data: %1</source>
-      <translation>A apărut o eroare la confirmarea datelor: %1</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+        <source>An error occurred while committing the data: %1</source>
+        <translation>A apărut o eroare la confirmarea datelor: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
-      <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-      <translation>Rândul %1: declanșatorul INSTEAD OF UPDATE a modificat mai mult de un rând (%2). Vizualizarea nu identifică în mod unic înregistrarea editată.</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+        <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation>Rândul %1: declanșatorul INSTEAD OF UPDATE a modificat mai mult de un rând (%2). Vizualizarea nu identifică în mod unic înregistrarea editată.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
-      <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-      <translation>Rândul %1: declanșatorul INSTEAD OF DELETE a șters mai mult de un rând (%2). Vizualizarea nu identifică în mod unic înregistrarea editată.</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
+        <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
+        <translation>Rândul %1: declanșatorul INSTEAD OF DELETE a șters mai mult de un rând (%2). Vizualizarea nu identifică în mod unic înregistrarea editată.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
-      <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-      <translation>Vizualizarea are declanșator(e) INSTEAD OF care gestionează editarea. Este recomandat să reîmprospătați datele după confirmare pentru a vedea modificările reale, deoarece declanșatoarele pot modifica datele într-un mod neașteptat.</translation>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
+        <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
+        <translation>Vizualizarea are declanșator(e) INSTEAD OF care gestionează editarea. Este recomandat să reîmprospătați datele după confirmare pentru a vedea modificările reale, deoarece declanșatoarele pot modifica datele într-un mod neașteptat.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqliteExtensionEditor</name>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
-      <source>Filter extensions</source>
-      <translation>Filtrează extensiile</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
+        <source>Filter extensions</source>
+        <translation>Filtrează extensiile</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
-      <source>Leave empty to use default function</source>
-      <translation>Lăsați gol pentru a utiliza funcția implicită</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
+        <source>Leave empty to use default function</source>
+        <translation>Lăsați gol pentru a utiliza funcția implicită</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
-      <source>Extension file</source>
-      <translation>Fișier extensie</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
+        <source>Extension file</source>
+        <translation>Fișier extensie</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
-      <source>Initialization function</source>
-      <translation>Funcție de inițializare</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
+        <source>Initialization function</source>
+        <translation>Funcție de inițializare</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
-      <source>Databases</source>
-      <translation>Baze de date</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
+        <source>Databases</source>
+        <translation>Baze de date</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
-      <source>Register in all databases</source>
-      <translation>Înregistrează în toate bazele de date</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
+        <source>Register in all databases</source>
+        <translation>Înregistrează în toate bazele de date</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
-      <source>Register in following databases:</source>
-      <translation>Înregistrează în următoarele baze de date:</translation>
+        <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
+        <source>Register in following databases:</source>
+        <translation>Înregistrează în următoarele baze de date:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
-      <source>Extension manager window has uncommitted modifications.</source>
-      <translation>Fereastra managerului de extensii are modificări neconfirmate.</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
+        <source>Extension manager window has uncommitted modifications.</source>
+        <translation>Fereastra managerului de extensii are modificări neconfirmate.</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
-      <source>Extension manager</source>
-      <translation>Manager de extensii</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
+        <source>Extension manager</source>
+        <translation>Manager de extensii</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
-      <source>Commit all extension changes</source>
-      <translation>Confirmă toate modificările extensiilor</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
+        <source>Commit all extension changes</source>
+        <translation>Confirmă toate modificările extensiilor</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
-      <source>Rollback all extension changes</source>
-      <translation>Revino asupra tuturor modificărilor extensiilor</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
+        <source>Rollback all extension changes</source>
+        <translation>Revino asupra tuturor modificărilor extensiilor</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
-      <source>Add new extension</source>
-      <translation>Adaugă extensie nouă</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
+        <source>Add new extension</source>
+        <translation>Adaugă extensie nouă</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
-      <source>Remove selected extension</source>
-      <translation>Elimină extensia selectată</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
+        <source>Remove selected extension</source>
+        <translation>Elimină extensia selectată</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
-      <source>Import extension list from file</source>
-      <translation>Importă lista de extensii din fișier</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
+        <source>Import extension list from file</source>
+        <translation>Importă lista de extensii din fișier</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
-      <source>Export extension list file</source>
-      <translation>Exportă fișierul listei de extensii</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
+        <source>Export extension list file</source>
+        <translation>Exportă fișierul listei de extensii</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
-      <source>Editing extensions manual</source>
-      <translation>Manual pentru editarea extensiilor</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
+        <source>Editing extensions manual</source>
+        <translation>Manual pentru editarea extensiilor</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
-      <source>File with given path does not exist or is not readable.</source>
-      <translation>Fișierul cu calea dată nu există sau nu poate fi citit.</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
+        <source>File with given path does not exist or is not readable.</source>
+        <translation>Fișierul cu calea dată nu există sau nu poate fi citit.</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
-      <source>Unable to load extension: %1</source>
-      <translation>Nu se poate încărca extensia: %1</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
+        <source>Unable to load extension: %1</source>
+        <translation>Nu se poate încărca extensia: %1</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
-      <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
-      <translation>Nume nevalid pentru funcția de inițializare. Numele funcției poate conține numai caractere alfanumerice și caracterul de subliniere.</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
+        <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
+        <translation>Nume nevalid pentru funcția de inițializare. Numele funcției poate conține numai caractere alfanumerice și caracterul de subliniere.</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
-      <source>Dynamic link libraries (*.dll);;All files (*)</source>
-      <translation>Biblioteci cu legare dinamică (*.dll);;Toate fișierele (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
+        <source>Dynamic link libraries (*.dll);;All files (*)</source>
+        <translation>Biblioteci cu legare dinamică (*.dll);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
-      <source>Shared objects (*.so);;All files (*)</source>
-      <translation>Obiecte partajate (*.so);;Toate fișierele (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
+        <source>Shared objects (*.so);;All files (*)</source>
+        <translation>Obiecte partajate (*.so);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
-      <source>Dynamic libraries (*.dylib);;All files (*)</source>
-      <translation>Biblioteci dinamice (*.dylib);;Toate fișierele (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
+        <source>Dynamic libraries (*.dylib);;All files (*)</source>
+        <translation>Biblioteci dinamice (*.dylib);;Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
-      <source>All files (*)</source>
-      <translation>Toate fișierele (*)</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
+        <source>All files (*)</source>
+        <translation>Toate fișierele (*)</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
-      <source>Open file</source>
-      <translation>Deschide fișierul</translation>
+        <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
+        <source>Open file</source>
+        <translation>Deschide fișierul</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>SqliteExtensionEditorModel</name>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
-      <source>all databases</source>
-      <translation>toate bazele de date</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
+        <source>all databases</source>
+        <translation>toate bazele de date</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
-      <source>Extension:</source>
-      <translation>Extensie:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
+        <source>Extension:</source>
+        <translation>Extensie:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
-      <source>File:</source>
-      <translation>Fișier:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
+        <source>File:</source>
+        <translation>Fișier:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
-      <source>Init function:</source>
-      <translation>Funcție init:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
+        <source>Init function:</source>
+        <translation>Funcție init:</translation>
     </message>
     <message>
-      <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
-      <source>Registered in:</source>
-      <translation>Înregistrată în:</translation>
+        <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
+        <source>Registered in:</source>
+        <translation>Înregistrată în:</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>StatusField</name>
     <message>
-      <location filename="../statusfield.ui" line="14"/>
-      <source>Status</source>
-      <translation>Stare</translation>
+        <location filename="../statusfield.ui" line="14"/>
+        <source>Status</source>
+        <translation>Stare</translation>
     </message>
     <message>
-      <location filename="../statusfield.cpp" line="190"/>
-      <source>Copy</source>
-      <translation>Copiază</translation>
+        <location filename="../statusfield.cpp" line="190"/>
+        <source>Copy</source>
+        <translation>Copiază</translation>
     </message>
     <message>
-      <location filename="../statusfield.cpp" line="197"/>
-      <source>Clear</source>
-      <translation>Curăță</translation>
+        <location filename="../statusfield.cpp" line="197"/>
+        <source>Clear</source>
+        <translation>Curăță</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableConstraintsModel</name>
     <message>
-      <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
-      <source>Type</source>
-      <comment>table constraints</comment>
-      <translation>Tip</translation>
+        <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
+        <source>Type</source>
+        <comment>table constraints</comment>
+        <translation>Tip</translation>
     </message>
     <message>
-      <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
-      <source>Details</source>
-      <comment>table constraints</comment>
-      <translation>Detalii</translation>
+        <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
+        <source>Details</source>
+        <comment>table constraints</comment>
+        <translation>Detalii</translation>
     </message>
     <message>
-      <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
-      <source>Name</source>
-      <comment>table constraints</comment>
-      <translation>Nume</translation>
+        <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
+        <source>Name</source>
+        <comment>table constraints</comment>
+        <translation>Nume</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableForeignKeyPanel</name>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
-      <source>Columns</source>
-      <translation>Coloane</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
+        <source>Columns</source>
+        <translation>Coloane</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
-      <source>Referenced table:</source>
-      <translation>Tabel referențiat:</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
+        <source>Referenced table:</source>
+        <translation>Tabel referențiat:</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
-      <source>Referencing column</source>
-      <translation>Coloană referențiatoare</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
+        <source>Referencing column</source>
+        <translation>Coloană referențiatoare</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
-      <source>Referenced column</source>
-      <translation>Coloană referențiată</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
+        <source>Referenced column</source>
+        <translation>Coloană referențiată</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
-      <source>Reactions</source>
-      <translation>Reacții</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
+        <source>Reactions</source>
+        <translation>Reacții</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
-      <source>Deferred foreign key</source>
-      <translation>Cheie străină amânată</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
+        <source>Deferred foreign key</source>
+        <translation>Cheie străină amânată</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
-      <source>Named constraint</source>
-      <translation>Constrângere denumită</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
+        <source>Named constraint</source>
+        <translation>Constrângere denumită</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
-      <source>Constraint name</source>
-      <translation>Nume constrângere</translation>
+        <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
+        <source>Constraint name</source>
+        <translation>Nume constrângere</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
-      <source>Pick the foreign column.</source>
-      <translation>Alegeți coloana străină.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
+        <source>Pick the foreign column.</source>
+        <translation>Alegeți coloana străină.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
-      <source>Pick the foreign table.</source>
-      <translation>Alegeți tabelul străin.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
+        <source>Pick the foreign table.</source>
+        <translation>Alegeți tabelul străin.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
-      <source>Select at least one foreign column.</source>
-      <translation>Selectați cel puțin o coloană străină.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
+        <source>Select at least one foreign column.</source>
+        <translation>Selectați cel puțin o coloană străină.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
-      <source>Column with the same name</source>
-      <translation>Coloană cu același nume</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
+        <source>Column with the same name</source>
+        <translation>Coloană cu același nume</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
-      <source>Foreign column</source>
-      <comment>table constraints</comment>
-      <translation>Coloană străină</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
+        <source>Foreign column</source>
+        <comment>table constraints</comment>
+        <translation>Coloană străină</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
-      <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
-      <translation>Coloana referențiată nu este PRIMARY KEY sau UNIQUE. Aceasta poate cauza probleme la inserarea sau actualizarea datelor.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
+        <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
+        <translation>Coloana referențiată nu este PRIMARY KEY sau UNIQUE. Aceasta poate cauza probleme la inserarea sau actualizarea datelor.</translation>
     </message>
     <message>
-      <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
-      <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
-      <translation>Tipul coloanei referențiate (%1) este diferit de tipul declarat pentru coloana locală (%2). Aceasta poate cauza probleme la inserarea sau actualizarea datelor.</translation>
+        <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
+        <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
+        <translation>Tipul coloanei referențiate (%1) este diferit de tipul declarat pentru coloana locală (%2). Aceasta poate cauza probleme la inserarea sau actualizarea datelor.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TablePrimaryKeyAndUniquePanel</name>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
-      <source>Columns</source>
-      <translation>Coloane</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
+        <source>Columns</source>
+        <translation>Coloane</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
-      <source>Column</source>
-      <translation>Coloană</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
+        <source>Column</source>
+        <translation>Coloană</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
-      <source>Collation</source>
-      <translation>Colaționare</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
+        <source>Collation</source>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
-      <source>Sort</source>
-      <translation>Sortare</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
+        <source>Sort</source>
+        <translation>Sortare</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
-      <source>Valid only for a single column with INTEGER data type</source>
-      <translation>Valid numai pentru o singură coloană cu tipul de date INTEGER</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
+        <source>Valid only for a single column with INTEGER data type</source>
+        <translation>Valid numai pentru o singură coloană cu tipul de date INTEGER</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
-      <source>Autoincrement</source>
-      <translation>Autoincrementare</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
+        <source>Autoincrement</source>
+        <translation>Autoincrementare</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
-      <source>Named constraint</source>
-      <translation>Constrângere denumită</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
+        <source>Named constraint</source>
+        <translation>Constrângere denumită</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
-      <source>Constraint name</source>
-      <translation>Nume constrângere</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
+        <source>Constraint name</source>
+        <translation>Nume constrângere</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
-      <source>On conflict</source>
-      <translation>La conflict</translation>
+        <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
+        <source>On conflict</source>
+        <translation>La conflict</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
-      <source>Collate</source>
-      <comment>table constraints</comment>
-      <translation>Colaționare</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
+        <source>Collate</source>
+        <comment>table constraints</comment>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
-      <source>Sort order</source>
-      <comment>table constraints</comment>
-      <translation>Ordine de sortare</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
+        <source>Sort order</source>
+        <comment>table constraints</comment>
+        <translation>Ordine de sortare</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
-      <source>Select at least one column.</source>
-      <translation>Selectați cel puțin o coloană.</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
+        <source>Select at least one column.</source>
+        <translation>Selectați cel puțin o coloană.</translation>
     </message>
     <message>
-      <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
-      <source>Enter a name of the constraint.</source>
-      <translation>Introduceți un nume pentru constrângere.</translation>
+        <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
+        <source>Enter a name of the constraint.</source>
+        <translation>Introduceți un nume pentru constrângere.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableStructureModel</name>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="322"/>
-      <source>Name</source>
-      <comment>table structure columns</comment>
-      <translation>Nume</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="322"/>
+        <source>Name</source>
+        <comment>table structure columns</comment>
+        <translation>Nume</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="324"/>
-      <source>Data type</source>
-      <comment>table structure columns</comment>
-      <translation>Tip de date</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="324"/>
+        <source>Data type</source>
+        <comment>table structure columns</comment>
+        <translation>Tip de date</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="326"/>
-      <source>Primary
+        <location filename="../windows/tablestructuremodel.cpp" line="326"/>
+        <source>Primary
 Key</source>
-      <comment>table structure columns</comment>
-      <translation>Cheie
+        <comment>table structure columns</comment>
+        <translation>Cheie
 primară</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="328"/>
-      <source>Foreign
+        <location filename="../windows/tablestructuremodel.cpp" line="328"/>
+        <source>Foreign
 Key</source>
-      <comment>table structure columns</comment>
-      <translation>Cheie
+        <comment>table structure columns</comment>
+        <translation>Cheie
 străină</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="330"/>
-      <source>Unique</source>
-      <comment>table structure columns</comment>
-      <translation>Unic</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="330"/>
+        <source>Unique</source>
+        <comment>table structure columns</comment>
+        <translation>Unic</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="332"/>
-      <source>Check</source>
-      <comment>table structure columns</comment>
-      <translation>Verificare</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="332"/>
+        <source>Check</source>
+        <comment>table structure columns</comment>
+        <translation>Verificare</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="334"/>
-      <source>Not
+        <location filename="../windows/tablestructuremodel.cpp" line="334"/>
+        <source>Not
 NULL</source>
-      <comment>table structure columns</comment>
-      <translation>Nu
+        <comment>table structure columns</comment>
+        <translation>Nu
 NULL</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="336"/>
-      <source>Collate</source>
-      <comment>table structure columns</comment>
-      <translation>Colaționare</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="336"/>
+        <source>Collate</source>
+        <comment>table structure columns</comment>
+        <translation>Colaționare</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="338"/>
-      <source>Generated</source>
-      <comment>table structure columns</comment>
-      <translation>Generat</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="338"/>
+        <source>Generated</source>
+        <comment>table structure columns</comment>
+        <translation>Generat</translation>
     </message>
     <message>
-      <location filename="../windows/tablestructuremodel.cpp" line="340"/>
-      <source>Default value</source>
-      <comment>table structure columns</comment>
-      <translation>Valoare implicită</translation>
+        <location filename="../windows/tablestructuremodel.cpp" line="340"/>
+        <source>Default value</source>
+        <comment>table structure columns</comment>
+        <translation>Valoare implicită</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TableWindow</name>
     <message>
-      <location filename="../windows/tablewindow.ui" line="36"/>
-      <source>Structure</source>
-      <translation>Structură</translation>
+        <location filename="../windows/tablewindow.ui" line="36"/>
+        <source>Structure</source>
+        <translation>Structură</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="70"/>
-      <source>Table name:</source>
-      <translation>Nume tabel:</translation>
+        <location filename="../windows/tablewindow.ui" line="70"/>
+        <source>Table name:</source>
+        <translation>Nume tabel:</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="87"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activează/dezactivează clauza WITHOUT ROWID pentru tabel. Un astfel de tabel nu va mai avea coloana ascunsă &amp;quot;rowid&amp;quot;. Pentru un astfel de tabel este obligatorie o coloană PRIMARY KEY explicită. Puteți citi mai multe detalii despre aceasta în documentația oficială SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/tablewindow.ui" line="87"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activează/dezactivează clauza WITHOUT ROWID pentru tabel. Un astfel de tabel nu va mai avea coloana ascunsă &amp;quot;rowid&amp;quot;. Pentru un astfel de tabel este obligatorie o coloană PRIMARY KEY explicită. Puteți citi mai multe detalii despre aceasta în documentația oficială SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="97"/>
-      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activează/dezactivează clauza STRICT pentru tabel. Un astfel de tabel efectuează verificarea strictă a datelor stocate în coloane față de tipurile de date declarate pentru aceste coloane. Acest lucru este similar modului în care tipurile de date sunt de obicei impuse în majoritatea celorlalte motoare de baze de date. Lăsați dezactivat pentru a utiliza comportamentul clasic SQLite (adică fără impunerea tipului de date). Puteți găsi mai multe detalii în documentația oficială SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <location filename="../windows/tablewindow.ui" line="97"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Activează/dezactivează clauza STRICT pentru tabel. Un astfel de tabel efectuează verificarea strictă a datelor stocate în coloane față de tipurile de date declarate pentru aceste coloane. Acest lucru este similar modului în care tipurile de date sunt de obicei impuse în majoritatea celorlalte motoare de baze de date. Lăsați dezactivat pentru a utiliza comportamentul clasic SQLite (adică fără impunerea tipului de date). Puteți găsi mai multe detalii în documentația oficială SQLite.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="213"/>
-      <location filename="../windows/tablewindow.cpp" line="1778"/>
-      <source>Data</source>
-      <translation>Date</translation>
+        <location filename="../windows/tablewindow.ui" line="213"/>
+        <location filename="../windows/tablewindow.cpp" line="1778"/>
+        <source>Data</source>
+        <translation>Date</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="230"/>
-      <source>Constraints</source>
-      <translation>Constrângeri</translation>
+        <location filename="../windows/tablewindow.ui" line="230"/>
+        <source>Constraints</source>
+        <translation>Constrângeri</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="244"/>
-      <source>Indexes</source>
-      <translation>Indecși</translation>
+        <location filename="../windows/tablewindow.ui" line="244"/>
+        <source>Indexes</source>
+        <translation>Indecși</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="276"/>
-      <source>Triggers</source>
-      <translation>Declanșatoare</translation>
+        <location filename="../windows/tablewindow.ui" line="276"/>
+        <source>Triggers</source>
+        <translation>Declanșatoare</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.ui" line="311"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../windows/tablewindow.ui" line="311"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="243"/>
-      <source>Export table</source>
-      <comment>table window</comment>
-      <translation>Exportă tabelul</translation>
+        <location filename="../windows/tablewindow.cpp" line="243"/>
+        <source>Export table</source>
+        <comment>table window</comment>
+        <translation>Exportă tabelul</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="244"/>
-      <source>Populate table</source>
-      <comment>table window</comment>
-      <translation>Populează tabelul</translation>
+        <location filename="../windows/tablewindow.cpp" line="244"/>
+        <source>Populate table</source>
+        <comment>table window</comment>
+        <translation>Populează tabelul</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="232"/>
-      <source>Refresh structure</source>
-      <comment>table window</comment>
-      <translation>Reîmprospătează structura</translation>
+        <location filename="../windows/tablewindow.cpp" line="232"/>
+        <source>Refresh structure</source>
+        <comment>table window</comment>
+        <translation>Reîmprospătează structura</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="234"/>
-      <source>Commit structure changes</source>
-      <comment>table window</comment>
-      <translation>Confirmă modificările structurii</translation>
+        <location filename="../windows/tablewindow.cpp" line="234"/>
+        <source>Commit structure changes</source>
+        <comment>table window</comment>
+        <translation>Confirmă modificările structurii</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="235"/>
-      <source>Rollback structure changes</source>
-      <comment>table window</comment>
-      <translation>Revino asupra modificărilor structurii</translation>
+        <location filename="../windows/tablewindow.cpp" line="235"/>
+        <source>Rollback structure changes</source>
+        <comment>table window</comment>
+        <translation>Revino asupra modificărilor structurii</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="236"/>
-      <source>Add column</source>
-      <comment>table window</comment>
-      <translation>Adaugă coloană</translation>
+        <location filename="../windows/tablewindow.cpp" line="236"/>
+        <source>Add column</source>
+        <comment>table window</comment>
+        <translation>Adaugă coloană</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="237"/>
-      <source>Edit column</source>
-      <comment>table window</comment>
-      <translation>Editează coloana</translation>
+        <location filename="../windows/tablewindow.cpp" line="237"/>
+        <source>Edit column</source>
+        <comment>table window</comment>
+        <translation>Editează coloana</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="238"/>
-      <location filename="../windows/tablewindow.cpp" line="330"/>
-      <source>Delete column</source>
-      <comment>table window</comment>
-      <translation>Șterge coloana</translation>
+        <location filename="../windows/tablewindow.cpp" line="238"/>
+        <location filename="../windows/tablewindow.cpp" line="330"/>
+        <source>Delete column</source>
+        <comment>table window</comment>
+        <translation>Șterge coloana</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="239"/>
-      <source>Move column up</source>
-      <comment>table window</comment>
-      <translation>Mută coloana în sus</translation>
+        <location filename="../windows/tablewindow.cpp" line="239"/>
+        <source>Move column up</source>
+        <comment>table window</comment>
+        <translation>Mută coloana în sus</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="240"/>
-      <source>Move column down</source>
-      <comment>table window</comment>
-      <translation>Mută coloana în jos</translation>
+        <location filename="../windows/tablewindow.cpp" line="240"/>
+        <source>Move column down</source>
+        <comment>table window</comment>
+        <translation>Mută coloana în jos</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="246"/>
-      <source>Create similar table</source>
-      <comment>table window</comment>
-      <translation>Creează tabel similar</translation>
+        <location filename="../windows/tablewindow.cpp" line="246"/>
+        <source>Create similar table</source>
+        <comment>table window</comment>
+        <translation>Creează tabel similar</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="247"/>
-      <source>Reset autoincrement value</source>
-      <comment>table window</comment>
-      <translation>Resetează valoarea de autoincrementare</translation>
+        <location filename="../windows/tablewindow.cpp" line="247"/>
+        <source>Reset autoincrement value</source>
+        <comment>table window</comment>
+        <translation>Resetează valoarea de autoincrementare</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="250"/>
-      <source>Add table constraint</source>
-      <comment>table window</comment>
-      <translation>Adaugă constrângere de tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="250"/>
+        <source>Add table constraint</source>
+        <comment>table window</comment>
+        <translation>Adaugă constrângere de tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="251"/>
-      <source>Edit table constraint</source>
-      <comment>table window</comment>
-      <translation>Editează constrângerea de tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="251"/>
+        <source>Edit table constraint</source>
+        <comment>table window</comment>
+        <translation>Editează constrângerea de tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="252"/>
-      <source>Delete table constraint</source>
-      <comment>table window</comment>
-      <translation>Șterge constrângerea de tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="252"/>
+        <source>Delete table constraint</source>
+        <comment>table window</comment>
+        <translation>Șterge constrângerea de tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="253"/>
-      <source>Move table constraint up</source>
-      <comment>table window</comment>
-      <translation>Mută constrângerea de tabel în sus</translation>
+        <location filename="../windows/tablewindow.cpp" line="253"/>
+        <source>Move table constraint up</source>
+        <comment>table window</comment>
+        <translation>Mută constrângerea de tabel în sus</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="254"/>
-      <source>Move table constraint down</source>
-      <comment>table window</comment>
-      <translation>Mută constrângerea de tabel în jos</translation>
+        <location filename="../windows/tablewindow.cpp" line="254"/>
+        <source>Move table constraint down</source>
+        <comment>table window</comment>
+        <translation>Mută constrângerea de tabel în jos</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="256"/>
-      <source>Add table primary key</source>
-      <comment>table window</comment>
-      <translation>Adaugă cheia primară a tabelului</translation>
+        <location filename="../windows/tablewindow.cpp" line="256"/>
+        <source>Add table primary key</source>
+        <comment>table window</comment>
+        <translation>Adaugă cheia primară a tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="257"/>
-      <source>Add table foreign key</source>
-      <comment>table window</comment>
-      <translation>Adaugă cheia străină a tabelului</translation>
+        <location filename="../windows/tablewindow.cpp" line="257"/>
+        <source>Add table foreign key</source>
+        <comment>table window</comment>
+        <translation>Adaugă cheia străină a tabelului</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="258"/>
-      <source>Add table unique constraint</source>
-      <comment>table window</comment>
-      <translation>Adaugă constrângere unică de tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="258"/>
+        <source>Add table unique constraint</source>
+        <comment>table window</comment>
+        <translation>Adaugă constrângere unică de tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="259"/>
-      <source>Add table check constraint</source>
-      <comment>table window</comment>
-      <translation>Adaugă constrângere de verificare pentru tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="259"/>
+        <source>Add table check constraint</source>
+        <comment>table window</comment>
+        <translation>Adaugă constrângere de verificare pentru tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="242"/>
-      <source>Import data to the table</source>
-      <comment>table window</comment>
-      <translation>Importă date în tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="242"/>
+        <source>Import data to the table</source>
+        <comment>table window</comment>
+        <translation>Importă date în tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="277"/>
-      <source>Refresh index list</source>
-      <comment>table window</comment>
-      <translation>Reîmprospătează lista de indecși</translation>
+        <location filename="../windows/tablewindow.cpp" line="277"/>
+        <source>Refresh index list</source>
+        <comment>table window</comment>
+        <translation>Reîmprospătează lista de indecși</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="279"/>
-      <source>Create index</source>
-      <comment>table window</comment>
-      <translation>Creează index</translation>
+        <location filename="../windows/tablewindow.cpp" line="279"/>
+        <source>Create index</source>
+        <comment>table window</comment>
+        <translation>Creează index</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="280"/>
-      <source>Edit index</source>
-      <comment>table window</comment>
-      <translation>Editează indexul</translation>
+        <location filename="../windows/tablewindow.cpp" line="280"/>
+        <source>Edit index</source>
+        <comment>table window</comment>
+        <translation>Editează indexul</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="281"/>
-      <source>Delete index</source>
-      <comment>table window</comment>
-      <translation>Șterge indexul</translation>
+        <location filename="../windows/tablewindow.cpp" line="281"/>
+        <source>Delete index</source>
+        <comment>table window</comment>
+        <translation>Șterge indexul</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="287"/>
-      <source>Refresh trigger list</source>
-      <comment>table window</comment>
-      <translation>Reîmprospătează lista de declanșatoare</translation>
+        <location filename="../windows/tablewindow.cpp" line="287"/>
+        <source>Refresh trigger list</source>
+        <comment>table window</comment>
+        <translation>Reîmprospătează lista de declanșatoare</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="289"/>
-      <source>Create trigger</source>
-      <comment>table window</comment>
-      <translation>Creează declanșator</translation>
+        <location filename="../windows/tablewindow.cpp" line="289"/>
+        <source>Create trigger</source>
+        <comment>table window</comment>
+        <translation>Creează declanșator</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="290"/>
-      <source>Edit trigger</source>
-      <comment>table window</comment>
-      <translation>Editează declanșatorul</translation>
+        <location filename="../windows/tablewindow.cpp" line="290"/>
+        <source>Edit trigger</source>
+        <comment>table window</comment>
+        <translation>Editează declanșatorul</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="291"/>
-      <source>Delete trigger</source>
-      <comment>table window</comment>
-      <translation>Șterge declanșatorul</translation>
+        <location filename="../windows/tablewindow.cpp" line="291"/>
+        <source>Delete trigger</source>
+        <comment>table window</comment>
+        <translation>Șterge declanșatorul</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="329"/>
-      <source>Are you sure you want to delete column &apos;%1&apos;?</source>
-      <comment>table window</comment>
-      <translation>Sigur doriți să ștergeți coloana &apos;%1&apos;?</translation>
+        <location filename="../windows/tablewindow.cpp" line="329"/>
+        <source>Are you sure you want to delete column &apos;%1&apos;?</source>
+        <comment>table window</comment>
+        <translation>Sigur doriți să ștergeți coloana &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="380"/>
-      <source>Following problems will take place while modifying the table.
+        <location filename="../windows/tablewindow.cpp" line="380"/>
+        <source>Following problems will take place while modifying the table.
 Would you like to proceed?</source>
-      <comment>table window</comment>
-      <translation>Următoarele probleme vor apărea la modificarea tabelului.
+        <comment>table window</comment>
+        <translation>Următoarele probleme vor apărea la modificarea tabelului.
 Doriți să continuați?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="382"/>
-      <source>Table modification</source>
-      <comment>table window</comment>
-      <translation>Modificare tabel</translation>
+        <location filename="../windows/tablewindow.cpp" line="382"/>
+        <source>Table modification</source>
+        <comment>table window</comment>
+        <translation>Modificare tabel</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="507"/>
-      <source>Could not load data for table %1. Error details: %2</source>
-      <translation>Nu s-au putut încărca datele pentru tabelul %1. Detalii eroare: %2</translation>
+        <location filename="../windows/tablewindow.cpp" line="507"/>
+        <source>Could not load data for table %1. Error details: %2</source>
+        <translation>Nu s-au putut încărca datele pentru tabelul %1. Detalii eroare: %2</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="655"/>
-      <source>Could not process the %1 table correctly. Unable to open a table window.</source>
-      <translation>Nu s-a putut procesa corect tabelul %1. Nu se poate deschide o fereastră de tabel.</translation>
+        <location filename="../windows/tablewindow.cpp" line="655"/>
+        <source>Could not process the %1 table correctly. Unable to open a table window.</source>
+        <translation>Nu s-a putut procesa corect tabelul %1. Nu se poate deschide o fereastră de tabel.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="679"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../windows/tablewindow.cpp" line="679"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="722"/>
-      <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
-      <translation>Nu s-a putut restaura fereastra %1, deoarece nu a fost stocată nicio bază de date sau niciun tabel în sesiune pentru această fereastră.</translation>
+        <location filename="../windows/tablewindow.cpp" line="722"/>
+        <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
+        <translation>Nu s-a putut restaura fereastra %1, deoarece nu a fost stocată nicio bază de date sau niciun tabel în sesiune pentru această fereastră.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="728"/>
-      <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece nu a fost stocată nicio bază de date sau niciun tabel în sesiune pentru această fereastră.</translation>
+        <location filename="../windows/tablewindow.cpp" line="728"/>
+        <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece nu a fost stocată nicio bază de date sau niciun tabel în sesiune pentru această fereastră.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="735"/>
-      <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece baza de date %2 nu a putut fi rezolvată.</translation>
+        <location filename="../windows/tablewindow.cpp" line="735"/>
+        <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece baza de date %2 nu a putut fi rezolvată.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="744"/>
-      <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece tabelul %2 nu există în baza de date %3.</translation>
+        <location filename="../windows/tablewindow.cpp" line="744"/>
+        <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece tabelul %2 nu există în baza de date %3.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="775"/>
-      <location filename="../windows/tablewindow.cpp" line="777"/>
-      <source>New table %1</source>
-      <translation>Tabel nou %1</translation>
+        <location filename="../windows/tablewindow.cpp" line="775"/>
+        <location filename="../windows/tablewindow.cpp" line="777"/>
+        <source>New table %1</source>
+        <translation>Tabel nou %1</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="918"/>
-      <source>Committed changes for table &apos;%1&apos; successfully.</source>
-      <translation>Modificările pentru tabelul &apos;%1&apos; au fost confirmate cu succes.</translation>
+        <location filename="../windows/tablewindow.cpp" line="918"/>
+        <source>Committed changes for table &apos;%1&apos; successfully.</source>
+        <translation>Modificările pentru tabelul &apos;%1&apos; au fost confirmate cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="922"/>
-      <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-      <translation>Modificările pentru tabelul &apos;%1&apos; (numit anterior &apos;%2&apos;) au fost confirmate cu succes.</translation>
+        <location filename="../windows/tablewindow.cpp" line="922"/>
+        <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
+        <translation>Modificările pentru tabelul &apos;%1&apos; (numit anterior &apos;%2&apos;) au fost confirmate cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="962"/>
-      <source>Could not commit table structure. Error message: %1</source>
-      <comment>table window</comment>
-      <translation>Nu s-a putut confirma structura tabelului. Mesaj de eroare: %1</translation>
+        <location filename="../windows/tablewindow.cpp" line="962"/>
+        <source>Could not commit table structure. Error message: %1</source>
+        <comment>table window</comment>
+        <translation>Nu s-a putut confirma structura tabelului. Mesaj de eroare: %1</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="988"/>
-      <source>Reset autoincrement</source>
-      <translation>Resetează autoincrementarea</translation>
+        <location filename="../windows/tablewindow.cpp" line="988"/>
+        <source>Reset autoincrement</source>
+        <translation>Resetează autoincrementarea</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="988"/>
-      <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-      <translation>Sigur doriți să resetați valoarea de autoincrementare pentru tabelul &apos;%1&apos;?</translation>
+        <location filename="../windows/tablewindow.cpp" line="988"/>
+        <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
+        <translation>Sigur doriți să resetați valoarea de autoincrementare pentru tabelul &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="995"/>
-      <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-      <translation>A apărut o eroare la încercarea de resetare a valorii de autoincrementare pentru tabelul &apos;%1&apos;: %2</translation>
+        <location filename="../windows/tablewindow.cpp" line="995"/>
+        <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
+        <translation>A apărut o eroare la încercarea de resetare a valorii de autoincrementare pentru tabelul &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="997"/>
-      <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-      <translation>Valoarea de autoincrementare pentru tabelul &apos;%1&apos; a fost resetată cu succes.</translation>
+        <location filename="../windows/tablewindow.cpp" line="997"/>
+        <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
+        <translation>Valoarea de autoincrementare pentru tabelul &apos;%1&apos; a fost resetată cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1085"/>
-      <source>Empty name</source>
-      <translation>Nume gol</translation>
+        <location filename="../windows/tablewindow.cpp" line="1085"/>
+        <source>Empty name</source>
+        <translation>Nume gol</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1085"/>
-      <source>A blank name for the table is allowed in SQLite, but it is not recommended.
+        <location filename="../windows/tablewindow.cpp" line="1085"/>
+        <source>A blank name for the table is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a table with blank name?</source>
-      <translation>Un nume gol pentru tabel este permis în SQLite, dar nu este recomandat.
+        <translation>Un nume gol pentru tabel este permis în SQLite, dar nu este recomandat.
 Sigur doriți să creați un tabel cu nume gol?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1094"/>
-      <source>Cannot create a table without at least one column.</source>
-      <translation>Nu se poate crea un tabel fără cel puțin o coloană.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1094"/>
+        <source>Cannot create a table without at least one column.</source>
+        <translation>Nu se poate crea un tabel fără cel puțin o coloană.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1119"/>
-      <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
-      <translation>Nu se poate crea tabelul %1 dacă nu are definită nicio cheie primară. Fie debifați %2, fie definiți o cheie primară.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1119"/>
+        <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
+        <translation>Nu se poate crea tabelul %1 dacă nu are definită nicio cheie primară. Fie debifați %2, fie definiți o cheie primară.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1126"/>
-      <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
-      <translation>Nu se poate utiliza autoincrementarea pentru cheia primară când este utilizată clauza %1. Fie debifați %2, fie autoincrementarea dintr-o cheie primară.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1126"/>
+        <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
+        <translation>Nu se poate utiliza autoincrementarea pentru cheia primară când este utilizată clauza %1. Fie debifați %2, fie autoincrementarea dintr-o cheie primară.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1145"/>
-      <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
-      <translation>Următoarele coloane au tip de date non-strict: %1. Fie dezactivați modul strict al tabelului, fie corectați tipurile de date ale coloanelor. Tipurile de date stricte valide sunt: %2</translation>
+        <location filename="../windows/tablewindow.cpp" line="1145"/>
+        <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
+        <translation>Următoarele coloane au tip de date non-strict: %1. Fie dezactivați modul strict al tabelului, fie corectați tipurile de date ale coloanelor. Tipurile de date stricte valide sunt: %2</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1327"/>
-      <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
-      <comment>table window</comment>
-      <translation>Sigur doriți să ștergeți constrângerea de tabel &apos;%1&apos;?</translation>
+        <location filename="../windows/tablewindow.cpp" line="1327"/>
+        <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
+        <comment>table window</comment>
+        <translation>Sigur doriți să ștergeți constrângerea de tabel &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1328"/>
-      <source>Delete constraint</source>
-      <comment>table window</comment>
-      <translation>Șterge constrângerea</translation>
+        <location filename="../windows/tablewindow.cpp" line="1328"/>
+        <source>Delete constraint</source>
+        <comment>table window</comment>
+        <translation>Șterge constrângerea</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1383"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1383"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1396"/>
-      <source>Cannot import, because no import plugin is loaded.</source>
-      <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1396"/>
+        <source>Cannot import, because no import plugin is loaded.</source>
+        <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1430"/>
-      <source>Uncommitted changes</source>
-      <translation>Modificări neconfirmate</translation>
+        <location filename="../windows/tablewindow.cpp" line="1430"/>
+        <source>Uncommitted changes</source>
+        <translation>Modificări neconfirmate</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1431"/>
-      <source>There are uncommitted structure modifications.</source>
-      <translation>Există modificări de structură neconfirmate.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1431"/>
+        <source>There are uncommitted structure modifications.</source>
+        <translation>Există modificări de structură neconfirmate.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1433"/>
-      <source>You cannot browse or edit data until you have table structure settled.
+        <location filename="../windows/tablewindow.cpp" line="1433"/>
+        <source>You cannot browse or edit data until you have table structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-      <translation>Nu puteți răsfoi sau edita date până când structura tabelului nu este stabilită.
+        <translation>Nu puteți răsfoi sau edita date până când structura tabelului nu este stabilită.
 Doriți să confirmați structura sau doriți să reveniți la fila de structură?</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1437"/>
-      <source>Commit modifications and browse data</source>
-      <translation>Confirmă modificările și răsfoiește datele</translation>
+        <location filename="../windows/tablewindow.cpp" line="1437"/>
+        <source>Commit modifications and browse data</source>
+        <translation>Confirmă modificările și răsfoiește datele</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1436"/>
-      <source>Go back to structure tab</source>
-      <translation>Înapoi la fila de structură</translation>
+        <location filename="../windows/tablewindow.cpp" line="1436"/>
+        <source>Go back to structure tab</source>
+        <translation>Înapoi la fila de structură</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1644"/>
-      <source>Name</source>
-      <comment>table window indexes</comment>
-      <translation>Nume</translation>
+        <location filename="../windows/tablewindow.cpp" line="1644"/>
+        <source>Name</source>
+        <comment>table window indexes</comment>
+        <translation>Nume</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1645"/>
-      <source>Unique</source>
-      <comment>table window indexes</comment>
-      <translation>Unic</translation>
+        <location filename="../windows/tablewindow.cpp" line="1645"/>
+        <source>Unique</source>
+        <comment>table window indexes</comment>
+        <translation>Unic</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1646"/>
-      <source>Columns</source>
-      <comment>table window indexes</comment>
-      <translation>Coloane</translation>
+        <location filename="../windows/tablewindow.cpp" line="1646"/>
+        <source>Columns</source>
+        <comment>table window indexes</comment>
+        <translation>Coloane</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1647"/>
-      <source>Partial index condition</source>
-      <comment>table window indexes</comment>
-      <translation>Condiție index parțial</translation>
+        <location filename="../windows/tablewindow.cpp" line="1647"/>
+        <source>Partial index condition</source>
+        <comment>table window indexes</comment>
+        <translation>Condiție index parțial</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1703"/>
-      <source>Name</source>
-      <comment>table window triggers</comment>
-      <translation>Nume</translation>
+        <location filename="../windows/tablewindow.cpp" line="1703"/>
+        <source>Name</source>
+        <comment>table window triggers</comment>
+        <translation>Nume</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1704"/>
-      <source>Event</source>
-      <comment>table window triggers</comment>
-      <translation>Eveniment</translation>
+        <location filename="../windows/tablewindow.cpp" line="1704"/>
+        <source>Event</source>
+        <comment>table window triggers</comment>
+        <translation>Eveniment</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1705"/>
-      <source>Condition</source>
-      <comment>table window triggers</comment>
-      <translation>Condiție</translation>
+        <location filename="../windows/tablewindow.cpp" line="1705"/>
+        <source>Condition</source>
+        <comment>table window triggers</comment>
+        <translation>Condiție</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1706"/>
-      <source>Details</source>
-      <comment>table window triggers</comment>
-      <translation>Detalii</translation>
+        <location filename="../windows/tablewindow.cpp" line="1706"/>
+        <source>Details</source>
+        <comment>table window triggers</comment>
+        <translation>Detalii</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1820"/>
-      <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-      <translation>Fereastra tabelului &quot;%1&quot; are modificări neconfirmate ale structurii și datelor.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1820"/>
+        <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
+        <translation>Fereastra tabelului &quot;%1&quot; are modificări neconfirmate ale structurii și datelor.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1822"/>
-      <source>Table window &quot;%1&quot; has uncommitted data.</source>
-      <translation>Fereastra tabelului &quot;%1&quot; are date neconfirmate.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1822"/>
+        <source>Table window &quot;%1&quot; has uncommitted data.</source>
+        <translation>Fereastra tabelului &quot;%1&quot; are date neconfirmate.</translation>
     </message>
     <message>
-      <location filename="../windows/tablewindow.cpp" line="1824"/>
-      <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
-      <translation>Fereastra tabelului &quot;%1&quot; are modificări neconfirmate ale structurii.</translation>
+        <location filename="../windows/tablewindow.cpp" line="1824"/>
+        <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
+        <translation>Fereastra tabelului &quot;%1&quot; are modificări neconfirmate ale structurii.</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TriggerColumnsDialog</name>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
-      <source>Trigger columns</source>
-      <translation>Coloane declanșator</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
+        <source>Trigger columns</source>
+        <translation>Coloane declanșator</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
-      <source>Triggering columns:</source>
-      <translation>Coloane declanșatoare:</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
+        <source>Triggering columns:</source>
+        <translation>Coloane declanșatoare:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
-      <source>Select all</source>
-      <translation>Selectează tot</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
+        <source>Select all</source>
+        <translation>Selectează tot</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
-      <source>Deselect all</source>
-      <translation>Deselectează tot</translation>
+        <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
+        <source>Deselect all</source>
+        <translation>Deselectează tot</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>TriggerDialog</name>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="14"/>
-      <location filename="../dialogs/triggerdialog.ui" line="24"/>
-      <source>Trigger</source>
-      <translation>Declanșator</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="14"/>
+        <location filename="../dialogs/triggerdialog.ui" line="24"/>
+        <source>Trigger</source>
+        <translation>Declanșator</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="30"/>
-      <source>On table:</source>
-      <translation>Pe tabel:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="30"/>
+        <source>On table:</source>
+        <translation>Pe tabel:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="40"/>
-      <source>Action:</source>
-      <translation>Acțiune:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="40"/>
+        <source>Action:</source>
+        <translation>Acțiune:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="56"/>
-      <location filename="../dialogs/triggerdialog.ui" line="127"/>
-      <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
-      <translation>&lt;p&gt;Condiție SQL care va fi evaluată înainte de codul efectiv al declanșatorului. Dacă această condiție returnează fals, declanșatorul nu va fi executat pentru acel rând.&lt;/p&gt;</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="56"/>
+        <location filename="../dialogs/triggerdialog.ui" line="127"/>
+        <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
+        <translation>&lt;p&gt;Condiție SQL care va fi evaluată înainte de codul efectiv al declanșatorului. Dacă această condiție returnează fals, declanșatorul nu va fi executat pentru acel rând.&lt;/p&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="59"/>
-      <source>Pre-condition:</source>
-      <translation>Precondiție:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="59"/>
+        <source>Pre-condition:</source>
+        <translation>Precondiție:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="66"/>
-      <source>The scope is still not fully supported by the SQLite database.</source>
-      <translation>Domeniul încă nu este acceptat complet de baza de date SQLite.</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="66"/>
+        <source>The scope is still not fully supported by the SQLite database.</source>
+        <translation>Domeniul încă nu este acceptat complet de baza de date SQLite.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="73"/>
-      <source>Trigger name:</source>
-      <translation>Nume declanșator:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="73"/>
+        <source>Trigger name:</source>
+        <translation>Nume declanșator:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="80"/>
-      <source>When:</source>
-      <translation>Când:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="80"/>
+        <source>When:</source>
+        <translation>Când:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="87"/>
-      <source>List of columns for UPDATE OF action.</source>
-      <translation>Lista coloanelor pentru acțiunea UPDATE OF.</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="87"/>
+        <source>List of columns for UPDATE OF action.</source>
+        <translation>Lista coloanelor pentru acțiunea UPDATE OF.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="97"/>
-      <source>Scope:</source>
-      <translation>Domeniu:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="97"/>
+        <source>Scope:</source>
+        <translation>Domeniu:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="104"/>
-      <source>Code:</source>
-      <translation>Cod:</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="104"/>
+        <source>Code:</source>
+        <translation>Cod:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="111"/>
-      <source>Trigger statements to be executed.</source>
-      <translation>Instrucțiuni ale declanșatorului de executat.</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="111"/>
+        <source>Trigger statements to be executed.</source>
+        <translation>Instrucțiuni ale declanșatorului de executat.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.ui" line="138"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../dialogs/triggerdialog.ui" line="138"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="154"/>
-      <source>On view:</source>
-      <translation>Pe vizualizare:</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="154"/>
+        <source>On view:</source>
+        <translation>Pe vizualizare:</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="178"/>
-      <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
-      <translation>Nu s-a putut procesa corect declanșatorul %1. Nu se poate deschide un dialog de declanșator.</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="178"/>
+        <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
+        <translation>Nu s-a putut procesa corect declanșatorul %1. Nu se poate deschide un dialog de declanșator.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="349"/>
-      <source>Enter a valid condition.</source>
-      <translation>Introduceți o condiție validă.</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="349"/>
+        <source>Enter a valid condition.</source>
+        <translation>Introduceți o condiție validă.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="350"/>
-      <source>Enter a valid trigger code.</source>
-      <translation>Introduceți un cod de declanșator valid.</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="350"/>
+        <source>Enter a valid trigger code.</source>
+        <translation>Introduceți un cod de declanșator valid.</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="428"/>
-      <source>Error</source>
-      <comment>trigger dialog</comment>
-      <translation>Eroare</translation>
+        <location filename="../dialogs/triggerdialog.cpp" line="428"/>
+        <source>Error</source>
+        <comment>trigger dialog</comment>
+        <translation>Eroare</translation>
     </message>
     <message>
-      <location filename="../dialogs/triggerdialog.cpp" line="428"/>
-      <source>An error occurred while executing SQL statements:
+        <location filename="../dialogs/triggerdialog.cpp" line="428"/>
+        <source>An error occurred while executing SQL statements:
 %1</source>
-      <translation>A apărut o eroare la executarea instrucțiunilor SQL:
+        <translation>A apărut o eroare la executarea instrucțiunilor SQL:
 %1</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>VersionConvertSummaryDialog</name>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
-      <source>Database version convert</source>
-      <translation>Conversie versiune bază de date</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
+        <source>Database version convert</source>
+        <translation>Conversie versiune bază de date</translation>
     </message>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
-      <source>Following changes to the SQL statements will be made:</source>
-      <translation>Următoarele modificări vor fi făcute instrucțiunilor SQL:</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
+        <source>Following changes to the SQL statements will be made:</source>
+        <translation>Următoarele modificări vor fi făcute instrucțiunilor SQL:</translation>
     </message>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
-      <source>Before</source>
-      <translation>Înainte</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
+        <source>Before</source>
+        <translation>Înainte</translation>
     </message>
     <message>
-      <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
-      <source>After</source>
-      <translation>După</translation>
+        <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
+        <source>After</source>
+        <translation>După</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>ViewWindow</name>
     <message>
-      <location filename="../windows/viewwindow.ui" line="36"/>
-      <source>Query</source>
-      <translation>Interogare</translation>
+        <location filename="../windows/viewwindow.ui" line="36"/>
+        <source>Query</source>
+        <translation>Interogare</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="70"/>
-      <source>View name:</source>
-      <translation>Nume vizualizare:</translation>
+        <location filename="../windows/viewwindow.ui" line="70"/>
+        <source>View name:</source>
+        <translation>Nume vizualizare:</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="123"/>
-      <source>Output column names</source>
-      <translation>Nume coloane de ieșire</translation>
+        <location filename="../windows/viewwindow.ui" line="123"/>
+        <source>Output column names</source>
+        <translation>Nume coloane de ieșire</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="170"/>
-      <location filename="../windows/viewwindow.cpp" line="939"/>
-      <source>Data</source>
-      <translation>Date</translation>
+        <location filename="../windows/viewwindow.ui" line="170"/>
+        <location filename="../windows/viewwindow.cpp" line="939"/>
+        <source>Data</source>
+        <translation>Date</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="180"/>
-      <source>Triggers</source>
-      <translation>Declanșatoare</translation>
+        <location filename="../windows/viewwindow.ui" line="180"/>
+        <source>Triggers</source>
+        <translation>Declanșatoare</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.ui" line="215"/>
-      <source>DDL</source>
-      <translation>DDL</translation>
+        <location filename="../windows/viewwindow.ui" line="215"/>
+        <source>DDL</source>
+        <translation>DDL</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="110"/>
-      <location filename="../windows/viewwindow.cpp" line="116"/>
-      <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece nu a fost stocată nicio bază de date sau nicio vizualizare în sesiune pentru această fereastră.</translation>
+        <location filename="../windows/viewwindow.cpp" line="110"/>
+        <location filename="../windows/viewwindow.cpp" line="116"/>
+        <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece nu a fost stocată nicio bază de date sau nicio vizualizare în sesiune pentru această fereastră.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="123"/>
-      <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece baza de date %2 nu a putut fi rezolvată.</translation>
+        <location filename="../windows/viewwindow.cpp" line="123"/>
+        <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece baza de date %2 nu a putut fi rezolvată.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="129"/>
-      <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece baza de date %2 nu a putut fi deschisă.</translation>
+        <location filename="../windows/viewwindow.cpp" line="129"/>
+        <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece baza de date %2 nu a putut fi deschisă.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="138"/>
-      <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
-      <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece vizualizarea %2 nu există în baza de date %3.</translation>
+        <location filename="../windows/viewwindow.cpp" line="138"/>
+        <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
+        <translation>Nu s-a putut restaura fereastra &apos;%1&apos;, deoarece vizualizarea %2 nu există în baza de date %3.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="169"/>
-      <location filename="../windows/viewwindow.cpp" line="171"/>
-      <source>New view %1</source>
-      <translation>Vizualizare nouă %1</translation>
+        <location filename="../windows/viewwindow.cpp" line="169"/>
+        <location filename="../windows/viewwindow.cpp" line="171"/>
+        <source>New view %1</source>
+        <translation>Vizualizare nouă %1</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="294"/>
-      <source>Database</source>
-      <translation>Bază de date</translation>
+        <location filename="../windows/viewwindow.cpp" line="294"/>
+        <source>Database</source>
+        <translation>Bază de date</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="349"/>
-      <source>Refresh the view</source>
-      <comment>view window</comment>
-      <translation>Reîmprospătează vizualizarea</translation>
+        <location filename="../windows/viewwindow.cpp" line="349"/>
+        <source>Refresh the view</source>
+        <comment>view window</comment>
+        <translation>Reîmprospătează vizualizarea</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="351"/>
-      <source>Commit the view changes</source>
-      <comment>view window</comment>
-      <translation>Confirmă modificările vizualizării</translation>
+        <location filename="../windows/viewwindow.cpp" line="351"/>
+        <source>Commit the view changes</source>
+        <comment>view window</comment>
+        <translation>Confirmă modificările vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="352"/>
-      <source>Rollback the view changes</source>
-      <comment>view window</comment>
-      <translation>Revino asupra modificărilor vizualizării</translation>
+        <location filename="../windows/viewwindow.cpp" line="352"/>
+        <source>Rollback the view changes</source>
+        <comment>view window</comment>
+        <translation>Revino asupra modificărilor vizualizării</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="356"/>
-      <source>Explicit column names</source>
-      <translation>Nume explicite de coloane</translation>
+        <location filename="../windows/viewwindow.cpp" line="356"/>
+        <source>Explicit column names</source>
+        <translation>Nume explicite de coloane</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="362"/>
-      <source>Generate output column names automatically basing on result columns of the view.</source>
-      <translation>Generează automat numele coloanelor de ieșire pe baza coloanelor rezultat ale vizualizării.</translation>
+        <location filename="../windows/viewwindow.cpp" line="362"/>
+        <source>Generate output column names automatically basing on result columns of the view.</source>
+        <translation>Generează automat numele coloanelor de ieșire pe baza coloanelor rezultat ale vizualizării.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="363"/>
-      <source>Add column</source>
-      <comment>view window</comment>
-      <translation>Adaugă coloană</translation>
+        <location filename="../windows/viewwindow.cpp" line="363"/>
+        <source>Add column</source>
+        <comment>view window</comment>
+        <translation>Adaugă coloană</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="364"/>
-      <source>Edit column</source>
-      <comment>view window</comment>
-      <translation>Editează coloana</translation>
+        <location filename="../windows/viewwindow.cpp" line="364"/>
+        <source>Edit column</source>
+        <comment>view window</comment>
+        <translation>Editează coloana</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="365"/>
-      <source>Delete column</source>
-      <comment>view window</comment>
-      <translation>Șterge coloana</translation>
+        <location filename="../windows/viewwindow.cpp" line="365"/>
+        <source>Delete column</source>
+        <comment>view window</comment>
+        <translation>Șterge coloana</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="366"/>
-      <source>Move column up</source>
-      <comment>view window</comment>
-      <translation>Mută coloana în sus</translation>
+        <location filename="../windows/viewwindow.cpp" line="366"/>
+        <source>Move column up</source>
+        <comment>view window</comment>
+        <translation>Mută coloana în sus</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="367"/>
-      <source>Move column down</source>
-      <comment>view window</comment>
-      <translation>Mută coloana în jos</translation>
+        <location filename="../windows/viewwindow.cpp" line="367"/>
+        <source>Move column down</source>
+        <comment>view window</comment>
+        <translation>Mută coloana în jos</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="369"/>
-      <source>Export view</source>
-      <comment>view window</comment>
-      <translation>Exportă vizualizarea</translation>
+        <location filename="../windows/viewwindow.cpp" line="369"/>
+        <source>Export view</source>
+        <comment>view window</comment>
+        <translation>Exportă vizualizarea</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="378"/>
-      <source>Refresh trigger list</source>
-      <comment>view window</comment>
-      <translation>Reîmprospătează lista de declanșatoare</translation>
+        <location filename="../windows/viewwindow.cpp" line="378"/>
+        <source>Refresh trigger list</source>
+        <comment>view window</comment>
+        <translation>Reîmprospătează lista de declanșatoare</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="380"/>
-      <source>Create new trigger</source>
-      <comment>view window</comment>
-      <translation>Creează declanșator nou</translation>
+        <location filename="../windows/viewwindow.cpp" line="380"/>
+        <source>Create new trigger</source>
+        <comment>view window</comment>
+        <translation>Creează declanșator nou</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="381"/>
-      <source>Edit selected trigger</source>
-      <comment>view window</comment>
-      <translation>Editează declanșatorul selectat</translation>
+        <location filename="../windows/viewwindow.cpp" line="381"/>
+        <source>Edit selected trigger</source>
+        <comment>view window</comment>
+        <translation>Editează declanșatorul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="382"/>
-      <source>Delete selected trigger</source>
-      <comment>view window</comment>
-      <translation>Șterge declanșatorul selectat</translation>
+        <location filename="../windows/viewwindow.cpp" line="382"/>
+        <source>Delete selected trigger</source>
+        <comment>view window</comment>
+        <translation>Șterge declanșatorul selectat</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="403"/>
-      <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-      <translation>Fereastra vizualizării &quot;%1&quot; are modificări neconfirmate ale structurii și datelor.</translation>
+        <location filename="../windows/viewwindow.cpp" line="403"/>
+        <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
+        <translation>Fereastra vizualizării &quot;%1&quot; are modificări neconfirmate ale structurii și datelor.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="405"/>
-      <source>View window &quot;%1&quot; has uncommitted data.</source>
-      <translation>Fereastra vizualizării &quot;%1&quot; are date neconfirmate.</translation>
+        <location filename="../windows/viewwindow.cpp" line="405"/>
+        <source>View window &quot;%1&quot; has uncommitted data.</source>
+        <translation>Fereastra vizualizării &quot;%1&quot; are date neconfirmate.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="407"/>
-      <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
-      <translation>Fereastra vizualizării &quot;%1&quot; are modificări neconfirmate ale structurii.</translation>
+        <location filename="../windows/viewwindow.cpp" line="407"/>
+        <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
+        <translation>Fereastra vizualizării &quot;%1&quot; are modificări neconfirmate ale structurii.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="638"/>
-      <source>Could not load data for view %1. Error details: %2</source>
-      <translation>Nu s-au putut încărca datele pentru vizualizarea %1. Detalii eroare: %2</translation>
+        <location filename="../windows/viewwindow.cpp" line="638"/>
+        <source>Could not load data for view %1. Error details: %2</source>
+        <translation>Nu s-au putut încărca datele pentru vizualizarea %1. Detalii eroare: %2</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="650"/>
-      <source>Uncommitted changes</source>
-      <translation>Modificări neconfirmate</translation>
+        <location filename="../windows/viewwindow.cpp" line="650"/>
+        <source>Uncommitted changes</source>
+        <translation>Modificări neconfirmate</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="651"/>
-      <source>There are uncommitted structure modifications.</source>
-      <translation>Există modificări de structură neconfirmate.</translation>
+        <location filename="../windows/viewwindow.cpp" line="651"/>
+        <source>There are uncommitted structure modifications.</source>
+        <translation>Există modificări de structură neconfirmate.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="653"/>
-      <source>You cannot browse or edit data until you have the view structure settled.
+        <location filename="../windows/viewwindow.cpp" line="653"/>
+        <source>You cannot browse or edit data until you have the view structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-      <translation>Nu puteți răsfoi sau edita date până când structura vizualizării nu este stabilită.
+        <translation>Nu puteți răsfoi sau edita date până când structura vizualizării nu este stabilită.
 Doriți să confirmați structura sau doriți să reveniți la fila de structură?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="657"/>
-      <source>Commit modifications and browse data</source>
-      <translation>Confirmă modificările și răsfoiește datele</translation>
+        <location filename="../windows/viewwindow.cpp" line="657"/>
+        <source>Commit modifications and browse data</source>
+        <translation>Confirmă modificările și răsfoiește datele</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1085"/>
-      <source>The view could not be modified due to internal Letos error. Please report this!</source>
-      <translation>Vizualizarea nu a putut fi modificată din cauza unei erori interne Letos. Vă rugăm să raportați aceasta!</translation>
+        <location filename="../windows/viewwindow.cpp" line="1085"/>
+        <source>The view could not be modified due to internal Letos error. Please report this!</source>
+        <translation>Vizualizarea nu a putut fi modificată din cauza unei erori interne Letos. Vă rugăm să raportați aceasta!</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1111"/>
-      <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
-      <translation>Codul vizualizării nu a putut fi analizat corect pentru execuție. Aceasta este o eroare Letos. Vă rugăm să o raportați.</translation>
+        <location filename="../windows/viewwindow.cpp" line="1111"/>
+        <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
+        <translation>Codul vizualizării nu a putut fi analizat corect pentru execuție. Aceasta este o eroare Letos. Vă rugăm să o raportați.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="656"/>
-      <source>Go back to structure tab</source>
-      <translation>Înapoi la fila de structură</translation>
+        <location filename="../windows/viewwindow.cpp" line="656"/>
+        <source>Go back to structure tab</source>
+        <translation>Înapoi la fila de structură</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="709"/>
-      <source>View &apos;%1&apos; was committed successfully.</source>
-      <translation>Vizualizarea &apos;%1&apos; a fost confirmată cu succes.</translation>
+        <location filename="../windows/viewwindow.cpp" line="709"/>
+        <source>View &apos;%1&apos; was committed successfully.</source>
+        <translation>Vizualizarea &apos;%1&apos; a fost confirmată cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="711"/>
-      <source>Committed changes for view &apos;%1&apos; successfully.</source>
-      <translation>Modificările pentru vizualizarea &apos;%1&apos; au fost confirmate cu succes.</translation>
+        <location filename="../windows/viewwindow.cpp" line="711"/>
+        <source>Committed changes for view &apos;%1&apos; successfully.</source>
+        <translation>Modificările pentru vizualizarea &apos;%1&apos; au fost confirmate cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="713"/>
-      <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-      <translation>Modificările pentru vizualizarea &apos;%1&apos; (numită anterior &apos;%2&apos;) au fost confirmate cu succes.</translation>
+        <location filename="../windows/viewwindow.cpp" line="713"/>
+        <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
+        <translation>Modificările pentru vizualizarea &apos;%1&apos; (numită anterior &apos;%2&apos;) au fost confirmate cu succes.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="736"/>
-      <source>Could not commit view changes. Error message: %1</source>
-      <comment>view window</comment>
-      <translation>Nu s-au putut confirma modificările vizualizării. Mesaj de eroare: %1</translation>
+        <location filename="../windows/viewwindow.cpp" line="736"/>
+        <source>Could not commit view changes. Error message: %1</source>
+        <comment>view window</comment>
+        <translation>Nu s-au putut confirma modificările vizualizării. Mesaj de eroare: %1</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="880"/>
-      <source>Override columns</source>
-      <translation>Suprascrie coloanele</translation>
+        <location filename="../windows/viewwindow.cpp" line="880"/>
+        <source>Override columns</source>
+        <translation>Suprascrie coloanele</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="880"/>
-      <source>Currently defined columns will be overriden. Do you want to continue?</source>
-      <translation>Coloanele definite în prezent vor fi suprascrise. Doriți să continuați?</translation>
+        <location filename="../windows/viewwindow.cpp" line="880"/>
+        <source>Currently defined columns will be overriden. Do you want to continue?</source>
+        <translation>Coloanele definite în prezent vor fi suprascrise. Doriți să continuați?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="903"/>
-      <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
-      <translation>Nu s-au putut determina coloanele returnate din vizualizare. Interogarea este probabil incompletă sau conține erori.</translation>
+        <location filename="../windows/viewwindow.cpp" line="903"/>
+        <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
+        <translation>Nu s-au putut determina coloanele returnate din vizualizare. Interogarea este probabil incompletă sau conține erori.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="922"/>
-      <source>Cannot export, because no export plugin is loaded.</source>
-      <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
+        <location filename="../windows/viewwindow.cpp" line="922"/>
+        <source>Cannot export, because no export plugin is loaded.</source>
+        <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="971"/>
-      <source>Name</source>
-      <comment>view window triggers</comment>
-      <translation>Nume</translation>
+        <location filename="../windows/viewwindow.cpp" line="971"/>
+        <source>Name</source>
+        <comment>view window triggers</comment>
+        <translation>Nume</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="972"/>
-      <source>Instead of</source>
-      <comment>view window triggers</comment>
-      <translation>În loc de</translation>
+        <location filename="../windows/viewwindow.cpp" line="972"/>
+        <source>Instead of</source>
+        <comment>view window triggers</comment>
+        <translation>În loc de</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="973"/>
-      <source>Condition</source>
-      <comment>view window triggers</comment>
-      <translation>Condiție</translation>
+        <location filename="../windows/viewwindow.cpp" line="973"/>
+        <source>Condition</source>
+        <comment>view window triggers</comment>
+        <translation>Condiție</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="974"/>
-      <source>Details</source>
-      <comment>table window triggers</comment>
-      <translation>Detalii</translation>
+        <location filename="../windows/viewwindow.cpp" line="974"/>
+        <source>Details</source>
+        <comment>table window triggers</comment>
+        <translation>Detalii</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1018"/>
-      <source>Could not process the %1 view correctly. Unable to open a view window.</source>
-      <translation>Nu s-a putut procesa corect vizualizarea %1. Nu se poate deschide o fereastră de vizualizare.</translation>
+        <location filename="../windows/viewwindow.cpp" line="1018"/>
+        <source>Could not process the %1 view correctly. Unable to open a view window.</source>
+        <translation>Nu s-a putut procesa corect vizualizarea %1. Nu se poate deschide o fereastră de vizualizare.</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1065"/>
-      <source>Empty name</source>
-      <translation>Nume gol</translation>
+        <location filename="../windows/viewwindow.cpp" line="1065"/>
+        <source>Empty name</source>
+        <translation>Nume gol</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1065"/>
-      <source>A blank name for the view is allowed in SQLite, but it is not recommended.
+        <location filename="../windows/viewwindow.cpp" line="1065"/>
+        <source>A blank name for the view is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a view with blank name?</source>
-      <translation>Un nume gol pentru vizualizare este permis în SQLite, dar nu este recomandat.
+        <translation>Un nume gol pentru vizualizare este permis în SQLite, dar nu este recomandat.
 Sigur doriți să creați o vizualizare cu nume gol?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1077"/>
-      <source>The SELECT statement could not be parsed. Please correct the query and retry.
+        <location filename="../windows/viewwindow.cpp" line="1077"/>
+        <source>The SELECT statement could not be parsed. Please correct the query and retry.
 Details: %1</source>
-      <translation>Instrucțiunea SELECT nu a putut fi analizată. Corectați interogarea și încercați din nou.
+        <translation>Instrucțiunea SELECT nu a putut fi analizată. Corectați interogarea și încercați din nou.
 Detalii: %1</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1123"/>
-      <source>Following problems will take place while modifying the view.
+        <location filename="../windows/viewwindow.cpp" line="1123"/>
+        <source>Following problems will take place while modifying the view.
 Would you like to proceed?</source>
-      <comment>view window</comment>
-      <translation>Următoarele probleme vor apărea la modificarea vizualizării.
+        <comment>view window</comment>
+        <translation>Următoarele probleme vor apărea la modificarea vizualizării.
 Doriți să continuați?</translation>
     </message>
     <message>
-      <location filename="../windows/viewwindow.cpp" line="1125"/>
-      <source>View modification</source>
-      <comment>view window</comment>
-      <translation>Modificare vizualizare</translation>
+        <location filename="../windows/viewwindow.cpp" line="1125"/>
+        <source>View modification</source>
+        <comment>view window</comment>
+        <translation>Modificare vizualizare</translation>
     </message>
-  </context>
-  <context>
+</context>
+<context>
     <name>WidgetCover</name>
     <message>
-      <location filename="../common/widgetcover.cpp" line="242"/>
-      <source>Interrupt</source>
-      <translation>Întrerupe</translation>
+        <location filename="../common/widgetcover.cpp" line="242"/>
+        <source>Interrupt</source>
+        <translation>Întrerupe</translation>
     </message>
-  </context>
+</context>
 </TS>
