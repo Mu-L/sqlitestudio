@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ca" sourcelanguage="en">
-<context>
+  <context>
     <name>XmlExport</name>
     <message>
-        <location filename="../xmlexport.cpp" line="37"/>
-        <source>Enter the namespace to use (for example: http://my.namespace.org)</source>
-        <translation>Introduïu l&apos;espai de noms que s&apos;ha d&apos;utilitzar (per exemple: http://my.namespace.org)</translation>
+      <location filename="../xmlexport.cpp" line="37"/>
+      <source>Enter the namespace to use (for example: http://my.namespace.org)</source>
+      <translation>Introduïu l&apos;espai de noms que s&apos;ha d&apos;utilitzar (per exemple: http://my.namespace.org)</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>XmlExportConfig</name>
     <message>
-        <location filename="../XmlExport.ui" line="20"/>
-        <source>Output format</source>
-        <translation>Format de sortida</translation>
+      <location filename="../XmlExport.ui" line="20"/>
+      <source>Output format</source>
+      <translation>Format de sortida</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="26"/>
-        <source>Format document (new lines, indentation)</source>
-        <translation>Formata el document (línies noves, sagnat)</translation>
+      <location filename="../XmlExport.ui" line="26"/>
+      <source>Format document (new lines, indentation)</source>
+      <translation>Formata el document (línies noves, sagnat)</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="42"/>
-        <source>Compress (everything in one line)</source>
-        <translation>Comprimeix (tot en una sola línia)</translation>
+      <location filename="../XmlExport.ui" line="42"/>
+      <source>Compress (everything in one line)</source>
+      <translation>Comprimeix (tot en una sola línia)</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="58"/>
-        <source>Special characters escaping</source>
-        <translation>Escapament de caràcters especials</translation>
+      <location filename="../XmlExport.ui" line="58"/>
+      <source>Special characters escaping</source>
+      <translation>Escapament de caràcters especials</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="64"/>
-        <source>&lt;p&gt;Ampersands will be used for shorter values and CDATA will be used for larger values. This applies only to values that require character escaping. Other values will be exported as they are.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;S&apos;utilitzaran signes et per als valors més curts i CDATA per als valors més llargs. Això només s&apos;aplica als valors que requereixen escapament de caràcters. La resta de valors s&apos;exportaran tal com són.&lt;/p&gt;</translation>
+      <location filename="../XmlExport.ui" line="64"/>
+      <source>&lt;p&gt;Ampersands will be used for shorter values and CDATA will be used for larger values. This applies only to values that require character escaping. Other values will be exported as they are.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;S&apos;utilitzaran signes et per als valors més curts i CDATA per als valors més llargs. Això només s&apos;aplica als valors que requereixen escapament de caràcters. La resta de valors s&apos;exportaran tal com són.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="67"/>
-        <source>Use CDATA and ampersands</source>
-        <translation>Utilitza CDATA i signes et</translation>
+      <location filename="../XmlExport.ui" line="67"/>
+      <source>Use CDATA and ampersands</source>
+      <translation>Utilitza CDATA i signes et</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="83"/>
-        <source>&lt;p&gt;Every value requiring character escepe will be enclosed in CDATA block.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Cada valor que requereixi escapament de caràcters s&apos;inclourà en un bloc CDATA.&lt;/p&gt;</translation>
+      <location filename="../XmlExport.ui" line="83"/>
+      <source>&lt;p&gt;Every value requiring character escepe will be enclosed in CDATA block.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Cada valor que requereixi escapament de caràcters s&apos;inclourà en un bloc CDATA.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="86"/>
-        <source>Always use CDATA</source>
-        <translation>Utilitza sempre CDATA</translation>
+      <location filename="../XmlExport.ui" line="86"/>
+      <source>Always use CDATA</source>
+      <translation>Utilitza sempre CDATA</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="99"/>
-        <source>&lt;p&gt;Every character that require esceping will be replaced with its ampersand escape sequence. No CDATA blocks will be used.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Cada caràcter que requereixi escapament se substituirà per la seva seqüència d&apos;escapament amb signe et. No s&apos;utilitzarà cap bloc CDATA.&lt;/p&gt;</translation>
+      <location filename="../XmlExport.ui" line="99"/>
+      <source>&lt;p&gt;Every character that require esceping will be replaced with its ampersand escape sequence. No CDATA blocks will be used.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Cada caràcter que requereixi escapament se substituirà per la seva seqüència d&apos;escapament amb signe et. No s&apos;utilitzarà cap bloc CDATA.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="102"/>
-        <source>Always use ampersand</source>
-        <translation>Utilitza sempre el signe et</translation>
+      <location filename="../XmlExport.ui" line="102"/>
+      <source>Always use ampersand</source>
+      <translation>Utilitza sempre el signe et</translation>
     </message>
     <message>
-        <location filename="../XmlExport.ui" line="118"/>
-        <source>Define XML namespace</source>
-        <translation>Defineix l&apos;espai de noms XML</translation>
+      <location filename="../XmlExport.ui" line="118"/>
+      <source>Define XML namespace</source>
+      <translation>Defineix l&apos;espai de noms XML</translation>
     </message>
-</context>
+  </context>
 </TS>
