@@ -54,6 +54,8 @@ void NewVersionDialog::openHomePage()
 
 void NewVersionDialog::showEvent(QShowEvent*)
 {
+    layout()->activate();
+    adjustSize();
     ui->checkOnStartupCheck->setChecked(CFG_CORE.General.CheckUpdatesOnStartup.get());
 }
 

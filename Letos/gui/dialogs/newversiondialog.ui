@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
+    <width>500</width>
     <height>307</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>0</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Letos updates</string>
@@ -91,8 +97,8 @@
       <string>Not now.</string>
      </property>
      <property name="icon">
-      <iconset>
-       <normaloff>../img/act_abort.svg</normaloff>../img/act_abort.svg</iconset>
+      <iconset resource="../icons.qrc">
+       <normaloff>:/icons/img/act_abort.svg</normaloff>:/icons/img/act_abort.svg</iconset>
      </property>
      <property name="iconSize">
       <size>

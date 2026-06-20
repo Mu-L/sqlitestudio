@@ -81,10 +81,15 @@ void UpdateManager::handleUpdatesResponse(QNetworkReply* response, bool enforced
         return;
     }
 
+
 #if defined(Q_OS_WIN)
-    QString url = json["win"].toString();
+    QString cpuArch = QSysInfo::buildCpuArchitecture();
+    QString dist = QFileInfo::exists(QCoreApplication::applicationDirPath() + "/unins000.exe") ? "-inst" : "-port";
+    QString url = cpuArch.startsWith("arm") ? json["winarm"+dist].toString() : json["win64"+dist].toString();
 #elif defined(Q_OS_LINUX)
-    QString url = json["lin"].toString();
+    QString cpuArch = QSysInfo::buildCpuArchitecture();
+    QString dist = qEnvironmentVariableIsSet("APPIMAGE") ? "-img" : "-port";
+    QString url = cpuArch.startsWith("arm") ? json["linarm"+dist].toString() : json["lin64"+dist].toString();
 #elif defined(Q_OS_OSX)
     QString url = json["mac"].toString();
 #else
