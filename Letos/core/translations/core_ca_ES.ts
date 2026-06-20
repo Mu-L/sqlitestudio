@@ -1242,7 +1242,7 @@ La vista es mantindrà tal com està.</translation>
 <context>
     <name>UpdateManager</name>
     <message>
-        <location filename="../services/updatemanager.cpp" line="99"/>
+        <location filename="../services/updatemanager.cpp" line="104"/>
         <source>Could not check for updates (%1).</source>
         <translation>No s&apos;han pogut comprovar les actualitzacions (%1).</translation>
     </message>
