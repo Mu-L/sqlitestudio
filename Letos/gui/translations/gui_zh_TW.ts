@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3127"/>
+        <location filename="../dialogs/configdialog.ui" line="3114"/>
         <source>Configuration</source>
         <translation>設定檔</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>資料庫清單</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1363"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Code assistant</source>
         <translation>程式碼助理</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1276"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>SQL Editor</source>
         <translation>SQL 編輯器</translation>
     </message>
@@ -1219,73 +1219,63 @@
         <translation>瀏覽和編輯資料</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="582"/>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <location filename="../dialogs/configdialog.ui" line="517"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;在設定檔檔案中儲存，“表填充”對話方塊中的最大數量。值 100 應已足夠。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <location filename="../dialogs/configdialog.ui" line="520"/>
         <source>Number of memorized table populating configurations</source>
         <translation>表填充設定檔中的預設填充行數</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="511"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;在表單檢視編輯器中編輯文字時，將 Unicode 行分隔符（U+2028、U+2029）轉換為標準 LF（&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;）字元。&lt;/p&gt;&lt;p&gt;停用可保留原始字元。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="514"/>
-        <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-        <translation>在表單檢視編輯器中將 Unicode 行分隔符轉換為 LF（\n）</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <location filename="../dialogs/configdialog.ui" line="595"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
         <translation>在網格檢視中對非常小的實數使用科學記號</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="647"/>
+        <location filename="../dialogs/configdialog.ui" line="634"/>
         <source>Data column width</source>
         <translation>資料欄位寬度</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="653"/>
+        <location filename="../dialogs/configdialog.ui" line="640"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;當使用者在欄位中輸入新值，且該值大於目前欄位寬度時，應用程式會放大欄位以符合新值，但不會超過上方選項定義的限制。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="656"/>
+        <location filename="../dialogs/configdialog.ui" line="643"/>
         <source>Enlarge column when entering value longer than current width</source>
         <translation>輸入長於目前寬度的值時放大欄位</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="672"/>
+        <location filename="../dialogs/configdialog.ui" line="659"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
         <translation>&lt;p&gt;當資料被載入到網格檢視時，列寬會自動調整。此值限制初始化時的列寬度，之後您仍可以手動調整列寬，不受此限制。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <location filename="../dialogs/configdialog.ui" line="585"/>
         <source>Number of data rows per page:</source>
         <translation>每頁資料行數：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="569"/>
+        <location filename="../dialogs/configdialog.ui" line="618"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
         <translation>&lt;p&gt;此項啟用後，使用者滑鼠懸停在任意資料檢視 (查詢結果、表資料、檢視資料) 的單元格上時，工具提示將顯示該單元格的詳細資訊——包括列資料型別、約束、ROWID 等。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <location filename="../dialogs/configdialog.ui" line="621"/>
         <source>Show column and row details tooltip in data view</source>
         <translation>在資料檢視中展示列與行的詳細資訊</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
         <translation>&lt;p&gt;編輯一個過去為 NULL 值的單元格且新輸入的值為空字串時，此選項啟用則該單元格的值保持 NULL 不變，此選項未啟用則空字串覆蓋原 NULL 值。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <location filename="../dialogs/configdialog.ui" line="530"/>
         <source>Keep NULL value when entering empty value</source>
         <translation>當輸入空值時保持 NULL 值</translation>
     </message>
@@ -1295,238 +1285,238 @@
         <translation>列數過多時限制每頁顯示的行數</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="752"/>
+        <location filename="../dialogs/configdialog.ui" line="739"/>
         <source>Inserting new row in data grid</source>
         <translation>網格檢視中插入新行時</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="758"/>
+        <location filename="../dialogs/configdialog.ui" line="745"/>
         <source>Before currently selected row</source>
         <translation>在選中行之前</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <location filename="../dialogs/configdialog.ui" line="761"/>
         <source>After currently selected row</source>
         <translation>在選中行之後</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="787"/>
+        <location filename="../dialogs/configdialog.ui" line="774"/>
         <source>At the end of data view</source>
         <translation>在資料檢視的末尾</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="803"/>
+        <location filename="../dialogs/configdialog.ui" line="790"/>
         <source>Table windows</source>
         <translation>表視窗</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <location filename="../dialogs/configdialog.ui" line="796"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;啟用後，表視窗將顯示資料選項卡，而不是結構選項卡。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <location filename="../dialogs/configdialog.ui" line="799"/>
         <source>Open Table Windows with the data tab for start</source>
         <translation>開啟表視窗時顯示“資料”選項卡</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="822"/>
+        <location filename="../dialogs/configdialog.ui" line="809"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;啟用後，“資料”選項卡將作為第一個選項卡放置在每個表視窗中，而不是位於第二位。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <location filename="../dialogs/configdialog.ui" line="812"/>
         <source>Place data tab as first tab in a Table Window</source>
         <translation>將資料作為表視窗的第一項</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="838"/>
+        <location filename="../dialogs/configdialog.ui" line="825"/>
         <source>View windows</source>
         <translation>檢視視窗</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <location filename="../dialogs/configdialog.ui" line="831"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;啟用後，檢視視窗將顯示資料選項卡，而不是結構選項卡。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <location filename="../dialogs/configdialog.ui" line="834"/>
         <source>Open View Windows with the data tab for start</source>
         <translation>開啟檢視視窗時顯示“資料”選項卡</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="857"/>
+        <location filename="../dialogs/configdialog.ui" line="844"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;啟用後，“資料”選項卡將作為第一個選項卡放置在每個檢視視窗中，而不是位於第二個位置。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="860"/>
+        <location filename="../dialogs/configdialog.ui" line="847"/>
         <source>Place data tab as first tab in a View Window</source>
         <translation>將“資料”選項卡放置為檢視視窗的首個選項卡</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="904"/>
+        <location filename="../dialogs/configdialog.ui" line="891"/>
         <source>Data types</source>
         <translation>資料型別</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="957"/>
+        <location filename="../dialogs/configdialog.ui" line="944"/>
         <source>Available editors:</source>
         <translation>可用的編輯器：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1074"/>
+        <location filename="../dialogs/configdialog.ui" line="1061"/>
         <source>Schema editing</source>
         <translation>結構編輯</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <location filename="../dialogs/configdialog.ui" line="1073"/>
         <source>Number of DDL changes kept in history.</source>
         <translation>DDL 變更歷史的記錄數量。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1099"/>
+        <location filename="../dialogs/configdialog.ui" line="1086"/>
         <source>DDL history size:</source>
         <translation>DDL 歷史大小：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <location filename="../dialogs/configdialog.ui" line="1093"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
         <translation>提交結構更改時不顯示 DDL 預覽對話方塊</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1404"/>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1391"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Number of queries kept in the history.</source>
         <translation>查詢歷史記錄數量。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Execute only the query under the cursor</source>
         <translation>只執行輸入符所在行的語句</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1436"/>
+        <location filename="../dialogs/configdialog.ui" line="1423"/>
         <source>Number of memorized query parameters</source>
         <translation>預設的查詢引數數量</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <location filename="../dialogs/configdialog.ui" line="678"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;當資料讀入網格檢視時，欄位寬度會自動調整。此值限制調整時的初始寬度，但使用者仍可手動將欄位大小調整為超過此限制。此值也會在使用者輸入新的較長值而放大欄位時使用（請參閱下方選項）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="694"/>
+        <location filename="../dialogs/configdialog.ui" line="681"/>
         <source>Limit automatic data column width to (in pixels):</source>
         <translation>限制自動資料欄位寬度為（像素）：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="701"/>
+        <location filename="../dialogs/configdialog.ui" line="688"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;資料欄位的初始寬度會設定為至少能在標頭中顯示完整欄位名稱。這仍可被以像素指定的欄位寬度初始限制覆寫 (上方設定)。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>Keep at least the width to show complete column name</source>
         <translation>至少保留可顯示完整欄位名稱的寬度</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1314"/>
+        <location filename="../dialogs/configdialog.ui" line="1301"/>
         <source>Wrap lines in SQL editor</source>
         <translation>在 SQL 編輯器中自動換行</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Highlight current query</source>
         <translation>醒目提示目前查詢</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1119"/>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Updates</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <location filename="../dialogs/configdialog.ui" line="1112"/>
         <source>Automatically check for updates at startup</source>
         <translation>啟動時自動檢查更新</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1138"/>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Session</source>
         <translation>會話</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1144"/>
+        <location filename="../dialogs/configdialog.ui" line="1131"/>
         <source>Restore last session (active MDI windows) after startup</source>
         <translation>啟動後恢復上一次會話</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <location filename="../dialogs/configdialog.ui" line="1141"/>
         <source>Allow multiple instances of the application at the same time</source>
         <translation>允許同時開啟多個此程式</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1167"/>
+        <location filename="../dialogs/configdialog.ui" line="1154"/>
         <source>Status Field</source>
         <translation>狀態列</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1176"/>
+        <location filename="../dialogs/configdialog.ui" line="1163"/>
         <source>Always open Status panel when new message is printed</source>
         <translation>有新訊息輸出時就開啟狀態面板</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1501"/>
+        <location filename="../dialogs/configdialog.ui" line="1488"/>
         <source>Code syntax colors</source>
         <translation>程式碼語法色彩</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1687"/>
+        <location filename="../dialogs/configdialog.ui" line="1674"/>
         <source>Keyword foreground</source>
         <translation>關鍵字前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1507"/>
+        <location filename="../dialogs/configdialog.ui" line="1494"/>
         <source>Regular foreground</source>
         <translation>一般前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1597"/>
+        <location filename="../dialogs/configdialog.ui" line="1584"/>
         <source>String foreground</source>
         <translation>字串前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1867"/>
+        <location filename="../dialogs/configdialog.ui" line="1854"/>
         <source>Comment foreground</source>
         <translation>註解前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1957"/>
+        <location filename="../dialogs/configdialog.ui" line="1944"/>
         <source>Valid objects foreground</source>
         <translation>有效物件前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2268"/>
+        <location filename="../dialogs/configdialog.ui" line="2255"/>
         <source>Current query background</source>
         <translation>目前查詢背景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2137"/>
+        <location filename="../dialogs/configdialog.ui" line="2124"/>
         <source>Bind parameter foreground</source>
         <translation>繫結參數前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2227"/>
+        <location filename="../dialogs/configdialog.ui" line="2214"/>
         <source>Current line background</source>
         <translation>目前行背景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2312"/>
+        <location filename="../dialogs/configdialog.ui" line="2299"/>
         <source>Matched parenthesis background</source>
         <translation>相符括號背景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2296"/>
+        <location filename="../dialogs/configdialog.ui" line="2283"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;您可以在一般設定頁面完全停用目前查詢醒目提示。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1596,52 +1586,52 @@
         <translation>可行時略過對話框</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="973"/>
+        <location filename="../dialogs/configdialog.ui" line="960"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;定義在 &lt;span style=&quot; font-weight:700;&quot;&gt;表單檢視&lt;/span&gt; 和 &lt;span style=&quot; font-weight:700;&quot;&gt;快顯編輯器對話框&lt;/span&gt; 中，哪些資料編輯器可用於特定欄位型別。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="992"/>
+        <location filename="../dialogs/configdialog.ui" line="979"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
         <translation>此資料型別的編輯器預覽（拖曳以重新排序）：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1016"/>
+        <location filename="../dialogs/configdialog.ui" line="1003"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;您可以定義表欄位宣告的特定資料型別（不區分大小寫）要使用哪些儲存格呈現器。若未為指定型別定義呈現器，則會使用預設呈現器。&lt;/p&gt;&lt;p&gt;選用外掛程式可能會提供其他呈現器，並為資料型別設定自己的預設對應，您仍可在此覆寫。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1045"/>
+        <location filename="../dialogs/configdialog.ui" line="1032"/>
         <source>Data type</source>
         <translation>資料型別</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1050"/>
+        <location filename="../dialogs/configdialog.ui" line="1037"/>
         <source>Renderer</source>
         <translation>呈現器</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1347"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;存在多個查詢時，只執行游標所在的查詢。&lt;br/&gt;停用時，會執行所有查詢。&lt;br/&gt;您也可以執行選取的查詢，或使用快捷鍵（%1 為單一，%2 為全部）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;醒目提示游標所在的查詢——也就是使用 &lt;span style=&quot; font-style:italic;&quot;&gt;執行查詢&lt;/span&gt; 時將執行的同一個查詢。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="524"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;啟用時，Letos 會對非常小的實數自動切換為科學記號（例如 &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;）。&lt;br/&gt;若數值大小允許可讀的十進位表示，則使用十進位記號。&lt;/p&gt;&lt;p&gt;停用時，實數一律使用十進位記號顯示，即使這會產生非常長的小數部分。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="556"/>
+        <location filename="../dialogs/configdialog.ui" line="572"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;編輯儲存格時，按下 Enter 會接受該值並移到下一列的同一欄。&lt;br/&gt;若停用，選取範圍會停留在目前儲存格。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="559"/>
+        <location filename="../dialogs/configdialog.ui" line="575"/>
         <source>After editing, Enter moves to the next row</source>
         <translation>編輯後，Enter 移到下一列</translation>
     </message>
@@ -1651,287 +1641,287 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果查詢結果包含數十個 (或數百個) 欄位，一次載入數 GB 的資料時，更可能耗盡您電腦的可用記憶體。在這種情況下，Letos 可能會嘗試限制單一頁面顯示的結果數量，以保護您的電腦。如果您知道自己 don&apos;t 處理資料庫中的大型值，可以停用此限制，之後您將一律看到每頁所定義的列數。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="631"/>
+        <location filename="../dialogs/configdialog.ui" line="540"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;使用 Enter 移到下一列後，自動開始編輯該列的儲存格。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <location filename="../dialogs/configdialog.ui" line="543"/>
         <source>Start editing after moving to the next row</source>
         <translation>移到下一列後開始編輯</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="717"/>
+        <location filename="../dialogs/configdialog.ui" line="704"/>
         <source>Column header actions</source>
         <translation>欄位標頭動作</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <location filename="../dialogs/configdialog.ui" line="710"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation>按一下選取欄位資料；按兩下依欄位排序</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="736"/>
+        <location filename="../dialogs/configdialog.ui" line="723"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
         <translation>按一下依欄位排序；Alt+按一下選取欄位資料</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <location filename="../dialogs/configdialog.ui" line="1160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;當使用者手動關閉狀態面板時，此選項可確保若狀態面板中列印任何新訊息，面板會重新開啟。若 It&apos;s 已停用，狀態面板只能由使用者從 &amp;quot;檢視&amp;quot; 選單手動開啟。&lt;/p&gt;&lt;p&gt;您隨時可以使用 Esc 鍵隱藏狀態面板。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1186"/>
+        <location filename="../dialogs/configdialog.ui" line="1173"/>
         <source>Older status messages</source>
         <translation>較舊的狀態訊息</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1192"/>
+        <location filename="../dialogs/configdialog.ui" line="1179"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;較舊的狀態訊息會保持不變。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <location filename="../dialogs/configdialog.ui" line="1182"/>
         <source>Keep messages</source>
         <translation>保留訊息</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1208"/>
+        <location filename="../dialogs/configdialog.ui" line="1195"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;較舊的狀態訊息仍會顯示，但會在視覺上變暗，以讓近期訊息更突出。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <location filename="../dialogs/configdialog.ui" line="1198"/>
         <source>Dim older messages</source>
         <translation>淡化較舊訊息</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1224"/>
+        <location filename="../dialogs/configdialog.ui" line="1211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;較舊的狀態訊息會自動從狀態欄位移除。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1227"/>
+        <location filename="../dialogs/configdialog.ui" line="1214"/>
         <source>Remove older messages</source>
         <translation>移除較舊訊息</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <location filename="../dialogs/configdialog.ui" line="1230"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;偶爾顯示一則狀態訊息，提供支援 Letos 專案的相關資訊。這些提醒不會頻繁出現，且可隨時停用。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <location filename="../dialogs/configdialog.ui" line="1233"/>
         <source>Show occasional project support reminders</source>
         <translation>顯示偶爾出現的專案支援提醒</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1282"/>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1269"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;指定查詢執行時間顯示的小數位數上限。最多可設定 9 位數（奈秒）。尾端零會自動修剪。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1272"/>
         <source>Execution time precision (decimal places)</source>
         <translation>執行時間精度（小數位數）</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;若啟用，長度超過編輯器寬度的行會自動換行，因此不需要水平捲動。&lt;/p&gt;&lt;p&gt;此選項定義全域預設值，而個別 SQL 編輯器視窗可以在本機覆寫它。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Disable blinking text cursor</source>
         <translation>停用閃爍文字游標</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>輸入點號後觸發助理</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1382"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>啟用時，在空白編輯器中呼叫程式碼補完會先顯示程式碼片段，而不是語法建議。再次呼叫程式碼補完會切換到語法建議（反之亦然）。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Prefer snippets in empty editor</source>
         <translation>在空白編輯器中偏好片段</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1398"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>History</source>
         <translation>歷史</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1394"/>
         <source>Query history size:</source>
         <translation>查詢歷史大小：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1433"/>
-        <location filename="../dialogs/configdialog.ui" line="1443"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;歷史中儲存的查詢參數（:param、@param、$param、?）最大數量。當您重新使用相同名稱/位置的參數時，Letos 會以最近記住的值預先初始化它（您仍可變更）。值 1000 應該足夠。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1777"/>
+        <location filename="../dialogs/configdialog.ui" line="1764"/>
         <source>Number foreground</source>
         <translation>數字前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2047"/>
+        <location filename="../dialogs/configdialog.ui" line="2034"/>
         <source>BLOB value foreground</source>
         <translation>BLOB 值前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2353"/>
+        <location filename="../dialogs/configdialog.ui" line="2340"/>
         <source>Matched parenthesis foreground</source>
         <translation>相符括號前景</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2461"/>
-        <location filename="../dialogs/configdialog.ui" line="2569"/>
+        <location filename="../dialogs/configdialog.ui" line="2448"/>
+        <location filename="../dialogs/configdialog.ui" line="2556"/>
         <source>Reset to defaults</source>
         <translation>重置為預設值</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2487"/>
+        <location filename="../dialogs/configdialog.ui" line="2474"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>以名稱或按鍵組合篩選快捷鍵</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2531"/>
+        <location filename="../dialogs/configdialog.ui" line="2518"/>
         <source>Action</source>
         <translation>操作</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2536"/>
+        <location filename="../dialogs/configdialog.ui" line="2523"/>
         <source>Key combination</source>
         <translation>按鍵組合</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2610"/>
-        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <location filename="../dialogs/configdialog.ui" line="2597"/>
+        <location filename="../dialogs/configdialog.ui" line="3104"/>
         <source>Language</source>
         <translation>語言</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2616"/>
+        <location filename="../dialogs/configdialog.ui" line="2603"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>語言變更在程式重啟後生效。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2636"/>
+        <location filename="../dialogs/configdialog.ui" line="2623"/>
         <source>Compact layout</source>
         <translation>緊湊佈局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2642"/>
+        <location filename="../dialogs/configdialog.ui" line="2629"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;緊湊佈局會將介面中的邊框與留白減至最小，然後用這些區域展示更多資料。這會使介面看起來有一點不美觀，但將可以同時展示更多的資料。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2645"/>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
         <source>Use compact layout</source>
         <translation>使用緊湊佈局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2661"/>
+        <location filename="../dialogs/configdialog.ui" line="2648"/>
         <source>Main window dock areas</source>
         <translation>主視窗停靠區域</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2667"/>
+        <location filename="../dialogs/configdialog.ui" line="2654"/>
         <source>Left and right areas occupy corners</source>
         <translation>左右佈局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2687"/>
+        <location filename="../dialogs/configdialog.ui" line="2674"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>上下佈局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2707"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Toolbars</source>
         <translation>工具列</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2713"/>
-        <location filename="../dialogs/configdialog.ui" line="2723"/>
+        <location filename="../dialogs/configdialog.ui" line="2700"/>
+        <location filename="../dialogs/configdialog.ui" line="2710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;以預設大小的百分比表示。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2716"/>
+        <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
         <translation>圖示大小</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2841"/>
+        <location filename="../dialogs/configdialog.ui" line="2828"/>
         <source>Hide built-in plugins</source>
         <translation>隱藏內建外掛</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2870"/>
+        <location filename="../dialogs/configdialog.ui" line="2857"/>
         <source>Current style:</source>
         <translation>當前風格：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2887"/>
+        <location filename="../dialogs/configdialog.ui" line="2874"/>
         <source>Preview</source>
         <translation>預覽</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2897"/>
+        <location filename="../dialogs/configdialog.ui" line="2884"/>
         <source>Enabled</source>
         <translation>已啟用</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3073"/>
+        <location filename="../dialogs/configdialog.ui" line="3060"/>
         <source>Disabled</source>
         <translation>已禁用</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <location filename="../dialogs/configdialog.ui" line="3109"/>
         <source>Active formatter plugin</source>
         <translation>啟用格式化外掛</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3160"/>
+        <location filename="../dialogs/configdialog.ui" line="3147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;提示：&lt;/span&gt;除了此處可用的設定外，也可以在大多數介面元素中，按住 &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; 並在要變更字型大小的元素上捲動 &lt;span style=&quot; font-weight:700;&quot;&gt;滑鼠滾輪&lt;/span&gt;，以動態調整字型大小。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3179"/>
+        <location filename="../dialogs/configdialog.ui" line="3166"/>
         <source>SQL editor font</source>
         <translation>SQL 編輯器字型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3195"/>
+        <location filename="../dialogs/configdialog.ui" line="3182"/>
         <source>Database list font</source>
         <translation>資料庫清單字型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3211"/>
+        <location filename="../dialogs/configdialog.ui" line="3198"/>
         <source>Database list additional label font</source>
         <translation>資料庫清單額外資訊字型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3227"/>
+        <location filename="../dialogs/configdialog.ui" line="3214"/>
         <source>Data view font</source>
         <translation>資料檢視字型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3243"/>
+        <location filename="../dialogs/configdialog.ui" line="3230"/>
         <source>Status field font</source>
         <translation>狀態列字型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果啟用此選項，當使用者輸入例如 &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; 時，程式碼助理會被觸發以建議該表的欄位。如果停用此選項，使用者必須明確按下助理熱鍵。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -5343,7 +5333,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>MultiEditorHexPlugin</name>
     <message>
-        <location filename="../multieditor/multieditorhex.cpp" line="102"/>
+        <location filename="../multieditor/multieditorhex.cpp" line="107"/>
         <source>Hex</source>
         <translation>十六進位制</translation>
     </message>
@@ -5360,37 +5350,37 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>MultiEditorText</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="119"/>
+        <location filename="../multieditor/multieditortext.cpp" line="126"/>
         <source>Tab changes focus</source>
         <translation>Tab 鍵更改焦點</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="120"/>
+        <location filename="../multieditor/multieditortext.cpp" line="127"/>
         <source>Cut</source>
         <translation>剪下</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="121"/>
+        <location filename="../multieditor/multieditortext.cpp" line="128"/>
         <source>Copy</source>
         <translation>複製</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="122"/>
+        <location filename="../multieditor/multieditortext.cpp" line="129"/>
         <source>Paste</source>
         <translation>貼上</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="123"/>
+        <location filename="../multieditor/multieditortext.cpp" line="130"/>
         <source>Delete</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="124"/>
+        <location filename="../multieditor/multieditortext.cpp" line="131"/>
         <source>Undo</source>
         <translation>撤銷</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="125"/>
+        <location filename="../multieditor/multieditortext.cpp" line="132"/>
         <source>Redo</source>
         <translation>重做</translation>
     </message>
@@ -5398,7 +5388,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>MultiEditorTextPlugin</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="203"/>
+        <location filename="../multieditor/multieditortext.cpp" line="309"/>
         <source>Text</source>
         <translation>文字</translation>
     </message>

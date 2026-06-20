@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3127"/>
+        <location filename="../dialogs/configdialog.ui" line="3114"/>
         <source>Configuration</source>
         <translation>Konfigurace</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>Seznam databází</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1363"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Code assistant</source>
         <translation>Asistent kódu</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1276"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>SQL Editor</source>
         <translation>Editor SQL</translation>
     </message>
@@ -1219,73 +1219,63 @@
         <translation>Procházení a úprava dat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="582"/>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <location filename="../dialogs/configdialog.ui" line="517"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Maximální počet konfigurací dialogu Naplnit tabulku uložených v konfiguraci. Hodnota 100 by měla být dostatečná.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <location filename="../dialogs/configdialog.ui" line="520"/>
         <source>Number of memorized table populating configurations</source>
         <translation>Počet zapamatovaných konfigurací naplňování tabulky</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="511"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Převádí oddělovače řádků Unicode (U+2028, U+2029) na standardní znak LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) při úpravách textu v editoru formulářového zobrazení.&lt;/p&gt;&lt;p&gt;Vypněte, chcete-li zachovat původní znaky.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="514"/>
-        <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-        <translation>Převádět oddělovače řádků Unicode na LF (\n) v editorech formulářového zobrazení</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <location filename="../dialogs/configdialog.ui" line="595"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
         <translation>Používat vědecký zápis pro velmi malá reálná čísla v mřížkovém zobrazení</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="647"/>
+        <location filename="../dialogs/configdialog.ui" line="634"/>
         <source>Data column width</source>
         <translation>Šířka datového sloupce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="653"/>
+        <location filename="../dialogs/configdialog.ui" line="640"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Když uživatel zadá do sloupce novou hodnotu a tato hodnota je větší než aktuální šířka sloupce, aplikace sloupec zvětší tak, aby se nová hodnota vešla, ale ne více než po limit definovaný ve volbě výše.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="656"/>
+        <location filename="../dialogs/configdialog.ui" line="643"/>
         <source>Enlarge column when entering value longer than current width</source>
         <translation>Zvětšit sloupec při zadání hodnoty delší než aktuální šířka</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="672"/>
+        <location filename="../dialogs/configdialog.ui" line="659"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Při načtení dat do mřížkového zobrazení se šířka sloupců automaticky přizpůsobí. Tato hodnota omezuje počáteční šířku pro přizpůsobení, ale uživatel může sloupec ručně zvětšit i nad tento limit.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <location filename="../dialogs/configdialog.ui" line="585"/>
         <source>Number of data rows per page:</source>
         <translation>Počet datových řádků na stránku:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="569"/>
+        <location filename="../dialogs/configdialog.ui" line="618"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Když je tato volba zapnutá a uživatel podrží ukazatel myši nad buňkou v libovolném datovém zobrazení (výsledky dotazu, data tabulky, data pohledu), zobrazí se nápověda s podrobnostmi o buňce – zahrnuje údaje jako datový typ sloupce, omezení, ROWID a další.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <location filename="../dialogs/configdialog.ui" line="621"/>
         <source>Show column and row details tooltip in data view</source>
         <translation>Zobrazovat v datovém zobrazení nápovědu s podrobnostmi o sloupci a řádku</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
         <translation>&lt;p&gt;Při úpravě buňky, která dříve měla hodnotu NULL, a zadání prázdného řetězce jako nové hodnoty tato volba určuje, zda má nová hodnota zůstat NULL (volba zapnutá), nebo zda má být přepsána hodnotou prázdného řetězce (volba vypnutá).&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <location filename="../dialogs/configdialog.ui" line="530"/>
         <source>Keep NULL value when entering empty value</source>
         <translation>Zachovat hodnotu NULL při zadání prázdné hodnoty</translation>
     </message>
@@ -1295,238 +1285,238 @@
         <translation>Omezit počet řádků v případě desítek sloupců</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="752"/>
+        <location filename="../dialogs/configdialog.ui" line="739"/>
         <source>Inserting new row in data grid</source>
         <translation>Vkládání nového řádku v datové mřížce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="758"/>
+        <location filename="../dialogs/configdialog.ui" line="745"/>
         <source>Before currently selected row</source>
         <translation>Před aktuálně vybraný řádek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <location filename="../dialogs/configdialog.ui" line="761"/>
         <source>After currently selected row</source>
         <translation>Za aktuálně vybraný řádek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="787"/>
+        <location filename="../dialogs/configdialog.ui" line="774"/>
         <source>At the end of data view</source>
         <translation>Na konec datového zobrazení</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="803"/>
+        <location filename="../dialogs/configdialog.ui" line="790"/>
         <source>Table windows</source>
         <translation>Okna tabulek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <location filename="../dialogs/configdialog.ui" line="796"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Když je zapnuto, okna tabulek se zobrazí s kartou dat místo karty struktury.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <location filename="../dialogs/configdialog.ui" line="799"/>
         <source>Open Table Windows with the data tab for start</source>
         <translation>Otevírat okna tabulek zpočátku s kartou dat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="822"/>
+        <location filename="../dialogs/configdialog.ui" line="809"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Když je zapnuto, karta &quot;Data&quot; bude v každém okně tabulky umístěna jako první karta místo druhé pozice.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <location filename="../dialogs/configdialog.ui" line="812"/>
         <source>Place data tab as first tab in a Table Window</source>
         <translation>Umístit kartu dat jako první kartu v okně tabulky</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="838"/>
+        <location filename="../dialogs/configdialog.ui" line="825"/>
         <source>View windows</source>
         <translation>Okna pohledů</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <location filename="../dialogs/configdialog.ui" line="831"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Když je zapnuto, okna pohledů se zobrazí s kartou dat místo karty struktury.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <location filename="../dialogs/configdialog.ui" line="834"/>
         <source>Open View Windows with the data tab for start</source>
         <translation>Otevírat okna pohledů zpočátku s kartou dat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="857"/>
+        <location filename="../dialogs/configdialog.ui" line="844"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Když je zapnuto, karta &quot;Data&quot; bude v každém okně pohledu umístěna jako první karta místo druhé pozice.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="860"/>
+        <location filename="../dialogs/configdialog.ui" line="847"/>
         <source>Place data tab as first tab in a View Window</source>
         <translation>Umístit kartu dat jako první kartu v okně pohledu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="904"/>
+        <location filename="../dialogs/configdialog.ui" line="891"/>
         <source>Data types</source>
         <translation>Datové typy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="957"/>
+        <location filename="../dialogs/configdialog.ui" line="944"/>
         <source>Available editors:</source>
         <translation>Dostupné editory:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1074"/>
+        <location filename="../dialogs/configdialog.ui" line="1061"/>
         <source>Schema editing</source>
         <translation>Úprava schématu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <location filename="../dialogs/configdialog.ui" line="1073"/>
         <source>Number of DDL changes kept in history.</source>
         <translation>Počet změn DDL uchovávaných v historii.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1099"/>
+        <location filename="../dialogs/configdialog.ui" line="1086"/>
         <source>DDL history size:</source>
         <translation>Velikost historie DDL:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <location filename="../dialogs/configdialog.ui" line="1093"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
         <translation>&apos;Nezobrazovat’ dialog náhledu DDL při potvrzování změn schématu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1404"/>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1391"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Number of queries kept in the history.</source>
         <translation>Počet dotazů uchovávaných v historii.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Execute only the query under the cursor</source>
         <translation>Provést pouze dotaz pod kurzorem</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1436"/>
+        <location filename="../dialogs/configdialog.ui" line="1423"/>
         <source>Number of memorized query parameters</source>
         <translation>Počet zapamatovaných parametrů dotazu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <location filename="../dialogs/configdialog.ui" line="678"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Při načtení dat do mřížkového zobrazení se šířka sloupců automaticky přizpůsobí. Tato hodnota omezuje počáteční šířku pro přizpůsobení, ale uživatel může sloupec ručně zvětšit i nad tento limit. Tato hodnota se používá také při zvětšování sloupce po zadání nové, delší hodnoty uživatelem (viz volba níže).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="694"/>
+        <location filename="../dialogs/configdialog.ui" line="681"/>
         <source>Limit automatic data column width to (in pixels):</source>
         <translation>Omezit automatickou šířku datového sloupce na (v pixelech):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="701"/>
+        <location filename="../dialogs/configdialog.ui" line="688"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Počáteční šířka datových sloupců bude nastavena alespoň tak, aby se v záhlaví zobrazil celý název sloupce. To může být stále přepsáno počátečním limitem šířky sloupce zadaným v pixelech (nastavení výše).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>Keep at least the width to show complete column name</source>
         <translation>Zachovat alespoň šířku pro zobrazení celého názvu sloupce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1314"/>
+        <location filename="../dialogs/configdialog.ui" line="1301"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Zalamovat řádky v editoru SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Highlight current query</source>
         <translation>Zvýraznit aktuální dotaz</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1119"/>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Updates</source>
         <translation>Aktualizace</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <location filename="../dialogs/configdialog.ui" line="1112"/>
         <source>Automatically check for updates at startup</source>
         <translation>Automaticky kontrolovat aktualizace při spuštění</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1138"/>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Session</source>
         <translation>Relace</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1144"/>
+        <location filename="../dialogs/configdialog.ui" line="1131"/>
         <source>Restore last session (active MDI windows) after startup</source>
         <translation>Obnovit poslední relaci (aktivní okna MDI) po spuštění</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <location filename="../dialogs/configdialog.ui" line="1141"/>
         <source>Allow multiple instances of the application at the same time</source>
         <translation>Povolit více instancí aplikace současně</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1167"/>
+        <location filename="../dialogs/configdialog.ui" line="1154"/>
         <source>Status Field</source>
         <translation>Stavové pole</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1176"/>
+        <location filename="../dialogs/configdialog.ui" line="1163"/>
         <source>Always open Status panel when new message is printed</source>
         <translation>Vždy otevřít panel Stav, když je vypsána nová zpráva</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1501"/>
+        <location filename="../dialogs/configdialog.ui" line="1488"/>
         <source>Code syntax colors</source>
         <translation>Barvy syntaxe kódu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1687"/>
+        <location filename="../dialogs/configdialog.ui" line="1674"/>
         <source>Keyword foreground</source>
         <translation>Popředí klíčových slov</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1507"/>
+        <location filename="../dialogs/configdialog.ui" line="1494"/>
         <source>Regular foreground</source>
         <translation>Běžné popředí</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1597"/>
+        <location filename="../dialogs/configdialog.ui" line="1584"/>
         <source>String foreground</source>
         <translation>Popředí řetězců</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1867"/>
+        <location filename="../dialogs/configdialog.ui" line="1854"/>
         <source>Comment foreground</source>
         <translation>Popředí komentářů</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1957"/>
+        <location filename="../dialogs/configdialog.ui" line="1944"/>
         <source>Valid objects foreground</source>
         <translation>Popředí platných objektů</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2268"/>
+        <location filename="../dialogs/configdialog.ui" line="2255"/>
         <source>Current query background</source>
         <translation>Pozadí aktuálního dotazu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2137"/>
+        <location filename="../dialogs/configdialog.ui" line="2124"/>
         <source>Bind parameter foreground</source>
         <translation>Popředí vázaného parametru</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2227"/>
+        <location filename="../dialogs/configdialog.ui" line="2214"/>
         <source>Current line background</source>
         <translation>Pozadí aktuálního řádku</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2312"/>
+        <location filename="../dialogs/configdialog.ui" line="2299"/>
         <source>Matched parenthesis background</source>
         <translation>Pozadí odpovídající závorky</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2296"/>
+        <location filename="../dialogs/configdialog.ui" line="2283"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zvýrazňování aktuálního dotazu můžete zcela vypnout na stránce Obecná nastavení.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1596,52 +1586,52 @@
         <translation>Přeskočit dialog, když je to možné</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="973"/>
+        <location filename="../dialogs/configdialog.ui" line="960"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Určete, které editory dat jsou dostupné pro konkrétní typy sloupců ve &lt;span style=&quot; font-weight:700;&quot;&gt;Formulářovém zobrazení&lt;/span&gt; a v &lt;span style=&quot; font-weight:700;&quot;&gt;dialogu vyskakovacího editoru&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="992"/>
+        <location filename="../dialogs/configdialog.ui" line="979"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
         <translation>Náhled editorů pro tento datový typ (přetažením změníte pořadí):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1016"/>
+        <location filename="../dialogs/configdialog.ui" line="1003"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Můžete určit, které vykreslovače buněk se použijí pro konkrétní datové typy deklarované u sloupců tabulky (bez rozlišení velikosti písmen). Pokud pro daný typ není definován žádný vykreslovač, použije se výchozí vykreslovač.&lt;/p&gt;&lt;p&gt;Volitelné pluginy mohou poskytovat další vykreslovače a nastavit vlastní výchozí mapování pro datové typy, která zde stále můžete přepsat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1045"/>
+        <location filename="../dialogs/configdialog.ui" line="1032"/>
         <source>Data type</source>
         <translation>Datový typ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1050"/>
+        <location filename="../dialogs/configdialog.ui" line="1037"/>
         <source>Renderer</source>
         <translation>Vykreslovač</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1347"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pokud je přítomno více dotazů, provede pouze dotaz pod kurzorem.&lt;br/&gt;Když je vypnuto, provedou se všechny dotazy.&lt;br/&gt;Můžete také provést vybrané dotazy nebo použít zkratky (%1 pro jeden, %2 pro všechny).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zvýrazní dotaz pod kurzorem – stejný dotaz, který bude proveden při použití &lt;span style=&quot; font-style:italic;&quot;&gt;Provést dotaz&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="524"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Když je zapnuto, Letos automaticky přepíná na vědecký zápis pro velmi malá reálná čísla (např. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Desetinný zápis se používá pro hodnoty, jejichž velikost umožňuje čitelnou desetinnou reprezentaci.&lt;/p&gt;&lt;p&gt;Když je vypnuto, reálná čísla se vždy zobrazují pomocí desetinného zápisu, i když to vede k velmi dlouhým zlomkovým částem.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="556"/>
+        <location filename="../dialogs/configdialog.ui" line="572"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Při úpravě buňky stisk klávesy Enter přijme hodnotu a přesune se do stejného sloupce v dalším řádku.&lt;br/&gt;Je-li vypnuto, výběr zůstane na aktuální buňce.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="559"/>
+        <location filename="../dialogs/configdialog.ui" line="575"/>
         <source>After editing, Enter moves to the next row</source>
         <translation>Po úpravě Enter přejde na další řádek</translation>
     </message>
@@ -1651,287 +1641,287 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pokud výsledky dotazu obsahují desítky (nebo stovky) sloupců, je pravděpodobnější, že načtením několika gigabajtů dat najednou vyčerpají volnou paměť počítače. Letos se v takových případech může pokusit omezit počet výsledků zobrazených na jedné stránce, aby ochránil váš počítač. Pokud víte, že nepracujete s &apos;velkými hodnotami’ v databázi, můžete tento limit vypnout a vždy uvidíte tolik řádků, kolik je definováno na stránku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="631"/>
+        <location filename="../dialogs/configdialog.ui" line="540"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automaticky zahájí úpravu buňky v dalším řádku po přesunu na ni klávesou Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <location filename="../dialogs/configdialog.ui" line="543"/>
         <source>Start editing after moving to the next row</source>
         <translation>Zahájit úpravu po přesunu na další řádek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="717"/>
+        <location filename="../dialogs/configdialog.ui" line="704"/>
         <source>Column header actions</source>
         <translation>Akce záhlaví sloupce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <location filename="../dialogs/configdialog.ui" line="710"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation>Jedno kliknutí vybere data sloupce; dvojité kliknutí seřadí podle sloupce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="736"/>
+        <location filename="../dialogs/configdialog.ui" line="723"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
         <translation>Jedno kliknutí seřadí podle sloupce; Alt+kliknutí vybere data sloupce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <location filename="../dialogs/configdialog.ui" line="1160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Když uživatel ručně zavře panel Stav, tato volba zajistí, že pokud bude v panelu Stav vypsána jakákoli nová zpráva, panel se znovu otevře. Pokud je &apos;vypnuta’, lze panel Stav otevřít pouze ručně uživatelem z nabídky &amp;quot;Zobrazení&amp;quot;.&lt;/p&gt;&lt;p&gt;Panel Stav můžete vždy skrýt klávesou Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1186"/>
+        <location filename="../dialogs/configdialog.ui" line="1173"/>
         <source>Older status messages</source>
         <translation>Starší stavové zprávy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1192"/>
+        <location filename="../dialogs/configdialog.ui" line="1179"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Starší stavové zprávy zůstanou beze změny.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <location filename="../dialogs/configdialog.ui" line="1182"/>
         <source>Keep messages</source>
         <translation>Ponechat zprávy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1208"/>
+        <location filename="../dialogs/configdialog.ui" line="1195"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Starší stavové zprávy zůstanou viditelné, ale jsou vizuálně ztlumené, aby vynikly nové zprávy.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <location filename="../dialogs/configdialog.ui" line="1198"/>
         <source>Dim older messages</source>
         <translation>Ztlumit starší zprávy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1224"/>
+        <location filename="../dialogs/configdialog.ui" line="1211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Starší stavové zprávy jsou automaticky odstraněny ze stavového pole.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1227"/>
+        <location filename="../dialogs/configdialog.ui" line="1214"/>
         <source>Remove older messages</source>
         <translation>Odstranit starší zprávy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <location filename="../dialogs/configdialog.ui" line="1230"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Občas zobrazit stavovou zprávu s informacemi o podpoře projektu Letos. Tato připomenutí se zobrazují zřídka a lze je kdykoli zakázat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <location filename="../dialogs/configdialog.ui" line="1233"/>
         <source>Show occasional project support reminders</source>
         <translation>Zobrazovat občasná připomenutí podpory projektu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1282"/>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1269"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Určuje maximální počet desetinných míst zobrazených pro dobu provádění dotazu. Lze nakonfigurovat až 9 číslic (nanosekundy). Koncové nuly jsou automaticky oříznuty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1272"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Přesnost doby provádění (desetinná místa)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Je-li tato volba povolena, řádky delší než šířka editoru se budou zalamovat, takže nebude potřeba vodorovné posouvání.&lt;/p&gt;&lt;p&gt;Tato volba definuje globální výchozí nastavení, zatímco jednotlivá okna editoru SQL jej mohou lokálně přepsat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Disable blinking text cursor</source>
         <translation>Zakázat blikající textový kurzor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Spustit asistenta po napsání tečky</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1382"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Je-li povoleno, vyvolání dokončování kódu v prázdném editoru zobrazí nejprve úryvky kódu místo návrhů syntaxe. Opětovné vyvolání dokončování kódu přepne na návrhy syntaxe (a naopak).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Preferovat úryvky v prázdném editoru</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1398"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>History</source>
         <translation>Historie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1394"/>
         <source>Query history size:</source>
         <translation>Velikost historie dotazů:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1433"/>
-        <location filename="../dialogs/configdialog.ui" line="1443"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Maximální počet parametrů dotazu (:param, @param, $param, ?) uložených v historii. Když znovu použijete parametr se stejným názvem/pozicí, Letos jej předvyplní nejnovější zapamatovanou hodnotou (stále ji budete moci změnit). Hodnota 1000 by měla být dostačující.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1777"/>
+        <location filename="../dialogs/configdialog.ui" line="1764"/>
         <source>Number foreground</source>
         <translation>Barva popředí čísla</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2047"/>
+        <location filename="../dialogs/configdialog.ui" line="2034"/>
         <source>BLOB value foreground</source>
         <translation>Barva popředí hodnoty BLOB</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2353"/>
+        <location filename="../dialogs/configdialog.ui" line="2340"/>
         <source>Matched parenthesis foreground</source>
         <translation>Barva popředí spárované závorky</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2461"/>
-        <location filename="../dialogs/configdialog.ui" line="2569"/>
+        <location filename="../dialogs/configdialog.ui" line="2448"/>
+        <location filename="../dialogs/configdialog.ui" line="2556"/>
         <source>Reset to defaults</source>
         <translation>Obnovit výchozí</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2487"/>
+        <location filename="../dialogs/configdialog.ui" line="2474"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Filtrovat zkratky podle názvu nebo kombinace kláves</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2531"/>
+        <location filename="../dialogs/configdialog.ui" line="2518"/>
         <source>Action</source>
         <translation>Akce</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2536"/>
+        <location filename="../dialogs/configdialog.ui" line="2523"/>
         <source>Key combination</source>
         <translation>Kombinace kláves</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2610"/>
-        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <location filename="../dialogs/configdialog.ui" line="2597"/>
+        <location filename="../dialogs/configdialog.ui" line="3104"/>
         <source>Language</source>
         <translation>Jazyk</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2616"/>
+        <location filename="../dialogs/configdialog.ui" line="2603"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Aby se změna jazyka projevila, je nutné restartovat aplikaci.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2636"/>
+        <location filename="../dialogs/configdialog.ui" line="2623"/>
         <source>Compact layout</source>
         <translation>Kompaktní rozvržení</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2642"/>
+        <location filename="../dialogs/configdialog.ui" line="2629"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Kompaktní rozvržení zmenší všechny okraje a mezery v uživatelském rozhraní na minimum, čímž uvolní místo pro zobrazení více dat. Rozhraní je kvůli tomu o něco méně estetické, ale umožňuje zobrazit více dat najednou.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2645"/>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
         <source>Use compact layout</source>
         <translation>Použít kompaktní rozvržení</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2661"/>
+        <location filename="../dialogs/configdialog.ui" line="2648"/>
         <source>Main window dock areas</source>
         <translation>Dokovací oblasti hlavního okna</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2667"/>
+        <location filename="../dialogs/configdialog.ui" line="2654"/>
         <source>Left and right areas occupy corners</source>
         <translation>Levá a pravá oblast zabírají rohy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2687"/>
+        <location filename="../dialogs/configdialog.ui" line="2674"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Horní a dolní oblast zabírají rohy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2707"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Toolbars</source>
         <translation>Panely nástrojů</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2713"/>
-        <location filename="../dialogs/configdialog.ui" line="2723"/>
+        <location filename="../dialogs/configdialog.ui" line="2700"/>
+        <location filename="../dialogs/configdialog.ui" line="2710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vyjádřeno v procentech výchozí velikosti.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2716"/>
+        <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
         <translation>Velikost ikon</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2841"/>
+        <location filename="../dialogs/configdialog.ui" line="2828"/>
         <source>Hide built-in plugins</source>
         <translation>Skrýt vestavěné pluginy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2870"/>
+        <location filename="../dialogs/configdialog.ui" line="2857"/>
         <source>Current style:</source>
         <translation>Aktuální styl:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2887"/>
+        <location filename="../dialogs/configdialog.ui" line="2874"/>
         <source>Preview</source>
         <translation>Náhled</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2897"/>
+        <location filename="../dialogs/configdialog.ui" line="2884"/>
         <source>Enabled</source>
         <translation>Povoleno</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3073"/>
+        <location filename="../dialogs/configdialog.ui" line="3060"/>
         <source>Disabled</source>
         <translation>Zakázáno</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <location filename="../dialogs/configdialog.ui" line="3109"/>
         <source>Active formatter plugin</source>
         <translation>Aktivní plugin formátovače</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3160"/>
+        <location filename="../dialogs/configdialog.ui" line="3147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; Kromě zde dostupných nastavení lze velikost písma ve většině prvků rozhraní upravovat také dynamicky podržením klávesy &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; a posouváním &lt;span style=&quot; font-weight:700;&quot;&gt;kolečka myši&lt;/span&gt; nad prvkem, jehož velikost písma chcete změnit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3179"/>
+        <location filename="../dialogs/configdialog.ui" line="3166"/>
         <source>SQL editor font</source>
         <translation>Písmo editoru SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3195"/>
+        <location filename="../dialogs/configdialog.ui" line="3182"/>
         <source>Database list font</source>
         <translation>Písmo seznamu databází</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3211"/>
+        <location filename="../dialogs/configdialog.ui" line="3198"/>
         <source>Database list additional label font</source>
         <translation>Písmo doplňkového popisku seznamu databází</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3227"/>
+        <location filename="../dialogs/configdialog.ui" line="3214"/>
         <source>Data view font</source>
         <translation>Písmo zobrazení dat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3243"/>
+        <location filename="../dialogs/configdialog.ui" line="3230"/>
         <source>Status field font</source>
         <translation>Písmo stavového pole</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Je-li tato možnost povolena, asistent kódu se spustí v případech, kdy uživatel napíše například &lt;span style=&quot; font-weight:700;&quot;&gt;nazevTabulky.&lt;/span&gt;, aby navrhl sloupce tabulky. Je-li možnost zakázána, uživatel bude muset explicitně stisknout klávesovou zkratku asistenta.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -5344,7 +5334,7 @@ Zadejte prosím nový jedinečný název nebo stiskněte &apos;%1&apos; pro pře
 <context>
     <name>MultiEditorHexPlugin</name>
     <message>
-        <location filename="../multieditor/multieditorhex.cpp" line="102"/>
+        <location filename="../multieditor/multieditorhex.cpp" line="107"/>
         <source>Hex</source>
         <translation>Hexadecimální</translation>
     </message>
@@ -5361,37 +5351,37 @@ Zadejte prosím nový jedinečný název nebo stiskněte &apos;%1&apos; pro pře
 <context>
     <name>MultiEditorText</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="119"/>
+        <location filename="../multieditor/multieditortext.cpp" line="126"/>
         <source>Tab changes focus</source>
         <translation>Tabulátor mění zaměření</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="120"/>
+        <location filename="../multieditor/multieditortext.cpp" line="127"/>
         <source>Cut</source>
         <translation>Vyjmout</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="121"/>
+        <location filename="../multieditor/multieditortext.cpp" line="128"/>
         <source>Copy</source>
         <translation>Kopírovat</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="122"/>
+        <location filename="../multieditor/multieditortext.cpp" line="129"/>
         <source>Paste</source>
         <translation>Vložit</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="123"/>
+        <location filename="../multieditor/multieditortext.cpp" line="130"/>
         <source>Delete</source>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="124"/>
+        <location filename="../multieditor/multieditortext.cpp" line="131"/>
         <source>Undo</source>
         <translation>Zpět</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="125"/>
+        <location filename="../multieditor/multieditortext.cpp" line="132"/>
         <source>Redo</source>
         <translation>Znovu</translation>
     </message>
@@ -5399,7 +5389,7 @@ Zadejte prosím nový jedinečný název nebo stiskněte &apos;%1&apos; pro pře
 <context>
     <name>MultiEditorTextPlugin</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="203"/>
+        <location filename="../multieditor/multieditortext.cpp" line="309"/>
         <source>Text</source>
         <translation>Textový</translation>
     </message>

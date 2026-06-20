@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3127"/>
+        <location filename="../dialogs/configdialog.ui" line="3114"/>
         <source>Configuration</source>
         <translation>Configuratie</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>Databaselijst</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1363"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Code assistant</source>
         <translation>Code-assistent</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1276"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>SQL Editor</source>
         <translation>SQL-editor</translation>
     </message>
@@ -1219,73 +1219,63 @@
         <translation>Gegevens bekijken en bewerken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="582"/>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <location filename="../dialogs/configdialog.ui" line="517"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Maximumaantal configuraties van het dialoogvenster Tabel vullen dat in de configuratie wordt opgeslagen. Een waarde van 100 zou voldoende moeten zijn.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <location filename="../dialogs/configdialog.ui" line="520"/>
         <source>Number of memorized table populating configurations</source>
         <translation>Aantal onthouden configuraties voor het vullen van tabellen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="511"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zet Unicode-regelscheidingstekens (U+2028, U+2029) om naar het standaard LF-teken (&lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;\n&lt;/span&gt;) bij het bewerken van tekst in de formulierweergave-editor.&lt;/p&gt;&lt;p&gt;Schakel uit om de oorspronkelijke tekens te behouden.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="514"/>
-        <source>Convert Unicode line separators to LF (\n) in form view editors</source>
-        <translation>Unicode-regelscheidingstekens naar LF (\n) omzetten in formulierweergave-editors</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <location filename="../dialogs/configdialog.ui" line="595"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
         <translation>Wetenschappelijke notatie gebruiken voor zeer kleine reële getallen in de rasterweergave</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="647"/>
+        <location filename="../dialogs/configdialog.ui" line="634"/>
         <source>Data column width</source>
         <translation>Breedte van gegevenskolom</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="653"/>
+        <location filename="../dialogs/configdialog.ui" line="640"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer de gebruiker een nieuwe waarde in een kolom invoert en de waarde groter is dan de huidige kolombreedte, vergroot de toepassing de kolom zodat de nieuwe waarde past, maar niet breder dan de limiet die in de optie hierboven is gedefinieerd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="656"/>
+        <location filename="../dialogs/configdialog.ui" line="643"/>
         <source>Enlarge column when entering value longer than current width</source>
         <translation>Kolom vergroten bij invoeren van waarde langer dan huidige breedte</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="672"/>
+        <location filename="../dialogs/configdialog.ui" line="659"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Wanneer de gegevens in de rasterweergave worden gelezen, wordt de breedte van kolommen automatisch aangepast. Deze waarde beperkt de initiële breedte voor de aanpassing, maar de gebruiker kan de kolom nog steeds handmatig groter maken dan deze limiet.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
+        <location filename="../dialogs/configdialog.ui" line="585"/>
         <source>Number of data rows per page:</source>
         <translation>Aantal gegevensrijen per pagina:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="569"/>
+        <location filename="../dialogs/configdialog.ui" line="618"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Wanneer dit is ingeschakeld en de gebruiker de muisaanwijzer boven een cel in een gegevensweergave houdt (queryresultaten, tabelgegevens, weergavegegevens), verschijnt er een tooltip met details over de cel - deze bevat details zoals kolomgegevenstype, beperkingen, ROWID en andere.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <location filename="../dialogs/configdialog.ui" line="621"/>
         <source>Show column and row details tooltip in data view</source>
         <translation>Tooltip met kolom- en rijdetails in gegevensweergave tonen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
         <translation>&lt;p&gt;Bij het bewerken van een cel die eerder de waarde NULL had en het invoeren van een lege tekenreeks als nieuwe waarde, bepaalt deze optie of de nieuwe waarde NULL moet blijven (deze optie ingeschakeld) of moet worden overschreven met een lege tekenreekswaarde (deze optie uitgeschakeld).&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <location filename="../dialogs/configdialog.ui" line="530"/>
         <source>Keep NULL value when entering empty value</source>
         <translation>NULL-waarde behouden bij invoeren van lege waarde</translation>
     </message>
@@ -1295,238 +1285,238 @@
         <translation>Aantal rijen beperken bij tientallen kolommen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="752"/>
+        <location filename="../dialogs/configdialog.ui" line="739"/>
         <source>Inserting new row in data grid</source>
         <translation>Nieuwe rij invoegen in gegevensraster</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="758"/>
+        <location filename="../dialogs/configdialog.ui" line="745"/>
         <source>Before currently selected row</source>
         <translation>Voor de momenteel geselecteerde rij</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <location filename="../dialogs/configdialog.ui" line="761"/>
         <source>After currently selected row</source>
         <translation>Na de momenteel geselecteerde rij</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="787"/>
+        <location filename="../dialogs/configdialog.ui" line="774"/>
         <source>At the end of data view</source>
         <translation>Aan het einde van de gegevensweergave</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="803"/>
+        <location filename="../dialogs/configdialog.ui" line="790"/>
         <source>Table windows</source>
         <translation>Tabelvensters</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <location filename="../dialogs/configdialog.ui" line="796"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Wanneer ingeschakeld, worden tabelvensters geopend met het tabblad Gegevens in plaats van het tabblad Structuur.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <location filename="../dialogs/configdialog.ui" line="799"/>
         <source>Open Table Windows with the data tab for start</source>
         <translation>Tabelvensters starten met het tabblad Gegevens</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="822"/>
+        <location filename="../dialogs/configdialog.ui" line="809"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Wanneer ingeschakeld, wordt het tabblad &quot;Gegevens&quot; als eerste tabblad in elk tabelvenster geplaatst, in plaats van op de tweede plaats.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <location filename="../dialogs/configdialog.ui" line="812"/>
         <source>Place data tab as first tab in a Table Window</source>
         <translation>Gegevenstabblad als eerste tabblad in een tabelvenster plaatsen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="838"/>
+        <location filename="../dialogs/configdialog.ui" line="825"/>
         <source>View windows</source>
         <translation>Weergavevensters</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <location filename="../dialogs/configdialog.ui" line="831"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Wanneer ingeschakeld, worden weergavevensters geopend met het tabblad Gegevens in plaats van het tabblad Structuur.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <location filename="../dialogs/configdialog.ui" line="834"/>
         <source>Open View Windows with the data tab for start</source>
         <translation>Weergavevensters starten met het tabblad Gegevens</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="857"/>
+        <location filename="../dialogs/configdialog.ui" line="844"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Wanneer ingeschakeld, wordt het tabblad &quot;Gegevens&quot; als eerste tabblad in elk weergavevenster geplaatst, in plaats van op de tweede plaats.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="860"/>
+        <location filename="../dialogs/configdialog.ui" line="847"/>
         <source>Place data tab as first tab in a View Window</source>
         <translation>Gegevenstabblad als eerste tabblad in een weergavevenster plaatsen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="904"/>
+        <location filename="../dialogs/configdialog.ui" line="891"/>
         <source>Data types</source>
         <translation>Gegevenstypen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="957"/>
+        <location filename="../dialogs/configdialog.ui" line="944"/>
         <source>Available editors:</source>
         <translation>Beschikbare editors:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1074"/>
+        <location filename="../dialogs/configdialog.ui" line="1061"/>
         <source>Schema editing</source>
         <translation>Schemabewerking</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <location filename="../dialogs/configdialog.ui" line="1073"/>
         <source>Number of DDL changes kept in history.</source>
         <translation>Aantal DDL-wijzigingen dat in de geschiedenis wordt bewaard.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1099"/>
+        <location filename="../dialogs/configdialog.ui" line="1086"/>
         <source>DDL history size:</source>
         <translation>Grootte van DDL-geschiedenis:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <location filename="../dialogs/configdialog.ui" line="1093"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
         <translation>DDL-voorbeeldvenster niet tonen bij het vastleggen van schemawijzigingen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1404"/>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1391"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Number of queries kept in the history.</source>
         <translation>Aantal queries dat in de geschiedenis wordt bewaard.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Execute only the query under the cursor</source>
         <translation>Alleen de query onder de cursor uitvoeren</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1436"/>
+        <location filename="../dialogs/configdialog.ui" line="1423"/>
         <source>Number of memorized query parameters</source>
         <translation>Aantal onthouden queryparameters</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <location filename="../dialogs/configdialog.ui" line="678"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer de gegevens in de rasterweergave worden gelezen, wordt de breedte van kolommen automatisch aangepast. Deze waarde beperkt de initiële breedte voor de aanpassing, maar de gebruiker kan de kolom nog steeds handmatig groter maken dan deze limiet. Deze waarde wordt ook gebruikt bij het vergroten van een kolom wanneer de gebruiker een nieuwe, langere waarde invoert (zie optie hieronder).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="694"/>
+        <location filename="../dialogs/configdialog.ui" line="681"/>
         <source>Limit automatic data column width to (in pixels):</source>
         <translation>Automatische breedte van gegevenskolom beperken tot (in pixels):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="701"/>
+        <location filename="../dialogs/configdialog.ui" line="688"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;De initiële breedte van gegevenskolommen wordt minimaal zo ingesteld dat de volledige naam van de kolom in de kop wordt weergegeven. Dit kan nog steeds worden overschreven door de initiële limiet voor de kolombreedte in pixels (de instelling hierboven).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>Keep at least the width to show complete column name</source>
         <translation>Minimaal de breedte behouden om de volledige kolomnaam te tonen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1314"/>
+        <location filename="../dialogs/configdialog.ui" line="1301"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Regels afbreken in SQL-editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Highlight current query</source>
         <translation>Huidige query markeren</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1119"/>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Updates</source>
         <translation>Updates</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <location filename="../dialogs/configdialog.ui" line="1112"/>
         <source>Automatically check for updates at startup</source>
         <translation>Automatisch op updates controleren bij opstarten</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1138"/>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Session</source>
         <translation>Sessie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1144"/>
+        <location filename="../dialogs/configdialog.ui" line="1131"/>
         <source>Restore last session (active MDI windows) after startup</source>
         <translation>Laatste sessie (actieve MDI-vensters) herstellen na opstarten</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <location filename="../dialogs/configdialog.ui" line="1141"/>
         <source>Allow multiple instances of the application at the same time</source>
         <translation>Meerdere instanties van de toepassing tegelijk toestaan</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1167"/>
+        <location filename="../dialogs/configdialog.ui" line="1154"/>
         <source>Status Field</source>
         <translation>Statusveld</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1176"/>
+        <location filename="../dialogs/configdialog.ui" line="1163"/>
         <source>Always open Status panel when new message is printed</source>
         <translation>Statuspaneel altijd openen wanneer een nieuw bericht wordt afgedrukt</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1501"/>
+        <location filename="../dialogs/configdialog.ui" line="1488"/>
         <source>Code syntax colors</source>
         <translation>Kleuren voor codesyntaxis</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1687"/>
+        <location filename="../dialogs/configdialog.ui" line="1674"/>
         <source>Keyword foreground</source>
         <translation>Voorgrond van sleutelwoord</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1507"/>
+        <location filename="../dialogs/configdialog.ui" line="1494"/>
         <source>Regular foreground</source>
         <translation>Normale voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1597"/>
+        <location filename="../dialogs/configdialog.ui" line="1584"/>
         <source>String foreground</source>
         <translation>Voorgrond van tekenreeks</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1867"/>
+        <location filename="../dialogs/configdialog.ui" line="1854"/>
         <source>Comment foreground</source>
         <translation>Voorgrond van commentaar</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1957"/>
+        <location filename="../dialogs/configdialog.ui" line="1944"/>
         <source>Valid objects foreground</source>
         <translation>Voorgrond van geldige objecten</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2268"/>
+        <location filename="../dialogs/configdialog.ui" line="2255"/>
         <source>Current query background</source>
         <translation>Achtergrond van huidige query</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2137"/>
+        <location filename="../dialogs/configdialog.ui" line="2124"/>
         <source>Bind parameter foreground</source>
         <translation>Voorgrond van bindparameter</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2227"/>
+        <location filename="../dialogs/configdialog.ui" line="2214"/>
         <source>Current line background</source>
         <translation>Achtergrond van huidige regel</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2312"/>
+        <location filename="../dialogs/configdialog.ui" line="2299"/>
         <source>Matched parenthesis background</source>
         <translation>Achtergrond van overeenkomende haakjes</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2296"/>
+        <location filename="../dialogs/configdialog.ui" line="2283"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;U kunt het markeren van de huidige query volledig uitschakelen op de pagina Algemene instellingen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1596,52 +1586,52 @@
         <translation>Dialoog overslaan wanneer mogelijk</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="973"/>
+        <location filename="../dialogs/configdialog.ui" line="960"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Definieer welke gegevenseditors beschikbaar zijn voor specifieke kolomtypen in &lt;span style=&quot; font-weight:700;&quot;&gt;Formulierweergave&lt;/span&gt; en het &lt;span style=&quot; font-weight:700;&quot;&gt;pop-up-editorvenster&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="992"/>
+        <location filename="../dialogs/configdialog.ui" line="979"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
         <translation>Voorbeeld van editors voor dit gegevenstype (sleep om te herschikken):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1016"/>
+        <location filename="../dialogs/configdialog.ui" line="1003"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;U kunt definiëren welke celrenderers worden gebruikt voor specifieke gegevenstypen die op tabelkolommen zijn gedeclareerd (niet hoofdlettergevoelig). Als er geen renderer voor een bepaald type is gedefinieerd, wordt de standaardrenderer gebruikt.&lt;/p&gt;&lt;p&gt;Optionele plugins kunnen aanvullende renderers leveren en hun eigen standaardtoewijzingen voor gegevenstypen instellen, die u hier nog steeds kunt overschrijven.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1045"/>
+        <location filename="../dialogs/configdialog.ui" line="1032"/>
         <source>Data type</source>
         <translation>Gegevenstype</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1050"/>
+        <location filename="../dialogs/configdialog.ui" line="1037"/>
         <source>Renderer</source>
         <translation>Renderer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1347"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer er meerdere queries aanwezig zijn, wordt alleen de query onder de cursor uitgevoerd.&lt;br/&gt;Wanneer uitgeschakeld, worden alle queries uitgevoerd.&lt;br/&gt;U kunt ook geselecteerde queries uitvoeren of sneltoetsen gebruiken (%1 voor één, %2 voor alle).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Markeert de query onder de cursor - dezelfde query die wordt uitgevoerd bij gebruik van &lt;span style=&quot; font-style:italic;&quot;&gt;Query uitvoeren&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="524"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer ingeschakeld, schakelt Letos automatisch over naar wetenschappelijke notatie voor zeer kleine reële getallen (bijv. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimale notatie wordt gebruikt voor waarden waarvan de grootte een leesbare decimale weergave mogelijk maakt.&lt;/p&gt;&lt;p&gt;Wanneer uitgeschakeld, worden reële getallen altijd weergegeven met decimale notatie, zelfs als dit resulteert in zeer lange breukdelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="556"/>
+        <location filename="../dialogs/configdialog.ui" line="572"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer u een cel bewerkt, accepteert Enter de waarde en gaat naar dezelfde kolom in de volgende rij.&lt;br/&gt;Indien uitgeschakeld, blijft de selectie op de huidige cel.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="559"/>
+        <location filename="../dialogs/configdialog.ui" line="575"/>
         <source>After editing, Enter moves to the next row</source>
         <translation>Na bewerken verplaatst Enter naar de volgende rij</translation>
     </message>
@@ -1651,287 +1641,287 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Als queryresultaten tientallen (of honderden) kolommen bevatten, is de kans groter dat het vrije geheugen van uw computer uitgeput raakt door meerdere gigabytes aan gegevens tegelijk te laden. Letos kan in zulke gevallen proberen het aantal resultaten dat op één pagina wordt weergegeven te beperken om uw computer te beschermen. Als u weet dat u niet met grote waarden in de databank werkt, kunt u deze limiet uitschakelen en ziet u altijd zoveel rijen als per pagina is gedefinieerd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="631"/>
+        <location filename="../dialogs/configdialog.ui" line="540"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Start automatisch het bewerken van de cel in de volgende rij nadat er met Enter naartoe is gegaan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <location filename="../dialogs/configdialog.ui" line="543"/>
         <source>Start editing after moving to the next row</source>
         <translation>Bewerken starten na verplaatsen naar de volgende rij</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="717"/>
+        <location filename="../dialogs/configdialog.ui" line="704"/>
         <source>Column header actions</source>
         <translation>Acties voor kolomkop</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <location filename="../dialogs/configdialog.ui" line="710"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation>Eén klik selecteert kolomgegevens; dubbelklik sorteert op kolom</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="736"/>
+        <location filename="../dialogs/configdialog.ui" line="723"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
         <translation>Eén klik sorteert op kolom; Alt+klik selecteert kolomgegevens</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <location filename="../dialogs/configdialog.ui" line="1160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer de gebruiker het statuspaneel handmatig sluit, zorgt deze optie ervoor dat het opnieuw wordt geopend als er een nieuw bericht in het statuspaneel wordt afgedrukt. Als dit is uitgeschakeld, kan het statuspaneel alleen handmatig door de gebruiker worden geopend via het menu &amp;quot;Weergave&amp;quot;.&lt;/p&gt;&lt;p&gt;U kunt het statuspaneel altijd verbergen met de Esc-toets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1186"/>
+        <location filename="../dialogs/configdialog.ui" line="1173"/>
         <source>Older status messages</source>
         <translation>Oudere statusberichten</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1192"/>
+        <location filename="../dialogs/configdialog.ui" line="1179"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Oudere statusberichten blijven ongewijzigd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <location filename="../dialogs/configdialog.ui" line="1182"/>
         <source>Keep messages</source>
         <translation>Berichten behouden</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1208"/>
+        <location filename="../dialogs/configdialog.ui" line="1195"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Oudere statusberichten blijven zichtbaar, maar worden visueel gedimd zodat recente berichten opvallen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <location filename="../dialogs/configdialog.ui" line="1198"/>
         <source>Dim older messages</source>
         <translation>Oudere berichten dimmen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1224"/>
+        <location filename="../dialogs/configdialog.ui" line="1211"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Oudere statusberichten worden automatisch uit het statusveld verwijderd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1227"/>
+        <location filename="../dialogs/configdialog.ui" line="1214"/>
         <source>Remove older messages</source>
         <translation>Oudere berichten verwijderen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <location filename="../dialogs/configdialog.ui" line="1230"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Toon af en toe een statusbericht met informatie over het ondersteunen van het Letos-project. Deze herinneringen verschijnen zelden en kunnen op elk moment worden uitgeschakeld.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <location filename="../dialogs/configdialog.ui" line="1233"/>
         <source>Show occasional project support reminders</source>
         <translation>Toon af en toe herinneringen voor projectondersteuning</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1282"/>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1269"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specificeert het maximale aantal decimalen dat wordt weergegeven voor de uitvoeringstijd van queries. Er kunnen tot 9 cijfers (nanoseconden) worden geconfigureerd. Afsluitende nullen worden automatisch verwijderd.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1272"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Precisie van uitvoeringstijd (decimalen)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indien ingeschakeld, worden regels die langer zijn dan de breedte van de editor afgebroken, zodat horizontaal scrollen niet nodig is.&lt;/p&gt;&lt;p&gt;Deze optie definieert de globale standaardinstelling, terwijl afzonderlijke SQL-editorvensters deze lokaal kunnen overschrijven.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Disable blinking text cursor</source>
         <translation>Knipperende tekstcursor uitschakelen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Assistent activeren na het typen van een punt</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1382"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Wanneer ingeschakeld, toont het aanroepen van codeaanvulling in een lege editor eerst codefragmenten in plaats van syntaxisvoorstellen. Door codeaanvulling opnieuw aan te roepen wordt overgeschakeld naar syntaxisvoorstellen (en omgekeerd).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Voorkeur voor fragmenten in lege editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1398"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>History</source>
         <translation>Geschiedenis</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1394"/>
         <source>Query history size:</source>
         <translation>Grootte van querygeschiedenis:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1433"/>
-        <location filename="../dialogs/configdialog.ui" line="1443"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
+        <location filename="../dialogs/configdialog.ui" line="1430"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Maximumaantal queryparameters (:param, @param, $param, ?) dat in de geschiedenis wordt opgeslagen. Wanneer u een parameter met dezelfde naam/positie opnieuw gebruikt, zal Letos deze vooraf initialiseren met de meest recent onthouden waarde (u kunt deze nog steeds wijzigen). Een waarde van 1000 zou voldoende moeten zijn.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1777"/>
+        <location filename="../dialogs/configdialog.ui" line="1764"/>
         <source>Number foreground</source>
         <translation>Voorgrondkleur van getal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2047"/>
+        <location filename="../dialogs/configdialog.ui" line="2034"/>
         <source>BLOB value foreground</source>
         <translation>Voorgrondkleur van BLOB-waarde</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2353"/>
+        <location filename="../dialogs/configdialog.ui" line="2340"/>
         <source>Matched parenthesis foreground</source>
         <translation>Voorgrondkleur van overeenkomend haakje</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2461"/>
-        <location filename="../dialogs/configdialog.ui" line="2569"/>
+        <location filename="../dialogs/configdialog.ui" line="2448"/>
+        <location filename="../dialogs/configdialog.ui" line="2556"/>
         <source>Reset to defaults</source>
         <translation>Standaardwaarden herstellen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2487"/>
+        <location filename="../dialogs/configdialog.ui" line="2474"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Sneltoetsen filteren op naam of toetscombinatie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2531"/>
+        <location filename="../dialogs/configdialog.ui" line="2518"/>
         <source>Action</source>
         <translation>Actie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2536"/>
+        <location filename="../dialogs/configdialog.ui" line="2523"/>
         <source>Key combination</source>
         <translation>Toetscombinatie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2610"/>
-        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <location filename="../dialogs/configdialog.ui" line="2597"/>
+        <location filename="../dialogs/configdialog.ui" line="3104"/>
         <source>Language</source>
         <translation>Taal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2616"/>
+        <location filename="../dialogs/configdialog.ui" line="2603"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Het wijzigen van de taal vereist een herstart van de toepassing om van kracht te worden.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2636"/>
+        <location filename="../dialogs/configdialog.ui" line="2623"/>
         <source>Compact layout</source>
         <translation>Compacte indeling</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2642"/>
+        <location filename="../dialogs/configdialog.ui" line="2629"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Compacte indeling beperkt alle marges en tussenruimten in de UI tot een minimum, waardoor er ruimte vrijkomt om meer gegevens weer te geven. De interface wordt hierdoor iets minder esthetisch, maar er kunnen meer gegevens tegelijk worden weergegeven.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2645"/>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
         <source>Use compact layout</source>
         <translation>Compacte indeling gebruiken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2661"/>
+        <location filename="../dialogs/configdialog.ui" line="2648"/>
         <source>Main window dock areas</source>
         <translation>Dockgebieden van hoofdvenster</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2667"/>
+        <location filename="../dialogs/configdialog.ui" line="2654"/>
         <source>Left and right areas occupy corners</source>
         <translation>Linker- en rechtergebieden bezetten hoeken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2687"/>
+        <location filename="../dialogs/configdialog.ui" line="2674"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Boven- en ondergebieden bezetten hoeken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2707"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Toolbars</source>
         <translation>Werkbalken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2713"/>
-        <location filename="../dialogs/configdialog.ui" line="2723"/>
+        <location filename="../dialogs/configdialog.ui" line="2700"/>
+        <location filename="../dialogs/configdialog.ui" line="2710"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uitgedrukt als percentage van de standaardgrootte.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2716"/>
+        <location filename="../dialogs/configdialog.ui" line="2703"/>
         <source>Icon size</source>
         <translation>Pictogramgrootte</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2841"/>
+        <location filename="../dialogs/configdialog.ui" line="2828"/>
         <source>Hide built-in plugins</source>
         <translation>Ingebouwde plug-ins verbergen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2870"/>
+        <location filename="../dialogs/configdialog.ui" line="2857"/>
         <source>Current style:</source>
         <translation>Huidige stijl:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2887"/>
+        <location filename="../dialogs/configdialog.ui" line="2874"/>
         <source>Preview</source>
         <translation>Voorbeeld</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2897"/>
+        <location filename="../dialogs/configdialog.ui" line="2884"/>
         <source>Enabled</source>
         <translation>Ingeschakeld</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3073"/>
+        <location filename="../dialogs/configdialog.ui" line="3060"/>
         <source>Disabled</source>
         <translation>Uitgeschakeld</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <location filename="../dialogs/configdialog.ui" line="3109"/>
         <source>Active formatter plugin</source>
         <translation>Actieve formatterplug-in</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3160"/>
+        <location filename="../dialogs/configdialog.ui" line="3147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; Naast de instellingen die hier beschikbaar zijn, kunnen lettergroottes in de meeste interface-elementen ook dynamisch worden aangepast door &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; ingedrukt te houden en met het &lt;span style=&quot; font-weight:700;&quot;&gt;muiswiel&lt;/span&gt; te scrollen boven het element waarvan u de lettergrootte wilt wijzigen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3179"/>
+        <location filename="../dialogs/configdialog.ui" line="3166"/>
         <source>SQL editor font</source>
         <translation>Lettertype van SQL-editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3195"/>
+        <location filename="../dialogs/configdialog.ui" line="3182"/>
         <source>Database list font</source>
         <translation>Lettertype van databaselijst</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3211"/>
+        <location filename="../dialogs/configdialog.ui" line="3198"/>
         <source>Database list additional label font</source>
         <translation>Lettertype van extra label in databaselijst</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3227"/>
+        <location filename="../dialogs/configdialog.ui" line="3214"/>
         <source>Data view font</source>
         <translation>Lettertype van gegevensweergave</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3243"/>
+        <location filename="../dialogs/configdialog.ui" line="3230"/>
         <source>Status field font</source>
         <translation>Lettertype van statusveld</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1356"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Als deze optie is ingeschakeld, wordt de codeassistent geactiveerd in gevallen waarin de gebruiker bijvoorbeeld &lt;span style=&quot; font-weight:700;&quot;&gt;tabelNaam.&lt;/span&gt; typt om kolommen van de tabel voor te stellen. Als de optie is uitgeschakeld, moet de gebruiker de sneltoets van de assistent expliciet indrukken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -5344,7 +5334,7 @@ Voer een nieuwe, unieke naam in, of druk op &apos;%1&apos; om de bewerking af te
 <context>
     <name>MultiEditorHexPlugin</name>
     <message>
-        <location filename="../multieditor/multieditorhex.cpp" line="102"/>
+        <location filename="../multieditor/multieditorhex.cpp" line="107"/>
         <source>Hex</source>
         <translation>Hexadecimaal</translation>
     </message>
@@ -5361,37 +5351,37 @@ Voer een nieuwe, unieke naam in, of druk op &apos;%1&apos; om de bewerking af te
 <context>
     <name>MultiEditorText</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="119"/>
+        <location filename="../multieditor/multieditortext.cpp" line="126"/>
         <source>Tab changes focus</source>
         <translation>Tab verandert focus</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="120"/>
+        <location filename="../multieditor/multieditortext.cpp" line="127"/>
         <source>Cut</source>
         <translation>Knippen</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="121"/>
+        <location filename="../multieditor/multieditortext.cpp" line="128"/>
         <source>Copy</source>
         <translation>Kopiëren</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="122"/>
+        <location filename="../multieditor/multieditortext.cpp" line="129"/>
         <source>Paste</source>
         <translation>Plakken</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="123"/>
+        <location filename="../multieditor/multieditortext.cpp" line="130"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="124"/>
+        <location filename="../multieditor/multieditortext.cpp" line="131"/>
         <source>Undo</source>
         <translation>Ongedaan maken</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="125"/>
+        <location filename="../multieditor/multieditortext.cpp" line="132"/>
         <source>Redo</source>
         <translation>Opnieuw uitvoeren</translation>
     </message>
@@ -5399,7 +5389,7 @@ Voer een nieuwe, unieke naam in, of druk op &apos;%1&apos; om de bewerking af te
 <context>
     <name>MultiEditorTextPlugin</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="203"/>
+        <location filename="../multieditor/multieditortext.cpp" line="309"/>
         <source>Text</source>
         <translation>Tekst</translation>
     </message>
