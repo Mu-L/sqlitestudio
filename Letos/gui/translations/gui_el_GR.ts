@@ -1718,12 +1718,12 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1243"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Να εμφανίζεται περιστασιακά ένα μήνυμα κατάστασης με πληροφορίες σχετικά με την υποστήριξη του έργου Letos. Αυτές οι υπενθυμίσεις εμφανίζονται σπάνια και μπορούν να απενεργοποιηθούν ανά πάσα στιγμή.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1246"/>
         <source>Show occasional project support reminders</source>
-        <translation type="unfinished">Show occasional project support reminders</translation>
+        <translation>Εμφάνιση περιστασιακών υπενθυμίσεων υποστήριξης του έργου</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1282"/>
@@ -5003,7 +5003,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../mainwindow.cpp" line="1171"/>
         <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+        <translation>Το Letos είναι δωρεάν και ανοικτού κώδικα. Αν σας βοηθά στην εργασία σας, σκεφτείτε το ενδεχόμενο να &lt;a href=&quot;%1&quot;&gt;υποστηρίξετε το έργο&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1256"/>
@@ -5475,47 +5475,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>NewVersionDialog</name>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="14"/>
+        <location filename="../dialogs/newversiondialog.ui" line="20"/>
         <source>Letos updates</source>
         <translation>Ενημερώσεις Letos</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="25"/>
+        <location filename="../dialogs/newversiondialog.ui" line="31"/>
         <source>New version is available!</source>
         <translation>Υπάρχει διαθέσιμη νέα έκδοση!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="51"/>
+        <location filename="../dialogs/newversiondialog.ui" line="57"/>
         <source>Download new version!</source>
         <translation>Λήψη νέας έκδοσης!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="64"/>
+        <location filename="../dialogs/newversiondialog.ui" line="70"/>
         <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
         <translation>Το πακέτο της νέας έκδοσης θα ληφθεί. Θα το εγκαταστήσετε όταν &apos;είστε&apos; έτοιμοι.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="71"/>
+        <location filename="../dialogs/newversiondialog.ui" line="77"/>
         <source>Open Letos home page.</source>
         <translation>Άνοιγμα της αρχικής σελίδας του Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="84"/>
+        <location filename="../dialogs/newversiondialog.ui" line="90"/>
         <source>Read release notes &amp;&amp; download package yourself.</source>
         <translation>Διαβάστε τις σημειώσεις έκδοσης &amp;&amp; κατεβάστε το πακέτο μόνοι σας.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="104"/>
+        <location filename="../dialogs/newversiondialog.ui" line="110"/>
         <source>Just close this window.</source>
         <translation>Απλώς κλείστε αυτό το παράθυρο.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="114"/>
+        <location filename="../dialogs/newversiondialog.ui" line="120"/>
         <source>Check for updates on startup</source>
         <translation>Έλεγχος για ενημερώσεις κατά την εκκίνηση</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="91"/>
+        <location filename="../dialogs/newversiondialog.ui" line="97"/>
         <source>Not now.</source>
         <translation>Όχι τώρα.</translation>
     </message>

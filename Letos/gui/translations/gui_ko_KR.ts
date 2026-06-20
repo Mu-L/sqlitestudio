@@ -1718,12 +1718,12 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1243"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Letos 프로젝트 지원에 관한 정보가 담긴 상태 메시지를 가끔 표시합니다. 이러한 알림은 드물게 나타나며 언제든지 비활성화할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1246"/>
         <source>Show occasional project support reminders</source>
-        <translation type="unfinished">Show occasional project support reminders</translation>
+        <translation>가끔 프로젝트 지원 알림 표시</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1282"/>
@@ -5003,7 +5003,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     <message>
         <location filename="../mainwindow.cpp" line="1171"/>
         <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+        <translation>Letos는 무료 오픈 소스입니다. 작업에 도움이 된다면 &lt;a href=&quot;%1&quot;&gt;프로젝트 지원&lt;/a&gt;을 고려해 보세요.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1256"/>
@@ -5475,47 +5475,47 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>NewVersionDialog</name>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="14"/>
+        <location filename="../dialogs/newversiondialog.ui" line="20"/>
         <source>Letos updates</source>
         <translation>Letos 업데이트</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="25"/>
+        <location filename="../dialogs/newversiondialog.ui" line="31"/>
         <source>New version is available!</source>
         <translation>새 버전을 사용할 수 있습니다!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="51"/>
+        <location filename="../dialogs/newversiondialog.ui" line="57"/>
         <source>Download new version!</source>
         <translation>새 버전 다운로드!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="64"/>
+        <location filename="../dialogs/newversiondialog.ui" line="70"/>
         <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
         <translation>새 버전 패키지가 다운로드됩니다. 준비되면(you&apos;re) 원하는 때에 설치하면 됩니다.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="71"/>
+        <location filename="../dialogs/newversiondialog.ui" line="77"/>
         <source>Open Letos home page.</source>
         <translation>Letos 홈페이지를 엽니다.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="84"/>
+        <location filename="../dialogs/newversiondialog.ui" line="90"/>
         <source>Read release notes &amp;&amp; download package yourself.</source>
         <translation>릴리스 정보를 읽고 패키지를 직접 다운로드합니다.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="104"/>
+        <location filename="../dialogs/newversiondialog.ui" line="110"/>
         <source>Just close this window.</source>
         <translation>이 창만 닫습니다.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="114"/>
+        <location filename="../dialogs/newversiondialog.ui" line="120"/>
         <source>Check for updates on startup</source>
         <translation>시작 시 업데이트 확인</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="91"/>
+        <location filename="../dialogs/newversiondialog.ui" line="97"/>
         <source>Not now.</source>
         <translation>지금은 안 함.</translation>
     </message>

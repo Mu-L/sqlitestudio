@@ -1718,12 +1718,12 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1243"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Občas zobrazovať stavovú správu s informáciami o podpore projektu Letos. Tieto pripomenutia sa zobrazujú zriedka a možno ich kedykoľvek vypnúť.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1246"/>
         <source>Show occasional project support reminders</source>
-        <translation type="unfinished">Show occasional project support reminders</translation>
+        <translation>Zobrazovať občasné pripomenutia podpory projektu</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1282"/>
@@ -5003,7 +5003,7 @@ Zadajte nový, jedinečný názov, alebo stlačte &apos;%1&apos; na prerušenie 
     <message>
         <location filename="../mainwindow.cpp" line="1171"/>
         <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+        <translation>Letos je slobodný a s otvoreným zdrojovým kódom. Ak vám pomáha pri práci, zvážte &lt;a href=&quot;%1&quot;&gt;podporu projektu&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1256"/>
@@ -5475,47 +5475,47 @@ Zadajte nový, jedinečný názov, alebo stlačte &apos;%1&apos; na prerušenie 
 <context>
     <name>NewVersionDialog</name>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="14"/>
+        <location filename="../dialogs/newversiondialog.ui" line="20"/>
         <source>Letos updates</source>
         <translation>Aktualizácie Letos</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="25"/>
+        <location filename="../dialogs/newversiondialog.ui" line="31"/>
         <source>New version is available!</source>
         <translation>Je dostupná nová verzia!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="51"/>
+        <location filename="../dialogs/newversiondialog.ui" line="57"/>
         <source>Download new version!</source>
         <translation>Stiahnuť novú verziu!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="64"/>
+        <location filename="../dialogs/newversiondialog.ui" line="70"/>
         <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
         <translation>Balík novej verzie bude stiahnutý. Bude na vás, aby ste ho nainštalovali, keď budete &apos;pripravení.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="71"/>
+        <location filename="../dialogs/newversiondialog.ui" line="77"/>
         <source>Open Letos home page.</source>
         <translation>Otvoriť domovskú stránku Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="84"/>
+        <location filename="../dialogs/newversiondialog.ui" line="90"/>
         <source>Read release notes &amp;&amp; download package yourself.</source>
         <translation>Prečítať poznámky k vydaniu &amp;&amp; stiahnuť balík samostatne.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="104"/>
+        <location filename="../dialogs/newversiondialog.ui" line="110"/>
         <source>Just close this window.</source>
         <translation>Len zavrieť toto okno.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="114"/>
+        <location filename="../dialogs/newversiondialog.ui" line="120"/>
         <source>Check for updates on startup</source>
         <translation>Kontrolovať aktualizácie pri štarte</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="91"/>
+        <location filename="../dialogs/newversiondialog.ui" line="97"/>
         <source>Not now.</source>
         <translation>Nie teraz.</translation>
     </message>

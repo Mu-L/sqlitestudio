@@ -1718,12 +1718,12 @@
     <message>
         <location filename="../dialogs/configdialog.ui" line="1243"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Vis lejlighedsvis en statusmeddelelse med oplysninger om at støtte Letos-projektet. Disse påmindelser vises sjældent og kan deaktiveres når som helst.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1246"/>
         <source>Show occasional project support reminders</source>
-        <translation type="unfinished">Show occasional project support reminders</translation>
+        <translation>Vis lejlighedsvise påmindelser om projektstøtte</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="1282"/>
@@ -5003,7 +5003,7 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
     <message>
         <location filename="../mainwindow.cpp" line="1171"/>
         <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+        <translation>Letos er gratis og open source. Hvis det hjælper dig i dit arbejde, kan du overveje at &lt;a href=&quot;%1&quot;&gt;støtte projektet&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="1256"/>
@@ -5475,47 +5475,47 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
 <context>
     <name>NewVersionDialog</name>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="14"/>
+        <location filename="../dialogs/newversiondialog.ui" line="20"/>
         <source>Letos updates</source>
         <translation>Letos-opdateringer</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="25"/>
+        <location filename="../dialogs/newversiondialog.ui" line="31"/>
         <source>New version is available!</source>
         <translation>Ny version er tilgængelig!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="51"/>
+        <location filename="../dialogs/newversiondialog.ui" line="57"/>
         <source>Download new version!</source>
         <translation>Download ny version!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="64"/>
+        <location filename="../dialogs/newversiondialog.ui" line="70"/>
         <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
         <translation>Pakken med den nye version downloades. Det er op til dig at installere den, når du er &apos;klar&apos;.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="71"/>
+        <location filename="../dialogs/newversiondialog.ui" line="77"/>
         <source>Open Letos home page.</source>
         <translation>Åbn Letos&apos; hjemmeside.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="84"/>
+        <location filename="../dialogs/newversiondialog.ui" line="90"/>
         <source>Read release notes &amp;&amp; download package yourself.</source>
         <translation>Læs udgivelsesnoter &amp;&amp; download pakken selv.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="104"/>
+        <location filename="../dialogs/newversiondialog.ui" line="110"/>
         <source>Just close this window.</source>
         <translation>Luk blot dette vindue.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="114"/>
+        <location filename="../dialogs/newversiondialog.ui" line="120"/>
         <source>Check for updates on startup</source>
         <translation>Søg efter opdateringer ved opstart</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="91"/>
+        <location filename="../dialogs/newversiondialog.ui" line="97"/>
         <source>Not now.</source>
         <translation>Ikke nu.</translation>
     </message>

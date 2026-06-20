@@ -6,129 +6,129 @@
     <message>
         <location filename="../htmlexport.cpp" line="45"/>
         <source>SQL query results</source>
-        <translation type="unfinished">SQL query results</translation>
+        <translation>SQL query results</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="54"/>
         <source>Query:</source>
-        <translation type="unfinished">Query:</translation>
+        <translation>Query:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="94"/>
         <location filename="../htmlexport.cpp" line="188"/>
         <source>no type</source>
-        <translation type="unfinished">no type</translation>
+        <translation>no type</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="125"/>
         <source>Exported table: %1</source>
-        <translation type="unfinished">Exported table: %1</translation>
+        <translation>Exported table: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="136"/>
         <source>Exported view: %1</source>
-        <translation type="unfinished">Exported view: %1</translation>
+        <translation>Exported view: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="157"/>
         <location filename="../htmlexport.cpp" line="280"/>
         <source>Table: %1</source>
-        <translation type="unfinished">Table: %1</translation>
+        <translation>Table: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="283"/>
         <source>virtual</source>
-        <translation type="unfinished">virtual</translation>
+        <translation>virtual</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="335"/>
         <source>Exported database: %1</source>
-        <translation type="unfinished">Exported database: %1</translation>
+        <translation>Exported database: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="351"/>
         <source>Index: %1</source>
-        <translation type="unfinished">Index: %1</translation>
+        <translation>Index: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="357"/>
         <source>For table:</source>
-        <translation type="unfinished">For table:</translation>
+        <translation>For table:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="364"/>
         <source>Unique:</source>
-        <translation type="unfinished">Unique:</translation>
+        <translation>Unique:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
         <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+        <translation>Yes</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="365"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="371"/>
         <source>Column</source>
-        <translation type="unfinished">Column</translation>
+        <translation>Column</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="372"/>
         <source>Collating</source>
-        <translation type="unfinished">Collating</translation>
+        <translation>Collating</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="373"/>
         <source>Sort order</source>
-        <translation type="unfinished">Sort order</translation>
+        <translation>Sort order</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="407"/>
         <source>Trigger: %1</source>
-        <translation type="unfinished">Trigger: %1</translation>
+        <translation>Trigger: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="413"/>
         <source>Activated:</source>
-        <translation type="unfinished">Activated:</translation>
+        <translation>Activated:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="421"/>
         <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+        <translation>Action:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="428"/>
         <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+        <translation>On view:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="430"/>
         <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+        <translation>On table:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="441"/>
         <source>Activate condition:</source>
-        <translation type="unfinished">Activate condition:</translation>
+        <translation>Activation condition:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="448"/>
         <source>Code executed:</source>
-        <translation type="unfinished">Code executed:</translation>
+        <translation>Code executed:</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="486"/>
         <source>View: %1</source>
-        <translation type="unfinished">View: %1</translation>
+        <translation>View: %1</translation>
     </message>
     <message>
         <location filename="../htmlexport.cpp" line="565"/>
         <source>Document generated by Letos v%1 on %2</source>
-        <translation type="unfinished">Document generated by Letos v%1 on %2</translation>
+        <translation>Document generated by Letos v%1 on %2</translation>
     </message>
 </context>
 <context>
@@ -136,74 +136,74 @@
     <message>
         <location filename="../htmlexport.ui" line="136"/>
         <source>Maximum number of characters per cell:</source>
-        <translation type="unfinished">Maximum number of characters per cell:</translation>
+        <translation>Maximum number of characters per cell:</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="182"/>
         <source>Include data types in first row</source>
-        <translation type="unfinished">Include data types in first row</translation>
+        <translation>Include data types in first row</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="143"/>
         <source>Column names as first row</source>
-        <translation type="unfinished">Column names as first row</translation>
+        <translation>Column names as first row</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="126"/>
         <source>Row numbers as first column</source>
-        <translation type="unfinished">Row numbers as first column</translation>
+        <translation>Row numbers as first column</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="91"/>
         <source>Output format</source>
-        <translation type="unfinished">Output format</translation>
+        <translation>Output format</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="20"/>
         <source>Custom header</source>
-        <translation type="unfinished">Custom header</translation>
+        <translation>Custom header</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="26"/>
         <source>No custom header</source>
-        <translation type="unfinished">No custom header</translation>
+        <translation>No custom header</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="39"/>
         <source>Define custom header content</source>
-        <translation type="unfinished">Define custom header content</translation>
+        <translation>Define custom header content</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="52"/>
         <location filename="../htmlexport.ui" line="224"/>
         <source>HTML content</source>
-        <translation type="unfinished">HTML content</translation>
+        <translation>HTML content</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="62"/>
         <source>Define custom header file</source>
-        <translation type="unfinished">Define custom header file</translation>
+        <translation>Define custom header file</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="78"/>
         <source>Choose file for the header</source>
-        <translation type="unfinished">Choose file for the header</translation>
+        <translation>Choose file for the header</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="81"/>
         <location filename="../htmlexport.ui" line="253"/>
         <source>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</source>
-        <translation type="unfinished">HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
+        <translation>HTML files (*.htm, *.html);;Text files (*.txt);;All files (*)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="97"/>
         <source>Format document (new lines, indentation)</source>
-        <translation type="unfinished">Format document (new lines, indentation)</translation>
+        <translation>Format document (new lines, indentation)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="110"/>
         <source>Compress (everything in one line)</source>
-        <translation type="unfinished">Compress (everything in one line)</translation>
+        <translation>Compress (everything in one line)</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="153"/>
@@ -213,32 +213,32 @@
     <message>
         <location filename="../htmlexport.ui" line="156"/>
         <source>Don&apos;t escape HTML characters</source>
-        <translation type="unfinished">Don&apos;t escape HTML characters</translation>
+        <translation>Don&apos;t escape HTML characters</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="192"/>
         <source>Custom footer</source>
-        <translation type="unfinished">Custom footer</translation>
+        <translation>Custom footer</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="198"/>
         <source>No custom footer</source>
-        <translation type="unfinished">No custom footer</translation>
+        <translation>No custom footer</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="211"/>
         <source>Define custom footer content</source>
-        <translation type="unfinished">Define custom footer content</translation>
+        <translation>Define custom footer content</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="234"/>
         <source>Define custom footer file</source>
-        <translation type="unfinished">Define custom footer file</translation>
+        <translation>Define custom footer file</translation>
     </message>
     <message>
         <location filename="../htmlexport.ui" line="250"/>
         <source>Choose file for the footer</source>
-        <translation type="unfinished">Choose file for the footer</translation>
+        <translation>Choose file for the footer</translation>
     </message>
 </context>
 </TS>
