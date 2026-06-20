@@ -18,13 +18,12 @@ This project was previously known as SQLiteStudio. The name was changed to avoid
 Letos is free to use, including in commercial environments.
 If it helps you or your team save time, consider supporting the project.
 
+https://letos.org/donate/
+
 ![Free for everyone](https://img.shields.io/badge/Free%20for%20everyone-888)
 ![Open source](https://img.shields.io/badge/Open%20source-888)
 ![No paid edition](https://img.shields.io/badge/No%20paid%20edition-888)
 ![No telemetry](https://img.shields.io/badge/No%20telemetry-888)
-
-https://letos.org/donate/
-
 
 ## Want to contribute?
 https://github.com/pawelsalawa/letos/wiki/How_can_I_contribute?
