@@ -83,6 +83,7 @@ jobs:
                 chmod +x scripts/*.sh
                 echo "SCRIPTS=$(pwd)/scripts" >> $GITHUB_ENV
                 echo "DEBUG=${{ inputs.DEBUG }}" >> $GITHUB_ENV
+                echo "CODE_SIGN=${{ inputs.CODE_SIGN }}" >> $GITHUB_ENV
 
             - name: Trigger binary build workflows
               shell: bash
@@ -110,7 +111,6 @@ jobs:
                 
                 for wname in ${WORKFLOWS[@]}
                 do
-                    echo "$SCRIPTS/run_workflow.sh $wname \"$inputs\" \"${{ github.ref_name }}\""
                     run_id=$($SCRIPTS/run_workflow.sh $wname "$inputs" "${{ github.ref_name }}")
                     run_ids+=( $run_id )
                 done
