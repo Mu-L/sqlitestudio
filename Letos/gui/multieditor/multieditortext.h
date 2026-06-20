@@ -49,6 +49,9 @@ class GUI_API_EXPORT MultiEditorText : public MultiEditorWidget, public ExtActio
         QList<QWidget*> getNoScrollWidgets();
         SearchTextLocator* getTextLocator();
 
+        static QString getValueFromPlainTextEdit(const QString& originalText, QPlainTextEdit* textEdit);
+        static QString restoreOriginalSeparatorsWithDiff(const QString& originalText, const QString& currentRawText);
+
     protected:
         void createActions();
         void setupDefShortcuts();
@@ -56,9 +59,15 @@ class GUI_API_EXPORT MultiEditorText : public MultiEditorWidget, public ExtActio
     private:
         void setupMenu();
 
+        static bool isOriginalOrEditorLineBreak(QChar ch);
+        static bool isQTextDocumentSeparator(QChar ch);
+        static QString normalizedForDiff(QString text);
+        static QVector<int> buildCurrentToOriginalMap(const QString& originalText, const QString& currentText);
+
         QPlainTextEdit* textEdit = nullptr;
         QMenu* contextMenu = nullptr;
         SearchTextLocator* textLocator = nullptr;
+        QString originalText;
 
     private slots:
         void modificationChanged(bool changed);

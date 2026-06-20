@@ -267,7 +267,7 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>4</number>
+          <number>1</number>
          </property>
          <widget class="QWidget" name="databaseListPage">
           <layout class="QVBoxLayout" name="verticalLayout_36">
@@ -487,8 +487,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>439</width>
-                <height>882</height>
+                <width>679</width>
+                <height>854</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_34">
@@ -498,36 +498,52 @@
                   <string>Data browsing and editing</string>
                  </property>
                  <layout class="QGridLayout" name="gridLayout_2">
-                  <item row="0" column="0" colspan="2">
-                   <widget class="QLabel" name="rowsPerPageLabel">
-                    <property name="text">
-                     <string>Number of data rows per page:</string>
+                  <item row="2" column="2">
+                   <widget class="QSpinBox" name="memPopulConfigsCheck">
+                    <property name="toolTip">
+                     <string>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</string>
+                    </property>
+                    <property name="maximum">
+                     <number>999999</number>
+                    </property>
+                    <property name="cfg" stdset="0">
+                     <string notr="true">General.PopulateHistorySize</string>
                     </property>
                    </widget>
                   </item>
-                  <item row="6" column="0" colspan="3">
-                   <widget class="QCheckBox" name="useLfForMultilineBox">
+                  <item row="2" column="0" colspan="2">
+                   <widget class="QLabel" name="memPopulConfigsLabel">
                     <property name="toolTip">
-                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Converts Unicode line separators (U+2028, U+2029) to the standard LF (&lt;span style=&quot; font-family:'monospace';&quot;&gt;\n&lt;/span&gt;) character when editing text in form view editor.&lt;/p&gt;&lt;p&gt;Disable to preserve the original characters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     <string>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</string>
                     </property>
                     <property name="text">
-                     <string>Convert Unicode line separators to LF (\n) in form view editors</string>
-                    </property>
-                    <property name="cfg" stdset="0">
-                     <string notr="true">General.UseLfForMultilineEditors</string>
+                     <string>Number of memorized table populating configurations</string>
                     </property>
                    </widget>
                   </item>
-                  <item row="5" column="0" colspan="3">
-                   <widget class="QCheckBox" name="useSciFormatForDoublesCheck">
+                  <item row="4" column="0" colspan="3">
+                   <widget class="QCheckBox" name="keepNullWhenEmptyCheck">
                     <property name="toolTip">
-                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                     <string>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</string>
                     </property>
                     <property name="text">
-                     <string>Use scientific notation for very small real numbers in the grid view</string>
+                     <string>Keep NULL value when entering empty value</string>
                     </property>
                     <property name="cfg" stdset="0">
-                     <string notr="true">General.UseSciFormatForDoubles</string>
+                     <string notr="true">General.KeepNullWhenEmptyValue</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="7" column="0">
+                   <widget class="QCheckBox" name="editCellAfterAdvancingCheck">
+                    <property name="toolTip">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="text">
+                     <string>Start editing after moving to the next row</string>
+                    </property>
+                    <property name="cfg" stdset="0">
+                     <string notr="true">General.DataEditAutoAdvanceEdit</string>
                     </property>
                    </widget>
                   </item>
@@ -550,7 +566,7 @@
                     </property>
                    </widget>
                   </item>
-                  <item row="7" column="0">
+                  <item row="6" column="0">
                    <widget class="QCheckBox" name="advanceRowOnEnterCheck">
                     <property name="toolTip">
                      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -563,39 +579,23 @@
                     </property>
                    </widget>
                   </item>
-                  <item row="3" column="0" colspan="3">
-                   <widget class="QCheckBox" name="tolltipInDataViewCheck">
-                    <property name="toolTip">
-                     <string>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</string>
-                    </property>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QLabel" name="rowsPerPageLabel">
                     <property name="text">
-                     <string>Show column and row details tooltip in data view</string>
-                    </property>
-                    <property name="cfg" stdset="0">
-                     <string notr="true">General.ShowDataViewTooltips</string>
+                     <string>Number of data rows per page:</string>
                     </property>
                    </widget>
                   </item>
-                  <item row="2" column="0" colspan="2">
-                   <widget class="QLabel" name="memPopulConfigsLabel">
+                  <item row="5" column="0" colspan="3">
+                   <widget class="QCheckBox" name="useSciFormatForDoublesCheck">
                     <property name="toolTip">
-                     <string>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</string>
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                     </property>
                     <property name="text">
-                     <string>Number of memorized table populating configurations</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="2" column="2">
-                   <widget class="QSpinBox" name="memPopulConfigsCheck">
-                    <property name="toolTip">
-                     <string>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</string>
-                    </property>
-                    <property name="maximum">
-                     <number>999999</number>
+                     <string>Use scientific notation for very small real numbers in the grid view</string>
                     </property>
                     <property name="cfg" stdset="0">
-                     <string notr="true">General.PopulateHistorySize</string>
+                     <string notr="true">General.UseSciFormatForDoubles</string>
                     </property>
                    </widget>
                   </item>
@@ -612,29 +612,16 @@
                     </property>
                    </widget>
                   </item>
-                  <item row="4" column="0" colspan="3">
-                   <widget class="QCheckBox" name="keepNullWhenEmptyCheck">
+                  <item row="3" column="0" colspan="3">
+                   <widget class="QCheckBox" name="tolltipInDataViewCheck">
                     <property name="toolTip">
-                     <string>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</string>
+                     <string>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</string>
                     </property>
                     <property name="text">
-                     <string>Keep NULL value when entering empty value</string>
+                     <string>Show column and row details tooltip in data view</string>
                     </property>
                     <property name="cfg" stdset="0">
-                     <string notr="true">General.KeepNullWhenEmptyValue</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="8" column="0">
-                   <widget class="QCheckBox" name="editCellAfterAdvancingCheck">
-                    <property name="toolTip">
-                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                    </property>
-                    <property name="text">
-                     <string>Start editing after moving to the next row</string>
-                    </property>
-                    <property name="cfg" stdset="0">
-                     <string notr="true">General.DataEditAutoAdvanceEdit</string>
+                     <string notr="true">General.ShowDataViewTooltips</string>
                     </property>
                    </widget>
                   </item>

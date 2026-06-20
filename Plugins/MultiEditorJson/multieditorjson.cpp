@@ -3,6 +3,7 @@
 #include "services/notifymanager.h"
 #include "uiconfig.h"
 #include "mainwindow.h"
+#include "multieditor/multieditor.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QToolBar>
@@ -11,7 +12,6 @@
 #include <QJsonDocument>
 #include <QJsonParseError>
 #include <QFont>
-#include <multieditor/multieditor.h>
 
 MultiEditorJson::MultiEditorJson()
 {

@@ -118,6 +118,7 @@
 - BUGFIX: #5628 Fixed PDF export bugs (first page size too small, occasional table overlapping, page numbers cut off).
 - BUGFIX: #5691 Fixed tooltip in Database Dialog with Wayland under Linux.
 - BUGFIX: #5692 Select first inserted row after inserting multiple rows in Grid View.
+- BUGFIX: #5713 MultiEditor now keeps original line separators from the value loaded, while new separators inserted are alwas \n. Also optimized performance for very long text lines in the editor.
 
 ### 3.4.21
 - ADDED: #5466 Support foreign keys with implicit columns (proper values in FK combobox columns).

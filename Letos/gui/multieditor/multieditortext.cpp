@@ -1,4 +1,5 @@
 #include "multieditortext.h"
+#include "diff/diff_match_patch.h"
 #include "iconmanager.h"
 #include "uiconfig.h"
 #include <QPlainTextEdit>
@@ -15,6 +16,7 @@ MultiEditorText::MultiEditorText(QWidget *parent) :
 {
     setLayout(new QVBoxLayout());
     textEdit = new QPlainTextEdit();
+    textEdit->setLineWrapMode(QPlainTextEdit::NoWrap); // Disable line wrapping for performance with long lines (1MB single line freezes app for several seconds)
     layout()->addWidget(textEdit);
     initActions();
     setupMenu();
@@ -30,19 +32,13 @@ MultiEditorText::MultiEditorText(QWidget *parent) :
 
 void MultiEditorText::setValue(const QVariant& value)
 {
-    textEdit->setPlainText(value.toString());
+    originalText = value.toString();
+    textEdit->setPlainText(originalText);
 }
 
 QVariant MultiEditorText::getValue()
 {
-    if (CFG_UI.General.UseLfForMultilineEditors.get())
-    {
-        QString newStr = textEdit->document()->toRawText();
-        newStr.replace(QChar::ParagraphSeparator, '\n');
-        newStr.replace(QChar::LineSeparator, '\n');
-        return newStr;
-    }
-    return textEdit->document()->toRawText();
+    return getValueFromPlainTextEdit(originalText, textEdit);
 }
 
 void MultiEditorText::setReadOnly(bool value)
@@ -74,6 +70,17 @@ SearchTextLocator *MultiEditorText::getTextLocator()
         textLocator = new SearchTextLocator(textEdit);
 
     return textLocator;
+}
+
+QString MultiEditorText::getValueFromPlainTextEdit(const QString& originalText, QPlainTextEdit* textEdit)
+{
+    QString newText = textEdit->document()->toRawText();
+    if (originalText.contains(QChar::ParagraphSeparator) || originalText.contains(QChar::LineSeparator))
+        return restoreOriginalSeparatorsWithDiff(originalText, newText);
+
+    newText.replace(QChar::ParagraphSeparator, '\n');
+    newText.replace(QChar::LineSeparator, '\n');
+    return newText;
 }
 
 void MultiEditorText::modificationChanged(bool changed)
@@ -155,6 +162,105 @@ void MultiEditorText::setupMenu()
     contextMenu->addAction(actionMap[COPY]);
     contextMenu->addAction(actionMap[PASTE]);
     contextMenu->addAction(actionMap[DELETE]);
+}
+
+bool MultiEditorText::isOriginalOrEditorLineBreak(QChar ch)
+{
+    return ch == QChar('\n') ||
+           ch == QChar::LineSeparator ||
+           ch == QChar::ParagraphSeparator;
+}
+
+bool MultiEditorText::isQTextDocumentSeparator(QChar ch)
+{
+    return ch == QChar::LineSeparator ||
+           ch == QChar::ParagraphSeparator;
+}
+
+QString MultiEditorText::normalizedForDiff(QString text)
+{
+    for (int i = 0; i < text.size(); ++i)
+    {
+        if (isOriginalOrEditorLineBreak(text.at(i)))
+            text[i] = QChar('\n');
+    }
+
+    return text;
+}
+
+QVector<int> MultiEditorText::buildCurrentToOriginalMap(const QString& originalText, const QString& currentText)
+{
+    QString normalizedOriginal = normalizedForDiff(originalText);
+    QString normalizedCurrent = normalizedForDiff(currentText);
+    QVector<int> currentToOriginal(currentText.size(), -1);
+
+    diff_match_patch dmp;
+    int originalPos = 0;
+    int currentPos = 0;
+    auto diffs = dmp.diff_main(normalizedOriginal, normalizedCurrent, false);
+    for (const Diff& diff : std::as_const(diffs))
+    {
+        int len = diff.text.size();
+        switch (diff.operation)
+        {
+            case Operation::EQUAL:
+            {
+                for (int i = 0; i < len; ++i)
+                {
+                    if (currentPos + i < currentToOriginal.size())
+                        currentToOriginal[currentPos + i] = originalPos + i;
+                }
+                originalPos += len;
+                currentPos += len;
+                break;
+            }
+            case Operation::DELETE:
+            {
+                originalPos += len;
+                break;
+            }
+            case Operation::INSERT:
+            {
+                currentPos += len;
+                break;
+            }
+        }
+    }
+
+    return currentToOriginal;
+}
+
+QString MultiEditorText::restoreOriginalSeparatorsWithDiff(const QString& originalText, const QString& currentRawText)
+{
+    QString result;
+
+    QVector<int> currentToOriginal = buildCurrentToOriginalMap(originalText, currentRawText);
+    result.reserve(currentRawText.size());
+    for (int i = 0; i < currentRawText.size(); ++i)
+    {
+        const QChar currentChar = currentRawText.at(i);
+        if (!isQTextDocumentSeparator(currentChar))
+        {
+            result += currentChar;
+            continue;
+        }
+
+        const int originalPos = currentToOriginal.value(i, -1);
+        if (originalPos >= 0 && originalPos < originalText.size())
+        {
+            const QChar originalChar = originalText.at(originalPos);
+            if (originalChar == QChar::LineSeparator)
+                result += QChar::LineSeparator;
+            else if (originalChar == QChar::ParagraphSeparator)
+                result += QChar::ParagraphSeparator;
+            else
+                result += QChar('\n');
+        }
+        else
+            result += QChar('\n');
+    }
+
+    return result;
 }
 
 MultiEditorWidget* MultiEditorTextPlugin::getInstance()

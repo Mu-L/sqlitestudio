@@ -1,11 +1,16 @@
 #include "multieditorhex.h"
 #include "qhexedit2/qhexedit.h"
+#include "style.h"
 #include <QVBoxLayout>
+#include <QBrush>
 
 MultiEditorHex::MultiEditorHex()
 {
     setLayout(new QVBoxLayout());
     hexEdit = new QHexEdit();
+    hexEdit->setAddressAreaColor(STYLE->extendedPalette().editorLineNumberBase().color());
+    hexEdit->setHighlightingColor(STYLE->standardPalette().highlight().color());
+    hexEdit->setSelectionColor(STYLE->standardPalette().highlight().color());
     layout()->addWidget(hexEdit);
 
     connect(hexEdit, SIGNAL(dataChanged()), this, SLOT(modificationChanged()));
