@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3127"/>
         <source>Configuration</source>
         <translation>Configurare</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>Listă baze de date</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1363"/>
         <source>Code assistant</source>
         <translation>Asistent de cod</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>SQL Editor</source>
         <translation>Editor SQL</translation>
     </message>
@@ -1395,18 +1395,18 @@
         <translation>Nu afișați dialogul de previzualizare DDL la confirmarea modificărilor schemei</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1404"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
         <source>Number of queries kept in the history.</source>
         <translation>Numărul interogărilor păstrate în istoric.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Execute only the query under the cursor</source>
         <translation>Execută numai interogarea de sub cursor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1436"/>
         <source>Number of memorized query parameters</source>
         <translation>Număr de parametri de interogare memorați</translation>
     </message>
@@ -1431,12 +1431,12 @@
         <translation>Păstrează cel puțin lățimea necesară pentru afișarea numelui complet al coloanei</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1314"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Încadrează liniile în editorul SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Highlight current query</source>
         <translation>Evidențiază interogarea curentă</translation>
     </message>
@@ -1476,57 +1476,57 @@
         <translation>Deschide întotdeauna panoul Stare când este afișat un mesaj nou</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1501"/>
         <source>Code syntax colors</source>
         <translation>Culori sintaxă cod</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1687"/>
         <source>Keyword foreground</source>
         <translation>Prim-plan cuvânt-cheie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1507"/>
         <source>Regular foreground</source>
         <translation>Prim-plan obișnuit</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1597"/>
         <source>String foreground</source>
         <translation>Prim-plan șir</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1867"/>
         <source>Comment foreground</source>
         <translation>Prim-plan comentariu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1957"/>
         <source>Valid objects foreground</source>
         <translation>Prim-plan obiecte valide</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2268"/>
         <source>Current query background</source>
         <translation>Fundal interogare curentă</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2137"/>
         <source>Bind parameter foreground</source>
         <translation>Prim-plan parametru de legare</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2227"/>
         <source>Current line background</source>
         <translation>Fundal linie curentă</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2312"/>
         <source>Matched parenthesis background</source>
         <translation>Fundal paranteză potrivită</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2296"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puteți dezactiva complet evidențierea interogării curente pe pagina setărilor generale.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1621,12 +1621,12 @@
         <translation>Motor de randare</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1347"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Când sunt prezente mai multe interogări, execută numai interogarea de sub cursor.&lt;br/&gt;Când este dezactivată, toate interogările sunt executate.&lt;br/&gt;Puteți executa și interogări selectate sau puteți utiliza scurtături (%1 pentru una singură, %2 pentru toate).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Evidențiază interogarea de sub cursor - aceeași interogare care va fi executată la utilizarea &lt;span style=&quot; font-style:italic;&quot;&gt;Execută interogarea&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1716,319 +1716,329 @@
         <translation>Elimină mesajele mai vechi</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <source>Show occasional project support reminders</source>
+        <translation type="unfinished">Show occasional project support reminders</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1282"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifică numărul maxim de zecimale afișate pentru timpul de execuție al interogării. Se pot configura până la 9 cifre (nanosecunde). Zerourile finale sunt eliminate automat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Precizia timpului de execuție (zecimale)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă este activată, liniile mai lungi decât lățimea editorului vor fi încadrate, astfel încât derularea orizontală nu va fi necesară.&lt;/p&gt;&lt;p&gt;Această opțiune definește valoarea implicită globală, în timp ce ferestrele individuale ale editorului SQL o pot suprascrie local.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Disable blinking text cursor</source>
         <translation>Dezactivează cursorul de text intermitent</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Declanșează asistentul după tastarea unui punct</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Când este activată, invocarea completării codului într-un editor gol afișează mai întâi fragmente de cod în locul sugestiilor de sintaxă. Invocarea din nou a completării codului comută la sugestiile de sintaxă (și invers).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Preferă fragmentele într-un editor gol</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1398"/>
         <source>History</source>
         <translation>Istoric</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Query history size:</source>
         <translation>Dimensiunea istoricului interogărilor:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1433"/>
+        <location filename="../dialogs/configdialog.ui" line="1443"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Numărul maxim de parametri ai interogării (:param, @param, $param, ?) stocați în istoric. Când reutilizați un parametru cu același nume/aceeași poziție, Letos îl va preinițializa cu cea mai recentă valoare memorată (o veți putea modifica în continuare). Valoarea 1000 ar trebui să fie suficientă.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1777"/>
         <source>Number foreground</source>
         <translation>Prim-plan număr</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="2047"/>
         <source>BLOB value foreground</source>
         <translation>Prim-plan valoare BLOB</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2353"/>
         <source>Matched parenthesis foreground</source>
         <translation>Prim-plan paranteză potrivită</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2461"/>
+        <location filename="../dialogs/configdialog.ui" line="2569"/>
         <source>Reset to defaults</source>
         <translation>Resetează la valorile implicite</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2487"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Filtrează scurtăturile după nume sau combinație de taste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2531"/>
         <source>Action</source>
         <translation>Acțiune</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2536"/>
         <source>Key combination</source>
         <translation>Combinație de taste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="2610"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Language</source>
         <translation>Limbă</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2616"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Schimbarea limbii necesită repornirea aplicației pentru a intra în vigoare.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2636"/>
         <source>Compact layout</source>
         <translation>Aspect compact</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2642"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Aspectul compact reduce la minimum toate marginile și spațierile din interfața cu utilizatorul, făcând loc pentru afișarea mai multor date. Face interfața puțin mai puțin estetică, dar permite afișarea mai multor date simultan.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2645"/>
         <source>Use compact layout</source>
         <translation>Utilizează aspectul compact</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2661"/>
         <source>Main window dock areas</source>
         <translation>Zone de andocare ale ferestrei principale</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2667"/>
         <source>Left and right areas occupy corners</source>
         <translation>Zonele din stânga și din dreapta ocupă colțurile</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2687"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Zonele de sus și de jos ocupă colțurile</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2707"/>
         <source>Toolbars</source>
         <translation>Bare de instrumente</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2713"/>
+        <location filename="../dialogs/configdialog.ui" line="2723"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Exprimat ca procent din dimensiunea implicită.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
+        <location filename="../dialogs/configdialog.ui" line="2716"/>
         <source>Icon size</source>
         <translation>Dimensiune pictogramă</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2841"/>
         <source>Hide built-in plugins</source>
         <translation>Ascunde pluginurile încorporate</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2870"/>
         <source>Current style:</source>
         <translation>Stil curent:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2887"/>
         <source>Preview</source>
         <translation>Previzualizare</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2897"/>
         <source>Enabled</source>
         <translation>Activat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3073"/>
         <source>Disabled</source>
         <translation>Dezactivat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Active formatter plugin</source>
         <translation>Plugin de formatare activ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Sfat:&lt;/span&gt; Pe lângă setările disponibile aici, dimensiunile fonturilor pot fi ajustate dinamic în majoritatea elementelor interfeței ținând apăsată tasta &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; și derulând &lt;span style=&quot; font-weight:700;&quot;&gt;rotița mouse-ului&lt;/span&gt; deasupra elementului a cărui dimensiune de font doriți să o modificați.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3179"/>
         <source>SQL editor font</source>
         <translation>Font editor SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3195"/>
         <source>Database list font</source>
         <translation>Font listă baze de date</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3211"/>
         <source>Database list additional label font</source>
         <translation>Font etichetă suplimentară listă baze de date</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3227"/>
         <source>Data view font</source>
         <translation>Font vizualizare date</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3243"/>
         <source>Status field font</source>
         <translation>Font câmp de stare</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dacă această opțiune este activată, asistentul de cod va fi declanșat în cazurile în care utilizatorul tastează, de exemplu, &lt;span style=&quot; font-weight:700;&quot;&gt;numeTabel.&lt;/span&gt; pentru a propune coloanele tabelului. Dacă opțiunea este dezactivată, utilizatorul va trebui să apese explicit tasta rapidă a asistentului.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1119"/>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Descriere:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1120"/>
+        <location filename="../dialogs/configdialog.cpp" line="1123"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Categorie:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1121"/>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Versiune:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Autor:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Nume intern:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1128"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Dependențe:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1126"/>
+        <location filename="../dialogs/configdialog.cpp" line="1129"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Conflicte:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1130"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Fișier:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1132"/>
+        <location filename="../dialogs/configdialog.cpp" line="1135"/>
         <source>Plugin details</source>
         <translation>Detalii plugin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1753"/>
+        <location filename="../dialogs/configdialog.cpp" line="1756"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Pluginurile sunt încărcate/descărcate imediat când sunt bifate/debifate, dar lista modificată de pluginuri de încărcat la pornire nu este salvată până când nu confirmați întregul dialog de configurare.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1811"/>
+        <location filename="../dialogs/configdialog.cpp" line="1814"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (încorporat)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1853"/>
+        <location filename="../dialogs/configdialog.cpp" line="1856"/>
         <source>Details</source>
         <translation>Detalii</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1867"/>
+        <location filename="../dialogs/configdialog.cpp" line="1870"/>
         <source>No plugins in this category.</source>
         <translation>Nu există pluginuri în această categorie.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1967"/>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="1970"/>
+        <location filename="../dialogs/configdialog.cpp" line="1999"/>
         <source>Add new data type</source>
         <translation>Adaugă un tip de date nou</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1971"/>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="1974"/>
+        <location filename="../dialogs/configdialog.cpp" line="2003"/>
         <source>Rename selected data type</source>
         <translation>Redenumește tipul de date selectat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1975"/>
-        <location filename="../dialogs/configdialog.cpp" line="2004"/>
+        <location filename="../dialogs/configdialog.cpp" line="1978"/>
+        <location filename="../dialogs/configdialog.cpp" line="2007"/>
         <source>Delete selected data type</source>
         <translation>Șterge tipul de date selectat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2088"/>
+        <location filename="../dialogs/configdialog.cpp" line="2091"/>
         <source>Clear hotkey for this action</source>
         <translation>Șterge tasta rapidă pentru această acțiune</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2100"/>
+        <location filename="../dialogs/configdialog.cpp" line="2103"/>
         <source>Restore original hotkey for this action</source>
         <translation>Restabilește tasta rapidă originală pentru această acțiune</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2142"/>
+        <location filename="../dialogs/configdialog.cpp" line="2145"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Aici puteți configura culorile pentru evidențierea sintaxei codului. Acestea sunt partajate între diferite limbaje - nu doar pentru SQL, ci și pentru JavaScript și altele. În mod implicit se utilizează o culoare bazată pe temă. Pentru a defini propria culoare, activați o culoare personalizată selectând caseta de bifare de lângă o anumită culoare.</translation>
     </message>
@@ -3320,270 +3330,270 @@ Introduceți un nume nou, unic, sau apăsați &apos;%1&apos; pentru a abandona o
         <translation>Istoric</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="200"/>
-        <location filename="../windows/editorwindow.cpp" line="202"/>
+        <location filename="../windows/editorwindow.cpp" line="203"/>
+        <location filename="../windows/editorwindow.cpp" line="205"/>
         <source>SQL editor %1</source>
         <translation>Editor SQL %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="99"/>
-        <location filename="../windows/editorwindow.cpp" line="417"/>
+        <location filename="../windows/editorwindow.cpp" line="420"/>
         <source>Results</source>
         <translation>Rezultate</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="468"/>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Execute query</source>
         <translation>Execută interogarea</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="469"/>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Explain query</source>
         <translation>Explică interogarea</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="490"/>
+        <location filename="../windows/editorwindow.cpp" line="493"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Șterge istoricul de execuție</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="496"/>
+        <location filename="../windows/editorwindow.cpp" line="499"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
         <translation>Focalizează rezultatele în aceeași filă</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="497"/>
+        <location filename="../windows/editorwindow.cpp" line="500"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
         <translation>Focalizează editorul SQL în aceeași filă</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="502"/>
+        <location filename="../windows/editorwindow.cpp" line="505"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Exportă rezultatele</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="484"/>
+        <location filename="../windows/editorwindow.cpp" line="487"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Creează vizualizare din interogare</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Commit</source>
         <translation>Confirmă</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
         <source>Rollback</source>
         <translation>Revino</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="486"/>
+        <location filename="../windows/editorwindow.cpp" line="489"/>
         <source>Previous database</source>
         <translation>Baza de date anterioară</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="487"/>
+        <location filename="../windows/editorwindow.cpp" line="490"/>
         <source>Next database</source>
         <translation>Baza de date următoare</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="491"/>
+        <location filename="../windows/editorwindow.cpp" line="494"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation>Exportă istoricul de execuție</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="494"/>
+        <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Afișează fila următoare</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="495"/>
+        <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Afișează fila anterioară</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="498"/>
+        <location filename="../windows/editorwindow.cpp" line="501"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Exportă intrările selectate din istoricul SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="499"/>
+        <location filename="../windows/editorwindow.cpp" line="502"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Șterge intrările selectate din istoricul SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="500"/>
+        <location filename="../windows/editorwindow.cpp" line="503"/>
         <source>Execute single query under cursor</source>
         <translation>Execută o singură interogare de sub cursor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="501"/>
+        <location filename="../windows/editorwindow.cpp" line="504"/>
         <source>Execute all queries in editor</source>
         <translation>Execută toate interogările din editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="522"/>
+        <location filename="../windows/editorwindow.cpp" line="525"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
         <translation>Aspect rezultate: filă separată</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="523"/>
+        <location filename="../windows/editorwindow.cpp" line="526"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
         <translation>Aspect rezultate: sub editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="524"/>
+        <location filename="../windows/editorwindow.cpp" line="527"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
         <translation>Aspect rezultate: în dreapta editorului</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="539"/>
-        <location filename="../windows/editorwindow.cpp" line="540"/>
+        <location filename="../windows/editorwindow.cpp" line="542"/>
+        <location filename="../windows/editorwindow.cpp" line="543"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
         <translation>Mod explicare: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="560"/>
+        <location filename="../windows/editorwindow.cpp" line="563"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
         <translation>Confirmă automat interogările</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="577"/>
+        <location filename="../windows/editorwindow.cpp" line="580"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
         <translation>Setări fereastră editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="625"/>
+        <location filename="../windows/editorwindow.cpp" line="628"/>
         <source>Active database (%1/%2)</source>
         <translation>Bază de date activă (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="776"/>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>Save to file</source>
         <translation>Salvează în fișier</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="787"/>
+        <location filename="../windows/editorwindow.cpp" line="788"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Nu s-a putut deschide fișierul &apos;%1&apos; pentru scriere: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="807"/>
+        <location filename="../windows/editorwindow.cpp" line="808"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>Conținutul SQL a fost salvat în fișier: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="830"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
         <translation>Comutarea journal_mode la WAL a eșuat. Modul de confirmare manuală nu este disponibil. Eroare: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <location filename="../windows/editorwindow.cpp" line="842"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
         <translation>Deschiderea unei noi conexiuni la baza de date a eșuat. Modul de confirmare manuală nu va fi activat. Eroare: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="844"/>
+        <location filename="../windows/editorwindow.cpp" line="845"/>
         <source>The joirnal_mode will be switched back to %1.</source>
         <translation>Modul joirnal_mode va fi comutat înapoi la %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="968"/>
+        <location filename="../windows/editorwindow.cpp" line="969"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Interogarea s-a terminat în %1 secundă(e). Rânduri afectate: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="972"/>
+        <location filename="../windows/editorwindow.cpp" line="973"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Interogarea s-a terminat în %1 secundă(e).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Clear execution history</source>
         <translation>Șterge istoricul de execuție</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Sigur doriți să ștergeți întregul istoric de execuție SQL? Aceasta nu poate fi anulată.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1141"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1169"/>
+        <location filename="../windows/editorwindow.cpp" line="1170"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
         <translation>Confirmarea automată a interogărilor este acum activată în: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1171"/>
+        <location filename="../windows/editorwindow.cpp" line="1172"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
         <translation>Confirmarea automată a interogărilor este acum dezactivată în: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1229"/>
-        <location filename="../windows/editorwindow.cpp" line="1233"/>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Apply changes to the transaction</source>
         <translation>Aplică modificările tranzacției</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1230"/>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1235"/>
         <source>Discard changes in data view</source>
         <translation>Renunță la modificările din vizualizarea datelor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Apply selected changes to the transaction</source>
         <translation>Aplică modificările selectate tranzacției</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1232"/>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Discard changes in selected cells</source>
         <translation>Renunță la modificările din celulele selectate</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1273"/>
+        <location filename="../windows/editorwindow.cpp" line="1274"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation>Nu se poate schimba baza de date cât timp există o tranzacție manuală în așteptare. Confirmați sau anulați tranzacția înainte de a schimba baza de date.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1313"/>
+        <location filename="../windows/editorwindow.cpp" line="1314"/>
         <source>Manual transaction committed successfully.</source>
         <translation>Tranzacția manuală a fost confirmată cu succes.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Manual transaction rolled back.</source>
         <translation>Tranzacția manuală a fost anulată.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1385"/>
+        <location filename="../windows/editorwindow.cpp" line="1386"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>Nu este selectată nicio bază de date în editorul SQL. Nu se poate crea o vizualizare pentru o bază de date necunoscută.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1435"/>
+        <location filename="../windows/editorwindow.cpp" line="1436"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>Fereastra editorului &quot;%1&quot; are date neconfirmate.</translation>
     </message>
@@ -4896,13 +4906,13 @@ Introduceți un nume nou, unic, sau apăsați &apos;%1&apos; pentru a abandona o
         <translation>&amp;Structură</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="759"/>
+        <location filename="../mainwindow.cpp" line="766"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
         <translation>&amp;Vizualizare</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1379"/>
+        <location filename="../mainwindow.cpp" line="1450"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
         <translation>Fișierul plasat pare a fi o bază de date SQLite 2, care nu este acceptată de această versiune Letos. Ultima versiune care accepta SQLite 2 a fost 3.2.1.</translation>
     </message>
@@ -4955,115 +4965,120 @@ Introduceți un nume nou, unic, sau apăsați &apos;%1&apos; pentru a abandona o
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="696"/>
+        <location filename="../mainwindow.cpp" line="703"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
         <translation>Nu s-a putut seta stilul: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="933"/>
+        <location filename="../mainwindow.cpp" line="940"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Nu se poate exporta, deoarece nu este încărcat niciun plugin de export.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="950"/>
+        <location filename="../mainwindow.cpp" line="957"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Nu se poate importa, deoarece nu este încărcat niciun plugin de import.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Rename window</source>
         <translation>Redenumește fereastra</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Enter new name for the window:</source>
         <translation>Introduceți un nume nou pentru fereastră:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1110"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
         <translation>Sunt disponibile actualizări noi. &lt;a href=&quot;%1&quot;&gt;Faceți clic aici pentru detalii&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1116"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
         <translation>Rulați cea mai recentă versiune. Nu sunt disponibile actualizări.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1185"/>
+        <location filename="../mainwindow.cpp" line="1171"/>
+        <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
+        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1256"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
         <translation>Pictogramele barei de &amp;instrumente</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1192"/>
+        <location filename="../mainwindow.cpp" line="1263"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
         <translation>Dimensiune: %1%</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1280"/>
+        <location filename="../mainwindow.cpp" line="1351"/>
         <source>Drop files to open them</source>
         <translation>Plasați fișiere pentru a le deschide</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1382"/>
+        <location filename="../mainwindow.cpp" line="1453"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
         <translation>Tipul fișierului plasat nu este acceptat: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1392"/>
+        <location filename="../mainwindow.cpp" line="1463"/>
         <source>SQLite 3 database - add to database list and open</source>
         <translation>Bază de date SQLite 3 - adaugă la lista de baze de date și deschide</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1394"/>
+        <location filename="../mainwindow.cpp" line="1465"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
         <translation>Poate fi o bază de date SQLite 3 criptată. Puteți încerca să o deschideți.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1396"/>
+        <location filename="../mainwindow.cpp" line="1467"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
         <translation>Fișier gol, dar și bază de date SQLite 3 goală - deschide ca bază de date</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1398"/>
+        <location filename="../mainwindow.cpp" line="1469"/>
         <source>SQL file - open in SQL Editor</source>
         <translation>Fișier SQL - deschide în editorul SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1400"/>
+        <location filename="../mainwindow.cpp" line="1471"/>
         <source>Text file - open in SQL Editor</source>
         <translation>Fișier text - deschide în editorul SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1402"/>
+        <location filename="../mainwindow.cpp" line="1473"/>
         <source>CSV file - import using Import Dialog</source>
         <translation>Fișier CSV - importă folosind dialogul de import</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1404"/>
+        <location filename="../mainwindow.cpp" line="1475"/>
         <source>SQLite 2 database - not supported anymore</source>
         <translation>Bază de date SQLite 2 - nu mai este acceptată</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1406"/>
+        <location filename="../mainwindow.cpp" line="1477"/>
         <source>Unsupported file type</source>
         <translation>Tip de fișier neacceptat</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1505"/>
+        <location filename="../mainwindow.cpp" line="1576"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
         <translation>Baza de date transmisă în parametrii liniei de comandă (%1) era deja în listă sub numele: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1512"/>
+        <location filename="../mainwindow.cpp" line="1583"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
         <translation>Baza de date transmisă în parametrii liniei de comandă (%1) a fost adăugată temporar în listă sub numele: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1517"/>
+        <location filename="../mainwindow.cpp" line="1588"/>
         <source>Could not add database %1 to list.</source>
         <translation>Nu s-a putut adăuga baza de date %1 în listă.</translation>
     </message>
@@ -6206,7 +6221,7 @@ Introduceți un nume nou, unic, sau apăsați &apos;%1&apos; pentru a abandona o
         <translation>Micșorează dimensiunea fontului</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="778"/>
+        <location filename="../windows/editorwindow.cpp" line="779"/>
         <source>All files</source>
         <translation>Toate fișierele</translation>
     </message>
@@ -6221,7 +6236,7 @@ Introduceți un nume nou, unic, sau apăsați &apos;%1&apos; pentru a abandona o
         <translation>Selectați fișierul bazei de date noi</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="777"/>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>SQL files</source>
         <translation>Fișiere SQL</translation>
     </message>
@@ -7084,121 +7099,121 @@ caută următorul</translation>
     <name>SqlQueryModel</name>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Poate fi executată simultan o singură interogare.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation>Nu se poate executa interogarea pe o bază de date nedefinită sau nevalidă.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
         <source>Cannot execute empty query.</source>
         <translation>Nu se poate executa o interogare goală.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>Uncommitted data</source>
         <translation>Date neconfirmate</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>Există modificări de date neconfirmate. Doriți să continuați oricum? Toate modificările neconfirmate se vor pierde.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation>Nu se pot confirma datele pentru o celulă care se referă la baza de date deja închisă.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>Nu s-a putut începe tranzacția în baza de date. Detalii: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>A apărut o eroare la confirmarea tranzacției: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>A apărut o eroare la revenirea tranzacției: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>S-a încercat confirmarea unei celule care nu este editabilă (totuși modificată și în așteptarea confirmării)! Aceasta este o eroare. Vă rugăm să o raportați.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>A apărut o eroare la confirmarea datelor: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>Numărul de rânduri pe pagină a fost redus la %1 din cauza numărului de coloane (%2) din vizualizarea datelor.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>Eroare la executarea interogării SQL pe baza de date &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
         <source>Error while loading query results: %1</source>
         <translation>Eroare la încărcarea rezultatelor interogării: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>Există mai puține coloane în noua interogare, ordinea de sortare a fost resetată.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Insert multiple rows</source>
         <translation>Inserează mai multe rânduri</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Number of rows to insert:</source>
         <translation>Numărul de rânduri de inserat:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>Delete rows</source>
         <translation>Șterge rânduri</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Sunteți pe cale să ștergeți rânduri nou inserate care nu au fost încă confirmate. Numerele rândurilor: %1
 O astfel de ștergere va fi permanentă. Sigur doriți să le ștergeți?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>Un singur clic sortează după coloană.&lt;br&gt;Alt+clic selectează datele din coloană.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>Un singur clic selectează datele din coloană.&lt;br&gt;Dublu clic sortează după coloană.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>Middle-click resets sorting.</source>
         <translation>Clic cu butonul din mijloc resetează sortarea.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
         <source>More options are available in the context menu.</source>
         <translation>Mai multe opțiuni sunt disponibile în meniul contextual.</translation>
     </message>
@@ -7616,12 +7631,12 @@ O astfel de ștergere va fi permanentă. Sigur doriți să le ștergeți?</trans
         <translation>Stare</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="211"/>
+        <location filename="../statusfield.cpp" line="190"/>
         <source>Copy</source>
         <translation>Copiază</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="218"/>
+        <location filename="../statusfield.cpp" line="197"/>
         <source>Clear</source>
         <translation>Curăță</translation>
     </message>

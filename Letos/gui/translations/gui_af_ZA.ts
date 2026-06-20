@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3127"/>
         <source>Configuration</source>
         <translation>Konfigurasie</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>Databasislys</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1363"/>
         <source>Code assistant</source>
         <translation>Kodeassistent</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>SQL Editor</source>
         <translation>SQL-redigeerder</translation>
     </message>
@@ -1395,18 +1395,18 @@
         <translation>Moenie die DDL-voorskoudialoog wys tydens &apos;n vaslegging van skemawysigings nie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1404"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
         <source>Number of queries kept in the history.</source>
         <translation>Aantal navrae wat in die geskiedenis gehou word.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Execute only the query under the cursor</source>
         <translation>Voer slegs die navraag onder die wyser uit</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1436"/>
         <source>Number of memorized query parameters</source>
         <translation>Aantal gememoriseerde navraagparameters</translation>
     </message>
@@ -1431,12 +1431,12 @@
         <translation>Behou ten minste die wydte om die volledige kolomnaam te wys</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1314"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Vou reëls in SQL-redigeerder om</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Highlight current query</source>
         <translation>Beklemtoon huidige navraag</translation>
     </message>
@@ -1476,57 +1476,57 @@
         <translation>Maak altyd Status-paneel oop wanneer &apos;n nuwe boodskap gedruk word</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1501"/>
         <source>Code syntax colors</source>
         <translation>Kode-sintakskleure</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1687"/>
         <source>Keyword foreground</source>
         <translation>Sleutelwoord-voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1507"/>
         <source>Regular foreground</source>
         <translation>Gewone voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1597"/>
         <source>String foreground</source>
         <translation>String-voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1867"/>
         <source>Comment foreground</source>
         <translation>Kommentaar-voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1957"/>
         <source>Valid objects foreground</source>
         <translation>Geldige objekte-voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2268"/>
         <source>Current query background</source>
         <translation>Huidige navraag-agtergrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2137"/>
         <source>Bind parameter foreground</source>
         <translation>Bindparameter-voorgrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2227"/>
         <source>Current line background</source>
         <translation>Huidige reël-agtergrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2312"/>
         <source>Matched parenthesis background</source>
         <translation>Gepaste hakie-agtergrond</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2296"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Jy kan die beklemtoning van die huidige navraag heeltemal op die Algemene instellingsbladsy deaktiveer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1621,12 +1621,12 @@
         <translation>Weergewer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1347"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wanneer meerdere navrae teenwoordig is, word slegs die navraag onder die wyser uitgevoer.&lt;br/&gt;Wanneer gedeaktiveer, word alle navrae uitgevoer.&lt;br/&gt;Jy kan ook geselekteerde navrae uitvoer of kortpaaie gebruik (%1 vir enkel, %2 vir almal).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Beklemtoon die navraag onder die wyser - dieselfde navraag wat uitgevoer sal word wanneer &lt;span style=&quot; font-style:italic;&quot;&gt;Voer navraag uit&lt;/span&gt; gebruik word.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1716,319 +1716,329 @@
         <translation>Verwyder ouer boodskappe</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <source>Show occasional project support reminders</source>
+        <translation type="unfinished">Show occasional project support reminders</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1282"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Spesifiseer die maksimum aantal desimale plekke wat vir navraaguitvoeringstyd gewys word. Tot 9 syfers (nanosekondes) kan gekonfigureer word. Nulle aan die einde word outomaties afgesny.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Uitvoeringstydpresisie (desimale plekke)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indien geaktiveer, sal reëls wat langer as die redigeerderwydte is, omgevou word, sodat horisontale blaai nie nodig sal wees nie.&lt;/p&gt;&lt;p&gt;Hierdie opsie definieer die globale verstek, terwyl individuele SQL-redigeerdervensters dit plaaslik kan oorheers.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Disable blinking text cursor</source>
         <translation>Deaktiveer flikkerende tekswyser</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Aktiveer assistent nadat &apos;n punt getik is</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Wanneer geaktiveer, wys die aanroep van kodevoltooiing in &apos;n leë redigeerder eers kodebrokkies in plaas van sintaksvoorstelle. As kodevoltooiing weer aangeroep word, skakel dit oor na sintaksvoorstelle (en omgekeerd).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Verkies brokkies in leë redigeerder</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1398"/>
         <source>History</source>
         <translation>Geskiedenis</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Query history size:</source>
         <translation>Grootte van navraaggeskiedenis:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1433"/>
+        <location filename="../dialogs/configdialog.ui" line="1443"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Maksimum aantal navraagparameters (:param, @param, $param, ?) wat in geskiedenis gestoor word. Wanneer jy &apos;n parameter met dieselfde naam/posisie hergebruik, sal Letos dit vooraf inisialiseer met die mees onlangs onthoude waarde (jy sal dit steeds kan verander). &apos;n Waarde van 1000 behoort voldoende te wees.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1777"/>
         <source>Number foreground</source>
         <translation>Voorgrond vir getal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="2047"/>
         <source>BLOB value foreground</source>
         <translation>Voorgrond vir BLOB-waarde</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2353"/>
         <source>Matched parenthesis foreground</source>
         <translation>Voorgrond vir ooreenstemmende hakie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2461"/>
+        <location filename="../dialogs/configdialog.ui" line="2569"/>
         <source>Reset to defaults</source>
         <translation>Stel terug na verstekwaardes</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2487"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Filter kortpaaie volgens naam of sleutelkombinasie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2531"/>
         <source>Action</source>
         <translation>Aksie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2536"/>
         <source>Key combination</source>
         <translation>Sleutelkombinasie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="2610"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Language</source>
         <translation>Taal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2616"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Om die taal te verander vereis dat die toepassing herbegin word om in werking te tree.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2636"/>
         <source>Compact layout</source>
         <translation>Kompakte uitleg</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2642"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Kompakte uitleg verminder alle kantlyne en spasiëring in die UI tot &apos;n minimum, wat ruimte maak om meer data te vertoon. Dit maak die koppelvlak &apos;n bietjie minder esteties, maar laat toe dat meer data gelyktydig vertoon word.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2645"/>
         <source>Use compact layout</source>
         <translation>Gebruik kompakte uitleg</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2661"/>
         <source>Main window dock areas</source>
         <translation>Dokareas van hoofvenster</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2667"/>
         <source>Left and right areas occupy corners</source>
         <translation>Linker- en regterareas beslaan hoeke</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2687"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Boonste en onderste areas beslaan hoeke</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2707"/>
         <source>Toolbars</source>
         <translation>Nutsbalke</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2713"/>
+        <location filename="../dialogs/configdialog.ui" line="2723"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uitgedruk as persentasie van verstekgrootte.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
+        <location filename="../dialogs/configdialog.ui" line="2716"/>
         <source>Icon size</source>
         <translation>Ikoongrootte</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2841"/>
         <source>Hide built-in plugins</source>
         <translation>Versteek ingeboude inproppe</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2870"/>
         <source>Current style:</source>
         <translation>Huidige styl:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2887"/>
         <source>Preview</source>
         <translation>Voorskou</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2897"/>
         <source>Enabled</source>
         <translation>Geaktiveer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3073"/>
         <source>Disabled</source>
         <translation>Gedeaktiveer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Active formatter plugin</source>
         <translation>Aktiewe formateerder-inprop</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Wenk:&lt;/span&gt; Benewens die instellings wat hier beskikbaar is, kan lettergroottes ook dinamies in die meeste koppelvlakelemente aangepas word deur &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; in te hou en die &lt;span style=&quot; font-weight:700;&quot;&gt;muiswiel&lt;/span&gt; oor die element waarvan jy die lettergrootte wil verander, te rol.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3179"/>
         <source>SQL editor font</source>
         <translation>Lettertipe vir SQL-redigeerder</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3195"/>
         <source>Database list font</source>
         <translation>Lettertipe vir databasislys</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3211"/>
         <source>Database list additional label font</source>
         <translation>Lettertipe vir bykomende etiket in databasislys</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3227"/>
         <source>Data view font</source>
         <translation>Lettertipe vir data-aansig</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3243"/>
         <source>Status field font</source>
         <translation>Lettertipe vir statusveld</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As hierdie opsie geaktiveer is, sal die kode-assistent geaktiveer word in gevalle waar die gebruiker byvoorbeeld &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; tik om kolomme van die tabel voor te stel. As die opsie gedeaktiveer is, sal die gebruiker die assistent se sneltoets uitdruklik moet druk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1119"/>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Beskrywing:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1120"/>
+        <location filename="../dialogs/configdialog.cpp" line="1123"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Kategorie:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1121"/>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Weergawe:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Outeur:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Interne naam:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1128"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Afhanklikhede:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1126"/>
+        <location filename="../dialogs/configdialog.cpp" line="1129"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Konflikte:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1130"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Lêer:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1132"/>
+        <location filename="../dialogs/configdialog.cpp" line="1135"/>
         <source>Plugin details</source>
         <translation>Inpropbesonderhede</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1753"/>
+        <location filename="../dialogs/configdialog.cpp" line="1756"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Inproppe word onmiddellik gelaai/ontlaai wanneer hulle gemerk/ontmerk word, maar die gewysigde lys inproppe om by opstart te laai, word nie gestoor totdat jy die hele konfigurasiedialoog bevestig nie.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1811"/>
+        <location filename="../dialogs/configdialog.cpp" line="1814"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (ingebou)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1853"/>
+        <location filename="../dialogs/configdialog.cpp" line="1856"/>
         <source>Details</source>
         <translation>Besonderhede</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1867"/>
+        <location filename="../dialogs/configdialog.cpp" line="1870"/>
         <source>No plugins in this category.</source>
         <translation>Geen inproppe in hierdie kategorie nie.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1967"/>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="1970"/>
+        <location filename="../dialogs/configdialog.cpp" line="1999"/>
         <source>Add new data type</source>
         <translation>Voeg nuwe datatipe by</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1971"/>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="1974"/>
+        <location filename="../dialogs/configdialog.cpp" line="2003"/>
         <source>Rename selected data type</source>
         <translation>Hernoem gekose datatipe</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1975"/>
-        <location filename="../dialogs/configdialog.cpp" line="2004"/>
+        <location filename="../dialogs/configdialog.cpp" line="1978"/>
+        <location filename="../dialogs/configdialog.cpp" line="2007"/>
         <source>Delete selected data type</source>
         <translation>Vee gekose datatipe uit</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2088"/>
+        <location filename="../dialogs/configdialog.cpp" line="2091"/>
         <source>Clear hotkey for this action</source>
         <translation>Maak sneltoets vir hierdie aksie skoon</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2100"/>
+        <location filename="../dialogs/configdialog.cpp" line="2103"/>
         <source>Restore original hotkey for this action</source>
         <translation>Herstel oorspronklike sneltoets vir hierdie aksie</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2142"/>
+        <location filename="../dialogs/configdialog.cpp" line="2145"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Hier kan jy kleure vir kodesintaksverligting instel. Hulle word oor verskillende tale gedeel - nie net vir SQL nie, maar ook JavaScript en ander. By verstek word &apos;n tema-gebaseerde kleur gebruik. Om jou eie kleur te definieer, aktiveer &apos;n pasgemaakte kleur deur die merkblokkie langs &apos;n spesifieke kleur te kies.</translation>
     </message>
@@ -3320,270 +3330,270 @@ Voer asseblief &apos;n nuwe, unieke naam in, of druk &apos;%1&apos; om die bewer
         <translation>Geskiedenis</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="200"/>
-        <location filename="../windows/editorwindow.cpp" line="202"/>
+        <location filename="../windows/editorwindow.cpp" line="203"/>
+        <location filename="../windows/editorwindow.cpp" line="205"/>
         <source>SQL editor %1</source>
         <translation>SQL-redigeerder %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="99"/>
-        <location filename="../windows/editorwindow.cpp" line="417"/>
+        <location filename="../windows/editorwindow.cpp" line="420"/>
         <source>Results</source>
         <translation>Resultate</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="468"/>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Execute query</source>
         <translation>Voer navraag uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="469"/>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Explain query</source>
         <translation>Verduidelik navraag</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="490"/>
+        <location filename="../windows/editorwindow.cpp" line="493"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Maak uitvoeringsgeskiedenis skoon</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="496"/>
+        <location filename="../windows/editorwindow.cpp" line="499"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
         <translation>Fokus resultate op dieselfde oortjie</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="497"/>
+        <location filename="../windows/editorwindow.cpp" line="500"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
         <translation>Fokus SQL-redigeerder op dieselfde oortjie</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="502"/>
+        <location filename="../windows/editorwindow.cpp" line="505"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Voer resultate uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="484"/>
+        <location filename="../windows/editorwindow.cpp" line="487"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Skep aansig uit navraag</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Commit</source>
         <translation>Bevestig</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
         <source>Rollback</source>
         <translation>Rol terug</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="486"/>
+        <location filename="../windows/editorwindow.cpp" line="489"/>
         <source>Previous database</source>
         <translation>Vorige databasis</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="487"/>
+        <location filename="../windows/editorwindow.cpp" line="490"/>
         <source>Next database</source>
         <translation>Volgende databasis</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="491"/>
+        <location filename="../windows/editorwindow.cpp" line="494"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation>Voer uitvoeringsgeskiedenis uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="494"/>
+        <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Wys volgende oortjie</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="495"/>
+        <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Wys vorige oortjie</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="498"/>
+        <location filename="../windows/editorwindow.cpp" line="501"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Voer gekose SQL-geskiedenisinskrywings uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="499"/>
+        <location filename="../windows/editorwindow.cpp" line="502"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Vee gekose SQL-geskiedenisinskrywings uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="500"/>
+        <location filename="../windows/editorwindow.cpp" line="503"/>
         <source>Execute single query under cursor</source>
         <translation>Voer enkele navraag onder wyser uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="501"/>
+        <location filename="../windows/editorwindow.cpp" line="504"/>
         <source>Execute all queries in editor</source>
         <translation>Voer alle navrae in redigeerder uit</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="522"/>
+        <location filename="../windows/editorwindow.cpp" line="525"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
         <translation>Resultate-uitleg: Aparte oortjie</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="523"/>
+        <location filename="../windows/editorwindow.cpp" line="526"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
         <translation>Resultate-uitleg: Onder redigeerder</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="524"/>
+        <location filename="../windows/editorwindow.cpp" line="527"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
         <translation>Resultate-uitleg: Regs van redigeerder</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="539"/>
-        <location filename="../windows/editorwindow.cpp" line="540"/>
+        <location filename="../windows/editorwindow.cpp" line="542"/>
+        <location filename="../windows/editorwindow.cpp" line="543"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
         <translation>Verduidelik-modus: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="560"/>
+        <location filename="../windows/editorwindow.cpp" line="563"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
         <translation>Bevestig navrae outomaties</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="577"/>
+        <location filename="../windows/editorwindow.cpp" line="580"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
         <translation>Redigeervensterinstellings</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="625"/>
+        <location filename="../windows/editorwindow.cpp" line="628"/>
         <source>Active database (%1/%2)</source>
         <translation>Aktiewe databasis (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="776"/>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>Save to file</source>
         <translation>Stoor na lêer</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="787"/>
+        <location filename="../windows/editorwindow.cpp" line="788"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Kon lêer &apos;%1&apos; nie vir skryf oopmaak nie: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="807"/>
+        <location filename="../windows/editorwindow.cpp" line="808"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>SQL-inhoud na lêer gestoor: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="830"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
         <translation>Kon nie journal_mode na WAL oorskakel nie. Handmatige bevestigingsmodus is nie beskikbaar nie. Fout: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <location filename="../windows/editorwindow.cpp" line="842"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
         <translation>Kon nie nuwe databasisverbinding oopmaak nie. Handmatige bevestigingsmodus sal nie geaktiveer word nie. Fout: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="844"/>
+        <location filename="../windows/editorwindow.cpp" line="845"/>
         <source>The joirnal_mode will be switched back to %1.</source>
         <translation>Die joirnal_mode sal teruggeskakel word na %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="968"/>
+        <location filename="../windows/editorwindow.cpp" line="969"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Navraag voltooi in %1 sekonde(s). Rye geraak: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="972"/>
+        <location filename="../windows/editorwindow.cpp" line="973"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Navraag voltooi in %1 sekonde(s).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Clear execution history</source>
         <translation>Maak uitvoeringsgeskiedenis skoon</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Is jy seker jy wil die hele SQL-uitvoeringsgeskiedenis uitvee? Dit kan nie ongedaan gemaak word nie.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1141"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Kan nie uitvoer nie, omdat geen uitvoerinprop gelaai is nie.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1169"/>
+        <location filename="../windows/editorwindow.cpp" line="1170"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
         <translation>Navraag-outo-vaslegging is nou geaktiveer in: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1171"/>
+        <location filename="../windows/editorwindow.cpp" line="1172"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
         <translation>Navraag-outo-vaslegging is nou gedeaktiveer in: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1229"/>
-        <location filename="../windows/editorwindow.cpp" line="1233"/>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Apply changes to the transaction</source>
         <translation>Pas veranderings op die transaksie toe</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1230"/>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1235"/>
         <source>Discard changes in data view</source>
         <translation>Gooi veranderings in data-aansig weg</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Apply selected changes to the transaction</source>
         <translation>Pas geselekteerde veranderings op die transaksie toe</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1232"/>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Discard changes in selected cells</source>
         <translation>Verwerp veranderinge in geselekteerde selle</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1273"/>
+        <location filename="../windows/editorwindow.cpp" line="1274"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation>Kan nie die databasis verander terwyl daar &apos;n hangende handmatige transaksie is nie. Lê asseblief die transaksie vas of rol dit terug voordat u die databasis verander.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1313"/>
+        <location filename="../windows/editorwindow.cpp" line="1314"/>
         <source>Manual transaction committed successfully.</source>
         <translation>Handmatige transaksie suksesvol vasgelê.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Manual transaction rolled back.</source>
         <translation>Handmatige transaksie teruggerol.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1385"/>
+        <location filename="../windows/editorwindow.cpp" line="1386"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>Geen databasis in die SQL-redigeerder gekies nie. Kan nie &apos;n aansig vir &apos;n onbekende databasis skep nie.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1435"/>
+        <location filename="../windows/editorwindow.cpp" line="1436"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>Redigeerdervenster &quot;%1&quot; het onbevestigde data.</translation>
     </message>
@@ -4896,13 +4906,13 @@ Voer asseblief &apos;n nuwe, unieke naam in, of druk &apos;%1&apos; om die bewer
         <translation>&amp;Struktuur</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="759"/>
+        <location filename="../mainwindow.cpp" line="766"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
         <translation>&amp;Aansig</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1379"/>
+        <location filename="../mainwindow.cpp" line="1450"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
         <translation>Die gesleepte lêer blyk ’n SQLite 2-databasis te wees, wat nie deur hierdie Letos-weergawe ondersteun word nie. Die laaste weergawe wat SQLite 2 ondersteun het, was 3.2.1.</translation>
     </message>
@@ -4955,115 +4965,120 @@ Voer asseblief &apos;n nuwe, unieke naam in, of druk &apos;%1&apos; om die bewer
         <translation>&amp;Hulp</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="696"/>
+        <location filename="../mainwindow.cpp" line="703"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
         <translation>Kon styl nie stel nie: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="933"/>
+        <location filename="../mainwindow.cpp" line="940"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Kan nie uitvoer nie, omdat geen uitvoer-inprop gelaai is nie.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="950"/>
+        <location filename="../mainwindow.cpp" line="957"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Kan nie invoer nie, omdat geen invoer-inprop gelaai is nie.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Rename window</source>
         <translation>Hernoem venster</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Enter new name for the window:</source>
         <translation>Voer nuwe naam vir die venster in:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1110"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
         <translation>Nuwe opdaterings is beskikbaar. &lt;a href=&quot;%1&quot;&gt;Klik hier vir besonderhede&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1116"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
         <translation>Jy gebruik die mees onlangse weergawe. Daar is nie &apos;n opdatering beskikbaar nie.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1185"/>
+        <location filename="../mainwindow.cpp" line="1171"/>
+        <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
+        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1256"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
         <translation>Nutsbalk&amp;ikone</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1192"/>
+        <location filename="../mainwindow.cpp" line="1263"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
         <translation>Grootte: %1%</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1280"/>
+        <location filename="../mainwindow.cpp" line="1351"/>
         <source>Drop files to open them</source>
         <translation>Laat val lêers om dit oop te maak</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1382"/>
+        <location filename="../mainwindow.cpp" line="1453"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
         <translation>Die neergesleepte lêertipe word nie ondersteun nie: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1392"/>
+        <location filename="../mainwindow.cpp" line="1463"/>
         <source>SQLite 3 database - add to database list and open</source>
         <translation>SQLite 3-databasis - voeg by databasislys en maak oop</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1394"/>
+        <location filename="../mainwindow.cpp" line="1465"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
         <translation>Dit kan ’n geënkripteerde SQLite 3-databasis wees. Jy kan probeer om dit oop te maak.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1396"/>
+        <location filename="../mainwindow.cpp" line="1467"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
         <translation>Leë lêer, maar ook leë SQLite 3-databasis - maak as databasis oop</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1398"/>
+        <location filename="../mainwindow.cpp" line="1469"/>
         <source>SQL file - open in SQL Editor</source>
         <translation>SQL-lêer - maak in SQL-redigeerder oop</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1400"/>
+        <location filename="../mainwindow.cpp" line="1471"/>
         <source>Text file - open in SQL Editor</source>
         <translation>Tekslêer - maak in SQL-redigeerder oop</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1402"/>
+        <location filename="../mainwindow.cpp" line="1473"/>
         <source>CSV file - import using Import Dialog</source>
         <translation>CSV-lêer - voer in met Invoerdialoog</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1404"/>
+        <location filename="../mainwindow.cpp" line="1475"/>
         <source>SQLite 2 database - not supported anymore</source>
         <translation>SQLite 2-databasis - nie meer ondersteun nie</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1406"/>
+        <location filename="../mainwindow.cpp" line="1477"/>
         <source>Unsupported file type</source>
         <translation>Nie-ondersteunde lêertipe</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1505"/>
+        <location filename="../mainwindow.cpp" line="1576"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
         <translation>Databasis wat in opdraglynparameters (%1) deurgegee is, was reeds op die lys onder naam: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1512"/>
+        <location filename="../mainwindow.cpp" line="1583"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
         <translation>Databasis wat in opdraglynparameters (%1) deurgegee is, is tydelik by die lys gevoeg onder naam: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1517"/>
+        <location filename="../mainwindow.cpp" line="1588"/>
         <source>Could not add database %1 to list.</source>
         <translation>Kon databasis %1 nie by lys voeg nie.</translation>
     </message>
@@ -6206,7 +6221,7 @@ Voer asseblief &apos;n nuwe, unieke naam in, of druk &apos;%1&apos; om die bewer
         <translation>Verminder lettergrootte</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="778"/>
+        <location filename="../windows/editorwindow.cpp" line="779"/>
         <source>All files</source>
         <translation>Alle lêers</translation>
     </message>
@@ -6221,7 +6236,7 @@ Voer asseblief &apos;n nuwe, unieke naam in, of druk &apos;%1&apos; om die bewer
         <translation>Kies nuwe databasislêer</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="777"/>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>SQL files</source>
         <translation>SQL-lêers</translation>
     </message>
@@ -7084,121 +7099,121 @@ soek volgende</translation>
     <name>SqlQueryModel</name>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Slegs een navraag kan gelyktydig uitgevoer word.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation>Kan nie navraag op ’n ongedefinieerde of ongeldige databasis uitvoer nie.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
         <source>Cannot execute empty query.</source>
         <translation>Kan nie ’n leë navraag uitvoer nie.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>Uncommitted data</source>
         <translation>Onbevestigde data</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>Daar is onbevestigde dataveranderings. Wil jy tog voortgaan? Alle onbevestigde veranderings sal verlore gaan.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation>Kan nie die data vir ’n sel bevestig wat na die reeds geslote databasis verwys nie.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>Kon nie transaksie op die databasis begin nie. Besonderhede: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>’n Fout het voorgekom tydens die bevestiging van die transaksie: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>’n Fout het voorgekom tydens die terugrol van die transaksie: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>Daar is probeer om ’n sel te bevestig wat nie redigeerbaar is nie (maar wel gewysig is en op bevestiging wag)! Dit is ’n fout. Rapporteer dit asseblief.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>’n Fout het voorgekom tydens die bevestiging van die data: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>Aantal rye per bladsy is na %1 verminder weens die aantal kolomme (%2) in die data-aansig.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>Fout tydens uitvoering van SQL-navraag op databasis &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
         <source>Error while loading query results: %1</source>
         <translation>Fout tydens laai van navraagresultate: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>Daar is minder kolomme in die nuwe navraag; sorteervolgorde is teruggestel.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Insert multiple rows</source>
         <translation>Voeg veelvuldige rye in</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Number of rows to insert:</source>
         <translation>Aantal rye om in te voeg:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>Delete rows</source>
         <translation>Verwyder rye</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Jy is op die punt om nuut ingevoegde rye te verwyder wat nog nie vasgelê is nie. Rynommers: %1
 Dit sal &apos;n permanente verwydering wees. Is jy seker jy wil hulle verwyder?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>Enkelklik sorteer volgens die kolom.&lt;br&gt;Alt+klik kies data in die kolom.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>Enkelklik kies data in die kolom.&lt;br&gt;Dubbelklik sorteer volgens die kolom.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>Middle-click resets sorting.</source>
         <translation>Middelklik stel sortering terug.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
         <source>More options are available in the context menu.</source>
         <translation>Meer opsies is in die kontekskieslys beskikbaar.</translation>
     </message>
@@ -7616,12 +7631,12 @@ Dit sal &apos;n permanente verwydering wees. Is jy seker jy wil hulle verwyder?<
         <translation>Toestand</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="211"/>
+        <location filename="../statusfield.cpp" line="190"/>
         <source>Copy</source>
         <translation>Kopieer</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="218"/>
+        <location filename="../statusfield.cpp" line="197"/>
         <source>Clear</source>
         <translation>Maak skoon</translation>
     </message>

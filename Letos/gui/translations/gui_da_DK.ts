@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3127"/>
         <source>Configuration</source>
         <translation>Konfiguration</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>Databaseliste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1363"/>
         <source>Code assistant</source>
         <translation>Kodeassistent</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>SQL Editor</source>
         <translation>SQL-editor</translation>
     </message>
@@ -1395,18 +1395,18 @@
         <translation>Vis ikke &apos;DDL-forhåndsvisningsdialogen&apos; ved commit af skemaændringer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1404"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
         <source>Number of queries kept in the history.</source>
         <translation>Antal forespørgsler, der gemmes i historikken.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Execute only the query under the cursor</source>
         <translation>Kør kun forespørgslen under markøren</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1436"/>
         <source>Number of memorized query parameters</source>
         <translation>Antal huskede forespørgselsparametre</translation>
     </message>
@@ -1431,12 +1431,12 @@
         <translation>Bevar mindst bredden til at vise hele kolonnenavnet</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1314"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Ombryd linjer i SQL-editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Highlight current query</source>
         <translation>Fremhæv aktuel forespørgsel</translation>
     </message>
@@ -1476,57 +1476,57 @@
         <translation>Åbn altid statuspanelet, når en ny meddelelse udskrives</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1501"/>
         <source>Code syntax colors</source>
         <translation>Kodesyntaksfarver</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1687"/>
         <source>Keyword foreground</source>
         <translation>Nøgleordsforgrund</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1507"/>
         <source>Regular foreground</source>
         <translation>Almindelig forgrund</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1597"/>
         <source>String foreground</source>
         <translation>Strengforgrund</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1867"/>
         <source>Comment foreground</source>
         <translation>Kommentarforgrund</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1957"/>
         <source>Valid objects foreground</source>
         <translation>Gyldige objekters forgrund</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2268"/>
         <source>Current query background</source>
         <translation>Baggrund for aktuel forespørgsel</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2137"/>
         <source>Bind parameter foreground</source>
         <translation>Forgrund for bindingsparameter</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2227"/>
         <source>Current line background</source>
         <translation>Baggrund for aktuel linje</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2312"/>
         <source>Matched parenthesis background</source>
         <translation>Baggrund for matchet parentes</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2296"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Du kan deaktivere fremhævning af den aktuelle forespørgsel helt på siden Generelle indstillinger.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1621,12 +1621,12 @@
         <translation>Gengiver</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1347"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Når der findes flere forespørgsler, køres kun forespørgslen under markøren.&lt;br/&gt;Når deaktiveret, køres alle forespørgsler.&lt;br/&gt;Du kan også køre valgte forespørgsler eller bruge genveje (%1 for én, %2 for alle).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fremhæver forespørgslen under markøren - den samme forespørgsel, der køres ved brug af &lt;span style=&quot; font-style:italic;&quot;&gt;Kør forespørgsel&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1716,319 +1716,329 @@
         <translation>Fjern ældre meddelelser</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <source>Show occasional project support reminders</source>
+        <translation type="unfinished">Show occasional project support reminders</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1282"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Angiver det maksimale antal decimaler, der vises for forespørgslens køretid. Op til 9 cifre (nanosekunder) kan konfigureres. Efterstillede nuller fjernes automatisk.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Præcision for køretid (decimaler)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hvis aktiveret, ombrydes linjer, der er længere end editorens bredde, så vandret rulning ikke er nødvendig.&lt;/p&gt;&lt;p&gt;Denne indstilling definerer den globale standard, mens individuelle SQL-editorvinduer kan tilsidesætte den lokalt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Disable blinking text cursor</source>
         <translation>Deaktiver blinkende tekstmarkør</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Udløs assistent efter indtastning af punktum</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Når aktiveret viser aktivering af kodefuldførelse i en tom editor først kodestumper i stedet for syntaksforslag. Aktivering af kodefuldførelse igen skifter til syntaksforslag (og omvendt).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Foretræk kodestumper i tom editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1398"/>
         <source>History</source>
         <translation>Historik</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Query history size:</source>
         <translation>Størrelse på forespørgselshistorik:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1433"/>
+        <location filename="../dialogs/configdialog.ui" line="1443"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Maksimalt antal forespørgselsparametre (:param, @param, $param, ?) gemt i historikken. Når du genbruger en parameter med samme navn/position, vil Letos forudinitialisere den med den senest huskede værdi (du vil stadig kunne ændre den). En værdi på 1000 bør være tilstrækkelig.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1777"/>
         <source>Number foreground</source>
         <translation>Forgrund for tal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="2047"/>
         <source>BLOB value foreground</source>
         <translation>Forgrund for BLOB-værdi</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2353"/>
         <source>Matched parenthesis foreground</source>
         <translation>Forgrund for matchende parentes</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2461"/>
+        <location filename="../dialogs/configdialog.ui" line="2569"/>
         <source>Reset to defaults</source>
         <translation>Nulstil til standarder</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2487"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Filtrér genveje efter navn eller tastekombination</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2531"/>
         <source>Action</source>
         <translation>Handling</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2536"/>
         <source>Key combination</source>
         <translation>Tastekombination</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="2610"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Language</source>
         <translation>Sprog</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2616"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Ændring af sprog kræver genstart af programmet for at træde i kraft.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2636"/>
         <source>Compact layout</source>
         <translation>Kompakt layout</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2642"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Kompakt layout reducerer alle margener og mellemrum i brugergrænsefladen til et minimum, så der bliver plads til at vise flere data. Det gør grænsefladen en smule mindre æstetisk, men gør det muligt at vise flere data på én gang.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2645"/>
         <source>Use compact layout</source>
         <translation>Brug kompakt layout</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2661"/>
         <source>Main window dock areas</source>
         <translation>Dockområder i hovedvinduet</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2667"/>
         <source>Left and right areas occupy corners</source>
         <translation>Venstre og højre områder optager hjørner</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2687"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Øverste og nederste områder optager hjørner</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2707"/>
         <source>Toolbars</source>
         <translation>Værktøjslinjer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2713"/>
+        <location filename="../dialogs/configdialog.ui" line="2723"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Angivet i procent af standardstørrelsen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
+        <location filename="../dialogs/configdialog.ui" line="2716"/>
         <source>Icon size</source>
         <translation>Ikonstørrelse</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2841"/>
         <source>Hide built-in plugins</source>
         <translation>Skjul indbyggede plugins</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2870"/>
         <source>Current style:</source>
         <translation>Aktuel stil:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2887"/>
         <source>Preview</source>
         <translation>Forhåndsvisning</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2897"/>
         <source>Enabled</source>
         <translation>Aktiveret</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3073"/>
         <source>Disabled</source>
         <translation>Deaktiveret</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Active formatter plugin</source>
         <translation>Aktivt formatteringsplugin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; Ud over de indstillinger, der er tilgængelige her, kan skriftstørrelser også justeres dynamisk i de fleste grænsefladeelementer ved at holde &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; nede og rulle med &lt;span style=&quot; font-weight:700;&quot;&gt;musehjulet&lt;/span&gt; over det element, hvis skriftstørrelse du vil ændre.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3179"/>
         <source>SQL editor font</source>
         <translation>Skrifttype for SQL-editor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3195"/>
         <source>Database list font</source>
         <translation>Skrifttype for databaseliste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3211"/>
         <source>Database list additional label font</source>
         <translation>Skrifttype for ekstra etiket i databaseliste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3227"/>
         <source>Data view font</source>
         <translation>Skrifttype for datavisning</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3243"/>
         <source>Status field font</source>
         <translation>Skrifttype for statusfelt</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hvis denne indstilling er aktiveret, udløses kodeassistenten i tilfælde, hvor brugeren for eksempel skriver &lt;span style=&quot; font-weight:700;&quot;&gt;tabelNavn.&lt;/span&gt; for at foreslå tabellens kolonner. Hvis indstillingen er deaktiveret, skal brugeren eksplicit trykke på assistentens genvejstast.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1119"/>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Beskrivelse:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1120"/>
+        <location filename="../dialogs/configdialog.cpp" line="1123"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Kategori:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1121"/>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Version:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Forfatter:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Internt navn:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1128"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Afhængigheder:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1126"/>
+        <location filename="../dialogs/configdialog.cpp" line="1129"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Konflikter:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1130"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Fil:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1132"/>
+        <location filename="../dialogs/configdialog.cpp" line="1135"/>
         <source>Plugin details</source>
         <translation>Pluginoplysninger</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1753"/>
+        <location filename="../dialogs/configdialog.cpp" line="1756"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Plugins indlæses/aflæses straks, når de markeres/afmarkeres, men den ændrede liste over plugins, der skal indlæses ved start, gemmes ikke, før du bekræfter hele konfigurationsdialogen.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1811"/>
+        <location filename="../dialogs/configdialog.cpp" line="1814"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (indbygget)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1853"/>
+        <location filename="../dialogs/configdialog.cpp" line="1856"/>
         <source>Details</source>
         <translation>Detaljer</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1867"/>
+        <location filename="../dialogs/configdialog.cpp" line="1870"/>
         <source>No plugins in this category.</source>
         <translation>Ingen plugins i denne kategori.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1967"/>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="1970"/>
+        <location filename="../dialogs/configdialog.cpp" line="1999"/>
         <source>Add new data type</source>
         <translation>Tilføj ny datatype</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1971"/>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="1974"/>
+        <location filename="../dialogs/configdialog.cpp" line="2003"/>
         <source>Rename selected data type</source>
         <translation>Omdøb valgt datatype</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1975"/>
-        <location filename="../dialogs/configdialog.cpp" line="2004"/>
+        <location filename="../dialogs/configdialog.cpp" line="1978"/>
+        <location filename="../dialogs/configdialog.cpp" line="2007"/>
         <source>Delete selected data type</source>
         <translation>Slet valgt datatype</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2088"/>
+        <location filename="../dialogs/configdialog.cpp" line="2091"/>
         <source>Clear hotkey for this action</source>
         <translation>Ryd genvejstast for denne handling</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2100"/>
+        <location filename="../dialogs/configdialog.cpp" line="2103"/>
         <source>Restore original hotkey for this action</source>
         <translation>Gendan oprindelig genvejstast for denne handling</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2142"/>
+        <location filename="../dialogs/configdialog.cpp" line="2145"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Her kan du konfigurere farver til syntaksfremhævning af kode. De deles på tværs af forskellige sprog - ikke kun for SQL, men også JavaScript og andre. Som standard bruges en temabaseret farve. For at definere din egen farve skal du aktivere en brugerdefineret farve ved at markere afkrydsningsfeltet ud for en bestemt farve.</translation>
     </message>
@@ -3320,270 +3330,270 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
         <translation>Historik</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="200"/>
-        <location filename="../windows/editorwindow.cpp" line="202"/>
+        <location filename="../windows/editorwindow.cpp" line="203"/>
+        <location filename="../windows/editorwindow.cpp" line="205"/>
         <source>SQL editor %1</source>
         <translation>SQL-editor %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="99"/>
-        <location filename="../windows/editorwindow.cpp" line="417"/>
+        <location filename="../windows/editorwindow.cpp" line="420"/>
         <source>Results</source>
         <translation>Resultater</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="468"/>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Execute query</source>
         <translation>Udfør forespørgsel</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="469"/>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Explain query</source>
         <translation>Forklar forespørgsel</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="490"/>
+        <location filename="../windows/editorwindow.cpp" line="493"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Ryd udførelseshistorik</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="496"/>
+        <location filename="../windows/editorwindow.cpp" line="499"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
         <translation>Fokusér resultater på samme fane</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="497"/>
+        <location filename="../windows/editorwindow.cpp" line="500"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
         <translation>Fokusér SQL-editoren på samme fane</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="502"/>
+        <location filename="../windows/editorwindow.cpp" line="505"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Eksportér resultater</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="484"/>
+        <location filename="../windows/editorwindow.cpp" line="487"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Opret visning fra forespørgsel</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Commit</source>
         <translation>Bekræft</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
         <source>Rollback</source>
         <translation>Rul tilbage</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="486"/>
+        <location filename="../windows/editorwindow.cpp" line="489"/>
         <source>Previous database</source>
         <translation>Forrige database</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="487"/>
+        <location filename="../windows/editorwindow.cpp" line="490"/>
         <source>Next database</source>
         <translation>Næste database</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="491"/>
+        <location filename="../windows/editorwindow.cpp" line="494"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation>Eksportér udførelseshistorik</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="494"/>
+        <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Vis næste fane</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="495"/>
+        <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Vis forrige fane</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="498"/>
+        <location filename="../windows/editorwindow.cpp" line="501"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Eksportér valgte poster i SQL-historik</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="499"/>
+        <location filename="../windows/editorwindow.cpp" line="502"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Slet valgte poster i SQL-historik</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="500"/>
+        <location filename="../windows/editorwindow.cpp" line="503"/>
         <source>Execute single query under cursor</source>
         <translation>Udfør enkelt forespørgsel under markøren</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="501"/>
+        <location filename="../windows/editorwindow.cpp" line="504"/>
         <source>Execute all queries in editor</source>
         <translation>Udfør alle forespørgsler i editoren</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="522"/>
+        <location filename="../windows/editorwindow.cpp" line="525"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
         <translation>Resultatlayout: Separat fane</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="523"/>
+        <location filename="../windows/editorwindow.cpp" line="526"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
         <translation>Resultatlayout: Under editoren</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="524"/>
+        <location filename="../windows/editorwindow.cpp" line="527"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
         <translation>Resultatlayout: Til højre for editoren</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="539"/>
-        <location filename="../windows/editorwindow.cpp" line="540"/>
+        <location filename="../windows/editorwindow.cpp" line="542"/>
+        <location filename="../windows/editorwindow.cpp" line="543"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
         <translation>Explain-tilstand: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="560"/>
+        <location filename="../windows/editorwindow.cpp" line="563"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
         <translation>Bekræft forespørgsler automatisk</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="577"/>
+        <location filename="../windows/editorwindow.cpp" line="580"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
         <translation>Indstillinger for editorvindue</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="625"/>
+        <location filename="../windows/editorwindow.cpp" line="628"/>
         <source>Active database (%1/%2)</source>
         <translation>Aktiv database (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="776"/>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>Save to file</source>
         <translation>Gem til fil</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="787"/>
+        <location filename="../windows/editorwindow.cpp" line="788"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>Kunne ikke åbne filen &apos;%1&apos; til skrivning: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="807"/>
+        <location filename="../windows/editorwindow.cpp" line="808"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>Gemte SQL-indhold til fil: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="830"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
         <translation>Kunne ikke skifte journal_mode til WAL. Manuel bekræftelsestilstand er ikke tilgængelig. Fejl: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <location filename="../windows/editorwindow.cpp" line="842"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
         <translation>Kunne ikke åbne ny databaseforbindelse. Manuel bekræftelsestilstand vil ikke blive aktiveret. Fejl: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="844"/>
+        <location filename="../windows/editorwindow.cpp" line="845"/>
         <source>The joirnal_mode will be switched back to %1.</source>
         <translation>Tilstanden journal_mode skiftes tilbage til %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="968"/>
+        <location filename="../windows/editorwindow.cpp" line="969"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Forespørgsel afsluttet på %1 sekund(er). Berørte rækker: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="972"/>
+        <location filename="../windows/editorwindow.cpp" line="973"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Forespørgsel afsluttet på %1 sekund(er).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Clear execution history</source>
         <translation>Ryd udførelseshistorik</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Er du sikker på, at du vil slette hele SQL-udførelseshistorikken? Dette kan ikke fortrydes.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1141"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Kan ikke eksportere, fordi intet eksportplugin er indlæst.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1169"/>
+        <location filename="../windows/editorwindow.cpp" line="1170"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
         <translation>Automatisk commit af forespørgsler er nu aktiveret i: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1171"/>
+        <location filename="../windows/editorwindow.cpp" line="1172"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
         <translation>Automatisk commit af forespørgsler er nu deaktiveret i: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1229"/>
-        <location filename="../windows/editorwindow.cpp" line="1233"/>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Apply changes to the transaction</source>
         <translation>Anvend ændringer på transaktionen</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1230"/>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1235"/>
         <source>Discard changes in data view</source>
         <translation>Kassér ændringer i datavisning</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Apply selected changes to the transaction</source>
         <translation>Anvend valgte ændringer på transaktionen</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1232"/>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Discard changes in selected cells</source>
         <translation>Kassér ændringer i valgte celler</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1273"/>
+        <location filename="../windows/editorwindow.cpp" line="1274"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation>Kan ikke skifte database, mens der er en ventende manuel transaktion. Bekræft eller rul transaktionen tilbage, før du skifter database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1313"/>
+        <location filename="../windows/editorwindow.cpp" line="1314"/>
         <source>Manual transaction committed successfully.</source>
         <translation>Manuel transaktion blev bekræftet.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Manual transaction rolled back.</source>
         <translation>Manuel transaktion blev rullet tilbage.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1385"/>
+        <location filename="../windows/editorwindow.cpp" line="1386"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>Ingen database valgt i SQL-editoren. Kan ikke oprette en visning for en ukendt database.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1435"/>
+        <location filename="../windows/editorwindow.cpp" line="1436"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>Editorvinduet &quot;%1&quot; har ikke-committede data.</translation>
     </message>
@@ -4896,13 +4906,13 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
         <translation>&amp;Struktur</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="759"/>
+        <location filename="../mainwindow.cpp" line="766"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
         <translation>&amp;Vis</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1379"/>
+        <location filename="../mainwindow.cpp" line="1450"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
         <translation>Den slupne fil ser ud til at være en SQLite 2-database, som ikke understøttes af denne Letos-version. Den sidste version, der understøttede SQLite 2, var 3.2.1.</translation>
     </message>
@@ -4955,115 +4965,120 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
         <translation>&amp;Hjælp</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="696"/>
+        <location filename="../mainwindow.cpp" line="703"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
         <translation>Kunne ikke indstille stil: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="933"/>
+        <location filename="../mainwindow.cpp" line="940"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Kan ikke eksportere, fordi der ikke er indlæst noget eksport-plugin.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="950"/>
+        <location filename="../mainwindow.cpp" line="957"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Kan ikke importere, fordi der ikke er indlæst noget import-plugin.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Rename window</source>
         <translation>Omdøb vindue</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Enter new name for the window:</source>
         <translation>Angiv nyt navn til vinduet:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1110"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
         <translation>Nye opdateringer er tilgængelige. &lt;a href=&quot;%1&quot;&gt;Klik her for detaljer&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1116"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
         <translation>Du kører den &apos;nyeste&apos; version. Der er ingen opdateringer tilgængelige.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1185"/>
+        <location filename="../mainwindow.cpp" line="1171"/>
+        <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
+        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1256"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
         <translation>Værktøjslinje&amp;ikoner</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1192"/>
+        <location filename="../mainwindow.cpp" line="1263"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
         <translation>Størrelse: %1%</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1280"/>
+        <location filename="../mainwindow.cpp" line="1351"/>
         <source>Drop files to open them</source>
         <translation>Slip filer for at åbne dem</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1382"/>
+        <location filename="../mainwindow.cpp" line="1453"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
         <translation>Den slupne filtype understøttes ikke: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1392"/>
+        <location filename="../mainwindow.cpp" line="1463"/>
         <source>SQLite 3 database - add to database list and open</source>
         <translation>SQLite 3-database - føj til databaselisten og åbn</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1394"/>
+        <location filename="../mainwindow.cpp" line="1465"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
         <translation>Det kan være en krypteret SQLite 3-database. Du kan prøve at åbne den.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1396"/>
+        <location filename="../mainwindow.cpp" line="1467"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
         <translation>Tom fil, men også tom SQLite 3-database - åbn som database</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1398"/>
+        <location filename="../mainwindow.cpp" line="1469"/>
         <source>SQL file - open in SQL Editor</source>
         <translation>SQL-fil - åbn i SQL-editor</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1400"/>
+        <location filename="../mainwindow.cpp" line="1471"/>
         <source>Text file - open in SQL Editor</source>
         <translation>Tekstfil - åbn i SQL-editor</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1402"/>
+        <location filename="../mainwindow.cpp" line="1473"/>
         <source>CSV file - import using Import Dialog</source>
         <translation>CSV-fil - importér via importdialog</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1404"/>
+        <location filename="../mainwindow.cpp" line="1475"/>
         <source>SQLite 2 database - not supported anymore</source>
         <translation>SQLite 2-database - understøttes ikke længere</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1406"/>
+        <location filename="../mainwindow.cpp" line="1477"/>
         <source>Unsupported file type</source>
         <translation>Ikke-understøttet filtype</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1505"/>
+        <location filename="../mainwindow.cpp" line="1576"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
         <translation>Databasen angivet i kommandolinjeparametre (%1) var allerede på listen under navnet: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1512"/>
+        <location filename="../mainwindow.cpp" line="1583"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
         <translation>Databasen angivet i kommandolinjeparametre (%1) er midlertidigt føjet til listen under navnet: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1517"/>
+        <location filename="../mainwindow.cpp" line="1588"/>
         <source>Could not add database %1 to list.</source>
         <translation>Kunne ikke føje databasen %1 til listen.</translation>
     </message>
@@ -6206,7 +6221,7 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
         <translation>Formindsk skriftstørrelse</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="778"/>
+        <location filename="../windows/editorwindow.cpp" line="779"/>
         <source>All files</source>
         <translation>Alle filer</translation>
     </message>
@@ -6221,7 +6236,7 @@ Indtast et nyt, unikt navn, eller tryk på &apos;%1&apos; for at afbryde handlin
         <translation>Vælg ny databasefil</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="777"/>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>SQL files</source>
         <translation>SQL-filer</translation>
     </message>
@@ -7084,121 +7099,121 @@ find næste</translation>
     <name>SqlQueryModel</name>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Kun én forespørgsel kan udføres samtidigt.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation>Kan ikke udføre forespørgsel på en udefineret eller ugyldig database.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
         <source>Cannot execute empty query.</source>
         <translation>Kan ikke udføre tom forespørgsel.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>Uncommitted data</source>
         <translation>Ikke-bekræftede data</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>Der er ikke-bekræftede dataændringer. Vil du fortsætte alligevel? Alle ikke-bekræftede ændringer vil gå tabt.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation>Kan ikke bekræfte dataene for en celle, der henviser til den allerede lukkede database.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>Kunne ikke starte transaktion på databasen. Detaljer: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>Der opstod en fejl under bekræftelse af transaktionen: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>Der opstod en fejl under tilbagerulning af transaktionen: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>Forsøgte at bekræfte en celle, som ikke kan redigeres (men som er ændret og venter på bekræftelse)! Dette er en fejl. Rapportér den venligst.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>Der opstod en fejl under bekræftelse af dataene: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>Antallet af rækker pr. side blev reduceret til %1 på grund af antallet af kolonner (%2) i datavisningen.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>Fejl under udførelse af SQL-forespørgsel på databasen &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
         <source>Error while loading query results: %1</source>
         <translation>Fejl under indlæsning af forespørgselsresultater: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>Der er færre kolonner i den nye forespørgsel; sorteringsrækkefølgen er blevet nulstillet.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Insert multiple rows</source>
         <translation>Indsæt flere rækker</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Number of rows to insert:</source>
         <translation>Antal rækker der skal indsættes:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>Delete rows</source>
         <translation>Slet rækker</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Du er ved at slette nyligt indsatte rækker, som endnu ikke er committed. Rækkenumre: %1
 En sådan &apos;sletning&apos; vil være permanent. Er du sikker på, at du vil slette dem?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>Enkeltklik sorterer efter kolonnen.&lt;br&gt;Alt+klik vælger data i kolonnen.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>Enkeltklik vælger data i kolonnen.&lt;br&gt;Dobbeltklik sorterer efter kolonnen.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>Middle-click resets sorting.</source>
         <translation>Midterklik nulstiller sortering.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
         <source>More options are available in the context menu.</source>
         <translation>Flere valgmuligheder er tilgængelige i kontekstmenuen.</translation>
     </message>
@@ -7616,12 +7631,12 @@ En sådan &apos;sletning&apos; vil være permanent. Er du sikker på, at du vil 
         <translation>Status</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="211"/>
+        <location filename="../statusfield.cpp" line="190"/>
         <source>Copy</source>
         <translation>Kopiér</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="218"/>
+        <location filename="../statusfield.cpp" line="197"/>
         <source>Clear</source>
         <translation>Ryd</translation>
     </message>

@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3127"/>
         <source>Configuration</source>
         <translation>Configuració</translation>
     </message>
@@ -1113,7 +1113,7 @@
         <translation>Llista de bases de dades</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1363"/>
         <source>Code assistant</source>
         <translation>Assistent de codi</translation>
     </message>
@@ -1124,7 +1124,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>SQL Editor</source>
         <translation>Editor SQL</translation>
     </message>
@@ -1395,18 +1395,18 @@
         <translation>No mostreu el diàleg de previsualització DDL en confirmar canvis d&apos;esquema</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1404"/>
+        <location filename="../dialogs/configdialog.ui" line="1420"/>
         <source>Number of queries kept in the history.</source>
         <translation>Nombre de consultes conservades a l&apos;historial.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1350"/>
         <source>Execute only the query under the cursor</source>
         <translation>Executa només la consulta sota el cursor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1436"/>
         <source>Number of memorized query parameters</source>
         <translation>Nombre de paràmetres de consulta memoritzats</translation>
     </message>
@@ -1431,12 +1431,12 @@
         <translation>Mantén com a mínim l&apos;amplada per mostrar el nom complet de la columna</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1314"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Ajusta les línies a l&apos;editor SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>Highlight current query</source>
         <translation>Ressalta la consulta actual</translation>
     </message>
@@ -1476,57 +1476,57 @@
         <translation>Obre sempre el tauler d&apos;estat quan s&apos;imprimeixi un missatge nou</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1501"/>
         <source>Code syntax colors</source>
         <translation>Colors de sintaxi del codi</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1687"/>
         <source>Keyword foreground</source>
         <translation>Primer pla de paraula clau</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1507"/>
         <source>Regular foreground</source>
         <translation>Primer pla normal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1597"/>
         <source>String foreground</source>
         <translation>Primer pla de cadena</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1867"/>
         <source>Comment foreground</source>
         <translation>Primer pla de comentari</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1957"/>
         <source>Valid objects foreground</source>
         <translation>Primer pla d&apos;objectes vàlids</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2268"/>
         <source>Current query background</source>
         <translation>Fons de la consulta actual</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2137"/>
         <source>Bind parameter foreground</source>
         <translation>Primer pla de paràmetre vinculat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2227"/>
         <source>Current line background</source>
         <translation>Fons de la línia actual</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2312"/>
         <source>Matched parenthesis background</source>
         <translation>Fons de parèntesi coincident</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2296"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Podeu desactivar completament el ressaltat de la consulta actual a la pàgina de configuració general.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1621,12 +1621,12 @@
         <translation>Renderitzador</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1347"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Quan hi ha diverses consultes, executa només la consulta sota el cursor.&lt;br/&gt;Quan està desactivat, s&apos;executen totes les consultes.&lt;br/&gt;També podeu executar consultes seleccionades o utilitzar dreceres (%1 per a una, %2 per a totes).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1334"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ressalta la consulta sota el cursor: la mateixa consulta que s&apos;executarà en utilitzar &lt;span style=&quot; font-style:italic;&quot;&gt;Executa la consulta&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -1716,319 +1716,329 @@
         <translation>Elimina els missatges més antics</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1243"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1246"/>
+        <source>Show occasional project support reminders</source>
+        <translation type="unfinished">Show occasional project support reminders</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="1282"/>
+        <location filename="../dialogs/configdialog.ui" line="1298"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Especifica el nombre màxim de decimals mostrats per al temps d&apos;execució de la consulta. Es poden configurar fins a 9 dígits (nanosegons). Els zeros finals es retallen automàticament.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1285"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Precisió del temps d&apos;execució (decimals)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si està activat, les línies més llargues que l&apos;amplada de l&apos;editor s&apos;ajustaran, de manera que no caldrà el desplaçament horitzontal.&lt;/p&gt;&lt;p&gt;Aquesta opció defineix el valor per defecte global, mentre que les finestres individuals de l&apos;editor SQL el poden sobreescriure localment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Disable blinking text cursor</source>
         <translation>Desactiva el cursor de text intermitent</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Activa l&apos;assistent després d&apos;escriure un punt</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Quan està activat, invocar la compleció de codi en un editor buit mostra primer els fragments de codi en lloc dels suggeriments de sintaxi. Tornar a invocar la compleció de codi canvia als suggeriments de sintaxi (i viceversa).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1385"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Preferir fragments en un editor buit</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1398"/>
         <source>History</source>
         <translation>Historial</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1407"/>
         <source>Query history size:</source>
         <translation>Mida de l&apos;historial de consultes:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1433"/>
+        <location filename="../dialogs/configdialog.ui" line="1443"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Nombre màxim de paràmetres de consulta (:param, @param, $param, ?) emmagatzemats a l&apos;historial. Quan reutilitzeu un paràmetre amb el mateix nom/posició, Letos el preinicialitzarà amb el valor memoritzat més recent (encara el podreu canviar). Un valor de 1000 hauria de ser suficient.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1777"/>
         <source>Number foreground</source>
         <translation>Primer pla de nombres</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="2047"/>
         <source>BLOB value foreground</source>
         <translation>Primer pla de valors BLOB</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2353"/>
         <source>Matched parenthesis foreground</source>
         <translation>Primer pla de parèntesis coincidents</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2461"/>
+        <location filename="../dialogs/configdialog.ui" line="2569"/>
         <source>Reset to defaults</source>
         <translation>Restableix els valors predeterminats</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2487"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Filtra dreceres per nom o combinació de tecles</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2531"/>
         <source>Action</source>
         <translation>Acció</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2536"/>
         <source>Key combination</source>
         <translation>Combinació de tecles</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="2610"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2616"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Cal reiniciar l&apos;aplicació perquè el canvi d&apos;idioma tingui efecte.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2636"/>
         <source>Compact layout</source>
         <translation>Disposició compacta</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2642"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;La disposició compacta redueix al mínim tots els marges i espais de la interfície, fent lloc per mostrar més dades. Fa que la interfície sigui una mica menys estètica, però permet mostrar més dades alhora.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2645"/>
         <source>Use compact layout</source>
         <translation>Usa la disposició compacta</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2661"/>
         <source>Main window dock areas</source>
         <translation>Àrees d&apos;acoblament de la finestra principal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2667"/>
         <source>Left and right areas occupy corners</source>
         <translation>Les àrees esquerra i dreta ocupen les cantonades</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2687"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Les àrees superior i inferior ocupen les cantonades</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2707"/>
         <source>Toolbars</source>
         <translation>Barres d&apos;eines</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2713"/>
+        <location filename="../dialogs/configdialog.ui" line="2723"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressat en percentatge de la mida predeterminada.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
+        <location filename="../dialogs/configdialog.ui" line="2716"/>
         <source>Icon size</source>
         <translation>Mida de la icona</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2841"/>
         <source>Hide built-in plugins</source>
         <translation>Amaga els connectors integrats</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2870"/>
         <source>Current style:</source>
         <translation>Estil actual:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2887"/>
         <source>Preview</source>
         <translation>Vista prèvia</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2897"/>
         <source>Enabled</source>
         <translation>Activat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3073"/>
         <source>Disabled</source>
         <translation>Desactivat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Active formatter plugin</source>
         <translation>Connector formatador actiu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3160"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Consell:&lt;/span&gt; A més de la configuració disponible aquí, les mides de lletra també es poden ajustar dinàmicament en la majoria d&apos;elements de la interfície mantenint premuda la tecla &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; i desplaçant la &lt;span style=&quot; font-weight:700;&quot;&gt;roda del ratolí&lt;/span&gt; sobre l&apos;element del qual voleu canviar la mida de lletra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3179"/>
         <source>SQL editor font</source>
         <translation>Tipus de lletra de l&apos;editor SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3195"/>
         <source>Database list font</source>
         <translation>Tipus de lletra de la llista de bases de dades</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3211"/>
         <source>Database list additional label font</source>
         <translation>Tipus de lletra de l&apos;etiqueta addicional de la llista de bases de dades</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3227"/>
         <source>Data view font</source>
         <translation>Tipus de lletra de la vista de dades</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3243"/>
         <source>Status field font</source>
         <translation>Tipus de lletra del camp d&apos;estat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1369"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Si aquesta opció està activada, l&apos;assistent de codi s&apos;activarà en casos en què l&apos;usuari escrigui, per exemple, &lt;span style=&quot; font-weight:700;&quot;&gt;nomTaula.&lt;/span&gt; per proposar columnes de la taula. Si l&apos;opció està desactivada, l&apos;usuari haurà de prémer explícitament la tecla d&apos;accés ràpid de l&apos;assistent.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1119"/>
+        <location filename="../dialogs/configdialog.cpp" line="1122"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Descripció:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1120"/>
+        <location filename="../dialogs/configdialog.cpp" line="1123"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Categoria:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1121"/>
+        <location filename="../dialogs/configdialog.cpp" line="1124"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Versió:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="1125"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Autor:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1127"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Nom intern:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1128"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Dependències:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1126"/>
+        <location filename="../dialogs/configdialog.cpp" line="1129"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Conflictes:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1130"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Fitxer:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1132"/>
+        <location filename="../dialogs/configdialog.cpp" line="1135"/>
         <source>Plugin details</source>
         <translation>Detalls del connector</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1753"/>
+        <location filename="../dialogs/configdialog.cpp" line="1756"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Els connectors es carreguen/descarreguen immediatament quan es marquen/desmarquen, però la llista modificada de connectors que s&apos;han de carregar a l&apos;inici no es desa fins que confirmeu tot el diàleg de configuració.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1811"/>
+        <location filename="../dialogs/configdialog.cpp" line="1814"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (integrat)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1853"/>
+        <location filename="../dialogs/configdialog.cpp" line="1856"/>
         <source>Details</source>
         <translation>Detalls</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1867"/>
+        <location filename="../dialogs/configdialog.cpp" line="1870"/>
         <source>No plugins in this category.</source>
         <translation>No hi ha connectors en aquesta categoria.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1967"/>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="1970"/>
+        <location filename="../dialogs/configdialog.cpp" line="1999"/>
         <source>Add new data type</source>
         <translation>Afegeix un tipus de dades nou</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1971"/>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="1974"/>
+        <location filename="../dialogs/configdialog.cpp" line="2003"/>
         <source>Rename selected data type</source>
         <translation>Canvia el nom del tipus de dades seleccionat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1975"/>
-        <location filename="../dialogs/configdialog.cpp" line="2004"/>
+        <location filename="../dialogs/configdialog.cpp" line="1978"/>
+        <location filename="../dialogs/configdialog.cpp" line="2007"/>
         <source>Delete selected data type</source>
         <translation>Suprimeix el tipus de dades seleccionat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2088"/>
+        <location filename="../dialogs/configdialog.cpp" line="2091"/>
         <source>Clear hotkey for this action</source>
         <translation>Esborra la tecla d&apos;accés ràpid per a aquesta acció</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2100"/>
+        <location filename="../dialogs/configdialog.cpp" line="2103"/>
         <source>Restore original hotkey for this action</source>
         <translation>Restaura la tecla d&apos;accés ràpid original per a aquesta acció</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2142"/>
+        <location filename="../dialogs/configdialog.cpp" line="2145"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Aquí podeu configurar els colors per al ressaltat de sintaxi del codi. Es comparteixen entre diferents llenguatges: no només per a SQL, sinó també JavaScript i altres. Per defecte s&apos;utilitza un color basat en el tema. Per definir el vostre propi color, activeu un color personalitzat seleccionant una casella al costat d&apos;un color concret.</translation>
     </message>
@@ -3320,270 +3330,270 @@ Introduïu un nom nou i únic, o premeu &apos;%1&apos; per interrompre l&apos;op
         <translation>Historial</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="200"/>
-        <location filename="../windows/editorwindow.cpp" line="202"/>
+        <location filename="../windows/editorwindow.cpp" line="203"/>
+        <location filename="../windows/editorwindow.cpp" line="205"/>
         <source>SQL editor %1</source>
         <translation>Editor SQL %1</translation>
     </message>
     <message>
         <location filename="../windows/editorwindow.ui" line="99"/>
-        <location filename="../windows/editorwindow.cpp" line="417"/>
+        <location filename="../windows/editorwindow.cpp" line="420"/>
         <source>Results</source>
         <translation>Resultats</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="468"/>
+        <location filename="../windows/editorwindow.cpp" line="471"/>
         <source>Execute query</source>
         <translation>Executa la consulta</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="469"/>
+        <location filename="../windows/editorwindow.cpp" line="472"/>
         <source>Explain query</source>
         <translation>Explica la consulta</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="490"/>
+        <location filename="../windows/editorwindow.cpp" line="493"/>
         <source>Clear execution history</source>
         <comment>sql editor</comment>
         <translation>Esborra l&apos;historial d&apos;execució</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="496"/>
+        <location filename="../windows/editorwindow.cpp" line="499"/>
         <source>Focus results on the same tab</source>
         <comment>sql editor</comment>
         <translation>Enfoca els resultats a la mateixa pestanya</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="497"/>
+        <location filename="../windows/editorwindow.cpp" line="500"/>
         <source>Focus SQL editor on the same tab</source>
         <comment>sql editor</comment>
         <translation>Enfoca l&apos;editor SQL a la mateixa pestanya</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="502"/>
+        <location filename="../windows/editorwindow.cpp" line="505"/>
         <source>Export results</source>
         <comment>sql editor</comment>
         <translation>Exporta els resultats</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="484"/>
+        <location filename="../windows/editorwindow.cpp" line="487"/>
         <source>Create view from query</source>
         <comment>sql editor</comment>
         <translation>Crea una vista a partir de la consulta</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
+        <location filename="../windows/editorwindow.cpp" line="474"/>
         <source>Commit</source>
         <translation>Confirma</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
+        <location filename="../windows/editorwindow.cpp" line="475"/>
         <source>Rollback</source>
         <translation>Reverteix</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="486"/>
+        <location filename="../windows/editorwindow.cpp" line="489"/>
         <source>Previous database</source>
         <translation>Base de dades anterior</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="487"/>
+        <location filename="../windows/editorwindow.cpp" line="490"/>
         <source>Next database</source>
         <translation>Base de dades següent</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="491"/>
+        <location filename="../windows/editorwindow.cpp" line="494"/>
         <source>Export execution history</source>
         <comment>sql editor</comment>
         <translation>Exporta l&apos;historial d&apos;execució</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="494"/>
+        <location filename="../windows/editorwindow.cpp" line="497"/>
         <source>Show next tab</source>
         <comment>sql editor</comment>
         <translation>Mostra la pestanya següent</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="495"/>
+        <location filename="../windows/editorwindow.cpp" line="498"/>
         <source>Show previous tab</source>
         <comment>sql editor</comment>
         <translation>Mostra la pestanya anterior</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="498"/>
+        <location filename="../windows/editorwindow.cpp" line="501"/>
         <source>Export selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Exporta les entrades seleccionades de l&apos;historial SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="499"/>
+        <location filename="../windows/editorwindow.cpp" line="502"/>
         <source>Delete selected SQL history entries</source>
         <comment>sql editor</comment>
         <translation>Suprimeix les entrades seleccionades de l&apos;historial SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="500"/>
+        <location filename="../windows/editorwindow.cpp" line="503"/>
         <source>Execute single query under cursor</source>
         <translation>Executa la consulta individual sota el cursor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="501"/>
+        <location filename="../windows/editorwindow.cpp" line="504"/>
         <source>Execute all queries in editor</source>
         <translation>Executa totes les consultes de l&apos;editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="522"/>
+        <location filename="../windows/editorwindow.cpp" line="525"/>
         <source>Results layout: Separate tab</source>
         <comment>sql editor</comment>
         <translation>Disposició dels resultats: pestanya separada</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="523"/>
+        <location filename="../windows/editorwindow.cpp" line="526"/>
         <source>Results layout: Below editor</source>
         <comment>sql editor</comment>
         <translation>Disposició dels resultats: sota l&apos;editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="524"/>
+        <location filename="../windows/editorwindow.cpp" line="527"/>
         <source>Results layout: Right of editor</source>
         <comment>sql editor</comment>
         <translation>Disposició dels resultats: a la dreta de l&apos;editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="539"/>
-        <location filename="../windows/editorwindow.cpp" line="540"/>
+        <location filename="../windows/editorwindow.cpp" line="542"/>
+        <location filename="../windows/editorwindow.cpp" line="543"/>
         <source>Explain mode: %1</source>
         <comment>sql editor</comment>
         <translation>Mode Explain: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="560"/>
+        <location filename="../windows/editorwindow.cpp" line="563"/>
         <source>Auto-commit queries</source>
         <comment>sql editor</comment>
         <translation>Confirma automàticament les consultes</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="577"/>
+        <location filename="../windows/editorwindow.cpp" line="580"/>
         <source>Editor window settings</source>
         <comment>sql editor</comment>
         <translation>Configuració de la finestra de l&apos;editor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="625"/>
+        <location filename="../windows/editorwindow.cpp" line="628"/>
         <source>Active database (%1/%2)</source>
         <translation>Base de dades activa (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="776"/>
+        <location filename="../windows/editorwindow.cpp" line="777"/>
         <source>Save to file</source>
         <translation>Desa a un fitxer</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="787"/>
+        <location filename="../windows/editorwindow.cpp" line="788"/>
         <source>Could not open file &apos;%1&apos; for writing: %2</source>
         <translation>No s&apos;ha pogut obrir el fitxer &apos;%1&apos; per escriure-hi: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="807"/>
+        <location filename="../windows/editorwindow.cpp" line="808"/>
         <source>Saved SQL contents to file: %1</source>
         <translation>S&apos;ha desat el contingut SQL al fitxer: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="830"/>
+        <location filename="../windows/editorwindow.cpp" line="831"/>
         <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
         <translation>No s&apos;ha pogut canviar journal_mode a WAL. El mode de confirmació manual no està disponible. Error: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="841"/>
+        <location filename="../windows/editorwindow.cpp" line="842"/>
         <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
         <translation>No s&apos;ha pogut obrir una connexió nova a la base de dades. No s&apos;activarà el mode de confirmació manual. Error: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="844"/>
+        <location filename="../windows/editorwindow.cpp" line="845"/>
         <source>The joirnal_mode will be switched back to %1.</source>
         <translation>El journal_mode es tornarà a canviar a %1.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="968"/>
+        <location filename="../windows/editorwindow.cpp" line="969"/>
         <source>Query finished in %1 second(s). Rows affected: %2</source>
         <translation>Consulta acabada en %1 segon(s). Files afectades: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="972"/>
+        <location filename="../windows/editorwindow.cpp" line="973"/>
         <source>Query finished in %1 second(s).</source>
         <translation>Consulta acabada en %1 segon(s).</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Clear execution history</source>
         <translation>Esborra l&apos;historial d&apos;execució</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1103"/>
+        <location filename="../windows/editorwindow.cpp" line="1104"/>
         <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
         <translation>Segur que voleu esborrar tot l&apos;historial d&apos;execució SQL? Això no es pot desfer.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1141"/>
+        <location filename="../windows/editorwindow.cpp" line="1142"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>No es pot exportar perquè no hi ha cap connector d&apos;exportació carregat.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1169"/>
+        <location filename="../windows/editorwindow.cpp" line="1170"/>
         <source>Query auto-commit is now enabled in: %1</source>
         <comment>sql editor</comment>
         <translation>La confirmació automàtica de consultes ara està activada a: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1171"/>
+        <location filename="../windows/editorwindow.cpp" line="1172"/>
         <source>Query auto-commit is now disabled in: %1</source>
         <comment>sql editor</comment>
         <translation>La confirmació automàtica de consultes ara està desactivada a: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1229"/>
-        <location filename="../windows/editorwindow.cpp" line="1233"/>
+        <location filename="../windows/editorwindow.cpp" line="1230"/>
+        <location filename="../windows/editorwindow.cpp" line="1234"/>
         <source>Apply changes to the transaction</source>
         <translation>Aplica els canvis a la transacció</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1230"/>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
+        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1235"/>
         <source>Discard changes in data view</source>
         <translation>Descarta els canvis de la vista de dades</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1231"/>
+        <location filename="../windows/editorwindow.cpp" line="1232"/>
         <source>Apply selected changes to the transaction</source>
         <translation>Aplica els canvis seleccionats a la transacció</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1232"/>
+        <location filename="../windows/editorwindow.cpp" line="1233"/>
         <source>Discard changes in selected cells</source>
         <translation>Descarta els canvis a les cel·les seleccionades</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1273"/>
+        <location filename="../windows/editorwindow.cpp" line="1274"/>
         <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
         <translation>No es pot canviar de base de dades mentre hi ha una transacció manual pendent. Confirmeu o revertiu la transacció abans de canviar de base de dades.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1313"/>
+        <location filename="../windows/editorwindow.cpp" line="1314"/>
         <source>Manual transaction committed successfully.</source>
         <translation>La transacció manual s&apos;ha confirmat correctament.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1342"/>
+        <location filename="../windows/editorwindow.cpp" line="1343"/>
         <source>Manual transaction rolled back.</source>
         <translation>La transacció manual s&apos;ha revertit.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1385"/>
+        <location filename="../windows/editorwindow.cpp" line="1386"/>
         <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
         <translation>No hi ha cap base de dades seleccionada a l&apos;editor SQL. No es pot crear una vista per a una base de dades desconeguda.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1435"/>
+        <location filename="../windows/editorwindow.cpp" line="1436"/>
         <source>Editor window &quot;%1&quot; has uncommitted data.</source>
         <translation>La finestra de l&apos;editor &quot;%1&quot; té dades no confirmades.</translation>
     </message>
@@ -4896,13 +4906,13 @@ Introduïu un nom nou i únic, o premeu &apos;%1&apos; per interrompre l&apos;op
         <translation>&amp;Estructura</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="759"/>
+        <location filename="../mainwindow.cpp" line="766"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
         <translation>&amp;Visualitza</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1379"/>
+        <location filename="../mainwindow.cpp" line="1450"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
         <translation>El fitxer arrossegat sembla ser una base de dades SQLite 2, que no és compatible amb aquesta versió de Letos. L&apos;última versió compatible amb SQLite 2 va ser la 3.2.1.</translation>
     </message>
@@ -4955,115 +4965,120 @@ Introduïu un nom nou i únic, o premeu &apos;%1&apos; per interrompre l&apos;op
         <translation>&amp;Ajuda</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="696"/>
+        <location filename="../mainwindow.cpp" line="703"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
         <translation>No s&apos;ha pogut establir l&apos;estil: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="933"/>
+        <location filename="../mainwindow.cpp" line="940"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>No es pot exportar perquè no s&apos;ha carregat cap connector d&apos;exportació.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="950"/>
+        <location filename="../mainwindow.cpp" line="957"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>No es pot importar perquè no s&apos;ha carregat cap connector d&apos;importació.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Rename window</source>
         <translation>Canvia el nom de la finestra</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="993"/>
+        <location filename="../mainwindow.cpp" line="1000"/>
         <source>Enter new name for the window:</source>
         <translation>Introduïu un nom nou per a la finestra:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1095"/>
+        <location filename="../mainwindow.cpp" line="1110"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
         <translation>Hi ha actualitzacions noves disponibles. &lt;a href=&quot;%1&quot;&gt;Feu clic aquí per als detalls&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1101"/>
+        <location filename="../mainwindow.cpp" line="1116"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
         <translation>Teniu instal·lada l&apos;última versió. No hi ha actualitzacions disponibles.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1185"/>
+        <location filename="../mainwindow.cpp" line="1171"/>
+        <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
+        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="1256"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
         <translation>&amp;Icones de la barra d&apos;eines</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1192"/>
+        <location filename="../mainwindow.cpp" line="1263"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
         <translation>Mida: %1%</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1280"/>
+        <location filename="../mainwindow.cpp" line="1351"/>
         <source>Drop files to open them</source>
         <translation>Deixeu anar fitxers per obrir-los</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1382"/>
+        <location filename="../mainwindow.cpp" line="1453"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
         <translation>El tipus de fitxer arrossegat no és compatible: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1392"/>
+        <location filename="../mainwindow.cpp" line="1463"/>
         <source>SQLite 3 database - add to database list and open</source>
         <translation>Base de dades SQLite 3: afegeix a la llista de bases de dades i obre</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1394"/>
+        <location filename="../mainwindow.cpp" line="1465"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
         <translation>Pot ser una base de dades SQLite 3 xifrada. Podeu provar d&apos;obrir-la.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1396"/>
+        <location filename="../mainwindow.cpp" line="1467"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
         <translation>Fitxer buit, però també base de dades SQLite 3 buida: obre com a base de dades</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1398"/>
+        <location filename="../mainwindow.cpp" line="1469"/>
         <source>SQL file - open in SQL Editor</source>
         <translation>Fitxer SQL: obre a l&apos;editor SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1400"/>
+        <location filename="../mainwindow.cpp" line="1471"/>
         <source>Text file - open in SQL Editor</source>
         <translation>Fitxer de text: obre a l&apos;editor SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1402"/>
+        <location filename="../mainwindow.cpp" line="1473"/>
         <source>CSV file - import using Import Dialog</source>
         <translation>Fitxer CSV: importa usant el diàleg d&apos;importació</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1404"/>
+        <location filename="../mainwindow.cpp" line="1475"/>
         <source>SQLite 2 database - not supported anymore</source>
         <translation>Base de dades SQLite 2: ja no és compatible</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1406"/>
+        <location filename="../mainwindow.cpp" line="1477"/>
         <source>Unsupported file type</source>
         <translation>Tipus de fitxer no compatible</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1505"/>
+        <location filename="../mainwindow.cpp" line="1576"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
         <translation>La base de dades passada en els paràmetres de la línia d&apos;ordres (%1) ja era a la llista amb el nom: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1512"/>
+        <location filename="../mainwindow.cpp" line="1583"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
         <translation>La base de dades passada en els paràmetres de la línia d&apos;ordres (%1) s&apos;ha afegit temporalment a la llista amb el nom: %2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1517"/>
+        <location filename="../mainwindow.cpp" line="1588"/>
         <source>Could not add database %1 to list.</source>
         <translation>No s&apos;ha pogut afegir la base de dades %1 a la llista.</translation>
     </message>
@@ -6206,7 +6221,7 @@ Introduïu un nom nou i únic, o premeu &apos;%1&apos; per interrompre l&apos;op
         <translation>Disminueix la mida de la lletra</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="778"/>
+        <location filename="../windows/editorwindow.cpp" line="779"/>
         <source>All files</source>
         <translation>Tots els fitxers</translation>
     </message>
@@ -6221,7 +6236,7 @@ Introduïu un nom nou i únic, o premeu &apos;%1&apos; per interrompre l&apos;op
         <translation>Seleccioneu el fitxer de base de dades nou</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="777"/>
+        <location filename="../windows/editorwindow.cpp" line="778"/>
         <source>SQL files</source>
         <translation>Fitxers SQL</translation>
     </message>
@@ -7084,121 +7099,121 @@ cerca el següent</translation>
     <name>SqlQueryModel</name>
     <message>
         <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="723"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
         <source>Only one query can be executed simultaneously.</source>
         <translation>Només es pot executar una consulta simultàniament.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="110"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
         <source>Cannot execute query on undefined or invalid database.</source>
         <translation>No es pot executar la consulta en una base de dades no definida o no vàlida.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="117"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
         <source>Cannot execute empty query.</source>
         <translation>No es pot executar una consulta buida.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="125"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
         <source>Uncommitted data</source>
         <translation>Dades no confirmades</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
         <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
         <translation>Hi ha canvis de dades no confirmats. Voleu continuar igualment? Es perdran tots els canvis no confirmats.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="598"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
         <source>Cannot commit the data for a cell that refers to the already closed database.</source>
         <translation>No es poden confirmar les dades d&apos;una cel·la que fa referència a la base de dades ja tancada.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="618"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
         <source>Could not begin transaction on the database. Details: %1</source>
         <translation>No s&apos;ha pogut iniciar una transacció a la base de dades. Detalls: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="651"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
         <source>An error occurred while committing the transaction: %1</source>
         <translation>S&apos;ha produït un error en confirmar la transacció: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="684"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
         <source>An error occurred while rolling back the transaction: %1</source>
         <translation>S&apos;ha produït un error en revertir la transacció: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="896"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
         <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
         <translation>S&apos;ha intentat confirmar una cel·la que no és editable (però que ha estat modificada i espera confirmació)! Això és un error. Informeu-ne, si us plau.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="922"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
         <source>An error occurred while committing the data: %1</source>
         <translation>S&apos;ha produït un error en confirmar les dades: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1056"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
         <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
         <translation>El nombre de files per pàgina s&apos;ha reduït a %1 a causa del nombre de columnes (%2) a la vista de dades.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1465"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1481"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1530"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
         <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
         <translation>Error en executar la consulta SQL a la base de dades &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1527"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
         <source>Error while loading query results: %1</source>
         <translation>Error en carregar els resultats de la consulta: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1694"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
         <source>There are less columns in the new query, sort order has been reset.</source>
         <translation>Hi ha menys columnes a la consulta nova; s&apos;ha restablert l&apos;ordre d&apos;ordenació.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Insert multiple rows</source>
         <translation>Insereix diverses files</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2023"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
         <source>Number of rows to insert:</source>
         <translation>Nombre de files a inserir:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
         <source>Delete rows</source>
         <translation>Suprimeix files</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Esteu a punt de suprimir files acabades d&apos;inserir que encara no s’han confirmat. Números de fila: %1
 Aquesta supressió serà permanent. Segur que voleu suprimir-les?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2208"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>Un sol clic ordena per la columna.&lt;br&gt;Alt+clic selecciona les dades de la columna.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2210"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>Un sol clic selecciona les dades de la columna.&lt;br&gt;Doble clic ordena per la columna.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
         <source>Middle-click resets sorting.</source>
         <translation>El clic central restableix l&apos;ordenació.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
         <source>More options are available in the context menu.</source>
         <translation>Hi ha més opcions disponibles al menú contextual.</translation>
     </message>
@@ -7616,12 +7631,12 @@ Aquesta supressió serà permanent. Segur que voleu suprimir-les?</translation>
         <translation>Estat</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="211"/>
+        <location filename="../statusfield.cpp" line="190"/>
         <source>Copy</source>
         <translation>Copia</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="218"/>
+        <location filename="../statusfield.cpp" line="197"/>
         <source>Clear</source>
         <translation>Neteja</translation>
     </message>
