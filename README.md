@@ -14,16 +14,24 @@ This project was previously known as SQLiteStudio. The name was changed to avoid
 - Legacy versions (2.x.x) & Windows development dependencies [can be found here](https://www.dropbox.com/sh/iyilxtepgswpdlm/AADmYlJ4QRYWn_eo9u4fPn0Aa?dl=0).
 - Free code signing for Windows provided by <a href="https://signpath.io/">SignPath.io</a>, certificate by <a href="https://signpath.org/">SignPath Foundation</a>. 
 
+## Suppor the project
+Letos is free to use, including in commercial environments.
+If it helps you or your team save time, consider supporting the project.
+
+![Free for everyone](https://img.shields.io/badge/Free%20for%20everyone-888)
+![Open source](https://img.shields.io/badge/Open%20source-888)
+![No paid edition](https://img.shields.io/badge/No%20paid%20edition-888)
+![No telemetry](https://img.shields.io/badge/No%20telemetry-888)
+
+https://letos.org/donate/
+
+
 ## Want to contribute?
 https://github.com/pawelsalawa/letos/wiki/How_can_I_contribute?
 
 
-## Want to donate?
-https://sqlitestudio.pl/donate/
-
-
 ## Home page
-https://sqlitestudio.pl/
+https://letos.org
 
 
 ## Compilation from sources

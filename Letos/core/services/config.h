@@ -34,21 +34,30 @@ CFG_CATEGORIES(Core,
         CFG_ENTRY(bool,         PreferMasterOverSchema,   false)
     )
     CFG_CATEGORY(Console,
-        CFG_ENTRY(int,          HistorySize,             100)
+        CFG_ENTRY(int,          HistorySize,              100)
     )
     CFG_CATEGORY(Internal,
-        CFG_ENTRY(QVariantList, Collations,              QVariantList())
-        CFG_ENTRY(QVariantList, Extensions,              QVariantList())
-        CFG_ENTRY(QVariantList, CodeSnippets,            QVariantList())
-        CFG_ENTRY(QString,      BugReportUser,           QString())
-        CFG_ENTRY(QString,      BugReportPassword,       QString())
-        CFG_ENTRY(QString,      BugReportRecentTitle,    QString())
-        CFG_ENTRY(QString,      BugReportRecentContents, QString())
-        CFG_ENTRY(bool,         BugReportRecentError,    false)
-        CFG_ENTRY(bool,         DefaultSnippetsCreated,  false)
+        CFG_ENTRY(QVariantList, Collations,               QVariantList())
+        CFG_ENTRY(QVariantList, Extensions,               QVariantList())
+        CFG_ENTRY(QVariantList, CodeSnippets,             QVariantList())
+        CFG_ENTRY(QString,      BugReportUser,            QString())
+        CFG_ENTRY(QString,      BugReportPassword,        QString())
+        CFG_ENTRY(QString,      BugReportRecentTitle,     QString())
+        CFG_ENTRY(QString,      BugReportRecentContents,  QString())
+        CFG_ENTRY(bool,         BugReportRecentError,     false)
+        CFG_ENTRY(bool,         DefaultSnippetsCreated,   false)
     )
     CFG_CATEGORY(CodeAssistant,
-        CFG_ENTRY(bool,         AutoTrigger,             true)
+        CFG_ENTRY(bool,         AutoTrigger,              true)
+    )
+    CFG_CATEGORY(SupportReminder,
+        CFG_ENTRY(bool,         ShowOccasional,           true)
+#ifdef SUPPORT_REMINDERS
+        CFG_ENTRY(int,          LaunchCount,              0)
+        CFG_ENTRY(QDate,        FirstLaunchDate,          QDate())
+        CFG_ENTRY(QDate,        LastShown,                QDate())
+        CFG_ENTRY(QDate,        LastClicked,              QDate())
+#endif
     )
 )
 

@@ -21,6 +21,7 @@ option(WITH_GUI "Build GUI application" ON)
 
 option(WITH_PORTABLE "Create portable bundle" ${WITH_PORTABLE_DEFAULT})
 option(WITH_UPDATER "Enable update manager" ${WITH_PORTABLE})
+option(WITH_SUPPORT_REMINDERS "Enable occasional support reminders" ON)
 option(WITH_SHARED_RES "Install resources as separate files (distro packaging only)" OFF)
 
 if(NOT WITH_CLI AND NOT WITH_GUI)

@@ -373,6 +373,7 @@ set(PROJECT_SOURCES
     commandpalette/cpglobalactionsprovider.cpp
     common/htmlbutton.cpp
 )
+
 qt_add_resources(PROJECT_SOURCES
     gui.qrc
 )
@@ -381,6 +382,7 @@ if(NOT WITH_SHARED_RES)
         icons.qrc
     )
 endif()
+
 qt_wrap_ui(PROJECT_SOURCES
     common/fontedit.ui
     completer/completerwindow.ui

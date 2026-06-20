@@ -256,6 +256,9 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         void handleExternalDragEnter(const QStringList& filePaths);
         void handleExternalDragLeave();
         QString dropDescriptionByFileType(const DropFileContext& ctx);
+#ifdef SUPPORT_REMINDERS
+        void checkForSupportReminder();
+#endif
 
         static bool confirmQuit(const QList<Committable*>& instances);
 
@@ -264,6 +267,9 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         static bool sessionRestoringFinished;
         static constexpr int closedWindowsStackSize = 20;
         static_char* openUpdatesUrl = "open_updates://";
+#ifdef SUPPORT_REMINDERS
+        static_char* showDonateUrl = "open_donate://";
+#endif
         static constexpr int saveSessionDelayMs = 500;
 
         Ui::MainWindow *ui = nullptr;

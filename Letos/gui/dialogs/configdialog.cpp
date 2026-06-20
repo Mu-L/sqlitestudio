@@ -387,6 +387,9 @@ void ConfigDialog::init()
 #ifndef HAS_UPDATEMANAGER
     ui->updatesGroup->setVisible(false);
 #endif
+#ifndef SUPPORT_REMINDERS
+    ui->supportRemindersCheck->setVisible(false);
+#endif
 
     resettingColors = true;
     load();

@@ -93,6 +93,12 @@ function(letos_set_output_properties target)
         )
     endif()
 
+    if(WITH_SUPPORT_REMINDERS)
+        target_compile_definitions(${target} PUBLIC
+            SUPPORT_REMINDERS
+        )
+    endif()
+
     if(WITH_PORTABLE)
         target_compile_definitions(${target} PUBLIC
             PORTABLE_CONFIG

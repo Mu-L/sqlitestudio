@@ -553,6 +553,9 @@ void MainWindow::restoreSession()
     auto cleanup = qScopeGuard([this]
     {
         sessionRestoringFinished = true;
+#ifdef SUPPORT_REMINDERS
+        checkForSupportReminder();
+#endif
         if (statusField->hasMessages())
             statusField->setVisible(true);
 
@@ -1074,6 +1077,14 @@ void MainWindow::statusFieldLinkClicked(const QString& link)
         return;
     }
 #endif
+#ifdef SUPPORT_REMINDERS
+    if (link == showDonateUrl)
+    {
+        CFG_CORE.SupportReminder.LastClicked.set(QDate::currentDate());
+        QDesktopServices::openUrl(LETOS->getDonatePage());
+        return;
+    }
+#endif
 }
 
 void MainWindow::quit()
@@ -1111,14 +1122,70 @@ void MainWindow::checkForUpdates()
 }
 #endif
 
+#ifdef SUPPORT_REMINDERS
+void MainWindow::checkForSupportReminder()
+{
+    static const int FIRST_DISPLAY_DAYS = 100;
+    static const int MIN_LAUNCHES = 30;
+    static const int REPEAT_DAYS = 180;
+    static const int AFTER_CLICK_DAYS = 365;
+
+    QDate today = QDate::currentDate();
+    auto& reminderCfg = CFG_CORE.SupportReminder;
+
+    QDate firstLaunch = reminderCfg.FirstLaunchDate.get();
+    if (!firstLaunch.isValid())
+    {
+        firstLaunch = today;
+        reminderCfg.FirstLaunchDate.set(firstLaunch);
+    }
+
+    static bool alreadyCountedInThisProcess = false;
+    int launchCount = reminderCfg.LaunchCount.get();
+    if (!alreadyCountedInThisProcess)
+    {
+        launchCount++;
+        reminderCfg.LaunchCount.set(launchCount);
+        alreadyCountedInThisProcess = true;
+    }
+
+    if (!reminderCfg.ShowOccasional.get())
+        return;
+
+    bool oldEnough = firstLaunch.isValid() && firstLaunch.daysTo(today) >= FIRST_DISPLAY_DAYS;
+    bool enoughLaunches = launchCount >= MIN_LAUNCHES;
+
+    if (!oldEnough || !enoughLaunches)
+        return;
+
+    QDate lastClicked = reminderCfg.LastClicked.get();
+    if (lastClicked.isValid() && lastClicked.daysTo(today) < AFTER_CLICK_DAYS)
+        return;
+
+    QDate lastShown = reminderCfg.LastShown.get();
+    if (lastShown.isValid() && lastShown.daysTo(today) < REPEAT_DAYS)
+        return;
+
+    reminderCfg.LastShown.set(today);
+
+    QString message = tr("Letos is free and open source. If it helps with your work, consider <a href=\"%1\">supporting the project</a>.")
+            .arg(showDonateUrl);
+
+    QTimer::singleShot(1000, this, [message] {notifyInfo(message);});
+}
+#endif
+
 void MainWindow::updateCornerDocking()
 {
-    if (CFG_UI.General.DockLayout.get() == "vertical") {
+    if (CFG_UI.General.DockLayout.get() == "vertical")
+    {
         setCorner(Qt::TopLeftCorner, Qt::LeftDockWidgetArea);
         setCorner(Qt::BottomLeftCorner, Qt::LeftDockWidgetArea);
         setCorner(Qt::TopRightCorner, Qt::RightDockWidgetArea);
         setCorner(Qt::BottomRightCorner, Qt::RightDockWidgetArea);
-    } else {
+    }
+    else
+    {
         setCorner(Qt::TopLeftCorner, Qt::TopDockWidgetArea);
         setCorner(Qt::TopRightCorner, Qt::TopDockWidgetArea);
         setCorner(Qt::BottomLeftCorner, Qt::BottomDockWidgetArea);
