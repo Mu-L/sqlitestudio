@@ -110,6 +110,7 @@ jobs:
                 
                 for wname in ${WORKFLOWS[@]}
                 do
+                    echo "$SCRIPTS/run_workflow.sh $wname \"$inputs\" \"${{ github.ref_name }}\""
                     run_id=$($SCRIPTS/run_workflow.sh $wname "$inputs" "${{ github.ref_name }}")
                     run_ids+=( $run_id )
                 done
