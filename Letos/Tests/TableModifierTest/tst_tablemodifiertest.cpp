@@ -287,10 +287,10 @@ void TableModifierTest::testCase7()
     db->exec(ddl);
 
     Parser parser;
-    Q_ASSERT(parser.parse(ddl));
-    Q_ASSERT(parser.getQueries().size() > 0);
+    QVERIFY(parser.parse(ddl));
+    QVERIFY(parser.getQueries().size() > 0);
     SqliteCreateTablePtr localCreateTable = parser.getQueries().first().dynamicCast<SqliteCreateTable>();
-    Q_ASSERT(!createTable.isNull());
+    QVERIFY(!createTable.isNull());
 
 
     TableModifier mod(db, "abc");
@@ -333,10 +333,10 @@ void TableModifierTest::init()
     db->exec(mainTableDdl);
 
     Parser parser;
-    Q_ASSERT(parser.parse(mainTableDdl));
-    Q_ASSERT(parser.getQueries().size() > 0);
+    QVERIFY(parser.parse(mainTableDdl));
+    QVERIFY(parser.getQueries().size() > 0);
     createTable = parser.getQueries().first().dynamicCast<SqliteCreateTable>();
-    Q_ASSERT(!createTable.isNull());
+    QVERIFY(!createTable.isNull());
 }
 
 void TableModifierTest::cleanup()
