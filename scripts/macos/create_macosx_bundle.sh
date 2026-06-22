@@ -320,9 +320,22 @@ elif [ "$3" = "dist" ]; then
     DMG_FILE="Letos-$VERSION.dmg"
     if [ "$SIGN_MODE" = "developer-id" ]; then
         run codesign --force --timestamp --sign "$CODESIGN_IDENTITY" "$DMG_FILE"
-        run xcrun notarytool submit "$DMG_FILE" \
+        NOTARY_JSON="$(xcrun notarytool submit "$DMG_FILE" \
             --keychain-profile "$NOTARY_PROFILE" \
-            --wait
+            --wait \
+            --output-format json)"
+
+        echo "$NOTARY_JSON"
+
+        NOTARY_ID="$(echo "$NOTARY_JSON" | jq -r '.id')"
+        NOTARY_STATUS="$(echo "$NOTARY_JSON" | jq -r '.status')"
+
+        if [ "$NOTARY_STATUS" != "Accepted" ]; then
+            xcrun notarytool log "$NOTARY_ID" \
+                --keychain-profile "$NOTARY_PROFILE"
+            abort "Notarization failed: $NOTARY_STATUS"
+        fi
+
         run xcrun stapler staple "$DMG_FILE"
         run spctl --assess --type open --verbose "$DMG_FILE"
     fi
