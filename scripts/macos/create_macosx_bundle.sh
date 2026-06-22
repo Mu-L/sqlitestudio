@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 # shellcheck shell=dash disable=SC2006,SC3003
 set -e
 
@@ -35,6 +35,11 @@ cleanup() {
 
 trap cleanup EXIT INT TERM
 
+abort() { echo "ERROR: $@"; exit 1; }
+debug() { [ "$quiet" -gt 2 ] && echo "DEBUG: $@"; }
+info() { [ "$quiet" -gt 1 ] && echo "INFO: $@"; }
+run() { [ "$quiet" -gt 0 ] && { printf 'RUN: '; echo "'$@'"; }; "$@"; }
+
 SIGN_MODE="${SIGN_MODE:-adhoc}"
 CODESIGN_IDENTITY="${CODESIGN_IDENTITY:--}"
 
@@ -47,11 +52,6 @@ else
 fi
 
 NOTARY_PROFILE="${NOTARY_PROFILE:-letos-notary}"
-
-abort() { echo "ERROR: $@"; exit 1; }
-debug() { [ "$quiet" -gt 2 ] && echo "DEBUG: $@"; }
-info() { [ "$quiet" -gt 1 ] && echo "INFO: $@"; }
-run() { [ "$quiet" -gt 0 ] && { printf 'RUN: '; echo "'$@'"; }; "$@"; }
 
 codesign_app() {
     if [ "$SIGN_MODE" = "developer-id" ]; then

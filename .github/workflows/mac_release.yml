@@ -22,6 +22,11 @@ on:
             required: false
             type: boolean
             default: false
+          CODE_SIGN:
+            description: 'Sign artifacts with Apple Developer ID'
+            required: true
+            type: boolean
+            default: false
           debug_ssh:
             description: "Open SSH tunnel at the end"
             type: boolean
@@ -220,6 +225,7 @@ jobs:
                 chmod +x gh-scripts/scripts/*.sh
                 echo "GH_SCRIPTS=$(pwd)/gh-scripts/scripts" >> $GITHUB_ENV
                 echo "DEBUG=${{ inputs.DEBUG }}" >> $GITHUB_ENV
+                echo "CODE_SIGN=${{ inputs.CODE_SIGN }}" >> $GITHUB_ENV
 
             - name: Clone repo
               uses: actions/checkout@v6
@@ -342,10 +348,73 @@ jobs:
               run: |
                 cp -R ../ext output/Letos/Letos.app/Contents/extensions
 
+            - name: Import Apple Developer ID certificate
+              if: ${{ inputs.CODE_SIGN }}
+              shell: bash
+              env:
+                APPLE_CERTIFICATE_P12_BASE64: ${{ secrets.APPLE_CERTIFICATE_P12_BASE64 }}
+                APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+              run: |
+                set -euo pipefail
+
+                KEYCHAIN_PATH="$RUNNER_TEMP/app-signing.keychain-db"
+                CERT_PATH="$RUNNER_TEMP/developer-id.p12"
+                KEYCHAIN_PASSWORD="$(uuidgen)"
+
+                echo "$APPLE_CERTIFICATE_P12_BASE64" | base64 --decode > "$CERT_PATH"
+
+                security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+                security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+                security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+
+                security import "$CERT_PATH" \
+                    -k "$KEYCHAIN_PATH" \
+                    -P "$APPLE_CERTIFICATE_PASSWORD" \
+                    -T /usr/bin/codesign \
+                    -T /usr/bin/security
+
+                security list-keychains -d user -s "$KEYCHAIN_PATH" login.keychain-db
+                security default-keychain -s "$KEYCHAIN_PATH"
+
+                security set-key-partition-list \
+                    -S apple-tool:,apple:,codesign: \
+                    -s \
+                    -k "$KEYCHAIN_PASSWORD" \
+                    "$KEYCHAIN_PATH"
+
+                security find-identity -v -p codesigning
+
+            - name: Configure Apple notarization
+              if: ${{ github.event_name == 'workflow_dispatch' && inputs.CODE_SIGN }}
+              shell: bash
+              env:
+                APPLE_ID: ${{ secrets.APPLE_ID }}
+                APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+                APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+              run: |
+                set -euo pipefail
+
+                xcrun notarytool store-credentials "letos-notary" \
+                    --apple-id "$APPLE_ID" \
+                    --team-id "$APPLE_TEAM_ID" \
+                    --password "$APPLE_APP_SPECIFIC_PASSWORD"
+
+                xcrun notarytool history --keychain-profile "letos-notary" || true
+
             - name: Build packages
+              env:
+                CODESIGN_IDENTITY: "Developer ID Application: Pawel Salawa (985DVLRM9G)"
+                NOTARY_PROFILE: "letos-notary"
               run: |
                 chmod +x scripts/macos/create_macosx_bundle.sh
                 export DEP_LIB_DIR="$(cd ../lib && pwd)"
+
+                if [ "${CODE_SIGN}" = "true" ]; then
+                    export SIGN_MODE=developer-id
+                else
+                    export SIGN_MODE=adhoc
+                fi
+
                 DEBUG_LEVEL=3 scripts/macos/create_macosx_bundle.sh output $QT_ROOT_DIR dist
 
             - name: Determine Letos version

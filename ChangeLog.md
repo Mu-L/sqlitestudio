@@ -33,6 +33,7 @@
 - ADDED: #5578 Much better suppport for dropping various files (databases, SQL files, ...) onto the application Window.
 - ADDED: #5570 In Configuration dialog the Reset To Defaults button was added for hotkeys page.
 - ADDED: #3934 Windows executables in the official release are now signed thanks to the SignPath.io.
+- ADDED: #3932 MacOS executables in the official release are now signed with Apple Developer ID.
 - ADDED: #3539 Export Dialog now has option to export View(s) together with their triggers and data. View Window now has icon on the toolbar to export the View.
 - ADDED: #4417 Html Export plugin produces now HTML tables that are sortable by clicking on their headers.
 - ADDED: #4286 SQL History tab has now function to export executed queries history (or selected subset) to a SQL file.
