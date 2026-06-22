@@ -35,26 +35,64 @@ cleanup() {
 
 trap cleanup EXIT INT TERM
 
+SIGN_MODE="${SIGN_MODE:-adhoc}"
+CODESIGN_IDENTITY="${CODESIGN_IDENTITY:--}"
+
+if [ "$SIGN_MODE" = "developer-id" ]; then
+    CODESIGN_IDENTITY="${CODESIGN_IDENTITY:?CODESIGN_IDENTITY is required}"
+elif [ "$SIGN_MODE" = "adhoc" ]; then
+    CODESIGN_IDENTITY="-"
+else
+    abort "Unknown SIGN_MODE: $SIGN_MODE"
+fi
+
+NOTARY_PROFILE="${NOTARY_PROFILE:-letos-notary}"
+
 abort() { echo "ERROR: $@"; exit 1; }
 debug() { [ "$quiet" -gt 2 ] && echo "DEBUG: $@"; }
 info() { [ "$quiet" -gt 1 ] && echo "INFO: $@"; }
 run() { [ "$quiet" -gt 0 ] && { printf 'RUN: '; echo "'$@'"; }; "$@"; }
 
 codesign_app() {
-    cat > entitlements.plist <<'EOF'
+    if [ "$SIGN_MODE" = "developer-id" ]; then
+
+        # Signing with Dev ID
+        find "$1/Contents/Frameworks" "$1/Contents/PlugIns" \
+            -type f \( -name "*.dylib" -o -perm +111 \) \
+            -print0 | while IFS= read -r -d '' file; do
+                run codesign --force --timestamp --options runtime \
+                    --sign "$CODESIGN_IDENTITY" "$file"
+            done
+
+        run codesign --force --timestamp --options runtime \
+            --sign "$CODESIGN_IDENTITY" \
+            "$1/Contents/MacOS/Letos"
+
+        run codesign --force --timestamp --options runtime \
+            --sign "$CODESIGN_IDENTITY" \
+            "$1"
+
+        run codesign --verify --strict --deep --verbose=4 "$1"
+
+     else
+
+        # Self-signed for local dev env
+        cat > entitlements.plist <<'EOF'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
+<dict>
     <key>com.apple.security.cs.disable-library-validation</key>
     <true/>
     <key>com.apple.security.cs.allow-dyld-environment-variables</key>
     <true/>
-  </dict>
+</dict>
 </plist>
 EOF
-    run codesign --force -o runtime --entitlements entitlements.plist --deep --sign - "$1"
-    rm entitlements.plist
+        run codesign --force -o runtime --entitlements entitlements.plist --deep --sign - "$1"
+        rm entitlements.plist
+
+     fi
 }
 
 hdiutil_attach() {
@@ -277,6 +315,17 @@ elif [ "$3" = "dist" ]; then
     ls -l
     # shellcheck disable=SC2086
     pretty_dmg "Letos.app" "Letos-$VERSION" "$BACKGROUND_IMG" $BACKGROUND_RGB
+
+    #  Sign & Notary
+    DMG_FILE="Letos-$VERSION.dmg"
+    if [ "$SIGN_MODE" = "developer-id" ]; then
+        run codesign --force --timestamp --sign "$CODESIGN_IDENTITY" "$DMG_FILE"
+        run xcrun notarytool submit "$DMG_FILE" \
+            --keychain-profile "$NOTARY_PROFILE" \
+            --wait
+        run xcrun stapler staple "$DMG_FILE"
+        run spctl --assess --type open --verbose "$DMG_FILE"
+    fi
 
     rm -fr thinned
     ls -l -- *.dmg
