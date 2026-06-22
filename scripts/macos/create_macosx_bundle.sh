@@ -57,7 +57,7 @@ codesign_app() {
     if [ "$SIGN_MODE" = "developer-id" ]; then
 
         # Signing with Dev ID
-        find "$1/Contents/Frameworks" "$1/Contents/PlugIns" \
+        find "$1/Contents/Frameworks" "$1/Contents/PlugIns" "$1/Contents/extensions" \
             -type f \( -name "*.dylib" -o -perm +111 \) \
             -print0 | while IFS= read -r -d '' file; do
                 run codesign --force --timestamp --options runtime \
