@@ -57,7 +57,12 @@ codesign_app() {
     if [ "$SIGN_MODE" = "developer-id" ]; then
 
         # Signing with Dev ID
-        find "$1/Contents/Frameworks" "$1/Contents/PlugIns" "$1/Contents/extensions" \
+        SIGN_DIRS=()
+        [ -d "$1/Contents/Frameworks" ] && SIGN_DIRS+=("$1/Contents/Frameworks")
+        [ -d "$1/Contents/PlugIns" ] && SIGN_DIRS+=("$1/Contents/PlugIns")
+        [ -d "$1/Contents/extensions" ] && SIGN_DIRS+=("$1/Contents/extensions")
+
+        find "${SIGN_DIRS[@]}" \
             -type f \( -name "*.dylib" -o -perm +111 \) \
             -print0 | while IFS= read -r -d '' file; do
                 run codesign --force --timestamp --options runtime \
