@@ -368,7 +368,7 @@ elif [ "$3" = "dist" ]; then
         fi
 
         run xcrun stapler staple "$DMG_FILE"
-        run spctl --assess --type open --verbose "$DMG_FILE"
+        run xcrun stapler validate "$DMG_FILE"
     fi
 
     rm -fr thinned
