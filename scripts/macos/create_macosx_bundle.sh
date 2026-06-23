@@ -57,6 +57,15 @@ codesign_app() {
     if [ "$SIGN_MODE" = "developer-id" ]; then
 
         # Signing with Dev ID
+        cat > entitlements.plist <<'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
+</dict>
+</plist>
+EOF
         SIGN_DIRS=()
         [ -d "$1/Contents/Frameworks" ] && SIGN_DIRS+=("$1/Contents/Frameworks")
         [ -d "$1/Contents/PlugIns" ] && SIGN_DIRS+=("$1/Contents/PlugIns")
@@ -69,11 +78,11 @@ codesign_app() {
                     --sign "$CODESIGN_IDENTITY" "$file"
             done
 
-        run codesign --force --timestamp --options runtime \
+        run codesign --force --timestamp --entitlements entitlements.plist --options runtime \
             --sign "$CODESIGN_IDENTITY" \
             "$1/Contents/MacOS/Letos"
 
-        run codesign --force --timestamp --options runtime \
+        run codesign --force --timestamp --entitlements entitlements.plist --options runtime \
             --sign "$CODESIGN_IDENTITY" \
             "$1"
 
@@ -214,6 +223,7 @@ BUILD_ARCHS="$(lipo -archs Letos.app/Contents/MacOS/Letos)"
 # Letos binary paths
 install_name_tool -change libcoreLetos.1.dylib "@rpath/libcoreLetos.1.dylib" Letos.app/Contents/MacOS/Letos
 install_name_tool -change libguiLetos.1.dylib "@rpath/libguiLetos.1.dylib" Letos.app/Contents/MacOS/Letos
+install_name_tool -change libsqlite3.0.dylib "@rpath/libsqlite3.0.dylib" Letos.app/Contents/MacOS/Letos
 
 # Lib paths
 install_name_tool -change libcoreLetos.1.dylib "@rpath/libcoreLetos.1.dylib" Letos.app/Contents/Frameworks/libguiLetos.1.dylib
@@ -238,7 +248,7 @@ debug "in frameworks - 3:" "$(ls -l Letos.app/Contents/Frameworks)"
 fixPluginPaths() {
     for PLUGIN_FILE in "$1"/*; do
         if [ -f "$PLUGIN_FILE" ]; then
-    	    info "Fixing paths for plugin $PLUGIN_FILE"
+            info "Fixing paths for plugin $PLUGIN_FILE"
             install_name_tool -change libcoreLetos.1.dylib "@rpath/libcoreLetos.1.dylib" "$PLUGIN_FILE"
             install_name_tool -change libguiLetos.1.dylib "@rpath/libguiLetos.1.dylib" "$PLUGIN_FILE"
         fi
@@ -248,6 +258,15 @@ fixPluginPaths() {
     done
 }
 fixPluginPaths Letos.app/Contents/PlugIns
+
+fixSqlitePath() {
+    find "$1" -type f \( -name "*.dylib" -o -perm +111 \) -print0 |
+    while IFS= read -r -d '' f; do
+        if otool -L "$f" 2>/dev/null | grep -q '^[[:space:]]*libsqlite3\.0\.dylib'; then
+            run install_name_tool -change libsqlite3.0.dylib "@rpath/libsqlite3.0.dylib" "$f"
+        fi
+    done
+}
 
 propose_dylib_changes() {
     local _changes _dest _ref
@@ -296,6 +315,7 @@ elif [ "$3" = "dist" ]; then
 
     # Fix sqlite3 file in the image
     embed_libsqlite3 Letos.app
+    fixSqlitePath Letos.app
     
     # Same for Tcl
     embed_libtcl Letos.app
