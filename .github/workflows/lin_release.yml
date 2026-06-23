@@ -30,6 +30,11 @@ on:
             required: false
             type: boolean
             default: false
+          CODE_SIGN:
+            description: 'Sign artifacts (not used for Linux at the moment)'
+            required: false
+            type: boolean
+            default: false
           debug_ssh:
             description: "Open SSH tunnel at the end"
             type: boolean
