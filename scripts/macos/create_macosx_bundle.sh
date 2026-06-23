@@ -325,43 +325,47 @@ elif [ "$3" = "dist" ]; then
     DMG_FILE="Letos-$VERSION.dmg"
     if [ "$SIGN_MODE" = "developer-id" ]; then
         run codesign --force --timestamp --sign "$CODESIGN_IDENTITY" "$DMG_FILE"
-        NOTARY_JSON="$(xcrun notarytool submit "$DMG_FILE" \
-            --keychain-profile "$NOTARY_PROFILE" \
-            --output-format json)"
-#             --wait
+        NOTARY_JSON="$(xcrun notarytool submit "$DMG_FILE" --keychain-profile "$NOTARY_PROFILE" --output-format json)"
+
+        echo "$NOTARY_JSON"
+
+        NOTARY_ID="$(echo "$NOTARY_JSON" | jq -r '.id // empty')"
+
+        if [ -z "$NOTARY_ID" ]; then
+            abort "Could not extract notarization ID"
+        fi
+
+        NOTARY_ACCEPTED=false
 
         for i in {1..60}; do
-            INFO_JSON="$(xcrun notarytool info "$NOTARY_ID" \
-                --keychain-profile "$NOTARY_PROFILE" \
-                --output-format json)"
+            if ! INFO_JSON="$(xcrun notarytool info "$NOTARY_ID" --keychain-profile "$NOTARY_PROFILE" --output-format json)"; then
+                echo "Could not query notarization status, retrying..."
+                sleep 30
+                continue
+            fi
 
             echo "$INFO_JSON"
 
-            STATUS="$(echo "$INFO_JSON" | jq -r '.status')"
+            STATUS="$(echo "$INFO_JSON" | jq -r '.status // empty')"
 
             case "$STATUS" in
                 Accepted)
+                    NOTARY_ACCEPTED=true
                     break
                     ;;
                 Invalid|Rejected)
-                    xcrun notarytool log "$NOTARY_ID" \
-                        --keychain-profile "$NOTARY_PROFILE"
+                    xcrun notarytool log "$NOTARY_ID" --keychain-profile "$NOTARY_PROFILE"
                     abort "Notarization failed: $STATUS"
                     ;;
             esac
 
             sleep 30
         done
-#         echo "$NOTARY_JSON"
-#
-#         NOTARY_ID="$(echo "$NOTARY_JSON" | jq -r '.id')"
-#         NOTARY_STATUS="$(echo "$NOTARY_JSON" | jq -r '.status')"
-#
-#         if [ "$NOTARY_STATUS" != "Accepted" ]; then
-#             xcrun notarytool log "$NOTARY_ID" \
-#                 --keychain-profile "$NOTARY_PROFILE"
-#             abort "Notarization failed: $NOTARY_STATUS"
-#         fi
+
+        if [ "$NOTARY_ACCEPTED" != "true" ]; then
+            xcrun notarytool log "$NOTARY_ID" --keychain-profile "$NOTARY_PROFILE" || true
+            abort "Notarization timed out"
+        fi
 
         run xcrun stapler staple "$DMG_FILE"
         run spctl --assess --type open --verbose "$DMG_FILE"
