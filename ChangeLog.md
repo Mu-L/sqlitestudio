@@ -1,5 +1,8 @@
 # ChangeLog
 
+### 4.0.1
+- BUGFIX: #5722 Fixed crash when committing data edited in a View.
+
 ### 4.0.0
 - ADDED: #2865 ERD editor - a diagram viewer and editor for database schema.
 - ADDED: #5206 Windows ARM64 binaries provided.
