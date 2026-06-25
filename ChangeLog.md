@@ -5,6 +5,7 @@
 - BUGFIX: #5626 Grid View font is now used for inline editors to make the cell editing experience unified.
 - BUGFIX: #5722 Fixed crash when committing data edited in a View.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
+- BUGFIX: Removed misleading message from data query execution when clearing the sorting column by header clicks.
 
 ### 4.0.0
 - ADDED: #2865 ERD editor - a diagram viewer and editor for database schema.
