@@ -110,12 +110,20 @@ QString uiHandleCmdLineArgs(bool applyOptions = true)
     return QString();
 }
 
-void initHighDpi()
+void initUiScaling()
 {
-#if defined(Q_OS_WIN)
-    if (qgetenv("QT_SCALE_FACTOR_ROUNDING_POLICY").isEmpty())
+    if (qEnvironmentVariableIsEmpty("QT_SCALE_FACTOR"))
+    {
+        QString scale = Config::getSettings()->value(MainWindow::UI_SCALE_SETTING).toString();
+        if (!scale.isEmpty())
+        {
+            scale = QString::number(scale.toDouble() / 100.0);
+            qputenv("QT_SCALE_FACTOR", scale.toLatin1());
+        }
+    }
+
+    if (qEnvironmentVariableIsEmpty("QT_SCALE_FACTOR_ROUNDING_POLICY"))
         QGuiApplication::setHighDpiScaleFactorRoundingPolicy(Qt::HighDpiScaleFactorRoundingPolicy::PassThrough);
-#endif
 }
 
 bool shouldAllowMultipleSessions()
@@ -126,10 +134,11 @@ bool shouldAllowMultipleSessions()
 
 int main(int argc, char *argv[])
 {
-    initHighDpi();
     QCoreApplication::setApplicationName("Letos");
     QCoreApplication::setOrganizationName("letos.org");
     QCoreApplication::setApplicationVersion(LETOS->getVersionString());
+
+    initUiScaling();
 
     SingleApplication a(argc, argv, true, SingleApplication::ExcludeAppPath|SingleApplication::ExcludeAppVersion|SingleApplication::User);
 

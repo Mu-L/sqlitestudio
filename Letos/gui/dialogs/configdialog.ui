@@ -267,7 +267,7 @@
           </sizepolicy>
          </property>
          <property name="currentIndex">
-          <number>1</number>
+          <number>8</number>
          </property>
          <widget class="QWidget" name="databaseListPage">
           <layout class="QVBoxLayout" name="verticalLayout_36">
@@ -487,8 +487,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>679</width>
-                <height>854</height>
+                <width>440</width>
+                <height>871</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_34">
@@ -2586,8 +2586,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>389</width>
-                <height>363</height>
+                <width>711</width>
+                <height>538</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_31">
@@ -2620,10 +2620,50 @@
                <item>
                 <widget class="QGroupBox" name="compactLayoutGroup">
                  <property name="title">
-                  <string>Compact layout</string>
+                  <string>User interface</string>
                  </property>
-                 <layout class="QVBoxLayout" name="verticalLayout_32">
-                  <item>
+                 <layout class="QGridLayout" name="gridLayout_16">
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="uiScaleLabel">
+                    <property name="toolTip">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="text">
+                     <string>Interface scale</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QComboBox" name="uiScaleCombo">
+                    <property name="toolTip">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="tbIconSizeLabel">
+                    <property name="toolTip">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="text">
+                     <string>Toolbar icon size</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="QComboBox" name="tbIconSizeCombo">
+                    <property name="toolTip">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                    <property name="cfg" stdset="0">
+                     <string notr="true">General.ToolBarIconSize</string>
+                    </property>
+                    <property name="dataDrivenCombo" stdset="0">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="4" column="0" colspan="2">
                    <widget class="QCheckBox" name="compactLayoutCheck">
                     <property name="toolTip">
                      <string>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</string>
@@ -2682,38 +2722,6 @@
                     </property>
                     <property name="assignedValue" stdset="0">
                      <string notr="true">horizontal</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
-               <item>
-                <widget class="QGroupBox" name="toolbarsGroup">
-                 <property name="title">
-                  <string>Toolbars</string>
-                 </property>
-                 <layout class="QGridLayout" name="gridLayout_15">
-                  <item row="0" column="0">
-                   <widget class="QLabel" name="tbIconSizeLabel">
-                    <property name="toolTip">
-                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                    </property>
-                    <property name="text">
-                     <string>Icon size</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="1">
-                   <widget class="QComboBox" name="tbIconSizeCombo">
-                    <property name="toolTip">
-                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                    </property>
-                    <property name="cfg" stdset="0">
-                     <string notr="true">General.ToolBarIconSize</string>
-                    </property>
-                    <property name="dataDrivenCombo" stdset="0">
-                     <bool>true</bool>
                     </property>
                    </widget>
                   </item>

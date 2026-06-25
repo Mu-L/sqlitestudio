@@ -4,6 +4,7 @@
 #include "uiconfig.h"
 #include "customconfigwidgetplugin.h"
 #include "services/pluginmanager.h"
+#include "services/notifymanager.h"
 #include "formmanager.h"
 #include "services/codeformatter.h"
 #include "services/config.h"
@@ -47,6 +48,7 @@
 #include <QKeySequenceEdit>
 #include <QPlainTextEdit>
 #include <QTimer>
+#include <QSettings>
 
 #define GET_FILTER_STRING(Widget, WidgetType, Method) \
     if (qobject_cast<WidgetType*>(Widget))\
@@ -380,6 +382,17 @@ void ConfigDialog::init()
     ui->activeStyleCombo->addItems(styles);
     ui->activeStyleCombo->setCurrentText(STYLE->name());
 
+    int currentScaleInt = Config::getSettings()->value(MainWindow::UI_SCALE_SETTING).toInt();
+    for (int scaleInt : {50, 75, 100, 125, 150, 175, 200, 250, 300})
+    {
+        ui->uiScaleCombo->addItem(QString::number(scaleInt) + "%", scaleInt);
+        if (scaleInt == currentScaleInt)
+            ui->uiScaleCombo->setCurrentIndex(ui->uiScaleCombo->count() - 1);
+    }
+    if (ui->uiScaleCombo->currentIndex() < 0 || currentScaleInt <= 0)
+        ui->uiScaleCombo->setCurrentText("100%");
+
+    connect(ui->uiScaleCombo, SIGNAL(currentTextChanged(QString)), this, SLOT(markModified()));
     connect(ui->stackedWidget, SIGNAL(currentChanged(int)), this, SLOT(pageSwitched()));
 
     ui->hideBuiltInPluginsCheck->setChecked(true);
@@ -423,6 +436,15 @@ void ConfigDialog::save()
         if (STYLE->isDark() != wasDark)
             adjustSyntaxColorsForStyle(unmodifiedColors);
     }
+
+    int oldScale = Config::getSettings()->value(MainWindow::UI_SCALE_SETTING).toInt();
+    if (ui->uiScaleCombo->currentData() != 100)
+        Config::getSettings()->setValue(MainWindow::UI_SCALE_SETTING, ui->uiScaleCombo->currentData());
+    else
+        Config::getSettings()->remove(MainWindow::UI_SCALE_SETTING);
+
+    if (oldScale != Config::getSettings()->value(MainWindow::UI_SCALE_SETTING).toInt())
+        notifyInfo(tr("The new interface scale will be applied after restarting Letos."));
 
     QString loadedPlugins = collectLoadedPlugins();
     storeSelectedFormatters();
