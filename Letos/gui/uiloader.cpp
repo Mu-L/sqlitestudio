@@ -71,6 +71,8 @@ void UiLoader::handleProperties(QWidget* widget)
         if (propValue.isValid())
             handler->handle(widget, propValue);
     }
+
+    widget->setLayoutDirection(qApp->layoutDirection());
 }
 
 QWidget* UiLoader::load(const QString& path)

@@ -7,6 +7,7 @@
 #include <QDebug>
 #include <QRegularExpression>
 #include <QStandardPaths>
+#include <QLibraryInfo>
 
 QHash<QString,QTranslator*> LETOS_TRANSLATIONS;
 
@@ -41,21 +42,29 @@ void loadTranslation(const QString& baseName)
     QStringList filters = QStringList({baseName+"_"+lang+".qm"});
     QDir dir;
 
-    for (QString& dirPath : LETOS_TRANSLATION_DIRS)
+    if (baseName == "qtbase")
     {
-        dir.setPath(dirPath);
-        for (QString& f : dir.entryList(filters))
+        res = translator->load(QLocale(lang), "qtbase", "_", QLibraryInfo::path(QLibraryInfo::TranslationsPath));
+        fName = translator->filePath();
+    }
+    else
+    {
+        for (QString& dirPath : LETOS_TRANSLATION_DIRS)
         {
-            res = translator->load(f, dirPath);
-            if (res)
+            dir.setPath(dirPath);
+            for (QString& f : dir.entryList(filters))
             {
-                fName = dirPath + "/" + f;
-                break;
+                res = translator->load(f, dirPath);
+                if (res)
+                {
+                    fName = dirPath + "/" + f;
+                    break;
+                }
             }
-        }
 
-        if (res)
-            break;
+            if (res)
+                break;
+        }
     }
 
     if (!res)
