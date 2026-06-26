@@ -357,7 +357,7 @@ void DbTreeModel::collapsed(const QModelIndex &index)
 {
     QStandardItem* item = itemFromIndex(index);
     if (dynamic_cast<DbTreeItem*>(item)->getType() == DbTreeItem::Type::DIR)
-        item->setIcon(ICONS.DIRECTORY_OPEN);
+        item->setIcon(ICONS.DIRECTORY);
 }
 
 void DbTreeModel::dbAdded(Db* db)
