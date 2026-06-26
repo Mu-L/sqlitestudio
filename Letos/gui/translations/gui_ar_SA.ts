@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Configuration</source>
         <translation>التهيئة</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="3112"/>
         <source>Language</source>
         <translation>اللغة</translation>
     </message>
@@ -1816,107 +1816,113 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2623"/>
-        <source>Compact layout</source>
-        <translation>تخطيط مضغوط</translation>
+        <source>User interface</source>
+        <translation type="unfinished">User interface</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <source>Interface scale</source>
+        <translation type="unfinished">Interface scale</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <source>Toolbar icon size</source>
+        <translation type="unfinished">Toolbar icon size</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2669"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;يقلل التخطيط المضغوط جميع الهوامش والمسافات في واجهة المستخدم إلى الحد الأدنى، مما يوفّر مساحة لعرض المزيد من البيانات. يجعل هذا الواجهة أقل جمالية قليلاً، لكنه يسمح بعرض المزيد من البيانات دفعة واحدة.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2672"/>
         <source>Use compact layout</source>
         <translation>استخدام التخطيط المضغوط</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2688"/>
         <source>Main window dock areas</source>
         <translation>مناطق إرساء النافذة الرئيسية</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Left and right areas occupy corners</source>
         <translation>المناطق اليسرى واليمنى تشغل الزوايا</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2714"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>المناطق العلوية والسفلية تشغل الزوايا</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
-        <source>Toolbars</source>
-        <translation>أشرطة الأدوات</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <location filename="../dialogs/configdialog.ui" line="2656"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;يُعبّر عنه كنسبة مئوية من الحجم الافتراضي.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
-        <source>Icon size</source>
-        <translation>حجم الأيقونة</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2836"/>
         <source>Hide built-in plugins</source>
         <translation>إخفاء الملحقات المضمنة</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2865"/>
         <source>Current style:</source>
         <translation>النمط الحالي:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2882"/>
         <source>Preview</source>
         <translation>معاينة</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2892"/>
         <source>Enabled</source>
         <translation>ممكّن</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3068"/>
         <source>Disabled</source>
         <translation>معطّل</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Active formatter plugin</source>
         <translation>ملحق المنسّق النشط</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;نصيحة:&lt;/span&gt; بالإضافة إلى الإعدادات المتاحة هنا، يمكن أيضاً ضبط أحجام الخطوط ديناميكياً في معظم عناصر الواجهة بالضغط المستمر على &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; وتمرير &lt;span style=&quot; font-weight:700;&quot;&gt;عجلة الفأرة&lt;/span&gt; فوق العنصر الذي تريد تغيير حجم خطه.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3174"/>
         <source>SQL editor font</source>
         <translation>خط محرر SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3190"/>
         <source>Database list font</source>
         <translation>خط قائمة قواعد البيانات</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3206"/>
         <source>Database list additional label font</source>
         <translation>خط التسمية الإضافية لقائمة قواعد البيانات</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3222"/>
         <source>Data view font</source>
         <translation>خط عرض البيانات</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3238"/>
         <source>Status field font</source>
         <translation>خط حقل الحالة</translation>
     </message>
@@ -1926,109 +1932,114 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;إذا كان هذا الخيار ممكّناً، فسيتم تشغيل مساعد الكود في الحالات التي يكتب فيها المستخدم مثلاً &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; لاقتراح أعمدة الجدول. إذا كان الخيار معطلاً، فسيتعين على المستخدم الضغط صراحةً على مفتاح الاختصار الخاص بالمساعد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <source>The new interface scale will be applied after restarting Letos.</source>
+        <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1144"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>الوصف:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1123"/>
+        <location filename="../dialogs/configdialog.cpp" line="1145"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>الفئة:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1146"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>الإصدار:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1147"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>المؤلف:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1149"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>الاسم الداخلي:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1128"/>
+        <location filename="../dialogs/configdialog.cpp" line="1150"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>التبعيات:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1129"/>
+        <location filename="../dialogs/configdialog.cpp" line="1151"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>التعارضات:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1130"/>
+        <location filename="../dialogs/configdialog.cpp" line="1152"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>الملف:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1135"/>
+        <location filename="../dialogs/configdialog.cpp" line="1157"/>
         <source>Plugin details</source>
         <translation>تفاصيل الملحق</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1756"/>
+        <location filename="../dialogs/configdialog.cpp" line="1778"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>يتم تحميل/إلغاء تحميل الملحقات فوراً عند تحديدها/إلغاء تحديدها، لكن القائمة المعدلة للملحقات التي ستُحمّل عند بدء التشغيل لا تُحفظ حتى تؤكد مربع حوار التكوين بالكامل.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1814"/>
+        <location filename="../dialogs/configdialog.cpp" line="1836"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (مضمن)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1856"/>
+        <location filename="../dialogs/configdialog.cpp" line="1878"/>
         <source>Details</source>
         <translation>التفاصيل</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1870"/>
+        <location filename="../dialogs/configdialog.cpp" line="1892"/>
         <source>No plugins in this category.</source>
         <translation>لا توجد ملحقات في هذه الفئة.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1970"/>
-        <location filename="../dialogs/configdialog.cpp" line="1999"/>
+        <location filename="../dialogs/configdialog.cpp" line="1992"/>
+        <location filename="../dialogs/configdialog.cpp" line="2021"/>
         <source>Add new data type</source>
         <translation>إضافة نوع بيانات جديد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1974"/>
-        <location filename="../dialogs/configdialog.cpp" line="2003"/>
+        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="2025"/>
         <source>Rename selected data type</source>
         <translation>إعادة تسمية نوع البيانات المحدد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1978"/>
-        <location filename="../dialogs/configdialog.cpp" line="2007"/>
+        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="2029"/>
         <source>Delete selected data type</source>
         <translation>حذف نوع البيانات المحدد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2091"/>
+        <location filename="../dialogs/configdialog.cpp" line="2113"/>
         <source>Clear hotkey for this action</source>
         <translation>مسح مفتاح الاختصار لهذا الإجراء</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2103"/>
+        <location filename="../dialogs/configdialog.cpp" line="2125"/>
         <source>Restore original hotkey for this action</source>
         <translation>استعادة مفتاح الاختصار الأصلي لهذا الإجراء</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2145"/>
+        <location filename="../dialogs/configdialog.cpp" line="2167"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>يمكنك هنا تكوين ألوان تمييز صياغة الكود. تتم مشاركتها عبر لغات مختلفة - ليس فقط لـ SQL، بل أيضاً JavaScript وغيرها. افتراضياً يُستخدم لون مستند إلى السمة. لتعريف لونك الخاص، فعّل لوناً مخصصاً بتحديد خانة الاختيار بجانب لون معين.</translation>
     </message>
@@ -7039,7 +7050,7 @@ find next</source>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Cannot edit this cell. Details: %1</source>
         <translation>لا يمكن تحرير هذه الخلية. التفاصيل: %1</translation>
     </message>
@@ -7050,7 +7061,7 @@ find next</source>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
         <translation>تغيرت بنية هذا الجدول منذ آخر تحميل للبيانات. أعد تحميل البيانات للمتابعة.</translation>
     </message>
@@ -7060,27 +7071,27 @@ find next</source>
         <translation>ROWID غير متاح لهذه الخلية.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="259"/>
         <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
         <translation>تحرير محتويات ضخمة في محرّر خلية مضمن ليس فكرة جيدة. قد يصبح بطيئًا وغير ملائم. إنه &apos;من الأفضل تحرير مثل هذه المحتويات الكبيرة في عرض النموذج، أو في محرّر منبثق (متاح ضمن قائمة النقر بزر الفأرة الأيمن).</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="284"/>
         <source>Reset to DEFAULT value</source>
         <translation>إعادة الضبط إلى قيمة DEFAULT</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="286"/>
         <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
         <translation>إعادة الضبط إلى قيمة PRIMARY KEY AUTOINCREMENT</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="288"/>
         <source>Reset value</source>
         <translation>إعادة ضبط القيمة</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="309"/>
         <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
         <translation>يحتوي المفتاح الخارجي للعمود %2 على أكثر من %1 قيمة ممكنة. إنها &apos;كثيرة جدًا لعرضها في القائمة المنسدلة. تحتاج إلى تحرير القيمة يدويًا.</translation>
     </message>
@@ -7161,49 +7172,44 @@ find next</source>
         <translation>خطأ أثناء تحميل نتائج الاستعلام: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
-        <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation>يوجد عدد أقل من الأعمدة في الاستعلام الجديد، تمت إعادة ضبط ترتيب الفرز.</translation>
-    </message>
-    <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Insert multiple rows</source>
         <translation>إدراج صفوف متعددة</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Number of rows to insert:</source>
         <translation>عدد الصفوف المراد إدراجها:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>Delete rows</source>
         <translation>حذف الصفوف</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>أنت&apos; على وشك حذف صفوف مُدرجة حديثًا لم تُعتمد بعد. أرقام الصفوف: %1
 سيكون هذا الحذف دائمًا. هل أنت متأكد أنك تريد حذفها؟</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2207"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>النقر المفرد يفرز حسب العمود.&lt;br&gt;Alt+نقر يحدد البيانات في العمود.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>النقر المفرد يحدد البيانات في العمود.&lt;br&gt;النقر المزدوج يفرز حسب العمود.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>Middle-click resets sorting.</source>
         <translation>النقر بالزر الأوسط يعيد ضبط الفرز.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>More options are available in the context menu.</source>
         <translation>تتوفر خيارات أكثر في قائمة السياق.</translation>
     </message>
@@ -7452,12 +7458,12 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>الصف %1: عدّل مشغّل INSTEAD OF UPDATE أكثر من صف واحد (%2). لا يعرّف العرض السجل المُحرَّر بشكل فريد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
         <translation>الصف %1: حذف مشغّل INSTEAD OF DELETE أكثر من صف واحد (%2). لا يعرّف العرض السجل المُحرَّر بشكل فريد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
         <translation>يحتوي العرض على مشغّل(ات) INSTEAD OF تتولى التحرير. إنه &apos;من المُوصى به تحديث البيانات بعد الاعتماد لرؤية التغييرات الفعلية، لأن المشغّلات قد تعدّل البيانات بطريقة غير متوقعة.</translation>
     </message>

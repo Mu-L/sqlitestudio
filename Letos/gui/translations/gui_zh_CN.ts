@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Configuration</source>
         <translation>配置</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="3112"/>
         <source>Language</source>
         <translation>语言</translation>
     </message>
@@ -1816,107 +1816,113 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2623"/>
-        <source>Compact layout</source>
-        <translation>紧凑布局</translation>
+        <source>User interface</source>
+        <translation type="unfinished">User interface</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <source>Interface scale</source>
+        <translation type="unfinished">Interface scale</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <source>Toolbar icon size</source>
+        <translation type="unfinished">Toolbar icon size</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2669"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;紧凑布局会将界面中的边框与留白减至最小，然后用这些区域展示更多数据。这会使界面看起来有一点不美观，但将可以同时展示更多的数据。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2672"/>
         <source>Use compact layout</source>
         <translation>使用紧凑布局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2688"/>
         <source>Main window dock areas</source>
         <translation>主窗口停靠区域</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Left and right areas occupy corners</source>
         <translation>左右布局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2714"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>上下布局</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
-        <source>Toolbars</source>
-        <translation>工具栏</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <location filename="../dialogs/configdialog.ui" line="2656"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;以默认大小的百分比表示。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
-        <source>Icon size</source>
-        <translation>图标大小</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2836"/>
         <source>Hide built-in plugins</source>
         <translation>隐藏内置插件</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2865"/>
         <source>Current style:</source>
         <translation>当前风格：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2882"/>
         <source>Preview</source>
         <translation>预览</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2892"/>
         <source>Enabled</source>
         <translation>已启用</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3068"/>
         <source>Disabled</source>
         <translation>已禁用</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Active formatter plugin</source>
         <translation>启用格式化插件</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;提示：&lt;/span&gt; 除了此处提供的设置外，您还可以通过按住 &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; 并滚动 &lt;span style=&quot; font-weight:700;&quot;&gt;鼠标滚轮&lt;/span&gt; 在要更改字体大小的元素上，动态调整大多数界面元素的字体大小。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3174"/>
         <source>SQL editor font</source>
         <translation>SQL 编辑器字体</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3190"/>
         <source>Database list font</source>
         <translation>数据库列表字体</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3206"/>
         <source>Database list additional label font</source>
         <translation>数据库列表额外信息字体</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3222"/>
         <source>Data view font</source>
         <translation>数据视图字体</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3238"/>
         <source>Status field font</source>
         <translation>状态栏字体</translation>
     </message>
@@ -1926,109 +1932,114 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;如果启用该选项，当用户键入例如 &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; 到提出表格的列。 如果禁用该选项，用户就必须明确点击助手热键。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <source>The new interface scale will be applied after restarting Letos.</source>
+        <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1144"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>描述：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1123"/>
+        <location filename="../dialogs/configdialog.cpp" line="1145"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>分类：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1146"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>版本：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1147"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>作者：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1149"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>内部名称：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1128"/>
+        <location filename="../dialogs/configdialog.cpp" line="1150"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>依赖：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1129"/>
+        <location filename="../dialogs/configdialog.cpp" line="1151"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>冲突：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1130"/>
+        <location filename="../dialogs/configdialog.cpp" line="1152"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>文件：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1135"/>
+        <location filename="../dialogs/configdialog.cpp" line="1157"/>
         <source>Plugin details</source>
         <translation>插件详情</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1756"/>
+        <location filename="../dialogs/configdialog.cpp" line="1778"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>切换时插件会立即加载/卸载。但此列表的修改仅在点击确定按钮后被保存。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1814"/>
+        <location filename="../dialogs/configdialog.cpp" line="1836"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1（内置）</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1856"/>
+        <location filename="../dialogs/configdialog.cpp" line="1878"/>
         <source>Details</source>
         <translation>详情</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1870"/>
+        <location filename="../dialogs/configdialog.cpp" line="1892"/>
         <source>No plugins in this category.</source>
         <translation>没有此分类下的插件。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1970"/>
-        <location filename="../dialogs/configdialog.cpp" line="1999"/>
+        <location filename="../dialogs/configdialog.cpp" line="1992"/>
+        <location filename="../dialogs/configdialog.cpp" line="2021"/>
         <source>Add new data type</source>
         <translation>添加新的数据类型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1974"/>
-        <location filename="../dialogs/configdialog.cpp" line="2003"/>
+        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="2025"/>
         <source>Rename selected data type</source>
         <translation>重命名所选数据类型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1978"/>
-        <location filename="../dialogs/configdialog.cpp" line="2007"/>
+        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="2029"/>
         <source>Delete selected data type</source>
         <translation>删除所选数据类型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2091"/>
+        <location filename="../dialogs/configdialog.cpp" line="2113"/>
         <source>Clear hotkey for this action</source>
         <translation>清除该操作的热键</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2103"/>
+        <location filename="../dialogs/configdialog.cpp" line="2125"/>
         <source>Restore original hotkey for this action</source>
         <translation>恢复此操作的原始热键</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2145"/>
+        <location filename="../dialogs/configdialog.cpp" line="2167"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>您可以在此配置代码语法高亮的颜色。这些颜色在不同语言中共享，不仅适用于 SQL，也适用于 JavaScript 和其他语言。默认情况下使用基于主题的颜色。要定义自己的颜色，请选择特定颜色旁边的复选框，启用自定义颜色。</translation>
     </message>
@@ -7037,7 +7048,7 @@ find next</source>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Cannot edit this cell. Details: %1</source>
         <translation>无法编辑此单元格。详情：%1</translation>
     </message>
@@ -7048,7 +7059,7 @@ find next</source>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
         <translation>在上次加载数据后，此表的结构已更改。重新加载数据以继续。</translation>
     </message>
@@ -7058,27 +7069,27 @@ find next</source>
         <translation>ROWID 不适用于此单元格。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="259"/>
         <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
         <translation>在内联单元格编辑器中编辑庞大的内容并不是一个好主意。它可能会变得缓慢而不方便。它&apos;s 最好在表单视图或弹出编辑器（右键菜单下可用）中编辑这些大内容。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="284"/>
         <source>Reset to DEFAULT value</source>
         <translation>重置为默认值</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="286"/>
         <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
         <translation>重置为主键自增值</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="288"/>
         <source>Reset value</source>
         <translation>重置值</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="309"/>
         <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
         <translation>列 %2 的外键有超过 %1 个可能的值。这太多而不能显示在下拉列表。您需要手动编辑值。</translation>
     </message>
@@ -7159,49 +7170,44 @@ find next</source>
         <translation>在加载查询结果时出错：%1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
-        <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation>新查询中的列较少，排序顺序已重置。</translation>
-    </message>
-    <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Insert multiple rows</source>
         <translation>插入多行</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Number of rows to insert:</source>
         <translation>要插入的行数：</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>Delete rows</source>
         <translation>删除行</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>您即将删除未提交的新插入的行。行数：%1
 删除不能撤销，确定删除吗？</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2207"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>单击按列排序。&lt;br&gt;按住 Alt 键并单击选择列中的数据。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>单击选中该列中的数据。&lt;br&gt;双击按该列排序。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>Middle-click resets sorting.</source>
         <translation>单击鼠标中键可重置排序。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>More options are available in the context menu.</source>
         <translation>上下文菜单中提供了更多选项。</translation>
     </message>
@@ -7450,12 +7456,12 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>第 %1 行：INSTEAD OF UPDATE 触发器修改了多于一行（%2）。该视图无法唯一标识已编辑的记录。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
         <translation>第 %1 行：INSTEAD OF DELETE 触发器删除了多于一行（%2）。该视图无法唯一标识已编辑的记录。</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
         <translation>该视图具有处理编辑的 INSTEAD OF 触发器。建议在提交后刷新数据以查看实际更改，因为触发器可能会以意外方式修改数据。</translation>
     </message>

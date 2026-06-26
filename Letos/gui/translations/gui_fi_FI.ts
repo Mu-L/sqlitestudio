@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Configuration</source>
         <translation>Asetukset</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="3112"/>
         <source>Language</source>
         <translation>Kieli</translation>
     </message>
@@ -1816,107 +1816,113 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2623"/>
-        <source>Compact layout</source>
-        <translation>Tiivis asettelu</translation>
+        <source>User interface</source>
+        <translation type="unfinished">User interface</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <source>Interface scale</source>
+        <translation type="unfinished">Interface scale</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <source>Toolbar icon size</source>
+        <translation type="unfinished">Toolbar icon size</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2669"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Tiivis asettelu pienentää kaikki käyttöliittymän marginaalit ja välit minimiin, jolloin tietojen näyttämiselle jää enemmän tilaa. Se tekee käyttöliittymästä hieman vähemmän esteettisen, mutta mahdollistaa suuremman tietomäärän näyttämisen kerralla.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2672"/>
         <source>Use compact layout</source>
         <translation>Käytä tiivistä asettelua</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2688"/>
         <source>Main window dock areas</source>
         <translation>Pääikkunan telakointialueet</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Left and right areas occupy corners</source>
         <translation>Vasen ja oikea alue käyttävät kulmat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2714"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Ylä- ja ala-alue käyttävät kulmat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
-        <source>Toolbars</source>
-        <translation>Työkalurivit</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <location filename="../dialogs/configdialog.ui" line="2656"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ilmaistu prosentteina oletuskoosta.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
-        <source>Icon size</source>
-        <translation>Kuvakkeen koko</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2836"/>
         <source>Hide built-in plugins</source>
         <translation>Piilota sisäänrakennetut liitännäiset</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2865"/>
         <source>Current style:</source>
         <translation>Nykyinen tyyli:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2882"/>
         <source>Preview</source>
         <translation>Esikatselu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2892"/>
         <source>Enabled</source>
         <translation>Käytössä</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3068"/>
         <source>Disabled</source>
         <translation>Ei käytössä</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Active formatter plugin</source>
         <translation>Aktiivinen muotoiluliitännäinen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Vinkki:&lt;/span&gt; Tässä saatavilla olevien asetusten lisäksi fonttikokoja voidaan säätää dynaamisesti useimmissa käyttöliittymän osissa pitämällä &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt;-näppäintä painettuna ja vierittämällä &lt;span style=&quot; font-weight:700;&quot;&gt;hiiren rullaa&lt;/span&gt; sen elementin päällä, jonka fonttikokoa haluat muuttaa.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3174"/>
         <source>SQL editor font</source>
         <translation>SQL-editorin fontti</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3190"/>
         <source>Database list font</source>
         <translation>Tietokantaluettelon fontti</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3206"/>
         <source>Database list additional label font</source>
         <translation>Tietokantaluettelon lisäselitteen fontti</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3222"/>
         <source>Data view font</source>
         <translation>Tietonäkymän fontti</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3238"/>
         <source>Status field font</source>
         <translation>Tilakentän fontti</translation>
     </message>
@@ -1926,109 +1932,114 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Jos tämä asetus on käytössä, koodiavustaja käynnistetään tilanteissa, joissa käyttäjä kirjoittaa esimerkiksi &lt;span style=&quot; font-weight:700;&quot;&gt;taulunNimi.&lt;/span&gt;, jotta taulun sarakkeita voidaan ehdottaa. Jos asetus ei ole käytössä, käyttäjän on painettava avustajan pikanäppäintä erikseen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <source>The new interface scale will be applied after restarting Letos.</source>
+        <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1144"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Kuvaus:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1123"/>
+        <location filename="../dialogs/configdialog.cpp" line="1145"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Luokka:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1146"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Versio:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1147"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Tekijä:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1149"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Sisäinen nimi:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1128"/>
+        <location filename="../dialogs/configdialog.cpp" line="1150"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Riippuvuudet:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1129"/>
+        <location filename="../dialogs/configdialog.cpp" line="1151"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Ristiriidat:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1130"/>
+        <location filename="../dialogs/configdialog.cpp" line="1152"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Tiedosto:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1135"/>
+        <location filename="../dialogs/configdialog.cpp" line="1157"/>
         <source>Plugin details</source>
         <translation>Liitännäisen tiedot</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1756"/>
+        <location filename="../dialogs/configdialog.cpp" line="1778"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Liitännäiset ladataan/poistetaan käytöstä heti, kun ne valitaan/poistetaan valinnasta, mutta muokattua luetteloa käynnistyksessä ladattavista liitännäisistä ei tallenneta ennen kuin hyväksyt koko määritysikkunan.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1814"/>
+        <location filename="../dialogs/configdialog.cpp" line="1836"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (sisäänrakennettu)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1856"/>
+        <location filename="../dialogs/configdialog.cpp" line="1878"/>
         <source>Details</source>
         <translation>Tiedot</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1870"/>
+        <location filename="../dialogs/configdialog.cpp" line="1892"/>
         <source>No plugins in this category.</source>
         <translation>Tässä luokassa ei ole liitännäisiä.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1970"/>
-        <location filename="../dialogs/configdialog.cpp" line="1999"/>
+        <location filename="../dialogs/configdialog.cpp" line="1992"/>
+        <location filename="../dialogs/configdialog.cpp" line="2021"/>
         <source>Add new data type</source>
         <translation>Lisää uusi tietotyyppi</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1974"/>
-        <location filename="../dialogs/configdialog.cpp" line="2003"/>
+        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="2025"/>
         <source>Rename selected data type</source>
         <translation>Nimeä valittu tietotyyppi uudelleen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1978"/>
-        <location filename="../dialogs/configdialog.cpp" line="2007"/>
+        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="2029"/>
         <source>Delete selected data type</source>
         <translation>Poista valittu tietotyyppi</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2091"/>
+        <location filename="../dialogs/configdialog.cpp" line="2113"/>
         <source>Clear hotkey for this action</source>
         <translation>Tyhjennä tämän toiminnon pikanäppäin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2103"/>
+        <location filename="../dialogs/configdialog.cpp" line="2125"/>
         <source>Restore original hotkey for this action</source>
         <translation>Palauta tämän toiminnon alkuperäinen pikanäppäin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2145"/>
+        <location filename="../dialogs/configdialog.cpp" line="2167"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Tässä voit määrittää värit koodin syntaksikorostukselle. Ne jaetaan eri kielten kesken – ei vain SQL:lle, vaan myös JavaScriptille ja muille. Oletuksena käytetään teemaan perustuvaa väriä. Määrittääksesi oman värin ota mukautettu väri käyttöön valitsemalla tietyn värin vieressä oleva valintaruutu.</translation>
     </message>
@@ -7039,7 +7050,7 @@ etsi seuraava</translation>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Cannot edit this cell. Details: %1</source>
         <translation>Tätä solua ei voi muokata. Tiedot: %1</translation>
     </message>
@@ -7050,7 +7061,7 @@ etsi seuraava</translation>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
         <translation>Tämän taulun rakenne on muuttunut sen jälkeen, kun tiedot viimeksi ladattiin. Jatka lataamalla tiedot uudelleen.</translation>
     </message>
@@ -7060,27 +7071,27 @@ etsi seuraava</translation>
         <translation>ROWID ei ole käytettävissä tälle solulle.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="259"/>
         <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
         <translation>Hyvin suuren sisällön muokkaaminen solun sisäisessä editorissa ei ole hyvä ajatus. Se voi muuttua hitaaksi ja hankalaksi. Tällainen suuri sisältö kannattaa muokata lomakenäkymässä tai ponnahduseditorissa (saatavilla hiiren oikean painikkeen valikosta).</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="284"/>
         <source>Reset to DEFAULT value</source>
         <translation>Palauta DEFAULT-arvoon</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="286"/>
         <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
         <translation>Palauta PRIMARY KEY AUTOINCREMENT -arvoon</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="288"/>
         <source>Reset value</source>
         <translation>Palauta arvo</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="309"/>
         <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
         <translation>Sarakkeen %2 viiteavaimella on yli %1 mahdollista arvoa. Niitä on liikaa näytettäväksi avattavassa luettelossa. Arvo täytyy muokata käsin.</translation>
     </message>
@@ -7161,49 +7172,44 @@ etsi seuraava</translation>
         <translation>Virhe ladattaessa kyselyn tuloksia: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
-        <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation>Uudessa kyselyssä on vähemmän sarakkeita, lajittelujärjestys on nollattu.</translation>
-    </message>
-    <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Insert multiple rows</source>
         <translation>Lisää useita rivejä</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Number of rows to insert:</source>
         <translation>Lisättävien rivien määrä:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>Delete rows</source>
         <translation>Poista rivit</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Olet poistamassa juuri lisättyjä rivejä, joita ei ole vielä vahvistettu. Rivinumerot: %1
 Tällainen poisto on pysyvä. Haluatko varmasti poistaa ne?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2207"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>Yksi napsautus lajittelee sarakkeen mukaan.&lt;br&gt;Alt+napsautus valitsee sarakkeen tiedot.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>Yksi napsautus valitsee sarakkeen tiedot.&lt;br&gt;Kaksoisnapsautus lajittelee sarakkeen mukaan.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>Middle-click resets sorting.</source>
         <translation>Keskinapsautus nollaa lajittelun.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>More options are available in the context menu.</source>
         <translation>Lisää vaihtoehtoja on saatavilla kontekstivalikossa.</translation>
     </message>
@@ -7452,12 +7458,12 @@ Tällainen poisto on pysyvä. Haluatko varmasti poistaa ne?</translation>
         <translation>Rivi %1: INSTEAD OF UPDATE -liipaisin muokkasi useampaa kuin yhtä riviä (%2). Näkymä ei yksilöi muokattua tietuetta.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
         <translation>Rivi %1: INSTEAD OF DELETE -liipaisin poisti useamman kuin yhden rivin (%2). Näkymä ei yksilöi muokattua tietuetta.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
         <translation>Näkymässä on muokkausta käsittelevä INSTEAD OF -liipaisin tai -liipaisimia. On suositeltavaa päivittää tiedot vahvistuksen jälkeen todellisten muutosten näkemiseksi, koska liipaisimet voivat muokata tietoja odottamattomalla tavalla.</translation>
     </message>

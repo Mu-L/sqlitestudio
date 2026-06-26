@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
+        <location filename="../dialogs/configdialog.ui" line="3122"/>
         <source>Configuration</source>
         <translation>Einstellungen</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
+        <location filename="../dialogs/configdialog.ui" line="3112"/>
         <source>Language</source>
         <translation>Sprache</translation>
     </message>
@@ -1816,107 +1816,113 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2623"/>
-        <source>Compact layout</source>
-        <translation>Kompaktes Layout</translation>
+        <source>User interface</source>
+        <translation type="unfinished">User interface</translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2629"/>
+        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <source>Interface scale</source>
+        <translation type="unfinished">Interface scale</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <source>Toolbar icon size</source>
+        <translation type="unfinished">Toolbar icon size</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2669"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Das kompakte Layout reduziert alle Lücken und Abstände der Oberfläche auf ein Minimum, um mehr Platz für die Darstellung der Daten zu schaffen. Die Oberfläche sieht dann zwar nicht mehr sehr ästhetisch aus, aber man hat mehr Daten im Überblick.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2672"/>
         <source>Use compact layout</source>
         <translation>Benutze kompaktes Layout</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
+        <location filename="../dialogs/configdialog.ui" line="2688"/>
         <source>Main window dock areas</source>
         <translation>Dockingbereiche des Hauptfensters</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
+        <location filename="../dialogs/configdialog.ui" line="2694"/>
         <source>Left and right areas occupy corners</source>
         <translation>Linke und rechte Bereiche belegen die Ecken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
+        <location filename="../dialogs/configdialog.ui" line="2714"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Obere und untere Bereiche belegen die Ecken</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
-        <source>Toolbars</source>
-        <translation>Werkzeugleisten</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <location filename="../dialogs/configdialog.ui" line="2656"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head&gt;&lt;body&gt;&lt;p&gt;Ausgedrückt als Prozentsatz der Standardgröße.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
-        <source>Icon size</source>
-        <translation>Symbolgröße</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
+        <location filename="../dialogs/configdialog.ui" line="2836"/>
         <source>Hide built-in plugins</source>
         <translation>Verberge eingebaute Plugins</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
+        <location filename="../dialogs/configdialog.ui" line="2865"/>
         <source>Current style:</source>
         <translation>Aktueller Stil:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
+        <location filename="../dialogs/configdialog.ui" line="2882"/>
         <source>Preview</source>
         <translation>Vorschau</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
+        <location filename="../dialogs/configdialog.ui" line="2892"/>
         <source>Enabled</source>
         <translation>Aktiviert</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
+        <location filename="../dialogs/configdialog.ui" line="3068"/>
         <source>Disabled</source>
         <translation>Deaktiviert</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
+        <location filename="../dialogs/configdialog.ui" line="3117"/>
         <source>Active formatter plugin</source>
         <translation>Aktives Formatierungsplugin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tipp:&lt;/span&gt; Zusätzlich zu den hier verfügbaren Einstellungen können Schriftgrößen in den meisten Oberflächenelementen auch dynamisch angepasst werden, indem Sie die &lt;span style=&quot; font-weight:700;&quot;&gt;Strg-Taste&lt;/span&gt; gedrückt halten und das &lt;span style=&quot; font-weight:700;&quot;&gt;Mausrad&lt;/span&gt; über das Element, dessen Schriftgröße Sie ändern möchten.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
+        <location filename="../dialogs/configdialog.ui" line="3174"/>
         <source>SQL editor font</source>
         <translation>Schriftart des SQL Editors</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
+        <location filename="../dialogs/configdialog.ui" line="3190"/>
         <source>Database list font</source>
         <translation>Schriftart der Datenbankliste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
+        <location filename="../dialogs/configdialog.ui" line="3206"/>
         <source>Database list additional label font</source>
         <translation>Zusätzliche Bezeichnungen in der Datenbankliste</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
+        <location filename="../dialogs/configdialog.ui" line="3222"/>
         <source>Data view font</source>
         <translation>Schriftart der Ergebnisansicht</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
+        <location filename="../dialogs/configdialog.ui" line="3238"/>
         <source>Status field font</source>
         <translation>Schriftart des Statusfelds</translation>
     </message>
@@ -1926,109 +1932,114 @@
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Wenn diese Option aktiviert ist, der Code-Assistent wird in den Fällen ausgelöst, wenn Benutzertypen wie z. B. &lt;span style=&quot; font-weight:700;&quot;&gt;TableName verwendet werden.&lt;/span&gt; um Spalten der Tabelle vorzuschlagen. Wenn die Option deaktiviert ist, muss der Benutzer den Assistenten Hotkey explizit drücken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
+        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <source>The new interface scale will be applied after restarting Letos.</source>
+        <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1144"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Bezeichnung:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1123"/>
+        <location filename="../dialogs/configdialog.cpp" line="1145"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Kategorie:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
+        <location filename="../dialogs/configdialog.cpp" line="1146"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Version:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
+        <location filename="../dialogs/configdialog.cpp" line="1147"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Autor:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
+        <location filename="../dialogs/configdialog.cpp" line="1149"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Interner Name:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1128"/>
+        <location filename="../dialogs/configdialog.cpp" line="1150"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Abhängigkeiten:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1129"/>
+        <location filename="../dialogs/configdialog.cpp" line="1151"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Konflikte:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1130"/>
+        <location filename="../dialogs/configdialog.cpp" line="1152"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Datei:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1135"/>
+        <location filename="../dialogs/configdialog.cpp" line="1157"/>
         <source>Plugin details</source>
         <translation>Plugin Details</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1756"/>
+        <location filename="../dialogs/configdialog.cpp" line="1778"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Plugins werden direkt beim Aktivieren/Deaktivieren geladen bzw. entfernt, die modifizierte Pluginliste wird jedoch erst beim Bestätigen  und Schließen des Konfigurationsfensters gespeichert.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1814"/>
+        <location filename="../dialogs/configdialog.cpp" line="1836"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (integriert)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1856"/>
+        <location filename="../dialogs/configdialog.cpp" line="1878"/>
         <source>Details</source>
         <translation>Details</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1870"/>
+        <location filename="../dialogs/configdialog.cpp" line="1892"/>
         <source>No plugins in this category.</source>
         <translation>Keine Plugins in dieser Kategorie.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1970"/>
-        <location filename="../dialogs/configdialog.cpp" line="1999"/>
+        <location filename="../dialogs/configdialog.cpp" line="1992"/>
+        <location filename="../dialogs/configdialog.cpp" line="2021"/>
         <source>Add new data type</source>
         <translation>Neuen Datentypen zufügen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1974"/>
-        <location filename="../dialogs/configdialog.cpp" line="2003"/>
+        <location filename="../dialogs/configdialog.cpp" line="1996"/>
+        <location filename="../dialogs/configdialog.cpp" line="2025"/>
         <source>Rename selected data type</source>
         <translation>Markierten Datentypen umbenennen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1978"/>
-        <location filename="../dialogs/configdialog.cpp" line="2007"/>
+        <location filename="../dialogs/configdialog.cpp" line="2000"/>
+        <location filename="../dialogs/configdialog.cpp" line="2029"/>
         <source>Delete selected data type</source>
         <translation>Markierten Datentypen löschen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2091"/>
+        <location filename="../dialogs/configdialog.cpp" line="2113"/>
         <source>Clear hotkey for this action</source>
         <translation>Hotkey für diese Aktion löschen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2103"/>
+        <location filename="../dialogs/configdialog.cpp" line="2125"/>
         <source>Restore original hotkey for this action</source>
         <translation>Original-Key für diese Aktion wiederherstellen</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2145"/>
+        <location filename="../dialogs/configdialog.cpp" line="2167"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Hier können Sie Farben für die Hervorhebung von Code-Syntax konfigurieren. Sie werden über verschiedene Sprachen geteilt - nicht nur für SQL, sondern auch für JavaScript und andere. Standardmäßig wird eine themenbasierte Farbe verwendet. Um Ihre eigene Farbe zu definieren, aktivieren Sie eine benutzerdefinierte Farbe, indem Sie ein Kontrollkästchen neben einer bestimmten Farbe auswählen.</translation>
     </message>
@@ -7037,7 +7048,7 @@ find next</source>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Cannot edit this cell. Details: %1</source>
         <translation>Die Zelle kann nicht editiert. Details: %1</translation>
     </message>
@@ -7048,7 +7059,7 @@ find next</source>
     </message>
     <message>
         <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
         <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
         <translation>Die Struktur dieser Tabelle hat sich seit dem letzten Laden der Daten geändert. Laden Sie die Daten neu, um fortzufahren.</translation>
     </message>
@@ -7058,27 +7069,27 @@ find next</source>
         <translation>ROWID ist für diese Zelle nicht verfügbar.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="259"/>
         <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
         <translation>Sehr große Inhalte in einem Inline-Zelleneditor zu bearbeiten, ist keine gute Idee. Das kann langsam und umständlich werden. Es ist besser, solche großen Inhalte in der Formularansicht oder im Popup-Editor zu bearbeiten (verfügbar über das Rechtsklick-Menü).</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="284"/>
         <source>Reset to DEFAULT value</source>
         <translation>Auf DEFAULT-Wert zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="286"/>
         <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
         <translation>Auf PRIMARY KEY AUTOINCREMENT-Wert zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="288"/>
         <source>Reset value</source>
         <translation>Wert zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
+        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="309"/>
         <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
         <translation>Der Fremdschlüssel für Spalte %2 hat mehr als %1 mögliche Werte. Das sind zu viele, um sie in einer Dropdown-Liste anzuzeigen. Sie müssen den Wert manuell bearbeiten.</translation>
     </message>
@@ -7159,49 +7170,44 @@ find next</source>
         <translation>Fehler beim Laden der Abfrageergebnisse: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
-        <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation>In der neuen Abfrage gibt es weniger Spalten; die Sortierreihenfolge wurde zurückgesetzt.</translation>
-    </message>
-    <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Insert multiple rows</source>
         <translation>Mehrere Zeilen einfügen</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
         <source>Number of rows to insert:</source>
         <translation>Anzahl an Zeilen zum Einfügen:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
         <source>Delete rows</source>
         <translation>Zeilen löschen</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
         <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>Sie sind dabei, neu eingefügte Zeilen zu löschen, die noch nicht übernommen wurden. Zeilennummern: %1
 Diese Löschung ist dauerhaft. Möchten Sie sie wirklich löschen?</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2207"/>
         <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
         <translation>Einzelklick sortiert nach der Spalte.&lt;br&gt;Alt+Klick wählt Daten in der Spalte aus.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
         <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
         <translation>Einzelklick wählt Daten in der Spalte aus.&lt;br&gt;Doppelklick sortiert nach der Spalte.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
         <source>Middle-click resets sorting.</source>
         <translation>Mittelklick setzt die Sortierung zurück.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
+        <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
         <source>More options are available in the context menu.</source>
         <translation>Weitere Optionen sind im Kontextmenü verfügbar.</translation>
     </message>
@@ -7450,12 +7456,12 @@ Diese Löschung ist dauerhaft. Möchten Sie sie wirklich löschen?</translation>
         <translation>Zeile %1: Der INSTEAD-OF-UPDATE-Trigger hat mehr als eine Zeile geändert (%2). Die Ansicht identifiziert den bearbeiteten Datensatz nicht eindeutig.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
         <translation>Zeile %1: Der INSTEAD-OF-DELETE-Trigger hat mehr als eine Zeile gelöscht (%2). Die Ansicht identifiziert den bearbeiteten Datensatz nicht eindeutig.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
         <translation>Die Ansicht verfügt über INSTEAD-OF-Trigger, die die Bearbeitung behandeln. Es wird empfohlen, die Daten nach dem Übernehmen zu aktualisieren, um die tatsächlichen Änderungen zu sehen, da Trigger Daten auf unerwartete Weise ändern können.</translation>
     </message>

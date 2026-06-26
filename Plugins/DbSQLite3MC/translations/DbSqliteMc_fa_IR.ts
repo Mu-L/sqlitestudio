@@ -6,41 +6,41 @@
     <message>
         <location filename="../dbsqlitemc.cpp" line="42"/>
         <source>Password (key)</source>
-        <translation type="unfinished">Password (key)</translation>
+        <translation>گذرواژه (کلید)</translation>
     </message>
     <message>
         <location filename="../dbsqlitemc.cpp" line="43"/>
         <source>Leave empty to create or connect to decrypted database.</source>
-        <translation type="unfinished">Leave empty to create or connect to decrypted database.</translation>
+        <translation>برای ایجاد یا اتصال به پایگاه‌داده رمزگشایی‌شده، خالی بگذارید.</translation>
     </message>
     <message>
         <location filename="../dbsqlitemc.cpp" line="44"/>
         <source>Encryption password</source>
-        <translation type="unfinished">Encryption password</translation>
+        <translation>گذرواژه رمزنگاری</translation>
     </message>
     <message>
         <location filename="../dbsqlitemc.cpp" line="50"/>
         <source>Cipher</source>
-        <translation type="unfinished">Cipher</translation>
+        <translation>رمز</translation>
     </message>
     <message>
         <location filename="../dbsqlitemc.cpp" line="51"/>
         <source>Cipher determines encryption algorithm used to encrypt the database.</source>
-        <translation type="unfinished">Cipher determines encryption algorithm used to encrypt the database.</translation>
+        <translation>رمز، الگوریتم رمزنگاری مورد استفاده برای رمزنگاری پایگاه‌داده را تعیین می‌کند.</translation>
     </message>
     <message>
         <location filename="../dbsqlitemc.cpp" line="61"/>
         <source>Cipher configuration (optional)</source>
-        <translation type="unfinished">Cipher configuration (optional)</translation>
+        <translation>پیکربندی رمز (اختیاری)</translation>
     </message>
     <message>
         <location filename="../dbsqlitemc.cpp" line="62"/>
         <source>PRAGMA statements to customize SQLite3 Multiple Ciphers configuration, such as KDF iterations, legacy mode, etc.
 They will be executed upon each opening of the database.
 See documentation for SQLite3 Multiple Ciphers for details.</source>
-        <translation type="unfinished">PRAGMA statements to customize SQLite3 Multiple Ciphers configuration, such as KDF iterations, legacy mode, etc.
-They will be executed upon each opening of the database.
-See documentation for SQLite3 Multiple Ciphers for details.</translation>
+        <translation>دستورهای PRAGMA برای سفارشی‌سازی پیکربندی SQLite3 Multiple Ciphers، مانند تکرارهای KDF، حالت میراثی و غیره.
+آن‌ها هنگام هر بار باز شدن پایگاه‌داده اجرا خواهند شد.
+برای جزئیات، مستندات SQLite3 Multiple Ciphers را ببینید.</translation>
     </message>
 </context>
 </TS>
