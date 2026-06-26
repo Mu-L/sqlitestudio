@@ -88,6 +88,7 @@ QWidget* SqlQueryItemDelegate::createEditor(QWidget* parent, const QStyleOptionV
         getFkEditor(item, skipInitSelection, parent, model) :
         getEditor(item, item->getValue().userType(), skipInitSelection, parent);
 
+    editor->setFont(CFG_UI.Fonts.DataView.get());
     editor->installEventFilter(const_cast<SqlQueryItemDelegate*>(this));
     return editor;
 }
@@ -324,5 +325,6 @@ QWidget* SqlQueryItemDelegate::getFkEditor(SqlQueryItem* item, bool shouldSkipIn
     if (!shouldSkipInitialSelection)
         cb->lineEdit()->selectAll();
 
+    cb->lineEdit()->setFont(CFG_UI.Fonts.DataView.get());
     return cb;
 }

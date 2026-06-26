@@ -163,6 +163,9 @@ bool SqlViewModel::commitEditedRowByTrigger(const QList<SqlQueryItem*>& items, c
         else
            itemsLeft << item;
     }
+    if (itemsToCommit.isEmpty())
+        return true; // nothing to commit through trigger
+
     return commitEditedRowAllColumnsByTrigger(itemsToCommit, successfulCommitHandlers);
 }
 

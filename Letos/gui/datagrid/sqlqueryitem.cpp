@@ -435,7 +435,7 @@ QVariant SqlQueryItem::data(int role) const
             if (isNull(value) || isDeletedRow())
                 return Qt::AlignCenter;
 
-            break;
+            return int(Qt::AlignmentFlag(QStandardItem::data(role).toInt()) | Qt::AlignVCenter);
         }
         case Qt::FontRole:
         {

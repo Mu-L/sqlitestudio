@@ -432,13 +432,13 @@ void QHexEditPrivate::keyPressEvent(QKeyEvent *event)
         setSelection(pos);
     }
 
-/*****************************************************************************/
-/* Edit Commands */
-/*****************************************************************************/
-if (!_readOnly)
-{
-    /* Hex input */
-        int key = int(event->text()[0].toLatin1()); // changed from toAscii() to toLatin() for Qt5 needs
+    /*****************************************************************************/
+    /* Edit Commands */
+    /*****************************************************************************/
+    if (!_readOnly)
+    {
+        /* Hex input */
+        int key = event->text().isEmpty() ? -1 : int(event->text()[0].toLatin1()); // changed from toAscii() to toLatin() for Qt5 needs
         if ((key>='0' && key<='9') || (key>='a' && key <= 'f'))
         {
             if (getSelectionBegin() != getSelectionEnd())
