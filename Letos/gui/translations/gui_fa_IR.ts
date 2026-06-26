@@ -1,8820 +1,8826 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="fa" sourcelanguage="en">
-<context>
+  <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="24"/>
-        <source>About</source>
-        <translation type="unfinished">About</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="24"/>
+      <source>About</source>
+      <translation>درباره</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="41"/>
-        <source>Licenses</source>
-        <translation type="unfinished">Licenses</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="41"/>
+      <source>Licenses</source>
+      <translation>مجوزها</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="55"/>
-        <source>Environment</source>
-        <translation type="unfinished">Environment</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="55"/>
+      <source>Environment</source>
+      <translation>محیط</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="102"/>
-        <source>Icon directories</source>
-        <translation type="unfinished">Icon directories</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="102"/>
+      <source>Icon directories</source>
+      <translation>پوشه‌های آیکن</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="170"/>
-        <source>Form directories</source>
-        <translation type="unfinished">Form directories</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="170"/>
+      <source>Form directories</source>
+      <translation>پوشه‌های فرم</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="187"/>
-        <source>SQLite extension directories</source>
-        <translation type="unfinished">SQLite extension directories</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="187"/>
+      <source>SQLite extension directories</source>
+      <translation>پوشه‌های افزونه SQLite</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="140"/>
-        <source>Plugin directories</source>
-        <translation type="unfinished">Plugin directories</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="140"/>
+      <source>Plugin directories</source>
+      <translation>پوشه‌های پلاگین</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="14"/>
-        <source>About Letos and licenses</source>
-        <translation type="unfinished">About Letos and licenses</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="14"/>
+      <source>About Letos and licenses</source>
+      <translation>درباره Letos و مجوزها</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="30"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="30"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Free, open-source, cross-platform SQLite database manager.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Author and active maintainer:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Letos v%1&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;مدیر پایگاه‌دادهٔ SQLite آزاد، متن‌باز و چندسکویی.&lt;br/&gt;&lt;a href=&quot;https://letos.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://letos.org&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;%2&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;نویسنده و نگه‌دارندهٔ فعال:&lt;br/&gt;Paweł Salawa&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="75"/>
-        <source>Configuration directory</source>
-        <translation type="unfinished">Configuration directory</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="75"/>
+      <source>Configuration directory</source>
+      <translation>پوشه پیکربندی</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="150"/>
-        <source>Application directory</source>
-        <translation type="unfinished">Application directory</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="150"/>
+      <source>Application directory</source>
+      <translation>پوشه برنامه</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="85"/>
-        <source>Qt version:</source>
-        <translation type="unfinished">Qt version:</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="85"/>
+      <source>Qt version:</source>
+      <translation>نسخه Qt:</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.ui" line="160"/>
-        <source>SQLite 3 version:</source>
-        <translation type="unfinished">SQLite 3 version:</translation>
+      <location filename="../dialogs/aboutdialog.ui" line="160"/>
+      <source>SQLite 3 version:</source>
+      <translation>نسخه SQLite 3:</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="42"/>
-        <source>Portable distribution.</source>
-        <translation type="unfinished">Portable distribution.</translation>
+      <location filename="../dialogs/aboutdialog.cpp" line="42"/>
+      <source>Portable distribution.</source>
+      <translation>توزیع قابل‌حمل.</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="45"/>
-        <source>MacOS X application bundle distribution.</source>
-        <translation type="unfinished">MacOS X application bundle distribution.</translation>
+      <location filename="../dialogs/aboutdialog.cpp" line="45"/>
+      <source>MacOS X application bundle distribution.</source>
+      <translation>توزیع بسته برنامه MacOS X.</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="48"/>
-        <source>Operating system managed distribution.</source>
-        <translation type="unfinished">Operating system managed distribution.</translation>
+      <location filename="../dialogs/aboutdialog.cpp" line="48"/>
+      <source>Operating system managed distribution.</source>
+      <translation>توزیع مدیریت‌شده توسط سیستم‌عامل.</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="98"/>
-        <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
-        <translation type="unfinished">&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
+      <location filename="../dialogs/aboutdialog.cpp" line="98"/>
+      <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
+      <translation>&lt;h3&gt;فهرست مطالب:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>BindParamsDialog</name>
     <message>
-        <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
-        <source>Query parameters</source>
-        <translation type="unfinished">Query parameters</translation>
+      <location filename="../dialogs/bindparamsdialog.ui" line="17"/>
+      <source>Query parameters</source>
+      <translation>پارامترهای پرس‌وجو</translation>
     </message>
     <message>
-        <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
-        <source>Please provide values for query parameters</source>
-        <translation type="unfinished">Please provide values for query parameters</translation>
+      <location filename="../dialogs/bindparamsdialog.ui" line="26"/>
+      <source>Please provide values for query parameters</source>
+      <translation>لطفاً مقادیر پارامترهای پرس‌وجو را وارد کنید</translation>
     </message>
     <message>
-        <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
-        <source>Advanced mode</source>
-        <translation type="unfinished">Advanced mode</translation>
+      <location filename="../dialogs/bindparamsdialog.ui" line="68"/>
+      <source>Advanced mode</source>
+      <translation>حالت پیشرفته</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CellRendererTable</name>
     <message>
-        <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
-        <source>Default</source>
-        <translation type="unfinished">Default</translation>
+      <location filename="../configwidgets/cellrenderertable.cpp" line="33"/>
+      <source>Default</source>
+      <translation>پیش‌فرض</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CodeSnippetEditor</name>
     <message>
-        <location filename="../windows/codesnippeteditor.ui" line="84"/>
-        <source>Filter snippets</source>
-        <translation type="unfinished">Filter snippets</translation>
+      <location filename="../windows/codesnippeteditor.ui" line="84"/>
+      <source>Filter snippets</source>
+      <translation>فیلتر کردن قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.ui" line="183"/>
-        <location filename="../windows/codesnippeteditor.ui" line="221"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/codesnippeteditor.ui" line="183"/>
+      <location filename="../windows/codesnippeteditor.ui" line="221"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Optional shortcut, that will work only in context of the active code assistant window. It allows user to use key combinations, that would otherwise be conflicting with other shortcuts. Having the code assistant window as required context makes the choice of keys more versatile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;میانبر اختیاری که فقط در زمینه پنجره فعال دستیار کد کار می‌کند. این امکان را به کاربر می‌دهد تا از ترکیب کلیدهایی استفاده کند که در غیر این صورت با میانبرهای دیگر تداخل خواهند داشت. داشتن پنجره دستیار کد به‌عنوان زمینه لازم، انتخاب کلیدها را انعطاف‌پذیرتر می‌کند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.ui" line="204"/>
-        <location filename="../windows/codesnippeteditor.ui" line="214"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/codesnippeteditor.ui" line="204"/>
+      <location filename="../windows/codesnippeteditor.ui" line="214"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The name of the snippet will be displayed in the code assistant. To access the list of snippets user has to hit the code assistant shortcut twice.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;نام قطعه‌کد در دستیار کد نمایش داده می‌شود. برای دسترسی به فهرست قطعه‌کدها، کاربر باید میانبر دستیار کد را دو بار بزند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.ui" line="207"/>
-        <source>Snippet name</source>
-        <translation type="unfinished">Snippet name</translation>
+      <location filename="../windows/codesnippeteditor.ui" line="207"/>
+      <source>Snippet name</source>
+      <translation>نام قطعه‌کد</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.ui" line="224"/>
-        <source>Code assistant shortcut</source>
-        <translation type="unfinished">Code assistant shortcut</translation>
+      <location filename="../windows/codesnippeteditor.ui" line="224"/>
+      <source>Code assistant shortcut</source>
+      <translation>میانبر دستیار کد</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.ui" line="240"/>
-        <source>Snippet code</source>
-        <translation type="unfinished">Snippet code</translation>
+      <location filename="../windows/codesnippeteditor.ui" line="240"/>
+      <source>Snippet code</source>
+      <translation>کد قطعه‌کد</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="50"/>
-        <source>Code Snippets editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Code Snippets editor window has uncommitted modifications.</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="50"/>
+      <source>Code Snippets editor window has uncommitted modifications.</source>
+      <translation>پنجره ویرایشگر قطعه‌کدها تغییرات ثبت‌نشده دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="71"/>
-        <source>Code Snippets editor</source>
-        <translation type="unfinished">Code Snippets editor</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="71"/>
+      <source>Code Snippets editor</source>
+      <translation>ویرایشگر قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="76"/>
-        <source>Commit all snippet changes</source>
-        <translation type="unfinished">Commit all snippet changes</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="76"/>
+      <source>Commit all snippet changes</source>
+      <translation>ثبت همه تغییرات قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="77"/>
-        <source>Rollback all snippet changes</source>
-        <translation type="unfinished">Rollback all snippet changes</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="77"/>
+      <source>Rollback all snippet changes</source>
+      <translation>بازگردانی همه تغییرات قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="79"/>
-        <source>Create new snippet</source>
-        <translation type="unfinished">Create new snippet</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="79"/>
+      <source>Create new snippet</source>
+      <translation>ایجاد قطعه‌کد جدید</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="80"/>
-        <source>Delete selected snippet</source>
-        <translation type="unfinished">Delete selected snippet</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="80"/>
+      <source>Delete selected snippet</source>
+      <translation>حذف قطعه‌کد انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="82"/>
-        <source>Move the snippet up</source>
-        <translation type="unfinished">Move the snippet up</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="82"/>
+      <source>Move the snippet up</source>
+      <translation>انتقال قطعه‌کد به بالا</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="83"/>
-        <source>Move the snippet down</source>
-        <translation type="unfinished">Move the snippet down</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="83"/>
+      <source>Move the snippet down</source>
+      <translation>انتقال قطعه‌کد به پایین</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="85"/>
-        <source>Import snippets from file</source>
-        <translation type="unfinished">Import snippets from file</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="85"/>
+      <source>Import snippets from file</source>
+      <translation>وارد کردن قطعه‌کدها از فایل</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="86"/>
-        <source>Export snippets to file</source>
-        <translation type="unfinished">Export snippets to file</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="86"/>
+      <source>Export snippets to file</source>
+      <translation>صادر کردن قطعه‌کدها به فایل</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="87"/>
-        <source>Code snippets manual</source>
-        <translation type="unfinished">Code snippets manual</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="87"/>
+      <source>Code snippets manual</source>
+      <translation>راهنمای قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="325"/>
-        <source>Enter a non-empty, unique name of the snippet.</source>
-        <translation type="unfinished">Enter a non-empty, unique name of the snippet.</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="325"/>
+      <source>Enter a non-empty, unique name of the snippet.</source>
+      <translation>یک نام غیرخالی و یکتا برای قطعه‌کد وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="328"/>
-        <source>Enter a non-empty snippet content.</source>
-        <translation type="unfinished">Enter a non-empty snippet content.</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="328"/>
+      <source>Enter a non-empty snippet content.</source>
+      <translation>محتوای غیرخالی قطعه‌کد را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.cpp" line="332"/>
-        <source>This hotkey is not unique in context of a code assistant.</source>
-        <translation type="unfinished">This hotkey is not unique in context of a code assistant.</translation>
+      <location filename="../windows/codesnippeteditor.cpp" line="332"/>
+      <source>This hotkey is not unique in context of a code assistant.</source>
+      <translation>این کلید میانبر در زمینه دستیار کد یکتا نیست.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CodeSnippetEditorModel</name>
     <message>
-        <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
-        <source>Name:</source>
-        <translation type="unfinished">Name:</translation>
+      <location filename="../windows/codesnippeteditormodel.cpp" line="253"/>
+      <source>Name:</source>
+      <translation>نام:</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
-        <source>Hotkey:</source>
-        <translation type="unfinished">Hotkey:</translation>
+      <location filename="../windows/codesnippeteditormodel.cpp" line="254"/>
+      <source>Hotkey:</source>
+      <translation>کلید میانبر:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CodeSnippetsPanel</name>
     <message>
-        <location filename="../codesnippetspanel.ui" line="17"/>
-        <source>Code Snippets</source>
-        <translation type="unfinished">Code Snippets</translation>
+      <location filename="../codesnippetspanel.ui" line="17"/>
+      <source>Code Snippets</source>
+      <translation>قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.ui" line="43"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../codesnippetspanel.ui" line="43"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Drag to the SQL editor to use the snippet.&lt;/p&gt;&lt;p&gt;Drop any code (or a text) here to add a new code snippet.&lt;/p&gt;&lt;p&gt;Double-click to edit the snippet.&lt;/p&gt;&lt;p&gt;Code snippets are also available in Code Assistant. Invoke it twice to show snippets.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;برای استفاده از قطعه‌کد، آن را به ویرایشگر SQL بکشید.&lt;/p&gt;&lt;p&gt;برای افزودن قطعه‌کد جدید، هر کد (یا متن) را اینجا رها کنید.&lt;/p&gt;&lt;p&gt;برای ویرایش قطعه‌کد، دوبار کلیک کنید.&lt;/p&gt;&lt;p&gt;قطعه‌کدها در دستیار کد نیز در دسترس هستند. برای نمایش قطعه‌کدها، آن را دو بار فراخوانی کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.ui" line="69"/>
-        <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+      <location filename="../codesnippetspanel.ui" line="69"/>
+      <source>Preview</source>
+      <translation>پیش‌نمایش</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.cpp" line="69"/>
-        <source>Add code snippet</source>
-        <translation type="unfinished">Add code snippet</translation>
+      <location filename="../codesnippetspanel.cpp" line="69"/>
+      <source>Add code snippet</source>
+      <translation>افزودن قطعه‌کد</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.cpp" line="69"/>
-        <source>Enter a name for the new code snippet:</source>
-        <translation type="unfinished">Enter a name for the new code snippet:</translation>
+      <location filename="../codesnippetspanel.cpp" line="69"/>
+      <source>Enter a name for the new code snippet:</source>
+      <translation>نامی برای قطعه‌کد جدید وارد کنید:</translation>
     </message>
     <message>
-        <location filename="../codesnippetspanel.cpp" line="97"/>
-        <source>Filter by name</source>
-        <translation type="unfinished">Filter by name</translation>
+      <location filename="../codesnippetspanel.cpp" line="97"/>
+      <source>Filter by name</source>
+      <translation>فیلتر بر اساس نام</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CollationsEditor</name>
     <message>
-        <location filename="../windows/collationseditor.ui" line="84"/>
-        <source>Filter collations</source>
-        <translation type="unfinished">Filter collations</translation>
+      <location filename="../windows/collationseditor.ui" line="84"/>
+      <source>Filter collations</source>
+      <translation>فیلتر کردن ترتیب‌های مقایسه</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="163"/>
-        <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+      <location filename="../windows/collationseditor.ui" line="163"/>
+      <source>Databases</source>
+      <translation>پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="169"/>
-        <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+      <location filename="../windows/collationseditor.ui" line="169"/>
+      <source>Register in all databases</source>
+      <translation>ثبت در همه پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="176"/>
-        <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+      <location filename="../windows/collationseditor.ui" line="176"/>
+      <source>Register in following databases:</source>
+      <translation>ثبت در پایگاه‌های داده زیر:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="197"/>
-        <source>Implementation code:</source>
-        <translation type="unfinished">Implementation code:</translation>
+      <location filename="../windows/collationseditor.ui" line="197"/>
+      <source>Implementation code:</source>
+      <translation>کد پیاده‌سازی:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="229"/>
-        <source>Collation name:</source>
-        <translation type="unfinished">Collation name:</translation>
+      <location filename="../windows/collationseditor.ui" line="229"/>
+      <source>Collation name:</source>
+      <translation>نام ترتیب مقایسه:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="239"/>
-        <source>Collation type:</source>
-        <translation type="unfinished">Collation type:</translation>
+      <location filename="../windows/collationseditor.ui" line="239"/>
+      <source>Collation type:</source>
+      <translation>نوع ترتیب مقایسه:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="248"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/collationseditor.ui" line="248"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Implements the comparison logic directly in Letos using a scripting language. Choose this type to create fully custom sorting and comparison rules without requiring external SQLite extensions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;منطق مقایسه را مستقیماً در Letos با استفاده از یک زبان اسکریپتی پیاده‌سازی می‌کند. این نوع را انتخاب کنید تا قواعد مرتب‌سازی و مقایسه کاملاً سفارشی را بدون نیاز به افزونه‌های خارجی SQLite ایجاد کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="251"/>
-        <source>Function-based</source>
-        <translation type="unfinished">Function-based</translation>
+      <location filename="../windows/collationseditor.ui" line="251"/>
+      <source>Function-based</source>
+      <translation>مبتنی بر تابع</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="258"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/collationseditor.ui" line="258"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uses a collation implemented by a SQLite extension or external library. Choose this type when the comparison logic already exists outside of Letos, for example in ICU or another SQLite extension.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;از Collation پیاده‌سازی‌شده توسط یک افزونه SQLite یا کتابخانه خارجی استفاده می‌کند. این نوع را زمانی انتخاب کنید که منطق مقایسه از قبل بیرون از Letos وجود دارد، برای مثال در ICU یا افزونه SQLite دیگر.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="261"/>
-        <source>Extension-based</source>
-        <translation type="unfinished">Extension-based</translation>
+      <location filename="../windows/collationseditor.ui" line="261"/>
+      <source>Extension-based</source>
+      <translation>مبتنی بر افزونه</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.ui" line="270"/>
-        <source>Implementation language:</source>
-        <translation type="unfinished">Implementation language:</translation>
+      <location filename="../windows/collationseditor.ui" line="270"/>
+      <source>Implementation language:</source>
+      <translation>زبان پیاده‌سازی:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="56"/>
-        <source>Collations editor</source>
-        <translation type="unfinished">Collations editor</translation>
+      <location filename="../windows/collationseditor.cpp" line="56"/>
+      <source>Collations editor</source>
+      <translation>ویرایشگر ترتیب‌های مقایسه</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="61"/>
-        <source>Commit all collation changes</source>
-        <translation type="unfinished">Commit all collation changes</translation>
+      <location filename="../windows/collationseditor.cpp" line="61"/>
+      <source>Commit all collation changes</source>
+      <translation>ثبت همه تغییرات ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="62"/>
-        <source>Rollback all collation changes</source>
-        <translation type="unfinished">Rollback all collation changes</translation>
+      <location filename="../windows/collationseditor.cpp" line="62"/>
+      <source>Rollback all collation changes</source>
+      <translation>بازگردانی همه تغییرات ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="64"/>
-        <source>Create new collation</source>
-        <translation type="unfinished">Create new collation</translation>
+      <location filename="../windows/collationseditor.cpp" line="64"/>
+      <source>Create new collation</source>
+      <translation>ایجاد ترتیب مقایسه جدید</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="65"/>
-        <source>Delete selected collation</source>
-        <translation type="unfinished">Delete selected collation</translation>
+      <location filename="../windows/collationseditor.cpp" line="65"/>
+      <source>Delete selected collation</source>
+      <translation>حذف ترتیب مقایسه انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="67"/>
-        <source>Import collations from file</source>
-        <translation type="unfinished">Import collations from file</translation>
+      <location filename="../windows/collationseditor.cpp" line="67"/>
+      <source>Import collations from file</source>
+      <translation>وارد کردن ترتیب‌های مقایسه از فایل</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="68"/>
-        <source>Export collations to file</source>
-        <translation type="unfinished">Export collations to file</translation>
+      <location filename="../windows/collationseditor.cpp" line="68"/>
+      <source>Export collations to file</source>
+      <translation>صادر کردن ترتیب‌های مقایسه به فایل</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="69"/>
-        <source>Editing collations manual</source>
-        <translation type="unfinished">Editing collations manual</translation>
+      <location filename="../windows/collationseditor.cpp" line="69"/>
+      <source>Editing collations manual</source>
+      <translation>راهنمای ویرایش ترتیب‌های مقایسه</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="322"/>
-        <source>Enter a non-empty, unique name of the collation.</source>
-        <translation type="unfinished">Enter a non-empty, unique name of the collation.</translation>
+      <location filename="../windows/collationseditor.cpp" line="322"/>
+      <source>Enter a non-empty, unique name of the collation.</source>
+      <translation>یک نام غیرخالی و یکتا برای ترتیب مقایسه وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="332"/>
-        <source>Pick the implementation language.</source>
-        <translation type="unfinished">Pick the implementation language.</translation>
+      <location filename="../windows/collationseditor.cpp" line="332"/>
+      <source>Pick the implementation language.</source>
+      <translation>زبان پیاده‌سازی را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="337"/>
-        <source>Registration code</source>
-        <translation type="unfinished">Registration code</translation>
+      <location filename="../windows/collationseditor.cpp" line="337"/>
+      <source>Registration code</source>
+      <translation>کد ثبت</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="338"/>
-        <source>Enter a non-empty registration code.</source>
-        <translation type="unfinished">Enter a non-empty registration code.</translation>
+      <location filename="../windows/collationseditor.cpp" line="338"/>
+      <source>Enter a non-empty registration code.</source>
+      <translation>یک کد ثبت غیرخالی وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="346"/>
-        <source>Implementation code</source>
-        <translation type="unfinished">Implementation code</translation>
+      <location filename="../windows/collationseditor.cpp" line="346"/>
+      <source>Implementation code</source>
+      <translation>کد پیاده‌سازی</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="347"/>
-        <source>Enter a non-empty implementation code.</source>
-        <translation type="unfinished">Enter a non-empty implementation code.</translation>
+      <location filename="../windows/collationseditor.cpp" line="347"/>
+      <source>Enter a non-empty implementation code.</source>
+      <translation>یک کد پیاده‌سازی غیرخالی وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.cpp" line="506"/>
-        <source>Collations editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Collations editor window has uncommitted modifications.</translation>
+      <location filename="../windows/collationseditor.cpp" line="506"/>
+      <source>Collations editor window has uncommitted modifications.</source>
+      <translation>پنجره ویرایشگر ترتیب‌های مقایسه تغییرات ثبت‌نشده دارد.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CollationsEditorModel</name>
     <message>
-        <location filename="../windows/collationseditormodel.cpp" line="219"/>
-        <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+      <location filename="../windows/collationseditormodel.cpp" line="219"/>
+      <source>all databases</source>
+      <translation>همه پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditormodel.cpp" line="224"/>
-        <source>Collation:</source>
-        <translation type="unfinished">Collation:</translation>
+      <location filename="../windows/collationseditormodel.cpp" line="224"/>
+      <source>Collation:</source>
+      <translation>ترتیب مقایسه:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditormodel.cpp" line="225"/>
-        <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+      <location filename="../windows/collationseditormodel.cpp" line="225"/>
+      <source>Type:</source>
+      <translation>نوع:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditormodel.cpp" line="226"/>
-        <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+      <location filename="../windows/collationseditormodel.cpp" line="226"/>
+      <source>Language:</source>
+      <translation>زبان:</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditormodel.cpp" line="227"/>
-        <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+      <location filename="../windows/collationseditormodel.cpp" line="227"/>
+      <source>Registered in:</source>
+      <translation>ثبت‌شده در:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColorButton</name>
     <message>
-        <location filename="../common/colorbutton.cpp" line="29"/>
-        <source>Pick a color</source>
-        <translation type="unfinished">Pick a color</translation>
+      <location filename="../common/colorbutton.cpp" line="29"/>
+      <source>Pick a color</source>
+      <translation>انتخاب رنگ</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColorPickerPopup</name>
     <message>
-        <location filename="../common/colorpickerpopup.cpp" line="58"/>
-        <source>Clear</source>
-        <translation type="unfinished">Clear</translation>
+      <location filename="../common/colorpickerpopup.cpp" line="58"/>
+      <source>Clear</source>
+      <translation>پاک کردن</translation>
     </message>
     <message>
-        <location filename="../common/colorpickerpopup.cpp" line="65"/>
-        <source>Custom colors</source>
-        <translation type="unfinished">Custom colors</translation>
+      <location filename="../common/colorpickerpopup.cpp" line="65"/>
+      <source>Custom colors</source>
+      <translation>رنگ‌های سفارشی</translation>
     </message>
     <message>
-        <location filename="../common/colorpickerpopup.cpp" line="73"/>
-        <source>Add custom color</source>
-        <translation type="unfinished">Add custom color</translation>
+      <location filename="../common/colorpickerpopup.cpp" line="73"/>
+      <source>Add custom color</source>
+      <translation>افزودن رنگ سفارشی</translation>
     </message>
     <message>
-        <location filename="../common/colorpickerpopup.cpp" line="219"/>
-        <source>Select color</source>
-        <translation type="unfinished">Select color</translation>
+      <location filename="../common/colorpickerpopup.cpp" line="219"/>
+      <source>Select color</source>
+      <translation>انتخاب رنگ</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnCollatePanel</name>
     <message>
-        <location filename="../constraints/columncollatepanel.ui" line="41"/>
-        <source>Collation name:</source>
-        <translation type="unfinished">Collation name:</translation>
+      <location filename="../constraints/columncollatepanel.ui" line="41"/>
+      <source>Collation name:</source>
+      <translation>نام ترتیب مقایسه:</translation>
     </message>
     <message>
-        <location filename="../constraints/columncollatepanel.ui" line="73"/>
-        <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+      <location filename="../constraints/columncollatepanel.ui" line="73"/>
+      <source>Named constraint:</source>
+      <translation>محدودیت نام‌دار:</translation>
     </message>
     <message>
-        <location filename="../constraints/columncollatepanel.cpp" line="80"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/columncollatepanel.cpp" line="80"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columncollatepanel.cpp" line="81"/>
-        <source>Enter a collation name.</source>
-        <translation type="unfinished">Enter a collation name.</translation>
+      <location filename="../constraints/columncollatepanel.cpp" line="81"/>
+      <source>Enter a collation name.</source>
+      <translation>نام ترتیب مقایسه را وارد کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnDefaultPanel</name>
     <message>
-        <location filename="../constraints/columndefaultpanel.ui" line="20"/>
-        <source>Default value:</source>
-        <translation type="unfinished">Default value:</translation>
+      <location filename="../constraints/columndefaultpanel.ui" line="20"/>
+      <source>Default value:</source>
+      <translation>مقدار پیش‌فرض:</translation>
     </message>
     <message>
-        <location filename="../constraints/columndefaultpanel.ui" line="35"/>
-        <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+      <location filename="../constraints/columndefaultpanel.ui" line="35"/>
+      <source>Named constraint:</source>
+      <translation>محدودیت نام‌دار:</translation>
     </message>
     <message>
-        <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
-        <source>Enter a default value expression.</source>
-        <translation type="unfinished">Enter a default value expression.</translation>
+      <location filename="../constraints/columndefaultpanel.cpp" line="39"/>
+      <source>Enter a default value expression.</source>
+      <translation>عبارت مقدار پیش‌فرض را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
-        <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
-        <translation type="unfinished">Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</translation>
+      <location filename="../constraints/columndefaultpanel.cpp" line="78"/>
+      <source>Invalid default value expression: %1. If you want to use simple string as value, remember to surround it with quote characters.</source>
+      <translation>عبارت مقدار پیش‌فرض نامعتبر است: %1. اگر می‌خواهید از یک رشته ساده به‌عنوان مقدار استفاده کنید، به یاد داشته باشید آن را با نویسه‌های نقل‌قول احاطه کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
-        <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
-        <translation type="unfinished">Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</translation>
+      <location filename="../constraints/columndefaultpanel.cpp" line="89"/>
+      <source>Invalid default value expression. If you want to use simple string as value, remember to surround it with quote characters.</source>
+      <translation>عبارت مقدار پیش‌فرض نامعتبر است. اگر می‌خواهید از یک رشته ساده به‌عنوان مقدار استفاده کنید، به یاد داشته باشید آن را با نویسه‌های نقل‌قول احاطه کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/columndefaultpanel.cpp" line="92"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnDialog</name>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="20"/>
-        <source>Column</source>
-        <translation type="unfinished">Column</translation>
+      <location filename="../dialogs/columndialog.ui" line="20"/>
+      <source>Column</source>
+      <translation>ستون</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="29"/>
-        <source>Name and type</source>
-        <translation type="unfinished">Name and type</translation>
+      <location filename="../dialogs/columndialog.ui" line="29"/>
+      <source>Name and type</source>
+      <translation>نام و نوع</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="41"/>
-        <source>Scale</source>
-        <translation type="unfinished">Scale</translation>
+      <location filename="../dialogs/columndialog.ui" line="41"/>
+      <source>Scale</source>
+      <translation>مقیاس</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="61"/>
-        <source>Precision</source>
-        <translation type="unfinished">Precision</translation>
+      <location filename="../dialogs/columndialog.ui" line="61"/>
+      <source>Precision</source>
+      <translation>دقت</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="68"/>
-        <source>Data type:</source>
-        <translation type="unfinished">Data type:</translation>
+      <location filename="../dialogs/columndialog.ui" line="68"/>
+      <source>Data type:</source>
+      <translation>نوع داده:</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="75"/>
-        <source>Column name:</source>
-        <translation type="unfinished">Column name:</translation>
+      <location filename="../dialogs/columndialog.ui" line="75"/>
+      <source>Column name:</source>
+      <translation>نام ستون:</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="85"/>
-        <source>Size:</source>
-        <translation type="unfinished">Size:</translation>
+      <location filename="../dialogs/columndialog.ui" line="85"/>
+      <source>Size:</source>
+      <translation>اندازه:</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="108"/>
-        <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+      <location filename="../dialogs/columndialog.ui" line="108"/>
+      <source>Constraints</source>
+      <translation>محدودیت‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="138"/>
-        <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+      <location filename="../dialogs/columndialog.ui" line="138"/>
+      <source>This column is part of a composite primary key. Composite constraints are configured in the bottom part of Structure tab.</source>
+      <translation>این ستون بخشی از یک کلید اصلی مرکب است. محدودیت‌های مرکب در بخش پایینی زبانه ساختار پیکربندی می‌شوند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="141"/>
-        <source>Composite Primary Key</source>
-        <translation type="unfinished">Composite Primary Key</translation>
+      <location filename="../dialogs/columndialog.ui" line="141"/>
+      <source>Composite Primary Key</source>
+      <translation>کلید اصلی مرکب</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="161"/>
-        <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</translation>
+      <location filename="../dialogs/columndialog.ui" line="161"/>
+      <source>This column is part of a composite foreign key. Composite constraints are configured in the bottom part of Structure tab.</source>
+      <translation>این ستون بخشی از یک کلید خارجی مرکب است. محدودیت‌های مرکب در بخش پایینی زبانه ساختار پیکربندی می‌شوند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="164"/>
-        <source>Composite Foreign Key</source>
-        <translation type="unfinished">Composite Foreign Key</translation>
+      <location filename="../dialogs/columndialog.ui" line="164"/>
+      <source>Composite Foreign Key</source>
+      <translation>کلید خارجی مرکب</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="209"/>
-        <source>Generated value</source>
-        <translation type="unfinished">Generated value</translation>
+      <location filename="../dialogs/columndialog.ui" line="209"/>
+      <source>Generated value</source>
+      <translation>مقدار تولیدشده</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="223"/>
-        <source>Unique</source>
-        <translation type="unfinished">Unique</translation>
+      <location filename="../dialogs/columndialog.ui" line="223"/>
+      <source>Unique</source>
+      <translation>یکتا</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="121"/>
-        <location filename="../dialogs/columndialog.ui" line="151"/>
-        <location filename="../dialogs/columndialog.ui" line="181"/>
-        <location filename="../dialogs/columndialog.ui" line="195"/>
-        <location filename="../dialogs/columndialog.ui" line="202"/>
-        <location filename="../dialogs/columndialog.ui" line="216"/>
-        <location filename="../dialogs/columndialog.ui" line="244"/>
-        <location filename="../dialogs/columndialog.ui" line="251"/>
-        <source>Configure</source>
-        <translation type="unfinished">Configure</translation>
+      <location filename="../dialogs/columndialog.ui" line="121"/>
+      <location filename="../dialogs/columndialog.ui" line="151"/>
+      <location filename="../dialogs/columndialog.ui" line="181"/>
+      <location filename="../dialogs/columndialog.ui" line="195"/>
+      <location filename="../dialogs/columndialog.ui" line="202"/>
+      <location filename="../dialogs/columndialog.ui" line="216"/>
+      <location filename="../dialogs/columndialog.ui" line="244"/>
+      <location filename="../dialogs/columndialog.ui" line="251"/>
+      <source>Configure</source>
+      <translation>پیکربندی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="258"/>
-        <source>Foreign Key</source>
-        <translation type="unfinished">Foreign Key</translation>
+      <location filename="../dialogs/columndialog.ui" line="258"/>
+      <source>Foreign Key</source>
+      <translation>کلید خارجی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="237"/>
-        <source>Collate</source>
-        <translation type="unfinished">Collate</translation>
+      <location filename="../dialogs/columndialog.ui" line="237"/>
+      <source>Collate</source>
+      <translation>ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="265"/>
-        <source>Not NULL</source>
-        <translation type="unfinished">Not NULL</translation>
+      <location filename="../dialogs/columndialog.ui" line="265"/>
+      <source>Not NULL</source>
+      <translation>غیر NULL</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="128"/>
-        <source>Check condition</source>
-        <translation type="unfinished">Check condition</translation>
+      <location filename="../dialogs/columndialog.ui" line="128"/>
+      <source>Check condition</source>
+      <translation>شرط بررسی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="230"/>
-        <source>Primary Key</source>
-        <translation type="unfinished">Primary Key</translation>
+      <location filename="../dialogs/columndialog.ui" line="230"/>
+      <source>Primary Key</source>
+      <translation>کلید اصلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="174"/>
-        <source>Default</source>
-        <translation type="unfinished">Default</translation>
+      <location filename="../dialogs/columndialog.ui" line="174"/>
+      <source>Default</source>
+      <translation>پیش‌فرض</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="188"/>
-        <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+      <location filename="../dialogs/columndialog.ui" line="188"/>
+      <source>Autoincrement</source>
+      <translation>افزایش خودکار</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="275"/>
-        <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
-        <translation type="unfinished">This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</translation>
+      <location filename="../dialogs/columndialog.ui" line="275"/>
+      <source>This column is part of a composite unique constraint. Composite constraints are configured in the bottom part of Structure tab.</source>
+      <translation>این ستون بخشی از یک محدودیت یکتای مرکب است. محدودیت‌های مرکب در بخش پایینی زبانه ساختار پیکربندی می‌شوند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="278"/>
-        <source>Composite Unique</source>
-        <translation type="unfinished">Composite Unique</translation>
+      <location filename="../dialogs/columndialog.ui" line="278"/>
+      <source>Composite Unique</source>
+      <translation>یکتای مرکب</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.ui" line="345"/>
-        <source>Advanced mode</source>
-        <translation type="unfinished">Advanced mode</translation>
+      <location filename="../dialogs/columndialog.ui" line="345"/>
+      <source>Advanced mode</source>
+      <translation>حالت پیشرفته</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="85"/>
-        <source>Add constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="85"/>
+      <source>Add constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="86"/>
-        <source>Edit constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Edit constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="86"/>
+      <source>Edit constraint</source>
+      <comment>column dialog</comment>
+      <translation>ویرایش محدودیت</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="87"/>
-        <location filename="../dialogs/columndialog.cpp" line="252"/>
-        <source>Delete constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Delete constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="87"/>
+      <location filename="../dialogs/columndialog.cpp" line="252"/>
+      <source>Delete constraint</source>
+      <comment>column dialog</comment>
+      <translation>حذف محدودیت</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="88"/>
-        <source>Move constraint up</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Move constraint up</translation>
+      <location filename="../dialogs/columndialog.cpp" line="88"/>
+      <source>Move constraint up</source>
+      <comment>column dialog</comment>
+      <translation>انتقال محدودیت به بالا</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="89"/>
-        <source>Move constraint down</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Move constraint down</translation>
+      <location filename="../dialogs/columndialog.cpp" line="89"/>
+      <source>Move constraint down</source>
+      <comment>column dialog</comment>
+      <translation>انتقال محدودیت به پایین</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="91"/>
-        <source>Add a primary key</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a primary key</translation>
+      <location filename="../dialogs/columndialog.cpp" line="91"/>
+      <source>Add a primary key</source>
+      <comment>column dialog</comment>
+      <translation>افزودن کلید اصلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="92"/>
-        <source>Add a foreign key</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a foreign key</translation>
+      <location filename="../dialogs/columndialog.cpp" line="92"/>
+      <source>Add a foreign key</source>
+      <comment>column dialog</comment>
+      <translation>افزودن کلید خارجی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="93"/>
-        <source>Add an unique constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add an unique constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="93"/>
+      <source>Add an unique constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت یکتا</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="94"/>
-        <source>Add a check constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a check constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="94"/>
+      <source>Add a check constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت بررسی</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="95"/>
-        <source>Add a not null constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a not null constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="95"/>
+      <source>Add a not null constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت not null</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="96"/>
-        <source>Add a collate constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a collate constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="96"/>
+      <source>Add a collate constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت collate</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="97"/>
-        <source>Add a generated value constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a generated value constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="97"/>
+      <source>Add a generated value constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت مقدار تولیدشده</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="98"/>
-        <source>Add a default constraint</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Add a default constraint</translation>
+      <location filename="../dialogs/columndialog.cpp" line="98"/>
+      <source>Add a default constraint</source>
+      <comment>column dialog</comment>
+      <translation>افزودن محدودیت پیش‌فرض</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="251"/>
-        <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
-        <comment>column dialog</comment>
-        <translation type="unfinished">Are you sure you want to delete constraint &apos;%1&apos;?</translation>
+      <location filename="../dialogs/columndialog.cpp" line="251"/>
+      <source>Are you sure you want to delete constraint &apos;%1&apos;?</source>
+      <comment>column dialog</comment>
+      <translation>آیا مطمئن هستید که می‌خواهید محدودیت &apos;%1&apos; را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="316"/>
-        <source>Correct the constraint&apos;s configuration.</source>
-        <translation type="unfinished">Correct the constraint&apos;s configuration.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="316"/>
+      <source>Correct the constraint&apos;s configuration.</source>
+      <translation>پیکربندیِ محدودیت&apos; را اصلاح کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="386"/>
-        <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
-        <translation type="unfinished">Scale is not allowed for INTEGER PRIMARY KEY columns.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="386"/>
+      <source>Scale is not allowed for INTEGER PRIMARY KEY columns.</source>
+      <translation>مقیاس برای ستون‌های INTEGER PRIMARY KEY مجاز نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="387"/>
-        <source>Precision cannot be defined without the scale.</source>
-        <translation type="unfinished">Precision cannot be defined without the scale.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="387"/>
+      <source>Precision cannot be defined without the scale.</source>
+      <translation>دقت نمی‌تواند بدون مقیاس تعریف شود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="388"/>
-        <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
-        <translation type="unfinished">Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="388"/>
+      <source>Cannot use type other than INTEGER if AUTOINCREMENT is enabled in PRIMARY KEY.</source>
+      <translation>اگر AUTOINCREMENT در PRIMARY KEY فعال باشد، نمی‌توان از نوعی غیر از INTEGER استفاده کرد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="389"/>
-        <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
-        <translation type="unfinished">INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="389"/>
+      <source>INTEGER type was enforced due to enabled AUTOINCREMENT in PRIMARY KEY.</source>
+      <translation>به‌دلیل فعال بودن AUTOINCREMENT در PRIMARY KEY، نوع INTEGER اعمال شد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="411"/>
-        <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
-        <translation type="unfinished">Precision is not allowed for INTEGER PRIMARY KEY columns.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="411"/>
+      <source>Precision is not allowed for INTEGER PRIMARY KEY columns.</source>
+      <translation>دقت برای ستون‌های INTEGER PRIMARY KEY مجاز نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="459"/>
-        <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="459"/>
+      <source>Referenced column type (%1) is different than type declared in this column. It may cause issues while inserting or updating data.</source>
+      <translation>نوع ستون ارجاع‌شده (%1) با نوع اعلام‌شده در این ستون متفاوت است. ممکن است هنگام درج یا به‌روزرسانی داده‌ها مشکلاتی ایجاد کند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialog.cpp" line="771"/>
-        <source>Could not match valid STRICT table datatype from declared type: %1.</source>
-        <translation type="unfinished">Could not match valid STRICT table datatype from declared type: %1.</translation>
+      <location filename="../dialogs/columndialog.cpp" line="771"/>
+      <source>Could not match valid STRICT table datatype from declared type: %1.</source>
+      <translation>نوع داده معتبر جدول STRICT از نوع اعلام‌شده قابل تطبیق نبود: %1.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnDialogConstraintsModel</name>
     <message>
-        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
-        <source>Type</source>
-        <comment>column dialog constraints</comment>
-        <translation type="unfinished">Type</translation>
+      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="340"/>
+      <source>Type</source>
+      <comment>column dialog constraints</comment>
+      <translation>نوع</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
-        <source>Name</source>
-        <comment>column dialog constraints</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="342"/>
+      <source>Name</source>
+      <comment>column dialog constraints</comment>
+      <translation>نام</translation>
     </message>
     <message>
-        <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
-        <source>Details</source>
-        <comment>column dialog constraints</comment>
-        <translation type="unfinished">Details</translation>
+      <location filename="../dialogs/columndialogconstraintsmodel.cpp" line="344"/>
+      <source>Details</source>
+      <comment>column dialog constraints</comment>
+      <translation>جزئیات</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnForeignKeyPanel</name>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
-        <source>Referenced table:</source>
-        <translation type="unfinished">Referenced table:</translation>
+      <location filename="../constraints/columnforeignkeypanel.ui" line="29"/>
+      <source>Referenced table:</source>
+      <translation>جدول ارجاع‌شده:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
-        <source>Referenced column:</source>
-        <translation type="unfinished">Referenced column:</translation>
+      <location filename="../constraints/columnforeignkeypanel.ui" line="45"/>
+      <source>Referenced column:</source>
+      <translation>ستون ارجاع‌شده:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
-        <source>Reactions</source>
-        <translation type="unfinished">Reactions</translation>
+      <location filename="../constraints/columnforeignkeypanel.ui" line="58"/>
+      <source>Reactions</source>
+      <translation>واکنش‌ها</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
-        <source>Deferred foreign key</source>
-        <translation type="unfinished">Deferred foreign key</translation>
+      <location filename="../constraints/columnforeignkeypanel.ui" line="97"/>
+      <source>Deferred foreign key</source>
+      <translation>کلید خارجی تعویقی</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
-        <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+      <location filename="../constraints/columnforeignkeypanel.ui" line="115"/>
+      <source>Named constraint</source>
+      <translation>محدودیت نام‌دار</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
-        <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+      <location filename="../constraints/columnforeignkeypanel.ui" line="122"/>
+      <source>Constraint name</source>
+      <translation>نام محدودیت</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
-        <source>Pick the foreign table.</source>
-        <translation type="unfinished">Pick the foreign table.</translation>
+      <location filename="../constraints/columnforeignkeypanel.cpp" line="40"/>
+      <source>Pick the foreign table.</source>
+      <translation>جدول خارجی را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
-        <source>Pick the foreign column.</source>
-        <translation type="unfinished">Pick the foreign column.</translation>
+      <location filename="../constraints/columnforeignkeypanel.cpp" line="41"/>
+      <source>Pick the foreign column.</source>
+      <translation>ستون خارجی را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/columnforeignkeypanel.cpp" line="42"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
-        <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
-        <translation type="unfinished">The referenced column should be a PRIMARY KEY or UNIQUE.</translation>
+      <location filename="../constraints/columnforeignkeypanel.cpp" line="56"/>
+      <source>The referenced column should be a PRIMARY KEY or UNIQUE.</source>
+      <translation>ستون ارجاع‌شده باید PRIMARY KEY یا UNIQUE باشد.</translation>
     </message>
     <message>
-        <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
-        <source>Column with the same name</source>
-        <translation type="unfinished">Column with the same name</translation>
+      <location filename="../constraints/columnforeignkeypanel.cpp" line="162"/>
+      <source>Column with the same name</source>
+      <translation>ستون با همین نام</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnGeneratedPanel</name>
     <message>
-        <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
-        <source>Generating code:</source>
-        <translation type="unfinished">Generating code:</translation>
+      <location filename="../constraints/columngeneratedpanel.ui" line="20"/>
+      <source>Generating code:</source>
+      <translation>کد تولیدکننده:</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
-        <source>Explicit type:</source>
-        <translation type="unfinished">Explicit type:</translation>
+      <location filename="../constraints/columngeneratedpanel.ui" line="35"/>
+      <source>Explicit type:</source>
+      <translation>نوع صریح:</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
-        <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
-        <translation type="unfinished">Use &quot;GENERATED ALWAYS&quot; keywords</translation>
+      <location filename="../constraints/columngeneratedpanel.ui" line="58"/>
+      <source>Use &quot;GENERATED ALWAYS&quot; keywords</source>
+      <translation>استفاده از کلیدواژه‌های &quot;GENERATED ALWAYS&quot;</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
-        <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+      <location filename="../constraints/columngeneratedpanel.ui" line="71"/>
+      <source>Named constraint:</source>
+      <translation>محدودیت نام‌دار:</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
-        <source>Enter the column value generating expression.</source>
-        <translation type="unfinished">Enter the column value generating expression.</translation>
+      <location filename="../constraints/columngeneratedpanel.cpp" line="40"/>
+      <source>Enter the column value generating expression.</source>
+      <translation>عبارت تولیدکننده مقدار ستون را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
-        <source>Invalid value generating expression: %1.</source>
-        <translation type="unfinished">Invalid value generating expression: %1.</translation>
+      <location filename="../constraints/columngeneratedpanel.cpp" line="87"/>
+      <source>Invalid value generating expression: %1.</source>
+      <translation>عبارت تولیدکننده مقدار نامعتبر است: %1.</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
-        <source>Invalid value generating expression.</source>
-        <translation type="unfinished">Invalid value generating expression.</translation>
+      <location filename="../constraints/columngeneratedpanel.cpp" line="93"/>
+      <source>Invalid value generating expression.</source>
+      <translation>عبارت تولیدکننده مقدار نامعتبر است.</translation>
     </message>
     <message>
-        <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/columngeneratedpanel.cpp" line="96"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnPrimaryKeyPanel</name>
     <message>
-        <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
-        <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+      <location filename="../constraints/columnprimarykeypanel.ui" line="26"/>
+      <source>Autoincrement</source>
+      <translation>افزایش خودکار</translation>
     </message>
     <message>
-        <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
-        <source>Sort order:</source>
-        <translation type="unfinished">Sort order:</translation>
+      <location filename="../constraints/columnprimarykeypanel.ui" line="48"/>
+      <source>Sort order:</source>
+      <translation>ترتیب مرتب‌سازی:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
-        <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+      <location filename="../constraints/columnprimarykeypanel.ui" line="83"/>
+      <source>Named constraint:</source>
+      <translation>محدودیت نام‌دار:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
-        <source>On conflict:</source>
-        <translation type="unfinished">On conflict:</translation>
+      <location filename="../constraints/columnprimarykeypanel.ui" line="111"/>
+      <source>On conflict:</source>
+      <translation>هنگام تداخل:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/columnprimarykeypanel.cpp" line="88"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
-        <source>Descending order is not allowed with AUTOINCREMENT.</source>
-        <translation type="unfinished">Descending order is not allowed with AUTOINCREMENT.</translation>
+      <location filename="../constraints/columnprimarykeypanel.cpp" line="97"/>
+      <source>Descending order is not allowed with AUTOINCREMENT.</source>
+      <translation>ترتیب نزولی با AUTOINCREMENT مجاز نیست.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ColumnUniqueAndNotNullPanel</name>
     <message>
-        <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
-        <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+      <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="41"/>
+      <source>Named constraint:</source>
+      <translation>محدودیت نام‌دار:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
-        <source>On conflict:</source>
-        <translation type="unfinished">On conflict:</translation>
+      <location filename="../constraints/columnuniqueandnotnullpanel.ui" line="69"/>
+      <source>On conflict:</source>
+      <translation>هنگام تداخل:</translation>
     </message>
     <message>
-        <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/columnuniqueandnotnullpanel.cpp" line="73"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CommandPalette</name>
     <message>
-        <location filename="../commandpalette/commandpalette.cpp" line="53"/>
-        <source>Search anything...</source>
-        <translation type="unfinished">Search anything...</translation>
+      <location filename="../commandpalette/commandpalette.cpp" line="53"/>
+      <source>Search anything...</source>
+      <translation>جستجوی هر چیزی...</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CompleterWindow</name>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="95"/>
-        <source>Press / to filter snippets</source>
-        <translation type="unfinished">Press / to filter snippets</translation>
+      <location filename="../completer/completerwindow.cpp" line="95"/>
+      <source>Press / to filter snippets</source>
+      <translation>برای فیلتر کردن قطعه‌کدها / را فشار دهید</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="95"/>
-        <source>Press / to use hotkeys</source>
-        <translation type="unfinished">Press / to use hotkeys</translation>
+      <location filename="../completer/completerwindow.cpp" line="95"/>
+      <source>Press / to use hotkeys</source>
+      <translation>برای استفاده از کلیدهای میانبر / را فشار دهید</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="310"/>
-        <source>Column: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Column: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="310"/>
+      <source>Column: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>ستون: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="312"/>
-        <source>Table: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Table: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="312"/>
+      <source>Table: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>جدول: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="314"/>
-        <source>Index: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Index: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="314"/>
+      <source>Index: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>شاخص: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="316"/>
-        <source>Trigger: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Trigger: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="316"/>
+      <source>Trigger: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>تریگر: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="318"/>
-        <source>View: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">View: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="318"/>
+      <source>View: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>نما: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="320"/>
-        <source>Database: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Database: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="320"/>
+      <source>Database: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>پایگاه داده: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="332"/>
-        <source>Keyword: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Keyword: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="332"/>
+      <source>Keyword: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>کلیدواژه: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="334"/>
-        <source>Function: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Function: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="334"/>
+      <source>Function: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>تابع: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="336"/>
-        <source>Operator: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Operator: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="336"/>
+      <source>Operator: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>عملگر: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="338"/>
-        <source>String</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">String</translation>
+      <location filename="../completer/completerwindow.cpp" line="338"/>
+      <source>String</source>
+      <comment>completer statusbar</comment>
+      <translation>رشته</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="340"/>
-        <source>Number</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Number</translation>
+      <location filename="../completer/completerwindow.cpp" line="340"/>
+      <source>Number</source>
+      <comment>completer statusbar</comment>
+      <translation>عدد</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="342"/>
-        <source>Binary data</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Binary data</translation>
+      <location filename="../completer/completerwindow.cpp" line="342"/>
+      <source>Binary data</source>
+      <comment>completer statusbar</comment>
+      <translation>داده دودویی</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="344"/>
-        <source>Collation: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Collation: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="344"/>
+      <source>Collation: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>ترتیب مقایسه: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="346"/>
-        <source>Pragma function: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Pragma function: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="346"/>
+      <source>Pragma function: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>تابع pragma: %1</translation>
     </message>
     <message>
-        <location filename="../completer/completerwindow.cpp" line="348"/>
-        <source>Join condition: %1</source>
-        <comment>completer statusbar</comment>
-        <translation type="unfinished">Join condition: %1</translation>
+      <location filename="../completer/completerwindow.cpp" line="348"/>
+      <source>Join condition: %1</source>
+      <comment>completer statusbar</comment>
+      <translation>شرط اتصال: %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ConfigDialog</name>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3114"/>
-        <source>Configuration</source>
-        <translation type="unfinished">Configuration</translation>
+      <location filename="../dialogs/configdialog.ui" line="14"/>
+      <location filename="../dialogs/configdialog.ui" line="3122"/>
+      <source>Configuration</source>
+      <translation>پیکربندی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="63"/>
-        <source>Search</source>
-        <translation type="unfinished">Search</translation>
+      <location filename="../dialogs/configdialog.ui" line="63"/>
+      <source>Search</source>
+      <translation>جستجو</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="100"/>
-        <source>General</source>
-        <translation type="unfinished">General</translation>
+      <location filename="../dialogs/configdialog.ui" line="100"/>
+      <source>General</source>
+      <translation>عمومی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="112"/>
-        <source>Keyboard shortcuts</source>
-        <translation type="unfinished">Keyboard shortcuts</translation>
+      <location filename="../dialogs/configdialog.ui" line="112"/>
+      <source>Keyboard shortcuts</source>
+      <translation>میانبرهای صفحه‌کلید</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="124"/>
-        <source>Look &amp; feel</source>
-        <translation type="unfinished">Look &amp; feel</translation>
+      <location filename="../dialogs/configdialog.ui" line="124"/>
+      <source>Look &amp; feel</source>
+      <translation>ظاهر و حس</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="135"/>
-        <source>Style</source>
-        <translation type="unfinished">Style</translation>
+      <location filename="../dialogs/configdialog.ui" line="135"/>
+      <source>Style</source>
+      <translation>سبک</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="147"/>
-        <source>Fonts</source>
-        <translation type="unfinished">Fonts</translation>
+      <location filename="../dialogs/configdialog.ui" line="147"/>
+      <source>Fonts</source>
+      <translation>فونت‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="159"/>
-        <source>Code colors</source>
-        <translation type="unfinished">Code colors</translation>
+      <location filename="../dialogs/configdialog.ui" line="159"/>
+      <source>Code colors</source>
+      <translation>رنگ‌های کد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="184"/>
-        <location filename="../dialogs/configdialog.ui" line="277"/>
-        <source>Database list</source>
-        <translation type="unfinished">Database list</translation>
+      <location filename="../dialogs/configdialog.ui" line="184"/>
+      <location filename="../dialogs/configdialog.ui" line="277"/>
+      <source>Database list</source>
+      <translation>فهرست پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
-        <source>Code assistant</source>
-        <translation type="unfinished">Code assistant</translation>
+      <location filename="../dialogs/configdialog.ui" line="1350"/>
+      <source>Code assistant</source>
+      <translation>دستیار کد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="196"/>
-        <source>Data browsing</source>
-        <translation type="unfinished">Data browsing</translation>
+      <location filename="../dialogs/configdialog.ui" line="196"/>
+      <source>Data browsing</source>
+      <translation>مرور داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
-        <source>SQL Editor</source>
-        <translation type="unfinished">SQL Editor</translation>
+      <location filename="../dialogs/configdialog.ui" line="172"/>
+      <location filename="../dialogs/configdialog.ui" line="1263"/>
+      <source>SQL Editor</source>
+      <translation>ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="207"/>
-        <source>Data editors</source>
-        <translation type="unfinished">Data editors</translation>
+      <location filename="../dialogs/configdialog.ui" line="207"/>
+      <source>Data editors</source>
+      <translation>ویرایشگرهای داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="232"/>
-        <source>Plugins</source>
-        <translation type="unfinished">Plugins</translation>
+      <location filename="../dialogs/configdialog.ui" line="232"/>
+      <source>Plugins</source>
+      <translation>پلاگین‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="243"/>
-        <source>Code formatters</source>
-        <translation type="unfinished">Code formatters</translation>
+      <location filename="../dialogs/configdialog.ui" line="243"/>
+      <source>Code formatters</source>
+      <translation>قالب‌بندهای کد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="251"/>
-        <source>Scripting languages</source>
-        <translation type="unfinished">Scripting languages</translation>
+      <location filename="../dialogs/configdialog.ui" line="251"/>
+      <source>Scripting languages</source>
+      <translation>زبان‌های اسکریپت‌نویسی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="306"/>
-        <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
-        <translation type="unfinished">If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</translation>
+      <location filename="../dialogs/configdialog.ui" line="306"/>
+      <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
+      <translation>اگر خاموش باشد، ستون‌ها به ترتیبی مرتب می‌شوند که در دستور CREATE TABLE تایپ شده‌اند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="309"/>
-        <source>Sort table columns alphabetically</source>
-        <translation type="unfinished">Sort table columns alphabetically</translation>
+      <location filename="../dialogs/configdialog.ui" line="309"/>
+      <source>Sort table columns alphabetically</source>
+      <translation>مرتب‌سازی الفبایی ستون‌های جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="345"/>
-        <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="345"/>
+      <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
+      <translation>&lt;p&gt;برچسب‌های اضافی آن‌هایی هستند که کنار نام‌ها در فهرست پایگاه‌های داده نمایش داده می‌شوند (آبی هستند، مگر اینکه طور دیگری پیکربندی شده باشند). فعال کردن این گزینه باعث نمایش برچسب‌ها برای پایگاه‌های داده، پایگاه‌های داده نامعتبر و گره‌های تجمیعی (گروه ستون، گروه شاخص، گروه تریگر) می‌شود. برای برچسب‌های بیشتر گزینه‌های زیر را ببینید.&lt;p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="348"/>
-        <source>Display additional labels on the list</source>
-        <translation type="unfinished">Display additional labels on the list</translation>
+      <location filename="../dialogs/configdialog.ui" line="348"/>
+      <source>Display additional labels on the list</source>
+      <translation>نمایش برچسب‌های اضافی در فهرست</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="379"/>
-        <source>Display labels for regular tables</source>
-        <translation type="unfinished">Display labels for regular tables</translation>
+      <location filename="../dialogs/configdialog.ui" line="379"/>
+      <source>Display labels for regular tables</source>
+      <translation>نمایش برچسب‌ها برای جدول‌های معمولی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="389"/>
-        <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
-        <translation type="unfinished">Virtual tables will be marked with a &apos;virtual&apos; label.</translation>
+      <location filename="../dialogs/configdialog.ui" line="389"/>
+      <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
+      <translation>جدول‌های مجازی با برچسب &apos;virtual&apos; علامت‌گذاری می‌شوند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="392"/>
-        <source>Display labels for virtual tables</source>
-        <translation type="unfinished">Display labels for virtual tables</translation>
+      <location filename="../dialogs/configdialog.ui" line="392"/>
+      <source>Display labels for virtual tables</source>
+      <translation>نمایش برچسب‌ها برای جدول‌های مجازی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="332"/>
-        <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
-        <translation type="unfinished">If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</translation>
+      <location filename="../dialogs/configdialog.ui" line="332"/>
+      <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
+      <translation>اگر این گزینه خاموش باشد، اشیا به ترتیبی مرتب می‌شوند که در جدول sqlite_master ظاهر می‌شوند (که همان ترتیب ایجاد آن‌هاست)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="335"/>
-        <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
-        <translation type="unfinished">Sort objects (tables, indexes, triggers and views) alphabetically</translation>
+      <location filename="../dialogs/configdialog.ui" line="335"/>
+      <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
+      <translation>مرتب‌سازی الفبایی اشیا (جدول‌ها، شاخص‌ها، تریگرها و نماها)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="408"/>
-        <source>Display system tables and indexes on the list</source>
-        <translation type="unfinished">Display system tables and indexes on the list</translation>
+      <location filename="../dialogs/configdialog.ui" line="408"/>
+      <source>Display system tables and indexes on the list</source>
+      <translation>نمایش جدول‌ها و شاخص‌های سیستمی در فهرست</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="431"/>
-        <source>Database dialog window</source>
-        <translation type="unfinished">Database dialog window</translation>
+      <location filename="../dialogs/configdialog.ui" line="431"/>
+      <source>Database dialog window</source>
+      <translation>پنجره گفت‌وگوی پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="437"/>
-        <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="437"/>
+      <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;هنگام افزودن پایگاه داده جدید، به‌طور پیش‌فرض به‌عنوان &quot;دائمی&quot; (ذخیره‌شده در پیکربندی) علامت‌گذاری می‌شود. فعال کردن این گزینه باعث می‌شود هر پایگاه داده جدید به‌طور پیش‌فرض &quot;دائمی&quot; نباشد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="440"/>
-        <source>Do not mark database to be &quot;permanent&quot; by default</source>
-        <translation type="unfinished">Do not mark database to be &quot;permanent&quot; by default</translation>
+      <location filename="../dialogs/configdialog.ui" line="440"/>
+      <source>Do not mark database to be &quot;permanent&quot; by default</source>
+      <translation>پایگاه داده را به‌طور پیش‌فرض به‌عنوان &quot;دائمی&quot; علامت‌گذاری نکن</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="498"/>
-        <source>Data browsing and editing</source>
-        <translation type="unfinished">Data browsing and editing</translation>
+      <location filename="../dialogs/configdialog.ui" line="498"/>
+      <source>Data browsing and editing</source>
+      <translation>مرور و ویرایش داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
-        <location filename="../dialogs/configdialog.ui" line="517"/>
-        <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="504"/>
+      <location filename="../dialogs/configdialog.ui" line="517"/>
+      <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;حداکثر تعداد پیکربندی‌های گفت‌وگوی Populate Table که در پیکربندی ذخیره می‌شوند. مقدار 100 باید کافی باشد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="520"/>
-        <source>Number of memorized table populating configurations</source>
-        <translation type="unfinished">Number of memorized table populating configurations</translation>
+      <location filename="../dialogs/configdialog.ui" line="520"/>
+      <source>Number of memorized table populating configurations</source>
+      <translation>تعداد پیکربندی‌های به‌خاطرسپرده‌شده برای پرکردن جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="595"/>
-        <source>Use scientific notation for very small real numbers in the grid view</source>
-        <translation type="unfinished">Use scientific notation for very small real numbers in the grid view</translation>
+      <location filename="../dialogs/configdialog.ui" line="595"/>
+      <source>Use scientific notation for very small real numbers in the grid view</source>
+      <translation>استفاده از نمادگذاری علمی برای اعداد حقیقی بسیار کوچک در نمای شبکه‌ای</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
-        <source>Data column width</source>
-        <translation type="unfinished">Data column width</translation>
+      <location filename="../dialogs/configdialog.ui" line="634"/>
+      <source>Data column width</source>
+      <translation>عرض ستون داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="640"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="640"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وقتی کاربر مقدار جدیدی را در ستون وارد می‌کند و مقدار از عرض فعلی ستون بزرگ‌تر است، برنامه ستون را برای جا دادن مقدار جدید بزرگ‌تر می‌کند، اما نه بیشتر از حد تعریف‌شده در گزینه بالا.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="643"/>
-        <source>Enlarge column when entering value longer than current width</source>
-        <translation type="unfinished">Enlarge column when entering value longer than current width</translation>
+      <location filename="../dialogs/configdialog.ui" line="643"/>
+      <source>Enlarge column when entering value longer than current width</source>
+      <translation>بزرگ کردن ستون هنگام وارد کردن مقداری طولانی‌تر از عرض فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="659"/>
-        <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="659"/>
+      <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;وقتی داده‌ها در نمای شبکه‌ای خوانده می‌شوند، عرض ستون‌ها به‌طور خودکار تنظیم می‌شود. این مقدار عرض اولیه برای تنظیم را محدود می‌کند، اما کاربر همچنان می‌تواند ستون را به‌صورت دستی بیش از این حد تغییر اندازه دهد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
-        <source>Number of data rows per page:</source>
-        <translation type="unfinished">Number of data rows per page:</translation>
+      <location filename="../dialogs/configdialog.ui" line="585"/>
+      <source>Number of data rows per page:</source>
+      <translation>تعداد ردیف‌های داده در هر صفحه:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
-        <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="618"/>
+      <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;وقتی این گزینه فعال باشد و کاربر نشانگر ماوس را روی یک سلول در هر نمای داده‌ای (نتایج پرس‌وجو، داده‌های جدول، داده‌های نما) نگه دارد، یک راهنمای ابزار با جزئیات سلول ظاهر می‌شود - شامل جزئیاتی مانند نوع داده ستون، محدودیت‌ها، ROWID و موارد دیگر.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
-        <source>Show column and row details tooltip in data view</source>
-        <translation type="unfinished">Show column and row details tooltip in data view</translation>
+      <location filename="../dialogs/configdialog.ui" line="621"/>
+      <source>Show column and row details tooltip in data view</source>
+      <translation>نمایش راهنمای ابزار جزئیات ستون و ردیف در نمای داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
-        <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="527"/>
+      <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
+      <translation>&lt;p&gt;هنگام ویرایش سلولی که قبلاً مقدار NULL داشته و وارد کردن رشته خالی به‌عنوان مقدار جدید، این گزینه تعیین می‌کند که آیا مقدار جدید باید NULL باقی بماند (این گزینه فعال باشد)، یا با مقدار رشته خالی جایگزین شود (این گزینه غیرفعال باشد).&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="530"/>
-        <source>Keep NULL value when entering empty value</source>
-        <translation type="unfinished">Keep NULL value when entering empty value</translation>
+      <location filename="../dialogs/configdialog.ui" line="530"/>
+      <source>Keep NULL value when entering empty value</source>
+      <translation>حفظ مقدار NULL هنگام وارد کردن مقدار خالی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="608"/>
-        <source>Limit number of rows for in case of dozens of columns</source>
-        <translation type="unfinished">Limit number of rows for in case of dozens of columns</translation>
+      <location filename="../dialogs/configdialog.ui" line="608"/>
+      <source>Limit number of rows for in case of dozens of columns</source>
+      <translation>محدود کردن تعداد ردیف‌ها در صورت وجود ده‌ها ستون</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="739"/>
-        <source>Inserting new row in data grid</source>
-        <translation type="unfinished">Inserting new row in data grid</translation>
+      <location filename="../dialogs/configdialog.ui" line="739"/>
+      <source>Inserting new row in data grid</source>
+      <translation>درج ردیف جدید در شبکه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="745"/>
-        <source>Before currently selected row</source>
-        <translation type="unfinished">Before currently selected row</translation>
+      <location filename="../dialogs/configdialog.ui" line="745"/>
+      <source>Before currently selected row</source>
+      <translation>قبل از ردیف انتخاب‌شده فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="761"/>
-        <source>After currently selected row</source>
-        <translation type="unfinished">After currently selected row</translation>
+      <location filename="../dialogs/configdialog.ui" line="761"/>
+      <source>After currently selected row</source>
+      <translation>بعد از ردیف انتخاب‌شده فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
-        <source>At the end of data view</source>
-        <translation type="unfinished">At the end of data view</translation>
+      <location filename="../dialogs/configdialog.ui" line="774"/>
+      <source>At the end of data view</source>
+      <translation>در انتهای نمای داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="790"/>
-        <source>Table windows</source>
-        <translation type="unfinished">Table windows</translation>
+      <location filename="../dialogs/configdialog.ui" line="790"/>
+      <source>Table windows</source>
+      <translation>پنجره‌های جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="796"/>
-        <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="796"/>
+      <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;وقتی فعال باشد، پنجره‌های جدول به‌جای زبانه ساختار، با زبانه داده نمایش داده می‌شوند.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="799"/>
-        <source>Open Table Windows with the data tab for start</source>
-        <translation type="unfinished">Open Table Windows with the data tab for start</translation>
+      <location filename="../dialogs/configdialog.ui" line="799"/>
+      <source>Open Table Windows with the data tab for start</source>
+      <translation>باز کردن پنجره‌های جدول با زبانه داده در آغاز</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
-        <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="809"/>
+      <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;وقتی فعال باشد، زبانه &quot;Data&quot; به‌جای جایگاه دوم، به‌عنوان اولین زبانه در هر پنجره جدول قرار می‌گیرد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
-        <source>Place data tab as first tab in a Table Window</source>
-        <translation type="unfinished">Place data tab as first tab in a Table Window</translation>
+      <location filename="../dialogs/configdialog.ui" line="812"/>
+      <source>Place data tab as first tab in a Table Window</source>
+      <translation>قرار دادن زبانه داده به‌عنوان اولین زبانه در پنجره جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
-        <source>View windows</source>
-        <translation type="unfinished">View windows</translation>
+      <location filename="../dialogs/configdialog.ui" line="825"/>
+      <source>View windows</source>
+      <translation>پنجره‌های نما</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="831"/>
-        <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="831"/>
+      <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;وقتی فعال باشد، پنجره‌های نما به‌جای زبانه ساختار، با زبانه داده نمایش داده می‌شوند.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="834"/>
-        <source>Open View Windows with the data tab for start</source>
-        <translation type="unfinished">Open View Windows with the data tab for start</translation>
+      <location filename="../dialogs/configdialog.ui" line="834"/>
+      <source>Open View Windows with the data tab for start</source>
+      <translation>باز کردن پنجره‌های نما با زبانه داده در آغاز</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
-        <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="844"/>
+      <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;وقتی فعال باشد، زبانه &quot;Data&quot; به‌جای جایگاه دوم، به‌عنوان اولین زبانه در هر پنجره نما قرار می‌گیرد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
-        <source>Place data tab as first tab in a View Window</source>
-        <translation type="unfinished">Place data tab as first tab in a View Window</translation>
+      <location filename="../dialogs/configdialog.ui" line="847"/>
+      <source>Place data tab as first tab in a View Window</source>
+      <translation>قرار دادن زبانه داده به‌عنوان اولین زبانه در پنجره نما</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="891"/>
-        <source>Data types</source>
-        <translation type="unfinished">Data types</translation>
+      <location filename="../dialogs/configdialog.ui" line="891"/>
+      <source>Data types</source>
+      <translation>نوع‌های داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="944"/>
-        <source>Available editors:</source>
-        <translation type="unfinished">Available editors:</translation>
+      <location filename="../dialogs/configdialog.ui" line="944"/>
+      <source>Available editors:</source>
+      <translation>ویرایشگرهای موجود:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1061"/>
-        <source>Schema editing</source>
-        <translation type="unfinished">Schema editing</translation>
+      <location filename="../dialogs/configdialog.ui" line="1061"/>
+      <source>Schema editing</source>
+      <translation>ویرایش شِما</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1073"/>
-        <source>Number of DDL changes kept in history.</source>
-        <translation type="unfinished">Number of DDL changes kept in history.</translation>
+      <location filename="../dialogs/configdialog.ui" line="1073"/>
+      <source>Number of DDL changes kept in history.</source>
+      <translation>تعداد تغییرات DDL نگهداری‌شده در تاریخچه.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
-        <source>DDL history size:</source>
-        <translation type="unfinished">DDL history size:</translation>
+      <location filename="../dialogs/configdialog.ui" line="1086"/>
+      <source>DDL history size:</source>
+      <translation>اندازه تاریخچه DDL:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1093"/>
-        <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
-        <translation type="unfinished">Don&apos;t show DDL preview dialog when committing schema changes</translation>
+      <location filename="../dialogs/configdialog.ui" line="1093"/>
+      <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
+      <translation>هنگام ثبت تغییرات شِما، گفت‌وگوی پیش‌نمایش DDL را &apos;نشان نده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
-        <source>Number of queries kept in the history.</source>
-        <translation type="unfinished">Number of queries kept in the history.</translation>
+      <location filename="../dialogs/configdialog.ui" line="1391"/>
+      <location filename="../dialogs/configdialog.ui" line="1407"/>
+      <source>Number of queries kept in the history.</source>
+      <translation>تعداد پرس‌وجوهای نگهداری‌شده در تاریخچه.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
-        <source>Execute only the query under the cursor</source>
-        <translation type="unfinished">Execute only the query under the cursor</translation>
+      <location filename="../dialogs/configdialog.ui" line="1337"/>
+      <source>Execute only the query under the cursor</source>
+      <translation>فقط پرس‌وجوی زیر مکان‌نما را اجرا کن</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
-        <source>Number of memorized query parameters</source>
-        <translation type="unfinished">Number of memorized query parameters</translation>
+      <location filename="../dialogs/configdialog.ui" line="1423"/>
+      <source>Number of memorized query parameters</source>
+      <translation>تعداد پارامترهای پرس‌وجوی به‌خاطرسپرده‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="678"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="678"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وقتی داده‌ها در نمای شبکه‌ای خوانده می‌شوند، عرض ستون‌ها به‌طور خودکار تنظیم می‌شود. این مقدار عرض اولیه برای تنظیم را محدود می‌کند، اما کاربر همچنان می‌تواند ستون را به‌صورت دستی بیش از این حد تغییر اندازه دهد. این مقدار همچنین هنگام بزرگ کردن ستون پس از وارد کردن مقدار جدید و طولانی‌تر توسط کاربر استفاده می‌شود (گزینه زیر را ببینید).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="681"/>
-        <source>Limit automatic data column width to (in pixels):</source>
-        <translation type="unfinished">Limit automatic data column width to (in pixels):</translation>
+      <location filename="../dialogs/configdialog.ui" line="681"/>
+      <source>Limit automatic data column width to (in pixels):</source>
+      <translation>محدود کردن عرض خودکار ستون داده به (بر حسب پیکسل):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="688"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="688"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;عرض اولیه ستون‌های داده حداقل به‌اندازه‌ای تنظیم می‌شود که نام کامل ستون در سرستون نمایش داده شود. این مقدار همچنان می‌تواند با حد اولیه عرض ستون که بر حسب پیکسل مشخص شده است (تنظیم بالا) بازنویسی شود.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
-        <source>Keep at least the width to show complete column name</source>
-        <translation type="unfinished">Keep at least the width to show complete column name</translation>
+      <location filename="../dialogs/configdialog.ui" line="691"/>
+      <source>Keep at least the width to show complete column name</source>
+      <translation>حداقل عرض لازم برای نمایش نام کامل ستون را حفظ کن</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
-        <source>Wrap lines in SQL editor</source>
-        <translation type="unfinished">Wrap lines in SQL editor</translation>
+      <location filename="../dialogs/configdialog.ui" line="1301"/>
+      <source>Wrap lines in SQL editor</source>
+      <translation>شکستن خطوط در ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
-        <source>Highlight current query</source>
-        <translation type="unfinished">Highlight current query</translation>
+      <location filename="../dialogs/configdialog.ui" line="1324"/>
+      <source>Highlight current query</source>
+      <translation>برجسته کردن پرس‌وجوی فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
-        <source>Updates</source>
-        <translation type="unfinished">Updates</translation>
+      <location filename="../dialogs/configdialog.ui" line="1106"/>
+      <source>Updates</source>
+      <translation>به‌روزرسانی‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1112"/>
-        <source>Automatically check for updates at startup</source>
-        <translation type="unfinished">Automatically check for updates at startup</translation>
+      <location filename="../dialogs/configdialog.ui" line="1112"/>
+      <source>Automatically check for updates at startup</source>
+      <translation>بررسی خودکار به‌روزرسانی‌ها هنگام شروع</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
-        <source>Session</source>
-        <translation type="unfinished">Session</translation>
+      <location filename="../dialogs/configdialog.ui" line="1125"/>
+      <source>Session</source>
+      <translation>نشست</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1131"/>
-        <source>Restore last session (active MDI windows) after startup</source>
-        <translation type="unfinished">Restore last session (active MDI windows) after startup</translation>
+      <location filename="../dialogs/configdialog.ui" line="1131"/>
+      <source>Restore last session (active MDI windows) after startup</source>
+      <translation>بازیابی آخرین نشست (پنجره‌های فعال MDI) پس از شروع</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1141"/>
-        <source>Allow multiple instances of the application at the same time</source>
-        <translation type="unfinished">Allow multiple instances of the application at the same time</translation>
+      <location filename="../dialogs/configdialog.ui" line="1141"/>
+      <source>Allow multiple instances of the application at the same time</source>
+      <translation>اجازه اجرای چند نمونه از برنامه به‌طور هم‌زمان</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
-        <source>Status Field</source>
-        <translation type="unfinished">Status Field</translation>
+      <location filename="../dialogs/configdialog.ui" line="1154"/>
+      <source>Status Field</source>
+      <translation>فیلد وضعیت</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1163"/>
-        <source>Always open Status panel when new message is printed</source>
-        <translation type="unfinished">Always open Status panel when new message is printed</translation>
+      <location filename="../dialogs/configdialog.ui" line="1163"/>
+      <source>Always open Status panel when new message is printed</source>
+      <translation>همیشه هنگام چاپ پیام جدید، پنل وضعیت را باز کن</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
-        <source>Code syntax colors</source>
-        <translation type="unfinished">Code syntax colors</translation>
+      <location filename="../dialogs/configdialog.ui" line="1488"/>
+      <source>Code syntax colors</source>
+      <translation>رنگ‌های نحو کد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
-        <source>Keyword foreground</source>
-        <translation type="unfinished">Keyword foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="1674"/>
+      <source>Keyword foreground</source>
+      <translation>رنگ پیش‌زمینه کلیدواژه</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
-        <source>Regular foreground</source>
-        <translation type="unfinished">Regular foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="1494"/>
+      <source>Regular foreground</source>
+      <translation>رنگ پیش‌زمینه معمولی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
-        <source>String foreground</source>
-        <translation type="unfinished">String foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="1584"/>
+      <source>String foreground</source>
+      <translation>رنگ پیش‌زمینه رشته</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
-        <source>Comment foreground</source>
-        <translation type="unfinished">Comment foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="1854"/>
+      <source>Comment foreground</source>
+      <translation>رنگ پیش‌زمینه توضیح</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
-        <source>Valid objects foreground</source>
-        <translation type="unfinished">Valid objects foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="1944"/>
+      <source>Valid objects foreground</source>
+      <translation>رنگ پیش‌زمینه اشیای معتبر</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
-        <source>Current query background</source>
-        <translation type="unfinished">Current query background</translation>
+      <location filename="../dialogs/configdialog.ui" line="2255"/>
+      <source>Current query background</source>
+      <translation>رنگ پس‌زمینه پرس‌وجوی فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
-        <source>Bind parameter foreground</source>
-        <translation type="unfinished">Bind parameter foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="2124"/>
+      <source>Bind parameter foreground</source>
+      <translation>رنگ پیش‌زمینه پارامتر اتصال</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
-        <source>Current line background</source>
-        <translation type="unfinished">Current line background</translation>
+      <location filename="../dialogs/configdialog.ui" line="2214"/>
+      <source>Current line background</source>
+      <translation>رنگ پس‌زمینه خط فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
-        <source>Matched parenthesis background</source>
-        <translation type="unfinished">Matched parenthesis background</translation>
+      <location filename="../dialogs/configdialog.ui" line="2299"/>
+      <source>Matched parenthesis background</source>
+      <translation>رنگ پس‌زمینه پرانتز منطبق</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="2283"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;می‌توانید برجسته‌سازی پرس‌وجوی فعلی را به‌طور کامل در صفحه تنظیمات عمومی غیرفعال کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="219"/>
-        <source>Data renderers</source>
-        <translation type="unfinished">Data renderers</translation>
+      <location filename="../dialogs/configdialog.ui" line="219"/>
+      <source>Data renderers</source>
+      <translation>نمایش‌دهنده‌های داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="283"/>
-        <source>Expand tables when connected to a database</source>
-        <translation type="unfinished">Expand tables when connected to a database</translation>
+      <location filename="../dialogs/configdialog.ui" line="283"/>
+      <source>Expand tables when connected to a database</source>
+      <translation>گسترش جدول‌ها هنگام اتصال به پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="418"/>
-        <source>Expand views when connected to a database</source>
-        <translation type="unfinished">Expand views when connected to a database</translation>
+      <location filename="../dialogs/configdialog.ui" line="418"/>
+      <source>Expand views when connected to a database</source>
+      <translation>گسترش نماها هنگام اتصال به پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="319"/>
-        <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
-        <translation type="unfinished">Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</translation>
+      <location filename="../dialogs/configdialog.ui" line="319"/>
+      <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
+      <translation>گسترش یک جدول یا نما، گره‌های ستون‌ها، شاخص‌ها و تریگرها را نیز گسترش می‌دهد تا محتوای آن‌ها نشان داده شود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="293"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="293"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;به‌طور پیش‌فرض، شِمای پایگاه داده با استفاده از نام جدول &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; در دسترس قرار می‌گیرد.&lt;br/&gt;نسخه‌های قدیمی‌تر SQLite از نام &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; استفاده می‌کردند که همچنان به‌عنوان نام مستعار پشتیبانی می‌شود.&lt;br/&gt;می‌توانید اینجا تغییر دهید تا به‌جای آن از نام قدیمی استفاده شود.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="296"/>
-        <source>Prefer sqlite_master over sqlite_schema table name</source>
-        <translation type="unfinished">Prefer sqlite_master over sqlite_schema table name</translation>
+      <location filename="../dialogs/configdialog.ui" line="296"/>
+      <source>Prefer sqlite_master over sqlite_schema table name</source>
+      <translation>ترجیح نام جدول sqlite_master به sqlite_schema</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="322"/>
-        <source>Expand columns, indexes and triggers together with the table</source>
-        <translation type="unfinished">Expand columns, indexes and triggers together with the table</translation>
+      <location filename="../dialogs/configdialog.ui" line="322"/>
+      <source>Expand columns, indexes and triggers together with the table</source>
+      <translation>گسترش ستون‌ها، شاخص‌ها و تریگرها همراه با جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="363"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="363"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;هنگام گسترش گره ستون‌ها، نوع داده را کنار ستون نشان می‌دهد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="366"/>
-        <source>Display column data types</source>
-        <translation type="unfinished">Display column data types</translation>
+      <location filename="../dialogs/configdialog.ui" line="366"/>
+      <source>Display column data types</source>
+      <translation>نمایش نوع داده ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="376"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="376"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;تعداد ستون‌ها، شاخص‌ها و تریگرها را کنار نام هر جدول نشان می‌دهد.&lt;/p&gt;&lt;p&gt;نیازمند بارگذاری شِمای کامل برای همه جدول‌ها است. برای پایگاه‌های داده با صدها یا هزاران جدول، این می‌تواند به‌طور چشمگیری بر کارایی اثر بگذارد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="405"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="405"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;به‌طور پیش‌فرض، جدول‌ها و شاخص‌های سیستمی از فهرست پنهان هستند.&lt;br/&gt;این گزینه را فعال کنید تا اشیای داخلی SQLite، مانند &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; و شاخص‌های خودکار تولیدشده نمایش داده شوند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="450"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="450"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وقتی فعال باشد، فایل‌های پایگاه داده بدون نمایش گفت‌وگوی استاندارد پایگاه داده افزوده می‌شوند. اگر باز کردن پایگاه داده با گزینه‌های پیش‌فرض شکست بخورد (مثلاً پایگاه داده رمزگذاری‌شده یا نیاز به درایور دیگر)، گفت‌وگو نمایش داده می‌شود تا گزینه‌ها تنظیم شوند. وقتی غیرفعال باشد، گفت‌وگو همیشه نمایش داده می‌شود.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="453"/>
-        <source>Skip the dialog when possible</source>
-        <translation type="unfinished">Skip the dialog when possible</translation>
+      <location filename="../dialogs/configdialog.ui" line="453"/>
+      <source>Skip the dialog when possible</source>
+      <translation>رد کردن گفت‌وگو در صورت امکان</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="960"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="960"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;تعریف کنید کدام ویرایشگرهای داده برای نوع‌های ستون خاص در &lt;span style=&quot; font-weight:700;&quot;&gt;نمای فرم&lt;/span&gt; و &lt;span style=&quot; font-weight:700;&quot;&gt;گفت‌وگوی ویرایشگر بازشو&lt;/span&gt; در دسترس باشند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="979"/>
-        <source>Preview of editors for this data type (drag to reorder):</source>
-        <translation type="unfinished">Preview of editors for this data type (drag to reorder):</translation>
+      <location filename="../dialogs/configdialog.ui" line="979"/>
+      <source>Preview of editors for this data type (drag to reorder):</source>
+      <translation>پیش‌نمایش ویرایشگرها برای این نوع داده (برای تغییر ترتیب بکشید):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1003"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1003"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;می‌توانید تعیین کنید کدام نمایش‌دهنده‌های سلول برای نوع‌های داده خاص اعلام‌شده در ستون‌های جدول استفاده شوند (بدون حساسیت به بزرگی و کوچکی حروف). اگر برای نوع مشخصی نمایش‌دهنده‌ای تعریف نشده باشد، نمایش‌دهنده پیش‌فرض استفاده می‌شود.&lt;/p&gt;&lt;p&gt;پلاگین‌های اختیاری ممکن است نمایش‌دهنده‌های اضافی فراهم کنند و نگاشت‌های پیش‌فرض خود را برای نوع‌های داده تنظیم کنند، که همچنان می‌توانید آن‌ها را اینجا بازنویسی کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1032"/>
-        <source>Data type</source>
-        <translation type="unfinished">Data type</translation>
+      <location filename="../dialogs/configdialog.ui" line="1032"/>
+      <source>Data type</source>
+      <translation>نوع داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1037"/>
-        <source>Renderer</source>
-        <translation type="unfinished">Renderer</translation>
+      <location filename="../dialogs/configdialog.ui" line="1037"/>
+      <source>Renderer</source>
+      <translation>نمایش‌دهنده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1334"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وقتی چند پرس‌وجو وجود دارد، فقط پرس‌وجوی زیر مکان‌نما را اجرا می‌کند.&lt;br/&gt;وقتی غیرفعال باشد، همه پرس‌وجوها اجرا می‌شوند.&lt;br/&gt;همچنین می‌توانید پرس‌وجوهای انتخاب‌شده را اجرا کنید یا از میانبرها استفاده کنید (%1 برای تکی، %2 برای همه).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1321"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;پرس‌وجوی زیر مکان‌نما را برجسته می‌کند - همان پرس‌وجویی که هنگام استفاده از &lt;span style=&quot; font-style:italic;&quot;&gt;اجرای پرس‌وجو&lt;/span&gt; اجرا خواهد شد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="592"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وقتی فعال باشد، Letos به‌طور خودکار برای اعداد حقیقی بسیار کوچک به نمادگذاری علمی تغییر می‌کند (مثلاً &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;نمادگذاری اعشاری برای مقادیری استفاده می‌شود که اندازه آن‌ها امکان نمایش اعشاری خوانا را می‌دهد.&lt;/p&gt;&lt;p&gt;وقتی غیرفعال باشد، اعداد حقیقی همیشه با نمادگذاری اعشاری نمایش داده می‌شوند، حتی اگر این کار به بخش‌های کسری بسیار طولانی منجر شود.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="572"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;هنگام ویرایش یک سلول، فشردن Enter مقدار را می‌پذیرد و به همان ستون در ردیف بعدی می‌رود.&lt;br/&gt;اگر غیرفعال باشد، انتخاب روی سلول فعلی باقی می‌ماند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="575"/>
-        <source>After editing, Enter moves to the next row</source>
-        <translation type="unfinished">After editing, Enter moves to the next row</translation>
+      <location filename="../dialogs/configdialog.ui" line="575"/>
+      <source>After editing, Enter moves to the next row</source>
+      <translation>پس از ویرایش، Enter به ردیف بعدی می‌رود</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="605"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="605"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;اگر نتایج پرس‌وجو شامل ده‌ها (یا صدها) ستون باشد، احتمال بیشتری دارد که با بارگذاری چندین گیگابایت داده به‌طور هم‌زمان، حافظهٔ آزاد رایانهٔ شما را تمام کند. Letos ممکن است در چنین مواردی برای محافظت از رایانهٔ شما تلاش کند تعداد نتایج نمایش‌داده‌شده در یک صفحه را محدود کند. اگر می‌دانید که با مقادیر بزرگ در پایگاه داده کار &apos;نمی‌کنید، می‌توانید این محدودیت را غیرفعال کنید و همیشه به همان تعداد ردیفی که برای هر صفحه تعریف شده است خواهید دید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="540"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="540"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;پس از رفتن به سلول ردیف بعدی با Enter، ویرایش آن سلول را به‌طور خودکار آغاز می‌کند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="543"/>
-        <source>Start editing after moving to the next row</source>
-        <translation type="unfinished">Start editing after moving to the next row</translation>
+      <location filename="../dialogs/configdialog.ui" line="543"/>
+      <source>Start editing after moving to the next row</source>
+      <translation>شروع ویرایش پس از رفتن به ردیف بعدی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
-        <source>Column header actions</source>
-        <translation type="unfinished">Column header actions</translation>
+      <location filename="../dialogs/configdialog.ui" line="704"/>
+      <source>Column header actions</source>
+      <translation>کنش‌های سرستون</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="710"/>
-        <source>Single-click selects column data; double-click sorts by column</source>
-        <translation type="unfinished">Single-click selects column data; double-click sorts by column</translation>
+      <location filename="../dialogs/configdialog.ui" line="710"/>
+      <source>Single-click selects column data; double-click sorts by column</source>
+      <translation>تک‌کلیک داده‌های ستون را انتخاب می‌کند؛ دوبارکلیک بر اساس ستون مرتب می‌کند</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
-        <source>Single-click sorts by column; Alt+click selects column data</source>
-        <translation type="unfinished">Single-click sorts by column; Alt+click selects column data</translation>
+      <location filename="../dialogs/configdialog.ui" line="723"/>
+      <source>Single-click sorts by column; Alt+click selects column data</source>
+      <translation>تک‌کلیک بر اساس ستون مرتب می‌کند؛ Alt+کلیک داده‌های ستون را انتخاب می‌کند</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1160"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1160"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;وقتی کاربر پنل وضعیت را به‌صورت دستی می‌بندد، این گزینه مطمئن می‌شود که اگر پیام جدیدی در پنل وضعیت چاپ شود، دوباره باز خواهد شد. اگر &apos;غیرفعال باشد، پنل وضعیت فقط می‌تواند به‌صورت دستی توسط کاربر از منوی &amp;quot;نمایش&amp;quot; باز شود.&lt;/p&gt;&lt;p&gt;همیشه می‌توانید پنل وضعیت را با کلید Esc پنهان کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
-        <source>Older status messages</source>
-        <translation type="unfinished">Older status messages</translation>
+      <location filename="../dialogs/configdialog.ui" line="1173"/>
+      <source>Older status messages</source>
+      <translation>پیام‌های وضعیت قدیمی‌تر</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1179"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1179"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;پیام‌های وضعیت قدیمی‌تر بدون تغییر نگه داشته می‌شوند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1182"/>
-        <source>Keep messages</source>
-        <translation type="unfinished">Keep messages</translation>
+      <location filename="../dialogs/configdialog.ui" line="1182"/>
+      <source>Keep messages</source>
+      <translation>نگه داشتن پیام‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1195"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;پیام‌های وضعیت قدیمی‌تر قابل مشاهده باقی می‌مانند، اما از نظر بصری کم‌رنگ می‌شوند تا پیام‌های جدیدتر برجسته شوند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1198"/>
-        <source>Dim older messages</source>
-        <translation type="unfinished">Dim older messages</translation>
+      <location filename="../dialogs/configdialog.ui" line="1198"/>
+      <source>Dim older messages</source>
+      <translation>کم‌رنگ کردن پیام‌های قدیمی‌تر</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1211"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;پیام‌های وضعیت قدیمی‌تر به‌طور خودکار از فیلد وضعیت حذف می‌شوند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1214"/>
-        <source>Remove older messages</source>
-        <translation type="unfinished">Remove older messages</translation>
+      <location filename="../dialogs/configdialog.ui" line="1214"/>
+      <source>Remove older messages</source>
+      <translation>حذف پیام‌های قدیمی‌تر</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1230"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1230"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;گاهی یک پیام وضعیت با اطلاعاتی دربارهٔ پشتیبانی از پروژهٔ Letos نشان داده شود. این یادآورها به‌ندرت ظاهر می‌شوند و هر زمان می‌توان آن‌ها را غیرفعال کرد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1233"/>
-        <source>Show occasional project support reminders</source>
-        <translation type="unfinished">Show occasional project support reminders</translation>
+      <location filename="../dialogs/configdialog.ui" line="1233"/>
+      <source>Show occasional project support reminders</source>
+      <translation>نمایش گاه‌به‌گاه یادآورهای پشتیبانی از پروژه</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1269"/>
+      <location filename="../dialogs/configdialog.ui" line="1285"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;حداکثر تعداد رقم‌های اعشار نمایش‌داده‌شده برای زمان اجرای پرس‌وجو را مشخص می‌کند. تا 9 رقم (نانوثانیه) قابل پیکربندی است. صفرهای انتهایی به‌طور خودکار حذف می‌شوند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
-        <source>Execution time precision (decimal places)</source>
-        <translation type="unfinished">Execution time precision (decimal places)</translation>
+      <location filename="../dialogs/configdialog.ui" line="1272"/>
+      <source>Execution time precision (decimal places)</source>
+      <translation>دقت زمان اجرا (رقم‌های اعشار)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1298"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;اگر فعال باشد، خط‌هایی که از عرض ویرایشگر بلندتر هستند شکسته می‌شوند، بنابراین به پیمایش افقی نیاز نخواهد بود.&lt;/p&gt;&lt;p&gt;این گزینه مقدار پیش‌فرض سراسری را تعریف می‌کند، در حالی که پنجره‌های جداگانهٔ ویرایشگر SQL می‌توانند آن را به‌صورت محلی بازنویسی کنند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
-        <source>Disable blinking text cursor</source>
-        <translation type="unfinished">Disable blinking text cursor</translation>
+      <location filename="../dialogs/configdialog.ui" line="1311"/>
+      <source>Disable blinking text cursor</source>
+      <translation>غیرفعال کردن چشمک‌زدن مکان‌نمای متن</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
-        <source>Trigger assistant after typing a dot</source>
-        <translation type="unfinished">Trigger assistant after typing a dot</translation>
+      <location filename="../dialogs/configdialog.ui" line="1359"/>
+      <source>Trigger assistant after typing a dot</source>
+      <translation>فعال کردن دستیار پس از تایپ نقطه</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
-        <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
-        <translation type="unfinished">When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</translation>
+      <location filename="../dialogs/configdialog.ui" line="1369"/>
+      <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
+      <translation>وقتی فعال باشد، فراخوانی تکمیل کد در یک ویرایشگر خالی ابتدا قطعه‌کدها را به‌جای پیشنهادهای نحوی نشان می‌دهد. فراخوانی دوباره تکمیل کد به پیشنهادهای نحوی تغییر می‌کند (و برعکس).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
-        <source>Prefer snippets in empty editor</source>
-        <translation type="unfinished">Prefer snippets in empty editor</translation>
+      <location filename="../dialogs/configdialog.ui" line="1372"/>
+      <source>Prefer snippets in empty editor</source>
+      <translation>ترجیح قطعه‌کدها در ویرایشگر خالی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
-        <source>History</source>
-        <translation type="unfinished">History</translation>
+      <location filename="../dialogs/configdialog.ui" line="1385"/>
+      <source>History</source>
+      <translation>تاریخچه</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
-        <source>Query history size:</source>
-        <translation type="unfinished">Query history size:</translation>
+      <location filename="../dialogs/configdialog.ui" line="1394"/>
+      <source>Query history size:</source>
+      <translation>اندازه تاریخچه پرس‌وجو:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
-        <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="1420"/>
+      <location filename="../dialogs/configdialog.ui" line="1430"/>
+      <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;حداکثر تعداد پارامترهای query (:param، @param، $param، ?) که در history ذخیره می‌شوند. وقتی پارامتری با همان نام/موقعیت را دوباره استفاده کنید، Letos آن را با جدیدترین مقدار به‌خاطرسپرده‌شده از پیش مقداردهی اولیه می‌کند (همچنان می‌توانید آن را تغییر دهید). مقدار 1000 باید کافی باشد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
-        <source>Number foreground</source>
-        <translation type="unfinished">Number foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="1764"/>
+      <source>Number foreground</source>
+      <translation>پیش‌زمینه عدد</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
-        <source>BLOB value foreground</source>
-        <translation type="unfinished">BLOB value foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="2034"/>
+      <source>BLOB value foreground</source>
+      <translation>پیش‌زمینه مقدار BLOB</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
-        <source>Matched parenthesis foreground</source>
-        <translation type="unfinished">Matched parenthesis foreground</translation>
+      <location filename="../dialogs/configdialog.ui" line="2340"/>
+      <source>Matched parenthesis foreground</source>
+      <translation>پیش‌زمینه پرانتز منطبق</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
-        <source>Reset to defaults</source>
-        <translation type="unfinished">Reset to defaults</translation>
+      <location filename="../dialogs/configdialog.ui" line="2448"/>
+      <location filename="../dialogs/configdialog.ui" line="2556"/>
+      <source>Reset to defaults</source>
+      <translation>بازنشانی به پیش‌فرض‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
-        <source>Filter shortcuts by name or key combination</source>
-        <translation type="unfinished">Filter shortcuts by name or key combination</translation>
+      <location filename="../dialogs/configdialog.ui" line="2474"/>
+      <source>Filter shortcuts by name or key combination</source>
+      <translation>فیلتر کردن میانبرها بر اساس نام یا ترکیب کلید</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
-        <source>Action</source>
-        <translation type="unfinished">Action</translation>
+      <location filename="../dialogs/configdialog.ui" line="2518"/>
+      <source>Action</source>
+      <translation>کنش</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
-        <source>Key combination</source>
-        <translation type="unfinished">Key combination</translation>
+      <location filename="../dialogs/configdialog.ui" line="2523"/>
+      <source>Key combination</source>
+      <translation>ترکیب کلید</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3104"/>
-        <source>Language</source>
-        <translation type="unfinished">Language</translation>
+      <location filename="../dialogs/configdialog.ui" line="2597"/>
+      <location filename="../dialogs/configdialog.ui" line="3112"/>
+      <source>Language</source>
+      <translation>زبان</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
-        <source>Changing language requires application restart to take effect.</source>
-        <translation type="unfinished">Changing language requires application restart to take effect.</translation>
+      <location filename="../dialogs/configdialog.ui" line="2603"/>
+      <source>Changing language requires application restart to take effect.</source>
+      <translation>برای اعمال تغییر زبان، راه‌اندازی مجدد برنامه لازم است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
-        <source>Compact layout</source>
-        <translation type="unfinished">Compact layout</translation>
+      <location filename="../dialogs/configdialog.ui" line="2623"/>
+      <source>User interface</source>
+      <translation type="unfinished">User interface</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
-        <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="2629"/>
+      <location filename="../dialogs/configdialog.ui" line="2639"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
-        <source>Use compact layout</source>
-        <translation type="unfinished">Use compact layout</translation>
+      <location filename="../dialogs/configdialog.ui" line="2632"/>
+      <source>Interface scale</source>
+      <translation type="unfinished">Interface scale</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2648"/>
-        <source>Main window dock areas</source>
-        <translation type="unfinished">Main window dock areas</translation>
+      <location filename="../dialogs/configdialog.ui" line="2649"/>
+      <source>Toolbar icon size</source>
+      <translation type="unfinished">Toolbar icon size</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2654"/>
-        <source>Left and right areas occupy corners</source>
-        <translation type="unfinished">Left and right areas occupy corners</translation>
+      <location filename="../dialogs/configdialog.ui" line="2669"/>
+      <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;چیدمان فشرده همه حاشیه‌ها و فاصله‌های رابط کاربری را به حداقل کاهش می‌دهد تا فضای بیشتری برای نمایش داده‌ها فراهم شود. این کار رابط را کمی کمتر زیبا می‌کند، اما امکان نمایش داده‌های بیشتر را به‌صورت هم‌زمان فراهم می‌کند.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2674"/>
-        <source>Top and bottom areas occupy corners</source>
-        <translation type="unfinished">Top and bottom areas occupy corners</translation>
+      <location filename="../dialogs/configdialog.ui" line="2672"/>
+      <source>Use compact layout</source>
+      <translation>استفاده از چیدمان فشرده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
-        <source>Toolbars</source>
-        <translation type="unfinished">Toolbars</translation>
+      <location filename="../dialogs/configdialog.ui" line="2688"/>
+      <source>Main window dock areas</source>
+      <translation>ناحیه‌های dock پنجره اصلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2700"/>
-        <location filename="../dialogs/configdialog.ui" line="2710"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="2694"/>
+      <source>Left and right areas occupy corners</source>
+      <translation>ناحیه‌های چپ و راست گوشه‌ها را اشغال کنند</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2703"/>
-        <source>Icon size</source>
-        <translation type="unfinished">Icon size</translation>
+      <location filename="../dialogs/configdialog.ui" line="2714"/>
+      <source>Top and bottom areas occupy corners</source>
+      <translation>ناحیه‌های بالا و پایین گوشه‌ها را اشغال کنند</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2828"/>
-        <source>Hide built-in plugins</source>
-        <translation type="unfinished">Hide built-in plugins</translation>
+      <location filename="../dialogs/configdialog.ui" line="2646"/>
+      <location filename="../dialogs/configdialog.ui" line="2656"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;به‌صورت درصدی از اندازه پیش‌فرض بیان می‌شود.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2857"/>
-        <source>Current style:</source>
-        <translation type="unfinished">Current style:</translation>
+      <location filename="../dialogs/configdialog.ui" line="2836"/>
+      <source>Hide built-in plugins</source>
+      <translation>مخفی کردن افزونه‌های داخلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2874"/>
-        <source>Preview</source>
-        <translation type="unfinished">Preview</translation>
+      <location filename="../dialogs/configdialog.ui" line="2865"/>
+      <source>Current style:</source>
+      <translation>سبک فعلی:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2884"/>
-        <source>Enabled</source>
-        <translation type="unfinished">Enabled</translation>
+      <location filename="../dialogs/configdialog.ui" line="2882"/>
+      <source>Preview</source>
+      <translation>پیش‌نمایش</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3060"/>
-        <source>Disabled</source>
-        <translation type="unfinished">Disabled</translation>
+      <location filename="../dialogs/configdialog.ui" line="2892"/>
+      <source>Enabled</source>
+      <translation>فعال</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3109"/>
-        <source>Active formatter plugin</source>
-        <translation type="unfinished">Active formatter plugin</translation>
+      <location filename="../dialogs/configdialog.ui" line="3068"/>
+      <source>Disabled</source>
+      <translation>غیرفعال</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3147"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="3117"/>
+      <source>Active formatter plugin</source>
+      <translation>افزونه formatter فعال</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3166"/>
-        <source>SQL editor font</source>
-        <translation type="unfinished">SQL editor font</translation>
+      <location filename="../dialogs/configdialog.ui" line="3155"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;نکته:&lt;/span&gt; علاوه بر تنظیمات موجود در اینجا، اندازه فونت را نیز می‌توان در بیشتر عناصر رابط به‌صورت پویا با نگه داشتن &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; و چرخاندن &lt;span style=&quot; font-weight:700;&quot;&gt;چرخ ماوس&lt;/span&gt; روی عنصری که می‌خواهید اندازه فونت آن را تغییر دهید، تنظیم کرد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3182"/>
-        <source>Database list font</source>
-        <translation type="unfinished">Database list font</translation>
+      <location filename="../dialogs/configdialog.ui" line="3174"/>
+      <source>SQL editor font</source>
+      <translation>فونت ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3198"/>
-        <source>Database list additional label font</source>
-        <translation type="unfinished">Database list additional label font</translation>
+      <location filename="../dialogs/configdialog.ui" line="3190"/>
+      <source>Database list font</source>
+      <translation>فونت فهرست پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3214"/>
-        <source>Data view font</source>
-        <translation type="unfinished">Data view font</translation>
+      <location filename="../dialogs/configdialog.ui" line="3206"/>
+      <source>Database list additional label font</source>
+      <translation>فونت برچسب اضافی فهرست پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3230"/>
-        <source>Status field font</source>
-        <translation type="unfinished">Status field font</translation>
+      <location filename="../dialogs/configdialog.ui" line="3222"/>
+      <source>Data view font</source>
+      <translation>فونت نمای داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/configdialog.ui" line="3238"/>
+      <source>Status field font</source>
+      <translation>فونت فیلد وضعیت</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1122"/>
-        <source>Description:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Description:</translation>
+      <location filename="../dialogs/configdialog.ui" line="1356"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;اگر این گزینه فعال باشد، دستیار کد در مواردی اجرا می‌شود که کاربر مثلاً &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; را تایپ کند تا ستون‌های جدول پیشنهاد شوند. اگر این گزینه غیرفعال باشد، کاربر باید hotkey دستیار را به‌صراحت فشار دهد.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1123"/>
-        <source>Category:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Category:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="447"/>
+      <source>The new interface scale will be applied after restarting Letos.</source>
+      <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1124"/>
-        <source>Version:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Version:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1144"/>
+      <source>Description:</source>
+      <comment>plugin details</comment>
+      <translation>توضیحات:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1125"/>
-        <source>Author:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Author:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1145"/>
+      <source>Category:</source>
+      <comment>plugin details</comment>
+      <translation>دسته‌بندی:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1127"/>
-        <source>Internal name:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Internal name:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1146"/>
+      <source>Version:</source>
+      <comment>plugin details</comment>
+      <translation>نسخه:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1128"/>
-        <source>Dependencies:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Dependencies:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1147"/>
+      <source>Author:</source>
+      <comment>plugin details</comment>
+      <translation>نویسنده:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1129"/>
-        <source>Conflicts:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">Conflicts:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1149"/>
+      <source>Internal name:</source>
+      <comment>plugin details</comment>
+      <translation>نام داخلی:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1130"/>
-        <source>File:</source>
-        <comment>plugin details</comment>
-        <translation type="unfinished">File:</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1150"/>
+      <source>Dependencies:</source>
+      <comment>plugin details</comment>
+      <translation>وابستگی‌ها:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1135"/>
-        <source>Plugin details</source>
-        <translation type="unfinished">Plugin details</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1151"/>
+      <source>Conflicts:</source>
+      <comment>plugin details</comment>
+      <translation>تداخل‌ها:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1756"/>
-        <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
-        <translation type="unfinished">Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1152"/>
+      <source>File:</source>
+      <comment>plugin details</comment>
+      <translation>فایل:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1814"/>
-        <source>%1 (built-in)</source>
-        <comment>plugins manager in configuration dialog</comment>
-        <translation type="unfinished">%1 (built-in)</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1157"/>
+      <source>Plugin details</source>
+      <translation>جزئیات افزونه</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1856"/>
-        <source>Details</source>
-        <translation type="unfinished">Details</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1778"/>
+      <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
+      <translation>افزونه‌ها بلافاصله پس از علامت‌زدن/برداشتن علامت بارگذاری/تخلیه می‌شوند، اما فهرست تغییر یافته افزونه‌هایی که هنگام راه‌اندازی بارگذاری می‌شوند تا زمانی که کل گفت‌وگوی پیکربندی را تأیید نکنید ذخیره نمی‌شود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1870"/>
-        <source>No plugins in this category.</source>
-        <translation type="unfinished">No plugins in this category.</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1836"/>
+      <source>%1 (built-in)</source>
+      <comment>plugins manager in configuration dialog</comment>
+      <translation>%1 (داخلی)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1970"/>
-        <location filename="../dialogs/configdialog.cpp" line="1999"/>
-        <source>Add new data type</source>
-        <translation type="unfinished">Add new data type</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1878"/>
+      <source>Details</source>
+      <translation>جزئیات</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1974"/>
-        <location filename="../dialogs/configdialog.cpp" line="2003"/>
-        <source>Rename selected data type</source>
-        <translation type="unfinished">Rename selected data type</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1892"/>
+      <source>No plugins in this category.</source>
+      <translation>در این دسته‌بندی افزونه‌ای وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1978"/>
-        <location filename="../dialogs/configdialog.cpp" line="2007"/>
-        <source>Delete selected data type</source>
-        <translation type="unfinished">Delete selected data type</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1992"/>
+      <location filename="../dialogs/configdialog.cpp" line="2021"/>
+      <source>Add new data type</source>
+      <translation>افزودن نوع داده جدید</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2091"/>
-        <source>Clear hotkey for this action</source>
-        <translation type="unfinished">Clear hotkey for this action</translation>
+      <location filename="../dialogs/configdialog.cpp" line="1996"/>
+      <location filename="../dialogs/configdialog.cpp" line="2025"/>
+      <source>Rename selected data type</source>
+      <translation>تغییر نام نوع داده انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2103"/>
-        <source>Restore original hotkey for this action</source>
-        <translation type="unfinished">Restore original hotkey for this action</translation>
+      <location filename="../dialogs/configdialog.cpp" line="2000"/>
+      <location filename="../dialogs/configdialog.cpp" line="2029"/>
+      <source>Delete selected data type</source>
+      <translation>حذف نوع داده انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2145"/>
-        <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
-        <translation type="unfinished">Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</translation>
+      <location filename="../dialogs/configdialog.cpp" line="2113"/>
+      <source>Clear hotkey for this action</source>
+      <translation>پاک کردن hotkey برای این کنش</translation>
     </message>
-</context>
-<context>
+    <message>
+      <location filename="../dialogs/configdialog.cpp" line="2125"/>
+      <source>Restore original hotkey for this action</source>
+      <translation>بازگردانی hotkey اصلی برای این کنش</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.cpp" line="2167"/>
+      <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
+      <translation>اینجا می‌توانید رنگ‌های برجسته‌سازی نحو کد را پیکربندی کنید. این رنگ‌ها بین زبان‌های مختلف مشترک هستند - نه فقط برای SQL، بلکه برای JavaScript و دیگر زبان‌ها نیز. به‌طور پیش‌فرض از رنگ مبتنی بر theme استفاده می‌شود. برای تعریف رنگ خودتان، با انتخاب checkbox کنار یک رنگ مشخص، رنگ سفارشی را فعال کنید.</translation>
+    </message>
+  </context>
+  <context>
     <name>ConstraintCheckPanel</name>
     <message>
-        <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
-        <source>The condition</source>
-        <translation type="unfinished">The condition</translation>
+      <location filename="../constraints/constraintcheckpanel.ui" line="20"/>
+      <source>The condition</source>
+      <translation>شرط</translation>
     </message>
     <message>
-        <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
-        <source>Named constraint:</source>
-        <translation type="unfinished">Named constraint:</translation>
+      <location filename="../constraints/constraintcheckpanel.ui" line="35"/>
+      <source>Named constraint:</source>
+      <translation>محدودیت نام‌گذاری‌شده:</translation>
     </message>
     <message>
-        <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
-        <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+      <location filename="../constraints/constraintcheckpanel.ui" line="51"/>
+      <source>On conflict</source>
+      <translation>در صورت conflict</translation>
     </message>
     <message>
-        <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
-        <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+      <location filename="../constraints/constraintcheckpanel.cpp" line="46"/>
+      <source>Enter a valid condition.</source>
+      <translation>یک شرط معتبر وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/constraintcheckpanel.cpp" line="47"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام constraint را وارد کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ConstraintDialog</name>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="62"/>
-        <source>New constraint</source>
-        <comment>constraint dialog</comment>
-        <translation type="unfinished">New constraint</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="62"/>
+      <source>New constraint</source>
+      <comment>constraint dialog</comment>
+      <translation>محدودیت جدید</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="63"/>
-        <source>Create</source>
-        <comment>constraint dialog</comment>
-        <translation type="unfinished">Create</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="63"/>
+      <source>Create</source>
+      <comment>constraint dialog</comment>
+      <translation>ایجاد</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="66"/>
-        <source>Edit constraint</source>
-        <comment>dialog window</comment>
-        <translation type="unfinished">Edit constraint</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="66"/>
+      <source>Edit constraint</source>
+      <comment>dialog window</comment>
+      <translation>ویرایش constraint</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="67"/>
-        <source>Apply</source>
-        <comment>constraint dialog</comment>
-        <translation type="unfinished">Apply</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="67"/>
+      <source>Apply</source>
+      <comment>constraint dialog</comment>
+      <translation>اعمال</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="174"/>
-        <source>Primary key</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Primary key</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="174"/>
+      <source>Primary key</source>
+      <comment>table constraints</comment>
+      <translation>کلید اصلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="178"/>
-        <source>Foreign key</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Foreign key</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="178"/>
+      <source>Foreign key</source>
+      <comment>table constraints</comment>
+      <translation>کلید خارجی</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="182"/>
-        <source>Unique</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Unique</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="182"/>
+      <source>Unique</source>
+      <comment>table constraints</comment>
+      <translation>یکتا</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="186"/>
-        <source>Not NULL</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Not NULL</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="186"/>
+      <source>Not NULL</source>
+      <comment>table constraints</comment>
+      <translation>غیر NULL</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="190"/>
-        <source>Check</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Check</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="190"/>
+      <source>Check</source>
+      <comment>table constraints</comment>
+      <translation>بررسی</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="194"/>
-        <source>Generated</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Generated</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="194"/>
+      <source>Generated</source>
+      <comment>table constraints</comment>
+      <translation>تولیدشده</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="198"/>
-        <source>Collate</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Collate</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="198"/>
+      <source>Collate</source>
+      <comment>table constraints</comment>
+      <translation>ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../dialogs/constraintdialog.cpp" line="202"/>
-        <source>Default</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Default</translation>
+      <location filename="../dialogs/constraintdialog.cpp" line="202"/>
+      <source>Default</source>
+      <comment>table constraints</comment>
+      <translation>پیش‌فرض</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ConstraintTabModel</name>
     <message>
-        <location filename="../windows/constrainttabmodel.cpp" line="67"/>
-        <source>Table</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Table</translation>
+      <location filename="../windows/constrainttabmodel.cpp" line="67"/>
+      <source>Table</source>
+      <comment>table constraints</comment>
+      <translation>جدول</translation>
     </message>
     <message>
-        <location filename="../windows/constrainttabmodel.cpp" line="108"/>
-        <source>Column (%1)</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Column (%1)</translation>
+      <location filename="../windows/constrainttabmodel.cpp" line="108"/>
+      <source>Column (%1)</source>
+      <comment>table constraints</comment>
+      <translation>ستون (%1)</translation>
     </message>
     <message>
-        <location filename="../windows/constrainttabmodel.cpp" line="152"/>
-        <source>Scope</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Scope</translation>
+      <location filename="../windows/constrainttabmodel.cpp" line="152"/>
+      <source>Scope</source>
+      <comment>table constraints</comment>
+      <translation>محدوده</translation>
     </message>
     <message>
-        <location filename="../windows/constrainttabmodel.cpp" line="154"/>
-        <source>Type</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Type</translation>
+      <location filename="../windows/constrainttabmodel.cpp" line="154"/>
+      <source>Type</source>
+      <comment>table constraints</comment>
+      <translation>نوع</translation>
     </message>
     <message>
-        <location filename="../windows/constrainttabmodel.cpp" line="156"/>
-        <source>Details</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Details</translation>
+      <location filename="../windows/constrainttabmodel.cpp" line="156"/>
+      <source>Details</source>
+      <comment>table constraints</comment>
+      <translation>جزئیات</translation>
     </message>
     <message>
-        <location filename="../windows/constrainttabmodel.cpp" line="158"/>
-        <source>Name</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../windows/constrainttabmodel.cpp" line="158"/>
+      <source>Name</source>
+      <comment>table constraints</comment>
+      <translation>نام</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CpConfigDialogProvider</name>
     <message>
-        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
-        <source>Configure hotkey: %1 (%2)</source>
-        <translation type="unfinished">Configure hotkey: %1 (%2)</translation>
+      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="52"/>
+      <source>Configure hotkey: %1 (%2)</source>
+      <translation>پیکربندی کلید میانبر: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
-        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
-        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
-        <source>Open configuration on the &quot;%1&quot; page</source>
-        <translation type="unfinished">Open configuration on the &quot;%1&quot; page</translation>
+      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="53"/>
+      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="70"/>
+      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="87"/>
+      <source>Open configuration on the &quot;%1&quot; page</source>
+      <translation>باز کردن پیکربندی در صفحهٔ &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
-        <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
-        <source>Configure: %1</source>
-        <translation type="unfinished">Configure: %1</translation>
+      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="69"/>
+      <location filename="../commandpalette/cpconfigdialogprovider.cpp" line="86"/>
+      <source>Configure: %1</source>
+      <translation>پیکربندی: %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>CssDebugDialog</name>
     <message>
-        <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
-        <source>Letos CSS console</source>
-        <translation type="unfinished">Letos CSS console</translation>
+      <location filename="../dialogs/cssdebugdialog.ui" line="14"/>
+      <source>Letos CSS console</source>
+      <translation>کنسول CSS Letos</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DataView</name>
     <message>
-        <location filename="../dataview.cpp" line="125"/>
-        <source>Filter data</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Filter data</translation>
+      <location filename="../dataview.cpp" line="125"/>
+      <source>Filter data</source>
+      <comment>data view</comment>
+      <translation>فیلتر کردن داده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="126"/>
-        <source>Filter by value in any column</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Filter by value in any column</translation>
+      <location filename="../dataview.cpp" line="126"/>
+      <source>Filter by value in any column</source>
+      <comment>data view</comment>
+      <translation>فیلتر بر اساس مقدار در هر ستون</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="135"/>
-        <source>Grid view</source>
-        <translation type="unfinished">Grid view</translation>
+      <location filename="../dataview.cpp" line="135"/>
+      <source>Grid view</source>
+      <translation>نمای grid</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="136"/>
-        <source>Form view</source>
-        <translation type="unfinished">Form view</translation>
+      <location filename="../dataview.cpp" line="136"/>
+      <source>Form view</source>
+      <translation>نمای form</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="239"/>
-        <source>Find in data</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Find in data</translation>
+      <location filename="../dataview.cpp" line="239"/>
+      <source>Find in data</source>
+      <comment>data view</comment>
+      <translation>یافتن در داده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="240"/>
-        <source>Refresh table data</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Refresh table data</translation>
+      <location filename="../dataview.cpp" line="240"/>
+      <source>Refresh table data</source>
+      <comment>data view</comment>
+      <translation>تازه‌سازی داده‌های جدول</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="256"/>
-        <source>First page</source>
-        <comment>data view</comment>
-        <translation type="unfinished">First page</translation>
+      <location filename="../dataview.cpp" line="256"/>
+      <source>First page</source>
+      <comment>data view</comment>
+      <translation>صفحه اول</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="257"/>
-        <source>Previous page</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Previous page</translation>
+      <location filename="../dataview.cpp" line="257"/>
+      <source>Previous page</source>
+      <comment>data view</comment>
+      <translation>صفحه قبلی</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="259"/>
-        <source>Next page</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Next page</translation>
+      <location filename="../dataview.cpp" line="259"/>
+      <source>Next page</source>
+      <comment>data view</comment>
+      <translation>صفحه بعدی</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="260"/>
-        <source>Last page</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Last page</translation>
+      <location filename="../dataview.cpp" line="260"/>
+      <source>Last page</source>
+      <comment>data view</comment>
+      <translation>صفحه آخر</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="274"/>
-        <source>Show grid view of results</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Show grid view of results</translation>
+      <location filename="../dataview.cpp" line="274"/>
+      <source>Show grid view of results</source>
+      <comment>data view</comment>
+      <translation>نمای grid نتایج را نشان بده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="275"/>
-        <source>Show form view of results</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Show form view of results</translation>
+      <location filename="../dataview.cpp" line="275"/>
+      <source>Show form view of results</source>
+      <comment>data view</comment>
+      <translation>نمای form نتایج را نشان بده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="524"/>
-        <source>Rows available on current page: %1 - %2</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Rows available on current page: %1 - %2</translation>
+      <location filename="../dataview.cpp" line="524"/>
+      <source>Rows available on current page: %1 - %2</source>
+      <comment>data view</comment>
+      <translation>ردیف‌های موجود در صفحه فعلی: %1 - %2</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="811"/>
-        <source>Sum: %1</source>
-        <translation type="unfinished">Sum: %1</translation>
+      <location filename="../dataview.cpp" line="811"/>
+      <source>Sum: %1</source>
+      <translation>مجموع: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="964"/>
-        <source>Total pages available: %1</source>
-        <translation type="unfinished">Total pages available: %1</translation>
+      <location filename="../dataview.cpp" line="964"/>
+      <source>Total pages available: %1</source>
+      <translation>کل صفحات موجود: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="974"/>
-        <source>Total rows loaded: %1</source>
-        <translation type="unfinished">Total rows loaded: %1</translation>
+      <location filename="../dataview.cpp" line="974"/>
+      <source>Total rows loaded: %1</source>
+      <translation>کل ردیف‌های بارگذاری‌شده: %1</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1370"/>
-        <source>Filter by text (if contains)</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Filter by text (if contains)</translation>
+      <location filename="../dataview.cpp" line="1370"/>
+      <source>Filter by text (if contains)</source>
+      <comment>data view</comment>
+      <translation>فیلتر بر اساس متن (اگر شامل باشد)</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1371"/>
-        <source>Filter strictly by text (if equals)</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Filter strictly by text (if equals)</translation>
+      <location filename="../dataview.cpp" line="1371"/>
+      <source>Filter strictly by text (if equals)</source>
+      <comment>data view</comment>
+      <translation>فیلتر دقیق بر اساس متن (اگر برابر باشد)</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="382"/>
-        <source>Tabs on top</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Tabs on top</translation>
+      <location filename="../dataview.cpp" line="382"/>
+      <source>Tabs on top</source>
+      <comment>data view</comment>
+      <translation>زبانه‌ها در بالا</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="54"/>
-        <source>Sum of values in selected cells</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Sum of values in selected cells</translation>
+      <location filename="../dataview.cpp" line="54"/>
+      <source>Sum of values in selected cells</source>
+      <comment>data view</comment>
+      <translation>مجموع مقادیر در سلول‌های انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="105"/>
-        <source>Row:</source>
-        <translation type="unfinished">Row:</translation>
+      <location filename="../dataview.cpp" line="105"/>
+      <source>Row:</source>
+      <translation>ردیف:</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="383"/>
-        <source>Tabs at bottom</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Tabs at bottom</translation>
+      <location filename="../dataview.cpp" line="383"/>
+      <source>Tabs at bottom</source>
+      <comment>data view</comment>
+      <translation>زبانه‌ها در پایین</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="408"/>
-        <source>Place new rows above selected row</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Place new rows above selected row</translation>
+      <location filename="../dataview.cpp" line="408"/>
+      <source>Place new rows above selected row</source>
+      <comment>data view</comment>
+      <translation>قرار دادن ردیف‌های جدید بالای ردیف انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="409"/>
-        <source>Place new rows below selected row</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Place new rows below selected row</translation>
+      <location filename="../dataview.cpp" line="409"/>
+      <source>Place new rows below selected row</source>
+      <comment>data view</comment>
+      <translation>قرار دادن ردیف‌های جدید زیر ردیف انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="410"/>
-        <source>Place new rows at the end of the data view</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Place new rows at the end of the data view</translation>
+      <location filename="../dataview.cpp" line="410"/>
+      <source>Place new rows at the end of the data view</source>
+      <comment>data view</comment>
+      <translation>قرار دادن ردیف‌های جدید در انتهای نمای داده</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="987"/>
-        <source>Total number of rows is being counted.
+      <location filename="../dataview.cpp" line="987"/>
+      <source>Total number of rows is being counted.
 Browsing other pages will be possible after the row counting is done.</source>
-        <translation type="unfinished">Total number of rows is being counted.
-Browsing other pages will be possible after the row counting is done.</translation>
+      <translation>تعداد کل ردیف‌ها در حال شمارش است.
+مرور صفحه‌های دیگر پس از پایان شمارش ردیف‌ها ممکن خواهد بود.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1337"/>
-        <source>Filter</source>
-        <translation type="unfinished">Filter</translation>
+      <location filename="../dataview.cpp" line="1337"/>
+      <source>Filter</source>
+      <translation>فیلتر</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1340"/>
-        <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
-        <translation type="unfinished">Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</translation>
+      <location filename="../dataview.cpp" line="1340"/>
+      <source>Hit Enter key or press &quot;Apply filter&quot; button on toolbar to apply new value.</source>
+      <translation>برای اعمال مقدار جدید، کلید Enter را بزنید یا دکمه &quot;اعمال فیلتر&quot; را روی نوارابزار فشار دهید.</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1372"/>
-        <source>Filter by the Regular Expression</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Filter by the Regular Expression</translation>
+      <location filename="../dataview.cpp" line="1372"/>
+      <source>Filter by the Regular Expression</source>
+      <comment>data view</comment>
+      <translation>فیلتر با Regular Expression</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1373"/>
-        <source>Filter by SQL expression</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Filter by SQL expression</translation>
+      <location filename="../dataview.cpp" line="1373"/>
+      <source>Filter by SQL expression</source>
+      <comment>data view</comment>
+      <translation>فیلتر با عبارت SQL</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1392"/>
-        <source>Show filter inputs per column</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Show filter inputs per column</translation>
+      <location filename="../dataview.cpp" line="1392"/>
+      <source>Show filter inputs per column</source>
+      <comment>data view</comment>
+      <translation>نمایش ورودی‌های فیلتر برای هر ستون</translation>
     </message>
     <message>
-        <location filename="../dataview.cpp" line="1396"/>
-        <source>Apply filter</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Apply filter</translation>
+      <location filename="../dataview.cpp" line="1396"/>
+      <source>Apply filter</source>
+      <comment>data view</comment>
+      <translation>اعمال فیلتر</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DbDialog</name>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="23"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../dialogs/dbdialog.ui" line="23"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="29"/>
-        <source>Database type</source>
-        <translation type="unfinished">Database type</translation>
+      <location filename="../dialogs/dbdialog.ui" line="29"/>
+      <source>Database type</source>
+      <translation>نوع پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="35"/>
-        <source>Database driver</source>
-        <translation type="unfinished">Database driver</translation>
+      <location filename="../dialogs/dbdialog.ui" line="35"/>
+      <source>Database driver</source>
+      <translation>درایور پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="45"/>
-        <location filename="../dialogs/dbdialog.cpp" line="194"/>
-        <source>File</source>
-        <translation type="unfinished">File</translation>
+      <location filename="../dialogs/dbdialog.ui" line="45"/>
+      <location filename="../dialogs/dbdialog.cpp" line="194"/>
+      <source>File</source>
+      <translation>فایل</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="51"/>
-        <source>Select an existing database file</source>
-        <translation type="unfinished">Select an existing database file</translation>
+      <location filename="../dialogs/dbdialog.ui" line="51"/>
+      <source>Select an existing database file</source>
+      <translation>انتخاب یک فایل پایگاه داده موجود</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="61"/>
-        <source>Create a new database file</source>
-        <translation type="unfinished">Create a new database file</translation>
+      <location filename="../dialogs/dbdialog.ui" line="61"/>
+      <source>Create a new database file</source>
+      <translation>ایجاد یک فایل پایگاه داده جدید</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="89"/>
-        <source>Name (on the list)</source>
-        <translation type="unfinished">Name (on the list)</translation>
+      <location filename="../dialogs/dbdialog.ui" line="89"/>
+      <source>Name (on the list)</source>
+      <translation>نام (در فهرست)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="117"/>
-        <source>Change</source>
-        <translation type="unfinished">Change</translation>
+      <location filename="../dialogs/dbdialog.ui" line="117"/>
+      <source>Change</source>
+      <translation>تغییر</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="127"/>
-        <source>Options</source>
-        <translation type="unfinished">Options</translation>
+      <location filename="../dialogs/dbdialog.ui" line="127"/>
+      <source>Options</source>
+      <translation>گزینه‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="133"/>
-        <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
-        <extracomment>aasfd</extracomment>
-        <translation type="unfinished">&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</translation>
+      <location filename="../dialogs/dbdialog.ui" line="133"/>
+      <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
+      <extracomment>aasfd</extracomment>
+      <translation>&lt;p&gt;اگر می‌خواهید پایگاه داده در فایل پیکربندی ذخیره شود و هر بار که Letos شروع می‌شود بازیابی شود، این را فعال کنید.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="136"/>
-        <source>Permanent (keep it in configuration)</source>
-        <translation type="unfinished">Permanent (keep it in configuration)</translation>
+      <location filename="../dialogs/dbdialog.ui" line="136"/>
+      <source>Permanent (keep it in configuration)</source>
+      <translation>دائمی (نگهداری در پیکربندی)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="180"/>
-        <source>Test connection</source>
-        <translation type="unfinished">Test connection</translation>
+      <location filename="../dialogs/dbdialog.ui" line="180"/>
+      <source>Test connection</source>
+      <translation>آزمون اتصال</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="355"/>
-        <source>Browse</source>
-        <translation type="unfinished">Browse</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="355"/>
+      <source>Browse</source>
+      <translation>مرور</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="528"/>
-        <source>Database type not selected.</source>
-        <translation type="unfinished">Database type not selected.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="528"/>
+      <source>Database type not selected.</source>
+      <translation>نوع پایگاه داده انتخاب نشده است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="535"/>
-        <source>Database path not specified.</source>
-        <translation type="unfinished">Database path not specified.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="535"/>
+      <source>Database path not specified.</source>
+      <translation>مسیر پایگاه داده مشخص نشده است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="568"/>
-        <source>Enter an unique database name.</source>
-        <translation type="unfinished">Enter an unique database name.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="568"/>
+      <source>Enter an unique database name.</source>
+      <translation>یک نام پایگاه داده یکتا وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="578"/>
-        <source>This name is already in use. Please enter unique name.</source>
-        <translation type="unfinished">This name is already in use. Please enter unique name.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="578"/>
+      <source>This name is already in use. Please enter unique name.</source>
+      <translation>این نام از قبل در حال استفاده است. لطفاً نامی یکتا وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="585"/>
-        <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="585"/>
+      <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;تولید خودکار نام غیرفعال شد، زیرا نام به‌صورت دستی ویرایش شده بود. برای بازیابی تولید خودکار، لطفاً محتوای فیلد نام را پاک کنید.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="594"/>
-        <source>Enter a database file path.</source>
-        <translation type="unfinished">Enter a database file path.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="594"/>
+      <source>Enter a database file path.</source>
+      <translation>مسیر فایل پایگاه داده را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="600"/>
-        <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
-        <translation type="unfinished">You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="600"/>
+      <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
+      <translation>شما&apos; از مسیر فایل نسبی استفاده می‌کنید که مطابق پوشهٔ کاریِ برنامه&apos; به &quot;%1&quot; تبدیل خواهد شد. همیشه &apos;بهتر است برای جلوگیری از مکان غیرمنتظرهٔ پایگاه داده، از مسیر فایل مطلق استفاده کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="610"/>
-        <source>This database is already on the list under name: %1</source>
-        <translation type="unfinished">This database is already on the list under name: %1</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="610"/>
+      <source>This database is already on the list under name: %1</source>
+      <translation>این پایگاه داده از قبل با نام زیر در فهرست است: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="632"/>
-        <source>Select a database type.</source>
-        <translation type="unfinished">Select a database type.</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="632"/>
+      <source>Select a database type.</source>
+      <translation>یک نوع پایگاه داده انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="657"/>
-        <source>Automatic</source>
-        <comment>database name</comment>
-        <translation type="unfinished">Automatic</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="657"/>
+      <source>Automatic</source>
+      <comment>database name</comment>
+      <translation>خودکار</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="658"/>
-        <source>Change</source>
-        <comment>database name</comment>
-        <translation type="unfinished">Change</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="658"/>
+      <source>Change</source>
+      <comment>database name</comment>
+      <translation>تغییر</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="667"/>
-        <source>(empty)</source>
-        <translation type="unfinished">(empty)</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="667"/>
+      <source>(empty)</source>
+      <translation>(خالی)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="837"/>
-        <source>Choose a location for the new database file</source>
-        <translation type="unfinished">Choose a location for the new database file</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="837"/>
+      <source>Choose a location for the new database file</source>
+      <translation>انتخاب مکانی برای فایل پایگاه داده جدید</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="838"/>
-        <source>Browse for existing database file on local computer</source>
-        <translation type="unfinished">Browse for existing database file on local computer</translation>
+      <location filename="../dialogs/dbdialog.cpp" line="838"/>
+      <source>Browse for existing database file on local computer</source>
+      <translation>مرور برای فایل پایگاه داده موجود روی رایانه محلی</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DbObjectDialogs</name>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="176"/>
-        <source>Delete table</source>
-        <translation type="unfinished">Delete table</translation>
+      <location filename="../dbobjectdialogs.cpp" line="176"/>
+      <source>Delete table</source>
+      <translation>حذف جدول</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="177"/>
-        <source>Are you sure you want to delete table %1?</source>
-        <translation type="unfinished">Are you sure you want to delete table %1?</translation>
+      <location filename="../dbobjectdialogs.cpp" line="177"/>
+      <source>Are you sure you want to delete table %1?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید جدول %1 را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="181"/>
-        <source>Delete index</source>
-        <translation type="unfinished">Delete index</translation>
+      <location filename="../dbobjectdialogs.cpp" line="181"/>
+      <source>Delete index</source>
+      <translation>حذف index</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="182"/>
-        <source>Are you sure you want to delete index %1?</source>
-        <translation type="unfinished">Are you sure you want to delete index %1?</translation>
+      <location filename="../dbobjectdialogs.cpp" line="182"/>
+      <source>Are you sure you want to delete index %1?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید index %1 را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="186"/>
-        <source>Delete trigger</source>
-        <translation type="unfinished">Delete trigger</translation>
+      <location filename="../dbobjectdialogs.cpp" line="186"/>
+      <source>Delete trigger</source>
+      <translation>حذف trigger</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="187"/>
-        <source>Are you sure you want to delete trigger %1?</source>
-        <translation type="unfinished">Are you sure you want to delete trigger %1?</translation>
+      <location filename="../dbobjectdialogs.cpp" line="187"/>
+      <source>Are you sure you want to delete trigger %1?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید trigger %1 را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="191"/>
-        <source>Delete view</source>
-        <translation type="unfinished">Delete view</translation>
+      <location filename="../dbobjectdialogs.cpp" line="191"/>
+      <source>Delete view</source>
+      <translation>حذف view</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="192"/>
-        <source>Are you sure you want to delete view %1?</source>
-        <translation type="unfinished">Are you sure you want to delete view %1?</translation>
+      <location filename="../dbobjectdialogs.cpp" line="192"/>
+      <source>Are you sure you want to delete view %1?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید view %1 را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="214"/>
-        <location filename="../dbobjectdialogs.cpp" line="346"/>
-        <source>Error while dropping %1: %2</source>
-        <translation type="unfinished">Error while dropping %1: %2</translation>
+      <location filename="../dbobjectdialogs.cpp" line="214"/>
+      <location filename="../dbobjectdialogs.cpp" line="346"/>
+      <source>Error while dropping %1: %2</source>
+      <translation>خطا هنگام drop کردن %1: %2</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="322"/>
-        <source>Delete objects</source>
-        <translation type="unfinished">Delete objects</translation>
+      <location filename="../dbobjectdialogs.cpp" line="322"/>
+      <source>Delete objects</source>
+      <translation>حذف اشیا</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="323"/>
-        <source>Are you sure you want to delete following objects:
+      <location filename="../dbobjectdialogs.cpp" line="323"/>
+      <source>Are you sure you want to delete following objects:
 %1</source>
-        <translation type="unfinished">Are you sure you want to delete following objects:
+      <translation>آیا مطمئن هستید که می‌خواهید اشیای زیر را حذف کنید:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="330"/>
-        <source>Cannot start transaction. Details: %1</source>
-        <translation type="unfinished">Cannot start transaction. Details: %1</translation>
+      <location filename="../dbobjectdialogs.cpp" line="330"/>
+      <source>Cannot start transaction. Details: %1</source>
+      <translation>نمی‌توان transaction را شروع کرد. جزئیات: %1</translation>
     </message>
     <message>
-        <location filename="../dbobjectdialogs.cpp" line="357"/>
-        <source>Cannot commit transaction. Details: %1</source>
-        <translation type="unfinished">Cannot commit transaction. Details: %1</translation>
+      <location filename="../dbobjectdialogs.cpp" line="357"/>
+      <source>Cannot commit transaction. Details: %1</source>
+      <translation>نمی‌توان transaction را commit کرد. جزئیات: %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DbTree</name>
     <message>
-        <location filename="../dbtree/dbtree.ui" line="20"/>
-        <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+      <location filename="../dbtree/dbtree.ui" line="20"/>
+      <source>Databases</source>
+      <translation>پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2556"/>
-        <source>Filter by name</source>
-        <translation type="unfinished">Filter by name</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2556"/>
+      <source>Filter by name</source>
+      <translation>فیلتر بر اساس نام</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="142"/>
-        <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+      <location filename="../dbtree/dbtree.cpp" line="142"/>
+      <source>Copy</source>
+      <translation>کپی</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="143"/>
-        <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+      <location filename="../dbtree/dbtree.cpp" line="143"/>
+      <source>Paste</source>
+      <translation>جای‌گذاری</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="144"/>
-        <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+      <location filename="../dbtree/dbtree.cpp" line="144"/>
+      <source>Select all</source>
+      <translation>انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="145"/>
-        <source>Create a group</source>
-        <translation type="unfinished">Create a group</translation>
+      <location filename="../dbtree/dbtree.cpp" line="145"/>
+      <source>Create a group</source>
+      <translation>ایجاد گروه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="146"/>
-        <source>Delete the group</source>
-        <translation type="unfinished">Delete the group</translation>
+      <location filename="../dbtree/dbtree.cpp" line="146"/>
+      <source>Delete the group</source>
+      <translation>حذف گروه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="147"/>
-        <source>Rename the group</source>
-        <translation type="unfinished">Rename the group</translation>
+      <location filename="../dbtree/dbtree.cpp" line="147"/>
+      <source>Rename the group</source>
+      <translation>تغییر نام گروه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="152"/>
-        <source>&amp;Edit the database</source>
-        <translation type="unfinished">&amp;Edit the database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="152"/>
+      <source>&amp;Edit the database</source>
+      <translation>&amp;ویرایش پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="154"/>
-        <source>&amp;Remove the database</source>
-        <translation type="unfinished">&amp;Remove the database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="154"/>
+      <source>&amp;Remove the database</source>
+      <translation>&amp;حذف پایگاه داده از فهرست</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="155"/>
-        <source>&amp;Connect to the database</source>
-        <translation type="unfinished">&amp;Connect to the database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="155"/>
+      <source>&amp;Connect to the database</source>
+      <translation>&amp;اتصال به پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="156"/>
-        <source>&amp;Disconnect from the database</source>
-        <translation type="unfinished">&amp;Disconnect from the database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="156"/>
+      <source>&amp;Disconnect from the database</source>
+      <translation>&amp;قطع اتصال از پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="159"/>
-        <source>Vac&amp;uum</source>
-        <translation type="unfinished">Vac&amp;uum</translation>
+      <location filename="../dbtree/dbtree.cpp" line="159"/>
+      <source>Vac&amp;uum</source>
+      <translation>فشرده&amp;سازی</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="160"/>
-        <source>&amp;Integrity check</source>
-        <translation type="unfinished">&amp;Integrity check</translation>
+      <location filename="../dbtree/dbtree.cpp" line="160"/>
+      <source>&amp;Integrity check</source>
+      <translation>&amp;بررسی integrity</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="161"/>
-        <source>Create a &amp;table</source>
-        <translation type="unfinished">Create a &amp;table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="161"/>
+      <source>Create a &amp;table</source>
+      <translation>ایجاد &amp;جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="162"/>
-        <source>Edit the t&amp;able</source>
-        <translation type="unfinished">Edit the t&amp;able</translation>
+      <location filename="../dbtree/dbtree.cpp" line="162"/>
+      <source>Edit the t&amp;able</source>
+      <translation>ویرایش ج&amp;دول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="164"/>
-        <source>Delete the ta&amp;ble</source>
-        <translation type="unfinished">Delete the ta&amp;ble</translation>
+      <location filename="../dbtree/dbtree.cpp" line="164"/>
+      <source>Delete the ta&amp;ble</source>
+      <translation>حذف جدو&amp;ل</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="165"/>
-        <source>Export the table</source>
-        <translation type="unfinished">Export the table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="165"/>
+      <source>Export the table</source>
+      <translation>صادر کردن جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="166"/>
-        <source>Import into the table</source>
-        <translation type="unfinished">Import into the table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="166"/>
+      <source>Import into the table</source>
+      <translation>وارد کردن به جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="168"/>
-        <source>Populate table</source>
-        <translation type="unfinished">Populate table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="168"/>
+      <source>Populate table</source>
+      <translation>پر کردن جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="169"/>
-        <source>Create similar table</source>
-        <translation type="unfinished">Create similar table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="169"/>
+      <source>Create similar table</source>
+      <translation>ایجاد جدول مشابه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="170"/>
-        <source>Reset autoincrement sequence</source>
-        <translation type="unfinished">Reset autoincrement sequence</translation>
+      <location filename="../dbtree/dbtree.cpp" line="170"/>
+      <source>Reset autoincrement sequence</source>
+      <translation>بازنشانی توالی autoincrement</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="171"/>
-        <source>Create an &amp;index</source>
-        <translation type="unfinished">Create an &amp;index</translation>
+      <location filename="../dbtree/dbtree.cpp" line="171"/>
+      <source>Create an &amp;index</source>
+      <translation>ایجاد &amp;index</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="172"/>
-        <source>Edit the i&amp;ndex</source>
-        <translation type="unfinished">Edit the i&amp;ndex</translation>
+      <location filename="../dbtree/dbtree.cpp" line="172"/>
+      <source>Edit the i&amp;ndex</source>
+      <translation>ویرایش i&amp;ndex</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="174"/>
-        <source>Delete the in&amp;dex</source>
-        <translation type="unfinished">Delete the in&amp;dex</translation>
+      <location filename="../dbtree/dbtree.cpp" line="174"/>
+      <source>Delete the in&amp;dex</source>
+      <translation>حذف in&amp;dex</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="175"/>
-        <source>Create a trig&amp;ger</source>
-        <translation type="unfinished">Create a trig&amp;ger</translation>
+      <location filename="../dbtree/dbtree.cpp" line="175"/>
+      <source>Create a trig&amp;ger</source>
+      <translation>ایجاد trig&amp;ger</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="176"/>
-        <source>Edit the trigg&amp;er</source>
-        <translation type="unfinished">Edit the trigg&amp;er</translation>
+      <location filename="../dbtree/dbtree.cpp" line="176"/>
+      <source>Edit the trigg&amp;er</source>
+      <translation>ویرایش trigg&amp;er</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="178"/>
-        <source>Delete the trigge&amp;r</source>
-        <translation type="unfinished">Delete the trigge&amp;r</translation>
+      <location filename="../dbtree/dbtree.cpp" line="178"/>
+      <source>Delete the trigge&amp;r</source>
+      <translation>حذف trigge&amp;r</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="179"/>
-        <source>Create a &amp;view</source>
-        <translation type="unfinished">Create a &amp;view</translation>
+      <location filename="../dbtree/dbtree.cpp" line="179"/>
+      <source>Create a &amp;view</source>
+      <translation>ایجاد &amp;view</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="180"/>
-        <source>Edit the v&amp;iew</source>
-        <translation type="unfinished">Edit the v&amp;iew</translation>
+      <location filename="../dbtree/dbtree.cpp" line="180"/>
+      <source>Edit the v&amp;iew</source>
+      <translation>ویرایش v&amp;iew</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="182"/>
-        <source>Delete the vi&amp;ew</source>
-        <translation type="unfinished">Delete the vi&amp;ew</translation>
+      <location filename="../dbtree/dbtree.cpp" line="182"/>
+      <source>Delete the vi&amp;ew</source>
+      <translation>حذف vi&amp;ew</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="183"/>
-        <source>Add a column</source>
-        <translation type="unfinished">Add a column</translation>
+      <location filename="../dbtree/dbtree.cpp" line="183"/>
+      <source>Add a column</source>
+      <translation>افزودن ستون</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="184"/>
-        <source>Edit the column</source>
-        <translation type="unfinished">Edit the column</translation>
+      <location filename="../dbtree/dbtree.cpp" line="184"/>
+      <source>Edit the column</source>
+      <translation>ویرایش ستون</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="186"/>
-        <source>Delete the column</source>
-        <translation type="unfinished">Delete the column</translation>
+      <location filename="../dbtree/dbtree.cpp" line="186"/>
+      <source>Delete the column</source>
+      <translation>حذف ستون</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="187"/>
-        <source>Delete selected items</source>
-        <translation type="unfinished">Delete selected items</translation>
+      <location filename="../dbtree/dbtree.cpp" line="187"/>
+      <source>Delete selected items</source>
+      <translation>حذف موارد انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="207"/>
-        <source>Clear filter</source>
-        <translation type="unfinished">Clear filter</translation>
+      <location filename="../dbtree/dbtree.cpp" line="207"/>
+      <source>Clear filter</source>
+      <translation>پاک کردن فیلتر</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="188"/>
-        <source>&amp;Refresh all database schemas</source>
-        <translation type="unfinished">&amp;Refresh all database schemas</translation>
+      <location filename="../dbtree/dbtree.cpp" line="188"/>
+      <source>&amp;Refresh all database schemas</source>
+      <translation>&amp;تازه‌سازی schemaهای همه پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="148"/>
-        <source>&amp;Create new database</source>
-        <translation type="unfinished">&amp;Create new database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="148"/>
+      <source>&amp;Create new database</source>
+      <translation>&amp;ایجاد پایگاه داده جدید</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="149"/>
-        <source>&amp;Open existing database</source>
-        <translation type="unfinished">&amp;Open existing database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="149"/>
+      <source>&amp;Open existing database</source>
+      <translation>&amp;باز کردن پایگاه داده موجود</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="150"/>
-        <source>&amp;Open existing database or SQL file</source>
-        <translation type="unfinished">&amp;Open existing database or SQL file</translation>
+      <location filename="../dbtree/dbtree.cpp" line="150"/>
+      <source>&amp;Open existing database or SQL file</source>
+      <translation>&amp;باز کردن پایگاه داده یا فایل SQL موجود</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="151"/>
-        <source>Add a database</source>
-        <translation type="unfinished">Add a database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="151"/>
+      <source>Add a database</source>
+      <translation>افزودن پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="153"/>
-        <source>Rename the database</source>
-        <translation type="unfinished">Rename the database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="153"/>
+      <source>Rename the database</source>
+      <translation>تغییر نام پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="157"/>
-        <source>&amp;Import</source>
-        <translation type="unfinished">&amp;Import</translation>
+      <location filename="../dbtree/dbtree.cpp" line="157"/>
+      <source>&amp;Import</source>
+      <translation>&amp;وارد کردن</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="158"/>
-        <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Export</translation>
+      <location filename="../dbtree/dbtree.cpp" line="158"/>
+      <source>&amp;Export</source>
+      <translation>&amp;صادر کردن</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="163"/>
-        <source>Rename the table</source>
-        <translation type="unfinished">Rename the table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="163"/>
+      <source>Rename the table</source>
+      <translation>تغییر نام جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="167"/>
-        <source>Export the view</source>
-        <translation type="unfinished">Export the view</translation>
+      <location filename="../dbtree/dbtree.cpp" line="167"/>
+      <source>Export the view</source>
+      <translation>صادر کردن نما</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="173"/>
-        <source>Rename the index</source>
-        <translation type="unfinished">Rename the index</translation>
+      <location filename="../dbtree/dbtree.cpp" line="173"/>
+      <source>Rename the index</source>
+      <translation>تغییر نام index</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="177"/>
-        <source>Rename the trigger</source>
-        <translation type="unfinished">Rename the trigger</translation>
+      <location filename="../dbtree/dbtree.cpp" line="177"/>
+      <source>Rename the trigger</source>
+      <translation>تغییر نام trigger</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="181"/>
-        <source>Rename the view</source>
-        <translation type="unfinished">Rename the view</translation>
+      <location filename="../dbtree/dbtree.cpp" line="181"/>
+      <source>Rename the view</source>
+      <translation>تغییر نام view</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="185"/>
-        <source>Rename the column</source>
-        <translation type="unfinished">Rename the column</translation>
+      <location filename="../dbtree/dbtree.cpp" line="185"/>
+      <source>Rename the column</source>
+      <translation>تغییر نام ستون</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="189"/>
-        <source>Re&amp;fresh selected database schema</source>
-        <translation type="unfinished">Re&amp;fresh selected database schema</translation>
+      <location filename="../dbtree/dbtree.cpp" line="189"/>
+      <source>Re&amp;fresh selected database schema</source>
+      <translation>تازه‌سازی schema پایگاه داده &amp;انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
-        <source>Erase table data</source>
-        <translation type="unfinished">Erase table data</translation>
+      <location filename="../dbtree/dbtree.cpp" line="190"/>
+      <location filename="../dbtree/dbtree.cpp" line="1938"/>
+      <source>Erase table data</source>
+      <translation>پاک کردن داده‌های جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="192"/>
-        <location filename="../dbtree/dbtree.cpp" line="195"/>
-        <location filename="../dbtree/dbtree.cpp" line="198"/>
-        <source>Drag</source>
-        <comment>dbtree table action shortcut</comment>
-        <translation type="unfinished">Drag</translation>
+      <location filename="../dbtree/dbtree.cpp" line="192"/>
+      <location filename="../dbtree/dbtree.cpp" line="195"/>
+      <location filename="../dbtree/dbtree.cpp" line="198"/>
+      <source>Drag</source>
+      <comment>dbtree table action shortcut</comment>
+      <translation>کشیدن</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="201"/>
-        <source>Open file&apos;s directory</source>
-        <translation type="unfinished">Open file&apos;s directory</translation>
+      <location filename="../dbtree/dbtree.cpp" line="201"/>
+      <source>Open file&apos;s directory</source>
+      <translation>باز کردن پوشهٔ فایل&apos;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="202"/>
-        <source>Execute SQL from file</source>
-        <translation type="unfinished">Execute SQL from file</translation>
+      <location filename="../dbtree/dbtree.cpp" line="202"/>
+      <source>Execute SQL from file</source>
+      <translation>اجرای SQL از فایل</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="203"/>
-        <source>Increase font size</source>
-        <comment>database list</comment>
-        <translation type="unfinished">Increase font size</translation>
+      <location filename="../dbtree/dbtree.cpp" line="203"/>
+      <source>Increase font size</source>
+      <comment>database list</comment>
+      <translation>افزایش اندازه فونت</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="204"/>
-        <source>Decrease font size</source>
-        <comment>database list</comment>
-        <translation type="unfinished">Decrease font size</translation>
+      <location filename="../dbtree/dbtree.cpp" line="204"/>
+      <source>Decrease font size</source>
+      <comment>database list</comment>
+      <translation>کاهش اندازه فونت</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="417"/>
-        <location filename="../dbtree/dbtree.cpp" line="424"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="417"/>
+      <location filename="../dbtree/dbtree.cpp" line="424"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="436"/>
-        <source>Grouping</source>
-        <translation type="unfinished">Grouping</translation>
+      <location filename="../dbtree/dbtree.cpp" line="436"/>
+      <source>Grouping</source>
+      <translation>گروه‌بندی</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="441"/>
-        <source>Generate query for table</source>
-        <translation type="unfinished">Generate query for table</translation>
+      <location filename="../dbtree/dbtree.cpp" line="441"/>
+      <source>Generate query for table</source>
+      <translation>تولید query برای جدول</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="447"/>
-        <source>Generate query for view</source>
-        <translation type="unfinished">Generate query for view</translation>
+      <location filename="../dbtree/dbtree.cpp" line="447"/>
+      <source>Generate query for view</source>
+      <translation>تولید query برای view</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
-        <source>Create group</source>
-        <translation type="unfinished">Create group</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1326"/>
+      <location filename="../dbtree/dbtree.cpp" line="1329"/>
+      <source>Create group</source>
+      <translation>ایجاد گروه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
-        <source>Group name</source>
-        <translation type="unfinished">Group name</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1326"/>
+      <source>Group name</source>
+      <translation>نام گروه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
-        <source>Entry with name %1 already exists in group %2.</source>
-        <translation type="unfinished">Entry with name %1 already exists in group %2.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1329"/>
+      <source>Entry with name %1 already exists in group %2.</source>
+      <translation>ورودی با نام %1 از قبل در گروه %2 وجود دارد.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1366"/>
-        <source>Delete group</source>
-        <translation type="unfinished">Delete group</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1366"/>
+      <source>Delete group</source>
+      <translation>حذف گروه</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1367"/>
-        <source>Are you sure you want to delete groups: %1?
+      <location filename="../dbtree/dbtree.cpp" line="1367"/>
+      <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
-        <translation type="unfinished">Are you sure you want to delete groups: %1?
-All objects from these groups will be moved to respective parent groups.</translation>
+      <translation>آیا مطمئن هستید که می‌خواهید گروه‌ها را حذف کنید: %1؟
+همه اشیای این گروه‌ها به گروه‌های والد مربوطه منتقل خواهند شد.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1499"/>
-        <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
-        <translation type="unfinished">Are you sure you want to remove database &apos;%1&apos; from the list?</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1499"/>
+      <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید پایگاه داده &apos;%1&apos; را از فهرست حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1507"/>
-        <source>Are you sure you want to remove following databases from the list:
+      <location filename="../dbtree/dbtree.cpp" line="1507"/>
+      <source>Are you sure you want to remove following databases from the list:
 %1</source>
-        <translation type="unfinished">Are you sure you want to remove following databases from the list:
+      <translation>آیا مطمئن هستید که می‌خواهید پایگاه‌های داده زیر را از فهرست حذف کنید:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1509"/>
-        <source>Remove database</source>
-        <translation type="unfinished">Remove database</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1509"/>
+      <source>Remove database</source>
+      <translation>حذف پایگاه داده از فهرست</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1564"/>
-        <location filename="../dbtree/dbtree.cpp" line="1769"/>
-        <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1564"/>
+      <location filename="../dbtree/dbtree.cpp" line="1769"/>
+      <source>Cannot import, because no import plugin is loaded.</source>
+      <translation>نمی‌توان import کرد، زیرا هیچ افزونه import بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1584"/>
-        <location filename="../dbtree/dbtree.cpp" line="1744"/>
-        <location filename="../dbtree/dbtree.cpp" line="1813"/>
-        <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1584"/>
+      <location filename="../dbtree/dbtree.cpp" line="1744"/>
+      <location filename="../dbtree/dbtree.cpp" line="1813"/>
+      <source>Cannot export, because no export plugin is loaded.</source>
+      <translation>نمی‌توان export کرد، زیرا هیچ افزونه export بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1859"/>
-        <source>Vacuum (%1)</source>
-        <translation type="unfinished">Vacuum (%1)</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1859"/>
+      <source>Vacuum (%1)</source>
+      <translation>فشرده‌سازی (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1873"/>
-        <source>Integrity check (%1)</source>
-        <translation type="unfinished">Integrity check (%1)</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1873"/>
+      <source>Integrity check (%1)</source>
+      <translation>بررسی integrity (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
-        <source>Reset autoincrement</source>
-        <translation type="unfinished">Reset autoincrement</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1909"/>
+      <source>Reset autoincrement</source>
+      <translation>بازنشانی autoincrement</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
-        <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-        <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1909"/>
+      <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید مقدار autoincrement برای جدول &apos;%1&apos; را بازنشانی کنید؟</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1916"/>
-        <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1916"/>
+      <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
+      <translation>هنگام تلاش برای بازنشانی مقدار autoincrement برای جدول &apos;%1&apos; خطایی رخ داد: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1918"/>
-        <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-        <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
+      <translation>مقدار autoincrement برای جدول &apos;%1&apos; با موفقیت بازنشانی شد.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
-        <source>Are you sure you want to delete all data from table(s): %1?</source>
-        <translation type="unfinished">Are you sure you want to delete all data from table(s): %1?</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1938"/>
+      <source>Are you sure you want to delete all data from table(s): %1?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید همه داده‌ها را از جدول(ها) حذف کنید: %1؟</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1950"/>
-        <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to delete data from table &apos;%1&apos;: %2</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1950"/>
+      <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
+      <translation>هنگام تلاش برای حذف داده‌ها از جدول &apos;%1&apos; خطایی رخ داد: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1954"/>
-        <source>All data has been deleted for table &apos;%1&apos;.</source>
-        <translation type="unfinished">All data has been deleted for table &apos;%1&apos;.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="1954"/>
+      <source>All data has been deleted for table &apos;%1&apos;.</source>
+      <translation>همه داده‌های جدول &apos;%1&apos; حذف شدند.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2093"/>
-        <source>Following objects will be deleted: %1.</source>
-        <translation type="unfinished">Following objects will be deleted: %1.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2093"/>
+      <source>Following objects will be deleted: %1.</source>
+      <translation>اشیای زیر حذف خواهند شد: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2096"/>
-        <source>Following databases will be removed from list: %1.</source>
-        <translation type="unfinished">Following databases will be removed from list: %1.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2096"/>
+      <source>Following databases will be removed from list: %1.</source>
+      <translation>پایگاه‌های داده زیر از فهرست حذف خواهند شد: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2099"/>
-        <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
-        <translation type="unfinished">Remainig objects from deleted group will be moved in place where the group used to be.</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2099"/>
+      <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
+      <translation>اشیای باقی‌مانده از گروه حذف‌شده به جایی منتقل می‌شوند که گروه قبلاً در آن قرار داشت.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2101"/>
-        <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
-        <translation type="unfinished">%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2101"/>
+      <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
+      <translation>%1&lt;br&gt;&lt;br&gt;آیا مطمئن هستید که می‌خواهید ادامه دهید؟</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2103"/>
-        <source>Delete objects</source>
-        <translation type="unfinished">Delete objects</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2103"/>
+      <source>Delete objects</source>
+      <translation>حذف اشیا</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2582"/>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2582"/>
+      <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;متصل شد.&lt;/p&gt;&lt;p&gt;برای قطع اتصال اینجا کلیک کنید، یا روی پایگاه داده middle-click کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2590"/>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dbtree/dbtree.cpp" line="2590"/>
+      <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;قطع اتصال شد.&lt;/p&gt;&lt;p&gt;برای اتصال اینجا کلیک کنید، یا روی پایگاه داده double-click کنید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DbTreeItemDelegate</name>
     <message>
-        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
-        <source>error</source>
-        <comment>dbtree labels</comment>
-        <translation type="unfinished">error</translation>
+      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="97"/>
+      <source>error</source>
+      <comment>dbtree labels</comment>
+      <translation>خطا</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
-        <source>(system table)</source>
-        <comment>database tree label</comment>
-        <translation type="unfinished">(system table)</translation>
+      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="114"/>
+      <source>(system table)</source>
+      <comment>database tree label</comment>
+      <translation>(جدول سیستمی)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
-        <source>(virtual)</source>
-        <comment>virtual table label</comment>
-        <translation type="unfinished">(virtual)</translation>
+      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="132"/>
+      <source>(virtual)</source>
+      <comment>virtual table label</comment>
+      <translation>(مجازی)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
-        <source>(system index)</source>
-        <comment>database tree label</comment>
-        <translation type="unfinished">(system index)</translation>
+      <location filename="../dbtree/dbtreeitemdelegate.cpp" line="144"/>
+      <source>(system index)</source>
+      <comment>database tree label</comment>
+      <translation>(index سیستمی)</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DbTreeModel</name>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
-        <source>Database: %1</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Database: %1</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
+      <source>Database: %1</source>
+      <comment>dbtree tooltip</comment>
+      <translation>پایگاه داده: %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
-        <source>URI:</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">URI:</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
+      <source>URI:</source>
+      <comment>dbtree tooltip</comment>
+      <translation>شناسهٔ URI:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
-        <source>Format:</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Format:</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
+      <source>Format:</source>
+      <comment>dbtree tooltip</comment>
+      <translation>فرمت:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
-        <source>File size:</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">File size:</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
+      <source>File size:</source>
+      <comment>dbtree tooltip</comment>
+      <translation>اندازه فایل:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
-        <source>Encoding:</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Encoding:</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
+      <source>Encoding:</source>
+      <comment>dbtree tooltip</comment>
+      <translation>کدگذاری:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
-        <source>Error:</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Error:</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
+      <source>Error:</source>
+      <comment>dbtree tooltip</comment>
+      <translation>خطا:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
-        <source>Double-click to edit this database</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Double-click to edit this database</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
+      <source>Double-click to edit this database</source>
+      <comment>dbtree tooltip</comment>
+      <translation>برای ویرایش این پایگاه داده double-click کنید</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
-        <source>Double-click to connect to this database</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Double-click to connect to this database</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
+      <source>Double-click to connect to this database</source>
+      <comment>dbtree tooltip</comment>
+      <translation>برای اتصال به این پایگاه داده double-click کنید</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
-        <source>Table : %1</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Table : %1</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
+      <source>Table : %1</source>
+      <comment>dbtree tooltip</comment>
+      <translation>جدول : %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
-        <source>Columns (%1):</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Columns (%1):</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
+      <source>Columns (%1):</source>
+      <comment>dbtree tooltip</comment>
+      <translation>ستون‌ها (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
-        <source>Indexes (%1):</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Indexes (%1):</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
+      <source>Indexes (%1):</source>
+      <comment>dbtree tooltip</comment>
+      <translation>Indexها (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
-        <source>Triggers (%1):</source>
-        <comment>dbtree tooltip</comment>
-        <translation type="unfinished">Triggers (%1):</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
+      <source>Triggers (%1):</source>
+      <comment>dbtree tooltip</comment>
+      <translation>Triggerها (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
-        <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
+      <source>Copy</source>
+      <translation>کپی</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
-        <source>Move</source>
-        <translation type="unfinished">Move</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
+      <source>Move</source>
+      <translation>انتقال</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
-        <source>Include data</source>
-        <translation type="unfinished">Include data</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
+      <source>Include data</source>
+      <translation>شامل داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
-        <source>Include indexes</source>
-        <translation type="unfinished">Include indexes</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
+      <source>Include indexes</source>
+      <translation>شامل indexها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
-        <source>Include triggers</source>
-        <translation type="unfinished">Include triggers</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
+      <source>Include triggers</source>
+      <translation>شامل triggerها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
-        <source>Abort</source>
-        <translation type="unfinished">Abort</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
+      <source>Abort</source>
+      <translation>لغو عملیات</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
-        <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
-        <translation type="unfinished">Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
+      <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
+      <translation>افزودن خودکار فایل پایگاه داده رهاشده &apos;%1&apos; ممکن نشد. راه‌اندازی دستی لازم است.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
-        <source>Referenced tables</source>
-        <translation type="unfinished">Referenced tables</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
+      <source>Referenced tables</source>
+      <translation>جدول‌های ارجاع‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
-        <source>Do you want to include following referenced tables as well:
+      <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
+      <source>Do you want to include following referenced tables as well:
 %1</source>
-        <translation type="unfinished">Do you want to include following referenced tables as well:
+      <translation>آیا می‌خواهید جدول‌های ارجاع‌شده زیر را نیز شامل کنید:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
-        <source>Name conflict</source>
-        <translation type="unfinished">Name conflict</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
+      <source>Name conflict</source>
+      <translation>تداخل نام</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
-        <source>Following object already exists in the target database.
+      <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
+      <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
-        <translation type="unfinished">Following object already exists in the target database.
-Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</translation>
+      <translation>شیء زیر از قبل در پایگاه داده مقصد وجود دارد.
+لطفاً نام جدید و یکتا وارد کنید، یا برای لغو عملیات &apos;%1&apos; را فشار دهید:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
-        <source>SQL statements conversion</source>
-        <translation type="unfinished">SQL statements conversion</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
+      <source>SQL statements conversion</source>
+      <translation>تبدیل statementهای SQL</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
-        <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
-        <translation type="unfinished">Following error occurred while converting SQL statements to the target SQLite version:</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
+      <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
+      <translation>خطای زیر هنگام تبدیل statementهای SQL به نسخه SQLite مقصد رخ داد:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
-        <source>Would you like to ignore those errors and proceed?</source>
-        <translation type="unfinished">Would you like to ignore those errors and proceed?</translation>
+      <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
+      <source>Would you like to ignore those errors and proceed?</source>
+      <translation>آیا می‌خواهید این خطاها را نادیده بگیرید و ادامه دهید؟</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DdlHistoryWindow</name>
     <message>
-        <location filename="../windows/ddlhistorywindow.ui" line="35"/>
-        <source>Filter by database:</source>
-        <translation type="unfinished">Filter by database:</translation>
+      <location filename="../windows/ddlhistorywindow.ui" line="35"/>
+      <source>Filter by database:</source>
+      <translation>فیلتر بر اساس پایگاه داده:</translation>
     </message>
     <message>
-        <location filename="../windows/ddlhistorywindow.ui" line="55"/>
-        <source>Clear entire history</source>
-        <translation type="unfinished">Clear entire history</translation>
+      <location filename="../windows/ddlhistorywindow.ui" line="55"/>
+      <source>Clear entire history</source>
+      <translation>پاک کردن کل history</translation>
     </message>
     <message>
-        <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
-        <source>-- Queries executed on database %1 (%2)
+      <location filename="../windows/ddlhistorywindow.cpp" line="71"/>
+      <source>-- Queries executed on database %1 (%2)
 -- Date and time of execution: %3
 %4</source>
-        <translation type="unfinished">-- Queries executed on database %1 (%2)
--- Date and time of execution: %3
+      <translation>-- Queryهای اجراشده روی پایگاه داده %1 (%2)
+-- تاریخ و زمان اجرا: %3
 %4</translation>
     </message>
     <message>
-        <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
-        <source>Clear history</source>
-        <translation type="unfinished">Clear history</translation>
+      <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
+      <source>Clear history</source>
+      <translation>پاک کردن history</translation>
     </message>
     <message>
-        <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
-        <source>Are you sure you want to erase entire DDL history?</source>
-        <translation type="unfinished">Are you sure you want to erase entire DDL history?</translation>
+      <location filename="../windows/ddlhistorywindow.cpp" line="97"/>
+      <source>Are you sure you want to erase entire DDL history?</source>
+      <translation>آیا مطمئن هستید که می‌خواهید کل history DDL را پاک کنید؟</translation>
     </message>
     <message>
-        <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
-        <source>DDL history</source>
-        <translation type="unfinished">DDL history</translation>
+      <location filename="../windows/ddlhistorywindow.cpp" line="129"/>
+      <source>DDL history</source>
+      <translation>History DDL</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DdlPreviewDialog</name>
     <message>
-        <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
-        <source>Queries to be executed</source>
-        <translation type="unfinished">Queries to be executed</translation>
+      <location filename="../dialogs/ddlpreviewdialog.ui" line="14"/>
+      <source>Queries to be executed</source>
+      <translation>Queryهایی که اجرا خواهند شد</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
-        <source>Don&apos;t show again</source>
-        <translation type="unfinished">Don&apos;t show again</translation>
+      <location filename="../dialogs/ddlpreviewdialog.ui" line="42"/>
+      <source>Don&apos;t show again</source>
+      <translation>دیگر &apos;نشان نده</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
-        <source>Opens the DDL in the SQL Editor without executing it.</source>
-        <translation type="unfinished">Opens the DDL in the SQL Editor without executing it.</translation>
+      <location filename="../dialogs/ddlpreviewdialog.ui" line="49"/>
+      <source>Opens the DDL in the SQL Editor without executing it.</source>
+      <translation>DDL را بدون اجرای آن در ویرایشگر SQL باز می‌کند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
-        <source>Open in editor</source>
-        <translation type="unfinished">Open in editor</translation>
+      <location filename="../dialogs/ddlpreviewdialog.ui" line="52"/>
+      <source>Open in editor</source>
+      <translation>باز کردن در ویرایشگر</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>DebugConsole</name>
     <message>
-        <location filename="../debugconsole.ui" line="14"/>
-        <source>Letos Debug Console</source>
-        <translation type="unfinished">Letos Debug Console</translation>
+      <location filename="../debugconsole.ui" line="14"/>
+      <source>Letos Debug Console</source>
+      <translation>کنسول Debug Letos</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>EditorWindow</name>
     <message>
-        <location filename="../windows/editorwindow.ui" line="14"/>
-        <source>SQL editor</source>
-        <translation type="unfinished">SQL editor</translation>
+      <location filename="../windows/editorwindow.ui" line="14"/>
+      <source>SQL editor</source>
+      <translation>ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.ui" line="43"/>
-        <source>Query</source>
-        <translation type="unfinished">Query</translation>
+      <location filename="../windows/editorwindow.ui" line="43"/>
+      <source>Query</source>
+      <translation>پرس‌وجو</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.ui" line="134"/>
-        <source>History</source>
-        <translation type="unfinished">History</translation>
+      <location filename="../windows/editorwindow.ui" line="134"/>
+      <source>History</source>
+      <translation>تاریخچه</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="203"/>
-        <location filename="../windows/editorwindow.cpp" line="205"/>
-        <source>SQL editor %1</source>
-        <translation type="unfinished">SQL editor %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="203"/>
+      <location filename="../windows/editorwindow.cpp" line="205"/>
+      <source>SQL editor %1</source>
+      <translation>ویرایشگر SQL %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.ui" line="99"/>
-        <location filename="../windows/editorwindow.cpp" line="420"/>
-        <source>Results</source>
-        <translation type="unfinished">Results</translation>
+      <location filename="../windows/editorwindow.ui" line="99"/>
+      <location filename="../windows/editorwindow.cpp" line="420"/>
+      <source>Results</source>
+      <translation>نتایج</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="471"/>
-        <source>Execute query</source>
-        <translation type="unfinished">Execute query</translation>
+      <location filename="../windows/editorwindow.cpp" line="471"/>
+      <source>Execute query</source>
+      <translation>اجرای query</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="472"/>
-        <source>Explain query</source>
-        <translation type="unfinished">Explain query</translation>
+      <location filename="../windows/editorwindow.cpp" line="472"/>
+      <source>Explain query</source>
+      <translation>توضیح پرس‌وجو</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="493"/>
-        <source>Clear execution history</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Clear execution history</translation>
+      <location filename="../windows/editorwindow.cpp" line="493"/>
+      <source>Clear execution history</source>
+      <comment>sql editor</comment>
+      <translation>پاک کردن history اجرا</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="499"/>
-        <source>Focus results on the same tab</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Focus results on the same tab</translation>
+      <location filename="../windows/editorwindow.cpp" line="499"/>
+      <source>Focus results on the same tab</source>
+      <comment>sql editor</comment>
+      <translation>تمرکز روی نتایج در همان زبانه</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="500"/>
-        <source>Focus SQL editor on the same tab</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Focus SQL editor on the same tab</translation>
+      <location filename="../windows/editorwindow.cpp" line="500"/>
+      <source>Focus SQL editor on the same tab</source>
+      <comment>sql editor</comment>
+      <translation>تمرکز روی ویرایشگر SQL در همان زبانه</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="505"/>
-        <source>Export results</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Export results</translation>
+      <location filename="../windows/editorwindow.cpp" line="505"/>
+      <source>Export results</source>
+      <comment>sql editor</comment>
+      <translation>صادر کردن نتایج</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="487"/>
-        <source>Create view from query</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Create view from query</translation>
+      <location filename="../windows/editorwindow.cpp" line="487"/>
+      <source>Create view from query</source>
+      <comment>sql editor</comment>
+      <translation>ایجاد view از query</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="474"/>
-        <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+      <location filename="../windows/editorwindow.cpp" line="474"/>
+      <source>Commit</source>
+      <translation>ثبت</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="475"/>
-        <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+      <location filename="../windows/editorwindow.cpp" line="475"/>
+      <source>Rollback</source>
+      <translation>بازگردانی</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="489"/>
-        <source>Previous database</source>
-        <translation type="unfinished">Previous database</translation>
+      <location filename="../windows/editorwindow.cpp" line="489"/>
+      <source>Previous database</source>
+      <translation>پایگاه داده قبلی</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="490"/>
-        <source>Next database</source>
-        <translation type="unfinished">Next database</translation>
+      <location filename="../windows/editorwindow.cpp" line="490"/>
+      <source>Next database</source>
+      <translation>پایگاه داده بعدی</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="494"/>
-        <source>Export execution history</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Export execution history</translation>
+      <location filename="../windows/editorwindow.cpp" line="494"/>
+      <source>Export execution history</source>
+      <comment>sql editor</comment>
+      <translation>صادر کردن تاریخچهٔ اجرا</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="497"/>
-        <source>Show next tab</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Show next tab</translation>
+      <location filename="../windows/editorwindow.cpp" line="497"/>
+      <source>Show next tab</source>
+      <comment>sql editor</comment>
+      <translation>نمایش زبانه بعدی</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="498"/>
-        <source>Show previous tab</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Show previous tab</translation>
+      <location filename="../windows/editorwindow.cpp" line="498"/>
+      <source>Show previous tab</source>
+      <comment>sql editor</comment>
+      <translation>نمایش زبانه قبلی</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="501"/>
-        <source>Export selected SQL history entries</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Export selected SQL history entries</translation>
+      <location filename="../windows/editorwindow.cpp" line="501"/>
+      <source>Export selected SQL history entries</source>
+      <comment>sql editor</comment>
+      <translation>صادر کردن ورودی‌های انتخاب‌شدهٔ تاریخچهٔ SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="502"/>
-        <source>Delete selected SQL history entries</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Delete selected SQL history entries</translation>
+      <location filename="../windows/editorwindow.cpp" line="502"/>
+      <source>Delete selected SQL history entries</source>
+      <comment>sql editor</comment>
+      <translation>حذف ورودی‌های انتخاب‌شده history SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="503"/>
-        <source>Execute single query under cursor</source>
-        <translation type="unfinished">Execute single query under cursor</translation>
+      <location filename="../windows/editorwindow.cpp" line="503"/>
+      <source>Execute single query under cursor</source>
+      <translation>اجرای query تکی زیر cursor</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="504"/>
-        <source>Execute all queries in editor</source>
-        <translation type="unfinished">Execute all queries in editor</translation>
+      <location filename="../windows/editorwindow.cpp" line="504"/>
+      <source>Execute all queries in editor</source>
+      <translation>اجرای همه queryها در ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="525"/>
-        <source>Results layout: Separate tab</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Separate tab</translation>
+      <location filename="../windows/editorwindow.cpp" line="525"/>
+      <source>Results layout: Separate tab</source>
+      <comment>sql editor</comment>
+      <translation>چیدمان نتایج: زبانهٔ جداگانه</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="526"/>
-        <source>Results layout: Below editor</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Below editor</translation>
+      <location filename="../windows/editorwindow.cpp" line="526"/>
+      <source>Results layout: Below editor</source>
+      <comment>sql editor</comment>
+      <translation>چیدمان نتایج: زیر ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="527"/>
-        <source>Results layout: Right of editor</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Results layout: Right of editor</translation>
+      <location filename="../windows/editorwindow.cpp" line="527"/>
+      <source>Results layout: Right of editor</source>
+      <comment>sql editor</comment>
+      <translation>چیدمان نتایج: سمت راست ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="542"/>
-        <location filename="../windows/editorwindow.cpp" line="543"/>
-        <source>Explain mode: %1</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Explain mode: %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="542"/>
+      <location filename="../windows/editorwindow.cpp" line="543"/>
+      <source>Explain mode: %1</source>
+      <comment>sql editor</comment>
+      <translation>حالت Explain: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="563"/>
-        <source>Auto-commit queries</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Auto-commit queries</translation>
+      <location filename="../windows/editorwindow.cpp" line="563"/>
+      <source>Auto-commit queries</source>
+      <comment>sql editor</comment>
+      <translation>ثبت خودکار پرس‌وجوها</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="580"/>
-        <source>Editor window settings</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Editor window settings</translation>
+      <location filename="../windows/editorwindow.cpp" line="580"/>
+      <source>Editor window settings</source>
+      <comment>sql editor</comment>
+      <translation>تنظیمات پنجره ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="628"/>
-        <source>Active database (%1/%2)</source>
-        <translation type="unfinished">Active database (%1/%2)</translation>
+      <location filename="../windows/editorwindow.cpp" line="628"/>
+      <source>Active database (%1/%2)</source>
+      <translation>پایگاه داده فعال (%1/%2)</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="777"/>
-        <source>Save to file</source>
-        <translation type="unfinished">Save to file</translation>
+      <location filename="../windows/editorwindow.cpp" line="777"/>
+      <source>Save to file</source>
+      <translation>ذخیره در فایل</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="788"/>
-        <source>Could not open file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+      <location filename="../windows/editorwindow.cpp" line="788"/>
+      <source>Could not open file &apos;%1&apos; for writing: %2</source>
+      <translation>باز کردن فایل &apos;%1&apos; برای نوشتن ممکن نشد: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="808"/>
-        <source>Saved SQL contents to file: %1</source>
-        <translation type="unfinished">Saved SQL contents to file: %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="808"/>
+      <source>Saved SQL contents to file: %1</source>
+      <translation>محتوای SQL در فایل ذخیره شد: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="831"/>
-        <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
-        <translation type="unfinished">Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="831"/>
+      <source>Failed to switch journal_mode to WAL. Manual commit mode is unavailable. Error: %1</source>
+      <translation>تغییر journal_mode به WAL ناموفق بود. حالت ثبت دستی در دسترس نیست. خطا: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="842"/>
-        <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
-        <translation type="unfinished">Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="842"/>
+      <source>Failed to open new database connection. Manual commit mode will not be enabled. Error: %1</source>
+      <translation>باز کردن اتصال جدید پایگاه داده ناموفق بود. حالت ثبت دستی فعال نخواهد شد. خطا: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="845"/>
-        <source>The joirnal_mode will be switched back to %1.</source>
-        <translation type="unfinished">The joirnal_mode will be switched back to %1.</translation>
+      <location filename="../windows/editorwindow.cpp" line="845"/>
+      <source>The joirnal_mode will be switched back to %1.</source>
+      <translation>حالت joirnal_mode دوباره به %1 برگردانده خواهد شد.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="969"/>
-        <source>Query finished in %1 second(s). Rows affected: %2</source>
-        <translation type="unfinished">Query finished in %1 second(s). Rows affected: %2</translation>
+      <location filename="../windows/editorwindow.cpp" line="969"/>
+      <source>Query finished in %1 second(s). Rows affected: %2</source>
+      <translation>پرس‌وجو در %1 ثانیه(ها) پایان یافت. ردیف‌های تحت تأثیر: %2</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="973"/>
-        <source>Query finished in %1 second(s).</source>
-        <translation type="unfinished">Query finished in %1 second(s).</translation>
+      <location filename="../windows/editorwindow.cpp" line="973"/>
+      <source>Query finished in %1 second(s).</source>
+      <translation>پرس‌وجو در %1 ثانیه(ها) پایان یافت.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1104"/>
-        <source>Clear execution history</source>
-        <translation type="unfinished">Clear execution history</translation>
+      <location filename="../windows/editorwindow.cpp" line="1104"/>
+      <source>Clear execution history</source>
+      <translation>پاک کردن history اجرا</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1104"/>
-        <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
-        <translation type="unfinished">Are you sure you want to erase the entire SQL execution history? This cannot be undone.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1104"/>
+      <source>Are you sure you want to erase the entire SQL execution history? This cannot be undone.</source>
+      <translation>آیا مطمئن هستید که می‌خواهید کل history اجرای SQL را پاک کنید؟ این کار قابل بازگشت نیست.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1142"/>
-        <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1142"/>
+      <source>Cannot export, because no export plugin is loaded.</source>
+      <translation>نمی‌توان export کرد، زیرا هیچ افزونه export بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1170"/>
-        <source>Query auto-commit is now enabled in: %1</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Query auto-commit is now enabled in: %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="1170"/>
+      <source>Query auto-commit is now enabled in: %1</source>
+      <comment>sql editor</comment>
+      <translation>ثبت خودکار پرس‌وجو اکنون در این مورد فعال است: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1172"/>
-        <source>Query auto-commit is now disabled in: %1</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Query auto-commit is now disabled in: %1</translation>
+      <location filename="../windows/editorwindow.cpp" line="1172"/>
+      <source>Query auto-commit is now disabled in: %1</source>
+      <comment>sql editor</comment>
+      <translation>ثبت خودکار پرس‌وجو اکنون در این مورد غیرفعال است: %1</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1230"/>
-        <location filename="../windows/editorwindow.cpp" line="1234"/>
-        <source>Apply changes to the transaction</source>
-        <translation type="unfinished">Apply changes to the transaction</translation>
+      <location filename="../windows/editorwindow.cpp" line="1230"/>
+      <location filename="../windows/editorwindow.cpp" line="1234"/>
+      <source>Apply changes to the transaction</source>
+      <translation>اعمال تغییرات در تراکنش</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1231"/>
-        <location filename="../windows/editorwindow.cpp" line="1235"/>
-        <source>Discard changes in data view</source>
-        <translation type="unfinished">Discard changes in data view</translation>
+      <location filename="../windows/editorwindow.cpp" line="1231"/>
+      <location filename="../windows/editorwindow.cpp" line="1235"/>
+      <source>Discard changes in data view</source>
+      <translation>دور انداختن تغییرات در نمای داده</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1232"/>
-        <source>Apply selected changes to the transaction</source>
-        <translation type="unfinished">Apply selected changes to the transaction</translation>
+      <location filename="../windows/editorwindow.cpp" line="1232"/>
+      <source>Apply selected changes to the transaction</source>
+      <translation>اعمال تغییرات انتخاب‌شده در تراکنش</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1233"/>
-        <source>Discard changes in selected cells</source>
-        <translation type="unfinished">Discard changes in selected cells</translation>
+      <location filename="../windows/editorwindow.cpp" line="1233"/>
+      <source>Discard changes in selected cells</source>
+      <translation>دور انداختن تغییرات در سلول‌های انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1274"/>
-        <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
-        <translation type="unfinished">Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1274"/>
+      <source>Cannot change database while having pending manual transaction. Please commit or rollback the transaction before changing the database.</source>
+      <translation>تا زمانی که تراکنش دستی در انتظار دارید، نمی‌توانید پایگاه‌داده را تغییر دهید. لطفاً پیش از تغییر پایگاه‌داده، تراکنش را ثبت یا بازگردانی کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1314"/>
-        <source>Manual transaction committed successfully.</source>
-        <translation type="unfinished">Manual transaction committed successfully.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1314"/>
+      <source>Manual transaction committed successfully.</source>
+      <translation>تراکنش دستی با موفقیت ثبت شد.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1343"/>
-        <source>Manual transaction rolled back.</source>
-        <translation type="unfinished">Manual transaction rolled back.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1343"/>
+      <source>Manual transaction rolled back.</source>
+      <translation>تراکنش دستی بازگردانی شد.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1386"/>
-        <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
-        <translation type="unfinished">No database selected in the SQL editor. Cannot create a view for unknown database.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1386"/>
+      <source>No database selected in the SQL editor. Cannot create a view for unknown database.</source>
+      <translation>هیچ پایگاه داده‌ای در ویرایشگر SQL انتخاب نشده است. نمی‌توان برای پایگاه داده ناشناخته view ایجاد کرد.</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="1436"/>
-        <source>Editor window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">Editor window &quot;%1&quot; has uncommitted data.</translation>
+      <location filename="../windows/editorwindow.cpp" line="1436"/>
+      <source>Editor window &quot;%1&quot; has uncommitted data.</source>
+      <translation>پنجره ویرایشگر &quot;%1&quot; داده commitنشده دارد.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ErrorsConfirmDialog</name>
     <message>
-        <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
-        <source>Errors</source>
-        <translation type="unfinished">Errors</translation>
+      <location filename="../dialogs/errorsconfirmdialog.ui" line="14"/>
+      <source>Errors</source>
+      <translation>خطاها</translation>
     </message>
     <message>
-        <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
-        <source>Following errors occurred:</source>
-        <translation type="unfinished">Following errors occurred:</translation>
+      <location filename="../dialogs/errorsconfirmdialog.ui" line="20"/>
+      <source>Following errors occurred:</source>
+      <translation>خطاهای زیر رخ دادند:</translation>
     </message>
     <message>
-        <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
-        <source>Would you like to proceed?</source>
-        <translation type="unfinished">Would you like to proceed?</translation>
+      <location filename="../dialogs/errorsconfirmdialog.ui" line="34"/>
+      <source>Would you like to proceed?</source>
+      <translation>آیا می‌خواهید ادامه دهید؟</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ExecFromFileDialog</name>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
-        <source>Execute SQL from file</source>
-        <translation type="unfinished">Execute SQL from file</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="14"/>
+      <source>Execute SQL from file</source>
+      <translation>اجرای SQL از فایل</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
-        <source>Input file</source>
-        <translation type="unfinished">Input file</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="23"/>
+      <source>Input file</source>
+      <translation>فایل ورودی</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
-        <source>Path to file</source>
-        <translation type="unfinished">Path to file</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="29"/>
+      <source>Path to file</source>
+      <translation>مسیر فایل</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
-        <source>Browse for file</source>
-        <translation type="unfinished">Browse for file</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="36"/>
+      <source>Browse for file</source>
+      <translation>مرور برای فایل</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="53"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
-        <source>Options</source>
-        <translation type="unfinished">Options</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="65"/>
+      <source>Options</source>
+      <translation>گزینه‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
-        <source>File encoding</source>
-        <translation type="unfinished">File encoding</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="71"/>
+      <source>File encoding</source>
+      <translation>Encoding فایل</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
-        <source>Skip failing SQL statements</source>
-        <translation type="unfinished">Skip failing SQL statements</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="81"/>
+      <source>Skip failing SQL statements</source>
+      <translation>نادیده گرفتن statementهای SQL ناموفق</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="94"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Any content that is not valid SQL will cause a statement to fail.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;هر محتوایی که SQL معتبر نباشد باعث شکست statement می‌شود.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="104"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;اجازه می‌دهد dot commandها (که توسط برنامه رسمی SQLite CLI استفاده می‌شوند) در فایل وجود داشته باشند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="114"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows dot commands (used by official SQLite CLI application) in the file and even executes some of them (i.e. .print and .read). All other dot commands are ignored.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;اجازه می‌دهد dot commandها (که توسط برنامه رسمی SQLite CLI استفاده می‌شوند) در فایل وجود داشته باشند و حتی برخی از آن‌ها را اجرا می‌کند (مثلاً .print و .read). همه dot commandهای دیگر نادیده گرفته می‌شوند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
-        <source>Strict (only SQL content allowed)</source>
-        <translation type="unfinished">Strict (only SQL content allowed)</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="97"/>
+      <source>Strict (only SQL content allowed)</source>
+      <translation>سخت‌گیرانه (فقط محتوای SQL مجاز است)</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
-        <source>Execution mode</source>
-        <translation type="unfinished">Execution mode</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="88"/>
+      <source>Execution mode</source>
+      <translation>حالت اجرا</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
-        <source>Permissive (dot commands ignored)</source>
-        <translation type="unfinished">Permissive (dot commands ignored)</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="107"/>
+      <source>Permissive (dot commands ignored)</source>
+      <translation>آسان‌گیرانه (dot commandها نادیده گرفته می‌شوند)</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
-        <source>Extended (dot commands executed)</source>
-        <translation type="unfinished">Extended (dot commands executed)</translation>
+      <location filename="../dialogs/execfromfiledialog.ui" line="117"/>
+      <source>Extended (dot commands executed)</source>
+      <translation>گسترش‌یافته (dot commandها اجرا می‌شوند)</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
-        <source>SQL scripts (*.sql);;All files (*)</source>
-        <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+      <location filename="../dialogs/execfromfiledialog.cpp" line="148"/>
+      <source>SQL scripts (*.sql);;All files (*)</source>
+      <translation>اسکریپت‌های SQL (*.sql);;همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
-        <source>Execute SQL file</source>
-        <translation type="unfinished">Execute SQL file</translation>
+      <location filename="../dialogs/execfromfiledialog.cpp" line="149"/>
+      <source>Execute SQL file</source>
+      <translation>اجرای فایل SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
-        <source>Please provide file to be executed.</source>
-        <translation type="unfinished">Please provide file to be executed.</translation>
+      <location filename="../dialogs/execfromfiledialog.cpp" line="164"/>
+      <source>Please provide file to be executed.</source>
+      <translation>لطفاً فایلی را که باید اجرا شود ارائه کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
-        <source>Provided file does not exist or cannot be read.</source>
-        <translation type="unfinished">Provided file does not exist or cannot be read.</translation>
+      <location filename="../dialogs/execfromfiledialog.cpp" line="173"/>
+      <source>Provided file does not exist or cannot be read.</source>
+      <translation>فایل ارائه‌شده وجود ندارد یا قابل خواندن نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
-        <source>Select a database to execute the SQL file on.</source>
-        <translation type="unfinished">Select a database to execute the SQL file on.</translation>
+      <location filename="../dialogs/execfromfiledialog.cpp" line="185"/>
+      <source>Select a database to execute the SQL file on.</source>
+      <translation>یک پایگاه داده برای اجرای فایل SQL روی آن انتخاب کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ExportDialog</name>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="14"/>
-        <source>Export</source>
-        <translation type="unfinished">Export</translation>
+      <location filename="../dialogs/exportdialog.ui" line="14"/>
+      <source>Export</source>
+      <translation>صدور</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="24"/>
-        <source>What do you want to export?</source>
-        <translation type="unfinished">What do you want to export?</translation>
+      <location filename="../dialogs/exportdialog.ui" line="24"/>
+      <source>What do you want to export?</source>
+      <translation>چه چیزی را می‌خواهید export کنید؟</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="39"/>
-        <source>A database</source>
-        <translation type="unfinished">A database</translation>
+      <location filename="../dialogs/exportdialog.ui" line="39"/>
+      <source>A database</source>
+      <translation>یک پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="49"/>
-        <source>A single table</source>
-        <translation type="unfinished">A single table</translation>
+      <location filename="../dialogs/exportdialog.ui" line="49"/>
+      <source>A single table</source>
+      <translation>یک جدول تکی</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="56"/>
-        <source>A single view</source>
-        <translation type="unfinished">A single view</translation>
+      <location filename="../dialogs/exportdialog.ui" line="56"/>
+      <source>A single view</source>
+      <translation>یک view تکی</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="63"/>
-        <source>Query results</source>
-        <translation type="unfinished">Query results</translation>
+      <location filename="../dialogs/exportdialog.ui" line="63"/>
+      <source>Query results</source>
+      <translation>نتایج query</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="75"/>
-        <source>Table to export</source>
-        <translation type="unfinished">Table to export</translation>
+      <location filename="../dialogs/exportdialog.ui" line="75"/>
+      <source>Table to export</source>
+      <translation>جدول برای export</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="110"/>
-        <location filename="../dialogs/exportdialog.ui" line="234"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../dialogs/exportdialog.ui" line="110"/>
+      <location filename="../dialogs/exportdialog.ui" line="234"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="117"/>
-        <source>Table</source>
-        <translation type="unfinished">Table</translation>
+      <location filename="../dialogs/exportdialog.ui" line="117"/>
+      <source>Table</source>
+      <translation>جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="134"/>
-        <location filename="../dialogs/exportdialog.ui" line="258"/>
-        <source>Options</source>
-        <translation type="unfinished">Options</translation>
+      <location filename="../dialogs/exportdialog.ui" line="134"/>
+      <location filename="../dialogs/exportdialog.ui" line="258"/>
+      <source>Options</source>
+      <translation>گزینه‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="140"/>
-        <location filename="../dialogs/exportdialog.ui" line="264"/>
-        <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
-        <translation type="unfinished">When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</translation>
+      <location filename="../dialogs/exportdialog.ui" line="140"/>
+      <location filename="../dialogs/exportdialog.ui" line="264"/>
+      <source>When this option is unchecked, then only table DDL (CREATE TABLE statement) is exported.</source>
+      <translation>وقتی این گزینه علامت نخورده باشد، فقط DDL جدول (statement CREATE TABLE) export می‌شود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="143"/>
-        <source>Export table data</source>
-        <translation type="unfinished">Export table data</translation>
+      <location filename="../dialogs/exportdialog.ui" line="143"/>
+      <source>Export table data</source>
+      <translation>صادر کردن داده‌های جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="153"/>
-        <source>Export table indexes</source>
-        <translation type="unfinished">Export table indexes</translation>
+      <location filename="../dialogs/exportdialog.ui" line="153"/>
+      <source>Export table indexes</source>
+      <translation>صادر کردن اندیس‌های جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="163"/>
-        <source>Export table triggers</source>
-        <translation type="unfinished">Export table triggers</translation>
+      <location filename="../dialogs/exportdialog.ui" line="163"/>
+      <source>Export table triggers</source>
+      <translation>صادر کردن تریگرهای جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="185"/>
-        <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
-        <translation type="unfinished">Note, that exporting table indexes and triggers may be unsupported by some output formats.</translation>
+      <location filename="../dialogs/exportdialog.ui" line="185"/>
+      <source>Note, that exporting table indexes and triggers may be unsupported by some output formats.</source>
+      <translation>توجه کنید که export کردن indexها و triggerهای جدول ممکن است توسط برخی فرمت‌های خروجی پشتیبانی نشود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="199"/>
-        <source>View to export</source>
-        <translation type="unfinished">View to export</translation>
+      <location filename="../dialogs/exportdialog.ui" line="199"/>
+      <source>View to export</source>
+      <translation>View برای export</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="241"/>
-        <source>View</source>
-        <translation type="unfinished">View</translation>
+      <location filename="../dialogs/exportdialog.ui" line="241"/>
+      <source>View</source>
+      <translation>نما</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="267"/>
-        <source>Export view data</source>
-        <translation type="unfinished">Export view data</translation>
+      <location filename="../dialogs/exportdialog.ui" line="267"/>
+      <source>Export view data</source>
+      <translation>صادر کردن داده‌های نما</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="277"/>
-        <source>Export view triggers</source>
-        <translation type="unfinished">Export view triggers</translation>
+      <location filename="../dialogs/exportdialog.ui" line="277"/>
+      <source>Export view triggers</source>
+      <translation>صادر کردن تریگرهای نما</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="299"/>
-        <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
-        <translation type="unfinished">Note, that exporting view triggers may be unsupported by some output formats.</translation>
+      <location filename="../dialogs/exportdialog.ui" line="299"/>
+      <source>Note, that exporting view triggers may be unsupported by some output formats.</source>
+      <translation>توجه کنید که export کردن triggerهای view ممکن است توسط برخی فرمت‌های خروجی پشتیبانی نشود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="313"/>
-        <source>Select database objects to export</source>
-        <translation type="unfinished">Select database objects to export</translation>
+      <location filename="../dialogs/exportdialog.ui" line="313"/>
+      <source>Select database objects to export</source>
+      <translation>انتخاب اشیای پایگاه داده برای export</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="319"/>
-        <source>Export indexes (tables only)</source>
-        <translation type="unfinished">Export indexes (tables only)</translation>
+      <location filename="../dialogs/exportdialog.ui" line="319"/>
+      <source>Export indexes (tables only)</source>
+      <translation>صادر کردن اندیس‌ها (فقط جدول‌ها)</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="333"/>
-        <source>Export data from tables</source>
-        <translation type="unfinished">Export data from tables</translation>
+      <location filename="../dialogs/exportdialog.ui" line="333"/>
+      <source>Export data from tables</source>
+      <translation>صادر کردن داده‌ها از جدول‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="343"/>
-        <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+      <location filename="../dialogs/exportdialog.ui" line="343"/>
+      <source>Select all</source>
+      <translation>انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="374"/>
-        <source>Export data from views</source>
-        <translation type="unfinished">Export data from views</translation>
+      <location filename="../dialogs/exportdialog.ui" line="374"/>
+      <source>Export data from views</source>
+      <translation>صادر کردن داده‌ها از نماها</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="326"/>
-        <source>Deselect all</source>
-        <translation type="unfinished">Deselect all</translation>
+      <location filename="../dialogs/exportdialog.ui" line="326"/>
+      <source>Deselect all</source>
+      <translation>لغو انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="350"/>
-        <source>Export triggers (tables and views)</source>
-        <translation type="unfinished">Export triggers (tables and views)</translation>
+      <location filename="../dialogs/exportdialog.ui" line="350"/>
+      <source>Export triggers (tables and views)</source>
+      <translation>صادر کردن تریگرها (جدول‌ها و نماها)</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="360"/>
-        <location filename="../dialogs/exportdialog.ui" line="394"/>
-        <source>Database:</source>
-        <translation type="unfinished">Database:</translation>
+      <location filename="../dialogs/exportdialog.ui" line="360"/>
+      <location filename="../dialogs/exportdialog.ui" line="394"/>
+      <source>Database:</source>
+      <translation>پایگاه داده:</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="382"/>
-        <source>Query to export results for</source>
-        <translation type="unfinished">Query to export results for</translation>
+      <location filename="../dialogs/exportdialog.ui" line="382"/>
+      <source>Query to export results for</source>
+      <translation>Query برای export نتایج آن</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="401"/>
-        <source>Query to be executed for results:</source>
-        <translation type="unfinished">Query to be executed for results:</translation>
+      <location filename="../dialogs/exportdialog.ui" line="401"/>
+      <source>Query to be executed for results:</source>
+      <translation>Query که برای نتایج اجرا خواهد شد:</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="409"/>
-        <source>Export format and options</source>
-        <translation type="unfinished">Export format and options</translation>
+      <location filename="../dialogs/exportdialog.ui" line="409"/>
+      <source>Export format and options</source>
+      <translation>فرمت export و گزینه‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="463"/>
-        <source>Export format</source>
-        <translation type="unfinished">Export format</translation>
+      <location filename="../dialogs/exportdialog.ui" line="463"/>
+      <source>Export format</source>
+      <translation>فرمت export</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="475"/>
-        <source>Output</source>
-        <translation type="unfinished">Output</translation>
+      <location filename="../dialogs/exportdialog.ui" line="475"/>
+      <source>Output</source>
+      <translation>خروجی</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="481"/>
-        <source>Exported file path</source>
-        <translation type="unfinished">Exported file path</translation>
+      <location filename="../dialogs/exportdialog.ui" line="481"/>
+      <source>Exported file path</source>
+      <translation>مسیر فایل exportشده</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="488"/>
-        <source>Clipboard</source>
-        <translation type="unfinished">Clipboard</translation>
+      <location filename="../dialogs/exportdialog.ui" line="488"/>
+      <source>Clipboard</source>
+      <translation>کلیپ‌بورد</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="502"/>
-        <source>File</source>
-        <translation type="unfinished">File</translation>
+      <location filename="../dialogs/exportdialog.ui" line="502"/>
+      <source>File</source>
+      <translation>فایل</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="527"/>
-        <source>Exported text encoding:</source>
-        <translation type="unfinished">Exported text encoding:</translation>
+      <location filename="../dialogs/exportdialog.ui" line="527"/>
+      <source>Exported text encoding:</source>
+      <translation>Encoding متن exportشده:</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.ui" line="543"/>
-        <source>Export format options</source>
-        <translation type="unfinished">Export format options</translation>
+      <location filename="../dialogs/exportdialog.ui" line="543"/>
+      <source>Export format options</source>
+      <translation>گزینه‌های فرمت export</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="69"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="69"/>
+      <source>Cancel</source>
+      <translation>لغو</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="197"/>
-        <location filename="../dialogs/exportdialog.cpp" line="221"/>
-        <location filename="../dialogs/exportdialog.cpp" line="246"/>
-        <location filename="../dialogs/exportdialog.cpp" line="271"/>
-        <source>Select database to export.</source>
-        <translation type="unfinished">Select database to export.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="197"/>
+      <location filename="../dialogs/exportdialog.cpp" line="221"/>
+      <location filename="../dialogs/exportdialog.cpp" line="246"/>
+      <location filename="../dialogs/exportdialog.cpp" line="271"/>
+      <source>Select database to export.</source>
+      <translation>پایگاه داده‌ای برای export انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="198"/>
-        <source>Select table to export.</source>
-        <translation type="unfinished">Select table to export.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="198"/>
+      <source>Select table to export.</source>
+      <translation>جدولی برای export انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="222"/>
-        <source>Select view to export.</source>
-        <translation type="unfinished">Select view to export.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="222"/>
+      <source>Select view to export.</source>
+      <translation>Viewی برای export انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="247"/>
-        <source>Enter valid query to export.</source>
-        <translation type="unfinished">Enter valid query to export.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="247"/>
+      <source>Enter valid query to export.</source>
+      <translation>پرس‌وجوی معتبری برای صدور وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="272"/>
-        <source>Select at least one object to export.</source>
-        <translation type="unfinished">Select at least one object to export.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="272"/>
+      <source>Select at least one object to export.</source>
+      <translation>حداقل یک شیء برای export انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="295"/>
-        <source>You must provide a file name to export to.</source>
-        <translation type="unfinished">You must provide a file name to export to.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="295"/>
+      <source>You must provide a file name to export to.</source>
+      <translation>باید نام فایلی برای export به آن ارائه کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="302"/>
-        <source>Path you provided is an existing directory. You cannot overwrite it.</source>
-        <translation type="unfinished">Path you provided is an existing directory. You cannot overwrite it.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="302"/>
+      <source>Path you provided is an existing directory. You cannot overwrite it.</source>
+      <translation>مسیری که ارائه کرده‌اید یک پوشه موجود است. نمی‌توانید آن را بازنویسی کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="308"/>
-        <source>The directory &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">The directory &apos;%1&apos; does not exist.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="308"/>
+      <source>The directory &apos;%1&apos; does not exist.</source>
+      <translation>پوشه &apos;%1&apos; وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="314"/>
-        <source>The file &apos;%1&apos; exists and will be overwritten.</source>
-        <translation type="unfinished">The file &apos;%1&apos; exists and will be overwritten.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="314"/>
+      <source>The file &apos;%1&apos; exists and will be overwritten.</source>
+      <translation>فایل &apos;%1&apos; وجود دارد و بازنویسی خواهد شد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="555"/>
-        <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="555"/>
+      <source>All files (*)</source>
+      <translation>همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="558"/>
-        <source>Pick file to export to</source>
-        <translation type="unfinished">Pick file to export to</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="558"/>
+      <source>Pick file to export to</source>
+      <translation>انتخاب فایل برای export به آن</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="985"/>
-        <source>Internal error during export. This is a bug. Please report it.</source>
-        <translation type="unfinished">Internal error during export. This is a bug. Please report it.</translation>
+      <location filename="../dialogs/exportdialog.cpp" line="985"/>
+      <source>Internal error during export. This is a bug. Please report it.</source>
+      <translation>خطای داخلی هنگام export رخ داد. این یک bug است. لطفاً آن را گزارش کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>FileExecErrorsDialog</name>
     <message>
-        <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
-        <source>Execution errors</source>
-        <translation type="unfinished">Execution errors</translation>
+      <location filename="../dialogs/fileexecerrorsdialog.ui" line="14"/>
+      <source>Execution errors</source>
+      <translation>خطاهای اجرا</translation>
     </message>
     <message>
-        <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
-        <source>Following errors were encountered during execution of SQL statements from the file:</source>
-        <translation type="unfinished">Following errors were encountered during execution of SQL statements from the file:</translation>
+      <location filename="../dialogs/fileexecerrorsdialog.ui" line="26"/>
+      <source>Following errors were encountered during execution of SQL statements from the file:</source>
+      <translation>خطاهای زیر هنگام اجرای statementهای SQL از فایل مشاهده شدند:</translation>
     </message>
     <message>
-        <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
-        <source>SQL</source>
-        <translation type="unfinished">SQL</translation>
+      <location filename="../dialogs/fileexecerrorsdialog.ui" line="49"/>
+      <source>SQL</source>
+      <translation>کد SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
-        <source>Error</source>
-        <translation type="unfinished">Error</translation>
+      <location filename="../dialogs/fileexecerrorsdialog.ui" line="54"/>
+      <source>Error</source>
+      <translation>خطا</translation>
     </message>
     <message>
-        <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
-        <source>Statements that were executed successfully were commited.</source>
-        <translation type="unfinished">Statements that were executed successfully were commited.</translation>
+      <location filename="../dialogs/fileexecerrorsdialog.ui" line="68"/>
+      <source>Statements that were executed successfully were commited.</source>
+      <translation>Statementهایی که با موفقیت اجرا شدند commit شدند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
-        <source>Statements that were executed successfully were rolled back.</source>
-        <translation type="unfinished">Statements that were executed successfully were rolled back.</translation>
+      <location filename="../dialogs/fileexecerrorsdialog.ui" line="81"/>
+      <source>Statements that were executed successfully were rolled back.</source>
+      <translation>Statementهایی که با موفقیت اجرا شدند rollback شدند.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>FkComboBox</name>
     <message>
-        <location filename="../datagrid/fkcombobox.cpp" line="375"/>
-        <source>Cannot edit this cell. Details: %1</source>
-        <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+      <location filename="../datagrid/fkcombobox.cpp" line="375"/>
+      <source>Cannot edit this cell. Details: %1</source>
+      <translation>نمی‌توان این سلول را ویرایش کرد. جزئیات: %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>FontEdit</name>
     <message>
-        <location filename="../common/fontedit.cpp" line="61"/>
-        <source>Choose font</source>
-        <comment>font configuration</comment>
-        <translation type="unfinished">Choose font</translation>
+      <location filename="../common/fontedit.cpp" line="61"/>
+      <source>Choose font</source>
+      <comment>font configuration</comment>
+      <translation>انتخاب فونت</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>Form</name>
     <message>
-        <location filename="../forms/sqlformatterplugin.ui" line="20"/>
-        <source>Active SQL formatter plugin</source>
-        <translation type="unfinished">Active SQL formatter plugin</translation>
+      <location filename="../forms/sqlformatterplugin.ui" line="20"/>
+      <source>Active SQL formatter plugin</source>
+      <translation>افزونه formatter فعال SQL</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>FormView</name>
     <message>
-        <location filename="../formview.cpp" line="287"/>
-        <source>Commit row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Commit row</translation>
+      <location filename="../formview.cpp" line="287"/>
+      <source>Commit row</source>
+      <comment>form view</comment>
+      <translation>ثبت ردیف</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="288"/>
-        <source>Rollback row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Rollback row</translation>
+      <location filename="../formview.cpp" line="288"/>
+      <source>Rollback row</source>
+      <comment>form view</comment>
+      <translation>برگرداندن ردیف</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="289"/>
-        <source>First row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">First row</translation>
+      <location filename="../formview.cpp" line="289"/>
+      <source>First row</source>
+      <comment>form view</comment>
+      <translation>ردیف اول</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="290"/>
-        <source>Previous row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Previous row</translation>
+      <location filename="../formview.cpp" line="290"/>
+      <source>Previous row</source>
+      <comment>form view</comment>
+      <translation>ردیف قبلی</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="291"/>
-        <source>Next row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Next row</translation>
+      <location filename="../formview.cpp" line="291"/>
+      <source>Next row</source>
+      <comment>form view</comment>
+      <translation>ردیف بعدی</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="292"/>
-        <source>Last row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Last row</translation>
+      <location filename="../formview.cpp" line="292"/>
+      <source>Last row</source>
+      <comment>form view</comment>
+      <translation>ردیف آخر</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="293"/>
-        <source>Insert new row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Insert new row</translation>
+      <location filename="../formview.cpp" line="293"/>
+      <source>Insert new row</source>
+      <comment>form view</comment>
+      <translation>درج ردیف جدید</translation>
     </message>
     <message>
-        <location filename="../formview.cpp" line="294"/>
-        <source>Delete current row</source>
-        <comment>form view</comment>
-        <translation type="unfinished">Delete current row</translation>
+      <location filename="../formview.cpp" line="294"/>
+      <source>Delete current row</source>
+      <comment>form view</comment>
+      <translation>حذف ردیف فعلی</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>FunctionsEditor</name>
     <message>
-        <location filename="../windows/functionseditor.ui" line="84"/>
-        <source>Filter functions</source>
-        <translation type="unfinished">Filter functions</translation>
+      <location filename="../windows/functionseditor.ui" line="84"/>
+      <source>Filter functions</source>
+      <translation>فیلتر کردن functionها</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="172"/>
-        <source>Input arguments</source>
-        <translation type="unfinished">Input arguments</translation>
+      <location filename="../windows/functionseditor.ui" line="172"/>
+      <source>Input arguments</source>
+      <translation>آرگومان‌های ورودی</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="178"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="178"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define the function parameters here. The specified names are available as variables in the implementation code and contain the values passed to the function. Arguments are also accessible through the language’s standard argument container (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;می‌توانید پارامترهای function را اینجا تعریف کنید. نام‌های مشخص‌شده به‌عنوان متغیر در کد پیاده‌سازی در دسترس هستند و مقادیر ارسال‌شده به function را در خود دارند. آرگومان‌ها همچنین از طریق container استاندارد آرگومان زبان قابل دسترسی هستند (مثلاً &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; در Tcl یا &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; در JavaScript).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="207"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="207"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function accepts a variable number of arguments. In this mode arguments are available only through the language-specific mechanism (e.g. &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; in Tcl or &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; in JavaScript).&lt;br/&gt;If disabled, arguments are defined below and their names are also available as variables in the implementation code, while still remaining accessible through the language’s standard argument container.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;نشان می‌دهد که function تعداد متغیری از آرگومان‌ها را می‌پذیرد. در این حالت آرگومان‌ها فقط از طریق سازوکار ویژه زبان در دسترس هستند (مثلاً &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;$argv&lt;/span&gt; در Tcl یا &lt;span style=&quot; font-family:&apos;monospace&apos;; font-weight:700;&quot;&gt;arguments&lt;/span&gt; در JavaScript).&lt;br/&gt;اگر غیرفعال باشد، آرگومان‌ها در پایین تعریف می‌شوند و نام‌های آن‌ها نیز به‌عنوان متغیر در کد پیاده‌سازی در دسترس است، در حالی که همچنان از طریق container استاندارد آرگومان زبان قابل دسترسی می‌مانند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="210"/>
-        <source>Undefined</source>
-        <translation type="unfinished">Undefined</translation>
+      <location filename="../windows/functionseditor.ui" line="210"/>
+      <source>Undefined</source>
+      <translation>تعریف‌نشده</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="226"/>
-        <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+      <location filename="../windows/functionseditor.ui" line="226"/>
+      <source>Databases</source>
+      <translation>پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="232"/>
-        <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+      <location filename="../windows/functionseditor.ui" line="232"/>
+      <source>Register in all databases</source>
+      <translation>ثبت در همه پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="239"/>
-        <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+      <location filename="../windows/functionseditor.ui" line="239"/>
+      <source>Register in following databases:</source>
+      <translation>ثبت در پایگاه‌های داده زیر:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="274"/>
-        <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+      <location filename="../windows/functionseditor.ui" line="274"/>
+      <source>Type:</source>
+      <translation>نوع:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="281"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="281"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the language used to implement the function. The chosen language determines how the function code is interpreted and which syntax, variables, and runtime environment are available in the implementation blocks.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;زبانی را که برای پیاده‌سازی function استفاده می‌شود انتخاب می‌کند. زبان انتخاب‌شده تعیین می‌کند کد function چگونه تفسیر شود و کدام نحو، متغیرها و محیط runtime در بلوک‌های پیاده‌سازی در دسترس باشند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="288"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="288"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the type of function being implemented. The selected type determines how SQLite invokes the function and which implementation blocks must be provided: a single code block for scalar functions, step-based processing for aggregate functions, or additional window-frame handling (including inverse step) for window aggregate functions.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;نوع function در حال پیاده‌سازی را انتخاب می‌کند. نوع انتخاب‌شده تعیین می‌کند SQLite چگونه function را فراخوانی کند و کدام بلوک‌های پیاده‌سازی باید ارائه شوند: یک بلوک کد تکی برای functionهای scalar، پردازش مبتنی بر step برای functionهای aggregate، یا مدیریت اضافی window-frame (از جمله inverse step) برای functionهای window aggregate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="295"/>
-        <source>Function name:</source>
-        <translation type="unfinished">Function name:</translation>
+      <location filename="../windows/functionseditor.ui" line="295"/>
+      <source>Function name:</source>
+      <translation>نام تابع:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="305"/>
-        <source>Implementation language:</source>
-        <translation type="unfinished">Implementation language:</translation>
+      <location filename="../windows/functionseditor.ui" line="305"/>
+      <source>Implementation language:</source>
+      <translation>زبان پیاده‌سازی:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="312"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="312"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indicates that the function always returns the same result for the same input arguments. Required for use in some schema expressions (e.g. CHECK constraints, partial indexes, expression indexes, generated columns) and may allow SQLite to apply additional optimizations.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;نشان می‌دهد که تابع برای آرگومان‌های ورودی یکسان، همیشه همان نتیجه را برمی‌گرداند. برای استفاده در برخی عبارت‌های طرح‌واره (مانند محدودیت‌های CHECK، اندیس‌های جزئی، اندیس‌های عبارتی، ستون‌های تولیدشده) لازم است و ممکن است به SQLite اجازه دهد بهینه‌سازی‌های بیشتری اعمال کند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="315"/>
-        <source>Deterministic</source>
-        <translation type="unfinished">Deterministic</translation>
+      <location filename="../windows/functionseditor.ui" line="315"/>
+      <source>Deterministic</source>
+      <translation>قطعی</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="336"/>
-        <source>Function code</source>
-        <translation type="unfinished">Function code</translation>
+      <location filename="../windows/functionseditor.ui" line="336"/>
+      <source>Function code</source>
+      <translation>کد تابع</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="342"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="342"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when the function is called. It receives the function arguments and must compute and return the result. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;کدی که هنگام فراخوانی تابع اجرا می‌شود. آرگومان‌های تابع را دریافت می‌کند و باید نتیجه را محاسبه کرده و برگرداند. مقادیر پارامترها به‌صورت متغیرهایی با نام یکسان با پارامترهای اعلام‌شدهٔ تابع در دسترس هستند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="353"/>
-        <source>Initialization</source>
-        <translation type="unfinished">Initialization</translation>
+      <location filename="../windows/functionseditor.ui" line="353"/>
+      <source>Initialization</source>
+      <translation>مقداردهی اولیه</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="359"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="359"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed once before the first aggregation step. Use it to initialize variables that store the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;کدی که یک‌بار پیش از نخستین گام تجمیع اجرا می‌شود. از آن برای مقداردهی اولیهٔ متغیرهایی استفاده کنید که وضعیت تجمیع را نگه می‌دارند. مقادیر پارامترها به‌صورت متغیرهایی با نام یکسان با پارامترهای اعلام‌شدهٔ تابع در دسترس هستند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="370"/>
-        <source>Step</source>
-        <translation type="unfinished">Step</translation>
+      <location filename="../windows/functionseditor.ui" line="370"/>
+      <source>Step</source>
+      <translation>گام</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="376"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="376"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed for each input row. It should update the aggregation state using the current arguments. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;کدی که برای هر ردیف ورودی اجرا می‌شود. باید وضعیت تجمیع را با استفاده از آرگومان‌های فعلی به‌روزرسانی کند. مقادیر پارامترها به‌صورت متغیرهایی با نام یکسان با پارامترهای اعلام‌شدهٔ تابع در دسترس هستند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="387"/>
-        <source>Inverse</source>
-        <translation type="unfinished">Inverse</translation>
+      <location filename="../windows/functionseditor.ui" line="387"/>
+      <source>Inverse</source>
+      <translation>معکوس</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="393"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="393"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code executed when a row leaves the window frame. The parameter values correspond to the row being removed from the window and should be used to subtract its contribution from the aggregation state. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;کدی که وقتی یک ردیف از چارچوب پنجره خارج می‌شود اجرا می‌شود. مقادیر پارامترها متناظر با ردیفی هستند که از پنجره حذف می‌شود و باید برای کم‌کردن سهم آن از وضعیت تجمیع استفاده شوند. مقادیر پارامترها به‌صورت متغیرهایی با نام یکسان با پارامترهای اعلام‌شدهٔ تابع در دسترس هستند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="404"/>
-        <source>Aggregated value</source>
-        <translation type="unfinished">Aggregated value</translation>
+      <location filename="../windows/functionseditor.ui" line="404"/>
+      <source>Aggregated value</source>
+      <translation>مقدار تجمیع‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.ui" line="410"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/functionseditor.ui" line="410"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Code that computes and returns the aggregated result based on the current aggregation state. In window functions it may be executed multiple times to return the current window value. In regular aggregate functions it is called once as the final function. Parameter values are available as variables named the same as the declared function parameters.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;کدی که نتیجهٔ تجمیع‌شده را بر اساس وضعیت تجمیع فعلی محاسبه کرده و برمی‌گرداند. در توابع پنجره ممکن است چندین بار اجرا شود تا مقدار فعلی پنجره را برگرداند. در توابع تجمیعی معمولی، یک‌بار به‌عنوان تابع نهایی فراخوانی می‌شود. مقادیر پارامترها به‌صورت متغیرهایی با نام یکسان با پارامترهای اعلام‌شدهٔ تابع در دسترس هستند.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="62"/>
-        <source>SQL functions editor</source>
-        <translation type="unfinished">SQL functions editor</translation>
+      <location filename="../windows/functionseditor.cpp" line="62"/>
+      <source>SQL functions editor</source>
+      <translation>ویرایشگر توابع SQL</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="67"/>
-        <source>Commit all function changes</source>
-        <translation type="unfinished">Commit all function changes</translation>
+      <location filename="../windows/functionseditor.cpp" line="67"/>
+      <source>Commit all function changes</source>
+      <translation>ثبت همهٔ تغییرات تابع</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="68"/>
-        <source>Rollback all function changes</source>
-        <translation type="unfinished">Rollback all function changes</translation>
+      <location filename="../windows/functionseditor.cpp" line="68"/>
+      <source>Rollback all function changes</source>
+      <translation>برگرداندن همهٔ تغییرات تابع</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="70"/>
-        <source>Create new function</source>
-        <translation type="unfinished">Create new function</translation>
+      <location filename="../windows/functionseditor.cpp" line="70"/>
+      <source>Create new function</source>
+      <translation>ایجاد تابع جدید</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="71"/>
-        <source>Delete selected function</source>
-        <translation type="unfinished">Delete selected function</translation>
+      <location filename="../windows/functionseditor.cpp" line="71"/>
+      <source>Delete selected function</source>
+      <translation>حذف تابع انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="73"/>
-        <source>Import functions from file</source>
-        <translation type="unfinished">Import functions from file</translation>
+      <location filename="../windows/functionseditor.cpp" line="73"/>
+      <source>Import functions from file</source>
+      <translation>وارد کردن توابع از فایل</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="74"/>
-        <source>Export functions to file</source>
-        <translation type="unfinished">Export functions to file</translation>
+      <location filename="../windows/functionseditor.cpp" line="74"/>
+      <source>Export functions to file</source>
+      <translation>صادر کردن توابع به فایل</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="75"/>
-        <source>Custom SQL functions manual</source>
-        <translation type="unfinished">Custom SQL functions manual</translation>
+      <location filename="../windows/functionseditor.cpp" line="75"/>
+      <source>Custom SQL functions manual</source>
+      <translation>راهنمای توابع SQL سفارشی</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="78"/>
-        <source>Add function argument</source>
-        <translation type="unfinished">Add function argument</translation>
+      <location filename="../windows/functionseditor.cpp" line="78"/>
+      <source>Add function argument</source>
+      <translation>افزودن آرگومان تابع</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="79"/>
-        <source>Rename function argument</source>
-        <translation type="unfinished">Rename function argument</translation>
+      <location filename="../windows/functionseditor.cpp" line="79"/>
+      <source>Rename function argument</source>
+      <translation>تغییر نام آرگومان تابع</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="80"/>
-        <source>Delete function argument</source>
-        <translation type="unfinished">Delete function argument</translation>
+      <location filename="../windows/functionseditor.cpp" line="80"/>
+      <source>Delete function argument</source>
+      <translation>حذف آرگومان تابع</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="82"/>
-        <source>Move function argument up</source>
-        <translation type="unfinished">Move function argument up</translation>
+      <location filename="../windows/functionseditor.cpp" line="82"/>
+      <source>Move function argument up</source>
+      <translation>انتقال آرگومان تابع به بالا</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="83"/>
-        <source>Move function argument down</source>
-        <translation type="unfinished">Move function argument down</translation>
+      <location filename="../windows/functionseditor.cpp" line="83"/>
+      <source>Move function argument down</source>
+      <translation>انتقال آرگومان تابع به پایین</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="540"/>
-        <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
-        <translation type="unfinished">Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</translation>
+      <location filename="../windows/functionseditor.cpp" line="540"/>
+      <source>Enter a unique, non-empty function name. Duplicate names are allowed if the number of input parameters differs.</source>
+      <translation>یک نام تابع یکتا و غیرخالی وارد کنید. اگر تعداد پارامترهای ورودی متفاوت باشد، نام‌های تکراری مجاز هستند.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="551"/>
-        <source>Pick the implementation language.</source>
-        <translation type="unfinished">Pick the implementation language.</translation>
+      <location filename="../windows/functionseditor.cpp" line="551"/>
+      <source>Pick the implementation language.</source>
+      <translation>زبان پیاده‌سازی را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="569"/>
-        <location filename="../windows/functionseditor.cpp" line="579"/>
-        <location filename="../windows/functionseditor.cpp" line="580"/>
-        <source>Enter a non-empty implementation code.</source>
-        <translation type="unfinished">Enter a non-empty implementation code.</translation>
+      <location filename="../windows/functionseditor.cpp" line="569"/>
+      <location filename="../windows/functionseditor.cpp" line="579"/>
+      <location filename="../windows/functionseditor.cpp" line="580"/>
+      <source>Enter a non-empty implementation code.</source>
+      <translation>کد پیاده‌سازی غیرخالی وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="629"/>
-        <source>argument</source>
-        <comment>new function argument name in function editor window</comment>
-        <translation type="unfinished">argument</translation>
+      <location filename="../windows/functionseditor.cpp" line="629"/>
+      <source>argument</source>
+      <comment>new function argument name in function editor window</comment>
+      <translation>آرگومان</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="733"/>
-        <source>Function argument cannot be empty and it cannot have duplicated name.</source>
-        <translation type="unfinished">Function argument cannot be empty and it cannot have duplicated name.</translation>
+      <location filename="../windows/functionseditor.cpp" line="733"/>
+      <source>Function argument cannot be empty and it cannot have duplicated name.</source>
+      <translation>آرگومان تابع نمی‌تواند خالی باشد و نمی‌تواند نام تکراری داشته باشد.</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.cpp" line="800"/>
-        <source>Functions editor window has uncommitted modifications.</source>
-        <translation type="unfinished">Functions editor window has uncommitted modifications.</translation>
+      <location filename="../windows/functionseditor.cpp" line="800"/>
+      <source>Functions editor window has uncommitted modifications.</source>
+      <translation>پنجرهٔ ویرایشگر توابع تغییرات ثبت‌نشده دارد.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>FunctionsEditorModel</name>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="261"/>
-        <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="261"/>
+      <source>all databases</source>
+      <translation>همهٔ پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="266"/>
-        <source>Function:</source>
-        <translation type="unfinished">Function:</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="266"/>
+      <source>Function:</source>
+      <translation>تابع:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="267"/>
-        <source>Type:</source>
-        <translation type="unfinished">Type:</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="267"/>
+      <source>Type:</source>
+      <translation>نوع:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="268"/>
-        <source>Deterministic:</source>
-        <translation type="unfinished">Deterministic:</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="268"/>
+      <source>Deterministic:</source>
+      <translation>قطعی:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="268"/>
-        <source>Yes</source>
-        <translation type="unfinished">Yes</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="268"/>
+      <source>Yes</source>
+      <translation>بله</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="268"/>
-        <source>No</source>
-        <translation type="unfinished">No</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="268"/>
+      <source>No</source>
+      <translation>خیر</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="269"/>
-        <source>Language:</source>
-        <translation type="unfinished">Language:</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="269"/>
+      <source>Language:</source>
+      <translation>زبان:</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditormodel.cpp" line="270"/>
-        <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+      <location filename="../windows/functionseditormodel.cpp" line="270"/>
+      <source>Registered in:</source>
+      <translation>ثبت‌شده در:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ImportDialog</name>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="14"/>
-        <source>Import data</source>
-        <translation type="unfinished">Import data</translation>
+      <location filename="../dialogs/importdialog.ui" line="14"/>
+      <source>Import data</source>
+      <translation>وارد کردن داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="171"/>
-        <source>Table to import to</source>
-        <translation type="unfinished">Table to import to</translation>
+      <location filename="../dialogs/importdialog.ui" line="171"/>
+      <source>Table to import to</source>
+      <translation>جدولی که باید به آن وارد شود</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="186"/>
-        <source>Table</source>
-        <translation type="unfinished">Table</translation>
+      <location filename="../dialogs/importdialog.ui" line="186"/>
+      <source>Table</source>
+      <translation>جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="193"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../dialogs/importdialog.ui" line="193"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="24"/>
-        <source>Data source to import from</source>
-        <translation type="unfinished">Data source to import from</translation>
+      <location filename="../dialogs/importdialog.ui" line="24"/>
+      <source>Data source to import from</source>
+      <translation>منبع داده‌ای که باید از آن وارد شود</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="69"/>
-        <source>Data source type</source>
-        <translation type="unfinished">Data source type</translation>
+      <location filename="../dialogs/importdialog.ui" line="69"/>
+      <source>Data source type</source>
+      <translation>نوع منبع داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="81"/>
-        <source>Options</source>
-        <translation type="unfinished">Options</translation>
+      <location filename="../dialogs/importdialog.ui" line="81"/>
+      <source>Options</source>
+      <translation>گزینه‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="115"/>
-        <source>Text encoding:</source>
-        <translation type="unfinished">Text encoding:</translation>
+      <location filename="../dialogs/importdialog.ui" line="115"/>
+      <source>Text encoding:</source>
+      <translation>کدگذاری متن:</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="122"/>
-        <source>Input file:</source>
-        <translation type="unfinished">Input file:</translation>
+      <location filename="../dialogs/importdialog.ui" line="122"/>
+      <source>Input file:</source>
+      <translation>فایل ورودی:</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="132"/>
-        <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</translation>
+      <location filename="../dialogs/importdialog.ui" line="132"/>
+      <source>&lt;p&gt;If enabled, any constraint violation, or invalid data format (wrong column count), or any other problem encountered during import will be ignored and the importing will be continued.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;اگر فعال باشد، هرگونه نقض محدودیت، یا قالب دادهٔ نامعتبر (تعداد ستون نادرست)، یا هر مشکل دیگری که هنگام وارد کردن رخ دهد نادیده گرفته می‌شود و وارد کردن ادامه می‌یابد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="135"/>
-        <source>Ignore errors</source>
-        <translation type="unfinished">Ignore errors</translation>
+      <location filename="../dialogs/importdialog.ui" line="135"/>
+      <source>Ignore errors</source>
+      <translation>نادیده گرفتن خطاها</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.ui" line="145"/>
-        <source>Data source options</source>
-        <translation type="unfinished">Data source options</translation>
+      <location filename="../dialogs/importdialog.ui" line="145"/>
+      <source>Data source options</source>
+      <translation>گزینه‌های منبع داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="131"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+      <location filename="../dialogs/importdialog.cpp" line="131"/>
+      <source>Cancel</source>
+      <translation>لغو</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
-        <source>If you type table name that doesn&apos;t exist, it will be created.</source>
-        <translation type="unfinished">If you type table name that doesn&apos;t exist, it will be created.</translation>
+      <location filename="../dialogs/importdialog.cpp" line="162"/>
+      <source>If you type table name that doesn&apos;t exist, it will be created.</source>
+      <translation>اگر نام جدولی را وارد کنید که &apos;وجود ندارد، ایجاد خواهد شد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
-        <source>Enter the table name</source>
-        <translation type="unfinished">Enter the table name</translation>
+      <location filename="../dialogs/importdialog.cpp" line="162"/>
+      <source>Enter the table name</source>
+      <translation>نام جدول را وارد کنید</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="180"/>
-        <source>Select import plugin.</source>
-        <translation type="unfinished">Select import plugin.</translation>
+      <location filename="../dialogs/importdialog.cpp" line="180"/>
+      <source>Select import plugin.</source>
+      <translation>افزونهٔ وارد کردن را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="189"/>
-        <source>You must provide a file to import from.</source>
-        <translation type="unfinished">You must provide a file to import from.</translation>
+      <location filename="../dialogs/importdialog.cpp" line="189"/>
+      <source>You must provide a file to import from.</source>
+      <translation>باید فایلی را برای وارد کردن از آن ارائه کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="196"/>
-        <source>The file &apos;%1&apos; does not exist.</source>
-        <translation type="unfinished">The file &apos;%1&apos; does not exist.</translation>
+      <location filename="../dialogs/importdialog.cpp" line="196"/>
+      <source>The file &apos;%1&apos; does not exist.</source>
+      <translation>فایل &apos;%1&apos; وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="202"/>
-        <source>Path you provided is a directory. A regular file is required.</source>
-        <translation type="unfinished">Path you provided is a directory. A regular file is required.</translation>
+      <location filename="../dialogs/importdialog.cpp" line="202"/>
+      <source>Path you provided is a directory. A regular file is required.</source>
+      <translation>مسیری که ارائه کرده‌اید یک پوشه است. یک فایل عادی لازم است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="395"/>
-        <source>Pick file to import from</source>
-        <translation type="unfinished">Pick file to import from</translation>
+      <location filename="../dialogs/importdialog.cpp" line="395"/>
+      <source>Pick file to import from</source>
+      <translation>فایل را برای وارد کردن از آن انتخاب کنید</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>IndexDialog</name>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="20"/>
-        <location filename="../dialogs/indexdialog.ui" line="30"/>
-        <source>Index</source>
-        <translation type="unfinished">Index</translation>
+      <location filename="../dialogs/indexdialog.ui" line="20"/>
+      <location filename="../dialogs/indexdialog.ui" line="30"/>
+      <source>Index</source>
+      <translation>اندیس</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="70"/>
-        <source>Column</source>
-        <translation type="unfinished">Column</translation>
+      <location filename="../dialogs/indexdialog.ui" line="70"/>
+      <source>Column</source>
+      <translation>ستون</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="75"/>
-        <source>Sort</source>
-        <translation type="unfinished">Sort</translation>
+      <location filename="../dialogs/indexdialog.ui" line="75"/>
+      <source>Sort</source>
+      <translation>مرتب‌سازی</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="80"/>
-        <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+      <location filename="../dialogs/indexdialog.ui" line="80"/>
+      <source>Collation</source>
+      <translation>ترتیب تطبیق</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="88"/>
-        <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+      <location filename="../dialogs/indexdialog.ui" line="88"/>
+      <source>On table:</source>
+      <translation>روی جدول:</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="98"/>
-        <source>Delete selected indexed expression</source>
-        <translation type="unfinished">Delete selected indexed expression</translation>
+      <location filename="../dialogs/indexdialog.ui" line="98"/>
+      <source>Delete selected indexed expression</source>
+      <translation>حذف عبارت اندیس‌شدهٔ انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="108"/>
-        <source>Moves selected index column up in the order, making it more significant in the index.</source>
-        <translation type="unfinished">Moves selected index column up in the order, making it more significant in the index.</translation>
+      <location filename="../dialogs/indexdialog.ui" line="108"/>
+      <source>Moves selected index column up in the order, making it more significant in the index.</source>
+      <translation>ستون اندیس انتخاب‌شده را در ترتیب به بالا می‌برد و آن را در اندیس مهم‌تر می‌کند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="118"/>
-        <source>Moves selected index column down in the order, making it less significant in the index.</source>
-        <translation type="unfinished">Moves selected index column down in the order, making it less significant in the index.</translation>
+      <location filename="../dialogs/indexdialog.ui" line="118"/>
+      <source>Moves selected index column down in the order, making it less significant in the index.</source>
+      <translation>ستون اندیس انتخاب‌شده را در ترتیب به پایین می‌برد و آن را در اندیس کم‌اهمیت‌تر می‌کند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="128"/>
-        <source>Partial index condition</source>
-        <translation type="unfinished">Partial index condition</translation>
+      <location filename="../dialogs/indexdialog.ui" line="128"/>
+      <source>Partial index condition</source>
+      <translation>شرط اندیس جزئی</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="135"/>
-        <source>Unique index</source>
-        <translation type="unfinished">Unique index</translation>
+      <location filename="../dialogs/indexdialog.ui" line="135"/>
+      <source>Unique index</source>
+      <translation>اندیس یکتا</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="142"/>
-        <source>Index name:</source>
-        <translation type="unfinished">Index name:</translation>
+      <location filename="../dialogs/indexdialog.ui" line="142"/>
+      <source>Index name:</source>
+      <translation>نام اندیس:</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="149"/>
-        <source>Edit selected indexed expression</source>
-        <translation type="unfinished">Edit selected indexed expression</translation>
+      <location filename="../dialogs/indexdialog.ui" line="149"/>
+      <source>Edit selected indexed expression</source>
+      <translation>ویرایش عبارت اندیس‌شدهٔ انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="169"/>
-        <source>Add indexed expression</source>
-        <translation type="unfinished">Add indexed expression</translation>
+      <location filename="../dialogs/indexdialog.ui" line="169"/>
+      <source>Add indexed expression</source>
+      <translation>افزودن عبارت اندیس‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.ui" line="180"/>
-        <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+      <location filename="../dialogs/indexdialog.ui" line="180"/>
+      <source>DDL</source>
+      <translation>زبان تعریف داده (DDL)</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="73"/>
-        <source>Tried to open index dialog for closed or inexisting database.</source>
-        <translation type="unfinished">Tried to open index dialog for closed or inexisting database.</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="73"/>
+      <source>Tried to open index dialog for closed or inexisting database.</source>
+      <translation>تلاش شد پنجرهٔ اندیس برای پایگاه دادهٔ بسته یا ناموجود باز شود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="143"/>
-        <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
-        <translation type="unfinished">Could not process index %1 correctly. Unable to open an index dialog.</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="143"/>
+      <source>Could not process index %1 correctly. Unable to open an index dialog.</source>
+      <translation>پردازش درست اندیس %1 ممکن نشد. باز کردن پنجرهٔ اندیس ممکن نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="196"/>
-        <source>Pick the table for the index.</source>
-        <translation type="unfinished">Pick the table for the index.</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="196"/>
+      <source>Pick the table for the index.</source>
+      <translation>جدول را برای اندیس انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="197"/>
-        <source>Select at least one column.</source>
-        <translation type="unfinished">Select at least one column.</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="197"/>
+      <source>Select at least one column.</source>
+      <translation>حداقل یک ستون را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="198"/>
-        <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="198"/>
+      <source>Enter a valid condition.</source>
+      <translation>یک شرط معتبر وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="270"/>
-        <source>default</source>
-        <comment>index dialog</comment>
-        <translation type="unfinished">default</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="270"/>
+      <source>default</source>
+      <comment>index dialog</comment>
+      <translation>پیش‌فرض</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="274"/>
-        <source>Sort order</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Sort order</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="274"/>
+      <source>Sort order</source>
+      <comment>table constraints</comment>
+      <translation>ترتیب مرتب‌سازی</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="768"/>
-        <location filename="../dialogs/indexdialog.cpp" line="781"/>
-        <source>Error</source>
-        <comment>index dialog</comment>
-        <translation type="unfinished">Error</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="768"/>
+      <location filename="../dialogs/indexdialog.cpp" line="781"/>
+      <source>Error</source>
+      <comment>index dialog</comment>
+      <translation>خطا</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="769"/>
-        <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
-        <translation type="unfinished">Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</translation>
+      <location filename="../dialogs/indexdialog.cpp" line="769"/>
+      <source>Cannot create unique index, because values in selected columns are not unique. Would you like to execute SELECT query to see problematic values?</source>
+      <translation>نمی‌توان اندیس یکتا ایجاد کرد، زیرا مقادیر در ستون‌های انتخاب‌شده یکتا نیستند. آیا می‌خواهید برای دیدن مقادیر مشکل‌ساز، پرس‌وجوی SELECT را اجرا کنید؟</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexdialog.cpp" line="781"/>
-        <source>An error occurred while executing SQL statements:
+      <location filename="../dialogs/indexdialog.cpp" line="781"/>
+      <source>An error occurred while executing SQL statements:
 %1</source>
-        <translation type="unfinished">An error occurred while executing SQL statements:
+      <translation>هنگام اجرای دستورهای SQL خطایی رخ داد:
 %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>IndexExprColumnDialog</name>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
-        <source>Indexed expression</source>
-        <translation type="unfinished">Indexed expression</translation>
+      <location filename="../dialogs/indexexprcolumndialog.ui" line="14"/>
+      <source>Indexed expression</source>
+      <translation>عبارت اندیس‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
-        <source>Expression to index</source>
-        <translation type="unfinished">Expression to index</translation>
+      <location filename="../dialogs/indexexprcolumndialog.ui" line="20"/>
+      <source>Expression to index</source>
+      <translation>عبارتی که باید اندیس شود</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
-        <source>This expression is already indexed by the index.</source>
-        <translation type="unfinished">This expression is already indexed by the index.</translation>
+      <location filename="../dialogs/indexexprcolumndialog.cpp" line="60"/>
+      <source>This expression is already indexed by the index.</source>
+      <translation>این عبارت از قبل توسط اندیس، اندیس شده است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
-        <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
-        <translation type="unfinished">Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</translation>
+      <location filename="../dialogs/indexexprcolumndialog.cpp" line="66"/>
+      <source>Column should be indexed directly, not by expression. Either extend this expression to contain something more than just column name, or abort and select this column in index dialog directly.</source>
+      <translation>ستون باید مستقیماً اندیس شود، نه با عبارت. یا این عبارت را گسترش دهید تا چیزی بیش از فقط نام ستون داشته باشد، یا لغو کنید و این ستون را مستقیماً در پنجرهٔ اندیس انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
-        <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
-        <translation type="unfinished">Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</translation>
+      <location filename="../dialogs/indexexprcolumndialog.cpp" line="76"/>
+      <source>Column &apos;%1&apos; does not belong to the table covered by this index. Indexed expressions can refer only to columns from the indexed table.</source>
+      <translation>ستون &apos;%1&apos; به جدولی که این اندیس پوشش می‌دهد تعلق ندارد. عبارت‌های اندیس‌شده فقط می‌توانند به ستون‌های جدول اندیس‌شده اشاره کنند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
-        <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
-        <translation type="unfinished">It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</translation>
+      <location filename="../dialogs/indexexprcolumndialog.cpp" line="84"/>
+      <source>It&apos;s forbidden to use &apos;SELECT&apos; statements in indexed expressions.</source>
+      <translation>استفاده از دستورهای &apos;SELECT&apos; در عبارت‌های اندیس‌شده &apos;ممنوع است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
-        <source>Enter an indexed expression.</source>
-        <translation type="unfinished">Enter an indexed expression.</translation>
+      <location filename="../dialogs/indexexprcolumndialog.cpp" line="105"/>
+      <source>Enter an indexed expression.</source>
+      <translation>یک عبارت اندیس‌شده وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
-        <source>Invalid expression.</source>
-        <translation type="unfinished">Invalid expression.</translation>
+      <location filename="../dialogs/indexexprcolumndialog.cpp" line="119"/>
+      <source>Invalid expression.</source>
+      <translation>عبارت نامعتبر است.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>LanguageDialog</name>
     <message>
-        <location filename="../dialogs/languagedialog.ui" line="14"/>
-        <source>Language</source>
-        <translation type="unfinished">Language</translation>
+      <location filename="../dialogs/languagedialog.ui" line="14"/>
+      <source>Language</source>
+      <translation>زبان</translation>
     </message>
     <message>
-        <location filename="../dialogs/languagedialog.ui" line="20"/>
-        <source>Please choose language:</source>
-        <translation type="unfinished">Please choose language:</translation>
+      <location filename="../dialogs/languagedialog.ui" line="20"/>
+      <source>Please choose language:</source>
+      <translation>لطفاً زبان را انتخاب کنید:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.ui" line="81"/>
-        <source>Database toolbar</source>
-        <translation type="unfinished">Database toolbar</translation>
+      <location filename="../mainwindow.ui" line="81"/>
+      <source>Database toolbar</source>
+      <translation>نوار ابزار پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="92"/>
-        <source>Structure toolbar</source>
-        <translation type="unfinished">Structure toolbar</translation>
+      <location filename="../mainwindow.ui" line="92"/>
+      <source>Structure toolbar</source>
+      <translation>نوار ابزار ساختار</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="103"/>
-        <source>Tools</source>
-        <translation type="unfinished">Tools</translation>
+      <location filename="../mainwindow.ui" line="103"/>
+      <source>Tools</source>
+      <translation>ابزارها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="120"/>
-        <source>Window list</source>
-        <translation type="unfinished">Window list</translation>
+      <location filename="../mainwindow.ui" line="120"/>
+      <source>Window list</source>
+      <translation>فهرست پنجره‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="134"/>
-        <source>View toolbar</source>
-        <translation type="unfinished">View toolbar</translation>
+      <location filename="../mainwindow.ui" line="134"/>
+      <source>View toolbar</source>
+      <translation>نوار ابزار نما</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="145"/>
-        <source>Configuration widgets</source>
-        <translation type="unfinished">Configuration widgets</translation>
+      <location filename="../mainwindow.cpp" line="145"/>
+      <source>Configuration widgets</source>
+      <translation>ویجت‌های پیکربندی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="146"/>
-        <source>Syntax highlighting engines</source>
-        <translation type="unfinished">Syntax highlighting engines</translation>
+      <location filename="../mainwindow.cpp" line="146"/>
+      <source>Syntax highlighting engines</source>
+      <translation>موتورهای برجسته‌سازی نحو</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="147"/>
-        <source>Data editors</source>
-        <translation type="unfinished">Data editors</translation>
+      <location filename="../mainwindow.cpp" line="147"/>
+      <source>Data editors</source>
+      <translation>ویرایشگرهای داده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="160"/>
-        <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
-        <translation type="unfinished">Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</translation>
+      <location filename="../mainwindow.cpp" line="160"/>
+      <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
+      <translation>در حالت اشکال‌زدایی اجرا می‌شود. برای باز کردن کنسول اشکال‌زدایی، %1 را فشار دهید یا از مدخل منوی &apos;راهنما / باز کردن کنسول اشکال‌زدایی&apos; استفاده کنید.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="162"/>
-        <source>Running in debug mode. Debug messages are printed to the standard output.</source>
-        <translation type="unfinished">Running in debug mode. Debug messages are printed to the standard output.</translation>
+      <location filename="../mainwindow.cpp" line="162"/>
+      <source>Running in debug mode. Debug messages are printed to the standard output.</source>
+      <translation>در حالت اشکال‌زدایی اجرا می‌شود. پیام‌های اشکال‌زدایی در خروجی استاندارد چاپ می‌شوند.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="272"/>
-        <source>You need to restart application to make the language change take effect.</source>
-        <translation type="unfinished">You need to restart application to make the language change take effect.</translation>
+      <location filename="../mainwindow.cpp" line="272"/>
+      <source>You need to restart application to make the language change take effect.</source>
+      <translation>برای اعمال تغییر زبان، باید برنامه را دوباره راه‌اندازی کنید.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="317"/>
-        <source>Open SQL &amp;editor</source>
-        <translation type="unfinished">Open SQL &amp;editor</translation>
+      <location filename="../mainwindow.cpp" line="317"/>
+      <source>Open SQL &amp;editor</source>
+      <translation>باز کردن &amp;ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="361"/>
-        <source>Open DDL &amp;history</source>
-        <translation type="unfinished">Open DDL &amp;history</translation>
+      <location filename="../mainwindow.cpp" line="361"/>
+      <source>Open DDL &amp;history</source>
+      <translation>باز کردن &amp;تاریخچهٔ DDL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="318"/>
-        <source>Open SQL &amp;functions editor</source>
-        <translation type="unfinished">Open SQL &amp;functions editor</translation>
+      <location filename="../mainwindow.cpp" line="318"/>
+      <source>Open SQL &amp;functions editor</source>
+      <translation>باز کردن ویرایشگر &amp;توابع SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="319"/>
-        <source>Open code &amp;snippets editor</source>
-        <translation type="unfinished">Open code &amp;snippets editor</translation>
+      <location filename="../mainwindow.cpp" line="319"/>
+      <source>Open code &amp;snippets editor</source>
+      <translation>باز کردن ویرایشگر &amp;قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="320"/>
-        <source>Open &amp;collations editor</source>
-        <translation type="unfinished">Open &amp;collations editor</translation>
+      <location filename="../mainwindow.cpp" line="320"/>
+      <source>Open &amp;collations editor</source>
+      <translation>باز کردن ویرایشگر &amp;ترتیب‌های تطبیق</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="321"/>
-        <source>Open ex&amp;tension manager</source>
-        <translation type="unfinished">Open ex&amp;tension manager</translation>
+      <location filename="../mainwindow.cpp" line="321"/>
+      <source>Open ex&amp;tension manager</source>
+      <translation>باز کردن مدیر ا&amp;فزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="323"/>
-        <source>&amp;Import</source>
-        <translation type="unfinished">&amp;Import</translation>
+      <location filename="../mainwindow.cpp" line="323"/>
+      <source>&amp;Import</source>
+      <translation>&amp;وارد کردن</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="324"/>
-        <source>E&amp;xport</source>
-        <translation type="unfinished">E&amp;xport</translation>
+      <location filename="../mainwindow.cpp" line="324"/>
+      <source>E&amp;xport</source>
+      <translation>&amp;صادر کردن</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="325"/>
-        <source>Open confi&amp;guration dialog</source>
-        <translation type="unfinished">Open confi&amp;guration dialog</translation>
+      <location filename="../mainwindow.cpp" line="325"/>
+      <source>Open confi&amp;guration dialog</source>
+      <translation>باز کردن پنجرهٔ &amp;پیکربندی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="327"/>
-        <source>&amp;Tile windows</source>
-        <translation type="unfinished">&amp;Tile windows</translation>
+      <location filename="../mainwindow.cpp" line="327"/>
+      <source>&amp;Tile windows</source>
+      <translation>&amp;چیدن پنجره‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="328"/>
-        <source>Tile windows &amp;horizontally</source>
-        <translation type="unfinished">Tile windows &amp;horizontally</translation>
+      <location filename="../mainwindow.cpp" line="328"/>
+      <source>Tile windows &amp;horizontally</source>
+      <translation>چیدن پنجره‌ها به‌صورت &amp;افقی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="329"/>
-        <source>Tile windows &amp;vertically</source>
-        <translation type="unfinished">Tile windows &amp;vertically</translation>
+      <location filename="../mainwindow.cpp" line="329"/>
+      <source>Tile windows &amp;vertically</source>
+      <translation>چیدن پنجره‌ها به‌صورت &amp;عمودی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="330"/>
-        <source>&amp;Cascade windows</source>
-        <translation type="unfinished">&amp;Cascade windows</translation>
+      <location filename="../mainwindow.cpp" line="330"/>
+      <source>&amp;Cascade windows</source>
+      <translation>&amp;آبشاری کردن پنجره‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="332"/>
-        <source>Next window</source>
-        <translation type="unfinished">Next window</translation>
+      <location filename="../mainwindow.cpp" line="332"/>
+      <source>Next window</source>
+      <translation>پنجرهٔ بعدی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="331"/>
-        <source>Previous window</source>
-        <translation type="unfinished">Previous window</translation>
+      <location filename="../mainwindow.cpp" line="331"/>
+      <source>Previous window</source>
+      <translation>پنجرهٔ قبلی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="335"/>
-        <source>Hide status field</source>
-        <translation type="unfinished">Hide status field</translation>
+      <location filename="../mainwindow.cpp" line="335"/>
+      <source>Hide status field</source>
+      <translation>پنهان کردن فیلد وضعیت</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="339"/>
-        <source>Close &amp;all windows</source>
-        <translation type="unfinished">Close &amp;all windows</translation>
+      <location filename="../mainwindow.cpp" line="339"/>
+      <source>Close &amp;all windows</source>
+      <translation>بستن &amp;همهٔ پنجره‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="342"/>
-        <source>Re&amp;store recently closed window</source>
-        <translation type="unfinished">Re&amp;store recently closed window</translation>
+      <location filename="../mainwindow.cpp" line="342"/>
+      <source>Re&amp;store recently closed window</source>
+      <translation>بازیابی پنجرهٔ &amp;اخیراً بسته‌شده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="337"/>
-        <source>Close current &amp;window</source>
-        <translation type="unfinished">Close current &amp;window</translation>
+      <location filename="../mainwindow.cpp" line="337"/>
+      <source>Close current &amp;window</source>
+      <translation>بستن پنجرهٔ &amp;فعلی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="148"/>
-        <source>Data renderers</source>
-        <translation type="unfinished">Data renderers</translation>
+      <location filename="../mainwindow.cpp" line="148"/>
+      <source>Data renderers</source>
+      <translation>نمایش‌دهنده‌های داده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="338"/>
-        <source>Close &amp;other windows</source>
-        <translation type="unfinished">Close &amp;other windows</translation>
+      <location filename="../mainwindow.cpp" line="338"/>
+      <source>Close &amp;other windows</source>
+      <translation>بستن پنجره‌های &amp;دیگر</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="340"/>
-        <source>Close windows on the &amp;left</source>
-        <translation type="unfinished">Close windows on the &amp;left</translation>
+      <location filename="../mainwindow.cpp" line="340"/>
+      <source>Close windows on the &amp;left</source>
+      <translation>بستن پنجره‌های سمت &amp;چپ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="341"/>
-        <source>Close windows on the &amp;right</source>
-        <translation type="unfinished">Close windows on the &amp;right</translation>
+      <location filename="../mainwindow.cpp" line="341"/>
+      <source>Close windows on the &amp;right</source>
+      <translation>بستن پنجره‌های سمت &amp;راست</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="343"/>
-        <source>Re&amp;name selected window</source>
-        <translation type="unfinished">Re&amp;name selected window</translation>
+      <location filename="../mainwindow.cpp" line="343"/>
+      <source>Re&amp;name selected window</source>
+      <translation>تغییر &amp;نام پنجرهٔ انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="346"/>
-        <source>Open Debug Console</source>
-        <translation type="unfinished">Open Debug Console</translation>
+      <location filename="../mainwindow.cpp" line="346"/>
+      <source>Open Debug Console</source>
+      <translation>باز کردن کنسول اشکال‌زدایی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="347"/>
-        <source>Open CSS Console</source>
-        <translation type="unfinished">Open CSS Console</translation>
+      <location filename="../mainwindow.cpp" line="347"/>
+      <source>Open CSS Console</source>
+      <translation>باز کردن کنسول CSS</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="348"/>
-        <source>Report a &amp;bug</source>
-        <translation type="unfinished">Report a &amp;bug</translation>
+      <location filename="../mainwindow.cpp" line="348"/>
+      <source>Report a &amp;bug</source>
+      <translation>گزارش یک &amp;اشکال</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="349"/>
-        <source>D&amp;onate</source>
-        <translation type="unfinished">D&amp;onate</translation>
+      <location filename="../mainwindow.cpp" line="349"/>
+      <source>D&amp;onate</source>
+      <translation>&amp;اهدای کمک</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="350"/>
-        <source>Propose a new &amp;feature</source>
-        <translation type="unfinished">Propose a new &amp;feature</translation>
+      <location filename="../mainwindow.cpp" line="350"/>
+      <source>Propose a new &amp;feature</source>
+      <translation>پیشنهاد یک &amp;ویژگی جدید</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="351"/>
-        <source>&amp;About</source>
-        <translation type="unfinished">&amp;About</translation>
+      <location filename="../mainwindow.cpp" line="351"/>
+      <source>&amp;About</source>
+      <translation>&amp;درباره</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="352"/>
-        <source>&amp;Licenses</source>
-        <translation type="unfinished">&amp;Licenses</translation>
+      <location filename="../mainwindow.cpp" line="352"/>
+      <source>&amp;Licenses</source>
+      <translation>&amp;مجوزها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="353"/>
-        <source>Open home &amp;page</source>
-        <translation type="unfinished">Open home &amp;page</translation>
+      <location filename="../mainwindow.cpp" line="353"/>
+      <source>Open home &amp;page</source>
+      <translation>باز کردن &amp;صفحهٔ اصلی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="354"/>
-        <source>User &amp;Manual</source>
-        <translation type="unfinished">User &amp;Manual</translation>
+      <location filename="../mainwindow.cpp" line="354"/>
+      <source>User &amp;Manual</source>
+      <translation>&amp;راهنمای کاربر</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="355"/>
-        <source>SQLite &amp;documentation</source>
-        <translation type="unfinished">SQLite &amp;documentation</translation>
+      <location filename="../mainwindow.cpp" line="355"/>
+      <source>SQLite &amp;documentation</source>
+      <translation>&amp;مستندات SQLite</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="356"/>
-        <source>Bugs and feature &amp;requests</source>
-        <translation type="unfinished">Bugs and feature &amp;requests</translation>
+      <location filename="../mainwindow.cpp" line="356"/>
+      <source>Bugs and feature &amp;requests</source>
+      <translation>اشکال‌ها و درخواست‌های &amp;ویژگی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="357"/>
-        <source>Quit</source>
-        <translation type="unfinished">Quit</translation>
+      <location filename="../mainwindow.cpp" line="357"/>
+      <source>Quit</source>
+      <translation>خروج</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="359"/>
-        <source>Check for &amp;updates</source>
-        <translation type="unfinished">Check for &amp;updates</translation>
+      <location filename="../mainwindow.cpp" line="359"/>
+      <source>Check for &amp;updates</source>
+      <translation>بررسی &amp;به‌روزرسانی‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="390"/>
-        <source>&amp;Database</source>
-        <comment>menubar</comment>
-        <translation type="unfinished">&amp;Database</translation>
+      <location filename="../mainwindow.cpp" line="390"/>
+      <source>&amp;Database</source>
+      <comment>menubar</comment>
+      <translation>&amp;پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="415"/>
-        <source>&amp;Structure</source>
-        <comment>menubar</comment>
-        <translation type="unfinished">&amp;Structure</translation>
+      <location filename="../mainwindow.cpp" line="415"/>
+      <source>&amp;Structure</source>
+      <comment>menubar</comment>
+      <translation>&amp;ساختار</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="766"/>
-        <source>&amp;View</source>
-        <comment>menubar</comment>
-        <translation type="unfinished">&amp;View</translation>
+      <location filename="../mainwindow.cpp" line="766"/>
+      <source>&amp;View</source>
+      <comment>menubar</comment>
+      <translation>&amp;نما</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1450"/>
-        <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
-        <translation type="unfinished">The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</translation>
+      <location filename="../mainwindow.cpp" line="1450"/>
+      <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
+      <translation>به‌نظر می‌رسد فایل رهاشده یک پایگاه دادهٔ SQLite 2 است که توسط این نسخهٔ Letos پشتیبانی نمی‌شود. آخرین نسخه‌ای که از SQLite 2 پشتیبانی می‌کرد 3.2.1 بود.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="441"/>
-        <source>Window list</source>
-        <comment>menubar view menu</comment>
-        <translation type="unfinished">Window list</translation>
+      <location filename="../mainwindow.cpp" line="441"/>
+      <source>Window list</source>
+      <comment>menubar view menu</comment>
+      <translation>فهرست پنجره‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="333"/>
-        <source>Move window earlier</source>
-        <translation type="unfinished">Move window earlier</translation>
+      <location filename="../mainwindow.cpp" line="333"/>
+      <source>Move window earlier</source>
+      <translation>انتقال پنجره به قبل</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="334"/>
-        <source>Move window later</source>
-        <translation type="unfinished">Move window later</translation>
+      <location filename="../mainwindow.cpp" line="334"/>
+      <source>Move window later</source>
+      <translation>انتقال پنجره به بعد</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="345"/>
-        <source>Open Command Palette</source>
-        <translation type="unfinished">Open Command Palette</translation>
+      <location filename="../mainwindow.cpp" line="345"/>
+      <source>Open Command Palette</source>
+      <translation>باز کردن پالت فرمان</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="362"/>
-        <source>Export configuration</source>
-        <translation type="unfinished">Export configuration</translation>
+      <location filename="../mainwindow.cpp" line="362"/>
+      <source>Export configuration</source>
+      <translation>صادر کردن پیکربندی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="363"/>
-        <source>Import configuration</source>
-        <translation type="unfinished">Import configuration</translation>
+      <location filename="../mainwindow.cpp" line="363"/>
+      <source>Import configuration</source>
+      <translation>وارد کردن پیکربندی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="382"/>
-        <source>arrange</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">arrange</translation>
+      <location filename="../mainwindow.cpp" line="382"/>
+      <source>arrange</source>
+      <comment>command palette entry</comment>
+      <translation>چیدمان</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="471"/>
-        <source>&amp;Tools</source>
-        <comment>menubar</comment>
-        <translation type="unfinished">&amp;Tools</translation>
+      <location filename="../mainwindow.cpp" line="471"/>
+      <source>&amp;Tools</source>
+      <comment>menubar</comment>
+      <translation>&amp;ابزارها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="491"/>
-        <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Help</translation>
+      <location filename="../mainwindow.cpp" line="491"/>
+      <source>&amp;Help</source>
+      <translation>&amp;راهنما</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="703"/>
-        <source>Could not set style: %1</source>
-        <comment>main window</comment>
-        <translation type="unfinished">Could not set style: %1</translation>
+      <location filename="../mainwindow.cpp" line="703"/>
+      <source>Could not set style: %1</source>
+      <comment>main window</comment>
+      <translation>تنظیم سبک ممکن نشد: %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="940"/>
-        <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <location filename="../mainwindow.cpp" line="940"/>
+      <source>Cannot export, because no export plugin is loaded.</source>
+      <translation>نمی‌توان صادر کرد، زیرا هیچ افزونهٔ صدوری بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="957"/>
-        <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+      <location filename="../mainwindow.cpp" line="957"/>
+      <source>Cannot import, because no import plugin is loaded.</source>
+      <translation>نمی‌توان وارد کرد، زیرا هیچ افزونهٔ واردکردنی بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1000"/>
-        <source>Rename window</source>
-        <translation type="unfinished">Rename window</translation>
+      <location filename="../mainwindow.cpp" line="1000"/>
+      <source>Rename window</source>
+      <translation>تغییر نام پنجره</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1000"/>
-        <source>Enter new name for the window:</source>
-        <translation type="unfinished">Enter new name for the window:</translation>
+      <location filename="../mainwindow.cpp" line="1000"/>
+      <source>Enter new name for the window:</source>
+      <translation>نام جدید پنجره را وارد کنید:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1110"/>
-        <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
-        <translation type="unfinished">New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</translation>
+      <location filename="../mainwindow.cpp" line="1110"/>
+      <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
+      <translation>به‌روزرسانی‌های جدید در دسترس هستند. &lt;a href=&quot;%1&quot;&gt;برای جزئیات اینجا کلیک کنید&lt;/a&gt;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1116"/>
-        <source>You&apos;re running the most recent version. No updates are available.</source>
-        <translation type="unfinished">You&apos;re running the most recent version. No updates are available.</translation>
+      <location filename="../mainwindow.cpp" line="1116"/>
+      <source>You&apos;re running the most recent version. No updates are available.</source>
+      <translation>شما&apos; جدیدترین نسخه را اجرا می‌کنید. هیچ به‌روزرسانی‌ای در دسترس نیست.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1171"/>
-        <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
-        <translation type="unfinished">Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</translation>
+      <location filename="../mainwindow.cpp" line="1171"/>
+      <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
+      <translation>Letos آزاد و متن‌باز است. اگر در کارتان به شما کمک می‌کند، &lt;a href=&quot;%1&quot;&gt;پشتیبانی از پروژه&lt;/a&gt; را در نظر بگیرید.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1256"/>
-        <source>Toolbar &amp;icons</source>
-        <comment>menubar</comment>
-        <translation type="unfinished">Toolbar &amp;icons</translation>
+      <location filename="../mainwindow.cpp" line="1256"/>
+      <source>Toolbar &amp;icons</source>
+      <comment>menubar</comment>
+      <translation>&amp;نمادهای نوار ابزار</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1263"/>
-        <source>Size: %1%</source>
-        <comment>toolbar icons</comment>
-        <translation type="unfinished">Size: %1%</translation>
+      <location filename="../mainwindow.cpp" line="1263"/>
+      <source>Size: %1%</source>
+      <comment>toolbar icons</comment>
+      <translation>اندازه: %1%</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1351"/>
-        <source>Drop files to open them</source>
-        <translation type="unfinished">Drop files to open them</translation>
+      <location filename="../mainwindow.cpp" line="1351"/>
+      <source>Drop files to open them</source>
+      <translation>فایل‌ها را رها کنید تا باز شوند</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1453"/>
-        <source>The dropped file type is unsupported: %1 (%2)</source>
-        <translation type="unfinished">The dropped file type is unsupported: %1 (%2)</translation>
+      <location filename="../mainwindow.cpp" line="1453"/>
+      <source>The dropped file type is unsupported: %1 (%2)</source>
+      <translation>نوع فایل رهاشده پشتیبانی نمی‌شود: %1 (%2)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1463"/>
-        <source>SQLite 3 database - add to database list and open</source>
-        <translation type="unfinished">SQLite 3 database - add to database list and open</translation>
+      <location filename="../mainwindow.cpp" line="1463"/>
+      <source>SQLite 3 database - add to database list and open</source>
+      <translation>پایگاه دادهٔ SQLite 3 - افزودن به فهرست پایگاه داده‌ها و باز کردن</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1465"/>
-        <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
-        <translation type="unfinished">It may be an encrypted SQLite 3 database. You can try to open it.</translation>
+      <location filename="../mainwindow.cpp" line="1465"/>
+      <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
+      <translation>ممکن است یک پایگاه دادهٔ رمزگذاری‌شدهٔ SQLite 3 باشد. می‌توانید برای باز کردن آن تلاش کنید.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1467"/>
-        <source>Empty file, but also empty SQLite 3 database - open as database</source>
-        <translation type="unfinished">Empty file, but also empty SQLite 3 database - open as database</translation>
+      <location filename="../mainwindow.cpp" line="1467"/>
+      <source>Empty file, but also empty SQLite 3 database - open as database</source>
+      <translation>فایل خالی، اما همچنین پایگاه دادهٔ خالی SQLite 3 - باز کردن به‌عنوان پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1469"/>
-        <source>SQL file - open in SQL Editor</source>
-        <translation type="unfinished">SQL file - open in SQL Editor</translation>
+      <location filename="../mainwindow.cpp" line="1469"/>
+      <source>SQL file - open in SQL Editor</source>
+      <translation>فایل SQL - باز کردن در ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1471"/>
-        <source>Text file - open in SQL Editor</source>
-        <translation type="unfinished">Text file - open in SQL Editor</translation>
+      <location filename="../mainwindow.cpp" line="1471"/>
+      <source>Text file - open in SQL Editor</source>
+      <translation>فایل متنی - باز کردن در ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1473"/>
-        <source>CSV file - import using Import Dialog</source>
-        <translation type="unfinished">CSV file - import using Import Dialog</translation>
+      <location filename="../mainwindow.cpp" line="1473"/>
+      <source>CSV file - import using Import Dialog</source>
+      <translation>فایل CSV - وارد کردن با استفاده از پنجرهٔ وارد کردن</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1475"/>
-        <source>SQLite 2 database - not supported anymore</source>
-        <translation type="unfinished">SQLite 2 database - not supported anymore</translation>
+      <location filename="../mainwindow.cpp" line="1475"/>
+      <source>SQLite 2 database - not supported anymore</source>
+      <translation>پایگاه دادهٔ SQLite 2 - دیگر پشتیبانی نمی‌شود</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1477"/>
-        <source>Unsupported file type</source>
-        <translation type="unfinished">Unsupported file type</translation>
+      <location filename="../mainwindow.cpp" line="1477"/>
+      <source>Unsupported file type</source>
+      <translation>نوع فایل پشتیبانی‌نشده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1576"/>
-        <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
-        <translation type="unfinished">Database passed in command line parameters (%1) was already on the list under name: %2</translation>
+      <location filename="../mainwindow.cpp" line="1576"/>
+      <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
+      <translation>پایگاه دادهٔ ارائه‌شده در پارامترهای خط فرمان (%1) از قبل با نام %2 در فهرست بود</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1583"/>
-        <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
-        <translation type="unfinished">Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</translation>
+      <location filename="../mainwindow.cpp" line="1583"/>
+      <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
+      <translation>پایگاه دادهٔ ارائه‌شده در پارامترهای خط فرمان (%1) به‌طور موقت با نام %2 به فهرست افزوده شد</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1588"/>
-        <source>Could not add database %1 to list.</source>
-        <translation type="unfinished">Could not add database %1 to list.</translation>
+      <location filename="../mainwindow.cpp" line="1588"/>
+      <source>Could not add database %1 to list.</source>
+      <translation>افزودن پایگاه دادهٔ %1 به فهرست ممکن نشد.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ManualCommitPendingTxDialog</name>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
-        <source>Pending transaction</source>
-        <translation type="unfinished">Pending transaction</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="14"/>
+      <source>Pending transaction</source>
+      <translation>تراکنش در انتظار</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
-        <source>Roll Back Transaction</source>
-        <translation type="unfinished">Roll Back Transaction</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="20"/>
+      <source>Roll Back Transaction</source>
+      <translation>بازگردانی تراکنش</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
-        <source>Discard changes made within the transaction and proceed</source>
-        <translation type="unfinished">Discard changes made within the transaction and proceed</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="23"/>
+      <source>Discard changes made within the transaction and proceed</source>
+      <translation>دور انداختن تغییرات انجام‌شده درون تراکنش و ادامه</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
-        <source>Commit Transaction</source>
-        <translation type="unfinished">Commit Transaction</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="30"/>
+      <source>Commit Transaction</source>
+      <translation>ثبت تراکنش</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
-        <source>Save transaction changes and proceed</source>
-        <translation type="unfinished">Save transaction changes and proceed</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="33"/>
+      <source>Save transaction changes and proceed</source>
+      <translation>ذخیره تغییرات تراکنش و ادامه</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
-        <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="40"/>
+      <source>Cancel</source>
+      <translation>لغو</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
-        <source>Keep the transaction open and stay with the current database</source>
-        <translation type="unfinished">Keep the transaction open and stay with the current database</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="43"/>
+      <source>Keep the transaction open and stay with the current database</source>
+      <translation>باز نگه داشتن تراکنش و ماندن با پایگاه داده فعلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="50"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;What would you like to do with this transaction?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;می‌خواهید با این تراکنش چه کنید؟&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/manualcommitpendingtxdialog.ui" line="64"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;The current database connection (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) has an active manual transaction with pending changes that have not been committed yet.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;اتصال پایگاه‌دادهٔ فعلی (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) یک تراکنش دستی فعال با تغییرات در انتظار دارد که هنوز ثبت نشده‌اند.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ManualCommitWalModeDialog</name>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
-        <source>WAL mode for manual commits</source>
-        <translation type="unfinished">WAL mode for manual commits</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="14"/>
+      <source>WAL mode for manual commits</source>
+      <translation>حالت WAL برای ثبت‌های دستی</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="20"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;This database (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) is not currently using WAL (Write-Ahead Logging) journal mode.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Manual commit mode requires WAL mode to be enabled.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;WAL mode allows other connections and parts of the application to continue reading the database while a write transaction is open. Without WAL mode, an open transaction could block schema refreshes, data browsing and other database operations.&lt;/p&gt;&lt;p&gt;Please note:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WAL mode affects the database file itself and will be used by all future connections to this database until changed again with &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt;.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite still allows only one active write transaction at a time, even in WAL mode.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Read more about WAL at &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;این پایگاه‌داده (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;%1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;) در حال حاضر از حالت ژورنال WAL (Write-Ahead Logging) استفاده نمی‌کند.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;حالت ثبت دستی نیاز دارد که حالت WAL فعال باشد.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;حالت WAL به اتصال‌های دیگر و بخش‌های دیگر برنامه اجازه می‌دهد در حالی که یک تراکنش نوشتن باز است، خواندن پایگاه‌داده را ادامه دهند. بدون حالت WAL، یک تراکنش باز می‌تواند تازه‌سازی طرح‌واره، مرور داده‌ها و دیگر عملیات پایگاه‌داده را مسدود کند.&lt;/p&gt;&lt;p&gt;لطفاً توجه کنید:&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;حالت WAL بر خود فایل پایگاه‌داده اثر می‌گذارد و تا زمانی که دوباره با &lt;span style=&quot; font-family:&apos;monospace&apos;;&quot;&gt;PRAGMA journal_mode&lt;/span&gt; تغییر کند، توسط همهٔ اتصال‌های آینده به این پایگاه‌داده استفاده خواهد شد.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SQLite حتی در حالت WAL نیز همچنان در هر زمان فقط یک تراکنش نوشتن فعال را مجاز می‌داند.&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;دربارهٔ WAL بیشتر بخوانید در &lt;a href=&quot;https://sqlite.org/wal.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#1d99f3;&quot;&gt;https://sqlite.org/wal.html&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
-        <source>Keep current journal mode</source>
-        <translation type="unfinished">Keep current journal mode</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="43"/>
+      <source>Keep current journal mode</source>
+      <translation>حالت ژورنال فعلی را نگه دارید</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
-        <source>and use auto-commits</source>
-        <translation type="unfinished">and use auto-commits</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="46"/>
+      <source>and use auto-commits</source>
+      <translation>و استفاده از ثبت‌های خودکار</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
-        <source>Enable WAL mode</source>
-        <translation type="unfinished">Enable WAL mode</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="53"/>
+      <source>Enable WAL mode</source>
+      <translation>فعال کردن حالت WAL</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
-        <source>and use manual commits</source>
-        <translation type="unfinished">and use manual commits</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="56"/>
+      <source>and use manual commits</source>
+      <translation>و استفاده از ثبت‌های دستی</translation>
     </message>
     <message>
-        <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/manualcommitwalmodedialog.ui" line="63"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;Do you want to enable WAL mode and continue?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:700;&quot;&gt;آیا می‌خواهید حالت WAL را فعال کنید و ادامه دهید؟&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MdiWindow</name>
     <message>
-        <location filename="../mdiwindow.cpp" line="204"/>
-        <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+      <location filename="../mdiwindow.cpp" line="204"/>
+      <source>Uncommitted changes</source>
+      <translation>تغییرات ثبت‌نشده</translation>
     </message>
     <message>
-        <location filename="../mdiwindow.cpp" line="209"/>
-        <source>Close anyway</source>
-        <translation type="unfinished">Close anyway</translation>
+      <location filename="../mdiwindow.cpp" line="209"/>
+      <source>Close anyway</source>
+      <translation>به‌هرحال ببند</translation>
     </message>
     <message>
-        <location filename="../mdiwindow.cpp" line="211"/>
-        <source>Don&apos;t close</source>
-        <translation type="unfinished">Don&apos;t close</translation>
+      <location filename="../mdiwindow.cpp" line="211"/>
+      <source>Don&apos;t close</source>
+      <translation>&apos;نبند</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditor</name>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="70"/>
-        <location filename="../multieditor/multieditor.cpp" line="590"/>
-        <source>Null value</source>
-        <comment>multieditor</comment>
-        <translation type="unfinished">Null value</translation>
+      <location filename="../multieditor/multieditor.cpp" line="70"/>
+      <location filename="../multieditor/multieditor.cpp" line="590"/>
+      <source>Null value</source>
+      <comment>multieditor</comment>
+      <translation>مقدار Null</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="80"/>
-        <source>Save this value to a file</source>
-        <translation type="unfinished">Save this value to a file</translation>
+      <location filename="../multieditor/multieditor.cpp" line="80"/>
+      <source>Save this value to a file</source>
+      <translation>ذخیرهٔ این مقدار در فایل</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="83"/>
-        <source>Load this value from a file</source>
-        <translation type="unfinished">Load this value from a file</translation>
+      <location filename="../multieditor/multieditor.cpp" line="83"/>
+      <source>Load this value from a file</source>
+      <translation>بارگذاری این مقدار از فایل</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="94"/>
-        <source>Configure editors for this data type</source>
-        <translation type="unfinished">Configure editors for this data type</translation>
+      <location filename="../multieditor/multieditor.cpp" line="94"/>
+      <source>Configure editors for this data type</source>
+      <translation>پیکربندی ویرایشگرها برای این نوع داده</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="102"/>
-        <source>Open another tab</source>
-        <translation type="unfinished">Open another tab</translation>
+      <location filename="../multieditor/multieditor.cpp" line="102"/>
+      <source>Open another tab</source>
+      <translation>باز کردن زبانهٔ دیگر</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="118"/>
-        <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+      <location filename="../multieditor/multieditor.cpp" line="118"/>
+      <source>Reset value</source>
+      <translation>بازنشانی مقدار</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="376"/>
-        <source>Foreign Key</source>
-        <translation type="unfinished">Foreign Key</translation>
+      <location filename="../multieditor/multieditor.cpp" line="376"/>
+      <source>Foreign Key</source>
+      <translation>کلید خارجی</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="434"/>
-        <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="434"/>
+      <source>All files (*)</source>
+      <translation>همهٔ فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="436"/>
-        <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
-        <translation type="unfinished">Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="436"/>
+      <source>Text files (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</source>
+      <translation>فایل‌های متنی (*.txt *.log *.csv *.tsv *.md *.json *.xml *.yaml *.yml)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="438"/>
-        <source>SQL files (*.sql)</source>
-        <translation type="unfinished">SQL files (*.sql)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="438"/>
+      <source>SQL files (*.sql)</source>
+      <translation>فایل‌های SQL (*.sql)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="440"/>
-        <source>Binary data (*.bin *.dat *.raw)</source>
-        <translation type="unfinished">Binary data (*.bin *.dat *.raw)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="440"/>
+      <source>Binary data (*.bin *.dat *.raw)</source>
+      <translation>دادهٔ دودویی (*.bin *.dat *.raw)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="442"/>
-        <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
-        <translation type="unfinished">Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="442"/>
+      <source>Images (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</source>
+      <translation>تصاویر (*.jpeg *.jpg *.png *.bmp *.gif *.tiff *.jp2 *.svg *.tga *.icns *.webp *.wbmp *.mng)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="444"/>
-        <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
-        <translation type="unfinished">Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="444"/>
+      <source>Archives (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</source>
+      <translation>بایگانی‌ها (*.zip *.7z *.rar *.tar *.gz *.bz2 *.xz)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="446"/>
-        <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
-        <translation type="unfinished">Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="446"/>
+      <source>Documents (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</source>
+      <translation>سندها (*.pdf *.rtf *.doc *.docx *.odt *.xls *.xlsx *.ods)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="448"/>
-        <source>Executables (*.exe *.dll *.so *.dylib)</source>
-        <translation type="unfinished">Executables (*.exe *.dll *.so *.dylib)</translation>
+      <location filename="../multieditor/multieditor.cpp" line="448"/>
+      <source>Executables (*.exe *.dll *.so *.dylib)</source>
+      <translation>فایل‌های اجرایی (*.exe *.dll *.so *.dylib)</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="472"/>
-        <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
-        <translation>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%1&apos; data type. {1&apos;?} {2&apos;?} {1&apos; or 2&apos;?}</translation>
+      <location filename="../multieditor/multieditor.cpp" line="472"/>
+      <source>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%2&apos; data type.</source>
+      <translation>Data editor plugin &apos;%1&apos; not loaded, while it is defined for editing &apos;%1&apos; data type. {1&apos;?} {2&apos;?} {1&apos; or 2&apos;?}</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="578"/>
-        <source>Deleted</source>
-        <comment>multieditor</comment>
-        <translation type="unfinished">Deleted</translation>
+      <location filename="../multieditor/multieditor.cpp" line="578"/>
+      <source>Deleted</source>
+      <comment>multieditor</comment>
+      <translation>حذف‌شده</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="580"/>
-        <source>Read only</source>
-        <comment>multieditor</comment>
-        <translation type="unfinished">Read only</translation>
+      <location filename="../multieditor/multieditor.cpp" line="580"/>
+      <source>Read only</source>
+      <comment>multieditor</comment>
+      <translation>فقط خواندنی</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="694"/>
-        <source>Open</source>
-        <translation type="unfinished">Open</translation>
+      <location filename="../multieditor/multieditor.cpp" line="694"/>
+      <source>Open</source>
+      <translation>باز کردن</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="703"/>
-        <source>Could not open file %1 for reading.</source>
-        <translation type="unfinished">Could not open file %1 for reading.</translation>
+      <location filename="../multieditor/multieditor.cpp" line="703"/>
+      <source>Could not open file %1 for reading.</source>
+      <translation>باز کردن فایل %1 برای خواندن ممکن نشد.</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="719"/>
-        <source>Save</source>
-        <translation type="unfinished">Save</translation>
+      <location filename="../multieditor/multieditor.cpp" line="719"/>
+      <source>Save</source>
+      <translation>ذخیره</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="728"/>
-        <source>Could not open file %1 for writting.</source>
-        <translation type="unfinished">Could not open file %1 for writting.</translation>
+      <location filename="../multieditor/multieditor.cpp" line="728"/>
+      <source>Could not open file %1 for writting.</source>
+      <translation>باز کردن فایل %1 برای نوشتن ممکن نشد.</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditor.cpp" line="778"/>
-        <source>Could not write data into the file %1</source>
-        <translation type="unfinished">Could not write data into the file %1</translation>
+      <location filename="../multieditor/multieditor.cpp" line="778"/>
+      <source>Could not write data into the file %1</source>
+      <translation>نوشتن داده در فایل %1 ممکن نشد</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorBoolPlugin</name>
     <message>
-        <location filename="../multieditor/multieditorbool.cpp" line="227"/>
-        <source>Boolean</source>
-        <translation type="unfinished">Boolean</translation>
+      <location filename="../multieditor/multieditorbool.cpp" line="227"/>
+      <source>Boolean</source>
+      <translation>بولی</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorDatePlugin</name>
     <message>
-        <location filename="../multieditor/multieditordate.cpp" line="89"/>
-        <source>Date</source>
-        <translation type="unfinished">Date</translation>
+      <location filename="../multieditor/multieditordate.cpp" line="89"/>
+      <source>Date</source>
+      <translation>تاریخ</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorDateTimePlugin</name>
     <message>
-        <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
-        <source>Date &amp; time</source>
-        <translation type="unfinished">Date &amp; time</translation>
+      <location filename="../multieditor/multieditordatetime.cpp" line="276"/>
+      <source>Date &amp; time</source>
+      <translation>تاریخ و زمان</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorFk</name>
     <message>
-        <location filename="../multieditor/multieditorfk.cpp" line="25"/>
-        <source>Selected value preview</source>
-        <translation type="unfinished">Selected value preview</translation>
+      <location filename="../multieditor/multieditorfk.cpp" line="25"/>
+      <source>Selected value preview</source>
+      <translation>پیش‌نمایش مقدار انتخاب‌شده</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorHexPlugin</name>
     <message>
-        <location filename="../multieditor/multieditorhex.cpp" line="107"/>
-        <source>Hex</source>
-        <translation type="unfinished">Hex</translation>
+      <location filename="../multieditor/multieditorhex.cpp" line="107"/>
+      <source>Hex</source>
+      <translation>هگز</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorNumericPlugin</name>
     <message>
-        <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
-        <source>Number</source>
-        <comment>numeric multi editor tab name</comment>
-        <translation type="unfinished">Number</translation>
+      <location filename="../multieditor/multieditornumeric.cpp" line="112"/>
+      <source>Number</source>
+      <comment>numeric multi editor tab name</comment>
+      <translation>عدد</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorText</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="126"/>
-        <source>Tab changes focus</source>
-        <translation type="unfinished">Tab changes focus</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="126"/>
+      <source>Tab changes focus</source>
+      <translation>Tab تمرکز را تغییر می‌دهد</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="127"/>
-        <source>Cut</source>
-        <translation type="unfinished">Cut</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="127"/>
+      <source>Cut</source>
+      <translation>برش</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="128"/>
-        <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="128"/>
+      <source>Copy</source>
+      <translation>کپی</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="129"/>
-        <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="129"/>
+      <source>Paste</source>
+      <translation>چسباندن</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="130"/>
-        <source>Delete</source>
-        <translation type="unfinished">Delete</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="130"/>
+      <source>Delete</source>
+      <translation>حذف</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="131"/>
-        <source>Undo</source>
-        <translation type="unfinished">Undo</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="131"/>
+      <source>Undo</source>
+      <translation>واگرد</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="132"/>
-        <source>Redo</source>
-        <translation type="unfinished">Redo</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="132"/>
+      <source>Redo</source>
+      <translation>بازانجام</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorTextPlugin</name>
     <message>
-        <location filename="../multieditor/multieditortext.cpp" line="309"/>
-        <source>Text</source>
-        <translation type="unfinished">Text</translation>
+      <location filename="../multieditor/multieditortext.cpp" line="309"/>
+      <source>Text</source>
+      <translation>متن</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>MultiEditorTimePlugin</name>
     <message>
-        <location filename="../multieditor/multieditortime.cpp" line="92"/>
-        <source>Time</source>
-        <translation type="unfinished">Time</translation>
+      <location filename="../multieditor/multieditortime.cpp" line="92"/>
+      <source>Time</source>
+      <translation>زمان</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>NewConstraintDialog</name>
     <message>
-        <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
-        <source>New constraint</source>
-        <translation type="unfinished">New constraint</translation>
+      <location filename="../dialogs/newconstraintdialog.ui" line="20"/>
+      <source>New constraint</source>
+      <translation>محدودیت جدید</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
-        <source>Primary Key</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Primary Key</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="104"/>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="112"/>
+      <source>Primary Key</source>
+      <comment>new constraint dialog</comment>
+      <translation>کلید اصلی</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
-        <source>Foreign Key</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Foreign Key</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="105"/>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="113"/>
+      <source>Foreign Key</source>
+      <comment>new constraint dialog</comment>
+      <translation>کلید خارجی</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
-        <source>Unique</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Unique</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="106"/>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="114"/>
+      <source>Unique</source>
+      <comment>new constraint dialog</comment>
+      <translation>یکتا</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
-        <source>Check</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Check</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="107"/>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="115"/>
+      <source>Check</source>
+      <comment>new constraint dialog</comment>
+      <translation>بررسی</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
-        <source>Not NULL</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Not NULL</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="116"/>
+      <source>Not NULL</source>
+      <comment>new constraint dialog</comment>
+      <translation>نه NULL</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
-        <source>Collate</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Collate</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="117"/>
+      <source>Collate</source>
+      <comment>new constraint dialog</comment>
+      <translation>ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
-        <source>Generated</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Generated</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="118"/>
+      <source>Generated</source>
+      <comment>new constraint dialog</comment>
+      <translation>تولیدشده</translation>
     </message>
     <message>
-        <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
-        <source>Default</source>
-        <comment>new constraint dialog</comment>
-        <translation type="unfinished">Default</translation>
+      <location filename="../dialogs/newconstraintdialog.cpp" line="119"/>
+      <source>Default</source>
+      <comment>new constraint dialog</comment>
+      <translation>پیش‌فرض</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>NewVersionDialog</name>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="20"/>
-        <source>Letos updates</source>
-        <translation type="unfinished">Letos updates</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="20"/>
+      <source>Letos updates</source>
+      <translation>به‌روزرسانی‌های Letos</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="31"/>
-        <source>New version is available!</source>
-        <translation type="unfinished">New version is available!</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="31"/>
+      <source>New version is available!</source>
+      <translation>نسخهٔ جدید در دسترس است!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="57"/>
-        <source>Download new version!</source>
-        <translation type="unfinished">Download new version!</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="57"/>
+      <source>Download new version!</source>
+      <translation>دانلود نسخهٔ جدید!</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="70"/>
-        <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
-        <translation type="unfinished">New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="70"/>
+      <source>New version package will be downloaded. It will be up to you to install it whenever you&apos;re ready.</source>
+      <translation>بستهٔ نسخهٔ جدید دانلود خواهد شد. نصب آن هر زمان که &apos;آماده باشید بر عهدهٔ شما خواهد بود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="77"/>
-        <source>Open Letos home page.</source>
-        <translation type="unfinished">Open Letos home page.</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="77"/>
+      <source>Open Letos home page.</source>
+      <translation>باز کردن صفحهٔ اصلی Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="90"/>
-        <source>Read release notes &amp;&amp; download package yourself.</source>
-        <translation type="unfinished">Read release notes &amp;&amp; download package yourself.</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="90"/>
+      <source>Read release notes &amp;&amp; download package yourself.</source>
+      <translation>یادداشت‌های انتشار را بخوانید &amp;&amp; بسته را خودتان دانلود کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="110"/>
-        <source>Just close this window.</source>
-        <translation type="unfinished">Just close this window.</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="110"/>
+      <source>Just close this window.</source>
+      <translation>فقط این پنجره را ببند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="120"/>
-        <source>Check for updates on startup</source>
-        <translation type="unfinished">Check for updates on startup</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="120"/>
+      <source>Check for updates on startup</source>
+      <translation>بررسی به‌روزرسانی‌ها هنگام راه‌اندازی</translation>
     </message>
     <message>
-        <location filename="../dialogs/newversiondialog.ui" line="97"/>
-        <source>Not now.</source>
-        <translation type="unfinished">Not now.</translation>
+      <location filename="../dialogs/newversiondialog.ui" line="97"/>
+      <source>Not now.</source>
+      <translation>اکنون نه.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>PasswordToggleHelper</name>
     <message>
-        <location filename="../common/passwordtogglehelper.cpp" line="11"/>
-        <source>Show / hide password</source>
-        <translation type="unfinished">Show / hide password</translation>
+      <location filename="../common/passwordtogglehelper.cpp" line="11"/>
+      <source>Show / hide password</source>
+      <translation>نمایش / پنهان کردن گذرواژه</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>PopulateConfigDialog</name>
     <message>
-        <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
-        <source>Populating configuration</source>
-        <translation type="unfinished">Populating configuration</translation>
+      <location filename="../dialogs/populateconfigdialog.ui" line="14"/>
+      <source>Populating configuration</source>
+      <translation>پیکربندی پرکردن</translation>
     </message>
     <message>
-        <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
-        <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
-        <translation type="unfinished">Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</translation>
+      <location filename="../dialogs/populateconfigdialog.cpp" line="57"/>
+      <source>Configuring &lt;b&gt;%1&lt;/b&gt; for column &lt;b&gt;%2&lt;/b&gt;</source>
+      <translation>پیکربندی &lt;b&gt;%1&lt;/b&gt; برای ستون &lt;b&gt;%2&lt;/b&gt;</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>PopulateDialog</name>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="14"/>
-        <source>Populate table</source>
-        <translation type="unfinished">Populate table</translation>
+      <location filename="../dialogs/populatedialog.ui" line="14"/>
+      <source>Populate table</source>
+      <translation>پر کردن جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="84"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../dialogs/populatedialog.ui" line="84"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="102"/>
-        <source>Table</source>
-        <translation type="unfinished">Table</translation>
+      <location filename="../dialogs/populatedialog.ui" line="102"/>
+      <source>Table</source>
+      <translation>جدول</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="139"/>
-        <source>Select All</source>
-        <translation type="unfinished">Select All</translation>
+      <location filename="../dialogs/populatedialog.ui" line="139"/>
+      <source>Select All</source>
+      <translation>انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="152"/>
-        <source>Deselect All</source>
-        <translation type="unfinished">Deselect All</translation>
+      <location filename="../dialogs/populatedialog.ui" line="152"/>
+      <source>Deselect All</source>
+      <translation>لغو انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="48"/>
-        <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+      <location filename="../dialogs/populatedialog.ui" line="48"/>
+      <source>Columns</source>
+      <translation>ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.ui" line="20"/>
-        <source>Number of rows to populate:</source>
-        <translation type="unfinished">Number of rows to populate:</translation>
+      <location filename="../dialogs/populatedialog.ui" line="20"/>
+      <source>Number of rows to populate:</source>
+      <translation>تعداد ردیف‌ها برای پر کردن:</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="52"/>
-        <source>Populate</source>
-        <comment>populate dialog button</comment>
-        <translation type="unfinished">Populate</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="52"/>
+      <source>Populate</source>
+      <comment>populate dialog button</comment>
+      <translation>پر کردن</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="67"/>
-        <source>Abort</source>
-        <translation type="unfinished">Abort</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="67"/>
+      <source>Abort</source>
+      <translation>لغو عملیات</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="204"/>
-        <source>Configure</source>
-        <translation type="unfinished">Configure</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="204"/>
+      <source>Configure</source>
+      <translation>پیکربندی</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="311"/>
-        <source>Populating configuration for this column is invalid or incomplete.</source>
-        <translation type="unfinished">Populating configuration for this column is invalid or incomplete.</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="311"/>
+      <source>Populating configuration for this column is invalid or incomplete.</source>
+      <translation>پیکربندی پرکردن برای این ستون نامعتبر یا ناقص است.</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="342"/>
-        <source>Select database with table to populate</source>
-        <translation type="unfinished">Select database with table to populate</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="342"/>
+      <source>Select database with table to populate</source>
+      <translation>پایگاه داده‌ای با جدول مورد نظر برای پر کردن را انتخاب کنید</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="343"/>
-        <source>Select table to populate</source>
-        <translation type="unfinished">Select table to populate</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="343"/>
+      <source>Select table to populate</source>
+      <translation>جدولی را برای پر کردن انتخاب کنید</translation>
     </message>
     <message>
-        <location filename="../dialogs/populatedialog.cpp" line="344"/>
-        <source>You have to select at least one column.</source>
-        <translation type="unfinished">You have to select at least one column.</translation>
+      <location filename="../dialogs/populatedialog.cpp" line="344"/>
+      <source>You have to select at least one column.</source>
+      <translation>باید حداقل یک ستون را انتخاب کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>PrimaryKeyPanel</name>
     <message>
-        <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
-        <source>Column</source>
-        <translation type="unfinished">Column</translation>
+      <location filename="../constraints/tableprimarykeypanel.ui" line="20"/>
+      <source>Column</source>
+      <translation>ستون</translation>
     </message>
     <message>
-        <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
-        <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+      <location filename="../constraints/tableprimarykeypanel.ui" line="49"/>
+      <source>Autoincrement</source>
+      <translation>افزایش خودکار</translation>
     </message>
     <message>
-        <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
-        <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+      <location filename="../constraints/tableprimarykeypanel.ui" line="62"/>
+      <source>Named constraint</source>
+      <translation>محدودیت نام‌دار</translation>
     </message>
     <message>
-        <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
-        <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+      <location filename="../constraints/tableprimarykeypanel.ui" line="81"/>
+      <source>On conflict</source>
+      <translation>در صورت تعارض</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>QObject</name>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
-        <source>Cannot edit columns that are result of an inline subquery.</source>
-        <translation type="unfinished">Cannot edit columns that are result of an inline subquery.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="73"/>
+      <source>Cannot edit columns that are result of an inline subquery.</source>
+      <translation>نمی‌توان ستون‌هایی را که نتیجهٔ یک زیرپرس‌وجوی درون‌خطی هستند ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
-        <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
-        <translation type="unfinished">Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="75"/>
+      <source>Cannot edit columns that are result of compound %1 statements (one that includes %2, %3 or %4 keywords).</source>
+      <translation>نمی‌توان ستون‌هایی را که نتیجهٔ دستورهای مرکب %1 هستند ویرایش کرد (دستوری که شامل کلیدواژه‌های %2، %3 یا %4 است).</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
-        <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
-        <translation type="unfinished">The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="78"/>
+      <source>The query execution mechanism had problems with extracting ROWID&apos;s properly. This might be a bug in the application. You may want to report this.</source>
+      <translation>سازوکار اجرای پرس‌وجو در استخراج درست ROWID&apos;ها مشکل داشت. این ممکن است یک باگ در برنامه باشد. شاید بخواهید آن را گزارش کنید.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
-        <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
-        <translation type="unfinished">Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="80"/>
+      <source>Requested column is a result of SQL expression, instead of a simple column selection. Such columns cannot be edited.</source>
+      <translation>ستون درخواست‌شده نتیجهٔ یک عبارت SQL است، نه انتخاب سادهٔ ستون. چنین ستون‌هایی قابل ویرایش نیستند.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
-        <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
-        <translation type="unfinished">Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="82"/>
+      <source>Requested column belongs to restricted SQLite table. Those tables cannot be edited directly.</source>
+      <translation>ستون درخواست‌شده به جدول محدودشدهٔ SQLite تعلق دارد. این جدول‌ها را نمی‌توان مستقیماً ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
-        <source>Cannot edit results of query other than %1.</source>
-        <translation type="unfinished">Cannot edit results of query other than %1.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="84"/>
+      <source>Cannot edit results of query other than %1.</source>
+      <translation>نمی‌توان نتایج پرس‌وجویی غیر از %1 را ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
-        <source>Cannot edit columns that are result of aggregated %1 statements.</source>
-        <translation type="unfinished">Cannot edit columns that are result of aggregated %1 statements.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="86"/>
+      <source>Cannot edit columns that are result of aggregated %1 statements.</source>
+      <translation>نمی‌توان ستون‌هایی را که نتیجهٔ دستورهای تجمیعی %1 هستند ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
-        <source>Cannot edit columns that are result of %1 statement.</source>
-        <translation type="unfinished">Cannot edit columns that are result of %1 statement.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="88"/>
+      <source>Cannot edit columns that are result of %1 statement.</source>
+      <translation>نمی‌توان ستون‌هایی را که نتیجهٔ دستور %1 هستند ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
-        <source>Cannot edit columns that are result of common table expression statement (%1).</source>
-        <translation type="unfinished">Cannot edit columns that are result of common table expression statement (%1).</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="90"/>
+      <source>Cannot edit columns that are result of common table expression statement (%1).</source>
+      <translation>نمی‌توان ستون‌هایی را که نتیجهٔ دستور عبارت جدول مشترک (%1) هستند ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
-        <source>Cannot edit table generated columns.</source>
-        <translation type="unfinished">Cannot edit table generated columns.</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="92"/>
+      <source>Cannot edit table generated columns.</source>
+      <translation>نمی‌توان ستون‌های تولیدشدهٔ جدول را ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
-        <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
-        <translation type="unfinished">Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="94"/>
+      <source>Cannot edit columns that are result of a view if the executed query reads from any multilevel views (i.e. a view that queries another view).</source>
+      <translation>اگر پرس‌وجوی اجراشده از هر نمای چندسطحی بخواند (یعنی نمایی که نمای دیگری را پرس‌وجو می‌کند)، نمی‌توان ستون‌هایی را که نتیجهٔ یک نما هستند ویرایش کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
-        <source>on conflict: %1</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">on conflict: %1</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="467"/>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="511"/>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="529"/>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="565"/>
+      <source>on conflict: %1</source>
+      <comment>data view tooltip</comment>
+      <translation>در صورت تعارض: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
-        <source>references table %1</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">references table %1</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="493"/>
+      <source>references table %1</source>
+      <comment>data view tooltip</comment>
+      <translation>به جدول %1 ارجاع می‌دهد</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
-        <source>references table %1, column %2</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">references table %1, column %2</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="495"/>
+      <source>references table %1, column %2</source>
+      <comment>data view tooltip</comment>
+      <translation>به جدول %1، ستون %2 ارجاع می‌دهد</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
-        <source>condition: %1</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">condition: %1</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="562"/>
+      <source>condition: %1</source>
+      <comment>data view tooltip</comment>
+      <translation>شرط: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
-        <source>collation name: %1</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">collation name: %1</translation>
+      <location filename="../datagrid/sqlquerymodelcolumn.cpp" line="582"/>
+      <source>collation name: %1</source>
+      <comment>data view tooltip</comment>
+      <translation>نام ترتیب تطبیق: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="25"/>
-        <source>Data grid view</source>
-        <translation type="unfinished">Data grid view</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="25"/>
+      <source>Data grid view</source>
+      <translation>نمای شبکهٔ داده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="26"/>
-        <source>Edit current cell inline</source>
-        <translation type="unfinished">Edit current cell inline</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="26"/>
+      <source>Edit current cell inline</source>
+      <translation>ویرایش درون‌خطی سلول فعلی</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="27"/>
-        <source>Cut cell(s) contents to clipboard</source>
-        <translation type="unfinished">Cut cell(s) contents to clipboard</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="27"/>
+      <source>Cut cell(s) contents to clipboard</source>
+      <translation>برش محتوای سلول(ها) به کلیپ‌بورد</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="28"/>
-        <source>Copy cell(s) contents to clipboard</source>
-        <translation type="unfinished">Copy cell(s) contents to clipboard</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="28"/>
+      <source>Copy cell(s) contents to clipboard</source>
+      <translation>کپی محتوای سلول(ها) به کلیپ‌بورد</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="29"/>
-        <source>Copy cell(s) contents together with header to clipboard</source>
-        <translation type="unfinished">Copy cell(s) contents together with header to clipboard</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="29"/>
+      <source>Copy cell(s) contents together with header to clipboard</source>
+      <translation>کپی محتوای سلول(ها) همراه با سرآیند به کلیپ‌بورد</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="31"/>
-        <source>Paste cell(s) contents from clipboard</source>
-        <translation type="unfinished">Paste cell(s) contents from clipboard</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="31"/>
+      <source>Paste cell(s) contents from clipboard</source>
+      <translation>چسباندن محتوای سلول(ها) از کلیپ‌بورد</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="33"/>
-        <source>Set empty value to selected cell(s)</source>
-        <translation type="unfinished">Set empty value to selected cell(s)</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="33"/>
+      <source>Set empty value to selected cell(s)</source>
+      <translation>تنظیم مقدار خالی برای سلول(های) انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="34"/>
-        <source>Set NULL value to selected cell(s)</source>
-        <translation type="unfinished">Set NULL value to selected cell(s)</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="34"/>
+      <source>Set NULL value to selected cell(s)</source>
+      <translation>تنظیم مقدار NULL برای سلول(های) انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="35"/>
-        <source>Commit changes to cell(s) contents</source>
-        <translation type="unfinished">Commit changes to cell(s) contents</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="35"/>
+      <source>Commit changes to cell(s) contents</source>
+      <translation>ثبت تغییرات محتوای سلول(ها)</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="36"/>
-        <source>Rollback changes to cell(s) contents</source>
-        <translation type="unfinished">Rollback changes to cell(s) contents</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="36"/>
+      <source>Rollback changes to cell(s) contents</source>
+      <translation>برگرداندن تغییرات محتوای سلول(ها)</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="37"/>
-        <source>Delete selected data row</source>
-        <translation type="unfinished">Delete selected data row</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="37"/>
+      <source>Delete selected data row</source>
+      <translation>حذف ردیف دادهٔ انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="38"/>
-        <source>Insert new data row</source>
-        <translation type="unfinished">Insert new data row</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="38"/>
+      <source>Insert new data row</source>
+      <translation>درج ردیف دادهٔ جدید</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="39"/>
-        <source>Open contents of selected cell in a separate editor</source>
-        <translation type="unfinished">Open contents of selected cell in a separate editor</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="39"/>
+      <source>Open contents of selected cell in a separate editor</source>
+      <translation>باز کردن محتوای سلول انتخاب‌شده در یک ویرایشگر جداگانه</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="40"/>
-        <source>Toggle the height adjustment of rows</source>
-        <translation type="unfinished">Toggle the height adjustment of rows</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="40"/>
+      <source>Toggle the height adjustment of rows</source>
+      <translation>تغییر وضعیت تنظیم ارتفاع ردیف‌ها</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="41"/>
-        <source>Increase font size</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Increase font size</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="41"/>
+      <source>Increase font size</source>
+      <comment>data view</comment>
+      <translation>افزایش اندازهٔ قلم</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.h" line="42"/>
-        <source>Decrease font size</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Decrease font size</translation>
+      <location filename="../datagrid/sqlqueryview.h" line="42"/>
+      <source>Decrease font size</source>
+      <comment>data view</comment>
+      <translation>کاهش اندازهٔ قلم</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="32"/>
-        <source>Data view (both grid and form)</source>
-        <translation type="unfinished">Data view (both grid and form)</translation>
+      <location filename="../dataview.h" line="32"/>
+      <source>Data view (both grid and form)</source>
+      <translation>نمای داده (هم شبکه و هم فرم)</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="33"/>
-        <source>Refresh data</source>
-        <translation type="unfinished">Refresh data</translation>
+      <location filename="../dataview.h" line="33"/>
+      <source>Refresh data</source>
+      <translation>بازآوری داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="34"/>
-        <source>Find in data</source>
-        <translation type="unfinished">Find in data</translation>
+      <location filename="../dataview.h" line="34"/>
+      <source>Find in data</source>
+      <translation>یافتن در داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="35"/>
-        <source>Switch to grid view of the data</source>
-        <translation type="unfinished">Switch to grid view of the data</translation>
+      <location filename="../dataview.h" line="35"/>
+      <source>Switch to grid view of the data</source>
+      <translation>رفتن به نمای شبکه‌ای داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="36"/>
-        <source>Switch to form view of the data</source>
-        <translation type="unfinished">Switch to form view of the data</translation>
+      <location filename="../dataview.h" line="36"/>
+      <source>Switch to form view of the data</source>
+      <translation>رفتن به نمای فرمی داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="31"/>
-        <source>Database list</source>
-        <translation type="unfinished">Database list</translation>
+      <location filename="../dbtree/dbtree.h" line="31"/>
+      <source>Database list</source>
+      <translation>فهرست پایگاه داده‌ها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="32"/>
-        <source>Delete selected item</source>
-        <translation type="unfinished">Delete selected item</translation>
+      <location filename="../dbtree/dbtree.h" line="32"/>
+      <source>Delete selected item</source>
+      <translation>حذف مورد انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="33"/>
-        <source>Clear filter contents</source>
-        <translation type="unfinished">Clear filter contents</translation>
+      <location filename="../dbtree/dbtree.h" line="33"/>
+      <source>Clear filter contents</source>
+      <translation>پاک کردن محتوای فیلتر</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="34"/>
-        <source>Refresh schema</source>
-        <translation type="unfinished">Refresh schema</translation>
+      <location filename="../dbtree/dbtree.h" line="34"/>
+      <source>Refresh schema</source>
+      <translation>بازآوری طرح‌واره</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="35"/>
-        <source>Refresh all schemas</source>
-        <translation type="unfinished">Refresh all schemas</translation>
+      <location filename="../dbtree/dbtree.h" line="35"/>
+      <source>Refresh all schemas</source>
+      <translation>بازآوری همهٔ طرح‌واره‌ها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="36"/>
-        <source>Create new database</source>
-        <translation type="unfinished">Create new database</translation>
+      <location filename="../dbtree/dbtree.h" line="36"/>
+      <source>Create new database</source>
+      <translation>ایجاد پایگاه دادهٔ جدید</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="37"/>
-        <source>Open existing database or SQL file</source>
-        <translation type="unfinished">Open existing database or SQL file</translation>
+      <location filename="../dbtree/dbtree.h" line="37"/>
+      <source>Open existing database or SQL file</source>
+      <translation>باز کردن پایگاه داده یا فایل SQL موجود</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="38"/>
-        <source>Edit selected database</source>
-        <translation type="unfinished">Edit selected database</translation>
+      <location filename="../dbtree/dbtree.h" line="38"/>
+      <source>Edit selected database</source>
+      <translation>ویرایش پایگاه دادهٔ انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="39"/>
-        <source>Rename selected database</source>
-        <translation type="unfinished">Rename selected database</translation>
+      <location filename="../dbtree/dbtree.h" line="39"/>
+      <source>Rename selected database</source>
+      <translation>تغییر نام پایگاه دادهٔ انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="40"/>
-        <source>Select all items</source>
-        <translation type="unfinished">Select all items</translation>
+      <location filename="../dbtree/dbtree.h" line="40"/>
+      <source>Select all items</source>
+      <translation>انتخاب همهٔ موارد</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="41"/>
-        <source>Copy selected item(s)</source>
-        <translation type="unfinished">Copy selected item(s)</translation>
+      <location filename="../dbtree/dbtree.h" line="41"/>
+      <source>Copy selected item(s)</source>
+      <translation>کپی مورد(های) انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="42"/>
-        <location filename="../multieditor/multieditortext.h" line="15"/>
-        <location filename="../sqleditor.h" line="35"/>
-        <source>Paste from clipboard</source>
-        <translation type="unfinished">Paste from clipboard</translation>
+      <location filename="../dbtree/dbtree.h" line="42"/>
+      <location filename="../multieditor/multieditortext.h" line="15"/>
+      <location filename="../sqleditor.h" line="35"/>
+      <source>Paste from clipboard</source>
+      <translation>چسباندن از کلیپ‌بورد</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="43"/>
-        <source>Increase font size</source>
-        <comment>database list</comment>
-        <translation type="unfinished">Increase font size</translation>
+      <location filename="../dbtree/dbtree.h" line="43"/>
+      <source>Increase font size</source>
+      <comment>database list</comment>
+      <translation>افزایش اندازهٔ قلم</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.h" line="44"/>
-        <source>Decrease font size</source>
-        <comment>database list</comment>
-        <translation type="unfinished">Decrease font size</translation>
+      <location filename="../dbtree/dbtree.h" line="44"/>
+      <source>Decrease font size</source>
+      <comment>database list</comment>
+      <translation>کاهش اندازهٔ قلم</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
-        <source>Tables</source>
-        <translation type="unfinished">Tables</translation>
+      <location filename="../dbtree/dbtreeitemfactory.cpp" line="53"/>
+      <source>Tables</source>
+      <translation>جدول‌ها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
-        <source>Indexes</source>
-        <translation type="unfinished">Indexes</translation>
+      <location filename="../dbtree/dbtreeitemfactory.cpp" line="58"/>
+      <source>Indexes</source>
+      <translation>اندیس‌ها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
-        <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+      <location filename="../dbtree/dbtreeitemfactory.cpp" line="63"/>
+      <source>Triggers</source>
+      <translation>تریگرها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
-        <source>Views</source>
-        <translation type="unfinished">Views</translation>
+      <location filename="../dbtree/dbtreeitemfactory.cpp" line="68"/>
+      <source>Views</source>
+      <translation>نماها</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
-        <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+      <location filename="../dbtree/dbtreeitemfactory.cpp" line="73"/>
+      <source>Columns</source>
+      <translation>ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../formview.h" line="15"/>
-        <source>Data form view</source>
-        <translation type="unfinished">Data form view</translation>
+      <location filename="../formview.h" line="15"/>
+      <source>Data form view</source>
+      <translation>نمای فرم داده</translation>
     </message>
     <message>
-        <location filename="../formview.h" line="16"/>
-        <source>Commit changes for current row</source>
-        <translation type="unfinished">Commit changes for current row</translation>
+      <location filename="../formview.h" line="16"/>
+      <source>Commit changes for current row</source>
+      <translation>ثبت تغییرات ردیف فعلی</translation>
     </message>
     <message>
-        <location filename="../formview.h" line="17"/>
-        <source>Rollback changes for current row</source>
-        <translation type="unfinished">Rollback changes for current row</translation>
+      <location filename="../formview.h" line="17"/>
+      <source>Rollback changes for current row</source>
+      <translation>برگرداندن تغییرات ردیف فعلی</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="37"/>
-        <location filename="../formview.h" line="18"/>
-        <source>Go to first row on current page</source>
-        <translation type="unfinished">Go to first row on current page</translation>
+      <location filename="../dataview.h" line="37"/>
+      <location filename="../formview.h" line="18"/>
+      <source>Go to first row on current page</source>
+      <translation>رفتن به نخستین ردیف در صفحهٔ فعلی</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="39"/>
-        <location filename="../formview.h" line="19"/>
-        <source>Go to next row</source>
-        <translation type="unfinished">Go to next row</translation>
+      <location filename="../dataview.h" line="39"/>
+      <location filename="../formview.h" line="19"/>
+      <source>Go to next row</source>
+      <translation>رفتن به ردیف بعدی</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="38"/>
-        <location filename="../formview.h" line="20"/>
-        <source>Go to previous row</source>
-        <translation type="unfinished">Go to previous row</translation>
+      <location filename="../dataview.h" line="38"/>
+      <location filename="../formview.h" line="20"/>
+      <source>Go to previous row</source>
+      <translation>رفتن به ردیف قبلی</translation>
     </message>
     <message>
-        <location filename="../dataview.h" line="40"/>
-        <location filename="../formview.h" line="21"/>
-        <source>Go to last row on current page</source>
-        <translation type="unfinished">Go to last row on current page</translation>
+      <location filename="../dataview.h" line="40"/>
+      <location filename="../formview.h" line="21"/>
+      <source>Go to last row on current page</source>
+      <translation>رفتن به آخرین ردیف در صفحهٔ فعلی</translation>
     </message>
     <message>
-        <location filename="../formview.h" line="22"/>
-        <source>Insert new row</source>
-        <translation type="unfinished">Insert new row</translation>
+      <location filename="../formview.h" line="22"/>
+      <source>Insert new row</source>
+      <translation>درج ردیف جدید</translation>
     </message>
     <message>
-        <location filename="../formview.h" line="23"/>
-        <source>Delete current row</source>
-        <translation type="unfinished">Delete current row</translation>
+      <location filename="../formview.h" line="23"/>
+      <source>Delete current row</source>
+      <translation>حذف ردیف فعلی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="60"/>
-        <source>Main window</source>
-        <translation type="unfinished">Main window</translation>
+      <location filename="../mainwindow.h" line="60"/>
+      <source>Main window</source>
+      <translation>پنجرهٔ اصلی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="61"/>
-        <source>Open SQL editor</source>
-        <translation type="unfinished">Open SQL editor</translation>
+      <location filename="../mainwindow.h" line="61"/>
+      <source>Open SQL editor</source>
+      <translation>باز کردن ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="65"/>
-        <source>Open DDL history window</source>
-        <translation type="unfinished">Open DDL history window</translation>
+      <location filename="../mainwindow.h" line="65"/>
+      <source>Open DDL history window</source>
+      <translation>باز کردن پنجرهٔ تاریخچهٔ DDL</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="67"/>
-        <source>Open snippets editor window</source>
-        <translation type="unfinished">Open snippets editor window</translation>
+      <location filename="../mainwindow.h" line="67"/>
+      <source>Open snippets editor window</source>
+      <translation>باز کردن پنجرهٔ ویرایشگر قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="66"/>
-        <source>Open function editor window</source>
-        <translation type="unfinished">Open function editor window</translation>
+      <location filename="../mainwindow.h" line="66"/>
+      <source>Open function editor window</source>
+      <translation>باز کردن پنجرهٔ ویرایشگر تابع</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="62"/>
-        <source>Restore recently closed window</source>
-        <translation type="unfinished">Restore recently closed window</translation>
+      <location filename="../mainwindow.h" line="62"/>
+      <source>Restore recently closed window</source>
+      <translation>بازیابی پنجرهٔ اخیراً بسته‌شده</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="63"/>
-        <source>Open Export Dialog</source>
-        <translation type="unfinished">Open Export Dialog</translation>
+      <location filename="../mainwindow.h" line="63"/>
+      <source>Open Export Dialog</source>
+      <translation>باز کردن پنجرهٔ صادر کردن</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="64"/>
-        <source>Open Import Dialog</source>
-        <translation type="unfinished">Open Import Dialog</translation>
+      <location filename="../mainwindow.h" line="64"/>
+      <source>Open Import Dialog</source>
+      <translation>باز کردن پنجرهٔ وارد کردن</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="68"/>
-        <source>Open collation editor window</source>
-        <translation type="unfinished">Open collation editor window</translation>
+      <location filename="../mainwindow.h" line="68"/>
+      <source>Open collation editor window</source>
+      <translation>باز کردن پنجرهٔ ویرایشگر ترتیب تطبیق</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="69"/>
-        <source>Open extension manager window</source>
-        <translation type="unfinished">Open extension manager window</translation>
+      <location filename="../mainwindow.h" line="69"/>
+      <source>Open extension manager window</source>
+      <translation>باز کردن پنجرهٔ مدیر افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="70"/>
-        <source>Previous window</source>
-        <translation type="unfinished">Previous window</translation>
+      <location filename="../mainwindow.h" line="70"/>
+      <source>Previous window</source>
+      <translation>پنجرهٔ قبلی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="71"/>
-        <source>Next window</source>
-        <translation type="unfinished">Next window</translation>
+      <location filename="../mainwindow.h" line="71"/>
+      <source>Next window</source>
+      <translation>پنجرهٔ بعدی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="72"/>
-        <source>Move window earlier</source>
-        <translation type="unfinished">Move window earlier</translation>
+      <location filename="../mainwindow.h" line="72"/>
+      <source>Move window earlier</source>
+      <translation>انتقال پنجره به قبل</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="73"/>
-        <source>Move window later</source>
-        <translation type="unfinished">Move window later</translation>
+      <location filename="../mainwindow.h" line="73"/>
+      <source>Move window later</source>
+      <translation>انتقال پنجره به بعد</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="74"/>
-        <source>Hide status area</source>
-        <translation type="unfinished">Hide status area</translation>
+      <location filename="../mainwindow.h" line="74"/>
+      <source>Hide status area</source>
+      <translation>پنهان کردن ناحیهٔ وضعیت</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="75"/>
-        <source>Open user manual</source>
-        <translation type="unfinished">Open user manual</translation>
+      <location filename="../mainwindow.h" line="75"/>
+      <source>Open user manual</source>
+      <translation>باز کردن راهنمای کاربر</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="76"/>
-        <source>Open configuration dialog</source>
-        <translation type="unfinished">Open configuration dialog</translation>
+      <location filename="../mainwindow.h" line="76"/>
+      <source>Open configuration dialog</source>
+      <translation>باز کردن پنجرهٔ پیکربندی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="77"/>
-        <source>Open Debug Console</source>
-        <translation type="unfinished">Open Debug Console</translation>
+      <location filename="../mainwindow.h" line="77"/>
+      <source>Open Debug Console</source>
+      <translation>باز کردن کنسول اشکال‌زدایی</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="78"/>
-        <source>Open CSS Console</source>
-        <translation type="unfinished">Open CSS Console</translation>
+      <location filename="../mainwindow.h" line="78"/>
+      <source>Open CSS Console</source>
+      <translation>باز کردن کنسول CSS</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="79"/>
-        <source>Open Command Palette</source>
-        <translation type="unfinished">Open Command Palette</translation>
+      <location filename="../mainwindow.h" line="79"/>
+      <source>Open Command Palette</source>
+      <translation>باز کردن پالت فرمان</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="80"/>
-        <source>Open the About dialog</source>
-        <translation type="unfinished">Open the About dialog</translation>
+      <location filename="../mainwindow.h" line="80"/>
+      <source>Open the About dialog</source>
+      <translation>باز کردن پنجرهٔ درباره</translation>
     </message>
     <message>
-        <location filename="../mainwindow.h" line="81"/>
-        <source>Quit the application</source>
-        <translation type="unfinished">Quit the application</translation>
+      <location filename="../mainwindow.h" line="81"/>
+      <source>Quit the application</source>
+      <translation>خروج از برنامه</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.h" line="12"/>
-        <source>Cell text value editor</source>
-        <translation type="unfinished">Cell text value editor</translation>
+      <location filename="../multieditor/multieditortext.h" line="12"/>
+      <source>Cell text value editor</source>
+      <translation>ویرایشگر مقدار متنی سلول</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.h" line="13"/>
-        <location filename="../sqleditor.h" line="33"/>
-        <source>Cut selected text</source>
-        <translation type="unfinished">Cut selected text</translation>
+      <location filename="../multieditor/multieditortext.h" line="13"/>
+      <location filename="../sqleditor.h" line="33"/>
+      <source>Cut selected text</source>
+      <translation>برش متن انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.h" line="14"/>
-        <location filename="../sqleditor.h" line="34"/>
-        <source>Copy selected text</source>
-        <translation type="unfinished">Copy selected text</translation>
+      <location filename="../multieditor/multieditortext.h" line="14"/>
+      <location filename="../sqleditor.h" line="34"/>
+      <source>Copy selected text</source>
+      <translation>کپی متن انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.h" line="16"/>
-        <location filename="../sqleditor.h" line="36"/>
-        <source>Delete selected text</source>
-        <translation type="unfinished">Delete selected text</translation>
+      <location filename="../multieditor/multieditortext.h" line="16"/>
+      <location filename="../sqleditor.h" line="36"/>
+      <source>Delete selected text</source>
+      <translation>حذف متن انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.h" line="17"/>
-        <location filename="../sqleditor.h" line="38"/>
-        <source>Undo</source>
-        <translation type="unfinished">Undo</translation>
+      <location filename="../multieditor/multieditortext.h" line="17"/>
+      <location filename="../sqleditor.h" line="38"/>
+      <source>Undo</source>
+      <translation>واگرد</translation>
     </message>
     <message>
-        <location filename="../multieditor/multieditortext.h" line="18"/>
-        <location filename="../sqleditor.h" line="39"/>
-        <source>Redo</source>
-        <translation type="unfinished">Redo</translation>
+      <location filename="../multieditor/multieditortext.h" line="18"/>
+      <location filename="../sqleditor.h" line="39"/>
+      <source>Redo</source>
+      <translation>بازانجام</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="32"/>
-        <source>SQL editor input field</source>
-        <translation type="unfinished">SQL editor input field</translation>
+      <location filename="../sqleditor.h" line="32"/>
+      <source>SQL editor input field</source>
+      <translation>فیلد ورودی ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="37"/>
-        <source>Select whole editor contents</source>
-        <translation type="unfinished">Select whole editor contents</translation>
+      <location filename="../sqleditor.h" line="37"/>
+      <source>Select whole editor contents</source>
+      <translation>انتخاب کل محتوای ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="40"/>
-        <source>Save contents into a file</source>
-        <translation type="unfinished">Save contents into a file</translation>
+      <location filename="../sqleditor.h" line="40"/>
+      <source>Save contents into a file</source>
+      <translation>ذخیرهٔ محتوا در فایل</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="41"/>
-        <source>Find in text</source>
-        <translation type="unfinished">Find in text</translation>
+      <location filename="../sqleditor.h" line="41"/>
+      <source>Find in text</source>
+      <translation>یافتن در متن</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="42"/>
-        <source>Find next</source>
-        <translation type="unfinished">Find next</translation>
+      <location filename="../sqleditor.h" line="42"/>
+      <source>Find next</source>
+      <translation>یافتن بعدی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="43"/>
-        <source>Find previous</source>
-        <translation type="unfinished">Find previous</translation>
+      <location filename="../sqleditor.h" line="43"/>
+      <source>Find previous</source>
+      <translation>یافتن قبلی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="44"/>
-        <source>Replace in text</source>
-        <translation type="unfinished">Replace in text</translation>
+      <location filename="../sqleditor.h" line="44"/>
+      <source>Replace in text</source>
+      <translation>جایگزینی در متن</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="45"/>
-        <source>Delete current line</source>
-        <translation type="unfinished">Delete current line</translation>
+      <location filename="../sqleditor.h" line="45"/>
+      <source>Delete current line</source>
+      <translation>حذف خط فعلی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="46"/>
-        <source>Request code assistant</source>
-        <translation type="unfinished">Request code assistant</translation>
+      <location filename="../sqleditor.h" line="46"/>
+      <source>Request code assistant</source>
+      <translation>درخواست دستیار کد</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="47"/>
-        <source>Format contents</source>
-        <translation type="unfinished">Format contents</translation>
+      <location filename="../sqleditor.h" line="47"/>
+      <source>Format contents</source>
+      <translation>قالب‌بندی محتوا</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="48"/>
-        <source>Open the object at current position</source>
-        <translation type="unfinished">Open the object at current position</translation>
+      <location filename="../sqleditor.h" line="48"/>
+      <source>Open the object at current position</source>
+      <translation>باز کردن شیء در موقعیت فعلی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="49"/>
-        <source>Move selected block of text one line down</source>
-        <translation type="unfinished">Move selected block of text one line down</translation>
+      <location filename="../sqleditor.h" line="49"/>
+      <source>Move selected block of text one line down</source>
+      <translation>انتقال بلوک متن انتخاب‌شده یک خط به پایین</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="50"/>
-        <source>Move selected block of text one line up</source>
-        <translation type="unfinished">Move selected block of text one line up</translation>
+      <location filename="../sqleditor.h" line="50"/>
+      <source>Move selected block of text one line up</source>
+      <translation>انتقال بلوک متن انتخاب‌شده یک خط به بالا</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="51"/>
-        <source>Copy selected block of text and paste it a line below</source>
-        <translation type="unfinished">Copy selected block of text and paste it a line below</translation>
+      <location filename="../sqleditor.h" line="51"/>
+      <source>Copy selected block of text and paste it a line below</source>
+      <translation>کپی بلوک متن انتخاب‌شده و چسباندن آن یک خط پایین‌تر</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="52"/>
-        <source>Copy selected block of text and paste it a line above</source>
-        <translation type="unfinished">Copy selected block of text and paste it a line above</translation>
+      <location filename="../sqleditor.h" line="52"/>
+      <source>Copy selected block of text and paste it a line above</source>
+      <translation>کپی بلوک متن انتخاب‌شده و چسباندن آن یک خط بالاتر</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="53"/>
-        <source>Toggle comment</source>
-        <translation type="unfinished">Toggle comment</translation>
+      <location filename="../sqleditor.h" line="53"/>
+      <source>Toggle comment</source>
+      <translation>تغییر وضعیت توضیح</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="54"/>
-        <source>Increase font size</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Increase font size</translation>
+      <location filename="../sqleditor.h" line="54"/>
+      <source>Increase font size</source>
+      <comment>sql editor</comment>
+      <translation>افزایش اندازهٔ قلم</translation>
     </message>
     <message>
-        <location filename="../sqleditor.h" line="55"/>
-        <source>Decrease font size</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Decrease font size</translation>
+      <location filename="../sqleditor.h" line="55"/>
+      <source>Decrease font size</source>
+      <comment>sql editor</comment>
+      <translation>کاهش اندازهٔ قلم</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="779"/>
-        <source>All files</source>
-        <translation type="unfinished">All files</translation>
+      <location filename="../windows/editorwindow.cpp" line="779"/>
+      <source>All files</source>
+      <translation>همهٔ فایل‌ها</translation>
     </message>
     <message>
-        <location filename="../uiutils.cpp" line="72"/>
-        <source>Select database file</source>
-        <translation type="unfinished">Select database file</translation>
+      <location filename="../uiutils.cpp" line="72"/>
+      <source>Select database file</source>
+      <translation>انتخاب فایل پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../uiutils.cpp" line="72"/>
-        <source>Select new database file</source>
-        <translation type="unfinished">Select new database file</translation>
+      <location filename="../uiutils.cpp" line="72"/>
+      <source>Select new database file</source>
+      <translation>انتخاب فایل پایگاه دادهٔ جدید</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.cpp" line="778"/>
-        <source>SQL files</source>
-        <translation type="unfinished">SQL files</translation>
+      <location filename="../windows/editorwindow.cpp" line="778"/>
+      <source>SQL files</source>
+      <translation>فایل‌های SQL</translation>
     </message>
     <message>
-        <location filename="../uiutils.cpp" line="83"/>
-        <location filename="../uiutils.cpp" line="96"/>
-        <source>Select a file to open</source>
-        <translation type="unfinished">Select a file to open</translation>
+      <location filename="../uiutils.cpp" line="83"/>
+      <location filename="../uiutils.cpp" line="96"/>
+      <source>Select a file to open</source>
+      <translation>انتخاب فایلی برای باز کردن</translation>
     </message>
     <message>
-        <location filename="../uiutils.cpp" line="267"/>
-        <source>Format SQL</source>
-        <translation type="unfinished">Format SQL</translation>
+      <location filename="../uiutils.cpp" line="267"/>
+      <source>Format SQL</source>
+      <translation>قالب‌بندی SQL</translation>
     </message>
     <message>
-        <location filename="../uiutils.cpp" line="56"/>
-        <source>Select</source>
-        <translation type="unfinished">Select</translation>
+      <location filename="../uiutils.cpp" line="56"/>
+      <source>Select</source>
+      <translation>انتخاب</translation>
     </message>
     <message>
-        <location filename="../uiutils.cpp" line="57"/>
-        <source>File type</source>
-        <translation type="unfinished">File type</translation>
+      <location filename="../uiutils.cpp" line="57"/>
+      <source>File type</source>
+      <translation>نوع فایل</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="30"/>
-        <source>SQL editor window</source>
-        <translation type="unfinished">SQL editor window</translation>
+      <location filename="../windows/editorwindow.h" line="30"/>
+      <source>SQL editor window</source>
+      <translation>پنجرهٔ ویرایشگر SQL</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="31"/>
-        <source>Execute query</source>
-        <translation type="unfinished">Execute query</translation>
+      <location filename="../windows/editorwindow.h" line="31"/>
+      <source>Execute query</source>
+      <translation>اجرای پرس‌وجو</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="32"/>
-        <source>Execute single query under cursor</source>
-        <translation type="unfinished">Execute single query under cursor</translation>
+      <location filename="../windows/editorwindow.h" line="32"/>
+      <source>Execute single query under cursor</source>
+      <translation>اجرای پرس‌وجوی تکی زیر نشانگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="33"/>
-        <source>Execute all queries in editor</source>
-        <translation type="unfinished">Execute all queries in editor</translation>
+      <location filename="../windows/editorwindow.h" line="33"/>
+      <source>Execute all queries in editor</source>
+      <translation>اجرای همهٔ پرس‌وجوها در ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="34"/>
-        <source>Execute EXPLAIN query</source>
-        <translation type="unfinished">Execute EXPLAIN query</translation>
+      <location filename="../windows/editorwindow.h" line="34"/>
+      <source>Execute EXPLAIN query</source>
+      <translation>اجرای پرس‌وجوی EXPLAIN</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="35"/>
-        <source>Export query results</source>
-        <translation type="unfinished">Export query results</translation>
+      <location filename="../windows/editorwindow.h" line="35"/>
+      <source>Export query results</source>
+      <translation>صادر کردن نتایج پرس‌وجو</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="36"/>
-        <source>Switch current working database to previous on the list</source>
-        <translation type="unfinished">Switch current working database to previous on the list</translation>
+      <location filename="../windows/editorwindow.h" line="36"/>
+      <source>Switch current working database to previous on the list</source>
+      <translation>تغییر پایگاه دادهٔ کاری فعلی به مورد قبلی در فهرست</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="37"/>
-        <source>Switch current working database to next on the list</source>
-        <translation type="unfinished">Switch current working database to next on the list</translation>
+      <location filename="../windows/editorwindow.h" line="37"/>
+      <source>Switch current working database to next on the list</source>
+      <translation>تغییر پایگاه دادهٔ کاری فعلی به مورد بعدی در فهرست</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="38"/>
-        <source>Go to next editor tab</source>
-        <translation type="unfinished">Go to next editor tab</translation>
+      <location filename="../windows/editorwindow.h" line="38"/>
+      <source>Go to next editor tab</source>
+      <translation>رفتن به زبانهٔ بعدی ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="39"/>
-        <source>Go to previous editor tab</source>
-        <translation type="unfinished">Go to previous editor tab</translation>
+      <location filename="../windows/editorwindow.h" line="39"/>
+      <source>Go to previous editor tab</source>
+      <translation>رفتن به زبانهٔ قبلی ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="40"/>
-        <source>Move keyboard input focus to the results view below</source>
-        <translation type="unfinished">Move keyboard input focus to the results view below</translation>
+      <location filename="../windows/editorwindow.h" line="40"/>
+      <source>Move keyboard input focus to the results view below</source>
+      <translation>انتقال تمرکز ورودی صفحه‌کلید به نمای نتایج در پایین</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="41"/>
-        <source>Move keyboard input focus to the SQL editor above</source>
-        <translation type="unfinished">Move keyboard input focus to the SQL editor above</translation>
+      <location filename="../windows/editorwindow.h" line="41"/>
+      <source>Move keyboard input focus to the SQL editor above</source>
+      <translation>انتقال تمرکز ورودی صفحه‌کلید به ویرایشگر SQL در بالا</translation>
     </message>
     <message>
-        <location filename="../windows/editorwindow.h" line="42"/>
-        <source>Delete selected SQL history entries</source>
-        <translation type="unfinished">Delete selected SQL history entries</translation>
+      <location filename="../windows/editorwindow.h" line="42"/>
+      <source>Delete selected SQL history entries</source>
+      <translation>حذف ورودی‌های انتخاب‌شدهٔ تاریخچهٔ SQL</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="32"/>
-        <source>Table window</source>
-        <translation type="unfinished">Table window</translation>
+      <location filename="../windows/tablewindow.h" line="32"/>
+      <source>Table window</source>
+      <translation>پنجرهٔ جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="33"/>
-        <source>Commit the table structure</source>
-        <translation type="unfinished">Commit the table structure</translation>
+      <location filename="../windows/tablewindow.h" line="33"/>
+      <source>Commit the table structure</source>
+      <translation>ثبت ساختار جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="34"/>
-        <source>Rollback pending changes in the table structure</source>
-        <translation type="unfinished">Rollback pending changes in the table structure</translation>
+      <location filename="../windows/tablewindow.h" line="34"/>
+      <source>Rollback pending changes in the table structure</source>
+      <translation>برگرداندن تغییرات در انتظار در ساختار جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="35"/>
-        <source>Refresh table structure</source>
-        <translation type="unfinished">Refresh table structure</translation>
+      <location filename="../windows/tablewindow.h" line="35"/>
+      <source>Refresh table structure</source>
+      <translation>بازآوری ساختار جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="36"/>
-        <source>Add new column</source>
-        <translation type="unfinished">Add new column</translation>
+      <location filename="../windows/tablewindow.h" line="36"/>
+      <source>Add new column</source>
+      <translation>افزودن ستون جدید</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="37"/>
-        <source>Edit selected column</source>
-        <translation type="unfinished">Edit selected column</translation>
+      <location filename="../windows/tablewindow.h" line="37"/>
+      <source>Edit selected column</source>
+      <translation>ویرایش ستون انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="38"/>
-        <source>Delete selected column</source>
-        <translation type="unfinished">Delete selected column</translation>
+      <location filename="../windows/tablewindow.h" line="38"/>
+      <source>Delete selected column</source>
+      <translation>حذف ستون انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="39"/>
-        <source>Export table data</source>
-        <translation type="unfinished">Export table data</translation>
+      <location filename="../windows/tablewindow.h" line="39"/>
+      <source>Export table data</source>
+      <translation>صادر کردن دادهٔ جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="40"/>
-        <source>Import data to the table</source>
-        <translation type="unfinished">Import data to the table</translation>
+      <location filename="../windows/tablewindow.h" line="40"/>
+      <source>Import data to the table</source>
+      <translation>وارد کردن داده به جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="41"/>
-        <source>Add new table constraint</source>
-        <translation type="unfinished">Add new table constraint</translation>
+      <location filename="../windows/tablewindow.h" line="41"/>
+      <source>Add new table constraint</source>
+      <translation>افزودن محدودیت جدول جدید</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="42"/>
-        <source>Edit selected table constraint</source>
-        <translation type="unfinished">Edit selected table constraint</translation>
+      <location filename="../windows/tablewindow.h" line="42"/>
+      <source>Edit selected table constraint</source>
+      <translation>ویرایش محدودیت جدول انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="43"/>
-        <source>Delete selected table constraint</source>
-        <translation type="unfinished">Delete selected table constraint</translation>
+      <location filename="../windows/tablewindow.h" line="43"/>
+      <source>Delete selected table constraint</source>
+      <translation>حذف محدودیت جدول انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="44"/>
-        <source>Refresh table index list</source>
-        <translation type="unfinished">Refresh table index list</translation>
+      <location filename="../windows/tablewindow.h" line="44"/>
+      <source>Refresh table index list</source>
+      <translation>بازآوری فهرست اندیس‌های جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="45"/>
-        <source>Add new index</source>
-        <translation type="unfinished">Add new index</translation>
+      <location filename="../windows/tablewindow.h" line="45"/>
+      <source>Add new index</source>
+      <translation>افزودن اندیس جدید</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="46"/>
-        <source>Edit selected index</source>
-        <translation type="unfinished">Edit selected index</translation>
+      <location filename="../windows/tablewindow.h" line="46"/>
+      <source>Edit selected index</source>
+      <translation>ویرایش اندیس انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="47"/>
-        <source>Delete selected index</source>
-        <translation type="unfinished">Delete selected index</translation>
+      <location filename="../windows/tablewindow.h" line="47"/>
+      <source>Delete selected index</source>
+      <translation>حذف اندیس انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="48"/>
-        <source>Refresh table trigger list</source>
-        <translation type="unfinished">Refresh table trigger list</translation>
+      <location filename="../windows/tablewindow.h" line="48"/>
+      <source>Refresh table trigger list</source>
+      <translation>بازآوری فهرست تریگرهای جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="49"/>
-        <location filename="../windows/viewwindow.h" line="29"/>
-        <source>Add new trigger</source>
-        <translation type="unfinished">Add new trigger</translation>
+      <location filename="../windows/tablewindow.h" line="49"/>
+      <location filename="../windows/viewwindow.h" line="29"/>
+      <source>Add new trigger</source>
+      <translation>افزودن تریگر جدید</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="50"/>
-        <location filename="../windows/viewwindow.h" line="30"/>
-        <source>Edit selected trigger</source>
-        <translation type="unfinished">Edit selected trigger</translation>
+      <location filename="../windows/tablewindow.h" line="50"/>
+      <location filename="../windows/viewwindow.h" line="30"/>
+      <source>Edit selected trigger</source>
+      <translation>ویرایش تریگر انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="51"/>
-        <location filename="../windows/viewwindow.h" line="31"/>
-        <source>Delete selected trigger</source>
-        <translation type="unfinished">Delete selected trigger</translation>
+      <location filename="../windows/tablewindow.h" line="51"/>
+      <location filename="../windows/viewwindow.h" line="31"/>
+      <source>Delete selected trigger</source>
+      <translation>حذف تریگر انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="52"/>
-        <location filename="../windows/viewwindow.h" line="32"/>
-        <source>Go to next tab</source>
-        <translation type="unfinished">Go to next tab</translation>
+      <location filename="../windows/tablewindow.h" line="52"/>
+      <location filename="../windows/viewwindow.h" line="32"/>
+      <source>Go to next tab</source>
+      <translation>رفتن به زبانهٔ بعدی</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.h" line="53"/>
-        <location filename="../windows/viewwindow.h" line="33"/>
-        <source>Go to previous tab</source>
-        <translation type="unfinished">Go to previous tab</translation>
+      <location filename="../windows/tablewindow.h" line="53"/>
+      <location filename="../windows/viewwindow.h" line="33"/>
+      <source>Go to previous tab</source>
+      <translation>رفتن به زبانهٔ قبلی</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.h" line="23"/>
-        <source>A view window</source>
-        <translation type="unfinished">A view window</translation>
+      <location filename="../windows/viewwindow.h" line="23"/>
+      <source>A view window</source>
+      <translation>یک پنجرهٔ نما</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.h" line="24"/>
-        <source>Commit the view&apos;s query</source>
-        <translation type="unfinished">Commit the view&apos;s query</translation>
+      <location filename="../windows/viewwindow.h" line="24"/>
+      <source>Commit the view&apos;s query</source>
+      <translation>ثبت پرس‌وجوی نما&apos;</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.h" line="25"/>
-        <source>Rollback pending changes in the view&apos;s query</source>
-        <translation type="unfinished">Rollback pending changes in the view&apos;s query</translation>
+      <location filename="../windows/viewwindow.h" line="25"/>
+      <source>Rollback pending changes in the view&apos;s query</source>
+      <translation>برگرداندن تغییرات در انتظار در پرس‌وجوی نما&apos;</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.h" line="26"/>
-        <source>Refresh view trigger list</source>
-        <translation type="unfinished">Refresh view trigger list</translation>
+      <location filename="../windows/viewwindow.h" line="26"/>
+      <source>Refresh view trigger list</source>
+      <translation>بازآوری فهرست تریگرهای نما</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.h" line="27"/>
-        <source>Execute the view&apos;s query</source>
-        <translation type="unfinished">Execute the view&apos;s query</translation>
+      <location filename="../windows/viewwindow.h" line="27"/>
+      <source>Execute the view&apos;s query</source>
+      <translation>اجرای پرس‌وجوی نما&apos;</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.h" line="28"/>
-        <source>Export view data</source>
-        <translation type="unfinished">Export view data</translation>
+      <location filename="../windows/viewwindow.h" line="28"/>
+      <source>Export view data</source>
+      <translation>صادر کردن دادهٔ نما</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.h" line="17"/>
-        <source>A code snippets editor window</source>
-        <translation type="unfinished">A code snippets editor window</translation>
+      <location filename="../windows/codesnippeteditor.h" line="17"/>
+      <source>A code snippets editor window</source>
+      <translation>یک پنجرهٔ ویرایشگر قطعه‌کدها</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.h" line="18"/>
-        <location filename="../windows/collationseditor.h" line="22"/>
-        <location filename="../windows/functionseditor.h" line="25"/>
-        <location filename="../windows/sqliteextensioneditor.h" line="22"/>
-        <source>Commit the pending changes</source>
-        <translation type="unfinished">Commit the pending changes</translation>
+      <location filename="../windows/codesnippeteditor.h" line="18"/>
+      <location filename="../windows/collationseditor.h" line="22"/>
+      <location filename="../windows/functionseditor.h" line="25"/>
+      <location filename="../windows/sqliteextensioneditor.h" line="22"/>
+      <source>Commit the pending changes</source>
+      <translation>ثبت تغییرات در انتظار</translation>
     </message>
     <message>
-        <location filename="../windows/codesnippeteditor.h" line="19"/>
-        <location filename="../windows/collationseditor.h" line="23"/>
-        <location filename="../windows/functionseditor.h" line="26"/>
-        <location filename="../windows/sqliteextensioneditor.h" line="23"/>
-        <source>Rollback the pending changes</source>
-        <translation type="unfinished">Rollback the pending changes</translation>
+      <location filename="../windows/codesnippeteditor.h" line="19"/>
+      <location filename="../windows/collationseditor.h" line="23"/>
+      <location filename="../windows/functionseditor.h" line="26"/>
+      <location filename="../windows/sqliteextensioneditor.h" line="23"/>
+      <source>Rollback the pending changes</source>
+      <translation>برگرداندن تغییرات در انتظار</translation>
     </message>
     <message>
-        <location filename="../windows/collationseditor.h" line="21"/>
-        <source>A collation editor window</source>
-        <translation type="unfinished">A collation editor window</translation>
+      <location filename="../windows/collationseditor.h" line="21"/>
+      <source>A collation editor window</source>
+      <translation>یک پنجرهٔ ویرایشگر ترتیب تطبیق</translation>
     </message>
     <message>
-        <location filename="../windows/functionseditor.h" line="24"/>
-        <source>A function editor window</source>
-        <translation type="unfinished">A function editor window</translation>
+      <location filename="../windows/functionseditor.h" line="24"/>
+      <source>A function editor window</source>
+      <translation>یک پنجرهٔ ویرایشگر تابع</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.h" line="21"/>
-        <source>A SQLite extension editor window</source>
-        <translation type="unfinished">A SQLite extension editor window</translation>
+      <location filename="../windows/sqliteextensioneditor.h" line="21"/>
+      <source>A SQLite extension editor window</source>
+      <translation>یک پنجرهٔ ویرایشگر افزونهٔ SQLite</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
-        <source>Edit database properties</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">Edit database properties</translation>
+      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="38"/>
+      <source>Edit database properties</source>
+      <comment>command palette entry</comment>
+      <translation>ویرایش ویژگی‌های پایگاه‌داده</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
-        <source>Open table</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">Open table</translation>
+      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="67"/>
+      <source>Open table</source>
+      <comment>command palette entry</comment>
+      <translation>باز کردن جدول</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
-        <source>Edit index</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">Edit index</translation>
+      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="68"/>
+      <source>Edit index</source>
+      <comment>command palette entry</comment>
+      <translation>ویرایش اندیس</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
-        <source>Edit trigger</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">Edit trigger</translation>
+      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="69"/>
+      <source>Edit trigger</source>
+      <comment>command palette entry</comment>
+      <translation>ویرایش تریگر</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
-        <source>Open view</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">Open view</translation>
+      <location filename="../commandpalette/cpdbobjectsprovider.cpp" line="70"/>
+      <source>Open view</source>
+      <comment>command palette entry</comment>
+      <translation>باز کردن نما</translation>
     </message>
     <message>
-        <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
-        <source>Bring the window to front</source>
-        <comment>command palette entry</comment>
-        <translation type="unfinished">Bring the window to front</translation>
+      <location filename="../commandpalette/cpmdiwindowsprovider.cpp" line="21"/>
+      <source>Bring the window to front</source>
+      <comment>command palette entry</comment>
+      <translation>آوردن پنجره به جلو</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>QuitConfirmDialog</name>
     <message>
-        <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
-        <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+      <location filename="../dialogs/quitconfirmdialog.ui" line="14"/>
+      <source>Uncommitted changes</source>
+      <translation>تغییرات ثبت‌نشده</translation>
     </message>
     <message>
-        <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/quitconfirmdialog.ui" line="20"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Are you sure you want to quit the application?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Following items are pending:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;آیا مطمئن هستید که می‌خواهید از برنامه خارج شوید؟&lt;/span&gt;&lt;/p&gt;&lt;p&gt;موارد زیر در انتظار هستند:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SearchTextDialog</name>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="14"/>
-        <source>Find or replace</source>
-        <translation type="unfinished">Find or replace</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="14"/>
+      <source>Find or replace</source>
+      <translation>یافتن یا جایگزینی</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="88"/>
-        <source>Find:</source>
-        <translation type="unfinished">Find:</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="88"/>
+      <source>Find:</source>
+      <translation>یافتن:</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="31"/>
-        <source>Case sensitive</source>
-        <translation type="unfinished">Case sensitive</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="31"/>
+      <source>Case sensitive</source>
+      <translation>حساس به بزرگی و کوچکی حروف</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="38"/>
-        <source>Search backwards</source>
-        <translation type="unfinished">Search backwards</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="38"/>
+      <source>Search backwards</source>
+      <translation>جست‌وجو به عقب</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="45"/>
-        <source>Regular expression matching</source>
-        <translation type="unfinished">Regular expression matching</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="45"/>
+      <source>Regular expression matching</source>
+      <translation>تطبیق با عبارت منظم</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="113"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="113"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;Reached the end of document.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa0000;&quot;&gt;به پایان سند رسیدید.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="20"/>
-        <source>Replace &amp;&amp;
+      <location filename="../dialogs/searchtextdialog.ui" line="20"/>
+      <source>Replace &amp;&amp;
 find next</source>
-        <translation type="unfinished">Replace &amp;&amp;
-find next</translation>
+      <translation>جایگزینی &amp;&amp;
+یافتن بعدی</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="65"/>
-        <source>Replace with:</source>
-        <translation type="unfinished">Replace with:</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="65"/>
+      <source>Replace with:</source>
+      <translation>جایگزینی با:</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="55"/>
-        <source>Replace all</source>
-        <translation type="unfinished">Replace all</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="55"/>
+      <source>Replace all</source>
+      <translation>جایگزینی همه</translation>
     </message>
     <message>
-        <location filename="../dialogs/searchtextdialog.ui" line="75"/>
-        <source>Find</source>
-        <translation type="unfinished">Find</translation>
+      <location filename="../dialogs/searchtextdialog.ui" line="75"/>
+      <source>Find</source>
+      <translation>یافتن</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SettingsExportDialog</name>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
-        <source>Export configuration</source>
-        <translation type="unfinished">Export configuration</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="14"/>
+      <source>Export configuration</source>
+      <translation>صادر کردن پیکربندی</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
-        <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
-        <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
-        <source>Output JSON file</source>
-        <translation type="unfinished">Output JSON file</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="20"/>
+      <location filename="../dialogs/settingsexportdialog.ui" line="32"/>
+      <location filename="../dialogs/settingsexportdialog.cpp" line="24"/>
+      <source>Output JSON file</source>
+      <translation>فایل JSON خروجی</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
-        <source>JSON file (*.json);;All files (*)</source>
-        <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="29"/>
+      <source>JSON file (*.json);;All files (*)</source>
+      <translation>فایل JSON (*.json);;همهٔ فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
-        <source>What to export?</source>
-        <translation type="unfinished">What to export?</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="45"/>
+      <source>What to export?</source>
+      <translation>چه چیزی صادر شود؟</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
-        <source>User-defined SQL functions</source>
-        <translation type="unfinished">User-defined SQL functions</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="51"/>
+      <source>User-defined SQL functions</source>
+      <translation>توابع SQL تعریف‌شده توسط کاربر</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
-        <source>User-defined collation sequences</source>
-        <translation type="unfinished">User-defined collation sequences</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="65"/>
+      <source>User-defined collation sequences</source>
+      <translation>توالی‌های ترتیب تطبیق تعریف‌شده توسط کاربر</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
-        <source>User-defined code snippets</source>
-        <translation type="unfinished">User-defined code snippets</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="79"/>
+      <source>User-defined code snippets</source>
+      <translation>قطعه‌کدهای تعریف‌شده توسط کاربر</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
-        <source>Configured SQLite extensions</source>
-        <translation type="unfinished">Configured SQLite extensions</translation>
+      <location filename="../dialogs/settingsexportdialog.ui" line="93"/>
+      <source>Configured SQLite extensions</source>
+      <translation>افزونه‌های SQLite پیکربندی‌شده</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SettingsImportDialog</name>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
-        <source>Import configuration</source>
-        <translation type="unfinished">Import configuration</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="14"/>
+      <source>Import configuration</source>
+      <translation>وارد کردن پیکربندی</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
-        <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
-        <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
-        <source>Input JSON file</source>
-        <translation type="unfinished">Input JSON file</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="20"/>
+      <location filename="../dialogs/settingsimportdialog.ui" line="29"/>
+      <location filename="../dialogs/settingsimportdialog.cpp" line="31"/>
+      <source>Input JSON file</source>
+      <translation>فایل JSON ورودی</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
-        <source>JSON file (*.json);;All files (*)</source>
-        <translation type="unfinished">JSON file (*.json);;All files (*)</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="26"/>
+      <source>JSON file (*.json);;All files (*)</source>
+      <translation>فایل JSON (*.json);;همهٔ فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
-        <source>What to import?</source>
-        <translation type="unfinished">What to import?</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="39"/>
+      <source>What to import?</source>
+      <translation>چه چیزی وارد شود؟</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
-        <source>User-defined SQL functions</source>
-        <translation type="unfinished">User-defined SQL functions</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="45"/>
+      <source>User-defined SQL functions</source>
+      <translation>توابع SQL تعریف‌شده توسط کاربر</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
-        <source>User-defined collation sequences</source>
-        <translation type="unfinished">User-defined collation sequences</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="56"/>
+      <source>User-defined collation sequences</source>
+      <translation>توالی‌های ترتیب تطبیق تعریف‌شده توسط کاربر</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
-        <source>User-defined code snippets</source>
-        <translation type="unfinished">User-defined code snippets</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="67"/>
+      <source>User-defined code snippets</source>
+      <translation>قطعه‌کدهای تعریف‌شده توسط کاربر</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
-        <source>Configured SQLite extensions</source>
-        <translation type="unfinished">Configured SQLite extensions</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="78"/>
+      <source>Configured SQLite extensions</source>
+      <translation>افزونه‌های SQLite پیکربندی‌شده</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
-        <source>Import mode</source>
-        <translation type="unfinished">Import mode</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="92"/>
+      <source>Import mode</source>
+      <translation>حالت وارد کردن</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
-        <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
-        <translation type="unfinished">Imports selected items without modifying or removing ones existing in your current configuration.</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="98"/>
+      <source>Imports selected items without modifying or removing ones existing in your current configuration.</source>
+      <translation>موارد انتخاب‌شده را بدون تغییر دادن یا حذف موارد موجود در پیکربندی فعلی شما وارد می‌کند.</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
-        <source>Add to existing items</source>
-        <translation type="unfinished">Add to existing items</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="101"/>
+      <source>Add to existing items</source>
+      <translation>افزودن به موارد موجود</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
-        <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
-        <translation type="unfinished">Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="111"/>
+      <source>Removes all existing items in the selected categories, then imports the new ones from the file. This action cannot be undone!</source>
+      <translation>همهٔ موارد موجود در دسته‌های انتخاب‌شده را حذف می‌کند، سپس موارد جدید را از فایل وارد می‌کند. این عمل قابل واگرد نیست!</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
-        <source>Replace existing items</source>
-        <translation type="unfinished">Replace existing items</translation>
+      <location filename="../dialogs/settingsimportdialog.ui" line="114"/>
+      <source>Replace existing items</source>
+      <translation>جایگزینی موارد موجود</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
-        <source>Invalid input file to import: %1</source>
-        <translation type="unfinished">Invalid input file to import: %1</translation>
+      <location filename="../dialogs/settingsimportdialog.cpp" line="42"/>
+      <source>Invalid input file to import: %1</source>
+      <translation>فایل ورودی نامعتبر برای وارد کردن: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
-        <source>Selected file does not contain functions to import.</source>
-        <translation type="unfinished">Selected file does not contain functions to import.</translation>
+      <location filename="../dialogs/settingsimportdialog.cpp" line="53"/>
+      <source>Selected file does not contain functions to import.</source>
+      <translation>فایل انتخاب‌شده شامل توابعی برای وارد کردن نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
-        <source>Selected file does not contain collation sequences to import.</source>
-        <translation type="unfinished">Selected file does not contain collation sequences to import.</translation>
+      <location filename="../dialogs/settingsimportdialog.cpp" line="62"/>
+      <source>Selected file does not contain collation sequences to import.</source>
+      <translation>فایل انتخاب‌شده شامل توالی‌های ترتیب تطبیقی برای وارد کردن نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
-        <source>Selected file does not contain code snippets to import.</source>
-        <translation type="unfinished">Selected file does not contain code snippets to import.</translation>
+      <location filename="../dialogs/settingsimportdialog.cpp" line="70"/>
+      <source>Selected file does not contain code snippets to import.</source>
+      <translation>فایل انتخاب‌شده حاوی قطعه‌کدهایی برای درون‌ریزی نیست.</translation>
     </message>
     <message>
-        <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
-        <source>Selected file does not contain SQLite extensions to import.</source>
-        <translation type="unfinished">Selected file does not contain SQLite extensions to import.</translation>
+      <location filename="../dialogs/settingsimportdialog.cpp" line="78"/>
+      <source>Selected file does not contain SQLite extensions to import.</source>
+      <translation>فایل انتخاب‌شده حاوی افزونه‌های SQLite برای درون‌ریزی نیست.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SortDialog</name>
     <message>
-        <location filename="../dialogs/sortdialog.ui" line="14"/>
-        <source>Sort by columns</source>
-        <translation type="unfinished">Sort by columns</translation>
+      <location filename="../dialogs/sortdialog.ui" line="14"/>
+      <source>Sort by columns</source>
+      <translation>مرتب‌سازی بر اساس ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../dialogs/sortdialog.ui" line="45"/>
-        <location filename="../dialogs/sortdialog.cpp" line="47"/>
-        <source>Column</source>
-        <translation type="unfinished">Column</translation>
+      <location filename="../dialogs/sortdialog.ui" line="45"/>
+      <location filename="../dialogs/sortdialog.cpp" line="47"/>
+      <source>Column</source>
+      <translation>ستون</translation>
     </message>
     <message>
-        <location filename="../dialogs/sortdialog.ui" line="50"/>
-        <location filename="../dialogs/sortdialog.cpp" line="47"/>
-        <source>Order</source>
-        <translation type="unfinished">Order</translation>
+      <location filename="../dialogs/sortdialog.ui" line="50"/>
+      <location filename="../dialogs/sortdialog.cpp" line="47"/>
+      <source>Order</source>
+      <translation>ترتیب</translation>
     </message>
     <message>
-        <location filename="../dialogs/sortdialog.cpp" line="177"/>
-        <source>Sort by: %1</source>
-        <translation type="unfinished">Sort by: %1</translation>
+      <location filename="../dialogs/sortdialog.cpp" line="177"/>
+      <source>Sort by: %1</source>
+      <translation>مرتب‌سازی بر اساس: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/sortdialog.cpp" line="241"/>
-        <source>Move column up</source>
-        <translation type="unfinished">Move column up</translation>
+      <location filename="../dialogs/sortdialog.cpp" line="241"/>
+      <source>Move column up</source>
+      <translation>انتقال ستون به بالا</translation>
     </message>
     <message>
-        <location filename="../dialogs/sortdialog.cpp" line="242"/>
-        <source>Move column down</source>
-        <translation type="unfinished">Move column down</translation>
+      <location filename="../dialogs/sortdialog.cpp" line="242"/>
+      <source>Move column down</source>
+      <translation>انتقال ستون به پایین</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
-        <source>Error while committing new row: %1</source>
-        <translation type="unfinished">Error while committing new row: %1</translation>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+      <source>Error while committing new row: %1</source>
+      <translation>خطا هنگام ثبت ردیف جدید: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
-        <source>Error while deleting row from %1: %2</source>
-        <translation type="unfinished">Error while deleting row from %1: %2</translation>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+      <source>Error while deleting row from %1: %2</source>
+      <translation>خطا هنگام حذف ردیف از %1: %2</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlEditor</name>
     <message>
-        <location filename="../sqleditor.cpp" line="194"/>
-        <source>Wrap words</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Wrap words</translation>
+      <location filename="../sqleditor.cpp" line="194"/>
+      <source>Wrap words</source>
+      <comment>sql editor</comment>
+      <translation>شکستن کلمات در خط</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="158"/>
-        <source>Cut</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Cut</translation>
+      <location filename="../sqleditor.cpp" line="158"/>
+      <source>Cut</source>
+      <comment>sql editor</comment>
+      <translation>برش</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="159"/>
-        <source>Copy</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Copy</translation>
+      <location filename="../sqleditor.cpp" line="159"/>
+      <source>Copy</source>
+      <comment>sql editor</comment>
+      <translation>کپی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="160"/>
-        <source>Paste</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Paste</translation>
+      <location filename="../sqleditor.cpp" line="160"/>
+      <source>Paste</source>
+      <comment>sql editor</comment>
+      <translation>چسباندن</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="161"/>
-        <source>Delete</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Delete</translation>
+      <location filename="../sqleditor.cpp" line="161"/>
+      <source>Delete</source>
+      <comment>sql editor</comment>
+      <translation>حذف</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="162"/>
-        <source>Select all</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Select all</translation>
+      <location filename="../sqleditor.cpp" line="162"/>
+      <source>Select all</source>
+      <comment>sql editor</comment>
+      <translation>انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="163"/>
-        <source>Undo</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Undo</translation>
+      <location filename="../sqleditor.cpp" line="163"/>
+      <source>Undo</source>
+      <comment>sql editor</comment>
+      <translation>واگرد</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="164"/>
-        <source>Redo</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Redo</translation>
+      <location filename="../sqleditor.cpp" line="164"/>
+      <source>Redo</source>
+      <comment>sql editor</comment>
+      <translation>از نو</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="166"/>
-        <source>Complete</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Complete</translation>
+      <location filename="../sqleditor.cpp" line="166"/>
+      <source>Complete</source>
+      <comment>sql editor</comment>
+      <translation>تکمیل</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="167"/>
-        <source>Format SQL</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Format SQL</translation>
+      <location filename="../sqleditor.cpp" line="167"/>
+      <source>Format SQL</source>
+      <comment>sql editor</comment>
+      <translation>قالب‌بندی SQL</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="168"/>
-        <source>Save SQL to file</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Save SQL to file</translation>
+      <location filename="../sqleditor.cpp" line="168"/>
+      <source>Save SQL to file</source>
+      <comment>sql editor</comment>
+      <translation>ذخیره SQL در فایل</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="169"/>
-        <source>Select file to save SQL</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Select file to save SQL</translation>
+      <location filename="../sqleditor.cpp" line="169"/>
+      <source>Select file to save SQL</source>
+      <comment>sql editor</comment>
+      <translation>انتخاب فایل برای ذخیره SQL</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="170"/>
-        <source>Load SQL from file</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Load SQL from file</translation>
+      <location filename="../sqleditor.cpp" line="170"/>
+      <source>Load SQL from file</source>
+      <comment>sql editor</comment>
+      <translation>بارگذاری SQL از فایل</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="171"/>
-        <source>Delete line</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Delete line</translation>
+      <location filename="../sqleditor.cpp" line="171"/>
+      <source>Delete line</source>
+      <comment>sql editor</comment>
+      <translation>حذف خط</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="172"/>
-        <source>Move block down</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Move block down</translation>
+      <location filename="../sqleditor.cpp" line="172"/>
+      <source>Move block down</source>
+      <comment>sql editor</comment>
+      <translation>انتقال بلوک به پایین</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="173"/>
-        <source>Move block up</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Move block up</translation>
+      <location filename="../sqleditor.cpp" line="173"/>
+      <source>Move block up</source>
+      <comment>sql editor</comment>
+      <translation>انتقال بلوک به بالا</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="174"/>
-        <source>Copy block down</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Copy block down</translation>
+      <location filename="../sqleditor.cpp" line="174"/>
+      <source>Copy block down</source>
+      <comment>sql editor</comment>
+      <translation>کپی بلوک به پایین</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="175"/>
-        <source>Copy up down</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Copy up down</translation>
+      <location filename="../sqleditor.cpp" line="175"/>
+      <source>Copy up down</source>
+      <comment>sql editor</comment>
+      <translation>کپی بلوک به بالا</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="176"/>
-        <source>Find or replace</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Find or replace</translation>
+      <location filename="../sqleditor.cpp" line="176"/>
+      <source>Find or replace</source>
+      <comment>sql editor</comment>
+      <translation>یافتن یا جایگزینی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="177"/>
-        <source>Find next</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Find next</translation>
+      <location filename="../sqleditor.cpp" line="177"/>
+      <source>Find next</source>
+      <comment>sql editor</comment>
+      <translation>یافتن بعدی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="178"/>
-        <source>Find previous</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Find previous</translation>
+      <location filename="../sqleditor.cpp" line="178"/>
+      <source>Find previous</source>
+      <comment>sql editor</comment>
+      <translation>یافتن قبلی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="179"/>
-        <source>Replace</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Replace</translation>
+      <location filename="../sqleditor.cpp" line="179"/>
+      <source>Replace</source>
+      <comment>sql editor</comment>
+      <translation>جایگزینی</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="180"/>
-        <source>Toggle comment</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Toggle comment</translation>
+      <location filename="../sqleditor.cpp" line="180"/>
+      <source>Toggle comment</source>
+      <comment>sql editor</comment>
+      <translation>تغییر وضعیت توضیح</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="181"/>
-        <source>Increase font size</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Increase font size</translation>
+      <location filename="../sqleditor.cpp" line="181"/>
+      <source>Increase font size</source>
+      <comment>sql editor</comment>
+      <translation>افزایش اندازه قلم</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="182"/>
-        <source>Decrease font size</source>
-        <comment>sql editor</comment>
-        <translation type="unfinished">Decrease font size</translation>
+      <location filename="../sqleditor.cpp" line="182"/>
+      <source>Decrease font size</source>
+      <comment>sql editor</comment>
+      <translation>کاهش اندازه قلم</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="297"/>
-        <source>Could not open file &apos;%1&apos; for writing: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for writing: %2</translation>
+      <location filename="../sqleditor.cpp" line="297"/>
+      <source>Could not open file &apos;%1&apos; for writing: %2</source>
+      <translation>فایل &apos;%1&apos; برای نوشتن باز نشد: %2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="306"/>
-        <source>Saved SQL contents to file: %1</source>
-        <translation type="unfinished">Saved SQL contents to file: %1</translation>
+      <location filename="../sqleditor.cpp" line="306"/>
+      <source>Saved SQL contents to file: %1</source>
+      <translation>محتوای SQL در فایل ذخیره شد: %1</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="562"/>
-        <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
-        <translation type="unfinished">Syntax completion can be used only when a valid database is set for the SQL editor.</translation>
+      <location filename="../sqleditor.cpp" line="562"/>
+      <source>Syntax completion can be used only when a valid database is set for the SQL editor.</source>
+      <translation>تکمیل نحو فقط زمانی قابل استفاده است که یک پایگاه داده معتبر برای ویرایشگر SQL تنظیم شده باشد.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1183"/>
-        <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
-        <translation type="unfinished">Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</translation>
+      <location filename="../sqleditor.cpp" line="1183"/>
+      <source>Contents of the SQL editor are huge, so errors detecting and existing objects highlighting are temporarily disabled.</source>
+      <translation>محتوای ویرایشگر SQL بسیار بزرگ است، بنابراین تشخیص خطاها و برجسته‌سازی اشیای موجود موقتاً غیرفعال شده‌اند.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1212"/>
-        <source>Save to file</source>
-        <translation type="unfinished">Save to file</translation>
+      <location filename="../sqleditor.cpp" line="1212"/>
+      <source>Save to file</source>
+      <translation>ذخیره در فایل</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1227"/>
-        <source>SQL scripts (*.sql);;All files (*)</source>
-        <translation type="unfinished">SQL scripts (*.sql);;All files (*)</translation>
+      <location filename="../sqleditor.cpp" line="1227"/>
+      <source>SQL scripts (*.sql);;All files (*)</source>
+      <translation>اسکریپت‌های SQL (*.sql);;همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1228"/>
-        <location filename="../sqleditor.cpp" line="1259"/>
-        <source>Open file</source>
-        <translation type="unfinished">Open file</translation>
+      <location filename="../sqleditor.cpp" line="1228"/>
+      <location filename="../sqleditor.cpp" line="1259"/>
+      <source>Open file</source>
+      <translation>باز کردن فایل</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1260"/>
-        <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
-        <translation type="unfinished">This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</translation>
+      <location filename="../sqleditor.cpp" line="1260"/>
+      <source>This file is huge (over %1 MB). Are you sure you want to load it into SQL query editor?</source>
+      <translation>این فایل بسیار بزرگ است (بیش از %1 مگابایت). مطمئنید می‌خواهید آن را در ویرایشگر پرس‌وجوی SQL بارگذاری کنید؟</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1274"/>
-        <source>Could not open file &apos;%1&apos; for reading: %2</source>
-        <translation type="unfinished">Could not open file &apos;%1&apos; for reading: %2</translation>
+      <location filename="../sqleditor.cpp" line="1274"/>
+      <source>Could not open file &apos;%1&apos; for reading: %2</source>
+      <translation>فایل &apos;%1&apos; برای خواندن باز نشد: %2</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1468"/>
-        <source>Reached the end of document. Hit the find again to restart the search.</source>
-        <translation type="unfinished">Reached the end of document. Hit the find again to restart the search.</translation>
+      <location filename="../sqleditor.cpp" line="1468"/>
+      <source>Reached the end of document. Hit the find again to restart the search.</source>
+      <translation>به پایان سند رسیدید. برای شروع دوباره جستجو، دوباره یافتن را بزنید.</translation>
     </message>
     <message>
-        <location filename="../sqleditor.cpp" line="1740"/>
-        <source>Ctrl+click to open this table or view</source>
-        <translation type="unfinished">Ctrl+click to open this table or view</translation>
+      <location filename="../sqleditor.cpp" line="1740"/>
+      <source>Ctrl+click to open this table or view</source>
+      <translation>Ctrl+کلیک برای باز کردن این جدول یا نما</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlQueryItem</name>
     <message>
-        <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
-        <source>Committing error:</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">Committing error:</translation>
+      <location filename="../datagrid/sqlqueryitem.cpp" line="260"/>
+      <source>Committing error:</source>
+      <comment>data view tooltip</comment>
+      <translation>خطای ثبت تغییرات:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
-        <source>Column:</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">Column:</translation>
+      <location filename="../datagrid/sqlqueryitem.cpp" line="264"/>
+      <source>Column:</source>
+      <comment>data view tooltip</comment>
+      <translation>ستون:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
-        <source>Data type:</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Data type:</translation>
+      <location filename="../datagrid/sqlqueryitem.cpp" line="265"/>
+      <source>Data type:</source>
+      <comment>data view</comment>
+      <translation>نوع داده:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
-        <source>Table:</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">Table:</translation>
+      <location filename="../datagrid/sqlqueryitem.cpp" line="268"/>
+      <source>Table:</source>
+      <comment>data view tooltip</comment>
+      <translation>جدول:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
-        <source>Constraints:</source>
-        <comment>data view tooltip</comment>
-        <translation type="unfinished">Constraints:</translation>
+      <location filename="../datagrid/sqlqueryitem.cpp" line="304"/>
+      <source>Constraints:</source>
+      <comment>data view tooltip</comment>
+      <translation>محدودیت‌ها:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlQueryItemDelegate</name>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
-        <source>Cannot edit this cell. Details: %1</source>
-        <translation type="unfinished">Cannot edit this cell. Details: %1</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="69"/>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
+      <source>Cannot edit this cell. Details: %1</source>
+      <translation>این سلول قابل ویرایش نیست. جزئیات: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
-        <source>The row is marked for deletion.</source>
-        <translation type="unfinished">The row is marked for deletion.</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="63"/>
+      <source>The row is marked for deletion.</source>
+      <translation>این ردیف برای حذف علامت‌گذاری شده است.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="316"/>
-        <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
-        <translation type="unfinished">Structure of this table has changed since last data was loaded. Reload the data to proceed.</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="75"/>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="317"/>
+      <source>Structure of this table has changed since last data was loaded. Reload the data to proceed.</source>
+      <translation>ساختار این جدول از زمان آخرین بارگذاری داده تغییر کرده است. برای ادامه، داده‌ها را دوباره بارگذاری کنید.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
-        <source>ROWID is not available for this cell.</source>
-        <translation type="unfinished">ROWID is not available for this cell.</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="81"/>
+      <source>ROWID is not available for this cell.</source>
+      <translation>ROWID برای این سلول در دسترس نیست.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="258"/>
-        <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
-        <translation type="unfinished">Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="259"/>
+      <source>Editing a huge contents in an inline cell editor is not a good idea. It can become slow and inconvenient. It&apos;s better to edit such big contents in a Form View, or in popup editor (available under right-click menu).</source>
+      <translation>ویرایش محتوای بسیار بزرگ در ویرایشگر درون‌خطی سلول ایدهٔ خوبی نیست. ممکن است کند و نامناسب شود. بهتر &apos;است چنین محتوای بزرگی را در نمای فرم یا در ویرایشگر بازشو (موجود در منوی کلیک راست) ویرایش کنید.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="283"/>
-        <source>Reset to DEFAULT value</source>
-        <translation type="unfinished">Reset to DEFAULT value</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="284"/>
+      <source>Reset to DEFAULT value</source>
+      <translation>بازنشانی به مقدار DEFAULT</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="285"/>
-        <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
-        <translation type="unfinished">Reset to PRIMARY KEY AUTOINCREMENT value</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="286"/>
+      <source>Reset to PRIMARY KEY AUTOINCREMENT value</source>
+      <translation>بازنشانی به مقدار PRIMARY KEY AUTOINCREMENT</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="287"/>
-        <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="288"/>
+      <source>Reset value</source>
+      <translation>بازنشانی مقدار</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="308"/>
-        <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
-        <translation type="unfinished">Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</translation>
+      <location filename="../datagrid/sqlqueryitemdelegate.cpp" line="309"/>
+      <source>Foreign key for column %2 has more than %1 possible values. It&apos;s too much to display in drop down list. You need to edit value manually.</source>
+      <translation>کلید خارجی برای ستون %2 بیش از %1 مقدار ممکن دارد. این تعداد برای نمایش در فهرست کشویی بیش از حد زیاد &apos;است. باید مقدار را دستی ویرایش کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlQueryModel</name>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
-        <source>Only one query can be executed simultaneously.</source>
-        <translation type="unfinished">Only one query can be executed simultaneously.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="93"/>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="724"/>
+      <source>Only one query can be executed simultaneously.</source>
+      <translation>فقط یک پرس‌وجو می‌تواند هم‌زمان اجرا شود.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
-        <source>Cannot execute query on undefined or invalid database.</source>
-        <translation type="unfinished">Cannot execute query on undefined or invalid database.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="111"/>
+      <source>Cannot execute query on undefined or invalid database.</source>
+      <translation>نمی‌توان پرس‌وجو را روی پایگاه داده تعریف‌نشده یا نامعتبر اجرا کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
-        <source>Cannot execute empty query.</source>
-        <translation type="unfinished">Cannot execute empty query.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="118"/>
+      <source>Cannot execute empty query.</source>
+      <translation>نمی‌توان پرس‌وجوی خالی را اجرا کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
-        <source>Uncommitted data</source>
-        <translation type="unfinished">Uncommitted data</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="126"/>
+      <source>Uncommitted data</source>
+      <translation>داده‌های ثبت‌نشده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
-        <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
-        <translation type="unfinished">There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="127"/>
+      <source>There are uncommitted data changes. Do you want to proceed anyway? All uncommitted changes will be lost.</source>
+      <translation>تغییرات داده ثبت‌نشده وجود دارد. آیا با این حال می‌خواهید ادامه دهید؟ همه تغییرات ثبت‌نشده از دست خواهند رفت.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
-        <source>Cannot commit the data for a cell that refers to the already closed database.</source>
-        <translation type="unfinished">Cannot commit the data for a cell that refers to the already closed database.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="599"/>
+      <source>Cannot commit the data for a cell that refers to the already closed database.</source>
+      <translation>نمی‌توان داده‌های سلولی را که به پایگاه داده‌ای که قبلاً بسته شده ارجاع می‌دهد ثبت کرد.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
-        <source>Could not begin transaction on the database. Details: %1</source>
-        <translation type="unfinished">Could not begin transaction on the database. Details: %1</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="619"/>
+      <source>Could not begin transaction on the database. Details: %1</source>
+      <translation>شروع تراکنش روی پایگاه داده ممکن نشد. جزئیات: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
-        <source>An error occurred while committing the transaction: %1</source>
-        <translation type="unfinished">An error occurred while committing the transaction: %1</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="652"/>
+      <source>An error occurred while committing the transaction: %1</source>
+      <translation>هنگام ثبت تراکنش خطایی رخ داد: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
-        <source>An error occurred while rolling back the transaction: %1</source>
-        <translation type="unfinished">An error occurred while rolling back the transaction: %1</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="685"/>
+      <source>An error occurred while rolling back the transaction: %1</source>
+      <translation>هنگام بازگردانی تراکنش خطایی رخ داد: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
-        <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
-        <translation type="unfinished">Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="897"/>
+      <source>Tried to commit a cell which is not editable (yet modified and waiting for commit)! This is a bug. Please report it.</source>
+      <translation>تلاش شد سلولی ثبت شود که قابل ویرایش نیست (با این حال تغییر کرده و در انتظار ثبت است)! این یک باگ است. لطفاً گزارش دهید.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
-        <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="923"/>
+      <source>An error occurred while committing the data: %1</source>
+      <translation>هنگام ثبت داده‌ها خطایی رخ داد: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
-        <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
-        <translation type="unfinished">Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="1057"/>
+      <source>Number of rows per page was decreased to %1 due to number of columns (%2) in the data view.</source>
+      <translation>تعداد ردیف‌ها در هر صفحه به دلیل تعداد ستون‌ها (%2) در نمای داده به %1 کاهش یافت.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
-        <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
-        <translation type="unfinished">Error while executing SQL query on database &apos;%1&apos;: %2</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="1466"/>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="1482"/>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="1531"/>
+      <source>Error while executing SQL query on database &apos;%1&apos;: %2</source>
+      <translation>خطا هنگام اجرای پرس‌وجوی SQL روی پایگاه داده &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
-        <source>Error while loading query results: %1</source>
-        <translation type="unfinished">Error while loading query results: %1</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="1528"/>
+      <source>Error while loading query results: %1</source>
+      <translation>خطا هنگام بارگذاری نتایج پرس‌وجو: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="1695"/>
-        <source>There are less columns in the new query, sort order has been reset.</source>
-        <translation type="unfinished">There are less columns in the new query, sort order has been reset.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
+      <source>Insert multiple rows</source>
+      <translation>درج چند ردیف</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
-        <source>Insert multiple rows</source>
-        <translation type="unfinished">Insert multiple rows</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2022"/>
+      <source>Number of rows to insert:</source>
+      <translation>تعداد ردیف‌ها برای درج:</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2024"/>
-        <source>Number of rows to insert:</source>
-        <translation type="unfinished">Number of rows to insert:</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2079"/>
+      <source>Delete rows</source>
+      <translation>حذف ردیف‌ها</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2081"/>
-        <source>Delete rows</source>
-        <translation type="unfinished">Delete rows</translation>
-    </message>
-    <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2082"/>
-        <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2080"/>
+      <source>You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
 Such deletion will be permanent. Are you sure you want to delete them?</source>
-        <translation type="unfinished">You&apos;re about to delete newly inserted rows that are not committed yet. Row numbers: %1
-Such deletion will be permanent. Are you sure you want to delete them?</translation>
+      <translation>شما&apos; در آستانهٔ حذف ردیف‌های تازه درج‌شده‌ای هستید که هنوز ثبت نشده‌اند. شمارهٔ ردیف‌ها: %1
+این حذف دائمی خواهد بود. مطمئنید می‌خواهید آن‌ها را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
-        <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
-        <translation type="unfinished">Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2207"/>
+      <source>Single-click sorts by the column.&lt;br&gt;Alt+click selects data in the column.</source>
+      <translation>تک‌کلیک بر اساس ستون مرتب می‌کند.&lt;br&gt;Alt+کلیک داده‌های ستون را انتخاب می‌کند.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2211"/>
-        <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
-        <translation type="unfinished">Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2209"/>
+      <source>Single-click selects data in the column.&lt;br&gt;Double-click sorts by the column.</source>
+      <translation>تک‌کلیک داده‌های ستون را انتخاب می‌کند.&lt;br&gt;دوبارکلیک بر اساس ستون مرتب می‌کند.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2216"/>
-        <source>Middle-click resets sorting.</source>
-        <translation type="unfinished">Middle-click resets sorting.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2214"/>
+      <source>Middle-click resets sorting.</source>
+      <translation>کلیک میانی مرتب‌سازی را بازنشانی می‌کند.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlquerymodel.cpp" line="2217"/>
-        <source>More options are available in the context menu.</source>
-        <translation type="unfinished">More options are available in the context menu.</translation>
+      <location filename="../datagrid/sqlquerymodel.cpp" line="2215"/>
+      <source>More options are available in the context menu.</source>
+      <translation>گزینه‌های بیشتر در منوی زمینه موجود است.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlQueryView</name>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
-        <source>Go to referenced row in...</source>
-        <translation type="unfinished">Go to referenced row in...</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="58"/>
+      <source>Go to referenced row in...</source>
+      <translation>رفتن به ردیف ارجاع‌شده در...</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
-        <source>Cut</source>
-        <translation type="unfinished">Cut</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="147"/>
+      <source>Cut</source>
+      <translation>برش</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
-        <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="148"/>
+      <source>Copy</source>
+      <translation>کپی</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
-        <source>Copy with headers</source>
-        <translation type="unfinished">Copy with headers</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="149"/>
+      <source>Copy with headers</source>
+      <translation>کپی با سرستون‌ها</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
-        <source>Copy as...</source>
-        <translation type="unfinished">Copy as...</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="150"/>
+      <source>Copy as...</source>
+      <translation>کپی به‌عنوان...</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
-        <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="151"/>
+      <source>Paste</source>
+      <translation>چسباندن</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
-        <source>Paste as...</source>
-        <translation type="unfinished">Paste as...</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="152"/>
+      <source>Paste as...</source>
+      <translation>چسباندن به‌عنوان...</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
-        <source>Set NULL value</source>
-        <translation type="unfinished">Set NULL value</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="153"/>
+      <source>Set NULL value</source>
+      <translation>تنظیم مقدار NULL</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
-        <source>Erase value</source>
-        <translation type="unfinished">Erase value</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="154"/>
+      <source>Erase value</source>
+      <translation>پاک کردن مقدار</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
-        <source>Reset value</source>
-        <translation type="unfinished">Reset value</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="155"/>
+      <source>Reset value</source>
+      <translation>بازنشانی مقدار</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
-        <source>Commit</source>
-        <translation type="unfinished">Commit</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="157"/>
+      <source>Commit</source>
+      <translation>ثبت</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
-        <source>Rollback</source>
-        <translation type="unfinished">Rollback</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="158"/>
+      <source>Rollback</source>
+      <translation>بازگردانی</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
-        <source>Commit selected cells</source>
-        <translation type="unfinished">Commit selected cells</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="159"/>
+      <source>Commit selected cells</source>
+      <translation>ثبت سلول‌های انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
-        <source>Rollback selected cells</source>
-        <translation type="unfinished">Rollback selected cells</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="160"/>
+      <source>Rollback selected cells</source>
+      <translation>بازگردانی سلول‌های انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
-        <source>Edit current cell inline</source>
-        <translation type="unfinished">Edit current cell inline</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="161"/>
+      <source>Edit current cell inline</source>
+      <translation>ویرایش درون‌خطی سلول فعلی</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
-        <source>Define columns to sort by</source>
-        <translation type="unfinished">Define columns to sort by</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="166"/>
+      <source>Define columns to sort by</source>
+      <translation>تعریف ستون‌ها برای مرتب‌سازی بر اساس آن‌ها</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
-        <source>Remove custom sorting (Middle click)</source>
-        <translation type="unfinished">Remove custom sorting (Middle click)</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="167"/>
+      <source>Remove custom sorting (Middle click)</source>
+      <translation>حذف مرتب‌سازی سفارشی (کلیک میانی)</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
-        <source>Insert row</source>
-        <translation type="unfinished">Insert row</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="168"/>
+      <source>Insert row</source>
+      <translation>درج ردیف</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
-        <source>Insert multiple rows</source>
-        <translation type="unfinished">Insert multiple rows</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="169"/>
+      <source>Insert multiple rows</source>
+      <translation>درج چند ردیف</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
-        <source>Delete selected row</source>
-        <translation type="unfinished">Delete selected row</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="170"/>
+      <source>Delete selected row</source>
+      <translation>حذف ردیف انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
-        <source>Adjust height of rows</source>
-        <translation type="unfinished">Adjust height of rows</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="171"/>
+      <source>Adjust height of rows</source>
+      <translation>تنظیم ارتفاع ردیف‌ها</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
-        <source>Next row on Enter</source>
-        <translation type="unfinished">Next row on Enter</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="174"/>
+      <source>Next row on Enter</source>
+      <translation>ردیف بعدی با Enter</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
-        <source>Increase font size</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Increase font size</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="178"/>
+      <source>Increase font size</source>
+      <comment>data view</comment>
+      <translation>افزایش اندازه قلم</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
-        <source>Decrease font size</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Decrease font size</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="179"/>
+      <source>Decrease font size</source>
+      <comment>data view</comment>
+      <translation>کاهش اندازه قلم</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
-        <source>Invert selection</source>
-        <comment>data view</comment>
-        <translation type="unfinished">Invert selection</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="180"/>
+      <source>Invert selection</source>
+      <comment>data view</comment>
+      <translation>وارونه کردن انتخاب</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
-        <source>Edit value in editor</source>
-        <translation type="unfinished">Edit value in editor</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
+      <source>Edit value in editor</source>
+      <translation>ویرایش مقدار در ویرایشگر</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
-        <source>Show value in a viewer</source>
-        <translation type="unfinished">Show value in a viewer</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="230"/>
+      <source>Show value in a viewer</source>
+      <translation>نمایش مقدار در نمایشگر</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
-        <source>Generate query for selected cells</source>
-        <translation type="unfinished">Generate query for selected cells</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="256"/>
+      <source>Generate query for selected cells</source>
+      <translation>تولید پرس‌وجو برای سلول‌های انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
-        <source>No items selected to paste clipboard contents to.</source>
-        <translation type="unfinished">No items selected to paste clipboard contents to.</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="622"/>
+      <source>No items selected to paste clipboard contents to.</source>
+      <translation>هیچ موردی برای چسباندن محتوای کلیپ‌بورد به آن انتخاب نشده است.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
-        <source>Cannot paste data. Details: %1</source>
-        <translation type="unfinished">Cannot paste data. Details: %1</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
+      <source>Cannot paste data. Details: %1</source>
+      <translation>نمی‌توان داده‌ها را چسباند. جزئیات: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
-        <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
-        <translation type="unfinished">Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="628"/>
+      <source>Structure of at least one table used has changed since last data was loaded. Reload the data to proceed.</source>
+      <translation>ساختار دست‌کم یکی از جدول‌های استفاده‌شده از زمان آخرین بارگذاری داده تغییر کرده است. برای ادامه، داده‌ها را دوباره بارگذاری کنید.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
-        <source>Cannot paste to a cell. Details: %1</source>
-        <translation type="unfinished">Cannot paste to a cell. Details: %1</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
+      <source>Cannot paste to a cell. Details: %1</source>
+      <translation>نمی‌توان در سلول چسباند. جزئیات: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
-        <source>The row is marked for deletion.</source>
-        <translation type="unfinished">The row is marked for deletion.</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="698"/>
+      <source>The row is marked for deletion.</source>
+      <translation>این ردیف برای حذف علامت‌گذاری شده است.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
-        <source>Cannot paste to column %1. Details: %2</source>
-        <translation type="unfinished">Cannot paste to column %1. Details: %2</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="709"/>
+      <source>Cannot paste to column %1. Details: %2</source>
+      <translation>نمی‌توان در ستون %1 چسباند. جزئیات: %2</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
-        <source>Go to referenced row in table &apos;%1&apos;</source>
-        <translation type="unfinished">Go to referenced row in table &apos;%1&apos;</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="727"/>
+      <source>Go to referenced row in table &apos;%1&apos;</source>
+      <translation>رفتن به ردیف ارجاع‌شده در جدول &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
-        <source>table &apos;%1&apos;</source>
-        <translation type="unfinished">table &apos;%1&apos;</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="739"/>
+      <source>table &apos;%1&apos;</source>
+      <translation>جدول &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
-        <source>Referenced row (%1)</source>
-        <translation type="unfinished">Referenced row (%1)</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="762"/>
+      <source>Referenced row (%1)</source>
+      <translation>ردیف ارجاع‌شده (%1)</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
-        <source>Pin column</source>
-        <translation type="unfinished">Pin column</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+      <source>Pin column</source>
+      <translation>سنجاق کردن ستون</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
-        <source>Column renderer</source>
-        <translation type="unfinished">Column renderer</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+      <source>Column renderer</source>
+      <translation>رندرکننده ستون</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
-        <source>Default</source>
-        <translation type="unfinished">Default</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+      <source>Default</source>
+      <translation>پیش‌فرض</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
-        <source>Trim pasted text?</source>
-        <translation type="unfinished">Trim pasted text?</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+      <source>Trim pasted text?</source>
+      <translation>متن چسبانده‌شده کوتاه‌سازی شود؟</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
-        <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
-        <translation type="unfinished">The pasted text contains leading or trailing white space. Trim it automatically?</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+      <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
+      <translation>متن چسبانده‌شده دارای فاصله سفید در ابتدا یا انتها است. به‌صورت خودکار کوتاه‌سازی شود؟</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
-        <source>Paste &quot;NULL&quot; as null value?</source>
-        <translation type="unfinished">Paste &quot;NULL&quot; as null value?</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+      <source>Paste &quot;NULL&quot; as null value?</source>
+      <translation>&quot;NULL&quot; به‌عنوان مقدار تهی چسبانده شود؟</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
-        <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
-        <translation type="unfinished">The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+      <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
+      <translation>متن چسبانده‌شده حاوی لفظ‌های &quot;NULL&quot; است. آیا می‌خواهید آن‌ها را به‌عنوان مقادیر NULL در نظر بگیرید؟</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
-        <source>Edit value</source>
-        <translation type="unfinished">Edit value</translation>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+      <source>Edit value</source>
+      <translation>ویرایش مقدار</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqlViewModel</name>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
-        <source>An error occurred while committing the data: %1</source>
-        <translation type="unfinished">An error occurred while committing the data: %1</translation>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+      <source>An error occurred while committing the data: %1</source>
+      <translation>هنگام ثبت داده‌ها خطایی رخ داد: %1</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
-        <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished">Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</translation>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+      <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
+      <translation>ردیف %1: تریگر INSTEAD OF UPDATE بیش از یک ردیف را تغییر داد (%2). نما رکورد ویرایش‌شده را به‌طور یکتا شناسایی نمی‌کند.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="188"/>
-        <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
-        <translation type="unfinished">Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</translation>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
+      <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
+      <translation>ردیف %1: تریگر INSTEAD OF DELETE بیش از یک ردیف را حذف کرد (%2). نما رکورد ویرایش‌شده را به‌طور یکتا شناسایی نمی‌کند.</translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="213"/>
-        <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
-        <translation type="unfinished">The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</translation>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
+      <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
+      <translation>نما دارای تریگر(های) INSTEAD OF است که ویرایش را مدیریت می‌کنند. توصیه &apos;می‌شود پس از ثبت، داده‌ها را تازه‌سازی کنید تا تغییرات واقعی را ببینید، زیرا تریگرها ممکن است داده‌ها را به شکلی غیرمنتظره تغییر دهند.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqliteExtensionEditor</name>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
-        <source>Filter extensions</source>
-        <translation type="unfinished">Filter extensions</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="84"/>
+      <source>Filter extensions</source>
+      <translation>فیلتر افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
-        <source>Leave empty to use default function</source>
-        <translation type="unfinished">Leave empty to use default function</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="150"/>
+      <source>Leave empty to use default function</source>
+      <translation>برای استفاده از تابع پیش‌فرض خالی بگذارید</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
-        <source>Extension file</source>
-        <translation type="unfinished">Extension file</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="171"/>
+      <source>Extension file</source>
+      <translation>فایل افزونه</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
-        <source>Initialization function</source>
-        <translation type="unfinished">Initialization function</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="178"/>
+      <source>Initialization function</source>
+      <translation>تابع مقداردهی اولیه</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
-        <source>Databases</source>
-        <translation type="unfinished">Databases</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="194"/>
+      <source>Databases</source>
+      <translation>پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
-        <source>Register in all databases</source>
-        <translation type="unfinished">Register in all databases</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="200"/>
+      <source>Register in all databases</source>
+      <translation>ثبت در همه پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
-        <source>Register in following databases:</source>
-        <translation type="unfinished">Register in following databases:</translation>
+      <location filename="../windows/sqliteextensioneditor.ui" line="207"/>
+      <source>Register in following databases:</source>
+      <translation>ثبت در پایگاه‌های داده زیر:</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
-        <source>Extension manager window has uncommitted modifications.</source>
-        <translation type="unfinished">Extension manager window has uncommitted modifications.</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="47"/>
+      <source>Extension manager window has uncommitted modifications.</source>
+      <translation>پنجره مدیر افزونه‌ها تغییرات ثبت‌نشده دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
-        <source>Extension manager</source>
-        <translation type="unfinished">Extension manager</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="68"/>
+      <source>Extension manager</source>
+      <translation>مدیر افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
-        <source>Commit all extension changes</source>
-        <translation type="unfinished">Commit all extension changes</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="73"/>
+      <source>Commit all extension changes</source>
+      <translation>ثبت همه تغییرات افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
-        <source>Rollback all extension changes</source>
-        <translation type="unfinished">Rollback all extension changes</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="74"/>
+      <source>Rollback all extension changes</source>
+      <translation>بازگردانی همه تغییرات افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
-        <source>Add new extension</source>
-        <translation type="unfinished">Add new extension</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="76"/>
+      <source>Add new extension</source>
+      <translation>افزودن افزونه جدید</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
-        <source>Remove selected extension</source>
-        <translation type="unfinished">Remove selected extension</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="77"/>
+      <source>Remove selected extension</source>
+      <translation>حذف افزونه انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
-        <source>Import extension list from file</source>
-        <translation type="unfinished">Import extension list from file</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="79"/>
+      <source>Import extension list from file</source>
+      <translation>درون‌ریزی فهرست افزونه‌ها از فایل</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
-        <source>Export extension list file</source>
-        <translation type="unfinished">Export extension list file</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="80"/>
+      <source>Export extension list file</source>
+      <translation>برون‌بری فایل فهرست افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
-        <source>Editing extensions manual</source>
-        <translation type="unfinished">Editing extensions manual</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="81"/>
+      <source>Editing extensions manual</source>
+      <translation>راهنمای ویرایش افزونه‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
-        <source>File with given path does not exist or is not readable.</source>
-        <translation type="unfinished">File with given path does not exist or is not readable.</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="277"/>
+      <source>File with given path does not exist or is not readable.</source>
+      <translation>فایل با مسیر داده‌شده وجود ندارد یا قابل خواندن نیست.</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
-        <source>Unable to load extension: %1</source>
-        <translation type="unfinished">Unable to load extension: %1</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="283"/>
+      <source>Unable to load extension: %1</source>
+      <translation>بارگذاری افزونه ممکن نیست: %1</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
-        <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
-        <translation type="unfinished">Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="403"/>
+      <source>Invalid initialization function name. Function name can contain only alpha-numeric characters and underscore.</source>
+      <translation>نام تابع مقداردهی اولیه نامعتبر است. نام تابع فقط می‌تواند شامل نویسه‌های الفبایی-عددی و زیرخط باشد.</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
-        <source>Dynamic link libraries (*.dll);;All files (*)</source>
-        <translation type="unfinished">Dynamic link libraries (*.dll);;All files (*)</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="472"/>
+      <source>Dynamic link libraries (*.dll);;All files (*)</source>
+      <translation>کتابخانه‌های پیوند پویا (*.dll);;همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
-        <source>Shared objects (*.so);;All files (*)</source>
-        <translation type="unfinished">Shared objects (*.so);;All files (*)</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="474"/>
+      <source>Shared objects (*.so);;All files (*)</source>
+      <translation>اشیای اشتراکی (*.so);;همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
-        <source>Dynamic libraries (*.dylib);;All files (*)</source>
-        <translation type="unfinished">Dynamic libraries (*.dylib);;All files (*)</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="476"/>
+      <source>Dynamic libraries (*.dylib);;All files (*)</source>
+      <translation>کتابخانه‌های پویا (*.dylib);;همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
-        <source>All files (*)</source>
-        <translation type="unfinished">All files (*)</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="478"/>
+      <source>All files (*)</source>
+      <translation>همه فایل‌ها (*)</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
-        <source>Open file</source>
-        <translation type="unfinished">Open file</translation>
+      <location filename="../windows/sqliteextensioneditor.cpp" line="480"/>
+      <source>Open file</source>
+      <translation>باز کردن فایل</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>SqliteExtensionEditorModel</name>
     <message>
-        <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
-        <source>all databases</source>
-        <translation type="unfinished">all databases</translation>
+      <location filename="../windows/sqliteextensioneditormodel.cpp" line="160"/>
+      <source>all databases</source>
+      <translation>همه پایگاه‌های داده</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
-        <source>Extension:</source>
-        <translation type="unfinished">Extension:</translation>
+      <location filename="../windows/sqliteextensioneditormodel.cpp" line="164"/>
+      <source>Extension:</source>
+      <translation>افزونه:</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
-        <source>File:</source>
-        <translation type="unfinished">File:</translation>
+      <location filename="../windows/sqliteextensioneditormodel.cpp" line="165"/>
+      <source>File:</source>
+      <translation>فایل:</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
-        <source>Init function:</source>
-        <translation type="unfinished">Init function:</translation>
+      <location filename="../windows/sqliteextensioneditormodel.cpp" line="166"/>
+      <source>Init function:</source>
+      <translation>تابع Init:</translation>
     </message>
     <message>
-        <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
-        <source>Registered in:</source>
-        <translation type="unfinished">Registered in:</translation>
+      <location filename="../windows/sqliteextensioneditormodel.cpp" line="167"/>
+      <source>Registered in:</source>
+      <translation>ثبت‌شده در:</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>StatusField</name>
     <message>
-        <location filename="../statusfield.ui" line="14"/>
-        <source>Status</source>
-        <translation type="unfinished">Status</translation>
+      <location filename="../statusfield.ui" line="14"/>
+      <source>Status</source>
+      <translation>وضعیت</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="190"/>
-        <source>Copy</source>
-        <translation type="unfinished">Copy</translation>
+      <location filename="../statusfield.cpp" line="190"/>
+      <source>Copy</source>
+      <translation>کپی</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="197"/>
-        <source>Clear</source>
-        <translation type="unfinished">Clear</translation>
+      <location filename="../statusfield.cpp" line="197"/>
+      <source>Clear</source>
+      <translation>پاک کردن</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TableConstraintsModel</name>
     <message>
-        <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
-        <source>Type</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Type</translation>
+      <location filename="../windows/tableconstraintsmodel.cpp" line="74"/>
+      <source>Type</source>
+      <comment>table constraints</comment>
+      <translation>نوع</translation>
     </message>
     <message>
-        <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
-        <source>Details</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Details</translation>
+      <location filename="../windows/tableconstraintsmodel.cpp" line="76"/>
+      <source>Details</source>
+      <comment>table constraints</comment>
+      <translation>جزئیات</translation>
     </message>
     <message>
-        <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
-        <source>Name</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../windows/tableconstraintsmodel.cpp" line="78"/>
+      <source>Name</source>
+      <comment>table constraints</comment>
+      <translation>نام</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TableForeignKeyPanel</name>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
-        <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="42"/>
+      <source>Columns</source>
+      <translation>ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
-        <source>Referenced table:</source>
-        <translation type="unfinished">Referenced table:</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="29"/>
+      <source>Referenced table:</source>
+      <translation>جدول ارجاع‌شده:</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
-        <source>Referencing column</source>
-        <translation type="unfinished">Referencing column</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="56"/>
+      <source>Referencing column</source>
+      <translation>ستون ارجاع‌دهنده</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
-        <source>Referenced column</source>
-        <translation type="unfinished">Referenced column</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="68"/>
+      <source>Referenced column</source>
+      <translation>ستون ارجاع‌شده</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
-        <source>Reactions</source>
-        <translation type="unfinished">Reactions</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="104"/>
+      <source>Reactions</source>
+      <translation>واکنش‌ها</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
-        <source>Deferred foreign key</source>
-        <translation type="unfinished">Deferred foreign key</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="143"/>
+      <source>Deferred foreign key</source>
+      <translation>کلید خارجی تعویقی</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
-        <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="161"/>
+      <source>Named constraint</source>
+      <translation>محدودیت نام‌دار</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
-        <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+      <location filename="../constraints/tableforeignkeypanel.ui" line="168"/>
+      <source>Constraint name</source>
+      <translation>نام محدودیت</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
-        <source>Pick the foreign column.</source>
-        <translation type="unfinished">Pick the foreign column.</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="53"/>
+      <source>Pick the foreign column.</source>
+      <translation>ستون خارجی را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
-        <source>Pick the foreign table.</source>
-        <translation type="unfinished">Pick the foreign table.</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="67"/>
+      <source>Pick the foreign table.</source>
+      <translation>جدول خارجی را انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
-        <source>Select at least one foreign column.</source>
-        <translation type="unfinished">Select at least one foreign column.</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="68"/>
+      <source>Select at least one foreign column.</source>
+      <translation>دست‌کم یک ستون خارجی انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="69"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
-        <source>Column with the same name</source>
-        <translation type="unfinished">Column with the same name</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="178"/>
+      <source>Column with the same name</source>
+      <translation>ستون با همان نام</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
-        <source>Foreign column</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Foreign column</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="217"/>
+      <source>Foreign column</source>
+      <comment>table constraints</comment>
+      <translation>ستون خارجی</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
-        <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="427"/>
+      <source>Referenced column is not PRIMARY KEY or UNIQUE. It may cause issues while inserting or updating data.</source>
+      <translation>ستون ارجاع‌شده PRIMARY KEY یا UNIQUE نیست. ممکن است هنگام درج یا به‌روزرسانی داده‌ها مشکل ایجاد کند.</translation>
     </message>
     <message>
-        <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
-        <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
-        <translation type="unfinished">Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</translation>
+      <location filename="../constraints/tableforeignkeypanel.cpp" line="450"/>
+      <source>Referenced column type (%1) is different than type declared for local column (%2). It may cause issues while inserting or updating data.</source>
+      <translation>نوع ستون ارجاع‌شده (%1) با نوع اعلام‌شده برای ستون محلی (%2) متفاوت است. ممکن است هنگام درج یا به‌روزرسانی داده‌ها مشکل ایجاد کند.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TablePrimaryKeyAndUniquePanel</name>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
-        <source>Columns</source>
-        <translation type="unfinished">Columns</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="32"/>
+      <source>Columns</source>
+      <translation>ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
-        <source>Column</source>
-        <translation type="unfinished">Column</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="59"/>
+      <source>Column</source>
+      <translation>ستون</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
-        <source>Collation</source>
-        <translation type="unfinished">Collation</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="84"/>
+      <source>Collation</source>
+      <translation>ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
-        <source>Sort</source>
-        <translation type="unfinished">Sort</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="109"/>
+      <source>Sort</source>
+      <translation>مرتب‌سازی</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
-        <source>Valid only for a single column with INTEGER data type</source>
-        <translation type="unfinished">Valid only for a single column with INTEGER data type</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="142"/>
+      <source>Valid only for a single column with INTEGER data type</source>
+      <translation>فقط برای یک ستون واحد با نوع داده INTEGER معتبر است</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
-        <source>Autoincrement</source>
-        <translation type="unfinished">Autoincrement</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="145"/>
+      <source>Autoincrement</source>
+      <translation>افزایش خودکار</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
-        <source>Named constraint</source>
-        <translation type="unfinished">Named constraint</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="167"/>
+      <source>Named constraint</source>
+      <translation>محدودیت نام‌دار</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
-        <source>Constraint name</source>
-        <translation type="unfinished">Constraint name</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="174"/>
+      <source>Constraint name</source>
+      <translation>نام محدودیت</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
-        <source>On conflict</source>
-        <translation type="unfinished">On conflict</translation>
+      <location filename="../constraints/tablepkanduniquepanel.ui" line="199"/>
+      <source>On conflict</source>
+      <translation>هنگام تعارض</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
-        <source>Collate</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Collate</translation>
+      <location filename="../constraints/tablepkanduniquepanel.cpp" line="87"/>
+      <source>Collate</source>
+      <comment>table constraints</comment>
+      <translation>ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
-        <source>Sort order</source>
-        <comment>table constraints</comment>
-        <translation type="unfinished">Sort order</translation>
+      <location filename="../constraints/tablepkanduniquepanel.cpp" line="94"/>
+      <source>Sort order</source>
+      <comment>table constraints</comment>
+      <translation>ترتیب مرتب‌سازی</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
-        <source>Select at least one column.</source>
-        <translation type="unfinished">Select at least one column.</translation>
+      <location filename="../constraints/tablepkanduniquepanel.cpp" line="170"/>
+      <source>Select at least one column.</source>
+      <translation>دست‌کم یک ستون انتخاب کنید.</translation>
     </message>
     <message>
-        <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
-        <source>Enter a name of the constraint.</source>
-        <translation type="unfinished">Enter a name of the constraint.</translation>
+      <location filename="../constraints/tablepkanduniquepanel.cpp" line="171"/>
+      <source>Enter a name of the constraint.</source>
+      <translation>نام محدودیت را وارد کنید.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TableStructureModel</name>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="322"/>
-        <source>Name</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="322"/>
+      <source>Name</source>
+      <comment>table structure columns</comment>
+      <translation>نام</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="324"/>
-        <source>Data type</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Data type</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="324"/>
+      <source>Data type</source>
+      <comment>table structure columns</comment>
+      <translation>نوع داده</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="326"/>
-        <source>Primary
+      <location filename="../windows/tablestructuremodel.cpp" line="326"/>
+      <source>Primary
 Key</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Primary
-Key</translation>
+      <comment>table structure columns</comment>
+      <translation>کلید
+اصلی</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="328"/>
-        <source>Foreign
+      <location filename="../windows/tablestructuremodel.cpp" line="328"/>
+      <source>Foreign
 Key</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Foreign
-Key</translation>
+      <comment>table structure columns</comment>
+      <translation>کلید
+خارجی</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="330"/>
-        <source>Unique</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Unique</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="330"/>
+      <source>Unique</source>
+      <comment>table structure columns</comment>
+      <translation>یکتا</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="332"/>
-        <source>Check</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Check</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="332"/>
+      <source>Check</source>
+      <comment>table structure columns</comment>
+      <translation>بررسی</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="334"/>
-        <source>Not
+      <location filename="../windows/tablestructuremodel.cpp" line="334"/>
+      <source>Not
 NULL</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Not
+      <comment>table structure columns</comment>
+      <translation>غیر
 NULL</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="336"/>
-        <source>Collate</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Collate</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="336"/>
+      <source>Collate</source>
+      <comment>table structure columns</comment>
+      <translation>ترتیب مقایسه</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="338"/>
-        <source>Generated</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Generated</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="338"/>
+      <source>Generated</source>
+      <comment>table structure columns</comment>
+      <translation>تولیدشده</translation>
     </message>
     <message>
-        <location filename="../windows/tablestructuremodel.cpp" line="340"/>
-        <source>Default value</source>
-        <comment>table structure columns</comment>
-        <translation type="unfinished">Default value</translation>
+      <location filename="../windows/tablestructuremodel.cpp" line="340"/>
+      <source>Default value</source>
+      <comment>table structure columns</comment>
+      <translation>مقدار پیش‌فرض</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TableWindow</name>
     <message>
-        <location filename="../windows/tablewindow.ui" line="36"/>
-        <source>Structure</source>
-        <translation type="unfinished">Structure</translation>
+      <location filename="../windows/tablewindow.ui" line="36"/>
+      <source>Structure</source>
+      <translation>ساختار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="70"/>
-        <source>Table name:</source>
-        <translation type="unfinished">Table name:</translation>
+      <location filename="../windows/tablewindow.ui" line="70"/>
+      <source>Table name:</source>
+      <translation>نام جدول:</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="87"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/tablewindow.ui" line="87"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disabled the WITHOUT ROWID clause on the table. Such table will no longer have the &amp;quot;rowid&amp;quot; hidden column. For such table an explicit PRIMARY KEY column is mandatory. You can read more details on this in SQLite official documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;بند WITHOUT ROWID را برای جدول فعال/غیرفعال می‌کند. چنین جدولی دیگر ستون پنهان &amp;quot;rowid&amp;quot; را نخواهد داشت. برای چنین جدولی یک ستون PRIMARY KEY صریح اجباری است. می‌توانید جزئیات بیشتر را در مستندات رسمی SQLite بخوانید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="97"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <location filename="../windows/tablewindow.ui" line="97"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enables/disables the STRICT clause for the table. Such table makes strict verification of data stored in columns against declared data types for these columns. This is similar to how data types are usually enforced in most other database engines. Keep it disabled to use the classical SQLite bahavior (i.e. no data type enforcement). You can find more details in the official SQLite documentation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;بند STRICT را برای جدول فعال/غیرفعال می‌کند. چنین جدولی داده‌های ذخیره‌شده در ستون‌ها را نسبت به نوع‌های داده اعلام‌شده برای این ستون‌ها به‌صورت سخت‌گیرانه بررسی می‌کند. این شبیه روشی است که معمولاً نوع‌های داده در بیشتر موتورهای پایگاه داده دیگر اعمال می‌شوند. برای استفاده از رفتار کلاسیک SQLite (یعنی بدون اعمال نوع داده) آن را غیرفعال نگه دارید. می‌توانید جزئیات بیشتر را در مستندات رسمی SQLite بیابید.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="213"/>
-        <location filename="../windows/tablewindow.cpp" line="1778"/>
-        <source>Data</source>
-        <translation type="unfinished">Data</translation>
+      <location filename="../windows/tablewindow.ui" line="213"/>
+      <location filename="../windows/tablewindow.cpp" line="1778"/>
+      <source>Data</source>
+      <translation>داده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="230"/>
-        <source>Constraints</source>
-        <translation type="unfinished">Constraints</translation>
+      <location filename="../windows/tablewindow.ui" line="230"/>
+      <source>Constraints</source>
+      <translation>محدودیت‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="244"/>
-        <source>Indexes</source>
-        <translation type="unfinished">Indexes</translation>
+      <location filename="../windows/tablewindow.ui" line="244"/>
+      <source>Indexes</source>
+      <translation>ایندکس‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="276"/>
-        <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+      <location filename="../windows/tablewindow.ui" line="276"/>
+      <source>Triggers</source>
+      <translation>تریگرها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.ui" line="311"/>
-        <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+      <location filename="../windows/tablewindow.ui" line="311"/>
+      <source>DDL</source>
+      <translation>زبان تعریف داده (DDL)</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="243"/>
-        <source>Export table</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Export table</translation>
+      <location filename="../windows/tablewindow.cpp" line="243"/>
+      <source>Export table</source>
+      <comment>table window</comment>
+      <translation>برون‌بری جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="244"/>
-        <source>Populate table</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Populate table</translation>
+      <location filename="../windows/tablewindow.cpp" line="244"/>
+      <source>Populate table</source>
+      <comment>table window</comment>
+      <translation>پر کردن جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="232"/>
-        <source>Refresh structure</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Refresh structure</translation>
+      <location filename="../windows/tablewindow.cpp" line="232"/>
+      <source>Refresh structure</source>
+      <comment>table window</comment>
+      <translation>نوسازی ساختار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="234"/>
-        <source>Commit structure changes</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Commit structure changes</translation>
+      <location filename="../windows/tablewindow.cpp" line="234"/>
+      <source>Commit structure changes</source>
+      <comment>table window</comment>
+      <translation>ثبت تغییرات ساختار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="235"/>
-        <source>Rollback structure changes</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Rollback structure changes</translation>
+      <location filename="../windows/tablewindow.cpp" line="235"/>
+      <source>Rollback structure changes</source>
+      <comment>table window</comment>
+      <translation>بازگردانی تغییرات ساختار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="236"/>
-        <source>Add column</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Add column</translation>
+      <location filename="../windows/tablewindow.cpp" line="236"/>
+      <source>Add column</source>
+      <comment>table window</comment>
+      <translation>افزودن ستون</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="237"/>
-        <source>Edit column</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Edit column</translation>
+      <location filename="../windows/tablewindow.cpp" line="237"/>
+      <source>Edit column</source>
+      <comment>table window</comment>
+      <translation>ویرایش ستون</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="238"/>
-        <location filename="../windows/tablewindow.cpp" line="330"/>
-        <source>Delete column</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Delete column</translation>
+      <location filename="../windows/tablewindow.cpp" line="238"/>
+      <location filename="../windows/tablewindow.cpp" line="330"/>
+      <source>Delete column</source>
+      <comment>table window</comment>
+      <translation>حذف ستون</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="239"/>
-        <source>Move column up</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Move column up</translation>
+      <location filename="../windows/tablewindow.cpp" line="239"/>
+      <source>Move column up</source>
+      <comment>table window</comment>
+      <translation>انتقال ستون به بالا</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="240"/>
-        <source>Move column down</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Move column down</translation>
+      <location filename="../windows/tablewindow.cpp" line="240"/>
+      <source>Move column down</source>
+      <comment>table window</comment>
+      <translation>انتقال ستون به پایین</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="246"/>
-        <source>Create similar table</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Create similar table</translation>
+      <location filename="../windows/tablewindow.cpp" line="246"/>
+      <source>Create similar table</source>
+      <comment>table window</comment>
+      <translation>ایجاد جدول مشابه</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="247"/>
-        <source>Reset autoincrement value</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Reset autoincrement value</translation>
+      <location filename="../windows/tablewindow.cpp" line="247"/>
+      <source>Reset autoincrement value</source>
+      <comment>table window</comment>
+      <translation>بازنشانی مقدار افزایش خودکار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="250"/>
-        <source>Add table constraint</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Add table constraint</translation>
+      <location filename="../windows/tablewindow.cpp" line="250"/>
+      <source>Add table constraint</source>
+      <comment>table window</comment>
+      <translation>افزودن محدودیت جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="251"/>
-        <source>Edit table constraint</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Edit table constraint</translation>
+      <location filename="../windows/tablewindow.cpp" line="251"/>
+      <source>Edit table constraint</source>
+      <comment>table window</comment>
+      <translation>ویرایش محدودیت جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="252"/>
-        <source>Delete table constraint</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Delete table constraint</translation>
+      <location filename="../windows/tablewindow.cpp" line="252"/>
+      <source>Delete table constraint</source>
+      <comment>table window</comment>
+      <translation>حذف محدودیت جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="253"/>
-        <source>Move table constraint up</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Move table constraint up</translation>
+      <location filename="../windows/tablewindow.cpp" line="253"/>
+      <source>Move table constraint up</source>
+      <comment>table window</comment>
+      <translation>انتقال محدودیت جدول به بالا</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="254"/>
-        <source>Move table constraint down</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Move table constraint down</translation>
+      <location filename="../windows/tablewindow.cpp" line="254"/>
+      <source>Move table constraint down</source>
+      <comment>table window</comment>
+      <translation>انتقال محدودیت جدول به پایین</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="256"/>
-        <source>Add table primary key</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Add table primary key</translation>
+      <location filename="../windows/tablewindow.cpp" line="256"/>
+      <source>Add table primary key</source>
+      <comment>table window</comment>
+      <translation>افزودن کلید اصلی جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="257"/>
-        <source>Add table foreign key</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Add table foreign key</translation>
+      <location filename="../windows/tablewindow.cpp" line="257"/>
+      <source>Add table foreign key</source>
+      <comment>table window</comment>
+      <translation>افزودن کلید خارجی جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="258"/>
-        <source>Add table unique constraint</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Add table unique constraint</translation>
+      <location filename="../windows/tablewindow.cpp" line="258"/>
+      <source>Add table unique constraint</source>
+      <comment>table window</comment>
+      <translation>افزودن محدودیت یکتایی جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="259"/>
-        <source>Add table check constraint</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Add table check constraint</translation>
+      <location filename="../windows/tablewindow.cpp" line="259"/>
+      <source>Add table check constraint</source>
+      <comment>table window</comment>
+      <translation>افزودن محدودیت بررسی جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="242"/>
-        <source>Import data to the table</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Import data to the table</translation>
+      <location filename="../windows/tablewindow.cpp" line="242"/>
+      <source>Import data to the table</source>
+      <comment>table window</comment>
+      <translation>درون‌ریزی داده به جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="277"/>
-        <source>Refresh index list</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Refresh index list</translation>
+      <location filename="../windows/tablewindow.cpp" line="277"/>
+      <source>Refresh index list</source>
+      <comment>table window</comment>
+      <translation>نوسازی فهرست ایندکس‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="279"/>
-        <source>Create index</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Create index</translation>
+      <location filename="../windows/tablewindow.cpp" line="279"/>
+      <source>Create index</source>
+      <comment>table window</comment>
+      <translation>ایجاد ایندکس</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="280"/>
-        <source>Edit index</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Edit index</translation>
+      <location filename="../windows/tablewindow.cpp" line="280"/>
+      <source>Edit index</source>
+      <comment>table window</comment>
+      <translation>ویرایش ایندکس</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="281"/>
-        <source>Delete index</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Delete index</translation>
+      <location filename="../windows/tablewindow.cpp" line="281"/>
+      <source>Delete index</source>
+      <comment>table window</comment>
+      <translation>حذف ایندکس</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="287"/>
-        <source>Refresh trigger list</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Refresh trigger list</translation>
+      <location filename="../windows/tablewindow.cpp" line="287"/>
+      <source>Refresh trigger list</source>
+      <comment>table window</comment>
+      <translation>نوسازی فهرست تریگرها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="289"/>
-        <source>Create trigger</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Create trigger</translation>
+      <location filename="../windows/tablewindow.cpp" line="289"/>
+      <source>Create trigger</source>
+      <comment>table window</comment>
+      <translation>ایجاد تریگر</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="290"/>
-        <source>Edit trigger</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Edit trigger</translation>
+      <location filename="../windows/tablewindow.cpp" line="290"/>
+      <source>Edit trigger</source>
+      <comment>table window</comment>
+      <translation>ویرایش تریگر</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="291"/>
-        <source>Delete trigger</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Delete trigger</translation>
+      <location filename="../windows/tablewindow.cpp" line="291"/>
+      <source>Delete trigger</source>
+      <comment>table window</comment>
+      <translation>حذف تریگر</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="329"/>
-        <source>Are you sure you want to delete column &apos;%1&apos;?</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Are you sure you want to delete column &apos;%1&apos;?</translation>
+      <location filename="../windows/tablewindow.cpp" line="329"/>
+      <source>Are you sure you want to delete column &apos;%1&apos;?</source>
+      <comment>table window</comment>
+      <translation>مطمئنید می‌خواهید ستون &apos;%1&apos; را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="380"/>
-        <source>Following problems will take place while modifying the table.
+      <location filename="../windows/tablewindow.cpp" line="380"/>
+      <source>Following problems will take place while modifying the table.
 Would you like to proceed?</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Following problems will take place while modifying the table.
-Would you like to proceed?</translation>
+      <comment>table window</comment>
+      <translation>مشکلات زیر هنگام تغییر جدول رخ خواهند داد.
+آیا می‌خواهید ادامه دهید؟</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="382"/>
-        <source>Table modification</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Table modification</translation>
+      <location filename="../windows/tablewindow.cpp" line="382"/>
+      <source>Table modification</source>
+      <comment>table window</comment>
+      <translation>تغییر جدول</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="507"/>
-        <source>Could not load data for table %1. Error details: %2</source>
-        <translation type="unfinished">Could not load data for table %1. Error details: %2</translation>
+      <location filename="../windows/tablewindow.cpp" line="507"/>
+      <source>Could not load data for table %1. Error details: %2</source>
+      <translation>داده‌ها برای جدول %1 بارگذاری نشد. جزئیات خطا: %2</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="655"/>
-        <source>Could not process the %1 table correctly. Unable to open a table window.</source>
-        <translation type="unfinished">Could not process the %1 table correctly. Unable to open a table window.</translation>
+      <location filename="../windows/tablewindow.cpp" line="655"/>
+      <source>Could not process the %1 table correctly. Unable to open a table window.</source>
+      <translation>پردازش صحیح جدول %1 ممکن نشد. امکان باز کردن پنجره جدول وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="679"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../windows/tablewindow.cpp" line="679"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="722"/>
-        <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window %1, because no database or table was stored in session for this window.</translation>
+      <location filename="../windows/tablewindow.cpp" line="722"/>
+      <source>Could not restore window %1, because no database or table was stored in session for this window.</source>
+      <translation>پنجره %1 بازیابی نشد، زیرا هیچ پایگاه داده یا جدولی برای این پنجره در نشست ذخیره نشده بود.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="728"/>
-        <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</translation>
+      <location filename="../windows/tablewindow.cpp" line="728"/>
+      <source>Could not restore window &apos;%1&apos;, because no database or table was stored in session for this window.</source>
+      <translation>پنجره &apos;%1&apos; بازیابی نشد، زیرا هیچ پایگاه داده یا جدولی برای این پنجره در نشست ذخیره نشده بود.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="735"/>
-        <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+      <location filename="../windows/tablewindow.cpp" line="735"/>
+      <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
+      <translation>پنجره &apos;%1&apos; بازیابی نشد، زیرا پایگاه داده %2 قابل تشخیص نبود.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="744"/>
-        <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</translation>
+      <location filename="../windows/tablewindow.cpp" line="744"/>
+      <source>Could not restore window &apos;%1&apos;, because the table %2 doesn&apos;t exist in the database %3.</source>
+      <translation>پنجرهٔ &apos;%1&apos; بازیابی نشد، زیرا جدول %2 در پایگاه دادهٔ %3 &apos;وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="775"/>
-        <location filename="../windows/tablewindow.cpp" line="777"/>
-        <source>New table %1</source>
-        <translation type="unfinished">New table %1</translation>
+      <location filename="../windows/tablewindow.cpp" line="775"/>
+      <location filename="../windows/tablewindow.cpp" line="777"/>
+      <source>New table %1</source>
+      <translation>جدول جدید %1</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="918"/>
-        <source>Committed changes for table &apos;%1&apos; successfully.</source>
-        <translation type="unfinished">Committed changes for table &apos;%1&apos; successfully.</translation>
+      <location filename="../windows/tablewindow.cpp" line="918"/>
+      <source>Committed changes for table &apos;%1&apos; successfully.</source>
+      <translation>تغییرات جدول &apos;%1&apos; با موفقیت ثبت شد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="922"/>
-        <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-        <translation type="unfinished">Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+      <location filename="../windows/tablewindow.cpp" line="922"/>
+      <source>Committed changes for table &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
+      <translation>تغییرات جدول &apos;%1&apos; (که قبلاً &apos;%2&apos; نام داشت) با موفقیت ثبت شد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="962"/>
-        <source>Could not commit table structure. Error message: %1</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Could not commit table structure. Error message: %1</translation>
+      <location filename="../windows/tablewindow.cpp" line="962"/>
+      <source>Could not commit table structure. Error message: %1</source>
+      <comment>table window</comment>
+      <translation>ثبت ساختار جدول ممکن نشد. پیام خطا: %1</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="988"/>
-        <source>Reset autoincrement</source>
-        <translation type="unfinished">Reset autoincrement</translation>
+      <location filename="../windows/tablewindow.cpp" line="988"/>
+      <source>Reset autoincrement</source>
+      <translation>بازنشانی افزایش خودکار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="988"/>
-        <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
-        <translation type="unfinished">Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</translation>
+      <location filename="../windows/tablewindow.cpp" line="988"/>
+      <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
+      <translation>مطمئنید می‌خواهید مقدار افزایش خودکار را برای جدول &apos;%1&apos; بازنشانی کنید؟</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="995"/>
-        <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
-        <translation type="unfinished">An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</translation>
+      <location filename="../windows/tablewindow.cpp" line="995"/>
+      <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
+      <translation>هنگام تلاش برای بازنشانی مقدار افزایش خودکار برای جدول &apos;%1&apos; خطایی رخ داد: %2</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="997"/>
-        <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
-        <translation type="unfinished">Autoincrement value for table &apos;%1&apos; has been reset successfully.</translation>
+      <location filename="../windows/tablewindow.cpp" line="997"/>
+      <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
+      <translation>مقدار افزایش خودکار برای جدول &apos;%1&apos; با موفقیت بازنشانی شد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1085"/>
-        <source>Empty name</source>
-        <translation type="unfinished">Empty name</translation>
+      <location filename="../windows/tablewindow.cpp" line="1085"/>
+      <source>Empty name</source>
+      <translation>نام خالی</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1085"/>
-        <source>A blank name for the table is allowed in SQLite, but it is not recommended.
+      <location filename="../windows/tablewindow.cpp" line="1085"/>
+      <source>A blank name for the table is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a table with blank name?</source>
-        <translation type="unfinished">A blank name for the table is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a table with blank name?</translation>
+      <translation>نام خالی برای جدول در SQLite مجاز است، اما توصیه نمی‌شود.
+مطمئنید می‌خواهید جدولی با نام خالی ایجاد کنید؟</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1094"/>
-        <source>Cannot create a table without at least one column.</source>
-        <translation type="unfinished">Cannot create a table without at least one column.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1094"/>
+      <source>Cannot create a table without at least one column.</source>
+      <translation>نمی‌توان جدولی بدون دست‌کم یک ستون ایجاد کرد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1119"/>
-        <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
-        <translation type="unfinished">Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1119"/>
+      <source>Cannot create table %1, if it has no primary key defined. Either uncheck the %2, or define a primary key.</source>
+      <translation>اگر جدول %1 هیچ کلید اصلی تعریف‌شده‌ای نداشته باشد، نمی‌توان آن را ایجاد کرد. یا %2 را از حالت انتخاب خارج کنید، یا یک کلید اصلی تعریف کنید.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1126"/>
-        <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
-        <translation type="unfinished">Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1126"/>
+      <source>Cannot use autoincrement for primary key when %1 clause is used. Either uncheck the %2, or the autoincrement in a primary key.</source>
+      <translation>وقتی بند %1 استفاده شده باشد، نمی‌توان از افزایش خودکار برای کلید اصلی استفاده کرد. یا %2 را از حالت انتخاب خارج کنید، یا افزایش خودکار در کلید اصلی را.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1145"/>
-        <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
-        <translation type="unfinished">Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</translation>
+      <location filename="../windows/tablewindow.cpp" line="1145"/>
+      <source>Following columns have non-strict data type: %1. Either disable strict mode of the table, or fix column data types. Valid strict data types are: %2</source>
+      <translation>ستون‌های زیر نوع داده غیرسخت‌گیرانه دارند: %1. یا حالت سخت‌گیرانه جدول را غیرفعال کنید، یا نوع‌های داده ستون‌ها را اصلاح کنید. نوع‌های داده سخت‌گیرانه معتبر عبارت‌اند از: %2</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1327"/>
-        <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Are you sure you want to delete table constraint &apos;%1&apos;?</translation>
+      <location filename="../windows/tablewindow.cpp" line="1327"/>
+      <source>Are you sure you want to delete table constraint &apos;%1&apos;?</source>
+      <comment>table window</comment>
+      <translation>مطمئنید می‌خواهید محدودیت جدول &apos;%1&apos; را حذف کنید؟</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1328"/>
-        <source>Delete constraint</source>
-        <comment>table window</comment>
-        <translation type="unfinished">Delete constraint</translation>
+      <location filename="../windows/tablewindow.cpp" line="1328"/>
+      <source>Delete constraint</source>
+      <comment>table window</comment>
+      <translation>حذف محدودیت</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1383"/>
-        <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1383"/>
+      <source>Cannot export, because no export plugin is loaded.</source>
+      <translation>نمی‌توان برون‌بری کرد، زیرا هیچ افزونه برون‌بری بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1396"/>
-        <source>Cannot import, because no import plugin is loaded.</source>
-        <translation type="unfinished">Cannot import, because no import plugin is loaded.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1396"/>
+      <source>Cannot import, because no import plugin is loaded.</source>
+      <translation>نمی‌توان درون‌ریزی کرد، زیرا هیچ افزونه درون‌ریزی بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1430"/>
-        <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+      <location filename="../windows/tablewindow.cpp" line="1430"/>
+      <source>Uncommitted changes</source>
+      <translation>تغییرات ثبت‌نشده</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1431"/>
-        <source>There are uncommitted structure modifications.</source>
-        <translation type="unfinished">There are uncommitted structure modifications.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1431"/>
+      <source>There are uncommitted structure modifications.</source>
+      <translation>تغییرات ثبت‌نشده ساختار وجود دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1433"/>
-        <source>You cannot browse or edit data until you have table structure settled.
+      <location filename="../windows/tablewindow.cpp" line="1433"/>
+      <source>You cannot browse or edit data until you have table structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-        <translation type="unfinished">You cannot browse or edit data until you have table structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+      <translation>تا زمانی که ساختار جدول تثبیت نشده باشد، نمی‌توانید داده‌ها را مرور یا ویرایش کنید.
+آیا می‌خواهید ساختار را ثبت کنید یا می‌خواهید به زبانه ساختار برگردید؟</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1437"/>
-        <source>Commit modifications and browse data</source>
-        <translation type="unfinished">Commit modifications and browse data</translation>
+      <location filename="../windows/tablewindow.cpp" line="1437"/>
+      <source>Commit modifications and browse data</source>
+      <translation>ثبت تغییرات و مرور داده‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1436"/>
-        <source>Go back to structure tab</source>
-        <translation type="unfinished">Go back to structure tab</translation>
+      <location filename="../windows/tablewindow.cpp" line="1436"/>
+      <source>Go back to structure tab</source>
+      <translation>بازگشت به زبانه ساختار</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1644"/>
-        <source>Name</source>
-        <comment>table window indexes</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../windows/tablewindow.cpp" line="1644"/>
+      <source>Name</source>
+      <comment>table window indexes</comment>
+      <translation>نام</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1645"/>
-        <source>Unique</source>
-        <comment>table window indexes</comment>
-        <translation type="unfinished">Unique</translation>
+      <location filename="../windows/tablewindow.cpp" line="1645"/>
+      <source>Unique</source>
+      <comment>table window indexes</comment>
+      <translation>یکتا</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1646"/>
-        <source>Columns</source>
-        <comment>table window indexes</comment>
-        <translation type="unfinished">Columns</translation>
+      <location filename="../windows/tablewindow.cpp" line="1646"/>
+      <source>Columns</source>
+      <comment>table window indexes</comment>
+      <translation>ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1647"/>
-        <source>Partial index condition</source>
-        <comment>table window indexes</comment>
-        <translation type="unfinished">Partial index condition</translation>
+      <location filename="../windows/tablewindow.cpp" line="1647"/>
+      <source>Partial index condition</source>
+      <comment>table window indexes</comment>
+      <translation>شرط ایندکس جزئی</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1703"/>
-        <source>Name</source>
-        <comment>table window triggers</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../windows/tablewindow.cpp" line="1703"/>
+      <source>Name</source>
+      <comment>table window triggers</comment>
+      <translation>نام</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1704"/>
-        <source>Event</source>
-        <comment>table window triggers</comment>
-        <translation type="unfinished">Event</translation>
+      <location filename="../windows/tablewindow.cpp" line="1704"/>
+      <source>Event</source>
+      <comment>table window triggers</comment>
+      <translation>رویداد</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1705"/>
-        <source>Condition</source>
-        <comment>table window triggers</comment>
-        <translation type="unfinished">Condition</translation>
+      <location filename="../windows/tablewindow.cpp" line="1705"/>
+      <source>Condition</source>
+      <comment>table window triggers</comment>
+      <translation>شرط</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1706"/>
-        <source>Details</source>
-        <comment>table window triggers</comment>
-        <translation type="unfinished">Details</translation>
+      <location filename="../windows/tablewindow.cpp" line="1706"/>
+      <source>Details</source>
+      <comment>table window triggers</comment>
+      <translation>جزئیات</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1820"/>
-        <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1820"/>
+      <source>Table window &quot;%1&quot; has uncommitted structure modifications and data.</source>
+      <translation>پنجره جدول &quot;%1&quot; تغییرات ثبت‌نشده ساختار و داده دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1822"/>
-        <source>Table window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted data.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1822"/>
+      <source>Table window &quot;%1&quot; has uncommitted data.</source>
+      <translation>پنجره جدول &quot;%1&quot; داده ثبت‌نشده دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/tablewindow.cpp" line="1824"/>
-        <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
-        <translation type="unfinished">Table window &quot;%1&quot; has uncommitted structure modifications.</translation>
+      <location filename="../windows/tablewindow.cpp" line="1824"/>
+      <source>Table window &quot;%1&quot; has uncommitted structure modifications.</source>
+      <translation>پنجره جدول &quot;%1&quot; تغییرات ثبت‌نشده ساختار دارد.</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TriggerColumnsDialog</name>
     <message>
-        <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
-        <source>Trigger columns</source>
-        <translation type="unfinished">Trigger columns</translation>
+      <location filename="../dialogs/triggercolumnsdialog.ui" line="14"/>
+      <source>Trigger columns</source>
+      <translation>ستون‌های تریگر</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
-        <source>Triggering columns:</source>
-        <translation type="unfinished">Triggering columns:</translation>
+      <location filename="../dialogs/triggercolumnsdialog.ui" line="47"/>
+      <source>Triggering columns:</source>
+      <translation>ستون‌های فعال‌کننده تریگر:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
-        <source>Select all</source>
-        <translation type="unfinished">Select all</translation>
+      <location filename="../dialogs/triggercolumnsdialog.ui" line="115"/>
+      <source>Select all</source>
+      <translation>انتخاب همه</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
-        <source>Deselect all</source>
-        <translation type="unfinished">Deselect all</translation>
+      <location filename="../dialogs/triggercolumnsdialog.ui" line="128"/>
+      <source>Deselect all</source>
+      <translation>لغو انتخاب همه</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>TriggerDialog</name>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="14"/>
-        <location filename="../dialogs/triggerdialog.ui" line="24"/>
-        <source>Trigger</source>
-        <translation type="unfinished">Trigger</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="14"/>
+      <location filename="../dialogs/triggerdialog.ui" line="24"/>
+      <source>Trigger</source>
+      <translation>تریگر</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="30"/>
-        <source>On table:</source>
-        <translation type="unfinished">On table:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="30"/>
+      <source>On table:</source>
+      <translation>روی جدول:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="40"/>
-        <source>Action:</source>
-        <translation type="unfinished">Action:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="40"/>
+      <source>Action:</source>
+      <translation>کنش:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="56"/>
-        <location filename="../dialogs/triggerdialog.ui" line="127"/>
-        <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
-        <translation type="unfinished">&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="56"/>
+      <location filename="../dialogs/triggerdialog.ui" line="127"/>
+      <source>&lt;p&gt;SQL condition that will be evaluated before the actual trigger code. In case the condition returns false, the trigger will not be fired for that row.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;شرط SQL که پیش از کد واقعی تریگر ارزیابی خواهد شد. اگر شرط false برگرداند، تریگر برای آن ردیف اجرا نخواهد شد.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="59"/>
-        <source>Pre-condition:</source>
-        <translation type="unfinished">Pre-condition:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="59"/>
+      <source>Pre-condition:</source>
+      <translation>پیش‌شرط:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="66"/>
-        <source>The scope is still not fully supported by the SQLite database.</source>
-        <translation type="unfinished">The scope is still not fully supported by the SQLite database.</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="66"/>
+      <source>The scope is still not fully supported by the SQLite database.</source>
+      <translation>دامنه هنوز به‌طور کامل توسط پایگاه داده SQLite پشتیبانی نمی‌شود.</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="73"/>
-        <source>Trigger name:</source>
-        <translation type="unfinished">Trigger name:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="73"/>
+      <source>Trigger name:</source>
+      <translation>نام تریگر:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="80"/>
-        <source>When:</source>
-        <translation type="unfinished">When:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="80"/>
+      <source>When:</source>
+      <translation>زمان:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="87"/>
-        <source>List of columns for UPDATE OF action.</source>
-        <translation type="unfinished">List of columns for UPDATE OF action.</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="87"/>
+      <source>List of columns for UPDATE OF action.</source>
+      <translation>فهرست ستون‌ها برای کنش UPDATE OF.</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="97"/>
-        <source>Scope:</source>
-        <translation type="unfinished">Scope:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="97"/>
+      <source>Scope:</source>
+      <translation>دامنه:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="104"/>
-        <source>Code:</source>
-        <translation type="unfinished">Code:</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="104"/>
+      <source>Code:</source>
+      <translation>کد:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="111"/>
-        <source>Trigger statements to be executed.</source>
-        <translation type="unfinished">Trigger statements to be executed.</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="111"/>
+      <source>Trigger statements to be executed.</source>
+      <translation>دستورهای تریگر برای اجرا.</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.ui" line="138"/>
-        <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+      <location filename="../dialogs/triggerdialog.ui" line="138"/>
+      <source>DDL</source>
+      <translation>زبان تعریف داده (DDL)</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.cpp" line="154"/>
-        <source>On view:</source>
-        <translation type="unfinished">On view:</translation>
+      <location filename="../dialogs/triggerdialog.cpp" line="154"/>
+      <source>On view:</source>
+      <translation>روی نما:</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.cpp" line="178"/>
-        <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
-        <translation type="unfinished">Could not process trigger %1 correctly. Unable to open a trigger dialog.</translation>
+      <location filename="../dialogs/triggerdialog.cpp" line="178"/>
+      <source>Could not process trigger %1 correctly. Unable to open a trigger dialog.</source>
+      <translation>پردازش صحیح تریگر %1 ممکن نشد. امکان باز کردن گفت‌وگوی تریگر وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.cpp" line="349"/>
-        <source>Enter a valid condition.</source>
-        <translation type="unfinished">Enter a valid condition.</translation>
+      <location filename="../dialogs/triggerdialog.cpp" line="349"/>
+      <source>Enter a valid condition.</source>
+      <translation>یک شرط معتبر وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.cpp" line="350"/>
-        <source>Enter a valid trigger code.</source>
-        <translation type="unfinished">Enter a valid trigger code.</translation>
+      <location filename="../dialogs/triggerdialog.cpp" line="350"/>
+      <source>Enter a valid trigger code.</source>
+      <translation>یک کد تریگر معتبر وارد کنید.</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.cpp" line="428"/>
-        <source>Error</source>
-        <comment>trigger dialog</comment>
-        <translation type="unfinished">Error</translation>
+      <location filename="../dialogs/triggerdialog.cpp" line="428"/>
+      <source>Error</source>
+      <comment>trigger dialog</comment>
+      <translation>خطا</translation>
     </message>
     <message>
-        <location filename="../dialogs/triggerdialog.cpp" line="428"/>
-        <source>An error occurred while executing SQL statements:
+      <location filename="../dialogs/triggerdialog.cpp" line="428"/>
+      <source>An error occurred while executing SQL statements:
 %1</source>
-        <translation type="unfinished">An error occurred while executing SQL statements:
+      <translation>هنگام اجرای دستورهای SQL خطایی رخ داد:
 %1</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>VersionConvertSummaryDialog</name>
     <message>
-        <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
-        <source>Database version convert</source>
-        <translation type="unfinished">Database version convert</translation>
+      <location filename="../dialogs/versionconvertsummarydialog.ui" line="14"/>
+      <source>Database version convert</source>
+      <translation>تبدیل نسخه پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
-        <source>Following changes to the SQL statements will be made:</source>
-        <translation type="unfinished">Following changes to the SQL statements will be made:</translation>
+      <location filename="../dialogs/versionconvertsummarydialog.ui" line="20"/>
+      <source>Following changes to the SQL statements will be made:</source>
+      <translation>تغییرات زیر در دستورهای SQL اعمال خواهد شد:</translation>
     </message>
     <message>
-        <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
-        <source>Before</source>
-        <translation type="unfinished">Before</translation>
+      <location filename="../dialogs/versionconvertsummarydialog.cpp" line="10"/>
+      <source>Before</source>
+      <translation>قبل</translation>
     </message>
     <message>
-        <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
-        <source>After</source>
-        <translation type="unfinished">After</translation>
+      <location filename="../dialogs/versionconvertsummarydialog.cpp" line="11"/>
+      <source>After</source>
+      <translation>بعد</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>ViewWindow</name>
     <message>
-        <location filename="../windows/viewwindow.ui" line="36"/>
-        <source>Query</source>
-        <translation type="unfinished">Query</translation>
+      <location filename="../windows/viewwindow.ui" line="36"/>
+      <source>Query</source>
+      <translation>پرس‌وجو</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.ui" line="70"/>
-        <source>View name:</source>
-        <translation type="unfinished">View name:</translation>
+      <location filename="../windows/viewwindow.ui" line="70"/>
+      <source>View name:</source>
+      <translation>نام نما:</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.ui" line="123"/>
-        <source>Output column names</source>
-        <translation type="unfinished">Output column names</translation>
+      <location filename="../windows/viewwindow.ui" line="123"/>
+      <source>Output column names</source>
+      <translation>نام ستون‌های خروجی</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.ui" line="170"/>
-        <location filename="../windows/viewwindow.cpp" line="939"/>
-        <source>Data</source>
-        <translation type="unfinished">Data</translation>
+      <location filename="../windows/viewwindow.ui" line="170"/>
+      <location filename="../windows/viewwindow.cpp" line="939"/>
+      <source>Data</source>
+      <translation>داده</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.ui" line="180"/>
-        <source>Triggers</source>
-        <translation type="unfinished">Triggers</translation>
+      <location filename="../windows/viewwindow.ui" line="180"/>
+      <source>Triggers</source>
+      <translation>تریگرها</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.ui" line="215"/>
-        <source>DDL</source>
-        <translation type="unfinished">DDL</translation>
+      <location filename="../windows/viewwindow.ui" line="215"/>
+      <source>DDL</source>
+      <translation>زبان تعریف داده (DDL)</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="110"/>
-        <location filename="../windows/viewwindow.cpp" line="116"/>
-        <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</translation>
+      <location filename="../windows/viewwindow.cpp" line="110"/>
+      <location filename="../windows/viewwindow.cpp" line="116"/>
+      <source>Could not restore window &apos;%1&apos;, because no database or view was stored in session for this window.</source>
+      <translation>پنجره &apos;%1&apos; بازیابی نشد، زیرا هیچ پایگاه داده یا نمایی برای این پنجره در نشست ذخیره نشده بود.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="123"/>
-        <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</translation>
+      <location filename="../windows/viewwindow.cpp" line="123"/>
+      <source>Could not restore window &apos;%1&apos;, because database %2 could not be resolved.</source>
+      <translation>پنجره &apos;%1&apos; بازیابی نشد، زیرا پایگاه داده %2 قابل تشخیص نبود.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="129"/>
-        <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because database %2 could not be open.</translation>
+      <location filename="../windows/viewwindow.cpp" line="129"/>
+      <source>Could not restore window &apos;%1&apos;, because database %2 could not be open.</source>
+      <translation>پنجره &apos;%1&apos; بازیابی نشد، زیرا پایگاه داده %2 قابل باز شدن نبود.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="138"/>
-        <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
-        <translation type="unfinished">Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</translation>
+      <location filename="../windows/viewwindow.cpp" line="138"/>
+      <source>Could not restore window &apos;%1&apos;, because the view %2 doesn&apos;t exist in the database %3.</source>
+      <translation>پنجرهٔ &apos;%1&apos; بازیابی نشد، زیرا نمای %2 در پایگاه دادهٔ %3 &apos;وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="169"/>
-        <location filename="../windows/viewwindow.cpp" line="171"/>
-        <source>New view %1</source>
-        <translation type="unfinished">New view %1</translation>
+      <location filename="../windows/viewwindow.cpp" line="169"/>
+      <location filename="../windows/viewwindow.cpp" line="171"/>
+      <source>New view %1</source>
+      <translation>نمای جدید %1</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="294"/>
-        <source>Database</source>
-        <translation type="unfinished">Database</translation>
+      <location filename="../windows/viewwindow.cpp" line="294"/>
+      <source>Database</source>
+      <translation>پایگاه داده</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="349"/>
-        <source>Refresh the view</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Refresh the view</translation>
+      <location filename="../windows/viewwindow.cpp" line="349"/>
+      <source>Refresh the view</source>
+      <comment>view window</comment>
+      <translation>نوسازی نما</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="351"/>
-        <source>Commit the view changes</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Commit the view changes</translation>
+      <location filename="../windows/viewwindow.cpp" line="351"/>
+      <source>Commit the view changes</source>
+      <comment>view window</comment>
+      <translation>ثبت تغییرات نما</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="352"/>
-        <source>Rollback the view changes</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Rollback the view changes</translation>
+      <location filename="../windows/viewwindow.cpp" line="352"/>
+      <source>Rollback the view changes</source>
+      <comment>view window</comment>
+      <translation>بازگردانی تغییرات نما</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="356"/>
-        <source>Explicit column names</source>
-        <translation type="unfinished">Explicit column names</translation>
+      <location filename="../windows/viewwindow.cpp" line="356"/>
+      <source>Explicit column names</source>
+      <translation>نام‌های صریح ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="362"/>
-        <source>Generate output column names automatically basing on result columns of the view.</source>
-        <translation type="unfinished">Generate output column names automatically basing on result columns of the view.</translation>
+      <location filename="../windows/viewwindow.cpp" line="362"/>
+      <source>Generate output column names automatically basing on result columns of the view.</source>
+      <translation>تولید خودکار نام ستون‌های خروجی بر اساس ستون‌های نتیجه نما.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="363"/>
-        <source>Add column</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Add column</translation>
+      <location filename="../windows/viewwindow.cpp" line="363"/>
+      <source>Add column</source>
+      <comment>view window</comment>
+      <translation>افزودن ستون</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="364"/>
-        <source>Edit column</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Edit column</translation>
+      <location filename="../windows/viewwindow.cpp" line="364"/>
+      <source>Edit column</source>
+      <comment>view window</comment>
+      <translation>ویرایش ستون</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="365"/>
-        <source>Delete column</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Delete column</translation>
+      <location filename="../windows/viewwindow.cpp" line="365"/>
+      <source>Delete column</source>
+      <comment>view window</comment>
+      <translation>حذف ستون</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="366"/>
-        <source>Move column up</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Move column up</translation>
+      <location filename="../windows/viewwindow.cpp" line="366"/>
+      <source>Move column up</source>
+      <comment>view window</comment>
+      <translation>انتقال ستون به بالا</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="367"/>
-        <source>Move column down</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Move column down</translation>
+      <location filename="../windows/viewwindow.cpp" line="367"/>
+      <source>Move column down</source>
+      <comment>view window</comment>
+      <translation>انتقال ستون به پایین</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="369"/>
-        <source>Export view</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Export view</translation>
+      <location filename="../windows/viewwindow.cpp" line="369"/>
+      <source>Export view</source>
+      <comment>view window</comment>
+      <translation>برون‌بری نما</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="378"/>
-        <source>Refresh trigger list</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Refresh trigger list</translation>
+      <location filename="../windows/viewwindow.cpp" line="378"/>
+      <source>Refresh trigger list</source>
+      <comment>view window</comment>
+      <translation>نوسازی فهرست تریگرها</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="380"/>
-        <source>Create new trigger</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Create new trigger</translation>
+      <location filename="../windows/viewwindow.cpp" line="380"/>
+      <source>Create new trigger</source>
+      <comment>view window</comment>
+      <translation>ایجاد تریگر جدید</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="381"/>
-        <source>Edit selected trigger</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Edit selected trigger</translation>
+      <location filename="../windows/viewwindow.cpp" line="381"/>
+      <source>Edit selected trigger</source>
+      <comment>view window</comment>
+      <translation>ویرایش تریگر انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="382"/>
-        <source>Delete selected trigger</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Delete selected trigger</translation>
+      <location filename="../windows/viewwindow.cpp" line="382"/>
+      <source>Delete selected trigger</source>
+      <comment>view window</comment>
+      <translation>حذف تریگر انتخاب‌شده</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="403"/>
-        <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications and data.</translation>
+      <location filename="../windows/viewwindow.cpp" line="403"/>
+      <source>View window &quot;%1&quot; has uncommitted structure modifications and data.</source>
+      <translation>پنجره نما &quot;%1&quot; تغییرات ثبت‌نشده ساختار و داده دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="405"/>
-        <source>View window &quot;%1&quot; has uncommitted data.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted data.</translation>
+      <location filename="../windows/viewwindow.cpp" line="405"/>
+      <source>View window &quot;%1&quot; has uncommitted data.</source>
+      <translation>پنجره نما &quot;%1&quot; داده ثبت‌نشده دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="407"/>
-        <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
-        <translation type="unfinished">View window &quot;%1&quot; has uncommitted structure modifications.</translation>
+      <location filename="../windows/viewwindow.cpp" line="407"/>
+      <source>View window &quot;%1&quot; has uncommitted structure modifications.</source>
+      <translation>پنجره نما &quot;%1&quot; تغییرات ثبت‌نشده ساختار دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="638"/>
-        <source>Could not load data for view %1. Error details: %2</source>
-        <translation type="unfinished">Could not load data for view %1. Error details: %2</translation>
+      <location filename="../windows/viewwindow.cpp" line="638"/>
+      <source>Could not load data for view %1. Error details: %2</source>
+      <translation>داده‌ها برای نمای %1 بارگذاری نشد. جزئیات خطا: %2</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="650"/>
-        <source>Uncommitted changes</source>
-        <translation type="unfinished">Uncommitted changes</translation>
+      <location filename="../windows/viewwindow.cpp" line="650"/>
+      <source>Uncommitted changes</source>
+      <translation>تغییرات ثبت‌نشده</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="651"/>
-        <source>There are uncommitted structure modifications.</source>
-        <translation type="unfinished">There are uncommitted structure modifications.</translation>
+      <location filename="../windows/viewwindow.cpp" line="651"/>
+      <source>There are uncommitted structure modifications.</source>
+      <translation>تغییرات ثبت‌نشده ساختار وجود دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="653"/>
-        <source>You cannot browse or edit data until you have the view structure settled.
+      <location filename="../windows/viewwindow.cpp" line="653"/>
+      <source>You cannot browse or edit data until you have the view structure settled.
 Do you want to commit the structure, or do you want to go back to the structure tab?</source>
-        <translation type="unfinished">You cannot browse or edit data until you have the view structure settled.
-Do you want to commit the structure, or do you want to go back to the structure tab?</translation>
+      <translation>تا زمانی که ساختار نما تثبیت نشده باشد، نمی‌توانید داده‌ها را مرور یا ویرایش کنید.
+آیا می‌خواهید ساختار را ثبت کنید یا می‌خواهید به زبانه ساختار برگردید؟</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="657"/>
-        <source>Commit modifications and browse data</source>
-        <translation type="unfinished">Commit modifications and browse data</translation>
+      <location filename="../windows/viewwindow.cpp" line="657"/>
+      <source>Commit modifications and browse data</source>
+      <translation>ثبت تغییرات و مرور داده‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1085"/>
-        <source>The view could not be modified due to internal Letos error. Please report this!</source>
-        <translation type="unfinished">The view could not be modified due to internal Letos error. Please report this!</translation>
+      <location filename="../windows/viewwindow.cpp" line="1085"/>
+      <source>The view could not be modified due to internal Letos error. Please report this!</source>
+      <translation>نما به دلیل خطای داخلی Letos قابل تغییر نبود. لطفاً این را گزارش دهید!</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1111"/>
-        <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
-        <translation type="unfinished">The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</translation>
+      <location filename="../windows/viewwindow.cpp" line="1111"/>
+      <source>The view code could not be parsed properly for execution. This is a Letos&apos;s bug. Please report it.</source>
+      <translation>کد نما برای اجرا به‌درستی تجزیه نشد. این یک باگِ Letos&apos; است. لطفاً آن را گزارش دهید.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="656"/>
-        <source>Go back to structure tab</source>
-        <translation type="unfinished">Go back to structure tab</translation>
+      <location filename="../windows/viewwindow.cpp" line="656"/>
+      <source>Go back to structure tab</source>
+      <translation>بازگشت به زبانه ساختار</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="709"/>
-        <source>View &apos;%1&apos; was committed successfully.</source>
-        <translation type="unfinished">View &apos;%1&apos; was committed successfully.</translation>
+      <location filename="../windows/viewwindow.cpp" line="709"/>
+      <source>View &apos;%1&apos; was committed successfully.</source>
+      <translation>نمای &apos;%1&apos; با موفقیت ثبت شد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="711"/>
-        <source>Committed changes for view &apos;%1&apos; successfully.</source>
-        <translation type="unfinished">Committed changes for view &apos;%1&apos; successfully.</translation>
+      <location filename="../windows/viewwindow.cpp" line="711"/>
+      <source>Committed changes for view &apos;%1&apos; successfully.</source>
+      <translation>تغییرات نمای &apos;%1&apos; با موفقیت ثبت شد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="713"/>
-        <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
-        <translation type="unfinished">Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</translation>
+      <location filename="../windows/viewwindow.cpp" line="713"/>
+      <source>Committed changes for view &apos;%1&apos; (named before &apos;%2&apos;) successfully.</source>
+      <translation>تغییرات نمای &apos;%1&apos; (که قبلاً &apos;%2&apos; نام داشت) با موفقیت ثبت شد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="736"/>
-        <source>Could not commit view changes. Error message: %1</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Could not commit view changes. Error message: %1</translation>
+      <location filename="../windows/viewwindow.cpp" line="736"/>
+      <source>Could not commit view changes. Error message: %1</source>
+      <comment>view window</comment>
+      <translation>ثبت تغییرات نما ممکن نشد. پیام خطا: %1</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="880"/>
-        <source>Override columns</source>
-        <translation type="unfinished">Override columns</translation>
+      <location filename="../windows/viewwindow.cpp" line="880"/>
+      <source>Override columns</source>
+      <translation>بازنویسی ستون‌ها</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="880"/>
-        <source>Currently defined columns will be overriden. Do you want to continue?</source>
-        <translation type="unfinished">Currently defined columns will be overriden. Do you want to continue?</translation>
+      <location filename="../windows/viewwindow.cpp" line="880"/>
+      <source>Currently defined columns will be overriden. Do you want to continue?</source>
+      <translation>ستون‌های تعریف‌شده فعلی بازنویسی خواهند شد. آیا می‌خواهید ادامه دهید؟</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="903"/>
-        <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
-        <translation type="unfinished">Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</translation>
+      <location filename="../windows/viewwindow.cpp" line="903"/>
+      <source>Could not determinate columns returned from the view. The query is problably incomplete or contains errors.</source>
+      <translation>تعیین ستون‌های بازگردانده‌شده از نما ممکن نشد. پرس‌وجو احتمالاً ناقص است یا خطا دارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="922"/>
-        <source>Cannot export, because no export plugin is loaded.</source>
-        <translation type="unfinished">Cannot export, because no export plugin is loaded.</translation>
+      <location filename="../windows/viewwindow.cpp" line="922"/>
+      <source>Cannot export, because no export plugin is loaded.</source>
+      <translation>نمی‌توان برون‌بری کرد، زیرا هیچ افزونه برون‌بری بارگذاری نشده است.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="971"/>
-        <source>Name</source>
-        <comment>view window triggers</comment>
-        <translation type="unfinished">Name</translation>
+      <location filename="../windows/viewwindow.cpp" line="971"/>
+      <source>Name</source>
+      <comment>view window triggers</comment>
+      <translation>نام</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="972"/>
-        <source>Instead of</source>
-        <comment>view window triggers</comment>
-        <translation type="unfinished">Instead of</translation>
+      <location filename="../windows/viewwindow.cpp" line="972"/>
+      <source>Instead of</source>
+      <comment>view window triggers</comment>
+      <translation>به‌جای</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="973"/>
-        <source>Condition</source>
-        <comment>view window triggers</comment>
-        <translation type="unfinished">Condition</translation>
+      <location filename="../windows/viewwindow.cpp" line="973"/>
+      <source>Condition</source>
+      <comment>view window triggers</comment>
+      <translation>شرط</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="974"/>
-        <source>Details</source>
-        <comment>table window triggers</comment>
-        <translation type="unfinished">Details</translation>
+      <location filename="../windows/viewwindow.cpp" line="974"/>
+      <source>Details</source>
+      <comment>table window triggers</comment>
+      <translation>جزئیات</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1018"/>
-        <source>Could not process the %1 view correctly. Unable to open a view window.</source>
-        <translation type="unfinished">Could not process the %1 view correctly. Unable to open a view window.</translation>
+      <location filename="../windows/viewwindow.cpp" line="1018"/>
+      <source>Could not process the %1 view correctly. Unable to open a view window.</source>
+      <translation>پردازش صحیح نمای %1 ممکن نشد. امکان باز کردن پنجره نما وجود ندارد.</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1065"/>
-        <source>Empty name</source>
-        <translation type="unfinished">Empty name</translation>
+      <location filename="../windows/viewwindow.cpp" line="1065"/>
+      <source>Empty name</source>
+      <translation>نام خالی</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1065"/>
-        <source>A blank name for the view is allowed in SQLite, but it is not recommended.
+      <location filename="../windows/viewwindow.cpp" line="1065"/>
+      <source>A blank name for the view is allowed in SQLite, but it is not recommended.
 Are you sure you want to create a view with blank name?</source>
-        <translation type="unfinished">A blank name for the view is allowed in SQLite, but it is not recommended.
-Are you sure you want to create a view with blank name?</translation>
+      <translation>نام خالی برای نما در SQLite مجاز است، اما توصیه نمی‌شود.
+مطمئنید می‌خواهید نمایی با نام خالی ایجاد کنید؟</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1077"/>
-        <source>The SELECT statement could not be parsed. Please correct the query and retry.
+      <location filename="../windows/viewwindow.cpp" line="1077"/>
+      <source>The SELECT statement could not be parsed. Please correct the query and retry.
 Details: %1</source>
-        <translation type="unfinished">The SELECT statement could not be parsed. Please correct the query and retry.
-Details: %1</translation>
+      <translation>دستور SELECT قابل تجزیه نبود. لطفاً پرس‌وجو را اصلاح کنید و دوباره تلاش کنید.
+جزئیات: %1</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1123"/>
-        <source>Following problems will take place while modifying the view.
+      <location filename="../windows/viewwindow.cpp" line="1123"/>
+      <source>Following problems will take place while modifying the view.
 Would you like to proceed?</source>
-        <comment>view window</comment>
-        <translation type="unfinished">Following problems will take place while modifying the view.
-Would you like to proceed?</translation>
+      <comment>view window</comment>
+      <translation>مشکلات زیر هنگام تغییر نما رخ خواهند داد.
+آیا می‌خواهید ادامه دهید؟</translation>
     </message>
     <message>
-        <location filename="../windows/viewwindow.cpp" line="1125"/>
-        <source>View modification</source>
-        <comment>view window</comment>
-        <translation type="unfinished">View modification</translation>
+      <location filename="../windows/viewwindow.cpp" line="1125"/>
+      <source>View modification</source>
+      <comment>view window</comment>
+      <translation>تغییر نما</translation>
     </message>
-</context>
-<context>
+  </context>
+  <context>
     <name>WidgetCover</name>
     <message>
-        <location filename="../common/widgetcover.cpp" line="242"/>
-        <source>Interrupt</source>
-        <translation type="unfinished">Interrupt</translation>
+      <location filename="../common/widgetcover.cpp" line="242"/>
+      <source>Interrupt</source>
+      <translation>وقفه</translation>
     </message>
-</context>
+  </context>
 </TS>
