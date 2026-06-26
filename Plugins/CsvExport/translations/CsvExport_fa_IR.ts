@@ -6,52 +6,52 @@
     <message>
         <location filename="../CsvExport.ui" line="20"/>
         <source>Column names in first row</source>
-        <translation type="unfinished">Column names in first row</translation>
+        <translation>نام ستون‌ها در ردیف اول</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="30"/>
         <source>Column separator:</source>
-        <translation type="unfinished">Column separator:</translation>
+        <translation>جداکنندهٔ ستون:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="41"/>
         <source>, (comma)</source>
-        <translation type="unfinished">, (comma)</translation>
+        <translation>, (ویرگول)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="46"/>
         <source>; (semicolon)</source>
-        <translation type="unfinished">; (semicolon)</translation>
+        <translation>; (نقطه‌ویرگول)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="51"/>
         <source>\t (tab)</source>
-        <translation type="unfinished">\t (tab)</translation>
+        <translation>\t (تب)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="56"/>
         <source>  (whitespace)</source>
-        <translation type="unfinished">  (whitespace)</translation>
+        <translation>  (فاصله)</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="61"/>
         <source>Custom:</source>
-        <translation type="unfinished">Custom:</translation>
+        <translation>سفارشی:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="82"/>
         <source>Export NULL values as:</source>
-        <translation type="unfinished">Export NULL values as:</translation>
+        <translation>صدور مقادیر NULL به‌صورت:</translation>
     </message>
     <message>
         <location filename="../CsvExport.ui" line="89"/>
         <source>Empty string</source>
-        <translation type="unfinished">Empty string</translation>
+        <translation>رشتهٔ خالی</translation>
     </message>
     <message>
         <location filename="../csvexport.cpp" line="41"/>
         <source>Enter the custom separator character.</source>
-        <translation type="unfinished">Enter the custom separator character.</translation>
+        <translation>نویسهٔ جداکنندهٔ سفارشی را وارد کنید.</translation>
     </message>
 </context>
 </TS>

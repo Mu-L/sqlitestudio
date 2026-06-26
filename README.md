@@ -14,7 +14,7 @@ This project was previously known as SQLiteStudio. The name was changed to avoid
 - Legacy versions (2.x.x) & Windows development dependencies [can be found here](https://www.dropbox.com/sh/iyilxtepgswpdlm/AADmYlJ4QRYWn_eo9u4fPn0Aa?dl=0).
 - Free code signing for Windows provided by <a href="https://signpath.io/">SignPath.io</a>, certificate by <a href="https://signpath.org/">SignPath Foundation</a>. 
 
-## Suppor the project
+## Support the project
 Letos is free to use, including in commercial environments.
 If it helps you or your team save time, consider supporting the project.
 
