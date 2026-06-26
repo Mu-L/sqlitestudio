@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
     SqlQueryModel::staticInit();
     ColorPickerPopup::staticInit();
 
-    LETOS->setInitialTranslationFiles({"core", "gui", "letos"});
+    LETOS->setInitialTranslationFiles({"qtbase", "core", "gui", "letos"});
     LETOS->init(a.arguments(), true);
     IconManager::getInstance()->init();
     DbTree::staticInit();

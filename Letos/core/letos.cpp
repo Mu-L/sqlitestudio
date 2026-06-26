@@ -347,6 +347,8 @@ void Letos::init(const QStringList& cmdListArguments, bool guiAvailable)
 
     currentLang = CFG_CORE.General.Language.get();
     loadTranslations(initialTranslationFiles);
+    QLocale locale(currentLang);
+    QLocale::setDefault(locale);
 
     pluginManager = new PluginManagerImpl();
 
