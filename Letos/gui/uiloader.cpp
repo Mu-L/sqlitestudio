@@ -13,6 +13,7 @@
 #include <QDebug>
 #include <QFile>
 #include <QMetaProperty>
+#include <QApplication>
 
 #define REGISTER_WIDGET(Class) \
     registerWidgetClass(#Class, [](QWidget* parent, const QString& name) -> QWidget*\
