@@ -845,6 +845,14 @@ void DbTree::restoreSession(const QVariant& sessionValue)
     QHash<QString, QVariant> selectionState = session["selectionState"].toHash();
     if (!selectionState.isEmpty() && !CFG_UI.DbList.LinkWithMdiArea.get())
         treeModel->restoreSelectionState(selectionState);
+
+    for (DbTreeItem*& item : treeModel->findItems(DbTreeItem::Type::DIR))
+    {
+        if (item->getRestoredExpandState())
+            ui->treeView->expand(item->index());
+        else
+            ui->treeView->collapse(item->index());
+    }
 }
 
 DbTreeModel* DbTree::getModel() const

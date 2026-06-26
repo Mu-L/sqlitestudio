@@ -284,6 +284,7 @@ void DbTreeModel::restoreGroup(const Config::DbGroupPtr& group, QList<Db*>* dbLi
     if (group->referencedDbName.isNull())
     {
         item = DbTreeItemFactory::createDir(group->name, this);
+        item->setRestoredExpandState(group->open);
     }
     else
     {

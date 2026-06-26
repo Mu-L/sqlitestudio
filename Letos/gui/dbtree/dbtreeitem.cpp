@@ -353,6 +353,16 @@ void DbTreeItem::setSchemaReady(bool ready)
     setData(ready, DataRole::SCHEMA_READY);
 }
 
+void DbTreeItem::setRestoredExpandState(bool state)
+{
+    setData(state, DataRole::EXPAND_STATE_RESTORED);
+}
+
+bool DbTreeItem::getRestoredExpandState() const
+{
+    return data(DataRole::EXPAND_STATE_RESTORED).toBool();
+}
+
 void DbTreeItem::init()
 {
     Type type = getType();

@@ -85,6 +85,8 @@ class GUI_API_EXPORT DbTreeItem : public QObject, public QStandardItem
         void setIcon(const Icon& icon);
         bool isSchemaReady() const;
         void setSchemaReady(bool ready);
+        void setRestoredExpandState(bool state);
+        bool getRestoredExpandState() const;
 
     private:
         struct DataRole // not 'enum class' because we need autocasting to int for this one
@@ -97,6 +99,7 @@ class GUI_API_EXPORT DbTreeItem : public QObject, public QStandardItem
                 HIDDEN = 1004,
                 SCHEMA_READY = 1005,
                 COLUMN_TYPE = 1006,
+                EXPAND_STATE_RESTORED = 9997,
                 SIGNATURE_OF_THIS = 9998
             };
         };
