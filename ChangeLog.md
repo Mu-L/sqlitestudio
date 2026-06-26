@@ -4,6 +4,7 @@
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).
 - BUGFIX: #5626 Grid View font is now used for inline editors to make the cell editing experience unified.
 - BUGFIX: #5722 Fixed crash when committing data edited in a View.
+- BUGFIX: #5728 Set cell vertical alignment in Grid View to center.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
 - BUGFIX: Removed misleading message from data query execution when clearing the sorting column by header clicks.
 
