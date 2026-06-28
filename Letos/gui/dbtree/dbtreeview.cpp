@@ -345,9 +345,14 @@ void DbTreeView::startDrag(Qt::DropActions supportedActions)
     drag->setHotSpot(QPoint(-10, -10));
 
     QList<DbTreeItem*> items = model()->getItemsForIndexes(indexes);
-    connect(drag, &QDrag::targetChanged, this, [drag, items](QObject *target)
+    bool targetIsThisTree = false;
+    connect(drag, &QDrag::targetChanged, this, [this, drag, items, &targetIsThisTree](QObject *target)
     {
         QWidget* w = qobject_cast<QWidget*>(target);
+        targetIsThisTree = false;
+        if (auto *widget = qobject_cast<QWidget*>(target))
+            targetIsThisTree = (widget == this || isAncestorOf(widget));
+
         if (w && qobject_cast<SqlEditor*>(w->parentWidget()))
         {
             SqlEditor* editor = qobject_cast<SqlEditor*>(w->parentWidget());
@@ -363,7 +368,7 @@ void DbTreeView::startDrag(Qt::DropActions supportedActions)
     });
 
     Qt::DropAction res = drag->exec(Qt::MoveAction | Qt::CopyAction | Qt::LinkAction, Qt::MoveAction);
-    if (res == Qt::MoveAction)
+    if (res == Qt::MoveAction && targetIsThisTree)
         model()->deleteIndexesAfterMove(items);
 }
 

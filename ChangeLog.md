@@ -6,6 +6,7 @@
 - BUGFIX: #5722 Fixed crash when committing data edited in a View.
 - BUGFIX: #5728 Set cell vertical alignment in Grid View to center.
 - BUGFIX: #5724 Persian translation added. Right-To-Left languages support fixed. Fixed core Qt translations (i.e. dialog buttons, etc).
+- BUGFIX: #5693 Fixed disappearing folder/group from Db list when drag&dropping it outside of the Db list.
 - BUGFIX: Fixed restoring expanded/collapsed state of folders on the database list.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
 - BUGFIX: Removed misleading message from data query execution when clearing the sorting column by header clicks.
