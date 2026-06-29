@@ -60,7 +60,7 @@ QString uiHandleCmdLineArgs(bool applyOptions = true)
     QCommandLineOption debugStdOutOption({"do", "debug-stdout"}, QObject::tr("Redirects debug messages into standard output (forces debug mode)."));
     QCommandLineOption debugFileOption({"df", "debug-file"}, QObject::tr("Redirects debug messages into given file (forces debug mode)."), QObject::tr("log file"));
     QCommandLineOption lemonDebugOption("debug-lemon", QObject::tr("Enables Lemon parser debug messages for SQL code assistant."));
-    QCommandLineOption sqlDebugOption("debug-sql", QObject::tr("Enables debugging of every single SQL query being sent to any database."));
+    QCommandLineOption sqlDebugOption({"ds", "debug-sql"}, QObject::tr("Enables debugging of every single SQL query being sent to any database."));
     QCommandLineOption sqlDebugDbNameOption("debug-sql-db", QObject::tr("Limits SQL query messages to only the given <database>."), QObject::tr("database"));
     QCommandLineOption executorDebugOption("debug-query-executor", QObject::tr("Enables debugging of Letos's query executor."));
     QCommandLineOption listPluginsOption("list-plugins", QObject::tr("Lists plugins installed in the Letos and quits."));
