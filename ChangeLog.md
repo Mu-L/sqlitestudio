@@ -8,6 +8,7 @@
 - BUGFIX: #5724 Persian translation added. Right-To-Left languages support fixed. Fixed core Qt translations (i.e. dialog buttons, etc).
 - BUGFIX: #5693 Fixed disappearing folder/group from Db list when drag&dropping it outside of the Db list.
 - BUGFIX: #4241 ignore user's QT_PLUGIN_PATH, because it can break Letos if it's incompatible Qt path
+- BUGFIX: #5733 Fixed drop support for SQLite3 files under Windows.
 - BUGFIX: Fixed restoring expanded/collapsed state of folders on the database list.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
 - BUGFIX: Removed misleading message from data query execution when clearing the sorting column by header clicks.

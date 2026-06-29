@@ -1668,7 +1668,7 @@ MainWindow::DropFileContext MainWindow::fileToDropContext(const QString& filePat
 
 MainWindow::DropFileType MainWindow::mimeToFileType(const QString& mimeValue)
 {
-    if (mimeValue == "application/vnd.sqlite3")
+    if (mimeValue == "application/vnd.sqlite3" || mimeValue == "application/x-sqlite3")
         return DropFileType::SQLITE3;
 
     if (mimeValue == "application/x-zerosize")
