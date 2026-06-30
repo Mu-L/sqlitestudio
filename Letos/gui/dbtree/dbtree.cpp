@@ -1780,6 +1780,7 @@ void DbTree::importTable()
 
     ImportDialog dialog(this);
     dialog.setDbAndTable(db, table);
+    dialog.setPreferTableOverFileName(true);
     dialog.exec();
 }
 

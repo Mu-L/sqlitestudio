@@ -12,6 +12,7 @@
 - BUGFIX: Fixed Command Palette under MacOS, so that navigating with up/down keys over results works now and margins of the results are more aesthetic.
 - BUGFIX: Fixed restoring expanded/collapsed state of folders on the database list.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
+- BUGFIX: Fixed Import Dialog to keep selected table when importing data to table from DB list context menu.
 - BUGFIX: Removed misleading message from data query execution when clearing the sorting column by header clicks.
 
 ### 4.0.0
