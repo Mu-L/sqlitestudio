@@ -2622,7 +2622,7 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2564"/>
+        <location filename="../dbtree/dbtree.cpp" line="2565"/>
         <source>Filter by name</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2873,7 +2873,7 @@ Browsing other pages will be possible after the row counting is done.</source>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1946"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Erase table data</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2980,87 +2980,87 @@ All objects from these groups will be moved to respective parent groups.</source
     <message>
         <location filename="../dbtree/dbtree.cpp" line="1592"/>
         <location filename="../dbtree/dbtree.cpp" line="1752"/>
-        <location filename="../dbtree/dbtree.cpp" line="1821"/>
+        <location filename="../dbtree/dbtree.cpp" line="1822"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1867"/>
+        <location filename="../dbtree/dbtree.cpp" line="1868"/>
         <source>Vacuum (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1881"/>
+        <location filename="../dbtree/dbtree.cpp" line="1882"/>
         <source>Integrity check (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1917"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Reset autoincrement</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1917"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1924"/>
+        <location filename="../dbtree/dbtree.cpp" line="1925"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1926"/>
+        <location filename="../dbtree/dbtree.cpp" line="1927"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1946"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1958"/>
+        <location filename="../dbtree/dbtree.cpp" line="1959"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1962"/>
+        <location filename="../dbtree/dbtree.cpp" line="1963"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2101"/>
+        <location filename="../dbtree/dbtree.cpp" line="2102"/>
         <source>Following objects will be deleted: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2104"/>
+        <location filename="../dbtree/dbtree.cpp" line="2105"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2107"/>
+        <location filename="../dbtree/dbtree.cpp" line="2108"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2109"/>
+        <location filename="../dbtree/dbtree.cpp" line="2110"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2111"/>
+        <location filename="../dbtree/dbtree.cpp" line="2112"/>
         <source>Delete objects</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2590"/>
+        <location filename="../dbtree/dbtree.cpp" line="2591"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2598"/>
+        <location filename="../dbtree/dbtree.cpp" line="2599"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
