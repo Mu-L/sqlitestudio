@@ -10,6 +10,7 @@
 - BUGFIX: #4241 ignore user's QT_PLUGIN_PATH, because it can break Letos if it's incompatible Qt path
 - BUGFIX: Fixed restoring expanded/collapsed state of folders on the database list.
 - BUGFIX: Fixed crash on pressing Ctrl while having focus in the Hex editor.
+- BUGFIX: Fixed Import Dialog to keep selected table when importing data to table from DB list context menu.
 - BUGFIX: Removed misleading message from data query execution when clearing the sorting column by header clicks.
 
 ### 4.0.0
