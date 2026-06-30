@@ -2100,7 +2100,7 @@ QList<QPair<QString, QStringList>> SqlEditor::getSourceAndColumnsForDrop(const Q
 
     QList<QPair<QString, QStringList>> result;
     for (const QString& source : appearanceOrder)
-        result << QPair{source, sourceAndColumns[source]};
+        result << QPair<QString, QStringList>{source, sourceAndColumns[source]};
 
     return result;
 }

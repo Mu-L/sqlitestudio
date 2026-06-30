@@ -11,7 +11,7 @@ HtmlButton::HtmlButton(QWidget* parent)
     setText(QString());
 
     auto* layout = new QHBoxLayout(this);
-    layout->setContentsMargins(8, 4, 8, 4);
+    layout->setContentsMargins(6, 10, 6, 10);
     layout->setSpacing(6);
 
     iconLabel = new QLabel(this);

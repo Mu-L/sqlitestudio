@@ -325,7 +325,7 @@ QList<QPair<QString, QString>> SchemaResolver::getColumnsAndDataTypesUsingPragma
 
     QList<QPair<QString, QString>> cols;
     for (const SqlResultsRowPtr& row : results->getAll())
-        cols << QPair{row->value("name").toString(), row->value("type").toString()};
+        cols << QPair<QString,QString>{row->value("name").toString(), row->value("type").toString()};
 
     return cols;
 

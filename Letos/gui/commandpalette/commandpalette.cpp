@@ -254,27 +254,6 @@ void CommandPalette::showEvent(QShowEvent* event)
 
 bool CommandPalette::eventFilter(QObject* watched, QEvent* event)
 {
-    if (event->type() == QEvent::ShortcutOverride)
-    {
-        auto* keyEvent = static_cast<QKeyEvent*>(event);
-
-        switch (keyEvent->key())
-        {
-            case Qt::Key_Escape:
-            case Qt::Key_Up:
-            case Qt::Key_Down:
-            case Qt::Key_PageUp:
-            case Qt::Key_PageDown:
-            case Qt::Key_Return:
-            case Qt::Key_Enter:
-                event->accept();
-                return true;
-
-            default:
-                break;
-        }
-    }
-
     if (event->type() == QEvent::MouseButtonPress)
     {
         hide();
@@ -282,7 +261,7 @@ bool CommandPalette::eventFilter(QObject* watched, QEvent* event)
         event->accept();
         return true;
     }
-    if (event->type() == QEvent::KeyPress)
+    if (event->type() == QEvent::KeyPress || event->type() == QEvent::ShortcutOverride)
     {
         auto* keyEvent = static_cast<QKeyEvent*>(event);
         switch (keyEvent->key())
