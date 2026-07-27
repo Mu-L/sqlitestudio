@@ -7483,7 +7483,7 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1517"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1513"/>
         <source>Edit value</source>
         <translation type="unfinished"></translation>
     </message>
