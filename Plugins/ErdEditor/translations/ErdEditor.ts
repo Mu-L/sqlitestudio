@@ -379,12 +379,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="1145"/>
+        <location filename="../erdwindow.cpp" line="1150"/>
         <source>ERD editor (%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../erdwindow.cpp" line="1147"/>
+        <location filename="../erdwindow.cpp" line="1152"/>
         <source>ERD editor</source>
         <translation type="unfinished"></translation>
     </message>
