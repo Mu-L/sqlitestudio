@@ -1373,7 +1373,7 @@ void SqlQueryView::paste()
     {
         for (const QString& cell : cells)
         {
-            if ((cell.front().isSpace() || cell.back().isSpace()) && !trimOnPasteAsked)
+            if (!cell.isEmpty() && (cell.front().isSpace() || cell.back().isSpace()) && !trimOnPasteAsked)
             {
                 QMessageBox::StandardButton trimChoice;
                 trimChoice = QMessageBox::question(this, tr("Trim pasted text?"),
@@ -1382,7 +1382,7 @@ void SqlQueryView::paste()
                 trimOnPaste = (trimChoice == QMessageBox::Yes);
             }
 
-            if (cell=="NULL" && !pasteAsNullAsked)
+            if (cell == "NULL" && !pasteAsNullAsked)
             {
                 QMessageBox::StandardButton nullChoice;
                 nullChoice = QMessageBox::question(this, tr("Paste \"NULL\" as null value?"),
@@ -1391,14 +1391,10 @@ void SqlQueryView::paste()
                 pasteAsNull = (nullChoice == QMessageBox::Yes);
             }
 
-            if (cell=="NULL" && pasteAsNull)
-            {
+            if (cell == "NULL" && pasteAsNull)
                 dataRow << QVariant();
-            }
             else
-            {
                 dataRow << (trimOnPaste ? cell.trimmed() : cell);
-            }
         }
 
         dataToPaste << dataRow;
