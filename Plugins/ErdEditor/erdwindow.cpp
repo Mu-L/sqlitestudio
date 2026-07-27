@@ -1034,6 +1034,11 @@ bool ErdWindow::initMemDb(MemDbInit createMemDb)
     if (createMemDb == MemDbInit::FULL || cachedDdls.isEmpty())
         cachedDdls = ErdEffectiveChangeMerger::readDbSchema(db);
 
+    // Clear side panel before switching memDb, as it may be connected to the old memDb.
+    // New mem db happens when schema is reloaded, or changes were committed (thus schema is reloaded too).
+    abortSidePanel();
+    scene->clearSelection();
+
     Db* oldMemDb = memDb; // don't delete it yet, as it will be disconnected from in setDb() methods, etc.
     memDb = ErdEffectiveChangeMerger::createMemDbWithSchema(cachedDdls, db->getName());
     if (!memDb)

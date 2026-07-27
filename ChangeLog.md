@@ -4,6 +4,7 @@
 - BUGFIX: #5755 Grid View column header separator is now easier to grab or double-click.
 - BUGFIX: #5744 Fixed cmd+c in Grid View for macOS with russian keyboard input.
 - BUGFIX: #5744 Update Qt on macOS for official builds to 6.11 to fix cmd+c copy hotkey, thus dropping support for macOS 11 and 12 in official builds (other builds may still use older Qt and support older macOS).
+- BIGFIX: #5777 Fixed crash when committing whole ERD schema while havinh table panel open and trying to do another change in that panel.
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).

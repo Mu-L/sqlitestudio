@@ -201,9 +201,6 @@ class ERDEDITORSHARED_EXPORT ErdWindow : public MdiChild
         void commitExecutionFailure(int errorCode, const QString& errorText);
         void updateCommitExecutionStatus(int queryIdx);
         void handleColumnEditRequest(ErdEntity* entity, const QString& columnName);
-
-    signals:
-        void aboutToCommit();
 };
 
 #endif // ERDWINDOW_H
