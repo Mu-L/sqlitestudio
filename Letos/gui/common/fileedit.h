@@ -43,7 +43,7 @@ class GUI_API_EXPORT FileEdit : public QWidget
         QLineEdit* lineEdit = nullptr;
         QToolButton* button = nullptr;
         QComboBox* combo = nullptr;
-        QString* selectedFilter = nullptr;
+        QString selectedFilter;
 
     signals:
         void fileChanged(QString arg);

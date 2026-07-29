@@ -6,6 +6,7 @@
 - BUGFIX: #5744 Update Qt on macOS for official builds to 6.11 to fix cmd+c copy hotkey, thus dropping support for macOS 11 and 12 in official builds (other builds may still use older Qt and support older macOS).
 - BUGFIX: #5777 Fixed crash when committing whole ERD schema while havinh table panel open and trying to do another change in that panel.
 - BUGFIX: #5768 Fixed crash when pasting data from a spreadsheet (i.e. Excel, etc) containing empty cells.
+- BUGFIX: #5754 Fixed crash in several `Browse File` actions across the application.
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).

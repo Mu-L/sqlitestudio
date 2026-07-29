@@ -56,19 +56,19 @@ QVariant FileEdit::getChoicesModelName() const
 
 void FileEdit::browse()
 {
-    selectedFilter = nullptr;
+    selectedFilter = QString();
     if (filters.contains(";;"))
     {
         QStringList filterList = filters.split(";;");
-        selectedFilter = &filterList[0];
+        selectedFilter = filterList[0];
     }
 
     QString path;
     QString dir = getFileDialogInitPath();
     if (save)
-        path = QFileDialog::getSaveFileName(this, dialogTitle, dir, filters, selectedFilter);
+        path = QFileDialog::getSaveFileName(this, dialogTitle, dir, filters, &selectedFilter);
     else
-        path = QFileDialog::getOpenFileName(this, dialogTitle, dir, filters, selectedFilter);
+        path = QFileDialog::getOpenFileName(this, dialogTitle, dir, filters, &selectedFilter);
 
     if (path.isNull())
         return;
@@ -153,14 +153,14 @@ void FileEdit::setChoicesModel(QAbstractItemModel* arg)
 
 QString FileEdit::getSelectedFilterExtensionIfMissing(const QString& path) const
 {
-    if (!selectedFilter)
+    if (selectedFilter.isEmpty())
         return QString();
 
-    int idx = selectedFilter->lastIndexOf("(");
+    int idx = selectedFilter.lastIndexOf("(");
     if (idx < 0)
         return QString();
 
-    QStringList extensions = selectedFilter->mid(idx + 1).chopped(1).split(",")
+    QStringList extensions = selectedFilter.mid(idx + 1).chopped(1).split(",")
                             | MAP(e, {return e.mid(2);});
     if (extensions.isEmpty())
         return QString();
