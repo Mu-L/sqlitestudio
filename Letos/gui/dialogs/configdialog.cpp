@@ -389,9 +389,7 @@ void ConfigDialog::init()
     ui->supportRemindersCheck->setVisible(false);
 #endif
 
-    resettingColors = true;
     load();
-    resettingColors = false;
     colorChanged();
     updateStylePreview();
     restoreLastUsedPage();
@@ -401,11 +399,16 @@ void ConfigDialog::init()
 
 void ConfigDialog::load()
 {
+    resettingColors = true;
     updatingDataEditorItem = true;
     updatingDataRendererItem = true;
+
     configMapper->loadToWidget(ui->stackedWidget);
+
     updatingDataEditorItem = false;
     updatingDataRendererItem = false;
+    resettingColors = false;
+
     setModified(false);
 }
 

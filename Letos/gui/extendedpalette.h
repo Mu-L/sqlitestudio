@@ -32,7 +32,7 @@ class GUI_API_EXPORT ExtendedPalette
         QBrush editorCommentBrush;
         QBrush mdiAreaBaseBrush;
 
-        QVariant initializedForPalette;
+        QPalette initializedForPalette;
 };
 
 #endif // EXTENDEDPALETTE_H

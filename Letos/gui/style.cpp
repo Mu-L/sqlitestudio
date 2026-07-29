@@ -42,6 +42,8 @@ void Style::setStyle(QStyle *style, const QString &styleName)
     QToolTip::setPalette(standardPalette());
     THEME_TUNER->tuneTheme(styleName);
     MAINWINDOW->getMdiArea()->setBackground(extPalette.mdiAreaBase());
+
+    emit paletteChanged();
 }
 
 QString Style::name() const
