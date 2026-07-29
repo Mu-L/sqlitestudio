@@ -1963,119 +1963,119 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="467"/>
+        <location filename="../dialogs/configdialog.cpp" line="470"/>
         <source>The new interface scale will be applied after restarting Letos.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="825"/>
+        <location filename="../dialogs/configdialog.cpp" line="828"/>
         <source>Restart the application to apply the new icon set.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1175"/>
+        <location filename="../dialogs/configdialog.cpp" line="1178"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1176"/>
+        <location filename="../dialogs/configdialog.cpp" line="1179"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1177"/>
+        <location filename="../dialogs/configdialog.cpp" line="1180"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1178"/>
+        <location filename="../dialogs/configdialog.cpp" line="1181"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1180"/>
+        <location filename="../dialogs/configdialog.cpp" line="1183"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1181"/>
+        <location filename="../dialogs/configdialog.cpp" line="1184"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1182"/>
+        <location filename="../dialogs/configdialog.cpp" line="1185"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1183"/>
+        <location filename="../dialogs/configdialog.cpp" line="1186"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1188"/>
+        <location filename="../dialogs/configdialog.cpp" line="1191"/>
         <source>Plugin details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1888"/>
+        <location filename="../dialogs/configdialog.cpp" line="1891"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1946"/>
+        <location filename="../dialogs/configdialog.cpp" line="1949"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1988"/>
+        <location filename="../dialogs/configdialog.cpp" line="1991"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2002"/>
+        <location filename="../dialogs/configdialog.cpp" line="2005"/>
         <source>No plugins in this category.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2102"/>
-        <location filename="../dialogs/configdialog.cpp" line="2131"/>
+        <location filename="../dialogs/configdialog.cpp" line="2105"/>
+        <location filename="../dialogs/configdialog.cpp" line="2134"/>
         <source>Add new data type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2106"/>
-        <location filename="../dialogs/configdialog.cpp" line="2135"/>
+        <location filename="../dialogs/configdialog.cpp" line="2109"/>
+        <location filename="../dialogs/configdialog.cpp" line="2138"/>
         <source>Rename selected data type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2110"/>
-        <location filename="../dialogs/configdialog.cpp" line="2139"/>
+        <location filename="../dialogs/configdialog.cpp" line="2113"/>
+        <location filename="../dialogs/configdialog.cpp" line="2142"/>
         <source>Delete selected data type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2223"/>
+        <location filename="../dialogs/configdialog.cpp" line="2226"/>
         <source>Clear hotkey for this action</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2235"/>
+        <location filename="../dialogs/configdialog.cpp" line="2238"/>
         <source>Restore original hotkey for this action</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2277"/>
+        <location filename="../dialogs/configdialog.cpp" line="2280"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation type="unfinished"></translation>
     </message>
