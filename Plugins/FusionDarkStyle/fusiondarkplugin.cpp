@@ -1,5 +1,4 @@
 #include "fusiondarkplugin.h"
-#include "themetuner.h"
 #include <QProxyStyle>
 #include <QPalette>
 #include <QDebug>
@@ -43,7 +42,7 @@ FusionDarkStyle::FusionDarkStyle()
     darkPalette.setColor(QPalette::Light, blue);
     darkPalette.setColor(QPalette::Dark, midDarkGray);
 
-    darkPalette.setColor(QPalette::Active, QPalette::Button, gray.darker());
+    darkPalette.setColor(QPalette::Active, QPalette::Button, gray.darker(250));
     darkPalette.setColor(QPalette::Disabled, QPalette::ButtonText, gray);
     darkPalette.setColor(QPalette::Disabled, QPalette::WindowText, gray);
     darkPalette.setColor(QPalette::Disabled, QPalette::Text, gray);
