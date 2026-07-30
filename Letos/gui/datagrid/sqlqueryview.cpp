@@ -1631,7 +1631,20 @@ void SqlQueryView::Header::mouseDoubleClickEvent(QMouseEvent* e)
 
         if (foundBoundary >= 0)
         {
-            qobject_cast<SqlQueryView*>(parentWidget())->resizeColumnToContents(foundBoundary);
+            auto queryView = qobject_cast<SqlQueryView*>(parentWidget());
+
+            QModelIndexList selColIdxList = selectionModel()->selectedColumns();
+            if (!selColIdxList.isEmpty())
+            {
+                // #5756 If multiple columns are selected, resize all of them to contents
+                // Qt does not handle it by default, if the clicked boundry section doesn't require resizing itself.
+                // We need to enforce it for all selected columns.
+                for (auto&& idx : selColIdxList)
+                    queryView->resizeColumnToContents(idx.column());
+            }
+            else
+                queryView->resizeColumnToContents(foundBoundary);
+
             e->accept();
             return;
         }

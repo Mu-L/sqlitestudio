@@ -11,6 +11,7 @@
 - BUGFIX: #5760 Fixed wrong (dark) text color in SQL editor on Windows with dark theme.
 - BUGFIX: #5758 Properly removed `windowsvista` and `windows11` themes, as they should have been in #5743 already in 4.0.1.
 - BUGFIX: #5778 Fixed deleting data rows from Table Window for tables with unusual names.
+- BUGFIX: #5756 Resize (adjust) all selected columns when double-clicked on section separator in header, regardles if the column associated with the clicked separator needs the resizing or not.
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).
