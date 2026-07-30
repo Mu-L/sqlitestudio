@@ -6835,12 +6835,12 @@ find next</source>
 <context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="123"/>
         <source>Error while committing new row: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+        <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="171"/>
         <source>Error while deleting row from %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7491,22 +7491,22 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
 <context>
     <name>SqlViewModel</name>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="129"/>
         <source>An error occurred while committing the data: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="143"/>
         <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="193"/>
         <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
+        <location filename="../datagrid/sqlviewmodel.cpp" line="218"/>
         <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
         <translation type="unfinished"></translation>
     </message>
