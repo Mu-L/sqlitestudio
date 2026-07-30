@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
       <location filename="../dialogs/configdialog.ui" line="14"/>
-      <location filename="../dialogs/configdialog.ui" line="3209"/>
+      <location filename="../dialogs/configdialog.ui" line="3244"/>
       <source>Configuration</source>
       <translation>Cấu hình</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2549"/>
-      <location filename="../dialogs/configdialog.ui" line="3199"/>
+      <location filename="../dialogs/configdialog.ui" line="3234"/>
       <source>Language</source>
       <translation>Ngôn ngữ</translation>
     </message>
@@ -1897,63 +1897,78 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Được biểu thị bằng phần trăm của kích thước mặc định.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2923"/>
+      <location filename="../dialogs/configdialog.ui" line="2958"/>
       <source>Hide built-in plugins</source>
       <translation>Ẩn plugin tích hợp</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2952"/>
+      <location filename="../dialogs/configdialog.ui" line="2987"/>
       <source>Current style:</source>
       <translation>Kiểu hiện tại:</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2742"/>
-      <location filename="../dialogs/configdialog.ui" line="2969"/>
+      <location filename="../dialogs/configdialog.ui" line="3004"/>
       <source>Preview</source>
       <translation>Xem trước</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2979"/>
+      <location filename="../dialogs/configdialog.ui" line="2821"/>
+      <source>Window menu layout</source>
+      <translation type="unfinished">Window menu layout</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2827"/>
+      <source>Separate &quot;Windows&quot; menu</source>
+      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2840"/>
+      <source>&quot;Window List&quot; under &quot;View&quot;</source>
+      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="3014"/>
       <source>Enabled</source>
       <translation>Đã bật</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3155"/>
+      <location filename="../dialogs/configdialog.ui" line="3190"/>
       <source>Disabled</source>
       <translation>Đã tắt</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3204"/>
+      <location filename="../dialogs/configdialog.ui" line="3239"/>
       <source>Active formatter plugin</source>
       <translation>Plugin định dạng đang hoạt động</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3242"/>
+      <location filename="../dialogs/configdialog.ui" line="3277"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Mẹo:&lt;/span&gt; Ngoài các thiết lập có sẵn tại đây, kích thước phông chữ cũng có thể được điều chỉnh động trong hầu hết các thành phần giao diện bằng cách giữ &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; và cuộn &lt;span style=&quot; font-weight:700;&quot;&gt;bánh xe chuột&lt;/span&gt; trên thành phần có kích thước phông chữ bạn muốn thay đổi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3261"/>
+      <location filename="../dialogs/configdialog.ui" line="3296"/>
       <source>SQL editor font</source>
       <translation>Phông chữ trình soạn thảo SQL</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3277"/>
+      <location filename="../dialogs/configdialog.ui" line="3312"/>
       <source>Database list font</source>
       <translation>Phông chữ danh sách cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3293"/>
+      <location filename="../dialogs/configdialog.ui" line="3328"/>
       <source>Database list additional label font</source>
       <translation>Phông chữ nhãn bổ sung của danh sách cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3309"/>
+      <location filename="../dialogs/configdialog.ui" line="3344"/>
       <source>Data view font</source>
       <translation>Phông chữ khung xem dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3325"/>
+      <location filename="../dialogs/configdialog.ui" line="3360"/>
       <source>Status field font</source>
       <translation>Phông chữ trường trạng thái</translation>
     </message>
@@ -1963,119 +1978,119 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nếu tùy chọn này được bật, trợ lý mã sẽ được kích hoạt trong các trường hợp người dùng nhập, ví dụ &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; để đề xuất các cột của bảng. Nếu tùy chọn này bị tắt, người dùng sẽ phải nhấn rõ phím tắt của trợ lý.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="467"/>
+      <location filename="../dialogs/configdialog.cpp" line="470"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
       <translation>Tỷ lệ giao diện mới sẽ được áp dụng sau khi khởi động lại Letos.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="825"/>
+      <location filename="../dialogs/configdialog.cpp" line="829"/>
       <source>Restart the application to apply the new icon set.</source>
       <translation>Khởi động lại ứng dụng để áp dụng bộ biểu tượng mới.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1175"/>
+      <location filename="../dialogs/configdialog.cpp" line="1179"/>
       <source>Description:</source>
       <comment>plugin details</comment>
       <translation>Mô tả:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1176"/>
+      <location filename="../dialogs/configdialog.cpp" line="1180"/>
       <source>Category:</source>
       <comment>plugin details</comment>
       <translation>Danh mục:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1177"/>
+      <location filename="../dialogs/configdialog.cpp" line="1181"/>
       <source>Version:</source>
       <comment>plugin details</comment>
       <translation>Phiên bản:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1178"/>
+      <location filename="../dialogs/configdialog.cpp" line="1182"/>
       <source>Author:</source>
       <comment>plugin details</comment>
       <translation>Tác giả:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1180"/>
+      <location filename="../dialogs/configdialog.cpp" line="1184"/>
       <source>Internal name:</source>
       <comment>plugin details</comment>
       <translation>Tên nội bộ:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1181"/>
+      <location filename="../dialogs/configdialog.cpp" line="1185"/>
       <source>Dependencies:</source>
       <comment>plugin details</comment>
       <translation>Phụ thuộc:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1182"/>
+      <location filename="../dialogs/configdialog.cpp" line="1186"/>
       <source>Conflicts:</source>
       <comment>plugin details</comment>
       <translation>Xung đột:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1183"/>
+      <location filename="../dialogs/configdialog.cpp" line="1187"/>
       <source>File:</source>
       <comment>plugin details</comment>
       <translation>Tệp:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1188"/>
+      <location filename="../dialogs/configdialog.cpp" line="1192"/>
       <source>Plugin details</source>
       <translation>Chi tiết plugin</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1888"/>
+      <location filename="../dialogs/configdialog.cpp" line="1892"/>
       <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
       <translation>Plugin được tải/gỡ tải ngay lập tức khi được chọn/bỏ chọn, nhưng danh sách plugin đã sửa đổi để tải khi khởi động sẽ không được lưu cho đến khi bạn xác nhận toàn bộ hộp thoại cấu hình.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1946"/>
+      <location filename="../dialogs/configdialog.cpp" line="1950"/>
       <source>%1 (built-in)</source>
       <comment>plugins manager in configuration dialog</comment>
       <translation>%1 (tích hợp)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1988"/>
+      <location filename="../dialogs/configdialog.cpp" line="1992"/>
       <source>Details</source>
       <translation>Chi tiết</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2002"/>
+      <location filename="../dialogs/configdialog.cpp" line="2006"/>
       <source>No plugins in this category.</source>
       <translation>Không có plugin nào trong danh mục này.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2102"/>
-      <location filename="../dialogs/configdialog.cpp" line="2131"/>
+      <location filename="../dialogs/configdialog.cpp" line="2106"/>
+      <location filename="../dialogs/configdialog.cpp" line="2135"/>
       <source>Add new data type</source>
       <translation>Thêm kiểu dữ liệu mới</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2106"/>
-      <location filename="../dialogs/configdialog.cpp" line="2135"/>
+      <location filename="../dialogs/configdialog.cpp" line="2110"/>
+      <location filename="../dialogs/configdialog.cpp" line="2139"/>
       <source>Rename selected data type</source>
       <translation>Đổi tên kiểu dữ liệu đã chọn</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2110"/>
-      <location filename="../dialogs/configdialog.cpp" line="2139"/>
+      <location filename="../dialogs/configdialog.cpp" line="2114"/>
+      <location filename="../dialogs/configdialog.cpp" line="2143"/>
       <source>Delete selected data type</source>
       <translation>Xóa kiểu dữ liệu đã chọn</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2223"/>
+      <location filename="../dialogs/configdialog.cpp" line="2227"/>
       <source>Clear hotkey for this action</source>
       <translation>Xóa phím nóng cho hành động này</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2235"/>
+      <location filename="../dialogs/configdialog.cpp" line="2239"/>
       <source>Restore original hotkey for this action</source>
       <translation>Khôi phục phím nóng gốc cho hành động này</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2277"/>
+      <location filename="../dialogs/configdialog.cpp" line="2281"/>
       <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
       <translation>Tại đây bạn có thể cấu hình màu cho tô sáng cú pháp mã. Chúng được dùng chung giữa các ngôn ngữ khác nhau - không chỉ SQL mà còn JavaScript và các ngôn ngữ khác. Theo mặc định, màu dựa trên chủ đề được sử dụng. Để định nghĩa màu riêng, hãy bật màu tùy chỉnh bằng cách chọn hộp kiểm cạnh màu cụ thể.</translation>
     </message>
@@ -2660,457 +2675,457 @@ Có thể duyệt các trang khác sau khi việc đếm hàng hoàn tất.</tra
       <translation>Cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2565"/>
+      <location filename="../dbtree/dbtree.cpp" line="2566"/>
       <source>Filter by name</source>
       <translation>Lọc theo tên</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="142"/>
+      <location filename="../dbtree/dbtree.cpp" line="143"/>
       <source>Copy</source>
       <translation>Sao chép</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="143"/>
+      <location filename="../dbtree/dbtree.cpp" line="144"/>
       <source>Paste</source>
       <translation>Dán</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="144"/>
+      <location filename="../dbtree/dbtree.cpp" line="145"/>
       <source>Select all</source>
       <translation>Chọn tất cả</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="145"/>
+      <location filename="../dbtree/dbtree.cpp" line="146"/>
       <source>Create a group</source>
       <translation>Tạo nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="146"/>
+      <location filename="../dbtree/dbtree.cpp" line="147"/>
       <source>Delete the group</source>
       <translation>Xóa nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="147"/>
+      <location filename="../dbtree/dbtree.cpp" line="148"/>
       <source>Rename the group</source>
       <translation>Đổi tên nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="152"/>
+      <location filename="../dbtree/dbtree.cpp" line="153"/>
       <source>&amp;Edit the database</source>
       <translation>&amp;Chỉnh sửa cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="154"/>
+      <location filename="../dbtree/dbtree.cpp" line="155"/>
       <source>&amp;Remove the database</source>
       <translation>&amp;Xóa cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="155"/>
+      <location filename="../dbtree/dbtree.cpp" line="156"/>
       <source>&amp;Connect to the database</source>
       <translation>&amp;Kết nối tới cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="156"/>
+      <location filename="../dbtree/dbtree.cpp" line="157"/>
       <source>&amp;Disconnect from the database</source>
       <translation>&amp;Ngắt kết nối khỏi cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="159"/>
+      <location filename="../dbtree/dbtree.cpp" line="160"/>
       <source>Vac&amp;uum</source>
       <translation>Hút ch&amp;ân không</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="160"/>
+      <location filename="../dbtree/dbtree.cpp" line="161"/>
       <source>&amp;Integrity check</source>
       <translation>&amp;Kiểm tra tính toàn vẹn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="161"/>
+      <location filename="../dbtree/dbtree.cpp" line="162"/>
       <source>Create a &amp;table</source>
       <translation>Tạo &amp;bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="162"/>
+      <location filename="../dbtree/dbtree.cpp" line="163"/>
       <source>Edit the t&amp;able</source>
       <translation>Sửa bả&amp;ng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="164"/>
+      <location filename="../dbtree/dbtree.cpp" line="165"/>
       <source>Delete the ta&amp;ble</source>
       <translation>Xóa bả&amp;ng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="165"/>
+      <location filename="../dbtree/dbtree.cpp" line="166"/>
       <source>Export the table</source>
       <translation>Xuất bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="166"/>
+      <location filename="../dbtree/dbtree.cpp" line="167"/>
       <source>Import into the table</source>
       <translation>Nhập vào bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="168"/>
+      <location filename="../dbtree/dbtree.cpp" line="169"/>
       <source>Populate table</source>
       <translation>Điền dữ liệu bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="169"/>
+      <location filename="../dbtree/dbtree.cpp" line="170"/>
       <source>Create similar table</source>
       <translation>Tạo bảng tương tự</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="170"/>
+      <location filename="../dbtree/dbtree.cpp" line="171"/>
       <source>Reset autoincrement sequence</source>
       <translation>Đặt lại chuỗi autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="171"/>
+      <location filename="../dbtree/dbtree.cpp" line="172"/>
       <source>Create an &amp;index</source>
       <translation>Tạo &amp;chỉ mục</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="172"/>
+      <location filename="../dbtree/dbtree.cpp" line="173"/>
       <source>Edit the i&amp;ndex</source>
       <translation>Sửa chỉ &amp;mục</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="174"/>
+      <location filename="../dbtree/dbtree.cpp" line="175"/>
       <source>Delete the in&amp;dex</source>
       <translation>Xóa chỉ &amp;mục</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="175"/>
+      <location filename="../dbtree/dbtree.cpp" line="176"/>
       <source>Create a trig&amp;ger</source>
       <translation>Tạo tri&amp;gger</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="176"/>
+      <location filename="../dbtree/dbtree.cpp" line="177"/>
       <source>Edit the trigg&amp;er</source>
       <translation>Sửa tri&amp;gger</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="178"/>
+      <location filename="../dbtree/dbtree.cpp" line="179"/>
       <source>Delete the trigge&amp;r</source>
       <translation>Xóa trigge&amp;r</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="179"/>
+      <location filename="../dbtree/dbtree.cpp" line="180"/>
       <source>Create a &amp;view</source>
       <translation>Tạo &amp;view</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="180"/>
+      <location filename="../dbtree/dbtree.cpp" line="181"/>
       <source>Edit the v&amp;iew</source>
       <translation>Sửa v&amp;iew</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="182"/>
+      <location filename="../dbtree/dbtree.cpp" line="183"/>
       <source>Delete the vi&amp;ew</source>
       <translation>Xóa vi&amp;ew</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="183"/>
+      <location filename="../dbtree/dbtree.cpp" line="184"/>
       <source>Add a column</source>
       <translation>Thêm cột</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="184"/>
+      <location filename="../dbtree/dbtree.cpp" line="185"/>
       <source>Edit the column</source>
       <translation>Sửa cột</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="186"/>
+      <location filename="../dbtree/dbtree.cpp" line="187"/>
       <source>Delete the column</source>
       <translation>Xóa cột</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="187"/>
+      <location filename="../dbtree/dbtree.cpp" line="188"/>
       <source>Delete selected items</source>
       <translation>Xóa các mục đã chọn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="207"/>
+      <location filename="../dbtree/dbtree.cpp" line="208"/>
       <source>Clear filter</source>
       <translation>Xóa bộ lọc</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="188"/>
+      <location filename="../dbtree/dbtree.cpp" line="189"/>
       <source>&amp;Refresh all database schemas</source>
       <translation>&amp;Làm mới tất cả schema cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="148"/>
+      <location filename="../dbtree/dbtree.cpp" line="149"/>
       <source>&amp;Create new database</source>
       <translation>&amp;Tạo cơ sở dữ liệu mới</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="149"/>
+      <location filename="../dbtree/dbtree.cpp" line="150"/>
       <source>&amp;Open existing database</source>
       <translation>&amp;Mở cơ sở dữ liệu hiện có</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="150"/>
+      <location filename="../dbtree/dbtree.cpp" line="151"/>
       <source>&amp;Open existing database or SQL file</source>
       <translation>&amp;Mở cơ sở dữ liệu hoặc tệp SQL hiện có</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="151"/>
+      <location filename="../dbtree/dbtree.cpp" line="152"/>
       <source>Add a database</source>
       <translation>Thêm cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="153"/>
+      <location filename="../dbtree/dbtree.cpp" line="154"/>
       <source>Rename the database</source>
       <translation>Đổi tên cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="157"/>
+      <location filename="../dbtree/dbtree.cpp" line="158"/>
       <source>&amp;Import</source>
       <translation>&amp;Nhập</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="158"/>
+      <location filename="../dbtree/dbtree.cpp" line="159"/>
       <source>&amp;Export</source>
       <translation>&amp;Xuất</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="163"/>
+      <location filename="../dbtree/dbtree.cpp" line="164"/>
       <source>Rename the table</source>
       <translation>Đổi tên bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="167"/>
+      <location filename="../dbtree/dbtree.cpp" line="168"/>
       <source>Export the view</source>
       <translation>Xuất view</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="173"/>
+      <location filename="../dbtree/dbtree.cpp" line="174"/>
       <source>Rename the index</source>
       <translation>Đổi tên chỉ mục</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="177"/>
+      <location filename="../dbtree/dbtree.cpp" line="178"/>
       <source>Rename the trigger</source>
       <translation>Đổi tên trigger</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="181"/>
+      <location filename="../dbtree/dbtree.cpp" line="182"/>
       <source>Rename the view</source>
       <translation>Đổi tên view</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="185"/>
+      <location filename="../dbtree/dbtree.cpp" line="186"/>
       <source>Rename the column</source>
       <translation>Đổi tên cột</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="189"/>
+      <location filename="../dbtree/dbtree.cpp" line="190"/>
       <source>Re&amp;fresh selected database schema</source>
       <translation>Làm &amp;mới schema cơ sở dữ liệu đã chọn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="190"/>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="191"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Erase table data</source>
       <translation>Xóa dữ liệu bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="192"/>
-      <location filename="../dbtree/dbtree.cpp" line="195"/>
-      <location filename="../dbtree/dbtree.cpp" line="198"/>
+      <location filename="../dbtree/dbtree.cpp" line="193"/>
+      <location filename="../dbtree/dbtree.cpp" line="196"/>
+      <location filename="../dbtree/dbtree.cpp" line="199"/>
       <source>Drag</source>
       <comment>dbtree table action shortcut</comment>
       <translation>Kéo</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="201"/>
+      <location filename="../dbtree/dbtree.cpp" line="202"/>
       <source>Open file&apos;s directory</source>
       <translation>Mở thư mục của tệp&apos;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="202"/>
+      <location filename="../dbtree/dbtree.cpp" line="203"/>
       <source>Execute SQL from file</source>
       <translation>Thực thi SQL từ tệp</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="203"/>
+      <location filename="../dbtree/dbtree.cpp" line="204"/>
       <source>Increase font size</source>
       <comment>database list</comment>
       <translation>Tăng kích thước phông chữ</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="204"/>
+      <location filename="../dbtree/dbtree.cpp" line="205"/>
       <source>Decrease font size</source>
       <comment>database list</comment>
       <translation>Giảm kích thước phông chữ</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="417"/>
-      <location filename="../dbtree/dbtree.cpp" line="424"/>
+      <location filename="../dbtree/dbtree.cpp" line="418"/>
+      <location filename="../dbtree/dbtree.cpp" line="425"/>
       <source>Database</source>
       <translation>Cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="436"/>
+      <location filename="../dbtree/dbtree.cpp" line="437"/>
       <source>Grouping</source>
       <translation>Nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="441"/>
+      <location filename="../dbtree/dbtree.cpp" line="442"/>
       <source>Generate query for table</source>
       <translation>Tạo truy vấn cho bảng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="447"/>
+      <location filename="../dbtree/dbtree.cpp" line="448"/>
       <source>Generate query for view</source>
       <translation>Tạo truy vấn cho view</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Create group</source>
       <translation>Tạo nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
       <source>Group name</source>
       <translation>Tên nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Entry with name %1 already exists in group %2.</source>
       <translation>Mục có tên %1 đã tồn tại trong nhóm %2.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1374"/>
+      <location filename="../dbtree/dbtree.cpp" line="1375"/>
       <source>Delete group</source>
       <translation>Xóa nhóm</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1375"/>
+      <location filename="../dbtree/dbtree.cpp" line="1376"/>
       <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
       <translation>Bạn có chắc chắn muốn xóa các nhóm: %1 không?
 Tất cả đối tượng từ các nhóm này sẽ được chuyển vào các nhóm cha tương ứng.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1507"/>
+      <location filename="../dbtree/dbtree.cpp" line="1508"/>
       <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
       <translation>Bạn có chắc chắn muốn gỡ cơ sở dữ liệu &apos;%1&apos; khỏi danh sách không?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1515"/>
+      <location filename="../dbtree/dbtree.cpp" line="1516"/>
       <source>Are you sure you want to remove following databases from the list:
 %1</source>
       <translation>Bạn có chắc chắn muốn gỡ các cơ sở dữ liệu sau khỏi danh sách:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1517"/>
+      <location filename="../dbtree/dbtree.cpp" line="1518"/>
       <source>Remove database</source>
       <translation>Xóa cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1572"/>
-      <location filename="../dbtree/dbtree.cpp" line="1777"/>
+      <location filename="../dbtree/dbtree.cpp" line="1573"/>
+      <location filename="../dbtree/dbtree.cpp" line="1778"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Không thể nhập vì không có plugin nhập nào được tải.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1592"/>
-      <location filename="../dbtree/dbtree.cpp" line="1752"/>
-      <location filename="../dbtree/dbtree.cpp" line="1822"/>
+      <location filename="../dbtree/dbtree.cpp" line="1593"/>
+      <location filename="../dbtree/dbtree.cpp" line="1753"/>
+      <location filename="../dbtree/dbtree.cpp" line="1823"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Không thể xuất vì không có plugin xuất nào được tải.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1868"/>
+      <location filename="../dbtree/dbtree.cpp" line="1869"/>
       <source>Vacuum (%1)</source>
       <translation>Hút chân không (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1882"/>
+      <location filename="../dbtree/dbtree.cpp" line="1883"/>
       <source>Integrity check (%1)</source>
       <translation>Kiểm tra tính toàn vẹn (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Reset autoincrement</source>
       <translation>Đặt lại autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
       <translation>Bạn có chắc chắn muốn đặt lại giá trị autoincrement cho bảng &apos;%1&apos; không?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1925"/>
+      <location filename="../dbtree/dbtree.cpp" line="1926"/>
       <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
       <translation>Đã xảy ra lỗi khi cố đặt lại giá trị autoincrement cho bảng &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1927"/>
+      <location filename="../dbtree/dbtree.cpp" line="1928"/>
       <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
       <translation>Giá trị autoincrement cho bảng &apos;%1&apos; đã được đặt lại thành công.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Are you sure you want to delete all data from table(s): %1?</source>
       <translation>Bạn có chắc chắn muốn xóa tất cả dữ liệu khỏi (các) bảng: %1 không?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1959"/>
+      <location filename="../dbtree/dbtree.cpp" line="1960"/>
       <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
       <translation>Đã xảy ra lỗi khi cố xóa dữ liệu khỏi bảng &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1963"/>
+      <location filename="../dbtree/dbtree.cpp" line="1964"/>
       <source>All data has been deleted for table &apos;%1&apos;.</source>
       <translation>Tất cả dữ liệu đã được xóa khỏi bảng &apos;%1&apos;.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2102"/>
+      <location filename="../dbtree/dbtree.cpp" line="2103"/>
       <source>Following objects will be deleted: %1.</source>
       <translation>Các đối tượng sau sẽ bị xóa: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2105"/>
+      <location filename="../dbtree/dbtree.cpp" line="2106"/>
       <source>Following databases will be removed from list: %1.</source>
       <translation>Các cơ sở dữ liệu sau sẽ bị gỡ khỏi danh sách: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2108"/>
+      <location filename="../dbtree/dbtree.cpp" line="2109"/>
       <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
       <translation>Các đối tượng còn lại từ nhóm đã xóa sẽ được chuyển đến vị trí trước đây của nhóm đó.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2110"/>
+      <location filename="../dbtree/dbtree.cpp" line="2111"/>
       <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
       <translation>%1&lt;br&gt;&lt;br&gt;Bạn có chắc chắn muốn tiếp tục không?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2112"/>
+      <location filename="../dbtree/dbtree.cpp" line="2113"/>
       <source>Delete objects</source>
       <translation>Xóa đối tượng</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2293"/>
+      <location filename="../dbtree/dbtree.cpp" line="2294"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đồng bộ danh sách đã bật.&lt;/p&gt;&lt;p&gt;Nhấp để tắt.&lt;/p&gt;&lt;p&gt;Danh sách đi theo cửa sổ đang hoạt động và tự động chọn cũng như hiển thị đối tượng cơ sở dữ liệu tương ứng.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2308"/>
+      <location filename="../dbtree/dbtree.cpp" line="2309"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đồng bộ danh sách đã tắt.&lt;/p&gt;&lt;p&gt;Nhấp để bật.&lt;/p&gt;&lt;p&gt;Khi được bật, cây đối tượng sẽ đi theo trình soạn thảo đang hoạt động và tự động chọn đối tượng cơ sở dữ liệu tương ứng.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2591"/>
+      <location filename="../dbtree/dbtree.cpp" line="2592"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đã kết nối.&lt;/p&gt;&lt;p&gt;Nhấp vào đây để ngắt kết nối, hoặc nhấp chuột giữa vào cơ sở dữ liệu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2599"/>
+      <location filename="../dbtree/dbtree.cpp" line="2600"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đã ngắt kết nối.&lt;/p&gt;&lt;p&gt;Nhấp vào đây để kết nối, hoặc nhấp đúp vào cơ sở dữ liệu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4961,18 +4976,18 @@ Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủ
       <translation>&amp;Cấu trúc</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="771"/>
+      <location filename="../mainwindow.cpp" line="794"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>&amp;Xem</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1455"/>
+      <location filename="../mainwindow.cpp" line="1478"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>Tệp được thả có vẻ là cơ sở dữ liệu SQLite 2, không được phiên bản Letos này hỗ trợ. Phiên bản cuối cùng hỗ trợ SQLite 2 là 3.2.1.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="441"/>
+      <location filename="../mainwindow.cpp" line="535"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>Danh sách cửa sổ</translation>
@@ -5009,131 +5024,137 @@ Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủ
       <translation>sắp xếp</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="471"/>
+      <location filename="../mainwindow.cpp" line="469"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>&amp;Công cụ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="491"/>
+      <location filename="../mainwindow.cpp" line="489"/>
       <source>&amp;Help</source>
       <translation>&amp;Trợ giúp</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="708"/>
+      <location filename="../mainwindow.cpp" line="527"/>
+      <source>&amp;Windows</source>
+      <comment>menubar view menu</comment>
+      <translation type="unfinished">&amp;Windows</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="731"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>Không thể đặt kiểu: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="945"/>
+      <location filename="../mainwindow.cpp" line="968"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Không thể xuất vì chưa tải plugin xuất nào.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="962"/>
+      <location filename="../mainwindow.cpp" line="985"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Không thể nhập vì chưa tải plugin nhập nào.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Rename window</source>
       <translation>Đổi tên cửa sổ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Enter new name for the window:</source>
       <translation>Nhập tên mới cho cửa sổ:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1115"/>
+      <location filename="../mainwindow.cpp" line="1138"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>Có bản cập nhật mới. &lt;a href=&quot;%1&quot;&gt;Nhấp vào đây để xem chi tiết&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1121"/>
+      <location filename="../mainwindow.cpp" line="1144"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>Bạn&apos; đang chạy phiên bản mới nhất. Không có bản cập nhật nào.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1176"/>
+      <location filename="../mainwindow.cpp" line="1199"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos là phần mềm miễn phí và mã nguồn mở. Nếu ứng dụng này hữu ích cho công việc của bạn, hãy cân nhắc &lt;a href=&quot;%1&quot;&gt;hỗ trợ dự án&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1261"/>
+      <location filename="../mainwindow.cpp" line="1284"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>Biểu tượng thanh &amp;công cụ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1268"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>Kích thước: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1356"/>
+      <location filename="../mainwindow.cpp" line="1379"/>
       <source>Drop files to open them</source>
       <translation>Thả tệp để mở chúng</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1458"/>
+      <location filename="../mainwindow.cpp" line="1481"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>Kiểu tệp được thả không được hỗ trợ: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1468"/>
+      <location filename="../mainwindow.cpp" line="1491"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>Cơ sở dữ liệu SQLite 3 - thêm vào danh sách cơ sở dữ liệu và mở</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1470"/>
+      <location filename="../mainwindow.cpp" line="1493"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>Đó có thể là cơ sở dữ liệu SQLite 3 được mã hóa. Bạn có thể thử mở nó.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1472"/>
+      <location filename="../mainwindow.cpp" line="1495"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>Tệp trống, nhưng cũng là cơ sở dữ liệu SQLite 3 trống - mở dưới dạng cơ sở dữ liệu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1474"/>
+      <location filename="../mainwindow.cpp" line="1497"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>Tệp SQL - mở trong Trình chỉnh sửa SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1476"/>
+      <location filename="../mainwindow.cpp" line="1499"/>
       <source>Text file - open in SQL Editor</source>
       <translation>Tệp văn bản - mở trong Trình chỉnh sửa SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1501"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>Tệp CSV - nhập bằng Hộp thoại nhập</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1480"/>
+      <location filename="../mainwindow.cpp" line="1503"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>Cơ sở dữ liệu SQLite 2 - không còn được hỗ trợ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1482"/>
+      <location filename="../mainwindow.cpp" line="1505"/>
       <source>Unsupported file type</source>
       <translation>Kiểu tệp không được hỗ trợ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1581"/>
+      <location filename="../mainwindow.cpp" line="1604"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>Cơ sở dữ liệu được truyền trong tham số dòng lệnh (%1) đã có trong danh sách dưới tên: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1588"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>Cơ sở dữ liệu được truyền trong tham số dòng lệnh (%1) đã tạm thời được thêm vào danh sách dưới tên: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1593"/>
+      <location filename="../mainwindow.cpp" line="1616"/>
       <source>Could not add database %1 to list.</source>
       <translation>Không thể thêm cơ sở dữ liệu %1 vào danh sách.</translation>
     </message>
@@ -6845,12 +6866,12 @@ tìm tiếp</translation>
   <context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="123"/>
       <source>Error while committing new row: %1</source>
       <translation>Lỗi khi commit hàng mới: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="171"/>
       <source>Error while deleting row from %1: %2</source>
       <translation>Lỗi khi xóa hàng khỏi %1: %2</translation>
     </message>
@@ -7459,42 +7480,42 @@ Việc xóa này sẽ là vĩnh viễn. Bạn có chắc chắn muốn xóa chú
       <translation>Hàng được tham chiếu (%1)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1189"/>
       <source>Pin column</source>
       <translation>Ghim cột</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1216"/>
       <source>Column renderer</source>
       <translation>Bộ kết xuất cột</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1223"/>
       <source>Default</source>
       <translation>Mặc định</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1379"/>
       <source>Trim pasted text?</source>
       <translation>Cắt khoảng trắng văn bản đã dán?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1380"/>
       <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
       <translation>Văn bản đã dán chứa khoảng trắng ở đầu hoặc cuối. Tự động cắt bỏ chúng không?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1388"/>
       <source>Paste &quot;NULL&quot; as null value?</source>
       <translation>Dán &quot;NULL&quot; dưới dạng giá trị null?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1389"/>
       <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
       <translation>Văn bản đã dán chứa các literal &quot;NULL&quot;. Bạn có muốn coi chúng là giá trị NULL không?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1513"/>
       <source>Edit value</source>
       <translation>Chỉnh sửa giá trị</translation>
     </message>
@@ -7502,22 +7523,22 @@ Việc xóa này sẽ là vĩnh viễn. Bạn có chắc chắn muốn xóa chú
   <context>
     <name>SqlViewModel</name>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="129"/>
       <source>An error occurred while committing the data: %1</source>
       <translation>Đã xảy ra lỗi khi commit dữ liệu: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="143"/>
       <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Hàng %1: trigger INSTEAD OF UPDATE đã sửa đổi nhiều hơn một hàng (%2). Khung nhìn không định danh duy nhất bản ghi đã chỉnh sửa.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="193"/>
       <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Hàng %1: trigger INSTEAD OF DELETE đã xóa nhiều hơn một hàng (%2). Khung nhìn không định danh duy nhất bản ghi đã chỉnh sửa.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="218"/>
       <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
       <translation>Khung nhìn có (các) trình kích hoạt INSTEAD OF xử lý việc chỉnh sửa. Nên&apos; làm mới dữ liệu sau khi xác nhận để xem các thay đổi thực tế, vì trình kích hoạt có thể sửa đổi dữ liệu theo cách không mong muốn.</translation>
     </message>
