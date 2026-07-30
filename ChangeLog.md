@@ -13,7 +13,7 @@
 - BUGFIX: #5758 Properly removed `windowsvista` and `windows11` themes, as they should have been in #5743 already in 4.0.1.
 - BUGFIX: #5778 Fixed deleting data rows from Table Window for tables with unusual names.
 - BUGFIX: #5756 Resize (adjust) all selected columns when double-clicked on section separator in header, regardles if the column associated with the clicked separator needs the resizing or not.
-
+- BUGFIX: Fixed Command Palette navigation under Windows/Linux, after breaking it with the fix for MacOS. Now it should work on all OS's.
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).

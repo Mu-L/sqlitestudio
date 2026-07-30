@@ -254,6 +254,31 @@ void CommandPalette::showEvent(QShowEvent* event)
 
 bool CommandPalette::eventFilter(QObject* watched, QEvent* event)
 {
+#ifndef Q_OS_MAC
+    // This cannot be for Mac, cause it prevents navigation from working on Mac, but it's necessary on other OS's.
+    // Otherwise navigation won't work on Linux/Windows properly (double jumps for navigation keys).
+    if (event->type() == QEvent::ShortcutOverride)
+    {
+        auto* keyEvent = static_cast<QKeyEvent*>(event);
+
+        switch (keyEvent->key())
+        {
+            case Qt::Key_Escape:
+            case Qt::Key_Up:
+            case Qt::Key_Down:
+            case Qt::Key_PageUp:
+            case Qt::Key_PageDown:
+            case Qt::Key_Return:
+            case Qt::Key_Enter:
+                event->accept();
+                return true;
+
+            default:
+                break;
+        }
+    }
+#endif
+
     if (event->type() == QEvent::MouseButtonPress)
     {
         hide();
@@ -261,7 +286,13 @@ bool CommandPalette::eventFilter(QObject* watched, QEvent* event)
         event->accept();
         return true;
     }
+
+#ifdef Q_OS_MAC
+    // See comment above.
     if (event->type() == QEvent::KeyPress || event->type() == QEvent::ShortcutOverride)
+#else
+    if (event->type() == QEvent::KeyPress)
+#endif
     {
         auto* keyEvent = static_cast<QKeyEvent*>(event);
         switch (keyEvent->key())
