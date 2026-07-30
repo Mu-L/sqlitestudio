@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
       <location filename="../dialogs/configdialog.ui" line="14"/>
-      <location filename="../dialogs/configdialog.ui" line="3209"/>
+      <location filename="../dialogs/configdialog.ui" line="3244"/>
       <source>Configuration</source>
       <translation>Konfiguration</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2549"/>
-      <location filename="../dialogs/configdialog.ui" line="3199"/>
+      <location filename="../dialogs/configdialog.ui" line="3234"/>
       <source>Language</source>
       <translation>Språk</translation>
     </message>
@@ -1897,63 +1897,78 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Uttryckt i procent av standardstorleken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2923"/>
+      <location filename="../dialogs/configdialog.ui" line="2958"/>
       <source>Hide built-in plugins</source>
       <translation>Dölj inbyggda insticksmoduler</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2952"/>
+      <location filename="../dialogs/configdialog.ui" line="2987"/>
       <source>Current style:</source>
       <translation>Aktuell stil:</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2742"/>
-      <location filename="../dialogs/configdialog.ui" line="2969"/>
+      <location filename="../dialogs/configdialog.ui" line="3004"/>
       <source>Preview</source>
       <translation>Förhandsgranskning</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2979"/>
+      <location filename="../dialogs/configdialog.ui" line="2821"/>
+      <source>Window menu layout</source>
+      <translation type="unfinished">Window menu layout</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2827"/>
+      <source>Separate &quot;Windows&quot; menu</source>
+      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2840"/>
+      <source>&quot;Window List&quot; under &quot;View&quot;</source>
+      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="3014"/>
       <source>Enabled</source>
       <translation>Aktiverad</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3155"/>
+      <location filename="../dialogs/configdialog.ui" line="3190"/>
       <source>Disabled</source>
       <translation>Inaktiverad</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3204"/>
+      <location filename="../dialogs/configdialog.ui" line="3239"/>
       <source>Active formatter plugin</source>
       <translation>Aktiv formateringsinsticksmodul</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3242"/>
+      <location filename="../dialogs/configdialog.ui" line="3277"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tips:&lt;/span&gt; Utöver inställningarna som finns här kan teckenstorlekar även justeras dynamiskt i de flesta gränssnittselement genom att hålla ned &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; och rulla &lt;span style=&quot; font-weight:700;&quot;&gt;mushjulet&lt;/span&gt; över det element vars teckenstorlek du vill ändra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3261"/>
+      <location filename="../dialogs/configdialog.ui" line="3296"/>
       <source>SQL editor font</source>
       <translation>Teckensnitt för SQL-editor</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3277"/>
+      <location filename="../dialogs/configdialog.ui" line="3312"/>
       <source>Database list font</source>
       <translation>Teckensnitt för databaslista</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3293"/>
+      <location filename="../dialogs/configdialog.ui" line="3328"/>
       <source>Database list additional label font</source>
       <translation>Teckensnitt för extra etikett i databaslistan</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3309"/>
+      <location filename="../dialogs/configdialog.ui" line="3344"/>
       <source>Data view font</source>
       <translation>Teckensnitt för datavy</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3325"/>
+      <location filename="../dialogs/configdialog.ui" line="3360"/>
       <source>Status field font</source>
       <translation>Teckensnitt för statusfält</translation>
     </message>
@@ -1963,119 +1978,119 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om detta alternativ är aktiverat utlöses kodassistenten i fall där användaren till exempel skriver &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; för att föreslå tabellens kolumner. Om alternativet är inaktiverat måste användaren uttryckligen trycka på assistentens kortkommando.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="467"/>
+      <location filename="../dialogs/configdialog.cpp" line="470"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
       <translation>Den nya gränssnittsskalan tillämpas efter att Letos har startats om.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="825"/>
+      <location filename="../dialogs/configdialog.cpp" line="829"/>
       <source>Restart the application to apply the new icon set.</source>
       <translation>Starta om programmet för att tillämpa den nya ikonuppsättningen.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1175"/>
+      <location filename="../dialogs/configdialog.cpp" line="1179"/>
       <source>Description:</source>
       <comment>plugin details</comment>
       <translation>Beskrivning:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1176"/>
+      <location filename="../dialogs/configdialog.cpp" line="1180"/>
       <source>Category:</source>
       <comment>plugin details</comment>
       <translation>Kategori:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1177"/>
+      <location filename="../dialogs/configdialog.cpp" line="1181"/>
       <source>Version:</source>
       <comment>plugin details</comment>
       <translation>Versionsnr:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1178"/>
+      <location filename="../dialogs/configdialog.cpp" line="1182"/>
       <source>Author:</source>
       <comment>plugin details</comment>
       <translation>Författare:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1180"/>
+      <location filename="../dialogs/configdialog.cpp" line="1184"/>
       <source>Internal name:</source>
       <comment>plugin details</comment>
       <translation>Internt namn:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1181"/>
+      <location filename="../dialogs/configdialog.cpp" line="1185"/>
       <source>Dependencies:</source>
       <comment>plugin details</comment>
       <translation>Beroenden:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1182"/>
+      <location filename="../dialogs/configdialog.cpp" line="1186"/>
       <source>Conflicts:</source>
       <comment>plugin details</comment>
       <translation>Konflikter:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1183"/>
+      <location filename="../dialogs/configdialog.cpp" line="1187"/>
       <source>File:</source>
       <comment>plugin details</comment>
       <translation>Fil:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1188"/>
+      <location filename="../dialogs/configdialog.cpp" line="1192"/>
       <source>Plugin details</source>
       <translation>Insticksmodulsdetaljer</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1888"/>
+      <location filename="../dialogs/configdialog.cpp" line="1892"/>
       <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
       <translation>Insticksmoduler läses in/ur omedelbart när de markeras/avmarkeras, men den ändrade listan över insticksmoduler som ska läsas in vid start sparas inte förrän du bekräftar hela konfigurationsdialogen.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1946"/>
+      <location filename="../dialogs/configdialog.cpp" line="1950"/>
       <source>%1 (built-in)</source>
       <comment>plugins manager in configuration dialog</comment>
       <translation>%1 (inbyggd)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1988"/>
+      <location filename="../dialogs/configdialog.cpp" line="1992"/>
       <source>Details</source>
       <translation>Detaljer</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2002"/>
+      <location filename="../dialogs/configdialog.cpp" line="2006"/>
       <source>No plugins in this category.</source>
       <translation>Inga insticksmoduler i den här kategorin.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2102"/>
-      <location filename="../dialogs/configdialog.cpp" line="2131"/>
+      <location filename="../dialogs/configdialog.cpp" line="2106"/>
+      <location filename="../dialogs/configdialog.cpp" line="2135"/>
       <source>Add new data type</source>
       <translation>Lägg till ny datatyp</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2106"/>
-      <location filename="../dialogs/configdialog.cpp" line="2135"/>
+      <location filename="../dialogs/configdialog.cpp" line="2110"/>
+      <location filename="../dialogs/configdialog.cpp" line="2139"/>
       <source>Rename selected data type</source>
       <translation>Byt namn på vald datatyp</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2110"/>
-      <location filename="../dialogs/configdialog.cpp" line="2139"/>
+      <location filename="../dialogs/configdialog.cpp" line="2114"/>
+      <location filename="../dialogs/configdialog.cpp" line="2143"/>
       <source>Delete selected data type</source>
       <translation>Ta bort vald datatyp</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2223"/>
+      <location filename="../dialogs/configdialog.cpp" line="2227"/>
       <source>Clear hotkey for this action</source>
       <translation>Rensa kortkommando för denna åtgärd</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2235"/>
+      <location filename="../dialogs/configdialog.cpp" line="2239"/>
       <source>Restore original hotkey for this action</source>
       <translation>Återställ ursprungligt kortkommando för denna åtgärd</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2277"/>
+      <location filename="../dialogs/configdialog.cpp" line="2281"/>
       <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
       <translation>Här kan du konfigurera färger för syntaxmarkering av kod. De delas mellan olika språk – inte bara för SQL, utan även JavaScript och andra. Som standard används en temabaserad färg. För att definiera en egen färg aktiverar du en anpassad färg genom att markera kryssrutan bredvid en viss färg.</translation>
     </message>
@@ -2660,457 +2675,457 @@ Bläddring till andra sidor blir möjlig när radräkningen är klar.</translati
       <translation>Databaser</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2565"/>
+      <location filename="../dbtree/dbtree.cpp" line="2566"/>
       <source>Filter by name</source>
       <translation>Filtrera efter namn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="142"/>
+      <location filename="../dbtree/dbtree.cpp" line="143"/>
       <source>Copy</source>
       <translation>Kopiera</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="143"/>
+      <location filename="../dbtree/dbtree.cpp" line="144"/>
       <source>Paste</source>
       <translation>Klistra in</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="144"/>
+      <location filename="../dbtree/dbtree.cpp" line="145"/>
       <source>Select all</source>
       <translation>Markera allt</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="145"/>
+      <location filename="../dbtree/dbtree.cpp" line="146"/>
       <source>Create a group</source>
       <translation>Skapa en grupp</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="146"/>
+      <location filename="../dbtree/dbtree.cpp" line="147"/>
       <source>Delete the group</source>
       <translation>Ta bort gruppen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="147"/>
+      <location filename="../dbtree/dbtree.cpp" line="148"/>
       <source>Rename the group</source>
       <translation>Byt namn på gruppen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="152"/>
+      <location filename="../dbtree/dbtree.cpp" line="153"/>
       <source>&amp;Edit the database</source>
       <translation>&amp;Redigera databasen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="154"/>
+      <location filename="../dbtree/dbtree.cpp" line="155"/>
       <source>&amp;Remove the database</source>
       <translation>Ta &amp;bort databasen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="155"/>
+      <location filename="../dbtree/dbtree.cpp" line="156"/>
       <source>&amp;Connect to the database</source>
       <translation>&amp;Anslut till databasen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="156"/>
+      <location filename="../dbtree/dbtree.cpp" line="157"/>
       <source>&amp;Disconnect from the database</source>
       <translation>&amp;Koppla från databasen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="159"/>
+      <location filename="../dbtree/dbtree.cpp" line="160"/>
       <source>Vac&amp;uum</source>
       <translation>K&amp;ompaktera</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="160"/>
+      <location filename="../dbtree/dbtree.cpp" line="161"/>
       <source>&amp;Integrity check</source>
       <translation>&amp;Integritetskontroll</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="161"/>
+      <location filename="../dbtree/dbtree.cpp" line="162"/>
       <source>Create a &amp;table</source>
       <translation>Skapa en &amp;tabell</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="162"/>
+      <location filename="../dbtree/dbtree.cpp" line="163"/>
       <source>Edit the t&amp;able</source>
       <translation>Redigera &amp;tabellen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="164"/>
+      <location filename="../dbtree/dbtree.cpp" line="165"/>
       <source>Delete the ta&amp;ble</source>
       <translation>Ta bort ta&amp;bellen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="165"/>
+      <location filename="../dbtree/dbtree.cpp" line="166"/>
       <source>Export the table</source>
       <translation>Exportera tabellen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="166"/>
+      <location filename="../dbtree/dbtree.cpp" line="167"/>
       <source>Import into the table</source>
       <translation>Importera till tabellen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="168"/>
+      <location filename="../dbtree/dbtree.cpp" line="169"/>
       <source>Populate table</source>
       <translation>Fyll tabell</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="169"/>
+      <location filename="../dbtree/dbtree.cpp" line="170"/>
       <source>Create similar table</source>
       <translation>Skapa liknande tabell</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="170"/>
+      <location filename="../dbtree/dbtree.cpp" line="171"/>
       <source>Reset autoincrement sequence</source>
       <translation>Återställ autoincrement-sekvens</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="171"/>
+      <location filename="../dbtree/dbtree.cpp" line="172"/>
       <source>Create an &amp;index</source>
       <translation>Skapa ett &amp;index</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="172"/>
+      <location filename="../dbtree/dbtree.cpp" line="173"/>
       <source>Edit the i&amp;ndex</source>
       <translation>Redigera i&amp;ndexet</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="174"/>
+      <location filename="../dbtree/dbtree.cpp" line="175"/>
       <source>Delete the in&amp;dex</source>
       <translation>Ta bort in&amp;dexet</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="175"/>
+      <location filename="../dbtree/dbtree.cpp" line="176"/>
       <source>Create a trig&amp;ger</source>
       <translation>Skapa en tri&amp;gger</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="176"/>
+      <location filename="../dbtree/dbtree.cpp" line="177"/>
       <source>Edit the trigg&amp;er</source>
       <translation>Redigera trigge&amp;rn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="178"/>
+      <location filename="../dbtree/dbtree.cpp" line="179"/>
       <source>Delete the trigge&amp;r</source>
       <translation>Ta bort trigge&amp;rn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="179"/>
+      <location filename="../dbtree/dbtree.cpp" line="180"/>
       <source>Create a &amp;view</source>
       <translation>Skapa en &amp;vy</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="180"/>
+      <location filename="../dbtree/dbtree.cpp" line="181"/>
       <source>Edit the v&amp;iew</source>
       <translation>Redigera &amp;vyn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="182"/>
+      <location filename="../dbtree/dbtree.cpp" line="183"/>
       <source>Delete the vi&amp;ew</source>
       <translation>Ta bort v&amp;yn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="183"/>
+      <location filename="../dbtree/dbtree.cpp" line="184"/>
       <source>Add a column</source>
       <translation>Lägg till en kolumn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="184"/>
+      <location filename="../dbtree/dbtree.cpp" line="185"/>
       <source>Edit the column</source>
       <translation>Redigera kolumnen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="186"/>
+      <location filename="../dbtree/dbtree.cpp" line="187"/>
       <source>Delete the column</source>
       <translation>Ta bort kolumnen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="187"/>
+      <location filename="../dbtree/dbtree.cpp" line="188"/>
       <source>Delete selected items</source>
       <translation>Ta bort valda objekt</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="207"/>
+      <location filename="../dbtree/dbtree.cpp" line="208"/>
       <source>Clear filter</source>
       <translation>Rensa filter</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="188"/>
+      <location filename="../dbtree/dbtree.cpp" line="189"/>
       <source>&amp;Refresh all database schemas</source>
       <translation>&amp;Uppdatera alla databasscheman</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="148"/>
+      <location filename="../dbtree/dbtree.cpp" line="149"/>
       <source>&amp;Create new database</source>
       <translation>&amp;Skapa ny databas</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="149"/>
+      <location filename="../dbtree/dbtree.cpp" line="150"/>
       <source>&amp;Open existing database</source>
       <translation>&amp;Öppna befintlig databas</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="150"/>
+      <location filename="../dbtree/dbtree.cpp" line="151"/>
       <source>&amp;Open existing database or SQL file</source>
       <translation>&amp;Öppna befintlig databas eller SQL-fil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="151"/>
+      <location filename="../dbtree/dbtree.cpp" line="152"/>
       <source>Add a database</source>
       <translation>Lägg till en databas</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="153"/>
+      <location filename="../dbtree/dbtree.cpp" line="154"/>
       <source>Rename the database</source>
       <translation>Byt namn på databasen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="157"/>
+      <location filename="../dbtree/dbtree.cpp" line="158"/>
       <source>&amp;Import</source>
       <translation>&amp;Importera</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="158"/>
+      <location filename="../dbtree/dbtree.cpp" line="159"/>
       <source>&amp;Export</source>
       <translation>&amp;Exportera</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="163"/>
+      <location filename="../dbtree/dbtree.cpp" line="164"/>
       <source>Rename the table</source>
       <translation>Byt namn på tabellen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="167"/>
+      <location filename="../dbtree/dbtree.cpp" line="168"/>
       <source>Export the view</source>
       <translation>Exportera vyn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="173"/>
+      <location filename="../dbtree/dbtree.cpp" line="174"/>
       <source>Rename the index</source>
       <translation>Byt namn på indexet</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="177"/>
+      <location filename="../dbtree/dbtree.cpp" line="178"/>
       <source>Rename the trigger</source>
       <translation>Byt namn på triggern</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="181"/>
+      <location filename="../dbtree/dbtree.cpp" line="182"/>
       <source>Rename the view</source>
       <translation>Byt namn på vyn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="185"/>
+      <location filename="../dbtree/dbtree.cpp" line="186"/>
       <source>Rename the column</source>
       <translation>Byt namn på kolumnen</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="189"/>
+      <location filename="../dbtree/dbtree.cpp" line="190"/>
       <source>Re&amp;fresh selected database schema</source>
       <translation>Uppdatera valt databass&amp;chema</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="190"/>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="191"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Erase table data</source>
       <translation>Radera tabelldata</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="192"/>
-      <location filename="../dbtree/dbtree.cpp" line="195"/>
-      <location filename="../dbtree/dbtree.cpp" line="198"/>
+      <location filename="../dbtree/dbtree.cpp" line="193"/>
+      <location filename="../dbtree/dbtree.cpp" line="196"/>
+      <location filename="../dbtree/dbtree.cpp" line="199"/>
       <source>Drag</source>
       <comment>dbtree table action shortcut</comment>
       <translation>Dra</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="201"/>
+      <location filename="../dbtree/dbtree.cpp" line="202"/>
       <source>Open file&apos;s directory</source>
       <translation>Öppna fil&apos;ens katalog</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="202"/>
+      <location filename="../dbtree/dbtree.cpp" line="203"/>
       <source>Execute SQL from file</source>
       <translation>Kör SQL från fil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="203"/>
+      <location filename="../dbtree/dbtree.cpp" line="204"/>
       <source>Increase font size</source>
       <comment>database list</comment>
       <translation>Öka teckenstorlek</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="204"/>
+      <location filename="../dbtree/dbtree.cpp" line="205"/>
       <source>Decrease font size</source>
       <comment>database list</comment>
       <translation>Minska teckenstorlek</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="417"/>
-      <location filename="../dbtree/dbtree.cpp" line="424"/>
+      <location filename="../dbtree/dbtree.cpp" line="418"/>
+      <location filename="../dbtree/dbtree.cpp" line="425"/>
       <source>Database</source>
       <translation>Databas</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="436"/>
+      <location filename="../dbtree/dbtree.cpp" line="437"/>
       <source>Grouping</source>
       <translation>Gruppering</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="441"/>
+      <location filename="../dbtree/dbtree.cpp" line="442"/>
       <source>Generate query for table</source>
       <translation>Generera fråga för tabell</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="447"/>
+      <location filename="../dbtree/dbtree.cpp" line="448"/>
       <source>Generate query for view</source>
       <translation>Generera fråga för vy</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Create group</source>
       <translation>Skapa grupp</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
       <source>Group name</source>
       <translation>Gruppnamn</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Entry with name %1 already exists in group %2.</source>
       <translation>Post med namnet %1 finns redan i gruppen %2.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1374"/>
+      <location filename="../dbtree/dbtree.cpp" line="1375"/>
       <source>Delete group</source>
       <translation>Ta bort grupp</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1375"/>
+      <location filename="../dbtree/dbtree.cpp" line="1376"/>
       <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
       <translation>Är du säker på att du vill ta bort grupperna: %1?
 Alla objekt från dessa grupper flyttas till respektive överordnade grupper.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1507"/>
+      <location filename="../dbtree/dbtree.cpp" line="1508"/>
       <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
       <translation>Är du säker på att du vill ta bort databasen &apos;%1&apos; från listan?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1515"/>
+      <location filename="../dbtree/dbtree.cpp" line="1516"/>
       <source>Are you sure you want to remove following databases from the list:
 %1</source>
       <translation>Är du säker på att du vill ta bort följande databaser från listan:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1517"/>
+      <location filename="../dbtree/dbtree.cpp" line="1518"/>
       <source>Remove database</source>
       <translation>Ta bort databas</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1572"/>
-      <location filename="../dbtree/dbtree.cpp" line="1777"/>
+      <location filename="../dbtree/dbtree.cpp" line="1573"/>
+      <location filename="../dbtree/dbtree.cpp" line="1778"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Kan inte importera eftersom ingen importinsticksmodul är inläst.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1592"/>
-      <location filename="../dbtree/dbtree.cpp" line="1752"/>
-      <location filename="../dbtree/dbtree.cpp" line="1822"/>
+      <location filename="../dbtree/dbtree.cpp" line="1593"/>
+      <location filename="../dbtree/dbtree.cpp" line="1753"/>
+      <location filename="../dbtree/dbtree.cpp" line="1823"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Kan inte exportera eftersom ingen exportinsticksmodul är inläst.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1868"/>
+      <location filename="../dbtree/dbtree.cpp" line="1869"/>
       <source>Vacuum (%1)</source>
       <translation>Kompaktera (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1882"/>
+      <location filename="../dbtree/dbtree.cpp" line="1883"/>
       <source>Integrity check (%1)</source>
       <translation>Integritetskontroll (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Reset autoincrement</source>
       <translation>Återställ autoincrement</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
       <translation>Är du säker på att du vill återställa autoincrement-värdet för tabellen &apos;%1&apos;?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1925"/>
+      <location filename="../dbtree/dbtree.cpp" line="1926"/>
       <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
       <translation>Ett fel uppstod vid försök att återställa autoincrement-värdet för tabellen &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1927"/>
+      <location filename="../dbtree/dbtree.cpp" line="1928"/>
       <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
       <translation>Autoincrement-värdet för tabellen &apos;%1&apos; har återställts.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Are you sure you want to delete all data from table(s): %1?</source>
       <translation>Är du säker på att du vill ta bort all data från tabell(er): %1?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1959"/>
+      <location filename="../dbtree/dbtree.cpp" line="1960"/>
       <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
       <translation>Ett fel uppstod vid försök att ta bort data från tabellen &apos;%1&apos;: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1963"/>
+      <location filename="../dbtree/dbtree.cpp" line="1964"/>
       <source>All data has been deleted for table &apos;%1&apos;.</source>
       <translation>All data har tagits bort för tabellen &apos;%1&apos;.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2102"/>
+      <location filename="../dbtree/dbtree.cpp" line="2103"/>
       <source>Following objects will be deleted: %1.</source>
       <translation>Följande objekt kommer att tas bort: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2105"/>
+      <location filename="../dbtree/dbtree.cpp" line="2106"/>
       <source>Following databases will be removed from list: %1.</source>
       <translation>Följande databaser kommer att tas bort från listan: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2108"/>
+      <location filename="../dbtree/dbtree.cpp" line="2109"/>
       <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
       <translation>Återstående objekt från den borttagna gruppen kommer att flyttas till platsen där gruppen fanns.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2110"/>
+      <location filename="../dbtree/dbtree.cpp" line="2111"/>
       <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
       <translation>%1&lt;br&gt;&lt;br&gt;Är du säker på att du vill fortsätta?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2112"/>
+      <location filename="../dbtree/dbtree.cpp" line="2113"/>
       <source>Delete objects</source>
       <translation>Ta bort objekt</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2293"/>
+      <location filename="../dbtree/dbtree.cpp" line="2294"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Listsynkronisering aktiverad.&lt;/p&gt;&lt;p&gt;Klicka för att inaktivera.&lt;/p&gt;&lt;p&gt;Listan följer det aktiva fönstret och väljer och visar automatiskt motsvarande databasobjekt.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2308"/>
+      <location filename="../dbtree/dbtree.cpp" line="2309"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Listsynkronisering inaktiverad.&lt;/p&gt;&lt;p&gt;Klicka för att aktivera.&lt;/p&gt;&lt;p&gt;När det är aktiverat följer objektträdet den aktiva redigeraren och väljer automatiskt motsvarande databasobjekt.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2591"/>
+      <location filename="../dbtree/dbtree.cpp" line="2592"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Ansluten.&lt;/p&gt;&lt;p&gt;Klicka här för att koppla från, eller mittklicka på databasen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2599"/>
+      <location filename="../dbtree/dbtree.cpp" line="2600"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Frånkopplad.&lt;/p&gt;&lt;p&gt;Klicka här för att ansluta, eller dubbelklicka på databasen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4961,18 +4976,18 @@ Ange ett nytt, unikt namn eller tryck på &apos;%1&apos; för att avbryta åtgä
       <translation>&amp;Struktur</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="771"/>
+      <location filename="../mainwindow.cpp" line="794"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>&amp;Visa</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1455"/>
+      <location filename="../mainwindow.cpp" line="1478"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>Den släppta filen verkar vara en SQLite 2-databas, vilket inte stöds av den här versionen av Letos. Sista versionen med stöd för SQLite 2 var 3.2.1.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="441"/>
+      <location filename="../mainwindow.cpp" line="535"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>Fönsterlista</translation>
@@ -5009,131 +5024,137 @@ Ange ett nytt, unikt namn eller tryck på &apos;%1&apos; för att avbryta åtgä
       <translation>ordna</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="471"/>
+      <location filename="../mainwindow.cpp" line="469"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>&amp;Verktyg</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="491"/>
+      <location filename="../mainwindow.cpp" line="489"/>
       <source>&amp;Help</source>
       <translation>&amp;Hjälp</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="708"/>
+      <location filename="../mainwindow.cpp" line="527"/>
+      <source>&amp;Windows</source>
+      <comment>menubar view menu</comment>
+      <translation type="unfinished">&amp;Windows</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="731"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>Det gick inte att ange stil: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="945"/>
+      <location filename="../mainwindow.cpp" line="968"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Det går inte att exportera eftersom inget exportinsticksprogram är inläst.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="962"/>
+      <location filename="../mainwindow.cpp" line="985"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Det går inte att importera eftersom inget importinsticksprogram är inläst.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Rename window</source>
       <translation>Byt namn på fönster</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Enter new name for the window:</source>
       <translation>Ange nytt namn för fönstret:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1115"/>
+      <location filename="../mainwindow.cpp" line="1138"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>Nya uppdateringar finns tillgängliga. &lt;a href=&quot;%1&quot;&gt;Klicka här för detaljer&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1121"/>
+      <location filename="../mainwindow.cpp" line="1144"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>Du&apos; kör den senaste versionen. Inga uppdateringar finns tillgängliga.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1176"/>
+      <location filename="../mainwindow.cpp" line="1199"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos är gratis och har öppen källkod. Om det hjälper dig i ditt arbete kan du överväga att &lt;a href=&quot;%1&quot;&gt;stödja projektet&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1261"/>
+      <location filename="../mainwindow.cpp" line="1284"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>Verktygsfälts&amp;ikoner</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1268"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>Storlek: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1356"/>
+      <location filename="../mainwindow.cpp" line="1379"/>
       <source>Drop files to open them</source>
       <translation>Släpp filer för att öppna dem</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1458"/>
+      <location filename="../mainwindow.cpp" line="1481"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>Den släppta filtypen stöds inte: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1468"/>
+      <location filename="../mainwindow.cpp" line="1491"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>SQLite 3-databas – lägg till i databaslistan och öppna</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1470"/>
+      <location filename="../mainwindow.cpp" line="1493"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>Det kan vara en krypterad SQLite 3-databas. Du kan försöka öppna den.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1472"/>
+      <location filename="../mainwindow.cpp" line="1495"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>Tom fil, men också tom SQLite 3-databas – öppna som databas</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1474"/>
+      <location filename="../mainwindow.cpp" line="1497"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>SQL-fil – öppna i SQL-redigeraren</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1476"/>
+      <location filename="../mainwindow.cpp" line="1499"/>
       <source>Text file - open in SQL Editor</source>
       <translation>Textfil – öppna i SQL-redigeraren</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1501"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>CSV-fil – importera med importdialogrutan</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1480"/>
+      <location filename="../mainwindow.cpp" line="1503"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>SQLite 2-databas – stöds inte längre</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1482"/>
+      <location filename="../mainwindow.cpp" line="1505"/>
       <source>Unsupported file type</source>
       <translation>Filtypen stöds inte</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1581"/>
+      <location filename="../mainwindow.cpp" line="1604"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>Databasen som angavs i kommandoradsparametrarna (%1) fanns redan i listan under namnet: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1588"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>Databasen som angavs i kommandoradsparametrarna (%1) har tillfälligt lagts till i listan under namnet: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1593"/>
+      <location filename="../mainwindow.cpp" line="1616"/>
       <source>Could not add database %1 to list.</source>
       <translation>Det gick inte att lägga till databasen %1 i listan.</translation>
     </message>
@@ -6845,12 +6866,12 @@ sök nästa</translation>
   <context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="123"/>
       <source>Error while committing new row: %1</source>
       <translation>Fel vid verkställning av ny rad: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="171"/>
       <source>Error while deleting row from %1: %2</source>
       <translation>Fel vid borttagning av rad från %1: %2</translation>
     </message>
@@ -7459,42 +7480,42 @@ En sådan borttagning blir permanent. Är du säker på att du vill ta bort dem?
       <translation>Refererad rad (%1)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1189"/>
       <source>Pin column</source>
       <translation>Fäst kolumn</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1216"/>
       <source>Column renderer</source>
       <translation>Kolumnrenderare</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1223"/>
       <source>Default</source>
       <translation>Standard</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1379"/>
       <source>Trim pasted text?</source>
       <translation>Trimma inklistrad text?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1380"/>
       <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
       <translation>Den inklistrade texten innehåller inledande eller avslutande blanktecken. Trimma den automatiskt?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1388"/>
       <source>Paste &quot;NULL&quot; as null value?</source>
       <translation>Klistra in &quot;NULL&quot; som null-värde?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1389"/>
       <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
       <translation>Den inklistrade texten innehåller &quot;NULL&quot;-literaler. Vill du betrakta dem som NULL-värden?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1513"/>
       <source>Edit value</source>
       <translation>Redigera värde</translation>
     </message>
@@ -7502,22 +7523,22 @@ En sådan borttagning blir permanent. Är du säker på att du vill ta bort dem?
   <context>
     <name>SqlViewModel</name>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="129"/>
       <source>An error occurred while committing the data: %1</source>
       <translation>Ett fel uppstod när data skulle verkställas: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="143"/>
       <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Rad %1: INSTEAD OF UPDATE-triggern ändrade fler än en rad (%2). Vyn identifierar inte den redigerade posten unikt.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="193"/>
       <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Rad %1: INSTEAD OF DELETE-triggern tog bort fler än en rad (%2). Vyn identifierar inte den redigerade posten unikt.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="218"/>
       <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
       <translation>Vyn har INSTEAD OF-utlösare (trigger(s)) som hanterar redigering. Det&apos; rekommenderas att uppdatera data efter verkställning för att se de faktiska ändringarna, eftersom utlösare kan ändra data på ett oväntat sätt.</translation>
     </message>
