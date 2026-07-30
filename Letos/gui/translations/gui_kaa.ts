@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
       <location filename="../dialogs/configdialog.ui" line="14"/>
-      <location filename="../dialogs/configdialog.ui" line="3209"/>
+      <location filename="../dialogs/configdialog.ui" line="3244"/>
       <source>Configuration</source>
       <translation>Konfiguraciya</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2549"/>
-      <location filename="../dialogs/configdialog.ui" line="3199"/>
+      <location filename="../dialogs/configdialog.ui" line="3234"/>
       <source>Language</source>
       <translation>Til</translation>
     </message>
@@ -1897,63 +1897,78 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ádepki ólshemniń procenti túrinde berilgen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2923"/>
+      <location filename="../dialogs/configdialog.ui" line="2958"/>
       <source>Hide built-in plugins</source>
       <translation>Ishki pluginlerdi jasırıw</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2952"/>
+      <location filename="../dialogs/configdialog.ui" line="2987"/>
       <source>Current style:</source>
       <translation>Házirgi stil:</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2742"/>
-      <location filename="../dialogs/configdialog.ui" line="2969"/>
+      <location filename="../dialogs/configdialog.ui" line="3004"/>
       <source>Preview</source>
       <translation>Aldın ala kóriw</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2979"/>
+      <location filename="../dialogs/configdialog.ui" line="2821"/>
+      <source>Window menu layout</source>
+      <translation type="unfinished">Window menu layout</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2827"/>
+      <source>Separate &quot;Windows&quot; menu</source>
+      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2840"/>
+      <source>&quot;Window List&quot; under &quot;View&quot;</source>
+      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="3014"/>
       <source>Enabled</source>
       <translation>Qosılǵan</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3155"/>
+      <location filename="../dialogs/configdialog.ui" line="3190"/>
       <source>Disabled</source>
       <translation>Óshirilgen</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3204"/>
+      <location filename="../dialogs/configdialog.ui" line="3239"/>
       <source>Active formatter plugin</source>
       <translation>Aktiv formatlaw pluginı</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3242"/>
+      <location filename="../dialogs/configdialog.ui" line="3277"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Keńes:&lt;/span&gt; Bul jerdegi sazlamalardan tısqarı, kóp interfeys elementlerinde shrift ólshemlerin ózgertkińiz kelgen element ústinde &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; túymesin basıp turıp, &lt;span style=&quot; font-weight:700;&quot;&gt;tışqan dóńgelegin&lt;/span&gt; aylantırıw arqalı dinamikalıq túrde sazlawǵa boladı.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3261"/>
+      <location filename="../dialogs/configdialog.ui" line="3296"/>
       <source>SQL editor font</source>
       <translation>SQL redaktorı shriftı</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3277"/>
+      <location filename="../dialogs/configdialog.ui" line="3312"/>
       <source>Database list font</source>
       <translation>Maǵlıwmatlar bazası dizimi shriftı</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3293"/>
+      <location filename="../dialogs/configdialog.ui" line="3328"/>
       <source>Database list additional label font</source>
       <translation>Maǵlıwmatlar bazası dizimi qosımsha belgisi shriftı</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3309"/>
+      <location filename="../dialogs/configdialog.ui" line="3344"/>
       <source>Data view font</source>
       <translation>Maǵlıwmat kórinisi shriftı</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3325"/>
+      <location filename="../dialogs/configdialog.ui" line="3360"/>
       <source>Status field font</source>
       <translation>Status maydanı shriftı</translation>
     </message>
@@ -1963,119 +1978,119 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eger bul parametr qosılǵan bolsa, paydalanıwshı mısalı &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; dep jazǵanda, kesteniń baǵanaların usınıw ushın kod járdemshisi iske túsedi. Eger parametr óshirilgen bolsa, paydalanıwshı járdemshiniń qısqa túymesin anıq basıwı kerek boladı.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="467"/>
+      <location filename="../dialogs/configdialog.cpp" line="470"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
       <translation>Jańa interfeys masshtabı Letos qayta iske túsirilgennen keyin qollanıladı.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="825"/>
+      <location filename="../dialogs/configdialog.cpp" line="829"/>
       <source>Restart the application to apply the new icon set.</source>
       <translation>Jańa belgisheler jıynaǵın qollanıw ushın qosımshanı qayta iske túsiriń.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1175"/>
+      <location filename="../dialogs/configdialog.cpp" line="1179"/>
       <source>Description:</source>
       <comment>plugin details</comment>
       <translation>Sıpatlama:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1176"/>
+      <location filename="../dialogs/configdialog.cpp" line="1180"/>
       <source>Category:</source>
       <comment>plugin details</comment>
       <translation>Kategoriya:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1177"/>
+      <location filename="../dialogs/configdialog.cpp" line="1181"/>
       <source>Version:</source>
       <comment>plugin details</comment>
       <translation>Versiya:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1178"/>
+      <location filename="../dialogs/configdialog.cpp" line="1182"/>
       <source>Author:</source>
       <comment>plugin details</comment>
       <translation>Avtor:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1180"/>
+      <location filename="../dialogs/configdialog.cpp" line="1184"/>
       <source>Internal name:</source>
       <comment>plugin details</comment>
       <translation>Ishki atı:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1181"/>
+      <location filename="../dialogs/configdialog.cpp" line="1185"/>
       <source>Dependencies:</source>
       <comment>plugin details</comment>
       <translation>Baylanıslılıqlar:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1182"/>
+      <location filename="../dialogs/configdialog.cpp" line="1186"/>
       <source>Conflicts:</source>
       <comment>plugin details</comment>
       <translation>Konfliktler:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1183"/>
+      <location filename="../dialogs/configdialog.cpp" line="1187"/>
       <source>File:</source>
       <comment>plugin details</comment>
       <translation>Fayl:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1188"/>
+      <location filename="../dialogs/configdialog.cpp" line="1192"/>
       <source>Plugin details</source>
       <translation>Plugin maǵlıwmatları</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1888"/>
+      <location filename="../dialogs/configdialog.cpp" line="1892"/>
       <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
       <translation>Pluginler belgilengende/belgisi alınganda dárhal júklenedi/júkleniwden alınadı, biraq iske túsken waqtı júklenetuǵın pluginlerdiń ózgertіlgen dizimi pútkil konfiguraciya dialogın tastıyıqlaǵansha saqlanbaydı.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1946"/>
+      <location filename="../dialogs/configdialog.cpp" line="1950"/>
       <source>%1 (built-in)</source>
       <comment>plugins manager in configuration dialog</comment>
       <translation>%1 (ishki)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1988"/>
+      <location filename="../dialogs/configdialog.cpp" line="1992"/>
       <source>Details</source>
       <translation>Tolıq maǵlıwmat</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2002"/>
+      <location filename="../dialogs/configdialog.cpp" line="2006"/>
       <source>No plugins in this category.</source>
       <translation>Bul kategoriyada pluginler joq.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2102"/>
-      <location filename="../dialogs/configdialog.cpp" line="2131"/>
+      <location filename="../dialogs/configdialog.cpp" line="2106"/>
+      <location filename="../dialogs/configdialog.cpp" line="2135"/>
       <source>Add new data type</source>
       <translation>Jańa maǵlıwmat túrin qosıw</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2106"/>
-      <location filename="../dialogs/configdialog.cpp" line="2135"/>
+      <location filename="../dialogs/configdialog.cpp" line="2110"/>
+      <location filename="../dialogs/configdialog.cpp" line="2139"/>
       <source>Rename selected data type</source>
       <translation>Tańlanǵan maǵlıwmat túriniń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2110"/>
-      <location filename="../dialogs/configdialog.cpp" line="2139"/>
+      <location filename="../dialogs/configdialog.cpp" line="2114"/>
+      <location filename="../dialogs/configdialog.cpp" line="2143"/>
       <source>Delete selected data type</source>
       <translation>Tańlanǵan maǵlıwmat túrin óshiriw</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2223"/>
+      <location filename="../dialogs/configdialog.cpp" line="2227"/>
       <source>Clear hotkey for this action</source>
       <translation>Bul áreket ushın qısqa túymeni tazalaw</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2235"/>
+      <location filename="../dialogs/configdialog.cpp" line="2239"/>
       <source>Restore original hotkey for this action</source>
       <translation>Bul áreket ushın dáslepki qısqa túymeni tiklew</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2277"/>
+      <location filename="../dialogs/configdialog.cpp" line="2281"/>
       <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
       <translation>Bul jerde kod sintaksisin reń menen ajıratıw ushın reńlerdi sazlawıńız múmkin. Olar túrli tiller arasında ortaq paydalanıladı - tek SQL ushın emes, JavaScript hám basqalar ushın da. Ádepki halda temaǵa baylanıslı reń paydalanıladı. Ózińizdiń reńińizdi anıqlaw ushın belgili bir reń janındaǵı belgilew qutısın tańlap, arnawlı reńdi qosıń.</translation>
     </message>
@@ -2660,457 +2675,457 @@ Basqa betlerdi kóriw qatar sanawı tamamlanǵannan keyin múmkin boladı.</tran
       <translation>Maǵlıwmatlar bazaları</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2565"/>
+      <location filename="../dbtree/dbtree.cpp" line="2566"/>
       <source>Filter by name</source>
       <translation>Atı boyınsha filtrlew</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="142"/>
+      <location filename="../dbtree/dbtree.cpp" line="143"/>
       <source>Copy</source>
       <translation>Kóshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="143"/>
+      <location filename="../dbtree/dbtree.cpp" line="144"/>
       <source>Paste</source>
       <translation>Qoyıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="144"/>
+      <location filename="../dbtree/dbtree.cpp" line="145"/>
       <source>Select all</source>
       <translation>Hámmesin tańlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="145"/>
+      <location filename="../dbtree/dbtree.cpp" line="146"/>
       <source>Create a group</source>
       <translation>Topar jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="146"/>
+      <location filename="../dbtree/dbtree.cpp" line="147"/>
       <source>Delete the group</source>
       <translation>Topardı óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="147"/>
+      <location filename="../dbtree/dbtree.cpp" line="148"/>
       <source>Rename the group</source>
       <translation>Topardıń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="152"/>
+      <location filename="../dbtree/dbtree.cpp" line="153"/>
       <source>&amp;Edit the database</source>
       <translation>Maǵlıwmatlar bazasın &amp;ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="154"/>
+      <location filename="../dbtree/dbtree.cpp" line="155"/>
       <source>&amp;Remove the database</source>
       <translation>Maǵlıwmatlar bazasın &amp;alıp taslaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="155"/>
+      <location filename="../dbtree/dbtree.cpp" line="156"/>
       <source>&amp;Connect to the database</source>
       <translation>Maǵlıwmatlar bazasına &amp;jalǵanıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="156"/>
+      <location filename="../dbtree/dbtree.cpp" line="157"/>
       <source>&amp;Disconnect from the database</source>
       <translation>Maǵlıwmatlar bazasınan &amp;ajıralıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="159"/>
+      <location filename="../dbtree/dbtree.cpp" line="160"/>
       <source>Vac&amp;uum</source>
       <translation>&amp;Tazalaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="160"/>
+      <location filename="../dbtree/dbtree.cpp" line="161"/>
       <source>&amp;Integrity check</source>
       <translation>&amp;Pútinlikti tekseriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="161"/>
+      <location filename="../dbtree/dbtree.cpp" line="162"/>
       <source>Create a &amp;table</source>
       <translation>&amp;Keste jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="162"/>
+      <location filename="../dbtree/dbtree.cpp" line="163"/>
       <source>Edit the t&amp;able</source>
       <translation>Kes&amp;teni ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="164"/>
+      <location filename="../dbtree/dbtree.cpp" line="165"/>
       <source>Delete the ta&amp;ble</source>
       <translation>Kest&amp;eni óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="165"/>
+      <location filename="../dbtree/dbtree.cpp" line="166"/>
       <source>Export the table</source>
       <translation>Kesteni eksportlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="166"/>
+      <location filename="../dbtree/dbtree.cpp" line="167"/>
       <source>Import into the table</source>
       <translation>Kestege importlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="168"/>
+      <location filename="../dbtree/dbtree.cpp" line="169"/>
       <source>Populate table</source>
       <translation>Kesteni toltırıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="169"/>
+      <location filename="../dbtree/dbtree.cpp" line="170"/>
       <source>Create similar table</source>
       <translation>Uqsas keste jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="170"/>
+      <location filename="../dbtree/dbtree.cpp" line="171"/>
       <source>Reset autoincrement sequence</source>
       <translation>Avtoinkrement izbe-izligin qayta ornatıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="171"/>
+      <location filename="../dbtree/dbtree.cpp" line="172"/>
       <source>Create an &amp;index</source>
       <translation>&amp;Indeks jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="172"/>
+      <location filename="../dbtree/dbtree.cpp" line="173"/>
       <source>Edit the i&amp;ndex</source>
       <translation>In&amp;deksti ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="174"/>
+      <location filename="../dbtree/dbtree.cpp" line="175"/>
       <source>Delete the in&amp;dex</source>
       <translation>Inde&amp;ksti óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="175"/>
+      <location filename="../dbtree/dbtree.cpp" line="176"/>
       <source>Create a trig&amp;ger</source>
       <translation>Tri&amp;gger jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="176"/>
+      <location filename="../dbtree/dbtree.cpp" line="177"/>
       <source>Edit the trigg&amp;er</source>
       <translation>Trigge&amp;rdi ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="178"/>
+      <location filename="../dbtree/dbtree.cpp" line="179"/>
       <source>Delete the trigge&amp;r</source>
       <translation>Trigger&amp;di óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="179"/>
+      <location filename="../dbtree/dbtree.cpp" line="180"/>
       <source>Create a &amp;view</source>
       <translation>&amp;Kórinis jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="180"/>
+      <location filename="../dbtree/dbtree.cpp" line="181"/>
       <source>Edit the v&amp;iew</source>
       <translation>Kóri&amp;nisti ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="182"/>
+      <location filename="../dbtree/dbtree.cpp" line="183"/>
       <source>Delete the vi&amp;ew</source>
       <translation>Kórin&amp;isti óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="183"/>
+      <location filename="../dbtree/dbtree.cpp" line="184"/>
       <source>Add a column</source>
       <translation>Baǵana qosıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="184"/>
+      <location filename="../dbtree/dbtree.cpp" line="185"/>
       <source>Edit the column</source>
       <translation>Baǵananı ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="186"/>
+      <location filename="../dbtree/dbtree.cpp" line="187"/>
       <source>Delete the column</source>
       <translation>Baǵananı óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="187"/>
+      <location filename="../dbtree/dbtree.cpp" line="188"/>
       <source>Delete selected items</source>
       <translation>Tańlanǵan elementlerdi óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="207"/>
+      <location filename="../dbtree/dbtree.cpp" line="208"/>
       <source>Clear filter</source>
       <translation>Filtrdi tazalaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="188"/>
+      <location filename="../dbtree/dbtree.cpp" line="189"/>
       <source>&amp;Refresh all database schemas</source>
       <translation>Barlıq maǵlıwmatlar bazası sxemaların &amp;jańalaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="148"/>
+      <location filename="../dbtree/dbtree.cpp" line="149"/>
       <source>&amp;Create new database</source>
       <translation>&amp;Jańa maǵlıwmatlar bazasın jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="149"/>
+      <location filename="../dbtree/dbtree.cpp" line="150"/>
       <source>&amp;Open existing database</source>
       <translation>&amp;Bar maǵlıwmatlar bazasın ashıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="150"/>
+      <location filename="../dbtree/dbtree.cpp" line="151"/>
       <source>&amp;Open existing database or SQL file</source>
       <translation>&amp;Bar maǵlıwmatlar bazasın yamasa SQL faylın ashıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="151"/>
+      <location filename="../dbtree/dbtree.cpp" line="152"/>
       <source>Add a database</source>
       <translation>Maǵlıwmatlar bazasın qosıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="153"/>
+      <location filename="../dbtree/dbtree.cpp" line="154"/>
       <source>Rename the database</source>
       <translation>Maǵlıwmatlar bazasınıń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="157"/>
+      <location filename="../dbtree/dbtree.cpp" line="158"/>
       <source>&amp;Import</source>
       <translation>&amp;Importlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="158"/>
+      <location filename="../dbtree/dbtree.cpp" line="159"/>
       <source>&amp;Export</source>
       <translation>&amp;Eksport</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="163"/>
+      <location filename="../dbtree/dbtree.cpp" line="164"/>
       <source>Rename the table</source>
       <translation>Kesteniń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="167"/>
+      <location filename="../dbtree/dbtree.cpp" line="168"/>
       <source>Export the view</source>
       <translation>Kórinisti eksportlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="173"/>
+      <location filename="../dbtree/dbtree.cpp" line="174"/>
       <source>Rename the index</source>
       <translation>Indekstiń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="177"/>
+      <location filename="../dbtree/dbtree.cpp" line="178"/>
       <source>Rename the trigger</source>
       <translation>Triggerdiń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="181"/>
+      <location filename="../dbtree/dbtree.cpp" line="182"/>
       <source>Rename the view</source>
       <translation>Kórinistiń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="185"/>
+      <location filename="../dbtree/dbtree.cpp" line="186"/>
       <source>Rename the column</source>
       <translation>Baǵananıń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="189"/>
+      <location filename="../dbtree/dbtree.cpp" line="190"/>
       <source>Re&amp;fresh selected database schema</source>
       <translation>Tańlanǵan maǵlıwmatlar bazası sxemasın jań&amp;alaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="190"/>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="191"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Erase table data</source>
       <translation>Keste maǵlıwmatların óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="192"/>
-      <location filename="../dbtree/dbtree.cpp" line="195"/>
-      <location filename="../dbtree/dbtree.cpp" line="198"/>
+      <location filename="../dbtree/dbtree.cpp" line="193"/>
+      <location filename="../dbtree/dbtree.cpp" line="196"/>
+      <location filename="../dbtree/dbtree.cpp" line="199"/>
       <source>Drag</source>
       <comment>dbtree table action shortcut</comment>
       <translation>Súyrew</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="201"/>
+      <location filename="../dbtree/dbtree.cpp" line="202"/>
       <source>Open file&apos;s directory</source>
       <translation>Fayldıń katalogın ashıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="202"/>
+      <location filename="../dbtree/dbtree.cpp" line="203"/>
       <source>Execute SQL from file</source>
       <translation>Fayldan SQL orınlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="203"/>
+      <location filename="../dbtree/dbtree.cpp" line="204"/>
       <source>Increase font size</source>
       <comment>database list</comment>
       <translation>Shrift ólshemin úlkeytiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="204"/>
+      <location filename="../dbtree/dbtree.cpp" line="205"/>
       <source>Decrease font size</source>
       <comment>database list</comment>
       <translation>Shrift ólshemin kishireytiw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="417"/>
-      <location filename="../dbtree/dbtree.cpp" line="424"/>
+      <location filename="../dbtree/dbtree.cpp" line="418"/>
+      <location filename="../dbtree/dbtree.cpp" line="425"/>
       <source>Database</source>
       <translation>Maǵlıwmatlar bazası</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="436"/>
+      <location filename="../dbtree/dbtree.cpp" line="437"/>
       <source>Grouping</source>
       <translation>Toparlaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="441"/>
+      <location filename="../dbtree/dbtree.cpp" line="442"/>
       <source>Generate query for table</source>
       <translation>Keste ushın soraw jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="447"/>
+      <location filename="../dbtree/dbtree.cpp" line="448"/>
       <source>Generate query for view</source>
       <translation>Kórinis ushın soraw jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Create group</source>
       <translation>Topar jaratıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
       <source>Group name</source>
       <translation>Topar atı</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Entry with name %1 already exists in group %2.</source>
       <translation>%1 atlı jazıw %2 toparında álleqashan bar.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1374"/>
+      <location filename="../dbtree/dbtree.cpp" line="1375"/>
       <source>Delete group</source>
       <translation>Topardı óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1375"/>
+      <location filename="../dbtree/dbtree.cpp" line="1376"/>
       <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
       <translation>Toparlardı óshiriwdi qáleysińiz be: %1?
 Bul toparlardaǵı barlıq obyektler tiyisli ata-ana toparlarǵa kóshiriledi.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1507"/>
+      <location filename="../dbtree/dbtree.cpp" line="1508"/>
       <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
       <translation>&apos;%1&apos; maǵlıwmatlar bazasın dizimnen alıp taslawdı qáleysińiz be?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1515"/>
+      <location filename="../dbtree/dbtree.cpp" line="1516"/>
       <source>Are you sure you want to remove following databases from the list:
 %1</source>
       <translation>Tómendegi maǵlıwmatlar bazaların dizimnen alıp taslawdı qáleysińiz be:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1517"/>
+      <location filename="../dbtree/dbtree.cpp" line="1518"/>
       <source>Remove database</source>
       <translation>Maǵlıwmatlar bazasın alıp taslaw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1572"/>
-      <location filename="../dbtree/dbtree.cpp" line="1777"/>
+      <location filename="../dbtree/dbtree.cpp" line="1573"/>
+      <location filename="../dbtree/dbtree.cpp" line="1778"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Importlaw múmkin emes, sebebi import pluginı júklenbegen.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1592"/>
-      <location filename="../dbtree/dbtree.cpp" line="1752"/>
-      <location filename="../dbtree/dbtree.cpp" line="1822"/>
+      <location filename="../dbtree/dbtree.cpp" line="1593"/>
+      <location filename="../dbtree/dbtree.cpp" line="1753"/>
+      <location filename="../dbtree/dbtree.cpp" line="1823"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Eksportlaw múmkin emes, sebebi eksport pluginı júklenbegen.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1868"/>
+      <location filename="../dbtree/dbtree.cpp" line="1869"/>
       <source>Vacuum (%1)</source>
       <translation>Tazalaw (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1882"/>
+      <location filename="../dbtree/dbtree.cpp" line="1883"/>
       <source>Integrity check (%1)</source>
       <translation>Pútinlikti tekseriw (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Reset autoincrement</source>
       <translation>Avtoinkrementti qayta ornatıw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
       <translation>&apos;%1&apos; kestesi ushın avtoinkrement mánisin qayta ornatıwdı qáleysińiz be?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1925"/>
+      <location filename="../dbtree/dbtree.cpp" line="1926"/>
       <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
       <translation>&apos;%1&apos; kestesi ushın avtoinkrement mánisin qayta ornatıwǵa urınıw waqtında qáte júz berdi: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1927"/>
+      <location filename="../dbtree/dbtree.cpp" line="1928"/>
       <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
       <translation>&apos;%1&apos; kestesi ushın avtoinkrement mánisi tabıslı qayta ornatıldı.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Are you sure you want to delete all data from table(s): %1?</source>
       <translation>Keste(ler) ishindegi barlıq maǵlıwmattı óshiriwge isenimińiz kámil me: %1?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1959"/>
+      <location filename="../dbtree/dbtree.cpp" line="1960"/>
       <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
       <translation>&apos;%1&apos; kestesinen maǵlıwmattı óshiriwge urınıw waqtında qáte júz berdi: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1963"/>
+      <location filename="../dbtree/dbtree.cpp" line="1964"/>
       <source>All data has been deleted for table &apos;%1&apos;.</source>
       <translation>&apos;%1&apos; kestesi ushın barlıq maǵlıwmat óshirildi.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2102"/>
+      <location filename="../dbtree/dbtree.cpp" line="2103"/>
       <source>Following objects will be deleted: %1.</source>
       <translation>Tómendegi obyektler óshiriledi: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2105"/>
+      <location filename="../dbtree/dbtree.cpp" line="2106"/>
       <source>Following databases will be removed from list: %1.</source>
       <translation>Tómendegi maǵlıwmatlar bazaları dizimnen alıp taslanadı: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2108"/>
+      <location filename="../dbtree/dbtree.cpp" line="2109"/>
       <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
       <translation>Óshirilgen topardan qalǵan obyektler topar bolǵan orınǵa kóshiriledi.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2110"/>
+      <location filename="../dbtree/dbtree.cpp" line="2111"/>
       <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
       <translation>%1&lt;br&gt;&lt;br&gt;Dawam etiwdi qáleysińiz be?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2112"/>
+      <location filename="../dbtree/dbtree.cpp" line="2113"/>
       <source>Delete objects</source>
       <translation>Obyektlerdi óshiriw</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2293"/>
+      <location filename="../dbtree/dbtree.cpp" line="2294"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Dizim sinxronlawı qosılǵan.&lt;/p&gt;&lt;p&gt;Óshiriw ushın basıń.&lt;/p&gt;&lt;p&gt;Dizim belsendi aynanı baqlap baradı hám sáykes maǵlıwmatlar bazası obyektin avtomatikalıq tańlap, kórsetedi.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2308"/>
+      <location filename="../dbtree/dbtree.cpp" line="2309"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Dizim sinxronlawı óshirilgen.&lt;/p&gt;&lt;p&gt;Qosıw ushın basıń.&lt;/p&gt;&lt;p&gt;Qosılǵanda, obyektler teregı belsendi redaktordı baqlap baradı hám sáykes maǵlıwmatlar bazası obyektin avtomatikalıq tańlaydı.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2591"/>
+      <location filename="../dbtree/dbtree.cpp" line="2592"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Jalǵandı.&lt;/p&gt;&lt;p&gt;Ajıralıw ushın bul jerdi basıń yamasa maǵlıwmatlar bazasında orta túymeni basıń.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2599"/>
+      <location filename="../dbtree/dbtree.cpp" line="2600"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Ajıratılǵan.&lt;/p&gt;&lt;p&gt;Jalǵanıw ushın bul jerdi basıń yamasa maǵlıwmatlar bazasında eki márte basıń.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4961,18 +4976,18 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <translation>&amp;Struktura</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="771"/>
+      <location filename="../mainwindow.cpp" line="794"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>&amp;Kórinis</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1455"/>
+      <location filename="../mainwindow.cpp" line="1478"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>Túsirilgen fayl SQLite 2 maǵlıwmatlar bazasına uqsaydı, bul Letos versiyasında ol qollap-quwatlanbaydı. SQLite 2 ni qollap-quwatlaǵan sońǵı versiya 3.2.1 edi.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="441"/>
+      <location filename="../mainwindow.cpp" line="535"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>Aynalar dizimi</translation>
@@ -5009,131 +5024,137 @@ Jańa, unikal at kirgiziń yamasa operaciyanı toqtatıw ushın &apos;%1&apos; b
       <translation>tártiplestiriw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="471"/>
+      <location filename="../mainwindow.cpp" line="469"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>&amp;Ásbaplar</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="491"/>
+      <location filename="../mainwindow.cpp" line="489"/>
       <source>&amp;Help</source>
       <translation>&amp;Járdem</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="708"/>
+      <location filename="../mainwindow.cpp" line="527"/>
+      <source>&amp;Windows</source>
+      <comment>menubar view menu</comment>
+      <translation type="unfinished">&amp;Windows</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="731"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>Stildi ornatıw múmkin bolmadı: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="945"/>
+      <location filename="../mainwindow.cpp" line="968"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Eksportlaw múmkin emes, sebebi hesh qanday eksport plagini júklenbegen.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="962"/>
+      <location filename="../mainwindow.cpp" line="985"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Importlaw múmkin emes, sebebi hesh qanday import plagini júklenbegen.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Rename window</source>
       <translation>Aynanıń atın ózgertiw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Enter new name for the window:</source>
       <translation>Ayna ushın jańa at kiritiń:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1115"/>
+      <location filename="../mainwindow.cpp" line="1138"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>Jańa jańalanıwlar bar. &lt;a href=&quot;%1&quot;&gt;Tolıq maǵlıwmat ushın bul jerge basıń&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1121"/>
+      <location filename="../mainwindow.cpp" line="1144"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>Siz eń sońǵı versiyanı isletip atırsız. Jańalanıwlar joq.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1176"/>
+      <location filename="../mainwindow.cpp" line="1199"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos biypul hám ashıq derekli. Eger ol jumısıńızǵa járdem berse, &lt;a href=&quot;%1&quot;&gt;joybardı qollap-quwatlawdı&lt;/a&gt; qarap kóriń.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1261"/>
+      <location filename="../mainwindow.cpp" line="1284"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>Ásbaplar paneli &amp;belgileri</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1268"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>Ólshemi: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1356"/>
+      <location filename="../mainwindow.cpp" line="1379"/>
       <source>Drop files to open them</source>
       <translation>Fayllardı ashıw ushın olardı túsiriń</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1458"/>
+      <location filename="../mainwindow.cpp" line="1481"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>Túsirilgen fayl túri qollap-quwatlanbaydı: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1468"/>
+      <location filename="../mainwindow.cpp" line="1491"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>SQLite 3 maǵlıwmatlar bazası - dizimge qosıp ashıw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1470"/>
+      <location filename="../mainwindow.cpp" line="1493"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>Bul shifrlengen SQLite 3 maǵlıwmatlar bazası bolıwı múmkin. Onı ashıp kóriwińiz múmkin.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1472"/>
+      <location filename="../mainwindow.cpp" line="1495"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>Bos fayl, biraq bos SQLite 3 maǵlıwmatlar bazası da - maǵlıwmatlar bazası sıpatında ashıw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1474"/>
+      <location filename="../mainwindow.cpp" line="1497"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>SQL faylı - SQL redaktorında ashıw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1476"/>
+      <location filename="../mainwindow.cpp" line="1499"/>
       <source>Text file - open in SQL Editor</source>
       <translation>Tekst faylı - SQL redaktorında ashıw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1501"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>CSV faylı - Import dialogı arqalı importlaw</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1480"/>
+      <location filename="../mainwindow.cpp" line="1503"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>SQLite 2 maǵlıwmatlar bazası - endi qollap-quwatlanbaydı</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1482"/>
+      <location filename="../mainwindow.cpp" line="1505"/>
       <source>Unsupported file type</source>
       <translation>Qollap-quwatlanbaytuǵın fayl túri</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1581"/>
+      <location filename="../mainwindow.cpp" line="1604"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>Komanda qatarı parametrlerinde berilgen maǵlıwmatlar bazası (%1) dizimde álleqashan mına at penen bar edi: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1588"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>Komanda qatarı parametrlerinde berilgen maǵlıwmatlar bazası (%1) dizimge waqtınsha mına at penen qosıldı: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1593"/>
+      <location filename="../mainwindow.cpp" line="1616"/>
       <source>Could not add database %1 to list.</source>
       <translation>%1 maǵlıwmatlar bazasın dizimge qosıw múmkin bolmadı.</translation>
     </message>
@@ -6845,12 +6866,12 @@ keyingisin tabıw</translation>
   <context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="123"/>
       <source>Error while committing new row: %1</source>
       <translation>Jańa qatardı tastıyıqlaw waqtında qáte: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="171"/>
       <source>Error while deleting row from %1: %2</source>
       <translation>%1 ishinen qatardı óshiriw waqtında qáte: %2</translation>
     </message>
@@ -7459,42 +7480,42 @@ Bunday óshiriw turaqlı boladı. Olardı óshiriwge isenimińiz kámil me?</tra
       <translation>Silteme berilgen jol (%1)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1189"/>
       <source>Pin column</source>
       <translation>Qatardı bekkemlew</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1216"/>
       <source>Column renderer</source>
       <translation>Qatar rendererı</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1223"/>
       <source>Default</source>
       <translation>Ádepki</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1379"/>
       <source>Trim pasted text?</source>
       <translation>Qoyılǵan tekst qısqartılsın ba?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1380"/>
       <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
       <translation>Qoyılǵan tekst basında yamasa sońında bos orın bar. Onı avtomatikalıq qısqartıw kerek pe?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1388"/>
       <source>Paste &quot;NULL&quot; as null value?</source>
       <translation>&quot;NULL&quot; di null mánis sıpatında qoyıw kerek pe?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1389"/>
       <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
       <translation>Qoyılǵan tekstte &quot;NULL&quot; literalları bar. Olardı NULL mánisleri dep esaplawdı qáleysiz be?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1513"/>
       <source>Edit value</source>
       <translation>Mánisti ózgertiw</translation>
     </message>
@@ -7502,22 +7523,22 @@ Bunday óshiriw turaqlı boladı. Olardı óshiriwge isenimińiz kámil me?</tra
   <context>
     <name>SqlViewModel</name>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="129"/>
       <source>An error occurred while committing the data: %1</source>
       <translation>Maǵlıwmatlardı tastıyıqlaw waqtında qáte júz berdi: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="143"/>
       <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Qatar %1: INSTEAD OF UPDATE trigeri bir qatardan kóbirek qatarın ózgertti (%2). Kórinis ózgertilgen jazbanı anıq bir mánili anıqlamaydı.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="193"/>
       <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Qatar %1: INSTEAD OF DELETE trigeri bir qatardan kóbirek qatardı óshirdi (%2). Kórinis ózgertilgen jazbanı anıq bir mánili anıqlamaydı.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="218"/>
       <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
       <translation>Kóriniste redaktorlawdı basqaratuǵın INSTEAD OF triger(ler) bar. Bekitkennen keyin haqıyqıy ózgerislerdi kóriw ushın maǵlıwmatlardı jańalaw usınıladı, sebebi trigerler maǵlıwmatlardı kútilmegen túrde ózgertiwi múmkin.</translation>
     </message>
