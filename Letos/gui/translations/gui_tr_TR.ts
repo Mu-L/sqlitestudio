@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
       <location filename="../dialogs/configdialog.ui" line="14"/>
-      <location filename="../dialogs/configdialog.ui" line="3209"/>
+      <location filename="../dialogs/configdialog.ui" line="3244"/>
       <source>Configuration</source>
       <translation>Yapılandırma</translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2549"/>
-      <location filename="../dialogs/configdialog.ui" line="3199"/>
+      <location filename="../dialogs/configdialog.ui" line="3234"/>
       <source>Language</source>
       <translation>Dil</translation>
     </message>
@@ -1897,63 +1897,78 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Varsayılan boyutun yüzdesi olarak ifade edilir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2923"/>
+      <location filename="../dialogs/configdialog.ui" line="2958"/>
       <source>Hide built-in plugins</source>
       <translation>Yerleşik eklentileri gizle</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2952"/>
+      <location filename="../dialogs/configdialog.ui" line="2987"/>
       <source>Current style:</source>
       <translation>Geçerli stil:</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2742"/>
-      <location filename="../dialogs/configdialog.ui" line="2969"/>
+      <location filename="../dialogs/configdialog.ui" line="3004"/>
       <source>Preview</source>
       <translation>Ön İzleme</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="2979"/>
+      <location filename="../dialogs/configdialog.ui" line="2821"/>
+      <source>Window menu layout</source>
+      <translation type="unfinished">Window menu layout</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2827"/>
+      <source>Separate &quot;Windows&quot; menu</source>
+      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="2840"/>
+      <source>&quot;Window List&quot; under &quot;View&quot;</source>
+      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+    </message>
+    <message>
+      <location filename="../dialogs/configdialog.ui" line="3014"/>
       <source>Enabled</source>
       <translation>Etkin</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3155"/>
+      <location filename="../dialogs/configdialog.ui" line="3190"/>
       <source>Disabled</source>
       <translation>Devre dışı</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3204"/>
+      <location filename="../dialogs/configdialog.ui" line="3239"/>
       <source>Active formatter plugin</source>
       <translation>Etkin biçimlendirici eklentisi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3242"/>
+      <location filename="../dialogs/configdialog.ui" line="3277"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;İpucu:&lt;/span&gt; Buradaki ayarlara ek olarak, çoğu arayüz öğesinde yazı tipi boyutları, &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; tuşunu basılı tutup değiştirmek istediğiniz öğenin üzerinde &lt;span style=&quot; font-weight:700;&quot;&gt;fare tekerleğini&lt;/span&gt; kaydırarak dinamik olarak ayarlanabilir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3261"/>
+      <location filename="../dialogs/configdialog.ui" line="3296"/>
       <source>SQL editor font</source>
       <translation>SQL düzenleyici yazı tipi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3277"/>
+      <location filename="../dialogs/configdialog.ui" line="3312"/>
       <source>Database list font</source>
       <translation>Veritabanı listesi yazı tipi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3293"/>
+      <location filename="../dialogs/configdialog.ui" line="3328"/>
       <source>Database list additional label font</source>
       <translation>Veritabanı listesi ek etiket yazı tipi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3309"/>
+      <location filename="../dialogs/configdialog.ui" line="3344"/>
       <source>Data view font</source>
       <translation>Veri görünümü yazı tipi</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.ui" line="3325"/>
+      <location filename="../dialogs/configdialog.ui" line="3360"/>
       <source>Status field font</source>
       <translation>Durum alanı yazı tipi</translation>
     </message>
@@ -1963,119 +1978,119 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bu seçenek etkinleştirilirse, kullanıcı örneğin tablonun sütunlarını önermek için &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; yazdığında kod asistanı tetiklenir. Seçenek devre dışıysa, kullanıcının asistan kısayol tuşuna açıkça basması gerekir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="467"/>
+      <location filename="../dialogs/configdialog.cpp" line="470"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
       <translation>Yeni arayüz ölçeği Letos yeniden başlatıldıktan sonra uygulanacak.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="825"/>
+      <location filename="../dialogs/configdialog.cpp" line="829"/>
       <source>Restart the application to apply the new icon set.</source>
       <translation>Yeni simge setini uygulamak için uygulamayı yeniden başlatın.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1175"/>
+      <location filename="../dialogs/configdialog.cpp" line="1179"/>
       <source>Description:</source>
       <comment>plugin details</comment>
       <translation>Açıklama:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1176"/>
+      <location filename="../dialogs/configdialog.cpp" line="1180"/>
       <source>Category:</source>
       <comment>plugin details</comment>
       <translation>Kategori:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1177"/>
+      <location filename="../dialogs/configdialog.cpp" line="1181"/>
       <source>Version:</source>
       <comment>plugin details</comment>
       <translation>Sürüm:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1178"/>
+      <location filename="../dialogs/configdialog.cpp" line="1182"/>
       <source>Author:</source>
       <comment>plugin details</comment>
       <translation>Yazar:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1180"/>
+      <location filename="../dialogs/configdialog.cpp" line="1184"/>
       <source>Internal name:</source>
       <comment>plugin details</comment>
       <translation>Dahili İsim:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1181"/>
+      <location filename="../dialogs/configdialog.cpp" line="1185"/>
       <source>Dependencies:</source>
       <comment>plugin details</comment>
       <translation>Gereksinimler:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1182"/>
+      <location filename="../dialogs/configdialog.cpp" line="1186"/>
       <source>Conflicts:</source>
       <comment>plugin details</comment>
       <translation>Çakışmalar:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1183"/>
+      <location filename="../dialogs/configdialog.cpp" line="1187"/>
       <source>File:</source>
       <comment>plugin details</comment>
       <translation>Dosya:</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1188"/>
+      <location filename="../dialogs/configdialog.cpp" line="1192"/>
       <source>Plugin details</source>
       <translation>Eklenti Ayrıntıları</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1888"/>
+      <location filename="../dialogs/configdialog.cpp" line="1892"/>
       <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
       <translation>Eklentiler işaretlendiğinde/işaretleri kaldırıldığında hemen yüklenir/kaldırılır, ancak başlangıçta yüklenecek değiştirilmiş eklenti listesi, tüm yapılandırma iletişim kutusunu kaydedene kadar kaydedilmez.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1946"/>
+      <location filename="../dialogs/configdialog.cpp" line="1950"/>
       <source>%1 (built-in)</source>
       <comment>plugins manager in configuration dialog</comment>
       <translation>%1 (yerleşik)</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="1988"/>
+      <location filename="../dialogs/configdialog.cpp" line="1992"/>
       <source>Details</source>
       <translation>Detaylar</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2002"/>
+      <location filename="../dialogs/configdialog.cpp" line="2006"/>
       <source>No plugins in this category.</source>
       <translation>Bu kategoride hiçbir eklenti yok.</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2102"/>
-      <location filename="../dialogs/configdialog.cpp" line="2131"/>
+      <location filename="../dialogs/configdialog.cpp" line="2106"/>
+      <location filename="../dialogs/configdialog.cpp" line="2135"/>
       <source>Add new data type</source>
       <translation>Yeni veri türü ekle</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2106"/>
-      <location filename="../dialogs/configdialog.cpp" line="2135"/>
+      <location filename="../dialogs/configdialog.cpp" line="2110"/>
+      <location filename="../dialogs/configdialog.cpp" line="2139"/>
       <source>Rename selected data type</source>
       <translation>Seçili veri türünü yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2110"/>
-      <location filename="../dialogs/configdialog.cpp" line="2139"/>
+      <location filename="../dialogs/configdialog.cpp" line="2114"/>
+      <location filename="../dialogs/configdialog.cpp" line="2143"/>
       <source>Delete selected data type</source>
       <translation>Seçili veri tipini sil</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2223"/>
+      <location filename="../dialogs/configdialog.cpp" line="2227"/>
       <source>Clear hotkey for this action</source>
       <translation>Bu eylem için kısayol tuşunu temizle</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2235"/>
+      <location filename="../dialogs/configdialog.cpp" line="2239"/>
       <source>Restore original hotkey for this action</source>
       <translation>Bu eylem için özgün kısayol tuşunu geri yükle</translation>
     </message>
     <message>
-      <location filename="../dialogs/configdialog.cpp" line="2277"/>
+      <location filename="../dialogs/configdialog.cpp" line="2281"/>
       <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
       <translation>Burada kod söz dizimi vurgulaması için renkleri yapılandırabilirsiniz. Bunlar farklı diller arasında paylaşılır; yalnızca SQL için değil, JavaScript ve diğerleri için de. Varsayılan olarak tema tabanlı bir renk kullanılır. Kendi renginizi tanımlamak için belirli bir rengin yanındaki onay kutusunu seçerek özel rengi etkinleştirin.</translation>
     </message>
@@ -2659,457 +2674,457 @@ Satır sayımı tamamlandıktan sonra diğer sayfalarda gezinmek mümkün olacak
       <translation>Veritabanları</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2565"/>
+      <location filename="../dbtree/dbtree.cpp" line="2566"/>
       <source>Filter by name</source>
       <translation>Ada göre filtrele</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="142"/>
+      <location filename="../dbtree/dbtree.cpp" line="143"/>
       <source>Copy</source>
       <translation>Kopyala</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="143"/>
+      <location filename="../dbtree/dbtree.cpp" line="144"/>
       <source>Paste</source>
       <translation>Yapıştır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="144"/>
+      <location filename="../dbtree/dbtree.cpp" line="145"/>
       <source>Select all</source>
       <translation>Tümünü seç</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="145"/>
+      <location filename="../dbtree/dbtree.cpp" line="146"/>
       <source>Create a group</source>
       <translation>Grup oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="146"/>
+      <location filename="../dbtree/dbtree.cpp" line="147"/>
       <source>Delete the group</source>
       <translation>Grubu sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="147"/>
+      <location filename="../dbtree/dbtree.cpp" line="148"/>
       <source>Rename the group</source>
       <translation>Grubun adını değiştir</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="152"/>
+      <location filename="../dbtree/dbtree.cpp" line="153"/>
       <source>&amp;Edit the database</source>
       <translation>&amp;Veritabanını düzenle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="154"/>
+      <location filename="../dbtree/dbtree.cpp" line="155"/>
       <source>&amp;Remove the database</source>
       <translation>&amp;Veritabanını kaldır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="155"/>
+      <location filename="../dbtree/dbtree.cpp" line="156"/>
       <source>&amp;Connect to the database</source>
       <translation>&amp;Veritabanına bağlan</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="156"/>
+      <location filename="../dbtree/dbtree.cpp" line="157"/>
       <source>&amp;Disconnect from the database</source>
       <translation>Veritabanı bağlantısını &amp;kes</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="159"/>
+      <location filename="../dbtree/dbtree.cpp" line="160"/>
       <source>Vac&amp;uum</source>
       <translation>Vak&amp;umla</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="160"/>
+      <location filename="../dbtree/dbtree.cpp" line="161"/>
       <source>&amp;Integrity check</source>
       <translation>&amp;Bütünlük denetimi</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="161"/>
+      <location filename="../dbtree/dbtree.cpp" line="162"/>
       <source>Create a &amp;table</source>
       <translation>&amp;Tablo oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="162"/>
+      <location filename="../dbtree/dbtree.cpp" line="163"/>
       <source>Edit the t&amp;able</source>
       <translation>T&amp;abloyu düzenle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="164"/>
+      <location filename="../dbtree/dbtree.cpp" line="165"/>
       <source>Delete the ta&amp;ble</source>
       <translation>Ta&amp;bloyu sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="165"/>
+      <location filename="../dbtree/dbtree.cpp" line="166"/>
       <source>Export the table</source>
       <translation>Tabloyu dışa aktar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="166"/>
+      <location filename="../dbtree/dbtree.cpp" line="167"/>
       <source>Import into the table</source>
       <translation>Tabloya içe aktar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="168"/>
+      <location filename="../dbtree/dbtree.cpp" line="169"/>
       <source>Populate table</source>
       <translation>Tabloyu doldur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="169"/>
+      <location filename="../dbtree/dbtree.cpp" line="170"/>
       <source>Create similar table</source>
       <translation>Benzer tablo oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="170"/>
+      <location filename="../dbtree/dbtree.cpp" line="171"/>
       <source>Reset autoincrement sequence</source>
       <translation>Otomatik artış dizisini sıfırla</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="171"/>
+      <location filename="../dbtree/dbtree.cpp" line="172"/>
       <source>Create an &amp;index</source>
       <translation>Bir &amp;indeks oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="172"/>
+      <location filename="../dbtree/dbtree.cpp" line="173"/>
       <source>Edit the i&amp;ndex</source>
       <translation>İ&amp;ndeksi düzenle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="174"/>
+      <location filename="../dbtree/dbtree.cpp" line="175"/>
       <source>Delete the in&amp;dex</source>
       <translation>İn&amp;deksi sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="175"/>
+      <location filename="../dbtree/dbtree.cpp" line="176"/>
       <source>Create a trig&amp;ger</source>
       <translation>Bir tetik&amp;leyici oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="176"/>
+      <location filename="../dbtree/dbtree.cpp" line="177"/>
       <source>Edit the trigg&amp;er</source>
       <translation>Tetikleyi&amp;ciyi düzenle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="178"/>
+      <location filename="../dbtree/dbtree.cpp" line="179"/>
       <source>Delete the trigge&amp;r</source>
       <translation>Tetikleyiciyi si&amp;l</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="179"/>
+      <location filename="../dbtree/dbtree.cpp" line="180"/>
       <source>Create a &amp;view</source>
       <translation>Bir &amp;görünüm oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="180"/>
+      <location filename="../dbtree/dbtree.cpp" line="181"/>
       <source>Edit the v&amp;iew</source>
       <translation>Gör&amp;ünümü düzenle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="182"/>
+      <location filename="../dbtree/dbtree.cpp" line="183"/>
       <source>Delete the vi&amp;ew</source>
       <translation>Görünü&amp;mü sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="183"/>
+      <location filename="../dbtree/dbtree.cpp" line="184"/>
       <source>Add a column</source>
       <translation>Sütun ekle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="184"/>
+      <location filename="../dbtree/dbtree.cpp" line="185"/>
       <source>Edit the column</source>
       <translation>Sütunu düzenle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="186"/>
+      <location filename="../dbtree/dbtree.cpp" line="187"/>
       <source>Delete the column</source>
       <translation>Sütunu sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="187"/>
+      <location filename="../dbtree/dbtree.cpp" line="188"/>
       <source>Delete selected items</source>
       <translation>Seçili öğeleri sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="207"/>
+      <location filename="../dbtree/dbtree.cpp" line="208"/>
       <source>Clear filter</source>
       <translation>Filtreyi temizle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="188"/>
+      <location filename="../dbtree/dbtree.cpp" line="189"/>
       <source>&amp;Refresh all database schemas</source>
       <translation>Tüm veritabanı şemalarını &amp;yenile</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="148"/>
+      <location filename="../dbtree/dbtree.cpp" line="149"/>
       <source>&amp;Create new database</source>
       <translation>&amp;Yeni veritabanı oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="149"/>
+      <location filename="../dbtree/dbtree.cpp" line="150"/>
       <source>&amp;Open existing database</source>
       <translation>&amp;Mevcut veritabanını aç</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="150"/>
+      <location filename="../dbtree/dbtree.cpp" line="151"/>
       <source>&amp;Open existing database or SQL file</source>
       <translation>&amp;Mevcut veritabanını veya SQL dosyasını aç</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="151"/>
+      <location filename="../dbtree/dbtree.cpp" line="152"/>
       <source>Add a database</source>
       <translation>Veritabanı ekle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="153"/>
+      <location filename="../dbtree/dbtree.cpp" line="154"/>
       <source>Rename the database</source>
       <translation>Veritabanını yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="157"/>
+      <location filename="../dbtree/dbtree.cpp" line="158"/>
       <source>&amp;Import</source>
       <translation>&amp;İçe aktar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="158"/>
+      <location filename="../dbtree/dbtree.cpp" line="159"/>
       <source>&amp;Export</source>
       <translation>&amp;Dışa aktar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="163"/>
+      <location filename="../dbtree/dbtree.cpp" line="164"/>
       <source>Rename the table</source>
       <translation>Tabloyu yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="167"/>
+      <location filename="../dbtree/dbtree.cpp" line="168"/>
       <source>Export the view</source>
       <translation>Görünümü dışa aktar</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="173"/>
+      <location filename="../dbtree/dbtree.cpp" line="174"/>
       <source>Rename the index</source>
       <translation>İndeksi yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="177"/>
+      <location filename="../dbtree/dbtree.cpp" line="178"/>
       <source>Rename the trigger</source>
       <translation>Tetikleyiciyi yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="181"/>
+      <location filename="../dbtree/dbtree.cpp" line="182"/>
       <source>Rename the view</source>
       <translation>Görünümü yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="185"/>
+      <location filename="../dbtree/dbtree.cpp" line="186"/>
       <source>Rename the column</source>
       <translation>Sütunu yeniden adlandır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="189"/>
+      <location filename="../dbtree/dbtree.cpp" line="190"/>
       <source>Re&amp;fresh selected database schema</source>
       <translation>Seçili veritabanı şemasını &amp;yenile</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="190"/>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="191"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Erase table data</source>
       <translation>Tablo verisini sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="192"/>
-      <location filename="../dbtree/dbtree.cpp" line="195"/>
-      <location filename="../dbtree/dbtree.cpp" line="198"/>
+      <location filename="../dbtree/dbtree.cpp" line="193"/>
+      <location filename="../dbtree/dbtree.cpp" line="196"/>
+      <location filename="../dbtree/dbtree.cpp" line="199"/>
       <source>Drag</source>
       <comment>dbtree table action shortcut</comment>
       <translation>Sürükle</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="201"/>
+      <location filename="../dbtree/dbtree.cpp" line="202"/>
       <source>Open file&apos;s directory</source>
       <translation>Dosyanın klasörünü aç</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="202"/>
+      <location filename="../dbtree/dbtree.cpp" line="203"/>
       <source>Execute SQL from file</source>
       <translation>SQL&apos;i dosyadan çalıştır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="203"/>
+      <location filename="../dbtree/dbtree.cpp" line="204"/>
       <source>Increase font size</source>
       <comment>database list</comment>
       <translation>Yazı tipi boyutunu artır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="204"/>
+      <location filename="../dbtree/dbtree.cpp" line="205"/>
       <source>Decrease font size</source>
       <comment>database list</comment>
       <translation>Yazı tipi boyutunu azalt</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="417"/>
-      <location filename="../dbtree/dbtree.cpp" line="424"/>
+      <location filename="../dbtree/dbtree.cpp" line="418"/>
+      <location filename="../dbtree/dbtree.cpp" line="425"/>
       <source>Database</source>
       <translation>Veritabanı</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="436"/>
+      <location filename="../dbtree/dbtree.cpp" line="437"/>
       <source>Grouping</source>
       <translation>Gruplama</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="441"/>
+      <location filename="../dbtree/dbtree.cpp" line="442"/>
       <source>Generate query for table</source>
       <translation>Tablo için sorgu oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="447"/>
+      <location filename="../dbtree/dbtree.cpp" line="448"/>
       <source>Generate query for view</source>
       <translation>Görünüm için sorgu oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Create group</source>
       <translation>Grup oluştur</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1334"/>
+      <location filename="../dbtree/dbtree.cpp" line="1335"/>
       <source>Group name</source>
       <translation>Grup adı</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1337"/>
+      <location filename="../dbtree/dbtree.cpp" line="1338"/>
       <source>Entry with name %1 already exists in group %2.</source>
       <translation>%1 adlı girdi %2 grubunda zaten var.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1374"/>
+      <location filename="../dbtree/dbtree.cpp" line="1375"/>
       <source>Delete group</source>
       <translation>Grubu sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1375"/>
+      <location filename="../dbtree/dbtree.cpp" line="1376"/>
       <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
       <translation>Şu grupları silmek istediğinizden emin misiniz: %1?
 Bu gruplardaki tüm nesneler ilgili üst gruplara taşınacak.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1507"/>
+      <location filename="../dbtree/dbtree.cpp" line="1508"/>
       <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
       <translation>&apos;%1&apos; veritabanını listeden çıkarmak istediğinize emin misiniz?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1515"/>
+      <location filename="../dbtree/dbtree.cpp" line="1516"/>
       <source>Are you sure you want to remove following databases from the list:
 %1</source>
       <translation>Aşağıdaki veritabanlarını listeden kaldırmak istediğinizden emin misiniz:
 %1</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1517"/>
+      <location filename="../dbtree/dbtree.cpp" line="1518"/>
       <source>Remove database</source>
       <translation>Veritabanını kaldır</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1572"/>
-      <location filename="../dbtree/dbtree.cpp" line="1777"/>
+      <location filename="../dbtree/dbtree.cpp" line="1573"/>
+      <location filename="../dbtree/dbtree.cpp" line="1778"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>İçe aktarma yapılamıyor, çünkü hiçbir içe aktarma eklentisi yüklenmemiş.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1592"/>
-      <location filename="../dbtree/dbtree.cpp" line="1752"/>
-      <location filename="../dbtree/dbtree.cpp" line="1822"/>
+      <location filename="../dbtree/dbtree.cpp" line="1593"/>
+      <location filename="../dbtree/dbtree.cpp" line="1753"/>
+      <location filename="../dbtree/dbtree.cpp" line="1823"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Dışa aktarma yapılamıyor, çünkü hiçbir dışa aktarma eklentisi yüklenmemiş.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1868"/>
+      <location filename="../dbtree/dbtree.cpp" line="1869"/>
       <source>Vacuum (%1)</source>
       <translation>Vakumla (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1882"/>
+      <location filename="../dbtree/dbtree.cpp" line="1883"/>
       <source>Integrity check (%1)</source>
       <translation>Bütünlük denetimi (%1)</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Reset autoincrement</source>
       <translation>Otomatik artışı sıfırla</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1918"/>
+      <location filename="../dbtree/dbtree.cpp" line="1919"/>
       <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
       <translation>&apos;%1&apos; tablosu için otomatik artış değerini sıfırlamak istediğinizden emin misiniz?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1925"/>
+      <location filename="../dbtree/dbtree.cpp" line="1926"/>
       <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
       <translation>&apos;%1&apos; tablosu için otomatik artış değeri sıfırlanmaya çalışılırken bir hata oluştu: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1927"/>
+      <location filename="../dbtree/dbtree.cpp" line="1928"/>
       <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
       <translation>&apos;%1&apos; tablosu için otomatik artış değeri başarıyla sıfırlandı.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1947"/>
+      <location filename="../dbtree/dbtree.cpp" line="1948"/>
       <source>Are you sure you want to delete all data from table(s): %1?</source>
       <translation>Şu tablo(lar)dan tüm veriyi silmek istediğinize emin misiniz: %1?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1959"/>
+      <location filename="../dbtree/dbtree.cpp" line="1960"/>
       <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
       <translation>&apos;%1&apos; tablosundan veriler silinmeye çalışılırken bir hata oluştu: %2</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="1963"/>
+      <location filename="../dbtree/dbtree.cpp" line="1964"/>
       <source>All data has been deleted for table &apos;%1&apos;.</source>
       <translation>&apos;%1&apos; tablosundaki tüm veriler silindi.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2102"/>
+      <location filename="../dbtree/dbtree.cpp" line="2103"/>
       <source>Following objects will be deleted: %1.</source>
       <translation>Şu nesneler silinecektir: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2105"/>
+      <location filename="../dbtree/dbtree.cpp" line="2106"/>
       <source>Following databases will be removed from list: %1.</source>
       <translation>Şu veritabanları listeden çıkarılacaktır: %1.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2108"/>
+      <location filename="../dbtree/dbtree.cpp" line="2109"/>
       <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
       <translation>Silinen gruptaki kalan nesneler, grubun daha önce bulunduğu yere taşınacak.</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2110"/>
+      <location filename="../dbtree/dbtree.cpp" line="2111"/>
       <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
       <translation>%1&lt;br&gt;&lt;br&gt;Devam etmek istediğinize emin misiniz?</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2112"/>
+      <location filename="../dbtree/dbtree.cpp" line="2113"/>
       <source>Delete objects</source>
       <translation>Nesneleri sil</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2293"/>
+      <location filename="../dbtree/dbtree.cpp" line="2294"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Liste eşitleme etkin.&lt;/p&gt;&lt;p&gt;Devre dışı bırakmak için tıklayın.&lt;/p&gt;&lt;p&gt;Liste etkin pencereyi izler ve karşılık gelen veritabanı nesnesini otomatik olarak seçip gösterir.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2308"/>
+      <location filename="../dbtree/dbtree.cpp" line="2309"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Liste eşitleme devre dışı.&lt;/p&gt;&lt;p&gt;Etkinleştirmek için tıklayın.&lt;/p&gt;&lt;p&gt;Etkinleştirildiğinde, nesne ağacı etkin düzenleyiciyi izleyecek ve karşılık gelen veritabanı nesnesini otomatik olarak seçecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2591"/>
+      <location filename="../dbtree/dbtree.cpp" line="2592"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Bağlandı.&lt;/p&gt;&lt;p&gt;Bağlantıyı kesmek için buraya tıklayın veya veritabanına orta tıklayın.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../dbtree/dbtree.cpp" line="2599"/>
+      <location filename="../dbtree/dbtree.cpp" line="2600"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Bağlantı kesildi.&lt;/p&gt;&lt;p&gt;Bağlanmak için buraya tıklayın veya veritabanına çift tıklayın.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4960,18 +4975,18 @@ Lütfen yeni ve benzersiz bir ad girin veya işlemi durdurmak için &apos;%1&apo
       <translation>&amp;Yapı</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="771"/>
+      <location filename="../mainwindow.cpp" line="794"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>&amp;Görünüm</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1455"/>
+      <location filename="../mainwindow.cpp" line="1478"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>Bırakılan dosya, bu Letos sürümü tarafından desteklenmeyen bir SQLite 2 veritabanı gibi görünüyor. SQLite 2&apos;yi destekleyen son sürüm 3.2.1 idi.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="441"/>
+      <location filename="../mainwindow.cpp" line="535"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>Pencere listesi</translation>
@@ -5008,131 +5023,137 @@ Lütfen yeni ve benzersiz bir ad girin veya işlemi durdurmak için &apos;%1&apo
       <translation>düzenle</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="471"/>
+      <location filename="../mainwindow.cpp" line="469"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>&amp;Araçlar</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="491"/>
+      <location filename="../mainwindow.cpp" line="489"/>
       <source>&amp;Help</source>
       <translation>&amp;Yardım</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="708"/>
+      <location filename="../mainwindow.cpp" line="527"/>
+      <source>&amp;Windows</source>
+      <comment>menubar view menu</comment>
+      <translation type="unfinished">&amp;Windows</translation>
+    </message>
+    <message>
+      <location filename="../mainwindow.cpp" line="731"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>Stil ayarlanamadı: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="945"/>
+      <location filename="../mainwindow.cpp" line="968"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Dışa aktarma yapılamıyor, çünkü hiçbir dışa aktarma eklentisi yüklenmemiş.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="962"/>
+      <location filename="../mainwindow.cpp" line="985"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>İçe aktarma yapılamıyor, çünkü hiçbir içe aktarma eklentisi yüklenmemiş.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Rename window</source>
       <translation>Pencere adını değiştir</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1005"/>
+      <location filename="../mainwindow.cpp" line="1028"/>
       <source>Enter new name for the window:</source>
       <translation>Pencere için yeni ad giriniz:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1115"/>
+      <location filename="../mainwindow.cpp" line="1138"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>Yeni güncellemeler mevcut. &lt;a href=&quot;%1&quot;&gt;Ayrıntılar için buraya tıklayın&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1121"/>
+      <location filename="../mainwindow.cpp" line="1144"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>En son sürümü kullanıyorsunuz. Güncelleme mevcut değil.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1176"/>
+      <location filename="../mainwindow.cpp" line="1199"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos ücretsiz ve açık kaynaklıdır. İşinizde yardımcı oluyorsa, &lt;a href=&quot;%1&quot;&gt;projeyi desteklemeyi&lt;/a&gt; düşünebilirsiniz.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1261"/>
+      <location filename="../mainwindow.cpp" line="1284"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>Araç çubuğu &amp;simgeleri</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1268"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>Boyut: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1356"/>
+      <location filename="../mainwindow.cpp" line="1379"/>
       <source>Drop files to open them</source>
       <translation>Dosyaları açmak için buraya bırakın</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1458"/>
+      <location filename="../mainwindow.cpp" line="1481"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>Bırakılan dosya tipi desteklenmiyor: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1468"/>
+      <location filename="../mainwindow.cpp" line="1491"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>SQLite 3 veritabanı - veritabanı listesine ekle ve aç</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1470"/>
+      <location filename="../mainwindow.cpp" line="1493"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>Şifrelenmiş bir SQLite 3 veritabanı olabilir. Açmayı deneyebilirsiniz.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1472"/>
+      <location filename="../mainwindow.cpp" line="1495"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>Boş dosya, aynı zamanda boş SQLite 3 veritabanı - veritabanı olarak aç</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1474"/>
+      <location filename="../mainwindow.cpp" line="1497"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>SQL dosyası - SQL Düzenleyici&apos;de aç</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1476"/>
+      <location filename="../mainwindow.cpp" line="1499"/>
       <source>Text file - open in SQL Editor</source>
       <translation>Metin dosyası - SQL Düzenleyici&apos;de aç</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1501"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>CSV dosyası - İçe Aktarma İletişim Kutusunu kullanarak içe aktar</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1480"/>
+      <location filename="../mainwindow.cpp" line="1503"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>SQLite 2 veritabanı - artık desteklenmiyor</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1482"/>
+      <location filename="../mainwindow.cpp" line="1505"/>
       <source>Unsupported file type</source>
       <translation>Desteklenmeyen dosya tipi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1581"/>
+      <location filename="../mainwindow.cpp" line="1604"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>Komut satırı parametrelerinde geçirilen veritabanı (%1) listede zaten şu adla vardı: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1588"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>Komut satırı parametrelerinde geçirilen veritabanı (%1) listeye geçici olarak şu adla eklendi: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1593"/>
+      <location filename="../mainwindow.cpp" line="1616"/>
       <source>Could not add database %1 to list.</source>
       <translation>%1 veritabanı listeye eklenemedi.</translation>
     </message>
@@ -6844,12 +6865,12 @@ sonrakini bul</translation>
   <context>
     <name>SqlDataSourceQueryModel</name>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="122"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="123"/>
       <source>Error while committing new row: %1</source>
       <translation>Yeni satır commit edilirken hata: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="170"/>
+      <location filename="../datagrid/sqldatasourcequerymodel.cpp" line="171"/>
       <source>Error while deleting row from %1: %2</source>
       <translation>%1 içinden satır silinirken hata: %2</translation>
     </message>
@@ -7458,42 +7479,42 @@ Bu silme kalıcı olacaktır. Bunları silmek istediğinizden emin misiniz?</tra
       <translation>Başvurulan satır (%1)</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1192"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1189"/>
       <source>Pin column</source>
       <translation>Sütunu sabitle</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1219"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1216"/>
       <source>Column renderer</source>
       <translation>Sütun işleyici</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1226"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1223"/>
       <source>Default</source>
       <translation>Varsayılan</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1382"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1379"/>
       <source>Trim pasted text?</source>
       <translation>Yapıştırılan metin kırpılsın mı?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1380"/>
       <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
       <translation>Yapıştırılan metinde başta veya sonda boşluk var. Otomatik olarak kırpılsın mı?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1391"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1388"/>
       <source>Paste &quot;NULL&quot; as null value?</source>
       <translation>&quot;NULL&quot; null değer olarak yapıştırılsın mı?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1389"/>
       <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
       <translation>Yapıştırılan metin &quot;NULL&quot; sabitleri içeriyor. Bunları NULL değerler olarak kabul etmek istiyor musunuz?</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlqueryview.cpp" line="1520"/>
+      <location filename="../datagrid/sqlqueryview.cpp" line="1513"/>
       <source>Edit value</source>
       <translation>Değeri düzenle</translation>
     </message>
@@ -7501,22 +7522,22 @@ Bu silme kalıcı olacaktır. Bunları silmek istediğinizden emin misiniz?</tra
   <context>
     <name>SqlViewModel</name>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="127"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="129"/>
       <source>An error occurred while committing the data: %1</source>
       <translation>Veriler commit edilirken bir hata oluştu: %1</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="141"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="143"/>
       <source>Row %1: the INSTEAD OF UPDATE trigger modified more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Satır %1: INSTEAD OF UPDATE tetikleyicisi birden fazla satırı değiştirdi (%2). Görünüm, düzenlenen kaydı benzersiz olarak tanımlamıyor.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="191"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="193"/>
       <source>Row %1: the INSTEAD OF DELETE trigger deleted more than one row (%2). The view does not uniquely identify the edited record.</source>
       <translation>Satır %1: INSTEAD OF DELETE tetikleyicisi birden fazla satırı sildi (%2). Görünüm, düzenlenen kaydı benzersiz olarak tanımlamıyor.</translation>
     </message>
     <message>
-      <location filename="../datagrid/sqlviewmodel.cpp" line="216"/>
+      <location filename="../datagrid/sqlviewmodel.cpp" line="218"/>
       <source>The view has INSTEAD OF trigger(s) that handle editing. It&apos;s recommended to refresh data after commit to see the actual changes, because triggers may modify data in an unexpected way.</source>
       <translation>Görünümde düzenlemeyi işleyen INSTEAD OF tetikleyici(ler)i var. Gerçek değişiklikleri görmek için işleme sonrasında verilerin yenilenmesi önerilir, çünkü tetikleyiciler verileri beklenmeyen bir şekilde değiştirebilir.</translation>
     </message>
