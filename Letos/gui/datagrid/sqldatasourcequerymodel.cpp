@@ -1,6 +1,7 @@
 #include "sqldatasourcequerymodel.h"
 #include "common/utils_sql.h"
 #include "services/notifymanager.h"
+#include "querygenerator.h"
 
 SqlDataSourceQueryModel::SqlDataSourceQueryModel(QObject *parent) :
     SqlQueryModel(parent)
@@ -275,11 +276,7 @@ QString SqlDataSourceQueryModel::getDatabasePrefix()
 
 QString SqlDataSourceQueryModel::CommitDeleteQueryBuilder::build()
 {
-    QString dbAndTable;
-    if (!database.isNull())
-        dbAndTable += database+".";
-
-    dbAndTable += tableOrView;
+    QString dbAndTable = QueryGenerator::toFullObjectName(database, tableOrView);
     QString conditions = RowIdConditionBuilder::build();
 
     static_qstring(sql, "DELETE FROM %1 WHERE %2 RETURNING 1;");
@@ -289,11 +286,7 @@ QString SqlDataSourceQueryModel::CommitDeleteQueryBuilder::build()
 
 QString SqlDataSourceQueryModel::SelectColumnsQueryBuilder::build()
 {
-    QString dbAndTable;
-    if (!database.isNull())
-        dbAndTable += database+".";
-
-    dbAndTable += tableOrView;
+    QString dbAndTable = QueryGenerator::toFullObjectName(database, tableOrView);
     QString conditions = RowIdConditionBuilder::build();
 
     static_qstring(sql, "SELECT %1 FROM %2 WHERE %3 LIMIT 1;");

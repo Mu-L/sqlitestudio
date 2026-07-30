@@ -1,4 +1,5 @@
 #include "querygenerator.h"
+#include "schemaresolver.h"
 #include "common/global.h"
 #include "common/utils_sql.h"
 #include "db/db.h"

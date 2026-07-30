@@ -1,6 +1,8 @@
 #include "sqlviewmodel.h"
 #include "querygenerator.h"
+#include "schemaresolver.h"
 #include "services/notifymanager.h"
+#include "common/utils_sql.h"
 
 SqlViewModel::SqlViewModel(QObject *parent) :
     SqlDataSourceQueryModel(parent)

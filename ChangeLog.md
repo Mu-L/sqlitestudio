@@ -10,6 +10,7 @@
 - BUGFIX: #5754 Fixed crash in several `Browse File` actions across the application.
 - BUGFIX: #5760 Fixed wrong (dark) text color in SQL editor on Windows with dark theme.
 - BUGFIX: #5758 Properly removed `windowsvista` and `windows11` themes, as they should have been in #5743 already in 4.0.1.
+- BUGFIX: #5778 Fixed deleting data rows from Table Window for tables with unusual names.
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).
