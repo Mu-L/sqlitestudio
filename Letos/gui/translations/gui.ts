@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3209"/>
+        <location filename="../dialogs/configdialog.ui" line="3244"/>
         <source>Configuration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2549"/>
-        <location filename="../dialogs/configdialog.ui" line="3199"/>
+        <location filename="../dialogs/configdialog.ui" line="3234"/>
         <source>Language</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1897,63 +1897,78 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2923"/>
+        <location filename="../dialogs/configdialog.ui" line="2958"/>
         <source>Hide built-in plugins</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2952"/>
+        <location filename="../dialogs/configdialog.ui" line="2987"/>
         <source>Current style:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../dialogs/configdialog.ui" line="2742"/>
-        <location filename="../dialogs/configdialog.ui" line="2969"/>
+        <location filename="../dialogs/configdialog.ui" line="3004"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2979"/>
+        <location filename="../dialogs/configdialog.ui" line="2821"/>
+        <source>Window menu layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2827"/>
+        <source>Separate &quot;Windows&quot; menu</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2840"/>
+        <source>&quot;Window List&quot; under &quot;View&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="3014"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3155"/>
+        <location filename="../dialogs/configdialog.ui" line="3190"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3204"/>
+        <location filename="../dialogs/configdialog.ui" line="3239"/>
         <source>Active formatter plugin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3242"/>
+        <location filename="../dialogs/configdialog.ui" line="3277"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3261"/>
+        <location filename="../dialogs/configdialog.ui" line="3296"/>
         <source>SQL editor font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3277"/>
+        <location filename="../dialogs/configdialog.ui" line="3312"/>
         <source>Database list font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3293"/>
+        <location filename="../dialogs/configdialog.ui" line="3328"/>
         <source>Database list additional label font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3309"/>
+        <location filename="../dialogs/configdialog.ui" line="3344"/>
         <source>Data view font</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3325"/>
+        <location filename="../dialogs/configdialog.ui" line="3360"/>
         <source>Status field font</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1968,114 +1983,114 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="828"/>
+        <location filename="../dialogs/configdialog.cpp" line="829"/>
         <source>Restart the application to apply the new icon set.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1178"/>
+        <location filename="../dialogs/configdialog.cpp" line="1179"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1179"/>
+        <location filename="../dialogs/configdialog.cpp" line="1180"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1180"/>
+        <location filename="../dialogs/configdialog.cpp" line="1181"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1181"/>
+        <location filename="../dialogs/configdialog.cpp" line="1182"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1183"/>
+        <location filename="../dialogs/configdialog.cpp" line="1184"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1184"/>
+        <location filename="../dialogs/configdialog.cpp" line="1185"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1185"/>
+        <location filename="../dialogs/configdialog.cpp" line="1186"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1186"/>
+        <location filename="../dialogs/configdialog.cpp" line="1187"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1191"/>
+        <location filename="../dialogs/configdialog.cpp" line="1192"/>
         <source>Plugin details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1891"/>
+        <location filename="../dialogs/configdialog.cpp" line="1892"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1949"/>
+        <location filename="../dialogs/configdialog.cpp" line="1950"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1991"/>
+        <location filename="../dialogs/configdialog.cpp" line="1992"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2005"/>
+        <location filename="../dialogs/configdialog.cpp" line="2006"/>
         <source>No plugins in this category.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2105"/>
-        <location filename="../dialogs/configdialog.cpp" line="2134"/>
+        <location filename="../dialogs/configdialog.cpp" line="2106"/>
+        <location filename="../dialogs/configdialog.cpp" line="2135"/>
         <source>Add new data type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2109"/>
-        <location filename="../dialogs/configdialog.cpp" line="2138"/>
+        <location filename="../dialogs/configdialog.cpp" line="2110"/>
+        <location filename="../dialogs/configdialog.cpp" line="2139"/>
         <source>Rename selected data type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2113"/>
-        <location filename="../dialogs/configdialog.cpp" line="2142"/>
+        <location filename="../dialogs/configdialog.cpp" line="2114"/>
+        <location filename="../dialogs/configdialog.cpp" line="2143"/>
         <source>Delete selected data type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2226"/>
+        <location filename="../dialogs/configdialog.cpp" line="2227"/>
         <source>Clear hotkey for this action</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2238"/>
+        <location filename="../dialogs/configdialog.cpp" line="2239"/>
         <source>Restore original hotkey for this action</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2280"/>
+        <location filename="../dialogs/configdialog.cpp" line="2281"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4952,18 +4967,18 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="771"/>
+        <location filename="../mainwindow.cpp" line="794"/>
         <source>&amp;View</source>
         <comment>menubar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1455"/>
+        <location filename="../mainwindow.cpp" line="1478"/>
         <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="441"/>
+        <location filename="../mainwindow.cpp" line="535"/>
         <source>Window list</source>
         <comment>menubar view menu</comment>
         <translation type="unfinished"></translation>
@@ -5000,131 +5015,137 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="471"/>
+        <location filename="../mainwindow.cpp" line="469"/>
         <source>&amp;Tools</source>
         <comment>menubar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="491"/>
+        <location filename="../mainwindow.cpp" line="489"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="708"/>
+        <location filename="../mainwindow.cpp" line="527"/>
+        <source>&amp;Windows</source>
+        <comment>menubar view menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="731"/>
         <source>Could not set style: %1</source>
         <comment>main window</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="945"/>
+        <location filename="../mainwindow.cpp" line="968"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="962"/>
+        <location filename="../mainwindow.cpp" line="985"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1005"/>
+        <location filename="../mainwindow.cpp" line="1028"/>
         <source>Rename window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1005"/>
+        <location filename="../mainwindow.cpp" line="1028"/>
         <source>Enter new name for the window:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1115"/>
+        <location filename="../mainwindow.cpp" line="1138"/>
         <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1121"/>
+        <location filename="../mainwindow.cpp" line="1144"/>
         <source>You&apos;re running the most recent version. No updates are available.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1176"/>
+        <location filename="../mainwindow.cpp" line="1199"/>
         <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1261"/>
+        <location filename="../mainwindow.cpp" line="1284"/>
         <source>Toolbar &amp;icons</source>
         <comment>menubar</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1268"/>
+        <location filename="../mainwindow.cpp" line="1291"/>
         <source>Size: %1%</source>
         <comment>toolbar icons</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1356"/>
+        <location filename="../mainwindow.cpp" line="1379"/>
         <source>Drop files to open them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1458"/>
+        <location filename="../mainwindow.cpp" line="1481"/>
         <source>The dropped file type is unsupported: %1 (%2)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1468"/>
+        <location filename="../mainwindow.cpp" line="1491"/>
         <source>SQLite 3 database - add to database list and open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1470"/>
+        <location filename="../mainwindow.cpp" line="1493"/>
         <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1472"/>
+        <location filename="../mainwindow.cpp" line="1495"/>
         <source>Empty file, but also empty SQLite 3 database - open as database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1474"/>
+        <location filename="../mainwindow.cpp" line="1497"/>
         <source>SQL file - open in SQL Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1476"/>
+        <location filename="../mainwindow.cpp" line="1499"/>
         <source>Text file - open in SQL Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1478"/>
+        <location filename="../mainwindow.cpp" line="1501"/>
         <source>CSV file - import using Import Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1480"/>
+        <location filename="../mainwindow.cpp" line="1503"/>
         <source>SQLite 2 database - not supported anymore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1482"/>
+        <location filename="../mainwindow.cpp" line="1505"/>
         <source>Unsupported file type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1581"/>
+        <location filename="../mainwindow.cpp" line="1604"/>
         <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1588"/>
+        <location filename="../mainwindow.cpp" line="1611"/>
         <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1593"/>
+        <location filename="../mainwindow.cpp" line="1616"/>
         <source>Could not add database %1 to list.</source>
         <translation type="unfinished"></translation>
     </message>
