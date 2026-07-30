@@ -437,8 +437,7 @@ void MainWindow::initMenuBar()
     // NOLINTEND(clang-analyzer-optin.cplusplus.VirtualCall)
     menuBar()->addMenu(viewMenu);
 
-    mdiMenu = new QMenu(viewMenu);
-    mdiMenu->setTitle(tr("Window list", "menubar view menu"));
+    mdiMenu = new QMenu(menuBar());
     connect(ui->mdiArea, &MdiArea::windowListChanged, this, &MainWindow::refreshMdiWindows);
 
     viewMenu->addSeparator();
@@ -461,15 +460,14 @@ void MainWindow::initMenuBar()
     viewMenu->addAction(actionMap[RESTORE_WINDOW]);
     viewMenu->addAction(actionMap[RENAME_WINDOW]);
 
-    viewMenu->addSeparator();
-    viewMenu->addMenu(mdiMenu);
+    initWindowsMenu();
 
     CONFLICTING_MENU_HOTKEY_WORKAROUND(viewMenu, QKeySequence::Close, actionMap[CLOSE_WINDOW]);
 
     // Tools menu
     toolsMenu = new QMenu(this);
     toolsMenu->setTitle(tr("&Tools", "menubar"));
-    menuBar()->addMenu(toolsMenu);
+    toolsMenuAction = menuBar()->addMenu(toolsMenu);
 
     toolsMenu->addAction(actionMap[OPEN_SQL_EDITOR]);
     toolsMenu->addAction(actionMap[OPEN_DDL_HISTORY]);
@@ -513,6 +511,31 @@ void MainWindow::initMenuBar()
     letosMenu->addAction(actionMap[LICENSES]);
     letosMenu->addAction(actionMap[DONATE]);
     letosMenu->addAction(actionMap[ABOUT]);
+}
+
+void MainWindow::initWindowsMenu()
+{
+    for (QAction*& act : windowsMenuActions)
+    {
+        menuBar()->removeAction(act);
+        viewMenu->removeAction(act);
+    }
+    windowsMenuActions.clear();
+
+    if (CFG_UI.General.WindowsInMenuBar.get())
+    {
+        mdiMenu->setTitle(tr("&Windows", "menubar view menu"));
+        windowsMenuActions << (toolsMenuAction ?
+                                   menuBar()->insertMenu(toolsMenuAction, mdiMenu) :
+                                   menuBar()->addMenu(mdiMenu)
+                                );
+    }
+    else
+    {
+        mdiMenu->setTitle(tr("Window list", "menubar view menu"));
+        windowsMenuActions << viewMenu->addSeparator();
+        windowsMenuActions << viewMenu->addMenu(mdiMenu);
+    }
 }
 
 void MainWindow::saveSession(MdiWindow* currWindow)

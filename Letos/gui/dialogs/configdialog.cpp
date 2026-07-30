@@ -449,12 +449,12 @@ void ConfigDialog::initCategoriesTree()
 
 void ConfigDialog::save()
 {
-    if (MainWindow::getInstance()->currentStyle().compare(ui->activeStyleCombo->currentText(), Qt::CaseInsensitive) != 0)
+    if (MAINWINDOW->currentStyle().compare(ui->activeStyleCombo->currentText(), Qt::CaseInsensitive) != 0)
     {
         QList<QWidget*> unmodifiedColors = getUnmodifiedSyntaxSettingWidgets();
         bool wasDark = STYLE->isDark();
 
-        MainWindow::getInstance()->setStyle(ui->activeStyleCombo->currentText());
+        MAINWINDOW->setStyle(ui->activeStyleCombo->currentText());
 
         if (STYLE->isDark() != wasDark)
             adjustSyntaxColorsForStyle(unmodifiedColors);
@@ -484,7 +484,8 @@ void ConfigDialog::save()
         requiresSchemasRefresh = false;
         DBTREE->refreshSchemas();
     }
-    MainWindow::getInstance()->updateCornerDocking();
+    MAINWINDOW->updateCornerDocking();
+    MAINWINDOW->initWindowsMenu();
 }
 
 void ConfigDialog::storeSelectedFormatters()

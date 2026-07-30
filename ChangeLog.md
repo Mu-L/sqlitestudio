@@ -2,6 +2,7 @@
 
 ### 4.0.2
 - ADDED: #5758 Added `Fusion Light` theme, so now there's `Fusion` for system-compliant autodetected color palette, `Fusion Dark` for enforced dark palette and `Fusion Light` for light palette.
+- ADDED: #5771 Window List menu is now by default a top-level menu (on menubar), but it still can be restored to previous way (submenu in View menu) in configuration.
 - BUGFIX: #5755 Grid View column header separator is now easier to grab or double-click.
 - BUGFIX: #5744 Fixed cmd+c in Grid View for macOS with russian keyboard input.
 - BUGFIX: #5744 Update Qt on macOS for official builds to 6.11 to fix cmd+c copy hotkey, thus dropping support for macOS 11 and 12 in official builds (other builds may still use older Qt and support older macOS).
@@ -12,6 +13,7 @@
 - BUGFIX: #5758 Properly removed `windowsvista` and `windows11` themes, as they should have been in #5743 already in 4.0.1.
 - BUGFIX: #5778 Fixed deleting data rows from Table Window for tables with unusual names.
 - BUGFIX: #5756 Resize (adjust) all selected columns when double-clicked on section separator in header, regardles if the column associated with the clicked separator needs the resizing or not.
+
 
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).

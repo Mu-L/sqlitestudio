@@ -181,6 +181,7 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         MdiArea* getMdiArea() const;
         DbTree* getDbTree() const;
         StatusField* getStatusField() const;
+        void initWindowsMenu();
         void restoreSession();
         bool setStyle(const QString& styleName);
         FormManager* getFormManager() const;
@@ -287,6 +288,8 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         QMenu* tbStyleMenu = nullptr;
         QMenu* toolsMenu = nullptr;
         QMenu* letosMenu = nullptr;
+        QList<QAction*> windowsMenuActions;
+        QAction* toolsMenuAction = nullptr;
 #ifdef HAS_UPDATEMANAGER
         QPointer<NewVersionDialog> newVersionDialog;
 #endif

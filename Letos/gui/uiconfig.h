@@ -183,6 +183,7 @@ CFG_UI_CATEGORIES(Ui,
         CFG_ENTRY(QString,                 LastUsedConfigPage,          QString())
         CFG_ENTRY(bool,                    ShowPerColumnFilters,        false)
         CFG_ENTRY(bool,                    SingleColumnClickSort,       false)
+        CFG_ENTRY(bool,                    WindowsInMenuBar,            true)
     )
 )
 
