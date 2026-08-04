@@ -1915,17 +1915,17 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2821"/>
       <source>Window menu layout</source>
-      <translation type="unfinished">Window menu layout</translation>
+      <translation>窗口菜单布局</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2827"/>
       <source>Separate &quot;Windows&quot; menu</source>
-      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+      <translation>单独的 &quot;窗口&quot; 菜单</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2840"/>
       <source>&quot;Window List&quot; under &quot;View&quot;</source>
-      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+      <translation>&quot;窗口列表&quot; 在 &quot;视图&quot;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="3014"/>
@@ -5037,7 +5037,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
       <location filename="../mainwindow.cpp" line="527"/>
       <source>&amp;Windows</source>
       <comment>menubar view menu</comment>
-      <translation type="unfinished">&amp;Windows</translation>
+      <translation>窗口(&amp;W)</translation>
     </message>
     <message>
       <location filename="../mainwindow.cpp" line="731"/>
