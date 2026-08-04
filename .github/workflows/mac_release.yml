@@ -1,5 +1,4 @@
 env:
-    QT_VERSION: '6.11.1'
     TCL_VERSION: '8.6.17'
     PYTHON_VERSION: '3.13'
     ICU_VERSION: '76.1'
@@ -41,6 +40,19 @@ on:
 jobs:
     build:
         runs-on: macos-15
+        strategy:
+            matrix:
+                include:
+                  - MATRIX_DEPLOYMENT_TARGET: '13.0'
+                    MATRIX_QT_VERSION: '6.11.1'
+                    MATRIX_PACKAGE_OS: 'macos'
+                  - MATRIX_DEPLOYMENT_TARGET: '11.0'
+                    MATRIX_QT_VERSION: '6.5.3'
+                    MATRIX_PACKAGE_OS: 'macos11'
+        env:
+            QT_VERSION: ${{ matrix.MATRIX_QT_VERSION }}
+            MACOSX_DEPLOYMENT_TARGET: ${{ matrix.MATRIX_DEPLOYMENT_TARGET }}
+            MATRIX_PACKAGE_OS: ${{ matrix.MATRIX_PACKAGE_OS }}
 
         steps:
             - name: Install coreutils
@@ -49,7 +61,6 @@ jobs:
 
             - name: Initial config
               run: |
-                MACOSX_DEPLOYMENT_TARGET=11.0
                 echo "CFLAGS=$CFLAGS -mmacosx-version-min=$MACOSX_DEPLOYMENT_TARGET" >> $GITHUB_ENV
                 echo "CXXFLAGS=$CXXFLAGS -mmacosx-version-min=$MACOSX_DEPLOYMENT_TARGET" >> $GITHUB_ENV
                 echo "LDFLAGS=$LDFLAGS -mmacosx-version-min=$MACOSX_DEPLOYMENT_TARGET" >> $GITHUB_ENV
@@ -236,7 +247,7 @@ jobs:
               run: |
                 LETOS_VERSION=$(scripts/version_from_source.sh)
                 echo "LETOS_VERSION=$LETOS_VERSION" >> $GITHUB_ENV
-                echo "PACKAGE_VERSION=${LETOS_VERSION}-macos-universal" >> $GITHUB_ENV
+                echo "PACKAGE_VERSION=${LETOS_VERSION}-${{ matrix.MATRIX_PACKAGE_OS }}-universal" >> $GITHUB_ENV
 
             - name: Prepare ccache
               if: inputs.use_ccache || false
