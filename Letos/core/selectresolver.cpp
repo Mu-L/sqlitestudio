@@ -651,10 +651,40 @@ QList<SelectResolver::Column> SelectResolver::resolveSingleSource(SqliteSelect::
 QList<SelectResolver::Column> SelectResolver::resolveCteColumns(SqliteSelect::Core::SingleSource* joinSrc)
 {
     static_qstring(cteSelectTpl, "WITH %1 SELECT * FROM %2");
+    static_qstring(ctePrefixJoiner, ", ");
+    static_qstring(cteDefTpl, "%1 AS (%2)");
 
     SqliteWith::CommonTableExpression* cte = cteList.value(joinSrc->table, Qt::CaseInsensitive);
-    QString selectQuery = cte->detokenize();
-    QString theQuery = cteSelectTpl.arg(selectQuery, wrapObjIfNeeded(cte->table));
+    QString withDefs;
+
+    SqliteStatement* stmt = joinSrc->parentStatement();
+    SqliteSelect* select = nullptr;
+    while (stmt && !(select = dynamic_cast<SqliteSelect*>(stmt)))
+        stmt = stmt->parentStatement();
+
+    // Rebuild all CTE blocks, because querying statement columns requires full, correct SELECT with all CTE predefined tables.
+    if (select && select->with)
+    {
+        for (SqliteWith::CommonTableExpression* withCte : std::as_const(select->with->cteList))
+        {
+            if (!withDefs.isEmpty())
+                withDefs += ctePrefixJoiner;
+
+            QString ctePart = withCte->select->detokenize().trimmed();
+            if (ctePart.endsWith(";"))
+                ctePart.chop(1); // Remove trailing semicolon, because it will break the query
+
+            withDefs += cteDefTpl.arg(wrapObjIfNeeded(withCte->table), ctePart);
+
+            if (withCte->table.compare(cte->table, Qt::CaseInsensitive) == 0)
+                break;
+        }
+    }
+
+    if (withDefs.isEmpty())
+        withDefs = cteDefTpl.arg(wrapObjIfNeeded(cte->table), cte->select->detokenize());
+
+    QString theQuery = cteSelectTpl.arg(withDefs, wrapObjIfNeeded(cte->table));
     QList<Column> columnSources = sqliteResolveColumns(theQuery);
 
     for (Column& column : columnSources)

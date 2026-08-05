@@ -14,6 +14,7 @@
 - BUGFIX: #5778 Fixed deleting data rows from Table Window for tables with unusual names.
 - BUGFIX: #5756 Resize (adjust) all selected columns when double-clicked on section separator in header, regardles if the column associated with the clicked separator needs the resizing or not.
 - BUGFIX: #5761 Added additional MacOS build with older Qt (6.5) to allow to run the app on older MacOS (11 & 12), with the known issue #5744 in older Qt.
+- BUGFIX: #5785 Fixed mult-level CTE queries execution with explicit database names in the query.
 - BUGFIX: Fixed Command Palette navigation under Windows/Linux, after breaking it with the fix for MacOS. Now it should work on all OS's.
 
 ### 4.0.1
