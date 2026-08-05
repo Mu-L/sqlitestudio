@@ -652,7 +652,6 @@ QList<SelectResolver::Column> SelectResolver::resolveCteColumns(SqliteSelect::Co
 {
     static_qstring(cteSelectTpl, "WITH %1 SELECT * FROM %2");
     static_qstring(ctePrefixJoiner, ", ");
-    static_qstring(cteDefTpl, "%1 AS (%2)");
 
     SqliteWith::CommonTableExpression* cte = cteList.value(joinSrc->table, Qt::CaseInsensitive);
     QString withDefs;
@@ -670,11 +669,11 @@ QList<SelectResolver::Column> SelectResolver::resolveCteColumns(SqliteSelect::Co
             if (!withDefs.isEmpty())
                 withDefs += ctePrefixJoiner;
 
-            QString ctePart = withCte->select->detokenize().trimmed();
+            QString ctePart = withCte->detokenize().trimmed();
             if (ctePart.endsWith(";"))
                 ctePart.chop(1); // Remove trailing semicolon, because it will break the query
 
-            withDefs += cteDefTpl.arg(wrapObjIfNeeded(withCte->table), ctePart);
+            withDefs += ctePart;
 
             if (withCte->table.compare(cte->table, Qt::CaseInsensitive) == 0)
                 break;
@@ -682,7 +681,7 @@ QList<SelectResolver::Column> SelectResolver::resolveCteColumns(SqliteSelect::Co
     }
 
     if (withDefs.isEmpty())
-        withDefs = cteDefTpl.arg(wrapObjIfNeeded(cte->table), cte->select->detokenize());
+        withDefs = cte->detokenize();
 
     QString theQuery = cteSelectTpl.arg(withDefs, wrapObjIfNeeded(cte->table));
     QList<Column> columnSources = sqliteResolveColumns(theQuery);
