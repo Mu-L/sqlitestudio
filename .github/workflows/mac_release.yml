@@ -12,6 +12,15 @@ name: MacOSX release build
 on:
     workflow_dispatch:
         inputs:
+          target:
+            description: "Build target"
+            type: choice
+            options:
+                - "all"
+                - "mac"
+                - "mac11"
+            required: false
+            default: "all"
           use_ccache:
             description: 'Use ccache (for workflow debugging only!)'
             required: false
@@ -38,17 +47,46 @@ on:
         - cron: '0 3 * * 1' # run at 3 AM UTC every Monday
 
 jobs:
+    generate:
+        runs-on: ubuntu-latest
+        outputs:
+            matrix: ${{ steps.set.outputs.matrix }}
+        steps:
+            - id: set
+              run: |
+                MATRIX_MAC='{
+                    "OS": "macos-15",
+                    "MATRIX_DEPLOYMENT_TARGET": "13.0",
+                    "MATRIX_QT_VERSION": "6.11.1",
+                    "MATRIX_PACKAGE_OS": "macos"
+                }'
+                MATRIX_MAC11='{
+                    "OS": "macos-15",
+                    "MATRIX_DEPLOYMENT_TARGET": "11.0",
+                    "MATRIX_QT_VERSION": "6.5.3",
+                    "MATRIX_PACKAGE_OS": "macos11"
+                }'
+
+                if [ "${{ inputs.target }}" = "mac" ]; then
+                    matrix="[$MATRIX_MAC]"
+                elif [ "${{ inputs.target }}" = "mac11" ]; then
+                    matrix="[$MATRIX_MAC11]"
+                else
+                    matrix="[$MATRIX_MAC,$MATRIX_MAC11]"
+                fi
+
+                {
+                    echo "matrix<<EOF"
+                    echo "$matrix"
+                    echo "EOF"
+                } >> $GITHUB_OUTPUT
+
     build:
-        runs-on: macos-15
+        needs: generate
         strategy:
             matrix:
-                include:
-                  - MATRIX_DEPLOYMENT_TARGET: '13.0'
-                    MATRIX_QT_VERSION: '6.11.1'
-                    MATRIX_PACKAGE_OS: 'macos'
-                  - MATRIX_DEPLOYMENT_TARGET: '11.0'
-                    MATRIX_QT_VERSION: '6.5.3'
-                    MATRIX_PACKAGE_OS: 'macos11'
+                include: ${{ fromJson(needs.generate.outputs.matrix) }}
+        runs-on: ${{ matrix.OS }}
         env:
             QT_VERSION: ${{ matrix.MATRIX_QT_VERSION }}
             MACOSX_DEPLOYMENT_TARGET: ${{ matrix.MATRIX_DEPLOYMENT_TARGET }}
