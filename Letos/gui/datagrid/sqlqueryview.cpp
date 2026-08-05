@@ -1591,8 +1591,12 @@ void SqlQueryView::Header::mousePressEvent(QMouseEvent *e)
 
         if (foundBoundary >= 0)
         {
-            // Synthesize a mouse press exactly on the separator so QHeaderView starts resizing
-            QMouseEvent synthetic(QEvent::MouseButtonPress, QPoint(boundaryX, e->pos().y()), e->globalPosition().toPoint(), Qt::LeftButton, e->buttons(), e->modifiers());
+            // sectionPosition()+sectionSize() points to the first pixel after the section.
+            // Click 1 px inside the left section so the last boundary is still resizable.
+            int synthX = qBound(0, boundaryX - 1, width() - 1);
+            QPoint localSynth(synthX, e->pos().y());
+            QPoint globalSynth = mapToGlobal(localSynth);
+            QMouseEvent synthetic(QEvent::MouseButtonPress, localSynth, globalSynth, Qt::LeftButton, e->buttons(), e->modifiers());
             QHeaderView::mousePressEvent(&synthetic);
             e->accept();
             return;
