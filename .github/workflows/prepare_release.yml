@@ -307,7 +307,7 @@ jobs:
                 done
 
                 body_lines+=("")
-                body_lines+=("The macos11 build is done with older Qt (6.5), which allows the app to run on MacOS 11 or 12. Later Qt releases dropped these MacOS versions. Older Qt may have some bugs, that were fixed in later Qt.")
+                body_lines+=("The macos11 build is compiled with Qt 6.5, allowing Letos to run on macOS 11 and 12. Builds based on newer Qt releases no longer support these versions of macOS.")
                 body_lines+=("")
                 body_lines+=("## SHA256 checksums")
                 for dir in *
