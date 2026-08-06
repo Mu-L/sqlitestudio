@@ -118,6 +118,7 @@ set(PROJECT_HEADERS
     gui_global.h
     icon.h
     iconmanager.h
+    macmdiwindowswitcher.h
     mainwindow.h
     mdiarea.h
     mdichild.h
@@ -304,6 +305,7 @@ set(PROJECT_SOURCES
     formview.cpp
     icon.cpp
     iconmanager.cpp
+    macmdiwindowswitcher.cpp
     mainwindow.cpp
     mdiarea.cpp
     mdichild.cpp

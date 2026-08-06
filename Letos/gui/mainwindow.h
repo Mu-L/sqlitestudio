@@ -40,6 +40,9 @@ class ThemeTuner;
 class SqliteExtensionEditor;
 class CodeSnippetEditor;
 class CodeSnippetsPanel;
+#ifdef Q_OS_MACOS
+class MacMdiWindowSwitcher;
+#endif
 
 #ifdef Q_OS_MACX
 #define PREV_TASK_KEY_SEQ         Qt::CTRL | Qt::ALT | Qt::Key_Left
@@ -306,6 +309,9 @@ class GUI_API_EXPORT MainWindow : public QMainWindow, public ExtActionContainer
         QHash<Action, int> toolbarSizes;
         QHash<int, Action> toolbarSizesReversed;
         MouseShortcut* toolbarSizeWheelHandler = nullptr;
+#ifdef Q_OS_MACOS
+        MacMdiWindowSwitcher* macMdiWindowSwitcher = nullptr;
+#endif
 
     public slots:
         EditorWindow* openSqlEditor();

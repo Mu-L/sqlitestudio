@@ -18,6 +18,9 @@
 #include "services/pluginmanager.h"
 #include "formmanager.h"
 #include "customconfigwidgetplugin.h"
+#ifdef Q_OS_MACOS
+#include "macmdiwindowswitcher.h"
+#endif
 #include "sqlitesyntaxhighlighter.h"
 #include "qtscriptsyntaxhighlighter.h"
 #include "services/exportmanager.h"
@@ -120,6 +123,10 @@ void MainWindow::init()
 
     ui->mdiArea->setTaskBar(ui->taskBar);
     addToolBar(Qt::BottomToolBarArea, ui->taskBar);
+
+#ifdef Q_OS_MACOS
+    macMdiWindowSwitcher = new MacMdiWindowSwitcher(ui->mdiArea, this);
+#endif
 
     addToolBar(Qt::TopToolBarArea, ui->viewToolbar);
     insertToolBar(ui->viewToolbar, ui->mainToolBar);
