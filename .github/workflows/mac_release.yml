@@ -3,7 +3,7 @@ env:
     PYTHON_VERSION: '3.13'
     ICU_VERSION: '76.1'
     ICU_URL: 'https://github.com/unicode-org/icu/archive/refs/tags/release-76-1.tar.gz'
-    SQLITE_VERSION: '3530200'
+    SQLITE_VERSION: '3530400'
     PORTABLE_DIR: ${{ github.workspace }}/output/portable/Letos
     BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 

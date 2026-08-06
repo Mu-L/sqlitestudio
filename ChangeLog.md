@@ -3,6 +3,7 @@
 ### 4.0.2
 - ADDED: #5758 Added `Fusion Light` theme, so now there's `Fusion` for system-compliant autodetected color palette, `Fusion Dark` for enforced dark palette and `Fusion Light` for light palette.
 - ADDED: #5771 Window List menu is now by default a top-level menu (on menubar), but it still can be restored to previous way (submenu in View menu) in configuration.
+- CHANGE: #5774 SQLite3 updated to 3.53.4.
 - BUGFIX: #5755 Grid View column header separator is now easier to grab or double-click.
 - BUGFIX: #5744 Fixed cmd+c in Grid View for macOS with russian keyboard input.
 - BUGFIX: #5744 Update Qt on macOS for official builds to 6.11 to fix cmd+c copy hotkey, thus dropping support for macOS 11 and 12 in official builds (other builds may still use older Qt and support older macOS).
