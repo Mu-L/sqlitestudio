@@ -1915,17 +1915,17 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2821"/>
       <source>Window menu layout</source>
-      <translation type="unfinished">Window menu layout</translation>
+      <translation>Rozložení nabídky oken</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2827"/>
       <source>Separate &quot;Windows&quot; menu</source>
-      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+      <translation>Samostatná nabídka &quot;Okna&quot;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2840"/>
       <source>&quot;Window List&quot; under &quot;View&quot;</source>
-      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+      <translation>&quot;Seznam oken&quot; v nabídce &quot;Zobrazit&quot;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="3014"/>
@@ -4749,412 +4749,412 @@ Zadejte prosím nový jedinečný název nebo stiskněte &apos;%1&apos; pro pře
       <translation>Panel nástrojů zobrazení</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="145"/>
+      <location filename="../mainwindow.cpp" line="152"/>
       <source>Configuration widgets</source>
       <translation>Konfigurační widgety</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="146"/>
+      <location filename="../mainwindow.cpp" line="153"/>
       <source>Syntax highlighting engines</source>
       <translation>Moduly zvýrazňování syntaxe</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="147"/>
+      <location filename="../mainwindow.cpp" line="154"/>
       <source>Data editors</source>
       <translation>Editory dat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="160"/>
+      <location filename="../mainwindow.cpp" line="167"/>
       <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
       <translation>Spuštěno v režimu ladění. Stiskněte %1 nebo použijte položku nabídky &apos;Nápověda / Otevřít ladicí konzoli&apos; pro otevření ladicí konzole.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="162"/>
+      <location filename="../mainwindow.cpp" line="169"/>
       <source>Running in debug mode. Debug messages are printed to the standard output.</source>
       <translation>Spuštěno v režimu ladění. Ladicí zprávy jsou vypisovány na standardní výstup.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="272"/>
+      <location filename="../mainwindow.cpp" line="279"/>
       <source>You need to restart application to make the language change take effect.</source>
       <translation>Aby se změna jazyka projevila, je třeba aplikaci restartovat.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="317"/>
+      <location filename="../mainwindow.cpp" line="324"/>
       <source>Open SQL &amp;editor</source>
       <translation>Otevřít &amp;editor SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="361"/>
+      <location filename="../mainwindow.cpp" line="368"/>
       <source>Open DDL &amp;history</source>
       <translation>Otevřít &amp;historii DDL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="318"/>
+      <location filename="../mainwindow.cpp" line="325"/>
       <source>Open SQL &amp;functions editor</source>
       <translation>Otevřít editor &amp;funkcí SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="319"/>
+      <location filename="../mainwindow.cpp" line="326"/>
       <source>Open code &amp;snippets editor</source>
       <translation>Otevřít editor ú&amp;ryvků kódu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="320"/>
+      <location filename="../mainwindow.cpp" line="327"/>
       <source>Open &amp;collations editor</source>
       <translation>Otevřít editor &amp;kolací</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="321"/>
+      <location filename="../mainwindow.cpp" line="328"/>
       <source>Open ex&amp;tension manager</source>
       <translation>Otevřít správce ro&amp;zšíření</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="323"/>
+      <location filename="../mainwindow.cpp" line="330"/>
       <source>&amp;Import</source>
       <translation>&amp;Importovat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="324"/>
+      <location filename="../mainwindow.cpp" line="331"/>
       <source>E&amp;xport</source>
       <translation>E&amp;xportovat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="325"/>
+      <location filename="../mainwindow.cpp" line="332"/>
       <source>Open confi&amp;guration dialog</source>
       <translation>Otevřít dialog konfi&amp;gurace</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="327"/>
+      <location filename="../mainwindow.cpp" line="334"/>
       <source>&amp;Tile windows</source>
       <translation>Uspořádat okna do &amp;dlaždic</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="328"/>
+      <location filename="../mainwindow.cpp" line="335"/>
       <source>Tile windows &amp;horizontally</source>
       <translation>Uspořádat okna &amp;vodorovně</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="329"/>
+      <location filename="../mainwindow.cpp" line="336"/>
       <source>Tile windows &amp;vertically</source>
       <translation>Uspořádat okna &amp;svisle</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="330"/>
+      <location filename="../mainwindow.cpp" line="337"/>
       <source>&amp;Cascade windows</source>
       <translation>Uspořádat okna &amp;kaskádově</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="332"/>
+      <location filename="../mainwindow.cpp" line="339"/>
       <source>Next window</source>
       <translation>Další okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="331"/>
+      <location filename="../mainwindow.cpp" line="338"/>
       <source>Previous window</source>
       <translation>Předchozí okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="335"/>
+      <location filename="../mainwindow.cpp" line="342"/>
       <source>Hide status field</source>
       <translation>Skrýt stavové pole</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="339"/>
+      <location filename="../mainwindow.cpp" line="346"/>
       <source>Close &amp;all windows</source>
       <translation>Zavřít &amp;všechna okna</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="342"/>
+      <location filename="../mainwindow.cpp" line="349"/>
       <source>Re&amp;store recently closed window</source>
       <translation>Obnovit nedávno &amp;zavřené okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="337"/>
+      <location filename="../mainwindow.cpp" line="344"/>
       <source>Close current &amp;window</source>
       <translation>Zavřít &amp;aktuální okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="148"/>
+      <location filename="../mainwindow.cpp" line="155"/>
       <source>Data renderers</source>
       <translation>Vykreslovače dat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="338"/>
+      <location filename="../mainwindow.cpp" line="345"/>
       <source>Close &amp;other windows</source>
       <translation>Zavřít &amp;ostatní okna</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="340"/>
+      <location filename="../mainwindow.cpp" line="347"/>
       <source>Close windows on the &amp;left</source>
       <translation>Zavřít okna v&amp;levo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="341"/>
+      <location filename="../mainwindow.cpp" line="348"/>
       <source>Close windows on the &amp;right</source>
       <translation>Zavřít okna v&amp;pravo</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="343"/>
+      <location filename="../mainwindow.cpp" line="350"/>
       <source>Re&amp;name selected window</source>
       <translation>Přejme&amp;novat vybrané okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="346"/>
+      <location filename="../mainwindow.cpp" line="353"/>
       <source>Open Debug Console</source>
       <translation>Otevřít ladicí konzoli</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="347"/>
+      <location filename="../mainwindow.cpp" line="354"/>
       <source>Open CSS Console</source>
       <translation>Otevřít konzoli CSS</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="348"/>
+      <location filename="../mainwindow.cpp" line="355"/>
       <source>Report a &amp;bug</source>
       <translation>Nahlásit &amp;chybu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="349"/>
+      <location filename="../mainwindow.cpp" line="356"/>
       <source>D&amp;onate</source>
       <translation>Přispě&amp;t</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="350"/>
+      <location filename="../mainwindow.cpp" line="357"/>
       <source>Propose a new &amp;feature</source>
       <translation>Navrhnout novou &amp;funkci</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="351"/>
+      <location filename="../mainwindow.cpp" line="358"/>
       <source>&amp;About</source>
       <translation>&amp;O aplikaci</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="352"/>
+      <location filename="../mainwindow.cpp" line="359"/>
       <source>&amp;Licenses</source>
       <translation>&amp;Licence</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="353"/>
+      <location filename="../mainwindow.cpp" line="360"/>
       <source>Open home &amp;page</source>
       <translation>Otevřít &amp;domovskou stránku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="354"/>
+      <location filename="../mainwindow.cpp" line="361"/>
       <source>User &amp;Manual</source>
       <translation>Uživatelská &amp;příručka</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="355"/>
+      <location filename="../mainwindow.cpp" line="362"/>
       <source>SQLite &amp;documentation</source>
       <translation>&amp;Dokumentace SQLite</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="356"/>
+      <location filename="../mainwindow.cpp" line="363"/>
       <source>Bugs and feature &amp;requests</source>
       <translation>Chyby a požadavky na &amp;funkce</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="357"/>
+      <location filename="../mainwindow.cpp" line="364"/>
       <source>Quit</source>
       <translation>Ukončit</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="359"/>
+      <location filename="../mainwindow.cpp" line="366"/>
       <source>Check for &amp;updates</source>
       <translation>Zkontrolovat &amp;aktualizace</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="390"/>
+      <location filename="../mainwindow.cpp" line="397"/>
       <source>&amp;Database</source>
       <comment>menubar</comment>
       <translation>&amp;Databáze</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="415"/>
+      <location filename="../mainwindow.cpp" line="422"/>
       <source>&amp;Structure</source>
       <comment>menubar</comment>
       <translation>&amp;Struktura</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="794"/>
+      <location filename="../mainwindow.cpp" line="801"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>&amp;Zobrazení</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1485"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>Přetažený soubor vypadá jako databáze SQLite 2, kterou tato verze Letos nepodporuje. Poslední verzí podporující SQLite 2 byla 3.2.1.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="535"/>
+      <location filename="../mainwindow.cpp" line="542"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>Seznam oken</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="333"/>
+      <location filename="../mainwindow.cpp" line="340"/>
       <source>Move window earlier</source>
       <translation>Přesunout okno dříve</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="334"/>
+      <location filename="../mainwindow.cpp" line="341"/>
       <source>Move window later</source>
       <translation>Přesunout okno později</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="345"/>
+      <location filename="../mainwindow.cpp" line="352"/>
       <source>Open Command Palette</source>
       <translation>Otevřít Paletu příkazů</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="362"/>
+      <location filename="../mainwindow.cpp" line="369"/>
       <source>Export configuration</source>
       <translation>Exportovat konfiguraci</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="363"/>
+      <location filename="../mainwindow.cpp" line="370"/>
       <source>Import configuration</source>
       <translation>Importovat konfiguraci</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="382"/>
+      <location filename="../mainwindow.cpp" line="389"/>
       <source>arrange</source>
       <comment>command palette entry</comment>
       <translation>uspořádat</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="469"/>
+      <location filename="../mainwindow.cpp" line="476"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>&amp;Nástroje</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="489"/>
+      <location filename="../mainwindow.cpp" line="496"/>
       <source>&amp;Help</source>
       <translation>&amp;Nápověda</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="527"/>
+      <location filename="../mainwindow.cpp" line="534"/>
       <source>&amp;Windows</source>
       <comment>menubar view menu</comment>
-      <translation type="unfinished">&amp;Windows</translation>
+      <translation>&amp;Okna</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="731"/>
+      <location filename="../mainwindow.cpp" line="738"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>Nepodařilo se nastavit styl: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="968"/>
+      <location filename="../mainwindow.cpp" line="975"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Nelze exportovat, protože není načten žádný modul pro export.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="985"/>
+      <location filename="../mainwindow.cpp" line="992"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Nelze importovat, protože není načten žádný modul pro import.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1028"/>
+      <location filename="../mainwindow.cpp" line="1035"/>
       <source>Rename window</source>
       <translation>Přejmenovat okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1028"/>
+      <location filename="../mainwindow.cpp" line="1035"/>
       <source>Enter new name for the window:</source>
       <translation>Zadejte nový název okna:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1138"/>
+      <location filename="../mainwindow.cpp" line="1145"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>Jsou dostupné nové aktualizace. &lt;a href=&quot;%1&quot;&gt;Klikněte zde pro podrobnosti&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1144"/>
+      <location filename="../mainwindow.cpp" line="1151"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>Používáte &apos;nejnovější’ verzi. Nejsou dostupné žádné aktualizace.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1199"/>
+      <location filename="../mainwindow.cpp" line="1206"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos je svobodný a otevřený software. Pokud vám pomáhá při práci, zvažte &lt;a href=&quot;%1&quot;&gt;podporu projektu&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1284"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>&amp;Ikony panelu nástrojů</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1291"/>
+      <location filename="../mainwindow.cpp" line="1298"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>Velikost: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1379"/>
+      <location filename="../mainwindow.cpp" line="1386"/>
       <source>Drop files to open them</source>
       <translation>Přetáhněte soubory sem pro jejich otevření</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1481"/>
+      <location filename="../mainwindow.cpp" line="1488"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>Typ přetaženého souboru není podporován: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1491"/>
+      <location filename="../mainwindow.cpp" line="1498"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>Databáze SQLite 3 – přidat do seznamu databází a otevřít</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1493"/>
+      <location filename="../mainwindow.cpp" line="1500"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>Může se jednat o šifrovanou databázi SQLite 3. Můžete ji zkusit otevřít.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1495"/>
+      <location filename="../mainwindow.cpp" line="1502"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>Prázdný soubor, ale také prázdná databáze SQLite 3 – otevřít jako databázi</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1497"/>
+      <location filename="../mainwindow.cpp" line="1504"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>Soubor SQL – otevřít v editoru SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1499"/>
+      <location filename="../mainwindow.cpp" line="1506"/>
       <source>Text file - open in SQL Editor</source>
       <translation>Textový soubor – otevřít v editoru SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1501"/>
+      <location filename="../mainwindow.cpp" line="1508"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>Soubor CSV – importovat pomocí dialogu importu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1503"/>
+      <location filename="../mainwindow.cpp" line="1510"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>Databáze SQLite 2 – již není podporována</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1505"/>
+      <location filename="../mainwindow.cpp" line="1512"/>
       <source>Unsupported file type</source>
       <translation>Nepodporovaný typ souboru</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1604"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>Databáze předaná v parametrech příkazového řádku (%1) již byla v seznamu pod názvem: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1611"/>
+      <location filename="../mainwindow.cpp" line="1618"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>Databáze předaná v parametrech příkazového řádku (%1) byla dočasně přidána do seznamu pod názvem: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1616"/>
+      <location filename="../mainwindow.cpp" line="1623"/>
       <source>Could not add database %1 to list.</source>
       <translation>Nepodařilo se přidat databázi %1 do seznamu.</translation>
     </message>
@@ -6060,112 +6060,112 @@ Zadejte prosím nový jedinečný název nebo stiskněte &apos;%1&apos; pro pře
       <translation>Odstranit aktuální řádek</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="60"/>
+      <location filename="../mainwindow.h" line="63"/>
       <source>Main window</source>
       <translation>Hlavní okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="61"/>
+      <location filename="../mainwindow.h" line="64"/>
       <source>Open SQL editor</source>
       <translation>Otevřít editor SQL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="65"/>
+      <location filename="../mainwindow.h" line="68"/>
       <source>Open DDL history window</source>
       <translation>Otevřít okno historie DDL</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="67"/>
+      <location filename="../mainwindow.h" line="70"/>
       <source>Open snippets editor window</source>
       <translation>Otevřít okno editoru úryvků</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="66"/>
+      <location filename="../mainwindow.h" line="69"/>
       <source>Open function editor window</source>
       <translation>Otevřít okno editoru funkcí</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="62"/>
+      <location filename="../mainwindow.h" line="65"/>
       <source>Restore recently closed window</source>
       <translation>Obnovit nedávno zavřené okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="63"/>
+      <location filename="../mainwindow.h" line="66"/>
       <source>Open Export Dialog</source>
       <translation>Otevřít dialog exportu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="64"/>
+      <location filename="../mainwindow.h" line="67"/>
       <source>Open Import Dialog</source>
       <translation>Otevřít dialog importu</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="68"/>
+      <location filename="../mainwindow.h" line="71"/>
       <source>Open collation editor window</source>
       <translation>Otevřít okno editoru kolací</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="69"/>
+      <location filename="../mainwindow.h" line="72"/>
       <source>Open extension manager window</source>
       <translation>Otevřít okno správce rozšíření</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="70"/>
+      <location filename="../mainwindow.h" line="73"/>
       <source>Previous window</source>
       <translation>Předchozí okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="71"/>
+      <location filename="../mainwindow.h" line="74"/>
       <source>Next window</source>
       <translation>Další okno</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="72"/>
+      <location filename="../mainwindow.h" line="75"/>
       <source>Move window earlier</source>
       <translation>Přesunout okno dříve</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="73"/>
+      <location filename="../mainwindow.h" line="76"/>
       <source>Move window later</source>
       <translation>Přesunout okno později</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="74"/>
+      <location filename="../mainwindow.h" line="77"/>
       <source>Hide status area</source>
       <translation>Skrýt stavovou oblast</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="75"/>
+      <location filename="../mainwindow.h" line="78"/>
       <source>Open user manual</source>
       <translation>Otevřít uživatelskou příručku</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="76"/>
+      <location filename="../mainwindow.h" line="79"/>
       <source>Open configuration dialog</source>
       <translation>Otevřít dialog konfigurace</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="77"/>
+      <location filename="../mainwindow.h" line="80"/>
       <source>Open Debug Console</source>
       <translation>Otevřít ladicí konzoli</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="78"/>
+      <location filename="../mainwindow.h" line="81"/>
       <source>Open CSS Console</source>
       <translation>Otevřít konzoli CSS</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="79"/>
+      <location filename="../mainwindow.h" line="82"/>
       <source>Open Command Palette</source>
       <translation>Otevřít Paletu příkazů</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="80"/>
+      <location filename="../mainwindow.h" line="83"/>
       <source>Open the About dialog</source>
       <translation>Otevřít dialog O aplikaci</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="81"/>
+      <location filename="../mainwindow.h" line="84"/>
       <source>Quit the application</source>
       <translation>Ukončit aplikaci</translation>
     </message>

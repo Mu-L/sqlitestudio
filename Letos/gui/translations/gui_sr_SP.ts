@@ -1915,17 +1915,17 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2821"/>
       <source>Window menu layout</source>
-      <translation type="unfinished">Window menu layout</translation>
+      <translation>Распоред менија прозора</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2827"/>
       <source>Separate &quot;Windows&quot; menu</source>
-      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+      <translation>Засебан мени &quot;Прозори&quot;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2840"/>
       <source>&quot;Window List&quot; under &quot;View&quot;</source>
-      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+      <translation>&quot;Листа прозора&quot; у менију &quot;Приказ&quot;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="3014"/>
@@ -4749,412 +4749,412 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
       <translation>Трака алатки приказа</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="145"/>
+      <location filename="../mainwindow.cpp" line="152"/>
       <source>Configuration widgets</source>
       <translation>Виџети конфигурације</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="146"/>
+      <location filename="../mainwindow.cpp" line="153"/>
       <source>Syntax highlighting engines</source>
       <translation>Мотори за истицање синтаксе</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="147"/>
+      <location filename="../mainwindow.cpp" line="154"/>
       <source>Data editors</source>
       <translation>Уређивачи података</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="160"/>
+      <location filename="../mainwindow.cpp" line="167"/>
       <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
       <translation>Покренуто је у режиму отклањања грешака. Притисните %1 или користите ставку менија &apos;Помоћ / Отвори конзолу за отклањање грешака&apos; да отворите конзолу за отклањање грешака.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="162"/>
+      <location filename="../mainwindow.cpp" line="169"/>
       <source>Running in debug mode. Debug messages are printed to the standard output.</source>
       <translation>Покренуто је у режиму отклањања грешака. Поруке за отклањање грешака исписују се на стандардни излаз.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="272"/>
+      <location filename="../mainwindow.cpp" line="279"/>
       <source>You need to restart application to make the language change take effect.</source>
       <translation>Потребно је да поново покренете апликацију да би промена језика ступила на снагу.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="317"/>
+      <location filename="../mainwindow.cpp" line="324"/>
       <source>Open SQL &amp;editor</source>
       <translation>Отвори SQL &amp;уређивач</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="361"/>
+      <location filename="../mainwindow.cpp" line="368"/>
       <source>Open DDL &amp;history</source>
       <translation>Отвори DDL &amp;историју</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="318"/>
+      <location filename="../mainwindow.cpp" line="325"/>
       <source>Open SQL &amp;functions editor</source>
       <translation>Отвори уређивач SQL &amp;функција</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="319"/>
+      <location filename="../mainwindow.cpp" line="326"/>
       <source>Open code &amp;snippets editor</source>
       <translation>Отвори уређивач &amp;исечака кода</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="320"/>
+      <location filename="../mainwindow.cpp" line="327"/>
       <source>Open &amp;collations editor</source>
       <translation>Отвори уређивач &amp;секвенци сортирања</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="321"/>
+      <location filename="../mainwindow.cpp" line="328"/>
       <source>Open ex&amp;tension manager</source>
       <translation>Отвори управљач &amp;проширења</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="323"/>
+      <location filename="../mainwindow.cpp" line="330"/>
       <source>&amp;Import</source>
       <translation>&amp;Увоз</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="324"/>
+      <location filename="../mainwindow.cpp" line="331"/>
       <source>E&amp;xport</source>
       <translation>&amp;Извоз</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="325"/>
+      <location filename="../mainwindow.cpp" line="332"/>
       <source>Open confi&amp;guration dialog</source>
       <translation>Отвори дијалог конфи&amp;гурације</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="327"/>
+      <location filename="../mainwindow.cpp" line="334"/>
       <source>&amp;Tile windows</source>
       <translation>&amp;Поплочај прозоре</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="328"/>
+      <location filename="../mainwindow.cpp" line="335"/>
       <source>Tile windows &amp;horizontally</source>
       <translation>Поплочај прозоре &amp;водоравно</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="329"/>
+      <location filename="../mainwindow.cpp" line="336"/>
       <source>Tile windows &amp;vertically</source>
       <translation>Поплочај прозоре &amp;усправно</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="330"/>
+      <location filename="../mainwindow.cpp" line="337"/>
       <source>&amp;Cascade windows</source>
       <translation>&amp;Каскадно распореди прозоре</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="332"/>
+      <location filename="../mainwindow.cpp" line="339"/>
       <source>Next window</source>
       <translation>Следећи прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="331"/>
+      <location filename="../mainwindow.cpp" line="338"/>
       <source>Previous window</source>
       <translation>Претходни прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="335"/>
+      <location filename="../mainwindow.cpp" line="342"/>
       <source>Hide status field</source>
       <translation>Сакриј поље статуса</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="339"/>
+      <location filename="../mainwindow.cpp" line="346"/>
       <source>Close &amp;all windows</source>
       <translation>Затвори &amp;све прозоре</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="342"/>
+      <location filename="../mainwindow.cpp" line="349"/>
       <source>Re&amp;store recently closed window</source>
       <translation>В&amp;рати недавно затворени прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="337"/>
+      <location filename="../mainwindow.cpp" line="344"/>
       <source>Close current &amp;window</source>
       <translation>Затвори тренутни &amp;прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="148"/>
+      <location filename="../mainwindow.cpp" line="155"/>
       <source>Data renderers</source>
       <translation>Приказивачи података</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="338"/>
+      <location filename="../mainwindow.cpp" line="345"/>
       <source>Close &amp;other windows</source>
       <translation>Затвори &amp;друге прозоре</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="340"/>
+      <location filename="../mainwindow.cpp" line="347"/>
       <source>Close windows on the &amp;left</source>
       <translation>Затвори прозоре с &amp;леве стране</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="341"/>
+      <location filename="../mainwindow.cpp" line="348"/>
       <source>Close windows on the &amp;right</source>
       <translation>Затвори прозоре с &amp;десне стране</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="343"/>
+      <location filename="../mainwindow.cpp" line="350"/>
       <source>Re&amp;name selected window</source>
       <translation>Пре&amp;именуј изабрани прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="346"/>
+      <location filename="../mainwindow.cpp" line="353"/>
       <source>Open Debug Console</source>
       <translation>Отвори конзолу за отклањање грешака</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="347"/>
+      <location filename="../mainwindow.cpp" line="354"/>
       <source>Open CSS Console</source>
       <translation>Отвори CSS конзолу</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="348"/>
+      <location filename="../mainwindow.cpp" line="355"/>
       <source>Report a &amp;bug</source>
       <translation>Пријави &amp;грешку</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="349"/>
+      <location filename="../mainwindow.cpp" line="356"/>
       <source>D&amp;onate</source>
       <translation>&amp;Донирај</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="350"/>
+      <location filename="../mainwindow.cpp" line="357"/>
       <source>Propose a new &amp;feature</source>
       <translation>Предложи нову &amp;функционалност</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="351"/>
+      <location filename="../mainwindow.cpp" line="358"/>
       <source>&amp;About</source>
       <translation>&amp;О програму</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="352"/>
+      <location filename="../mainwindow.cpp" line="359"/>
       <source>&amp;Licenses</source>
       <translation>&amp;Лиценце</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="353"/>
+      <location filename="../mainwindow.cpp" line="360"/>
       <source>Open home &amp;page</source>
       <translation>Отвори &amp;почетну страницу</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="354"/>
+      <location filename="../mainwindow.cpp" line="361"/>
       <source>User &amp;Manual</source>
       <translation>Кориснички &amp;приручник</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="355"/>
+      <location filename="../mainwindow.cpp" line="362"/>
       <source>SQLite &amp;documentation</source>
       <translation>SQLite &amp;документација</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="356"/>
+      <location filename="../mainwindow.cpp" line="363"/>
       <source>Bugs and feature &amp;requests</source>
       <translation>Грешке и захтеви за &amp;функционалности</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="357"/>
+      <location filename="../mainwindow.cpp" line="364"/>
       <source>Quit</source>
       <translation>Изађи</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="359"/>
+      <location filename="../mainwindow.cpp" line="366"/>
       <source>Check for &amp;updates</source>
       <translation>Провери &amp;ажурирања</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="390"/>
+      <location filename="../mainwindow.cpp" line="397"/>
       <source>&amp;Database</source>
       <comment>menubar</comment>
       <translation>&amp;База података</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="415"/>
+      <location filename="../mainwindow.cpp" line="422"/>
       <source>&amp;Structure</source>
       <comment>menubar</comment>
       <translation>&amp;Структура</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="794"/>
+      <location filename="../mainwindow.cpp" line="801"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>&amp;Приказ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1485"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>Испуштена датотека изгледа као SQLite 2 база података, коју ова верзија Letos-а не подржава. Последња верзија која је подржавала SQLite 2 била је 3.2.1.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="535"/>
+      <location filename="../mainwindow.cpp" line="542"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>Листа прозора</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="333"/>
+      <location filename="../mainwindow.cpp" line="340"/>
       <source>Move window earlier</source>
       <translation>Помери прозор раније</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="334"/>
+      <location filename="../mainwindow.cpp" line="341"/>
       <source>Move window later</source>
       <translation>Помери прозор касније</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="345"/>
+      <location filename="../mainwindow.cpp" line="352"/>
       <source>Open Command Palette</source>
       <translation>Отвори палету команди</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="362"/>
+      <location filename="../mainwindow.cpp" line="369"/>
       <source>Export configuration</source>
       <translation>Извези конфигурацију</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="363"/>
+      <location filename="../mainwindow.cpp" line="370"/>
       <source>Import configuration</source>
       <translation>Увези конфигурацију</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="382"/>
+      <location filename="../mainwindow.cpp" line="389"/>
       <source>arrange</source>
       <comment>command palette entry</comment>
       <translation>распореди</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="469"/>
+      <location filename="../mainwindow.cpp" line="476"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>&amp;Алатке</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="489"/>
+      <location filename="../mainwindow.cpp" line="496"/>
       <source>&amp;Help</source>
       <translation>&amp;Помоћ</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="527"/>
+      <location filename="../mainwindow.cpp" line="534"/>
       <source>&amp;Windows</source>
       <comment>menubar view menu</comment>
-      <translation type="unfinished">&amp;Windows</translation>
+      <translation>&amp;Прозори</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="731"/>
+      <location filename="../mainwindow.cpp" line="738"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>Није могуће поставити стил: %1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="968"/>
+      <location filename="../mainwindow.cpp" line="975"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>Није могуће извести, јер није учитан ниједан прикључак за извоз.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="985"/>
+      <location filename="../mainwindow.cpp" line="992"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>Није могуће увести, јер није учитан ниједан прикључак за увоз.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1028"/>
+      <location filename="../mainwindow.cpp" line="1035"/>
       <source>Rename window</source>
       <translation>Преименуј прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1028"/>
+      <location filename="../mainwindow.cpp" line="1035"/>
       <source>Enter new name for the window:</source>
       <translation>Унесите нови назив за прозор:</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1138"/>
+      <location filename="../mainwindow.cpp" line="1145"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>Доступна су нова ажурирања. &lt;a href=&quot;%1&quot;&gt;Кликните овде за детаље&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1144"/>
+      <location filename="../mainwindow.cpp" line="1151"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>Користите&apos; најновију верзију. Нема доступних ажурирања.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1199"/>
+      <location filename="../mainwindow.cpp" line="1206"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos је бесплатан и отвореног кода. Ако вам помаже у раду, размислите о &lt;a href=&quot;%1&quot;&gt;подршци пројекту&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1284"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>&amp;Иконе траке алатки</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1291"/>
+      <location filename="../mainwindow.cpp" line="1298"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>Величина: %1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1379"/>
+      <location filename="../mainwindow.cpp" line="1386"/>
       <source>Drop files to open them</source>
       <translation>Испустите датотеке да их отворите</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1481"/>
+      <location filename="../mainwindow.cpp" line="1488"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>Тип испуштене датотеке није подржан: %1 (%2)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1491"/>
+      <location filename="../mainwindow.cpp" line="1498"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>SQLite 3 база података — додај на листу база података и отвори</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1493"/>
+      <location filename="../mainwindow.cpp" line="1500"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>Можда је ово шифрована SQLite 3 база података. Можете покушати да је отворите.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1495"/>
+      <location filename="../mainwindow.cpp" line="1502"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>Празна датотека, али и празна SQLite 3 база података — отвори као базу података</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1497"/>
+      <location filename="../mainwindow.cpp" line="1504"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>SQL датотека — отвори у SQL уређивачу</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1499"/>
+      <location filename="../mainwindow.cpp" line="1506"/>
       <source>Text file - open in SQL Editor</source>
       <translation>Текстуална датотека — отвори у SQL уређивачу</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1501"/>
+      <location filename="../mainwindow.cpp" line="1508"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>CSV датотека — увези помоћу дијалога за увоз</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1503"/>
+      <location filename="../mainwindow.cpp" line="1510"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>SQLite 2 база података — више није подржана</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1505"/>
+      <location filename="../mainwindow.cpp" line="1512"/>
       <source>Unsupported file type</source>
       <translation>Неподржан тип датотеке</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1604"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>База података прослеђена у параметрима командне линије (%1) већ је била на листи под називом: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1611"/>
+      <location filename="../mainwindow.cpp" line="1618"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>База података прослеђена у параметрима командне линије (%1) привремено је додата на листу под називом: %2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1616"/>
+      <location filename="../mainwindow.cpp" line="1623"/>
       <source>Could not add database %1 to list.</source>
       <translation>Није могуће додати базу података %1 на листу.</translation>
     </message>
@@ -6060,112 +6060,112 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
       <translation>Избриши тренутни ред</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="60"/>
+      <location filename="../mainwindow.h" line="63"/>
       <source>Main window</source>
       <translation>Главни прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="61"/>
+      <location filename="../mainwindow.h" line="64"/>
       <source>Open SQL editor</source>
       <translation>Отвори SQL уређивач</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="65"/>
+      <location filename="../mainwindow.h" line="68"/>
       <source>Open DDL history window</source>
       <translation>Отвори прозор DDL историје</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="67"/>
+      <location filename="../mainwindow.h" line="70"/>
       <source>Open snippets editor window</source>
       <translation>Отвори прозор уређивача исечака</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="66"/>
+      <location filename="../mainwindow.h" line="69"/>
       <source>Open function editor window</source>
       <translation>Отвори прозор уређивача функција</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="62"/>
+      <location filename="../mainwindow.h" line="65"/>
       <source>Restore recently closed window</source>
       <translation>Врати недавно затворени прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="63"/>
+      <location filename="../mainwindow.h" line="66"/>
       <source>Open Export Dialog</source>
       <translation>Отвори дијалог за извоз</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="64"/>
+      <location filename="../mainwindow.h" line="67"/>
       <source>Open Import Dialog</source>
       <translation>Отвори дијалог за увоз</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="68"/>
+      <location filename="../mainwindow.h" line="71"/>
       <source>Open collation editor window</source>
       <translation>Отвори прозор уређивача секвенци сортирања</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="69"/>
+      <location filename="../mainwindow.h" line="72"/>
       <source>Open extension manager window</source>
       <translation>Отвори прозор управљача проширења</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="70"/>
+      <location filename="../mainwindow.h" line="73"/>
       <source>Previous window</source>
       <translation>Претходни прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="71"/>
+      <location filename="../mainwindow.h" line="74"/>
       <source>Next window</source>
       <translation>Следећи прозор</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="72"/>
+      <location filename="../mainwindow.h" line="75"/>
       <source>Move window earlier</source>
       <translation>Помери прозор раније</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="73"/>
+      <location filename="../mainwindow.h" line="76"/>
       <source>Move window later</source>
       <translation>Помери прозор касније</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="74"/>
+      <location filename="../mainwindow.h" line="77"/>
       <source>Hide status area</source>
       <translation>Сакриј област статуса</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="75"/>
+      <location filename="../mainwindow.h" line="78"/>
       <source>Open user manual</source>
       <translation>Отвори кориснички приручник</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="76"/>
+      <location filename="../mainwindow.h" line="79"/>
       <source>Open configuration dialog</source>
       <translation>Отвори дијалог конфигурације</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="77"/>
+      <location filename="../mainwindow.h" line="80"/>
       <source>Open Debug Console</source>
       <translation>Отвори конзолу за отклањање грешака</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="78"/>
+      <location filename="../mainwindow.h" line="81"/>
       <source>Open CSS Console</source>
       <translation>Отвори CSS конзолу</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="79"/>
+      <location filename="../mainwindow.h" line="82"/>
       <source>Open Command Palette</source>
       <translation>Отвори палету команди</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="80"/>
+      <location filename="../mainwindow.h" line="83"/>
       <source>Open the About dialog</source>
       <translation>Отвори дијалог О програму</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="81"/>
+      <location filename="../mainwindow.h" line="84"/>
       <source>Quit the application</source>
       <translation>Изађи из апликације</translation>
     </message>

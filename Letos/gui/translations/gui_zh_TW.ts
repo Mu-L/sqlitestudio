@@ -1915,17 +1915,17 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2821"/>
       <source>Window menu layout</source>
-      <translation type="unfinished">Window menu layout</translation>
+      <translation>視窗選單版面配置</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2827"/>
       <source>Separate &quot;Windows&quot; menu</source>
-      <translation type="unfinished">Separate &quot;Windows&quot; menu</translation>
+      <translation>獨立的 &quot;視窗&quot; 選單</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2840"/>
       <source>&quot;Window List&quot; under &quot;View&quot;</source>
-      <translation type="unfinished">&quot;Window List&quot; under &quot;View&quot;</translation>
+      <translation>&quot;視窗清單&quot; 位於 &quot;檢視&quot; 下</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="3014"/>
@@ -4748,412 +4748,412 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
       <translation>檢視工具欄</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="145"/>
+      <location filename="../mainwindow.cpp" line="152"/>
       <source>Configuration widgets</source>
       <translation>設定檔部件</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="146"/>
+      <location filename="../mainwindow.cpp" line="153"/>
       <source>Syntax highlighting engines</source>
       <translation>語法高亮引擎</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="147"/>
+      <location filename="../mainwindow.cpp" line="154"/>
       <source>Data editors</source>
       <translation>資料編輯器</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="160"/>
+      <location filename="../mainwindow.cpp" line="167"/>
       <source>Running in debug mode. Press %1 or use &apos;Help / Open debug console&apos; menu entry to open the debug console.</source>
       <translation>正在以除錯模式執行。按下 %1 或使用 幫助 - 開啟除錯控制檯 選單來開啟除錯控制檯。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="162"/>
+      <location filename="../mainwindow.cpp" line="169"/>
       <source>Running in debug mode. Debug messages are printed to the standard output.</source>
       <translation>正在以除錯模式執行。除錯資訊將會被輸出在標準輸出中。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="272"/>
+      <location filename="../mainwindow.cpp" line="279"/>
       <source>You need to restart application to make the language change take effect.</source>
       <translation>語言變更在程式重啟後生效。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="317"/>
+      <location filename="../mainwindow.cpp" line="324"/>
       <source>Open SQL &amp;editor</source>
       <translation>開啟 SQL 編輯器(&amp;E)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="361"/>
+      <location filename="../mainwindow.cpp" line="368"/>
       <source>Open DDL &amp;history</source>
       <translation>開啟 DDL 歷史(&amp;H)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="318"/>
+      <location filename="../mainwindow.cpp" line="325"/>
       <source>Open SQL &amp;functions editor</source>
       <translation>開啟 SQL 函式編輯器(&amp;F)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="319"/>
+      <location filename="../mainwindow.cpp" line="326"/>
       <source>Open code &amp;snippets editor</source>
       <translation>開啟程式碼&amp;片段編輯器</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="320"/>
+      <location filename="../mainwindow.cpp" line="327"/>
       <source>Open &amp;collations editor</source>
       <translation>開啟字元序編輯器(&amp;C)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="321"/>
+      <location filename="../mainwindow.cpp" line="328"/>
       <source>Open ex&amp;tension manager</source>
       <translation>開啟擴充套件管理器(&amp;T)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="323"/>
+      <location filename="../mainwindow.cpp" line="330"/>
       <source>&amp;Import</source>
       <translation>匯入(&amp;I)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="324"/>
+      <location filename="../mainwindow.cpp" line="331"/>
       <source>E&amp;xport</source>
       <translation>匯出(&amp;X)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="325"/>
+      <location filename="../mainwindow.cpp" line="332"/>
       <source>Open confi&amp;guration dialog</source>
       <translation>開啟設定檔對話方塊(&amp;G)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="327"/>
+      <location filename="../mainwindow.cpp" line="334"/>
       <source>&amp;Tile windows</source>
       <translation>平鋪視窗(&amp;T)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="328"/>
+      <location filename="../mainwindow.cpp" line="335"/>
       <source>Tile windows &amp;horizontally</source>
       <translation>水平排列視窗(&amp;H)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="329"/>
+      <location filename="../mainwindow.cpp" line="336"/>
       <source>Tile windows &amp;vertically</source>
       <translation>垂直排列視窗(&amp;V)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="330"/>
+      <location filename="../mainwindow.cpp" line="337"/>
       <source>&amp;Cascade windows</source>
       <translation>層疊視窗(&amp;C)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="332"/>
+      <location filename="../mainwindow.cpp" line="339"/>
       <source>Next window</source>
       <translation>下一個視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="331"/>
+      <location filename="../mainwindow.cpp" line="338"/>
       <source>Previous window</source>
       <translation>上一個視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="335"/>
+      <location filename="../mainwindow.cpp" line="342"/>
       <source>Hide status field</source>
       <translation>隱藏狀態列</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="339"/>
+      <location filename="../mainwindow.cpp" line="346"/>
       <source>Close &amp;all windows</source>
       <translation>關閉全部視窗(&amp;A)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="342"/>
+      <location filename="../mainwindow.cpp" line="349"/>
       <source>Re&amp;store recently closed window</source>
       <translation>還原最近關閉的視窗(&amp;S)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="337"/>
+      <location filename="../mainwindow.cpp" line="344"/>
       <source>Close current &amp;window</source>
       <translation>關閉目前視窗(&amp;W)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="148"/>
+      <location filename="../mainwindow.cpp" line="155"/>
       <source>Data renderers</source>
       <translation>資料呈現器</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="338"/>
+      <location filename="../mainwindow.cpp" line="345"/>
       <source>Close &amp;other windows</source>
       <translation>關閉其他視窗(&amp;O)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="340"/>
+      <location filename="../mainwindow.cpp" line="347"/>
       <source>Close windows on the &amp;left</source>
       <translation>關閉左側的視窗(&amp;L)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="341"/>
+      <location filename="../mainwindow.cpp" line="348"/>
       <source>Close windows on the &amp;right</source>
       <translation>關閉右側的視窗(&amp;R)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="343"/>
+      <location filename="../mainwindow.cpp" line="350"/>
       <source>Re&amp;name selected window</source>
       <translation>重新命名目前視窗(&amp;N)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="346"/>
+      <location filename="../mainwindow.cpp" line="353"/>
       <source>Open Debug Console</source>
       <translation>開啟除錯終端</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="347"/>
+      <location filename="../mainwindow.cpp" line="354"/>
       <source>Open CSS Console</source>
       <translation>開啟 CSS 控制檯</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="348"/>
+      <location filename="../mainwindow.cpp" line="355"/>
       <source>Report a &amp;bug</source>
       <translation>提報 Bug (&amp;B)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="349"/>
+      <location filename="../mainwindow.cpp" line="356"/>
       <source>D&amp;onate</source>
       <translation>捐贈(&amp;O)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="350"/>
+      <location filename="../mainwindow.cpp" line="357"/>
       <source>Propose a new &amp;feature</source>
       <translation>提議新增功能(&amp;F)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="351"/>
+      <location filename="../mainwindow.cpp" line="358"/>
       <source>&amp;About</source>
       <translation>關於(&amp;A)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="352"/>
+      <location filename="../mainwindow.cpp" line="359"/>
       <source>&amp;Licenses</source>
       <translation>許可協議(&amp;L)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="353"/>
+      <location filename="../mainwindow.cpp" line="360"/>
       <source>Open home &amp;page</source>
       <translation>訪問主頁(&amp;P)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="354"/>
+      <location filename="../mainwindow.cpp" line="361"/>
       <source>User &amp;Manual</source>
       <translation>使用者手冊(&amp;M)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="355"/>
+      <location filename="../mainwindow.cpp" line="362"/>
       <source>SQLite &amp;documentation</source>
       <translation>SQLite 文件(&amp;D)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="356"/>
+      <location filename="../mainwindow.cpp" line="363"/>
       <source>Bugs and feature &amp;requests</source>
       <translation>Bug 與功能請求(&amp;R)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="357"/>
+      <location filename="../mainwindow.cpp" line="364"/>
       <source>Quit</source>
       <translation>退出</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="359"/>
+      <location filename="../mainwindow.cpp" line="366"/>
       <source>Check for &amp;updates</source>
       <translation>檢查更新(&amp;U)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="390"/>
+      <location filename="../mainwindow.cpp" line="397"/>
       <source>&amp;Database</source>
       <comment>menubar</comment>
       <translation>資料庫(&amp;D)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="415"/>
+      <location filename="../mainwindow.cpp" line="422"/>
       <source>&amp;Structure</source>
       <comment>menubar</comment>
       <translation>結構(&amp;S)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="794"/>
+      <location filename="../mainwindow.cpp" line="801"/>
       <source>&amp;View</source>
       <comment>menubar</comment>
       <translation>檢視(&amp;V)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1478"/>
+      <location filename="../mainwindow.cpp" line="1485"/>
       <source>The dropped file appears to be a SQLite 2 database, which is not supported by this Letos version. Last version supporting SQLite 2 was 3.2.1.</source>
       <translation>拖放的檔案似乎是 SQLite 2 資料庫，此 Letos 版本不支援。最後支援 SQLite 2 的版本是 3.2.1。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="535"/>
+      <location filename="../mainwindow.cpp" line="542"/>
       <source>Window list</source>
       <comment>menubar view menu</comment>
       <translation>視窗清單</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="333"/>
+      <location filename="../mainwindow.cpp" line="340"/>
       <source>Move window earlier</source>
       <translation>將視窗往前移</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="334"/>
+      <location filename="../mainwindow.cpp" line="341"/>
       <source>Move window later</source>
       <translation>將視窗往後移</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="345"/>
+      <location filename="../mainwindow.cpp" line="352"/>
       <source>Open Command Palette</source>
       <translation>開啟命令面板</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="362"/>
+      <location filename="../mainwindow.cpp" line="369"/>
       <source>Export configuration</source>
       <translation>匯出組態</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="363"/>
+      <location filename="../mainwindow.cpp" line="370"/>
       <source>Import configuration</source>
       <translation>匯入組態</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="382"/>
+      <location filename="../mainwindow.cpp" line="389"/>
       <source>arrange</source>
       <comment>command palette entry</comment>
       <translation>排列</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="469"/>
+      <location filename="../mainwindow.cpp" line="476"/>
       <source>&amp;Tools</source>
       <comment>menubar</comment>
       <translation>工具(&amp;T)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="489"/>
+      <location filename="../mainwindow.cpp" line="496"/>
       <source>&amp;Help</source>
       <translation>幫助(&amp;H)</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="527"/>
+      <location filename="../mainwindow.cpp" line="534"/>
       <source>&amp;Windows</source>
       <comment>menubar view menu</comment>
-      <translation type="unfinished">&amp;Windows</translation>
+      <translation>&amp;視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="731"/>
+      <location filename="../mainwindow.cpp" line="738"/>
       <source>Could not set style: %1</source>
       <comment>main window</comment>
       <translation>未能設定風格：%1</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="968"/>
+      <location filename="../mainwindow.cpp" line="975"/>
       <source>Cannot export, because no export plugin is loaded.</source>
       <translation>無法匯出，沒有載入匯出外掛。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="985"/>
+      <location filename="../mainwindow.cpp" line="992"/>
       <source>Cannot import, because no import plugin is loaded.</source>
       <translation>無法匯入，沒有載入匯入外掛。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1028"/>
+      <location filename="../mainwindow.cpp" line="1035"/>
       <source>Rename window</source>
       <translation>重新命名視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1028"/>
+      <location filename="../mainwindow.cpp" line="1035"/>
       <source>Enter new name for the window:</source>
       <translation>請輸入視窗的新名稱：</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1138"/>
+      <location filename="../mainwindow.cpp" line="1145"/>
       <source>New updates are available. &lt;a href=&quot;%1&quot;&gt;Click here for details&lt;/a&gt;.</source>
       <translation>有新更新 &lt;a href=&quot;%1&quot;&gt;點此檢視更新詳情&lt;/a&gt;.</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1144"/>
+      <location filename="../mainwindow.cpp" line="1151"/>
       <source>You&apos;re running the most recent version. No updates are available.</source>
       <translation>您使用的是最新版，不需要更新。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1199"/>
+      <location filename="../mainwindow.cpp" line="1206"/>
       <source>Letos is free and open source. If it helps with your work, consider &lt;a href=&quot;%1&quot;&gt;supporting the project&lt;/a&gt;.</source>
       <translation>Letos 是免費且開放原始碼的軟體。如果它對您的工作有所幫助，請考慮&lt;a href=&quot;%1&quot;&gt;支援此專案&lt;/a&gt;。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1284"/>
+      <location filename="../mainwindow.cpp" line="1291"/>
       <source>Toolbar &amp;icons</source>
       <comment>menubar</comment>
       <translation>工具列&amp;圖示</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1291"/>
+      <location filename="../mainwindow.cpp" line="1298"/>
       <source>Size: %1%</source>
       <comment>toolbar icons</comment>
       <translation>大小：%1%</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1379"/>
+      <location filename="../mainwindow.cpp" line="1386"/>
       <source>Drop files to open them</source>
       <translation>拖放檔案以開啟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1481"/>
+      <location filename="../mainwindow.cpp" line="1488"/>
       <source>The dropped file type is unsupported: %1 (%2)</source>
       <translation>不支援拖放的檔案型別：%1（%2）</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1491"/>
+      <location filename="../mainwindow.cpp" line="1498"/>
       <source>SQLite 3 database - add to database list and open</source>
       <translation>SQLite 3 資料庫 - 新增至資料庫清單並開啟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1493"/>
+      <location filename="../mainwindow.cpp" line="1500"/>
       <source>It may be an encrypted SQLite 3 database. You can try to open it.</source>
       <translation>它可能是加密的 SQLite 3 資料庫。您可以嘗試開啟它。</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1495"/>
+      <location filename="../mainwindow.cpp" line="1502"/>
       <source>Empty file, but also empty SQLite 3 database - open as database</source>
       <translation>空檔案，但也是空的 SQLite 3 資料庫 - 作為資料庫開啟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1497"/>
+      <location filename="../mainwindow.cpp" line="1504"/>
       <source>SQL file - open in SQL Editor</source>
       <translation>SQL 檔案 - 在 SQL 編輯器中開啟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1499"/>
+      <location filename="../mainwindow.cpp" line="1506"/>
       <source>Text file - open in SQL Editor</source>
       <translation>文字檔案 - 在 SQL 編輯器中開啟</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1501"/>
+      <location filename="../mainwindow.cpp" line="1508"/>
       <source>CSV file - import using Import Dialog</source>
       <translation>CSV 檔案 - 使用匯入對話框匯入</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1503"/>
+      <location filename="../mainwindow.cpp" line="1510"/>
       <source>SQLite 2 database - not supported anymore</source>
       <translation>SQLite 2 資料庫 - 不再支援</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1505"/>
+      <location filename="../mainwindow.cpp" line="1512"/>
       <source>Unsupported file type</source>
       <translation>不支援的檔案型別</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1604"/>
+      <location filename="../mainwindow.cpp" line="1611"/>
       <source>Database passed in command line parameters (%1) was already on the list under name: %2</source>
       <translation>命令列引數傳遞的資料庫 (%1) 已在清單中，名為：%2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1611"/>
+      <location filename="../mainwindow.cpp" line="1618"/>
       <source>Database passed in command line parameters (%1) has been temporarily added to the list under name: %2</source>
       <translation>命令列引數傳遞的資料庫 (%1) 已臨時新增到清單中，名為：%2</translation>
     </message>
     <message>
-      <location filename="../mainwindow.cpp" line="1616"/>
+      <location filename="../mainwindow.cpp" line="1623"/>
       <source>Could not add database %1 to list.</source>
       <translation>未能將資料 %1 新增到清單</translation>
     </message>
@@ -6059,112 +6059,112 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
       <translation>刪除當前行</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="60"/>
+      <location filename="../mainwindow.h" line="63"/>
       <source>Main window</source>
       <translation>主視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="61"/>
+      <location filename="../mainwindow.h" line="64"/>
       <source>Open SQL editor</source>
       <translation>開啟 SQL 編輯器</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="65"/>
+      <location filename="../mainwindow.h" line="68"/>
       <source>Open DDL history window</source>
       <translation>開啟 DDL 歷史視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="67"/>
+      <location filename="../mainwindow.h" line="70"/>
       <source>Open snippets editor window</source>
       <translation>開啟程式碼片段編輯器視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="66"/>
+      <location filename="../mainwindow.h" line="69"/>
       <source>Open function editor window</source>
       <translation>開啟函式編輯器視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="62"/>
+      <location filename="../mainwindow.h" line="65"/>
       <source>Restore recently closed window</source>
       <translation>還原最近關閉的視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="63"/>
+      <location filename="../mainwindow.h" line="66"/>
       <source>Open Export Dialog</source>
       <translation>開啟匯出對話方塊</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="64"/>
+      <location filename="../mainwindow.h" line="67"/>
       <source>Open Import Dialog</source>
       <translation>開啟匯入對話方塊</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="68"/>
+      <location filename="../mainwindow.h" line="71"/>
       <source>Open collation editor window</source>
       <translation>開啟定序編輯器視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="69"/>
+      <location filename="../mainwindow.h" line="72"/>
       <source>Open extension manager window</source>
       <translation>開啟擴充套件管理器視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="70"/>
+      <location filename="../mainwindow.h" line="73"/>
       <source>Previous window</source>
       <translation>上一個視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="71"/>
+      <location filename="../mainwindow.h" line="74"/>
       <source>Next window</source>
       <translation>下一個視窗</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="72"/>
+      <location filename="../mainwindow.h" line="75"/>
       <source>Move window earlier</source>
       <translation>將視窗往前移</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="73"/>
+      <location filename="../mainwindow.h" line="76"/>
       <source>Move window later</source>
       <translation>將視窗往後移</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="74"/>
+      <location filename="../mainwindow.h" line="77"/>
       <source>Hide status area</source>
       <translation>隱藏狀態列</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="75"/>
+      <location filename="../mainwindow.h" line="78"/>
       <source>Open user manual</source>
       <translation>開啟使用手冊</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="76"/>
+      <location filename="../mainwindow.h" line="79"/>
       <source>Open configuration dialog</source>
       <translation>開啟設定檔對話方塊</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="77"/>
+      <location filename="../mainwindow.h" line="80"/>
       <source>Open Debug Console</source>
       <translation>開啟除錯終端</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="78"/>
+      <location filename="../mainwindow.h" line="81"/>
       <source>Open CSS Console</source>
       <translation>開啟 CSS 控制檯</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="79"/>
+      <location filename="../mainwindow.h" line="82"/>
       <source>Open Command Palette</source>
       <translation>開啟命令面板</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="80"/>
+      <location filename="../mainwindow.h" line="83"/>
       <source>Open the About dialog</source>
       <translation>開啟「關於」對話方塊</translation>
     </message>
     <message>
-      <location filename="../mainwindow.h" line="81"/>
+      <location filename="../mainwindow.h" line="84"/>
       <source>Quit the application</source>
       <translation>退出程式</translation>
     </message>
