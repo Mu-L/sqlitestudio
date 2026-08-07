@@ -59,7 +59,7 @@ bool MacMdiWindowSwitcher::eventFilter(QObject* watched, QEvent* event)
         return QObject::eventFilter(watched, event);
     }
 
-    if (event->type() != QEvent::KeyPress && event->type() != QEvent::KeyRelease)
+    if (event->type() != QEvent::KeyPress && event->type() != QEvent::KeyRelease && event->type() != QEvent::ShortcutOverride)
         return QObject::eventFilter(watched, event);
 
     QKeyEvent* keyEvent = static_cast<QKeyEvent*>(event);
@@ -76,7 +76,7 @@ bool MacMdiWindowSwitcher::eventFilter(QObject* watched, QEvent* event)
         return true;
     }
 
-    if (event->type() == QEvent::KeyPress)
+    if (event->type() == QEvent::KeyPress || event->type() == QEvent::ShortcutOverride)
     {
         int direction = 0;
         if (isForwardSequence(keyEvent))
