@@ -10,9 +10,10 @@
 
 CFG_CATEGORIES_EX(ErdConfig, ERDEDITORSHARED_EXPORT,
     CFG_CATEGORY_EX(Erd, ERDEDITORSHARED_EXPORT,
-        CFG_ENTRY(ErdArrowItem::Type, ArrowType,     ErdArrowItem::CURVY)
-        CFG_ENTRY(long,               MaxTableLimit, 200)
-        CFG_ENTRY(bool,               DragBySpace,   false)
+        CFG_ENTRY(ErdArrowItem::Type, ArrowType,        ErdArrowItem::CURVY)
+        CFG_ENTRY(long,               MaxTableLimit,    200)
+        CFG_ENTRY(bool,               DragBySpace,      false)
+        CFG_ENTRY(bool,               GlowingRelations, true)
     )
 )
 

@@ -6,6 +6,7 @@
 #include "erdlinearrowitem.h"
 #include "erdconnection.h"
 #include "changes/erdchangemodifyentity.h"
+#include "style.h"
 #include "tablemodifier.h"
 #include "changes/erdchangenewentity.h"
 #include "erdview.h"

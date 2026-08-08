@@ -5,6 +5,7 @@
 #include "parser/ast/sqlitecreatetable.h"
 #include <QGraphicsRectItem>
 
+class QGraphicsDropShadowEffect;
 class QGridLayout;
 class QFrame;
 class QLabel;
@@ -54,6 +55,7 @@ class ErdEntity : public QObject, public QGraphicsRectItem, public ErdItem
         QPair<QColor, QColor> getCustomColor() const;
         bool usesCustomColor() const;
         bool applyFilter(const QString& value);
+        void updateGlowingState();
 
     protected:
         void keyPressEvent(QKeyEvent* event) override;
@@ -102,6 +104,7 @@ class ErdEntity : public QObject, public QGraphicsRectItem, public ErdItem
         bool inlineEditionCheckIfFieldDeleted(bool indexAutocorrection = true);
         void handleFieldEditedInline(int rowIdx, const QString& newName);
         void handleFieldDeleted(int rowIdx);
+        void resetEffectColor();
 
         static constexpr qreal CELL_PADDING = 7.0;
         static constexpr qreal TEXT_GAP = 8.0;
@@ -115,6 +118,7 @@ class ErdEntity : public QObject, public QGraphicsRectItem, public ErdItem
         int lastInlineEditedRow = -1;
         QColor customBgColor;
         QColor customFgColor;
+        QGraphicsDropShadowEffect* effect = nullptr;
 
     private slots:
         void applyRowEdition(int rowIdx, const QString& value, QGraphicsProxyWidget* inlineProxy);

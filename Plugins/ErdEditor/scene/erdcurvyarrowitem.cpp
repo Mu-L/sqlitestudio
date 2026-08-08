@@ -68,6 +68,8 @@ void ErdCurvyArrowItem::setPoints(const QLineF& line, Side startSide, Side endSi
 
 void ErdCurvyArrowItem::paint(QPainter* painter, const QStyleOptionGraphicsItem*, QWidget*)
 {
+    paintGlow(painter);
+
     QPen myPen = QPen(STYLE->standardPalette().text().color(), 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
 
     painter->setPen(myPen);
@@ -91,4 +93,3 @@ void ErdCurvyArrowItem::paint(QPainter* painter, const QStyleOptionGraphicsItem*
         painter->drawPolygon(arrowHead);
     }
 }
-

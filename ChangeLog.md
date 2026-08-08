@@ -1,6 +1,7 @@
 # ChangeLog
 
 ### 4.0.3
+- ADDED: #5794 Added glowing effect for entities & arrows being in relation with the selected entity. Can be turned off/on.
 - BUGFIX: #5794 Scene area once again refreshes after entity is moved out of the scene, so it's possible to scroll to see it.
 
 ### 4.0.2

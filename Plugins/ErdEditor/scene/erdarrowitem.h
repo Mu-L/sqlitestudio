@@ -4,6 +4,8 @@
 #include "erditem.h"
 #include <QGraphicsPathItem>
 
+class QPainter;
+
 class ErdArrowItem : public ErdItem, public QGraphicsPathItem
 {
     public:
@@ -36,6 +38,7 @@ class ErdArrowItem : public ErdItem, public QGraphicsPathItem
         ErdArrowItem();
 
         void refreshArrowHead(qreal yDistance, qreal xDistance);
+        void paintGlow(QPainter* painter);
 
         QPainterPath linePath;
         int arrowItemType;

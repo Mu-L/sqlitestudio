@@ -59,6 +59,8 @@ void ErdSquareArrowItem::setPoints(const QLineF& line, Side startSide, Side endS
 
 void ErdSquareArrowItem::paint(QPainter* painter, const QStyleOptionGraphicsItem*, QWidget*)
 {
+    paintGlow(painter);
+
     QPen myPen = QPen(STYLE->standardPalette().text().color(), 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
 
     painter->setPen(myPen);

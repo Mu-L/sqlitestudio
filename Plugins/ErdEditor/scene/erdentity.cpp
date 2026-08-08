@@ -6,6 +6,7 @@
 #include "common/global.h"
 #include "common/deleteonfocusoutfilter.h"
 #include "uiutils.h"
+#include "erdeditorplugin.h"
 #include <QGraphicsDropShadowEffect>
 #include <QGraphicsTextItem>
 #include <QGraphicsLineItem>
@@ -39,10 +40,10 @@ ErdEntity::ErdEntity(const SqliteCreateTablePtr& tableModel) :
     setFlag(QGraphicsItem::ItemIsMovable, true);
     setFlag(QGraphicsItem::ItemSendsGeometryChanges, true);
 
-    QGraphicsDropShadowEffect* effect = new QGraphicsDropShadowEffect();
+    effect = new QGraphicsDropShadowEffect();
     effect->setBlurRadius(20);
     effect->setOffset(4, 4);
-    effect->setColor(QColor(0, 0, 0, 128));
+    resetEffectColor();
     setGraphicsEffect(effect);
 
     rebuild();
@@ -185,6 +186,33 @@ void ErdEntity::paint(QPainter* painter, const QStyleOptionGraphicsItem* option,
 {
     Q_UNUSED(option);
     Q_UNUSED(widget);
+
+    bool doResetEffectColor = true;
+    if (CFG_ERD.Erd.GlowingRelations.get())
+    {
+        if (isSelected())
+        {
+            effect->setColor(STYLE->isDark() ? QColor(0, 192, 0, 96) : QColor(0, 128, 0, 255));
+            doResetEffectColor = false;
+        }
+        else
+        {
+            for (ErdConnection* conn : connections)
+            {
+                ErdEntity* otherEntity = (conn->getStartEntity() == this) ? conn->getEndEntity() : conn->getStartEntity();
+                if (otherEntity && otherEntity->isSelected())
+                {
+                    effect->setColor(STYLE->isDark() ? QColor(0, 192, 0, 96) : QColor(0, 128, 0, 255));
+                    doResetEffectColor = false;
+                    break;
+                }
+            }
+        }
+    }
+
+    if (doResetEffectColor)
+        resetEffectColor();
+
     int radius = 4;
     painter->setPen(pen());
     painter->setBrush(brush());
@@ -717,6 +745,8 @@ QVariant ErdEntity::itemChange(GraphicsItemChange change, const QVariant& value)
         // updateGeometry();
         QRectF rect = mapRectToScene(boundingRect());
         scene()->invalidate(rect, QGraphicsScene::ForegroundLayer);
+
+        updateGlowingState();
     }
 
     return QGraphicsRectItem::itemChange(change, value);
@@ -804,6 +834,24 @@ bool ErdEntity::inlineEditionCheckIfFieldDeleted(bool indexAutocorrection)
         return true;
     }
     return false;
+}
+
+void ErdEntity::resetEffectColor()
+{
+    effect->setColor(QColor(0, 0, 0, 128));
+}
+
+void ErdEntity::updateGlowingState()
+{
+    for (ErdConnection* conn : connections)
+    {
+        ErdArrowItem* arrow = const_cast<ErdArrowItem*>(conn->getArrowItem());
+        arrow->update();
+
+        ErdEntity* otherEntity = (conn->getStartEntity() == this) ? conn->getEndEntity() : conn->getStartEntity();
+        if (otherEntity)
+            otherEntity->update();
+    }
 }
 
 void ErdEntity::setCustomColor(const QColor& bg)

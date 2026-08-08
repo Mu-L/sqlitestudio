@@ -1,11 +1,7 @@
 #include "scene/erdconnection.h"
-#include "scene/erdlinearrowitem.h"
-#include "scene/erdcurvyarrowitem.h"
 #include "scene/erdentity.h"
 #include "scene/erdscene.h"
-#include "erdeditorplugin.h"
 #include "changes/erdchangemodifyentity.h"
-#include "db/db.h"
 #include "db/chainexecutor.h"
 #include "services/notifymanager.h"
 #include <QDebug>

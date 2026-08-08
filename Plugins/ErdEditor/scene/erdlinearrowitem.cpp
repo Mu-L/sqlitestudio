@@ -30,12 +30,13 @@ void ErdLineArrowItem::setPoints(const QLineF& line, Side startEntitySide, Side 
 
 void ErdLineArrowItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *, QWidget *)
 {
+    paintGlow(painter);
+
     QPen myPen = QPen(STYLE->standardPalette().text().color(), 1, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
 
     painter->setPen(myPen);
     painter->setBrush(myPen.color());
     painter->drawPath(path());
-
 
     if (isSelected())
     {

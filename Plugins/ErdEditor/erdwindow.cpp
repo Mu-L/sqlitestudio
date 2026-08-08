@@ -14,7 +14,6 @@
 #include "changes/erdchangeregistry.h"
 #include "changes/erdchangemodifyentity.h"
 #include "db/sqlquery.h"
-#include "db/sqlresultsrow.h"
 #include "changes/erdchangecomposite.h"
 #include "changes/erdchangedeleteconnection.h"
 #include "changes/erdchangedeleteentity.h"
@@ -22,7 +21,6 @@
 #include "changes/erdchangeregistrydialog.h"
 #include "scene/erdconnection.h"
 #include "panel/erdconnectionpanel.h"
-#include "tablemodifier.h"
 #include "common/colorpickerpopup.h"
 #include "common/extlineedit.h"
 #include "changes/erdeffectivechangemerger.h"
@@ -198,6 +196,8 @@ void ErdWindow::createActions()
     createAction(ARRANGE_FDP, *fdpIcon, tr("Auto-arrange (local forces)", "ERD editor"), scene, SLOT(arrangeEntitiesFdp()), ui->toolBar);
     createAction(ARRANGE_NEATO, *neatoIcon, tr("Auto-arrange (global balance)", "ERD editor"), scene, SLOT(arrangeEntitiesNeato()), ui->toolBar);
     ui->toolBar->addSeparator();
+    actionMap[SETTINGS] = ui->toolBar->addWidget(createSettingsDropdown());
+    ui->toolBar->addSeparator();
     actionMap[FILTER_VALUE] = ui->toolBar->addWidget(filterEdit);
     createAction(SELECT_ALL, ICONS.ACT_SELECT_ALL, tr("Select all"), scene, SLOT(selectAll()), this);
 
@@ -259,6 +259,30 @@ QToolButton* ErdWindow::createLineStyleAction()
     updateArrowTypeButtons();
 
     return lineTypeButton;
+}
+
+QToolButton* ErdWindow::createSettingsDropdown()
+{
+    QMenu* settingsMenu = new QMenu(this);
+
+    createAction(SETT_SPACE_PAN, tr("Pan view with Space only", "ERD editor"), this, SLOT(togglePanWithSpace()), this);
+    actionMap[SETT_SPACE_PAN]->setCheckable(true);
+    actionMap[SETT_SPACE_PAN]->setChecked(CFG_ERD.Erd.DragBySpace.get());
+    settingsMenu->addAction(actionMap[SETT_SPACE_PAN]);
+
+    createAction(SETT_GLOW, tr("Highlight related entities", "ERD editor"), this, SLOT(toggleRelationsGlow()), this);
+    actionMap[SETT_GLOW]->setCheckable(true);
+    actionMap[SETT_GLOW]->setChecked(CFG_ERD.Erd.GlowingRelations.get());
+    settingsMenu->addAction(actionMap[SETT_GLOW]);
+
+    // Toolbar button
+    QToolButton* settingsButton = new QToolButton();
+    settingsButton->setPopupMode(QToolButton::InstantPopup);
+    settingsButton->setIcon(ICONS.SQL_EDITOR_SETTINGS);
+    settingsButton->setMenu(settingsMenu);
+    settingsButton->setStyleSheet("QToolButton {padding-right: 12px;}");
+    settingsButton->setToolTip(tr("ERD settings", "ERD editor"));
+    return settingsButton;
 }
 
 void ErdWindow::applySelectedEntityColor(const QColor& color)
@@ -621,6 +645,21 @@ void ErdWindow::handleColumnEditRequest(ErdEntity* entity, const QString& column
 
     if (tableWindow->editColumn(columnName))
         tableWindow->commitErdChange();
+}
+
+void ErdWindow::togglePanWithSpace()
+{
+    bool enabled = actionMap[SETT_SPACE_PAN]->isChecked();
+    CFG_ERD.Erd.DragBySpace.set(enabled);
+}
+
+void ErdWindow::toggleRelationsGlow()
+{
+    bool enabled = actionMap[SETT_GLOW]->isChecked();
+    CFG_ERD.Erd.GlowingRelations.set(enabled);
+
+    for (ErdEntity* e : scene->getSelectedEntities())
+        e->updateGlowingState();
 }
 
 void ErdWindow::itemSelectionChanged()

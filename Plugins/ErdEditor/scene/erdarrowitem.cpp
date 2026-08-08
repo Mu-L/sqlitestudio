@@ -1,10 +1,14 @@
 #include "erdarrowitem.h"
+#include "erdconnection.h"
 #include "erdcurvyarrowitem.h"
 #include "erdlinearrowitem.h"
+#include "erdscene.h"
 #include "erdsquarearrowitem.h"
+#include "erdeditorplugin.h"
 #include <QGraphicsDropShadowEffect>
 #include <QPen>
 #include <QtMath>
+#include <QPainter>
 #include <QDebug>
 
 ErdArrowItem::ErdArrowItem() :
@@ -94,3 +98,55 @@ void ErdArrowItem::setArrowIndexInEndEntity(int idx)
 {
     arrowIndexInEndEntity = idx;
 }
+
+void ErdArrowItem::paintGlow(QPainter* painter)
+{
+    if (!CFG_ERD.Erd.GlowingRelations.get())
+        return;
+
+    if (isSelected())
+        return;
+
+    ErdScene* erdScene = qobject_cast<ErdScene*>(scene());
+    if (!erdScene)
+    {
+        qWarning() << "No ErdScene for arrow" << this << ". Skipping arrow glowing routine.";
+        return;
+    }
+    ErdConnection* conn = erdScene->getConnectionForArrow(this);
+    if (!conn)
+    {
+        qWarning() << "No ErdConnection for arrow" << this << ". Skipping arrow glowing routine.";
+        return;
+    }
+
+    QList<ErdEntity*> selectedEntities = erdScene->getSelectedEntities();
+    if (!selectedEntities.contains(conn->getStartEntity()) && !selectedEntities.contains(conn->getEndEntity()))
+        return;
+
+    struct GlowLayer
+    {
+        qreal width;
+        int alpha;
+    };
+
+    static constexpr GlowLayer glowLayers[] = {
+        { 11.0, 20 },
+        {  7.0, 35 },
+        {  4.0, 70 }
+    };
+
+    const QColor glowBase = QColor(0, 192, 0);
+
+    painter->setBrush(Qt::NoBrush);
+
+    QColor color = glowBase;
+    for (const auto& layer : glowLayers)
+    {
+        color.setAlpha(layer.alpha);
+        QPen pen(color, layer.width, Qt::SolidLine, Qt::RoundCap, Qt::RoundJoin);
+        painter->setPen(pen);
+        painter->drawPath(path());
+    }
+}
+

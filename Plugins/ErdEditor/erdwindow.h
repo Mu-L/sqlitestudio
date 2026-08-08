@@ -51,6 +51,9 @@ class ERDEDITORSHARED_EXPORT ErdWindow : public MdiChild
             UNDO,
             REDO,
             DELETE_SELECTED,
+            SETTINGS,
+            SETT_SPACE_PAN,
+            SETT_GLOW,
             FILTER_VALUE,
             SELECT_ALL
         };
@@ -115,6 +118,7 @@ class ERDEDITORSHARED_EXPORT ErdWindow : public MdiChild
         QString getCurrentSidePanelModificationsEntity() const;
         QToolButton* createSetTableColorAction();
         QToolButton* createLineStyleAction();
+        QToolButton* createSettingsDropdown();
         void applySelectedEntityColor(const QColor& color);
         void updatePickerColorFromSelected(QList<QGraphicsItem*> selectedItems);
         void initFilter();
@@ -201,6 +205,8 @@ class ERDEDITORSHARED_EXPORT ErdWindow : public MdiChild
         void commitExecutionFailure(int errorCode, const QString& errorText);
         void updateCommitExecutionStatus(int queryIdx);
         void handleColumnEditRequest(ErdEntity* entity, const QString& columnName);
+        void togglePanWithSpace();
+        void toggleRelationsGlow();
 };
 
 #endif // ERDWINDOW_H
