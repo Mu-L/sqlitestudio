@@ -1,5 +1,8 @@
 # ChangeLog
 
+### 4.0.3
+- BUGFIX: #5794 Scene area once again refreshes after entity is moved out of the scene, so it's possible to scroll to see it.
+
 ### 4.0.2
 - ADDED: #5758 Added `Fusion Light` theme, so now there's `Fusion` for system-compliant autodetected color palette, `Fusion Dark` for enforced dark palette and `Fusion Light` for light palette.
 - ADDED: #5771 Window List menu is now by default a top-level menu (on menubar), but it still can be restored to previous way (submenu in View menu) in configuration.

@@ -702,6 +702,9 @@ QVariant ErdEntity::itemChange(GraphicsItemChange change, const QVariant& value)
             child->update();
 
         updateConnectionsGeometry();
+
+        // Resize scene rect to fit all items, because the item may be outside of current scene rect after moving
+        emit requestSceneGeomUpdate();
     }
 
     if (change == ItemSelectedHasChanged)
