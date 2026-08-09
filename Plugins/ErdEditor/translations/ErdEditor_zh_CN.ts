@@ -70,12 +70,12 @@
     <message>
       <location filename="../erdconfig.ui" line="69"/>
       <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
-      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+      <translation>高亮显示与所选实体直接相关的实体以及连接这些实体的关系。</translation>
     </message>
     <message>
       <location filename="../erdconfig.ui" line="72"/>
       <source>Highlight related entities</source>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>高亮相关实体</translation>
     </message>
   </context>
   <context>
@@ -340,7 +340,7 @@
       <location filename="../erdwindow.cpp" line="268"/>
       <source>Pan view with Space only</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Pan view with Space only</translation>
+      <translation>仅使用空格键的平移视图</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="273"/>
