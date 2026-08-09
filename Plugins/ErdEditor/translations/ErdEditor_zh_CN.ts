@@ -346,13 +346,13 @@
       <location filename="../erdwindow.cpp" line="273"/>
       <source>Highlight related entities</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>高亮相关实体</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="284"/>
       <source>ERD settings</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">ERD settings</translation>
+      <translation>ERD 设置</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="335"/>
