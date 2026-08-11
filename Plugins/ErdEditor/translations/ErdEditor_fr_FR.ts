@@ -70,12 +70,12 @@
     <message>
       <location filename="../erdconfig.ui" line="69"/>
       <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
-      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+      <translation>Mettre en surbrillance les entités directement liées à l’entité sélectionnée et les relations qui les relient.</translation>
     </message>
     <message>
       <location filename="../erdconfig.ui" line="72"/>
       <source>Highlight related entities</source>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Mettre en surbrillance les entités liées</translation>
     </message>
   </context>
   <context>
@@ -340,19 +340,19 @@
       <location filename="../erdwindow.cpp" line="268"/>
       <source>Pan view with Space only</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Pan view with Space only</translation>
+      <translation>Déplacer la vue avec la barre d’espace uniquement</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="273"/>
       <source>Highlight related entities</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Mettre en surbrillance les entités liées</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="284"/>
       <source>ERD settings</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">ERD settings</translation>
+      <translation>Paramètres de l’ERD</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="335"/>
