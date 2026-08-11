@@ -48,12 +48,12 @@
   <context>
     <name>ErdConfig</name>
     <message>
-      <location filename="../erdconfig.ui" line="33"/>
+      <location filename="../erdconfig.ui" line="20"/>
       <source>Maximum number of tables for ERD editor</source>
       <translation>Максимальна кількість таблиць для редактора ERD</translation>
     </message>
     <message>
-      <location filename="../erdconfig.ui" line="40"/>
+      <location filename="../erdconfig.ui" line="27"/>
       <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
       <translation>Установлення надто високого значення може призвести до уповільнення роботи застосунку або його зависання під час відкриття редактора ERD.</translation>
     </message>
@@ -66,6 +66,16 @@
       <location filename="../erdconfig.ui" line="59"/>
       <source>Pan view with Space only</source>
       <translation>Панорамувати вигляд лише Пробілом</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="69"/>
+      <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
+      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="72"/>
+      <source>Highlight related entities</source>
+      <translation type="unfinished">Highlight related entities</translation>
     </message>
   </context>
   <context>
@@ -139,61 +149,61 @@
   <context>
     <name>ErdScene</name>
     <message>
-      <location filename="../scene/erdscene.cpp" line="530"/>
+      <location filename="../scene/erdscene.cpp" line="531"/>
       <source>Delete multiple diagram elements.</source>
       <comment>ERD editor</comment>
       <translation>Видалити кілька елементів діаграми.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="547"/>
+      <location filename="../scene/erdscene.cpp" line="548"/>
       <source>Failed to execute the undo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Не вдалося виконати DDL для скасування. Подробиці: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="569"/>
+      <location filename="../scene/erdscene.cpp" line="570"/>
       <source>Failed to execute the redo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Не вдалося виконати DDL для повторення. Подробиці: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="596"/>
+      <location filename="../scene/erdscene.cpp" line="597"/>
       <source>Failed to execute DDL required for table deletion. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Не вдалося виконати DDL, необхідний для видалення таблиці. Подробиці: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="607"/>
+      <location filename="../scene/erdscene.cpp" line="608"/>
       <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Видалити зовнішній ключ між &quot;%1&quot; і &quot;%2&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="616"/>
+      <location filename="../scene/erdscene.cpp" line="617"/>
       <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
       <translation>Не вдалося виконати DDL, необхідний для видалення зовнішнього ключа. Подробиці: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="824"/>
+      <location filename="../scene/erdscene.cpp" line="825"/>
       <source>Arrange entities</source>
       <translation>Упорядкувати сутності</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="825"/>
+      <location filename="../scene/erdscene.cpp" line="826"/>
       <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
       <translation>Ви впевнені, що хочете автоматично впорядкувати сутності на діаграмі? Ця дія перезапише поточне компонування, і всі ручні коригування буде втрачено.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="845"/>
+      <location filename="../scene/erdscene.cpp" line="846"/>
       <source>Change color of table &quot;%1&quot; to %2.</source>
       <translation>Змінити колір таблиці &quot;%1&quot; на %2.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="851"/>
+      <location filename="../scene/erdscene.cpp" line="852"/>
       <source>Change color of multiple tables.</source>
       <translation>Змінити колір кількох таблиць.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="696"/>
+      <location filename="../scene/erdscene.cpp" line="697"/>
       <source>Apply diagram layout</source>
       <translation>Застосувати компонування діаграми</translation>
     </message>
@@ -274,50 +284,50 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Утримуйте Пробіл і перетягуйте мишею, щоб вільно панорамувати діаграму, не вибираючи жодних елементів.&lt;/p&gt;&lt;p&gt;- Використовуйте коліщатко миші, щоб збільшувати й зменшувати масштаб.&lt;/p&gt;&lt;p&gt;- Зніміть вибір із таблиці (або натисніть Зафіксувати на панелі інструментів бічної панелі), щоб застосувати зміни бічної панелі до діаграми.&lt;/p&gt;&lt;p&gt;- Натисніть Esc (або натисніть Відкотити на панелі інструментів бічної панелі), щоб відкинути зміни бічної панелі.&lt;/p&gt;&lt;p&gt;- Двічі клацніть назву таблиці або стовпець, щоб редагувати назву безпосередньо на місці.&lt;/p&gt;&lt;p&gt;- Клацніть стовпець двічі з Shift, щоб редагувати подробиці стовпця (тип даних, обмеження).&lt;/p&gt;&lt;p&gt;- Щоб створити зовнішній ключ між таблицями, клацніть середньою кнопкою миші стовпці таблиць, які потрібно з’єднати.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Усі зміни діаграми залишаються в очікуванні, доки ви явно не зафіксуєте або не відкотите їх&lt;/span&gt; за допомогою кнопок панелі інструментів у верхньому лівому куті діаграми.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Дізнатися більше (натисніть, щоб відкрити сторінку онлайн-довідки)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="165"/>
+      <location filename="../erdwindow.cpp" line="163"/>
       <source>Cancels ongoing action</source>
       <comment>ERD editor</comment>
       <translation>Скасовує поточну дію</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="164"/>
       <source>Create a table</source>
       <comment>ERD editor</comment>
       <translation>Створити таблицю</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="168"/>
-      <location filename="../erdwindow.cpp" line="649"/>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="688"/>
       <source>Reload schema</source>
       <comment>ERD editor</comment>
       <translation>Перезавантажити схему</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="169"/>
+      <location filename="../erdwindow.cpp" line="167"/>
       <source>Commit all pending changes</source>
       <comment>ERD editor</comment>
       <translation>Зафіксувати всі зміни, що очікують</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="170"/>
+      <location filename="../erdwindow.cpp" line="168"/>
       <source>Revert diagram to initial state</source>
       <comment>ERD editor</comment>
       <translation>Повернути діаграму до початкового стану</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="172"/>
+      <location filename="../erdwindow.cpp" line="170"/>
       <source>Undo</source>
       <comment>ERD editor</comment>
       <translation>Скасувати</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="173"/>
+      <location filename="../erdwindow.cpp" line="171"/>
       <source>Redo</source>
       <comment>ERD editor</comment>
       <translation>Повторити</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="189"/>
+      <location filename="../erdwindow.cpp" line="187"/>
       <source>Create a table</source>
       <translation>Створити таблицю</translation>
     </message>
@@ -327,93 +337,111 @@
       <translation>Вибрати все</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="311"/>
+      <location filename="../erdwindow.cpp" line="268"/>
+      <source>Pan view with Space only</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Pan view with Space only</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="273"/>
+      <source>Highlight related entities</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Highlight related entities</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="284"/>
+      <source>ERD settings</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">ERD settings</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="335"/>
       <source>Filter items</source>
       <comment>ERD editor</comment>
       <translation>Фільтрувати елементи</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="312"/>
+      <location filename="../erdwindow.cpp" line="336"/>
       <source>Items that don’t match the filter will be dimmed.</source>
       <comment>ERD editor</comment>
       <translation>Елементи, які не відповідають фільтру, буде затемнено.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="448"/>
+      <location filename="../erdwindow.cpp" line="472"/>
       <source>table name</source>
       <comment>ERD editor</comment>
       <translation>назва таблиці</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="450"/>
+      <location filename="../erdwindow.cpp" line="474"/>
       <source>column name</source>
       <comment>ERD editor</comment>
       <translation>назва стовпця</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="570"/>
+      <location filename="../erdwindow.cpp" line="594"/>
       <source>All changes have been successfully applied to the database.</source>
       <comment>ERD editor</comment>
       <translation>Усі зміни успішно застосовано до бази даних.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="578"/>
+      <location filename="../erdwindow.cpp" line="602"/>
       <source>The changes were successfully committed. No modifications to the database schema were required.</source>
       <comment>ERD editor</comment>
       <translation>Зміни успішно зафіксовано. Зміни схеми бази даних не були потрібні.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="586"/>
+      <location filename="../erdwindow.cpp" line="610"/>
       <source>Failed to apply changes to the database. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Не вдалося застосувати зміни до бази даних. Подробиці: %1</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="650"/>
+      <location filename="../erdwindow.cpp" line="689"/>
       <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
       <translation>Ця дія відкине всі ваші зміни, що очікують, і перезавантажить діаграму з поточної схеми бази даних. Історію скасування/повторення буде очищено. Бажаєте продовжити?</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="833"/>
+      <location filename="../erdwindow.cpp" line="872"/>
       <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
       <translation>Вікно ERD &quot;%1&quot; має незафіксовані зміни.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1145"/>
+      <location filename="../erdwindow.cpp" line="1189"/>
       <source>ERD editor (%1)</source>
       <translation>Редактор ERD (%1)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1147"/>
+      <location filename="../erdwindow.cpp" line="1191"/>
       <source>ERD editor</source>
       <translation>Редактор ERD</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="181"/>
+      <location filename="../erdwindow.cpp" line="179"/>
       <source>The number of changes pending for commit. Click to see details.</source>
       <comment>ERD editor</comment>
       <translation>Кількість змін, що очікують фіксації. Клацніть, щоб переглянути подробиці.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="190"/>
+      <location filename="../erdwindow.cpp" line="188"/>
       <source>Add a foreign key</source>
       <comment>ERD editor</comment>
       <translation>Додати зовнішній ключ</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="192"/>
+      <location filename="../erdwindow.cpp" line="190"/>
       <source>Delete selected items</source>
       <comment>ERD editor</comment>
       <translation>Видалити вибрані елементи</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="198"/>
+      <location filename="../erdwindow.cpp" line="196"/>
       <source>Auto-arrange (local forces)</source>
       <comment>ERD editor</comment>
       <translation>Автоматичне впорядкування (локальні сили)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="199"/>
+      <location filename="../erdwindow.cpp" line="197"/>
       <source>Auto-arrange (global balance)</source>
       <comment>ERD editor</comment>
       <translation>Автоматичне впорядкування (глобальний баланс)</translation>
@@ -481,17 +509,17 @@
       <translation>Видалити таблиці: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <location filename="../scene/erdconnection.cpp" line="145"/>
       <source>Could not commit changes for finalized ERD connection.</source>
       <translation>Не вдалося зафіксувати зміни для завершеного з’єднання ERD.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <location filename="../scene/erdconnection.cpp" line="151"/>
       <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
       <translation>Оновити зв’язок із &quot;%1&quot;-&quot;%2&quot; на &quot;%1&quot;-&quot;%3&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <location filename="../scene/erdconnection.cpp" line="153"/>
       <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Створити зв’язок між &quot;%1&quot; і &quot;%2&quot;.</translation>
     </message>

@@ -48,12 +48,12 @@
   <context>
     <name>ErdConfig</name>
     <message>
-      <location filename="../erdconfig.ui" line="33"/>
+      <location filename="../erdconfig.ui" line="20"/>
       <source>Maximum number of tables for ERD editor</source>
       <translation>Número máximo de tablas para el editor ERD</translation>
     </message>
     <message>
-      <location filename="../erdconfig.ui" line="40"/>
+      <location filename="../erdconfig.ui" line="27"/>
       <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
       <translation>Establecer este valor demasiado alto puede hacer que la aplicación se ralentice o deje de responder al abrir el editor ERD.</translation>
     </message>
@@ -66,6 +66,16 @@
       <location filename="../erdconfig.ui" line="59"/>
       <source>Pan view with Space only</source>
       <translation>Desplazar la vista solo con Espacio</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="69"/>
+      <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
+      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="72"/>
+      <source>Highlight related entities</source>
+      <translation type="unfinished">Highlight related entities</translation>
     </message>
   </context>
   <context>
@@ -139,61 +149,61 @@
   <context>
     <name>ErdScene</name>
     <message>
-      <location filename="../scene/erdscene.cpp" line="530"/>
+      <location filename="../scene/erdscene.cpp" line="531"/>
       <source>Delete multiple diagram elements.</source>
       <comment>ERD editor</comment>
       <translation>Eliminar varios elementos del diagrama.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="547"/>
+      <location filename="../scene/erdscene.cpp" line="548"/>
       <source>Failed to execute the undo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Error al ejecutar el DDL de deshacer. Detalles: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="569"/>
+      <location filename="../scene/erdscene.cpp" line="570"/>
       <source>Failed to execute the redo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Error al ejecutar el DDL de rehacer. Detalles: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="596"/>
+      <location filename="../scene/erdscene.cpp" line="597"/>
       <source>Failed to execute DDL required for table deletion. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Error al ejecutar el DDL requerido para la eliminación de la tabla. Detalles: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="607"/>
+      <location filename="../scene/erdscene.cpp" line="608"/>
       <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Eliminar clave foránea entre &quot;%1&quot; y &quot;%2&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="616"/>
+      <location filename="../scene/erdscene.cpp" line="617"/>
       <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
       <translation>Error al ejecutar el DDL requerido para la eliminación de la clave foránea. Detalles: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="824"/>
+      <location filename="../scene/erdscene.cpp" line="825"/>
       <source>Arrange entities</source>
       <translation>Organizar entidades</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="825"/>
+      <location filename="../scene/erdscene.cpp" line="826"/>
       <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
       <translation>¿Seguro que desea organizar automáticamente las entidades en el diagrama? Esta acción sobrescribirá la disposición actual y se perderán todos los ajustes manuales.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="845"/>
+      <location filename="../scene/erdscene.cpp" line="846"/>
       <source>Change color of table &quot;%1&quot; to %2.</source>
       <translation>Cambiar el color de la tabla &quot;%1&quot; a %2.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="851"/>
+      <location filename="../scene/erdscene.cpp" line="852"/>
       <source>Change color of multiple tables.</source>
       <translation>Cambiar el color de varias tablas.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="696"/>
+      <location filename="../scene/erdscene.cpp" line="697"/>
       <source>Apply diagram layout</source>
       <translation>Aplicar disposición del diagrama</translation>
     </message>
@@ -274,50 +284,50 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Mantenga pulsada la barra espaciadora y arrastre con el ratón para desplazar libremente el diagrama sin seleccionar ningún elemento.&lt;/p&gt;&lt;p&gt;- Use la rueda del ratón para acercar y alejar.&lt;/p&gt;&lt;p&gt;- Deseleccione la tabla (o haga clic en Confirmar en la barra de herramientas del panel lateral) para aplicar los cambios del panel lateral al diagrama.&lt;/p&gt;&lt;p&gt;- Pulse Esc (o haga clic en Revertir en la barra de herramientas del panel lateral) para descartar los cambios del panel lateral.&lt;/p&gt;&lt;p&gt;- Haga doble clic en un nombre de tabla o columna para editar el nombre en línea.&lt;/p&gt;&lt;p&gt;- Pulse Mayús y haga doble clic en una columna para editar los detalles de la columna (tipo de datos, restricciones).&lt;/p&gt;&lt;p&gt;- Para crear una clave foránea entre tablas, haga clic con el botón central del ratón en las columnas de tabla que desea conectar.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Todos los cambios del diagrama permanecen pendientes hasta que los confirme o los revierta explícitamente&lt;/span&gt; usando los botones de la barra de herramientas en la esquina superior izquierda del diagrama.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Más información (haga clic para abrir la página de ayuda en línea)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="165"/>
+      <location filename="../erdwindow.cpp" line="163"/>
       <source>Cancels ongoing action</source>
       <comment>ERD editor</comment>
       <translation>Cancela la acción en curso</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="164"/>
       <source>Create a table</source>
       <comment>ERD editor</comment>
       <translation>Crear una tabla</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="168"/>
-      <location filename="../erdwindow.cpp" line="649"/>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="688"/>
       <source>Reload schema</source>
       <comment>ERD editor</comment>
       <translation>Recargar esquema</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="169"/>
+      <location filename="../erdwindow.cpp" line="167"/>
       <source>Commit all pending changes</source>
       <comment>ERD editor</comment>
       <translation>Confirmar todos los cambios pendientes</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="170"/>
+      <location filename="../erdwindow.cpp" line="168"/>
       <source>Revert diagram to initial state</source>
       <comment>ERD editor</comment>
       <translation>Revertir el diagrama a su estado inicial</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="172"/>
+      <location filename="../erdwindow.cpp" line="170"/>
       <source>Undo</source>
       <comment>ERD editor</comment>
       <translation>Deshacer</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="173"/>
+      <location filename="../erdwindow.cpp" line="171"/>
       <source>Redo</source>
       <comment>ERD editor</comment>
       <translation>Rehacer</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="189"/>
+      <location filename="../erdwindow.cpp" line="187"/>
       <source>Create a table</source>
       <translation>Crear una tabla</translation>
     </message>
@@ -327,93 +337,111 @@
       <translation>Seleccionar todo</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="311"/>
+      <location filename="../erdwindow.cpp" line="268"/>
+      <source>Pan view with Space only</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Pan view with Space only</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="273"/>
+      <source>Highlight related entities</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Highlight related entities</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="284"/>
+      <source>ERD settings</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">ERD settings</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="335"/>
       <source>Filter items</source>
       <comment>ERD editor</comment>
       <translation>Filtrar elementos</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="312"/>
+      <location filename="../erdwindow.cpp" line="336"/>
       <source>Items that don’t match the filter will be dimmed.</source>
       <comment>ERD editor</comment>
       <translation>Los elementos que no coincidan con el filtro se atenuarán.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="448"/>
+      <location filename="../erdwindow.cpp" line="472"/>
       <source>table name</source>
       <comment>ERD editor</comment>
       <translation>nombre de tabla</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="450"/>
+      <location filename="../erdwindow.cpp" line="474"/>
       <source>column name</source>
       <comment>ERD editor</comment>
       <translation>nombre de columna</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="570"/>
+      <location filename="../erdwindow.cpp" line="594"/>
       <source>All changes have been successfully applied to the database.</source>
       <comment>ERD editor</comment>
       <translation>Todos los cambios se han aplicado correctamente a la base de datos.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="578"/>
+      <location filename="../erdwindow.cpp" line="602"/>
       <source>The changes were successfully committed. No modifications to the database schema were required.</source>
       <comment>ERD editor</comment>
       <translation>Los cambios se confirmaron correctamente. No se requirieron modificaciones en el esquema de la base de datos.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="586"/>
+      <location filename="../erdwindow.cpp" line="610"/>
       <source>Failed to apply changes to the database. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Error al aplicar los cambios a la base de datos. Detalles: %1</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="650"/>
+      <location filename="../erdwindow.cpp" line="689"/>
       <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
       <translation>Esta acción descartará todos sus cambios pendientes y recargará el diagrama desde el esquema actual de la base de datos. Se borrará el historial de deshacer/rehacer. ¿Desea continuar?</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="833"/>
+      <location filename="../erdwindow.cpp" line="872"/>
       <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
       <translation>La ventana ERD &quot;%1&quot; tiene cambios sin confirmar.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1145"/>
+      <location filename="../erdwindow.cpp" line="1189"/>
       <source>ERD editor (%1)</source>
       <translation>Editor ERD (%1)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1147"/>
+      <location filename="../erdwindow.cpp" line="1191"/>
       <source>ERD editor</source>
       <translation>Editor ERD</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="181"/>
+      <location filename="../erdwindow.cpp" line="179"/>
       <source>The number of changes pending for commit. Click to see details.</source>
       <comment>ERD editor</comment>
       <translation>El número de cambios pendientes de confirmación. Haga clic para ver los detalles.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="190"/>
+      <location filename="../erdwindow.cpp" line="188"/>
       <source>Add a foreign key</source>
       <comment>ERD editor</comment>
       <translation>Añadir una clave foránea</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="192"/>
+      <location filename="../erdwindow.cpp" line="190"/>
       <source>Delete selected items</source>
       <comment>ERD editor</comment>
       <translation>Eliminar elementos seleccionados</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="198"/>
+      <location filename="../erdwindow.cpp" line="196"/>
       <source>Auto-arrange (local forces)</source>
       <comment>ERD editor</comment>
       <translation>Organizar automáticamente (fuerzas locales)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="199"/>
+      <location filename="../erdwindow.cpp" line="197"/>
       <source>Auto-arrange (global balance)</source>
       <comment>ERD editor</comment>
       <translation>Organizar automáticamente (equilibrio global)</translation>
@@ -481,17 +509,17 @@
       <translation>Eliminar tablas: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <location filename="../scene/erdconnection.cpp" line="145"/>
       <source>Could not commit changes for finalized ERD connection.</source>
       <translation>No se pudieron confirmar los cambios para la conexión ERD finalizada.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <location filename="../scene/erdconnection.cpp" line="151"/>
       <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
       <translation>Actualizar la relación de &quot;%1&quot;-&quot;%2&quot; a &quot;%1&quot;-&quot;%3&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <location filename="../scene/erdconnection.cpp" line="153"/>
       <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Crear relación entre &quot;%1&quot; y &quot;%2&quot;.</translation>
     </message>

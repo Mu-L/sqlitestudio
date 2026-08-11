@@ -48,12 +48,12 @@
   <context>
     <name>ErdConfig</name>
     <message>
-      <location filename="../erdconfig.ui" line="33"/>
+      <location filename="../erdconfig.ui" line="20"/>
       <source>Maximum number of tables for ERD editor</source>
       <translation>Số lượng bảng tối đa cho trình chỉnh sửa ERD</translation>
     </message>
     <message>
-      <location filename="../erdconfig.ui" line="40"/>
+      <location filename="../erdconfig.ui" line="27"/>
       <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
       <translation>Đặt giá trị này quá cao có thể khiến ứng dụng chậm lại hoặc không phản hồi khi mở trình chỉnh sửa ERD.</translation>
     </message>
@@ -66,6 +66,16 @@
       <location filename="../erdconfig.ui" line="59"/>
       <source>Pan view with Space only</source>
       <translation>Chỉ dùng Space để kéo khung nhìn</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="69"/>
+      <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
+      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="72"/>
+      <source>Highlight related entities</source>
+      <translation type="unfinished">Highlight related entities</translation>
     </message>
   </context>
   <context>
@@ -139,61 +149,61 @@
   <context>
     <name>ErdScene</name>
     <message>
-      <location filename="../scene/erdscene.cpp" line="530"/>
+      <location filename="../scene/erdscene.cpp" line="531"/>
       <source>Delete multiple diagram elements.</source>
       <comment>ERD editor</comment>
       <translation>Xóa nhiều phần tử sơ đồ.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="547"/>
+      <location filename="../scene/erdscene.cpp" line="548"/>
       <source>Failed to execute the undo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Không thể thực thi DDL hoàn tác. Chi tiết: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="569"/>
+      <location filename="../scene/erdscene.cpp" line="570"/>
       <source>Failed to execute the redo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Không thể thực thi DDL làm lại. Chi tiết: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="596"/>
+      <location filename="../scene/erdscene.cpp" line="597"/>
       <source>Failed to execute DDL required for table deletion. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Không thể thực thi DDL cần thiết để xóa bảng. Chi tiết: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="607"/>
+      <location filename="../scene/erdscene.cpp" line="608"/>
       <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Xóa khóa ngoại giữa &quot;%1&quot; và &quot;%2&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="616"/>
+      <location filename="../scene/erdscene.cpp" line="617"/>
       <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
       <translation>Không thể thực thi DDL cần thiết để xóa khóa ngoại. Chi tiết: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="824"/>
+      <location filename="../scene/erdscene.cpp" line="825"/>
       <source>Arrange entities</source>
       <translation>Sắp xếp thực thể</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="825"/>
+      <location filename="../scene/erdscene.cpp" line="826"/>
       <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
       <translation>Bạn có chắc chắn muốn tự động sắp xếp các thực thể trên sơ đồ không? Hành động này sẽ ghi đè bố cục hiện tại và mọi điều chỉnh thủ công sẽ bị mất.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="845"/>
+      <location filename="../scene/erdscene.cpp" line="846"/>
       <source>Change color of table &quot;%1&quot; to %2.</source>
       <translation>Đổi màu của bảng &quot;%1&quot; thành %2.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="851"/>
+      <location filename="../scene/erdscene.cpp" line="852"/>
       <source>Change color of multiple tables.</source>
       <translation>Đổi màu của nhiều bảng.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="696"/>
+      <location filename="../scene/erdscene.cpp" line="697"/>
       <source>Apply diagram layout</source>
       <translation>Áp dụng bố cục sơ đồ</translation>
     </message>
@@ -274,50 +284,50 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Giữ phím Spacebar và kéo bằng chuột để kéo sơ đồ tự do mà không chọn bất kỳ mục nào.&lt;/p&gt;&lt;p&gt;- Dùng bánh xe chuột để phóng to và thu nhỏ.&lt;/p&gt;&lt;p&gt;- Bỏ chọn bảng (hoặc nhấp Xác nhận trên thanh công cụ bảng bên) để áp dụng các thay đổi của bảng bên vào sơ đồ.&lt;/p&gt;&lt;p&gt;- Nhấn Esc (hoặc nhấp Khôi phục trên thanh công cụ bảng bên) để hủy bỏ các thay đổi của bảng bên.&lt;/p&gt;&lt;p&gt;- Nhấp đúp vào tên bảng hoặc cột để chỉnh sửa tên trực tiếp tại chỗ.&lt;/p&gt;&lt;p&gt;- Shift-nhấp đúp vào một cột để chỉnh sửa chi tiết cột (kiểu dữ liệu, ràng buộc).&lt;/p&gt;&lt;p&gt;- Để tạo khóa ngoại giữa các bảng, hãy nhấp nút chuột giữa vào các cột bảng bạn muốn kết nối.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Tất cả thay đổi sơ đồ vẫn ở trạng thái đang chờ cho đến khi bạn xác nhận hoặc hoàn nguyên chúng một cách rõ ràng&lt;/span&gt; bằng các nút trên thanh công cụ ở góc trên bên trái của sơ đồ.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Tìm hiểu thêm (nhấp để mở trang trợ giúp trực tuyến)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="165"/>
+      <location filename="../erdwindow.cpp" line="163"/>
       <source>Cancels ongoing action</source>
       <comment>ERD editor</comment>
       <translation>Hủy hành động đang diễn ra</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="164"/>
       <source>Create a table</source>
       <comment>ERD editor</comment>
       <translation>Tạo bảng</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="168"/>
-      <location filename="../erdwindow.cpp" line="649"/>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="688"/>
       <source>Reload schema</source>
       <comment>ERD editor</comment>
       <translation>Tải lại lược đồ</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="169"/>
+      <location filename="../erdwindow.cpp" line="167"/>
       <source>Commit all pending changes</source>
       <comment>ERD editor</comment>
       <translation>Xác nhận tất cả thay đổi đang chờ</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="170"/>
+      <location filename="../erdwindow.cpp" line="168"/>
       <source>Revert diagram to initial state</source>
       <comment>ERD editor</comment>
       <translation>Hoàn nguyên sơ đồ về trạng thái ban đầu</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="172"/>
+      <location filename="../erdwindow.cpp" line="170"/>
       <source>Undo</source>
       <comment>ERD editor</comment>
       <translation>Hoàn tác</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="173"/>
+      <location filename="../erdwindow.cpp" line="171"/>
       <source>Redo</source>
       <comment>ERD editor</comment>
       <translation>Làm lại</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="189"/>
+      <location filename="../erdwindow.cpp" line="187"/>
       <source>Create a table</source>
       <translation>Tạo bảng</translation>
     </message>
@@ -327,93 +337,111 @@
       <translation>Chọn tất cả</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="311"/>
+      <location filename="../erdwindow.cpp" line="268"/>
+      <source>Pan view with Space only</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Pan view with Space only</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="273"/>
+      <source>Highlight related entities</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Highlight related entities</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="284"/>
+      <source>ERD settings</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">ERD settings</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="335"/>
       <source>Filter items</source>
       <comment>ERD editor</comment>
       <translation>Lọc mục</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="312"/>
+      <location filename="../erdwindow.cpp" line="336"/>
       <source>Items that don’t match the filter will be dimmed.</source>
       <comment>ERD editor</comment>
       <translation>Các mục không khớp với bộ lọc sẽ bị làm mờ.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="448"/>
+      <location filename="../erdwindow.cpp" line="472"/>
       <source>table name</source>
       <comment>ERD editor</comment>
       <translation>tên bảng</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="450"/>
+      <location filename="../erdwindow.cpp" line="474"/>
       <source>column name</source>
       <comment>ERD editor</comment>
       <translation>tên cột</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="570"/>
+      <location filename="../erdwindow.cpp" line="594"/>
       <source>All changes have been successfully applied to the database.</source>
       <comment>ERD editor</comment>
       <translation>Tất cả thay đổi đã được áp dụng thành công vào cơ sở dữ liệu.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="578"/>
+      <location filename="../erdwindow.cpp" line="602"/>
       <source>The changes were successfully committed. No modifications to the database schema were required.</source>
       <comment>ERD editor</comment>
       <translation>Các thay đổi đã được xác nhận thành công. Không cần sửa đổi lược đồ cơ sở dữ liệu.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="586"/>
+      <location filename="../erdwindow.cpp" line="610"/>
       <source>Failed to apply changes to the database. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Không thể áp dụng thay đổi vào cơ sở dữ liệu. Chi tiết: %1</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="650"/>
+      <location filename="../erdwindow.cpp" line="689"/>
       <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
       <translation>Hành động này sẽ hủy bỏ tất cả thay đổi đang chờ của bạn và tải lại sơ đồ từ lược đồ cơ sở dữ liệu hiện tại. Lịch sử hoàn tác/làm lại sẽ bị xóa. Bạn có muốn tiếp tục không?</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="833"/>
+      <location filename="../erdwindow.cpp" line="872"/>
       <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
       <translation>Cửa sổ ERD &quot;%1&quot; có các thay đổi chưa xác nhận.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1145"/>
+      <location filename="../erdwindow.cpp" line="1189"/>
       <source>ERD editor (%1)</source>
       <translation>Trình chỉnh sửa ERD (%1)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1147"/>
+      <location filename="../erdwindow.cpp" line="1191"/>
       <source>ERD editor</source>
       <translation>Trình chỉnh sửa ERD</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="181"/>
+      <location filename="../erdwindow.cpp" line="179"/>
       <source>The number of changes pending for commit. Click to see details.</source>
       <comment>ERD editor</comment>
       <translation>Số lượng thay đổi đang chờ xác nhận. Nhấp để xem chi tiết.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="190"/>
+      <location filename="../erdwindow.cpp" line="188"/>
       <source>Add a foreign key</source>
       <comment>ERD editor</comment>
       <translation>Thêm khóa ngoại</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="192"/>
+      <location filename="../erdwindow.cpp" line="190"/>
       <source>Delete selected items</source>
       <comment>ERD editor</comment>
       <translation>Xóa các mục đã chọn</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="198"/>
+      <location filename="../erdwindow.cpp" line="196"/>
       <source>Auto-arrange (local forces)</source>
       <comment>ERD editor</comment>
       <translation>Tự động sắp xếp (lực cục bộ)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="199"/>
+      <location filename="../erdwindow.cpp" line="197"/>
       <source>Auto-arrange (global balance)</source>
       <comment>ERD editor</comment>
       <translation>Tự động sắp xếp (cân bằng toàn cục)</translation>
@@ -481,17 +509,17 @@
       <translation>Xóa bảng: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <location filename="../scene/erdconnection.cpp" line="145"/>
       <source>Could not commit changes for finalized ERD connection.</source>
       <translation>Không thể xác nhận thay đổi cho kết nối ERD đã hoàn tất.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <location filename="../scene/erdconnection.cpp" line="151"/>
       <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
       <translation>Cập nhật quan hệ từ &quot;%1&quot;-&quot;%2&quot; thành &quot;%1&quot;-&quot;%3&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <location filename="../scene/erdconnection.cpp" line="153"/>
       <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Tạo quan hệ giữa &quot;%1&quot; và &quot;%2&quot;.</translation>
     </message>

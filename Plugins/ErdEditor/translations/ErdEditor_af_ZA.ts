@@ -48,12 +48,12 @@
   <context>
     <name>ErdConfig</name>
     <message>
-      <location filename="../erdconfig.ui" line="33"/>
+      <location filename="../erdconfig.ui" line="20"/>
       <source>Maximum number of tables for ERD editor</source>
       <translation>Maksimum aantal tabelle vir die ERD-redigeerder</translation>
     </message>
     <message>
-      <location filename="../erdconfig.ui" line="40"/>
+      <location filename="../erdconfig.ui" line="27"/>
       <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
       <translation>As hierdie waarde te hoog gestel word, kan dit veroorsaak dat die toepassing stadiger word of nie reageer wanneer die ERD-redigeerder oopgemaak word nie.</translation>
     </message>
@@ -66,6 +66,16 @@
       <location filename="../erdconfig.ui" line="59"/>
       <source>Pan view with Space only</source>
       <translation>Pan aansig slegs met Spasie</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="69"/>
+      <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
+      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="72"/>
+      <source>Highlight related entities</source>
+      <translation type="unfinished">Highlight related entities</translation>
     </message>
   </context>
   <context>
@@ -139,61 +149,61 @@
   <context>
     <name>ErdScene</name>
     <message>
-      <location filename="../scene/erdscene.cpp" line="530"/>
+      <location filename="../scene/erdscene.cpp" line="531"/>
       <source>Delete multiple diagram elements.</source>
       <comment>ERD editor</comment>
       <translation>Vee veelvuldige diagramelemente uit.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="547"/>
+      <location filename="../scene/erdscene.cpp" line="548"/>
       <source>Failed to execute the undo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kon nie die ontdoen-DDL uitvoer nie. Besonderhede: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="569"/>
+      <location filename="../scene/erdscene.cpp" line="570"/>
       <source>Failed to execute the redo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kon nie die herdoen-DDL uitvoer nie. Besonderhede: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="596"/>
+      <location filename="../scene/erdscene.cpp" line="597"/>
       <source>Failed to execute DDL required for table deletion. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kon nie DDL uitvoer wat vir tabeluitvee vereis word nie. Besonderhede: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="607"/>
+      <location filename="../scene/erdscene.cpp" line="608"/>
       <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Vee vreemde sleutel tussen &quot;%1&quot; en &quot;%2&quot; uit.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="616"/>
+      <location filename="../scene/erdscene.cpp" line="617"/>
       <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
       <translation>Kon nie DDL uitvoer wat vir die uitvee van die vreemde sleutel vereis word nie. Besonderhede: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="824"/>
+      <location filename="../scene/erdscene.cpp" line="825"/>
       <source>Arrange entities</source>
       <translation>Rangskik entiteite</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="825"/>
+      <location filename="../scene/erdscene.cpp" line="826"/>
       <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
       <translation>Is jy seker jy wil die entiteite op die diagram outomaties rangskik? Hierdie aksie sal die huidige uitleg oorskryf, en enige handmatige aanpassings sal verlore gaan.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="845"/>
+      <location filename="../scene/erdscene.cpp" line="846"/>
       <source>Change color of table &quot;%1&quot; to %2.</source>
       <translation>Verander kleur van tabel &quot;%1&quot; na %2.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="851"/>
+      <location filename="../scene/erdscene.cpp" line="852"/>
       <source>Change color of multiple tables.</source>
       <translation>Verander kleur van veelvuldige tabelle.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="696"/>
+      <location filename="../scene/erdscene.cpp" line="697"/>
       <source>Apply diagram layout</source>
       <translation>Pas diagramuitleg toe</translation>
     </message>
@@ -274,50 +284,50 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Hou die Spasiebalk in en sleep met die muis om die diagram vrylik te pan sonder om enige items te kies.&lt;/p&gt;&lt;p&gt;- Gebruik die muiswiel om in en uit te zoem.&lt;/p&gt;&lt;p&gt;- Ontkies die tabel (of klik Vaslê in die sypaneel se nutsbalk) om die sypaneelveranderinge op die diagram toe te pas.&lt;/p&gt;&lt;p&gt;- Druk Esc (of klik Terugrol in die sypaneel se nutsbalk) om die sypaneelveranderinge weg te gooi.&lt;/p&gt;&lt;p&gt;- Dubbelklik op ’n tabelnaam of kolom om die naam inlyn te redigeer.&lt;/p&gt;&lt;p&gt;- Shift-dubbelklik op ’n kolom om kolombesonderhede (datatipe, beperkings) te redigeer.&lt;/p&gt;&lt;p&gt;- Om ’n vreemde sleutel tussen tabelle te skep, klik met die middelste muisknoppie op die tabelkolomme wat jy wil verbind.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Alle diagramveranderinge bly hangende totdat jy dit uitdruklik vaslê of terugrol&lt;/span&gt; deur die nutsbalkknoppies in die boonste linkerhoek van die diagram te gebruik.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Kom meer te wete (klik om die aanlyn hulpbladsy oop te maak)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="165"/>
+      <location filename="../erdwindow.cpp" line="163"/>
       <source>Cancels ongoing action</source>
       <comment>ERD editor</comment>
       <translation>Kanselleer voortgaande aksie</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="164"/>
       <source>Create a table</source>
       <comment>ERD editor</comment>
       <translation>Skep ’n tabel</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="168"/>
-      <location filename="../erdwindow.cpp" line="649"/>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="688"/>
       <source>Reload schema</source>
       <comment>ERD editor</comment>
       <translation>Herlaai skema</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="169"/>
+      <location filename="../erdwindow.cpp" line="167"/>
       <source>Commit all pending changes</source>
       <comment>ERD editor</comment>
       <translation>Lê alle hangende veranderinge vas</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="170"/>
+      <location filename="../erdwindow.cpp" line="168"/>
       <source>Revert diagram to initial state</source>
       <comment>ERD editor</comment>
       <translation>Herstel diagram na aanvanklike toestand</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="172"/>
+      <location filename="../erdwindow.cpp" line="170"/>
       <source>Undo</source>
       <comment>ERD editor</comment>
       <translation>Ontdoen</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="173"/>
+      <location filename="../erdwindow.cpp" line="171"/>
       <source>Redo</source>
       <comment>ERD editor</comment>
       <translation>Herdoen</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="189"/>
+      <location filename="../erdwindow.cpp" line="187"/>
       <source>Create a table</source>
       <translation>Skep ’n tabel</translation>
     </message>
@@ -327,93 +337,111 @@
       <translation>Kies alles</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="311"/>
+      <location filename="../erdwindow.cpp" line="268"/>
+      <source>Pan view with Space only</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Pan view with Space only</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="273"/>
+      <source>Highlight related entities</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Highlight related entities</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="284"/>
+      <source>ERD settings</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">ERD settings</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="335"/>
       <source>Filter items</source>
       <comment>ERD editor</comment>
       <translation>Filter items</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="312"/>
+      <location filename="../erdwindow.cpp" line="336"/>
       <source>Items that don’t match the filter will be dimmed.</source>
       <comment>ERD editor</comment>
       <translation>Items wat nie met die filter ooreenstem nie, sal verdof word.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="448"/>
+      <location filename="../erdwindow.cpp" line="472"/>
       <source>table name</source>
       <comment>ERD editor</comment>
       <translation>tabelnaam</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="450"/>
+      <location filename="../erdwindow.cpp" line="474"/>
       <source>column name</source>
       <comment>ERD editor</comment>
       <translation>kolomnaam</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="570"/>
+      <location filename="../erdwindow.cpp" line="594"/>
       <source>All changes have been successfully applied to the database.</source>
       <comment>ERD editor</comment>
       <translation>Alle veranderinge is suksesvol op die databasis toegepas.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="578"/>
+      <location filename="../erdwindow.cpp" line="602"/>
       <source>The changes were successfully committed. No modifications to the database schema were required.</source>
       <comment>ERD editor</comment>
       <translation>Die veranderinge is suksesvol vasgelê. Geen wysigings aan die databasisskema was nodig nie.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="586"/>
+      <location filename="../erdwindow.cpp" line="610"/>
       <source>Failed to apply changes to the database. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kon nie veranderinge op die databasis toepas nie. Besonderhede: %1</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="650"/>
+      <location filename="../erdwindow.cpp" line="689"/>
       <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
       <translation>Hierdie aksie sal al jou hangende veranderinge weggooi en die diagram vanaf die huidige databasisskema herlaai. Die ontdoen/herdoen-geskiedenis sal skoongemaak word. Wil jy voortgaan?</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="833"/>
+      <location filename="../erdwindow.cpp" line="872"/>
       <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
       <translation>ERD-venster &quot;%1&quot; het nie-vasgelegde veranderinge.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1145"/>
+      <location filename="../erdwindow.cpp" line="1189"/>
       <source>ERD editor (%1)</source>
       <translation>ERD-redigeerder (%1)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1147"/>
+      <location filename="../erdwindow.cpp" line="1191"/>
       <source>ERD editor</source>
       <translation>ERD-redigeerder</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="181"/>
+      <location filename="../erdwindow.cpp" line="179"/>
       <source>The number of changes pending for commit. Click to see details.</source>
       <comment>ERD editor</comment>
       <translation>Die aantal veranderinge wat vir vaslegging hangende is. Klik om besonderhede te sien.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="190"/>
+      <location filename="../erdwindow.cpp" line="188"/>
       <source>Add a foreign key</source>
       <comment>ERD editor</comment>
       <translation>Voeg ’n vreemde sleutel by</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="192"/>
+      <location filename="../erdwindow.cpp" line="190"/>
       <source>Delete selected items</source>
       <comment>ERD editor</comment>
       <translation>Vee geselekteerde items uit</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="198"/>
+      <location filename="../erdwindow.cpp" line="196"/>
       <source>Auto-arrange (local forces)</source>
       <comment>ERD editor</comment>
       <translation>Outomaties rangskik (plaaslike kragte)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="199"/>
+      <location filename="../erdwindow.cpp" line="197"/>
       <source>Auto-arrange (global balance)</source>
       <comment>ERD editor</comment>
       <translation>Outomaties rangskik (globale balans)</translation>
@@ -481,17 +509,17 @@
       <translation>Laat val tabelle: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <location filename="../scene/erdconnection.cpp" line="145"/>
       <source>Could not commit changes for finalized ERD connection.</source>
       <translation>Kon nie veranderinge vir gefinaliseerde ERD-verbinding vaslê nie.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <location filename="../scene/erdconnection.cpp" line="151"/>
       <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
       <translation>Werk verhouding van &quot;%1&quot;-&quot;%2&quot; na &quot;%1&quot;-&quot;%3&quot; by.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <location filename="../scene/erdconnection.cpp" line="153"/>
       <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Skep verhouding tussen &quot;%1&quot; en &quot;%2&quot;.</translation>
     </message>

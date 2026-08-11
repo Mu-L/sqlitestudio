@@ -48,12 +48,12 @@
   <context>
     <name>ErdConfig</name>
     <message>
-      <location filename="../erdconfig.ui" line="33"/>
+      <location filename="../erdconfig.ui" line="20"/>
       <source>Maximum number of tables for ERD editor</source>
       <translation>Maksimalt antall tabeller for ERD-redigeringsprogrammet</translation>
     </message>
     <message>
-      <location filename="../erdconfig.ui" line="40"/>
+      <location filename="../erdconfig.ui" line="27"/>
       <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
       <translation>Hvis denne verdien settes for høyt, kan programmet bli tregt eller slutte å svare når ERD-redigeringsprogrammet åpnes.</translation>
     </message>
@@ -66,6 +66,16 @@
       <location filename="../erdconfig.ui" line="59"/>
       <source>Pan view with Space only</source>
       <translation>Panorer visningen med bare mellomromstasten</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="69"/>
+      <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
+      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="72"/>
+      <source>Highlight related entities</source>
+      <translation type="unfinished">Highlight related entities</translation>
     </message>
   </context>
   <context>
@@ -139,61 +149,61 @@
   <context>
     <name>ErdScene</name>
     <message>
-      <location filename="../scene/erdscene.cpp" line="530"/>
+      <location filename="../scene/erdscene.cpp" line="531"/>
       <source>Delete multiple diagram elements.</source>
       <comment>ERD editor</comment>
       <translation>Slett flere diagramelementer.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="547"/>
+      <location filename="../scene/erdscene.cpp" line="548"/>
       <source>Failed to execute the undo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kunne ikke utføre DDL for angring. Detaljer: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="569"/>
+      <location filename="../scene/erdscene.cpp" line="570"/>
       <source>Failed to execute the redo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kunne ikke utføre DDL for å gjøre om. Detaljer: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="596"/>
+      <location filename="../scene/erdscene.cpp" line="597"/>
       <source>Failed to execute DDL required for table deletion. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kunne ikke utføre DDL-en som kreves for sletting av tabell. Detaljer: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="607"/>
+      <location filename="../scene/erdscene.cpp" line="608"/>
       <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Slett fremmednøkkel mellom &quot;%1&quot; og &quot;%2&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="616"/>
+      <location filename="../scene/erdscene.cpp" line="617"/>
       <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
       <translation>Kunne ikke utføre DDL-en som kreves for sletting av fremmednøkkel. Detaljer: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="824"/>
+      <location filename="../scene/erdscene.cpp" line="825"/>
       <source>Arrange entities</source>
       <translation>Ordne entiteter</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="825"/>
+      <location filename="../scene/erdscene.cpp" line="826"/>
       <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
       <translation>Er du sikker på at du vil ordne entitetene i diagrammet automatisk? Denne handlingen vil overskrive gjeldende oppsett, og eventuelle manuelle justeringer vil gå tapt.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="845"/>
+      <location filename="../scene/erdscene.cpp" line="846"/>
       <source>Change color of table &quot;%1&quot; to %2.</source>
       <translation>Endre fargen på tabellen &quot;%1&quot; til %2.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="851"/>
+      <location filename="../scene/erdscene.cpp" line="852"/>
       <source>Change color of multiple tables.</source>
       <translation>Endre fargen på flere tabeller.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="696"/>
+      <location filename="../scene/erdscene.cpp" line="697"/>
       <source>Apply diagram layout</source>
       <translation>Bruk diagramoppsett</translation>
     </message>
@@ -274,50 +284,50 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Hold mellomromstasten inne og dra med musen for å panorere diagrammet fritt uten å velge noen elementer.&lt;/p&gt;&lt;p&gt;- Bruk musehjulet til å zoome inn og ut.&lt;/p&gt;&lt;p&gt;- Fjern valget av tabellen (eller klikk Bekreft på verktøylinjen i sidepanelet) for å bruke endringene i sidepanelet på diagrammet.&lt;/p&gt;&lt;p&gt;- Trykk på Esc (eller klikk Tilbakestill på verktøylinjen i sidepanelet) for å forkaste endringene i sidepanelet.&lt;/p&gt;&lt;p&gt;- Dobbeltklikk på et tabellnavn eller en kolonne for å redigere navnet direkte.&lt;/p&gt;&lt;p&gt;- Skift-dobbeltklikk på en kolonne for å redigere kolonnedetaljer (datatype, begrensninger).&lt;/p&gt;&lt;p&gt;- For å opprette en fremmednøkkel mellom tabeller klikker du med midtre museknapp på tabellkolonnene du vil koble sammen.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Alle diagramendringer forblir ventende til du eksplisitt bekrefter dem eller ruller dem tilbake&lt;/span&gt; ved hjelp av knappene på verktøylinjen øverst til venstre i diagrammet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Lær mer (klikk for å åpne hjelpesiden på nettet)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="165"/>
+      <location filename="../erdwindow.cpp" line="163"/>
       <source>Cancels ongoing action</source>
       <comment>ERD editor</comment>
       <translation>Avbryter pågående handling</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="164"/>
       <source>Create a table</source>
       <comment>ERD editor</comment>
       <translation>Opprett en tabell</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="168"/>
-      <location filename="../erdwindow.cpp" line="649"/>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="688"/>
       <source>Reload schema</source>
       <comment>ERD editor</comment>
       <translation>Last inn skjema på nytt</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="169"/>
+      <location filename="../erdwindow.cpp" line="167"/>
       <source>Commit all pending changes</source>
       <comment>ERD editor</comment>
       <translation>Bekreft alle ventende endringer</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="170"/>
+      <location filename="../erdwindow.cpp" line="168"/>
       <source>Revert diagram to initial state</source>
       <comment>ERD editor</comment>
       <translation>Tilbakestill diagrammet til opprinnelig tilstand</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="172"/>
+      <location filename="../erdwindow.cpp" line="170"/>
       <source>Undo</source>
       <comment>ERD editor</comment>
       <translation>Angre</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="173"/>
+      <location filename="../erdwindow.cpp" line="171"/>
       <source>Redo</source>
       <comment>ERD editor</comment>
       <translation>Gjør om</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="189"/>
+      <location filename="../erdwindow.cpp" line="187"/>
       <source>Create a table</source>
       <translation>Opprett en tabell</translation>
     </message>
@@ -327,93 +337,111 @@
       <translation>Velg alle</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="311"/>
+      <location filename="../erdwindow.cpp" line="268"/>
+      <source>Pan view with Space only</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Pan view with Space only</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="273"/>
+      <source>Highlight related entities</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Highlight related entities</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="284"/>
+      <source>ERD settings</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">ERD settings</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="335"/>
       <source>Filter items</source>
       <comment>ERD editor</comment>
       <translation>Filtrer elementer</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="312"/>
+      <location filename="../erdwindow.cpp" line="336"/>
       <source>Items that don’t match the filter will be dimmed.</source>
       <comment>ERD editor</comment>
       <translation>Elementer som ikke samsvarer med filteret, blir nedtonet.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="448"/>
+      <location filename="../erdwindow.cpp" line="472"/>
       <source>table name</source>
       <comment>ERD editor</comment>
       <translation>tabellnavn</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="450"/>
+      <location filename="../erdwindow.cpp" line="474"/>
       <source>column name</source>
       <comment>ERD editor</comment>
       <translation>kolonnenavn</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="570"/>
+      <location filename="../erdwindow.cpp" line="594"/>
       <source>All changes have been successfully applied to the database.</source>
       <comment>ERD editor</comment>
       <translation>Alle endringer er brukt på databasen.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="578"/>
+      <location filename="../erdwindow.cpp" line="602"/>
       <source>The changes were successfully committed. No modifications to the database schema were required.</source>
       <comment>ERD editor</comment>
       <translation>Endringene ble bekreftet. Ingen endringer i databaseskjemaet var nødvendige.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="586"/>
+      <location filename="../erdwindow.cpp" line="610"/>
       <source>Failed to apply changes to the database. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Kunne ikke bruke endringene på databasen. Detaljer: %1</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="650"/>
+      <location filename="../erdwindow.cpp" line="689"/>
       <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
       <translation>Denne handlingen vil forkaste alle ventende endringer og laste diagrammet på nytt fra gjeldende databaseskjema. Angre-/gjør om-historikken vil bli tømt. Vil du fortsette?</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="833"/>
+      <location filename="../erdwindow.cpp" line="872"/>
       <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
       <translation>ERD-vinduet &quot;%1&quot; har ikke-bekreftede endringer.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1145"/>
+      <location filename="../erdwindow.cpp" line="1189"/>
       <source>ERD editor (%1)</source>
       <translation>ERD-redigeringsprogram (%1)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1147"/>
+      <location filename="../erdwindow.cpp" line="1191"/>
       <source>ERD editor</source>
       <translation>ERD-redigeringsprogram</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="181"/>
+      <location filename="../erdwindow.cpp" line="179"/>
       <source>The number of changes pending for commit. Click to see details.</source>
       <comment>ERD editor</comment>
       <translation>Antall endringer som venter på å bli bekreftet. Klikk for å se detaljer.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="190"/>
+      <location filename="../erdwindow.cpp" line="188"/>
       <source>Add a foreign key</source>
       <comment>ERD editor</comment>
       <translation>Legg til en fremmednøkkel</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="192"/>
+      <location filename="../erdwindow.cpp" line="190"/>
       <source>Delete selected items</source>
       <comment>ERD editor</comment>
       <translation>Slett valgte elementer</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="198"/>
+      <location filename="../erdwindow.cpp" line="196"/>
       <source>Auto-arrange (local forces)</source>
       <comment>ERD editor</comment>
       <translation>Ordne automatisk (lokale krefter)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="199"/>
+      <location filename="../erdwindow.cpp" line="197"/>
       <source>Auto-arrange (global balance)</source>
       <comment>ERD editor</comment>
       <translation>Ordne automatisk (global balanse)</translation>
@@ -481,17 +509,17 @@
       <translation>Slett tabeller: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <location filename="../scene/erdconnection.cpp" line="145"/>
       <source>Could not commit changes for finalized ERD connection.</source>
       <translation>Kunne ikke bekrefte endringer for fullført ERD-forbindelse.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <location filename="../scene/erdconnection.cpp" line="151"/>
       <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
       <translation>Oppdater relasjon fra &quot;%1&quot;-&quot;%2&quot; til &quot;%1&quot;-&quot;%3&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <location filename="../scene/erdconnection.cpp" line="153"/>
       <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Opprett relasjon mellom &quot;%1&quot; og &quot;%2&quot;.</translation>
     </message>

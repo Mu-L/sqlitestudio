@@ -48,12 +48,12 @@
   <context>
     <name>ErdConfig</name>
     <message>
-      <location filename="../erdconfig.ui" line="33"/>
+      <location filename="../erdconfig.ui" line="20"/>
       <source>Maximum number of tables for ERD editor</source>
       <translation>Μέγιστος αριθμός πινάκων για τον επεξεργαστή ERD</translation>
     </message>
     <message>
-      <location filename="../erdconfig.ui" line="40"/>
+      <location filename="../erdconfig.ui" line="27"/>
       <source>Setting this value too high may cause the application to slow down or become unresponsive when opening the ERD editor.</source>
       <translation>Η ρύθμιση αυτής της τιμής πολύ υψηλά μπορεί να προκαλέσει επιβράδυνση της εφαρμογής ή να την κάνει να μην αποκρίνεται κατά το άνοιγμα του επεξεργαστή ERD.</translation>
     </message>
@@ -66,6 +66,16 @@
       <location filename="../erdconfig.ui" line="59"/>
       <source>Pan view with Space only</source>
       <translation>Μετακίνηση προβολής μόνο με το πλήκτρο διαστήματος</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="69"/>
+      <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
+      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+    </message>
+    <message>
+      <location filename="../erdconfig.ui" line="72"/>
+      <source>Highlight related entities</source>
+      <translation type="unfinished">Highlight related entities</translation>
     </message>
   </context>
   <context>
@@ -139,61 +149,61 @@
   <context>
     <name>ErdScene</name>
     <message>
-      <location filename="../scene/erdscene.cpp" line="530"/>
+      <location filename="../scene/erdscene.cpp" line="531"/>
       <source>Delete multiple diagram elements.</source>
       <comment>ERD editor</comment>
       <translation>Διαγραφή πολλαπλών στοιχείων διαγράμματος.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="547"/>
+      <location filename="../scene/erdscene.cpp" line="548"/>
       <source>Failed to execute the undo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Απέτυχε η εκτέλεση του DDL αναίρεσης. Λεπτομέρειες: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="569"/>
+      <location filename="../scene/erdscene.cpp" line="570"/>
       <source>Failed to execute the redo DDL. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Απέτυχε η εκτέλεση του DDL επανάληψης. Λεπτομέρειες: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="596"/>
+      <location filename="../scene/erdscene.cpp" line="597"/>
       <source>Failed to execute DDL required for table deletion. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Απέτυχε η εκτέλεση του DDL που απαιτείται για τη διαγραφή πίνακα. Λεπτομέρειες: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="607"/>
+      <location filename="../scene/erdscene.cpp" line="608"/>
       <source>Delete foreign key between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Διαγραφή εξωτερικού κλειδιού μεταξύ &quot;%1&quot; και &quot;%2&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="616"/>
+      <location filename="../scene/erdscene.cpp" line="617"/>
       <source>Failed to execute DDL required for foreign key deletion. Details: %1</source>
       <translation>Απέτυχε η εκτέλεση του DDL που απαιτείται για τη διαγραφή εξωτερικού κλειδιού. Λεπτομέρειες: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="824"/>
+      <location filename="../scene/erdscene.cpp" line="825"/>
       <source>Arrange entities</source>
       <translation>Τακτοποίηση οντοτήτων</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="825"/>
+      <location filename="../scene/erdscene.cpp" line="826"/>
       <source>Are you sure you want to automatically arrange the entities on the diagram? This action will overwrite the current layout, and any manual adjustments will be lost.</source>
       <translation>Είστε βέβαιοι ότι θέλετε να τακτοποιήσετε αυτόματα τις οντότητες στο διάγραμμα; Αυτή η ενέργεια θα αντικαταστήσει την τρέχουσα διάταξη και τυχόν μη αυτόματες προσαρμογές θα χαθούν.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="845"/>
+      <location filename="../scene/erdscene.cpp" line="846"/>
       <source>Change color of table &quot;%1&quot; to %2.</source>
       <translation>Αλλαγή χρώματος του πίνακα &quot;%1&quot; σε %2.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="851"/>
+      <location filename="../scene/erdscene.cpp" line="852"/>
       <source>Change color of multiple tables.</source>
       <translation>Αλλαγή χρώματος πολλαπλών πινάκων.</translation>
     </message>
     <message>
-      <location filename="../scene/erdscene.cpp" line="696"/>
+      <location filename="../scene/erdscene.cpp" line="697"/>
       <source>Apply diagram layout</source>
       <translation>Εφαρμογή διάταξης διαγράμματος</translation>
     </message>
@@ -274,50 +284,50 @@
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;- Κρατήστε πατημένο το πλήκτρο διαστήματος και σύρετε με το ποντίκι για να μετακινήσετε ελεύθερα το διάγραμμα χωρίς να επιλέξετε στοιχεία.&lt;/p&gt;&lt;p&gt;- Χρησιμοποιήστε τον τροχό του ποντικιού για μεγέθυνση και σμίκρυνση.&lt;/p&gt;&lt;p&gt;- Αποεπιλέξτε τον πίνακα (ή κάντε κλικ στην Οριστικοποίηση στη γραμμή εργαλείων του πλευρικού πλαισίου) για να εφαρμόσετε τις αλλαγές του πλευρικού πλαισίου στο διάγραμμα.&lt;/p&gt;&lt;p&gt;- Πατήστε Esc (ή κάντε κλικ στην Επαναφορά στη γραμμή εργαλείων του πλευρικού πλαισίου) για να απορρίψετε τις αλλαγές του πλευρικού πλαισίου.&lt;/p&gt;&lt;p&gt;- Κάντε διπλό κλικ σε όνομα πίνακα ή στήλη για να επεξεργαστείτε το όνομα επιτόπου.&lt;/p&gt;&lt;p&gt;- Κάντε Shift-διπλό κλικ σε μια στήλη για να επεξεργαστείτε τις λεπτομέρειες της στήλης (τύπος δεδομένων, περιορισμοί).&lt;/p&gt;&lt;p&gt;- Για να δημιουργήσετε ένα εξωτερικό κλειδί μεταξύ πινάκων, κάντε κλικ με το μεσαίο κουμπί του ποντικιού στις στήλες των πινάκων που θέλετε να συνδέσετε.&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-weight:700;&quot;&gt;Όλες οι αλλαγές του διαγράμματος παραμένουν εκκρεμείς μέχρι να τις οριστικοποιήσετε ή να τις επαναφέρετε ρητά&lt;/span&gt; χρησιμοποιώντας τα κουμπιά της γραμμής εργαλείων στην επάνω αριστερή γωνία του διαγράμματος.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pawelsalawa/letos/wiki/ERD-plugin-manual#usage&quot;&gt;&lt;span style=&quot; font-weight:700; text-decoration: underline; color:#058800;&quot;&gt;Μάθετε περισσότερα (κάντε κλικ για να ανοίξετε τη σελίδα ηλεκτρονικής βοήθειας)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="165"/>
+      <location filename="../erdwindow.cpp" line="163"/>
       <source>Cancels ongoing action</source>
       <comment>ERD editor</comment>
       <translation>Ακυρώνει την τρέχουσα ενέργεια</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="164"/>
       <source>Create a table</source>
       <comment>ERD editor</comment>
       <translation>Δημιουργία πίνακα</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="168"/>
-      <location filename="../erdwindow.cpp" line="649"/>
+      <location filename="../erdwindow.cpp" line="166"/>
+      <location filename="../erdwindow.cpp" line="688"/>
       <source>Reload schema</source>
       <comment>ERD editor</comment>
       <translation>Επαναφόρτωση σχήματος</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="169"/>
+      <location filename="../erdwindow.cpp" line="167"/>
       <source>Commit all pending changes</source>
       <comment>ERD editor</comment>
       <translation>Οριστικοποίηση όλων των εκκρεμών αλλαγών</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="170"/>
+      <location filename="../erdwindow.cpp" line="168"/>
       <source>Revert diagram to initial state</source>
       <comment>ERD editor</comment>
       <translation>Επαναφορά διαγράμματος στην αρχική κατάσταση</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="172"/>
+      <location filename="../erdwindow.cpp" line="170"/>
       <source>Undo</source>
       <comment>ERD editor</comment>
       <translation>Αναίρεση</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="173"/>
+      <location filename="../erdwindow.cpp" line="171"/>
       <source>Redo</source>
       <comment>ERD editor</comment>
       <translation>Επανάληψη</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="189"/>
+      <location filename="../erdwindow.cpp" line="187"/>
       <source>Create a table</source>
       <translation>Δημιουργία πίνακα</translation>
     </message>
@@ -327,93 +337,111 @@
       <translation>Επιλογή όλων</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="311"/>
+      <location filename="../erdwindow.cpp" line="268"/>
+      <source>Pan view with Space only</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Pan view with Space only</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="273"/>
+      <source>Highlight related entities</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">Highlight related entities</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="284"/>
+      <source>ERD settings</source>
+      <comment>ERD editor</comment>
+      <translation type="unfinished">ERD settings</translation>
+    </message>
+    <message>
+      <location filename="../erdwindow.cpp" line="335"/>
       <source>Filter items</source>
       <comment>ERD editor</comment>
       <translation>Φιλτράρισμα στοιχείων</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="312"/>
+      <location filename="../erdwindow.cpp" line="336"/>
       <source>Items that don’t match the filter will be dimmed.</source>
       <comment>ERD editor</comment>
       <translation>Τα στοιχεία που δεν ταιριάζουν με το φίλτρο θα εμφανίζονται αχνά.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="448"/>
+      <location filename="../erdwindow.cpp" line="472"/>
       <source>table name</source>
       <comment>ERD editor</comment>
       <translation>όνομα πίνακα</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="450"/>
+      <location filename="../erdwindow.cpp" line="474"/>
       <source>column name</source>
       <comment>ERD editor</comment>
       <translation>όνομα στήλης</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="570"/>
+      <location filename="../erdwindow.cpp" line="594"/>
       <source>All changes have been successfully applied to the database.</source>
       <comment>ERD editor</comment>
       <translation>Όλες οι αλλαγές εφαρμόστηκαν με επιτυχία στη βάση δεδομένων.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="578"/>
+      <location filename="../erdwindow.cpp" line="602"/>
       <source>The changes were successfully committed. No modifications to the database schema were required.</source>
       <comment>ERD editor</comment>
       <translation>Οι αλλαγές οριστικοποιήθηκαν με επιτυχία. Δεν απαιτήθηκαν τροποποιήσεις στο σχήμα της βάσης δεδομένων.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="586"/>
+      <location filename="../erdwindow.cpp" line="610"/>
       <source>Failed to apply changes to the database. Details: %1</source>
       <comment>ERD editor</comment>
       <translation>Απέτυχε η εφαρμογή αλλαγών στη βάση δεδομένων. Λεπτομέρειες: %1</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="650"/>
+      <location filename="../erdwindow.cpp" line="689"/>
       <source>This action will discard all your pending changes and reload the diagram from the current database schema. The undo/redo history will be cleared. Do you want to proceed?</source>
       <translation>Αυτή η ενέργεια θα απορρίψει όλες τις εκκρεμείς αλλαγές σας και θα επαναφορτώσει το διάγραμμα από το τρέχον σχήμα της βάσης δεδομένων. Το ιστορικό αναίρεσης/επανάληψης θα εκκαθαριστεί. Θέλετε να συνεχίσετε;</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="833"/>
+      <location filename="../erdwindow.cpp" line="872"/>
       <source>ERD window &quot;%1&quot; has uncommitted changes.</source>
       <translation>Το παράθυρο ERD &quot;%1&quot; έχει μη οριστικοποιημένες αλλαγές.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1145"/>
+      <location filename="../erdwindow.cpp" line="1189"/>
       <source>ERD editor (%1)</source>
       <translation>Επεξεργαστής ERD (%1)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="1147"/>
+      <location filename="../erdwindow.cpp" line="1191"/>
       <source>ERD editor</source>
       <translation>Επεξεργαστής ERD</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="181"/>
+      <location filename="../erdwindow.cpp" line="179"/>
       <source>The number of changes pending for commit. Click to see details.</source>
       <comment>ERD editor</comment>
       <translation>Ο αριθμός των αλλαγών που εκκρεμούν για οριστικοποίηση. Κάντε κλικ για να δείτε λεπτομέρειες.</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="190"/>
+      <location filename="../erdwindow.cpp" line="188"/>
       <source>Add a foreign key</source>
       <comment>ERD editor</comment>
       <translation>Προσθήκη εξωτερικού κλειδιού</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="192"/>
+      <location filename="../erdwindow.cpp" line="190"/>
       <source>Delete selected items</source>
       <comment>ERD editor</comment>
       <translation>Διαγραφή επιλεγμένων στοιχείων</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="198"/>
+      <location filename="../erdwindow.cpp" line="196"/>
       <source>Auto-arrange (local forces)</source>
       <comment>ERD editor</comment>
       <translation>Αυτόματη τακτοποίηση (τοπικές δυνάμεις)</translation>
     </message>
     <message>
-      <location filename="../erdwindow.cpp" line="199"/>
+      <location filename="../erdwindow.cpp" line="197"/>
       <source>Auto-arrange (global balance)</source>
       <comment>ERD editor</comment>
       <translation>Αυτόματη τακτοποίηση (καθολική ισορροπία)</translation>
@@ -481,17 +509,17 @@
       <translation>Απόθεση πινάκων: %1</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="149"/>
+      <location filename="../scene/erdconnection.cpp" line="145"/>
       <source>Could not commit changes for finalized ERD connection.</source>
       <translation>Δεν ήταν δυνατή η οριστικοποίηση αλλαγών για την ολοκληρωμένη σύνδεση ERD.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="155"/>
+      <location filename="../scene/erdconnection.cpp" line="151"/>
       <source>Update relationship from &quot;%1&quot;-&quot;%2&quot; to &quot;%1&quot;-&quot;%3&quot;.</source>
       <translation>Ενημέρωση σχέσης από &quot;%1&quot;-&quot;%2&quot; σε &quot;%1&quot;-&quot;%3&quot;.</translation>
     </message>
     <message>
-      <location filename="../scene/erdconnection.cpp" line="157"/>
+      <location filename="../scene/erdconnection.cpp" line="153"/>
       <source>Create relationship between &quot;%1&quot; and &quot;%2&quot;.</source>
       <translation>Δημιουργία σχέσης μεταξύ &quot;%1&quot; και &quot;%2&quot;.</translation>
     </message>
