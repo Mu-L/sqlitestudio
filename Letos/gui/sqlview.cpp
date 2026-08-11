@@ -1,5 +1,6 @@
 #include "sqlview.h"
 #include "sqlitesyntaxhighlighter.h"
+#include "style.h"
 #include "uiconfig.h"
 #include <QScrollBar>
 
@@ -9,7 +10,9 @@ SqlView::SqlView(QWidget *parent) :
     highlighter = new SqliteSyntaxHighlighter(this->document());
     setFont(CFG_UI.Fonts.SqlEditor.get());
     connect(CFG_UI.Fonts.SqlEditor, SIGNAL(changed(QVariant)), this, SLOT(changeFont(QVariant)));
+    connect(STYLE, SIGNAL(paletteChanged()), this, SLOT(colorsConfigChanged()));
     setReadOnly(true);
+
 }
 
 void SqlView::setTextBackgroundColor(int from, int to, const QColor& color)
@@ -43,4 +46,9 @@ void SqlView::setContents(const QString &value)
 void SqlView::changeFont(const QVariant &font)
 {
     setFont(font.value<QFont>());
+}
+
+void SqlView::colorsConfigChanged()
+{
+    highlighter->rehighlight();
 }

@@ -20,6 +20,7 @@ class GUI_API_EXPORT SqlView : public QPlainTextEdit
 
     private slots:
         void changeFont(const QVariant& font);
+        void colorsConfigChanged();
 };
 
 #endif // SQLVIEW_H
