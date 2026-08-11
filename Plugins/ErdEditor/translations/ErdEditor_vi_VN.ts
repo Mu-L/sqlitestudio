@@ -70,12 +70,12 @@
     <message>
       <location filename="../erdconfig.ui" line="69"/>
       <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
-      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+      <translation>Tô sáng các thực thể liên quan trực tiếp đến thực thể đã chọn và các mối quan hệ kết nối chúng.</translation>
     </message>
     <message>
       <location filename="../erdconfig.ui" line="72"/>
       <source>Highlight related entities</source>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Tô sáng các thực thể liên quan</translation>
     </message>
   </context>
   <context>
@@ -340,19 +340,19 @@
       <location filename="../erdwindow.cpp" line="268"/>
       <source>Pan view with Space only</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Pan view with Space only</translation>
+      <translation>Chỉ lia khung nhìn bằng phím Space</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="273"/>
       <source>Highlight related entities</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Tô sáng các thực thể liên quan</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="284"/>
       <source>ERD settings</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">ERD settings</translation>
+      <translation>Cài đặt ERD</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="335"/>

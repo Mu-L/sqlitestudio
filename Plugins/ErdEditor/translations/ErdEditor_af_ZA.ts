@@ -70,12 +70,12 @@
     <message>
       <location filename="../erdconfig.ui" line="69"/>
       <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
-      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+      <translation>Merk entiteite uit wat direk met die geselekteerde entiteit verband hou, asook die verhoudings wat hulle verbind.</translation>
     </message>
     <message>
       <location filename="../erdconfig.ui" line="72"/>
       <source>Highlight related entities</source>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Merk verwante entiteite uit</translation>
     </message>
   </context>
   <context>
@@ -340,19 +340,19 @@
       <location filename="../erdwindow.cpp" line="268"/>
       <source>Pan view with Space only</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Pan view with Space only</translation>
+      <translation>Verskuif aansig slegs met Spasie</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="273"/>
       <source>Highlight related entities</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Merk verwante entiteite uit</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="284"/>
       <source>ERD settings</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">ERD settings</translation>
+      <translation>ERD-instellings</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="335"/>
