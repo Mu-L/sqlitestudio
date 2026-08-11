@@ -70,12 +70,12 @@
     <message>
       <location filename="../erdconfig.ui" line="69"/>
       <source>Highlight entities directly related to the selected entity and the relationships connecting them.</source>
-      <translation type="unfinished">Highlight entities directly related to the selected entity and the relationships connecting them.</translation>
+      <translation>Επισημάνετε τις οντότητες που σχετίζονται άμεσα με την επιλεγμένη οντότητα και τις σχέσεις που τις συνδέουν.</translation>
     </message>
     <message>
       <location filename="../erdconfig.ui" line="72"/>
       <source>Highlight related entities</source>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Επισήμανση σχετικών οντοτήτων</translation>
     </message>
   </context>
   <context>
@@ -340,19 +340,19 @@
       <location filename="../erdwindow.cpp" line="268"/>
       <source>Pan view with Space only</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Pan view with Space only</translation>
+      <translation>Μετατόπιση προβολής μόνο με το πλήκτρο διαστήματος</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="273"/>
       <source>Highlight related entities</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">Highlight related entities</translation>
+      <translation>Επισήμανση σχετικών οντοτήτων</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="284"/>
       <source>ERD settings</source>
       <comment>ERD editor</comment>
-      <translation type="unfinished">ERD settings</translation>
+      <translation>Ρυθμίσεις ERD</translation>
     </message>
     <message>
       <location filename="../erdwindow.cpp" line="335"/>
