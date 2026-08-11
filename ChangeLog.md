@@ -4,6 +4,7 @@
 - ADDED: #5794 Added glowing effect for entities & arrows being in relation with the selected entity. Can be turned off/on.
 - BUGFIX: #5794 Scene area once again refreshes after entity is moved out of the scene, so it's possible to scroll to see it.
 - BUGFIX: #5797 Fixed font color on DDL tab of Table Window immediately after changing theme from light to dark or vice versa.
+- BUGFIX: #5799 Import/Export dialog on macOS has now mnHeight=450, so the options section appear at bottom, neglckting the ephemeral scrollbars on macOS.
 
 ### 4.0.2
 - ADDED: #5758 Added `Fusion Light` theme, so now there's `Fusion` for system-compliant autodetected color palette, `Fusion Dark` for enforced dark palette and `Fusion Light` for light palette.

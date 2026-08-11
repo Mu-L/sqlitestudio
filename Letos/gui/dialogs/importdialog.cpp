@@ -122,7 +122,7 @@ void ImportDialog::init()
     DialogSizeHandler::applyFor(this);
 
 #ifdef Q_OS_MACX
-    resize(width() + 150, height());
+    setMinimumHeight(450); // #5799 scrollbar on macOS is not obvious, have options section appear at bottom
 #endif
 
     initTablePage();
