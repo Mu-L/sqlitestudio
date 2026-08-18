@@ -1,5 +1,4 @@
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Svg UiTools Widgets Xml)
-find_package(Qt6 REQUIRED COMPONENTS Core)
 
 set(PROJECT_HEADERS
     actionentry.h
