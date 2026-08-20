@@ -1,4 +1,8 @@
-option(WITH_DYNAMIC_PYTHON "Build with dynamic Python" WITH_PORTABLE)
+if(WIN32 OR APPLE)
+    set(WITH_DYNAMIC_PYTHON_DEFAULT ON)
+endif()
+
+option(WITH_DYNAMIC_PYTHON "Build with dynamic Python" ${WITH_DYNAMIC_PYTHON_DEFAULT})
 
 find_package(Qt6 REQUIRED COMPONENTS Core)
 find_package(Python REQUIRED COMPONENTS Development)

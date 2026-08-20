@@ -716,10 +716,10 @@ DistributionType getDistributionType()
 {
 #if defined(Q_OS_OSX)
     return DistributionType::OSX_BUNDLE;
-#elif defined(PORTABLE_CONFIG)
-    return DistributionType::PORTABLE;
-#else
+#elif defined(UNIX_FAV)
     return DistributionType::OS_MANAGED;
+#else
+    return DistributionType::PORTABLE;
 #endif
 }
 

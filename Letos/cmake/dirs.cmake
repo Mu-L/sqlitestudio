@@ -1,4 +1,4 @@
-if(WITH_PORTABLE OR WIN32)
+if(NOT WITH_UNIX_FAV)
     # flatten everything
     set(CMAKE_INSTALL_BINDIR ".")
     set(CMAKE_INSTALL_LIBDIR "lib")
@@ -7,7 +7,7 @@ endif()
 
 include(GNUInstallDirs)
 
-if(WITH_PORTABLE OR WIN32)
+if(NOT WITH_UNIX_FAV)
     set(LETOS_INSTALL_DATADIR ".")
     set(LETOS_INSTALL_PLUGINDIR "plugins")
     set(LETOS_INSTALL_STYLEDIR "styles")

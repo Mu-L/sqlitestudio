@@ -98,11 +98,11 @@ jobs:
               with:
                 python-version: ${{ matrix.PYTHON_VERSION }}
                 architecture: 'x64'
-                
+
             - name: Qt installation dir
               id: qt-installation-dir
               run: echo "DIR=$(readlink -f ${{ github.workspace }}/..)" >> $GITHUB_OUTPUT
-              
+
             - name: Install Qt
               uses: jurplel/install-qt-action@v4
               with:
@@ -168,7 +168,6 @@ jobs:
                     -DCMAKE_BUILD_TYPE=Debug \
                     -DCMAKE_PREFIX_PATH="${{ env.QT_ROOT_DIR }}" \
                     -DCMAKE_INSTALL_PREFIX=../Letos \
-                    -DWITH_PORTABLE=1 \
                     -DWITH_UPDATER=1 \
                     -DBUILD_TESTING=1
                 cmake --build . --verbose
@@ -181,7 +180,6 @@ jobs:
                     -DCMAKE_BUILD_TYPE=Debug \
                     -DCMAKE_PREFIX_PATH="${{ env.QT_ROOT_DIR }}:${{ env.Python3_ROOT_DIR }}" \
                     -DCMAKE_INSTALL_PREFIX=../Letos \
-                    -DWITH_PORTABLE=1 \
                     -DWITH_DYNAMIC_PYTHON=1 \
                     -DWITH_ALL_PLUGINS=1
                 cmake --build . --verbose

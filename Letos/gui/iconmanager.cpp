@@ -99,14 +99,16 @@ void IconManager::init()
 {
     Icon::init();
 
-    iconDirs += QDir::cleanPath(qApp->applicationDirPath() + "/img");
-
+#ifdef UNIX_FAV
     // AppDataLocation, but APPNAME should be a fixed value
     for (const QString& path : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
     {
         iconDirs += QDir::cleanPath(path + "/letos/img");
         iconDirs += QDir::cleanPath(path + "/sqlitestudio/img");
     }
+#else
+    iconDirs += QDir::cleanPath(QCoreApplication::applicationDirPath() + "/img");
+#endif
 
     iconDirs += ":/icons";
 

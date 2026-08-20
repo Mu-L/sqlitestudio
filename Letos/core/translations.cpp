@@ -13,14 +13,18 @@ QHash<QString,QTranslator*> LETOS_TRANSLATIONS;
 
 static QStringList getTranslationDirs()
 {
-    QStringList translationDirs({"translations"});
+    QStringList translationDirs;
 
+#ifdef UNIX_FAV
     // AppDataLocation, but APPNAME should be a fixed value
     for (const QString& path : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
     {
         translationDirs += QDir::cleanPath(path + "/letos/translations");
         translationDirs += QDir::cleanPath(path + "/sqlitestudio/translations");
     }
+#else
+    translationDirs += QDir::cleanPath(QCoreApplication::applicationDirPath() + "/translations");
+#endif
 
     translationDirs += ":/msg/translations";
 

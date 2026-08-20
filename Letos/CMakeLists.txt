@@ -13,37 +13,19 @@ target_sources(MiscFiles PRIVATE
 	../README.md
 )
 
-if(WIN32 OR APPLE)
-    set(WITH_PORTABLE_DEFAULT ON)
+option(WITH_UNIX_FAV "Enable Unix favored layout (i.e. FHS) and install it system-wide. Select this only if you are a system administrator or distro packager." OFF)
+if(NOT WITH_UNIX_FAV)
+    set(WITH_UPDATER_DEFAULT ON)
 endif()
-
-option(WITH_PORTABLE "Create portable bundle" ${WITH_PORTABLE_DEFAULT})
-option(WITH_UPDATER "Enable update manager" ${WITH_PORTABLE})
+option(WITH_UPDATER "Enable update manager" ${WITH_UPDATER_DEFAULT})
 option(WITH_SUPPORT_REMINDERS "Enable occasional support reminders" ON)
-option(WITH_SHARED_RES "Install resources as separate files (distro packaging only)" OFF)
+option(WITH_SHARED_RES "Install resources as separate files (distro packaging only)" ${WITH_UNIX_FAV})
 
 set(QRC_EXTRA_ICONSETS "" CACHE STRING "Additional icon sets as .qrc files, separated by semicolons")
 
 include(letos_sqlite3)
 include(CTest)
 include(common)
-
-if(WITH_PORTABLE)
-    # For portable builds, always use the install plugin dir from dirs.cmake.
-    set(SYS_PLUGINS_DIR "${LETOS_INSTALL_PLUGINDIR}" CACHE PATH "Path to system plugins directory")
-else()
-    # For non-portable builds: if the user did not provide SYS_PLUGINS_DIR on the cmake command line,
-    # set it to the install plugin dir and warn. If the user provided it, preserve and show it.
-    if(NOT DEFINED SYS_PLUGINS_DIR)
-        set(SYS_PLUGINS_DIR "${LETOS_INSTALL_PLUGINDIR}" CACHE PATH "Path to system plugins directory")
-        message(STATUS "SYS_PLUGINS_DIR: ${SYS_PLUGINS_DIR}")
-        message(WARNING "The SYS_PLUGINS_DIR cannot be changed by `--prefix` when executing `cmake --install .`. If it is not correct, change it now!")
-    else()
-        # Ensure the cache entry exists with the user-provided value (no warning).
-        set(SYS_PLUGINS_DIR "${SYS_PLUGINS_DIR}" CACHE PATH "Path to system plugins directory")
-    endif()
-    message(STATUS "SYS_PLUGINS_DIR: ${SYS_PLUGINS_DIR}")
-endif()
 
 add_subdirectory(core)
 add_subdirectory(gui)
