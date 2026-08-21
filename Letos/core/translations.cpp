@@ -1,5 +1,6 @@
 #include "translations.h"
 #include "letos.h"
+#include "common/utils.h"
 #include "services/config.h"
 #include <QTranslator>
 #include <QCoreApplication>
@@ -16,12 +17,8 @@ static QStringList getTranslationDirs()
     QStringList translationDirs;
 
 #ifdef UNIX_FAV
-    // AppDataLocation, but APPNAME should be a fixed value
-    for (const QString& path : QStandardPaths::standardLocations(QStandardPaths::GenericDataLocation))
-    {
-        translationDirs += QDir::cleanPath(path + "/letos/translations");
-        translationDirs += QDir::cleanPath(path + "/sqlitestudio/translations");
-    }
+    for (const QString& path : getAppDataLocation("", "letos"))
+        translationDirs += QDir::cleanPath(path + "/translations");
 #else
     translationDirs += QDir::cleanPath(QCoreApplication::applicationDirPath() + "/translations");
 #endif
