@@ -4419,7 +4419,7 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
 <context>
     <name>IconManager</name>
     <message>
-        <location filename="../iconmanager.cpp" line="295"/>
+        <location filename="../iconmanager.cpp" line="293"/>
         <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
         <translation type="unfinished"></translation>
     </message>
