@@ -5,10 +5,6 @@ find_package(Python COMPONENTS Development)
 find_package(Qt6 COMPONENTS PrintSupport)
 find_package(TCL)
 
-if(WIN32 OR APPLE)
-    set(WITH_PORTABLE_DEFAULT ON)
-endif()
-
 option(WITH_ALL_PLUGINS "Build all plugins (individual plugins can still be disabled via -DWITH_<plugin>=OFF)" OFF)
 
 if(Qt6PrintSupport_FOUND OR WITH_ALL_PLUGINS)
@@ -46,8 +42,8 @@ option(WITH_TclSyntaxHighlighter "Build TclSyntaxHighlighter plugin" ON)
 option(WITH_TipOfTheDay "Build TipOfTheDay plugin" ON)
 option(WITH_XmlExport "Build XmlExport plugin" ON)
 
-option(WITH_PORTABLE "Install plugins within portable bundle" ${WITH_PORTABLE_DEFAULT})
-option(WITH_SHARED_RES "Install resources as separate files (distro packaging only)" OFF)
+option(WITH_UNIX_FAV "Enable Unix favored layout (i.e. FHS) and install it system-wide. Select this only if you are a system administrator or distro packager." OFF)
+option(WITH_SHARED_RES "Install resources as separate files (distro packaging only)" ${WITH_UNIX_FAV})
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/../Letos/cmake")
 

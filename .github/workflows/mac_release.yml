@@ -379,7 +379,6 @@ jobs:
                     -DCMAKE_PREFIX_PATH="$QT_ROOT_DIR" \
                     -DCMAKE_INSTALL_PREFIX=../Letos \
                     -DCUSTOM_SQLITE3=$GITHUB_WORKSPACE/../sqlite \
-                    -DWITH_PORTABLE=1 \
                     -DWITH_UPDATER=1 \
                     -DBUILD_TESTING=0 \
                     -DQRC_EXTRA_ICONSETS=../../icons8/icons8.qrc
@@ -397,7 +396,6 @@ jobs:
                     -DCMAKE_PREFIX_PATH="${{ env.QT_ROOT_DIR }}:${{ env.Python3_ROOT_DIR }}" \
                     -DCMAKE_INSTALL_PREFIX=../Letos \
                     -DCUSTOM_SQLITE3=$GITHUB_WORKSPACE/../sqlite \
-                    -DWITH_PORTABLE=1 \
                     -DWITH_DYNAMIC_PYTHON=1 \
                     -DWITH_ALL_PLUGINS=1
                 cmake --build . --verbose

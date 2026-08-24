@@ -73,7 +73,6 @@ cd output/build
 cmake ../../Letos/ -G Ninja \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=../Letos \
-    -DWITH_PORTABLE=1 \
     -DWITH_UPDATER=1 \
     -DBUILD_TESTING=0 \
     -DCUSTOM_SQLITE3="$SQLITE_DIR" \
@@ -88,7 +87,6 @@ cd ../build-plugins
 cmake ../../Plugins/ -G Ninja \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=../Letos \
-    -DWITH_PORTABLE=1 \
     -DWITH_DYNAMIC_PYTHON=1 \
     -DWITH_ALL_PLUGINS=1 \
     -DCUSTOM_SQLITE3="$SQLITE_DIR"

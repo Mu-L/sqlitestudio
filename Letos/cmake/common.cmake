@@ -99,10 +99,11 @@ function(letos_set_output_properties target)
         )
     endif()
 
-    if(WITH_PORTABLE)
+    if(WITH_UNIX_FAV)
         target_compile_definitions(${target} PUBLIC
-            PORTABLE_CONFIG
+            UNIX_FAV
         )
+    else()
         if(APPLE)
             set_target_properties(${target} PROPERTIES
                 INSTALL_RPATH "@loader_path"

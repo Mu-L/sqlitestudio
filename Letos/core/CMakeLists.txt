@@ -456,7 +456,10 @@ if(WIN32)
     endif()
 endif()
 
-if(SYS_PLUGINS_DIR)
+if(WITH_UNIX_FAV)
+    get_filename_component(BINDIR_ABSPATH "${CMAKE_INSTALL_BINDIR}" ABSOLUTE)
+    get_filename_component(PLUGINDIR_ABSPATH "${LETOS_INSTALL_PLUGINDIR}" ABSOLUTE)
+    file(RELATIVE_PATH SYS_PLUGINS_DIR "${BINDIR_ABSPATH}" "${PLUGINDIR_ABSPATH}")
     target_compile_definitions(coreLetos PRIVATE
         SYS_PLUGINS_DIR="${SYS_PLUGINS_DIR}"
     )

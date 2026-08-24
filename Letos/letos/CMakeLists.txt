@@ -82,7 +82,7 @@ install(
 
 if(UNIX AND NOT APPLE)
     file(GLOB ICONS "../gui/img/letos_[0-9]*.png")
-    if(WITH_PORTABLE)
+    if(NOT WITH_UNIX_FAV)
         install(
             FILES
             letos.desktop

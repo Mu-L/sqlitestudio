@@ -26,8 +26,15 @@ PluginManagerImpl::~PluginManagerImpl()
 
 void PluginManagerImpl::init()
 {
-    if (getDistributionType() != DistributionType::OS_MANAGED)
-        pluginDirs += qApp->applicationDirPath() + "/plugins";
+    QString appPath(QCoreApplication::applicationDirPath());
+
+#ifdef UNIX_FAV
+    // Sadly, QStandardPaths::standardLocations does not define something like
+    // LD_LIBRARY_PATH. We have to rely on build-time configuration.
+    pluginDirs += QDir::cleanPath(appPath + "/" SYS_PLUGINS_DIR);
+#else
+    pluginDirs += QDir::cleanPath(appPath + "/plugins");
+#endif
 
     pluginDirs += QDir(CFG->getConfigDir()).absoluteFilePath("plugins");
 
@@ -42,12 +49,8 @@ void PluginManagerImpl::init()
     pluginDirs += PLUGINS_DIR;
 #endif
 
-#ifdef SYS_PLUGINS_DIR
-    pluginDirs += SYS_PLUGINS_DIR;
-#endif
-
 #ifdef Q_OS_MACX
-    pluginDirs += QDir(QCoreApplication::applicationDirPath()+"/../PlugIns").absolutePath();
+    pluginDirs += QDir::cleanPath(appPath + "/../PlugIns");
 #endif
 
     scanPlugins();

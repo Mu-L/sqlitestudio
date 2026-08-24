@@ -292,6 +292,7 @@ enum class DistributionType
 };
 
 API_EXPORT DistributionType getDistributionType();
+API_EXPORT QStringList getAppDataLocation(const QString& orgName, const QString& appName);
 
 template <class T>
 QList<T> reverse(const QList<T>& list)

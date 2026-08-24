@@ -2,10 +2,12 @@
 #include "common/global.h"
 #include "dbobjecttype.h"
 #include "rsa/RSA.h"
+#include <QCoreApplication>
 #include <QJsonDocument>
 #include <QJsonValue>
 #include <QUuid>
 #include <QLine>
+#include <QStandardPaths>
 #include <QString>
 #include <QStringConverter>
 #include <QStringEncoder>
@@ -716,11 +718,23 @@ DistributionType getDistributionType()
 {
 #if defined(Q_OS_OSX)
     return DistributionType::OSX_BUNDLE;
-#elif defined(PORTABLE_CONFIG)
-    return DistributionType::PORTABLE;
-#else
+#elif defined(UNIX_FAV)
     return DistributionType::OS_MANAGED;
+#else
+    return DistributionType::PORTABLE;
 #endif
+}
+
+QStringList getAppDataLocation(const QString& orgName, const QString& appName)
+{
+    QString oldOrg = QCoreApplication::organizationName();
+    QString oldApp = QCoreApplication::applicationName();
+    QCoreApplication::setOrganizationName(orgName);
+    QCoreApplication::setApplicationName(appName);
+    QStringList dataPaths = QStandardPaths::standardLocations(QStandardPaths::AppDataLocation);
+    QCoreApplication::setOrganizationName(oldOrg);
+    QCoreApplication::setApplicationName(oldApp);
+    return dataPaths;
 }
 
 bool validateEmail(const QString& email)
